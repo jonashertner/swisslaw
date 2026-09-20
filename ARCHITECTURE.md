@@ -9,10 +9,12 @@ The descriptions below concern the checked-in source. A deployed copy also depen
 ```mermaid
 flowchart TD
     Person[Person] --> UI[Browser interface and tab memory]
+    UI --> Guide[Local typed decision tree]
+    Guide -->|Confirmed facts stay local| UI
     UI --> Model[Local model worker]
     Hosts[Public model hosts] -->|Preparation only| Model
     Model -->|Clarification or proposed terms| UI
-    UI -->|Person approves search terms| Research[Research worker]
+    UI -->|Person approves terms or article references| Research[Research worker]
     Research -->|Approved terms and public source IDs| MCP[OpenCaseLaw MCP]
     MCP -->|Candidate metadata and source passages| Research
     Research -->|Candidates through UI| Model
@@ -22,13 +24,16 @@ flowchart TD
     Checks -->|Answer, quotations and links or failure| UI
 ```
 
-The full conversation is passed to the local model worker. The research worker receives the approved query, then selected candidate IDs. It does not receive the conversation or model-generated advice.
+The full conversation is passed to the local model worker. The research worker receives either the approved query and selected candidate IDs, or a single allowlisted reference-recipe ID. The latter authorizes only fixed public article lookups, not private answers or a text search. It does not receive the conversation or model-generated advice.
 
 ## Main modules
 
 | Module | Responsibility |
 | --- | --- |
-| `components/swisslaw-chat.tsx` | Conversation state, query approval, worker orchestration, cancellation and display |
+| `components/swisslaw-chat.tsx` | Conversation state, query/reference approval, worker orchestration, cancellation and display |
+| `components/swisslaw-guide.tsx` | Local decision tree, reversible choices, focus and SVG/CSS motion |
+| `lib/swisslaw-chat/guide.ts` | Typed facts, closed public recipe identifiers and bounded answer scopes |
+| `lib/swisslaw-chat/prompt-budget.ts` | Reject measured prompts without sufficient output capacity |
 | `lib/swisslaw-chat/engine.worker.ts` | Model preparation and local planning, candidate selection and drafting |
 | `lib/swisslaw-chat/model-config.ts` | Pinned model and compiled-library URLs, integrity settings and context configuration |
 | `lib/swisslaw-chat/research.worker.ts` | Narrow message interface for research and candidate selection |
@@ -40,7 +45,7 @@ The full conversation is passed to the local model worker. The research worker r
 
 ## Local model lifecycle
 
-The default model is `Qwen3.5-2B-q4f16_1-MLC`; `Qwen3.5-4B-q4f16_1-MLC` is an optional choice before a conversation starts. Selecting a different model does not itself start a download. The selected model loads through WebLLM 0.2.85. The source pins each model repository revision and its compiled WebGPU library revision. The configured context window is 4,096 tokens; application limits are smaller and expressed in characters, so they are not an exact token budget.
+The default model is `Qwen3.5-2B-q4f16_1-MLC`; `Qwen3.5-4B-q4f16_1-MLC` is an optional choice before a conversation starts. Selecting a different model does not itself start a download. The selected model loads through WebLLM 0.2.85. The source pins each model repository revision and its compiled WebGPU library revision. The configured context window is 4,096 tokens; application character bounds are supplemented by a hidden one-token local probe using identical messages and grammar. Its public usage data measures prompt tokens. A full response proceeds only if the prompt, output allocation and a96-token margin fit. The probe adds local prefill work; its token is discarded and history reset. Complete provisions are never truncated to make them fit.
 
 Approximate initial downloads are 1.1 GB for 2B and 2.4 GB for 4B. Graphics-memory estimates are about 2.25 GB and 3.87 GB respectively; actual browser/runtime overhead varies. Choosing 4B increases resource requirements but does not establish better legal quality. The selected model stays fixed during the conversation; a model change requires starting a new conversation.
 
@@ -59,7 +64,7 @@ These are application-level controls around trusted runtime code. They are not a
 
 ## Search approval and MCP
 
-The interface displays an editable query and waits for an explicit search action. `safeQuery` normalises whitespace, permits 4–180 characters and at most 22 words, and rejects digits, obvious URL syntax, email-address punctuation and several other characters. It is a format filter, not a named-entity detector. Personal names and identifying descriptions can pass it.
+The free-text route displays an editable query and waits for an explicit search action. The guide instead lists fixed public article references and waits for an explanation request. Distinct reference sets can reveal some guided choices; the interface discloses this inference. `safeQuery` normalises whitespace, permits 4–180 characters and at most 22 words, and rejects digits, obvious URL syntax, email-address punctuation and several other characters. It is a format filter, not a named-entity detector. Personal names and identifying descriptions can pass it.
 
 The research worker connects directly to:
 
@@ -133,3 +138,12 @@ A successful build establishes that assets compile. A release still needs a real
 The model cache backend is explicitly CacheStorage. `model-cache.ts` enumerates existing `webllm/model`, `webllm/config` and `webllm/wasm` caches and deletes only request URLs under either configured pinned model revision or matching their exact compiled-library URLs. It includes partial/orphan shards and rechecks remaining entries before reporting success. It does not fetch a missing manifest or open new cache scopes. Unrelated entries remain.
 
 The UI terminates both workers before removal and guards against starting work while cleanup runs, including page-hide restoration. Another tab can later write model files again; removal is scoped to this site/profile’s application model caches, not HTTP cache, other profiles, clipboard, provider records or secure erasure. Failure is reported rather than claimed as successful deletion.
+
+
+## Guided reference recipes and current scope
+
+The first decision tree covers ordinary resignation by an employee. Confirmed private-law, indefinite employment uses OR335 with335b during probation,335c after probation, or both if probation is unknown. Fixed-term employment uses334 to explain expiry and ask about agreed early termination. Unknown term uses334/335 only for a conditional distinction, without choosing a notice period. Public/unknown employment regimes leave the private-law route. Other topics offer an unrestricted description; they are not implied to have equivalent curated coverage.
+
+Every required guided article must return substantive complete text, the expected SR/canton/language/article and a permitted public URL. Heading-only, missing, wrong or oversized provisions reject the whole set. The generic path preserves full act titles and SR/article identity and collapses translated duplicates. Its lexical ranking and local selection still have broader relevance limitations.
+
+Changing choices invalidates dependent choices. Reset/pagehide also remounts the guide. A free-text follow-up discards the prior recipe and requires new public-request approval. No Jev API, remote classifier or new paid inference service is connected.

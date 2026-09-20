@@ -4,10 +4,10 @@ Swisslaw is an experimental, free browser tool. The intended experience is usefu
 
 ## The person’s journey
 
-1. **Arrive.** One question box, no account. The interface follows a supported device language, with German fallback. No legal category or vocabulary is required. Avoid names and identifying details.
-2. **Start.** The selected model downloads only after Start. First use needs about 1.1 GB for 2B or 2.4 GB for 4B, a compatible WebGPU device and sufficient memory. Download progress and subsequent preparation have separate messages. Stop remains available. Returning visits may reuse the cache.
+1. **Arrive.** Everyday topic tiles, no account. The interface follows a supported device language, with German fallback. A branching SVG responds to focus and a short transition carries each next choice. Reduced motion removes animation. “Write in your own words” remains available. No legal vocabulary is required to enter.
+2. **Choose or write.** The guided choices are local and instantaneous. The first complete route asks about ordinary employee resignation; back and editable breadcrumbs clear dependent choices. Public/unknown employment regime and other topics continue in free text. The selected model downloads only after Start or an explicit request for a local explanation. First use needs about 1.1 GB for 2B or 2.4 GB for 4B, a compatible WebGPU device and sufficient memory. Download progress and subsequent preparation have separate messages. Stop remains available. Returning visits may reuse the cache.
 3. **Explain.** Write what happened, including informal wording or typos. The local model proposes research or an authored clarification. A second clarification uses different wording; continued ambiguity preserves the conversation and invites another description. These controls do not guarantee that the model understands correctly.
-4. **Approve.** Review the exact proposed terms before Search OpenCaseLaw. This approves disclosure, not legal relevance or guaranteed anonymity. The full conversation is not passed to the research worker. A person can add a detail below instead of editing unfamiliar legal words.
+4. **Approve.** Review the proposed terms before Search OpenCaseLaw, or inspect the listed article references before requesting a guided explanation. This approves disclosure, not legal relevance or guaranteed anonymity. The full conversation is not passed to the research worker. A person can add a detail below instead of editing unfamiliar legal words.
 5. **Read.** A short response, practical steps, uncertainty and expandable original source passages appear when the model provides a structurally valid answer. Otherwise the interface explains the limitation and may show retrieved sources. Real citations can still accompany an incorrect interpretation.
 6. **Continue.** Add a detail or follow-up; a new search again requires approval. Stop cancels active work. Technical generation errors allow retry. An unsuccessful search invites more ordinary-language detail. The conversation has a bounded context; Start again begins a fresh question.
 7. **Keep an answer if wanted.** Copy answer includes source links and the guidance caveat. The clipboard is outside Swisslaw’s clearing controls.
@@ -16,9 +16,9 @@ Swisslaw is an experimental, free browser tool. The intended experience is usefu
 
 ## Explain privacy without requiring technical knowledge
 
-> Your conversation stays in this tab, and the AI runs on your device. You approve search terms before they are sent to OpenCaseLaw.
+> Your conversation stays in this tab. You approve search terms or public article references before they are sent to OpenCaseLaw.
 
-The folded explanation identifies website/model-host connection information, approved search terms, selected public source identifiers and OpenCaseLaw’s own retention and possible external-AI processing. The exact model, WebLLM version, model hosts, direct MCP endpoint/protocol and tool names are available in the technical disclosure. Local processing reduces exposure; it does not promise absolute security or anonymity.
+Article requests may reveal the topic and some selected facts. The folded explanation identifies website/model-host connection information, approved search terms, selected public source identifiers and OpenCaseLaw’s own retention and possible external-AI processing. The exact model, WebLLM version, model hosts, direct MCP endpoint/protocol and tool names are available in the technical disclosure. Local processing reduces exposure; it does not promise absolute security or anonymity.
 
 ## Current verification and launch gaps
 
@@ -39,3 +39,10 @@ Before a public launch:
 ## Hosting choice
 
 Quick Tunnels can share a disposable local build for temporary real-device testing. They are public, temporary development endpoints, not the production deployment strategy. A stable HTTPS static origin is a better fit for reliable access and reuse of browser model caches. No tunnel is required for local inference or the direct OpenCaseLaw connection.
+
+
+## Guided-route verification update
+
+Direct live MCP lookups now retrieve OR335/335c for the confirmed ordinary-resignation scenario, rather than PHV35. The source identity/metadata and retrieval-routing defect has a concrete repair. This does not establish local-model interpretation quality: initial2B trials and the complete ordinary-UI4B run still withheld an answer despite retrieving the relevant complete provisions. A discarded shorter-prompt experiment copied template placeholders and cut its uncertainty sentence; that prompt was not integrated. Do not count it as a successful legal answer. Broader release gates remain in force.
+
+The guided entry was checked in all five interface languages at a measured320CSS-pixel width with no horizontal overflow. Source identity and typed recipe controls pass32 standalone tests. These results are interface/control verification, not legal validation.

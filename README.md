@@ -1,8 +1,8 @@
 # Swisslaw
 
-An experimental browser tool for understanding Swiss legal questions. Describe your situation, clarify missing facts, review the search terms, and explore a short answer with linked legal sources.
+An experimental browser tool for understanding Swiss legal questions. Choose an everyday topic or describe your situation, clarify missing facts, approve a public-source request, and explore guidance with linked legal sources.
 
-The language model runs on your device. Public-source searches go directly to [OpenCaseLaw](https://opencaselaw.ch/) after you approve the terms. No account, application backend or API key is required.
+The language model runs on your device. Public-source searches go directly to [OpenCaseLaw](https://opencaselaw.ch/) after you approve the terms or specific article references. No account, application backend or API key is required.
 
 **Research preview:** answers can be wrong or incomplete. Accurate quotations do not establish correct legal reasoning. This is not a lawyer; do not use it to calculate deadlines or handle emergencies.
 
@@ -42,10 +42,10 @@ Both run through **WebLLM 0.2.85** and WebGPU. A compatible browser/GPU with `sh
 
 ## How it works
 
-1. The local model asks for missing facts or proposes search terms.
-2. You review and edit the terms before searching.
-3. The browser retrieves a small set of statutes and judgment passages through OpenCaseLaw MCP.
-4. The model drafts a response locally. The app checks its structure and resolves citations to retrieved passages, or reports insufficient sources or a technical failure.
+1. Topic choices and the first employment decision path run instantly as local rules, without a model download. Free text remains available.
+2. The guided ordinary-resignation path confirms the employment regime, contract term and, when relevant, probation. Other situations continue through open research.
+3. Approve the listed article references or editable search terms before anything is sent to OpenCaseLaw. The download is disclosed before requesting a local explanation.
+4. Guided references retrieve complete provisions directly; open research uses local candidate selection. The model then drafts a response with passage IDs. Structural and citation checks can withhold an answer, but do not prove legal correctness.
 
 The interface offers German, French, Italian, Romansh and English. Translations and model language ability, especially Romansh, need independent review. Questions can concern any Swiss-law topic, but source coverage, relevance, current law and historical applicability are not guaranteed. There are no document uploads, saved knowledge spaces, email intake or human review.
 
@@ -55,7 +55,7 @@ The application holds the conversation in the current tab. **Start again** clear
 
 Model hosts receive download requests and connection information. OpenCaseLaw receives the approved terms, public source identifiers and connection information; it retains search terms and may use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
 
-Query filters are **not guaranteed anonymisation**. Review proposed terms for names or identifying facts before approving them.
+Requested article sets can reveal the legal issue and some guided choices even though the full answers are not transmitted. Query filters are **not guaranteed anonymisation**. Review proposed terms for names or identifying facts before approving them.
 
 ## Project information
 
