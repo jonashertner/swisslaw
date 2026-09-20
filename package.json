@@ -1,0 +1,39 @@
+{
+  "name": "swisslaw",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Open-source Swiss legal research with on-device inference and reviewed OpenCaseLaw searches.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonashertner/swisslaw.git"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build && node scripts/headers.mjs && node scripts/check-browser-workers.mjs dist/assets",
+    "preview": "node scripts/preview.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "verify": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "@mlc-ai/web-llm": "0.2.85",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "lucide-react": "1.31.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "vite": "8.2.2",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "tsx": "4.23.13",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}
