@@ -13,7 +13,7 @@ Test a small local encoder that ranks authored descriptions of practical situati
 1. The person describes the situation in ordinary language.
 2. Local interpretation returns a shortlist of existing intent IDs, a clarification ID or unknown. Distinguish topic, actor and desired action; do not infer decisive facts from the topic alone.
 3. A short translated confirmation or question appears. For ambiguous “ich will künden”: “Geht es um Ihre Arbeit, Ihre Wohnung oder etwas anderes?” Always allow correction and free text. Unknown never means not a legal question.
-4. A confirmed common intent supplies reviewed, neutral search templates. The person still approves the exact outgoing terms. No raw question goes to a remote classifier.
+4. A confirmed common intent supplies reviewed, neutral search templates. The outgoing request is displayed; the latest UX removes the approval screen and enforces a canonical-vocabulary projection before automatic search. No raw question goes to a remote classifier.
 5. OpenCaseLaw supplies public materials; local source selection and drafting remain separately evaluated. Correct intake cannot certify source applicability or the legal answer.
 
 ## Candidate and comparator

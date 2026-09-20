@@ -1,3 +1,6 @@
+import { publicLegalQuery } from './public-query';
+import { practicalTopic, provisionHash, type PracticalTopic } from './practical';
+import { PRACTICAL_REFERENCES } from './practical-manifest';
 import { parseRpc, MCP_ENDPOINT, MCP_PROTOCOL } from './mcp';
 import { safeQuery, safeSourceUrl, type Source } from './policy';
 import { REFERENCE_RECIPES, recipeId, type RecipeId } from './guide';
@@ -31,7 +34,7 @@ async function connection(fetcher: typeof fetch) {
 }
 
 export async function researchSources(approvedQuery: string, fetcher: typeof fetch = fetch, select: (candidates: Candidate[]) => Promise<string[]> = async candidates => candidates.slice(0, 3).map(c => c.id)): Promise<Source[]> {
-  const query = safeQuery(approvedQuery);
+  const query = publicLegalQuery(safeQuery(approvedQuery));
   const tool = await connection(fetcher);
   const laws = await tool('search_laws', { query, limit: 8 });
   const candidates: Candidate[] = []; const originals = new Map<string, RecordValue>(); const seenArticles = new Set<string>();
@@ -102,6 +105,23 @@ export async function researchReferences(value: RecipeId, fetcher: typeof fetch 
     const body = [matches[0].heading, matches[0].text].filter(v => typeof v === 'string' && v).join('\n');
     if (body.length < 30 || body.length > 1800) throw new Error('INVALID_SOURCES');
     sources.push({ id: `S${sources.length + 1}`, kind: 'law', title: lawTitle(law, '220', article), text: body, jurisdiction: 'CH', language: 'de', date: string(law.consolidation_date ?? law.version_active_since, 30), url });
+  }
+  return sources;
+}
+
+/** Fixed public references, validated as a whole before an authored guide may be shown. */
+export async function researchPractical(value: PracticalTopic, fetcher: typeof fetch = fetch): Promise<Source[]> {
+  const references = PRACTICAL_REFERENCES[practicalTopic(value)];
+  const tool = await connection(fetcher);
+  const sources: Source[] = [];
+  for (const ref of references) {
+    const law = await tool('get_law', { sr_number: ref.sr, article: ref.article, canton: 'CH', language: 'de' });
+    if (law.sr_number !== ref.sr || law.canton !== 'CH' || law.language !== 'de' || law.source_url !== ref.url || !string(law.title, 260)) throw new Error('INVALID_SOURCES');
+    const matches = Array.isArray(law.articles) ? law.articles.map(record).filter(a => a.article_num === ref.article && [undefined, null, '', 'main'].includes(a.section as string)) : [];
+    if (matches.length !== 1 || typeof matches[0].text !== 'string' || matches[0].text.trim().length < 18 || matches[0].text_status && matches[0].text_status !== 'ok') throw new Error('INVALID_SOURCES');
+    const body = [matches[0].heading, matches[0].text].filter(v => typeof v === 'string' && v).join('\n');
+    if (body.length > 5000 || await provisionHash(body) !== ref.sha256) throw new Error('INVALID_SOURCES');
+    sources.push({ id: `${ref.sr}:${ref.article}`, kind: 'law', title: ref.label, text: body, jurisdiction: 'CH', language: 'de', date: string(law.consolidation_date ?? law.version_active_since, 30), url: ref.url });
   }
   return sources;
 }

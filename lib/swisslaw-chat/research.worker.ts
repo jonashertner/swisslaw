@@ -1,4 +1,4 @@
-import { researchSources, researchReferences, type Candidate } from './research';
+import { researchSources, researchReferences, researchPractical, type Candidate } from './research';
 import { checkedResearchJob } from './guide';
 let busy = false; let choose: ((ids: string[]) => void) | null = null;
 self.onmessage = async event => {
@@ -10,6 +10,6 @@ self.onmessage = async event => {
   try {
     const job = checkedResearchJob(event.data);
     const select = (candidates: Candidate[]) => new Promise<string[]>(resolve => { choose = resolve; postMessage({ type: 'candidates', candidates }); });
-    postMessage({ type: 'sources', sources: 'recipe' in job ? await researchReferences(job.recipe, fetch) : await researchSources(job.query, fetch, select) });
+    postMessage({ type: 'sources', sources: 'practical' in job ? await researchPractical(job.practical, fetch) : 'recipe' in job ? await researchReferences(job.recipe, fetch) : await researchSources(job.query, fetch, select) });
   } catch { postMessage({ type: 'error' }); }
 };

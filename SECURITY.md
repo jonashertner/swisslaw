@@ -14,8 +14,8 @@ There is no promised response time or maintained-version support window at this 
 
 ## Controls currently implemented
 
-- The conversation is processed by a local model worker; the source-research worker receives only the approved query and candidate selections.
-- The user reviews search terms before an OpenCaseLaw request. Format checks reject some obvious identifiers, but are not guaranteed anonymisation.
+- The conversation is processed by a local model worker; the source-research worker receives only canonical public legal terms or fixed recipe IDs, plus candidate selections.
+- Automatic query projection uses only a shipped dictionary of legal words and repeats validation inside the research worker. The UI shows the query without requiring approval. This is not guaranteed anonymisation.
 - Model preparation uses pinned asset revisions. The model worker closes its fetch path after preparation and disables several other network APIs.
 - Research uses a fixed endpoint and four allowed MCP tools, bounded responses and validated source identifiers.
 - Model-selected citations resolve to actual retrieved passages. Source content is rendered as text, and links must match an HTTPS host allowlist.
@@ -26,7 +26,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the precise boundaries and limitation
 
 ## Risks that remain
 
-A genuine quotation can accompany wrong legal reasoning. Retrieved source text can contain adversarial instructions; treating it as data and restricting output reduces exposure but does not prove immunity to prompt injection. The local model can also include identifying information in a proposed search, which is why user review remains necessary.
+A genuine quotation can accompany wrong legal reasoning. Retrieved source text can contain adversarial instructions; treating it as data and restricting output reduces exposure but does not prove immunity to prompt injection. A local model can propose identifying information; the automatic query boundary discards non-vocabulary text and never falls back to the raw question. A legal word can coincidentally be a name, and selected topics can themselves be sensitive.
 
 Application-level worker restrictions do not protect against a malicious dependency, altered deployment, browser extension, operating-system access or a compromised device. Model-host and OpenCaseLaw requests reveal connection information. Model configuration/library integrity checks are narrower than a complete supply-chain verification of every downloaded asset. Licence provenance for the exact converted model and compiled artifact is also unresolved; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 

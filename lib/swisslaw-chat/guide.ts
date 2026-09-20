@@ -1,3 +1,4 @@
+import { practicalTopic, type PracticalTopic } from './practical';
 // The guide supplies facts; it does not predict the law from a keyword.
 export type GuideFacts = {
   regime: 'private' | 'public' | 'unknown';
@@ -42,9 +43,10 @@ export function recipeScope(value: RecipeId): string {
   if (id === 'employee-notice') return common + 'Confirmed indefinite private-law contract after probation: explain the Art.335c statutory defaults as conditional on service length and differing applicable terms. Its paragraph3 concerns employer dismissal, not this employee resignation. Ask the user to check contract terms and service length.';
   return common + 'Probation is unknown. Explain that different notice rules apply during and after probation, and ask the user to establish probation status from the contract. Do not pick one period as applicable.';
 }
-export type ResearchJob = { query: string } | { recipe: RecipeId };
+export type ResearchJob = { query: string } | { recipe: RecipeId } | { practical: PracticalTopic };
 export function checkedResearchJob(value: unknown): ResearchJob {
   if (!value || typeof value !== 'object' || Object.keys(value).length !== 1) throw new Error('INVALID_SOURCES');
+  if (Object.hasOwn(value, 'practical') && 'practical' in value) return { practical: practicalTopic(value.practical) };
   if (Object.hasOwn(value, 'recipe') && 'recipe' in value) return { recipe: recipeId(value.recipe) };
   if (Object.hasOwn(value, 'query') && 'query' in value && typeof value.query === 'string') return { query: value.query };
   throw new Error('INVALID_SOURCES');

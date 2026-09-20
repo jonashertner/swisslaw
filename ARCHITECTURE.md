@@ -62,9 +62,9 @@ All three structured-output grammar paths are prepared with fictional input, the
 
 These are application-level controls around trusted runtime code. They are not an operating-system sandbox against a malicious dependency, browser extension, modified site or compromised device. No fallback sends the question to a remote inference service.
 
-## Search approval and MCP
+## Automatic public-term projection and MCP
 
-The free-text route displays an editable query and waits for an explicit search action. The guide instead lists fixed public article references and waits for an explanation request. Distinct reference sets can reveal some guided choices; the interface discloses this inference. `safeQuery` normalises whitespace, permits 4–180 characters and at most 22 words, and rejects digits, obvious URL syntax, email-address punctuation and several other characters. It is a format filter, not a named-entity detector. Personal names and identifying descriptions can pass it.
+The free-text planner runs locally. `publicLegalQuery` extracts only exact legal words from an authored dictionary, removes email/URL spans, orders and deduplicates canonical terms and caps the query at five terms. It is repeated inside the research boundary before any network request. No legal term means local clarification, not transmission of the raw question. The source request is displayed without a separate approval screen. This limits direct identifier leakage but cannot prove anonymity or correct intent. `safeQuery` additionally enforces length/character bounds. Fixed article guides bypass text search.
 
 The research worker connects directly to:
 
@@ -78,7 +78,7 @@ The application has four fixed tools:
 
 | Tool | Purpose |
 | --- | --- |
-| `search_laws` | Up to eight statute candidates for the approved terms |
+| `search_laws` | Up to eight statute candidates for the canonical legal terms |
 | `search_decisions` | Up to three judgment candidates with pinpoint references |
 | `get_law` | The selected public statute article |
 | `get_erwaegung` | The selected numbered judgment passage |
@@ -111,7 +111,7 @@ When the model reports insufficient evidence, the UI displays an authored messag
 
 ## State, cancellation and external recipients
 
-Conversation state is held in JavaScript memory in the current tab. There is no application account, conversation database, document store or knowledge base. The current context allows up to ten turns and 3,000 conversation characters; an individual input is capped at 1,200 characters. Follow-ups perform fresh source retrieval after query approval rather than silently reusing an earlier source set.
+Conversation state is held in JavaScript memory in the current tab. There is no application account, conversation database, document store or knowledge base. The current context allows up to ten turns and 3,000 conversation characters; an individual input is capped at 1,200 characters. Follow-ups perform fresh source retrieval using newly projected public terms rather than silently reusing an earlier source set.
 
 Start again clears application state and terminates both workers. Page-hide handling also clears the session. Stop cancels active work while retaining the displayed conversation for the user. Public model assets may remain in browser-managed caches. Clearing application state is not secure erasure of all device traces.
 
@@ -121,11 +121,11 @@ Start again clears application state and terminates both workers. Page-hide hand
 | Browser tab and local model worker | The entered conversation and retrieved sources |
 | Hugging Face / model delivery infrastructure | Model downloads and connection information |
 | GitHub / compiled-library delivery infrastructure | Library download and connection information |
-| OpenCaseLaw | Approved search terms, public source identifiers, protocol metadata and connection information |
+| OpenCaseLaw | Canonical legal terms, public source identifiers, protocol metadata and connection information |
 | Linked source website | A visit if the person opens a source |
 | Device clipboard | The answer and source links if the person chooses to copy |
 
-OpenCaseLaw has its own [privacy policy](https://opencaselaw.ch/datenschutz/), including search retention and potential external AI processing. Self-hosting Swisslaw does not make those external searches private or offline. The central privacy boundary is the user's review of the exact outgoing search terms, together with the separation of the full conversation from the research worker.
+OpenCaseLaw has its own [privacy policy](https://opencaselaw.ch/datenschutz/), including search retention and potential external AI processing. Self-hosting Swisslaw does not make those external searches private or offline. The central privacy boundary is projection into public vocabulary or fixed article IDs, validated again in the research worker, together with separation of the full conversation from that worker.
 
 ## Static deployment
 
@@ -146,4 +146,12 @@ The first decision tree covers ordinary resignation by an employee. Confirmed pr
 
 Every required guided article must return substantive complete text, the expected SR/canton/language/article and a permitted public URL. Heading-only, missing, wrong or oversized provisions reject the whole set. The generic path preserves full act titles and SR/article identity and collapses translated duplicates. Its lexical ranking and local selection still have broader relevance limitations.
 
-Changing choices invalidates dependent choices. Reset/pagehide also remounts the guide. A free-text follow-up discards the prior recipe and requires new public-request approval. No Jev API, remote classifier or new paid inference service is connected.
+Changing choices invalidates dependent choices. Reset/pagehide also remounts the guide. A free-text follow-up discards the prior recipe and uses a new automatic public-source request. No Jev API, remote classifier or new paid inference service is connected.
+
+## Prepared practical guidance
+
+`practical.ts` suggests common topics from local wording but never establishes legal facts. The person confirms the topic and optional facts. `practical-content.ts` supplies conditional guidance; `practical-manifest.ts` binds each route to a complete set of public provisions checked on 2026-09-20. Overtime uses OR321c and ArG9/12/13; marriage preparation uses ZGB97/98/99/100 and ZStV62. Reference text is German; all five interface languages have prepared prose. Public/self-employed/employer and non-Swiss-wedding branches do not turn ordinary private employment or Swiss marriage procedure into an unconditional personal conclusion.
+
+`researchPractical` accepts only a fixed topic ID, retrieves each whole provision and validates SR, article, canton, language, official URL and SHA-256 of NFC/whitespace-normalized full text. A missing, changed, truncated or heading-only provision rejects the complete guide. This certifies a match to the shipped text, not current-law completeness, interpretation or applicability. Practical suggestions are separated from the collapsed legal explanation and full provisions. Prepared guides have no model dependency and no WebGPU requirement. They are visibly labelled as prepared, not model-generated.
+
+The component invalidates active work on change, stop, clear, pagehide and unmount. It only publishes responses for the current worker and revision. All entered facts remain in page memory; no knowledge base or question telemetry is introduced. General model source-selection and substantive quality remain unresolved outside these bounded guides.
