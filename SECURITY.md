@@ -31,3 +31,7 @@ A genuine quotation can accompany wrong legal reasoning. Retrieved source text c
 Application-level worker restrictions do not protect against a malicious dependency, altered deployment, browser extension, operating-system access or a compromised device. Model-host and OpenCaseLaw requests reveal connection information. Model configuration/library integrity checks are narrower than a complete supply-chain verification of every downloaded asset. Licence provenance for the exact converted model and compiled artifact is also unresolved; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Conversation clearing is not secure erasure. Cached public model files, clipboard content and device-managed storage follow browser and operating-system behaviour. Use synthetic input when developing, testing or reporting problems.
+
+## Live suggestions
+
+The optional intake encoder receives a draft only after verified public model/runtime preparation and network closure. It uses no hosted classifier and makes no research request while typing. The page never sends draft text to its asset loader: the worker first receives only `load`, then receives `classify` after `ready`. Public model bytes use a dedicated removable CacheStorage namespace; native fetch uses `no-store` to avoid another HTTP-cache copy. Exact application and deployment limits are documented in [LIVE_SUGGESTIONS.md](LIVE_SUGGESTIONS.md).

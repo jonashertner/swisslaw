@@ -4,8 +4,8 @@ import vm from 'node:vm';
 import { resolve } from 'node:path';
 
 const directory = resolve(process.argv[2] ?? 'dist/client/_next/static/workers');
-const files = (await readdir(directory)).filter(name => /^(engine|research)\.worker-.*\.js$/.test(name));
-assert.equal(files.length, 2, 'Expected exactly one inference and one research worker');
+const files = (await readdir(directory)).filter(name => /^(engine|research|intake)\.worker-.*\.js$/.test(name));
+assert.equal(files.length, 3, 'Expected inference, research and intake workers');
 for (const file of files) {
   let requests = 0;
   const context = {

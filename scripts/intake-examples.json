@@ -1,0 +1,38 @@
+{
+  "work": {
+    "de": ["Ich werde bei der Arbeit schlecht bezahlt und bekomme keine Lohnabrechnung.", "Ich möchte meine Stelle wechseln und weiss nicht, wann ich gehen darf.", "Meine Chefin hat mir nach meiner Krankheit gekündigt.", "Ich arbeite oft bis spät und kann meine Ferien nicht beziehen."],
+    "fr": ["Je travaille depuis deux mois mais mon employeur ne verse pas mon salaire.", "Je souhaite changer d'emploi et quitter mon poste actuel.", "Mon employeur m'a licenciée pendant un arrêt maladie.", "On me fait travailler le soir sans payer ces heures et on refuse mes congés."],
+    "it": ["L'azienda per cui lavoro non mi versa lo stipendio.", "Vorrei cambiare lavoro ma non so quando posso lasciare il mio posto.", "Il mio datore di lavoro mi ha licenziato mentre ero malato.", "Devo lavorare anche di sera senza compenso e mi negano le ferie."],
+    "en": ["The company I work for has not paid my wages for weeks.", "I want to take another job but do not know when I can leave my current employer.", "My employer dismissed me while I was on sick leave.", "I keep working extra evenings without pay and cannot take my holidays."]
+  },
+  "home": {
+    "de": ["Ich habe einen Brief bekommen: Meine Miete soll steigen.", "Der Eigentümer kümmert sich nicht um die kaputten Fenster in meiner Mietwohnung.", "Ich ziehe um und möchte meinen Mietvertrag beenden.", "Nach dem Auszug behält der Vermieter die Kaution."],
+    "fr": ["Mon propriétaire m'annonce une hausse de loyer.", "Les fenêtres de mon appartement loué sont cassées et personne ne vient les réparer.", "Je déménage et je souhaite résilier mon bail.", "Après mon départ, le propriétaire garde ma garantie de loyer."],
+    "it": ["Il proprietario mi ha comunicato un aumento dell'affitto.", "Le finestre dell'appartamento che affitto sono rotte e nessuno le ripara.", "Sto per traslocare e voglio disdire il contratto di locazione.", "Dopo il trasloco il locatore non mi restituisce il deposito."],
+    "en": ["My landlord sent a notice increasing the rent.", "The windows of the flat I rent are broken and nobody will repair them.", "I am moving out and want to end my rental agreement.", "After I moved out my landlord kept the deposit."]
+  },
+  "family": {
+    "de": ["Meine Partnerin und ich möchten auf dem Zivilstandsamt heiraten.", "Wir trennen uns und streiten darüber, bei wem die Kinder wohnen.", "Nach unserer Scheidung zahlt mein früherer Partner keinen Unterhalt.", "Mein Vater ist gestorben und ich weiss nicht, wer sein Geld erbt."],
+    "fr": ["Mon partenaire et moi souhaitons nous marier à l'état civil.", "Nous nous séparons et ne savons pas chez qui les enfants vont vivre.", "Après le divorce mon ancien conjoint ne paie pas la pension alimentaire.", "Mon père est décédé et je ne sais pas qui hérite de ses biens."],
+    "it": ["Io e il mio partner vogliamo celebrare il matrimonio civile.", "Ci stiamo separando e non sappiamo con chi vivranno i bambini.", "Dopo il divorzio il mio ex coniuge non versa il mantenimento.", "Mio padre è morto e non so chi eredita i suoi beni."],
+    "en": ["My partner and I want to get married at the civil registry.", "We are separating and disagree about where our children will live.", "After the divorce my former spouse stopped paying maintenance.", "My father died and I do not know who inherits his belongings."]
+  },
+  "money": {
+    "de": ["Ich habe Schulden und ein Brief vom Betreibungsamt ist gekommen.", "Eine Versicherung will meinen Schaden nicht bezahlen.", "Ich kann die Raten meines Kredits nicht mehr bezahlen.", "Ich verstehe die Steuerrechnung nicht und möchte Einsprache erheben."],
+    "fr": ["J'ai des dettes et je reçois une lettre de l'office des poursuites.", "Mon assurance refuse de payer le dommage.", "Je ne peux plus rembourser les mensualités de mon prêt.", "Je ne comprends pas ma facture d'impôts et souhaite la contester."],
+    "it": ["Ho debiti e ho ricevuto una lettera dall'ufficio esecuzioni.", "La mia assicurazione rifiuta di pagare il danno.", "Non riesco più a rimborsare le rate del mio prestito.", "Non capisco la decisione sulle mie imposte e vorrei contestarla."],
+    "en": ["I am in debt and received a letter from the debt collection office.", "My insurance company refuses to pay for the damage.", "I can no longer afford the instalments on my loan.", "I do not understand my tax bill and want to challenge it."]
+  },
+  "purchases": {
+    "de": ["Das Gerät, das ich gestern gekauft habe, ist bereits defekt.", "Ich habe etwas online bestellt, aber das Paket kommt nicht.", "Ich will mein Fitnessabo beenden, es hat sich automatisch verlängert.", "Ich möchte den Kauf rückgängig machen und mein Geld zurückbekommen."],
+    "fr": ["L'appareil que j'ai acheté hier ne fonctionne déjà plus.", "J'ai commandé un article en ligne mais le colis n'arrive pas.", "Mon abonnement à la salle de sport s'est renouvelé et je veux le résilier.", "Je veux annuler un achat et obtenir un remboursement."],
+    "it": ["L'apparecchio che ho comprato ieri è già guasto.", "Ho ordinato un articolo online ma il pacco non arriva.", "Il mio abbonamento in palestra si è rinnovato e voglio disdirlo.", "Voglio annullare un acquisto e farmi restituire i soldi."],
+    "en": ["The appliance I bought yesterday is already broken.", "I ordered an item online but the parcel never arrived.", "My gym subscription renewed automatically and I want to cancel it.", "I want to cancel a purchase and get my money back."]
+  },
+  "other": {
+    "de": ["Die Polizei will mich als beschuldigte Person befragen.", "Das Migrationsamt will mir keine neue Aufenthaltsbewilligung geben.", "Ich möchte einen Verein gründen oder eine Firma eintragen lassen.", "Wie wird das Wetter und was soll ich heute kochen?"],
+    "fr": ["La police veut m'interroger comme prévenu.", "Le service des migrations refuse de renouveler mon permis de séjour.", "Je veux créer une association ou enregistrer une entreprise.", "Quel temps fera-t-il et que cuisiner ce soir ?"],
+    "it": ["La polizia vuole interrogarmi come imputato.", "L'ufficio della migrazione non vuole rinnovare il mio permesso di soggiorno.", "Voglio costituire un'associazione o registrare un'impresa.", "Che tempo farà e cosa posso cucinare stasera?"],
+    "en": ["The police want to question me as a suspect.", "The immigration office refuses to renew my residence permit.", "I want to found an association or register a company.", "What will the weather be and what should I cook tonight?"]
+  }
+}

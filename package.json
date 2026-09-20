@@ -22,19 +22,23 @@
     "check:sources": "tsx scripts/check-prepared-sources.ts"
   },
   "dependencies": {
+    "@huggingface/transformers": "3.8.1",
     "@mlc-ai/web-llm": "0.2.85",
+    "lucide-react": "1.31.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "lucide-react": "1.31.0",
     "zod": "4.3.6"
   },
   "devDependencies": {
-    "vite": "8.2.2",
-    "@vitejs/plugin-react": "6.0.2",
-    "typescript": "5.9.3",
-    "tsx": "4.23.13",
     "@types/node": "22.19.19",
     "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3"
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "tsx": "4.23.13",
+    "typescript": "5.9.3",
+    "vite": "8.2.2"
+  },
+  "overrides": {
+    "sharp": "0.35.4"
   }
 }

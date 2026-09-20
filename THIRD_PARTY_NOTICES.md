@@ -13,6 +13,15 @@ This is a source repository. It does not include model weights, the compiled mod
 | `react-dom` | 19.2.8 | MIT | [facebook/react](https://github.com/facebook/react) |
 | `lucide-react` | 1.31.0 | ISC | [lucide-icons/lucide](https://github.com/lucide-icons/lucide) |
 | `zod` | 4.3.6 | MIT | [colinhacks/zod](https://github.com/colinhacks/zod) |
+| `@huggingface/transformers` | 3.8.1 | Apache-2.0 | [huggingface/transformers.js](https://github.com/huggingface/transformers.js) |
+
+Live suggestions use ONNX Runtime Web `1.22.0-dev.20250409-89f8206ba4` (MIT). Its runtime module and WASM are bundled with the application from the locked npm package and checked against the hashes in `lib/swisslaw-chat/intake-model.json`. Preserve ONNX Runtime's supplied notices when distributing builds.
+
+## Local topic model
+
+The browser downloads `Xenova/multilingual-e5-small`, quantised q8 ONNX, from revision `761b726dd34fb83930e26aab4e9ac3899aa1fa78`. All five model/tokenizer artifacts have exact byte sizes and SHA-256 checks in `intake-model.json`. They are downloaded from the pinned public host, not included in this source repository. The conversion points to `intfloat/multilingual-e5-small`; its upstream model card at revision `614241f622f53c4eeff9890bdc4f31cfecc418b3` declares MIT. The conversion card does not supply an additional explicit licence declaration. This records the available provenance, not an independent inventory of every training source or component.
+
+The 132 public fictional topic/example vectors are generated using that exact model. They contain no user conversations or practice material. Reproduce them with `node scripts/build-intake-catalogue.mjs`; model artifacts are verified against the existing manifest before use. Sources: [upstream model](https://huggingface.co/intfloat/multilingual-e5-small/tree/614241f622f53c4eeff9890bdc4f31cfecc418b3), [ONNX conversion](https://huggingface.co/Xenova/multilingual-e5-small/tree/761b726dd34fb83930e26aab4e9ac3899aa1fa78).
 
 Build/test tools include Vite, its React plugin and tsx under MIT, TypeScript under Apache-2.0, and TypeScript definition packages under their respective package licences. The lockfile records the installed graph; the table above is not an exhaustive inventory of transitive dependencies. Refer to each installed package's licence and notice files before redistributing compiled output.
 

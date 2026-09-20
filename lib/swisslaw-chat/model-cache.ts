@@ -1,4 +1,5 @@
 import { MODEL_OPTIONS } from './model-config';
+import { INTAKE_CACHE } from './intake';
 
 const SCOPES = ['webllm/model', 'webllm/config', 'webllm/wasm'] as const;
 export function isModelCacheUrl(url: string): boolean {
@@ -11,6 +12,11 @@ export function isModelCacheUrl(url: string): boolean {
 export async function removeModelCache(storage: CacheStorage): Promise<number> {
   let removed = 0;
   const names = await storage.keys();
+  if (names.includes(INTAKE_CACHE)) {
+    const intake = await storage.open(INTAKE_CACHE);
+    removed += (await intake.keys()).length;
+    if (!await storage.delete(INTAKE_CACHE)) throw new Error('CACHE_REMOVE_FAILED');
+  }
   for (const name of SCOPES) {
     if (!names.includes(name)) continue;
     const cache = await storage.open(name);
@@ -25,5 +31,6 @@ export async function removeModelCache(storage: CacheStorage): Promise<number> {
     if (!SCOPES.includes(name as typeof SCOPES[number])) continue;
     if ((await (await storage.open(name)).keys()).some(request => isModelCacheUrl(request.url))) throw new Error('CACHE_REMOVE_FAILED');
   }
+  if ((await storage.keys()).includes(INTAKE_CACHE)) throw new Error('CACHE_REMOVE_FAILED');
   return removed;
 }

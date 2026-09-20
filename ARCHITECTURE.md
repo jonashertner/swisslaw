@@ -113,7 +113,7 @@ When the model reports insufficient evidence, the UI displays an authored messag
 
 Conversation state is held in JavaScript memory in the current tab. There is no application account, conversation database, document store or knowledge base. The current context allows up to ten turns and 3,000 conversation characters; an individual input is capped at 1,200 characters. Follow-ups perform fresh source retrieval using newly projected public terms rather than silently reusing an earlier source set.
 
-Start again clears application state and terminates both workers. Page-hide handling also clears the session. Stop cancels active work while retaining the displayed conversation for the user. Public model assets may remain in browser-managed caches. Clearing application state is not secure erasure of all device traces.
+Start again clears application state and terminates the inference, research and intake workers. Page-hide handling also clears the session. Stop cancels active work while retaining the displayed conversation for the user. Public model assets may remain in browser-managed caches. Clearing application state is not secure erasure of all device traces.
 
 | Recipient or location | Data it can receive |
 | --- | --- |
@@ -137,7 +137,7 @@ A successful build establishes that assets compile. A release still needs a real
 
 The model cache backend is explicitly CacheStorage. `model-cache.ts` enumerates existing `webllm/model`, `webllm/config` and `webllm/wasm` caches and deletes only request URLs under either configured pinned model revision or matching their exact compiled-library URLs. It includes partial/orphan shards and rechecks remaining entries before reporting success. It does not fetch a missing manifest or open new cache scopes. Unrelated entries remain.
 
-The UI terminates both workers before removal and guards against starting work while cleanup runs, including page-hide restoration. Another tab can later write model files again; removal is scoped to this site/profile’s application model caches, not HTTP cache, other profiles, clipboard, provider records or secure erasure. Failure is reported rather than claimed as successful deletion.
+The UI terminates the inference, research and intake workers before removal and guards against starting work while cleanup runs, including page-hide restoration. Another tab can later write model files again; removal is scoped to this site/profile’s application model caches, not HTTP cache, other profiles, clipboard, provider records or secure erasure. Failure is reported rather than claimed as successful deletion.
 
 
 ## Guided reference recipes and current scope
@@ -155,3 +155,7 @@ Changing choices invalidates dependent choices. Reset/pagehide also remounts the
 `researchPractical` accepts only a fixed topic ID, retrieves each whole provision and validates SR, article, canton, language, official URL and SHA-256 of NFC/whitespace-normalized full text. A missing, changed, truncated or heading-only provision rejects the complete guide. This certifies a match to the shipped text, not current-law completeness, interpretation or applicability. Practical suggestions are separated from the collapsed legal explanation and full provisions. Prepared guides have no model dependency and no WebGPU requirement. They are visibly labelled as prepared, not model-generated.
 
 The component invalidates active work on change, stop, clear, pagehide and unmount. It only publishes responses for the current worker and revision. All entered facts remain in page memory; no knowledge base or question telemetry is introduced. General model source-selection and substantive quality remain unresolved outside these bounded guides.
+
+## Live intake worker
+
+The separately pinned and verified multilingual-e5-small worker provides optional topic IDs while typing. It downloads public artifacts before accepting text, warms on synthetic input, then closes fetch. The page keeps one active and one latest pending draft and suppresses obsolete results. No research is triggered by typing or topic selection. Reset/removal also terminates this worker; removal deletes the dedicated `swisslaw/intake-v1` cache. The standalone worker CSP permits only its public bootstrap hosts and same-origin runtime assets. See [LIVE_SUGGESTIONS.md](LIVE_SUGGESTIONS.md) for the model contract, measured checks and limitations.

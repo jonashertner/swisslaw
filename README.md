@@ -63,3 +63,7 @@ Requested article sets can reveal the legal issue and some guided choices even t
 [Reusable guidance blueprint](GUIDANCE_BLUEPRINT.md) · [User journey and launch checks](USER_JOURNEY.md) · [Local intake experiment](INTAKE_EXPERIMENT.md) · [Architecture and trust boundaries](ARCHITECTURE.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
 Original application code: [MIT licence](LICENSE), copyright 2026 Jonas Hertner. Dependencies, legal sources and downloaded model artifacts have separate terms. [Third-party notices](THIRD_PARTY_NOTICES.md) document the exact models and unresolved licence provenance of the MLC conversions and compiled binaries, which are not included in this repository.
+
+## Live topic suggestions
+
+Optional topics appear as you type, using a separate local multilingual-e5-small q8 encoder and simple word matching. The first download is approximately158 MB including the CPU/WASM runtime. No draft is sent to an external service; selecting a topic preserves your text and does not search. You can pause suggestions and remove the cached model. See [implementation and limitations](LIVE_SUGGESTIONS.md).
