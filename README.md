@@ -43,8 +43,8 @@ Both run through **WebLLM 0.2.85** and WebGPU. A compatible browser/GPU with `sh
 ## How it works
 
 1. Topic choices work instantly. The selected category stays visible above the free-text question box.
-2. Everyday questions about extra working hours and getting married can open prepared guides. They ask only a few relevant facts and work without a model download or WebGPU.
-3. Each prepared guide retrieves complete public provisions through MCP and compares their identities, URLs and locally computed hashes with shipped reference snapshots. A missing or changed provision withholds the guide. Prepared guidance is labelled separately from model output; matching sources do not prove complete legal advice.
+2. Rent increases, defects in a rented home, ending a tenancy, extra working hours and getting married can open prepared guides. They ask only a few relevant facts and work without a model download or WebGPU.
+3. Housing choices trigger research automatically. Checked public packets are reused in tab memory for up to 15 minutes; no user facts or personalised answers are cached. Each prepared guide retrieves complete public provisions through MCP and compares their identities, URLs and locally computed hashes with shipped reference snapshots. A missing or changed provision withholds the guide. Prepared guidance is labelled separately from model output; matching sources do not prove complete legal advice.
 4. Other free questions use the local model for clarification, source selection and drafting. Automatic searches project the proposed query into an authored German legal vocabulary (at most five terms), checked again in the research worker. Unrecognised topics ask for clarification. There is no search-approval screen; outgoing terms remain visible in the research disclosure.
 5. The older ordinary-resignation guide supplies fixed OR references but still depends on model drafting. Both local models have withheld that standard-case answer in real tests. General free-form legal quality remains a release blocker.
 
@@ -60,6 +60,6 @@ Requested article sets can reveal the legal issue and some guided choices even t
 
 ## Project information
 
-[User journey and launch checks](USER_JOURNEY.md) · [Local intake experiment](INTAKE_EXPERIMENT.md) · [Architecture and trust boundaries](ARCHITECTURE.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
+[Reusable guidance blueprint](GUIDANCE_BLUEPRINT.md) · [User journey and launch checks](USER_JOURNEY.md) · [Local intake experiment](INTAKE_EXPERIMENT.md) · [Architecture and trust boundaries](ARCHITECTURE.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
 Original application code: [MIT licence](LICENSE), copyright 2026 Jonas Hertner. Dependencies, legal sources and downloaded model artifacts have separate terms. [Third-party notices](THIRD_PARTY_NOTICES.md) document the exact models and unresolved licence provenance of the MLC conversions and compiled binaries, which are not included in this repository.

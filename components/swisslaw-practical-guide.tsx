@@ -3,6 +3,8 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { ArrowUpRight, Plus, X } from 'lucide-react';
 import { EMPTY_PRACTICAL_FACTS, type PracticalFacts, type PracticalTopic } from '@/lib/swisslaw-chat/practical';
 import { PRACTICAL_REFERENCES } from '@/lib/swisslaw-chat/practical-manifest';
+import { publicSourceCache } from '@/lib/swisslaw-chat/public-source-cache';
+import type { HousingTopic } from '@/lib/swisslaw-chat/housing';
 import { practicalGuide, type GuideParagraph } from '@/lib/swisslaw-chat/practical-content';
 import { practicalText } from '@/lib/swisslaw-chat/practical-translations';
 import { practicalContentText } from '@/lib/swisslaw-chat/practical-content-translations';
@@ -10,7 +12,7 @@ import { chatText } from '@/lib/swisslaw-chat/translations';
 import type { Language, Source } from '@/lib/swisslaw-chat/policy';
 import './swisslaw-practical-guide.css';
 
-export default function PracticalGuide({topic, language, onDismiss}: {topic: PracticalTopic; language: Language; onDismiss: () => void}) {
+export default function PracticalGuide({topic, language, onDismiss}: {topic: Exclude<PracticalTopic,HousingTopic>; language: Language; onDismiss: () => void}) {
   const [facts, setFacts] = useState<PracticalFacts>({...EMPTY_PRACTICAL_FACTS});
   const [sources, setSources] = useState<Source[] | null>(null);
   const [checkedAt, setCheckedAt] = useState('');
@@ -23,23 +25,23 @@ export default function PracticalGuide({topic, language, onDismiss}: {topic: Pra
   const t = (key:string) => chatText(key,language);
   const guide = practicalGuide(topic,facts);
   function stop() { revision.current++; if (current.current) {clearTimeout(current.current.timeout); current.current.worker.terminate(); current.current=null;} }
-  useEffect(() => { const leave=()=>{stop();setSources(null);setStatus('form');setFacts({...EMPTY_PRACTICAL_FACTS});}; window.addEventListener('pagehide',leave); return ()=>{window.removeEventListener('pagehide',leave);stop();}; },[]);
+  useEffect(() => { const leave=()=>{publicSourceCache.clear();stop();setSources(null);setStatus('form');setFacts({...EMPTY_PRACTICAL_FACTS});}; window.addEventListener('pagehide',leave); return ()=>{window.removeEventListener('pagehide',leave);stop();}; },[]);
   useEffect(()=>{heading.current?.focus({preventScroll:true});},[status]);
   function change(key:keyof PracticalFacts, value:string) {stop();setSources(null);setCopied(false);setStatus('form');setFacts(previous=>({...previous,[key]:value,...(key==='role'?{regime:'unknown' as const}:{})}));}
   function read(event:FormEvent) {
     event.preventDefault(); if(current.current) return;
-    stop(); setSources(null);setCopied(false);setStatus('reading'); const job=revision.current;
+    stop(); setSources(null);setCopied(false); const cached=publicSourceCache.get(topic); if(cached){setSources(cached.sources);setCheckedAt(new Date(cached.checkedAt).toISOString().slice(0,10));setStatus('answer');return;} setStatus('reading'); const job=revision.current;
     let worker:Worker;
     try { worker=new Worker(new URL('../lib/swisslaw-chat/research.worker.ts',import.meta.url),{type:'module'}); } catch { setStatus('error'); return; }
     const fail=()=>{if(revision.current!==job)return;stop();setStatus('error');};
     const timeout=setTimeout(fail,75000);current.current={worker,timeout,revision:job};
     worker.onerror=fail;
-    worker.onmessage=event=>{
+    worker.onmessage=async event=>{
       if(revision.current!==job||current.current?.worker!==worker)return;
       if(event.data.type!=='sources'||!Array.isArray(event.data.sources)||event.data.sources.length!==PRACTICAL_REFERENCES[topic].length){fail();return;}
       const result=event.data.sources as Source[];
       if(result.some((s,i)=>s.id!==`${PRACTICAL_REFERENCES[topic][i].sr}:${PRACTICAL_REFERENCES[topic][i].article}`)){fail();return;}
-      stop();setSources(result);setCheckedAt(new Date().toISOString().slice(0,10));setStatus('answer');
+      try { const checked=await publicSourceCache.put(topic,result); if(revision.current!==job||current.current?.worker!==worker)return; stop();setSources(checked.sources);setCheckedAt(new Date(checked.checkedAt).toISOString().slice(0,10));setStatus('answer'); } catch {fail();}
     };
     // No facts, user text or language preference are sent to this worker.
     try { worker.postMessage({practical:topic}); } catch { fail(); }

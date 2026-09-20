@@ -10,7 +10,10 @@ import { chatText } from '@/lib/swisslaw-chat/translations';
 import './swisslaw-chat.css';
 import GuidedStart from './swisslaw-guide';
 import PracticalGuide from './swisslaw-practical-guide';
-import { suggestPracticalTopic, type PracticalTopic } from '@/lib/swisslaw-chat/practical';
+import HousingGuide from './swisslaw-housing-guide';
+import { isHousingTopic } from '@/lib/swisslaw-chat/housing';
+import { housingText } from '@/lib/swisslaw-chat/housing-translations';
+import { suggestPracticalTopics, practicalCategory, PRACTICAL_TITLES, type PracticalTopic } from '@/lib/swisslaw-chat/practical';
 import { practicalText } from '@/lib/swisslaw-chat/practical-translations';
 import { publicLegalQuery } from '@/lib/swisslaw-chat/public-query';
 import { guideText } from '@/lib/swisslaw-chat/guide-translations';
@@ -25,11 +28,14 @@ export default function SwisslawChat() {
   const t = (s: string) => chatText(s, language);
   const g = (s: string) => guideText(s, language);
   const p = (s: string) => practicalText(s, language);
+  const h = (s: string) => housingText(s, language);
+  const [routeChoices, setRouteChoices] = useState<PracticalTopic[]>([]);
   const [practical, setPractical] = useState<PracticalTopic | null>(null);
   const [guided, setGuided] = useState(true);
   const [guideEpoch, setGuideEpoch] = useState(0);
   const [guideFacts, setGuideFacts] = useState<GuideFacts | null>(null);
   const [topicContext, setTopicContext] = useState('');
+  const [routingCategory, setRoutingCategory] = useState<'home' | undefined>();
   const guidedRecipe = guideFacts ? recipeForFacts(guideFacts) : null;
   const [draft, setDraft] = useState(''); const [phase, setPhase] = useState<Phase>('idle');
   const [messages, setMessages] = useState<Exchange[]>([]); const [query, setQuery] = useState('');
@@ -41,7 +47,7 @@ export default function SwisslawChat() {
   const [copyStatus, setCopyStatus] = useState(''); const [failureCode, setFailureCode] = useState('');
   const worker = useRef<Worker | null>(null); const searchWorker = useRef<Worker | null>(null);
   const ready = useRef(false); const generation = useRef(0); const sessionEpoch = useRef(0); const context = useRef<Turn[]>([]);
-  const asked = useRef(new Map<string, number>()); const skipPractical = useRef(false);
+  const asked = useRef(new Map<string, number>()); const skipPractical = useRef<string | null>(null);
   const cleaning = useRef(false);
   const pending = useRef<{ resolve: (value: any) => void; reject: (error: Error) => void; id: number; timer: ReturnType<typeof setTimeout> } | null>(null);
   const searchPending = useRef<(() => void) | null>(null); const input = useRef<HTMLTextAreaElement>(null);
@@ -51,17 +57,18 @@ export default function SwisslawChat() {
     let alive = true;
     const gpu = (navigator as unknown as { gpu?: { requestAdapter: () => Promise<{ features: Set<string>; limits: Record<string, number> } | null> } }).gpu;
     if (!gpu) setSupported(false); else gpu.requestAdapter().then(adapter => { if (alive) setSupported(Boolean(adapter?.features.has('shader-f16') && adapter.limits.maxStorageBufferBindingSize >= 1073741824 && adapter.limits.maxComputeWorkgroupStorageSize >= 32768 && adapter.limits.maxStorageBuffersPerShaderStage >= 10)); }).catch(() => { if (alive) setSupported(false); });
-    const leave = () => { stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setGuideFacts(null); setPractical(null); setGuided(true); setGuideEpoch(n => n + 1); setTopicContext(''); if (!cleaning.current) setPhase('idle'); };
+    const leave = () => { stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setGuideFacts(null); setPractical(null); setRouteChoices([]); setGuided(true); setGuideEpoch(n => n + 1); setTopicContext(''); setRoutingCategory(undefined); if (!cleaning.current) setPhase('idle'); };
     window.addEventListener('pagehide', leave);
     return () => { alive = false; window.removeEventListener('pagehide', leave); stop(); };
   }, []);
   useEffect(() => { document.documentElement.lang = language; }, [language]);
+  useEffect(() => { if (routeChoices.length && !practical) document.getElementById('route-choice-heading')?.focus({preventScroll:true}); }, [routeChoices, practical]);
   function stop() {
     sessionEpoch.current++; generation.current++; worker.current?.terminate(); worker.current = null; searchWorker.current?.terminate(); searchWorker.current = null;
     searchPending.current?.(); searchPending.current = null; ready.current = false; setLoaded(false);
     if (pending.current) { clearTimeout(pending.current.timer); pending.current.reject(new Error('CANCELLED')); pending.current = null; }
   }
-  function clear() { if (cleaning.current) return; skipPractical.current = false; stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setGuideFacts(null); setPractical(null); setGuided(true); setGuideEpoch(n => n + 1); setTopicContext(''); setNotice(''); setFailureCode(''); setCopyStatus(''); setProgress(0); setConfirmRemoval(false); setPhase('idle'); input.current?.focus(); }
+  function clear() { if (cleaning.current) return; skipPractical.current = null; stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setGuideFacts(null); setPractical(null); setRouteChoices([]); setGuided(true); setGuideEpoch(n => n + 1); setTopicContext(''); setRoutingCategory(undefined); setNotice(''); setFailureCode(''); setCopyStatus(''); setProgress(0); setConfirmRemoval(false); setPhase('idle'); input.current?.focus(); }
   async function removeModels() {
     if (cleaning.current) return;
     clear(); cleaning.current = true; const session = sessionEpoch.current; setPhase('cleaning');
@@ -116,7 +123,7 @@ export default function SwisslawChat() {
   }
   function freeText(label = '') {
     if (cleaning.current) return;
-    clear(); setGuided(false); setTopicContext(label);
+    clear(); setGuided(false); setTopicContext(label); setRoutingCategory(label === g('Home') ? 'home' : undefined);
     requestAnimationFrame(() => input.current?.focus());
   }
   function completeGuide(facts: GuideFacts) {
@@ -130,10 +137,11 @@ export default function SwisslawChat() {
     event.preventDefault(); if (cleaning.current || !draft.trim() || busy) return;
     const text = draft.trim(); const turns: Turn[] = [...context.current, { role: 'user', content: topicContext ? `Selected topic: ${topicContext}\nMy question: ${text}` : text }];
     if (!contextWithinBounds(turns)) { setNotice('This conversation is full. Start a new question to keep the local context reliable.'); return; }
-    const suggested = skipPractical.current ? null : suggestPracticalTopic(text); skipPractical.current = false;
-    if (!suggested && supported === false) { setNotice('This browser cannot run the local model.'); return; }
+    const suggestions = skipPractical.current === text ? [] : suggestPracticalTopics(text,routingCategory); skipPractical.current = null;
+    if (!suggestions.length && supported === false) { setNotice('This browser cannot run the local model.'); return; }
     setGuideFacts(null); context.current = turns; setMessages(previous => [...previous, { role: 'user', text }]); setDraft(''); setNotice(''); setFailureCode(''); setCopyStatus(''); setQuery('');
-    if (suggested) { stop(); setPractical(suggested); setPhase('idle'); return; }
+    setRouteChoices([]);
+    if (suggestions.length) { stop(); if (suggestions.length === 1) setPractical(suggestions[0]); else setRouteChoices(suggestions); setPhase('idle'); return; }
     try { await plan(turns); } catch (error) { if ((error as Error).message === 'CANCELLED') return; showModelError(error); }
   }
   function showModelError(error: unknown) { const code = safeErrorCode(error instanceof Error ? error.message : 'MODEL_ERROR'); setFailureCode(code); setPhase('error'); setNotice(errorMessage(code)); }
@@ -185,7 +193,7 @@ export default function SwisslawChat() {
     <a className="chat-skip" href={guideVisible ? '#guide-start' : practical ? '#practical-guide' : guideFacts ? '#guide-review' : '#question'}>{t('Go to your question')}</a>
     <header className="chat-header"><a className="chat-brand" href="/" aria-label="Swisslaw"><Plus aria-hidden="true" strokeWidth={1.4} />swisslaw<span>.</span></a><div className="chat-header-right"><select aria-label={t('Language')} value={language} disabled={busy} onChange={e => { setLanguage(e.target.value as Language); setCopyStatus(''); }}>{LANGUAGES.map(l => <option key={l.code} value={l.code} lang={l.code}>{l.label}</option>)}</select>{(messages.length > 0 || practical || guideFacts || !guided) && <button className="chat-clear" onClick={clear} disabled={phase === 'cleaning'} title={t('Start again')}><RotateCcw size={15} aria-hidden="true" /><span>{t('Start again')}</span></button>}</div></header>
     <main className={`chat-main${messages.length ? ' chat-active' : ''}`}>
-      {guideVisible ? <GuidedStart key={guideEpoch} language={language} onFreeText={freeText} onComplete={completeGuide} onPractical={topic => { clear(); setGuided(false); setTopicContext(g(topic === 'overtime' ? 'Work' : 'Family')); setPractical(topic); }} /> : !practical && <section className="chat-intro"><p className="chat-eyebrow">{t('SWISS LAW. OPEN TO EVERYONE.')}</p><h1>{guideFacts ? g('A little clearer already.') : t('What would you like to resolve?')}</h1><p>{guideFacts ? g('Your choices') : t('Ask a question about Swiss law. In your own words.')}</p></section>}
+      {guideVisible ? <GuidedStart key={guideEpoch} language={language} onFreeText={freeText} onComplete={completeGuide} onPractical={topic => { clear(); setGuided(false); setTopicContext(g(practicalCategory(topic))); setPractical(topic); }} /> : !practical && <section className="chat-intro"><p className="chat-eyebrow">{t('SWISS LAW. OPEN TO EVERYONE.')}</p><h1>{guideFacts ? g('A little clearer already.') : t('What would you like to resolve?')}</h1><p>{guideFacts ? g('Your choices') : t('Ask a question about Swiss law. In your own words.')}</p></section>}
       {messages.length > 0 && <section className="chat-conversation" aria-label={t('Your conversation')}>{messages.map((message, index) => <article className={`chat-message chat-${message.role}`} key={index}><p className="chat-speaker">{t(message.role === 'user' ? 'You' : 'Swisslaw')}</p><p className="chat-message-text">{message.text}</p>{message.role === 'assistant' && message.answer && <>
         {message.answer.status === 'answer' && <Evidence sourceId={message.answer.answer.source} quote={message.answer.answer.quote} sources={message.sources ?? []} t={t} />}
         {message.answer.steps.length > 0 && <div className="chat-next"><h2>{t('What you can do next')}</h2><ol>{message.answer.steps.map((step, i) => <li key={i}><p>{step.text}</p><Evidence sourceId={step.source} quote={step.quote} sources={message.sources ?? []} t={t} /></li>)}</ol></div>}
@@ -195,19 +203,20 @@ export default function SwisslawChat() {
         <button className="chat-link-button" onClick={() => copyResult(message)}><Copy size={14} aria-hidden="true" />{t('Copy answer with sources')}</button>
       </>}</article>)}</section>}
       {guidedRecipe && guideFacts && <section className="chat-guided-review" id="guide-review" tabIndex={-1}><div className="chat-guide-summary"><span>{g('I want to leave my job')}</span><span>{g('Private employment law')}</span><span>{g(guideFacts.term === 'indefinite' ? 'No fixed end date' : guideFacts.term === 'fixed' ? 'A fixed end date' : 'I’m not sure')}</span>{guideFacts.term === 'indefinite' && <span>{g(guideFacts.probation === 'yes' ? 'Still in probation' : guideFacts.probation === 'no' ? 'Probation has ended' : 'I’m not sure')}</span>}</div><button className="chat-link-button" disabled={busy} onClick={clear}>{g('Change my choices')}</button><form className="chat-search-review" onSubmit={research}><h2>{g('Read the relevant provisions')}</h2><p>{p('Sources are retrieved automatically. Only the legal terms or article references shown here go to OpenCaseLaw; your conversation stays in this tab.')}</p><div className="chat-reference-list">{REFERENCE_RECIPES[guidedRecipe].map(article => <span key={article}>OR · Art. {article} <ArrowUpRight size={13} aria-hidden="true" /></span>)}</div><p className="chat-small">{g('The provisions are in German. The local model explains them in your selected language.')}</p>{!loaded && <>{modelChoice}<p className="chat-download-note">{downloadNote}</p></>}<button className="chat-primary" type="submit" disabled={busy || supported === false}>{busy ? t(phase === 'loading' ? 'Preparing the model on your device…' : 'Working through the sources…') : g('Explain these rules on my device')}<ArrowUpRight size={18} aria-hidden="true" /></button></form><p className="chat-small">{g('This path covers ordinary resignation. For immediate departure, an apprenticeship or another special arrangement, describe your situation instead.')}</p><button className="chat-link-button" disabled={busy} onClick={() => freeText(guideContext(guideFacts))}>{g('Describe my situation instead')}</button></section>}
-      {practical && <PracticalGuide key={`${guideEpoch}:${practical}`} topic={practical} language={language} onDismiss={() => { skipPractical.current = true; setPractical(null); setGuided(false); setPhase('idle'); const last = [...context.current].reverse().find(turn => turn.role === 'user'); if (last) setDraft(last.content.replace(/^Selected topic:.*\nMy question: /, '')); requestAnimationFrame(() => input.current?.focus()); }} />}
+      {practical && (() => { const dismiss = () => { setPractical(null); setGuided(false); setPhase('idle'); const last = [...context.current].reverse().find(turn => turn.role === 'user'); if (last) { const original=last.content.replace(/^Selected topic:.*\nMy question: /, ''); setDraft(original); skipPractical.current=original; } requestAnimationFrame(() => input.current?.focus()); }; return isHousingTopic(practical) ? <HousingGuide key={`${guideEpoch}:${practical}`} topic={practical} language={language} onDismiss={dismiss}/> : <PracticalGuide key={`${guideEpoch}:${practical}`} topic={practical} language={language} onDismiss={dismiss}/>; })()}
+      {!practical && routeChoices.length > 0 && <section className="chat-route-choices" aria-live="polite"><h2 id="route-choice-heading" tabIndex={-1}>{h('Which issue should we start with?')}</h2><p>{h('Choose the closest issue. Your words stay on this device; this suggestion does not decide which law applies.')}</p><div className="sg-options">{routeChoices.map(topic=><button type="button" className="sg-option" key={topic} onClick={()=>{setPractical(topic);setTopicContext(g(practicalCategory(topic)));}}><span>{h(p(PRACTICAL_TITLES[topic]))}</span><ArrowUpRight size={18}/></button>)}</div><button type="button" className="chat-link-button" onClick={()=>{setRouteChoices([]);const last=[...context.current].reverse().find(t=>t.role==='user');if(last){const original=last.content.replace(/^Selected topic:.*\nMy question: /,'');setDraft(original);skipPractical.current=original;}requestAnimationFrame(()=>input.current?.focus());}}>{h('None of these — continue with my question')}</button></section>}
       {!practical && query && <details className="chat-search-transparency"><summary>{p('Legal sources')} · OpenCaseLaw</summary><p>{p('Sources are retrieved automatically. Only the legal terms or article references shown here go to OpenCaseLaw; your conversation stays in this tab.')}</p><p className="chat-public-terms">{query}</p>{phase === 'review' && !guidedRecipe && <button className="chat-link-button" onClick={() => research()}>{t('Try again')}</button>}</details>}
-      {!practical && !guideVisible && !guideFacts && <form className="chat-composer" onSubmit={submit}>
+      {!practical && !routeChoices.length && !guideVisible && !guideFacts && <form className="chat-composer" onSubmit={submit}>
         {topicContext && <p className="chat-selected-topic"><span>{p('Selected topic')}</span>{topicContext}</p>}
         <label htmlFor="question" className="chat-field-label">{t(messages.length ? 'Add a detail or ask a follow-up' : 'Your question')}</label>
         <textarea id="question" ref={input} value={draft} disabled={busy} onChange={e => setDraft(e.target.value)} maxLength={1200} rows={messages.length ? 3 : 4} placeholder={t('Tell us what happened and what you would like to know.')} autoComplete="off" spellCheck={false} />
         <div className="chat-composer-bottom"><span>{t('No names or identifying details needed.')}</span><button type="submit" disabled={!draft.trim() || busy} aria-label={t(loaded ? 'Continue' : 'Prepare on this device')}><span>{t(loaded ? 'Continue' : 'Start')}</span><ArrowUp size={19} aria-hidden="true" /></button></div>
       </form>}
       {!guideVisible && messages.length === 0 && !guideFacts && <button className="chat-link-button" onClick={clear}>{g('Back to topics')}</button>}
-      {!practical && !guideVisible && !guideFacts && messages.length === 0 && modelChoice}
-      {!practical && !guideVisible && !guideFacts && !loaded && !busy && <p className="chat-download-note">{downloadNote}</p>}
+      {!practical && !routeChoices.length && !guideVisible && !guideFacts && messages.length === 0 && modelChoice}
+      {!practical && !routeChoices.length && !guideVisible && !guideFacts && !loaded && !busy && <p className="chat-download-note">{downloadNote}</p>}
       {busy && <div className="chat-status" role="status"><div><span className="chat-dot" aria-hidden="true" />{t(phase === 'cleaning' ? 'Removing saved model files…' : phase === 'loading' ? (preparationStep === 'prepare' ? 'Preparing the model. The download is complete…' : 'Preparing the model on your device…') : phase === 'searching' ? 'Reading public legal sources…' : phase === 'answering' ? 'Working through the sources…' : 'Understanding your question…')}{phase !== 'cleaning' && <button onClick={cancel} aria-label={t('Stop')}><X size={16} /></button>}</div>{phase === 'loading' && preparationStep === 'download' && <><progress value={progress} max={100} aria-label={t('Model download')} /><span className="chat-small">{progress}%</span></>}</div>}
-      {!practical && !guideVisible && supported === false && <div className="chat-notice" role="status"><h2>{t('This browser cannot run the local model.')}</h2><p>{t('Try a recent browser on a device with WebGPU support. No question is sent to a cloud model as a fallback.')}</p><a href="https://opencaselaw.ch/" target="_blank" rel="noreferrer">{t('Explore OpenCaseLaw directly')}<ArrowUpRight size={14} aria-hidden="true" /></a></div>}
+      {!practical && !routeChoices.length && !guideVisible && supported === false && <div className="chat-notice" role="status"><h2>{t('This browser cannot run the local model.')}</h2><p>{t('Try a recent browser on a device with WebGPU support. No question is sent to a cloud model as a fallback.')}</p><a href="https://opencaselaw.ch/" target="_blank" rel="noreferrer">{t('Explore OpenCaseLaw directly')}<ArrowUpRight size={14} aria-hidden="true" /></a></div>}
       {notice && <p className="chat-notice" role="status" data-status-reason={failureCode || undefined}>{t(notice)}{failureCode && <><br />{t('Your question has not been sent to a cloud model.')}<small className="chat-error-code">{t('Technical code')}: {failureCode}</small></>}{phase === 'error' && <button className="chat-link-button" onClick={retry}>{t('Try again')}</button>}</p>}
       {copyStatus && <p className="chat-small" role="status">{t(copyStatus)}</p>}
       <div className="chat-assurances"><span><LockKeyhole size={14} aria-hidden="true" />{t('Thinking stays on your device')}</span><span>{t('Free. No account.')}</span></div>

@@ -18,7 +18,8 @@
     "preview": "node scripts/preview.mjs",
     "test": "tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
-    "verify": "npm run test && npm run build"
+    "verify": "npm run test && npm run build",
+    "check:sources": "tsx scripts/check-prepared-sources.ts"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "0.2.85",

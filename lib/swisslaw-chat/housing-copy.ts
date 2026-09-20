@@ -1,0 +1,21 @@
+/** Keys shared by the interface and translation-coverage checks. */
+export const HOUSING_COPY = [
+  'Which issue should we start with?',
+  'Choose the closest issue. Your words stay on this device; this suggestion does not decide which law applies.',
+  'None of these — continue with my question',
+  'Another housing question',
+  'A few facts. A useful next step.',
+  'No account. No model download. Your choices stay in this tab.',
+  'Back', 'Continue', 'Your choices', 'Change', 'Question', 'of',
+  'Prepared guidance', 'Your next steps', 'The rules behind this guide',
+  'What still needs checking', 'Read the complete provisions',
+  'Check sources and show my steps', 'Checking the public provisions…',
+  'Stop', 'Try again', 'Copy my steps and sources', 'Copied',
+  'These provisions were checked against this guide’s reference text on',
+  'A matching text is not a guarantee that every applicable rule has been covered. Translations need independent review.',
+  'Only these public article references go to OpenCaseLaw. They can reveal the topic. Your question and choices stay in this tab.',
+  'The sources could not be checked. Read the official provisions or contact the tenancy authority; do not wait here if a deadline may be running.',
+  'Official tenancy information', 'Describe something else',
+  'A notice can carry a short deadline. Keep the letter and its envelope. If timing is uncertain, contact the tenancy authority promptly.',
+  'I’m not sure',
+] as const;

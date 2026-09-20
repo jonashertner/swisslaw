@@ -160,5 +160,535 @@
         "section_heading": null
       }
     ]
+  },
+  "220:269d": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269d",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "269d",
+        "heading": null,
+        "text": "1 Der Vermieter kann den Mietzins jederzeit auf den nächstmöglichen Kündigungstermin erhöhen. Er muss dem Mieter die Mietzinserhöhung mindestens zehn Tage vor Beginn der Kündigungsfrist auf einem vom Kanton genehmigten Formular mitteilen und begründen.\n2 Die Mietzinserhöhung ist nichtig, wenn der Vermieter: a. sie nicht mit dem vorgeschriebenen Formular mitteilt; b. sie nicht begründet; c. mit der Mitteilung die Kündigung androht oder ausspricht.\n3 Die Absätze 1 und 2 gelten auch, wenn der Vermieter beabsichtigt, sonstwie den Mietvertrag einseitig zu Lasten des Mieters zu ändern, namentlich seine bisherigen Leistungen zu vermindern oder neue Nebenkosten einzuführen.\n4 Für die Mitteilung einer Mietzinserhöhung und anderer einseitiger Vertragsänderungen genügt eine auf mechanischem Weg nachgebildete Unterschrift auf dem vorgeschriebenen Formular.\n5 Für die Mitteilung von Mietzinserhöhungen, die in einer Vereinbarung nach Artikel 269c vorgesehen sind, genügt die schriftliche Form.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_269_d\"><num><b>Art. 269</b><i>d</i></num><paragraph eId=\"art_269_d/para_1\"><num>1</num><content><p> Der Vermieter kann den Mietzins jederzeit auf den nächstmöglichen Kündigungstermin erhöhen. Er muss dem Mieter die Mietzinserhöhung mindestens zehn Tage vor Beginn der Kündigungsfrist auf einem vom Kanton genehmigten Formular mitteilen und begründen.</p></content></paragraph><paragraph eId=\"art_269_d/para_2\"><num>2</num><content><blockList><listIntroduction eId=\"art_269_d/para_2/listintro\"> Die Mietzinserhöhung ist nichtig, wenn der Vermieter:</listIntroduction><item eId=\"art_269_d/para_2/lbl_a\"><num>a. </num><p>sie nicht mit dem vorgeschriebenen Formular mitteilt;</p></item><item eId=\"art_269_d/para_2/lbl_b\"><num>b. </num><p>sie nicht begründet;</p></item><item eId=\"art_269_d/para_2/lbl_c\"><num>c. </num><p>mit der Mitteilung die Kündigung androht oder ausspricht.</p></item></blockList></content></paragraph><paragraph eId=\"art_269_d/para_3\"><num>3</num><content><p> Die Absätze 1 und 2 gelten auch, wenn der Vermieter beabsichtigt, sonstwie den Mietvertrag einseitig zu Lasten des Mieters zu ändern, namentlich seine bisherigen Leistungen zu vermindern oder neue Nebenkosten einzuführen.</p></content></paragraph><paragraph eId=\"art_269_d/para_4\"><num>4</num><content><p> Für die Mitteilung einer Mietzinserhöhung und anderer einseitiger Vertragsänderungen genügt eine auf mechanischem Weg nachgebildete Unterschrift auf dem vorgeschriebenen Formular.<authorialNote>\n\t\t<p> Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Mietrecht: Formvorschriften), in Kraft seit 1. Okt. 2025  (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2025/197\">AS <b>2025</b> 197</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2022/2100\">BBl <b>2022</b> 2100</ref>, <ref href=\"https://fedlex.data.admin.ch/eli/fga/2022/2624\">2624</ref>).</p>\n\t</authorialNote></p></content></paragraph><paragraph eId=\"art_269_d/para_5\"><num>5</num><content><p> Für die Mitteilung von Mietzinserhöhungen, die in einer Vereinbarung nach Artikel 269<i>c </i>vorgesehen sind, genügt die schriftliche Form.<authorialNote>\n\t\t<p> Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Mietrecht: Formvorschriften), in Kraft seit 1. Okt. 2025  (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2025/197\">AS <b>2025</b> 197</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2022/2100\">BBl <b>2022</b> 2100</ref>, <ref href=\"https://fedlex.data.admin.ch/eli/fga/2022/2624\">2624</ref>).</p>\n\t</authorialNote></p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": "Eingefügt durch Ziff. I des BG vom 29. Sept. 2023 (Mietrecht: Formvorschriften), in Kraft seit 1. Okt. 2025 (AS 2025 197; BBl 2022 2100, 2624)."
+      }
+    ],
+    "materialien": {
+      "bbl_ref": "BBl 2022 2100",
+      "bbl_citations": [
+        "BBl 2022 2100"
+      ],
+      "fedlex_urls": [
+        "https://www.fedlex.admin.ch/eli/fga/2022/2100"
+      ],
+      "context": "t. 2023 (Mietrecht: Formvorschriften), in Kraft seit 1. Okt. 2025 (AS 2025 197; BBl 2022 2100, 2624).",
+      "source": "Fedlex (automatic extraction from statute footnotes)"
+    },
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:270b": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270b",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "270b",
+        "heading": null,
+        "text": "1 Der Mieter kann eine Mietzinserhöhung innert 30 Tagen, nachdem sie ihm mitgeteilt worden ist, bei der Schlichtungsbehörde als missbräuchlich im Sinne der Artikel 269 und 269a anfechten.\n2 Absatz 1 gilt auch, wenn der Vermieter sonstwie den Mietvertrag einseitig zu Lasten des Mieters ändert, namentlich seine bisherigen Leistungen vermindert oder neue Nebenkosten einführt.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_270_b\"><num><b>Art. 270</b><i>b</i></num><paragraph eId=\"art_270_b/para_1\"><num>1</num><content><p> Der Mieter kann eine Mietzinserhöhung innert 30 Tagen, nachdem sie ihm mitgeteilt worden ist, bei der Schlichtungsbehörde als missbräuchlich im Sinne der Artikel 269 und 269<i>a</i> anfechten.</p></content></paragraph><paragraph eId=\"art_270_b/para_2\"><num>2</num><content><p> Absatz 1 gilt auch, wenn der Vermieter sonstwie den Mietvertrag einseitig zu Lasten des Mieters ändert, namentlich seine bisherigen Leistungen vermindert oder neue Nebenkosten einführt.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:259a": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259a",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "259a",
+        "heading": null,
+        "text": "1 Entstehen an der Sache Mängel, die der Mieter weder zu verantworten noch auf eigene Kosten zu beseitigen hat, oder wird der Mieter im vertragsgemässen Gebrauch der Sache gestört, so kann er verlangen, dass der Vermieter: a. den Mangel beseitigt; b. den Mietzins verhältnismässig herabsetzt; c. Schadenersatz leistet; d. den Rechtsstreit mit einem Dritten übernimmt.\n2 Der Mieter einer unbeweglichen Sache kann zudem den Mietzins hinterlegen.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_259_a\"><num><b>Art. 259</b><i>a</i></num><paragraph eId=\"art_259_a/para_1\"><num>1</num><content><blockList><listIntroduction eId=\"art_259_a/para_1/listintro\"> Entstehen an der Sache Mängel, die der Mieter weder zu verantworten noch auf eigene Kosten zu beseitigen hat, oder wird der Mieter im vertragsgemässen Gebrauch der Sache gestört, so kann er verlangen, dass der Vermieter:</listIntroduction><item eId=\"art_259_a/para_1/lbl_a\"><num>a. </num><p>den Mangel beseitigt;</p></item><item eId=\"art_259_a/para_1/lbl_b\"><num>b. </num><p>den Mietzins verhältnismässig herabsetzt;</p></item><item eId=\"art_259_a/para_1/lbl_c\"><num>c. </num><p>Schadenersatz leistet;</p></item><item eId=\"art_259_a/para_1/lbl_d\"><num>d. </num><p>den Rechtsstreit mit einem Dritten übernimmt.</p></item></blockList></content></paragraph><paragraph eId=\"art_259_a/para_2\"><num>2</num><content><p> Der Mieter einer unbeweglichen Sache kann zudem den Mietzins hinterlegen.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:259b": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259b",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "259b",
+        "heading": null,
+        "text": "Kennt der Vermieter einen Mangel und beseitigt er ihn nicht innert angemessener Frist, so kann der Mieter: a. fristlos kündigen, wenn der Mangel die Tauglichkeit einer unbeweglichen Sache zum vorausgesetzten Gebrauch ausschliesst oder erheblich beeinträchtigt oder wenn der Mangel die Tauglichkeit einer beweglichen Sache zum vorausgesetzten Gebrauch vermindert; b. auf Kosten des Vermieters den Mangel beseitigen lassen, wenn dieser die Tauglichkeit der Sache zum vorausgesetzten Gebrauch zwar vermindert, aber nicht erheblich beeinträchtigt.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_259_b\"><num><b>Art. 259</b><i>b</i></num><paragraph eId=\"art_259_b/para\"><content><blockList><listIntroduction eId=\"art_259_b/para/listintro\">Kennt der Vermieter einen Mangel und beseitigt er ihn nicht innert angemessener Frist, so kann der Mieter:</listIntroduction><item eId=\"art_259_b/para/lbl_a\"><num>a. </num><p>fristlos kündigen, wenn der Mangel die Tauglichkeit einer unbeweglichen Sache zum vorausgesetzten Gebrauch ausschliesst oder erheblich beeinträchtigt oder wenn der Mangel die Tauglichkeit einer beweglichen Sache zum vorausgesetzten Gebrauch vermindert;</p></item><item eId=\"art_259_b/para/lbl_b\"><num>b. </num><p>auf Kosten des Vermieters den Mangel beseitigen lassen, wenn dieser die Tauglichkeit der Sache zum vorausgesetzten Gebrauch zwar vermindert, aber nicht erheblich beeinträchtigt.</p></item></blockList></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:259d": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259d",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "259d",
+        "heading": null,
+        "text": "Wird die Tauglichkeit der Sache zum vorausgesetzten Gebrauch beeinträchtigt oder vermindert, so kann der Mieter vom Vermieter verlangen, dass er den Mietzins vom Zeitpunkt, in dem er vom Mangel erfahren hat, bis zur Behebung des Mangels entsprechend herabsetzt.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_259_d\"><num><b>Art. 259</b><i>d</i></num><paragraph eId=\"art_259_d/para\"><content><p>Wird die Tauglichkeit der Sache zum vorausgesetzten Gebrauch beeinträchtigt oder vermindert, so kann der Mieter vom Vermieter verlangen, dass er den Mietzins vom Zeitpunkt, in dem er vom Mangel erfahren hat, bis zur Behebung des Mangels entsprechend herabsetzt.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:259g": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259g",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "259g",
+        "heading": null,
+        "text": "1 Verlangt der Mieter einer unbeweglichen Sache vom Vermieter die Beseitigung eines Mangels, so muss er ihm dazu schriftlich eine angemessene Frist setzen und kann ihm androhen, dass er bei unbenütztem Ablauf der Frist Mietzinse, die künftig fällig werden, bei einer vom Kanton bezeichneten Stelle hinterlegen wird. Er muss die Hinterlegung dem Vermieter schriftlich ankündigen.\n2 Mit der Hinterlegung gelten die Mietzinse als bezahlt.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_259_g\"><num><b>Art. 259</b><i>g</i></num><paragraph eId=\"art_259_g/para_1\"><num>1</num><content><p> Verlangt der Mieter einer unbeweglichen Sache vom Vermieter die Beseitigung eines Mangels, so muss er ihm dazu schriftlich eine angemessene Frist setzen und kann ihm androhen, dass er bei unbenütztem Ablauf der Frist Mietzinse, die künftig fällig werden, bei einer vom Kanton bezeichneten Stelle hinterlegen wird. Er muss die Hinterlegung dem Vermieter schriftlich ankündigen.</p></content></paragraph><paragraph eId=\"art_259_g/para_2\"><num>2</num><content><p> Mit der Hinterlegung gelten die Mietzinse als bezahlt.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:259h": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259h",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "259h",
+        "heading": null,
+        "text": "1 Hinterlegte Mietzinse fallen dem Vermieter zu, wenn der Mieter seine Ansprüche gegenüber dem Vermieter nicht innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend gemacht hat.\n2 Der Vermieter kann bei der Schlichtungsbehörde die Herausgabe der zu Unrecht hinterlegten Mietzinse verlangen, sobald ihm der Mieter die Hinterlegung angekündigt hat.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_259_h\"><num><b>Art. 259</b><i>h</i></num><paragraph eId=\"art_259_h/para_1\"><num>1</num><content><p> Hinterlegte Mietzinse fallen dem Vermieter zu, wenn der Mieter seine Ansprüche gegenüber dem Vermieter nicht innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend gemacht hat.</p></content></paragraph><paragraph eId=\"art_259_h/para_2\"><num>2</num><content><p> Der Vermieter kann bei der Schlichtungsbehörde die Herausgabe der zu Unrecht hinterlegten Mietzinse verlangen, sobald ihm der Mieter die Hinterlegung angekündigt hat.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:264": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_264",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "264",
+        "heading": null,
+        "text": "1 Gibt der Mieter die Sache zurück, ohne Kündigungsfrist oder -termin einzuhalten, so ist er von seinen Verpflichtungen gegenüber dem Vermieter nur befreit, wenn er einen für den Vermieter zumutbaren neuen Mieter vorschlägt; dieser muss zahlungsfähig und bereit sein, den Mietvertrag zu den gleichen Bedingungen zu übernehmen.\n2 Andernfalls muss er den Mietzins bis zu dem Zeitpunkt leisten, in dem das Mietverhältnis gemäss Vertrag oder Gesetz endet oder beendet werden kann.\n3 Der Vermieter muss sich anrechnen lassen, was er: a. an Auslagen erspart und b. durch anderweitige Verwendung der Sache gewinnt oder absichtlich zu gewinnen unterlassen hat.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_264\"><num><b>Art. 264</b></num><paragraph eId=\"art_264/para_1\"><num>1</num><content><p> Gibt der Mieter die Sache zurück, ohne Kündigungsfrist oder -termin einzuhalten, so ist er von seinen Verpflichtungen gegenüber dem Vermieter nur befreit, wenn er einen für den Vermieter zumutbaren neuen Mieter vorschlägt; dieser muss zahlungsfähig und bereit sein, den Mietvertrag zu den gleichen Bedingungen zu übernehmen.</p></content></paragraph><paragraph eId=\"art_264/para_2\"><num>2</num><content><p> Andernfalls muss er den Mietzins bis zu dem Zeitpunkt leisten, in dem das Mietverhältnis gemäss Vertrag oder Gesetz endet oder beendet werden kann.</p></content></paragraph><paragraph eId=\"art_264/para_3\"><num>3</num><content><blockList><listIntroduction eId=\"art_264/para_3/listintro\"> Der Vermieter muss sich anrechnen lassen, was er:</listIntroduction><item eId=\"art_264/para_3/lbl_a\"><num>a. </num><p>an Auslagen erspart und</p></item><item eId=\"art_264/para_3/lbl_b\"><num>b. </num><p>durch anderweitige Verwendung der Sache gewinnt oder absichtlich zu gewinnen unterlassen hat.</p></item></blockList></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266a": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266a",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266a",
+        "heading": null,
+        "text": "1 Die Parteien können das unbefristete Mietverhältnis unter Einhaltung der gesetzlichen Fristen und Termine kündigen, sofern sie keine längere Frist oder keinen anderen Termin vereinbart haben.\n2 Halten die Parteien die Frist oder den Termin nicht ein, so gilt die Kündigung für den nächstmöglichen Termin.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_a\"><num><b>Art. 266</b><i>a</i></num><paragraph eId=\"art_266_a/para_1\"><num>1</num><content><p> Die Parteien können das unbefristete Mietverhältnis unter Einhaltung der gesetzlichen Fristen und Termine kündigen, sofern sie keine längere Frist oder keinen anderen Termin vereinbart haben.</p></content></paragraph><paragraph eId=\"art_266_a/para_2\"><num>2</num><content><p> Halten die Parteien die Frist oder den Termin nicht ein, so gilt die Kündigung für den nächstmöglichen Termin.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266c": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266c",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266c",
+        "heading": null,
+        "text": "Bei der Miete von Wohnungen können die Parteien mit einer Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn es keinen Ortsgebrauch gibt, auf Ende einer dreimonatigen Mietdauer kündigen.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_c\"><num><b>Art. 266</b><i>c</i></num><paragraph eId=\"art_266_c/para\"><content><p>Bei der Miete von Wohnungen können die Parteien mit einer Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn es keinen Ortsgebrauch gibt, auf Ende einer dreimonatigen Mietdauer kündigen.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266l": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266l",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266l",
+        "heading": null,
+        "text": "1 Vermieter und Mieter von Wohn- und Geschäftsräumen müssen schriftlich kündigen.\n2 Der Vermieter muss mit einem Formular kündigen, das vom Kanton genehmigt ist und das angibt, wie der Mieter vorzugehen hat, wenn er die Kündigung anfechten oder eine Erstreckung des Mietverhältnisses verlangen will.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_l\"><num><b>Art. 266</b><i>l</i></num><paragraph eId=\"art_266_l/para_1\"><num>1</num><content><p> Vermieter und Mieter von Wohn- und Geschäftsräumen müssen schriftlich kündigen.</p></content></paragraph><paragraph eId=\"art_266_l/para_2\"><num>2</num><content><p> Der Vermieter muss mit einem Formular kündigen, das vom Kanton genehmigt ist und das angibt, wie der Mieter vorzugehen hat, wenn er die Kündigung anfechten oder eine Erstreckung des Mietverhältnisses verlangen will.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266m": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266m",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266m",
+        "heading": null,
+        "text": "1 Dient die gemietete Sache als Wohnung der Familie, kann ein Ehegatte den Mietvertrag nur mit der ausdrücklichen Zustimmung des anderen kündigen.\n2 Kann der Ehegatte diese Zustimmung nicht einholen oder wird sie ihm ohne triftigen Grund verweigert, so kann er den Richter anrufen.\n3 Die gleiche Regelung gilt bei eingetragenen Partnerschaften sinngemäss.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_m\"><num><b>Art. 266</b><i>m</i></num><paragraph eId=\"art_266_m/para_1\"><num>1</num><content><p> Dient die gemietete Sache als Wohnung der Familie, kann ein Ehegatte den Mietvertrag nur mit der ausdrücklichen Zustimmung des anderen kündigen.</p></content></paragraph><paragraph eId=\"art_266_m/para_2\"><num>2</num><content><p> Kann der Ehegatte diese Zustimmung nicht einholen oder wird sie ihm ohne triftigen Grund verweigert, so kann er den Richter anrufen.</p></content></paragraph><paragraph eId=\"art_266_m/para_3\"><num>3</num><content><p> Die gleiche Regelung gilt bei eingetragenen Partnerschaften sinngemäss.<authorialNote>\n\t\t<p> Eingefügt durch Anhang Ziff. 11 des Partnerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2005/782\">AS <b>2005</b> 5685</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2003/194\">BBl <b>2003</b> 1288</ref>).</p>\n\t</authorialNote></p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": "Eingefügt durch Anhang Ziff. 11 des Partnerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (AS 2005 5685; BBl 2003 1288)."
+      }
+    ],
+    "materialien": {
+      "bbl_ref": "BBl 2003 1288",
+      "bbl_citations": [
+        "BBl 2003 1288"
+      ],
+      "fedlex_urls": [
+        "https://www.fedlex.admin.ch/eli/fga/2003/1288"
+      ],
+      "context": "nerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (AS 2005 5685; BBl 2003 1288).",
+      "source": "Fedlex (automatic extraction from statute footnotes)",
+      "verbatim_botschaft": {
+        "available": true,
+        "tool": "get_article_purpose",
+        "call": "get_article_purpose(sr_number=\"220\", article=\"266m\")",
+        "bbl_citations": [
+          "BBl 2003 1288"
+        ],
+        "eli_uris": [
+          "https://fedlex.data.admin.ch/eli/fga/2003/194"
+        ],
+        "note": "Verbatim Botschaft paragraphs for this article are available — call get_article_purpose for quotable text (R2/R4). Any digest fields above are paraphrase, not verbatim."
+      }
+    },
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266n": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266n",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266n",
+        "heading": null,
+        "text": "Die Kündigung durch den Vermieter sowie die Ansetzung einer Zahlungsfrist mit Kündigungsandrohung (Art. 257d) sind dem Mieter und seinem Ehegatten, seiner eingetragenen Partnerin oder seinem eingetragenen Partner separat zuzustellen.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_n\"><num><b>Art. 266</b><i>n</i><authorialNote>\n\t\t<p> Fassung gemäss Anhang Ziff. 11 des Partnerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2005/782\">AS <b>2005</b> 5685</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2003/194\">BBl <b>2003</b> 1288</ref>).</p>\n\t</authorialNote></num><paragraph eId=\"art_266_n/para\"><content><p>Die Kündigung durch den Vermieter sowie die Ansetzung einer Zahlungsfrist mit Kündigungsandrohung (Art. 257<i>d</i>) sind dem Mieter und seinem Ehegatten, seiner eingetragenen Partnerin oder seinem eingetragenen Partner separat zuzustellen.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": "Fassung gemäss Anhang Ziff. 11 des Partnerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (AS 2005 5685; BBl 2003 1288)."
+      }
+    ],
+    "materialien": {
+      "bbl_ref": "BBl 2003 1288",
+      "bbl_citations": [
+        "BBl 2003 1288"
+      ],
+      "fedlex_urls": [
+        "https://www.fedlex.admin.ch/eli/fga/2003/1288"
+      ],
+      "context": "nerschaftsgesetzes vom 18. Juni 2004, in Kraft seit 1. Jan. 2007 (AS 2005 5685; BBl 2003 1288).",
+      "source": "Fedlex (automatic extraction from statute footnotes)",
+      "verbatim_botschaft": {
+        "available": true,
+        "tool": "get_article_purpose",
+        "call": "get_article_purpose(sr_number=\"220\", article=\"266n\")",
+        "bbl_citations": [
+          "BBl 2003 1288"
+        ],
+        "eli_uris": [
+          "https://fedlex.data.admin.ch/eli/fga/2003/194"
+        ],
+        "note": "Verbatim Botschaft paragraphs for this article are available — call get_article_purpose for quotable text (R2/R4). Any digest fields above are paraphrase, not verbatim."
+      }
+    },
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:266o": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266o",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "266o",
+        "heading": null,
+        "text": "Die Kündigung ist nichtig, wenn sie den Artikeln 266l–266n nicht entspricht.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" eId=\"art_266_o\"><num><b>Art. 266</b><i>o</i></num><paragraph eId=\"art_266_o/para\"><content><p>Die Kündigung ist nichtig, wenn sie den Artikeln 266<i>l</i>–266<i>n</i> nicht entspricht.</p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": null
+      }
+    ],
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
+  },
+  "220:273": {
+    "sr_number": "220",
+    "title": "Bundesgesetz vom 30. März 1911 betreffend die Ergänzung des Schweizerischen Zivilgesetzbuches (Fünfter Teil: Obligationenrecht)",
+    "abbreviation": "OR",
+    "consolidation_date": "2026-01-01",
+    "canton": "CH",
+    "level": "federal",
+    "language": "de",
+    "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273",
+    "source_label": "Fedlex",
+    "articles": [
+      {
+        "article_num": "273",
+        "heading": null,
+        "text": "1 Will eine Partei die Kündigung anfechten, so muss sie das Begehren innert 30 Tagen nach Empfang der Kündigung der Schlichtungsbehörde einreichen.\n2 Will der Mieter eine Erstreckung des Mietverhältnisses verlangen, so muss er das Begehren der Schlichtungsbehörde einreichen: a. bei einem unbefristeten Mietverhältnis innert 30 Tagen nach Empfang der Kündigung; b. bei einem befristeten Mietverhältnis spätestens 60 Tage vor Ablauf der Vertragsdauer.\n3 Das Begehren um eine zweite Erstreckung muss der Mieter der Schlichtungsbehörde spätestens 60 Tage vor Ablauf der ersten einreichen.\n4 Das Verfahren vor der Schlichtungsbehörde richtet sich nach der ZPO .\n5 Weist die zuständige Behörde ein Begehren des Mieters betreffend Anfechtung der Kündigung ab, so prüft sie von Amtes wegen, ob das Mietverhältnis erstreckt werden kann.",
+        "xml": "<article xmlns=\"http://docs.oasis-open.org/legaldocml/ns/akn/3.0\" xmlns:ns1=\"http://fedlex.admin.ch/\" eId=\"art_273\"><num><b>Art. 273</b></num><paragraph eId=\"art_273/para_1\"><num>1</num><content><p> Will eine Partei die Kündigung anfechten, so muss sie das Begehren innert 30 Tagen nach Empfang der Kündigung der Schlichtungsbehörde einreichen.</p></content></paragraph><paragraph eId=\"art_273/para_2\"><num>2</num><content><blockList><listIntroduction eId=\"art_273/para_2/listintro\"> Will der Mieter eine Erstreckung des Mietverhältnisses verlangen, so muss er das Begehren der Schlichtungsbehörde einreichen:</listIntroduction><item eId=\"art_273/para_2/lbl_a\"><num>a. </num><p>bei einem unbefristeten Mietverhältnis innert 30 Tagen nach Empfang der Kündigung;</p></item><item eId=\"art_273/para_2/lbl_b\"><num>b. </num><p>bei einem befristeten Mietverhältnis spätestens 60 Tage vor Ablauf der Vertragsdauer.</p></item></blockList></content></paragraph><paragraph eId=\"art_273/para_3\"><num>3</num><content><p> Das Begehren um eine zweite Erstreckung muss der Mieter der Schlichtungsbehörde spätestens 60 Tage vor Ablauf der ersten einreichen.</p></content></paragraph><paragraph eId=\"art_273/para_4\"><num>4</num><content><p> Das Verfahren vor der Schlichtungsbehörde richtet sich nach der ZPO<authorialNote>\n\t\t<p> <ref ns1:rs-uri=\"https://fedlex.data.admin.ch/eli/cc/2010/262\" ns1:rs=\"272\" href=\"https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6136\">SR <b>272</b></ref></p>\n\t</authorialNote>.<authorialNote>\n\t\t<p> Fassung gemäss Anhang 1 Ziff. II 5 der Zivilprozessordnung vom 19. Dez. 2008, in Kraft seit 1. Jan. 2011 (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2010/262\">AS <b>2010</b> 1739</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2006/914\">BBl <b>2006</b> 7221</ref>).</p>\n\t</authorialNote></p></content></paragraph><paragraph eId=\"art_273/para_5\"><num>5</num><content><p> Weist die zuständige Behörde ein Begehren des Mieters betreffend Anfechtung der Kündigung ab, so prüft sie von Amtes wegen, ob das Mietverhältnis erstreckt werden kann.<authorialNote>\n\t\t<p> Fassung gemäss Anhang 1 Ziff. II 5 der Zivilprozessordnung vom 19. Dez. 2008, in Kraft seit 1. Jan. 2011 (<ref href=\"https://fedlex.data.admin.ch/eli/oc/2010/262\">AS <b>2010</b> 1739</ref>; <ref href=\"https://fedlex.data.admin.ch/eli/fga/2006/914\">BBl <b>2006</b> 7221</ref>).</p>\n\t</authorialNote></p></content></paragraph></article>",
+        "section": "",
+        "section_heading": null,
+        "footnote": "SR 272 Fassung gemäss Anhang 1 Ziff. II 5 der Zivilprozessordnung vom 19. Dez. 2008, in Kraft seit 1. Jan. 2011 (AS 2010 1739; BBl 2006 7221)."
+      }
+    ],
+    "materialien": {
+      "bbl_ref": "BBl 2006 7221",
+      "bbl_citations": [
+        "BBl 2006 7221"
+      ],
+      "fedlex_urls": [
+        "https://www.fedlex.admin.ch/eli/fga/2006/7221"
+      ],
+      "context": "ivilprozessordnung vom 19. Dez. 2008, in Kraft seit 1. Jan. 2011 (AS 2010 1739; BBl 2006 7221).",
+      "source": "Fedlex (automatic extraction from statute footnotes)",
+      "verbatim_botschaft": {
+        "available": true,
+        "tool": "get_article_purpose",
+        "call": "get_article_purpose(sr_number=\"220\", article=\"273\")",
+        "bbl_citations": [
+          "BBl 2006 7221"
+        ],
+        "eli_uris": [
+          "https://fedlex.data.admin.ch/eli/fga/2006/914"
+        ],
+        "note": "Verbatim Botschaft paragraphs for this article are available — call get_article_purpose for quotable text (R2/R4). Any digest fields above are paraphrase, not verbatim."
+      }
+    },
+    "pending_changes": [
+      {
+        "date": "2026-10-01"
+      },
+      {
+        "date": "2027-07-01"
+      }
+    ]
   }
 }

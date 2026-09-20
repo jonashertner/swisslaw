@@ -3,6 +3,7 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import { guideText, type Language } from '@/lib/swisslaw-chat/guide-translations';
 import { practicalText } from '@/lib/swisslaw-chat/practical-translations';
+import { housingText } from '@/lib/swisslaw-chat/housing-translations';
 import type { PracticalTopic } from '@/lib/swisslaw-chat/practical';
 import type { GuideFacts } from '@/lib/swisslaw-chat/guide';
 import './swisslaw-guide.css';
@@ -18,7 +19,7 @@ export type GuidedStartProps = {
   t?: (key: string) => string;
 };
 
-type Stage = 'topics' | 'work' | 'family' | 'regime' | 'term' | 'probation';
+type Stage = 'topics' | 'work' | 'family' | 'home' | 'regime' | 'term' | 'probation';
 const STAGES: Stage[] = ['topics', 'work', 'regime', 'term', 'probation'];
 const TOPICS = ['Work', 'Home', 'Family', 'Money', 'Purchases', 'Something else'] as const;
 const REGIME_LABELS = { private: 'Private employment law', public: 'Public employment law', unknown: 'I’m not sure' } as const;
@@ -62,7 +63,7 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
   const navigated = useRef(false);
   const completed = useRef(false);
   const helpId = useId();
-  const tr = (key: string) => { const supplied = hostText?.(key); return supplied && supplied !== key ? supplied : practicalText(guideText(key, language), language); };
+  const tr = (key: string) => { const supplied = hostText?.(key); return supplied && supplied !== key ? supplied : housingText(practicalText(guideText(key, language), language), language); };
   const position = STAGES.indexOf(stage);
 
   useEffect(() => {
@@ -106,12 +107,12 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
   }
 
   const title = stage === 'topics' ? 'What would you like to understand?'
-    : stage === 'work' || stage === 'family' ? 'What would you like help with?'
+    : stage === 'work' || stage === 'family' || stage === 'home' ? 'What would you like help with?'
     : stage === 'regime' ? 'Which rules apply to your employment?'
     : stage === 'term' ? 'Does your contract have a fixed end date?'
     : 'Are you still in a probation period?';
   const help = stage === 'topics' ? 'Start with a topic, or describe your question in your own words.'
-    : stage === 'work' || stage === 'family' ? 'We can start with a few facts. You can always describe your situation instead.'
+    : stage === 'work' || stage === 'family' || stage === 'home' ? 'We can start with a few facts. You can always describe your situation instead.'
     : stage === 'regime' ? 'Check your contract or appointment documents. A public employer can also use a private-law contract.'
     : stage === 'term' ? 'You do not need to enter the date.'
     : 'Choose what your contract says. If you are unsure, that is useful to know too.';
@@ -125,8 +126,8 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
 
   return <section id="guide-start" className={`swisslaw-guide sg-stage-${stage}`} lang={language} aria-label={tr('Guided start')}>
     <div className="sg-toolbar">
-      {stage === 'topics' ? <span className="sg-kicker">{tr('Swiss law')}</span> : <button type="button" className="sg-back" onClick={() => backTo(stage === 'family' ? 'topics' : STAGES[position - 1])}><Arrow back /><span>{tr('Back')}</span></button>}
-      <div className="sg-path-view"><Branches active={activeBranch} settled={stage !== 'topics'} /><div className={stage === 'topics' ? 'sg-progress-hidden' : 'sg-progress-visible'}><Progress stage={stage === 'family' ? 'work' : stage} label={tr('Your progress')} /></div></div>
+      {stage === 'topics' ? <span className="sg-kicker">{tr('Swiss law')}</span> : <button type="button" className="sg-back" onClick={() => backTo(stage === 'family' || stage === 'home' ? 'topics' : STAGES[position - 1])}><Arrow back /><span>{tr('Back')}</span></button>}
+      <div className="sg-path-view"><Branches active={activeBranch} settled={stage !== 'topics'} /><div className={stage === 'topics' ? 'sg-progress-hidden' : 'sg-progress-visible'}><Progress stage={stage === 'family' || stage === 'home' ? 'work' : stage} label={tr('Your progress')} /></div></div>
     </div>
 
     {position > 1 && <nav className="sg-trail" aria-label={tr('Your choices')}>
@@ -143,7 +144,7 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
       </header>
 
       {stage === 'topics' ? <div className="sg-topic-grid" aria-describedby={helpId}>
-        {TOPICS.map((topic, i) => <button type="button" className="sg-topic" key={topic} onPointerEnter={() => setActiveBranch(i)} onPointerLeave={() => setActiveBranch(-1)} onFocus={() => setActiveBranch(i)} onBlur={() => setActiveBranch(-1)} onClick={() => topic === 'Work' ? move('work') : topic === 'Family' ? move('family') : freeText(tr(topic))}>
+        {TOPICS.map((topic, i) => <button type="button" className="sg-topic" key={topic} onPointerEnter={() => setActiveBranch(i)} onPointerLeave={() => setActiveBranch(-1)} onFocus={() => setActiveBranch(i)} onBlur={() => setActiveBranch(-1)} onClick={() => topic === 'Work' ? move('work') : topic === 'Family' ? move('family') : topic === 'Home' ? move('home') : freeText(tr(topic))}>
           <span className="sg-topic-number" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span><span className="sg-topic-label">{tr(topic)}</span><Arrow />
         </button>)}
       </div> : <div className="sg-options" aria-describedby={helpId}>
@@ -154,6 +155,7 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
           {option('Pay or another work issue', () => freeText(`${tr('Work')} · ${tr('Pay or working hours')}`))}
           {option('Something else about work', () => freeText(tr('Work')))}
         </>}
+        {stage === 'home' && <>{option('My rent has increased', () => onPractical('rent-increase'))}{option('Something is wrong with my home', () => onPractical('housing-defect'))}{option('Ending a tenancy', () => onPractical('tenancy-end'))}{option('Another housing question', () => freeText(tr('Home')))}</>}
         {stage === 'family' && <>{option('Getting married', () => onPractical('marriage'))}{option('Another family question', () => freeText(tr('Family')))}</>}
         {stage === 'regime' && <>
           {option('Private employment law', () => chooseRegime('private'), 'The Code of Obligations (OR/CO).', facts.regime === 'private')}
@@ -173,7 +175,7 @@ export default function GuidedStart({ language, onFreeText, onComplete, onPracti
       </div>}
 
       <div className="sg-free-text">
-        <button type="button" onClick={() => freeText(stage === 'topics' ? undefined : stage === 'family' ? tr('Family') : position > 1 ? `${tr('Work')} · ${tr('Leaving my job')}` : tr('Work'))}>
+        <button type="button" onClick={() => freeText(stage === 'topics' ? undefined : stage === 'family' ? tr('Family') : stage === 'home' ? tr('Home') : position > 1 ? `${tr('Work')} · ${tr('Leaving my job')}` : tr('Work'))}>
           <span>{tr(stage === 'topics' ? 'Write in your own words' : 'Describe your situation instead')}</span><Arrow />
         </button>
         {stage === 'regime' && <p>{tr('This path covers ordinary resignation. For immediate departure, an apprenticeship or another special arrangement, describe your situation instead.')}</p>}

@@ -1,0 +1,602 @@
+{
+  "My rent has increased": [
+    "Meine Miete wurde erhöht",
+    "Mon loyer a augmenté",
+    "Il mio affitto è aumentato",
+    "Mes tschains da locaziun è s'augmentà"
+  ],
+  "Something is wrong with my home": [
+    "Mit meiner Wohnung stimmt etwas nicht",
+    "Il y a un problème dans mon logement",
+    "C’è un problema nella mia abitazione",
+    "I dat in problem cun mia abitaziun"
+  ],
+  "Ending a tenancy": [
+    "Ein Mietverhältnis beenden",
+    "Mettre fin à un bail",
+    "Terminare una locazione",
+    "Terminar ina locaziun"
+  ],
+  "What kind of tenancy is this?": [
+    "Um welche Art von Mietverhältnis geht es?",
+    "De quel type de bail s’agit-il ?",
+    "Di che tipo di locazione si tratta?",
+    "Da tge tip da locaziun sa tracti?"
+  ],
+  "This path is for tenants of homes in Switzerland. Special rent arrangements need separate checking.": [
+    "Dieser Weg ist für Personen, die in der Schweiz eine Wohnung mieten. Besondere Mietregelungen müssen separat geprüft werden.",
+    "Ce parcours s’adresse aux personnes qui louent un logement en Suisse. Les régimes de loyer particuliers doivent être vérifiés séparément.",
+    "Questo percorso è per chi affitta un’abitazione in Svizzera. I regimi particolari di locazione richiedono una verifica separata.",
+    "Questa via è per persunas che prendan a fit in’abitaziun en Svizra. Reglamentaziuns spezialas dal tschains da locaziun ston vegnir examinadas separadamain."
+  ],
+  "A home in Switzerland, with ordinary rent": [
+    "Eine Wohnung in der Schweiz mit gewöhnlicher Mietregelung",
+    "Un logement en Suisse avec un loyer ordinaire",
+    "Un’abitazione in Svizzera con un regime ordinario di locazione",
+    "In’abitaziun en Svizra cun in tschains da locaziun ordinari"
+  ],
+  "Business premises, subsidised housing or special rent": [
+    "Geschäftsräume, subventionierte Wohnung oder besondere Mietregelung",
+    "Locaux commerciaux, logement subventionné ou loyer particulier",
+    "Locali commerciali, abitazione sussidiata o regime particolare di locazione",
+    "Locals commerzials, abitaziun subvenziunada u tschains da locaziun spezial"
+  ],
+  "I’m not sure": [
+    "Ich bin nicht sicher",
+    "Je ne sais pas",
+    "Non sono sicuro/a",
+    "Jau na sun betg segir/a"
+  ],
+  "Has the rent changed during your tenancy?": [
+    "Hat sich die Miete während Ihres Mietverhältnisses geändert?",
+    "Le loyer a-t-il changé pendant votre bail ?",
+    "Il canone è cambiato durante la locazione?",
+    "È il tschains sa midà durant Vossa locaziun?"
+  ],
+  "Yes, my existing rent is going up": [
+    "Ja, meine bestehende Miete wird erhöht",
+    "Oui, mon loyer actuel augmente",
+    "Sì, il mio canone attuale sta aumentando",
+    "Gea, mes tschains actual vegn augmentà"
+  ],
+  "No, this is the rent in a new tenancy": [
+    "Nein, es geht um die Miete bei einem neuen Mietverhältnis",
+    "Non, il s’agit du loyer d’un nouveau bail",
+    "No, è il canone di una nuova locazione",
+    "Na, i sa tracta dal tschains d’ina nova locaziun"
+  ],
+  "Does the landlord know about the problem?": [
+    "Weiss die Vermieterschaft von dem Problem?",
+    "Le bailleur connaît-il le problème ?",
+    "Il locatore conosce il problema?",
+    "Sa il locatur dal problem?"
+  ],
+  "Yes, I have reported it": [
+    "Ja, ich habe es gemeldet",
+    "Oui, je l’ai signalé",
+    "Sì, l’ho segnalato",
+    "Gea, jau l’hai annunzià"
+  ],
+  "Not yet": [
+    "Noch nicht",
+    "Pas encore",
+    "Non ancora",
+    "Anc betg"
+  ],
+  "Who wants to end the tenancy?": [
+    "Wer möchte das Mietverhältnis beenden?",
+    "Qui veut mettre fin au bail ?",
+    "Chi vuole terminare la locazione?",
+    "Tgi vul terminar la locaziun?"
+  ],
+  "I want to give ordinary notice": [
+    "Ich möchte ordentlich kündigen",
+    "Je veux résilier à une échéance ordinaire",
+    "Voglio dare disdetta per una scadenza ordinaria",
+    "Jau vuless dar ina desditga ordinaria"
+  ],
+  "I want to leave before the next possible end date": [
+    "Ich möchte vor dem nächsten möglichen Endtermin ausziehen",
+    "Je veux partir avant la prochaine échéance possible",
+    "Voglio lasciare l’abitazione prima della prossima scadenza possibile",
+    "Jau vuless partir avant il proxim termin da fin pussaivel"
+  ],
+  "The landlord has given me notice": [
+    "Die Vermieterschaft hat mir gekündigt",
+    "Le bailleur m’a donné congé",
+    "Il locatore mi ha dato disdetta",
+    "Il locatur m’ha dà la desditga"
+  ],
+  "Business premises, subsidised housing, agricultural leases, indexed or stepped rents and other special arrangements need a separate assessment. This overview does not determine the rules for them.": [
+    "Geschäftsräume, subventionierte Wohnungen, landwirtschaftliche Pachtverhältnisse, indexierte oder gestaffelte Mieten und andere Sonderregelungen müssen separat beurteilt werden. Diese Übersicht bestimmt nicht, welche Regeln dafür gelten.",
+    "Les locaux commerciaux, les logements subventionnés, les baux à ferme agricoles, les loyers indexés ou échelonnés et les autres régimes particuliers nécessitent une évaluation séparée. Cet aperçu ne détermine pas les règles qui leur sont applicables.",
+    "Locali commerciali, abitazioni sussidiate, affitti agricoli, pigioni indicizzate o scalari e altri regimi particolari richiedono una valutazione separata. Questa panoramica non determina le regole applicabili a questi casi.",
+    "Locals commerzials, abitaziuns subvenziunadas, fittanzas agriculas, tschains indexads u graduads ed autras reglamentaziuns spezialas dovran ina valitaziun separada. Questa survista na determinescha betg las reglas che valan per els."
+  ],
+  "Check the contract for a fixed term, indexed or stepped rent and other special arrangements. This overview concerns ordinary residential tenancies in Switzerland; it does not calculate a personal deadline.": [
+    "Prüfen Sie, ob der Vertrag befristet ist oder eine indexierte beziehungsweise gestaffelte Miete oder andere Sonderregelungen vorsieht. Diese Übersicht betrifft gewöhnliche Wohnungsmietverhältnisse in der Schweiz; sie berechnet keine persönliche Frist.",
+    "Vérifiez si le contrat prévoit une durée déterminée, un loyer indexé ou échelonné ou d’autres dispositions particulières. Cet aperçu concerne les baux d’habitation ordinaires en Suisse ; il ne calcule pas votre délai personnel.",
+    "Verificate se il contratto ha una durata determinata, una pigione indicizzata o scalare o altre condizioni particolari. Questa panoramica riguarda le locazioni abitative ordinarie in Svizzera; non calcola una scadenza personale.",
+    "Examinai sch’il contract ha ina durada limitada, in tschains indexà u graduà u autras reglamentaziuns spezialas. Questa survista pertutga locaziuns ordinarias d’abitaziuns en Svizra; ella na calculescha betg in termin persunal."
+  ],
+  "Your tenancy needs a separate assessment. The ordinary residential rules in this guide may not apply.": [
+    "Ihr Mietverhältnis muss separat beurteilt werden. Die gewöhnlichen Regeln für Wohnungsmieten in diesem Leitfaden gelten möglicherweise nicht.",
+    "Votre bail nécessite une évaluation séparée. Les règles ordinaires des baux d’habitation présentées ici ne s’appliquent peut-être pas.",
+    "La vostra locazione richiede una valutazione separata. Le regole ordinarie per le abitazioni contenute in questa guida potrebbero non essere applicabili.",
+    "Vossa locaziun dovra ina valitaziun separada. Las reglas ordinarias per abitaziuns en quest guid na valan eventualmain betg."
+  ],
+  "Keep the contract and any notice, including its envelope and delivery information. Contact the competent tenancy or housing authority promptly; short deadlines may apply.": [
+    "Bewahren Sie den Vertrag und jede Mitteilung samt Umschlag und Zustellinformationen auf. Wenden Sie sich rasch an die zuständige Miet- oder Wohnungsbehörde; es können kurze Fristen gelten.",
+    "Conservez le contrat et toute notification, avec l’enveloppe et les informations de remise. Contactez rapidement l’autorité compétente en matière de bail ou de logement ; des délais courts peuvent s’appliquer.",
+    "Conservate il contratto e ogni comunicazione, comprese la busta e le informazioni di consegna. Contattate tempestivamente l’autorità competente in materia di locazione o abitazione; potrebbero applicarsi termini brevi.",
+    "Conservai il contract e mintga communicaziun, inclusiv la cuverta e las infurmaziuns davart la consegna. Contactai spert l’autoritad cumpetenta per locaziuns u abitaziuns; i pon valair termins curts."
+  ],
+  "Explain whether the premises are a home or business, and whether the rent is officially controlled, indexed or increases in agreed steps. Ask which authority and procedure apply before relying on an ordinary tenancy rule.": [
+    "Erklären Sie, ob es sich um eine Wohnung oder Geschäftsräume handelt und ob die Miete behördlich kontrolliert, indexiert oder in vereinbarten Stufen erhöht wird. Klären Sie die zuständige Behörde und das Verfahren, bevor Sie sich auf eine gewöhnliche Mietregel stützen.",
+    "Précisez s’il s’agit d’un logement ou de locaux commerciaux et si le loyer est contrôlé par une autorité, indexé ou augmente par paliers convenus. Demandez quelle autorité et quelle procédure sont compétentes avant de vous appuyer sur une règle ordinaire du bail.",
+    "Spiegate se si tratta di un’abitazione o di locali commerciali e se il canone è controllato da un’autorità, indicizzato o aumenta secondo scatti concordati. Chiedete quale autorità e quale procedura siano competenti prima di fare affidamento su una regola ordinaria di locazione.",
+    "Explitgai sch’i sa tracta d’in’abitaziun u da locals commerzials e sch’il tschains è controllà d’ina autoritad, indexà u s’augmenta en etappas cunvegnidas. Dumandai tge autoritad e tge procedura che valan avant che As basar sin ina regla ordinaria da locaziun."
+  ],
+  "The starting rent in a new tenancy is a different issue from a later rent increase. This guide cannot establish whether you can challenge the starting rent.": [
+    "Der Anfangsmietzins bei einem neuen Mietverhältnis ist eine andere Frage als eine spätere Mietzinserhöhung. Dieser Leitfaden kann nicht klären, ob Sie den Anfangsmietzins anfechten können.",
+    "Le loyer initial d’un nouveau bail est une question différente d’une hausse ultérieure. Ce guide ne permet pas d’établir si vous pouvez contester le loyer initial.",
+    "La pigione iniziale di una nuova locazione è una questione diversa da un aumento successivo. Questa guida non può stabilire se potete contestare la pigione iniziale.",
+    "Il tschains inizial d’ina nova locaziun è in’autra dumonda ch’in augment pli tard. Quest guid na po betg determinar sche Vus pudais contestar il tschains inizial."
+  ],
+  "Keep the contract, any official rent form and a record of when you took over the home. Contact the tenancy conciliation authority promptly: a short challenge period may apply.": [
+    "Bewahren Sie den Vertrag, ein allfälliges amtliches Mietzinsformular und einen Nachweis der Wohnungsübernahme auf. Wenden Sie sich rasch an die Schlichtungsbehörde in Mietsachen: Es kann eine kurze Anfechtungsfrist gelten.",
+    "Conservez le contrat, tout formulaire officiel de loyer et une preuve de la date de prise de possession du logement. Contactez rapidement l’autorité de conciliation en matière de bail : un délai de contestation court peut s’appliquer.",
+    "Conservate il contratto, gli eventuali moduli ufficiali relativi alla pigione e una prova della data in cui avete preso in consegna l’abitazione. Contattate tempestivamente l’autorità di conciliazione in materia di locazione: potrebbe applicarsi un termine breve per la contestazione.",
+    "Conservai il contract, in eventual formular uffizial dal tschains ed ina cumprova da la data che Vus avais surpiglià l’abitaziun. Contactai spert l’autoritad da mediaziun en chaussas da locaziun: i po valair in termin curt per contestar."
+  ],
+  "First establish whether this is an increase to an existing residential rent. Keep the notice and obtain prompt advice from the tenancy conciliation authority if that is unclear.": [
+    "Klären Sie zuerst, ob eine bestehende Wohnungsmiete erhöht wird. Bewahren Sie die Mitteilung auf und wenden Sie sich bei Unklarheiten rasch an die Schlichtungsbehörde in Mietsachen.",
+    "Vérifiez d’abord s’il s’agit d’une hausse du loyer d’habitation existant. Conservez la notification et demandez rapidement conseil à l’autorité de conciliation en matière de bail si ce point n’est pas clair.",
+    "Verificate anzitutto se si tratta di un aumento di una pigione abitativa già in vigore. Conservate la comunicazione e, se questo non è chiaro, chiedete tempestivamente indicazioni all’autorità di conciliazione in materia di locazione.",
+    "Sclerì l’emprim sch’i sa tracta d’in augment dal tschains existent d’ina abitaziun. Conservai la communicaziun e dumandai spert cussegl a l’autoritad da mediaziun en chaussas da locaziun sche quai n’è betg cler."
+  ],
+  "Keep the increase notice and check the challenge period first. You do not have to decide on your own whether the increase is lawful.": [
+    "Bewahren Sie die Mietzinserhöhung auf und prüfen Sie zuerst die Anfechtungsfrist. Sie müssen nicht allein beurteilen, ob die Erhöhung rechtmässig ist.",
+    "Conservez l’avis de hausse et vérifiez d’abord le délai de contestation. Vous n’avez pas à décider seul si la hausse est conforme au droit.",
+    "Conservate l’avviso di aumento e verificate prima il termine per contestarlo. Non dovete stabilire da soli se l’aumento è conforme alla legge.",
+    "Conservai la communicaziun da l’augment e controllai l’emprim il termin per contestar. Vus na stuais betg giuditgar persuls sche l’augment è legal."
+  ],
+  "For an increase to an existing rent covered by these rules, you must initiate conciliation proceedings to challenge it within 30 days after legal receipt of the notice. Do not wait until the higher rent starts. Asking the landlord to reconsider does not preserve that period.": [
+    "Um eine Erhöhung einer bestehenden Miete nach diesen Regeln anzufechten, müssen Sie innert 30 Tagen nach dem rechtlich massgebenden Empfang der Mitteilung ein Schlichtungsverfahren einleiten. Warten Sie nicht, bis die höhere Miete gilt. Eine Bitte an die Vermieterschaft, die Erhöhung nochmals zu prüfen, wahrt diese Frist nicht.",
+    "Pour contester une hausse d’un loyer existant soumise à ces règles, vous devez saisir l’autorité de conciliation dans les 30 jours suivant la réception de l’avis au sens juridique. N’attendez pas l’entrée en vigueur du loyer plus élevé. Demander au bailleur de reconsidérer la hausse ne sauvegarde pas ce délai.",
+    "Per contestare un aumento di una pigione esistente soggetta a queste regole, dovete avviare la procedura di conciliazione entro 30 giorni dalla ricezione giuridicamente determinante dell’avviso. Non aspettate che entri in vigore il canone più alto. Chiedere al locatore di riconsiderare l’aumento non salvaguarda questo termine.",
+    "Per contestar in augment d’in tschains existent tenor questas reglas stuais Vus instradar ina procedura da mediaziun entaifer 30 dis suenter la recepziun giuridicamain decisiva da la communicaziun. Na spetgai betg fin ch’il tschains pli aut vala. Dumandar il locatur da reponderar l’augment na mantegna betg quest termin."
+  ],
+  "Keep the notice, envelope, delivery information and contract. Legal receipt can differ from the day you read or collect a letter. Have uncertain dates checked promptly; this tool does not calculate them.": [
+    "Bewahren Sie die Mitteilung, den Umschlag, die Zustellinformationen und den Vertrag auf. Der rechtlich massgebende Empfang kann von dem Tag abweichen, an dem Sie einen Brief lesen oder abholen. Lassen Sie unklare Daten rasch prüfen; dieses Tool berechnet sie nicht.",
+    "Conservez l’avis, l’enveloppe, les informations de remise et le contrat. La réception au sens juridique peut différer du jour où vous lisez ou retirez une lettre. Faites vérifier rapidement toute date incertaine ; cet outil ne les calcule pas.",
+    "Conservate l’avviso, la busta, le informazioni di consegna e il contratto. La ricezione giuridicamente determinante può non coincidere con il giorno in cui leggete o ritirate una lettera. Fate verificare tempestivamente le date incerte; questo strumento non le calcola.",
+    "Conservai la communicaziun, la cuverta, las infurmaziuns davart la consegna ed il contract. La recepziun giuridicamain decisiva po differir dal di che Vus legiais u retirais ina brev. Laschai sclerir spert datas intschertas; quest instrument na las calculescha betg."
+  ],
+  "For an ordinary rent increase, check the cantonal official form, stated reasons and timing. The notice must arrive at least ten days before the start of the notice period. Formal defects can affect validity; do not assume this lets you ignore the notice.": [
+    "Prüfen Sie bei einer gewöhnlichen Mietzinserhöhung das amtliche kantonale Formular, die angegebenen Gründe und den Zeitpunkt. Die Mitteilung muss mindestens zehn Tage vor Beginn der Kündigungsfrist eintreffen. Formfehler können die Gültigkeit beeinflussen; nehmen Sie deshalb aber nicht an, Sie könnten die Mitteilung ignorieren.",
+    "Pour une hausse de loyer ordinaire, vérifiez la formule officielle cantonale, les motifs indiqués et les dates. L’avis doit parvenir au moins dix jours avant le début du délai de résiliation. Des défauts de forme peuvent affecter la validité ; n’en déduisez pas que vous pouvez ignorer l’avis.",
+    "Per un aumento ordinario della pigione, verificate il modulo ufficiale cantonale, i motivi indicati e le date. L’avviso deve pervenire almeno dieci giorni prima dell’inizio del termine di preavviso per la disdetta. Difetti di forma possono incidere sulla validità; non presumete però di poter ignorare l’avviso.",
+    "Tar in augment ordinari dal tschains controllai il formular uffizial chantunal, ils motivs inditgads e las datas. La communicaziun sto arrivar almain diesch dis avant il cumenzament da la perioda da preavis per la desditga. Mancanzas da furma pon influenzar la validitad; na supponì dentant betg che Vus possias ignorar la communicaziun."
+  ],
+  "Contact the tenancy conciliation authority for the place where the home is located. Ask how to submit a challenge in time. Prepare the notice, current contract and earlier rent changes; do not rely on an ordinary email as a valid filing.": [
+    "Wenden Sie sich an die Schlichtungsbehörde in Mietsachen am Ort der Wohnung. Fragen Sie, wie Sie die Erhöhung rechtzeitig anfechten können. Halten Sie die Mitteilung, den aktuellen Vertrag und frühere Mietzinsänderungen bereit; verlassen Sie sich nicht darauf, dass eine gewöhnliche E-Mail als gültige Eingabe genügt.",
+    "Contactez l’autorité de conciliation en matière de bail du lieu où se trouve le logement. Demandez comment déposer une contestation dans les délais. Préparez l’avis, le contrat actuel et les modifications antérieures du loyer ; ne comptez pas sur un simple courriel pour constituer un dépôt valable.",
+    "Contattate l’autorità di conciliazione in materia di locazione del luogo in cui si trova l’abitazione. Chiedete come presentare una contestazione entro il termine. Preparate l’avviso, il contratto attuale e le precedenti modifiche del canone; non fate affidamento su una normale e-mail come deposito valido.",
+    "Contactai l’autoritad da mediaziun en chaussas da locaziun al lieu da l’abitaziun. Dumandai co inoltrar a temp ina contestaziun. Preparai la communicaziun, il contract actual e las midadas anteriuras dal tschains; na fidai betg ch’in e-mail ordinari saja in’inoltraziun valaivla."
+  ],
+  "A proper form does not by itself make the amount lawful. The permitted increase depends on its reasons and the relevant tenancy facts. This guide does not calculate a lawful rent or predict the outcome.": [
+    "Ein korrektes Formular allein macht die Höhe der Miete noch nicht rechtmässig. Die zulässige Erhöhung hängt von ihrer Begründung und den relevanten Umständen des Mietverhältnisses ab. Dieser Leitfaden berechnet keinen zulässigen Mietzins und sagt den Ausgang nicht voraus.",
+    "Un formulaire correct ne suffit pas à rendre le montant conforme au droit. La hausse admissible dépend de ses motifs et des faits pertinents du bail. Ce guide ne calcule pas un loyer admissible et ne prédit pas l’issue.",
+    "Un modulo corretto non rende di per sé lecito l’importo richiesto. L’aumento ammissibile dipende dai motivi e dai fatti rilevanti della locazione. Questa guida non calcola un canone lecito e non prevede l’esito.",
+    "In formular correct na renda betg automaticamain legala l’autezza dal tschains. L’augment admissibel dependa da sia motivaziun e dals fatgs relevants da la locaziun. Quest guid na calculescha betg in tschains legal e na predì betg il resultat."
+  ],
+  "First check which tenancy rules apply. For an ordinary rented home, start by documenting the problem and notifying the landlord.": [
+    "Klären Sie zuerst, welche Mietregeln gelten. Bei einer gewöhnlichen Mietwohnung sollten Sie zunächst das Problem dokumentieren und die Vermieterschaft informieren.",
+    "Vérifiez d’abord quelles règles du bail s’appliquent. Pour un logement loué ordinaire, commencez par documenter le problème et informer le bailleur.",
+    "Verificate anzitutto quali regole di locazione si applicano. Per un’abitazione in locazione ordinaria, iniziate documentando il problema e informando il locatore.",
+    "Sclerì l’emprim tge reglas da locaziun che valan. Tar in’abitaziun locada ordinaria cumenzai cun documentar il problem ed infurmar il locatur."
+  ],
+  "Report the problem to the landlord in writing and keep evidence. A clear description and a repair request are the useful first steps.": [
+    "Melden Sie das Problem schriftlich der Vermieterschaft und bewahren Sie Belege auf. Eine klare Beschreibung und die Aufforderung zur Behebung sind sinnvolle erste Schritte.",
+    "Signalez le problème au bailleur par écrit et conservez les preuves. Une description claire et une demande de réparation sont les premières démarches utiles.",
+    "Segnalate il problema al locatore per iscritto e conservate le prove. Una descrizione chiara e una richiesta di riparazione sono i primi passi utili.",
+    "Annunziai il problem en scrit al locatur e conservai cumprovas. Ina descripziun clera ed ina dumonda da reparar èn ils emprims pass utils."
+  ],
+  "Keep evidence of the problem and of when the landlord was informed. Follow up in writing with a clear request for repair.": [
+    "Bewahren Sie Belege für das Problem und dafür auf, wann die Vermieterschaft informiert wurde. Fordern Sie sie schriftlich und klar zur Behebung auf.",
+    "Conservez les preuves du problème et de la date à laquelle le bailleur a été informé. Relancez-le par écrit avec une demande de réparation claire.",
+    "Conservate le prove del problema e della data in cui il locatore è stato informato. Sollecitatelo per iscritto con una chiara richiesta di riparazione.",
+    "Conservai cumprovas dal problem e da la data che il locatur è vegnì infurmà. Sollicitai el en scrit cun ina dumonda clera da reparar."
+  ],
+  "If there is an immediate danger to health or safety, protect yourself and contact the appropriate emergency or repair service. Do not wait for this guide.": [
+    "Bei unmittelbarer Gefahr für Gesundheit oder Sicherheit bringen Sie sich in Sicherheit und wenden Sie sich an den passenden Notfall- oder Reparaturdienst. Warten Sie nicht auf diesen Leitfaden.",
+    "En cas de danger immédiat pour la santé ou la sécurité, mettez-vous à l’abri et contactez le service d’urgence ou de réparation approprié. N’attendez pas ce guide.",
+    "In caso di pericolo immediato per la salute o la sicurezza, mettetevi al sicuro e contattate il servizio di emergenza o di riparazione appropriato. Non aspettate questa guida.",
+    "Sch’igl exista in privel immediat per la sanadad u la segirezza, As mettai en segirezza e contactai il servetsch d’urgenza u da reparaziun adattà. Na spetgai betg sin quest guid."
+  ],
+  "Record what is wrong, which rooms or facilities are affected and since when. Keep photographs and messages. Tell the landlord or property manager in writing, request repair and keep proof of delivery.": [
+    "Halten Sie fest, was nicht funktioniert, welche Räume oder Einrichtungen betroffen sind und seit wann. Bewahren Sie Fotos und Nachrichten auf. Informieren Sie die Vermieterschaft oder Verwaltung schriftlich, verlangen Sie die Behebung und bewahren Sie einen Zustellnachweis auf.",
+    "Notez ce qui ne va pas, les pièces ou équipements concernés et depuis quand. Conservez les photos et les messages. Informez le bailleur ou la régie par écrit, demandez la réparation et conservez une preuve de remise.",
+    "Annotate cosa non funziona, quali locali o impianti sono interessati e da quando. Conservate fotografie e messaggi. Informate per iscritto il locatore o l’amministrazione, chiedete la riparazione e conservate una prova della consegna.",
+    "Nudai tge che na funcziuna betg, tge stanzas u installaziuns che èn pertutgadas e dapi cura. Conservai fotografias e messadis. Infurmai il locatur u l’administraziun en scrit, pretendai ina reparaziun e conservai ina cumprova da la consegna."
+  ],
+  "For defects you did not cause and do not have to remedy yourself, the law can provide rights to repair and other remedies. Minor maintenance, responsibility for the damage and the seriousness of the problem matter. Do not assume every inconvenience creates the same rights.": [
+    "Bei Mängeln, die Sie weder verursacht haben noch selbst beheben müssen, kann das Gesetz Ansprüche auf Behebung und weitere Rechte vorsehen. Der kleine Unterhalt, die Verantwortung für den Schaden und die Schwere des Problems spielen eine Rolle. Nicht jede Unannehmlichkeit begründet dieselben Rechte.",
+    "Pour les défauts que vous n’avez pas causés et que vous ne devez pas réparer vous-même, la loi peut prévoir un droit à la réparation et d’autres droits. Le menu entretien, la responsabilité du dommage et la gravité du problème comptent. Ne supposez pas que tout désagrément donne les mêmes droits.",
+    "Per i difetti che non avete causato e che non siete tenuti a eliminare personalmente, la legge può prevedere il diritto alla riparazione e altri rimedi. Contano la piccola manutenzione, la responsabilità del danno e la gravità del problema. Non presumete che ogni inconveniente dia gli stessi diritti.",
+    "Per mancanzas che Vus n’avais betg chaschunà e che Vus na stuais betg eliminar sezs po la lescha prevair dretgs a la reparaziun ed auters meds. Il pitschen mantegniment, la responsabladad per il donn e la grevezza dal problem èn relevants. Na supponì betg che mintga dischavantatg dettia ils medems dretgs."
+  ],
+  "If use of the home is impaired, a proportionate rent reduction may be due from when the landlord knew of the defect until it is remedied. This is not an automatic fixed percentage. Keep paying as agreed unless a reduction or lawful procedure has been established.": [
+    "Wenn die Nutzung der Wohnung beeinträchtigt ist, kann eine angemessene Mietzinsherabsetzung geschuldet sein: ab dem Zeitpunkt, in dem die Vermieterschaft vom Mangel wusste, bis zu seiner Behebung. Es gibt keinen automatisch geltenden festen Prozentsatz. Zahlen Sie weiterhin wie vereinbart, solange keine Herabsetzung oder ein rechtmässiges Verfahren feststeht.",
+    "Si l’usage du logement est diminué, une réduction proportionnelle du loyer peut être due dès que le bailleur a eu connaissance du défaut et jusqu’à son élimination. Il ne s’agit pas d’un pourcentage fixe automatique. Continuez à payer comme convenu tant qu’une réduction ou une procédure conforme au droit n’a pas été établie.",
+    "Se l’uso dell’abitazione è compromesso, può essere dovuta una riduzione proporzionale della pigione da quando il locatore ha avuto conoscenza del difetto fino alla sua eliminazione. Non si applica automaticamente una percentuale fissa. Continuate a pagare come concordato finché non sia stata stabilita una riduzione o una procedura conforme alla legge.",
+    "Sche l’utilisaziun da l’abitaziun è restrenschida, po esser debita ina reducziun proporziunala dal tschains, a partir dal mument che il locatur saveva da la mancanza fin ch’ella è eliminada. I na vala betg automaticamain ina procentuala fixa. Cuntinuai a pajar sco cunvegnì fin ch’ina reducziun u ina procedura legala è stabilida."
+  ],
+  "If repair is not arranged, ask the tenancy conciliation authority about the next step. Do not simply stop paying rent or send it to an account of your choice. Formal rent deposit requires advance written steps and the officially designated deposit office.": [
+    "Wenn die Behebung nicht veranlasst wird, fragen Sie die Schlichtungsbehörde in Mietsachen nach dem nächsten Schritt. Stellen Sie die Mietzahlungen nicht einfach ein und überweisen Sie sie nicht auf ein selbst gewähltes Konto. Eine formelle Mietzinshinterlegung erfordert vorgängige schriftliche Schritte und die behördlich bezeichnete Hinterlegungsstelle.",
+    "Si la réparation n’est pas organisée, demandez à l’autorité de conciliation en matière de bail quelle est la prochaine démarche. Ne cessez pas simplement de payer et ne versez pas le loyer sur un compte de votre choix. La consignation formelle du loyer exige des démarches écrites préalables et le recours à l’office de consignation officiellement désigné.",
+    "Se la riparazione non viene organizzata, chiedete all’autorità di conciliazione in materia di locazione quale sia il prossimo passo. Non smettete semplicemente di pagare e non versate il canone su un conto di vostra scelta. Il deposito formale della pigione richiede passi scritti preliminari e l’ufficio di deposito ufficialmente designato.",
+    "Sche la reparaziun na vegn betg organisada, dumandai l’autoritad da mediaziun en chaussas da locaziun davart il proxim pass. Na smettai betg simplamain da pajar il tschains e na transferì betg quel sin in conto da Vossa tscherna. Il deposit formal dal tschains pretenda pass en scrit ordavant ed il post da deposit designà uffizialmain."
+  ],
+  "For formal rent deposit, first set a reasonable written repair deadline and threaten deposit; also notify the landlord in writing that you will deposit future rent. Claims must be brought before the conciliation authority within 30 days after the first deposited rent becomes due. Have the procedure checked before using it.": [
+    "Für eine formelle Mietzinshinterlegung setzen Sie zuerst schriftlich eine angemessene Frist zur Behebung und drohen die Hinterlegung an; teilen Sie der Vermieterschaft zudem schriftlich mit, dass Sie künftige Mietzinse hinterlegen werden. Ansprüche müssen innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend gemacht werden. Lassen Sie das Verfahren prüfen, bevor Sie es nutzen.",
+    "Pour consigner formellement le loyer, fixez d’abord par écrit un délai raisonnable pour réparer en menaçant de consigner ; avisez aussi le bailleur par écrit que vous consignerez les loyers futurs. Les prétentions doivent être portées devant l’autorité de conciliation dans les 30 jours suivant l’échéance du premier loyer consigné. Faites vérifier la procédure avant de l’utiliser.",
+    "Per il deposito formale della pigione, fissate prima per iscritto un termine ragionevole per la riparazione, minacciando il deposito; avvisate inoltre per iscritto il locatore che depositerete le pigioni future. Le pretese devono essere fatte valere davanti all’autorità di conciliazione entro 30 giorni dalla scadenza della prima pigione depositata. Fate verificare la procedura prima di utilizzarla.",
+    "Per il deposit formal dal tschains fixai l’emprim en scrit in termin raschunaivel per reparar e smanatschai il deposit; annunziai er al locatur en scrit che Vus deponis il tschains futur. Las pretensiuns ston vegnir inoltradas a l’autoritad da mediaziun entaifer 30 dis suenter che l’emprim tschains deponì daventa pajabel. Laschai examinar la procedura avant che l’utilisar."
+  ],
+  "Serious defects can raise further rights, including termination in specified circumstances. This guide does not establish that immediate departure or ordering repairs at the landlord’s expense is justified.": [
+    "Schwere Mängel können weitere Rechte begründen, unter bestimmten Voraussetzungen auch eine Kündigung. Dieser Leitfaden stellt nicht fest, dass ein sofortiger Auszug oder Reparaturen auf Kosten der Vermieterschaft gerechtfertigt sind.",
+    "Des défauts graves peuvent ouvrir d’autres droits, notamment la résiliation dans certaines circonstances. Ce guide n’établit pas qu’un départ immédiat ou des travaux commandés aux frais du bailleur seraient justifiés.",
+    "Difetti gravi possono far sorgere ulteriori diritti, compresa la disdetta in determinate circostanze. Questa guida non stabilisce che siano giustificati un’uscita immediata o lavori commissionati a spese del locatore.",
+    "Mancanzas gravantas pon dar ulteriurs dretgs, inclusiv la desditga en tschertas circumstanzas. Quest guid na constatescha betg ch’ina partenza immediata u reparaziuns incumbensadas a custs dal locatur sajan giustifitgadas."
+  ],
+  "Act promptly on a notice from the landlord. Check both a challenge to the notice and whether an extension of the tenancy is possible.": [
+    "Reagieren Sie rasch auf eine Kündigung der Vermieterschaft. Prüfen Sie sowohl eine Anfechtung als auch die Möglichkeit einer Erstreckung des Mietverhältnisses.",
+    "Réagissez rapidement à un congé donné par le bailleur. Vérifiez à la fois sa contestation et la possibilité d’une prolongation du bail.",
+    "Agite tempestivamente in caso di disdetta del locatore. Verificate sia la possibilità di contestarla sia quella di ottenere una protrazione della locazione.",
+    "Reagì spert sin ina desditga dal locatur. Examinai tant ina contestaziun sco er la pussaivladad d’ina prolungaziun da la locaziun."
+  ],
+  "For residential tenancies covered by these rules, a challenge to termination and a request to extend an indefinite tenancy generally have a 30-day period after legal receipt of the notice. Contact the tenancy conciliation authority promptly. A conversation with the landlord does not preserve the period.": [
+    "Bei Wohnungsmietverhältnissen nach diesen Regeln gilt für die Anfechtung einer Kündigung und das Begehren um Erstreckung eines unbefristeten Mietverhältnisses grundsätzlich eine Frist von 30 Tagen nach dem rechtlich massgebenden Empfang der Kündigung. Wenden Sie sich rasch an die Schlichtungsbehörde in Mietsachen. Ein Gespräch mit der Vermieterschaft wahrt die Frist nicht.",
+    "Pour les baux d’habitation soumis à ces règles, la contestation du congé et la demande de prolongation d’un bail de durée indéterminée doivent en principe être déposées dans les 30 jours suivant la réception du congé au sens juridique. Contactez rapidement l’autorité de conciliation en matière de bail. Une conversation avec le bailleur ne sauvegarde pas ce délai.",
+    "Per le locazioni abitative soggette a queste regole, la contestazione della disdetta e la domanda di protrazione di una locazione a tempo indeterminato hanno di regola un termine di 30 giorni dalla ricezione giuridicamente determinante della disdetta. Contattate tempestivamente l’autorità di conciliazione in materia di locazione. Una conversazione con il locatore non salvaguarda il termine.",
+    "Per locaziuns d’abitaziuns tenor questas reglas vala per contestar ina desditga e per dumandar ina prolungaziun d’ina locaziun illimitada per regla in termin da 30 dis suenter la recepziun giuridicamain decisiva da la desditga. Contactai spert l’autoritad da mediaziun en chaussas da locaziun. In discurs cun il locatur na mantegna betg quest termin."
+  ],
+  "Keep the notice, envelope, delivery information and contract. Legal receipt may be earlier than the day you collected or read the letter. Do not wait for a reply from the landlord before checking the deadline.": [
+    "Bewahren Sie die Kündigung, den Umschlag, die Zustellinformationen und den Vertrag auf. Der rechtlich massgebende Empfang kann vor dem Tag liegen, an dem Sie den Brief abgeholt oder gelesen haben. Warten Sie nicht auf eine Antwort der Vermieterschaft, bevor Sie die Frist prüfen.",
+    "Conservez le congé, l’enveloppe, les informations de remise et le contrat. La réception au sens juridique peut être antérieure au jour où vous avez retiré ou lu la lettre. N’attendez pas une réponse du bailleur avant de vérifier le délai.",
+    "Conservate la disdetta, la busta, le informazioni di consegna e il contratto. La ricezione giuridicamente determinante può essere anteriore al giorno in cui avete ritirato o letto la lettera. Non aspettate una risposta del locatore prima di verificare il termine.",
+    "Conservai la desditga, la cuverta, las infurmaziuns davart la consegna ed il contract. La recepziun giuridicamain decisiva po esser pli baud ch’il di che Vus avais retirà u legì la brev. Na spetgai betg sin ina resposta dal locatur avant che controllar il termin."
+  ],
+  "Check whether the landlord used the cantonal official form. For a family home, separate service on the tenant and their spouse or registered partner may be required. Defective form can make notice void, but have this checked rather than ignoring it.": [
+    "Prüfen Sie, ob die Vermieterschaft das amtliche kantonale Formular verwendet hat. Bei einer Familienwohnung kann eine separate Zustellung an die mietende Person und deren Ehepartner oder eingetragene Partnerin beziehungsweise eingetragenen Partner erforderlich sein. Ein Formfehler kann die Kündigung nichtig machen; lassen Sie das aber prüfen, statt die Kündigung zu ignorieren.",
+    "Vérifiez si le bailleur a utilisé la formule officielle cantonale. Pour un logement familial, une notification séparée au locataire et à son conjoint ou partenaire enregistré peut être requise. Un défaut de forme peut rendre le congé nul, mais faites-le vérifier au lieu d’ignorer le congé.",
+    "Verificate se il locatore ha usato il modulo ufficiale cantonale. Per un’abitazione familiare, può essere necessaria una notifica separata all’inquilino e al coniuge o al partner registrato. Un difetto di forma può rendere nulla la disdetta, ma fatelo verificare anziché ignorarla.",
+    "Controllai sch’il locatur ha duvrà il formular uffizial chantunal. Per in’abitaziun da famiglia po esser necessaria ina consegna separada a la persuna che prenda a fit ed a sia consorta u ses consort ubain a sia partenaria u ses partenari registrà. Ina mancanza da furma po render nulla la desditga, ma laschai examinar quai empè d’ignorar ella."
+  ],
+  "Ask the conciliation authority at the location of the home how to make a valid submission. An extension is not automatic and is excluded in some situations. This tool does not decide whether the notice is valid or whether you qualify for an extension.": [
+    "Fragen Sie die Schlichtungsbehörde am Ort der Wohnung, wie Sie eine gültige Eingabe machen. Eine Erstreckung erfolgt nicht automatisch und ist in gewissen Fällen ausgeschlossen. Dieses Tool entscheidet nicht, ob die Kündigung gültig ist oder ob Sie die Voraussetzungen für eine Erstreckung erfüllen.",
+    "Demandez à l’autorité de conciliation du lieu du logement comment déposer une demande valable. Une prolongation n’est pas automatique et est exclue dans certaines situations. Cet outil ne décide pas si le congé est valable ni si vous remplissez les conditions d’une prolongation.",
+    "Chiedete all’autorità di conciliazione del luogo dell’abitazione come presentare una domanda valida. La protrazione non è automatica ed è esclusa in alcune situazioni. Questo strumento non decide se la disdetta è valida o se avete i requisiti per una protrazione.",
+    "Dumandai l’autoritad da mediaziun al lieu da l’abitaziun co inoltrar ina dumonda valaivla. Ina prolungaziun n’è betg automatica ed è exclusa en tschertas situaziuns. Quest instrument na decida betg sche la desditga è valaivla u sche Vus ademplis las premissas per ina prolungaziun."
+  ],
+  "Moving out early does not by itself end the duty to pay rent. Check whether the landlord agrees to an earlier end or whether the replacement-tenant rule applies.": [
+    "Ein vorzeitiger Auszug beendet die Pflicht zur Mietzahlung nicht von selbst. Prüfen Sie, ob die Vermieterschaft einem früheren Ende zustimmt oder ob die Regel zur Ersatzmieterschaft anwendbar ist.",
+    "Partir plus tôt ne met pas fin, à lui seul, à l’obligation de payer le loyer. Vérifiez si le bailleur accepte une fin anticipée ou si la règle du locataire de remplacement s’applique.",
+    "Lasciare l’abitazione in anticipo non fa cessare di per sé l’obbligo di pagare il canone. Verificate se il locatore accetta una fine anticipata o se si applica la regola dell’inquilino subentrante.",
+    "Ina partenza anticipada na terminescha betg da sasez l’obligaziun da pajar il tschains. Examinai sch’il locatur accepta ina fin anticipada u sche la regla dal locatari substitut è applitgabla."
+  ],
+  "Check the contract and ask the landlord to confirm any agreed early release in writing.": [
+    "Prüfen Sie den Vertrag und lassen Sie sich eine vereinbarte vorzeitige Entlassung aus dem Mietverhältnis schriftlich bestätigen.",
+    "Vérifiez le contrat et demandez au bailleur de confirmer par écrit toute libération anticipée convenue.",
+    "Verificate il contratto e chiedete al locatore di confermare per iscritto ogni liberazione anticipata concordata.",
+    "Examinai il contract e dumandai il locatur da confermar en scrit mintga liberaziun anticipada cunvegnida."
+  ],
+  "To be released under the replacement-tenant rule, propose a solvent replacement who is reasonable for the landlord to accept and willing to take over on the same terms. One qualifying replacement can be enough; a name alone does not establish that the conditions are met.": [
+    "Für eine Befreiung nach der Ersatzmieterregel müssen Sie eine zahlungsfähige Ersatzperson vorschlagen, die für die Vermieterschaft zumutbar und bereit ist, den Vertrag zu denselben Bedingungen zu übernehmen. Eine geeignete Person kann genügen; ein Name allein belegt nicht, dass die Voraussetzungen erfüllt sind.",
+    "Pour être libéré selon la règle du locataire de remplacement, proposez une personne solvable que le bailleur ne puisse raisonnablement refuser et qui soit disposée à reprendre le bail aux mêmes conditions. Une seule personne remplissant ces conditions peut suffire ; un nom seul ne prouve pas qu’elles sont remplies.",
+    "Per essere liberati secondo la regola dell’inquilino subentrante, proponete una persona solvibile che il locatore non possa ragionevolmente rifiutare e disposta a subentrare alle stesse condizioni. Una sola persona idonea può bastare; un nome da solo non dimostra che le condizioni siano soddisfatte.",
+    "Per vegnir liberads tenor la regla dal locatari substitut proponì ina persuna solvabla che il locatur na po betg refusar per motivs raschunaivels e ch’è pronta da surpigliar il contract cun las medemas cundiziuns. Ina suletta persuna adattada po bastar; in num sulet na cumprova betg che las cundiziuns èn ademplidas."
+  ],
+  "Give the landlord the necessary information and a reasonable opportunity to assess the proposed replacement. Keep evidence of the proposal and the candidate’s willingness. Do not assume that handing back the keys releases you.": [
+    "Geben Sie der Vermieterschaft die nötigen Informationen und angemessen Zeit, die vorgeschlagene Person zu prüfen. Bewahren Sie Nachweise des Vorschlags und der Übernahmebereitschaft auf. Gehen Sie nicht davon aus, dass die Schlüsselrückgabe Sie von Ihren Pflichten befreit.",
+    "Donnez au bailleur les informations nécessaires et une possibilité raisonnable d’examiner la candidature. Conservez la preuve de votre proposition et de la volonté du candidat de reprendre le bail. Ne supposez pas que rendre les clés vous libère.",
+    "Fornite al locatore le informazioni necessarie e una ragionevole possibilità di valutare la persona proposta. Conservate le prove della proposta e della disponibilità del candidato. Non presumete che restituire le chiavi vi liberi dagli obblighi.",
+    "Dai al locatur las infurmaziuns necessarias ed ina pussaivladad raschunaivla d’examinar la persuna proponida. Conservai cumprovas da la proposta e da la prontezza da la persuna da surpigliar il contract. Na supponì betg che restituir las clavs As liberescha."
+  ],
+  "If there is no qualifying replacement or agreed release, rent can remain due until the contractual or legal end date, subject to the deductions required by law. Have a disputed release or calculation checked.": [
+    "Ohne geeignete Ersatzperson oder vereinbarte Entlassung kann die Miete bis zum vertraglichen oder gesetzlichen Endtermin weiterhin geschuldet sein, unter Berücksichtigung der gesetzlich vorgeschriebenen Abzüge. Lassen Sie eine strittige Entlassung oder Berechnung prüfen.",
+    "Sans remplaçant remplissant les conditions ni libération convenue, le loyer peut rester dû jusqu’à l’échéance contractuelle ou légale, sous réserve des déductions imposées par la loi. Faites vérifier toute libération ou tout calcul contesté.",
+    "Senza un subentrante idoneo o una liberazione concordata, il canone può restare dovuto fino alla scadenza contrattuale o legale, fatte salve le deduzioni previste dalla legge. Fate verificare una liberazione o un calcolo contestati.",
+    "Senza ina persuna substituta adattada u ina liberaziun cunvegnida po il tschains restar debit fin al termin contractual u legal, resguardond las deducziuns prescrittas da la lescha. Laschai examinar ina liberaziun u in calcul contestà."
+  ],
+  "The next step depends on who is ending the tenancy. A notice from the landlord may need a quick response.": [
+    "Der nächste Schritt hängt davon ab, wer das Mietverhältnis beendet. Eine Kündigung der Vermieterschaft kann eine rasche Reaktion erfordern.",
+    "La prochaine démarche dépend de la personne qui met fin au bail. Un congé du bailleur peut nécessiter une réaction rapide.",
+    "Il prossimo passo dipende da chi termina la locazione. Una disdetta del locatore può richiedere una risposta rapida.",
+    "Il proxim pass dependa da tgi che terminescha la locaziun. Ina desditga dal locatur po pretender ina reacziun svelta."
+  ],
+  "If you received notice from the landlord, check it promptly with the tenancy conciliation authority. A 30-day period after legal receipt can apply to a challenge or an extension request.": [
+    "Wenn die Vermieterschaft Ihnen gekündigt hat, lassen Sie die Kündigung rasch bei der Schlichtungsbehörde in Mietsachen prüfen. Für eine Anfechtung oder ein Erstreckungsbegehren kann eine Frist von 30 Tagen nach dem rechtlich massgebenden Empfang gelten.",
+    "Si le bailleur vous a donné congé, faites-le vérifier rapidement auprès de l’autorité de conciliation en matière de bail. Un délai de 30 jours suivant la réception au sens juridique peut s’appliquer à une contestation ou à une demande de prolongation.",
+    "Se avete ricevuto una disdetta dal locatore, fatela verificare tempestivamente presso l’autorità di conciliazione in materia di locazione. Per una contestazione o una domanda di protrazione può applicarsi un termine di 30 giorni dalla ricezione giuridicamente determinante.",
+    "Sche Vus avais survegnì ina desditga dal locatur, laschai examinar ella spert tar l’autoritad da mediaziun en chaussas da locaziun. Per ina contestaziun u ina dumonda da prolungaziun po valair in termin da 30 dis suenter la recepziun giuridicamain decisiva."
+  ],
+  "If you want to leave yourself, check whether you can give ordinary notice or need an earlier release. Select the matching option above; this tool will not assume one for you.": [
+    "Wenn Sie selbst ausziehen möchten, prüfen Sie, ob eine ordentliche Kündigung möglich ist oder Sie eine frühere Entlassung benötigen. Wählen Sie oben die passende Möglichkeit; dieses Tool trifft diese Annahme nicht für Sie.",
+    "Si vous souhaitez partir vous-même, vérifiez si vous pouvez résilier à une échéance ordinaire ou si vous avez besoin d’une libération anticipée. Choisissez l’option correspondante ci-dessus ; cet outil ne la supposera pas à votre place.",
+    "Se volete andarvene voi, verificate se potete dare disdetta ordinaria o se vi serve una liberazione anticipata. Scegliete l’opzione corrispondente sopra; questo strumento non la presume al vostro posto.",
+    "Sche Vus vulais partir sezs, examinai sche Vus pudais dar ina desditga ordinaria u sche Vus duvrais ina liberaziun anticipada. Tschernì l’opziun correspundenta survart; quest instrument na suppona betg ina per Vus."
+  ],
+  "Check first whether the ordinary residential notice rules apply to your contract. Do not choose an end date from a general rule alone.": [
+    "Prüfen Sie zuerst, ob für Ihren Vertrag die gewöhnlichen Kündigungsregeln für Wohnungen gelten. Bestimmen Sie den Endtermin nicht allein anhand einer allgemeinen Regel.",
+    "Vérifiez d’abord si les règles ordinaires de résiliation des baux d’habitation s’appliquent à votre contrat. Ne choisissez pas une date de fin sur la seule base d’une règle générale.",
+    "Verificate anzitutto se al vostro contratto si applicano le regole ordinarie di disdetta per le abitazioni. Non scegliete una data di fine basandovi soltanto su una regola generale.",
+    "Examinai l’emprim sche las reglas ordinarias da desditga per abitaziuns valan per Voss contract. Na tschernì betg ina data da fin mo sin basa d’ina regla generala."
+  ],
+  "Check your contract before choosing an end date. Notice must reach the landlord in time; posting it on the last day may be too late.": [
+    "Prüfen Sie Ihren Vertrag, bevor Sie den Endtermin wählen. Die Kündigung muss rechtzeitig bei der Vermieterschaft eintreffen; am letzten Tag aufgegeben kann sie zu spät sein.",
+    "Vérifiez votre contrat avant de choisir une date de fin. Le congé doit parvenir au bailleur à temps ; un envoi postal le dernier jour peut être trop tardif.",
+    "Verificate il contratto prima di scegliere una data di fine. La disdetta deve arrivare al locatore in tempo; spedirla l’ultimo giorno può essere troppo tardi.",
+    "Examinai Voss contract avant che tscherner ina data da fin. La desditga sto arrivar a temp tar il locatur; trametter ella per posta l’ultim di po esser memia tard."
+  ],
+  "Check whether the contract has a fixed end date, a minimum duration or agreed notice dates. For an ordinary indefinite residential tenancy, the statutory default is three months to a locally customary date or, if none exists, the end of a three-month rental period. A longer agreed period and agreed termination dates can matter.": [
+    "Prüfen Sie, ob der Vertrag ein festes Enddatum, eine Mindestdauer oder vereinbarte Kündigungstermine enthält. Für eine gewöhnliche unbefristete Wohnungsmiete gilt gesetzlich eine Frist von drei Monaten auf einen ortsüblichen Termin oder, wenn es keinen solchen gibt, auf das Ende einer dreimonatigen Mietdauer. Eine vereinbarte längere Frist und vereinbarte Kündigungstermine können massgebend sein.",
+    "Vérifiez si le contrat prévoit une date de fin fixe, une durée minimale ou des échéances de résiliation convenues. Pour un bail d’habitation ordinaire de durée indéterminée, la règle légale est un préavis de trois mois pour le terme fixé par l’usage local ou, à défaut, pour la fin d’un trimestre de bail. Un préavis plus long et des échéances convenus peuvent être déterminants.",
+    "Verificate se il contratto prevede una data di fine fissa, una durata minima o scadenze di disdetta concordate. Per una locazione abitativa ordinaria a tempo indeterminato, la regola legale è un preavviso di tre mesi per una scadenza usuale nella località oppure, in mancanza, per la fine di un trimestre di locazione. Possono essere determinanti un preavviso più lungo e scadenze di disdetta concordate.",
+    "Examinai sch’il contract prevesa ina data da fin fixa, ina durada minimala u termins da desditga cunvegnids. Per ina locaziun ordinaria illimitada d’in’abitaziun vala tenor lescha in preavis da trais mais per in termin usità al lieu u, sch’i na dat nagin, per la fin d’ina perioda da locaziun da trais mais. In preavis pli lung e termins da desditga cunvegnids pon esser decisivs."
+  ],
+  "Give notice in writing. For a family home, the tenant needs the express consent of their spouse; the same rule applies to registered partners. If several people are tenants, check who must sign.": [
+    "Kündigen Sie schriftlich. Bei einer Familienwohnung braucht die mietende Person die ausdrückliche Zustimmung ihres Ehepartners; dieselbe Regel gilt für eingetragene Partnerschaften. Wenn mehrere Personen Mieter sind, prüfen Sie, wer unterschreiben muss.",
+    "Donnez congé par écrit. Pour un logement familial, le locataire doit obtenir le consentement exprès de son conjoint ; la même règle s’applique aux partenaires enregistrés. Si plusieurs personnes sont locataires, vérifiez qui doit signer.",
+    "Date disdetta per iscritto. Per un’abitazione familiare, l’inquilino ha bisogno del consenso espresso del coniuge; la stessa regola vale per i partner registrati. Se ci sono più inquilini, verificate chi deve firmare.",
+    "Dai la desditga en scrit. Per in’abitaziun da famiglia dovra la persuna che prenda a fit il consentiment express da sia consorta u ses consort; la medema regla vala per partenadis registrads. Sche pliras persunas èn locataris, controllai tgi che sto suttascriver."
+  ],
+  "Send the signed notice early enough for receipt before the notice deadline and keep delivery evidence. Ask for written confirmation of the end date. Do not rely on a normal email or a chat message.": [
+    "Senden Sie die unterschriebene Kündigung so früh, dass sie spätestens am letzten zulässigen Zustelltag eintrifft, und bewahren Sie Zustellnachweise auf. Bitten Sie um eine schriftliche Bestätigung des Endtermins. Verlassen Sie sich nicht auf eine gewöhnliche E-Mail oder Chatnachricht.",
+    "Envoyez le congé signé suffisamment tôt pour qu’il soit reçu avant l’échéance du délai de notification et conservez les preuves de remise. Demandez une confirmation écrite de la date de fin. Ne vous fiez pas à un simple courriel ou message de discussion.",
+    "Inviate la disdetta firmata abbastanza presto perché venga ricevuta entro il termine utile e conservate le prove di consegna. Chiedete conferma scritta della data di fine. Non fate affidamento su una normale e-mail o su un messaggio in chat.",
+    "Tramettai la desditga suttascritta uschè baud ch’ella vegn recepida avant la scadenza per communitgar la desditga e conservai cumprovas da la consegna. Dumandai ina conferma en scrit da la data da fin. Na fidai betg d’in e-mail ordinari u d’in messadi da chat."
+  ],
+  "If you want to leave sooner, use the early-departure path to check agreement or a replacement tenant instead.": [
+    "Wenn Sie früher ausziehen möchten, wählen Sie den Weg für den vorzeitigen Auszug, um eine Vereinbarung oder eine Ersatzmieterschaft zu prüfen.",
+    "Si vous souhaitez partir plus tôt, utilisez le parcours de départ anticipé pour examiner un accord ou un locataire de remplacement.",
+    "Se volete andarvene prima, usate il percorso per l’uscita anticipata per verificare un accordo o un inquilino subentrante.",
+    "Sche Vus vulais partir pli baud, duvrai la via per la partenza anticipada per examinar ina cunvegna u in locatari substitut."
+  ],
+  "Which issue should we start with?": [
+    "Mit welcher Frage sollen wir beginnen?",
+    "Par quelle question commencer ?",
+    "Da quale questione iniziamo?",
+    "Cun tge dumonda duain nus cumenzar?"
+  ],
+  "Choose the closest issue. Your words stay on this device; this suggestion does not decide which law applies.": [
+    "Wählen Sie die Frage, die am besten passt. Ihre Worte bleiben auf diesem Gerät; dieser Vorschlag entscheidet nicht, welches Recht gilt.",
+    "Choisissez la question la plus proche. Vos mots restent sur cet appareil ; cette suggestion ne décide pas du droit applicable.",
+    "Scegliete la questione più vicina. Le vostre parole restano su questo dispositivo; questo suggerimento non decide quale diritto si applica.",
+    "Tschernì la dumonda che correspunda il meglier. Voss pleds restan sin quest apparat; questa proposta na decida betg tge dretg che vala."
+  ],
+  "None of these — continue with my question": [
+    "Nichts davon – mit meiner Frage fortfahren",
+    "Aucune de ces questions — continuer avec ma question",
+    "Nessuna di queste — continua con la mia domanda",
+    "Naginas da questas — cuntinuar cun mia dumonda"
+  ],
+  "Another housing question": [
+    "Eine andere Frage zum Wohnen",
+    "Une autre question sur le logement",
+    "Un’altra domanda sull’abitazione",
+    "In’autra dumonda davart l’abitar"
+  ],
+  "A few facts. A useful next step.": [
+    "Ein paar Angaben. Ein hilfreicher nächster Schritt.",
+    "Quelques faits. Une prochaine démarche utile.",
+    "Pochi fatti. Un prossimo passo utile.",
+    "Intgins fatgs. In proxim pass util."
+  ],
+  "No account. No model download. Your choices stay in this tab.": [
+    "Kein Konto. Kein Modell-Download. Ihre Auswahl bleibt in diesem Tab.",
+    "Sans compte. Sans téléchargement de modèle. Vos choix restent dans cet onglet.",
+    "Nessun account. Nessun modello da scaricare. Le vostre scelte restano in questa scheda.",
+    "Nagin conto. Nagin model da telechargiar. Vossas tschernas restan en quest tab."
+  ],
+  "Your choices": [
+    "Ihre Auswahl",
+    "Vos choix",
+    "Le vostre scelte",
+    "Vossas tschernas"
+  ],
+  "Prepared guidance": [
+    "Vorbereitete Orientierung",
+    "Repères préparés",
+    "Indicazioni preparate",
+    "Orientaziun preparada"
+  ],
+  "Your next steps": [
+    "Ihre nächsten Schritte",
+    "Vos prochaines démarches",
+    "I vostri prossimi passi",
+    "Voss proxims pass"
+  ],
+  "The rules behind this guide": [
+    "Die Regeln hinter diesem Leitfaden",
+    "Les règles à la base de ce guide",
+    "Le regole alla base di questa guida",
+    "Las reglas a la basa da quest guid"
+  ],
+  "What still needs checking": [
+    "Was noch zu klären ist",
+    "Ce qui reste à vérifier",
+    "Cosa resta da verificare",
+    "Tge ch’è anc da sclerir"
+  ],
+  "Read the complete provisions": [
+    "Vollständige Bestimmungen lesen",
+    "Lire les dispositions complètes",
+    "Leggi le disposizioni complete",
+    "Leger las disposiziuns cumplettas"
+  ],
+  "Check sources and show my steps": [
+    "Quellen prüfen und meine Schritte anzeigen",
+    "Vérifier les sources et afficher mes démarches",
+    "Verifica le fonti e mostra i miei passi",
+    "Controllar las funtaunas e mussar mes pass"
+  ],
+  "Checking the public provisions…": [
+    "Die öffentlichen Bestimmungen werden geprüft…",
+    "Vérification des dispositions publiques…",
+    "Verifica delle disposizioni pubbliche…",
+    "Las disposiziuns publicas vegnan controlladas…"
+  ],
+  "Try again": [
+    "Erneut versuchen",
+    "Réessayer",
+    "Riprova",
+    "Empruvar anc ina giada"
+  ],
+  "Copy my steps and sources": [
+    "Meine Schritte und Quellen kopieren",
+    "Copier mes démarches et sources",
+    "Copia i miei passi e le fonti",
+    "Copiar mes pass e las funtaunas"
+  ],
+  "These provisions were checked against this guide’s reference text on": [
+    "Diese Bestimmungen wurden mit dem Referenztext dieses Leitfadens abgeglichen am",
+    "Ces dispositions ont été comparées au texte de référence de ce guide le",
+    "Queste disposizioni sono state confrontate con il testo di riferimento di questa guida il",
+    "Questas disposiziuns èn vegnidas cumparegliadas cun il text da referenza da quest guid ils"
+  ],
+  "A matching text is not a guarantee that every applicable rule has been covered. Translations need independent review.": [
+    "Ein übereinstimmender Text garantiert nicht, dass jede anwendbare Regel berücksichtigt wurde. Übersetzungen müssen unabhängig geprüft werden.",
+    "Un texte identique ne garantit pas que toutes les règles applicables ont été couvertes. Les traductions doivent faire l’objet d’une vérification indépendante.",
+    "Un testo corrispondente non garantisce che siano state considerate tutte le regole applicabili. Le traduzioni richiedono una verifica indipendente.",
+    "In text identic na garantescha betg che mintga regla applitgabla è vegnida resguardada. Las translaziuns dovran ina controlla independenta."
+  ],
+  "Only these public article references go to OpenCaseLaw. They can reveal the topic. Your question and choices stay in this tab.": [
+    "Nur diese öffentlichen Artikelverweise werden an OpenCaseLaw gesendet. Sie können das Thema erkennen lassen. Ihre Frage und Ihre Auswahl bleiben in diesem Tab.",
+    "Seules ces références publiques d’articles sont envoyées à OpenCaseLaw. Elles peuvent révéler le sujet. Votre question et vos choix restent dans cet onglet.",
+    "Solo questi riferimenti pubblici agli articoli vengono inviati a OpenCaseLaw. Possono rivelare l’argomento. La vostra domanda e le vostre scelte restano in questa scheda.",
+    "Mo questas referenzas publicas ad artitgels vegnan tramessas ad OpenCaseLaw. Ellas pon revelar il tema. Vossa dumonda e Vossas tschernas restan en quest tab."
+  ],
+  "The sources could not be checked. Read the official provisions or contact the tenancy authority; do not wait here if a deadline may be running.": [
+    "Die Quellen konnten nicht geprüft werden. Lesen Sie die amtlichen Bestimmungen oder wenden Sie sich an die Mietbehörde; warten Sie hier nicht, wenn eine Frist laufen könnte.",
+    "Les sources n’ont pas pu être vérifiées. Lisez les dispositions officielles ou contactez l’autorité en matière de bail ; n’attendez pas ici si un délai est susceptible de courir.",
+    "Non è stato possibile verificare le fonti. Leggete le disposizioni ufficiali o contattate l’autorità in materia di locazione; non aspettate qui se potrebbe essere in corso un termine.",
+    "Las funtaunas n’han betg pudì vegnir controlladas. Legiai las disposiziuns uffizialas u contactai l’autoritad per locaziuns; na spetgai betg qua sch’in termin pudess esser en curs."
+  ],
+  "Official tenancy information": [
+    "Amtliche Informationen zum Mietrecht",
+    "Informations officielles sur le bail",
+    "Informazioni ufficiali sulla locazione",
+    "Infurmaziuns uffizialas davart la locaziun"
+  ],
+  "Describe something else": [
+    "Etwas anderes beschreiben",
+    "Décrire autre chose",
+    "Descrivi qualcos’altro",
+    "Descriver insatge auter"
+  ],
+  "A notice can carry a short deadline. Keep the letter and its envelope. If timing is uncertain, contact the tenancy authority promptly.": [
+    "Eine Mitteilung kann eine kurze Frist auslösen. Bewahren Sie den Brief und seinen Umschlag auf. Wenn der Zeitpunkt unklar ist, wenden Sie sich rasch an die Mietbehörde.",
+    "Une notification peut faire courir un délai court. Conservez la lettre et son enveloppe. Si les dates sont incertaines, contactez rapidement l’autorité en matière de bail.",
+    "Una comunicazione può far decorrere un termine breve. Conservate la lettera e la busta. Se le date sono incerte, contattate tempestivamente l’autorità in materia di locazione.",
+    "Ina communicaziun po far cumenzar in termin curt. Conservai la brev e sia cuverta. Sche las datas èn intschertas, contactai spert l’autoritad per locaziuns."
+  ],
+  "Business premises, furnished room, holiday home or special rent": [
+    "Geschäftsräume, möbliertes Zimmer, Ferienwohnung oder besondere Mietregelung",
+    "Locaux commerciaux, chambre meublée, logement de vacances ou loyer particulier",
+    "Locali commerciali, camera ammobiliata, casa di vacanza o regime particolare di locazione",
+    "Locals commerzials, stanza mobigliada, abitaziun da vacanzas u tschains da locaziun spezial"
+  ],
+  "This path is for tenants of homes in Switzerland. Furnished rooms, holiday lets, subsidised housing and special rent arrangements need separate checking.": [
+    "Dieser Weg ist für Personen, die in der Schweiz eine Wohnung mieten. Möblierte Zimmer, Ferienunterkünfte, subventionierte Wohnungen und besondere Mietregelungen müssen separat geprüft werden.",
+    "Ce parcours s’adresse aux personnes qui louent un logement en Suisse. Les chambres meublées, les locations de vacances, les logements subventionnés et les régimes de loyer particuliers doivent être vérifiés séparément.",
+    "Questo percorso è per chi affitta un’abitazione in Svizzera. Camere ammobiliate, locazioni per vacanze, abitazioni sussidiate e regimi particolari di locazione richiedono una verifica separata.",
+    "Questa via è per persunas che prendan a fit in’abitaziun en Svizra. Stanzas mobigliadas, locaziuns da vacanzas, abitaziuns subvenziunadas e reglamentaziuns spezialas dal tschains ston vegnir examinadas separadamain."
+  ],
+  "Business premises, furnished rooms, holiday lets, subsidised housing, agricultural leases, indexed or stepped rents and other special arrangements need a separate assessment. This overview does not determine the rules for them.": [
+    "Geschäftsräume, möblierte Zimmer, Ferienunterkünfte, subventionierte Wohnungen, landwirtschaftliche Pachtverhältnisse, indexierte oder gestaffelte Mieten und andere Sonderregelungen müssen separat beurteilt werden. Diese Übersicht bestimmt nicht, welche Regeln dafür gelten.",
+    "Les locaux commerciaux, les chambres meublées, les locations de vacances, les logements subventionnés, les baux à ferme agricoles, les loyers indexés ou échelonnés et les autres régimes particuliers nécessitent une évaluation séparée. Cet aperçu ne détermine pas les règles qui leur sont applicables.",
+    "Locali commerciali, camere ammobiliate, locazioni per vacanze, abitazioni sussidiate, affitti agricoli, pigioni indicizzate o scalari e altri regimi particolari richiedono una valutazione separata. Questa panoramica non determina le regole applicabili a questi casi.",
+    "Locals commerzials, stanzas mobigliadas, locaziuns da vacanzas, abitaziuns subvenziunadas, fittanzas agriculas, tschains indexads u graduads ed autras reglamentaziuns spezialas dovran ina valitaziun separada. Questa survista na determinescha betg las reglas che valan per els."
+  ],
+  "For an ordinary rent increase, check the cantonal official form, stated reasons and timing. It can take effect no earlier than the next permissible termination date; the notice must arrive at least ten days before the start of the notice period. Formal defects can affect validity; do not assume this lets you ignore the notice.": [
+    "Prüfen Sie bei einer gewöhnlichen Mietzinserhöhung das amtliche kantonale Formular, die angegebenen Gründe und den Zeitpunkt. Die Erhöhung kann frühestens auf den nächsten zulässigen Kündigungstermin wirksam werden; die Mitteilung muss mindestens zehn Tage vor Beginn der Kündigungsfrist eintreffen. Formfehler können die Gültigkeit beeinflussen; nehmen Sie deshalb aber nicht an, Sie könnten die Mitteilung ignorieren.",
+    "Pour une hausse de loyer ordinaire, vérifiez la formule officielle cantonale, les motifs indiqués et les dates. Elle peut prendre effet au plus tôt à la prochaine échéance de résiliation admissible ; l’avis doit parvenir au moins dix jours avant le début du délai de résiliation. Des défauts de forme peuvent affecter la validité ; n’en déduisez pas que vous pouvez ignorer l’avis.",
+    "Per un aumento ordinario della pigione, verificate il modulo ufficiale cantonale, i motivi indicati e le date. L’aumento può avere effetto non prima della prossima scadenza di disdetta ammissibile; l’avviso deve pervenire almeno dieci giorni prima dell’inizio del termine di preavviso per la disdetta. Difetti di forma possono incidere sulla validità; non presumete però di poter ignorare l’avviso.",
+    "Tar in augment ordinari dal tschains controllai il formular uffizial chantunal, ils motivs inditgads e las datas. L’augment po entrar en vigur il pli baud per il proxim termin da desditga admissibel; la communicaziun sto arrivar almain diesch dis avant il cumenzament da la perioda da preavis per la desditga. Mancanzas da furma pon influenzar la validitad; na supponì dentant betg che Vus possias ignorar la communicaziun."
+  ],
+  "For formal rent deposit, set a reasonable written repair deadline and warn that you will deposit future rent if it expires without repair. If the defect remains after that deadline, notify the landlord in writing of the deposit and follow the designated authority’s procedure. Claims must be brought before the conciliation authority within 30 days after the first deposited rent becomes due. Have the procedure checked before using it.": [
+    "Für eine formelle Mietzinshinterlegung setzen Sie schriftlich eine angemessene Frist zur Behebung und kündigen an, künftige Mietzinse zu hinterlegen, falls die Frist ohne Behebung abläuft. Besteht der Mangel danach weiterhin, teilen Sie der Vermieterschaft die Hinterlegung schriftlich mit und folgen dem Verfahren der bezeichneten Behörde. Ansprüche müssen innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend gemacht werden. Lassen Sie das Verfahren prüfen, bevor Sie es nutzen.",
+    "Pour consigner formellement le loyer, fixez par écrit un délai raisonnable pour réparer et avertissez que vous consignerez les loyers futurs si ce délai expire sans réparation. Si le défaut subsiste après ce délai, avisez le bailleur par écrit de la consignation et suivez la procédure de l’autorité désignée. Les prétentions doivent être portées devant l’autorité de conciliation dans les 30 jours suivant l’échéance du premier loyer consigné. Faites vérifier la procédure avant de l’utiliser.",
+    "Per il deposito formale della pigione, fissate per iscritto un termine ragionevole per la riparazione e avvertite che depositerete le pigioni future se il termine scade senza riparazione. Se il difetto permane dopo tale termine, avvisate il locatore per iscritto del deposito e seguite la procedura dell’autorità designata. Le pretese devono essere fatte valere davanti all’autorità di conciliazione entro 30 giorni dalla scadenza della prima pigione depositata. Fate verificare la procedura prima di utilizzarla.",
+    "Per il deposit formal dal tschains fixai en scrit in termin raschunaivel per reparar ed avertì che Vus deponis il tschains futur sch’il termin scada senza reparaziun. Sche la mancanza exista anc suenter quest termin, annunziai il deposit al locatur en scrit e suandai la procedura da l’autoritad designada. Las pretensiuns ston vegnir inoltradas a l’autoritad da mediaziun entaifer 30 dis suenter che l’emprim tschains deponì daventa pajabel. Laschai examinar la procedura avant che l’utilisar."
+  ],
+  "Give the landlord the necessary information and a reasonable opportunity to assess the proposed replacement. Keep evidence of the proposal and the candidate’s willingness. Arrange and document the return of the premises. Proposing a replacement alone does not release you while you retain possession; handing back the keys alone does not establish release either.": [
+    "Geben Sie der Vermieterschaft die nötigen Informationen und angemessen Zeit, die vorgeschlagene Person zu prüfen. Bewahren Sie Nachweise des Vorschlags und der Übernahmebereitschaft auf. Vereinbaren und dokumentieren Sie die Rückgabe der Räume. Solange Sie die Räume im Besitz behalten, befreit Sie der Vorschlag einer Ersatzperson allein nicht von Ihren Pflichten; auch die Schlüsselrückgabe allein belegt keine Befreiung.",
+    "Donnez au bailleur les informations nécessaires et une possibilité raisonnable d’examiner la candidature. Conservez la preuve de votre proposition et de la volonté du candidat de reprendre le bail. Organisez et documentez la restitution des locaux. Proposer un remplaçant ne vous libère pas à lui seul tant que vous gardez la possession des lieux ; rendre les clés ne suffit pas non plus à établir votre libération.",
+    "Fornite al locatore le informazioni necessarie e una ragionevole possibilità di valutare la persona proposta. Conservate le prove della proposta e della disponibilità del candidato. Organizzate e documentate la restituzione dei locali. Proporre un subentrante non vi libera di per sé finché mantenete il possesso dei locali; neppure restituire le chiavi dimostra da solo che siete liberati.",
+    "Dai al locatur las infurmaziuns necessarias ed ina pussaivladad raschunaivla d’examinar la persuna proponida. Conservai cumprovas da la proposta e da la prontezza da la persuna da surpigliar il contract. Organisai e documentai la restituziun dals locals. Proponer ina persuna substituta na As liberescha betg da sasez uschè ditg che Vus mantegnais il possess dals locals; er restituir las clavs na cumprova betg da sasez ina liberaziun."
+  ],
+  "Keep evidence of the problem. If you are unsure whether the landlord knows about it, report it in writing and request repair.": [
+    "Bewahren Sie Belege für das Problem auf. Wenn Sie nicht sicher sind, ob die Vermieterschaft davon weiss, melden Sie es schriftlich und verlangen Sie die Behebung.",
+    "Conservez les preuves du problème. Si vous ne savez pas si le bailleur en a connaissance, signalez-le par écrit et demandez la réparation.",
+    "Conservate le prove del problema. Se non siete sicuri che il locatore ne sia a conoscenza, segnalatelo per iscritto e chiedete la riparazione.",
+    "Conservai cumprovas dal problem. Sche Vus n’essas betg segirs sch’il locatur sa da quel, annunziai el en scrit e pretendai ina reparaziun."
+  ],
+  "Back": [
+    "Zurück",
+    "Retour",
+    "Indietro",
+    "Enavos"
+  ],
+  "Continue": [
+    "Weiter",
+    "Continuer",
+    "Continua",
+    "Vinavant"
+  ],
+  "Change": [
+    "Ändern",
+    "Modifier",
+    "Modifica",
+    "Midar"
+  ],
+  "Question": [
+    "Frage",
+    "Question",
+    "Domanda",
+    "Dumonda"
+  ],
+  "of": [
+    "von",
+    "sur",
+    "di",
+    "da"
+  ],
+  "Stop": [
+    "Stoppen",
+    "Arrêter",
+    "Interrompi",
+    "Interrumper"
+  ],
+  "Copied": [
+    "Kopiert",
+    "Copié",
+    "Copiato",
+    "Copià"
+  ],
+  "I rent a home in Switzerland, with ordinary rent": [
+    "Ich miete eine Wohnung in der Schweiz mit gewöhnlicher Mietregelung",
+    "Je loue un logement en Suisse avec un loyer ordinaire",
+    "Prendo in affitto un’abitazione in Svizzera con un regime ordinario di locazione",
+    "Jau prend a fit in’abitaziun en Svizra cun in tschains da locaziun ordinari"
+  ],
+  "I am the landlord, or this is another kind of tenancy": [
+    "Ich vermiete die Räume, oder es ist eine andere Art von Mietverhältnis",
+    "Je suis le bailleur, ou il s’agit d’un autre type de bail",
+    "Sono il locatore, oppure si tratta di un altro tipo di locazione",
+    "Jau sun il locatur, u i sa tracta d’in auter tip da locaziun"
+  ]
+}

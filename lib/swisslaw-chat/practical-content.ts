@@ -1,7 +1,7 @@
 import { checkedPracticalFacts, type PracticalFacts, type PracticalTopic } from './practical';
 export type GuideParagraph = { text: string; refs?: string[] };
 export type PracticalGuide = { intro: string; steps: GuideParagraph[]; rules: GuideParagraph[]; check: string; official: string };
-export function practicalGuide(topic: PracticalTopic, input: PracticalFacts): PracticalGuide {
+export function practicalGuide(topic: Exclude<PracticalTopic, import('./housing').HousingTopic>, input: PracticalFacts): PracticalGuide {
   const f = checkedPracticalFacts(input);
   if (topic === 'marriage') {
     if (f.location === 'abroad') return {
