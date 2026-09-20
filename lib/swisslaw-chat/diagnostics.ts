@@ -1,6 +1,6 @@
 // Only these authored codes cross the worker boundary. Never expose raw errors:
 // provider/runtime messages can contain prompts, source text or private facts.
-export const ERROR_CODES = ['MODEL_DOWNLOAD', 'MODEL_STARTUP', 'GPU_UNSUPPORTED', 'GPU_LOST', 'TIMEOUT', 'CONTEXT_LIMIT', 'OUTPUT_LIMIT', 'INCOMPLETE', 'INVALID_OUTPUT', 'INVALID_SOURCES', 'INVALID_CONTEXT', 'INVALID_EVIDENCE', 'INVALID_INSUFFICIENT', 'SEARCH_ERROR', 'SEARCH_TIMEOUT', 'MODEL_ERROR'] as const;
+export const ERROR_CODES = ['MODEL_DOWNLOAD', 'MODEL_STARTUP', 'GPU_UNSUPPORTED', 'GPU_LOST', 'TIMEOUT', 'CONTEXT_LIMIT', 'OUTPUT_LIMIT', 'INCOMPLETE', 'INVALID_OUTPUT', 'INVALID_SOURCES', 'INVALID_CONTEXT', 'INVALID_EVIDENCE', 'INVALID_INSUFFICIENT', 'SEARCH_ERROR', 'SEARCH_TIMEOUT', 'PLAN_FAILED', 'MODEL_ERROR'] as const;
 export type ErrorCode = typeof ERROR_CODES[number];
 export function safeErrorCode(value: unknown): ErrorCode {
   return ERROR_CODES.includes(value as ErrorCode) ? value as ErrorCode : 'MODEL_ERROR';
@@ -21,7 +21,8 @@ export function errorMessage(code: ErrorCode): string {
     case 'GPU_LOST': return 'The device ran out of graphics resources or lost its graphics connection. Close other demanding tabs, then try again.';
     case 'TIMEOUT': return 'This step took too long. Try again, or shorten your question.';
     case 'CONTEXT_LIMIT': case 'INVALID_CONTEXT': return 'This conversation exceeds the local model’s capacity. Start again with a shorter question.';
-    case 'OUTPUT_LIMIT': case 'INCOMPLETE': return 'The model returned an incomplete response. Try again with a shorter question.';
+    case 'OUTPUT_LIMIT': case 'INCOMPLETE': return 'The local model could not finish its response. Try again.';
+    case 'PLAN_FAILED': return 'The local model could not prepare the search. Your question is still here. Try again, or add a detail in your own words.';
     case 'SEARCH_ERROR': case 'SEARCH_TIMEOUT': return 'The public-source search failed. Your conversation was not sent. Check your connection and try again.';
     case 'INVALID_EVIDENCE': case 'INVALID_INSUFFICIENT': case 'INVALID_SOURCES': return 'The answer could not be verified against the retrieved sources. Refine the search or your question.';
     default: return 'The model returned a response that could not be validated. Try again or rephrase your question.';

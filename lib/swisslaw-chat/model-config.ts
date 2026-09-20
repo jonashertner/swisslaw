@@ -21,7 +21,7 @@ export function selectedModel(id: unknown) {
   if (!model) throw new Error('MODEL_STARTUP');
   return model;
 }
-export const MODEL_CONFIG = { model_list: MODEL_OPTIONS.map(model => ({
+export const MODEL_CONFIG = { cacheBackend: 'cache' as const, model_list: MODEL_OPTIONS.map(model => ({
   model: model.repository, model_id: model.id, model_lib: model.library,
   integrity: { config: model.configIntegrity, model_lib: model.libraryIntegrity, onFailure: 'error' as const },
   overrides: { context_window_size: 4096, max_history_size: 1 },

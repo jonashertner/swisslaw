@@ -1,0 +1,86 @@
+[
+  {
+    "id": "lay-01",
+    "language": "de",
+    "question": "wie kann ich meinem arbeitvertrag kündigen?",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-02",
+    "language": "de",
+    "question": "ich will weg bei der arbeit wie sag ichs denen",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-03",
+    "language": "de",
+    "question": "will nüm schaffe bi dene wie chani usem vertrag",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-04",
+    "language": "de",
+    "question": "dr chef seit i söll morn nümm cho",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-05",
+    "language": "de",
+    "question": "mini wohnig het schimmel und de vermieter macht nüt",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-06",
+    "language": "de",
+    "question": "Da ist ein Brief vom Amt. Ich soll zahlen, weiss aber nicht wofür.",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-07",
+    "language": "de",
+    "question": "min ex laht mi d chind nüme gseh",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-08",
+    "language": "de",
+    "question": "Ich habe das Abo gekündigt und jetzt kommt wieder eine Rechnung.",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-09",
+    "language": "fr",
+    "question": "je veu quitter mon boulot comment je fait",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-10",
+    "language": "it",
+    "question": "il capo mi a mandato via da domani che facio",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-11",
+    "language": "en",
+    "question": "boss says dont come back do i still get paid",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  },
+  {
+    "id": "lay-12",
+    "language": "de",
+    "question": "es geht um das ding von gestern",
+    "expected": "Ask about the missing facts; do not assume a legal issue."
+  },
+  {
+    "id": "lay-13",
+    "language": "de",
+    "question": "mach mir ein rezept für pasta",
+    "expected": "Outside scope."
+  },
+  {
+    "id": "lay-14",
+    "language": "de",
+    "question": "wie kann ich meinem arbeitvertrag kündigen?",
+    "expected": "Identify the likely legal concern or ask one necessary factual question, without correcting the user or giving unsupported legal advice."
+  }
+]

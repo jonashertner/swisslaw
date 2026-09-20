@@ -53,7 +53,7 @@ The implementation checks WebGPU capabilities before loading, including:
 
 The worker permits model-file GET requests during preparation only, using the configured model-repository prefix and exact compiled-library URL. Browser redirects used by asset hosts may involve their delivery infrastructure. Requests omit credentials and the referrer. Configured integrity checks cover the model configuration and compiled library; they are not a claim that every weight shard is independently hash-verified by application code.
 
-Both structured-output grammar paths are prepared with fictional input, then model history is reset before private input is accepted. The worker's fetch wrapper then rejects network requests; XMLHttpRequest, WebSocket and EventSource are also disabled there. History is reset before each inference request, and the application supplies the current bounded conversation explicitly.
+All three structured-output grammar paths are prepared with fictional input, then model history is reset before private input is accepted. The worker's fetch wrapper then rejects network requests; XMLHttpRequest, WebSocket and EventSource are also disabled there. History is reset before each inference request, and the application supplies the current bounded conversation explicitly.
 
 These are application-level controls around trusted runtime code. They are not an operating-system sandbox against a malicious dependency, browser extension, modified site or compromised device. No fallback sends the question to a remote inference service.
 
@@ -90,6 +90,12 @@ An HTTPS source URL must match the configured public-host allowlist. That does n
 
 The search requests German statutory text; interface language does not change that request. Retrieved consolidation/version metadata is displayed where available. The application does not independently verify whether a version governs the user's event, check every amendment, search every source, retrieve an entire judgment or establish whether a decision remains authoritative. A failed case search can leave statute results available.
 
+## Bounded generation and recovery
+
+Compact EBNF grammars constrain planning, selection and answer output. Structural whitespace is not unbounded. Planning permits at most five words of up to 32 letters/hyphens each; runtime checks also reject repeated words. Answer prose and uncertainty have character bounds, citations select existing IDs and insufficient evidence has a single canonical shape. The pinned SDK’s actual grammar compiler is exercised by tests.
+
+A failed or incomplete planner generation gets at most one local retry. GPU, context, download, timeout and cancellation failures do not trigger that retry. Partial JSON is never repaired into advice. The intake prompt treats demonstrations as independent examples, not earlier turns in the person’s conversation. Informal-language evaluation still shows semantic failures; these output constraints do not establish comprehension.
+
 ## Answer checks and their limits
 
 The model returns JSON with an answer, proposed next steps, uncertainty and passage IDs. The application resolves IDs to retrieved text and links itself. It rejects unknown IDs, invalid schemas and invalid insufficient-source responses. Rendered quotations come from source text rather than model-invented quote strings; content is rendered as text, not source-supplied HTML.
@@ -121,3 +127,9 @@ OpenCaseLaw has its own [privacy policy](https://opencaselaw.ch/datenschutz/), i
 Build with `npm run build` and serve the resulting `dist/` over HTTPS. Preserve worker asset paths and apply the generated `dist/_headers` rules. The document cannot make external fetch requests; the research worker can connect only to the MCP endpoint; the model worker can connect to its public bootstrap hosts. The model worker then closes its own fetch capability in code after preparation. These bootstrap permissions are not a browser-enforced air gap after loading. `npm run preview` applies these policies locally; other hosts must be configured to honor them. Deployment headers and content-security rules must allow the actual worker, WebAssembly and external model/MCP connections; test them on the deployed build. Do not introduce a reverse proxy that receives full conversations or a remote inference fallback without changing the interface, documentation, threat model and tests.
 
 A successful build establishes that assets compile. A release still needs a real-device download/inference test, network inspection of a fictional conversation, retrieval failure tests and review of any changed legal wording or translations.
+
+## Removing downloaded model files
+
+The model cache backend is explicitly CacheStorage. `model-cache.ts` enumerates existing `webllm/model`, `webllm/config` and `webllm/wasm` caches and deletes only request URLs under either configured pinned model revision or matching their exact compiled-library URLs. It includes partial/orphan shards and rechecks remaining entries before reporting success. It does not fetch a missing manifest or open new cache scopes. Unrelated entries remain.
+
+The UI terminates both workers before removal and guards against starting work while cleanup runs, including page-hide restoration. Another tab can later write model files again; removal is scoped to this site/profile’s application model caches, not HTTP cache, other profiles, clipboard, provider records or secure erasure. Failure is reported rather than claimed as successful deletion.

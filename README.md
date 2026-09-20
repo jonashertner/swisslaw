@@ -51,7 +51,7 @@ The interface offers German, French, Italian, Romansh and English. Translations 
 
 ## Privacy
 
-The application holds the conversation in the current tab. **Start again** clears its conversation state and terminates workers; public model files may remain cached. This is not secure erasure of all device traces.
+The application holds the conversation in the current tab. **Start again** clears its conversation state and terminates workers; public model files may remain cached. **Data on this device → Remove cached models** removes the configured model files for this site, including partial downloads. It does not remove copied answers, other browser data or searches already sent. This is not secure erasure of all device traces.
 
 Model hosts receive download requests and connection information. OpenCaseLaw receives the approved terms, public source identifiers and connection information; it retains search terms and may use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
 
@@ -59,6 +59,6 @@ Query filters are **not guaranteed anonymisation**. Review proposed terms for na
 
 ## Project information
 
-[Architecture and trust boundaries](ARCHITECTURE.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
+[User journey and launch checks](USER_JOURNEY.md) · [Local intake experiment](INTAKE_EXPERIMENT.md) · [Architecture and trust boundaries](ARCHITECTURE.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
 Original application code: [MIT licence](LICENSE), copyright 2026 Jonas Hertner. Dependencies, legal sources and downloaded model artifacts have separate terms. [Third-party notices](THIRD_PARTY_NOTICES.md) document the exact models and unresolved licence provenance of the MLC conversions and compiled binaries, which are not included in this repository.

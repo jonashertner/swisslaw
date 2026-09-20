@@ -19,6 +19,7 @@ There is no promised response time or maintained-version support window at this 
 - Model preparation uses pinned asset revisions. The model worker closes its fetch path after preparation and disables several other network APIs.
 - Research uses a fixed endpoint and four allowed MCP tools, bounded responses and validated source identifiers.
 - Model-selected citations resolve to actual retrieved passages. Source content is rendered as text, and links must match an HTTPS host allowlist.
+- Cached-model removal targets only configured artifacts, checks remaining entries and preserves unrelated data.
 - Start again terminates workers and clears application conversation state. Only controlled error codes are exposed instead of raw model/runtime exceptions.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the precise boundaries and limitations.

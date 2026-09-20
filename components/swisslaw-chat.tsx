@@ -4,11 +4,12 @@ import { ArrowUp, ArrowUpRight, Copy, LockKeyhole, Plus, RotateCcw, X } from 'lu
 import { LANGUAGES, preferredLanguage, resolveAnswer, contextWithinBounds, safeQuery, type Answer, type Language, type Plan, type Source, type Turn } from '@/lib/swisslaw-chat/policy';
 import { errorMessage, safeErrorCode } from '@/lib/swisslaw-chat/diagnostics';
 import { MODEL_ID, MODEL_OPTIONS, selectedModel, type ModelId } from '@/lib/swisslaw-chat/model-config';
+import { removeModelCache } from '@/lib/swisslaw-chat/model-cache';
 import { MCP_ENDPOINT } from '@/lib/swisslaw-chat/mcp';
 import { chatText } from '@/lib/swisslaw-chat/translations';
 import './swisslaw-chat.css';
 
-type Phase = 'idle' | 'loading' | 'thinking' | 'review' | 'searching' | 'answering' | 'error';
+type Phase = 'idle' | 'loading' | 'thinking' | 'review' | 'searching' | 'answering' | 'cleaning' | 'error';
 type Exchange = { role: 'user'; text: string } | { role: 'assistant'; text: string; answer?: Answer; sources?: Source[] };
 export default function SwisslawChat() {
   const [language, setLanguage] = useState<Language>('de');
@@ -19,19 +20,22 @@ export default function SwisslawChat() {
   const [messages, setMessages] = useState<Exchange[]>([]); const [query, setQuery] = useState('');
   const [notice, setNotice] = useState(''); const [progress, setProgress] = useState(0);
   const [supported, setSupported] = useState<boolean | null>(null); const [loaded, setLoaded] = useState(false);
+  const [confirmRemoval, setConfirmRemoval] = useState(false);
+  const [preparationStep, setPreparationStep] = useState<'download' | 'prepare'>('download');
   const [copyStatus, setCopyStatus] = useState(''); const [failureCode, setFailureCode] = useState('');
   const worker = useRef<Worker | null>(null); const searchWorker = useRef<Worker | null>(null);
   const ready = useRef(false); const generation = useRef(0); const sessionEpoch = useRef(0); const context = useRef<Turn[]>([]);
-  const asked = useRef(new Set<string>());
+  const asked = useRef(new Map<string, number>());
+  const cleaning = useRef(false);
   const pending = useRef<{ resolve: (value: any) => void; reject: (error: Error) => void; id: number; timer: ReturnType<typeof setTimeout> } | null>(null);
   const searchPending = useRef<(() => void) | null>(null); const input = useRef<HTMLTextAreaElement>(null);
-  const busy = ['loading', 'thinking', 'searching', 'answering'].includes(phase);
+  const busy = ['loading', 'thinking', 'searching', 'answering', 'cleaning'].includes(phase);
   useEffect(() => {
     setLanguage(preferredLanguage(navigator.languages));
     let alive = true;
     const gpu = (navigator as unknown as { gpu?: { requestAdapter: () => Promise<{ features: Set<string>; limits: Record<string, number> } | null> } }).gpu;
     if (!gpu) setSupported(false); else gpu.requestAdapter().then(adapter => { if (alive) setSupported(Boolean(adapter?.features.has('shader-f16') && adapter.limits.maxStorageBufferBindingSize >= 1073741824 && adapter.limits.maxComputeWorkgroupStorageSize >= 32768 && adapter.limits.maxStorageBuffersPerShaderStage >= 10)); }).catch(() => { if (alive) setSupported(false); });
-    const leave = () => { stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setPhase('idle'); };
+    const leave = () => { stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); if (!cleaning.current) setPhase('idle'); };
     window.addEventListener('pagehide', leave);
     return () => { alive = false; window.removeEventListener('pagehide', leave); stop(); };
   }, []);
@@ -41,7 +45,17 @@ export default function SwisslawChat() {
     searchPending.current?.(); searchPending.current = null; ready.current = false; setLoaded(false);
     if (pending.current) { clearTimeout(pending.current.timer); pending.current.reject(new Error('CANCELLED')); pending.current = null; }
   }
-  function clear() { stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setNotice(''); setFailureCode(''); setCopyStatus(''); setProgress(0); setPhase('idle'); input.current?.focus(); }
+  function clear() { if (cleaning.current) return; stop(); context.current = []; asked.current.clear(); setMessages([]); setDraft(''); setQuery(''); setNotice(''); setFailureCode(''); setCopyStatus(''); setProgress(0); setConfirmRemoval(false); setPhase('idle'); input.current?.focus(); }
+  async function removeModels() {
+    if (cleaning.current) return;
+    clear(); cleaning.current = true; const session = sessionEpoch.current; setPhase('cleaning');
+    try {
+      const removed = await removeModelCache(caches);
+      if (session === sessionEpoch.current) setNotice(removed ? 'Saved model files have been removed for this site. You can download them again when needed.' : 'No saved model files were found for this site.');
+    } catch {
+      if (session === sessionEpoch.current) setNotice('The model files could not all be removed. Try again, or use your browser’s site-data settings.');
+    } finally { cleaning.current = false; setPhase('idle'); }
+  }
   function cancel() { stop(); setPhase('idle'); setNotice('Stopped. You can continue or start again.'); }
   function request(type: 'load' | 'plan' | 'select' | 'answer', payload: object = {}) {
     if (!worker.current) throw new Error('NO_WORKER'); const instance = worker.current; const id = ++generation.current;
@@ -51,12 +65,14 @@ export default function SwisslawChat() {
     });
   }
   async function prepare() {
+    if (cleaning.current) throw new Error('CANCELLED');
     if (ready.current) return;
     worker.current?.terminate();
-    setPhase('loading'); setProgress(0);
+    setPhase('loading'); setPreparationStep('download'); setProgress(0);
     const instance = new Worker(new URL('../lib/swisslaw-chat/engine.worker.ts', import.meta.url), { type: 'module' }); worker.current = instance;
     instance.onmessage = event => {
       if (worker.current !== instance) return; const data = event.data;
+      if (data.type === 'preparation') { setPreparationStep('prepare'); return; }
       if (data.type === 'progress') { setProgress(Math.round(data.progress * 100)); return; }
       const task = pending.current; if (!task || data.id !== task.id) return;
       clearTimeout(task.timer); pending.current = null;
@@ -68,28 +84,29 @@ export default function SwisslawChat() {
   async function plan(turns: Turn[]) {
     await prepare(); setPhase('thinking');
     const result = await request('plan', { turns, language }) as Plan;
-    if (result.kind === 'research' || (result.kind === 'clarify' && (result.clarification === 'none' || asked.current.has(result.clarification)))) {
+    if (result.kind === 'clarify' && (asked.current.get(result.clarification) ?? 0) >= 2) { setPhase('idle'); setNotice('I still cannot work out which issue to research. You can describe it another way, in your own words.'); input.current?.focus(); return; }
+    if (result.kind === 'research') {
       try { setQuery(safeQuery(result.query)); } catch { setQuery(''); }
       setPhase('review');
     } else {
       const questions = { none: 'What has happened so far, and what is the main difficulty?', canton: 'Which Swiss canton is this about?', date: 'When did this happen? Approximate dates are enough.', role: 'What is your role in this situation?', goal: 'What outcome are you hoping for?', facts: 'What has happened so far, and what is the main difficulty?' };
-      const message = t(result.kind === 'outside' ? 'This tool helps with Swiss legal questions. What legal issue would you like to understand?' : questions[result.clarification]);
-      if (result.kind === 'clarify') asked.current.add(result.clarification);
+      const message = t(result.kind === 'outside' ? 'This tool helps with Swiss legal questions. What legal issue would you like to understand?' : asked.current.has(result.clarification) ? 'Who is involved, what did they do, and what would you like to change? No names are needed.' : questions[result.clarification]);
+      if (result.kind === 'clarify') asked.current.set(result.clarification, (asked.current.get(result.clarification) ?? 0) + 1);
       context.current = [...turns, { role: 'assistant', content: message }];
       setMessages(previous => [...previous, { role: 'assistant', text: message }]); setPhase('idle'); input.current?.focus();
     }
   }
   async function submit(event: FormEvent) {
-    event.preventDefault(); if (!draft.trim() || busy || supported === false) return;
+    event.preventDefault(); if (cleaning.current || !draft.trim() || busy || supported === false) return;
     const text = draft.trim(); const turns: Turn[] = [...context.current, { role: 'user', content: text }];
     if (!contextWithinBounds(turns)) { setNotice('This conversation is full. Start a new question to keep the local context reliable.'); return; }
     context.current = turns; setMessages(previous => [...previous, { role: 'user', text }]); setDraft(''); setNotice(''); setFailureCode(''); setCopyStatus(''); setQuery('');
     try { await plan(turns); } catch (error) { if ((error as Error).message === 'CANCELLED') return; showModelError(error); }
   }
   function showModelError(error: unknown) { const code = safeErrorCode(error instanceof Error ? error.message : 'MODEL_ERROR'); setFailureCode(code); setPhase('error'); setNotice(errorMessage(code)); }
-  async function retry() { setNotice(''); setFailureCode(''); try { await plan(context.current); } catch (error) { if ((error as Error).message !== 'CANCELLED') { showModelError(error); } } }
+  async function retry() { if (cleaning.current || busy) return; setNotice(''); setFailureCode(''); try { await plan(context.current); } catch (error) { if ((error as Error).message !== 'CANCELLED') { showModelError(error); } } }
   async function research(event: FormEvent) {
-    event.preventDefault(); let approved: string;
+    event.preventDefault(); if (cleaning.current || busy) return; let approved: string;
     try { approved = safeQuery(query); } catch { setNotice('Use a few legal terms, without names, numbers, links or contact details.'); return; }
     setNotice(''); setFailureCode(''); setPhase('searching'); const session = sessionEpoch.current;
     try {
@@ -110,7 +127,7 @@ export default function SwisslawChat() {
         instance.postMessage({ query: approved });
       });
       if (session !== sessionEpoch.current) return;
-      if (!sources.length) { setPhase('review'); setNotice('No usable sources were found. Try different legal terms.'); return; }
+      if (!sources.length) { setPhase('review'); setNotice('I could not find suitable sources. Add a little more about what happened, then try again.'); return; }
       setPhase('answering');
       const result = resolveAnswer(await request('answer', { turns: context.current, language, sources }), sources);
       const resultText = result.status === 'insufficient' ? t('These sources do not establish a reliable answer to your question. You can refine your question or read the sources below.') : result.answer.text;
@@ -127,7 +144,7 @@ export default function SwisslawChat() {
   }
   return <div className="sl-chat" lang={language}>
     <a className="chat-skip" href="#question">{t('Go to your question')}</a>
-    <header className="chat-header"><a className="chat-brand" href="/" aria-label="Swisslaw"><Plus aria-hidden="true" strokeWidth={1.4} />swisslaw<span>.</span></a><div className="chat-header-right"><select aria-label={t('Language')} value={language} disabled={busy} onChange={e => { setLanguage(e.target.value as Language); setCopyStatus(''); }}>{LANGUAGES.map(l => <option key={l.code} value={l.code} lang={l.code}>{l.label}</option>)}</select>{messages.length > 0 && <button className="chat-clear" onClick={clear} title={t('Start again')}><RotateCcw size={15} aria-hidden="true" /><span>{t('Start again')}</span></button>}</div></header>
+    <header className="chat-header"><a className="chat-brand" href="/" aria-label="Swisslaw"><Plus aria-hidden="true" strokeWidth={1.4} />swisslaw<span>.</span></a><div className="chat-header-right"><select aria-label={t('Language')} value={language} disabled={busy} onChange={e => { setLanguage(e.target.value as Language); setCopyStatus(''); }}>{LANGUAGES.map(l => <option key={l.code} value={l.code} lang={l.code}>{l.label}</option>)}</select>{messages.length > 0 && <button className="chat-clear" onClick={clear} disabled={phase === 'cleaning'} title={t('Start again')}><RotateCcw size={15} aria-hidden="true" /><span>{t('Start again')}</span></button>}</div></header>
     <main className={`chat-main${messages.length ? ' chat-active' : ''}`}>
       <section className="chat-intro"><p className="chat-eyebrow">{t('SWISS LAW. OPEN TO EVERYONE.')}</p><h1>{t('What would you like to resolve?')}</h1><p>{t('Ask a question about Swiss law. In your own words.')}</p></section>
       {messages.length > 0 && <section className="chat-conversation" aria-label={t('Your conversation')}>{messages.map((message, index) => <article className={`chat-message chat-${message.role}`} key={index}><p className="chat-speaker">{t(message.role === 'user' ? 'You' : 'Swisslaw')}</p><p className="chat-message-text">{message.text}</p>{message.role === 'assistant' && message.answer && <>
@@ -144,17 +161,19 @@ export default function SwisslawChat() {
         <textarea id="question" ref={input} value={draft} disabled={busy} onChange={e => setDraft(e.target.value)} maxLength={1200} rows={messages.length ? 3 : 4} placeholder={t('Tell us what happened and what you would like to know.')} autoComplete="off" spellCheck={false} />
         <div className="chat-composer-bottom"><span>{t('No names or identifying details needed.')}</span><button type="submit" disabled={!draft.trim() || busy || supported === false} aria-label={t(loaded ? 'Continue' : 'Prepare on this device')}><span>{t(loaded ? 'Continue' : 'Start')}</span><ArrowUp size={19} aria-hidden="true" /></button></div>
       </form>
-      {messages.length === 0 && <div className="chat-model-choice"><label htmlFor="local-model">{t('Local model')}</label><select id="local-model" value={modelId} disabled={busy} onChange={event => setModelId(selectedModel(event.target.value).id)}>{MODEL_OPTIONS.map(option => <option key={option.id} value={option.id}>{t(option.label)}</option>)}</select></div>}
+      {messages.length === 0 && <div className="chat-model-choice"><label htmlFor="local-model">{t('Local model')}</label><select id="local-model" value={modelId} disabled={busy} onChange={event => { if (!cleaning.current) setModelId(selectedModel(event.target.value).id); }}>{MODEL_OPTIONS.map(option => <option key={option.id} value={option.id}>{t(option.label)}</option>)}</select></div>}
       {!loaded && !busy && <p className="chat-download-note">{t(modelId === MODEL_ID ? 'First use downloads about 1.1 GB of public model files. Use Wi-Fi. A compatible browser and enough device memory are required.' : 'First use downloads about 2.4 GB of public model files. Use Wi-Fi. The larger model needs more graphics memory and may be slower.')}</p>}
-      {busy && <div className="chat-status" role="status"><div><span className="chat-dot" aria-hidden="true" />{t(phase === 'loading' ? 'Preparing the model on your device…' : phase === 'searching' ? 'Reading public legal sources…' : phase === 'answering' ? 'Working through the sources…' : 'Understanding your question…')}<button onClick={cancel} aria-label={t('Stop')}><X size={16} /></button></div>{phase === 'loading' && <progress value={progress} max={100} aria-label={t('Model download')} />}</div>}
+      {busy && <div className="chat-status" role="status"><div><span className="chat-dot" aria-hidden="true" />{t(phase === 'cleaning' ? 'Removing saved model files…' : phase === 'loading' ? (preparationStep === 'prepare' ? 'Preparing the model. The download is complete…' : 'Preparing the model on your device…') : phase === 'searching' ? 'Reading public legal sources…' : phase === 'answering' ? 'Working through the sources…' : 'Understanding your question…')}{phase !== 'cleaning' && <button onClick={cancel} aria-label={t('Stop')}><X size={16} /></button>}</div>{phase === 'loading' && preparationStep === 'download' && <><progress value={progress} max={100} aria-label={t('Model download')} /><span className="chat-small">{progress}%</span></>}</div>}
       {supported === false && <div className="chat-notice" role="status"><h2>{t('This browser cannot run the local model.')}</h2><p>{t('Try a recent browser on a device with WebGPU support. No question is sent to a cloud model as a fallback.')}</p><a href="https://opencaselaw.ch/" target="_blank" rel="noreferrer">{t('Explore OpenCaseLaw directly')}<ArrowUpRight size={14} aria-hidden="true" /></a></div>}
       {notice && <p className="chat-notice" role="status" data-status-reason={failureCode || undefined}>{t(notice)}{failureCode && <><br />{t('Your question has not been sent to a cloud model.')}<small className="chat-error-code">{t('Technical code')}: {failureCode}</small></>}{phase === 'error' && <button className="chat-link-button" onClick={retry}>{t('Try again')}</button>}</p>}
       {copyStatus && <p className="chat-small" role="status">{t(copyStatus)}</p>}
       <div className="chat-assurances"><span><LockKeyhole size={14} aria-hidden="true" />{t('Thinking stays on your device')}</span><span>{t('Free. No account.')}</span></div>
+      <p className="chat-privacy-summary">{t('Your conversation stays in this tab, and the AI runs on your device. You approve search terms before they are sent to OpenCaseLaw.')}</p>
       <section className="chat-about">
         <details><summary>{t('How it works')}<Plus size={15} aria-hidden="true" /></summary><p>{t('Describe your situation. The local model asks for missing facts, then helps you search public legal sources and work out a next step.')}</p><p>{t('You review the search terms before anything is sent to OpenCaseLaw. Answers link to the source passages they use.')}</p></details>
         <details className="chat-technology"><summary>{t('Model, sources and open code')}<Plus size={15} aria-hidden="true" /></summary><p><strong>{model.id}</strong><br />{t('The model runs in this browser through WebLLM 0.2.85 and WebGPU. It uses 4-bit weights. There is no cloud-model fallback.')}</p><p>{t('Choose the model before starting. Start again to change it.')}</p><p>{t('A larger model is not a guarantee of better legal advice. Both options are experimental.')}</p><p>{t('Model files come from Hugging Face; the WebAssembly runtime comes from MLC on GitHub. Both revisions are pinned in the source code.')}</p><a href={model.repository.replace('/resolve/', '/tree/')} target="_blank" rel="noreferrer">{t('Model details')}<ArrowUpRight size={13} aria-hidden="true" /></a><p>{t('Your browser connects directly to OpenCaseLaw over HTTPS using MCP (JSON-RPC, protocol 2025-03-26). There is no Swisslaw search proxy or API key.')}</p><p><code>{MCP_ENDPOINT}</code></p><p>{t('Only the search terms you approve and public source identifiers are sent. The available tools search legislation and decisions, then retrieve selected articles and judgment passages.')}</p><p><code>search_laws · search_decisions · get_law · get_erwaegung</code></p><p>{t('Open source · MIT licence')}</p><a href="https://github.com/jonashertner/swisslaw" target="_blank" rel="noreferrer">{t('Read the source code')}<ArrowUpRight size={13} aria-hidden="true" /></a></details>
-        <details><summary>{t('Privacy, plainly')}<Plus size={15} aria-hidden="true" /></summary><p>{t('Your conversation is held in this tab, not saved to an account. Start again clears it. Public model files may stay in your browser cache.')}</p><p>{t('Downloading the model shares connection details with the model hosts. Searching shares your approved terms with OpenCaseLaw. Opening a source takes you to that website.')}</p><a href="https://opencaselaw.ch/datenschutz/" target="_blank" rel="noreferrer">{t('OpenCaseLaw privacy information')}<ArrowUpRight size={13} aria-hidden="true" /></a></details>
+        <details><summary>{t('What leaves my device?')}<Plus size={15} aria-hidden="true" /></summary><p>{t('Opening this site and downloading a model uses the internet. The site host and download providers receive ordinary connection details, including your IP address. OpenCaseLaw receives the search terms you approve and connection details. Your conversation is not sent to a cloud AI.')}</p><p>{t('Your conversation is kept in page memory, not saved as a history. Start again or close this tab to clear it. Downloaded model files may remain in browser storage. Use the removal control here, or clear this site’s data in your browser. Local processing reduces data exposure, but cannot guarantee absolute security on a shared or compromised device.')}</p><p>{t('OpenCaseLaw retains search terms and may process them with an external AI provider. Share only terms you are comfortable disclosing.')}</p><a href="https://opencaselaw.ch/datenschutz/" target="_blank" rel="noreferrer">{t('OpenCaseLaw privacy information')}<ArrowUpRight size={13} aria-hidden="true" /></a></details>
+        <details><summary>{t('Data on this device')}<Plus size={15} aria-hidden="true" /></summary><p>{t('Start again clears this conversation. Downloaded model files stay in this browser so they can be reused.')}</p><button className="chat-link-button" onClick={clear} disabled={phase === 'cleaning'}>{t('Clear this conversation')}</button><button className="chat-link-button" disabled={phase === 'cleaning'} onClick={() => setConfirmRemoval(true)}>{t('Remove cached models from this browser')}</button>{confirmRemoval && <div className="chat-remove-confirm"><p>{t('This ends the conversation and removes Swisslaw’s saved model files for this site. Other browser data and copied answers are not removed.')}</p><div><button className="chat-link-button" onClick={removeModels}>{t('Remove model files')}</button><button className="chat-link-button" onClick={() => setConfirmRemoval(false)}>{t('Keep them')}</button></div></div>}</details>
         <details><summary>{t('What this preview can and cannot do')}<Plus size={15} aria-hidden="true" /></summary><p>{t('You can ask about any Swiss-law topic. This is an experimental tool, not a lawyer. Source links and exact quotations do not guarantee that an interpretation is correct or complete.')}</p><p>{t('Do not rely on this tool to calculate a deadline or handle an emergency. If the sources are insufficient, the tool should say so.')}</p><p>{t('The interface supports German, French, Italian, Romansh and English. Legal translations and the model’s language ability, especially Romansh, still need independent review.')}</p></details>
       </section>
       <footer className="chat-footer"><span>{t('Swisslaw · Research preview')}</span><a href="https://jonashertner.com" target="_blank" rel="noreferrer">Jonas Hertner <ArrowUpRight size={12} aria-hidden="true" /></a></footer>

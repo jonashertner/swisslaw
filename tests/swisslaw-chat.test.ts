@@ -119,3 +119,40 @@ test('model selection only accepts the two pinned local models; no arbitrary end
     assert.equal(item.overrides.context_window_size, 4096);
   }
 });
+
+import { completionValue, planWithRecovery, validatedPlan } from '../lib/swisslaw-chat/generation';
+const researchPlan = { kind: 'research', clarification: 'none', query: 'Arbeitsvertrag Kündigung Arbeitnehmer Kündigungsfrist' };
+test('short-question reproduction cannot release a repeated or incomplete planner query', () => {
+  assert.throws(() => completionValue('{"kind":"research","clarification":"none","query":"Kündigung Arbeitsvertrag Arbeitszeitvertrag', 'length', 694), /OUTPUT_LIMIT/);
+  assert.throws(() => validatedPlan({ ...researchPlan, query: 'Kündigung Arbeitsvertrag Arbeitszeitvertrag Arbeitszeitvertrag' }), /INVALID_OUTPUT/);
+  assert.deepEqual(validatedPlan(researchPlan), researchPlan);
+  assert.throws(() => validatedPlan({ kind: 'outside', clarification: 'none', query: 'Some private text' }), /INVALID_OUTPUT/);
+  assert.throws(() => completionValue(JSON.stringify(researchPlan) + JSON.stringify({ ...researchPlan, kind: 'outside' }), 'stop'), /INVALID_OUTPUT/);
+});
+test('planner retries locally once, validates the result and preserves explicit review', async () => {
+  const attempts: boolean[] = [];
+  const result = await planWithRecovery(async retry => {
+    attempts.push(retry);
+    if (!retry) throw new Error('OUTPUT_LIMIT');
+    return researchPlan;
+  });
+  assert.deepEqual(attempts, [false, true]);
+  assert.deepEqual(result, researchPlan);
+  // This pure recovery routine has no network/tool callback or raw-question fallback.
+  let failures = 0;
+  await assert.rejects(() => planWithRecovery(async () => { failures++; throw new Error('INVALID_OUTPUT'); }), /PLAN_FAILED/);
+  assert.equal(failures, 2);
+});
+test('cancellation and device/context failures never start a second planner attempt', async () => {
+  for (const code of ['CANCELLED', 'GPU_LOST', 'MODEL_DOWNLOAD', 'CONTEXT_LIMIT', 'TIMEOUT']) {
+    let calls = 0;
+    await assert.rejects(() => planWithRecovery(async () => { calls++; throw new Error(code); }), new RegExp(code));
+    assert.equal(calls, 1);
+  }
+});
+test('unfinished answer JSON is withheld even when its first field looks usable', () => {
+  assert.throws(() => completionValue('{"status":"answer","answer":{"text":"Plausible but unfinished guidance","passage":"S1P1"},"steps":[', 'length'), /OUTPUT_LIMIT/);
+  assert.deepEqual(completionValue(JSON.stringify(researchPlan) + ' \n\t', 'length'), researchPlan);
+  assert.match(errorMessage('OUTPUT_LIMIT'), /Try again\./);
+  assert.doesNotMatch(errorMessage('OUTPUT_LIMIT'), /shorter/);
+});
