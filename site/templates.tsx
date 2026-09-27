@@ -7,6 +7,7 @@ import { CANTONS, DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
 import { formatDate } from './format';
 
 export const REPO = 'https://github.com/jonashertner/swisslaw';
+export const OCL = 'https://opencaselaw.ch';
 export const issueUrl = (template: 'correction' | 'topic', title: string) => `${REPO}/issues/new?template=${template}.md&title=${encodeURIComponent(title)}`;
 export const LANGS: readonly KnowledgeLanguage[] = ['de', 'fr', 'it', 'rm', 'en'];
 export const LANG_NAMES: Record<KnowledgeLanguage, string> = { de: 'Deutsch', fr: 'Français', it: 'Italiano', rm: 'Rumantsch', en: 'English' };
@@ -19,6 +20,7 @@ export const paths = {
   area: (l: KnowledgeLanguage, a: string) => `/${l}/${a}/`,
   situation: (l: KnowledgeLanguage, id: string) => { const [a, ...rest] = id.split('.'); return `/${l}/${a}/${rest.join('.')}/`; },
   about: (l: KnowledgeLanguage) => `/${l}/about/`,
+  thanks: (l: KnowledgeLanguage) => `/${l}/thanks/`,
 };
 const DEADLINE_LABEL = new Map(LETTERS.map(l => [l.situation, l.id]));
 
@@ -55,6 +57,7 @@ export function Foot({ ctx }: { ctx: Ctx }) {
         <a href={REPO}>GitHub</a>
       </nav>
       <p>{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
+      <p>{t(ctx, 'mission')} {t(ctx, 'poweredBy')} <a href={OCL}>OpenCaseLaw</a>.</p>
       <p><a href={`${REPO}/issues/new/choose`}>{t(ctx, 'contribute')}</a></p>
     </footer>
   );
@@ -85,7 +88,7 @@ export function IndexBody({ ctx, groups, preparing }: { ctx: Ctx; groups: { area
       </section>
       <section className="group" id="results" aria-live="polite" hidden>
         <h2 className="group-name">{t(ctx, 'searchResults')}</h2>
-        <div className="group-body"><ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href={issueUrl('topic', '')}>{t(ctx, 'suggestTopic')}</a></p></div>
+        <div className="group-body"><ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href="#submit">{t(ctx, 'submitTitle')}</a></p></div>
       </section>
       <div id="index">
         {groups.map(g => (
@@ -96,7 +99,48 @@ export function IndexBody({ ctx, groups, preparing }: { ctx: Ctx; groups: { area
         ))}
         {preparing.length > 0 && <p className="preparing">{t(ctx, 'preparing', { x: preparing.map(a => AREA_TEXT[a][ctx.lang]).join(', ') })}</p>}
       </div>
+      <SubmitSection ctx={ctx} />
     </>
+  );
+}
+
+export function SubmitSection({ ctx }: { ctx: Ctx }) {
+  return (
+    <section className="group submit" id="submit" aria-labelledby="submit-h">
+      <h2 id="submit-h" className="group-name">{t(ctx, 'submitTitle')}</h2>
+      <form className="submit-form" method="post" action="/api/questions" data-submit>
+        <p className="submit-lead">{t(ctx, 'submitLead')}</p>
+        <input type="hidden" name="lang" value={ctx.lang} />
+        <label className="field-block"><span>{t(ctx, 'submitQuestion')}</span>
+          <textarea name="question" rows={5} minLength={20} maxLength={2000} required />
+        </label>
+        <div className="submit-preview" data-preview hidden>
+          <p>{t(ctx, 'submitPreview')}</p>
+          <blockquote />
+        </div>
+        <div className="submit-row">
+          <label className="field-block"><span>{t(ctx, 'submitCanton')}</span>
+            <select name="canton" defaultValue=""><option value="">–</option>{CANTONS.map(c => <option key={c} value={c}>{c}</option>)}</select>
+          </label>
+          <label className="field-block"><span>{t(ctx, 'submitEmail')}</span><input type="email" name="email" autoComplete="email" maxLength={200} /></label>
+        </div>
+        <div className="hp" aria-hidden="true"><label>Website<input type="text" name="website" tabIndex={-1} autoComplete="off" /></label></div>
+        <label className="opt consent"><input type="checkbox" name="consent" value="yes" required /><span>{t(ctx, 'submitConsent')}</span></label>
+        <div className="submit-actions">
+          <button type="submit" className="button">{t(ctx, 'submitSend')}</button>
+          <p className="submit-status" role="status" data-submit-status />
+        </div>
+      </form>
+    </section>
+  );
+}
+
+export function ThanksBody({ ctx }: { ctx: Ctx }) {
+  return (
+    <section className="about">
+      <h1>{t(ctx, 'submitThanks')}</h1>
+      <p><a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a></p>
+    </section>
   );
 }
 
@@ -118,6 +162,7 @@ export function AboutBody({ ctx }: { ctx: Ctx }) {
     <section className="about">
       <h1>{t(ctx, 'aboutTitle')}</h1>
       {(['aboutBody', 'how1', 'how2', 'how3'] as const).map(k => <p key={k}>{t(ctx, k)}</p>)}
+      <p>{(SITE_TEXT.aboutSources[ctx.lang] || SITE_TEXT.aboutSources.de).split('{ocl}').flatMap((part, i) => i ? [<a key={i} href={OCL}>OpenCaseLaw</a>, part] : [part])}</p>
     </section>
   );
 }

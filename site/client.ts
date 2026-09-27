@@ -2,6 +2,7 @@
 // It adds: instant search (index), answers that filter the guidance, the deadline calculator, copy and print.
 import { computeDeadline, DEADLINE_RULES, RuleNotSigned, type Delivery } from '../lib/swisslaw-chat/deadlines';
 import { searchSituations } from '../lib/swisslaw-chat/site';
+import { redact } from '../lib/swisslaw-chat/redact';
 import type { KnowledgeLanguage, Situation } from '../lib/swisslaw-chat/knowledge';
 
 type PageData = { lang: KnowledgeLanguage; channel: 'public' | 'review'; text: Record<string, string>; locale: string;
@@ -127,5 +128,30 @@ function initSituation() {
   update();
 }
 
+// --- index: submit a question ----------------------------------------------------
+function initSubmit() {
+  const form = $<HTMLFormElement>('[data-submit]'); if (!form) return;
+  const question = form.elements.namedItem('question') as HTMLTextAreaElement;
+  const preview = $<HTMLElement>('[data-preview]', form)!; const quote = $<HTMLElement>('blockquote', preview)!;
+  const status = $<HTMLElement>('[data-submit-status]', form)!; const button = $<HTMLButtonElement>('button[type=submit]', form)!;
+  const show = () => { const r = redact(question.value); preview.hidden = r.replaced === 0; quote.textContent = r.text; };
+  question.addEventListener('input', show);
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const text = redact(question.value).text;
+    if (text.length < 20) { status.textContent = tx('submitTooShort'); question.focus(); return; }
+    const get = (n: string) => (form.elements.namedItem(n) as HTMLInputElement | null)?.value ?? '';
+    button.disabled = true; status.textContent = '';
+    try {
+      const res = await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin',
+        body: JSON.stringify({ lang: data.lang, question: text, canton: get('canton'), email: get('email'), website: get('website'), consent: (form.elements.namedItem('consent') as HTMLInputElement).checked }) });
+      if (res.status === 201) { form.reset(); preview.hidden = true; status.textContent = tx('submitThanks'); }
+      else status.textContent = tx(res.status === 429 ? 'submitTooMany' : [404, 405, 501].includes(res.status) ? 'submitUnavailable' : 'submitError');
+    } catch { status.textContent = tx('submitError'); }
+    finally { button.disabled = false; }
+  });
+}
+
 initSearch();
+initSubmit();
 initSituation();

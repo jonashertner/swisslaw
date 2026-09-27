@@ -13,7 +13,7 @@ import { localText, SituationSchema, validateSituation, type KnowledgeLanguage, 
 import { AREAS, byImportance, LETTERS, visibleInChannel, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, FULL_DATE_LOCALE, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
-import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, type Ctx } from './templates';
+import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, type Ctx } from './templates';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const OUT = process.env.SITE_OUT ?? join(ROOT, 'dist');
@@ -55,7 +55,7 @@ write(jsPath, Buffer.from(js));
 
 // --- page shell -------------------------------------------------------------------
 const CLIENT_KEYS: SiteKey[] = ['enterDate', 'calcPending', 'noDate', 'actUntil', 'today', 'dayLeft', 'daysLeft', 'expired', 'urgent', 'couldBeLater',
-  'later_next_day_receipt', 'later_candidate_holidays', 'later_both', 'cantonHint', 'howCalculated', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied',
+  'later_next_day_receipt', 'later_candidate_holidays', 'later_both', 'cantonHint', 'howCalculated', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied', 'submitThanks', 'submitError', 'submitUnavailable', 'submitTooShort', 'submitTooMany',
   ...(Object.keys(SITE_TEXT).filter(k => k.startsWith('note_')) as SiteKey[])];
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const jsonScript = (v: unknown) => JSON.stringify(v).replace(/</g, '\\u003c');
@@ -101,7 +101,7 @@ function emit(p: PageSpec) {
 }
 // Raw templates: the client fills {n}, {date} and {reason} itself.
 const clientText = (lang: KnowledgeLanguage) => Object.fromEntries(CLIENT_KEYS.map(k => [k, SITE_TEXT[k][lang] || SITE_TEXT[k].de]));
-const siteLd = { '@type': 'WebSite', name: 'swisslaw.io', url: ORIGIN };
+const siteLd = { '@type': 'WebSite', name: 'swisslaw.io', url: ORIGIN, description: 'Free guidance on everyday Swiss law, to improve access to justice.', isBasedOn: { '@type': 'Dataset', name: 'OpenCaseLaw', url: 'https://opencaselaw.ch' } };
 const publisher = { '@type': 'Organization', name: 'swisslaw.io', url: ORIGIN };
 const dueLabel = new Map(LETTERS.map(l => [l.situation, l.id]));
 
@@ -151,6 +151,8 @@ for (const lang of LANGS) {
         encoding: { '@type': 'MediaObject', encodingFormat: 'application/json', contentUrl: `${ORIGIN}/data/situations/${s.id}.json` } } });
   }
 
+  emit({ lang, path: paths.thanks(lang), alt: l => paths.thanks(l), title: title(st('submitThanks', lang)), description: st('submitThanks', lang),
+    body: <ThanksBody ctx={{ lang, review: REVIEW }} /> });
   emit({ lang, path: paths.about(lang), alt: l => paths.about(l), title: title(st('aboutTitle', lang)), description: st('aboutBody', lang).slice(0, 300),
     body: <AboutBody ctx={{ lang, review: REVIEW }} />, jsonld: { '@context': 'https://schema.org', '@type': 'AboutPage', name: st('aboutTitle', lang), url: `${ORIGIN}${paths.about(lang)}`, isPartOf: siteLd } });
 }
@@ -177,10 +179,10 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   `<url><loc>${ORIGIN}${p.path}</loc><lastmod>${today}</lastmod>${LANGS.map(l => `<xhtml:link rel="alternate" hreflang="${l}" href="${ORIGIN}${p.alts[l]}"/>`).join('')}</url>`).join('\n')}\n</urlset>\n`;
 write('sitemap.xml', sitemap);
 write('robots.txt', REVIEW ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
-write('llms.txt', `# swisslaw.io\n\n> Free guidance on everyday Swiss law for residents: what applies, what to do, by when. German master text; French, Italian, Romansh and English interfaces. Every rule cites official sources (Fedlex, Federal Supreme Court via OpenCaseLaw). Guidance is reviewed by a Swiss lawyer before publication. Content licence: CC BY 4.0.\n\n## Open data\n\n- [Index of all situations](${ORIGIN}/data/index.json): ids, titles, status, versions, URLs\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting regime\n- Each situation as JSON: ${ORIGIN}/data/situations/<id>.json\n\n## Situations\n\n${situations.map(s => `- [${s.title.de}](${ORIGIN}${paths.situation('de', s.id)}): ${s.summary.de}`).join('\n')}\n\n## Notes for machines\n\n- Cite the situation URL and version. Quote statutes only from the official sources linked in each situation.\n- This is general legal information, not individual advice. Deadlines depend on the facts; see the deadline rules.\n`);
+write('llms.txt', `# swisslaw.io\n\n> Free guidance on everyday Swiss law for residents, to improve access to justice: what applies, what to do, by when. Powered by OpenCaseLaw (https://opencaselaw.ch), the open collection of Swiss law and case law. German master text; French, Italian, Romansh and English interfaces. Every rule cites official sources (Fedlex, Federal Supreme Court via OpenCaseLaw). Guidance is reviewed by a Swiss lawyer before publication. Content licence: CC BY 4.0.\n\n## Open data\n\n- [Index of all situations](${ORIGIN}/data/index.json): ids, titles, status, versions, URLs\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting regime\n- Each situation as JSON: ${ORIGIN}/data/situations/<id>.json\n\n## Situations\n\n${situations.map(s => `- [${s.title.de}](${ORIGIN}${paths.situation('de', s.id)}): ${s.summary.de}`).join('\n')}\n\n## Notes for machines\n\n- Cite the situation URL and version. Quote statutes only from the official sources linked in each situation.\n- This is general legal information, not individual advice. Deadlines depend on the facts; see the deadline rules.\n`);
 
 // --- headers ----------------------------------------------------------------------------
-const csp = `default-src 'none'; script-src 'self' '${rootScriptHash}'; style-src '${cssHash}'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
+const csp = `default-src 'none'; script-src 'self' '${rootScriptHash}'; style-src '${cssHash}'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
 write('_csp.json', JSON.stringify({ csp }));
 write('_headers', [
   '/*', '  Referrer-Policy: no-referrer', '  X-Content-Type-Options: nosniff', '  X-Frame-Options: DENY', '  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()', `  Content-Security-Policy: ${csp}`,
