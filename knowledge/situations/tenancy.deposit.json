@@ -1,0 +1,299 @@
+{
+  "schema": 1,
+  "id": "tenancy.deposit",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Wie bekomme ich meine Mietkaution zurück?"
+  },
+  "summary": {
+    "de": "Die Mietkaution muss bei einer Bank auf einem Konto in Ihrem eigenen Namen liegen. Nach Ende des Mietverhältnisses können Sie die Freigabe verlangen, sobald keine offenen Ansprüche mehr bestehen. Macht der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keine rechtlichen Schritte, können Sie die Kaution direkt von der Bank zurückfordern."
+  },
+  "examples": {
+    "de": [
+      "Wie bekomme ich meine Mietkaution zurück?",
+      "Der Vermieter gibt meine Kaution nicht frei, was kann ich tun?",
+      "Wie lange darf der Vermieter meine Kaution zurückhalten?",
+      "Wie chum ich wieder zu mire Kution nach em Uszug?",
+      "Darf der Vermieter mehr als drei Monatsmieten als Kaution verlangen?",
+      "Muss die Kaution auf einem Konto auf meinen eigenen Namen liegen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Mietkaution (Sicherheit in Geld oder Wertpapieren) bei der Miete von Wohnräumen in der Schweiz, während und nach Ende des Mietverhältnisses."
+    },
+    "excludes": {
+      "de": "Geschäftsräume und andere besondere Mietverhältnisse; Kautionen, die nicht bei einer Bank, sondern zum Beispiel bar beim Vermieter hinterlegt wurden."
+    }
+  },
+  "facts": [
+    {
+      "key": "status",
+      "question": {
+        "de": "In welcher Phase befinden Sie sich?"
+      },
+      "options": [
+        {
+          "value": "during",
+          "label": {
+            "de": "Das Mietverhältnis dauert noch an"
+          }
+        },
+        {
+          "value": "ended-recent",
+          "label": {
+            "de": "Das Mietverhältnis ist seit weniger als einem Jahr beendet"
+          }
+        },
+        {
+          "value": "ended-long",
+          "label": {
+            "de": "Das Mietverhältnis ist seit einem Jahr oder länger beendet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "landlord_claim",
+      "question": {
+        "de": "Hat der Vermieter Ihnen gegenüber eine Forderung geltend gemacht, zum Beispiel für Schäden oder ausstehende Miete?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bank_form",
+      "question": {
+        "de": "Liegt die Kaution auf einem Sparkonto oder Depot bei einer Bank, das auf Ihren eigenen Namen lautet?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, oder ich weiss es nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie jetzt erreichen?"
+      },
+      "options": [
+        {
+          "value": "get-back",
+          "label": {
+            "de": "Ich will die Kaution zurückbekommen"
+          }
+        },
+        {
+          "value": "check-amount",
+          "label": {
+            "de": "Ich will wissen, ob die verlangte Kaution zu hoch ist"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "bank-account-rule",
+      "kind": "rule",
+      "text": {
+        "de": "Leisten Sie bei der Miete von Wohn- oder Geschäftsräumen eine Sicherheit in Geld oder Wertpapieren, muss der Vermieter diese bei einer Bank auf einem Sparkonto oder Depot hinterlegen, das auf Ihren eigenen Namen lautet. Die Kaution bleibt damit während des ganzen Mietverhältnisses Ihr Eigentum."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "max-three-months",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "check-amount",
+          "unknown"
+        ],
+        "status": [
+          "during",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei der Miete von Wohnräumen darf der Vermieter höchstens drei Monatsmietzinse als Kaution verlangen. Verlangt er mehr, können Sie die Rückzahlung des überschiessenden Betrags verlangen."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "bank-form-warning",
+      "kind": "warning",
+      "when": {
+        "bank_form": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Liegt Ihre Kaution nicht auf einem Bankkonto in Ihrem eigenen Namen, verlangen Sie schriftlich von Ihrem Vermieter, dass er dies nachholt. Diese Pflicht trifft den Vermieter, nicht Sie."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "release-conditions",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "ended-recent",
+          "ended-long",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Bank darf die Kaution nur herausgeben, wenn beide Parteien schriftlich zustimmen, oder gestützt auf einen rechtskräftigen Zahlungsbefehl oder ein rechtskräftiges Gerichtsurteil gegen Sie. Sind Sie sich mit dem Vermieter einig, dass keine Forderungen mehr offen sind, unterschreiben Sie mit ihm gemeinsam eine Freigabeerklärung an die Bank."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "one-year-rule",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "ended-recent",
+          "ended-long",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keinen Anspruch gegen Sie rechtlich geltend gemacht, zum Beispiel durch eine Betreibung oder eine Klage, können Sie die Rückerstattung der Kaution direkt von der Bank verlangen, auch ohne seine Zustimmung."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "how-to-request",
+      "kind": "step",
+      "when": {
+        "goal": [
+          "get-back",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Fragen Sie den Vermieter nach Ende des Mietverhältnisses schriftlich nach der Freigabe der Kaution. Ist ein Jahr seit Ende des Mietverhältnisses vergangen und hat der Vermieter nichts unternommen, wenden Sie sich mit dem Mietvertrag und einem Nachweis über das Ende des Mietverhältnisses direkt an die Bank."
+      },
+      "sources": [
+        "or-257e"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Streitigkeiten aus Miete und Pacht von Wohnräumen sind vor der Schlichtungsbehörde und dem erstinstanzlichen Gericht kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der Vermieter innert der Jahresfrist eine Betreibung gegen Sie eingeleitet oder Klage erhoben hat, wenn Sie mit der Höhe seiner Forderung nicht einverstanden sind, oder wenn die Bank die Freigabe trotz erfüllter Voraussetzungen verweigert."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren, falls es zum Streit kommt. Mieterinnen- und Mieterverbände beraten ihre Mitglieder auch zu Kautionsfragen. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-257e": {
+      "type": "statute",
+      "sr": "220",
+      "article": "257e",
+      "label": "OR · Art. 257e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257e",
+      "sha256": "5c2ecad345fc3d84589b64baa681d7b8f40c693e7dbfc4bb2f8c00116a4425d5"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Mietvertrag und Pachtvertrag"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

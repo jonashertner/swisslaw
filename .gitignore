@@ -7,3 +7,6 @@ dist/
 coverage/
 
 .cache/
+
+# Knowledge-base private inputs (SwissLit names/pages for guards). Never commit.
+knowledge/.private/

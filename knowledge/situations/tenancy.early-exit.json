@@ -1,0 +1,288 @@
+{
+  "schema": 1,
+  "id": "tenancy.early-exit",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich will vor Ablauf der Kündigungsfrist ausziehen"
+  },
+  "summary": {
+    "de": "Ohne Kündigungsfrist oder -termin auszuziehen befreit Sie nur, wenn Sie dem Vermieter eine zahlungsfähige und zumutbare Ersatzmieterin oder einen Ersatzmieter vorschlagen, die oder der zu den gleichen Bedingungen übernimmt. Sonst schulden Sie die Miete weiter, bis das Mietverhältnis regulär endet. Bei Wohnungen gilt ohne andere Abmachung eine Kündigungsfrist von drei Monaten auf einen ortsüblichen Termin."
+  },
+  "examples": {
+    "de": [
+      "Ich will vor Ablauf der Kündigungsfrist ausziehen",
+      "Kann ich früher aus der Wohnung ausziehen, wenn ich einen Nachmieter bringe?",
+      "Muss ich weiter Miete zahlen, wenn ich vorzeitig auszieht?",
+      "Chan ich vorhär uszieh, wenn ich en Nachmieter han?",
+      "Wie lang ist meine Kündigungsfrist für die Wohnung?",
+      "Der Vermieter lehnt meinen vorgeschlagenen Nachmieter ab, darf er das?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Den vorzeitigen Auszug aus einer gemieteten Wohnung in der Schweiz, bevor die vertragliche oder gesetzliche Kündigungsfrist oder der Kündigungstermin erreicht ist, und die ordentlichen Kündigungsfristen für Wohnungen."
+    },
+    "excludes": {
+      "de": "Geschäftsräume und andere besondere Mietverhältnisse; die ausserordentliche, fristlose Auflösung des Mietverhältnisses aus wichtigem Grund."
+    }
+  },
+  "facts": [
+    {
+      "key": "contract_type",
+      "question": {
+        "de": "Haben Sie einen befristeten oder unbefristeten Mietvertrag?"
+      },
+      "help": {
+        "de": "Befristet heisst, der Vertrag endet automatisch an einem im Vertrag festgelegten Datum, ohne dass gekündigt werden muss."
+      },
+      "options": [
+        {
+          "value": "fixed-term",
+          "label": {
+            "de": "Befristet, mit einem festen Enddatum"
+          }
+        },
+        {
+          "value": "open-ended",
+          "label": {
+            "de": "Unbefristet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "replacement",
+      "question": {
+        "de": "Haben Sie bereits eine Ersatzmieterin oder einen Ersatzmieter gefunden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir nicht sicher, wie das funktioniert"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie wissen?"
+      },
+      "options": [
+        {
+          "value": "leave-early",
+          "label": {
+            "de": "Ich will einfach früher ausziehen, ohne die Kündigungsfrist abzuwarten"
+          }
+        },
+        {
+          "value": "notice-period",
+          "label": {
+            "de": "Ich weiss nicht, wie lange meine ordentliche Kündigungsfrist ist"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "replacement-tenant-rule",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "leave-early",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Geben Sie die Wohnung zurück, ohne die Kündigungsfrist oder den Kündigungstermin einzuhalten, werden Sie von Ihren Pflichten gegenüber dem Vermieter nur befreit, wenn Sie ihm eine Ersatzmieterin oder einen Ersatzmieter vorschlagen, die oder der für den Vermieter zumutbar ist. Diese Person muss zahlungsfähig sein und bereit, den Mietvertrag zu den gleichen Bedingungen zu übernehmen."
+      },
+      "sources": [
+        "or-264"
+      ]
+    },
+    {
+      "id": "landlord-acceptance",
+      "kind": "warning",
+      "when": {
+        "replacement": [
+          "no",
+          "unknown"
+        ],
+        "goal": [
+          "leave-early",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Vermieter muss nicht jede vorgeschlagene Person akzeptieren. Er darf eine Ersatzmieterin oder einen Ersatzmieter ablehnen, die oder der zum Beispiel nicht zahlungsfähig ist oder die gleichen Bedingungen nicht übernehmen will. Schlagen Sie die Person deshalb möglichst früh und mit Nachweisen zur Zahlungsfähigkeit vor, etwa einem aktuellen Betreibungsregisterauszug."
+      },
+      "sources": [
+        "or-264"
+      ]
+    },
+    {
+      "id": "if-no-replacement",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "leave-early",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Finden Sie keine zumutbare Ersatzmieterin oder keinen zumutbaren Ersatzmieter, oder lehnt der Vermieter zu Recht ab, müssen Sie den Mietzins weiter bezahlen, bis das Mietverhältnis gemäss Vertrag oder Gesetz endet. Der Vermieter muss sich dabei anrechnen lassen, was er an Auslagen erspart und was er durch eine anderweitige Nutzung der Wohnung einnimmt oder absichtlich nicht eingenommen hat, zum Beispiel wenn er die Wohnung ohne guten Grund leer stehen lässt."
+      },
+      "sources": [
+        "or-264"
+      ]
+    },
+    {
+      "id": "notice-periods",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "notice-period",
+          "both",
+          "unknown"
+        ],
+        "contract_type": [
+          "open-ended",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei einem unbefristeten Mietverhältnis über eine Wohnung können beide Parteien mit einer Frist von drei Monaten auf einen ortsüblichen Kündigungstermin kündigen, oder, wenn es keinen solchen Ortsgebrauch gibt, auf das Ende einer dreimonatigen Mietdauer. Haben Sie mit dem Vermieter eine längere Frist oder einen anderen Termin vereinbart, gilt diese Abmachung. Halten Sie Frist oder Termin nicht ein, gilt Ihre Kündigung automatisch für den nächstmöglichen Termin."
+      },
+      "sources": [
+        "or-266a",
+        "or-266c"
+      ]
+    },
+    {
+      "id": "fixed-term-note",
+      "kind": "warning",
+      "when": {
+        "contract_type": [
+          "fixed-term"
+        ]
+      },
+      "text": {
+        "de": "Ein befristetes Mietverhältnis endet automatisch am vereinbarten Datum, ohne dass gekündigt werden muss. Vor diesem Datum können Sie es in der Regel nur durch eine zahlungsfähige, zumutbare Ersatzmieterin oder einen ebensolchen Ersatzmieter oder durch eine Einigung mit dem Vermieter vorzeitig beenden."
+      },
+      "sources": [
+        "or-264"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der Vermieter eine vorgeschlagene Ersatzmieterin oder einen Ersatzmieter ohne erkennbaren Grund ablehnt, wenn Sie sich mit dem Vermieter über die Höhe der geschuldeten Miete streiten, oder wenn ein wichtiger Grund für eine sofortige, ausserordentliche Auflösung vorliegen könnte."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Suche nach einer geeigneten Ersatzmieterin oder einem Ersatzmieter. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-264": {
+      "type": "statute",
+      "sr": "220",
+      "article": "264",
+      "label": "OR · Art. 264",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_264",
+      "sha256": "798156a66fd8f7f4b11e91927f563656ee06817f6143dafaa331625d2ea85573"
+    },
+    "or-266a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266a",
+      "label": "OR · Art. 266a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266a",
+      "sha256": "edb1d395f848be84449039f6acb40e60c35c5041037afa6c8333dc1370471b1e"
+    },
+    "or-266c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266c",
+      "label": "OR · Art. 266c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266c",
+      "sha256": "e2b74e9121e37f6e7caf1a7e655ae27e56437a996160c4313d362d9414f7f6a8"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Mietvertrag und Pachtvertrag"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

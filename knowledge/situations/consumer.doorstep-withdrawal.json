@@ -1,0 +1,382 @@
+{
+  "schema": 1,
+  "id": "consumer.doorstep-withdrawal",
+  "domain": "consumer",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Kann ich einen Vertrag an der Haustür oder am Telefon widerrufen?"
+  },
+  "summary": {
+    "de": "Für Verträge, die Ihnen an der Haustür, unterwegs, an einer Ausflugs-Werbeveranstaltung oder am Telefon aufgedrängt wurden, gibt es ein 14-tägiges Widerrufsrecht. Für gewöhnliche Online-Käufe gibt es dieses Recht nicht."
+  },
+  "examples": {
+    "de": [
+      "Kann ich einen Vertrag an der Haustür widerrufen?",
+      "Ich habe am Telefon ein Abo abgeschlossen, kann ich es rückgängig machen?",
+      "Wie viele Tage habe ich Zeit für einen Widerruf?",
+      "Gilt das Widerrufsrecht auch für Online-Bestellungen?",
+      "Ich han am Telifon öppis abgschlosse, cha ich das widerrüefe?",
+      "Ein Verkäufer kam zu mir nach Hause und ich habe unterschrieben, kann ich zurücktreten?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Verträge über bewegliche Sachen oder Dienstleistungen für Ihren persönlichen oder familiären Gebrauch, die Ihnen an der Haustür, am Arbeitsplatz, unterwegs, an einer Ausflugs-Werbeveranstaltung oder am Telefon angeboten wurden, wenn Ihre Zahlung mehr als 100 Franken beträgt."
+    },
+    "excludes": {
+      "de": "Online-Käufe, telefonische Bestellungen, die Sie selbst ausgelöst haben, Käufe an Markt- und Messeständen, Finanzdienstleistungsverträge von Banken und Finanzinstituten sowie Versicherungsverträge."
+    }
+  },
+  "facts": [
+    {
+      "key": "situation",
+      "question": {
+        "de": "Wo oder wie wurde Ihnen das Angebot gemacht?"
+      },
+      "options": [
+        {
+          "value": "home-work",
+          "label": {
+            "de": "An meiner Haustür, zu Hause oder an meinem Arbeitsplatz"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "In einem öffentlichen Verkehrsmittel oder auf der Strasse"
+          }
+        },
+        {
+          "value": "excursion",
+          "label": {
+            "de": "An einer Werbeveranstaltung mit einer Ausflugsfahrt"
+          }
+        },
+        {
+          "value": "phone",
+          "label": {
+            "de": "Am Telefon, weil ich angerufen wurde"
+          }
+        },
+        {
+          "value": "online-or-other",
+          "label": {
+            "de": "Online, per E-Mail, im Laden oder ich habe selbst angerufen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "market_or_requested",
+      "question": {
+        "de": "Fand das Gespräch an einem Markt- oder Messestand statt, oder haben Sie das Verkaufsgespräch selbst ausdrücklich gewünscht?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "amount",
+      "question": {
+        "de": "Wie hoch ist der Betrag, den Sie laut Vertrag zahlen sollen?"
+      },
+      "options": [
+        {
+          "value": "over100",
+          "label": {
+            "de": "Mehr als 100 Franken"
+          }
+        },
+        {
+          "value": "under100",
+          "label": {
+            "de": "100 Franken oder weniger"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "want_to_withdraw",
+      "question": {
+        "de": "Wollen Sie den Vertrag rückgängig machen?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, ich möchte nur wissen, wie es funktioniert"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "already_used",
+      "question": {
+        "de": "Haben Sie die Sache bereits benutzt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Trifft nicht zu oder weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "scope-online",
+      "kind": "warning",
+      "when": {
+        "situation": [
+          "online-or-other"
+        ]
+      },
+      "text": {
+        "de": "Für Online-Käufe, Bestellungen per E-Mail oder telefonische Bestellungen, die Sie selbst ausgelöst haben, gibt es in der Schweiz kein allgemeines gesetzliches Widerrufsrecht. Die hier beschriebenen Regeln gelten nur für die im Gesetz genannten Situationen: ein Angebot an Ihrer Haustür, an Ihrem Arbeitsplatz, in einem öffentlichen Verkehrsmittel, auf der Strasse, an einer Werbeveranstaltung mit Ausflug, oder am Telefon, wenn der Anbieter Sie angerufen hat. Ein freiwilliges Rückgaberecht eines Online-Shops richtet sich allein nach dessen eigenen Bedingungen."
+      },
+      "sources": [
+        "or-40a",
+        "or-40b"
+      ]
+    },
+    {
+      "id": "scope-basis",
+      "kind": "rule",
+      "text": {
+        "de": "Ein gesetzliches Widerrufsrecht besteht, wenn Ihnen ein Anbieter, der beruflich oder gewerblich handelt, bewegliche Sachen oder Dienstleistungen für Ihren persönlichen oder familiären Gebrauch verkauft hat und Ihre Zahlung mehr als 100 Franken beträgt."
+      },
+      "sources": [
+        "or-40a"
+      ]
+    },
+    {
+      "id": "amount-under100",
+      "kind": "warning",
+      "when": {
+        "amount": [
+          "under100"
+        ]
+      },
+      "text": {
+        "de": "Beträgt Ihre Zahlung 100 Franken oder weniger, gilt dieses Widerrufsrecht nicht."
+      },
+      "sources": [
+        "or-40a"
+      ]
+    },
+    {
+      "id": "covered-situations",
+      "kind": "rule",
+      "when": {
+        "situation": [
+          "home-work",
+          "public",
+          "excursion",
+          "phone",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie können Ihren Antrag oder Ihre Annahme des Vertrags widerrufen, wenn Ihnen das Angebot an Ihrem Arbeitsplatz, in Wohnräumen oder in deren unmittelbarer Umgebung, in einem öffentlichen Verkehrsmittel oder auf der Strasse, an einer Werbeveranstaltung mit einer Ausflugsfahrt, oder am Telefon bzw. einem vergleichbaren Mittel gleichzeitiger mündlicher Kommunikation gemacht wurde."
+      },
+      "sources": [
+        "or-40b"
+      ]
+    },
+    {
+      "id": "exceptions",
+      "kind": "warning",
+      "when": {
+        "market_or_requested": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kein Widerrufsrecht besteht, wenn Sie das Verkaufsgespräch selbst ausdrücklich gewünscht haben, oder wenn Sie Ihre Erklärung an einem Markt- oder Messestand abgegeben haben."
+      },
+      "sources": [
+        "or-40c"
+      ]
+    },
+    {
+      "id": "period",
+      "kind": "rule",
+      "text": {
+        "de": "Sie haben 14 Tage Zeit, um zu widerrufen. Diese Frist beginnt, sobald Sie den Vertrag beantragt oder angenommen haben und die vom Anbieter vorgeschriebenen Angaben erhalten haben. Den Beweis, wann Sie diese Angaben erhalten haben, muss der Anbieter erbringen. Die Frist ist eingehalten, wenn Sie am letzten Tag Ihren Widerruf dem Anbieter mitteilen oder Ihre Widerrufserklärung der Post übergeben."
+      },
+      "sources": [
+        "or-40e"
+      ]
+    },
+    {
+      "id": "form",
+      "kind": "rule",
+      "text": {
+        "de": "Für den Widerruf gibt es keine Formvorschrift. Sie müssen aber beweisen können, dass Sie rechtzeitig widerrufen haben. Teilen Sie den Widerruf deshalb schriftlich mit, etwa per Brief, E-Mail oder Nachricht, und bewahren Sie einen Beleg auf."
+      },
+      "sources": [
+        "or-40e"
+      ]
+    },
+    {
+      "id": "consequences",
+      "kind": "rule",
+      "when": {
+        "want_to_withdraw": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Widerrufen Sie den Vertrag, müssen beide Seiten bereits erhaltene Leistungen zurückgeben. Hat der Anbieter bereits eine Dienstleistung erbracht, müssen Sie ihm seine Auslagen und Aufwendungen ersetzen. Eine weitere Entschädigung schulden Sie dem Anbieter nicht."
+      },
+      "sources": [
+        "or-40f"
+      ]
+    },
+    {
+      "id": "already-used",
+      "kind": "warning",
+      "when": {
+        "already_used": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie die Sache schon benutzt, schulden Sie dem Anbieter dafür einen angemessenen Mietzins, auch wenn Sie den Vertrag widerrufen. Das Recht, überhaupt zu widerrufen, geht dadurch aber nicht verloren."
+      },
+      "sources": [
+        "or-40f"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der Anbieter Ihren Widerruf nicht akzeptiert, wenn es um einen hohen Betrag geht, oder wenn die 14-tägige Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Fragen zum Widerrufsrecht. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-40a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "40a",
+      "label": "OR · Art. 40a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_40a",
+      "sha256": "d630a64de949b5aa194e2eb19e88e6c139e091e0e914a9741f0b5528b8c172e7"
+    },
+    "or-40b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "40b",
+      "label": "OR · Art. 40b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_40b",
+      "sha256": "7a06e7067b817a3f3378e65fad680766c6448047d0f1258c0857a67af1bc88d9"
+    },
+    "or-40c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "40c",
+      "label": "OR · Art. 40c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_40c",
+      "sha256": "d40a18d3a7b1a42d5f9cbde87394406dcebc852df1c8cd57f766c8ae972e89ce"
+    },
+    "or-40e": {
+      "type": "statute",
+      "sr": "220",
+      "article": "40e",
+      "label": "OR · Art. 40e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_40e",
+      "sha256": "96233123c79baf79ec7c0f6a912deb26eb52d2bd9a76943a71f55fb0d9f2b92a"
+    },
+    "or-40f": {
+      "type": "statute",
+      "sr": "220",
+      "article": "40f",
+      "label": "OR · Art. 40f",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_40f",
+      "sha256": "47d0c561482d3de5604a72bf7b3b7c709767bbc76cc1402eb97fa3aebb6afb49"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Waren zurückgeben oder umtauschen"
+      },
+      "url": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

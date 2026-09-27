@@ -19,9 +19,14 @@
     "test": "tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
     "verify": "npm run test && npm run build",
-    "check:sources": "tsx scripts/check-prepared-sources.ts"
+    "check:sources": "tsx scripts/check-prepared-sources.ts",
+    "check:knowledge": "tsx scripts/check-knowledge.ts",
+    "build:review": "VITE_CHANNEL=review npm run build"
   },
   "dependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "5.3.0",
+    "@fontsource-variable/source-sans-3": "5.3.0",
+    "@fontsource-variable/source-serif-4": "5.3.0",
     "@huggingface/transformers": "3.8.1",
     "@mlc-ai/web-llm": "0.2.85",
     "lucide-react": "1.31.0",

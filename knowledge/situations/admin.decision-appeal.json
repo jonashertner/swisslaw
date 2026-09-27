@@ -1,0 +1,301 @@
+{
+  "schema": 1,
+  "id": "admin.decision-appeal",
+  "domain": "admin",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Eine Behörde hat gegen mich entschieden. Wie wehre ich mich?"
+  },
+  "summary": {
+    "de": "Eine Verfügung muss Ihnen sagen, mit welchem Rechtsmittel, bei welcher Stelle und innert welcher Frist Sie sich wehren können. Bei Bundesbehörden gilt in der Regel eine Beschwerdefrist von 30 Tagen. Die meisten alltäglichen Entscheide stammen aber von Kantonen oder Gemeinden, die ihr eigenes Verfahrensrecht haben; massgebend ist dort, was auf Ihrem Entscheid steht."
+  },
+  "examples": {
+    "de": [
+      "Eine Behörde hat gegen mich entschieden, wie wehre ich mich?",
+      "Ich habe einen negativen Entscheid einer Behörde erhalten, was nun?",
+      "Was ist eine Verfügung und wie fechte ich sie an?",
+      "Auf meinem Entscheid steht keine Rechtsmittelbelehrung, ist das gültig?",
+      "E Behörde het gäge mich entschide, wie wehr ich mich?",
+      "Wie lange habe ich Zeit, um gegen einen Entscheid des Bundes Beschwerde zu erheben?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Verfügungen von Behörden, also formelle Entscheide über Rechte oder Pflichten einer Person, sowohl von Bundesbehörden als auch von kantonalen und kommunalen Behörden."
+    },
+    "excludes": {
+      "de": "Gerichtsurteile in Zivil- oder Strafsachen, Strafbefehle und Ordnungsbussen sowie Entscheide privater Unternehmen. Dafür gibt es eigene Anleitungen oder andere Regeln."
+    }
+  },
+  "facts": [
+    {
+      "key": "level",
+      "question": {
+        "de": "Welche Behörde hat entschieden?"
+      },
+      "options": [
+        {
+          "value": "federal",
+          "label": {
+            "de": "Eine Bundesbehörde, zum Beispiel ein Bundesamt"
+          }
+        },
+        {
+          "value": "cantonal",
+          "label": {
+            "de": "Eine kantonale oder kommunale Behörde, zum Beispiel eine Gemeinde oder ein kantonales Amt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "instructions",
+      "question": {
+        "de": "Steht auf dem Entscheid, wie und innert welcher Frist Sie sich wehren können?"
+      },
+      "help": {
+        "de": "Diese Angabe heisst Rechtsmittelbelehrung und steht meist am Ende des Schreibens."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, das steht klar drauf"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es steht nichts dazu"
+          }
+        },
+        {
+          "value": "unclear",
+          "label": {
+            "de": "Es steht etwas, aber es ist unklar oder wirkt falsch"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "urgency",
+      "question": {
+        "de": "Wie viel Zeit bleibt Ihnen noch, wenn Sie eine Frist auf dem Entscheid sehen?"
+      },
+      "options": [
+        {
+          "value": "plenty",
+          "label": {
+            "de": "Noch mehr als eine Woche"
+          }
+        },
+        {
+          "value": "soon",
+          "label": {
+            "de": "Weniger als eine Woche"
+          }
+        },
+        {
+          "value": "passed",
+          "label": {
+            "de": "Die Frist ist schon abgelaufen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "what-is-a-verfuegung",
+      "kind": "rule",
+      "text": {
+        "de": "Eine Verfügung ist ein formeller Entscheid einer Behörde in einem Einzelfall, der auf öffentlichem Recht beruht und Rechte oder Pflichten begründet, ändert, aufhebt oder feststellt, oder ein entsprechendes Gesuch abweist. Nur gegen eine Verfügung gibt es ein ordentliches Rechtsmittel."
+      },
+      "sources": [
+        "vwvg-5"
+      ]
+    },
+    {
+      "id": "follow-instructions",
+      "kind": "step",
+      "text": {
+        "de": "Lesen Sie die Rechtsmittelbelehrung auf Ihrem Entscheid genau: Sie nennt das zulässige Rechtsmittel, die Stelle, bei der Sie es einreichen müssen, und die Frist. Diese Angaben sind für Ihren Fall massgebend, auch wenn sie von dem abweichen, was allgemein üblich ist."
+      },
+      "sources": [
+        "vwvg-35"
+      ]
+    },
+    {
+      "id": "cantonal-note",
+      "kind": "rule",
+      "when": {
+        "level": [
+          "cantonal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die meisten alltäglichen Entscheide, etwa von einer Gemeinde, einer kantonalen Steuer-, Sozial- oder Baubehörde, unterstehen nicht dem Verfahrensrecht des Bundes, sondern dem Verfahrensrecht des jeweiligen Kantons. Jeder Kanton regelt Fristen und Rechtsmittel etwas anders. Halten Sie sich deshalb an die Rechtsmittelbelehrung auf Ihrem eigenen Entscheid und ziehen Sie im Zweifel die kantonale Gesetzgebung oder eine Beratungsstelle bei."
+      },
+      "sources": [
+        "vwvg-5"
+      ]
+    },
+    {
+      "id": "federal-deadline",
+      "kind": "rule",
+      "when": {
+        "level": [
+          "federal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Richtet sich Ihr Fall nach dem Verfahrensrecht des Bundes, beträgt die Beschwerdefrist in der Regel 30 Tage ab Eröffnung der Verfügung. Die Beschwerde muss Ihre Anträge, deren Begründung mit Angabe der Beweismittel und Ihre Unterschrift enthalten; legen Sie eine Kopie der angefochtenen Verfügung bei."
+      },
+      "sources": [
+        "vwvg-50",
+        "vwvg-52"
+      ]
+    },
+    {
+      "id": "federal-standstill",
+      "kind": "rule",
+      "when": {
+        "level": [
+          "federal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei vielen Fristen des Bundesverfahrensrechts gelten Gerichtsferien: Solche nach Tagen bestimmten Fristen stehen still vom siebten Tag vor Ostern bis zum siebten Tag nach Ostern, vom 15. Juli bis 15. August, und vom 18. Dezember bis 2. Januar. Ob das für Ihre Frist gilt, sagt Ihnen die Rechtsmittelbelehrung oder die zuständige Behörde."
+      },
+      "sources": [
+        "vwvg-22a"
+      ]
+    },
+    {
+      "id": "missing-instructions",
+      "kind": "warning",
+      "when": {
+        "instructions": [
+          "no",
+          "unclear",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Fehlt die Rechtsmittelbelehrung, ist sie unvollständig oder falsch, darf Ihnen daraus kein Nachteil entstehen. Das schützt Sie aber nur, wenn Sie sich nicht bewusst waren, dass die Angabe falsch ist, und innert vernünftiger Zeit reagieren. Verlassen Sie sich nicht darauf: Reichen Sie Ihr Rechtsmittel so rasch wie möglich ein und lassen Sie prüfen, welche Frist tatsächlich gilt."
+      },
+      "sources": [
+        "vwvg-38",
+        "vwvg-35"
+      ]
+    },
+    {
+      "id": "urgent-escalate",
+      "kind": "escalate",
+      "when": {
+        "urgency": [
+          "soon",
+          "passed"
+        ]
+      },
+      "text": {
+        "de": "Läuft Ihre Frist bald ab oder ist sie bereits abgelaufen, holen Sie sich sofort Rat. Auch nach Ablauf einer Frist gibt es in Ausnahmefällen Möglichkeiten, etwa bei einer nachgewiesenen Verhinderung; das muss aber rasch und im Einzelfall geprüft werden."
+      }
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie sich Beratung, wenn Sie unsicher sind, welches Verfahrensrecht gilt, wenn die Rechtsmittelbelehrung fehlt oder unklar ist, oder wenn viel auf dem Spiel steht."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Behörde, die entschieden hat, erklärt Ihnen auf Anfrage das Verfahren und die Rechtsmittelfrist. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "vwvg-5": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "5",
+      "label": "VwVG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_5",
+      "sha256": "4dabcbfbfbcdbd8e2deca14a50e80d462f383b596a8d5180bcbeddc5d2b59883"
+    },
+    "vwvg-35": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "35",
+      "label": "VwVG · Art. 35",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_35",
+      "sha256": "dc479483fe2bf1e9f8392b7047873dfaa59dab461366bf13299318a3b90f1330"
+    },
+    "vwvg-38": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "38",
+      "label": "VwVG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_38",
+      "sha256": "8ee14acf2c3e4a1ef0181ac1d2f423534e552b0b83092eab30309dd6d594a090"
+    },
+    "vwvg-50": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "50",
+      "label": "VwVG · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_50",
+      "sha256": "43fb8c61251b24d70030ee236432049fd647713545a49fd2badc829436cec21a"
+    },
+    "vwvg-52": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "52",
+      "label": "VwVG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_52",
+      "sha256": "bf9bd27f21cdcb09bcb1a6b7cb5abec1a870408dd8046c41787e6c5926ca68f2"
+    },
+    "vwvg-22a": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "22a",
+      "label": "VwVG · Art. 22a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_22a",
+      "sha256": "54c4c9a484386dbe50111306715fdf34b86907009ddabc0b109f25818ab066f2"
+    }
+  },
+  "official_links": [],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

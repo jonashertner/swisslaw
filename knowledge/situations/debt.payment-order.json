@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "id": "debt.payment-order",
+  "domain": "debt",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich habe einen Zahlungsbefehl erhalten"
+  },
+  "summary": {
+    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter."
+  },
+  "examples": {
+    "de": [
+      "Ich habe einen Zahlungsbefehl erhalten, was muss ich jetzt tun?",
+      "Was ist ein Rechtsvorschlag und wie lange habe ich Zeit?",
+      "Muss ich eine Forderung, die ich für falsch halte, trotzdem bezahlen?",
+      "Kann ich nur einen Teil der Forderung bestreiten?",
+      "Ich han en Zahligsbefehl übercho vom Betriibigsamt, was söll i mache?",
+      "Erscheint ein Zahlungsbefehl in einem Betreibungsregisterauszug?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung)."
+    },
+    "excludes": {
+      "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst."
+    }
+  },
+  "facts": [
+    {
+      "key": "stage",
+      "question": {
+        "de": "In welcher Phase der Betreibung befinden Sie sich?"
+      },
+      "options": [
+        {
+          "value": "payment-order",
+          "label": {
+            "de": "Ich habe gerade einen Zahlungsbefehl erhalten"
+          }
+        },
+        {
+          "value": "later",
+          "label": {
+            "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "dispute",
+      "question": {
+        "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?"
+      },
+      "options": [
+        {
+          "value": "all",
+          "label": {
+            "de": "Ja, die ganze Forderung"
+          }
+        },
+        {
+          "value": "partial",
+          "label": {
+            "de": "Ja, aber nur einen Teil"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, ich will nicht bestreiten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "partial_amount",
+      "question": {
+        "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?"
+      },
+      "help": {
+        "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, das ist mir noch nicht klar"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "register_concern",
+      "question": {
+        "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "later-stage",
+      "kind": "escalate",
+      "when": {
+        "stage": [
+          "later"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen."
+      }
+    },
+    {
+      "id": "deadline",
+      "kind": "deadline",
+      "when": {
+        "stage": [
+          "payment-order",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch."
+      },
+      "sources": [
+        "schkg-74"
+      ],
+      "deadline_rules": [
+        "schkg_74_rechtsvorschlag"
+      ]
+    },
+    {
+      "id": "content",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "payment-order",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag."
+      },
+      "sources": [
+        "schkg-69"
+      ]
+    },
+    {
+      "id": "no-reasons",
+      "kind": "rule",
+      "when": {
+        "dispute": [
+          "all",
+          "partial",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände."
+      },
+      "sources": [
+        "schkg-75"
+      ]
+    },
+    {
+      "id": "partial-amount",
+      "kind": "rule",
+      "when": {
+        "dispute": [
+          "partial"
+        ]
+      },
+      "text": {
+        "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten."
+      },
+      "sources": [
+        "schkg-74"
+      ]
+    },
+    {
+      "id": "need-exact-amount",
+      "kind": "warning",
+      "when": {
+        "dispute": [
+          "partial"
+        ],
+        "partial_amount": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten."
+      },
+      "sources": [
+        "schkg-74"
+      ]
+    },
+    {
+      "id": "how-to-object",
+      "kind": "step",
+      "when": {
+        "dispute": [
+          "all",
+          "partial",
+          "unknown"
+        ],
+        "stage": [
+          "payment-order",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen."
+      },
+      "sources": [
+        "schkg-74"
+      ]
+    },
+    {
+      "id": "no-objection",
+      "kind": "warning",
+      "when": {
+        "dispute": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben."
+      },
+      "sources": [
+        "schkg-69"
+      ]
+    },
+    {
+      "id": "what-next",
+      "kind": "rule",
+      "when": {
+        "dispute": [
+          "all",
+          "partial",
+          "unknown"
+        ],
+        "stage": [
+          "payment-order",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert."
+      },
+      "sources": [
+        "schkg-79",
+        "schkg-80",
+        "schkg-82"
+      ]
+    },
+    {
+      "id": "register-info",
+      "kind": "rule",
+      "when": {
+        "register_concern": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung."
+      },
+      "sources": [
+        "schkg-8a"
+      ]
+    },
+    {
+      "id": "register-hide",
+      "kind": "step",
+      "when": {
+        "register_concern": [
+          "yes",
+          "unknown"
+        ],
+        "dispute": [
+          "all",
+          "partial",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens."
+      },
+      "sources": [
+        "schkg-8a"
+      ]
+    },
+    {
+      "id": "cost-confirmation",
+      "kind": "cost",
+      "when": {
+        "stage": [
+          "payment-order",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen."
+      },
+      "sources": [
+        "schkg-74"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "schkg-69": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "69",
+      "label": "SchKG · Art. 69",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_69",
+      "sha256": "73973eef27b1f6dda3456600d437d19d5a964079497de77bd9d78949ff71e906"
+    },
+    "schkg-74": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "74",
+      "label": "SchKG · Art. 74",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_74",
+      "sha256": "0eea2da09f08a2f83ea660433a85ecbc3d54ca4b8741a690ce232c5ccb7e2629"
+    },
+    "schkg-75": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "75",
+      "label": "SchKG · Art. 75",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_75",
+      "sha256": "26eb819af95a903ede0197f666e0b770e57ed5a4bfd79a0463c76662f028572c"
+    },
+    "schkg-79": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "79",
+      "label": "SchKG · Art. 79",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_79",
+      "sha256": "20eccb5ae9b1b4e9d5c591e3b8449463d39677d0344f9e159a2aa0010bdc20e2"
+    },
+    "schkg-80": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "80",
+      "label": "SchKG · Art. 80",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_80",
+      "sha256": "3d3a621d037cc71df9aeffc97b9be2bcd399798bef4792e8a5eeda0f8fa0f5ab"
+    },
+    "schkg-82": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "82",
+      "label": "SchKG · Art. 82",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_82",
+      "sha256": "7a807df3c265bf59f0daaf276049efddd6aac8fcf8f135f914f86dca7076de57"
+    },
+    "schkg-8a": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "8a",
+      "label": "SchKG · Art. 8a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_8a",
+      "sha256": "089ec9641d3b532ffe6f6e9bd15dbd2c7530746ba74ce7b965ffdec32eda34f3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Betreibungen"
+      },
+      "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

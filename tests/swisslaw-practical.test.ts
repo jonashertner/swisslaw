@@ -11,7 +11,7 @@ const laws=JSON.parse(readFileSync(new URL('./fixtures/practical-public-laws.jso
 function mcp(mutate:(law:any)=>void=()=>{}) {
   const requests:any[]=[];
   const fetcher=(async(url:unknown,options:RequestInit)=>{
-    assert.equal(url,'https://mcp.opencaselaw.ch/mcp');assert.equal(options.credentials,'omit');assert.equal(options.referrerPolicy,'no-referrer');
+    assert.equal(url,'https://mcp.opencaselaw.ch/mcp-edu');assert.equal(options.credentials,'omit');assert.equal(options.referrerPolicy,'no-referrer');
     const request=JSON.parse(options.body as string);requests.push(request);
     if(request.method==='notifications/initialized')return new Response(null,{status:202});
     let result:any={protocolVersion:'2025-03-26'};

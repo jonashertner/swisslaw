@@ -7,7 +7,7 @@ const canary = 'PRIVATE-CANARY name@example.test employer salary medical details
 function fakeMcp(mutate: (law: any, article: string) => void = () => {}) {
   const requests: any[] = [];
   const fetcher = async (url: unknown, options: RequestInit) => {
-    assert.equal(url, 'https://mcp.opencaselaw.ch/mcp');
+    assert.equal(url, 'https://mcp.opencaselaw.ch/mcp-edu');
     assert.equal(options.credentials, 'omit'); assert.equal(options.referrerPolicy, 'no-referrer');
     assert.equal(options.redirect, 'error'); assert.equal(options.cache, 'no-store');
     assert.ok(!JSON.stringify({url, options}).includes(canary));

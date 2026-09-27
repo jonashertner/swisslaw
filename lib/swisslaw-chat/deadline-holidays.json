@@ -1,0 +1,160 @@
+{
+ "_comment": "certain = used for the binding date; candidate = only reported as a possible later date. Promote per canton only with a cited cantonal source.",
+ "federal": [
+  {
+   "id": "bundesfeiertag",
+   "fixed": "08-01",
+   "certainty": "certain",
+   "basis": "Art. 110 Abs. 3 BV",
+   "source_url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_110"
+  }
+ ],
+ "common_candidates": [
+  {
+   "id": "neujahr",
+   "fixed": "01-01"
+  },
+  {
+   "id": "berchtoldstag",
+   "fixed": "01-02"
+  },
+  {
+   "id": "karfreitag",
+   "easter_offset": -2
+  },
+  {
+   "id": "ostermontag",
+   "easter_offset": 1
+  },
+  {
+   "id": "tag_der_arbeit",
+   "fixed": "05-01"
+  },
+  {
+   "id": "auffahrt",
+   "easter_offset": 39
+  },
+  {
+   "id": "pfingstmontag",
+   "easter_offset": 50
+  },
+  {
+   "id": "weihnachten",
+   "fixed": "12-25"
+  },
+  {
+   "id": "stephanstag",
+   "fixed": "12-26"
+  }
+ ],
+ "catholic_candidates": [
+  {
+   "id": "heilige_drei_koenige",
+   "fixed": "01-06"
+  },
+  {
+   "id": "josephstag",
+   "fixed": "03-19"
+  },
+  {
+   "id": "fronleichnam",
+   "easter_offset": 60
+  },
+  {
+   "id": "peter_und_paul",
+   "fixed": "06-29"
+  },
+  {
+   "id": "mariae_himmelfahrt",
+   "fixed": "08-15"
+  },
+  {
+   "id": "allerheiligen",
+   "fixed": "11-01"
+  },
+  {
+   "id": "mariae_empfaengnis",
+   "fixed": "12-08"
+  }
+ ],
+ "catholic_cantons": [
+  "LU",
+  "UR",
+  "SZ",
+  "OW",
+  "NW",
+  "ZG",
+  "FR",
+  "SO",
+  "AI",
+  "AG",
+  "TI",
+  "VS",
+  "JU"
+ ],
+ "canton_specific_candidates": {
+  "GE": [
+   {
+    "id": "jeune_genevois",
+    "weekday_rule": "thursday_after_first_sunday_of_september"
+   },
+   {
+    "id": "restauration_republique",
+    "fixed": "12-31"
+   }
+  ],
+  "VD": [
+   {
+    "id": "lundi_du_jeune",
+    "weekday_rule": "monday_after_third_sunday_of_september"
+   }
+  ],
+  "NE": [
+   {
+    "id": "instauration_republique",
+    "fixed": "03-01"
+   }
+  ],
+  "GL": [
+   {
+    "id": "naefelser_fahrt",
+    "weekday_rule": "first_thursday_of_april"
+   }
+  ],
+  "JU": [
+   {
+    "id": "plebiscite_jurassien",
+    "fixed": "06-23"
+   }
+  ]
+ },
+ "canton_certain": {},
+ "cantons": [
+  "AG",
+  "AI",
+  "AR",
+  "BE",
+  "BL",
+  "BS",
+  "FR",
+  "GE",
+  "GL",
+  "GR",
+  "JU",
+  "LU",
+  "NE",
+  "NW",
+  "OW",
+  "SG",
+  "SH",
+  "SO",
+  "SZ",
+  "TG",
+  "TI",
+  "UR",
+  "VD",
+  "VS",
+  "ZG",
+  "ZH"
+ ]
+}

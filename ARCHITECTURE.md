@@ -69,7 +69,7 @@ The free-text planner runs locally. `publicLegalQuery` extracts only exact legal
 The research worker connects directly to:
 
 ```text
-https://mcp.opencaselaw.ch/mcp
+https://mcp.opencaselaw.ch/mcp-edu
 ```
 
 Transport is HTTPS POST with JSON-RPC 2.0. The configured MCP protocol is `2025-03-26`; initialization must return that version. Responses may be JSON or server-sent events. The parser accepts the matching request ID, rejects protocol/tool errors, and reads structured results. Server instructions and tool descriptions are not used as prompts or executable instructions.
@@ -125,7 +125,7 @@ Start again clears application state and terminates the inference, research and 
 | Linked source website | A visit if the person opens a source |
 | Device clipboard | The answer and source links if the person chooses to copy |
 
-OpenCaseLaw has its own [privacy policy](https://opencaselaw.ch/datenschutz/), including search retention and potential external AI processing. Self-hosting Swisslaw does not make those external searches private or offline. The central privacy boundary is projection into public vocabulary or fixed article IDs, validated again in the research worker, together with separation of the full conversation from that worker.
+OpenCaseLaw has its own [privacy policy](https://opencaselaw.ch/datenschutz/), including potential external AI processing. Swisslaw uses the no-retention endpoint `/mcp-edu`: no query capture, search traces or per-IP cost ledger are written for these requests, only technical server logs. Self-hosting Swisslaw does not make those external searches private or offline. The central privacy boundary is projection into public vocabulary or fixed article IDs, validated again in the research worker, together with separation of the full conversation from that worker.
 
 ## Static deployment
 

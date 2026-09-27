@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "id": "admin.tax-assessment",
+  "domain": "admin",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich bin mit meiner Steuerveranlagung nicht einverstanden"
+  },
+  "summary": {
+    "de": "Gegen eine Steuerveranlagung können Sie innert 30 Tagen nach Zustellung schriftlich Einsprache erheben, bei der direkten Bundessteuer und bei den Kantons- und Gemeindesteuern je einzeln. Die Fristen laufen unabhängig voneinander, auch wenn beide Veranlagungen zusammen kommen."
+  },
+  "examples": {
+    "de": [
+      "Ich bin mit meiner Steuerveranlagung nicht einverstanden, was kann ich tun?",
+      "Wie lange habe ich Zeit für eine Einsprache gegen die Steuerveranlagung?",
+      "Ich habe eine Ermessensveranlagung erhalten, weil ich keine Steuererklärung eingereicht habe.",
+      "Muss ich gegen die Bundessteuer und die Kantonssteuer separat Einsprache erheben?",
+      "Ich bi mit minere Veranlagig nöd iverstande, was cha ich mache?",
+      "Ich habe einen Abzug vergessen anzugeben, kann ich das noch korrigieren?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die ordentliche Veranlagung der direkten Bundessteuer sowie der Kantons- und Gemeindesteuern für natürliche Personen in der Schweiz."
+    },
+    "excludes": {
+      "de": "Die Mehrwertsteuer und andere indirekte Steuern, Erbschafts- und Schenkungssteuern, sowie bereits laufende Nachsteuer- oder Steuerstrafverfahren. Dort gelten teils andere Regeln."
+    }
+  },
+  "facts": [
+    {
+      "key": "reason",
+      "question": {
+        "de": "Womit sind Sie bei der Veranlagung nicht einverstanden?"
+      },
+      "options": [
+        {
+          "value": "too-high",
+          "label": {
+            "de": "Das Einkommen oder Vermögen wurde zu hoch eingeschätzt"
+          }
+        },
+        {
+          "value": "missing-deduction",
+          "label": {
+            "de": "Ein Abzug wurde nicht berücksichtigt"
+          }
+        },
+        {
+          "value": "estimated",
+          "label": {
+            "de": "Ich habe eine Ermessensveranlagung erhalten, weil keine Steuererklärung vorlag"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Aus einem anderen Grund"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "level",
+      "question": {
+        "de": "Geht es um die direkte Bundessteuer, die Kantons- und Gemeindesteuern, oder beides?"
+      },
+      "help": {
+        "de": "Oft kommen beide Veranlagungen zusammen mit der gleichen Post, sind aber rechtlich zwei getrennte Verfügungen."
+      },
+      "options": [
+        {
+          "value": "federal",
+          "label": {
+            "de": "Nur die direkte Bundessteuer"
+          }
+        },
+        {
+          "value": "cantonal",
+          "label": {
+            "de": "Nur die Kantons- und Gemeindesteuern"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "penalty",
+      "question": {
+        "de": "Geht es zusätzlich um ein Steuerstrafverfahren oder eine Nachsteuer für frühere Jahre?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "deadline-note",
+      "kind": "rule",
+      "text": {
+        "de": "Gegen die Veranlagung können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Das gilt für die direkte Bundessteuer und für die Kantons- und Gemeindesteuern je separat. Die Frist beginnt am Tag nach der Zustellung zu laufen."
+      },
+      "sources": [
+        "dbg-132",
+        "sthg-48"
+      ]
+    },
+    {
+      "id": "combined-assessments",
+      "kind": "warning",
+      "when": {
+        "level": [
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bundessteuer und Kantons- und Gemeindesteuern werden meist zusammen veranlagt und in derselben Sendung eröffnet. Es sind aber zwei getrennte Verfügungen mit je eigener Frist. Wollen Sie sich gegen beide wehren, brauchen Sie grundsätzlich zwei Einsprachen, auch wenn Sie sie in einem einzigen Schreiben zusammenfassen können."
+      },
+      "sources": [
+        "dbg-132",
+        "sthg-48"
+      ]
+    },
+    {
+      "id": "how-to-file",
+      "kind": "step",
+      "text": {
+        "de": "Reichen Sie die Einsprache schriftlich bei der Veranlagungsbehörde ein, die die Veranlagung erlassen hat. Nennen Sie, was Sie beanstanden und warum. Die Post zählt am letzten Tag der Frist, wenn Sie den Brief bis dahin der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder anerkannten Feiertag, läuft die Frist erst am nächsten Werktag ab."
+      },
+      "sources": [
+        "dbg-133"
+      ]
+    },
+    {
+      "id": "estimated-assessment",
+      "kind": "warning",
+      "when": {
+        "reason": [
+          "estimated"
+        ]
+      },
+      "text": {
+        "de": "Eine Ermessensveranlagung, also eine Schätzung mangels Steuererklärung, können Sie nur wegen offensichtlicher Unrichtigkeit anfechten. Ihre Einsprache muss begründet sein und die Beweismittel nennen, mit denen Sie die Unrichtigkeit belegen, zum Beispiel die nachgereichte Steuererklärung mit Belegen."
+      },
+      "sources": [
+        "dbg-132",
+        "sthg-48"
+      ]
+    },
+    {
+      "id": "late-objection",
+      "kind": "rule",
+      "text": {
+        "de": "Eine verspätete Einsprache wird bei der direkten Bundessteuer nur noch geprüft, wenn Sie glaubhaft machen, dass Sie durch Militär- oder Zivildienst, Krankheit, Landesabwesenheit oder einen anderen erheblichen Grund an der rechtzeitigen Einreichung gehindert waren, und die Einsprache innert 30 Tagen nach Wegfall dieses Hindernisses einreichen."
+      },
+      "sources": [
+        "dbg-133"
+      ]
+    },
+    {
+      "id": "reformatio-in-peius",
+      "kind": "warning",
+      "text": {
+        "de": "Eine Einsprache kann Ihre Veranlagung auch verschlechtern: Die Behörde prüft den ganzen Fall neu und kann alle Steuerfaktoren neu festsetzen, nicht nur die von Ihnen beanstandeten Punkte. Bevor sie zu Ihrem Nachteil entscheidet, muss sie Sie dazu anhören. Prüfen Sie deshalb vorher, ob Ihr Fall insgesamt wirklich zu Ihren Gunsten ausfallen dürfte."
+      },
+      "sources": [
+        "dbg-135",
+        "sthg-48"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Einspracheverfahren bei der direkten Bundessteuer ist kostenlos. Bei den Kantons- und Gemeindesteuern regelt jeder Kanton die Kosten des Einspracheverfahrens selbst; meist ist auch dieses Verfahren kostenlos oder jedenfalls günstig. Für ein anschliessendes Beschwerdeverfahren vor Gericht können Kosten anfallen."
+      },
+      "sources": [
+        "dbg-135"
+      ]
+    },
+    {
+      "id": "penalty-escalate",
+      "kind": "escalate",
+      "when": {
+        "penalty": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für ein Steuerstrafverfahren oder eine Nachsteuer gelten eigene, teils strengere Regeln, zum Beispiel zur Mitwirkungspflicht und zu möglichen Strafen. Holen Sie sich hierfür unbedingt persönliche Beratung."
+      }
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie sich Beratung, wenn hohe Beträge im Streit stehen, wenn Sie unsicher sind, ob Ihre Beweismittel ausreichen, oder wenn die Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Steuerverwaltung, die die Veranlagung erlassen hat, beantwortet Fragen zum Verfahren. Manche Gemeinden bieten eine Steuerberatung für Private an, und Anwaltsverbände vermitteln eine erste, unentgeltliche Rechtsauskunft."
+      }
+    }
+  ],
+  "sources": {
+    "dbg-132": {
+      "type": "statute",
+      "sr": "642.11",
+      "article": "132",
+      "label": "DBG · Art. 132",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_132",
+      "sha256": "d0ed116ad4c7efd0fc6545c6c09cc8882c8bf730449c3a1c719bf7cec49494b5"
+    },
+    "dbg-133": {
+      "type": "statute",
+      "sr": "642.11",
+      "article": "133",
+      "label": "DBG · Art. 133",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_133",
+      "sha256": "7345f0f035b8c09820205a512fa1e1d8b7bdaf0bfc8502b71b30400ab277d0d8"
+    },
+    "sthg-48": {
+      "type": "statute",
+      "sr": "642.14",
+      "article": "48",
+      "label": "StHG · Art. 48",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1991/1256_1256_1256/de#art_48",
+      "sha256": "2579ae89a87e62c2f3006bc470afee74525458c1e9e8462e54fa9cda9fe8a655"
+    },
+    "dbg-135": {
+      "type": "statute",
+      "sr": "642.11",
+      "article": "135",
+      "label": "DBG · Art. 135",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1991/1184_1184_1184/de#art_135",
+      "sha256": "086d8f40007bab61e7d6470f38ad14bd4d2baf094f611fbfdebff6afb51d9c3c"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ESTV: Direkte Bundessteuer"
+      },
+      "url": "https://www.estv.admin.ch/de/direkte-bundessteuer"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

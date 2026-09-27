@@ -1,4 +1,4 @@
-export const MCP_ENDPOINT = 'https://mcp.opencaselaw.ch/mcp';
+export const MCP_ENDPOINT = 'https://mcp.opencaselaw.ch/mcp-edu';
 export const MCP_PROTOCOL = '2025-03-26';
 type RecordValue = Record<string, unknown>;
 function record(value: unknown): RecordValue {

@@ -1,0 +1,597 @@
+{
+  "schema": 1,
+  "id": "tenancy.landlord-notice",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Der Vermieter hat mir die Wohnung gekündigt"
+  },
+  "summary": {
+    "de": "Sie können eine Kündigung der Wohnung anfechten oder mehr Zeit für den Auszug verlangen. Entscheidend ist die Frist von 30 Tagen ab Empfang der Kündigung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+  },
+  "examples": {
+    "de": [
+      "Der Vermieter hat mir die Wohnung gekündigt, was kann ich tun?",
+      "Wohnungskündigung erhalten, wie lange habe ich Zeit?",
+      "Kündigung wegen Eigenbedarf, kann ich mich wehren?",
+      "de Vermieter het mir d Wohnig kündet",
+      "Ich habe eine Kündigung auf dem Formular bekommen und will nicht ausziehen",
+      "Kann ich mehr Zeit für den Auszug verlangen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Kündigungen des Vermieters bei gewöhnlichen Mietwohnungen und Häusern in der Schweiz."
+    },
+    "excludes": {
+      "de": "Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse; Kündigungen, die Sie selbst aussprechen; laufende Gerichts- oder Ausweisungsverfahren."
+    }
+  },
+  "facts": [
+    {
+      "key": "scope",
+      "question": {
+        "de": "Um welche Art Mietverhältnis geht es?"
+      },
+      "options": [
+        {
+          "value": "home",
+          "label": {
+            "de": "Ich miete eine Wohnung oder ein Haus in der Schweiz"
+          }
+        },
+        {
+          "value": "special",
+          "label": {
+            "de": "Geschäftsraum, möbliertes Zimmer, Ferienwohnung oder etwas anderes"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reason",
+      "question": {
+        "de": "Warum hat der Vermieter gekündigt?"
+      },
+      "help": {
+        "de": "Der Grund steht oft im Begleitbrief. Wenn keiner angegeben ist, wählen Sie «Kein Grund angegeben»."
+      },
+      "options": [
+        {
+          "value": "arrears",
+          "label": {
+            "de": "Wegen offener Mietzinse, nach einer schriftlichen Zahlungsfrist"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Aus einem anderen Grund, zum Beispiel Eigenbedarf oder Sanierung"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "de": "Kein Grund angegeben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "form",
+      "question": {
+        "de": "Kam die Kündigung auf einem amtlichen Formular des Kantons?"
+      },
+      "help": {
+        "de": "Das Formular erklärt auf der Rückseite oder im Anhang, wie Sie die Kündigung anfechten können."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "family",
+      "question": {
+        "de": "Wohnen Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder Ihrer eingetragenen Partnerschaft in der Wohnung?"
+      },
+      "options": [
+        {
+          "value": "separate",
+          "label": {
+            "de": "Ja, und jede Person hat eine eigene Kündigung erhalten"
+          }
+        },
+        {
+          "value": "single",
+          "label": {
+            "de": "Ja, aber es kam nur eine Kündigung"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie erreichen?"
+      },
+      "options": [
+        {
+          "value": "stay",
+          "label": {
+            "de": "In der Wohnung bleiben"
+          }
+        },
+        {
+          "value": "time",
+          "label": {
+            "de": "Mehr Zeit für den Auszug"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "special-scope",
+      "kind": "escalate",
+      "when": {
+        "scope": [
+          "special"
+        ]
+      },
+      "text": {
+        "de": "Für Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse gelten teilweise andere Regeln. Diese Anleitung deckt sie nicht ab. Wenden Sie sich rasch an die Schlichtungsbehörde für Mietsachen oder an eine Beratungsstelle, denn auch hier kann eine kurze Frist laufen."
+      }
+    },
+    {
+      "id": "deadline",
+      "kind": "deadline",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Als Empfang gilt bei einem eingeschriebenen Brief bereits der Tag, an dem die Abholungseinladung in Ihrem Briefkasten lag, nicht erst der Tag der Abholung. Ferien oder Abwesenheit verlängern die Frist nicht. Ein Gespräch mit dem Vermieter hält die Frist ebenfalls nicht auf."
+      },
+      "sources": [
+        "or-273",
+        "bge-143-iii-15"
+      ],
+      "deadline_rules": [
+        "or_273_anfechtung_kuendigung",
+        "or_273_erstreckung_unbefristet"
+      ]
+    },
+    {
+      "id": "form-missing",
+      "kind": "warning",
+      "when": {
+        "form": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Der Vermieter muss eine Wohnung schriftlich und mit dem amtlichen Formular des Kantons kündigen. Fehlt das Formular, ist die Kündigung ungültig. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie Ihr Gesuch innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen."
+      },
+      "sources": [
+        "or-266l",
+        "or-266o"
+      ]
+    },
+    {
+      "id": "form-unknown",
+      "kind": "warning",
+      "when": {
+        "form": [
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie, ob die Kündigung auf einem amtlichen Formular des Kantons kam. Eine Kündigung der Wohnung ohne dieses Formular ist ungültig. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden."
+      },
+      "sources": [
+        "or-266l",
+        "or-266o"
+      ]
+    },
+    {
+      "id": "family-single",
+      "kind": "warning",
+      "when": {
+        "family": [
+          "single"
+        ]
+      },
+      "text": {
+        "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Kam nur eine Kündigung, kann sie ungültig sein. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen."
+      },
+      "sources": [
+        "or-266n",
+        "or-266o"
+      ]
+    },
+    {
+      "id": "how-to-file",
+      "kind": "step",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Sie können die Aufhebung der Kündigung verlangen und für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist."
+      },
+      "sources": [
+        "zpo-202",
+        "zpo-33",
+        "or-273"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "ask-reasons",
+      "kind": "step",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Reichen Sie Ihr Gesuch aber trotzdem innert der Frist ein; Sie müssen nicht auf die Antwort warten."
+      },
+      "sources": [
+        "or-271"
+      ]
+    },
+    {
+      "id": "when-challengeable",
+      "kind": "rule",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Eine Kündigung kann angefochten werden, wenn sie gegen Treu und Glauben verstösst. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis."
+      },
+      "sources": [
+        "or-271",
+        "or-271a"
+      ]
+    },
+    {
+      "id": "three-year-protection",
+      "kind": "rule",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei dringendem Eigenbedarf des Vermieters oder bei Zahlungsrückstand."
+      },
+      "sources": [
+        "or-271a"
+      ]
+    },
+    {
+      "id": "extension",
+      "kind": "rule",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Bietet Ihnen der Vermieter eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen."
+      },
+      "sources": [
+        "or-272",
+        "or-272b",
+        "or-272a"
+      ]
+    },
+    {
+      "id": "search-records",
+      "kind": "step",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Suchen Sie trotzdem schon jetzt eine neue Wohnung und bewahren Sie Belege Ihrer Suche auf, etwa Bewerbungen und Absagen. Verlangen Sie später eine zweite Erstreckung, prüft die Behörde, ob Sie alles Zumutbare unternommen haben, um eine Lösung zu finden."
+      },
+      "sources": [
+        "or-272"
+      ]
+    },
+    {
+      "id": "agreed-extension",
+      "kind": "step",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ],
+        "reason": [
+          "none",
+          "unknown",
+          "other"
+        ],
+        "goal": [
+          "time",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein."
+      },
+      "sources": [
+        "or-272b"
+      ]
+    },
+    {
+      "id": "arrears",
+      "kind": "escalate",
+      "when": {
+        "reason": [
+          "arrears"
+        ]
+      },
+      "text": {
+        "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen. Prüfen Sie, ob der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht hat, und ob die Kündigung mit mindestens 30 Tagen auf Ende eines Monats ausgesprochen wurde. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein."
+      },
+      "sources": [
+        "or-257d",
+        "or-272a",
+        "or-273"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-273": {
+      "type": "statute",
+      "sr": "220",
+      "article": "273",
+      "label": "OR · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273",
+      "sha256": "df7e8a1e60f7f39c9475231a620b6c76b578db8fd5b0863ca828371adb7af738"
+    },
+    "or-266l": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266l",
+      "label": "OR · Art. 266l",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266l",
+      "sha256": "8e4ae0d6e2cc15d9e828e13f6040b2b923a8e406cb781f657b120bb0ff567261"
+    },
+    "or-266n": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266n",
+      "label": "OR · Art. 266n",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266n",
+      "sha256": "bd63b8092e714eca81808aa87838a081c67cce1c23236c52107ed9902d09274e"
+    },
+    "or-266o": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266o",
+      "label": "OR · Art. 266o",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266o",
+      "sha256": "3ce42f591267bda9913a6d331a5ffe48f2abe2dea78f3747acef15aaa7c37d77"
+    },
+    "or-271": {
+      "type": "statute",
+      "sr": "220",
+      "article": "271",
+      "label": "OR · Art. 271",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_271",
+      "sha256": "04e71cc1960592031643046170f486ebfcad694ed781f1d4ff787a388d98799d"
+    },
+    "or-271a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "271a",
+      "label": "OR · Art. 271a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_271a",
+      "sha256": "6a385a4470743475823357e1020d0fbd6b5d918e80235f617d9f6c6c73fa0043"
+    },
+    "or-272": {
+      "type": "statute",
+      "sr": "220",
+      "article": "272",
+      "label": "OR · Art. 272",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_272",
+      "sha256": "857c348b02e844dd8db3615e7f7953bfa4510b3651c9720dd36382e252fa50ad"
+    },
+    "or-272a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "272a",
+      "label": "OR · Art. 272a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_272a",
+      "sha256": "bb16b2ec78d4a4db9f9b64c6d18d97f1a1815bd96ff408eeca7b031c7362c33d"
+    },
+    "or-272b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "272b",
+      "label": "OR · Art. 272b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_272b",
+      "sha256": "5babc1f8d7c4adab13dbf68df4d27bd37e8ecfa0cc87cb1bbc5491ed1a782a47"
+    },
+    "or-257d": {
+      "type": "statute",
+      "sr": "220",
+      "article": "257d",
+      "label": "OR · Art. 257d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257d",
+      "sha256": "aea2feaef2c733b0cb90866ca3a801be22fe1efd50453455a7bf8851f343f3c1"
+    },
+    "zpo-202": {
+      "type": "statute",
+      "sr": "272",
+      "article": "202",
+      "label": "ZPO · Art. 202",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_202",
+      "sha256": "937c186d72375c4740ee7441d128cc64aac187573cc4fb90f7f0fb6b5893bb6c"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-33": {
+      "type": "statute",
+      "sr": "272",
+      "article": "33",
+      "label": "ZPO · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_33",
+      "sha256": "ebf8f0d1e18ef7cc31e2e7ab5622c7d053b541b169999b4cc345df3f8f330ee8"
+    },
+    "bge-143-iii-15": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_III_15",
+      "citation": "BGE 143 III 15",
+      "e": "4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_III_15#e-4-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht"
+      },
+      "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Mietvertrag und Pachtvertrag"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

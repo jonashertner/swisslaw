@@ -1,0 +1,357 @@
+{
+  "schema": 1,
+  "id": "tenancy.rent-increase",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Meine Miete wird erhöht. Kann ich mich wehren?"
+  },
+  "summary": {
+    "de": "Eine Mietzinserhöhung muss auf einem amtlichen Formular kommen und begründet sein, sonst ist sie ungültig. Sie können sie zusätzlich als missbräuchlich anfechten. Dafür haben Sie 30 Tage ab Erhalt der Mitteilung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+  },
+  "examples": {
+    "de": [
+      "Meine Miete wird erhöht. Kann ich mich wehren?",
+      "Ich habe eine Mietzinserhöhung erhalten, was kann ich tun?",
+      "Der Vermieter will mehr Miete, ist das erlaubt?",
+      "Han e Mietzinserhöhig übercho, chan i mich dagege wehre?",
+      "Wie lange habe ich Zeit, um eine Mieterhöhung anzufechten?",
+      "Die Mieterhöhung kam nur per E-Mail ohne Formular, ist das gültig?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Erhöhungen des laufenden Mietzinses und andere einseitige Vertragsänderungen zu Lasten des Mieters bei bestehenden Wohnungsmietverhältnissen in der Schweiz."
+    },
+    "excludes": {
+      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse."
+    }
+  },
+  "facts": [
+    {
+      "key": "form",
+      "question": {
+        "de": "Kam die Mietzinserhöhung auf einem amtlichen, vom Kanton genehmigten Formular?"
+      },
+      "help": {
+        "de": "Das Formular ist gesetzlich vorgeschrieben. Ein gewöhnlicher Brief oder eine E-Mail genügen nicht."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reasons",
+      "question": {
+        "de": "Hat der Vermieter die Erhöhung schriftlich begründet?"
+      },
+      "help": {
+        "de": "Die Begründung steht meist auf dem Formular selbst oder in einer Beilage."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es steht kein Grund dabei"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "threat",
+      "question": {
+        "de": "Wurde mit der Mitteilung gleichzeitig eine Kündigung angedroht oder ausgesprochen?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie erreichen?"
+      },
+      "options": [
+        {
+          "value": "contest",
+          "label": {
+            "de": "Ich will die Erhöhung anfechten"
+          }
+        },
+        {
+          "value": "info",
+          "label": {
+            "de": "Ich möchte zuerst nur wissen, ob sie zulässig ist"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "form-missing",
+      "kind": "warning",
+      "when": {
+        "form": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Der Vermieter muss eine Mietzinserhöhung mindestens zehn Tage vor Beginn der Kündigungsfrist auf dem amtlichen Formular mitteilen und begründen. Fehlt dieses Formular, ist die Erhöhung ungültig, das heisst, sie gilt von Anfang an nicht. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie innert 30 Tagen ein Gesuch bei der Schlichtungsbehörde ein und lassen Sie die Gültigkeit prüfen."
+      },
+      "sources": [
+        "or-269d"
+      ]
+    },
+    {
+      "id": "form-unknown",
+      "kind": "warning",
+      "when": {
+        "form": [
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie, ob die Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular kam. Ohne dieses Formular ist eine Erhöhung ungültig. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden."
+      },
+      "sources": [
+        "or-269d"
+      ]
+    },
+    {
+      "id": "reasons-missing",
+      "kind": "warning",
+      "when": {
+        "reasons": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Der Vermieter muss die Erhöhung auf dem Formular auch begründen, zum Beispiel mit gestiegenen Kosten oder dem orts- oder quartierüblichen Mietzins. Fehlt jede Begründung, ist die Erhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert 30 Tagen ein und lassen Sie dies prüfen."
+      },
+      "sources": [
+        "or-269d"
+      ]
+    },
+    {
+      "id": "threat-present",
+      "kind": "warning",
+      "when": {
+        "threat": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Droht der Vermieter in derselben Mitteilung eine Kündigung an oder spricht er sie gleich aus, ist die Mietzinserhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert der Frist ein und weisen Sie die Schlichtungsbehörde darauf hin. Prüfen Sie unabhängig davon, ob auch gegen eine allfällige Kündigung eine eigene Frist läuft."
+      },
+      "sources": [
+        "or-269d"
+      ]
+    },
+    {
+      "id": "deadline",
+      "kind": "deadline",
+      "text": {
+        "de": "Die wichtigste Frist: Wenn Sie die Erhöhung als missbräuchlich anfechten wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Mitteilung bei der Schlichtungsbehörde einreichen. Kam die Mitteilung eingeschrieben, gilt sie als empfangen, sobald Sie sie auf der Post abholen, spätestens aber am siebten Tag nach der Abholungseinladung. Holen Sie den Brief nicht ab, läuft die Frist trotzdem. Warten Sie nicht, bis die höhere Miete fällig wird."
+      },
+      "sources": [
+        "or-270b",
+        "bge-140-iii-244"
+      ],
+      "deadline_rules": [
+        "or_270b_anfechtung_mietzinserhoehung"
+      ]
+    },
+    {
+      "id": "other-one-sided-changes",
+      "kind": "rule",
+      "text": {
+        "de": "Dieselbe Frist und dasselbe Verfahren gelten auch, wenn der Vermieter den Mietvertrag sonst einseitig zu Ihren Lasten ändert, zum Beispiel bisherige Leistungen kürzt oder neue Nebenkosten einführt, ohne dass es formal um eine Mietzinserhöhung geht."
+      },
+      "sources": [
+        "or-270b"
+      ]
+    },
+    {
+      "id": "when-abusive",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "contest",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Mietzins ist missbräuchlich, wenn der Vermieter damit einen übersetzten Ertrag aus der Wohnung erzielt. Nicht missbräuchlich ist eine Erhöhung in der Regel, wenn sie zum Beispiel im Rahmen der orts- oder quartierüblichen Mietzinse liegt, durch gestiegene Kosten oder zusätzliche Leistungen des Vermieters begründet ist, bei neueren Bauten im Rahmen einer kostendeckenden Rendite bleibt, oder nur die Teuerung auf dem eigenen, risikotragenden Kapital ausgleicht. Passt die Begründung des Vermieters zu keinem dieser Fälle oder erscheint sie Ihnen nicht glaubwürdig, lohnt sich eine Anfechtung."
+      },
+      "sources": [
+        "or-269",
+        "or-269a"
+      ]
+    },
+    {
+      "id": "how-to-file",
+      "kind": "step",
+      "when": {
+        "goal": [
+          "contest",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Reichen Sie innert der Frist ein Gesuch bei der Schlichtungsbehörde für Mietsachen am Ort der Wohnung ein. Sie können es schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Legen Sie eine Kopie der Mitteilung bei und erklären Sie kurz, warum Sie die Erhöhung für missbräuchlich oder formell ungültig halten."
+      },
+      "sources": [
+        "or-270b"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn die Erhöhung mit umfangreichen Sanierungsarbeiten begründet wird und Sie die Zahlen nicht nachvollziehen können, wenn gleichzeitig eine Kündigung droht, oder wenn die 30-tägige Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, oft schon bei der Prüfung des Formulars. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-269": {
+      "type": "statute",
+      "sr": "220",
+      "article": "269",
+      "label": "OR · Art. 269",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269",
+      "sha256": "1d1a7ea30b4ea276f29cc336a592ce1f71f687ee048cdbbf3cb4a724149d7b35"
+    },
+    "or-269a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "269a",
+      "label": "OR · Art. 269a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269a",
+      "sha256": "895cbfb27345bcd1add17d3d939b410db80140f294ba5984a5632a47d53d983d"
+    },
+    "or-269d": {
+      "type": "statute",
+      "sr": "220",
+      "article": "269d",
+      "label": "OR · Art. 269d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269d",
+      "sha256": "5603a4a7c84e182e29288ab07fe1956f4348ac15c0ba01991d1c7096285d338a"
+    },
+    "or-270b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "270b",
+      "label": "OR · Art. 270b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270b",
+      "sha256": "fc976d99f0e35d2bdd41a3f1e9fe0d54957cf85e42b93a8a9a700e43f21cb442"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "bge-140-iii-244": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_III_244",
+      "citation": "BGE 140 III 244",
+      "e": "5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_III_244#e-5-2"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht"
+      },
+      "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

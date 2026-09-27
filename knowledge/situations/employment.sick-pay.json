@@ -1,0 +1,305 @@
+{
+  "schema": 1,
+  "id": "employment.sick-pay",
+  "domain": "employment",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich bin krank. Bekomme ich weiterhin Lohn?"
+  },
+  "summary": {
+    "de": "Sind Sie ohne eigenes Verschulden krankheitsbedingt an der Arbeit verhindert, muss Ihnen Ihr Arbeitgeber ab dem vierten Monat des Arbeitsverhältnisses für eine beschränkte Zeit den Lohn weiterzahlen, sofern keine mindestens gleichwertige Krankentaggeldversicherung diese Pflicht ersetzt. Während der Krankheit gilt zudem ein Kündigungsschutz."
+  },
+  "examples": {
+    "de": [
+      "Ich bin krank, bekomme ich weiterhin Lohn?",
+      "Wie lange zahlt mein Arbeitgeber bei Krankheit?",
+      "Darf mir gekündigt werden, während ich krank bin?",
+      "Ich bi chrank, übercho ich no Lohn?",
+      "Was ist eine Krankentaggeldversicherung und ersetzt sie meinen Lohn?",
+      "Mein Arbeitgeber verlangt ein Arztzeugnis, muss ich das abgeben?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Lohnfortzahlung bei unverschuldeter Arbeitsverhinderung durch Krankheit, Unfall oder Schwangerschaft bei privatrechtlichen Arbeitsverhältnissen in der Schweiz."
+    },
+    "excludes": {
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse, Leistungen der Unfallversicherung (UVG) bei Berufs- oder Nichtberufsunfällen, und Streitigkeiten direkt mit einer Taggeldversicherung."
+    }
+  },
+  "facts": [
+    {
+      "key": "employer_type",
+      "question": {
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "tenure",
+      "question": {
+        "de": "Wie lange dauert Ihr Arbeitsverhältnis schon, oder wurde es von Anfang an für mehr als drei Monate abgeschlossen?"
+      },
+      "options": [
+        {
+          "value": "under-three-months",
+          "label": {
+            "de": "Weniger als drei Monate, unbefristet"
+          }
+        },
+        {
+          "value": "three-months-or-more",
+          "label": {
+            "de": "Drei Monate oder länger, oder von Anfang an für mehr als drei Monate abgeschlossen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "daily_benefit_insurance",
+      "question": {
+        "de": "Hat Ihr Arbeitgeber eine Krankentaggeldversicherung für Sie abgeschlossen?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, oder ich weiss es nicht genau"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "dismissed_while_sick",
+      "question": {
+        "de": "Hat Ihnen Ihr Arbeitgeber gekündigt, während Sie krank waren?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "public-employer",
+      "kind": "escalate",
+      "text": {
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+      },
+      "when": {
+        "employer_type": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "entitlement",
+      "kind": "rule",
+      "text": {
+        "de": "Sind Sie ohne eigenes Verschulden durch Krankheit, Unfall oder Schwangerschaft an der Arbeit verhindert, muss Ihnen Ihr Arbeitgeber für eine beschränkte Zeit den Lohn weiterzahlen, sobald das Arbeitsverhältnis mehr als drei Monate gedauert hat oder von Anfang an für mehr als drei Monate abgeschlossen wurde. Ohne andere Abrede gilt: im ersten Dienstjahr drei Wochen, danach eine angemessen längere Zeit je nach Dauer des Arbeitsverhältnisses und den Umständen."
+      },
+      "when": {
+        "tenure": [
+          "three-months-or-more",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-324a"
+      ]
+    },
+    {
+      "id": "not-yet-entitled",
+      "kind": "warning",
+      "text": {
+        "de": "Dauert Ihr unbefristetes Arbeitsverhältnis erst weniger als drei Monate und wurde es nicht von Anfang an für mehr als drei Monate abgeschlossen, gibt Ihnen das Gesetz noch keinen Anspruch auf Lohnfortzahlung bei Krankheit. Prüfen Sie Ihren Arbeitsvertrag oder einen allfälligen Gesamtarbeitsvertrag auf eine bessere Regelung. Sobald Sie die drei Monate überschreiten, gilt der gesetzliche Anspruch automatisch."
+      },
+      "when": {
+        "tenure": [
+          "under-three-months"
+        ]
+      },
+      "sources": [
+        "or-324a"
+      ]
+    },
+    {
+      "id": "insurance-substitute",
+      "kind": "rule",
+      "text": {
+        "de": "Sind Sie obligatorisch gegen den wirtschaftlichen Ausfall bei unverschuldeter Arbeitsverhinderung versichert (Krankentaggeldversicherung), muss Ihr Arbeitgeber den Lohn nicht selbst zahlen, wenn die Versicherungsleistungen für die beschränkte Zeit mindestens vier Fünftel Ihres Lohnes decken. Sind sie tiefer, zahlt Ihr Arbeitgeber die Differenz auf vier Fünftel. Während einer Wartefrist vor Beginn der Versicherungsleistungen muss er mindestens vier Fünftel des Lohnes zahlen."
+      },
+      "when": {
+        "daily_benefit_insurance": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-324b"
+      ]
+    },
+    {
+      "id": "equivalent-scheme",
+      "kind": "rule",
+      "text": {
+        "de": "Eine schriftliche Abrede, ein Normalarbeitsvertrag oder ein Gesamtarbeitsvertrag kann die gesetzliche Lohnfortzahlung durch eine andere Regelung ersetzen (häufig eben eine Krankentaggeldversicherung). Das ist nur zulässig, wenn diese Regelung für Sie insgesamt mindestens gleichwertig ist."
+      },
+      "sources": [
+        "or-324a"
+      ]
+    },
+    {
+      "id": "blocking-period",
+      "kind": "warning",
+      "text": {
+        "de": "Nach Ablauf der Probezeit darf Ihnen Ihr Arbeitgeber nicht kündigen, während Sie krankheits- oder unfallbedingt ohne eigenes Verschulden an der Arbeit verhindert sind: im ersten Dienstjahr während 30 Tagen, vom zweiten bis fünften Dienstjahr während 90 Tagen, ab dem sechsten Dienstjahr während 180 Tagen. Eine während dieser Zeit ausgesprochene Kündigung ist ungültig (nichtig). Erfolgte die Kündigung kurz vor Beginn dieser Frist, wird ihr Lauf unterbrochen und erst danach fortgesetzt."
+      },
+      "when": {
+        "dismissed_while_sick": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-336c"
+      ]
+    },
+    {
+      "id": "medical-certificate",
+      "kind": "step",
+      "text": {
+        "de": "Ihr Arbeitgeber darf von Ihnen ein ärztliches Zeugnis verlangen, das Ihre Arbeitsunfähigkeit bestätigt. Reichen Sie es zeitnah ein, damit Ihr Anspruch nicht in Frage gestellt wird."
+      }
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn Ihr Arbeitgeber die Lohnfortzahlung verweigert, wenn Ihnen während der Krankheit gekündigt wurde, oder wenn Ihre Krankentaggeldversicherung Leistungen ablehnt."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an."
+      }
+    }
+  ],
+  "sources": {
+    "or-324a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "324a",
+      "label": "OR · Art. 324a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_324a",
+      "sha256": "91e050c032ed0be5a45fac7aa0bd9dec38a70b2427bce48018cc66cc66f90467"
+    },
+    "or-324b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "324b",
+      "label": "OR · Art. 324b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_324b",
+      "sha256": "0fe4e13d98e24d7c0e10ac4cd07995bc150ad7a1b2cf61a30cb756804907b87b"
+    },
+    "or-336c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "336c",
+      "label": "OR · Art. 336c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336c",
+      "sha256": "0b6a4ae31401c867eb646037571e84ac5b4d09b0f56a5e6768bac42c19fe9500"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Arbeitsunfähigkeit in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/arbeit/arbeitsunfahigkeit/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

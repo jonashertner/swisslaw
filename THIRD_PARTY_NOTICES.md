@@ -49,6 +49,6 @@ Upstream [Qwen/Qwen3.5-2B](https://huggingface.co/Qwen/Qwen3.5-2B) declares [Apa
 
 ## Legal sources and service
 
-The application retrieves statute articles and numbered judgment passages through [OpenCaseLaw](https://opencaselaw.ch/), using its public MCP endpoint at `https://mcp.opencaselaw.ch/mcp`. It retains source links and available jurisdiction/version metadata in the displayed result. Retrieved material and the service are not covered by Swisslaw's MIT licence; consult the applicable original source and service terms before republishing a corpus or operating a derivative service.
+The application retrieves statute articles and numbered judgment passages through [OpenCaseLaw](https://opencaselaw.ch/), using its public MCP endpoint at `https://mcp.opencaselaw.ch/mcp-edu`. It retains source links and available jurisdiction/version metadata in the displayed result. Retrieved material and the service are not covered by Swisslaw's MIT licence; consult the applicable original source and service terms before republishing a corpus or operating a derivative service.
 
 Use of the OpenCaseLaw name here identifies the external source service. It does not imply its endorsement of Swisslaw. Its [privacy information](https://opencaselaw.ch/datenschutz/) applies to searches sent to that service.

@@ -1,0 +1,353 @@
+{
+  "schema": 1,
+  "id": "employment.summary-dismissal",
+  "domain": "employment",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich wurde fristlos entlassen"
+  },
+  "summary": {
+    "de": "Eine fristlose Entlassung beendet das Arbeitsverhältnis sofort, egal ob sie berechtigt war oder nicht. War kein wichtiger Grund vorhanden, haben Sie Anspruch auf den Lohn bis zum Ende der ordentlichen Kündigungsfrist und allenfalls auf eine zusätzliche Entschädigung von bis zu sechs Monatslöhnen."
+  },
+  "examples": {
+    "de": [
+      "Ich wurde fristlos entlassen, was kann ich tun?",
+      "Mein Chef hat mich sofort rausgeworfen",
+      "War meine fristlose Entlassung rechtens?",
+      "Ich han d Stell vo hüt uf morn verlore, isch das erlaubt?",
+      "Habe ich Anspruch auf Lohn, obwohl ich fristlos entlassen wurde?",
+      "Was ist der Unterschied zwischen Kündigung und fristloser Entlassung?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die fristlose Auflösung des Arbeitsverhältnisses durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen in der Schweiz."
+    },
+    "excludes": {
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse, die ordentliche Kündigung mit Kündigungsfrist, und Fälle, in denen Sie selbst die Stelle ohne wichtigen Grund verlassen oder nicht antreten."
+    }
+  },
+  "facts": [
+    {
+      "key": "employer_type",
+      "question": {
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reason_given",
+      "question": {
+        "de": "Hat Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung genannt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "your_view",
+      "question": {
+        "de": "Wie schätzen Sie die fristlose Entlassung ein?"
+      },
+      "options": [
+        {
+          "value": "believe-justified",
+          "label": {
+            "de": "Ich denke, sie war berechtigt"
+          }
+        },
+        {
+          "value": "believe-unjustified",
+          "label": {
+            "de": "Ich denke, sie war nicht berechtigt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin unsicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "unemployment_registered",
+      "question": {
+        "de": "Haben Sie sich schon beim RAV (Regionales Arbeitsvermittlungszentrum) gemeldet?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "public-employer",
+      "kind": "escalate",
+      "text": {
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+      },
+      "when": {
+        "employer_type": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "immediate-effect",
+      "kind": "rule",
+      "text": {
+        "de": "Aus wichtigen Gründen kann jede Seite das Arbeitsverhältnis jederzeit fristlos auflösen. Als wichtiger Grund gilt jeder Umstand, bei dem der kündigenden Seite die Fortsetzung des Arbeitsverhältnisses nach Treu und Glauben nicht mehr zugemutet werden kann. Die fristlose Entlassung beendet das Arbeitsverhältnis sofort, unabhängig davon, ob sie im Nachhinein als berechtigt gilt oder nicht."
+      },
+      "sources": [
+        "or-337"
+      ]
+    },
+    {
+      "id": "no-fault-incapacity",
+      "kind": "warning",
+      "text": {
+        "de": "Ein wichtiger Grund darf nie darin liegen, dass Sie ohne eigenes Verschulden an der Arbeitsleistung verhindert waren, zum Beispiel wegen Krankheit oder Unfall. Wurden Sie deswegen fristlos entlassen, war die Entlassung nicht berechtigt."
+      },
+      "sources": [
+        "or-337"
+      ]
+    },
+    {
+      "id": "request-reasons",
+      "kind": "step",
+      "text": {
+        "de": "Verlangen Sie schriftlich, dass Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung schriftlich mitteilt."
+      },
+      "when": {
+        "reason_given": [
+          "no",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-337"
+      ]
+    },
+    {
+      "id": "fault-based-damages",
+      "kind": "rule",
+      "text": {
+        "de": "Lag der wichtige Grund im vertragswidrigen Verhalten einer Seite, muss diese Seite den vollen Schaden ersetzen, unter Berücksichtigung aller Ansprüche aus dem Arbeitsverhältnis. In anderen Fällen legt das Gericht die finanziellen Folgen nach eigenem Ermessen fest."
+      },
+      "when": {
+        "your_view": [
+          "believe-unjustified",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-337b"
+      ]
+    },
+    {
+      "id": "unjustified-summary-dismissal",
+      "kind": "rule",
+      "text": {
+        "de": "War die fristlose Entlassung nicht berechtigt, haben Sie Anspruch auf das, was Sie verdient hätten, wenn das Arbeitsverhältnis mit der ordentlichen Kündigungsfrist oder durch Ablauf einer befristeten Vertragsdauer beendet worden wäre. Was Sie dadurch gespart oder anderweitig verdient haben (oder absichtlich nicht verdienen wollten), wird angerechnet. Zusätzlich kann Ihnen das Gericht eine weitere Entschädigung von höchstens sechs Monatslöhnen zusprechen."
+      },
+      "when": {
+        "your_view": [
+          "believe-unjustified",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-337c"
+      ]
+    },
+    {
+      "id": "scope-boundary",
+      "kind": "warning",
+      "text": {
+        "de": "Diese Anleitung behandelt die fristlose Entlassung durch den Arbeitgeber. Verlassen Sie stattdessen selbst ohne wichtigen Grund die Stelle oder treten Sie sie gar nicht erst an, gelten andere Regeln: Ihr Arbeitgeber kann dann seinerseits eine Entschädigung von Ihnen verlangen."
+      },
+      "sources": [
+        "or-337d"
+      ]
+    },
+    {
+      "id": "claims-due",
+      "kind": "rule",
+      "text": {
+        "de": "Mit der Beendigung des Arbeitsverhältnisses werden sämtliche Forderungen daraus sofort fällig, also insbesondere ausstehender Lohn und nicht bezogene Ferien."
+      },
+      "sources": [
+        "or-339"
+      ]
+    },
+    {
+      "id": "register-rav",
+      "kind": "step",
+      "text": {
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen."
+      },
+      "when": {
+        "unemployment_registered": [
+          "no",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "avig-17"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn grosse Summen im Streit stehen, Ihr Arbeitgeber die Vorwürfe bestreitet, oder Sie sich unsicher sind, ob wirklich ein wichtiger Grund vorlag."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit weitere Hilfe an."
+      }
+    }
+  ],
+  "sources": {
+    "or-337": {
+      "type": "statute",
+      "sr": "220",
+      "article": "337",
+      "label": "OR · Art. 337",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_337",
+      "sha256": "ec6662833059d347479ebc6e6bc40aa11c30186203bcaada937efd291c6455fa"
+    },
+    "or-337b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "337b",
+      "label": "OR · Art. 337b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_337b",
+      "sha256": "64522336c04feb1fa64b9b68bef1a3f186da09f94063605567f9d30d7673e028"
+    },
+    "or-337c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "337c",
+      "label": "OR · Art. 337c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_337c",
+      "sha256": "bfe637240fe5010fa7c5649ef8ce7efb5eea167a633931b6dde08d322c0d8a6f"
+    },
+    "or-337d": {
+      "type": "statute",
+      "sr": "220",
+      "article": "337d",
+      "label": "OR · Art. 337d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_337d",
+      "sha256": "bcd96c778b3a25fe78235979c46f76911cce765cfcffcfc3c0493f3e2e5d5f8c"
+    },
+    "or-339": {
+      "type": "statute",
+      "sr": "220",
+      "article": "339",
+      "label": "OR · Art. 339",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_339",
+      "sha256": "aee7528365b05cfec25c21f6505ff63e6076eb85928676bfb370c7f98d0d4fd5"
+    },
+    "avig-17": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "17",
+      "label": "AVIG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_17",
+      "sha256": "f7524015817c568d6b92b981899d520148d6bfb1ef533f5ba03fbdc0ba335c1a"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "schema": 1,
+  "id": "tenancy.defects",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts"
+  },
+  "summary": {
+    "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Je nach Mangel können Sie die Miete kürzen, Schadenersatz verlangen oder unter strengen Voraussetzungen die Miete bei einer amtlichen Stelle hinterlegen. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+  },
+  "examples": {
+    "de": [
+      "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts",
+      "Die Heizung funktioniert seit Wochen nicht, was kann ich tun?",
+      "Kann ich die Miete kürzen, weil es einen Wasserschaden gibt?",
+      "Min Vermieter reagiert nöd, obwohl s Bad sit Wuche defekt isch",
+      "Darf ich einfach weniger Miete bezahlen, bis der Mangel behoben ist?",
+      "Was bedeutet Mietzins hinterlegen und wie geht das?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Mängel an einer gemieteten Wohnung während eines laufenden Mietverhältnisses in der Schweiz, zum Beispiel an Heizung, Sanitäranlagen, Elektrik, Fenstern oder bei Feuchtigkeit und Schimmel."
+    },
+    "excludes": {
+      "de": "Mängel, die Sie selbst verschuldet haben, Geschäftsräume und andere besondere Mietverhältnisse, sowie Schäden an Ihrem eigenen Eigentum, zum Beispiel an Ihren Möbeln."
+    }
+  },
+  "facts": [
+    {
+      "key": "severity",
+      "question": {
+        "de": "Wie stark beeinträchtigt der Mangel den Gebrauch der Wohnung?"
+      },
+      "help": {
+        "de": "Kleine Ausbesserungen für den gewöhnlichen Unterhalt, zum Beispiel ein verstopfter Abfluss, muss der Mieter selbst und auf eigene Kosten beheben."
+      },
+      "options": [
+        {
+          "value": "small",
+          "label": {
+            "de": "Es ist eine Kleinigkeit, die ich normalerweise selbst beheben müsste"
+          }
+        },
+        {
+          "value": "serious",
+          "label": {
+            "de": "Ein grösserer Mangel, zum Beispiel Heizung, Wasser, Schimmel oder Lift"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reported",
+      "question": {
+        "de": "Haben Sie den Mangel dem Vermieter oder der Verwaltung schriftlich gemeldet?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht schriftlich"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht mehr genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "landlord_action",
+      "question": {
+        "de": "Was hat der Vermieter seither unternommen?"
+      },
+      "options": [
+        {
+          "value": "nothing",
+          "label": {
+            "de": "Nichts"
+          }
+        },
+        {
+          "value": "promised",
+          "label": {
+            "de": "Er hat eine Reparatur zugesagt, aber noch nichts getan"
+          }
+        },
+        {
+          "value": "fixed",
+          "label": {
+            "de": "Der Mangel wurde inzwischen behoben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie erreichen?"
+      },
+      "options": [
+        {
+          "value": "repair",
+          "label": {
+            "de": "Ich will, dass der Mangel behoben wird"
+          }
+        },
+        {
+          "value": "reduction",
+          "label": {
+            "de": "Ich will weniger Miete zahlen, solange der Mangel besteht"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "small-defect",
+      "kind": "warning",
+      "when": {
+        "severity": [
+          "small"
+        ]
+      },
+      "text": {
+        "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, muss der Mieter nach Ortsgebrauch selbst und auf eigene Kosten beheben. Ein Beispiel ist ein verstopfter Abfluss oder eine leere Batterie im Rauchmelder. Melden Sie sich beim Vermieter, wenn Sie unsicher sind, ob ein Mangel noch in diese Kategorie fällt."
+      },
+      "sources": [
+        "or-259"
+      ]
+    },
+    {
+      "id": "landlord-duty",
+      "kind": "rule",
+      "text": {
+        "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden."
+      },
+      "sources": [
+        "or-256"
+      ]
+    },
+    {
+      "id": "how-to-report",
+      "kind": "step",
+      "when": {
+        "reported": [
+          "no",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Melden Sie den Mangel schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief, und beschreiben Sie ihn genau. Setzen Sie dem Vermieter eine angemessene Frist zur Behebung. Machen Sie Fotos und bewahren Sie alle Nachrichten auf."
+      },
+      "sources": [
+        "or-256"
+      ]
+    },
+    {
+      "id": "rights-overview",
+      "kind": "rule",
+      "when": {
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen."
+      },
+      "sources": [
+        "or-259a"
+      ]
+    },
+    {
+      "id": "rent-reduction",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "reduction",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wird der vertragsgemässe Gebrauch der Wohnung durch den Mangel beeinträchtigt, können Sie vom Vermieter eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Wie hoch die Herabsetzung im Einzelfall ausfällt, hängt vom Ausmass der Beeinträchtigung ab."
+      },
+      "sources": [
+        "or-259d"
+      ]
+    },
+    {
+      "id": "deposit-how",
+      "kind": "rule",
+      "when": {
+        "landlord_action": [
+          "nothing",
+          "promised",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Reagiert der Vermieter trotz schriftlicher Mahnung nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten amtlichen Stelle hinterlegen. Läuft diese Frist ungenutzt ab, kündigen Sie die Hinterlegung dem Vermieter ebenfalls schriftlich an und zahlen die Miete an die amtliche Stelle statt an den Vermieter. Solange die Miete dort liegt, gilt sie als bezahlt."
+      },
+      "sources": [
+        "or-259g"
+      ]
+    },
+    {
+      "id": "deposit-strict",
+      "kind": "warning",
+      "when": {
+        "landlord_action": [
+          "nothing",
+          "promised",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Zudem müssen Sie Ihre Ansprüche innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend machen. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung."
+      },
+      "sources": [
+        "or-259g",
+        "or-259h"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, oder wenn Sie unsicher sind, wie hoch eine angemessene Mietzinsreduktion wäre."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Höhe einer Mietzinsreduktion. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-256": {
+      "type": "statute",
+      "sr": "220",
+      "article": "256",
+      "label": "OR · Art. 256",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_256",
+      "sha256": "252a889ddafa28668c1a1851cb16f88b64b29816e2b31c2170e4f630b37aaec0"
+    },
+    "or-259": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259",
+      "label": "OR · Art. 259",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259",
+      "sha256": "274122a67c79a5865c59d21265c8c6bdda9a8d09f94f972bff8caec10a75a37b"
+    },
+    "or-259a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259a",
+      "label": "OR · Art. 259a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259a",
+      "sha256": "c59037fc4611fec2d6e03f1c0cb3f39f0f482b63d5b50e1c3d9ceb005d7726b5"
+    },
+    "or-259d": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259d",
+      "label": "OR · Art. 259d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259d",
+      "sha256": "7ae241377264377486d547aa910df07b18285214f92accc1d6129be40f3e802e"
+    },
+    "or-259g": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259g",
+      "label": "OR · Art. 259g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259g",
+      "sha256": "6b65a24a0d9233c13e5bd114558bb84c421a702fe94e39872bc4319cb70602f8"
+    },
+    "or-259h": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259h",
+      "label": "OR · Art. 259h",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259h",
+      "sha256": "ae06e0932ee2423be1a206b956be269afc54bdde6e7cbe6981707de05950889f"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

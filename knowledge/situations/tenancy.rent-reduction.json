@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "id": "tenancy.rent-reduction",
+  "domain": "tenancy",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?"
+  },
+  "summary": {
+    "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Antwortet er nicht oder lehnt er ab, können Sie danach die Schlichtungsbehörde anrufen. Das Verfahren ist kostenlos."
+  },
+  "examples": {
+    "de": [
+      "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?",
+      "Kann ich meine Miete senken lassen, weil die Hypothekarzinsen gefallen sind?",
+      "Wie beantrage ich eine Mietzinssenkung?",
+      "Chan ich e Mietzinssenkig verlange, wills mit de Hypizinse abegangen isch?",
+      "Muss ich zuerst den Vermieter anschreiben, bevor ich zur Schlichtungsbehörde gehe?",
+      "Der Vermieter reagiert nicht auf mein Gesuch um eine tiefere Miete, was jetzt?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Das Herabsetzungsbegehren des Mieters während eines laufenden Wohnungsmietverhältnisses in der Schweiz, insbesondere wegen eines gesunkenen Referenzzinssatzes oder anderer gesunkener Kosten des Vermieters."
+    },
+    "excludes": {
+      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse; die Anfechtung einer Mietzinserhöhung, die gleichzeitig mit einem eigenen Herabsetzungsbegehren erfolgt."
+    }
+  },
+  "facts": [
+    {
+      "key": "reason",
+      "question": {
+        "de": "Warum, denken Sie, sollte Ihr Mietzins jetzt gesenkt werden?"
+      },
+      "options": [
+        {
+          "value": "reference-rate",
+          "label": {
+            "de": "Der hypothekarische Referenzzinssatz ist gesunken"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Aus einem anderen Grund, zum Beispiel tiefere Kosten des Vermieters"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "requested",
+      "question": {
+        "de": "Haben Sie den Vermieter schon schriftlich um eine Mietzinssenkung gebeten?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht mehr genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "landlord_answer",
+      "question": {
+        "de": "Wie hat der Vermieter auf Ihr Begehren reagiert?"
+      },
+      "options": [
+        {
+          "value": "agreed",
+          "label": {
+            "de": "Er hat die Senkung ganz oder teilweise akzeptiert"
+          }
+        },
+        {
+          "value": "refused",
+          "label": {
+            "de": "Er hat abgelehnt"
+          }
+        },
+        {
+          "value": "silent",
+          "label": {
+            "de": "Er hat sich nicht innert 30 Tagen gemeldet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht oder habe noch kein Begehren gestellt"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "how-to-ask",
+      "kind": "step",
+      "when": {
+        "requested": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Stellen Sie Ihr Herabsetzungsbegehren schriftlich beim Vermieter, nicht bei der Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und verlangen Sie die Senkung auf den nächstmöglichen Kündigungstermin. Bewahren Sie eine Kopie und den Versandnachweis auf."
+      },
+      "sources": [
+        "or-270a"
+      ]
+    },
+    {
+      "id": "landlord-response-window",
+      "kind": "warning",
+      "text": {
+        "de": "Der Vermieter muss innert 30 Tagen nach Ihrem schriftlichen Begehren Stellung nehmen. Lehnt er ganz oder teilweise ab, oder antwortet er innert dieser 30 Tage gar nicht, können Sie danach innert weiterer 30 Tage die Schlichtungsbehörde für Mietsachen anrufen. Warten Sie nicht zu lange: Notieren Sie sich das Datum Ihres Begehrens und rechnen Sie die beiden Fristen von je 30 Tagen nach."
+      },
+      "sources": [
+        "or-270a"
+      ]
+    },
+    {
+      "id": "reference-rate-explained",
+      "kind": "rule",
+      "when": {
+        "reason": [
+          "reference-rate",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Sinkt er, muss der Vermieter die Mietzinse in der Regel entsprechend senken oder die Einsparung mit anderen, bereits eingetretenen Kostensteigerungen verrechnen. Wie stark sich eine Änderung um einen Viertelprozentpunkt auswirkt, hängt vom bisherigen Hypothekarzinssatz ab; die genaue Berechnung ist nicht ganz einfach."
+      },
+      "sources": [
+        "vmwg-12a",
+        "vmwg-13"
+      ]
+    },
+    {
+      "id": "other-cost-reasons",
+      "kind": "rule",
+      "when": {
+        "reason": [
+          "other",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch andere Kostensenkungen des Vermieters können eine Herabsetzung rechtfertigen, wenn sie dazu führen, dass er einen übersetzten, das heisst missbräuchlich hohen, Ertrag aus der Wohnung erzielt. Ein Beispiel ist eine deutlich günstigere Refinanzierung der Liegenschaft. Nennen Sie dem Vermieter im Begehren, worauf Sie sich stützen."
+      },
+      "sources": [
+        "or-270a"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der verlangten Senkung nicht selbst berechnen können, wenn der Vermieter Gegenforderungen stellt, oder wenn eine der beiden 30-Tage-Fristen in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder und helfen oft auch bei der Berechnung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-270a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "270a",
+      "label": "OR · Art. 270a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270a",
+      "sha256": "f430f68d0a88c296a7bb8afc315a439a3fee7d3ac5a3626c00cf7a4524551bd2"
+    },
+    "vmwg-12a": {
+      "type": "statute",
+      "sr": "221.213.11",
+      "article": "12a",
+      "label": "VMWG · Art. 12a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/835_835_835/de#art_12a",
+      "sha256": "7c288faa1458e68f30a7d6df31a92e741d296dde5c525707237ca969108d1159"
+    },
+    "vmwg-13": {
+      "type": "statute",
+      "sr": "221.213.11",
+      "article": "13",
+      "label": "VMWG · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/835_835_835/de#art_13",
+      "sha256": "c5624ae1c454eace12afca2f17c7fe763c40ff5925c4f67fe6c129474ec89ad0"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Wohnungswesen: Referenzzinssatz"
+      },
+      "url": "https://www.bwo.admin.ch/de/referenzzinssatz"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+      },
+      "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

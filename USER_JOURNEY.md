@@ -18,7 +18,7 @@ Swisslaw is an experimental, free browser tool. The intended experience is usefu
 
 > Your conversation stays in this tab. Public-source requests happen automatically; the legal terms or article references are shown.
 
-Article requests may reveal the topic and some selected facts. The folded explanation identifies website/model-host connection information, bounded public legal terms, selected public source identifiers and OpenCaseLaw’s own retention and possible external-AI processing. The exact model, WebLLM version, model hosts, direct MCP endpoint/protocol and tool names are available in the technical disclosure. Local processing reduces exposure; it does not promise absolute security or anonymity.
+Article requests may reveal the topic and some selected facts. The folded explanation identifies website/model-host connection information, bounded public legal terms, selected public source identifiers and that Swisslaw uses OpenCaseLaw’s no-retention endpoint, and OpenCaseLaw’s possible external-AI processing. The exact model, WebLLM version, model hosts, direct MCP endpoint/protocol and tool names are available in the technical disclosure. Local processing reduces exposure; it does not promise absolute security or anonymity.
 
 ## Current verification and launch gaps
 

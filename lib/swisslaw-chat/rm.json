@@ -99,7 +99,7 @@
   "Do not rely on this tool to calculate a deadline or handle an emergency. If the sources are insufficient, the tool should say so.": "Na As fidai betg da quest instrument per calcular in termin u per tractar in cas d'urgenza. Sche las funtaunas na bastan betg, duess l'instrument inditgar quai.",
   "The interface supports German, French, Italian, Romansh and English. Legal translations and the model’s language ability, especially Romansh, still need independent review.": "L'interfatscha sustegna tudestg, franzos, talian, rumantsch ed englais. Las translaziuns giuridicas e las capacitads linguisticas dal model, surtut en rumantsch, ston anc vegnir controlladas independentamain.",
   "Read the original": "Leger l'original",
-  "OpenCaseLaw retains search terms and may process them with an external AI provider. Share only terms you are comfortable disclosing.": "OpenCaseLaw conserva ils pleds da tschertga e po als elavurar cun in purschider extern d'IA. Cundividai mo pleds che Vus vulais communitgar.",
+  "Swisslaw uses OpenCaseLaw's no-retention endpoint: search terms are not stored beyond technical server logs. To run the search, OpenCaseLaw may still process them with an external AI provider.": "Swisslaw utilisescha il punct d'access dad OpenCaseLaw senza memorisaziun: ils pleds da tschertga na vegnan betg memorisads sur ils protocols tecnics dal server. Per la tschertga po OpenCaseLaw als elavurar vinavant cun in purschider extern d'IA.",
   "You": "Vus",
   "Swisslaw": "Swisslaw",
   "Start": "Cumenzar",

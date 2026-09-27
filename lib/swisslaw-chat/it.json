@@ -99,7 +99,7 @@
   "Do not rely on this tool to calculate a deadline or handle an emergency. If the sources are insufficient, the tool should say so.": "Non si affidi a questo strumento per calcolare un termine o gestire un’emergenza. Se le fonti sono insufficienti, lo strumento dovrebbe segnalarlo.",
   "The interface supports German, French, Italian, Romansh and English. Legal translations and the model’s language ability, especially Romansh, still need independent review.": "L’interfaccia supporta tedesco, francese, italiano, romancio e inglese. Le traduzioni giuridiche e le capacità linguistiche del modello, soprattutto in romancio, devono ancora essere verificate in modo indipendente.",
   "Read the original": "Leggere l’originale",
-  "OpenCaseLaw retains search terms and may process them with an external AI provider. Share only terms you are comfortable disclosing.": "OpenCaseLaw conserva i termini di ricerca e può elaborarli con un fornitore esterno di IA. Condivida solo termini che desidera divulgare.",
+  "Swisslaw uses OpenCaseLaw's no-retention endpoint: search terms are not stored beyond technical server logs. To run the search, OpenCaseLaw may still process them with an external AI provider.": "Swisslaw utilizza l’endpoint di OpenCaseLaw senza conservazione: i termini di ricerca non vengono conservati oltre i log tecnici del server. Per eseguire la ricerca, OpenCaseLaw può comunque elaborarli con un fornitore esterno di IA.",
   "You": "Lei",
   "Swisslaw": "Swisslaw",
   "Start": "Avviare",

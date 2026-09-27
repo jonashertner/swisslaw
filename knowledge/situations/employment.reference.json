@@ -1,0 +1,321 @@
+{
+  "schema": 1,
+  "id": "employment.reference",
+  "domain": "employment",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich brauche ein Arbeitszeugnis oder mein Zeugnis ist unfair"
+  },
+  "summary": {
+    "de": "Sie können jederzeit ein vollständiges Arbeitszeugnis oder auf Wunsch nur eine einfache Bestätigung verlangen. Das Zeugnis muss wohlwollend, aber auch wahr und vollständig sein. Bei Streit hilft die Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten, kostenlos bis 30 000 Franken."
+  },
+  "examples": {
+    "de": [
+      "Ich brauche ein Arbeitszeugnis, wie bekomme ich es?",
+      "Mein Arbeitszeugnis ist unfair, was kann ich tun?",
+      "Darf ich nur eine Arbeitsbestätigung statt ein vollständiges Zeugnis verlangen?",
+      "Ich bruuche mis Arbeitszügnis, wie chum ich drazue?",
+      "Mein Arbeitgeber will mir kein Zeugnis ausstellen",
+      "Kann ich schon während der Anstellung ein Zwischenzeugnis verlangen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Der Anspruch auf ein Arbeitszeugnis oder eine Arbeitsbestätigung und der Streit über dessen Inhalt bei privatrechtlichen Arbeitsverhältnissen in der Schweiz."
+    },
+    "excludes": {
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse und Streitigkeiten über andere Ansprüche aus dem Arbeitsverhältnis wie Lohn oder Kündigungsschutz."
+    }
+  },
+  "facts": [
+    {
+      "key": "employer_type",
+      "question": {
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "currently_employed",
+      "question": {
+        "de": "Arbeiten Sie noch bei diesem Arbeitgeber?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, das Arbeitsverhältnis läuft noch"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es ist beendet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "kind_wanted",
+      "question": {
+        "de": "Welche Art von Zeugnis möchten Sie?"
+      },
+      "options": [
+        {
+          "value": "full-reference",
+          "label": {
+            "de": "Ein vollständiges Zeugnis mit Leistung und Verhalten"
+          }
+        },
+        {
+          "value": "simple-confirmation",
+          "label": {
+            "de": "Nur eine Bestätigung von Art und Dauer der Anstellung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "problem",
+      "question": {
+        "de": "Was ist Ihr Problem?"
+      },
+      "options": [
+        {
+          "value": "not-yet-requested",
+          "label": {
+            "de": "Ich habe noch kein Zeugnis verlangt"
+          }
+        },
+        {
+          "value": "employer-refuses",
+          "label": {
+            "de": "Mein Arbeitgeber stellt gar kein Zeugnis aus"
+          }
+        },
+        {
+          "value": "content-unfair",
+          "label": {
+            "de": "Ich finde das Zeugnis unfair oder falsch"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir nicht sicher"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "public-employer",
+      "kind": "escalate",
+      "text": {
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihr Zeugnis meist öffentliches Personalrecht und nicht direkt das Obligationenrecht, auch wenn ähnliche Grundsätze gelten. Diese Anleitung deckt das nicht abschliessend ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung oder an Ihren Personalverband."
+      },
+      "when": {
+        "employer_type": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "right-to-reference",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können jederzeit von Ihrem Arbeitgeber ein Zeugnis verlangen, das sich über Art und Dauer des Arbeitsverhältnisses sowie über Ihre Leistungen und Ihr Verhalten ausspricht (vollständiges Zeugnis). Verlangen Sie ausdrücklich nur eine Bestätigung, muss sich diese auf Art und Dauer des Arbeitsverhältnisses beschränken (einfache Arbeitsbestätigung)."
+      },
+      "sources": [
+        "or-330a"
+      ]
+    },
+    {
+      "id": "how-to-ask",
+      "kind": "step",
+      "text": {
+        "de": "Verlangen Sie das Zeugnis schriftlich und sagen Sie klar, ob Sie ein vollständiges Zeugnis oder nur eine einfache Bestätigung wollen. Setzen Sie eine angemessene Frist für die Ausstellung."
+      },
+      "when": {
+        "problem": [
+          "not-yet-requested",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-330a"
+      ]
+    },
+    {
+      "id": "truthful-and-benevolent",
+      "kind": "rule",
+      "text": {
+        "de": "Ein vollständiges Zeugnis soll Ihr berufliches Fortkommen fördern und deshalb wohlwollend formuliert sein. Dieses Wohlwollen findet aber seine Grenze in der Wahrheitspflicht: Das Zeugnis muss ein möglichst getreues und vollständiges Bild von Tätigkeit, Leistung und Verhalten geben. Es darf und muss deshalb auch negative Tatsachen erwähnen, wenn sie für die Gesamtbeurteilung erheblich sind."
+      },
+      "sources": [
+        "or-330a",
+        "bge-136-iii-510"
+      ]
+    },
+    {
+      "id": "interim-reference",
+      "kind": "step",
+      "text": {
+        "de": "Auch während das Arbeitsverhältnis noch läuft, etwa nach einem Wechsel der vorgesetzten Person oder der Funktion, können Sie ein Zwischenzeugnis verlangen, das die bisherige Zeit abdeckt."
+      },
+      "when": {
+        "currently_employed": [
+          "yes"
+        ]
+      },
+      "sources": [
+        "or-330a"
+      ]
+    },
+    {
+      "id": "content-unfair",
+      "kind": "step",
+      "text": {
+        "de": "Finden Sie im Zeugnis Fehler, Unwahrheiten oder eine unfair negative Darstellung, verlangen Sie schriftlich die Korrektur und verweisen Sie auf den Grundsatz der Wahrheit und des Wohlwollens. Sammeln Sie Belege für Ihre Sicht, zum Beispiel frühere Beurteilungen oder Lob per E-Mail."
+      },
+      "when": {
+        "problem": [
+          "content-unfair"
+        ]
+      },
+      "sources": [
+        "or-330a"
+      ]
+    },
+    {
+      "id": "employer-refuses",
+      "kind": "escalate",
+      "text": {
+        "de": "Stellt Ihr Arbeitgeber trotz schriftlicher Aufforderung gar kein Zeugnis aus oder korrigiert er offensichtlich falsche Angaben nicht, können Sie Ihren Anspruch bei der kantonalen Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten geltend machen, zuständig am Wohnsitz oder Sitz Ihres Arbeitgebers oder am Ort, wo Sie gewöhnlich gearbeitet haben."
+      },
+      "when": {
+        "problem": [
+          "employer-refuses"
+        ]
+      },
+      "sources": [
+        "zpo-34"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren."
+      },
+      "sources": [
+        "zpo-113",
+        "zpo-243"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn Sie das Zeugnis dringend für eine Bewerbung brauchen, Ihr Arbeitgeber gar nicht reagiert, oder ein Streit über schwerwiegende, schwer beweisbare Vorwürfe im Zeugnis besteht."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-330a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "330a",
+      "label": "OR · Art. 330a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_330a",
+      "sha256": "ad63c0d4f9ac396cdb75443e6f99dd41240f8ca03939bc3143fbc6077f2218d8"
+    },
+    "zpo-34": {
+      "type": "statute",
+      "sr": "272",
+      "article": "34",
+      "label": "ZPO · Art. 34",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_34",
+      "sha256": "02180e69feaa9d6e909e1e004fab60b96a9f3cf6f9bb524065ab388d2e90ef02"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-243": {
+      "type": "statute",
+      "sr": "272",
+      "article": "243",
+      "label": "ZPO · Art. 243",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_243",
+      "sha256": "b73bc28a6f32382418bbafc458eb9fccbc0fd09968cf4ac5b8134be18f91bbce"
+    },
+    "bge-136-iii-510": {
+      "type": "decision",
+      "decision_id": "bge_BGE_136_III_510",
+      "citation": "BGE 136 III 510",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_136_III_510#e-4-1",
+      "e": "4.1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Arbeitszeugnis in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/arbeit/arbeitszeugnis/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

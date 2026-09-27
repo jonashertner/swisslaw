@@ -110,6 +110,18 @@ export async function researchReferences(value: RecipeId, fetcher: typeof fetch 
 }
 
 /** Fixed public references, validated as a whole before an authored guide may be shown. */
+/** One complete federal provision (German), for knowledge-base source checks. The caller compares its hash. */
+export async function lawProvision(sr: string, article: string, fetcher: typeof fetch = fetch): Promise<{ body: string; url: string; date: string }> {
+  const tool = await connection(fetcher);
+  const law = await tool('get_law', { sr_number: sr, article, canton: 'CH', language: 'de' });
+  if (law.sr_number !== sr || law.canton !== 'CH' || law.language !== 'de' || !string(law.source_url, 300).startsWith('https://www.fedlex.admin.ch/')) throw new Error('INVALID_SOURCES');
+  const matches = Array.isArray(law.articles) ? law.articles.map(record).filter(a => a.article_num === article && [undefined, null, '', 'main'].includes(a.section as string)) : [];
+  if (matches.length !== 1 || typeof matches[0].text !== 'string' || matches[0].text.trim().length < 18 || matches[0].text_status && matches[0].text_status !== 'ok') throw new Error('INVALID_SOURCES');
+  const body = [matches[0].heading, matches[0].text].filter(v => typeof v === 'string' && v).join('\n');
+  if (body.length > 5000) throw new Error('INVALID_SOURCES');
+  return { body, url: string(law.source_url, 300), date: string(law.consolidation_date ?? law.version_active_since, 30) };
+}
+
 export async function researchPractical(value: PracticalTopic, fetcher: typeof fetch = fetch): Promise<Source[]> {
   const references = PRACTICAL_REFERENCES[practicalTopic(value)];
   const tool = await connection(fetcher);

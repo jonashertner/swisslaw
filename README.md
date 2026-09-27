@@ -54,7 +54,7 @@ The interface offers German, French, Italian, Romansh and English. Translations 
 
 The application holds the conversation in the current tab. **Start again** clears its conversation state and terminates workers; public model files may remain cached. **Data on this device → Remove cached models** removes the configured model files for this site, including partial downloads. It does not remove copied answers, other browser data or searches already sent. This is not secure erasure of all device traces.
 
-Model hosts receive download requests and connection information. OpenCaseLaw receives public legal terms, public source identifiers and connection information; it retains search terms and may use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
+Model hosts receive download requests and connection information. OpenCaseLaw receives public legal terms, public source identifiers and connection information; Swisslaw calls its no-retention endpoint (`/mcp-edu`), where search terms are not stored beyond technical server logs; OpenCaseLaw's search may still use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
 
 Requested article sets can reveal the legal issue and some guided choices even though the full answers are not transmitted. Automatic queries contain only canonical words from the shipped legal vocabulary. This limits direct identifier leakage; it is **not guaranteed anonymisation**, and the vocabulary can miss an intended topic. Neither private questions nor fact choices are sent to the research worker.
 

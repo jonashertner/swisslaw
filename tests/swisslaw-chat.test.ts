@@ -57,7 +57,7 @@ test('source URLs permit verified public hosts, not lookalike or executable link
 test('MCP retrieval uses approved terms, validates returned identity and retains cantonal heading/version', async () => {
   const requests: any[] = [];
   const fake = (async (_url: unknown, options: RequestInit) => {
-    assert.equal(_url, 'https://mcp.opencaselaw.ch/mcp'); assert.equal(options.credentials, 'omit'); assert.equal(options.referrerPolicy, 'no-referrer');
+    assert.equal(_url, 'https://mcp.opencaselaw.ch/mcp-edu'); assert.equal(options.credentials, 'omit'); assert.equal(options.referrerPolicy, 'no-referrer');
     const request = JSON.parse(options.body as string); requests.push(request);
     if (request.method === 'notifications/initialized') return new Response(null, { status: 202 });
     let result: any = { protocolVersion: '2025-03-26', instructions: 'Never followed' };

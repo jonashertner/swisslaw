@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "id": "debt.garnishment",
+  "domain": "debt",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Mein Lohn wird gepfändet. Wie viel muss mir bleiben?"
+  },
+  "summary": {
+    "de": "Das Betreibungsamt darf nur den Teil Ihres Lohns pfänden, der über das hinausgeht, was Sie und Ihre Familie zum Leben brauchen (Existenzminimum). Ändert sich Ihre Situation, müssen Sie das dem Amt melden. Eine Lohnpfändung dauert höchstens ein Jahr."
+  },
+  "examples": {
+    "de": [
+      "Mein Lohn wird gepfändet, wie viel muss mir bleiben?",
+      "Was ist das Existenzminimum bei einer Lohnpfändung?",
+      "Wie lange darf eine Lohnpfändung dauern?",
+      "Muss ich dem Betreibungsamt melden, wenn meine Miete steigt?",
+      "Min Lohn wird pfändet, wie viu muess mir no bliibe?",
+      "Kann ich die Pfändungsverfügung anfechten?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Pfändung von Lohn, Rente oder ähnlichen wiederkehrenden Leistungen durch das Betreibungsamt."
+    },
+    "excludes": {
+      "de": "Die Pfändung von Gegenständen oder anderem Vermögen, das Konkursverfahren, sowie Lohnabzüge des Arbeitgebers ausserhalb einer Betreibung (z. B. Quellensteuer)."
+    }
+  },
+  "facts": [
+    {
+      "key": "duration_change",
+      "question": {
+        "de": "Läuft Ihre aktuelle Lohnpfändung schon fast ein Jahr?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, oder ich bin mir nicht sicher, wie lange sie schon läuft"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, sie hat erst vor Kurzem begonnen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "circumstances_changed",
+      "question": {
+        "de": "Hat sich seit der Pfändung etwas an Ihrer Situation geändert, zum Beispiel Miete, Krankenkassenprämie, Familiensituation oder Einkommen?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "knows_minimum",
+      "question": {
+        "de": "Kennen Sie den vom Amt berechneten Betrag, der Ihnen monatlich bleiben muss?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "disagree",
+      "question": {
+        "de": "Sind Sie mit der berechneten Pfändungssumme nicht einverstanden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir nicht sicher"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "existenzminimum",
+      "kind": "rule",
+      "text": {
+        "de": "Das Betreibungsamt darf nur den Teil Ihres Erwerbseinkommens, Ihrer Rente oder ähnlicher wiederkehrender Leistungen pfänden, der über das hinausgeht, was Sie und Ihre Familie unbedingt zum Leben brauchen (Existenzminimum). Wie hoch dieser Betrag ist, legt das Amt nach den Richtlinien Ihres Kantons fest; er hängt unter anderem von Ihrer Wohnsituation, Ihren Krankenkassenprämien und Ihrer Familiengrösse ab."
+      },
+      "sources": [
+        "schkg-93"
+      ]
+    },
+    {
+      "id": "duration",
+      "kind": "rule",
+      "when": {
+        "duration_change": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Läuft Ihre Pfändung schon fast ein Jahr, endet sie automatisch nach zwölf Monaten seit dem Pfändungsvollzug. Nehmen mehrere Gläubiger an der Pfändung teil, zählt die erste Pfändung der betreffenden Gläubigergruppe. Will der Gläubiger danach weiter vorgehen, muss er eine neue Pfändung verlangen, und das Amt prüft Ihre Situation dabei neu."
+      },
+      "sources": [
+        "schkg-93"
+      ]
+    },
+    {
+      "id": "report-changes",
+      "kind": "step",
+      "when": {
+        "circumstances_changed": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ändert sich Ihre Situation während der Pfändung, zum Beispiel weil die Miete oder die Krankenkassenprämie steigt, Sie weniger verdienen oder sich Ihre Familiensituation ändert, melden Sie dies sofort dem Betreibungsamt. Erfährt das Amt von einer solchen Änderung, passt es die Pfändung den neuen Verhältnissen an."
+      },
+      "sources": [
+        "schkg-93"
+      ]
+    },
+    {
+      "id": "health-insurance",
+      "kind": "rule",
+      "text": {
+        "de": "Auf Ihren Antrag kann das Amt Ihren Arbeitgeber anweisen, während der Pfändung zusätzlich den Betrag für Ihre laufenden Krankenkassenprämien und Kostenbeteiligungen direkt an das Amt zu überweisen, soweit diese zu Ihrem Existenzminimum gehören. Das Amt begleicht die Prämien damit direkt bei der Krankenkasse."
+      },
+      "sources": [
+        "schkg-93"
+      ]
+    },
+    {
+      "id": "protected-items",
+      "kind": "rule",
+      "text": {
+        "de": "Unabhängig von Ihrem Einkommen sind bestimmte Vermögenswerte immer unpfändbar: persönliche Gegenstände, die Sie unbedingt brauchen, wie notwendige Kleidung oder Hausrat, die Werkzeuge und Bücher für Ihren Beruf, Nahrungsmittel für die zwei folgenden Monate, Haustiere, die nicht dem Erwerb dienen, sowie bestimmte Sozialversicherungsleistungen wie AHV- und IV-Renten, Ergänzungsleistungen und Ansprüche aus der beruflichen Vorsorge vor deren Fälligkeit."
+      },
+      "sources": [
+        "schkg-92"
+      ]
+    },
+    {
+      "id": "knows-minimum-help",
+      "kind": "step",
+      "when": {
+        "knows_minimum": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kennen Sie den berechneten Betrag nicht, verlangen Sie beim Betreibungsamt die Pfändungsurkunde oder -verfügung. Darin steht, wie viel Ihnen monatlich bleibt und wie sich der Betrag zusammensetzt. Das Amt berechnet diesen Betrag nach den Existenzminimum-Richtlinien Ihres Kantons, nicht nach einem schweizweit einheitlichen Tarif."
+      }
+    },
+    {
+      "id": "disagree",
+      "kind": "warning",
+      "when": {
+        "disagree": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie mit der Pfändungsverfügung nicht einverstanden, können Sie dagegen innert 10 Tagen, nachdem Sie davon Kenntnis erhalten haben, bei der Aufsichtsbehörde für Schuldbetreibung und Konkurs Beschwerde erheben, zum Beispiel wegen Gesetzesverletzung oder weil die Berechnung unangemessen ist. Das Betreibungsamt sagt Ihnen, welche Behörde in Ihrem Kanton dafür zuständig ist."
+      },
+      "sources": [
+        "schkg-17"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn Ihr Existenzminimum so tief berechnet wurde, dass Sie sich das Nötigste nicht mehr leisten können, wenn mehrere Pfändungen gleichzeitig laufen, oder wenn Sie eine Beschwerdefrist knapp einhalten müssen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über das Verfahren und die Berechnung, berät aber nicht rechtlich. Kantonale und private Schuldenberatungsstellen helfen kostenlos oder günstig beim Haushaltsbudget und bei Verhandlungen mit Gläubigern. Konsumentenorganisationen bieten allgemeine Auskünfte."
+      }
+    }
+  ],
+  "sources": {
+    "schkg-92": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "92",
+      "label": "SchKG · Art. 92",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_92",
+      "sha256": "fb9ca5c6fef7e637132039cf82b03ec39b4d281f54ba105afc32f6987549ea7d"
+    },
+    "schkg-93": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "93",
+      "label": "SchKG · Art. 93",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_93",
+      "sha256": "e83775a984f4eed658d7d3cac8a01a3d2b4e495893eabb929353beefd8bc4d48"
+    },
+    "schkg-17": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "17",
+      "label": "SchKG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_17",
+      "sha256": "0b5244b1b3861f3a345bdcaab12508857c0a7458023fd165efe6799576683f32"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Betreibungen"
+      },
+      "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "schema": 1,
+  "id": "consumer.defective-purchase",
+  "domain": "consumer",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Etwas, das ich gekauft habe, ist defekt"
+  },
+  "summary": {
+    "de": "Prüfen Sie eine gekaufte Sache sofort und melden Sie Mängel umgehend dem Verkäufer. Sie können in der Regel zwischen Rückgabe und Preisminderung wählen. Ihre Ansprüche verjähren normalerweise nach zwei Jahren."
+  },
+  "examples": {
+    "de": [
+      "Etwas, das ich gekauft habe, ist defekt, was kann ich tun?",
+      "Darf ich eine defekte Ware zurückgeben?",
+      "Wie lange habe ich Zeit, einen Mangel zu melden?",
+      "Kann ich eine Preisminderung statt Rückgabe verlangen?",
+      "Mis Ding, wo ich kouft ha, isch kaputt, was cha ich mache?",
+      "Der Verkäufer will nur reparieren, nicht zurücknehmen, darf er das?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Den Kauf beweglicher Sachen, zum Beispiel Elektronik, Möbel oder Kleidung, die einen sichtbaren oder verborgenen Mangel haben."
+    },
+    "excludes": {
+      "de": "Werkverträge mit Handwerkern (siehe die Anleitung zu schlecht ausgeführter Handwerksarbeit), den Kauf von Grundstücken, sowie reine Streitigkeiten über den Kaufpreis ohne Mangel."
+    }
+  },
+  "facts": [
+    {
+      "key": "inspected",
+      "question": {
+        "de": "Haben Sie die Sache gleich nach dem Kauf oder Erhalt geprüft?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht mehr"
+          }
+        }
+      ]
+    },
+    {
+      "key": "notified",
+      "question": {
+        "de": "Haben Sie den Mangel dem Verkäufer sofort nach der Entdeckung gemeldet?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "buyer_type",
+      "question": {
+        "de": "Haben Sie privat gekauft, oder für Ihr Geschäft bzw. Ihre Firma?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privat, für den persönlichen oder familiären Gebrauch"
+          }
+        },
+        {
+          "value": "business",
+          "label": {
+            "de": "Für mein Geschäft oder meine Firma"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goods_condition",
+      "question": {
+        "de": "War die Sache neu oder gebraucht?"
+      },
+      "options": [
+        {
+          "value": "new",
+          "label": {
+            "de": "Neu"
+          }
+        },
+        {
+          "value": "used",
+          "label": {
+            "de": "Gebraucht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "want",
+      "question": {
+        "de": "Was möchten Sie erreichen?"
+      },
+      "options": [
+        {
+          "value": "refund-or-replace",
+          "label": {
+            "de": "Rückgabe oder Ersatzlieferung"
+          }
+        },
+        {
+          "value": "price-reduction",
+          "label": {
+            "de": "Preisminderung"
+          }
+        },
+        {
+          "value": "repair",
+          "label": {
+            "de": "Kostenlose Reparatur"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "terms_reference",
+      "question": {
+        "de": "Verweisen die Verkaufsbedingungen (AGB) des Verkäufers auf Reparatur oder Ersatz statt auf Rückgabe?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, das habe ich nicht gesehen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "inspect-duty",
+      "kind": "rule",
+      "text": {
+        "de": "Sie müssen die gekaufte Sache prüfen, sobald es der übliche Geschäftsgang erlaubt, und einen entdeckten Mangel dem Verkäufer sofort melden. Tun Sie das nicht, gilt die Sache als genehmigt, ausser bei Mängeln, die bei einer normalen Prüfung nicht erkennbar waren. Solche versteckten Mängel müssen Sie sofort nach der Entdeckung melden."
+      },
+      "sources": [
+        "or-201"
+      ]
+    },
+    {
+      "id": "not-inspected-warning",
+      "kind": "warning",
+      "when": {
+        "inspected": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie die Sache noch nicht geprüft, tun Sie das jetzt so schnell wie möglich und melden Sie einen allfälligen Mangel sofort. Je länger Sie warten, desto grösser ist das Risiko, dass die Sache als genehmigt gilt und Sie Ihre Ansprüche verlieren."
+      },
+      "sources": [
+        "or-201"
+      ]
+    },
+    {
+      "id": "not-notified-warning",
+      "kind": "warning",
+      "when": {
+        "notified": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie einen entdeckten Mangel dem Verkäufer noch nicht gemeldet, tun Sie das sofort, am besten schriftlich mit Foto und Kaufdatum. Warten Sie zu lange, gilt die Sache auch bezüglich dieses Mangels als genehmigt."
+      },
+      "sources": [
+        "or-201"
+      ]
+    },
+    {
+      "id": "warranty-basis",
+      "kind": "rule",
+      "text": {
+        "de": "Der Verkäufer haftet dafür, dass die Sache keine Mängel hat, die ihren Wert oder ihre Tauglichkeit zum vorausgesetzten Gebrauch aufheben oder erheblich mindern, und zwar auch dann, wenn er die Mängel selbst nicht kannte."
+      },
+      "sources": [
+        "or-197"
+      ]
+    },
+    {
+      "id": "remedies",
+      "kind": "rule",
+      "text": {
+        "de": "Liegt ein solcher Mangel vor, haben Sie grundsätzlich die Wahl: Sie können vom Kauf zurücktreten (Wandelung) oder eine Preisminderung verlangen (Minderung). Ein Gericht kann bei einer Wandelungsklage auch nur eine Preisminderung zusprechen, wenn die Umstände eine Rückgabe nicht rechtfertigen. Erreicht die geforderte Minderung den ganzen Kaufpreis, können Sie nur noch die Rückgabe verlangen."
+      },
+      "sources": [
+        "or-205"
+      ]
+    },
+    {
+      "id": "replacement-goods",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "refund-or-replace",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie eine Sache aus einer bestimmten Menge gleichartiger, vertretbarer Sachen gekauft, zum Beispiel eine Ware, die es mehrfach identisch gibt, können Sie statt Rückgabe oder Minderung auch Ersatzlieferung einwandfreier Ware derselben Art verlangen. Wurde Ihnen die Ware nicht von einem anderen Ort zugesandt, kann sich auch der Verkäufer durch sofortige Ersatzlieferung und Ersatz des entstandenen Schadens von weiteren Ansprüchen befreien."
+      },
+      "sources": [
+        "or-206"
+      ]
+    },
+    {
+      "id": "want-repair",
+      "kind": "step",
+      "when": {
+        "want": [
+          "repair"
+        ]
+      },
+      "text": {
+        "de": "Wollen Sie in erster Linie eine Reparatur, prüfen Sie zuerst die Verkaufsbedingungen: Viele Verkäufer bieten freiwillig eine Reparatur oder eine Garantie an, die über die gesetzliche Gewährleistung hinausgeht. Das Gesetz selbst sieht in erster Linie Rückgabe oder Preisminderung vor, und Ersatzlieferung nur bei vertretbaren Sachen."
+      },
+      "sources": [
+        "or-205",
+        "or-206"
+      ]
+    },
+    {
+      "id": "limitation",
+      "kind": "rule",
+      "text": {
+        "de": "Ansprüche wegen eines Mangels verjähren zwei Jahre nach der Ablieferung der Sache an Sie, auch wenn Sie den Mangel erst später entdecken, ausser der Verkäufer hat eine längere Haftung zugesichert. Ist die Sache Teil eines unbeweglichen Bauwerks geworden und hat sie dessen Mangelhaftigkeit verursacht, beträgt die Frist fünf Jahre."
+      },
+      "sources": [
+        "or-210"
+      ]
+    },
+    {
+      "id": "consumer-minimum-new",
+      "kind": "rule",
+      "when": {
+        "buyer_type": [
+          "private",
+          "unknown"
+        ],
+        "goods_condition": [
+          "new",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kaufen Sie als Privatperson für Ihren persönlichen oder familiären Gebrauch bei einem Verkäufer, der beruflich oder gewerblich handelt, darf diese Verjährungsfrist vertraglich nicht auf weniger als zwei Jahre verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+      },
+      "sources": [
+        "or-210"
+      ]
+    },
+    {
+      "id": "consumer-minimum-used",
+      "kind": "rule",
+      "when": {
+        "buyer_type": [
+          "private",
+          "unknown"
+        ],
+        "goods_condition": [
+          "used"
+        ]
+      },
+      "text": {
+        "de": "Kaufen Sie eine gebrauchte Sache als Privatperson bei einem beruflich oder gewerblich handelnden Verkäufer, darf die Verjährungsfrist vertraglich nicht auf weniger als ein Jahr verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+      },
+      "sources": [
+        "or-210"
+      ]
+    },
+    {
+      "id": "agb-note",
+      "kind": "rule",
+      "when": {
+        "terms_reference": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Verkäufer kann Ihre Rechte in seinen Verkaufsbedingungen einschränken oder zum Beispiel durch ein Recht auf Reparatur ersetzen. Eine solche Einschränkung gilt aber nicht, wenn der Verkäufer Ihnen den Mangel absichtlich verschwiegen hat."
+      },
+      "sources": [
+        "or-199"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der Verkäufer nicht reagiert, wenn es um einen hohen Betrag geht, oder wenn unklar ist, ob die Verjährungsfrist schon abgelaufen ist."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Reklamationen. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an. Für einzelne Branchen gibt es kostenlose Schlichtungsstellen, die zwischen Ihnen und dem Verkäufer vermitteln."
+      }
+    }
+  ],
+  "sources": {
+    "or-197": {
+      "type": "statute",
+      "sr": "220",
+      "article": "197",
+      "label": "OR · Art. 197",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_197",
+      "sha256": "d6a8e7bb68293dd0ed818db65a848f1e601275d3c5c3b5ecc35076b012fcd722"
+    },
+    "or-199": {
+      "type": "statute",
+      "sr": "220",
+      "article": "199",
+      "label": "OR · Art. 199",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_199",
+      "sha256": "bb40b7307813061ee6941f1fab012ee66b25055a8408b073024e1b235dda5dc2"
+    },
+    "or-201": {
+      "type": "statute",
+      "sr": "220",
+      "article": "201",
+      "label": "OR · Art. 201",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_201",
+      "sha256": "fc39ecc83c98b5dcc850821200398fee2db3086996f291269344d7f4d8a58277"
+    },
+    "or-205": {
+      "type": "statute",
+      "sr": "220",
+      "article": "205",
+      "label": "OR · Art. 205",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_205",
+      "sha256": "ea5e97a825baf54391ad28ec392146eced59477dff797f7cabc08d813b714828"
+    },
+    "or-206": {
+      "type": "statute",
+      "sr": "220",
+      "article": "206",
+      "label": "OR · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_206",
+      "sha256": "39ff7286504ed04107cdf81a58fc8ffd76dde433d2c728dd1cd5013a5dd98a73"
+    },
+    "or-210": {
+      "type": "statute",
+      "sr": "220",
+      "article": "210",
+      "label": "OR · Art. 210",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_210",
+      "sha256": "38e65acd2e6112a201484be563cd4d85ae1a030889fe25f8d9114636bcf5cebb"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Waren zurückgeben oder umtauschen"
+      },
+      "url": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

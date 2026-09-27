@@ -1,0 +1,481 @@
+{
+  "schema": 1,
+  "id": "employment.dismissal",
+  "domain": "employment",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Mein Arbeitgeber hat mir gekündigt"
+  },
+  "summary": {
+    "de": "Ihr Arbeitgeber darf Ihnen grundsätzlich frei kündigen. Wichtig sind die richtige Kündigungsfrist, allfällige Sperrfristen bei Krankheit oder Schwangerschaft, und ob die Kündigung missbräuchlich sein könnte. Wollen Sie eine Entschädigung, müssen Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache erheben."
+  },
+  "examples": {
+    "de": [
+      "Mein Arbeitgeber hat mir gekündigt, was kann ich tun?",
+      "Wie lange ist meine Kündigungsfrist?",
+      "Ist meine Kündigung missbräuchlich?",
+      "Ich wurde gekündigt, während ich krank war",
+      "Muss ich mich sofort beim RAV meleden?",
+      "Han d Kündigung übercho, was mues ich jetzt mache?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Ordentliche Kündigungen durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen (Einzelarbeitsvertrag) in der Schweiz."
+    },
+    "excludes": {
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse bei Bund, Kantonen oder Gemeinden, fristlose Entlassungen, Kündigungen durch Sie selbst, Massenentlassungen und Lehrverhältnisse."
+    }
+  },
+  "facts": [
+    {
+      "key": "employer_type",
+      "question": {
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "probation",
+      "question": {
+        "de": "Sind Sie noch in der Probezeit?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ],
+      "help": {
+        "de": "Die Probezeit dauert normalerweise den ersten Monat. Sie kann schriftlich auf höchstens drei Monate verlängert werden."
+      }
+    },
+    {
+      "key": "tenure",
+      "question": {
+        "de": "Wie lange arbeiten Sie schon für diesen Arbeitgeber?"
+      },
+      "options": [
+        {
+          "value": "under-one-year",
+          "label": {
+            "de": "Weniger als ein Jahr"
+          }
+        },
+        {
+          "value": "one-to-nine-years",
+          "label": {
+            "de": "Ein bis neun Jahre"
+          }
+        },
+        {
+          "value": "ten-plus-years",
+          "label": {
+            "de": "Zehn Jahre oder länger"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "protected_situation",
+      "question": {
+        "de": "Befinden Sie sich gerade in einer besonders geschützten Situation?"
+      },
+      "options": [
+        {
+          "value": "illness-or-accident",
+          "label": {
+            "de": "Krankheit oder Unfall"
+          }
+        },
+        {
+          "value": "pregnancy",
+          "label": {
+            "de": "Schwangerschaft oder ich habe vor kurzem entbunden"
+          }
+        },
+        {
+          "value": "service",
+          "label": {
+            "de": "Obligatorischer Militär-, Schutz- oder Zivildienst"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, nichts davon"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reason_belief",
+      "question": {
+        "de": "Warum, glauben Sie, wurde Ihnen gekündigt?"
+      },
+      "options": [
+        {
+          "value": "suspect-unfair",
+          "label": {
+            "de": "Ich vermute einen unfairen oder unzulässigen Grund"
+          }
+        },
+        {
+          "value": "no-reason-given",
+          "label": {
+            "de": "Es wurde mir kein Grund genannt"
+          }
+        },
+        {
+          "value": "ordinary-reason",
+          "label": {
+            "de": "Ein gewöhnlicher betrieblicher oder persönlicher Grund"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "public-employer",
+      "kind": "escalate",
+      "text": {
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihre Kündigung meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+      },
+      "when": {
+        "employer_type": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "notice-period",
+      "kind": "rule",
+      "text": {
+        "de": "Ausserhalb der Probezeit gilt ohne andere schriftliche Abrede: Im ersten Dienstjahr beträgt die Kündigungsfrist einen Monat, vom zweiten bis und mit dem neunten Dienstjahr zwei Monate, danach drei Monate, jeweils auf das Ende eines Monats. Diese Fristen können durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag geändert werden; auf weniger als einen Monat dürfen sie nur durch Gesamtarbeitsvertrag und nur im ersten Dienstjahr verkürzt werden."
+      },
+      "when": {
+        "employer_type": [
+          "private",
+          "unknown"
+        ],
+        "probation": [
+          "no",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-335c"
+      ]
+    },
+    {
+      "id": "probation-notice",
+      "kind": "rule",
+      "text": {
+        "de": "Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden. Wurde die Probezeit schriftlich verlängert oder wegen Krankheit, Unfall oder einer nicht freiwillig übernommenen gesetzlichen Pflicht verlängert, gilt diese kurze Frist während der ganzen (verlängerten) Probezeit."
+      },
+      "when": {
+        "probation": [
+          "yes"
+        ]
+      },
+      "sources": [
+        "or-335b"
+      ]
+    },
+    {
+      "id": "written-reasons",
+      "kind": "step",
+      "text": {
+        "de": "Sie können von Ihrem Arbeitgeber verlangen, dass er die Kündigung schriftlich begründet. Verlangen Sie dies schriftlich; er muss Ihnen dann schriftlich antworten."
+      },
+      "sources": [
+        "or-335"
+      ]
+    },
+    {
+      "id": "blocking-periods",
+      "kind": "warning",
+      "text": {
+        "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt."
+      },
+      "when": {
+        "protected_situation": [
+          "illness-or-accident",
+          "pregnancy",
+          "service"
+        ],
+        "probation": [
+          "no",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-336c",
+        "bge-115-v-437"
+      ]
+    },
+    {
+      "id": "blocking-periods-probation",
+      "kind": "warning",
+      "text": {
+        "de": "Während der Probezeit gelten diese Sperrfristen noch nicht. Ihr Arbeitgeber darf Ihnen also auch während einer Krankheit, eines Unfalls oder einer Schwangerschaft in der Probezeit kündigen."
+      },
+      "when": {
+        "protected_situation": [
+          "illness-or-accident",
+          "pregnancy",
+          "service"
+        ],
+        "probation": [
+          "yes"
+        ]
+      },
+      "sources": [
+        "or-336c"
+      ]
+    },
+    {
+      "id": "abusive-grounds",
+      "kind": "rule",
+      "text": {
+        "de": "Eine Kündigung ist missbräuchlich, wenn sie zum Beispiel ausgesprochen wird wegen einer persönlichen Eigenschaft ohne Bezug zur Arbeit, weil Sie ein verfassungsmässiges Recht ausüben, nur um Ihre vertraglichen Ansprüche zu vereiteln, weil Sie nach Treu und Glauben Ansprüche aus dem Arbeitsverhältnis geltend machen, wegen Militär- oder Zivildienst, wegen Gewerkschaftszugehörigkeit oder -tätigkeit, gegen eine gewählte Arbeitnehmervertretung ohne begründeten Anlass, oder im Rahmen einer Massenentlassung ohne vorherige Konsultation der Arbeitnehmenden."
+      },
+      "when": {
+        "reason_belief": [
+          "suspect-unfair",
+          "no-reason-given",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-336"
+      ]
+    },
+    {
+      "id": "compensation-cap",
+      "kind": "rule",
+      "text": {
+        "de": "Wird eine Kündigung als missbräuchlich beurteilt, muss die kündigende Partei eine Entschädigung bezahlen. Das Gericht legt die Höhe nach den Umständen fest, höchstens aber sechs Monatslöhne (bei einer missbräuchlichen Kündigung wegen unterlassener Konsultation bei einer Massenentlassung höchstens zwei Monatslöhne)."
+      },
+      "when": {
+        "reason_belief": [
+          "suspect-unfair",
+          "no-reason-given",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-336a"
+      ]
+    },
+    {
+      "id": "written-objection",
+      "kind": "deadline",
+      "text": {
+        "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch."
+      },
+      "when": {
+        "reason_belief": [
+          "suspect-unfair",
+          "no-reason-given",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "or-336b"
+      ],
+      "deadline_rules": [
+        "or_336b_klage_missbraeuchliche_kuendigung"
+      ]
+    },
+    {
+      "id": "rav-registration",
+      "kind": "step",
+      "text": {
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Ab dann müssen Sie die Kontrollvorschriften befolgen und sich um eine neue Stelle bemühen."
+      },
+      "sources": [
+        "avig-17"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung."
+      },
+      "sources": [
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn die Kündigungsfrist bald endet, wenn grosse Summen im Streit stehen, wenn Ihr Arbeitgeber die Sachlage bestreitet, oder wenn Sie unsicher sind, ob Ihre Situation wirklich geschützt ist."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an."
+      }
+    }
+  ],
+  "sources": {
+    "or-335": {
+      "type": "statute",
+      "sr": "220",
+      "article": "335",
+      "label": "OR · Art. 335",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_335",
+      "sha256": "7549b0dbd2fd6942d8befa09dc73a00a693ba698c7682b5a80a6537ecbf8bdc1"
+    },
+    "or-335b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "335b",
+      "label": "OR · Art. 335b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_335b",
+      "sha256": "3de0a2f89d5fb256006c5fc2c6671729347162bb5102e3422514baba1a391452"
+    },
+    "or-335c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "335c",
+      "label": "OR · Art. 335c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_335c",
+      "sha256": "b7044cc65a8a729e333583381b3db29a15339e638236ef3519fe655bd9a57571"
+    },
+    "or-336": {
+      "type": "statute",
+      "sr": "220",
+      "article": "336",
+      "label": "OR · Art. 336",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336",
+      "sha256": "24e8abdb29fcc4547854bdbb6297e085c93f4bc69e55fe13883164c440cfc759"
+    },
+    "or-336a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "336a",
+      "label": "OR · Art. 336a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336a",
+      "sha256": "a3f38cea2c5bb969d79212996dbccdfca417eead9f667e3a551491dace11f90a"
+    },
+    "or-336b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "336b",
+      "label": "OR · Art. 336b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336b",
+      "sha256": "1b2476fa600b0ffef707fe620e47129434bb5b3382a73a1dde36d89aff7d2be5"
+    },
+    "or-336c": {
+      "type": "statute",
+      "sr": "220",
+      "article": "336c",
+      "label": "OR · Art. 336c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336c",
+      "sha256": "0b6a4ae31401c867eb646037571e84ac5b4d09b0f56a5e6768bac42c19fe9500"
+    },
+    "avig-17": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "17",
+      "label": "AVIG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_17",
+      "sha256": "f7524015817c568d6b92b981899d520148d6bfb1ef533f5ba03fbdc0ba335c1a"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "bge-115-v-437": {
+      "type": "decision",
+      "decision_id": "bge_BGE_115_V_437",
+      "citation": "BGE 115 V 437",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_115_V_437"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Arbeitslosigkeit in der Schweiz (Anmeldung beim RAV)"
+      },
+      "url": "https://www.ch.ch/de/versicherungen/arbeitslosenversicherung/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

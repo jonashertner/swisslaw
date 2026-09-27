@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "id": "traffic.fixed-fine",
+  "domain": "traffic",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich habe eine Ordnungsbusse erhalten"
+  },
+  "summary": {
+    "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen. Sie können sie innert 30 Tagen bezahlen oder das Verfahren ablehnen. Das Verfahren selbst ist kostenlos, lehnen Sie es ab, folgt ein ordentliches Strafverfahren."
+  },
+  "examples": {
+    "de": [
+      "Ich habe eine Ordnungsbusse erhalten, muss ich die bezahlen?",
+      "Wie lange habe ich Zeit, um eine Ordnungsbusse zu bezahlen?",
+      "Kann ich eine Ordnungsbusse ablehnen?",
+      "Was passiert, wenn ich die Ordnungsbusse nicht bezahle?",
+      "Ich ha e Ordnigsbuess übercho, muess ich die zahle?",
+      "Ich bin nur die Halterin des Autos, aber jemand anders ist gefahren."
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Ordnungsbussen nach dem Ordnungsbussengesetz, zum Beispiel wegen kleinerer Widerhandlungen im Strassenverkehr."
+    },
+    "excludes": {
+      "de": "Strafbefehle und andere Verfahren, in denen bereits eine höhere Strafe als eine Ordnungsbusse ausgesprochen wurde. Dafür gibt es eine eigene Anleitung."
+    }
+  },
+  "facts": [
+    {
+      "key": "paid",
+      "question": {
+        "de": "Haben Sie die Ordnungsbusse schon bezahlt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "accept",
+      "question": {
+        "de": "Möchten Sie die Ordnungsbusse akzeptieren oder ablehnen?"
+      },
+      "help": {
+        "de": "Lehnen Sie ab, wird die Sache nicht einfacher: Es folgt ein ordentliches Strafverfahren."
+      },
+      "options": [
+        {
+          "value": "accept",
+          "label": {
+            "de": "Ich akzeptiere sie und will sie bezahlen"
+          }
+        },
+        {
+          "value": "refuse",
+          "label": {
+            "de": "Ich lehne sie ab, ich bin nicht einverstanden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin mir noch nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "role",
+      "question": {
+        "de": "Sind Sie die Person, die das Fahrzeug gelenkt hat, oder nur die Halterin oder der Halter?"
+      },
+      "options": [
+        {
+          "value": "driver",
+          "label": {
+            "de": "Ich bin selbst gefahren"
+          }
+        },
+        {
+          "value": "owner",
+          "label": {
+            "de": "Ich bin nur Halterin oder Halter, jemand anderes ist gefahren"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "what-it-is",
+      "kind": "rule",
+      "text": {
+        "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen, zum Beispiel im Strassenverkehr. Sie beträgt höchstens 300 Franken. Ihr Vorleben und Ihre persönlichen Verhältnisse spielen dabei keine Rolle."
+      },
+      "sources": [
+        "obg-1"
+      ]
+    },
+    {
+      "id": "payment-period",
+      "kind": "rule",
+      "when": {
+        "paid": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ab der Eröffnung haben Sie 30 Tage Zeit, um die Ordnungsbusse zu bezahlen. Diese Zeitspanne heisst Bedenkfrist. Bezahlen Sie sofort an Ort und Stelle, erhalten Sie eine Quittung ohne Ihren Namen."
+      },
+      "sources": [
+        "obg-6"
+      ]
+    },
+    {
+      "id": "refuse-right",
+      "kind": "rule",
+      "when": {
+        "accept": [
+          "refuse",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie haben das Recht, das Ordnungsbussenverfahren abzulehnen. Die Person, die Ihnen die Busse eröffnet, muss Sie darauf hinweisen. Lehnen Sie ab, wird stattdessen ein ordentliches Strafverfahren durchgeführt, so wie bei anderen Übertretungen."
+      },
+      "sources": [
+        "obg-13"
+      ]
+    },
+    {
+      "id": "unpaid-warning",
+      "kind": "warning",
+      "when": {
+        "paid": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bezahlen Sie die Ordnungsbusse nicht innerhalb der 30 Tage, wird ebenfalls ein ordentliches Strafverfahren durchgeführt. Das kann zu einem Strafbefehl mit einer höheren Strafe führen, und in diesem Verfahren gelten wieder andere Fristen."
+      },
+      "sources": [
+        "obg-6"
+      ]
+    },
+    {
+      "id": "no-costs",
+      "kind": "cost",
+      "text": {
+        "de": "Im Ordnungsbussenverfahren selbst werden keine Kosten erhoben. Lehnen Sie das Verfahren ab oder bezahlen Sie nicht rechtzeitig, gelten für das anschliessende ordentliche Strafverfahren die dortigen Kostenregeln."
+      },
+      "sources": [
+        "obg-12"
+      ]
+    },
+    {
+      "id": "owner-liability",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "owner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist nicht bekannt, wer gefahren ist, wird die Busse der Halterin oder dem Halter des Fahrzeugs eröffnet. Auch hier gilt eine Zahlungsfrist von 30 Tagen. Sie können stattdessen Namen und Adresse der Person nennen, die tatsächlich gefahren ist; dann läuft das Verfahren gegen diese Person weiter. Bezahlen Sie als Halterin oder Halter nicht rechtzeitig, folgt ein ordentliches Strafverfahren."
+      },
+      "sources": [
+        "obg-7"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie sich Rat, wenn Sie den Sachverhalt bestreiten, wenn aus der Sache ein ordentliches Strafverfahren mit einem Strafbefehl geworden ist, oder wenn unklar ist, wer als Fahrzeugführerin oder Fahrzeugführer galt."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Behörde, die die Busse ausgestellt hat, beantwortet Fragen zum Verfahren. Kantonale Anwaltsverbände und viele Kantone bieten eine erste, unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "obg-1": {
+      "type": "statute",
+      "sr": "314.1",
+      "article": "1",
+      "label": "OBG · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/725/de#art_1",
+      "sha256": "813b60135e0a35d703e8d34a5bbc3cce66c6e11bb9a727b152d8de861cf1706e"
+    },
+    "obg-6": {
+      "type": "statute",
+      "sr": "314.1",
+      "article": "6",
+      "label": "OBG · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/725/de#art_6",
+      "sha256": "3e6699a5208fe8e19df9d0aaf0333c5e9afb37bd9daa009ab7540865dd6c22f7"
+    },
+    "obg-7": {
+      "type": "statute",
+      "sr": "314.1",
+      "article": "7",
+      "label": "OBG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/725/de#art_7",
+      "sha256": "a6459740b11200aa07e407c6c84f37c1e5ddacd036a0d188d44874f6d841fc8f"
+    },
+    "obg-12": {
+      "type": "statute",
+      "sr": "314.1",
+      "article": "12",
+      "label": "OBG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/725/de#art_12",
+      "sha256": "cf1923a47db99590fe96aa5dfece2244dd01cb0cdd77a2c3c628a339ced63eef"
+    },
+    "obg-13": {
+      "type": "statute",
+      "sr": "314.1",
+      "article": "13",
+      "label": "OBG · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/725/de#art_13",
+      "sha256": "98c9f7f09f5dde9f539c226016f3ed3f643db92dae5e4fd235f70124b5d5ca51"
+    }
+  },
+  "official_links": [],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

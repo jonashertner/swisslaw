@@ -1,0 +1,257 @@
+{
+ "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. Every rule is draft until a lawyer signs it off.",
+ "rules": [
+  {
+   "id": "schkg_74_rechtsvorschlag",
+   "title_de": "Rechtsvorschlag gegen den Zahlungsbefehl",
+   "domain": "schkg",
+   "duration_days": 10,
+   "receipt_doctrine": "personal_service",
+   "standstill": "none",
+   "schkg_63_extension": true,
+   "calendar": "Kanton des Betreibungsamts (SchKG 31 i.V.m. ZPO 142 Abs. 3)",
+   "legal_basis": [
+    {
+     "law": "SchKG",
+     "sr": "281.1",
+     "article": "74",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_74"
+    },
+    {
+     "law": "SchKG",
+     "sr": "281.1",
+     "article": "63",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_63"
+    },
+    {
+     "law": "SchKG",
+     "sr": "281.1",
+     "article": "56",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_56"
+    },
+    {
+     "law": "ZPO",
+     "sr": "272",
+     "article": "142",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_142"
+    }
+   ],
+   "how_to_meet": "Sofort gegenüber der überbringenden Person oder innert der Frist mündlich oder schriftlich beim Betreibungsamt. Schriftlich: Übergabe an die Schweizerische Post spätestens am letzten Tag.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "stpo_354_einsprache_strafbefehl",
+   "title_de": "Einsprache gegen einen Strafbefehl",
+   "domain": "traffic",
+   "duration_days": 10,
+   "receipt_doctrine": "procedural_fiction",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Wohnsitzkanton der Partei (StPO 90 Abs. 2 Satz 2)",
+   "legal_basis": [
+    {
+     "law": "StPO",
+     "sr": "312.0",
+     "article": "354",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_354"
+    },
+    {
+     "law": "StPO",
+     "sr": "312.0",
+     "article": "85",
+     "paragraph": "4",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_85"
+    },
+    {
+     "law": "StPO",
+     "sr": "312.0",
+     "article": "90",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_90"
+    }
+   ],
+   "how_to_meet": "Schriftlich bei der Staatsanwaltschaft bzw. der im Strafbefehl genannten Behörde; keine Begründung nötig. Übergabe an die Schweizerische Post spätestens am letzten Tag.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "or_273_anfechtung_kuendigung",
+   "title_de": "Anfechtung der Kündigung (Miete)",
+   "domain": "tenancy",
+   "duration_days": 30,
+   "receipt_doctrine": "absolute_receipt",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Kanton der Schlichtungsbehörde (OR 78; BG über den Fristenlauf an Samstagen)",
+   "legal_basis": [
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "273",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "77",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_77"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "78",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
+    },
+    {
+     "law": "FristenlaufG",
+     "sr": "173.110.3",
+     "article": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/1963/819_815_843/de#art_1"
+    }
+   ],
+   "case_law": [
+    "BGE 143 III 15 E. 4.1",
+    "BGE 137 III 208 E. 3.1.2"
+   ],
+   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Postaufgabe spätestens am letzten Tag; Frist des materiellen Rechts, daher sicherheitshalber früher handeln.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "or_273_erstreckung_unbefristet",
+   "title_de": "Erstreckung des unbefristeten Mietverhältnisses verlangen",
+   "domain": "tenancy",
+   "duration_days": 30,
+   "receipt_doctrine": "absolute_receipt",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Kanton der Schlichtungsbehörde (OR 78; BG über den Fristenlauf an Samstagen)",
+   "legal_basis": [
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "273",
+     "paragraph": "2",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "77",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_77"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "78",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
+    }
+   ],
+   "case_law": [
+    "BGE 143 III 15 E. 4.1"
+   ],
+   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "or_270b_anfechtung_mietzinserhoehung",
+   "title_de": "Anfechtung einer Mietzinserhöhung",
+   "domain": "tenancy",
+   "duration_days": 30,
+   "receipt_doctrine": "relative_receipt",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Kanton der Schlichtungsbehörde (OR 78; BG über den Fristenlauf an Samstagen)",
+   "legal_basis": [
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "270b",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270b"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "78",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
+    }
+   ],
+   "case_law": [
+    "BGE 140 III 244 E. 5.2",
+    "BGE 143 III 15 E. 4.1"
+   ],
+   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "or_270_anfechtung_anfangsmietzins",
+   "title_de": "Anfechtung des Anfangsmietzinses",
+   "domain": "tenancy",
+   "duration_days": 30,
+   "receipt_doctrine": "event",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Kanton der Schlichtungsbehörde (OR 78; BG über den Fristenlauf an Samstagen)",
+   "legal_basis": [
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "270",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_270"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "78",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
+    }
+   ],
+   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Voraussetzungen nach OR 270 Abs. 1 lit. a/b (Notlage, Marktlage oder erhebliche Erhöhung) durch Anwalt prüfen.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "or_336b_klage_missbraeuchliche_kuendigung",
+   "title_de": "Klage auf Entschädigung wegen missbräuchlicher Kündigung (Arbeit)",
+   "domain": "employment",
+   "duration_days": 180,
+   "receipt_doctrine": "event",
+   "standstill": "none",
+   "schkg_63_extension": false,
+   "calendar": "Kanton der Schlichtungsbehörde (OR 78; BG über den Fristenlauf an Samstagen)",
+   "legal_basis": [
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "336b",
+     "paragraph": "2",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_336b"
+    },
+    {
+     "law": "OR",
+     "sr": "220",
+     "article": "78",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
+    }
+   ],
+   "how_to_meet": "Klage anhängig machen, d.h. Schlichtungsgesuch einreichen (ZPO 62 Abs. 1). Voraussetzung: schriftliche Einsprache beim Arbeitgeber bis zum Ende der Kündigungsfrist (OR 336b Abs. 1).",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+  "schema": 1,
+  "id": "employment.unpaid-wages",
+  "domain": "employment",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Mein Arbeitgeber zahlt den Lohn nicht"
+  },
+  "summary": {
+    "de": "Ihr Lohn ist grundsätzlich am Ende jedes Monats fällig, bei Beendigung des Arbeitsverhältnisses sofort. Fordern Sie schriftlich zur Zahlung auf. Bei Zahlungsunfähigkeit des Arbeitgebers können Sie fristlos kündigen und allenfalls Insolvenzentschädigung beziehen. Das Schlichtungsverfahren ist bis 30 000 Franken kostenlos."
+  },
+  "examples": {
+    "de": [
+      "Mein Arbeitgeber zahlt den Lohn nicht, was kann ich tun?",
+      "Ich habe seit zwei Monaten keinen Lohn erhalten",
+      "Darf ich kündigen, wenn mein Chef nicht zahlt?",
+      "Mis Chef zahlt de Lohn nöd, was cha ich mache?",
+      "Wie lange kann ich rückständigen Lohn noch einfordern?",
+      "Mein Arbeitgeber steht vor dem Konkurs, bekomme ich trotzdem meinen Lohn?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Nicht oder verspätet ausbezahlter Lohn bei privatrechtlichen Arbeitsverhältnissen in der Schweiz, einschliesslich Zahlungsunfähigkeit des Arbeitgebers."
+    },
+    "excludes": {
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse, Streitigkeiten über die Lohnhöhe selbst (z. B. Diskriminierung) und bereits laufende Konkurs- oder Betreibungsverfahren, die eine eigene Fachberatung erfordern."
+    }
+  },
+  "facts": [
+    {
+      "key": "employer_type",
+      "question": {
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+          }
+        },
+        {
+          "value": "public",
+          "label": {
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "employment_status",
+      "question": {
+        "de": "Läuft Ihr Arbeitsverhältnis noch, oder ist es bereits beendet?"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "de": "Es läuft noch"
+          }
+        },
+        {
+          "value": "ended",
+          "label": {
+            "de": "Es ist beendet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "employer_situation",
+      "question": {
+        "de": "Wie schätzen Sie die Lage Ihres Arbeitgebers ein?"
+      },
+      "options": [
+        {
+          "value": "insolvent-or-refuses",
+          "label": {
+            "de": "Er kann oder will offensichtlich nicht zahlen (Zahlungsunfähigkeit, Konkursandrohung)"
+          }
+        },
+        {
+          "value": "just-late",
+          "label": {
+            "de": "Er zahlt einfach verspätet, ohne erkennbaren Grund"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "written_reminder_sent",
+      "question": {
+        "de": "Haben Sie Ihren Arbeitgeber schon schriftlich zur Zahlung aufgefordert?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich bin nicht sicher"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "public-employer",
+      "kind": "escalate",
+      "text": {
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+      },
+      "when": {
+        "employer_type": [
+          "public"
+        ]
+      }
+    },
+    {
+      "id": "wage-claim",
+      "kind": "rule",
+      "text": {
+        "de": "Ihr Arbeitgeber muss Ihnen den Lohn zahlen, der vereinbart, üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt ist."
+      },
+      "sources": [
+        "or-322"
+      ]
+    },
+    {
+      "id": "due-date",
+      "kind": "rule",
+      "text": {
+        "de": "Ohne andere Abrede, Üblichkeit, Normalarbeitsvertrag oder Gesamtarbeitsvertrag ist der Lohn am Ende jedes Monats auszuzahlen."
+      },
+      "sources": [
+        "or-323"
+      ]
+    },
+    {
+      "id": "send-reminder",
+      "kind": "step",
+      "text": {
+        "de": "Fordern Sie Ihren Arbeitgeber schriftlich und mit Datum zur Zahlung auf, mit einer klaren Frist (zum Beispiel zehn Tage). Bewahren Sie eine Kopie auf. Das schafft eine klare Grundlage für weitere Schritte."
+      },
+      "when": {
+        "written_reminder_sent": [
+          "no",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "all-due-at-end",
+      "kind": "rule",
+      "text": {
+        "de": "Ist das Arbeitsverhältnis bereits beendet, werden mit der Beendigung sämtliche Forderungen daraus sofort fällig, also der gesamte ausstehende Lohn auf einmal."
+      },
+      "when": {
+        "employment_status": [
+          "ended"
+        ]
+      },
+      "sources": [
+        "or-339"
+      ]
+    },
+    {
+      "id": "terminate-for-insolvency",
+      "kind": "rule",
+      "text": {
+        "de": "Wird Ihr Arbeitgeber zahlungsunfähig, können Sie das Arbeitsverhältnis Ihrerseits fristlos auflösen, ausser Ihnen wird innert angemessener Frist für Ihre Lohnforderungen Sicherheit geleistet."
+      },
+      "when": {
+        "employer_situation": [
+          "insolvent-or-refuses"
+        ]
+      },
+      "sources": [
+        "or-337a"
+      ]
+    },
+    {
+      "id": "insolvency-compensation",
+      "kind": "warning",
+      "text": {
+        "de": "Befindet sich Ihr Arbeitgeber im Konkurs, oder blieb eine Pfändung wegen Ihrer Lohnforderung erfolglos, kann Ihnen die Arbeitslosenversicherung eine Insolvenzentschädigung für höchstens die letzten vier Monate des Arbeitsverhältnisses auszahlen. Sie müssen Ihren Anspruch aber innert 60 Tagen nach der Veröffentlichung des Konkurses im Schweizerischen Handelsamtsblatt (oder nach dem Pfändungsvollzug) bei der zuständigen öffentlichen Kasse anmelden; danach erlischt der Anspruch."
+      },
+      "when": {
+        "employer_situation": [
+          "insolvent-or-refuses"
+        ]
+      },
+      "sources": [
+        "avig-51",
+        "avig-52",
+        "avig-53"
+      ]
+    },
+    {
+      "id": "limitation",
+      "kind": "rule",
+      "text": {
+        "de": "Lohnforderungen verjähren fünf Jahre nach ihrer Fälligkeit. Warten Sie deshalb nicht zu lange mit der Geltendmachung."
+      },
+      "sources": [
+        "or-128"
+      ]
+    },
+    {
+      "id": "debt-enforcement",
+      "kind": "step",
+      "text": {
+        "de": "Reagiert Ihr Arbeitgeber nicht, können Sie beim Betreibungsamt an seinem Wohnsitz oder Sitz ein Betreibungsbegehren für den ausstehenden Lohn stellen. Das eröffnet ein Betreibungsverfahren, unabhängig von einem Gerichtsverfahren."
+      }
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es im Schlichtungsverfahren grundsätzlich keine Entschädigung."
+      },
+      "sources": [
+        "zpo-113",
+        "zpo-243"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn Ihr Arbeitgeber die Zahlung dauerhaft verweigert, wenn ein Konkurs droht oder bereits läuft, oder wenn es um grosse Summen geht."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Das Betreibungsamt erklärt das Betreibungsverfahren; viele Kantone bieten zudem eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "or-322": {
+      "type": "statute",
+      "sr": "220",
+      "article": "322",
+      "label": "OR · Art. 322",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_322",
+      "sha256": "f8923a8731bd122e5bd33909aaf6fdb45c54c018b087d245390e404b10f0c88f"
+    },
+    "or-323": {
+      "type": "statute",
+      "sr": "220",
+      "article": "323",
+      "label": "OR · Art. 323",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_323",
+      "sha256": "6e21b827ca10c82b6751b1e8828a2d6d895e34e61146b5c0f3aca3fdb1b4556e"
+    },
+    "or-339": {
+      "type": "statute",
+      "sr": "220",
+      "article": "339",
+      "label": "OR · Art. 339",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_339",
+      "sha256": "aee7528365b05cfec25c21f6505ff63e6076eb85928676bfb370c7f98d0d4fd5"
+    },
+    "or-337a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "337a",
+      "label": "OR · Art. 337a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_337a",
+      "sha256": "5863a73ec272b4a2cae27aab041c465899cfb49bb5639f5a896736268467d1c3"
+    },
+    "or-128": {
+      "type": "statute",
+      "sr": "220",
+      "article": "128",
+      "label": "OR · Art. 128",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_128",
+      "sha256": "2a2eba5be5db4c532004f8c564d07c745913b084706e38c2fab2968b9f517996"
+    },
+    "avig-51": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "51",
+      "label": "AVIG · Art. 51",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_51",
+      "sha256": "7e1d009394b49b5c88ed55f8b4374f959a33d46858ee74949b1fcaca6e734634"
+    },
+    "avig-52": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "52",
+      "label": "AVIG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_52",
+      "sha256": "fe4654530003b263c1225810277aa8159db06ed65272c1d5e3fc87bdeabbfdd0"
+    },
+    "avig-53": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "53",
+      "label": "AVIG · Art. 53",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_53",
+      "sha256": "60135c650e3c466b486a5e8f62e08fb421a793d20a7111b795b997f081530855"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-243": {
+      "type": "statute",
+      "sr": "272",
+      "article": "243",
+      "label": "ZPO · Art. 243",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_243",
+      "sha256": "b73bc28a6f32382418bbafc458eb9fccbc0fd09968cf4ac5b8134be18f91bbce"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Probleme am Arbeitsplatz"
+      },
+      "url": "https://www.ch.ch/de/arbeit/probleme-am-arbeitsplatz/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Betreibung – Zahlungsbefehl, Rechtsvorschlag, Pfändung"
+      },
+      "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

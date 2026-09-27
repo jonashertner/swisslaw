@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "id": "data.access-request",
+  "domain": "data",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Welche Daten hat eine Firma über mich?"
+  },
+  "summary": {
+    "de": "Jede Person kann von einer Firma oder Behörde Auskunft verlangen, welche Personendaten über sie bearbeitet werden. Die Auskunft ist grundsätzlich kostenlos und muss in der Regel innert 30 Tagen erfolgen. In bestimmten Fällen darf sie eingeschränkt oder verweigert werden."
+  },
+  "examples": {
+    "de": [
+      "Welche Daten hat eine Firma über mich gespeichert?",
+      "Wie stelle ich ein Auskunftsgesuch nach dem Datenschutzgesetz?",
+      "Eine Firma will für die Auskunft über meine Daten Geld verlangen, ist das erlaubt?",
+      "Ich habe seit Wochen keine Antwort auf mein Auskunftsgesuch erhalten.",
+      "Weles Date het e Firma über mich gspeicheret?",
+      "Eine Firma verweigert mir die Auskunft über meine Daten, was kann ich tun?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Das Auskunftsrecht gegenüber privaten Firmen, Vereinen und Bundesbehörden, die Personendaten über Sie bearbeiten, nach dem schweizerischen Datenschutzgesetz."
+    },
+    "excludes": {
+      "de": "Auskunftsgesuche gegenüber kantonalen oder kommunalen Behörden, die eigenem kantonalem Datenschutzrecht unterstehen, sowie Gesuche gegenüber Firmen im Ausland ohne Bezug zur Schweiz."
+    }
+  },
+  "facts": [
+    {
+      "key": "responsible",
+      "question": {
+        "de": "Wer bearbeitet die Daten, über die Sie Auskunft möchten?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Eine private Firma oder ein Verein"
+          }
+        },
+        {
+          "value": "federal",
+          "label": {
+            "de": "Eine Bundesbehörde"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "status",
+      "question": {
+        "de": "Haben Sie bereits ein Auskunftsgesuch gestellt und wie hat die Firma reagiert?"
+      },
+      "options": [
+        {
+          "value": "not-yet",
+          "label": {
+            "de": "Ich habe noch kein Gesuch gestellt"
+          }
+        },
+        {
+          "value": "no-answer",
+          "label": {
+            "de": "Ich habe noch keine Antwort erhalten"
+          }
+        },
+        {
+          "value": "refused",
+          "label": {
+            "de": "Die Auskunft wurde verweigert oder eingeschränkt"
+          }
+        },
+        {
+          "value": "answered",
+          "label": {
+            "de": "Ich habe eine Antwort erhalten, bin aber nicht sicher, ob sie vollständig ist"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cost_requested",
+      "question": {
+        "de": "Wurde von Ihnen für die Auskunft eine Zahlung verlangt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Trifft nicht zu oder ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "right-to-access",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten."
+      },
+      "sources": [
+        "dsg-25"
+      ]
+    },
+    {
+      "id": "free-of-charge",
+      "kind": "cost",
+      "text": {
+        "de": "Die Auskunft muss grundsätzlich kostenlos erteilt werden. Nur wenn die Auskunft einen unverhältnismässigen Aufwand verursacht, darf eine Beteiligung an den Kosten von höchstens 300 Franken verlangt werden. Das muss Ihnen vor der Auskunftserteilung mitgeteilt werden; bestätigen Sie das Gesuch danach nicht innert 10 Tagen, gilt es als ohne Kostenfolge zurückgezogen."
+      },
+      "sources": [
+        "dsg-25",
+        "dsv-19"
+      ],
+      "when": {
+        "cost_requested": [
+          "yes",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "response-deadline",
+      "kind": "rule",
+      "text": {
+        "de": "Die Auskunft muss grundsätzlich innerhalb von 30 Tagen nach Eingang Ihres Gesuchs erteilt werden. Ist das nicht möglich, muss man Sie darüber informieren und Ihnen mitteilen, bis wann die Auskunft erfolgt. Auch eine Verweigerung, Einschränkung oder ein Aufschub der Auskunft muss innert dieser Frist mitgeteilt werden."
+      },
+      "sources": [
+        "dsv-18"
+      ]
+    },
+    {
+      "id": "restrictions",
+      "kind": "warning",
+      "text": {
+        "de": "Die Auskunft darf verweigert, eingeschränkt oder aufgeschoben werden, wenn ein Gesetz das vorsieht, etwa zum Schutz eines Berufsgeheimnisses, wenn überwiegende Interessen Dritter das erfordern, oder wenn das Gesuch offensichtlich unbegründet oder querulatorisch ist. Für private Firmen kommt hinzu: eigene überwiegende Interessen genügen nur, wenn die Daten nicht an Dritte weitergegeben werden. Die verantwortliche Stelle muss Ihnen begründen, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt."
+      },
+      "sources": [
+        "dsg-26"
+      ]
+    },
+    {
+      "id": "how-to-write",
+      "kind": "step",
+      "text": {
+        "de": "Schreiben Sie Ihr Gesuch schriftlich an die Firma oder Behörde. Nennen Sie Ihren vollen Namen und Ihre Kontaktdaten, damit man Sie identifizieren kann, und verlangen Sie ausdrücklich Auskunft über alle Personendaten, die über Sie bearbeitet werden, einschliesslich Herkunft, Zweck, Aufbewahrungsdauer und Empfängerinnen und Empfänger. Bewahren Sie eine Kopie Ihres Gesuchs auf und notieren Sie das Absendedatum."
+      }
+    },
+    {
+      "id": "claims",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "answered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Stellen Sie fest, dass Daten über Sie unrichtig sind, können Sie deren Berichtigung verlangen, ausser wenn ein Gesetz das verbietet oder die Daten zu Archivzwecken im öffentlichen Interesse bearbeitet werden. Sie können zudem auf dem Klageweg verlangen, dass eine bestimmte Bearbeitung oder Weitergabe unterbleibt, oder dass Daten gelöscht oder vernichtet werden."
+      },
+      "sources": [
+        "dsg-32"
+      ]
+    },
+    {
+      "id": "edoeb-escalate",
+      "kind": "escalate",
+      "when": {
+        "status": [
+          "refused",
+          "no-answer",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis."
+      },
+      "sources": [
+        "dsg-49"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie sich persönliche Beratung, wenn viel auf dem Spiel steht, wenn Sie eine Klage in Erwägung ziehen, oder wenn die verantwortliche Stelle wiederholt nicht reagiert."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Der EDÖB informiert allgemein über das Auskunftsrecht und das Vorgehen bei einer Anzeige. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "dsg-25": {
+      "type": "statute",
+      "sr": "235.1",
+      "article": "25",
+      "label": "DSG · Art. 25",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de#art_25",
+      "sha256": "2e4903561f46aed49205f8d8ca389866b3b3b22537f066ae422528c0500cdd7e"
+    },
+    "dsg-26": {
+      "type": "statute",
+      "sr": "235.1",
+      "article": "26",
+      "label": "DSG · Art. 26",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de#art_26",
+      "sha256": "49e59c5a63e1373312ccc238ffbbee91d6cf64046b87752b4a4dd9d326b47cb5"
+    },
+    "dsg-32": {
+      "type": "statute",
+      "sr": "235.1",
+      "article": "32",
+      "label": "DSG · Art. 32",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de#art_32",
+      "sha256": "eac621bff9ff7a0187c35d2a1077b80a9543e05c65ba3f5cd6d1ba93619ca937"
+    },
+    "dsg-49": {
+      "type": "statute",
+      "sr": "235.1",
+      "article": "49",
+      "label": "DSG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de#art_49",
+      "sha256": "6e4776814b147e5a857e9883fd4d7231dd847d3e5e5ef8adf9a216914643b95f"
+    },
+    "dsv-18": {
+      "type": "statute",
+      "sr": "235.11",
+      "article": "18",
+      "label": "DSV · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/568/de#art_18",
+      "sha256": "653ed7395aa780a264f3a9dc405367fe06afd39a50d8a48c2d9cb0b2230c2f65"
+    },
+    "dsv-19": {
+      "type": "statute",
+      "sr": "235.11",
+      "article": "19",
+      "label": "DSV · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/568/de#art_19",
+      "sha256": "6f0e4f7ace4628b1945b05ee0798078850c9129fa1ae1503d8910dc3c57f8d93"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "EDÖB"
+      },
+      "url": "https://www.edoeb.admin.ch/de"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
