@@ -202,11 +202,12 @@
         ]
       },
       "text": {
-        "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Als Empfang gilt bei einem eingeschriebenen Brief bereits der Tag, an dem die Abholungseinladung in Ihrem Briefkasten lag, nicht erst der Tag der Abholung. Ferien oder Abwesenheit verlängern die Frist nicht. Ein Gespräch mit dem Vermieter hält die Frist ebenfalls nicht auf."
+        "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Einen eingeschriebenen Brief haben Sie nicht erst mit der Abholung empfangen, sondern sobald Sie ihn auf der Post hätten abholen können: meist am Tag, an dem die Abholungseinladung in Ihren Briefkasten gelegt wurde, sonst am folgenden Tag. Rechnen Sie sicherheitshalber ab dem Tag der Abholungseinladung. Die Frist lässt sich nicht verlängern, und wer sie verpasst, kann das in aller Regel nicht nachholen. Ferien, Gerichtsferien oder Abwesenheit halten sie nicht auf, ein Gespräch mit dem Vermieter ebenso wenig. Sind Sie länger weg, sorgen Sie dafür, dass Sie Ihre Post erhalten, oder teilen Sie dem Vermieter eine Adresse mit, unter der Sie erreichbar sind."
       },
       "sources": [
         "or-273",
-        "bge-143-iii-15"
+        "bge-143-iii-15",
+        "bger-4a-67-2021"
       ],
       "deadline_rules": [
         "or_273_anfechtung_kuendigung",
@@ -222,11 +223,12 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss eine Wohnung schriftlich und mit dem amtlichen Formular des Kantons kündigen. Fehlt das Formular, ist die Kündigung ungültig. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie Ihr Gesuch innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen."
+        "de": "Der Vermieter muss eine Wohnung schriftlich, unterschrieben und mit dem amtlichen Formular des Kantons kündigen. Eine E-Mail, SMS oder Chatnachricht genügt nicht. Fehlt das Formular, ist die Kündigung nichtig: Sie beendet die Miete nicht, auch wenn Sie nichts unternehmen. Schweigen Sie trotzdem nicht. Teilen Sie dem Vermieter rasch schriftlich mit, dass Sie die Kündigung für ungültig halten, denn wer lange nichts sagt, dem kann das später vorgehalten werden. Verlassen Sie sich auch nicht allein darauf: Reichen Sie Ihr Gesuch vorsorglich innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen."
       },
       "sources": [
         "or-266l",
-        "or-266o"
+        "or-266o",
+        "bge-121-iii-156"
       ]
     },
     {
@@ -254,11 +256,12 @@
         ]
       },
       "text": {
-        "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Kam nur eine Kündigung, kann sie ungültig sein. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen."
+        "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Das gilt auch für eine vorausgehende Mahnung mit Zahlungsfrist wegen offener Mietzinse. Kam nur eine Kündigung, ist sie nichtig, sofern es sich tatsächlich um die Familienwohnung handelt. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen. Auch wer den Mietvertrag nicht selbst unterschrieben hat, kann die Kündigung der Familienwohnung anfechten."
       },
       "sources": [
         "or-266n",
-        "or-266o"
+        "or-266o",
+        "or-273a"
       ]
     },
     {
@@ -271,12 +274,82 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Sie können die Aufhebung der Kündigung verlangen und für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist."
+        "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Eine Begründung ist nicht nötig. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Verlangen Sie in der Regel beides: die Aufhebung der Kündigung und, für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Das gilt auch, wenn Sie vor allem mehr Zeit möchten, denn ein Gesuch, das nur eine Erstreckung verlangt, lässt sich nach Ablauf der Frist nicht mehr in eine Anfechtung umwandeln. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung."
       },
       "sources": [
         "zpo-202",
         "zpo-33",
+        "or-273",
+        "bger-4a-459-2020",
+        "zpo-63"
+      ]
+    },
+    {
+      "id": "co-tenants",
+      "kind": "step",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, zum Beispiel Sie und Ihr Ehepartner oder eine Mitbewohnerin, fechten Sie die Kündigung am besten gemeinsam an. Will jemand davon nicht mitmachen, können Sie trotzdem allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern."
+      },
+      "sources": [
+        "bge-145-iii-281"
+      ]
+    },
+    {
+      "id": "hearing",
+      "kind": "warning",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson, eine Beraterin oder einen Anwalt mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen, und die 30 Tage sind dann meist schon vorbei. Zusätzlich kann die Behörde eine Ordnungsbusse von bis zu 1000 Franken verhängen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg und fragen Sie, ob Sie sich vertreten lassen oder einen neuen Termin erhalten können."
+      },
+      "sources": [
+        "zpo-204",
+        "zpo-206"
+      ]
+    },
+    {
+      "id": "void-or-abusive",
+      "kind": "rule",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Nicht jeder Fehler wirkt gleich. Manche Kündigungen sind von vornherein unwirksam, etwa ohne amtliches Formular, ohne eigene Zustellung an beide Ehe- oder eingetragenen Partner in der Familienwohnung, oder wegen offener Mietzinse, obwohl gar nichts offen war. Eine solche Kündigung müssten Sie nicht innert 30 Tagen anfechten. Ist die Kündigung dagegen formell in Ordnung und halten Sie sie nur für unfair oder missbräuchlich, müssen Sie innert 30 Tagen anfechten, auch wenn der Missbrauch offensichtlich ist. Später können Sie das nicht mehr geltend machen, auch nicht, wenn der Vermieter Ihre Ausweisung verlangt. Weil die Abgrenzung schwierig ist, reichen Sie im Zweifel immer innert der Frist ein."
+      },
+      "sources": [
+        "bge-121-iii-156",
+        "bge-133-iii-175",
+        "or-266o",
         "or-273"
+      ]
+    },
+    {
+      "id": "wrong-date",
+      "kind": "rule",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat der Vermieter eine zu kurze Kündigungsfrist oder einen falschen Termin gewählt, ist die Kündigung deshalb nicht ungültig. Sie gilt einfach für den nächsten zulässigen Termin. Welche Fristen und Termine gelten, steht in Ihrem Mietvertrag oder, wenn dieser nichts regelt, im Gesetz."
+      },
+      "sources": [
+        "or-266a"
       ]
     },
     {
@@ -289,10 +362,28 @@
         ]
       },
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
       },
       "sources": [
-        "zpo-113"
+        "zpo-113",
+        "zpo-117"
+      ]
+    },
+    {
+      "id": "after-conciliation",
+      "kind": "escalate",
+      "when": {
+        "scope": [
+          "home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, kann die Behörde einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als angenommen. Macht die Behörde keinen Vorschlag, erhalten Sie eine Klagebewilligung; auch dann beträgt die Frist für die Klage 30 Tage. Diese Fristen sind kurz. Lassen Sie sich spätestens jetzt beraten."
+      },
+      "sources": [
+        "zpo-211",
+        "zpo-209"
       ]
     },
     {
@@ -310,10 +401,11 @@
         ]
       },
       "text": {
-        "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Reichen Sie Ihr Gesuch aber trotzdem innert der Frist ein; Sie müssen nicht auf die Antwort warten."
+        "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Der Vermieter muss nicht innert Ihrer Frist antworten. Reichen Sie Ihr Gesuch deshalb innert der 30 Tage ein, ohne auf die Antwort zu warten. Bewahren Sie die Antwort gut auf: Nennt der Vermieter keinen Grund oder später einen anderen, kann das im Verfahren für Sie sprechen."
       },
       "sources": [
-        "or-271"
+        "or-271",
+        "bge-148-iii-215"
       ]
     },
     {
@@ -331,11 +423,13 @@
         ]
       },
       "text": {
-        "de": "Eine Kündigung kann angefochten werden, wenn sie gegen Treu und Glauben verstösst. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis."
+        "de": "Der Vermieter darf eine unbefristete Miete grundsätzlich auch ohne besonderen Grund kündigen, zum Beispiel weil er die Wohnung selbst nutzen, umbauen oder anders vermieten will. Anfechtbar ist eine Kündigung, wenn sie gegen Treu und Glauben verstösst, etwa weil der genannte Grund nur vorgeschoben ist oder kein schützenswertes Interesse dahintersteht. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis. Eine Kündigung wegen Umbau oder Sanierung kann missbräuchlich sein, wenn das Projekt bei der Kündigung noch nicht genügend ausgearbeitet war oder offensichtlich nicht bewilligt werden kann. Dass der Auszug für Sie schwer ist, macht die Kündigung allein nicht missbräuchlich; das zählt bei der Erstreckung. Den Missbrauch müssen Sie beweisen. Der Vermieter muss aber seinen Grund darlegen und belegen."
       },
       "sources": [
         "or-271",
-        "or-271a"
+        "or-271a",
+        "bge-148-iii-215",
+        "bge-148-iii-215-renovation"
       ]
     },
     {
@@ -353,7 +447,7 @@
         ]
       },
       "text": {
-        "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei dringendem Eigenbedarf des Vermieters oder bei Zahlungsrückstand."
+        "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen. Ausgenommen sind Kündigungen wegen dringendem Eigenbedarf des Vermieters oder naher Verwandter, wegen Zahlungsrückstand, wegen schwerer Verletzung der Pflicht zu Sorgfalt und Rücksicht, nach einem Verkauf der Wohnung oder des Hauses, aus wichtigen Gründen und bei Konkurs des Mieters."
       },
       "sources": [
         "or-271a"
@@ -374,12 +468,14 @@
         ]
       },
       "text": {
-        "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Bietet Ihnen der Vermieter eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen."
+        "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Eine Härte liegt vor allem vor, wenn Sie in der verbleibenden Zeit keine zumutbare Ersatzwohnung finden können. Die Umstände, die jeder Umzug mit sich bringt, genügen allein nicht. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Eine zweite Erstreckung müssen Sie spätestens 60 Tage vor Ablauf der ersten verlangen. Bietet Ihnen der Vermieter verbindlich eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen. Während der Erstreckung dürfen Sie früher ausziehen: bei einer Erstreckung bis zu einem Jahr mit einem Monat Frist auf Ende eines Monats, sonst mit drei Monaten auf einen gesetzlichen Termin, wenn nichts anderes festgelegt wurde."
       },
       "sources": [
         "or-272",
         "or-272b",
-        "or-272a"
+        "or-272a",
+        "or-273",
+        "or-272d"
       ]
     },
     {
@@ -422,10 +518,11 @@
         ]
       },
       "text": {
-        "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein."
+        "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Bei einer Familienwohnung ist sie nur gültig, wenn beide Ehe- oder eingetragenen Partner sie abschliessen. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein."
       },
       "sources": [
-        "or-272b"
+        "or-272b",
+        "or-273a"
       ]
     },
     {
@@ -437,19 +534,22 @@
         ]
       },
       "text": {
-        "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen. Prüfen Sie, ob der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht hat, und ob die Kündigung mit mindestens 30 Tagen auf Ende eines Monats ausgesprochen wurde. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein."
+        "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen, und der Vermieter kann Ihre Ausweisung in einem raschen Gerichtsverfahren verlangen, auch wenn Ihre Anfechtung noch läuft. Prüfen Sie: Hat der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht? Ging diese Mahnung bei einer Familienwohnung an beide Partner je separat? Kam die Kündigung erst nach Ablauf dieser Zahlungsfrist, auf dem amtlichen Formular und mit mindestens 30 Tagen auf Ende eines Monats? Waren die Beträge wirklich geschuldet? Mietzins, den Sie wegen eines Mangels korrekt bei der vom Kanton bezeichneten Stelle hinterlegt haben, gilt als bezahlt. Wer dagegen Mietzins einfach zurückbehält oder innert der Zahlungsfrist nur einen Teil bezahlt, riskiert eine gültige Kündigung. Fehlt eine Voraussetzung, kann die Kündigung unwirksam sein. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein."
       },
       "sources": [
         "or-257d",
         "or-272a",
-        "or-273"
+        "or-273",
+        "or-266n",
+        "or-259g",
+        "bge-141-iii-262"
       ]
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft."
       }
     },
     {
@@ -571,6 +671,142 @@
       "citation": "BGE 143 III 15",
       "e": "4.1",
       "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_III_15#e-4-1"
+    },
+    "or-266a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266a",
+      "label": "OR · Art. 266a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266a",
+      "sha256": "edb1d395f848be84449039f6acb40e60c35c5041037afa6c8333dc1370471b1e"
+    },
+    "or-272d": {
+      "type": "statute",
+      "sr": "220",
+      "article": "272d",
+      "label": "OR · Art. 272d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_272d",
+      "sha256": "052e702be29f250ba92d86e97a3f8be59ec8a05fdc4c4e7d1958c9d6c57f7fa4"
+    },
+    "or-273a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "273a",
+      "label": "OR · Art. 273a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273a",
+      "sha256": "30e2413c456050807660b3f34b8c504c653b494c5cd09279d072e63b5f82d08d"
+    },
+    "or-259g": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259g",
+      "label": "OR · Art. 259g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259g",
+      "sha256": "6b65a24a0d9233c13e5bd114558bb84c421a702fe94e39872bc4319cb70602f8"
+    },
+    "zpo-63": {
+      "type": "statute",
+      "sr": "272",
+      "article": "63",
+      "label": "ZPO · Art. 63",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_63",
+      "sha256": "89f61cd3f887dd3696a8c6d29c0a384801e0d5bbc74bae165afb8b45e775582e"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-204": {
+      "type": "statute",
+      "sr": "272",
+      "article": "204",
+      "label": "ZPO · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_204",
+      "sha256": "1dfd0c6a3cfb29def0a71b04ab92554858cdac71e95eb5c0c7a6600dd8046cf4"
+    },
+    "zpo-206": {
+      "type": "statute",
+      "sr": "272",
+      "article": "206",
+      "label": "ZPO · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_206",
+      "sha256": "e2c4b2bb107d7ae551013d688d497a41db13f53abad4e68e53271e45f99de4bb"
+    },
+    "zpo-209": {
+      "type": "statute",
+      "sr": "272",
+      "article": "209",
+      "label": "ZPO · Art. 209",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_209",
+      "sha256": "abcfa5dffdd2c53370914c798a1a2b623b3652c025b875cb75678b07125fba13"
+    },
+    "zpo-211": {
+      "type": "statute",
+      "sr": "272",
+      "article": "211",
+      "label": "ZPO · Art. 211",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_211",
+      "sha256": "68a788bc1bd152cdc5012969379926caff8195305064632d48b05b5b43710914"
+    },
+    "bge-121-iii-156": {
+      "type": "decision",
+      "decision_id": "bge_BGE_121_III_156",
+      "citation": "BGE 121 III 156",
+      "e": "1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_121_III_156#e-1"
+    },
+    "bge-133-iii-175": {
+      "type": "decision",
+      "decision_id": "bge_BGE_133_III_175",
+      "citation": "BGE 133 III 175",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_133_III_175#e-3"
+    },
+    "bge-141-iii-262": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_III_262",
+      "citation": "BGE 141 III 262",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_III_262#e-3-2"
+    },
+    "bge-145-iii-281": {
+      "type": "decision",
+      "decision_id": "bge_BGE_145_III_281",
+      "citation": "BGE 145 III 281",
+      "e": "3.4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_145_III_281#e-3-4-2"
+    },
+    "bge-148-iii-215": {
+      "type": "decision",
+      "decision_id": "bge_BGE_148_III_215",
+      "citation": "BGE 148 III 215",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_148_III_215#e-3-1"
+    },
+    "bge-148-iii-215-renovation": {
+      "type": "decision",
+      "decision_id": "bge_BGE_148_III_215",
+      "citation": "BGE 148 III 215",
+      "e": "3.2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_148_III_215#e-3-2-2"
+    },
+    "bger-4a-459-2020": {
+      "type": "decision",
+      "decision_id": "bger_4A_459_2020",
+      "citation": "BGer 4A_459/2020 vom 15. Dezember 2020",
+      "e": "3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_459_2020#e-3-3"
+    },
+    "bger-4a-67-2021": {
+      "type": "decision",
+      "decision_id": "bger_4A_67_2021",
+      "citation": "BGer 4A_67/2021 vom 8. April 2021",
+      "e": "5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_67_2021#e-5-2"
     }
   },
   "official_links": [
