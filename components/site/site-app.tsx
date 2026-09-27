@@ -1,3 +1,4 @@
+'use client';
 import { lazy, Suspense, useEffect, useId, useMemo, useState } from 'react';
 import '@fontsource-variable/atkinson-hyperlegible-next';
 import '@fontsource-variable/source-serif-4';
@@ -28,11 +29,18 @@ export default function SiteApp() {
     try { localStorage.setItem('swisslaw.lang', lang); } catch { /* storage unavailable */ }
   }, [lang]);
   const t = (k: SiteKey, v?: Record<string, string | number>) => st(k, lang, v);
+  const titled = route.page === 'situation' ? byId.get(route.id) : undefined;
+  useEffect(() => {
+    const name = route.page === 'situation' && titled ? localText(titled.title, lang).text
+      : route.page === 'area' ? AREA_TEXT[route.area][lang]
+      : route.page === 'about' ? st('aboutTitle', lang) : '';
+    document.title = name ? `${name} – swisslaw.io` : 'swisslaw.io';
+  }, [route, lang, titled]);
 
   if (route.page === 'ask') {
     return (
       <>
-        <div className="site ask-bar"><a href="#/" className="brand"><span className="dot" aria-hidden="true" />Swisslaw</a><a href="#/">{t('navTopics')}</a></div>
+        <div className="site ask-bar"><a href="#/" className="brand" aria-label="swisslaw.io"><span className="dot" aria-hidden="true" /><span>swisslaw<span className="brand-tld">.io</span></span></a><a href="#/">{t('navTopics')}</a></div>
         <Suspense fallback={null}><SwisslawChat /></Suspense>
       </>
     );
@@ -43,8 +51,8 @@ export default function SiteApp() {
     <div className="site">
       <a className="skip" href="#main">{t('skip')}</a>
       <header className="bar">
-        <a href="#/" className="brand"><span className="dot" aria-hidden="true" />Swisslaw</a>
-        <nav className="bar-nav" aria-label="Swisslaw">
+        <a href="#/" className="brand" aria-label="swisslaw.io"><span className="dot" aria-hidden="true" /><span>swisslaw<span className="brand-tld">.io</span></span></a>
+        <nav className="bar-nav" aria-label="swisslaw.io">
           <a href="#/frage">{t('navAsk')}</a>
           <a href="#/ueber">{t('navAbout')}</a>
           <label className="lang"><span className="visually-hidden">Sprache · Langue · Lingua · Lingua · Language</span>
@@ -63,6 +71,11 @@ export default function SiteApp() {
           : <Home lang={lang} />)}
       </main>
       <footer className="foot">
+        <nav className="foot-nav" aria-label="swisslaw.io">
+          <a href="#/">{t('home')}</a>
+          <a href="#/frage">{t('navAsk')}</a>
+          <a href="#/ueber">{t('navAbout')}</a>
+        </nav>
         <p>{t('footerNotAdvice')}</p>
         <p>{t('footerOpen')} <a href="https://github.com/jonashertner/swisslaw" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://jonashertner.com" target="_blank" rel="noreferrer">Jonas Hertner</a></p>
       </footer>
