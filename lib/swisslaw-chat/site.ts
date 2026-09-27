@@ -13,6 +13,21 @@ export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'a
 export type AreaId = typeof AREAS[number];
 
 /** Letters people receive, in the order of how often they bring someone here. */
+/** Order within an area: most frequent and most deadline-sensitive first. Unlisted situations follow by id. */
+export const SITUATION_ORDER: readonly string[] = [
+  'tenancy.landlord-notice', 'tenancy.rent-increase', 'tenancy.rent-reduction', 'tenancy.defects', 'tenancy.deposit', 'tenancy.early-exit',
+  'employment.dismissal', 'employment.summary-dismissal', 'employment.unpaid-wages', 'employment.sick-pay', 'employment.reference',
+  'debt.payment-order', 'debt.garnishment',
+  'consumer.defective-purchase', 'consumer.faulty-work', 'consumer.doorstep-withdrawal',
+  'traffic.penalty-order', 'traffic.fixed-fine',
+  'admin.decision-appeal', 'admin.tax-assessment',
+  'data.access-request',
+];
+export function byImportance(a: { id: string }, b: { id: string }): number {
+  const rank = (id: string) => { const i = SITUATION_ORDER.indexOf(id); return i < 0 ? SITUATION_ORDER.length : i; };
+  return rank(a.id) - rank(b.id) || a.id.localeCompare(b.id);
+}
+
 export const LETTERS: readonly { id: string; situation: string }[] = [
   { id: 'lease-notice', situation: 'tenancy.landlord-notice' },
   { id: 'payment-order', situation: 'debt.payment-order' },
