@@ -137,6 +137,10 @@ export const SITE_TEXT = {
   lbl_scope: e('Geltung', 'Portée', 'Ambito', 'Valaivladad', 'Scope'),
   draftShort: e('Entwurf, noch nicht anwaltlich geprüft. Nur auf der Prüfumgebung sichtbar.', 'Projet, pas encore vérifié par un avocat. Visible uniquement dans l’environnement de vérification.', 'Bozza, non ancora verificata da un avvocato. Visibile solo nell’ambiente di verifica.', 'Sboz, anc betg examinà d’in advocat. Visibel mo en l’ambient d’examinaziun.', 'Draft, not yet reviewed by a lawyer. Visible only in the review environment.'),
   checkedAsOf: e('Gesetzestexte geprüft am {date}.', 'Textes légaux vérifiés le {date}.', 'Testi di legge verificati il {date}.', 'Texts legals examinads ils {date}.', 'Statute texts checked on {date}.'),
+  suggestFix: e('Korrektur vorschlagen', 'Proposer une correction', 'Proporre una correzione', 'Proponer ina correctura', 'Suggest a correction'),
+  suggestTopic: e('Thema vorschlagen', 'Proposer un thème', 'Proporre un tema', 'Proponer in tema', 'Suggest a topic'),
+  contribute: e('Fehler gefunden oder ein Thema vermisst? Schreiben Sie uns auf GitHub.', 'Une erreur, un thème manquant ? Écrivez-nous sur GitHub.', 'Un errore o un tema mancante? Ci scriva su GitHub.', 'Chattà in sbagl u mancanta in tema? Scrivai a nus sin GitHub.', 'Found a mistake or missing a topic? Tell us on GitHub.'),
+  openData: e('Offene Daten', 'Données ouvertes', 'Dati aperti', 'Datas avertas', 'Open data'),
 } satisfies Record<string, Entry>;
 
 export type SiteKey = keyof typeof SITE_TEXT;

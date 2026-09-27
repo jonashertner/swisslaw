@@ -13,8 +13,8 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "tsc --noEmit && vite build && node scripts/headers.mjs && node scripts/check-no-model.mjs dist/assets",
+    "dev": "VITE_CHANNEL=review tsx site/build.tsx && node scripts/preview.mjs",
+    "build": "tsc --noEmit && tsx site/build.tsx && node scripts/check-no-model.mjs dist/assets",
     "preview": "node scripts/preview.mjs",
     "test": "tsx --test tests/*.test.ts",
     "typecheck": "tsc --noEmit",
@@ -39,6 +39,7 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "@vitejs/plugin-react": "6.0.2",
+    "axe-core": "4.10.3",
     "tsx": "4.23.13",
     "typescript": "5.9.3",
     "vite": "8.2.2"

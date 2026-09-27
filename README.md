@@ -1,3 +1,22 @@
+# swisslaw.io
+
+Free, plain-language guidance on everyday Swiss law: what applies, what you can do and by when. Five languages (DE, FR, IT, RM, EN), no account, no tracking, no model downloads.
+
+- **The site** is static HTML generated from the knowledge base (`site/build.tsx`): every page works without JavaScript. One small script (`site/client.ts`, ~8 KB compressed) adds instant search, answers that tailor the guidance, and the deadline calculator.
+- **The knowledge base** (`knowledge/`, CC BY 4.0) holds one reviewed legal situation per file, with verified sources. It is published as open data under `/data/` together with the deadline rules. See `knowledge/README.md`.
+- **Machines** get canonical URLs, hreflang, schema.org (`Article`, `Legislation`), a sitemap, `/llms.txt` and the JSON data.
+- **Corrections and topic requests:** open an issue (templates provided). Issues are public; please include no personal details.
+
+```sh
+npm ci
+npm run dev            # review build (drafts, noindex) + local preview
+npm run build          # public build: reviewed situations only
+npm test
+npm run check:knowledge -- --online   # weekly: re-verify every cited statute
+```
+
+---
+
 # Swisslaw
 
 An experimental browser tool for understanding Swiss legal questions. Choose an everyday topic or describe your situation, clarify missing facts, see which public sources are used, and explore guidance with linked legal sources.
