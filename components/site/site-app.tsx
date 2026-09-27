@@ -1,5 +1,5 @@
 'use client';
-import { lazy, Suspense, useEffect, useId, useMemo, useState } from 'react';
+import { useEffect, useId, useMemo, useState } from 'react';
 import '@fontsource-variable/source-serif-4/opsz.css';
 import '@fontsource-variable/source-sans-3';
 import './site.css';
@@ -9,7 +9,6 @@ import { AREA_TEXT, LETTER_TEXT, st, type SiteKey } from '@/lib/swisslaw-chat/si
 import { byId, CHANNEL, inArea, SITUATIONS } from '@/lib/swisslaw-chat/site-data';
 import SituationPage from './site-situation';
 
-const SwisslawChat = lazy(() => import('../swisslaw-chat'));
 const DEADLINE_BY_SITUATION = new Map(LETTERS.map(l => [l.situation, l.id]));
 
 function initialLanguage(): KnowledgeLanguage {
@@ -49,15 +48,12 @@ export default function SiteApp() {
     </header>
   );
 
-  if (route.page === 'ask') {
-    return <><div className="site site-bar">{top}</div><Suspense fallback={null}><SwisslawChat /></Suspense></>;
-  }
   return (
     <div className="site">
       <a className="skip" href="#main">{t('skip')}</a>
       {top}
       <main id="main" tabIndex={-1}>
-        {route.page === 'home' && <Index lang={lang} />}
+        {(route.page === 'home' || route.page === 'ask') && <Index lang={lang} />}
         {route.page === 'area' && <Index lang={lang} only={route.area} />}
         {route.page === 'about' && <About lang={lang} />}
         {route.page === 'situation' && (situation
@@ -67,7 +63,6 @@ export default function SiteApp() {
       <footer className="foot">
         <nav aria-label="swisslaw.io">
           <a href="#/">{t('overview')}</a>
-          <a href="#/frage">{t('navAsk')}</a>
           <a href="#/ueber">{t('navAbout')}</a>
         </nav>
         <p>{t('footerNotAdvice')} {t('footerOpen')}</p>
@@ -112,7 +107,7 @@ function Index({ lang, only }: { lang: KnowledgeLanguage; only?: AreaId }) {
         <section className="group" aria-live="polite">
           <h2 className="group-name">{t('searchResults')}</h2>
           {results.length ? <ul className="entries">{results.map(s => <Entry key={s.id} s={s} lang={lang} />)}</ul>
-            : <p className="none">{t('searchNone')} <a href="#/frage">{t('navAsk')}</a></p>}
+            : <p className="none">{t('searchNone')}</p>}
         </section>
       ) : (
         <>
