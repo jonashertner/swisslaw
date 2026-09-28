@@ -260,14 +260,90 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);flex:1 0 auto}
 
 @media (prefers-reduced-motion:reduce){.site *{transition:none!important}}
 
+/* Print and PDF: A4, one column of text beside narrow labels, black type, red kept only for the deadline.
+   The questions become a short summary of the answers given; the note at the end says when and where it was printed. */
+.print-answers,.print-note,.due-how-print{display:none}
+@page{size:A4;margin:17mm 19mm 19mm;
+  @bottom-left{content:"swisslaw.io";font:600 7.5pt/1 'Source Sans',sans-serif;color:#6B6A66}
+  @bottom-right{content:counter(page) " / " counter(pages);font:500 7.5pt/1 'Source Sans',sans-serif;color:#6B6A66}
+  @top-left{content:""}@top-right{content:""}}
 @media print{
-  .site{--paper:#fff;--surface:#fff;--ink:#000;--red:#000;--red-bg:#fff;font-size:10.5pt}
-  .top,.skip,.foot,.doc-actions,.doc-suggest,.inputs-lead,.quiet,.seg,.field,.due-how summary{display:none!important}
-  .opt:not(:has(input:checked)){display:none}
-  .opt{border:0;padding:0;min-height:0}
-  .doc-grid{display:block}
-  .inputs{padding:0;border-bottom:1px solid #000;padding-bottom:12pt;margin-bottom:12pt;position:static;max-height:none}
-  .row{break-inside:avoid}
-  a{text-decoration:none}
-  .refs a::after,.source-list a::after{content:' (' attr(href) ')';font-size:7.5pt}
+  html{font-size:12.5px}
+  .site{--paper:#fff;--surface:#fff;--surface-2:#fff;--ink:#131312;--ink-2:#3A3936;--ink-3:#65645F;--hair:#DAD7D0;--hair-2:#B9B6AE;--red:#B00E28;--red-bg:#fff;
+    color-scheme:light;display:block;min-height:0;background:#fff;-webkit-font-smoothing:auto}
+  .site a{text-decoration:none}
+  .skip,.foot,.primary,.langs,.doc-actions,.doc-suggest,.results,.submit,.index-more,.site .search,.doc-grid .inputs,.due-prompt{display:none!important}
+  .top{max-width:none;padding:0 0 2.5mm;margin:0 0 9mm;border-bottom:.75pt solid var(--ink)}
+  .mark{padding:0;font-size:11pt}
+  main{max-width:none;padding:0}
+  :is(h1,h2,h3,.row-label,.area-name){break-after:avoid}
+  p,li{orphans:3;widows:3}
+
+  /* Guide */
+  .crumbs{padding:0;margin-bottom:2.5mm;font:650 7.5pt/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+  .crumbs>:not(:last-child){display:none}
+  .doc-head{padding:0 0 7mm;max-width:none}
+  .doc-head h1{font-size:23pt;line-height:1.08;letter-spacing:-.015em;max-width:15cm}
+  .doc-lead{margin-top:3.5mm;font-size:11.5pt;line-height:1.45;max-width:14.5cm}
+  .doc-meta{border:.5pt solid var(--hair-2);padding:1mm 2.5mm;font-size:8pt}
+  .print-answers:not(:empty){display:grid;grid-template-columns:8.5rem minmax(0,1fr);column-gap:28px;padding:3.5mm 0 4mm;border-top:.75pt solid var(--ink);break-inside:avoid}
+  .print-answers .row-label{padding-top:.3em}
+  .print-answers dl{margin:0;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:1.6mm 6mm;font:9pt/1.35 var(--sans)}
+  .print-answers dt{color:var(--ink-2)}
+  .print-answers dd{margin:0;font-weight:650}
+  .doc-grid{display:block;padding:0}
+  /* A size container breaks badly across pages in Chrome: set the label grid directly. */
+  .answer{container-type:normal}
+  .row{display:grid;grid-template-columns:var(--label) minmax(0,1fr);column-gap:28px}
+  .row{padding:3.5mm 0 4.5mm;border-top:.5pt solid var(--hair-2)}
+  .row:first-child{padding-top:3.5mm;border-top:.75pt solid var(--ink)}
+  .print-answers:not(:empty)+.doc-grid .row:first-child{border-top:.5pt solid var(--hair-2)}
+  .row-label{padding-top:.35em;font-size:7.5pt}
+  .row-body{max-width:none}
+  .para p,.steps p{font-size:10.5pt;line-height:1.5;hyphens:auto}
+  .para.muted p{font-size:10pt}
+  .para+.para{margin-top:3mm}
+  .steps li{padding-left:24px}
+  .steps li+li{margin-top:3mm}
+  .steps li::before{width:16px;height:16px;top:.25em;border-width:.75pt;font-size:7pt}
+  .row-body .refs{margin-top:1mm;font-size:7.5pt;color:var(--ink-3);break-before:avoid}
+  .due{margin-bottom:4mm}
+  .due:not(:has(.due-date,.due-note,.due-alert)){display:none}
+  .due:has(.due-date){padding:3.5mm 4.5mm;border:1pt solid var(--red);border-radius:2.5mm;break-inside:avoid}
+  .due-label{font-size:8.5pt}
+  .due-date{font-size:17pt;margin-top:1mm}
+  .due-left{display:block;margin-top:1.5mm;padding:0;background:none;color:var(--red);font-size:9pt}
+  .due-alert,.due-note{font-size:8.5pt}
+  details.due-how{display:none}
+  .due-how-print{display:block;margin-top:2.5mm;font-size:8.5pt;line-height:1.4;color:var(--ink-2)}
+  .due-how-title{font-weight:650}
+  .due-how-print ol{padding-left:1.2em;margin:1mm 0}
+  .due-how-print p+p{margin-top:1mm}
+  /* Citations are enough to find a provision or decision on paper; only the official web pages keep their address. */
+  .source-list,.source-links{display:block;font:8.5pt/1.4 var(--sans)}
+  .source-list{columns:2;column-gap:8mm}
+  .source-links{margin-top:3mm}
+  .source-list li,.source-links li{padding:.35mm 0;break-inside:avoid}
+  .source-list a,.source-links a{display:inline;padding:0;min-height:0;background:none}
+  .source-links a::after{content:" " attr(href);display:block;font-size:7pt;color:var(--ink-3);overflow-wrap:anywhere}
+  .checked{margin-top:2.5mm;font-size:7.5pt}
+  .print-note{display:block;margin-top:9mm;padding-top:3mm;border-top:.5pt solid var(--hair-2);font:7.5pt/1.45 var(--sans);color:var(--ink-3);overflow-wrap:anywhere;break-inside:avoid}
+  .print-note p+p{margin-top:1mm}
+
+  /* Index, area and topics pages */
+  .hero{padding:0 0 8mm;justify-items:start;text-align:left}
+  .hero-title{font-size:26pt}
+  .hero-sub{font-size:11.5pt;max-width:none}
+  .page-head{padding:0 0 7mm}
+  .page-title{font-size:23pt}
+  .areas{columns:2;column-gap:10mm}
+  .area{margin-bottom:6mm}
+  .entries a{padding:1.8mm 0}
+  .entry-title{font-size:10.5pt}
+  .entry-due{border:.5pt solid var(--hair-2);padding:.8mm 1.8mm;font-size:7pt}
+  .topic-grid{columns:3;column-gap:4mm}
+  .topic-card{border:.5pt solid var(--hair-2);border-radius:2.5mm;padding:3mm 3.5mm;margin-bottom:4mm}
+  .topic-card li{font-size:9.5pt;padding:1mm 0}
+  .about{padding:0}
+  .about p{font-size:10.5pt;line-height:1.55}
 }

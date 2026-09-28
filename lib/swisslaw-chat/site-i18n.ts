@@ -58,6 +58,7 @@ export const SITE_TEXT = {
   copyLink: e('Link kopieren', 'Copier le lien', 'Copia link', 'Copiar la colliaziun', 'Copy link'),
   copied: e('Link kopiert. Er enthält Ihre Antworten, aber keine Daten.', 'Lien copié. Il contient vos réponses, sans dates.', 'Link copiato. Contiene le sue risposte, senza date.', 'Colliaziun copiada. Ella cuntegna Vossas respostas, dentant naginas datas.', 'Link copied. It contains your answers but no dates.'),
   print: e('Drucken', 'Imprimer', 'Stampa', 'Stampar', 'Print'),
+  printedFrom: e('Ausgedruckt am {date} von', 'Imprimé le {date} depuis', 'Stampato il {date} da', 'Stampà ils {date} da', 'Printed on {date} from'),
   covers: e('Diese Anleitung gilt für', 'Ce guide concerne', 'Questa guida vale per', 'Quest guid vala per', 'This guide covers'),
   excludes: e('Nicht abgedeckt', 'Non couvert', 'Non coperto', 'Betg cuvert', 'Not covered'),
   // deadline calculator
