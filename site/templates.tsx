@@ -67,7 +67,10 @@ export function Foot({ ctx }: { ctx: Ctx }) {
         <li><a href={REPO}>GitHub</a></li>
         <li><a href={`${REPO}/issues/new/choose`}>{t(ctx, 'contribute')}</a></li>
       </ul>
-      <p className="foot-fine">{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
+      <div className="foot-fine">
+        <p>{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
+        <a href="https://jonashertner.com" className="foot-credit">jonashertner.com</a>
+      </div>
     </footer>
   );
 }

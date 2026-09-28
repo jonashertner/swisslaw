@@ -232,6 +232,10 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .foot-links a{display:inline-block;padding:6px 0;text-decoration:none;color:var(--ink-2);font-weight:500}
 .foot-links a:hover{color:var(--ink)}
 .foot-fine{font-size:.8125rem;line-height:1.55;padding-top:20px;border-top:1px solid var(--hair)}
+.foot-fine{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 32px}
+.foot-fine p{max-width:48rem}
+.foot .foot-credit{color:var(--ink-3);text-decoration:none;white-space:nowrap}
+.foot .foot-credit:hover{color:var(--ink-2)}
 .foot a{color:inherit}
 
 @media (max-width:759px){
