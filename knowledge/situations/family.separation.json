@@ -1,0 +1,1090 @@
+{
+  "schema": 1,
+  "id": "family.separation",
+  "domain": "family",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Wir trennen uns. Was müssen wir regeln?"
+  },
+  "summary": {
+    "de": "Verheiratete Paare und eingetragene Partnerinnen und Partner dürfen getrennt leben, ohne sich scheiden zu lassen. Zu regeln sind vor allem die Wohnung, der Unterhalt und die Kinder. Sind Sie sich einig, können Sie Ihre Vereinbarung vom Gericht genehmigen lassen. Sind Sie sich nicht einig, entscheidet auf Gesuch das Gericht am Wohnsitz von einem von Ihnen in einem raschen Verfahren. Ändern sich die Verhältnisse später wesentlich, kann die Regelung angepasst werden. Gegen einen Entscheid gelten kurze Fristen, auch in den Gerichtsferien."
+  },
+  "examples": {
+    "de": [
+      "Wir trennen uns. Was müssen wir regeln?",
+      "Mein Mann ist ausgezogen und zahlt nichts mehr. Was kann ich tun?",
+      "Wer darf in der Wohnung bleiben, wenn wir uns trennen?",
+      "Mir trenned eus. Muess ich minere Frau jetzt Unterhalt zahle?",
+      "Brauchen wir für eine Trennung ein Gericht?",
+      "Mein Einkommen ist gesunken. Kann ich den Trennungsunterhalt ändern lassen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Trennung von Ehepaaren und eingetragenen Partnerinnen und Partnern ohne Scheidung: das Recht, getrennt zu leben, die Regelung von Unterhalt, Wohnung, Hausrat und Kindern durch Vereinbarung oder durch das Eheschutzgericht, das Verfahren, die Fristen für Rechtsmittel und die spätere Änderung der Massnahmen."
+    },
+    "excludes": {
+      "de": "Die Scheidung selbst, die Trennung von unverheirateten Paaren (nur ein kurzer Hinweis) und der Schutz vor häuslicher Gewalt im Einzelnen (nur ein Hinweis auf Hilfe). Die Berechnung des Kindesunterhalts und die elterliche Sorge sind in eigenen Leitfäden erklärt."
+    }
+  },
+  "facts": [
+    {
+      "key": "status",
+      "question": {
+        "de": "Sind Sie verheiratet oder leben Sie in einer eingetragenen Partnerschaft?"
+      },
+      "options": [
+        {
+          "value": "married",
+          "label": {
+            "de": "Wir sind verheiratet"
+          }
+        },
+        {
+          "value": "registered",
+          "label": {
+            "de": "Wir leben in einer eingetragenen Partnerschaft"
+          }
+        },
+        {
+          "value": "unmarried",
+          "label": {
+            "de": "Weder noch, wir sind nicht verheiratet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "living",
+      "question": {
+        "de": "Wohnen Sie noch zusammen?"
+      },
+      "options": [
+        {
+          "value": "together",
+          "label": {
+            "de": "Ja, noch in derselben Wohnung"
+          }
+        },
+        {
+          "value": "apart",
+          "label": {
+            "de": "Nein, einer von uns ist ausgezogen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children",
+      "question": {
+        "de": "Haben Sie gemeinsame minderjährige Kinder?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "agreement",
+      "question": {
+        "de": "Sind Sie sich über die Folgen der Trennung einig?"
+      },
+      "help": {
+        "de": "Gemeint sind vor allem Wohnung, Unterhalt und Kinder."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, wir sind uns weitgehend einig"
+          }
+        },
+        {
+          "value": "partly",
+          "label": {
+            "de": "Nur in einigen Punkten"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "violence",
+      "question": {
+        "de": "Gibt es Gewalt, Drohungen oder Nachstellungen?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht oder möchte es nicht sagen"
+          }
+        }
+      ]
+    },
+    {
+      "key": "court_decision",
+      "question": {
+        "de": "Hat ein Gericht Ihre Trennung schon geregelt?"
+      },
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "exists",
+          "label": {
+            "de": "Ja, es gibt einen Entscheid oder eine genehmigte Vereinbarung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "violence-first",
+      "kind": "escalate",
+      "when": {
+        "violence": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie in Gefahr, rufen Sie sofort die Polizei unter 117. Wer Gewalt, Drohungen oder Nachstellungen erlebt, kann beim Gericht verlangen, dass der anderen Person verboten wird, sich zu nähern oder Kontakt aufzunehmen. Wohnen Sie zusammen, kann das Gericht die gewalttätige Person für eine bestimmte Zeit aus der Wohnung weisen. Auch das Eheschutzgericht kann solche Schutzmassnahmen anordnen. Wie die Polizei jemanden in einer akuten Krise sofort aus der Wohnung weist, regelt Ihr Kanton. Opferhilfe-Beratungsstellen helfen kostenlos und vertraulich, auch bei der Suche nach einer sicheren Unterkunft. Kümmern Sie sich zuerst um Ihre Sicherheit und die der Kinder, erst dann um Unterhalt und Wohnung."
+      },
+      "sources": [
+        "zgb-28b",
+        "zgb-172"
+      ]
+    },
+    {
+      "id": "unmarried-pointer",
+      "kind": "escalate",
+      "when": {
+        "status": [
+          "unmarried"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie weder verheiratet noch in eingetragener Partnerschaft, gilt dieser Leitfaden für Sie nicht. Es gibt dann kein Eheschutzverfahren, und das Gesetz sieht keinen Unterhalt zwischen den Partnern vor. Für gemeinsame Kinder gelten die Regeln über Kindesunterhalt und persönlichen Verkehr aber unabhängig davon, ob die Eltern verheiratet sind. Dazu gibt es eigene Leitfäden. Mietvertrag, gemeinsames Eigentum und gemeinsame Konten müssen Sie nach den allgemeinen Regeln auseinandersetzen. Lassen Sie sich dafür persönlich beraten."
+      },
+      "sources": [
+        "zgb-276",
+        "zgb-273"
+      ]
+    },
+    {
+      "id": "partnership-note",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "registered"
+        ]
+      },
+      "text": {
+        "de": "Für eingetragene Partnerschaften gelten weitgehend die gleichen Regeln. Aus wichtigen Gründen dürfen Sie den gemeinsamen Haushalt aufheben. Auf Gesuch legt das Gericht die Geldbeiträge fest und bestimmt, wer die Wohnung und den Hausrat benützen darf. Das gilt auch, wenn Ihre Partnerin oder Ihr Partner das Zusammenleben ohne triftigen Grund verweigert. Zuständig ist das Gericht am Wohnsitz einer der beiden Personen, und es gilt das gleiche rasche Verfahren wie für Ehepaare. Wo dieser Leitfaden von Ehegatten spricht, gilt er im Wesentlichen auch für Sie."
+      },
+      "sources": [
+        "partg-17",
+        "zpo-24",
+        "zpo-305"
+      ]
+    },
+    {
+      "id": "right-to-live-apart",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie dürfen getrennt leben, ohne sich scheiden zu lassen. Für den Auszug brauchen Sie keine Erlaubnis des Gerichts. Das Gesetz gibt Ihnen dieses Recht, wenn das Zusammenleben Ihre Persönlichkeit, Ihre finanzielle Sicherheit oder das Familienwohl ernsthaft gefährdet. Auch wenn ein Zusammenleben nicht möglich ist, etwa weil Ihr Ehepartner es ohne Grund verweigert, können Sie das Gericht anrufen. Die Ehe bleibt während der Trennung bestehen. Sie schulden einander weiterhin Unterhalt, und die Folgen des Getrenntlebens können Sie einvernehmlich oder vor Gericht regeln lassen."
+      },
+      "sources": [
+        "zgb-175",
+        "zgb-176",
+        "zgb-163"
+      ]
+    },
+    {
+      "id": "family-home",
+      "kind": "warning",
+      "when": {
+        "status": [
+          "married",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die bisherige gemeinsame Wohnung bleibt auch nach der Trennung die Familienwohnung, solange die Ehe dauert. Ohne ausdrückliche Zustimmung des anderen darf keiner von Ihnen den Mietvertrag kündigen oder das Haus oder die Wohnung verkaufen. Dieser Schutz kann wegfallen, wenn der geschützte Ehegatte endgültig oder auf unbestimmte Zeit auszieht. Klären Sie deshalb, wer in der Wohnung bleibt, bevor jemand den Mietvertrag kündigt oder das Eigentum verkauft, am besten in einer Vereinbarung oder vor Gericht."
+      },
+      "sources": [
+        "zgb-169",
+        "bge-136-iii-257"
+      ]
+    },
+    {
+      "id": "what-to-regulate",
+      "kind": "step",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Klären Sie bei einer Trennung vor allem diese Fragen: Wer bleibt in der Wohnung, und wer nimmt welchen Hausrat? Wer zahlt wem ab wann wie viel Unterhalt? Wer zahlt bis dahin Miete, Krankenkasse und Steuern? Bei Kindern: Bei wem wohnen sie hauptsächlich, wie wird die Betreuung aufgeteilt, wann sind sie beim anderen Elternteil, und wie viel Kindesunterhalt wird bezahlt? Braucht es ausnahmsweise eine Gütertrennung? Halten Sie schriftlich fest, ab welchem Datum Sie getrennt leben. Dieses Datum kann später für eine Scheidung wichtig sein."
+      },
+      "sources": [
+        "zgb-176",
+        "zgb-114"
+      ]
+    },
+    {
+      "id": "moving-out",
+      "kind": "step",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "living": [
+          "together",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wohnen Sie noch zusammen, besprechen Sie wenn möglich vor dem Auszug, wer geht und ab wann. Sichern Sie Kopien von Unterlagen, die Sie beide betreffen, etwa Steuerunterlagen, Kontoauszüge, Mietvertrag und Versicherungspolicen. Richten Sie ein eigenes Konto ein, auf das Ihr Lohn oder später der Unterhalt fliesst. Melden Sie eine neue Adresse bei der Gemeinde an. Nehmen Sie beim Auszug Ihre persönlichen Sachen mit. Über den übrigen Hausrat einigen Sie sich am besten oder lassen das Gericht entscheiden."
+      }
+    },
+    {
+      "id": "separation-agreement",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "agreement": [
+          "yes",
+          "partly",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie sich einig, halten Sie Ihre Regelung schriftlich in einer Trennungsvereinbarung fest und reichen Sie diese mit einem Gesuch beim Gericht ein. Damit sie als Eheschutzentscheid gilt, muss das Gericht sie genehmigen. Bei den Unterhaltsbeiträgen prüft es, ob Sie beide aus freiem Willen und nach reiflicher Überlegung zugestimmt haben, ob die Regelung klar und vollständig ist und ob sie nicht offensichtlich unangemessen ist. Bei den Kindern ist das Gericht an Ihre Einigung nicht gebunden. Es behandelt sie wie einen gemeinsamen Antrag und entscheidet selbst nach dem Wohl des Kindes."
+      },
+      "sources": [
+        "bger-5a-1031-2019",
+        "zpo-296"
+      ]
+    },
+    {
+      "id": "court-decides",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "agreement": [
+          "no",
+          "partly",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Einigen Sie sich nicht, kann jeder von Ihnen beim Gericht ein Gesuch um Eheschutz stellen. Das Gericht versucht an der Verhandlung zuerst, eine Einigung zu erreichen, und kann Ihnen eine Mediation empfehlen. Gelingt keine Einigung, entscheidet das Gericht. Es setzt die Unterhaltsbeiträge für die Kinder und für den Ehegatten fest, bestimmt, wer die Wohnung und welchen Hausrat benützen darf, und regelt die Kinderbelange. Eine Gütertrennung ordnet es nur an, wenn die Umstände das rechtfertigen."
+      },
+      "sources": [
+        "zgb-176",
+        "zgb-172",
+        "zpo-273",
+        "zpo-297"
+      ]
+    },
+    {
+      "id": "where-and-how",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zuständig ist das Gericht am Wohnsitz von Ihnen oder von Ihrem Ehepartner; Sie können wählen. Es gilt das summarische Verfahren, das einfacher und schneller ist als ein ordentlicher Prozess. Reichen Sie das Gesuch schriftlich ein. In einfachen oder dringenden Fällen können Sie es beim Gericht auch mündlich vorbringen. Schreiben Sie genau, was Sie verlangen, zum Beispiel welchen Unterhaltsbetrag ab welchem Datum. In der Regel lädt das Gericht Sie beide zu einer Verhandlung ein, zu der Sie persönlich erscheinen müssen. Es klärt den Sachverhalt von sich aus ab, Sie müssen aber mitwirken. Welches Gericht in Ihrem Kanton zuständig ist und ob es Formulare gibt, erfahren Sie auf der Website der Gerichte Ihres Kantons."
+      },
+      "sources": [
+        "zpo-23",
+        "zpo-271",
+        "zpo-252",
+        "zpo-272",
+        "zpo-273"
+      ]
+    },
+    {
+      "id": "documents",
+      "kind": "step",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bereiten Sie Ihre Unterlagen vor: Lohnausweise und Lohnabrechnungen der letzten Monate, die letzte Steuererklärung und Steuerveranlagung, Mietvertrag oder Belege zur Hypothek, Krankenkassenpolicen, Belege für Kosten der Kinderbetreuung und für Berufsauslagen sowie Auszüge über Konten, Vermögen und Schulden. Im Eheschutzverfahren wird vor allem mit Urkunden bewiesen. Ehegatten müssen einander Auskunft über Einkommen, Vermögen und Schulden geben. Verweigert Ihr Ehepartner das, kann das Gericht ihn oder Dritte, etwa den Arbeitgeber, verpflichten, Auskünfte zu erteilen und Unterlagen vorzulegen."
+      },
+      "sources": [
+        "zgb-170",
+        "zpo-254"
+      ]
+    },
+    {
+      "id": "maintenance-method",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Gerichte berechnen den Unterhalt für Kinder und für den Ehegatten nach einer einheitlichen Methode in zwei Stufen. Zuerst ermitteln sie die Einkommen und den Bedarf aller Beteiligten. Ausgangspunkt ist das betreibungsrechtliche Existenzminimum. Reichen die Mittel, wird es um weitere Posten wie Steuern erweitert. Wer zahlen muss, behält immer sein eigenes Existenzminimum. Dann wird verteilt: zuerst der Barbedarf der Kinder, danach der Betreuungsunterhalt, danach der Unterhalt des Ehegatten. Bleibt ein Überschuss, wird er grundsätzlich nach «grossen und kleinen Köpfen» verteilt, Erwachsene erhalten also mehr als Kinder. Was die Familie nachweislich regelmässig gespart hat, wird nicht verteilt. Massgebend ist der zuletzt gemeinsam gelebte Lebensstandard. Zwei Haushalte kosten mehr als einer, deshalb reicht das Geld nicht immer für beide."
+      },
+      "sources": [
+        "bge-147-iii-265",
+        "bge-147-iii-265-e7-2",
+        "bge-147-iii-301-e4-3",
+        "bge-148-iii-358",
+        "zgb-163",
+        "zgb-285"
+      ]
+    },
+    {
+      "id": "work-expectation",
+      "kind": "warning",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist nicht mehr damit zu rechnen, dass Sie wieder zusammenleben, kann das Gericht schon während der Trennung prüfen, ob die Person, die bisher den Haushalt geführt oder die Kinder betreut hat, eine Erwerbstätigkeit aufnehmen oder ausbauen kann. Für den Elternteil, der die Kinder hauptsächlich betreut, gilt als Leitlinie: ab der obligatorischen Einschulung des jüngsten Kindes eine Erwerbstätigkeit von 50 Prozent, ab dessen Eintritt in die Sekundarstufe I von 80 Prozent und ab dessen 16. Geburtstag von 100 Prozent. Ist Ihnen eine Arbeit zumutbar und möglich, kann das Gericht Ihnen ein entsprechendes Einkommen anrechnen, auch wenn Sie es tatsächlich nicht erzielen."
+      },
+      "sources": [
+        "bge-147-iii-301",
+        "bge-144-iii-481",
+        "bge-148-iii-358"
+      ]
+    },
+    {
+      "id": "back-pay",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Unterhalt können Sie für die Zukunft verlangen und zusätzlich für bis zu einem Jahr vor Einreichung Ihres Gesuchs. Die Zeit vor dem Gesuch erhalten Sie aber nur, wenn Sie das ausdrücklich beantragen. Sonst beginnt die Unterhaltspflicht erst mit dem Gesuch. Auch für Kinder kann Unterhalt für die Zukunft und für ein Jahr zurück verlangt werden. Zahlt Ihr Ehepartner nach dem Auszug nichts oder zu wenig, warten Sie deshalb nicht zu lange mit dem Gesuch."
+      },
+      "sources": [
+        "zgb-173",
+        "bger-5a-592-2018",
+        "zgb-279"
+      ]
+    },
+    {
+      "id": "home-allocation",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wer in der Wohnung bleiben darf, entscheidet das Gericht danach, was zweckmässig ist, und grundsätzlich nicht danach, wer Eigentümer oder Mieter ist. Leben Kinder im Haushalt, zählt zuerst ihr Interesse, in der gewohnten Umgebung zu bleiben. Berücksichtigt wird auch, dass eine Einzelperson meist leichter eine neue Wohnung findet. Danach zählen berufliche und gesundheitliche Gründe, dann persönliche Bindungen an die Wohnung. Das Eigentum spielt erst eine Rolle, wenn diese Gesichtspunkte nicht weiterhelfen. Auch der Hausrat, zu dem etwa ein Auto gehören kann, wird nach Zweckmässigkeit zugeteilt. Das Eheschutzgericht regelt nur, wer Wohnung und Hausrat benützen darf. Wem sie gehören, entscheidet es nicht."
+      },
+      "sources": [
+        "zgb-176",
+        "bger-5a-766-2008",
+        "bger-5a-677-2024",
+        "bge-114-ii-18"
+      ]
+    },
+    {
+      "id": "children",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "children": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie minderjährige Kinder, regelt das Gericht auch deren Situation: bei wem sie hauptsächlich wohnen (Obhut), wie die Betreuung aufgeteilt wird, wie oft sie den anderen Elternteil sehen und wie viel Kindesunterhalt bezahlt wird. Die gemeinsame elterliche Sorge bleibt in der Regel bestehen. Nur wenn das Kindeswohl es verlangt, erhält ein Elternteil die alleinige Sorge. Verlangt ein Elternteil oder das Kind eine alternierende Obhut, muss das Gericht sie prüfen. Es achtet unter anderem darauf, ob beide Eltern erziehungsfähig sind, wie gut sie miteinander reden und zusammenarbeiten, wie weit ihre Wohnungen auseinanderliegen, wie die Kinder bisher betreut wurden und was die Kinder selbst wünschen. Bei Kinderfragen ist das Gericht nicht an Ihre Anträge gebunden. Es hört das Kind in der Regel persönlich an oder lässt es durch eine Fachperson anhören, ausser das Kind ist zu jung oder andere wichtige Gründe sprechen dagegen. Mehr dazu finden Sie in den Leitfäden zur elterlichen Sorge und zum Kindesunterhalt."
+      },
+      "sources": [
+        "zgb-298",
+        "zgb-273",
+        "zgb-285",
+        "zpo-296",
+        "zpo-298",
+        "bge-142-iii-612"
+      ]
+    },
+    {
+      "id": "if-not-paid",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zahlt Ihr Ehepartner den festgelegten Unterhalt nicht, gibt es mehrere Wege. Eine vom Kanton bezeichnete Fachstelle hilft Ihnen auf Gesuch, die Beiträge einzutreiben. Ob und wie weit der Staat Unterhaltsbeiträge bevorschusst, regelt Ihr Kanton. Das Gericht kann zudem den Arbeitgeber oder andere Schuldner Ihres Ehepartners anweisen, den Unterhalt direkt an Sie zu zahlen. Besteht die Gefahr, dass Ihr Ehepartner Vermögen beiseiteschafft, um sich seinen Pflichten zu entziehen, kann das Gericht ihm verbieten, ohne Ihre Zustimmung über bestimmte Vermögenswerte zu verfügen, zum Beispiel über ein Grundstück."
+      },
+      "sources": [
+        "zgb-176a",
+        "zgb-177",
+        "zgb-178"
+      ]
+    },
+    {
+      "id": "change-later",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "court_decision": [
+          "exists",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eheschutzmassnahmen gelten, bis sie geändert oder aufgehoben werden. Haben sich die Verhältnisse seit dem Entscheid wesentlich und dauerhaft verändert, zum Beispiel weil ein Einkommen deutlich gesunken ist oder die Kinder anders betreut werden, können Sie beim Gericht eine Anpassung verlangen. Das gilt auch, wenn sich der Entscheid auf Annahmen stützte, die sich als falsch erwiesen oder nicht wie erwartet eingetreten sind. Ziehen Sie wieder zusammen, fallen die Massnahmen grundsätzlich weg. Eine angeordnete Gütertrennung und Kindesschutzmassnahmen bleiben aber bestehen. Wird die Scheidung eingereicht, ist für neue Massnahmen das Scheidungsgericht zuständig. Bis es etwas anderes anordnet, gelten die Eheschutzmassnahmen weiter."
+      },
+      "sources": [
+        "zgb-179",
+        "bge-143-iii-617",
+        "zpo-276",
+        "bge-148-iii-95"
+      ]
+    },
+    {
+      "id": "appeal-deadline",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "registered",
+          "unknown"
+        ],
+        "court_decision": [
+          "exists",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eröffnet Ihnen das Gericht den Entscheid ohne schriftliche Begründung, müssen Sie innert 10 Tagen eine Begründung verlangen. Tun Sie das nicht, verzichten Sie auf ein Rechtsmittel. Gegen den begründeten Entscheid können Sie in der Regel innert 30 Tagen Berufung an die obere kantonale Instanz erheben. Geht es nur um Geld und beträgt der Streitwert weniger als 10 000 Franken, ist stattdessen nur die Beschwerde möglich, und dafür gilt eine Frist von 10 Tagen. Achtung: In diesem Verfahren gibt es keine Gerichtsferien. Die Fristen laufen also auch über Ostern, im Sommer und über Weihnachten weiter. Massgebend ist die Rechtsmittelbelehrung am Ende des Entscheids. Lesen Sie sie sofort und holen Sie rasch Rat."
+      },
+      "sources": [
+        "zpo-239",
+        "zpo-314",
+        "zpo-308",
+        "zpo-321",
+        "zpo-145"
+      ]
+    },
+    {
+      "id": "divorce-later",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "married",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Trennung ist keine Scheidung. Will einer von Ihnen später die Scheidung und ist der andere nicht einverstanden, kann die Scheidung in der Regel verlangt werden, wenn Sie bei Einreichung der Klage seit mindestens zwei Jahren getrennt leben. Die Eheschutzmassnahmen gelten auch während eines Scheidungsverfahrens weiter, bis das Scheidungsgericht sie ändert. Mehr dazu finden Sie im Leitfaden zur Scheidung."
+      },
+      "sources": [
+        "zgb-114",
+        "zpo-276"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Für das Eheschutzverfahren erhebt das Gericht Gerichtskosten. Wie hoch sie sind, bestimmt der Tarif Ihres Kantons. Das Gericht kann einen Kostenvorschuss verlangen, in diesem Verfahren aber höchstens die Hälfte der voraussichtlichen Gerichtskosten. In familienrechtlichen Verfahren kann das Gericht die Kosten nach seinem Ermessen verteilen, zum Beispiel je zur Hälfte, unabhängig davon, wer mehr erreicht hat. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen. Dann müssen Sie keinen Vorschuss und keine Gerichtskosten bezahlen, und das Gericht kann Ihnen wenn nötig eine Anwältin oder einen Anwalt bestellen. Eine allfällige Entschädigung an die Gegenseite deckt sie nicht."
+      },
+      "sources": [
+        "zpo-95",
+        "zpo-98",
+        "zpo-107",
+        "zpo-117",
+        "zpo-118"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn Sie sich über Unterhalt, Wohnung oder Kinder nicht einigen können, wenn Ihr Ehepartner Einkommen oder Vermögen verschweigt, wenn einer von Ihnen selbständig erwerbend ist, wenn Liegenschaften, grössere Vermögen oder Schulden im Spiel sind, wenn ein Umzug mit den Kindern oder ein Wegzug ins Ausland zur Diskussion steht, oder wenn Sie einen Entscheid erhalten haben und ihn anfechten wollen. Wegen der kurzen Fristen sollten Sie dann nicht warten."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Viele Gerichte informieren auf ihrer Website über das Eheschutzverfahren. Familien- und Paarberatungsstellen sowie Mediatorinnen und Mediatoren unterstützen Sie dabei, eine Einigung zu finden. Bei Gewalt beraten die Opferhilfe-Beratungsstellen kostenlos und vertraulich. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-28b": {
+      "type": "statute",
+      "sr": "210",
+      "article": "28b",
+      "label": "ZGB · Art. 28b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_28b",
+      "sha256": "f892701de6e57ab41568ac55bf9e5a15ce6fcfed710940316488944f2b51792f"
+    },
+    "zgb-172": {
+      "type": "statute",
+      "sr": "210",
+      "article": "172",
+      "label": "ZGB · Art. 172",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_172",
+      "sha256": "0efa0ea0fd57c8e72d9ad3f28b99194a2dd8c7b67d0f48a0ee02569dbbe083bd"
+    },
+    "zgb-276": {
+      "type": "statute",
+      "sr": "210",
+      "article": "276",
+      "label": "ZGB · Art. 276",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_276",
+      "sha256": "48f78ab24517e824a89d2e1afa382f215451da935a8582d7803d527e0e3a5696"
+    },
+    "zgb-273": {
+      "type": "statute",
+      "sr": "210",
+      "article": "273",
+      "label": "ZGB · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_273",
+      "sha256": "4a28266475610f8366059e1cd2ace2a54bc3ad40a56526f475dbf219f19e81b2"
+    },
+    "partg-17": {
+      "type": "statute",
+      "sr": "211.231",
+      "article": "17",
+      "label": "PartG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/782/de#art_17",
+      "sha256": "63ecf6725d5e75dbc62f0ee32b9d929857dc48ba839185626ad10dcb7b1f4189"
+    },
+    "zpo-24": {
+      "type": "statute",
+      "sr": "272",
+      "article": "24",
+      "label": "ZPO · Art. 24",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_24",
+      "sha256": "0d272275c606c440bfb9accbfe2965602c4a0bcb43601119a9e9d8b358710020"
+    },
+    "zpo-305": {
+      "type": "statute",
+      "sr": "272",
+      "article": "305",
+      "label": "ZPO · Art. 305",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_305",
+      "sha256": "2b1a597bbfa64f947e67250d31a19f7b5077ea7a135c385d8783099412855989"
+    },
+    "zgb-175": {
+      "type": "statute",
+      "sr": "210",
+      "article": "175",
+      "label": "ZGB · Art. 175",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_175",
+      "sha256": "7e28c2be597d2e7a53afdd9aa58362fb988f00c4708ba0bf818556e2ca77a8cb"
+    },
+    "zgb-176": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176",
+      "label": "ZGB · Art. 176",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176",
+      "sha256": "9fee2770069d0fa1f8cd5e0cebcd2bd02389920b69531cec314dcbe7877bbd54"
+    },
+    "zgb-163": {
+      "type": "statute",
+      "sr": "210",
+      "article": "163",
+      "label": "ZGB · Art. 163",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_163",
+      "sha256": "40fbe567f526712d7bcb6f1c7035fba8a9ac3bfd20528ad6eae1f4634b6729f9"
+    },
+    "zgb-169": {
+      "type": "statute",
+      "sr": "210",
+      "article": "169",
+      "label": "ZGB · Art. 169",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_169",
+      "sha256": "02331ca14e49d1b10fa3f6e6e8e38e7db2c0e84c48a167b3ebed65c38c57dc57"
+    },
+    "bge-136-iii-257": {
+      "type": "decision",
+      "decision_id": "bge_BGE_136_III_257",
+      "citation": "BGE 136 III 257",
+      "e": "2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_136_III_257#e-2-1"
+    },
+    "zgb-114": {
+      "type": "statute",
+      "sr": "210",
+      "article": "114",
+      "label": "ZGB · Art. 114",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_114",
+      "sha256": "080cf257a8dd4ac1dff7e6431d350928bb876df760202896ef76d2f3c903ae53"
+    },
+    "bger-5a-1031-2019": {
+      "type": "decision",
+      "decision_id": "bger_5A_1031_2019",
+      "citation": "BGer 5A_1031/2019 vom 26. Juni 2020",
+      "e": "2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_1031_2019#e-2-2"
+    },
+    "zpo-296": {
+      "type": "statute",
+      "sr": "272",
+      "article": "296",
+      "label": "ZPO · Art. 296",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_296",
+      "sha256": "f41c367d1e10fb8e7a997418cd65c933b8a9e1e41cc89c9b6acf592cd9a9f4e3"
+    },
+    "zpo-273": {
+      "type": "statute",
+      "sr": "272",
+      "article": "273",
+      "label": "ZPO · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_273",
+      "sha256": "9ea8bef039ca27043656cb8a09ce4b3face434763a9943377bf89a38ebb94b7d"
+    },
+    "zpo-297": {
+      "type": "statute",
+      "sr": "272",
+      "article": "297",
+      "label": "ZPO · Art. 297",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_297",
+      "sha256": "269005c3098d3b668d691cbdedd2057a51383cefd6ac26880313b0bfdc5a9e88"
+    },
+    "zpo-23": {
+      "type": "statute",
+      "sr": "272",
+      "article": "23",
+      "label": "ZPO · Art. 23",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_23",
+      "sha256": "ed54bceb7fb36f4653d69f5a3cc316b405b49f89434be591c806ef2d2d01d7ab"
+    },
+    "zpo-271": {
+      "type": "statute",
+      "sr": "272",
+      "article": "271",
+      "label": "ZPO · Art. 271",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_271",
+      "sha256": "58b272a26fbabbfce364a5ccea55de6b37e8c17f008380111115b19e276c7aa9"
+    },
+    "zpo-252": {
+      "type": "statute",
+      "sr": "272",
+      "article": "252",
+      "label": "ZPO · Art. 252",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_252",
+      "sha256": "a996679b344c5ba0a058a2f7387cba4e8bcae2397e4fbc2ca4e6a288074aad38"
+    },
+    "zpo-272": {
+      "type": "statute",
+      "sr": "272",
+      "article": "272",
+      "label": "ZPO · Art. 272",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_272",
+      "sha256": "79600ac614acb33ff5539d9e70029ffe8c6b43cb1707998063817d81e31b73ba"
+    },
+    "zgb-170": {
+      "type": "statute",
+      "sr": "210",
+      "article": "170",
+      "label": "ZGB · Art. 170",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_170",
+      "sha256": "38006a9df50161d352557716742cdb1571ddd99ad7ddd2ce62a370740767492d"
+    },
+    "zpo-254": {
+      "type": "statute",
+      "sr": "272",
+      "article": "254",
+      "label": "ZPO · Art. 254",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_254",
+      "sha256": "d01f19966b7903af81ca575f7190f86c264a90cc8cf7a8b6e0b2d0e0bfeeb95c"
+    },
+    "bge-147-iii-265": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "7.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-7-3"
+    },
+    "bge-147-iii-265-e7-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "7.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-7-2"
+    },
+    "bge-147-iii-301-e4-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_301",
+      "citation": "BGE 147 III 301",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_301#e-4-3"
+    },
+    "bge-148-iii-358": {
+      "type": "decision",
+      "decision_id": "bge_BGE_148_III_358",
+      "citation": "BGE 148 III 358",
+      "e": "5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_148_III_358#e-5"
+    },
+    "zgb-285": {
+      "type": "statute",
+      "sr": "210",
+      "article": "285",
+      "label": "ZGB · Art. 285",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_285",
+      "sha256": "5c6ef032d7c8dbde06f607a1574b4b8e33c02962e6fca75e3948b02242444333"
+    },
+    "bge-147-iii-301": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_301",
+      "citation": "BGE 147 III 301",
+      "e": "6.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_301#e-6-2"
+    },
+    "bge-144-iii-481": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_III_481",
+      "citation": "BGE 144 III 481",
+      "e": "4.7.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_III_481#e-4-7-6"
+    },
+    "zgb-173": {
+      "type": "statute",
+      "sr": "210",
+      "article": "173",
+      "label": "ZGB · Art. 173",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_173",
+      "sha256": "98d7830cb3f8a06891008c6de78550acedfa5004aee40455624930d17fc8674e"
+    },
+    "bger-5a-592-2018": {
+      "type": "decision",
+      "decision_id": "bger_5A_592_2018",
+      "citation": "BGer 5A_592/2018 vom 13. Februar 2019",
+      "e": "2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_592_2018#e-2-1"
+    },
+    "zgb-279": {
+      "type": "statute",
+      "sr": "210",
+      "article": "279",
+      "label": "ZGB · Art. 279",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_279",
+      "sha256": "43d58e39f311018c18726a35d31fcf5c76c7c3cbf3ed96fc0e21ab04cd89b3b8"
+    },
+    "bger-5a-766-2008": {
+      "type": "decision",
+      "decision_id": "bger_5A_766_2008",
+      "citation": "BGer 5A_766/2008 vom 4. Februar 2009",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_766_2008#e-3-2"
+    },
+    "bger-5a-677-2024": {
+      "type": "decision",
+      "decision_id": "bger_5A_677_2024",
+      "citation": "BGer 5A_677/2024 vom 13. März 2025",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_677_2024#e-3-1"
+    },
+    "bge-114-ii-18": {
+      "type": "decision",
+      "decision_id": "bge_BGE_114_II_18",
+      "citation": "BGE 114 II 18",
+      "e": "4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_114_II_18#e-4"
+    },
+    "zgb-298": {
+      "type": "statute",
+      "sr": "210",
+      "article": "298",
+      "label": "ZGB · Art. 298",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_298",
+      "sha256": "43700d2d6a1aea36d905d231e4e3f1783c700974f148ae11759b988bcae3d185"
+    },
+    "zpo-298": {
+      "type": "statute",
+      "sr": "272",
+      "article": "298",
+      "label": "ZPO · Art. 298",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_298",
+      "sha256": "08d0780406c74a37db82e74db8664faa8180668706e990344aa29c0683a0913f"
+    },
+    "bge-142-iii-612": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_612",
+      "citation": "BGE 142 III 612",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_612#e-4-3"
+    },
+    "zgb-176a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176a",
+      "label": "ZGB · Art. 176a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176a",
+      "sha256": "d756149d716d5f8bcd8ebf69723cabe698ce8eca495662dc6a6623c138966cca"
+    },
+    "zgb-177": {
+      "type": "statute",
+      "sr": "210",
+      "article": "177",
+      "label": "ZGB · Art. 177",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_177",
+      "sha256": "ad5663b188acef13e3785085d496afef8547cbda7dd8feb75d0a150eb2aa7124"
+    },
+    "zgb-178": {
+      "type": "statute",
+      "sr": "210",
+      "article": "178",
+      "label": "ZGB · Art. 178",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_178",
+      "sha256": "c6194155af75d4b97c1dbfc54b5b4e945f91a783a7f23750328491bce820f4b7"
+    },
+    "zgb-179": {
+      "type": "statute",
+      "sr": "210",
+      "article": "179",
+      "label": "ZGB · Art. 179",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_179",
+      "sha256": "a7c360cf0e6c6ebca3b75c691e79a27f8638064d782ba02140d7c0589aae535d"
+    },
+    "bge-143-iii-617": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_III_617",
+      "citation": "BGE 143 III 617",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_III_617#e-3-1"
+    },
+    "zpo-276": {
+      "type": "statute",
+      "sr": "272",
+      "article": "276",
+      "label": "ZPO · Art. 276",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_276",
+      "sha256": "0cb79971987d07c539316459d0e58ed86cf5e5ab8d2c94703edadd5f849ed7ee"
+    },
+    "bge-148-iii-95": {
+      "type": "decision",
+      "decision_id": "bge_BGE_148_III_95",
+      "citation": "BGE 148 III 95",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_148_III_95#e-4-2"
+    },
+    "zpo-239": {
+      "type": "statute",
+      "sr": "272",
+      "article": "239",
+      "label": "ZPO · Art. 239",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_239",
+      "sha256": "fc6906ef2f74e17b15e88fc5757afcd1a718e8c7c79e7ef85aad80a899e44983"
+    },
+    "zpo-314": {
+      "type": "statute",
+      "sr": "272",
+      "article": "314",
+      "label": "ZPO · Art. 314",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_314",
+      "sha256": "3f6809939e06dac4f1725ccba2e6cbb3f37e91742adc00a581f40e87d4ed3963"
+    },
+    "zpo-308": {
+      "type": "statute",
+      "sr": "272",
+      "article": "308",
+      "label": "ZPO · Art. 308",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_308",
+      "sha256": "1c2acb8ef7e10e2d8baa21c27f7e4b0bb01c3123702960e88d63534eee9c330f"
+    },
+    "zpo-321": {
+      "type": "statute",
+      "sr": "272",
+      "article": "321",
+      "label": "ZPO · Art. 321",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_321",
+      "sha256": "f4b5c9c747911f5da610eee00401b863e8f86079275ec2bb15bcb9eb0e0611ef"
+    },
+    "zpo-145": {
+      "type": "statute",
+      "sr": "272",
+      "article": "145",
+      "label": "ZPO · Art. 145",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_145",
+      "sha256": "da9b9a4faa60143781d32202737f842239e2c945928e4c565d3895d6991867dd"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-98": {
+      "type": "statute",
+      "sr": "272",
+      "article": "98",
+      "label": "ZPO · Art. 98",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_98",
+      "sha256": "014dce33d0b328656f07556ff7b40ddcce37bc03a9d3203c6e1ffbecb033428a"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-118": {
+      "type": "statute",
+      "sr": "272",
+      "article": "118",
+      "label": "ZPO · Art. 118",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_118",
+      "sha256": "57a8d1e56776ed20bbadaca565061ad61cd00d26966d007c619f329a9a784977"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/scheidungsverfahren/"
+    },
+    {
+      "label": {
+        "de": "EBG: Gewalt gegen Frauen und häusliche Gewalt"
+      },
+      "url": "https://www.ebg.admin.ch/de/gewalt-gegen-frauen-und-hausliche-gewalt"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

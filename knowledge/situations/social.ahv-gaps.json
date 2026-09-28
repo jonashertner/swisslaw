@@ -1,0 +1,891 @@
+{
+  "schema": 1,
+  "id": "social.ahv-gaps",
+  "domain": "social",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Habe ich Lücken in der AHV, und kann ich sie schliessen?"
+  },
+  "summary": {
+    "de": "Jedes fehlende Beitragsjahr kürzt Ihre AHV-Rente lebenslang um etwa 2,3 Prozent. Einen kostenlosen Auszug Ihres AHV-Kontos erhalten Sie bei der Ausgleichskasse. Fehlende Beiträge können Sie nur für die letzten fünf Jahre nachzahlen. Auch ohne Erwerbseinkommen müssen Sie ab 20 Beiträge zahlen, ausser Ihr Ehegatte deckt sie. Erziehungs- und Betreuungsgutschriften können Jahre füllen, Betreuungsgutschriften müssen Sie aber jedes Jahr anmelden."
+  },
+  "examples": {
+    "de": [
+      "Habe ich Lücken in der AHV, und kann ich sie schliessen?",
+      "Wie finde ich heraus, ob mir AHV-Beitragsjahre fehlen?",
+      "Ich habe während des Studiums keine AHV bezahlt, kann ich das nachholen?",
+      "Ich bin mit 60 in Frühpension gegangen, muss ich noch AHV-Beiträge zahlen?",
+      "Ha ich Lücke i dr AHV, und chan ich die no nachezahle?",
+      "Ich pflege meine Mutter, bekomme ich dafür etwas an die AHV angerechnet?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Lücken in den Beiträgen an die AHV für Personen, die in der Schweiz wohnen oder arbeiten: wie Sie sie erkennen, wann Sie nachzahlen können, die Beitragspflicht ohne Erwerbseinkommen sowie Erziehungs- und Betreuungsgutschriften. Jahre im Ausland werden nur im Überblick behandelt."
+    },
+    "excludes": {
+      "de": "Die Berechnung der Rentenhöhe im Einzelnen, der Vorbezug und Aufschub der Rente, die berufliche Vorsorge (Pensionskasse) und die dritte Säule, Beitragsfragen von Selbständigerwerbenden und Arbeitgebern sowie Renten nach einem Sozialversicherungsabkommen im Einzelnen."
+    }
+  },
+  "facts": [
+    {
+      "key": "reason",
+      "question": {
+        "de": "Warum könnte bei Ihnen ein Beitragsjahr fehlen?"
+      },
+      "help": {
+        "de": "Wählen Sie den Grund, der am ehesten zutrifft. Sie können die Frage auch offen lassen."
+      },
+      "options": [
+        {
+          "value": "studies",
+          "label": {
+            "de": "Ich war in Ausbildung oder im Studium"
+          }
+        },
+        {
+          "value": "early-retirement",
+          "label": {
+            "de": "Ich habe vor dem Rentenalter aufgehört zu arbeiten"
+          }
+        },
+        {
+          "value": "no-earnings-married",
+          "label": {
+            "de": "Ich war verheiratet und hatte kein eigenes Erwerbseinkommen"
+          }
+        },
+        {
+          "value": "abroad",
+          "label": {
+            "de": "Ich habe im Ausland gelebt oder gearbeitet"
+          }
+        },
+        {
+          "value": "other-break",
+          "label": {
+            "de": "Aus einem anderen Grund, etwa einer Pause zwischen zwei Stellen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht oder weiss nicht, ob überhaupt eine Lücke besteht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "gap_age",
+      "question": {
+        "de": "Wie lange ist das fehlende Jahr her?"
+      },
+      "help": {
+        "de": "Gezählt wird ab dem Ende des betreffenden Kalenderjahres."
+      },
+      "options": [
+        {
+          "value": "within-5",
+          "label": {
+            "de": "Das Jahr ist vor höchstens fünf Jahren zu Ende gegangen"
+          }
+        },
+        {
+          "value": "older",
+          "label": {
+            "de": "Es liegt länger zurück"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "married",
+      "question": {
+        "de": "Waren Sie im fehlenden Jahr verheiratet oder in eingetragener Partnerschaft?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children",
+      "question": {
+        "de": "Hatten Sie in dieser Zeit ein Kind unter 16 Jahren, für das Sie sorgten?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "caring",
+      "question": {
+        "de": "Betreuen oder betreuten Sie eine nahestehende Person, die eine Hilflosenentschädigung erhält oder erhalten könnte?"
+      },
+      "help": {
+        "de": "Die Hilflosenentschädigung ist eine Leistung der AHV, IV, Unfall- oder Militärversicherung für Menschen, die im Alltag dauernd auf Hilfe angewiesen sind."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "age",
+      "question": {
+        "de": "Wie alt sind Sie?"
+      },
+      "options": [
+        {
+          "value": "under-25",
+          "label": {
+            "de": "Unter 25 Jahre"
+          }
+        },
+        {
+          "value": "working-age",
+          "label": {
+            "de": "Zwischen 25 Jahren und etwa fünf Jahre vor dem Rentenalter"
+          }
+        },
+        {
+          "value": "near-or-past-reference",
+          "label": {
+            "de": "Kurz vor oder schon im Rentenalter"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich möchte das nicht angeben"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "why-gaps",
+      "kind": "rule",
+      "text": {
+        "de": "Eine ungekürzte AHV-Altersrente, die Vollrente, erhalten Sie nur, wenn Sie gleich viele volle Beitragsjahre haben wie die übrigen Versicherten Ihres Jahrgangs. Bei einem Rentenalter von 65 sind das 44 Jahre. Fehlen Ihnen Jahre, bekommen Sie lebenslang nur eine Teilrente. Sie wird nach dem Verhältnis Ihrer Beitragsjahre zu den Jahren Ihres Jahrgangs abgestuft. Bei 44 Jahren kostet jedes fehlende Jahr etwa 2,3 Prozent der Rente. Ein Jahr zählt voll, wenn Sie mehr als elf Monate versichert waren und dabei mindestens den Mindestbeitrag bezahlt haben. Es zählt auch dann, wenn für dieses Jahr Beiträge Ihres Ehegatten, Erziehungsgutschriften oder Betreuungsgutschriften angerechnet werden."
+      },
+      "sources": [
+        "ahvg-29",
+        "ahvg-29ter",
+        "ahvg-38",
+        "ahvv-50",
+        "ahvv-52"
+      ]
+    },
+    {
+      "id": "check-account",
+      "kind": "step",
+      "text": {
+        "de": "So prüfen Sie, ob Sie Lücken haben: Die Ausgleichskassen führen für Sie ein individuelles Konto, in dem Ihre Einkommen und Beitragszeiten eingetragen sind. Sie haben das Recht, bei jeder Ausgleichskasse, die ein solches Konto für Sie führt, einen Auszug zu verlangen. Der Auszug ist kostenlos. Sie können auch bei einer einzigen Ausgleichskasse die Auszüge aus all Ihren Konten zusammen bestellen, am einfachsten online über die Informationsstelle AHV/IV. Wohnen Sie im Ausland, richten Sie Ihr Gesuch an die Schweizerische Ausgleichskasse. Gehen Sie im Auszug jedes Jahr ab dem Jahr nach Ihrem 20. Geburtstag durch. Fehlt ein Jahr ganz oder sind nur einzelne Monate eingetragen, kann eine Lücke bestehen."
+      },
+      "sources": [
+        "ahvg-30ter",
+        "ahvv-141"
+      ]
+    },
+    {
+      "id": "correction-deadline",
+      "kind": "warning",
+      "text": {
+        "de": "Stimmt etwas im Auszug nicht, etwa ein Lohn oder ein Arbeitgeber fehlt, müssen Sie handeln: Sie können innert 30 Tagen seit Zustellung des Auszugs bei der Ausgleichskasse schriftlich eine Berichtigung verlangen. Legen Sie Belege bei, zum Beispiel Lohnausweise oder Lohnabrechnungen mit AHV-Abzug. Die Ausgleichskasse entscheidet darüber mit einer Verfügung. Verpassen Sie diese Frist, wird es später schwierig: Bei der Rentenberechnung wird ein Eintrag nur noch korrigiert, wenn der Fehler offensichtlich ist oder Sie ihn vollständig beweisen können. Bewahren Sie deshalb Lohnausweise auf."
+      },
+      "sources": [
+        "ahvv-141"
+      ]
+    },
+    {
+      "id": "five-year-limit",
+      "kind": "warning",
+      "text": {
+        "de": "Fehlende Beiträge können Sie grundsätzlich nur für die letzten fünf Jahre nachzahlen. Setzt die Ausgleichskasse die Beiträge für ein Jahr nicht innert fünf Jahren nach Ende dieses Kalenderjahres mit einer Verfügung fest, kann sie diese nicht mehr verlangen, und Sie können sie auch freiwillig nicht mehr einzahlen. Die Frist steht nie still und lässt sich nicht unterbrechen. Nur eine Verfügung der Kasse vor Fristablauf sichert die Beiträge. Ein Brief oder eine Anfrage von Ihnen genügt nicht. Einen freiwilligen Einkauf in die AHV, wie es ihn in der Pensionskasse gibt, kennt das Gesetz nicht. Eine Ausnahme gilt für Beiträge, die nach der Steuerveranlagung berechnet werden, also bei Selbständigerwerbenden, bei Nichterwerbstätigen, die nach Vermögen und Renteneinkommen zahlen, und bei Angestellten eines Arbeitgebers, der selbst keine Beiträge schuldet. Dort endet die Frist erst ein Jahr nach Ende des Kalenderjahres, in dem die massgebende Steuerveranlagung rechtskräftig wurde. Für Studierende und andere, die nur den Mindestbeitrag schulden, gilt diese Ausnahme nach dem Gesetzeswortlaut nicht. Das Bundesgericht hat nicht bezahlte Studienjahre nach Ablauf der fünf Jahre als verloren behandelt. Sie müssen nicht regelmässig einen Kontoauszug verlangen. Wissen Sie aber, dass Sie für ein Jahr nichts bezahlt haben, fragen Sie rechtzeitig bei der Ausgleichskasse nach."
+      },
+      "sources": [
+        "ahvg-16",
+        "ahvg-10",
+        "bger-9c-383-2019",
+        "bger-9c-429-2020",
+        "bger-9c-175-2025",
+        "bger-9c-175-2025-e443"
+      ]
+    },
+    {
+      "id": "act-now",
+      "kind": "step",
+      "when": {
+        "gap_age": [
+          "within-5",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Liegt das fehlende Jahr höchstens fünf Jahre zurück, melden Sie sich sofort bei der Ausgleichskasse, damit sie die Beiträge noch rechtzeitig mit Verfügung festsetzt. Nichterwerbstätige gehören in der Regel zur kantonalen Ausgleichskasse und müssen sich dort selbst melden, wenn sie noch bei keiner Kasse erfasst sind. Waren Sie in dieser Zeit angestellt oder selbständig, wenden Sie sich an die Kasse Ihres damaligen Arbeitgebers oder Ihres Betriebs. Die Kasse ist verpflichtet, nicht bezahlte Beiträge nachzufordern, solange die Frist läuft. Sie stellt Ihnen eine Rechnung, die innert 30 Tagen zu bezahlen ist. Auf nachgeforderten Beiträgen kommen Verzugszinsen hinzu."
+      },
+      "sources": [
+        "ahvg-64",
+        "ahvv-39",
+        "ahvv-41bis"
+      ]
+    },
+    {
+      "id": "old-gap",
+      "kind": "warning",
+      "when": {
+        "gap_age": [
+          "older"
+        ]
+      },
+      "text": {
+        "de": "Liegt das fehlende Jahr mehr als fünf Jahre zurück, können Sie dafür nichts mehr nachzahlen. Die Lücke lässt sich dann nur noch auf anderen Wegen verkleinern: Beitragszeiten aus der Zeit vor dem 20. Geburtstag werden angerechnet, Erziehungs- oder Betreuungsgutschriften können ein Jahr füllen, und unter bestimmten Voraussetzungen zählen Beiträge, die Sie nach dem Rentenalter einzahlen. Klären Sie bei der Ausgleichskasse, welche dieser Möglichkeiten in Ihrem Fall greift."
+      },
+      "sources": [
+        "ahvg-16",
+        "ahvg-29bis",
+        "ahvv-52b"
+      ]
+    },
+    {
+      "id": "non-employed-duty",
+      "kind": "rule",
+      "text": {
+        "de": "Wer in der Schweiz wohnt, ist bei der AHV versichert und muss Beiträge zahlen, auch ohne Erwerbseinkommen. Für Nichterwerbstätige beginnt diese Pflicht am 1. Januar nach dem 20. Geburtstag und endet mit dem Monat, in dem sie das Rentenalter erreichen. Die Höhe hängt von Ihrem Vermögen und vom Renteneinkommen ab, zum Beispiel einer Pension oder regelmässigen Unterstützung. Das Renteneinkommen wird dafür mit 20 multipliziert und zum Vermögen gezählt. Zahlen Sie nirgends Beiträge, müssen Sie sich selbst bei der kantonalen Ausgleichskasse melden. Das gilt auch, wenn Sie nur wenig verdienen: Bleiben Ihre Beiträge aus Erwerbstätigkeit unter dem Mindestbeitrag, gelten Sie als nichterwerbstätig."
+      },
+      "sources": [
+        "ahvg-1a",
+        "ahvg-3",
+        "ahvg-10",
+        "ahvg-64",
+        "ahvv-28"
+      ]
+    },
+    {
+      "id": "students",
+      "kind": "rule",
+      "when": {
+        "reason": [
+          "studies",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Studierende und Personen in Ausbildung ohne Erwerbseinkommen bezahlen ab dem 1. Januar nach dem 20. Geburtstag jährlich den Mindestbeitrag, bis zum 31. Dezember des Jahres, in dem sie 25 werden. Danach werden die Beiträge nach Vermögen und Renteneinkommen berechnet. Haben Sie neben dem Studium gearbeitet und wurde vom Lohn AHV abgezogen, können Sie verlangen, dass diese Beiträge an die Beiträge als Nichterwerbstätige angerechnet werden. Dafür brauchen Sie Belege, etwa Lohnausweise. Viele Lücken entstehen gerade in den Studienjahren, weil sich niemand bei der Ausgleichskasse meldet."
+      },
+      "sources": [
+        "ahvg-10",
+        "ahvv-30"
+      ]
+    },
+    {
+      "id": "early-retirement",
+      "kind": "rule",
+      "when": {
+        "reason": [
+          "early-retirement",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hören Sie vor dem Rentenalter auf zu arbeiten, bleiben Sie bis zum Rentenalter beitragspflichtig, nun als Nichterwerbstätige oder Nichterwerbstätiger. Die Beiträge richten sich nach Ihrem Vermögen und Ihrem Renteneinkommen, etwa einer Pensionskassenrente. Arbeiten Sie noch Teilzeit, genügt das nicht in jedem Fall: Sind Sie nicht dauernd voll erwerbstätig und erreichen die Beiträge aus der Arbeit, zusammen mit dem Anteil des Arbeitgebers, nicht die Hälfte dessen, was Sie als Nichterwerbstätige schulden würden, zahlen Sie wie Nichterwerbstätige. Die bereits bezahlten Beiträge aus der Arbeit werden dabei angerechnet. Wer mit Erreichen einer bestimmten Altersgrenze die Arbeit aufgibt, bleibt meist bei der bisherigen Ausgleichskasse, sonst ist die kantonale Ausgleichskasse zuständig. Melden Sie sich dort, sobald Sie Ihre Erwerbstätigkeit aufgeben oder reduzieren."
+      },
+      "sources": [
+        "ahvg-3",
+        "ahvg-10",
+        "ahvg-64",
+        "ahvv-28",
+        "ahvv-28bis",
+        "ahvv-30"
+      ]
+    },
+    {
+      "id": "spouse",
+      "kind": "rule",
+      "when": {
+        "married": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie verheiratet und haben kein eigenes Erwerbseinkommen, gelten Ihre Beiträge als bezahlt, wenn Ihr Ehegatte mindestens den doppelten Mindestbeitrag bezahlt hat. Das gilt auch im Jahr der Heirat oder Scheidung und wenn Ihr Ehegatte bereits eine Altersrente bezieht oder sie aufschiebt. Eingetragene Partnerschaften sind der Ehe gleichgestellt. Erreicht Ihr Ehegatte den doppelten Mindestbeitrag nicht, müssen Sie sich selbst bei der Ausgleichskasse melden und Beiträge nach dem halben ehelichen Vermögen und Renteneinkommen zahlen. Vorsicht bei einem Ehegatten, der im Ausland arbeitet: Seine Beiträge an ein ausländisches Sozialversicherungssystem zählen dafür nicht. Das Bundesgericht hat dies für einen in Frankreich versicherten Ehegatten entschieden, auch unter den Koordinationsregeln mit der EU. Wohnen Sie in der Schweiz, müssen Sie dann selbst Beiträge zahlen."
+      },
+      "sources": [
+        "ahvg-3",
+        "ahvv-28",
+        "atsg-13a",
+        "bge-140-v-98"
+      ]
+    },
+    {
+      "id": "education-credits",
+      "kind": "rule",
+      "when": {
+        "children": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für jedes Jahr, in dem Sie die elterliche Sorge für ein Kind unter 16 Jahren hatten, wird Ihnen eine Erziehungsgutschrift angerechnet. Ein solches Jahr zählt als Beitragsjahr, auch wenn Sie keine Beiträge bezahlt haben. Die Gutschrift erhöht zudem das Einkommen, nach dem Ihre Rente berechnet wird. Verheirateten wird die Gutschrift während der Ehe je zur Hälfte angerechnet. Haben nicht verheiratete oder geschiedene Eltern die gemeinsame elterliche Sorge, entscheidet das Gericht oder die Kindesschutzbehörde über die Anrechnung, oder die Eltern regeln sie gemeinsam schriftlich. Bis dies geregelt ist, erhält die Mutter die ganze Gutschrift. Für Jahre, in denen Sie nicht in der Schweiz wohnten und nicht versichert waren, gibt es keine Erziehungsgutschrift."
+      },
+      "sources": [
+        "ahvg-29sexies",
+        "ahvg-29ter",
+        "ahvv-50",
+        "ahvv-52fbis",
+        "bger-9c-50-2021"
+      ]
+    },
+    {
+      "id": "care-credits",
+      "kind": "rule",
+      "when": {
+        "caring": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Betreuen Sie Verwandte in auf- oder absteigender Linie, also etwa Eltern, Grosseltern, Kinder oder Enkelkinder, oder Geschwister, können Sie eine Betreuungsgutschrift erhalten. Gleichgestellt sind Ihr Ehegatte, Ihre Schwiegereltern, Ihre Stiefkinder sowie eine Lebenspartnerin oder ein Lebenspartner, mit der oder dem Sie seit mindestens fünf Jahren ohne Unterbruch einen gemeinsamen Haushalt führen. Die betreute Person muss einen anerkannten Anspruch auf eine Hilflosenentschädigung der AHV, IV, obligatorischen Unfallversicherung oder Militärversicherung haben. Nach der Rechtsprechung muss die Entschädigung nicht tatsächlich ausbezahlt werden. Sie müssen die Person leicht erreichen können, das heisst höchstens 30 Kilometer entfernt wohnen oder innert einer Stunde bei ihr sein. Lebt die Person in einem Heim, gibt es die Gutschrift nach der Rechtsprechung in der Regel nicht. Bei leichter Hilflosigkeit entfällt zudem die Hilflosenentschädigung der AHV während eines Heimaufenthalts. Teilen sich mehrere Personen die Betreuung, wird die Gutschrift unter ihnen aufgeteilt. Für Jahre mit einer Erziehungsgutschrift gibt es keine Betreuungsgutschrift."
+      },
+      "sources": [
+        "ahvg-29septies",
+        "ahvg-43bis",
+        "ahvv-52g",
+        "ahvv-52i",
+        "bge-126-v-435",
+        "bge-144-v-159"
+      ]
+    },
+    {
+      "id": "care-credit-claim",
+      "kind": "warning",
+      "when": {
+        "caring": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Betreuungsgutschrift kommt nicht von selbst. Sie müssen sie jedes Jahr schriftlich anmelden, bei der kantonalen Ausgleichskasse am Wohnort der betreuten Person. Unterschreiben müssen Sie und die betreute Person oder ihre gesetzliche Vertretung. Betreuen mehrere Personen, reichen sie die Anmeldung gemeinsam ein. Melden Sie ein Jahr nicht innert fünf Jahren nach dessen Ende an, wird die Gutschrift für dieses Jahr nicht mehr eingetragen."
+      },
+      "sources": [
+        "ahvg-29septies",
+        "ahvv-52l"
+      ]
+    },
+    {
+      "id": "youth-years",
+      "kind": "rule",
+      "text": {
+        "de": "Wer schon vor dem 20. Geburtstag gearbeitet und Beiträge bezahlt hat, hat oft sogenannte Jugendjahre. Die Beitragspflicht für Erwerbstätige beginnt am 1. Januar nach dem 17. Geburtstag. Diese frühen Beitragszeiten zählen nicht als gewöhnliche Beitragsjahre, sie werden aber verwendet, um spätere Lücken aufzufüllen. Die Ausgleichskasse berücksichtigt sie bei der Rentenberechnung von sich aus."
+      },
+      "sources": [
+        "ahvg-3",
+        "ahvv-52b"
+      ]
+    },
+    {
+      "id": "after-reference-age",
+      "kind": "rule",
+      "when": {
+        "age": [
+          "near-or-past-reference",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Arbeiten Sie nach Erreichen des Rentenalters weiter, können Sie damit Lücken schliessen, und zwar mit Beiträgen aus den ersten fünf Jahren nach dem Rentenalter. Voraussetzung ist, dass Ihr Einkommen in dieser Zeit mindestens 40 Prozent Ihres früheren durchschnittlichen Erwerbseinkommens erreicht und die Beiträge daraus mindestens dem jährlichen Mindestbeitrag entsprechen. Die neue Berechnung der Rente müssen Sie bei der Ausgleichskasse verlangen, und zwar nur einmal."
+      },
+      "sources": [
+        "ahvg-29bis"
+      ]
+    },
+    {
+      "id": "abroad",
+      "kind": "warning",
+      "when": {
+        "reason": [
+          "abroad",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Während Sie im Ausland wohnen und dort arbeiten, sind Sie in der Regel nicht bei der AHV versichert. Das führt zu einer Lücke in der Schweizer Rente. Mit den EU- und EFTA-Staaten und vielen anderen Ländern hat die Schweiz Sozialversicherungsabkommen. Danach erhalten Sie meist aus jedem Land eine eigene Rente für die dort versicherte Zeit, die Schweizer Lücke bleibt aber bestehen. Wer ausserhalb der EU und EFTA lebt und vorher mindestens fünf Jahre ununterbrochen obligatorisch versichert war, kann sich als Schweizer oder EU- beziehungsweise EFTA-Bürgerin oder -Bürger freiwillig weiterversichern. Der Beitritt muss innert eines Jahres nach dem Ausscheiden aus der obligatorischen Versicherung erklärt werden, später ist er nicht mehr möglich. Lassen Sie sich vor einem Wegzug oder bei Jahren im Ausland beraten."
+      },
+      "sources": [
+        "ahvg-1a",
+        "ahvg-2",
+        "ahvg-153a",
+        "vfv-8"
+      ]
+    },
+    {
+      "id": "objection",
+      "kind": "rule",
+      "text": {
+        "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei."
+      },
+      "sources": [
+        "atsg-52"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Der Kontoauszug ist kostenlos. Die Einsprache gegen eine Verfügung der Ausgleichskasse kostet ebenfalls nichts. Nichterwerbstätige zahlen mindestens 530 Franken im Jahr für AHV, IV und EO zusammen, davon 435 Franken für die AHV. Mit mehr Vermögen oder Renteneinkommen wird es mehr, bis zu einem Höchstbetrag. Beiträge, die nachgefordert werden, kosten zusätzlich Verzugszinsen ab dem Beginn des Jahres nach dem Beitragsjahr. Die Beträge werden regelmässig angepasst und gelten hier für 2026. Die Ausgleichskasse berechnet Ihren genauen Beitrag."
+      },
+      "sources": [
+        "ahvv-141",
+        "ahvg-10",
+        "ivg-3",
+        "eov-36",
+        "ahvv-41bis",
+        "atsg-52"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn Sie Jahre im Ausland verbracht haben, wenn Ihr Ehegatte im Ausland arbeitet oder gearbeitet hat, wenn die Ausgleichskasse eine Berichtigung oder eine Gutschrift ablehnt, wenn Ihnen eine hohe Nachforderung mit Verzugszinsen droht, oder wenn Sie kurz vor der Pensionierung stehen und prüfen wollen, ob sich Lücken noch schliessen lassen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Ausgleichskasse Ihres Wohnkantons gibt Auskunft zu Beiträgen, Lücken und Gutschriften. Die Informationsstelle AHV/IV stellt Merkblätter und die Online-Bestellung des Kontoauszugs zur Verfügung. Bei Fragen zu Jahren im Ausland ist die Schweizerische Ausgleichskasse zuständig. Pro Senectute und Sozialdienste der Gemeinden beraten ältere Menschen und betreuende Angehörige. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "ahvg-1a": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "1a",
+      "label": "AHVG · Art. 1a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_1a",
+      "sha256": "437a3a807a807b7caf1a708d41ce5d2cc3f7c15683afaba2df37d322cd4985cb"
+    },
+    "ahvg-2": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "2",
+      "label": "AHVG · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_2",
+      "sha256": "de7107d287068285bdb5793481e575825616a3deb1a425bffff005947677d59e"
+    },
+    "ahvg-3": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "3",
+      "label": "AHVG · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_3",
+      "sha256": "4bebd77d2c7cd6e13e701930e61129a0a2203d6e163cb6f2a4d089988030389c"
+    },
+    "ahvg-10": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "10",
+      "label": "AHVG · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_10",
+      "sha256": "310c50ea27bc7c9c22b909ce7628f5c396790b0e78c175170570fc09354b4b46"
+    },
+    "ahvg-16": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "16",
+      "label": "AHVG · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_16",
+      "sha256": "af96743153f9fc5fda731f4ec64bc9a33abacff7f10c2225c47d54df768bd378"
+    },
+    "ahvg-29ter": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29ter",
+      "label": "AHVG · Art. 29ter",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29ter",
+      "sha256": "db297ca988d10d64c70024ad64e5221fd56914631e5daeff1d73ab4542e6555e"
+    },
+    "ahvg-29bis": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29bis",
+      "label": "AHVG · Art. 29bis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29bis",
+      "sha256": "a3e35f874bd2eef6e461a0033b90716a5bbd826b75f73f2739b216de88555a2d"
+    },
+    "ahvg-29sexies": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29sexies",
+      "label": "AHVG · Art. 29sexies",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29sexies",
+      "sha256": "87907fccb08e06e286ff2a6940593cfb8e45a9bc4beb8a198ce79a2a3ddcefa4"
+    },
+    "ahvg-29septies": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29septies",
+      "label": "AHVG · Art. 29septies",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29septies",
+      "sha256": "476b4b4c3407965c11f4c6e21d62bedf9a146a996cad20a83b362c5ab2ac0cc8"
+    },
+    "ahvg-30ter": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "30ter",
+      "label": "AHVG · Art. 30ter",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_30ter",
+      "sha256": "9231efd120c5efa49b726a13dc64aa365d41648e205fb8cb0fd57e9c704d8360"
+    },
+    "ahvg-29": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29",
+      "label": "AHVG · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29",
+      "sha256": "ab496cd6544b5d3eb5855a8d7573ca49d59891cb6eedf230c4e06dbeba481c2e"
+    },
+    "ahvg-38": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "38",
+      "label": "AHVG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_38",
+      "sha256": "9a60f6358472af034f448031b5e3e1136f7a79171a49f48ee533e5f488d62a35"
+    },
+    "ahvg-64": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "64",
+      "label": "AHVG · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_64",
+      "sha256": "4a70e284a544a2a59c14dad2c3f0e648851bcd0769add189188eaa7a5addf61c"
+    },
+    "ahvg-153a": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "153a",
+      "label": "AHVG · Art. 153a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_153a",
+      "sha256": "d89f2d507eaadfd29a4cc1755550f9ce9d9c07a85347bee21380e8fcb0731f09"
+    },
+    "ahvv-28": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "28",
+      "label": "AHVV · Art. 28",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_28",
+      "sha256": "35743c6ca6e239742527eede9a62a3bd02561039f417b67703def6d6155c0205"
+    },
+    "ahvv-28bis": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "28bis",
+      "label": "AHVV · Art. 28bis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_28bis",
+      "sha256": "604fcad73957311900d4d9a3d3a987aeafca62ff457fb7306bd893df664de8ab"
+    },
+    "ahvv-30": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "30",
+      "label": "AHVV · Art. 30",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_30",
+      "sha256": "4ab6c9dc443a6d0423540124b5d102676070632f4d8dfcbc3c01332159864568"
+    },
+    "ahvv-41bis": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "41bis",
+      "label": "AHVV · Art. 41bis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_41bis",
+      "sha256": "6c41621763660a9fabb5c1e7ecce72ec914b80e2602a0b28a3e565c69d25d09d"
+    },
+    "ahvv-50": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "50",
+      "label": "AHVV · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_50",
+      "sha256": "9a74e67fde26d8f2f9cf3b6ca60f5e92d7a2a7399c200601254575e6c7bfccd3"
+    },
+    "ahvv-52": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52",
+      "label": "AHVV · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52",
+      "sha256": "7eecaedd99f6095d0089ef63aceb7dbf53bf6150001a174f502eaf65c7a06cd4"
+    },
+    "ahvv-52b": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52b",
+      "label": "AHVV · Art. 52b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52b",
+      "sha256": "71fc5c7ba0609f8be54ac9ea5a9d2d8a21a21d14509a66deaa886e450e8c7730"
+    },
+    "ahvv-52fbis": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52fbis",
+      "label": "AHVV · Art. 52fbis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52fbis",
+      "sha256": "8ce23a6042b4970b254b4f0da2de9a13caff7b79680b0c5a355309ab5199d5c2"
+    },
+    "ahvv-52g": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52g",
+      "label": "AHVV · Art. 52g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52g",
+      "sha256": "e657c23f1ef56711a518ce7958be1206c84ba971e7f8c0b47143a31091ec5606"
+    },
+    "ahvv-52i": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52i",
+      "label": "AHVV · Art. 52i",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52i",
+      "sha256": "c5acb2c12dc69bd010078c05d5469a6d49224205f92898a18279379511309fb4"
+    },
+    "ahvv-52l": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "52l",
+      "label": "AHVV · Art. 52l",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_52l",
+      "sha256": "2bc09c178a8a729d14c2ea38507b669d656c9730936122b45b22fb9e81fb3816"
+    },
+    "ahvv-141": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "141",
+      "label": "AHVV · Art. 141",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_141",
+      "sha256": "824a8c38d190aa04bb6a9988eb484202c3f92817b598494b2c96b53ca615b96b"
+    },
+    "ivg-3": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "3",
+      "label": "IVG · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_3",
+      "sha256": "29514f5d378a63007447677e23c56aa519ee4c0b62b439748880b31b14e90c78"
+    },
+    "eov-36": {
+      "type": "statute",
+      "sr": "834.11",
+      "article": "36",
+      "label": "EOV · Art. 36",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/187/de#art_36",
+      "sha256": "76f65c74d902090070056eb6e2cbc8e7231e98e6d993042864c88ed837446dd5"
+    },
+    "atsg-13a": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "13a",
+      "label": "ATSG · Art. 13a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_13a",
+      "sha256": "390c2f523b10c9d866a25532d4ddcb4c6429aa9594d37133fbe345583abc08ab"
+    },
+    "atsg-52": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "52",
+      "label": "ATSG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_52",
+      "sha256": "9c4de6689671dc542d40efc1f52797b2984008257cb39866a145216b163bf54b"
+    },
+    "vfv-8": {
+      "type": "statute",
+      "sr": "831.111",
+      "article": "8",
+      "label": "VFV · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1961/419_429_439/de#art_8",
+      "sha256": "7f7d3c05601dcf871d3fb38b92c2fafaf07d18df0bd82dbfb91d39515ac699a5"
+    },
+    "ahvv-39": {
+      "type": "statute",
+      "sr": "831.101",
+      "article": "39",
+      "label": "AHVV · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/1185_1183_1185/de#art_39",
+      "sha256": "db9c17fa47127778513108ab4d786702ff4e7a336e4f8caf257327921d48b1f9"
+    },
+    "ahvg-43bis": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "43bis",
+      "label": "AHVG · Art. 43bis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_43bis",
+      "sha256": "7ead8cca378902298311ebaf33a648b612741dd8f0fe3fa6d91f3b685592406c"
+    },
+    "bger-9c-429-2020": {
+      "type": "decision",
+      "decision_id": "bger_9C_429_2020",
+      "citation": "BGer 9C_429/2020 vom 24. Juni 2021",
+      "e": "5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_429_2020#e-5-2"
+    },
+    "bger-9c-175-2025": {
+      "type": "decision",
+      "decision_id": "bger_9C_175_2025",
+      "citation": "BGer 9C_175/2025 vom 6. Juni 2025",
+      "e": "4.4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_175_2025#e-4-4-1"
+    },
+    "bger-9c-175-2025-e443": {
+      "type": "decision",
+      "decision_id": "bger_9C_175_2025",
+      "citation": "BGer 9C_175/2025 vom 6. Juni 2025",
+      "e": "4.4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_175_2025#e-4-4-3"
+    },
+    "bger-9c-383-2019": {
+      "type": "decision",
+      "decision_id": "bger_9C_383_2019",
+      "citation": "BGer 9C_383/2019 vom 25. September 2019",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_383_2019#e-3"
+    },
+    "bge-144-v-159": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_V_159",
+      "citation": "BGE 144 V 159",
+      "e": "4.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_V_159#e-4-4"
+    },
+    "bge-126-v-435": {
+      "type": "decision",
+      "decision_id": "bge_BGE_126_V_435",
+      "citation": "BGE 126 V 435",
+      "e": "4a",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_126_V_435#e-4a"
+    },
+    "bger-9c-50-2021": {
+      "type": "decision",
+      "decision_id": "bger_9C_50_2021",
+      "citation": "BGer 9C_50/2021 vom 26. August 2021",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_50_2021#e-4-3"
+    },
+    "bge-140-v-98": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_V_98",
+      "citation": "BGE 140 V 98",
+      "e": "9.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_V_98#e-9-3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Informationsstelle AHV/IV: Beitragslücken und Bestellung des Kontoauszugs"
+      },
+      "url": "https://www.ahv-iv.ch/de/Sozialversicherungen/Alters-und-Hinterlassenenversicherung-AHV/Beitragsl%C3%BCcken"
+    },
+    {
+      "label": {
+        "de": "Merkblatt 1.01: Auszug aus dem individuellen Konto"
+      },
+      "url": "https://www.ahv-iv.ch/p/1.01.d"
+    },
+    {
+      "label": {
+        "de": "Merkblatt 2.03: Beiträge der Nichterwerbstätigen"
+      },
+      "url": "https://www.ahv-iv.ch/p/2.03.d"
+    },
+    {
+      "label": {
+        "de": "Merkblatt 1.03: Betreuungsgutschriften"
+      },
+      "url": "https://www.ahv-iv.ch/p/1.03.d"
+    },
+    {
+      "label": {
+        "de": "Merkblatt 10.01: Arbeiten im Ausland"
+      },
+      "url": "https://www.ahv-iv.ch/p/10.01.d"
+    },
+    {
+      "label": {
+        "de": "Adressen der Ausgleichskassen"
+      },
+      "url": "https://www.ahv-iv.ch/de/Kontakte"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

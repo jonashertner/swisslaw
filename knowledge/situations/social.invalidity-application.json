@@ -1,0 +1,779 @@
+{
+  "schema": 1,
+  "id": "social.invalidity-application",
+  "domain": "social",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich kann wegen meiner Gesundheit nicht mehr arbeiten. Soll ich mich bei der IV anmelden?"
+  },
+  "summary": {
+    "de": "Wer wegen der Gesundheit länger ganz oder teilweise nicht arbeiten kann, sollte sich früh bei der IV-Stelle seines Wohnkantons anmelden. Die IV versucht zuerst, Ihnen die Stelle zu erhalten oder Sie wieder ins Arbeitsleben einzugliedern. Eine Rente gibt es erst, wenn das nicht gelingt, und frühestens sechs Monate nach der Anmeldung. Eine späte Anmeldung kann Sie deshalb Rentenmonate kosten. Gegen den geplanten Entscheid können Sie innert 30 Tagen Einwände erheben, gegen den Entscheid selbst innert 30 Tagen direkt beim kantonalen Versicherungsgericht Beschwerde führen."
+  },
+  "examples": {
+    "de": [
+      "Ich kann wegen meiner Gesundheit nicht mehr arbeiten. Soll ich mich bei der IV anmelden?",
+      "Wann muss ich mich bei der Invalidenversicherung anmelden?",
+      "Ich bin seit Monaten krankgeschrieben, bekomme ich eine IV-Rente?",
+      "Ich cha wäge mim Rugge nümm schaffe, söll ich mi bi de IV amälde?",
+      "Die IV hat mir einen Vorbescheid geschickt und will keine Rente zahlen, was kann ich tun?",
+      "Ich habe eine Depression und kann nicht mehr arbeiten, hilft mir die IV?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Anmeldung von Erwachsenen mit Wohnsitz in der Schweiz bei der Invalidenversicherung (IV) wegen gesundheitlicher Probleme: Früherfassung und Frühintervention, Eingliederung vor Rente, Zeitpunkt der Anmeldung, Mitwirkungspflichten, Vorbescheid und Beschwerde gegen die Verfügung der IV-Stelle."
+    },
+    "excludes": {
+      "de": "Leistungen der Unfall- oder Militärversicherung, der Pensionskasse und der Krankentaggeldversicherung; Ergänzungsleistungen und Hilflosenentschädigung; Kinder und Jugendliche in der ersten Ausbildung; Personen mit Wohnsitz im Ausland und Grenzgänger; die Überprüfung oder Aufhebung einer bereits laufenden Rente."
+    }
+  },
+  "facts": [
+    {
+      "key": "stage",
+      "question": {
+        "de": "Wie weit sind Sie mit der IV?"
+      },
+      "help": {
+        "de": "Ein Vorbescheid ist ein Brief der IV-Stelle, der den geplanten Entscheid ankündigt. Eine Verfügung ist der eigentliche Entscheid mit einer Rechtsmittelbelehrung am Schluss."
+      },
+      "options": [
+        {
+          "value": "not-registered",
+          "label": {
+            "de": "Ich bin noch nicht bei der IV angemeldet"
+          }
+        },
+        {
+          "value": "registered",
+          "label": {
+            "de": "Ich bin angemeldet, die IV klärt noch ab"
+          }
+        },
+        {
+          "value": "pre-decision",
+          "label": {
+            "de": "Ich habe einen Vorbescheid erhalten"
+          }
+        },
+        {
+          "value": "decision",
+          "label": {
+            "de": "Ich habe eine Verfügung erhalten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "work_status",
+      "question": {
+        "de": "Haben Sie zurzeit eine Arbeitsstelle?"
+      },
+      "options": [
+        {
+          "value": "employed",
+          "label": {
+            "de": "Ja, ich bin angestellt (auch wenn ich krankgeschrieben bin)"
+          }
+        },
+        {
+          "value": "not-employed",
+          "label": {
+            "de": "Nein, ich habe keine Stelle oder bin selbständig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "condition",
+      "question": {
+        "de": "Welche Art von gesundheitlichen Problemen haben Sie?"
+      },
+      "options": [
+        {
+          "value": "physical",
+          "label": {
+            "de": "Vor allem körperliche Beschwerden"
+          }
+        },
+        {
+          "value": "mental",
+          "label": {
+            "de": "Vor allem psychische Beschwerden, zum Beispiel Depression, Angst oder Erschöpfung"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "integration-first",
+      "kind": "rule",
+      "text": {
+        "de": "Die IV hilft zuerst mit Eingliederung und erst danach mit Geld. Sind Sie wegen Ihrer Gesundheit invalid oder droht Ihnen eine Invalidität, haben Sie Anspruch auf Eingliederungsmassnahmen, soweit diese nötig und geeignet sind, Ihre Fähigkeit zum Geldverdienen zu erhalten, wiederherzustellen oder zu verbessern. Dazu gehören zum Beispiel medizinische Massnahmen, Beratung und Begleitung, Integrationsmassnahmen und berufliche Massnahmen. Eine Rente kommt erst in Frage, wenn solche zumutbaren Massnahmen nicht zum Ziel führen und die Möglichkeiten der Eingliederung ausgeschöpft sind."
+      },
+      "sources": [
+        "ivg-8",
+        "ivg-28"
+      ]
+    },
+    {
+      "id": "early-detection",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die IV kann schon früh eingreifen, bevor Sie Leistungen beantragen (Früherfassung). Sind Sie arbeitsunfähig oder droht eine länger dauernde Arbeitsunfähigkeit, können Sie sich selbst schriftlich bei der IV-Stelle melden. Melden dürfen Sie auch Angehörige im gleichen Haushalt, Ihr Arbeitgeber, Ihre Ärztin oder Ihr Arzt, die Krankentaggeldversicherung und weitere Stellen. Diese müssen Sie aber vorher darüber informieren. Die IV-Stelle klärt Ihre Lage ab, kann Sie zu einem Gespräch einladen und entscheidet spätestens 30 Tage nach der Meldung, ob Massnahmen der Frühintervention angezeigt sind. Wenn ja, fordert sie Sie auf, sich bei der IV anzumelden."
+      },
+      "sources": [
+        "ivg-3abis",
+        "ivg-3b",
+        "ivg-3c",
+        "ivv-1quater"
+      ]
+    },
+    {
+      "id": "early-intervention",
+      "kind": "rule",
+      "when": {
+        "work_status": [
+          "employed",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Frühintervention soll vor allem helfen, dass Sie Ihre bisherige Stelle behalten oder an einer neuen Stelle im gleichen oder in einem anderen Betrieb Fuss fassen. Die IV-Stelle kann zum Beispiel eine Anpassung des Arbeitsplatzes, Kurse, Arbeitsvermittlung, Berufsberatung, Beschäftigungsmassnahmen oder Beratung und Begleitung anordnen. Einen Rechtsanspruch auf diese Massnahmen haben Sie nicht. Ist Ihre Stelle aus gesundheitlichen Gründen gefährdet, kann die IV-Stelle Sie, Ihren Arbeitgeber und Ihre behandelnden Ärztinnen und Ärzte auf Wunsch schon vor einer Anmeldung beraten."
+      },
+      "sources": [
+        "ivg-7d",
+        "ivg-3a"
+      ]
+    },
+    {
+      "id": "early-detection-not-registration",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Meldung zur Früherfassung ist noch keine Anmeldung für IV-Leistungen. Die Wartezeit für eine Rente beginnt erst mit der eigentlichen Anmeldung. Fordert Sie die IV-Stelle auf, sich anzumelden, tun Sie das sofort. Wer sich trotz Aufforderung nicht unverzüglich anmeldet, riskiert gekürzte oder verweigerte Leistungen, wenn sich die Verzögerung auf die Dauer oder das Ausmass der Arbeitsunfähigkeit oder der Invalidität nachteilig auswirkt. Hat Ihnen die IV-Stelle während der Früherfassung von einer Anmeldung abgeraten, ohne Sie darauf hinzuweisen, dass eine spätere Anmeldung den Beginn einer Rente verzögert, können Sie unter Umständen in Ihrem Vertrauen geschützt und so gestellt werden, als hätten Sie sich rechtzeitig angemeldet."
+      },
+      "sources": [
+        "bger-9c-324-2021",
+        "bger-9c-324-2021-e5-5",
+        "bger-9c-324-2021-e5-6",
+        "ivg-3c",
+        "ivg-7b"
+      ]
+    },
+    {
+      "id": "register-early",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Anspruch auf eine IV-Rente entsteht frühestens sechs Monate nach der Anmeldung. Diese Frist hängt allein vom Datum der Anmeldung ab und ist etwas anderes als das Jahr Arbeitsunfähigkeit, das für eine Rente ebenfalls nötig ist. Für Monate vor diesem Zeitpunkt gibt es keine Rente, auch wenn Sie schon lange arbeitsunfähig waren. Auch Integrationsmassnahmen und berufliche Massnahmen gibt es frühestens ab der Anmeldung. Warten Sie deshalb nicht, bis ein Jahr vorbei ist. Melden Sie sich an, sobald absehbar ist, dass Ihre gesundheitlichen Probleme Sie länger bei der Arbeit einschränken."
+      },
+      "sources": [
+        "ivg-29",
+        "ivg-10",
+        "bge-142-v-547"
+      ]
+    },
+    {
+      "id": "pension-conditions",
+      "kind": "rule",
+      "text": {
+        "de": "Eine IV-Rente setzt voraus, dass Sie während eines Jahres ohne wesentlichen Unterbruch durchschnittlich mindestens 40 Prozent arbeitsunfähig waren und nach diesem Jahr zu mindestens 40 Prozent invalid sind. Invalid heisst: Sie können wegen Ihrer Gesundheit voraussichtlich dauernd oder für längere Zeit ganz oder teilweise kein Einkommen mehr erzielen, auch nach zumutbarer Behandlung und Eingliederung. Die IV schaut dabei nicht nur auf Ihren bisherigen Beruf, sondern darauf, welche Erwerbsmöglichkeiten Ihnen auf dem Arbeitsmarkt insgesamt bleiben. Es zählen nur die Folgen der Gesundheit, und die Einschränkung darf objektiv betrachtet nicht überwindbar sein. Ab einem Invaliditätsgrad von 70 Prozent gibt es eine ganze Rente. Zwischen 50 und 69 Prozent entspricht die Rente dem Invaliditätsgrad in Prozent einer ganzen Rente. Zwischen 40 und 49 Prozent beträgt sie 25 bis 47,5 Prozent einer ganzen Rente."
+      },
+      "sources": [
+        "ivg-28",
+        "ivg-28b",
+        "atsg-7",
+        "atsg-8"
+      ]
+    },
+    {
+      "id": "how-to-register",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Melden Sie sich mit dem offiziellen Anmeldeformular für Erwachsene bei der IV-Stelle des Kantons an, in dem Sie wohnen. Die Formulare sind kostenlos, zum Beispiel bei der IV-Stelle oder auf ahv-iv.ch. Füllen Sie das Formular vollständig und wahrheitsgetreu aus. Geben Sie die Anmeldung aus Versehen bei einer falschen Stelle ab oder ist sie nicht formgerecht, zählt für die Fristen trotzdem der Tag, an dem Sie sie der Post übergeben oder dort abgegeben haben. Schicken Sie die Anmeldung eingeschrieben und behalten Sie eine Kopie."
+      },
+      "sources": [
+        "atsg-29",
+        "ivg-55",
+        "ivv-40"
+      ]
+    },
+    {
+      "id": "duty-to-cooperate",
+      "kind": "rule",
+      "text": {
+        "de": "Mit der Anmeldung übernehmen Sie Pflichten. Sie müssen alles Zumutbare tun, damit Ihre Arbeitsunfähigkeit kürzer und geringer wird und keine Invalidität entsteht. Sie müssen aktiv an zumutbaren Massnahmen teilnehmen, etwa an Frühintervention, Integrationsmassnahmen, beruflichen Massnahmen und medizinischen Behandlungen. Sie müssen der IV die nötigen Auskünfte geben und Ärztinnen, Ärzte, Arbeitgeber, Versicherungen und Amtsstellen ermächtigen, der IV Auskunft zu geben. Zu notwendigen und zumutbaren ärztlichen oder fachlichen Untersuchungen müssen Sie hingehen. Wesentliche Änderungen, zum Beispiel bei Ihrer Gesundheit oder Arbeit, müssen Sie der IV melden."
+      },
+      "sources": [
+        "ivg-7",
+        "atsg-28",
+        "atsg-43",
+        "atsg-31"
+      ]
+    },
+    {
+      "id": "cooperation-sanctions",
+      "kind": "warning",
+      "text": {
+        "de": "Verweigern Sie ohne entschuldbaren Grund eine zumutbare Behandlung, eine Eingliederung, eine Auskunft oder eine Untersuchung, kann die IV ihre Leistungen kürzen oder verweigern, nach Aktenlage entscheiden oder auf Ihr Gesuch nicht eintreten. In der Regel muss sie Sie vorher schriftlich mahnen, auf die Folgen hinweisen und Ihnen eine angemessene Bedenkzeit geben. Ohne diese Mahnung kann sie Leistungen kürzen oder verweigern, wenn Sie sich trotz Aufforderung nicht unverzüglich angemeldet haben, Änderungen nicht gemeldet haben, Leistungen zu Unrecht erwirken wollten oder nötige Auskünfte nicht erteilt haben. Behandlungen oder Massnahmen, die Leben oder Gesundheit gefährden, sind nicht zumutbar. Halten Sie eine Massnahme für unzumutbar, sagen Sie das der IV-Stelle schriftlich und legen Sie einen Arztbericht bei."
+      },
+      "sources": [
+        "atsg-21",
+        "atsg-43",
+        "ivg-7b"
+      ]
+    },
+    {
+      "id": "mental-health-assessment",
+      "kind": "rule",
+      "when": {
+        "condition": [
+          "mental",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei psychischen Erkrankungen genügt die Diagnose allein nicht. Nach der Rechtsprechung des Bundesgerichts werden grundsätzlich alle psychischen Erkrankungen in einem strukturierten Beweisverfahren geprüft. Anhand bestimmter Indikatoren wird beurteilt, wie stark Sie tatsächlich eingeschränkt sind: wie ausgeprägt die Befunde sind, wie Behandlung und Eingliederung bisher gewirkt haben, welche weiteren Erkrankungen bestehen, welche persönlichen Stärken und welches soziale Umfeld Sie haben, ob Sie in allen Lebensbereichen ähnlich eingeschränkt sind und ob sich Ihr Leidensdruck in der bisherigen Behandlung zeigt. Lässt sich eine Einschränkung nicht nachweisen, trägt die Person, die eine Rente beantragt, die Folgen."
+      },
+      "sources": [
+        "bge-141-v-281-e3-6",
+        "bge-141-v-281-e4-1-3",
+        "bge-141-v-281-e3-7-2",
+        "bge-143-v-418"
+      ]
+    },
+    {
+      "id": "medical-evidence",
+      "kind": "step",
+      "text": {
+        "de": "Bleiben Sie in ärztlicher Behandlung und machen Sie die empfohlenen Therapien mit. Bitten Sie Ihre Ärztinnen und Ärzte, in ihren Berichten nicht nur die Diagnose zu nennen, sondern konkret zu beschreiben, was Sie im Alltag und bei der Arbeit noch können und was nicht, und seit wann. Sammeln Sie Ihre Arbeitsunfähigkeitszeugnisse und führen Sie eine Liste Ihrer Arztbesuche und Therapien."
+      },
+      "sources": [
+        "ivg-7",
+        "bge-141-v-281-e4-1-3"
+      ]
+    },
+    {
+      "id": "keep-job",
+      "kind": "step",
+      "when": {
+        "work_status": [
+          "employed",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kündigen Sie Ihre Stelle nicht vorschnell selbst. Informieren Sie Ihren Arbeitgeber und, falls vorhanden, Ihre Krankentaggeldversicherung über die Anmeldung bei der IV. Besprechen Sie mit der IV-Stelle, ob und wie Ihr Arbeitsplatz erhalten werden kann."
+      },
+      "sources": [
+        "ivg-7d"
+      ]
+    },
+    {
+      "id": "pre-decision",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "registered",
+          "pre-decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bevor die IV-Stelle über Ihr Gesuch entscheidet, schickt sie Ihnen einen Vorbescheid mit dem geplanten Entscheid. Innert 30 Tagen können Sie dazu Einwände vorbringen, schriftlich oder mündlich bei der IV-Stelle. Mündliche Einwände hält die IV-Stelle in einem kurzen Protokoll fest, das Sie unterschreiben. Sie haben das Recht, Ihre Akten einzusehen. So können Sie Fehler und fehlende Unterlagen noch vor dem Entscheid korrigieren."
+      },
+      "sources": [
+        "ivg-57a",
+        "ivv-73ter",
+        "atsg-47"
+      ]
+    },
+    {
+      "id": "objection-how",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "pre-decision"
+        ]
+      },
+      "text": {
+        "de": "Verlangen Sie sofort Einsicht in Ihre IV-Akten, besonders in Gutachten und ärztliche Stellungnahmen. Schreiben Sie in Ihrem Einwand, womit Sie nicht einverstanden sind und warum, und legen Sie neue Arztberichte bei. Die Frist ist eingehalten, wenn Ihr Einwand am letzten Tag bei der IV-Stelle ist oder der Schweizerischen Post übergeben wird. Schicken Sie ihn eingeschrieben, damit Sie das belegen können."
+      },
+      "sources": [
+        "atsg-47",
+        "atsg-39"
+      ]
+    },
+    {
+      "id": "appeal",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "pre-decision",
+          "decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen die Verfügung der IV-Stelle gibt es keine Einsprache. Sie können direkt beim kantonalen Versicherungsgericht am Ort der IV-Stelle Beschwerde erheben, und zwar innert 30 Tagen nach Eröffnung der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Sie ist eingehalten, wenn Sie die Beschwerde spätestens am letzten Tag der Frist dem Gericht einreichen oder der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder anerkannten Feiertag, endet die Frist am nächsten Werktag. Vom siebten Tag vor bis zum siebten Tag nach Ostern, vom 15. Juli bis 15. August und vom 18. Dezember bis 2. Januar steht die Frist still. Wie das Gericht heisst und wo es ist, ist von Kanton zu Kanton verschieden; es steht in der Rechtsmittelbelehrung am Schluss der Verfügung."
+      },
+      "sources": [
+        "ivg-69",
+        "atsg-60",
+        "atsg-38",
+        "atsg-39",
+        "atsg-49"
+      ]
+    },
+    {
+      "id": "appeal-content",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "decision"
+        ]
+      },
+      "text": {
+        "de": "Die Beschwerde muss kurz schildern, worum es geht, einen Antrag enthalten, zum Beispiel dass die Verfügung aufgehoben und Ihnen eine Rente zugesprochen wird, und kurz begründet sein. Legen Sie die Verfügung und Ihre Beweismittel bei. Fehlt etwas, gibt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht ist an Ihre Anträge nicht gebunden und kann die Verfügung auch zu Ihrem Nachteil ändern. Vorher muss es Sie aber anhören und Ihnen die Möglichkeit geben, die Beschwerde zurückzuziehen."
+      },
+      "sources": [
+        "atsg-61"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Die Abklärungen, die die IV anordnet, bezahlt die Versicherung. Kosten können Ihnen nur auferlegt werden, wenn Sie Abklärungen trotz Aufforderung und Warnung unentschuldbar verhindern oder erschweren. Die Beschwerde beim kantonalen Versicherungsgericht ist kostenpflichtig: Das Gericht legt die Kosten nach Aufwand auf 200 bis 1000 Franken fest, unabhängig davon, um wie viel Geld es geht. Gewinnen Sie, haben Sie Anspruch auf Ersatz Ihrer Parteikosten, zum Beispiel für eine Anwältin oder einen Anwalt. Fehlt Ihnen das Geld und ist Ihr Anliegen nicht aussichtslos, können Sie unentgeltliche Rechtspflege und einen unentgeltlichen Rechtsbeistand beantragen. Einen unentgeltlichen Rechtsbeistand gibt es schon im Verfahren bei der IV-Stelle, wenn die Verhältnisse es erfordern."
+      },
+      "sources": [
+        "atsg-45",
+        "ivg-69",
+        "atsg-61",
+        "atsg-37",
+        "bv-29"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn die IV-Stelle Ihnen eine Rente ganz oder teilweise verweigern will, wenn Sie mit einem Gutachten nicht einverstanden sind, wenn Ihnen eine Kürzung der Leistungen angedroht wird, oder wenn gleichzeitig Fragen zu Pensionskasse, Krankentaggeld, Unfallversicherung oder Kündigung offen sind. Warten Sie damit nicht bis kurz vor Fristablauf: Für den Einwand gegen den Vorbescheid und für die Beschwerde haben Sie je nur 30 Tage."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die IV-Stelle Ihres Wohnkantons informiert über Anmeldung und Verfahren. Behindertenorganisationen wie Procap, Pro Infirmis oder Inclusion Handicap bieten Sozialberatung und teilweise Rechtsberatung an, manchmal nur für Mitglieder. Sozialdienste von Gemeinden und Spitälern helfen oft beim Ausfüllen der Anmeldung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+      }
+    }
+  ],
+  "sources": {
+    "ivg-3a": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "3a",
+      "label": "IVG · Art. 3a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_3a",
+      "sha256": "37a77c17f5a38ff839e285b1450d38b3c637dfcba201ca748edce73afcf10a38"
+    },
+    "ivg-3abis": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "3abis",
+      "label": "IVG · Art. 3abis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_3abis",
+      "sha256": "f989646400d9e1519008e10e86d25bcf69efa258dbe5cf38ea8185a9b956a6c2"
+    },
+    "ivg-3b": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "3b",
+      "label": "IVG · Art. 3b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_3b",
+      "sha256": "1f5739e8587369ba7c07171533b519837c027cd0ab3ea91e084b4105764cd0ba"
+    },
+    "ivg-3c": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "3c",
+      "label": "IVG · Art. 3c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_3c",
+      "sha256": "660ba643a8cf8e5f6786a4ecf5ecd1bd60bf18ff148783d79905fdf8f7f9c73d"
+    },
+    "ivg-7": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "7",
+      "label": "IVG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_7",
+      "sha256": "a20609d0202db946b37c49157e289e6691081bdf03c24acf25834666e607d425"
+    },
+    "ivg-7b": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "7b",
+      "label": "IVG · Art. 7b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_7b",
+      "sha256": "5e58f075ccc112f6090d975b0683e92519d5cde1133bb453614185e700ad9be1"
+    },
+    "ivg-7d": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "7d",
+      "label": "IVG · Art. 7d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_7d",
+      "sha256": "f08344b2a950cbc3169aa6bd513628cb5112e7356698b43f3862cc9e95231e86"
+    },
+    "ivg-8": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "8",
+      "label": "IVG · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_8",
+      "sha256": "0a85c4a653f28dae48e916b6228f6df29098c21b56b4ef993068a254e820d04e"
+    },
+    "ivg-10": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "10",
+      "label": "IVG · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_10",
+      "sha256": "f184aa8b1ce1b1ddec36e5d14c1ba999f40dfef50ba569ddb377314ae34a1ae9"
+    },
+    "ivg-28": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "28",
+      "label": "IVG · Art. 28",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_28",
+      "sha256": "1046516582aa1ad9532a153d2fb5621398e7c62ddcb3eeef23c3d8d342f994e4"
+    },
+    "ivg-28b": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "28b",
+      "label": "IVG · Art. 28b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_28b",
+      "sha256": "b7b98b901def9f90d07a9420638c363e51afed3b808e3babce86443e69926ba2"
+    },
+    "ivg-29": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "29",
+      "label": "IVG · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_29",
+      "sha256": "f4893a447fdf7f1bbc54ca633931856a65480c068f52582a37e82e9a1dfdbdbd"
+    },
+    "ivg-55": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "55",
+      "label": "IVG · Art. 55",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_55",
+      "sha256": "af7a94b094d8ee68605efd1ce3624a7e86b9acafefc20baeea06eff134571cf4"
+    },
+    "ivg-57a": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "57a",
+      "label": "IVG · Art. 57a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_57a",
+      "sha256": "9ef2441c05b7ee72300db8edf63f9856df2223233c4d53bd9fd1ab4f2a9e5c5b"
+    },
+    "ivg-69": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "69",
+      "label": "IVG · Art. 69",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_69",
+      "sha256": "2f5dbaae1af4c5ff87df0fec1f49583e76a1d99ed6b370f04160688dec9d0e37"
+    },
+    "ivv-1quater": {
+      "type": "statute",
+      "sr": "831.201",
+      "article": "1quater",
+      "label": "IVV · Art. 1quater",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1961/29_29_29/de#art_1quater",
+      "sha256": "9fc63000f815026060e4b35de4cadf930e334dcb989fefebe4fc929e75b7574d"
+    },
+    "ivv-40": {
+      "type": "statute",
+      "sr": "831.201",
+      "article": "40",
+      "label": "IVV · Art. 40",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1961/29_29_29/de#art_40",
+      "sha256": "ea0b98db7a373c33d7868b08533833dd9a529db9cbbba82d29b457ed370f0500"
+    },
+    "ivv-73ter": {
+      "type": "statute",
+      "sr": "831.201",
+      "article": "73ter",
+      "label": "IVV · Art. 73ter",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1961/29_29_29/de#art_73ter",
+      "sha256": "2098a9140c22b1b3b4e8eb38aeb435348843f33655e3584f2adac6b2a583a89d"
+    },
+    "atsg-7": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "7",
+      "label": "ATSG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_7",
+      "sha256": "0f1118d37640bf11b973b27e6abfc9229e3f7efd2d5905f1d56fa16b5cc10c54"
+    },
+    "atsg-8": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "8",
+      "label": "ATSG · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_8",
+      "sha256": "fbb843dfaf1d79d030186ea626f758e0742a0851f1dc0abc02a85b59e5695d68"
+    },
+    "atsg-21": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "21",
+      "label": "ATSG · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_21",
+      "sha256": "1158f754413cf62050741efdd7e874db813b15facaff20c69f10c67dafbbbcf6"
+    },
+    "atsg-28": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "28",
+      "label": "ATSG · Art. 28",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_28",
+      "sha256": "5b81abb2659716b1dac0f23e9679a11faa6b737b78c4b4e8e9e0c7ee48a087e0"
+    },
+    "atsg-29": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "29",
+      "label": "ATSG · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_29",
+      "sha256": "e59013bdbda8348e6a132df1d2b212792a35a9c8b61d75d8e286da708015b88e"
+    },
+    "atsg-31": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "31",
+      "label": "ATSG · Art. 31",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_31",
+      "sha256": "21a56e62be13a0d4e40160f4d121e0bb15a583b8800ce15e6d9c8b813094ed9f"
+    },
+    "atsg-37": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "37",
+      "label": "ATSG · Art. 37",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_37",
+      "sha256": "00232b14e344827a12be5b283a6a2055db79f8c6e71f17c34f4d3524bb930eea"
+    },
+    "atsg-38": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "38",
+      "label": "ATSG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38",
+      "sha256": "217553f9ceb68e6918228f6dc8a9d82a55113dda82477e1d3df4cb1d13eb42ff"
+    },
+    "atsg-39": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "39",
+      "label": "ATSG · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39",
+      "sha256": "f36ab1046e28439f454d3def4b1e74630b3483d0d78aed818bf6aae86619511d"
+    },
+    "atsg-43": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "43",
+      "label": "ATSG · Art. 43",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_43",
+      "sha256": "b99cafd3c723921590e471a89b3870c706051da1dabb109a2b90fb18c54d6519"
+    },
+    "atsg-45": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "45",
+      "label": "ATSG · Art. 45",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_45",
+      "sha256": "c06c2bf6479d0268574c35c8ae747bb58b508bad71f0f21154194a1b5ca10723"
+    },
+    "atsg-47": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "47",
+      "label": "ATSG · Art. 47",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_47",
+      "sha256": "11b90222fb5ce1485814f0cb4986d5ecb571a7991d1f984437e0ea1315a784ea"
+    },
+    "atsg-49": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "49",
+      "label": "ATSG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_49",
+      "sha256": "b8e54caafbcfcc5995be7bb611cc62afc409b40ecf6b66f7c2644c8b39cef6d7"
+    },
+    "atsg-60": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "60",
+      "label": "ATSG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_60",
+      "sha256": "ab000f5ea37a5e0de9ccb6b5da45767a50cf87a0520a996c794c7703031386be"
+    },
+    "atsg-61": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "61",
+      "label": "ATSG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_61",
+      "sha256": "bfcd579d997ba4f6e8dc23876f903ee0f307b95f32bf5302d45ba3f164ed5a2c"
+    },
+    "bv-29": {
+      "type": "statute",
+      "sr": "101",
+      "article": "29",
+      "label": "BV · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_29",
+      "sha256": "50280ceb6b3ce862d8db477b1915ecb2a07aa51d1f504d45ba22226b27cdf71d"
+    },
+    "bge-141-v-281-e3-6": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_V_281",
+      "citation": "BGE 141 V 281",
+      "e": "3.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_V_281#e-3-6"
+    },
+    "bge-141-v-281-e3-7-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_V_281",
+      "citation": "BGE 141 V 281",
+      "e": "3.7.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_V_281#e-3-7-2"
+    },
+    "bge-141-v-281-e4-1-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_V_281",
+      "citation": "BGE 141 V 281",
+      "e": "4.1.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_V_281#e-4-1-3"
+    },
+    "bge-143-v-418": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_V_418",
+      "citation": "BGE 143 V 418",
+      "e": "7.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_V_418#e-7-2"
+    },
+    "bge-142-v-547": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_V_547",
+      "citation": "BGE 142 V 547",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_V_547#e-3-2"
+    },
+    "bger-9c-324-2021": {
+      "type": "decision",
+      "decision_id": "bger_9C_324_2021",
+      "citation": "BGer 9C_324/2021 vom 16. September 2021",
+      "e": "5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_324_2021#e-5-2"
+    },
+    "bger-9c-324-2021-e5-5": {
+      "type": "decision",
+      "decision_id": "bger_9C_324_2021",
+      "citation": "BGer 9C_324/2021 vom 16. September 2021",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_324_2021#e-5-5"
+    },
+    "bger-9c-324-2021-e5-6": {
+      "type": "decision",
+      "decision_id": "bger_9C_324_2021",
+      "citation": "BGer 9C_324/2021 vom 16. September 2021",
+      "e": "5.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_9C_324_2021#e-5-6"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "AHV/IV-Informationsstelle: Adressen der kantonalen IV-Stellen"
+      },
+      "url": "https://www.ahv-iv.ch/de/Kontakte/IV-Stellen"
+    },
+    {
+      "label": {
+        "de": "AHV/IV-Informationsstelle: Formulare für die Anmeldung bei der IV"
+      },
+      "url": "https://www.ahv-iv.ch/de/Merkbl%C3%A4tter-Formulare/Formulare/Leistungen-der-IV"
+    },
+    {
+      "label": {
+        "de": "AHV/IV-Informationsstelle: Invalidenversicherung (IV)"
+      },
+      "url": "https://www.ahv-iv.ch/de/Sozialversicherungen/Invalidenversicherung-IV"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

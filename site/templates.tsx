@@ -4,7 +4,7 @@ import { applicableBlocks, localText, type KnowledgeLanguage, type Situation } f
 import { BLOCK_ORDER, byImportance, LETTERS, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { CANTONS, DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
-import { LATER, WAVE_1, type CoverageGroup } from '../lib/swisslaw-chat/coverage';
+import { LATER, WAVE_1, WAVE_2, type CoverageGroup } from '../lib/swisslaw-chat/coverage';
 import { formatDate } from './format';
 
 export const REPO = 'https://github.com/jonashertner/swisslaw';
@@ -137,8 +137,9 @@ export function IndexBody({ ctx, groups, examples }: { ctx: Ctx; groups: { area:
 // Live means public. Topic names only, never draft text.
 export function TopicsBody({ ctx, live }: { ctx: Ctx; live: Situation[] }) {
   const liveIds = new Set(live.map(s => s.id));
-  const next = WAVE_1.map(g => ({ ...g, topics: g.topics.filter(x => !liveIds.has(x.id!)) })).filter(g => g.topics.length);
-  const liveGroups = WAVE_1.map(g => ({ area: g.area, items: live.filter(s => g.topics.some(x => x.id === s.id)) })).filter(g => g.items.length);
+  const drafted = [...WAVE_1, ...WAVE_2];
+  const next = drafted.map(g => ({ ...g, topics: g.topics.filter(x => !liveIds.has(x.id!)) })).filter(g => g.topics.length);
+  const liveGroups = drafted.map(g => ({ area: g.area, items: live.filter(s => g.topics.some(x => x.id === s.id)) })).filter(g => g.items.length);
   const cards = (groups: readonly CoverageGroup[]) => (
     <div className="topic-grid">
       {groups.map(g => (

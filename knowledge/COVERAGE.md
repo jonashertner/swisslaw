@@ -32,9 +32,20 @@ Status: ● public · ◐ live review · ○ draft · · planned
 
 ## Wave 2 — family, inheritance, social insurance and protection
 
-- **Family:** separation, divorce basics, child maintenance, parental care and contact. Situations here point to personal advice early.
+| Area | Situation id | Question in plain words | Status |
+| --- | --- | --- | --- |
+| Family | `family.separation` | We are separating. What needs to be settled? | ○ |
+| Family | `family.divorce` | I want a divorce. How does it work? | ○ |
+| Family | `family.child-maintenance` | Child maintenance: how much, and what if it is not paid? | ○ |
+| Family | `family.parental-care` | Custody and contact: what applies to our child? | ○ |
+| Social insurance | `social.unemployment` | I am losing my job. What must I do, and what are suspension days? | ○ |
+| Social insurance | `social.invalidity-application` | My health stops me working. Should I register with invalidity insurance (IV)? | ○ |
+| Social insurance | `social.work-accident` | I had an accident. What does accident insurance pay? | ○ |
+| Social insurance | `social.ahv-gaps` | Do I have gaps in my AHV, and can I close them? | ○ |
+
+Family situations point to personal advice early. Still planned in this wave:
+
 - **Inheritance:** making a will, compulsory shares, refusing an inheritance (three months), debts of the deceased, advance care directive.
-- **Social insurance:** registering as unemployed and benefit suspensions, invalidity insurance application, accident at work, AHV contribution gaps.
 - **Health insurance:** refusal to pay a bill, changing insurer and its deadlines, supplementary insurance disputes.
 - **Protection:** victim support (Opferhilfe), rights when questioned by the police, domestic violence (safety first).
 - **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.

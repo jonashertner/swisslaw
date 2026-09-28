@@ -22,6 +22,8 @@ export const SITUATION_ORDER: readonly string[] = [
   'traffic.penalty-order', 'traffic.fixed-fine',
   'admin.decision-appeal', 'admin.tax-assessment',
   'data.access-request',
+  'family.separation', 'family.divorce', 'family.child-maintenance', 'family.parental-care',
+  'social.unemployment', 'social.invalidity-application', 'social.work-accident', 'social.ahv-gaps',
 ];
 export function byImportance(a: { id: string }, b: { id: string }): number {
   const rank = (id: string) => { const i = SITUATION_ORDER.indexOf(id); return i < 0 ? SITUATION_ORDER.length : i; };
