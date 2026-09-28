@@ -69,7 +69,7 @@ export function Foot({ ctx }: { ctx: Ctx }) {
       </ul>
       <div className="foot-fine">
         <p>{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
-        <a href="https://jonashertner.com" className="foot-credit">jonashertner.com</a>
+        <p className="foot-credit">{t(ctx, 'sponsoredBy')} <a href="https://jonashertner.com">jonashertner.com</a></p>
       </div>
     </footer>
   );
