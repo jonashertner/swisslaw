@@ -234,8 +234,9 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .foot-fine{font-size:.8125rem;line-height:1.55;padding-top:20px;border-top:1px solid var(--hair)}
 .foot-fine{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 32px}
 .foot-fine p{max-width:48rem}
-.foot .foot-credit{color:var(--ink-3);text-decoration:none;white-space:nowrap}
-.foot .foot-credit:hover{color:var(--ink-2)}
+.foot .foot-credit{color:var(--ink-3);white-space:nowrap;opacity:.6;transition:opacity .15s}
+.foot .foot-credit:hover{opacity:1}
+.foot .foot-credit a{text-decoration:none}
 .foot a{color:inherit}
 
 @media (max-width:759px){
