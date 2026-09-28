@@ -58,8 +58,8 @@ write(jsPath, Buffer.from(js));
 
 // --- page shell -------------------------------------------------------------------
 const CLIENT_KEYS: SiteKey[] = ['enterDate', 'calcPending', 'noDate', 'actUntil', 'today', 'dayLeft', 'daysLeft', 'expired', 'urgent', 'couldBeLater',
-  'later_next_day_receipt', 'later_candidate_holidays', 'later_both', 'cantonHint', 'howCalculated', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied', 'submitThanks', 'submitError', 'submitUnavailable', 'submitTooShort', 'submitTooMany',
-  ...(Object.keys(SITE_TEXT).filter(k => k.startsWith('note_')) as SiteKey[])];
+  'cantonHint', 'howCalculated', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied', 'submitThanks', 'submitError', 'submitUnavailable', 'submitTooShort', 'submitTooMany',
+  ...(Object.keys(SITE_TEXT).filter(k => k.startsWith('note_') || k.startsWith('later_')) as SiteKey[])];
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const jsonScript = (v: unknown) => JSON.stringify(v).replace(/</g, '\\u003c');
 const ROOT_SCRIPT = `try{var s=localStorage.getItem('swisslaw.lang');var l=s||(navigator.language||'de').slice(0,2).toLowerCase();if(['fr','it','rm','en'].indexOf(l)>-1)location.replace('/'+l+'/')}catch(e){}`;

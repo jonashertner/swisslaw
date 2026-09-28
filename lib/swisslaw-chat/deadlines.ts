@@ -25,8 +25,8 @@ export type DeadlineResult = {
   notes: NoteCode[];
   legalBasis: string[]; needsLawyer: boolean; daysLeft: number | null; urgent: boolean; expired: boolean;
 };
-export type NoteCode = 'absolute_receipt' | 'zb_collected' | 'zb_no_service' | 'ordinary_service_doubt' | 'notice_unknown_estimate' | 'fiction_assumed' | 'relative_deemed' | 'notice_unknown_collected' | 'served_in_ferien' | 'served_sunday' | 'expired';
-export type LaterCode = 'next_day_receipt' | 'candidate_holidays' | 'both';
+export type NoteCode = 'absolute_receipt' | 'zb_collected' | 'zb_no_service' | 'ordinary_service_doubt' | 'notice_unknown_estimate' | 'fiction_assumed' | 'relative_deemed' | 'notice_unknown_collected' | 'served_in_ferien' | 'served_sunday' | 'served_holiday' | 'expired';
+export type LaterCode = 'next_day_receipt' | 'candidate_holidays' | 'both' | 'closed_time' | 'closed_time_candidate';
 export class RuleNotSigned extends Error {}
 
 const DOCTRINES = new Set(['procedural_fiction', 'relative_receipt', 'absolute_receipt', 'personal_service', 'event']);
@@ -136,7 +136,8 @@ const cite = (lb: LegalBasis) => `Art. ${lb.article}${lb.paragraph ? ` Abs. ${lb
 
 // --- receipt ---------------------------------------------------------------
 // Candidate receipt days, earliest first. The first is binding; later ones feed couldBeLater.
-function receipts(rule: DeadlineRule, d: Delivery, res: DeadlineResult): [number, string][] {
+type Receipt = [day: number, why: string, code?: LaterCode];
+function receipts(rule: DeadlineRule, d: Delivery, res: DeadlineResult): Receipt[] {
   const doctrine = rule.receipt_doctrine;
   if (doctrine === 'event') {
     if (d.method !== 'event' || !d.date) throw new Error(`EVENT_REQUIRED ${rule.id}`);
@@ -206,6 +207,11 @@ function schkg63(end: number, rawEnd: number, hol: Set<number>, trace: string[])
   trace.push(`end falls in Betreibungsferien ${toIso(w[0])}–${toIso(w[1])}: extended to the 3rd working day after them (SchKG 63) = ${toIso(day)}`);
   return day;
 }
+// SchKG 56 Abs. 1: a Betreibungshandlung on a Sunday, a public holiday or in the Betreibungsferien
+// is not void; it takes effect on the first day after that closed period (BGE 121 III 284 E. 2b).
+// Saturdays are not closed.
+const isClosed = (day: number, hol: Set<number>) => isSunday(day) || hol.has(day) || ferienContaining(day) !== null;
+function firstOpenDay(day: number, hol: Set<number>): number { do day += 1; while (isClosed(day, hol)); return day; }
 function endDay(rule: DeadlineRule, receipt: number, hol: Set<number>, trace: string[]): number {
   const rawEnd = receipt + rule.duration_days;
   trace.push(`receipt ${toIso(receipt)} + ${rule.duration_days} days = ${toIso(rawEnd)} (counting starts the next day)`);
@@ -231,23 +237,32 @@ export function computeDeadline(ruleId: string, delivery: Delivery, canton: stri
   if (!rs.length) return res;
   const receipt = rs[0][0];
   res.receiptDate = toIso(receipt);
-  if (rule.schkg_63_extension) {
-    if (ferienContaining(receipt)) { res.needsLawyer = true; res.warnings.push('Served during Betreibungsferien (SchKG 56): lawyer to check the start date.'); res.notes.push('served_in_ferien'); }
-    if (isSunday(receipt)) { res.needsLawyer = true; res.warnings.push('Served on a Sunday (SchKG 56 Ziff. 1): lawyer to check the start date.'); res.notes.push('served_sunday'); }
-  }
   const years = [yearOf(receipt), yearOf(receipt) + 1];
   const certain = holidaySet(c, years, false);
   const broad = holidaySet(c, years, true);
+  if (rule.schkg_63_extension && isClosed(receipt, broad)) {
+    // The binding date still runs from the day of service: some decisions treat such service as
+    // merely open to complaint rather than deferred. The deferred start is reported as the later date.
+    const [note, what]: [NoteCode, string] = ferienContaining(receipt) ? ['served_in_ferien', 'during Betreibungsferien']
+      : isSunday(receipt) ? ['served_sunday', 'on a Sunday'] : ['served_holiday', 'on a public holiday'];
+    res.notes.push(note);
+    res.warnings.push(`Served ${what} (SchKG 56 Abs. 1): service takes effect only on the first day after (BGE 121 III 284 E. 2b); the binding date still counts from the day of service.`);
+    for (const hol of [certain, broad]) {
+      if (!isClosed(receipt, hol)) continue;
+      const open = firstOpenDay(receipt, hol);
+      if (!rs.some(([day]) => day === open)) rs.push([open, `service takes effect on ${toIso(open)}, the first day after the closed period`, hol === certain ? 'closed_time' : 'closed_time_candidate']);
+    }
+  }
   const binding = endDay(rule, receipt, certain, res.trace);
   res.bindingDue = toIso(binding);
   const later = new Map<number, { reason: string; code: LaterCode }>();
-  for (const [r, why] of rs) {
+  for (const [r, why, code] of rs) {
     for (const [hol, label] of [[certain, null], [broad, "if the canton's candidate holidays apply"]] as const) {
       const end = endDay(rule, r, hol, []);
       const nextDay = r !== receipt;
       if (end > binding && !later.has(end)) later.set(end, {
         reason: [nextDay ? why : null, label].filter(Boolean).join('; '),
-        code: nextDay && label ? 'both' : nextDay ? 'next_day_receipt' : 'candidate_holidays',
+        code: code === 'closed_time' && label ? 'closed_time_candidate' : code ?? (nextDay && label ? 'both' : nextDay ? 'next_day_receipt' : 'candidate_holidays'),
       });
     }
   }
