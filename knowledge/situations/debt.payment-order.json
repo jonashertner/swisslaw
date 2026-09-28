@@ -7,11 +7,13 @@
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Ich habe einen Zahlungsbefehl erhalten",
-    "fr": "J’ai reçu un commandement de payer"
+    "fr": "J’ai reçu un commandement de payer",
+    "it": "Ho ricevuto un precetto esecutivo"
   },
   "summary": {
     "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter.",
-    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, la poursuite suit son cours après 20 jours."
+    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, la poursuite suit son cours après 20 jours.",
+    "it": "Lei può fermare un’esecuzione facendo opposizione. Ha a disposizione solo 10 giorni per farlo, e non deve motivare l’opposizione. Senza opposizione, l’esecuzione prosegue dopo 20 giorni."
   },
   "examples": {
     "de": [
@@ -29,16 +31,26 @@
       "Puis-je contester seulement une partie de la créance ?",
       "J’ai reçu un commandement de payer de l’office des poursuites, qu’est-ce que je dois faire ?",
       "Un commandement de payer apparaît-il dans un extrait du registre des poursuites ?"
+    ],
+    "it": [
+      "Ho ricevuto un precetto esecutivo, cosa devo fare adesso?",
+      "Cos’è un’opposizione e quanto tempo ho a disposizione?",
+      "Devo pagare comunque un credito che ritengo infondato?",
+      "Posso contestare solo una parte del credito?",
+      "Ho ricevuto un precetto esecutivo dall’ufficio d’esecuzione, cosa devo fare?",
+      "Un precetto esecutivo compare in un estratto del registro delle esecuzioni?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung).",
-      "fr": "Un commandement de payer de l’office des poursuites pour une créance d’argent (poursuite ordinaire)."
+      "fr": "Un commandement de payer de l’office des poursuites pour une créance d’argent (poursuite ordinaire).",
+      "it": "Un precetto esecutivo dell’ufficio d’esecuzione per un credito pecuniario (esecuzione ordinaria)."
     },
     "excludes": {
       "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst.",
-      "fr": "La poursuite pour effets de change, les procédures de saisie ou de faillite déjà en cours, ainsi que la procédure judiciaire de mainlevée ou d’action elle-même."
+      "fr": "La poursuite pour effets de change, les procédures de saisie ou de faillite déjà en cours, ainsi que la procédure judiciaire de mainlevée ou d’action elle-même.",
+      "it": "L’esecuzione cambiaria, le procedure di pignoramento o di fallimento già in corso, nonché la procedura giudiziaria di rigetto dell’opposizione o di azione in giudizio stessa."
     }
   },
   "facts": [
@@ -46,28 +58,32 @@
       "key": "stage",
       "question": {
         "de": "In welcher Phase der Betreibung befinden Sie sich?",
-        "fr": "À quel stade de la poursuite vous trouvez-vous ?"
+        "fr": "À quel stade de la poursuite vous trouvez-vous ?",
+        "it": "In quale fase dell’esecuzione si trova?"
       },
       "options": [
         {
           "value": "payment-order",
           "label": {
             "de": "Ich habe gerade einen Zahlungsbefehl erhalten",
-            "fr": "Je viens de recevoir un commandement de payer"
+            "fr": "Je viens de recevoir un commandement de payer",
+            "it": "Ho appena ricevuto un precetto esecutivo"
           }
         },
         {
           "value": "later",
           "label": {
             "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten",
-            "fr": "J’ai déjà reçu un avis de saisie ou une commination de faillite"
+            "fr": "J’ai déjà reçu un avis de saisie ou une commination de faillite",
+            "it": "Ho già ricevuto un avviso di pignoramento o una comminatoria di fallimento"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich bin nicht sicher",
-            "fr": "Je n’en ai pas la certitude"
+            "fr": "Je n’en ai pas la certitude",
+            "it": "Non ne sono sicuro"
           }
         }
       ]
@@ -76,35 +92,40 @@
       "key": "dispute",
       "question": {
         "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?",
-        "fr": "Voulez-vous contester la créance (former opposition) ?"
+        "fr": "Voulez-vous contester la créance (former opposition) ?",
+        "it": "Vuole contestare il credito (fare opposizione)?"
       },
       "options": [
         {
           "value": "all",
           "label": {
             "de": "Ja, die ganze Forderung",
-            "fr": "Oui, la totalité de la créance"
+            "fr": "Oui, la totalité de la créance",
+            "it": "Sì, l’intero credito"
           }
         },
         {
           "value": "partial",
           "label": {
             "de": "Ja, aber nur einen Teil",
-            "fr": "Oui, mais seulement une partie"
+            "fr": "Oui, mais seulement une partie",
+            "it": "Sì, ma solo una parte"
           }
         },
         {
           "value": "no",
           "label": {
             "de": "Nein, ich will nicht bestreiten",
-            "fr": "Non, je ne veux pas contester"
+            "fr": "Non, je ne veux pas contester",
+            "it": "No, non voglio contestare"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es noch nicht",
-            "fr": "Je ne sais pas encore"
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora"
           }
         }
       ]
@@ -113,32 +134,37 @@
       "key": "partial_amount",
       "question": {
         "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?",
-        "fr": "Si vous ne contestez que partiellement : savez-vous exactement quel montant vous reconnaissez et lequel vous contestez ?"
+        "fr": "Si vous ne contestez que partiellement : savez-vous exactement quel montant vous reconnaissez et lequel vous contestez ?",
+        "it": "Se contesta solo parzialmente: sa esattamente quale importo riconosce e quale contesta?"
       },
       "help": {
         "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist.",
-        "fr": "Par exemple parce qu’une partie de la créance est déjà payée ou prescrite."
+        "fr": "Par exemple parce qu’une partie de la créance est déjà payée ou prescrite.",
+        "it": "Ad esempio perché una parte del credito è già stata pagata o è prescritta."
       },
       "options": [
         {
           "value": "yes",
           "label": {
             "de": "Ja",
-            "fr": "Oui"
+            "fr": "Oui",
+            "it": "Sì"
           }
         },
         {
           "value": "no",
           "label": {
             "de": "Nein, das ist mir noch nicht klar",
-            "fr": "Non, ce n’est pas encore clair pour moi"
+            "fr": "Non, ce n’est pas encore clair pour moi",
+            "it": "No, non mi è ancora chiaro"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es noch nicht",
-            "fr": "Je ne sais pas encore"
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora"
           }
         }
       ]
@@ -147,28 +173,32 @@
       "key": "register_concern",
       "question": {
         "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?",
-        "fr": "Est-il important pour vous de savoir si des tiers (p. ex. lors d’une candidature à un logement) peuvent voir ce commandement de payer dans un extrait du registre des poursuites ?"
+        "fr": "Est-il important pour vous de savoir si des tiers (p. ex. lors d’une candidature à un logement) peuvent voir ce commandement de payer dans un extrait du registre des poursuites ?",
+        "it": "Le importa se terzi (ad es. in occasione di una candidatura per un alloggio) possano vedere il precetto esecutivo in un estratto del registro delle esecuzioni?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
             "de": "Ja",
-            "fr": "Oui"
+            "fr": "Oui",
+            "it": "Sì"
           }
         },
         {
           "value": "no",
           "label": {
             "de": "Nein",
-            "fr": "Non"
+            "fr": "Non",
+            "it": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es nicht",
-            "fr": "Je ne sais pas"
+            "fr": "Je ne sais pas",
+            "it": "Non lo so"
           }
         }
       ]
@@ -185,7 +215,8 @@
       },
       "text": {
         "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen.",
-        "fr": "Si vous avez déjà reçu un avis de saisie ou une commination de faillite, la poursuite est déjà plus avancée qu’au stade d’un simple commandement de payer. Ce guide ne couvre pas cette phase. Adressez-vous immédiatement à un service de désendettement ou à une avocate ou un avocat, car des délais courts peuvent aussi courir à ce stade."
+        "fr": "Si vous avez déjà reçu un avis de saisie ou une commination de faillite, la poursuite est déjà plus avancée qu’au stade d’un simple commandement de payer. Ce guide ne couvre pas cette phase. Adressez-vous immédiatement à un service de désendettement ou à une avocate ou un avocat, car des délais courts peuvent aussi courir à ce stade.",
+        "it": "Se lei ha già ricevuto un avviso di pignoramento o una comminatoria di fallimento, l’esecuzione è già più avanzata rispetto a un semplice precetto esecutivo. Questa guida non copre questa fase. Si rivolga subito a un servizio di consulenza in materia di debiti o a un legale, perché anche qui possono decorrere termini brevi."
       }
     },
     {
@@ -199,7 +230,8 @@
       },
       "text": {
         "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch.",
-        "fr": "Le délai le plus important : si vous voulez contester la créance en tout ou en partie, vous devez former opposition dans les 10 jours suivant la notification du commandement de payer. Vous pouvez la déclarer immédiatement, oralement, à la personne qui vous a remis le commandement de payer, ou, dans les 10 jours, la déclarer oralement ou par écrit à l’office des poursuites. Vous n’avez pas à motiver l’opposition. Le moment exact où le délai se termine dépend de la date de notification et des féries des poursuites ; notre calculateur de délais en tient compte automatiquement."
+        "fr": "Le délai le plus important : si vous voulez contester la créance en tout ou en partie, vous devez former opposition dans les 10 jours suivant la notification du commandement de payer. Vous pouvez la déclarer immédiatement, oralement, à la personne qui vous a remis le commandement de payer, ou, dans les 10 jours, la déclarer oralement ou par écrit à l’office des poursuites. Vous n’avez pas à motiver l’opposition. Le moment exact où le délai se termine dépend de la date de notification et des féries des poursuites ; notre calculateur de délais en tient compte automatiquement.",
+        "it": "Il termine più importante: se vuole contestare il credito in tutto o in parte, deve fare opposizione entro 10 giorni dalla notificazione del precetto esecutivo. Può dichiararla subito, verbalmente, alla persona che le ha consegnato il precetto esecutivo, oppure dichiararla, verbalmente o per scritto, all’ufficio d’esecuzione entro i 10 giorni. Non deve motivare l’opposizione. La data esatta in cui scade il termine dipende dalla data di notificazione e dalle ferie esecutive; il nostro calcolatore di termini ne tiene conto automaticamente."
       },
       "sources": [
         "schkg-74"
@@ -219,7 +251,8 @@
       },
       "text": {
         "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag.",
-        "fr": "Examinez attentivement le commandement de payer. Il contient les indications de la réquisition de poursuite, la sommation de payer la créance avec les frais de poursuite dans les 20 jours, ainsi que l’avis que vous pouvez former opposition dans les 10 jours. Ces deux délais sont différents : les 20 jours concernent le paiement, les 10 jours l’opposition."
+        "fr": "Examinez attentivement le commandement de payer. Il contient les indications de la réquisition de poursuite, la sommation de payer la créance avec les frais de poursuite dans les 20 jours, ainsi que l’avis que vous pouvez former opposition dans les 10 jours. Ces deux délais sont différents : les 20 jours concernent le paiement, les 10 jours l’opposition.",
+        "it": "Esamini attentamente il precetto esecutivo. Esso contiene le indicazioni della domanda d’esecuzione, l’ingiunzione di pagare il credito con le spese d’esecuzione entro 20 giorni, nonché l’avvertenza che lei può fare opposizione entro 10 giorni. Questi due termini sono diversi: i 20 giorni riguardano il pagamento, i 10 giorni l’opposizione."
       },
       "sources": [
         "schkg-69"
@@ -237,7 +270,8 @@
       },
       "text": {
         "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände.",
-        "fr": "Vous n’avez besoin d’aucun motif pour former opposition. Vous pouvez aussi la former si vous ne savez pas encore exactement comment vous voulez contester la créance. Si vous la motivez quand même, cela ne vous fait perdre aucun autre moyen de contestation."
+        "fr": "Vous n’avez besoin d’aucun motif pour former opposition. Vous pouvez aussi la former si vous ne savez pas encore exactement comment vous voulez contester la créance. Si vous la motivez quand même, cela ne vous fait perdre aucun autre moyen de contestation.",
+        "it": "Per l’opposizione non le serve alcun motivo. Può farla anche se non sa ancora esattamente come intende contestare il credito. Se la motiva comunque, non perde per questo altre eccezioni."
       },
       "sources": [
         "schkg-75"
@@ -253,7 +287,8 @@
       },
       "text": {
         "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten.",
-        "fr": "Si vous ne voulez contester la créance que partiellement, vous devez indiquer exactement dans l’opposition quel montant vous reconnaissez et lequel vous contestez. Si vous n’indiquez aucun montant, la totalité de la créance est automatiquement réputée contestée."
+        "fr": "Si vous ne voulez contester la créance que partiellement, vous devez indiquer exactement dans l’opposition quel montant vous reconnaissez et lequel vous contestez. Si vous n’indiquez aucun montant, la totalité de la créance est automatiquement réputée contestée.",
+        "it": "Se vuole contestare il credito solo in parte, deve indicare esattamente nell’opposizione quale importo riconosce e quale contesta. Se non indica alcun importo, si considera automaticamente contestato l’intero credito."
       },
       "sources": [
         "schkg-74"
@@ -273,7 +308,8 @@
       },
       "text": {
         "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten.",
-        "fr": "Vous ne savez pas encore exactement quel montant reconnaître ? Rassemblez des pièces telles que factures, confirmations de paiement ou correspondance, et indiquez le montant contesté dans l’opposition aussi précisément que possible. Si vous n’y parvenez pas, cela ne joue pas en votre défaveur : sans indication de montant, la totalité de la créance est simplement réputée contestée."
+        "fr": "Vous ne savez pas encore exactement quel montant reconnaître ? Rassemblez des pièces telles que factures, confirmations de paiement ou correspondance, et indiquez le montant contesté dans l’opposition aussi précisément que possible. Si vous n’y parvenez pas, cela ne joue pas en votre défaveur : sans indication de montant, la totalité de la créance est simplement réputée contestée.",
+        "it": "Non sa ancora esattamente quale importo riconoscere? Raccolga prove come fatture, conferme di pagamento o corrispondenza, e indichi nell’opposizione l’importo contestato nel modo più preciso possibile. Se non ci riesce, questo non le è di pregiudizio: senza l’indicazione di un importo, si considera semplicemente contestato l’intero credito."
       },
       "sources": [
         "schkg-74"
@@ -295,7 +331,8 @@
       },
       "text": {
         "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen.",
-        "fr": "Voici comment procéder : déclarez l’opposition immédiatement à la personne qui vous a remis le commandement de payer, ou adressez-vous, dans les 10 jours, à l’office des poursuites mentionné sur le commandement de payer. Une déclaration orale suffit, mais un courrier bref est plus sûr. Demandez une attestation de l’opposition ; l’office doit vous la délivrer gratuitement."
+        "fr": "Voici comment procéder : déclarez l’opposition immédiatement à la personne qui vous a remis le commandement de payer, ou adressez-vous, dans les 10 jours, à l’office des poursuites mentionné sur le commandement de payer. Une déclaration orale suffit, mais un courrier bref est plus sûr. Demandez une attestation de l’opposition ; l’office doit vous la délivrer gratuitement.",
+        "it": "Come procedere: dichiari l’opposizione subito alla persona che le ha consegnato il precetto esecutivo, oppure si rivolga entro 10 giorni all’ufficio d’esecuzione indicato nel precetto esecutivo. Una dichiarazione verbale è sufficiente, ma uno scritto breve è più sicuro. Chieda una conferma dell’opposizione; l’ufficio deve rilasciargliela gratuitamente."
       },
       "sources": [
         "schkg-74"
@@ -311,7 +348,8 @@
       },
       "text": {
         "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben.",
-        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, la poursuite suit automatiquement son cours à l’expiration du délai de paiement de 20 jours, sans que vous puissiez encore vous défendre. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance."
+        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, la poursuite suit automatiquement son cours à l’expiration du délai de paiement de 20 jours, sans que vous puissiez encore vous défendre. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance.",
+        "it": "Se non contesta il credito e non fa opposizione, l’esecuzione prosegue automaticamente dopo la scadenza del termine di pagamento di 20 giorni, senza che lei possa più difendersi. Paghi il credito con le spese d’esecuzione, oppure faccia opposizione entro il termine se ha dubbi sul credito."
       },
       "sources": [
         "schkg-69"
@@ -333,7 +371,8 @@
       },
       "text": {
         "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert.",
-        "fr": "Si vous avez formé opposition, la poursuite est provisoirement arrêtée. Le créancier ne peut la poursuivre que s’il obtient d’abord du tribunal la levée de l’opposition (mainlevée) ou s’il fait valoir sa prétention par voie d’action en justice. Pour une mainlevée définitive, le créancier a déjà besoin d’un jugement exécutoire ; pour une mainlevée provisoire, une reconnaissance de dette passée par acte authentique ou signée par vous suffit, à moins que vous ne rendiez immédiatement vraisemblables des objections. Sans l’une de ces voies, la poursuite reste bloquée."
+        "fr": "Si vous avez formé opposition, la poursuite est provisoirement arrêtée. Le créancier ne peut la poursuivre que s’il obtient d’abord du tribunal la levée de l’opposition (mainlevée) ou s’il fait valoir sa prétention par voie d’action en justice. Pour une mainlevée définitive, le créancier a déjà besoin d’un jugement exécutoire ; pour une mainlevée provisoire, une reconnaissance de dette passée par acte authentique ou signée par vous suffit, à moins que vous ne rendiez immédiatement vraisemblables des objections. Sans l’une de ces voies, la poursuite reste bloquée.",
+        "it": "Se lei ha fatto opposizione, l’esecuzione è per il momento bloccata. Il creditore può proseguirla solo se ottiene prima dal giudice l’eliminazione dell’opposizione (rigetto dell’opposizione) oppure fa valere la sua pretesa per via di azione. Per un rigetto definitivo dell’opposizione, il creditore ha già bisogno di una decisione giudiziaria esecutiva; per un rigetto provvisorio è sufficiente un riconoscimento di debito autenticato da atto pubblico o firmato da lei, a meno che lei non sollevi immediatamente eccezioni rese verosimili. Senza una di queste vie, l’esecuzione resta bloccata."
       },
       "sources": [
         "schkg-79",
@@ -352,7 +391,8 @@
       },
       "text": {
         "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung.",
-        "fr": "Un commandement de payer est consigné dans le registre de l’office des poursuites. Toute personne qui rend son intérêt vraisemblable peut consulter ce registre, par exemple dans le cadre de la conclusion d’un contrat comme une candidature à un logement."
+        "fr": "Un commandement de payer est consigné dans le registre de l’office des poursuites. Toute personne qui rend son intérêt vraisemblable peut consulter ce registre, par exemple dans le cadre de la conclusion d’un contrat comme une candidature à un logement.",
+        "it": "Un precetto esecutivo viene registrato nel registro dell’ufficio d’esecuzione. Chiunque renda verosimile un interesse può consultare questo registro, ad esempio in relazione alla conclusione di un contratto come una candidatura per un alloggio."
       },
       "sources": [
         "schkg-8a"
@@ -374,7 +414,8 @@
       },
       "text": {
         "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens.",
-        "fr": "Si vous avez formé opposition, vous pouvez demander à l’office des poursuites, au plus tôt trois mois après la notification du commandement de payer, que cette poursuite ne soit plus portée à la connaissance des tiers. L’office impartit alors au créancier un délai de 20 jours pour prouver qu’il a engagé à temps une procédure visant à faire écarter l’opposition. S’il n’y parvient pas, l’inscription reste cachée aux tiers. Le droit de consultation des tiers s’éteint de toute façon cinq ans après la clôture de la procédure."
+        "fr": "Si vous avez formé opposition, vous pouvez demander à l’office des poursuites, au plus tôt trois mois après la notification du commandement de payer, que cette poursuite ne soit plus portée à la connaissance des tiers. L’office impartit alors au créancier un délai de 20 jours pour prouver qu’il a engagé à temps une procédure visant à faire écarter l’opposition. S’il n’y parvient pas, l’inscription reste cachée aux tiers. Le droit de consultation des tiers s’éteint de toute façon cinq ans après la clôture de la procédure.",
+        "it": "Se lei ha fatto opposizione, può chiedere all’ufficio d’esecuzione, al più presto tre mesi dopo la notificazione del precetto esecutivo, che questa esecuzione non venga più comunicata a terzi. L’ufficio fissa allora al creditore un termine di 20 giorni per dimostrare di aver avviato tempestivamente una procedura per l’eliminazione dell’opposizione. Se non vi riesce, l’iscrizione resta nascosta ai terzi. Il diritto di consultazione dei terzi si estingue comunque cinque anni dopo la chiusura della procedura."
       },
       "sources": [
         "schkg-8a"
@@ -391,7 +432,8 @@
       },
       "text": {
         "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen.",
-        "fr": "L’opposition elle-même ne coûte rien. Si vous demandez une attestation que vous l’avez formée, l’office des poursuites doit vous la délivrer gratuitement."
+        "fr": "L’opposition elle-même ne coûte rien. Si vous demandez une attestation que vous l’avez formée, l’office des poursuites doit vous la délivrer gratuitement.",
+        "it": "L’opposizione in sé non costa nulla. Se chiede una conferma di averla fatta, l’ufficio d’esecuzione deve rilasciargliela gratuitamente."
       },
       "sources": [
         "schkg-74"
@@ -402,7 +444,8 @@
       "kind": "escalate",
       "text": {
         "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft.",
-        "fr": "Demandez un conseil personnalisé si la créance est élevée, si vous avez déjà reçu un avis de saisie ou une commination de faillite, si le créancier demande la mainlevée, ou si le délai expire dans quelques jours."
+        "fr": "Demandez un conseil personnalisé si la créance est élevée, si vous avez déjà reçu un avis de saisie ou une commination de faillite, si le créancier demande la mainlevée, ou si le délai expire dans quelques jours.",
+        "it": "Si faccia consigliare da un professionista se il credito è elevato, se ha già ricevuto un avviso di pignoramento o una comminatoria di fallimento, se il creditore chiede il rigetto dell’opposizione, oppure se il termine scade tra pochi giorni."
       }
     },
     {
@@ -410,7 +453,8 @@
       "kind": "free-help",
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an.",
-        "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur le déroulement de la procédure, mais ne remplace pas un conseil juridique. Des services cantonaux et privés de désendettement conseillent gratuitement ou à faible coût en cas de difficultés de paiement. Des organisations de consommateurs et de nombreux ordres d’avocats offrent un premier renseignement gratuit."
+        "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur le déroulement de la procédure, mais ne remplace pas un conseil juridique. Des services cantonaux et privés de désendettement conseillent gratuitement ou à faible coût en cas de difficultés de paiement. Des organisations de consommateurs et de nombreux ordres d’avocats offrent un premier renseignement gratuit.",
+        "it": "Aiuto gratuito o a basso costo: l’ufficio d’esecuzione informa sullo svolgimento della procedura, ma non sostituisce una consulenza legale. Servizi cantonali e privati di consulenza in materia di debiti consigliano gratuitamente o a basso costo in caso di difficoltà di pagamento. Le organizzazioni dei consumatori e molte associazioni di avvocati offrono una prima consulenza gratuita."
       }
     }
   ],
@@ -476,7 +520,8 @@
     {
       "label": {
         "de": "ch.ch: Betreibungen",
-        "fr": "ch.ch : Poursuites"
+        "fr": "ch.ch : Poursuites",
+        "it": "ch.ch: Esecuzioni"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }

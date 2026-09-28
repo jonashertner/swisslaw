@@ -7,11 +7,13 @@
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Ich bin krank. Bekomme ich weiterhin Lohn?",
-    "fr": "Je suis malade. Vais-je continuer à recevoir mon salaire ?"
+    "fr": "Je suis malade. Vais-je continuer à recevoir mon salaire ?",
+    "it": "In caso di malattia, continuo a ricevere il salario?"
   },
   "summary": {
     "de": "Sind Sie ohne eigenes Verschulden krankheitsbedingt an der Arbeit verhindert, muss Ihnen Ihr Arbeitgeber ab dem vierten Monat des Arbeitsverhältnisses für eine beschränkte Zeit den Lohn weiterzahlen, sofern keine mindestens gleichwertige Krankentaggeldversicherung diese Pflicht ersetzt. Während der Krankheit gilt zudem ein Kündigungsschutz.",
-    "fr": "En cas d’incapacité de travail due à la maladie et survenue sans votre faute, votre employeur doit continuer à vous verser le salaire pour un temps limité, dès le quatrième mois des rapports de travail, sauf si une assurance d’indemnités journalières en cas de maladie au moins équivalente remplace cette obligation. Une protection contre le congé s’applique en outre pendant la maladie."
+    "fr": "En cas d’incapacité de travail due à la maladie et survenue sans votre faute, votre employeur doit continuer à vous verser le salaire pour un temps limité, dès le quatrième mois des rapports de travail, sauf si une assurance d’indemnités journalières en cas de maladie au moins équivalente remplace cette obligation. Une protection contre le congé s’applique en outre pendant la maladie.",
+    "it": "Se lei è impedito di lavorare per malattia senza propria colpa, il suo datore di lavoro deve continuare a pagarle il salario per un tempo limitato a partire dal quarto mese del rapporto di lavoro, a meno che un’assicurazione d’indennità giornaliera in caso di malattia almeno equivalente non sostituisca questo obbligo. Durante la malattia vale inoltre una protezione dalla disdetta."
   },
   "examples": {
     "de": [
@@ -29,16 +31,26 @@
       "Je suis malade, je touche encore mon salaire ou pas ?",
       "Qu’est-ce qu’une assurance d’indemnités journalières en cas de maladie et remplace-t-elle mon salaire ?",
       "Mon employeur exige un certificat médical, dois-je le fournir ?"
+    ],
+    "it": [
+      "Sono malato, continuo a ricevere il salario?",
+      "Per quanto tempo paga il mio datore di lavoro in caso di malattia?",
+      "Posso ricevere la disdetta mentre sono malato?",
+      "Sono malato, ricevo ancora il salario?",
+      "Cos’è un’assicurazione d’indennità giornaliera in caso di malattia e sostituisce il mio salario?",
+      "Il mio datore di lavoro chiede un certificato medico, devo consegnarlo?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Lohnfortzahlung bei unverschuldeter Arbeitsverhinderung durch Krankheit, Unfall oder Schwangerschaft bei privatrechtlichen Arbeitsverhältnissen in der Schweiz.",
-      "fr": "Le maintien du versement du salaire en cas d’empêchement de travailler non fautif dû à la maladie, à un accident ou à la grossesse, dans les rapports de travail de droit privé en Suisse."
+      "fr": "Le maintien du versement du salaire en cas d’empêchement de travailler non fautif dû à la maladie, à un accident ou à la grossesse, dans les rapports de travail de droit privé en Suisse.",
+      "it": "Il pagamento del salario in caso di impedimento al lavoro senza colpa per malattia, infortunio o gravidanza nei rapporti di lavoro di diritto privato in Svizzera."
     },
     "excludes": {
       "de": "Öffentlich-rechtliche Anstellungsverhältnisse, Leistungen der Unfallversicherung (UVG) bei Berufs- oder Nichtberufsunfällen, und Streitigkeiten direkt mit einer Taggeldversicherung.",
-      "fr": "Les rapports de travail de droit public, les prestations de l’assurance-accidents (LAA) en cas d’accident professionnel ou non professionnel, et les litiges directs avec une assurance d’indemnités journalières."
+      "fr": "Les rapports de travail de droit public, les prestations de l’assurance-accidents (LAA) en cas d’accident professionnel ou non professionnel, et les litiges directs avec une assurance d’indemnités journalières.",
+      "it": "I rapporti d’impiego di diritto pubblico, le prestazioni dell’assicurazione infortuni (LAINF) in caso di infortuni professionali o non professionali, e le controversie dirette con un’assicurazione d’indennità giornaliera."
     }
   },
   "facts": [
@@ -46,28 +58,32 @@
       "key": "employer_type",
       "question": {
         "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
-        "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?"
+        "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?",
+        "it": "Lavora per un datore di lavoro privato o per lo Stato?"
       },
       "options": [
         {
           "value": "private",
           "label": {
             "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
-            "fr": "Employeur privé (entreprise, association, particulier)"
+            "fr": "Employeur privé (entreprise, association, particulier)",
+            "it": "Datore di lavoro privato (azienda, associazione, privato)"
           }
         },
         {
           "value": "public",
           "label": {
             "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
-            "fr": "Confédération, canton, commune ou autre entité publique"
+            "fr": "Confédération, canton, commune ou autre entité publique",
+            "it": "Confederazione, Cantone, Comune o un altro ente pubblico"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es nicht",
-            "fr": "Je ne sais pas"
+            "fr": "Je ne sais pas",
+            "it": "Non lo so"
           }
         }
       ]
@@ -76,28 +92,32 @@
       "key": "tenure",
       "question": {
         "de": "Wie lange dauert Ihr Arbeitsverhältnis schon, oder wurde es von Anfang an für mehr als drei Monate abgeschlossen?",
-        "fr": "Depuis combien de temps durent vos rapports de travail, ou ont-ils été conclus dès le départ pour plus de trois mois ?"
+        "fr": "Depuis combien de temps durent vos rapports de travail, ou ont-ils été conclus dès le départ pour plus de trois mois ?",
+        "it": "Da quanto tempo dura già il suo rapporto di lavoro, oppure è stato concluso fin dall’inizio per più di tre mesi?"
       },
       "options": [
         {
           "value": "under-three-months",
           "label": {
             "de": "Weniger als drei Monate, unbefristet",
-            "fr": "Moins de trois mois, durée indéterminée"
+            "fr": "Moins de trois mois, durée indéterminée",
+            "it": "Meno di tre mesi, a tempo indeterminato"
           }
         },
         {
           "value": "three-months-or-more",
           "label": {
             "de": "Drei Monate oder länger, oder von Anfang an für mehr als drei Monate abgeschlossen",
-            "fr": "Trois mois ou plus, ou conclus dès le départ pour plus de trois mois"
+            "fr": "Trois mois ou plus, ou conclus dès le départ pour plus de trois mois",
+            "it": "Tre mesi o più, oppure concluso fin dall’inizio per più di tre mesi"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es nicht",
-            "fr": "Je ne sais pas"
+            "fr": "Je ne sais pas",
+            "it": "Non lo so"
           }
         }
       ]
@@ -106,28 +126,32 @@
       "key": "daily_benefit_insurance",
       "question": {
         "de": "Hat Ihr Arbeitgeber eine Krankentaggeldversicherung für Sie abgeschlossen?",
-        "fr": "Votre employeur a-t-il conclu pour vous une assurance d’indemnités journalières en cas de maladie ?"
+        "fr": "Votre employeur a-t-il conclu pour vous une assurance d’indemnités journalières en cas de maladie ?",
+        "it": "Il suo datore di lavoro ha stipulato per lei un’assicurazione d’indennità giornaliera in caso di malattia?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
             "de": "Ja",
-            "fr": "Oui"
+            "fr": "Oui",
+            "it": "Sì"
           }
         },
         {
           "value": "no",
           "label": {
             "de": "Nein, oder ich weiss es nicht genau",
-            "fr": "Non, ou je ne sais pas exactement"
+            "fr": "Non, ou je ne sais pas exactement",
+            "it": "No, oppure non lo so con precisione"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es nicht",
-            "fr": "Je ne sais pas"
+            "fr": "Je ne sais pas",
+            "it": "Non lo so"
           }
         }
       ]
@@ -136,28 +160,32 @@
       "key": "dismissed_while_sick",
       "question": {
         "de": "Hat Ihnen Ihr Arbeitgeber gekündigt, während Sie krank waren?",
-        "fr": "Votre employeur a-t-il résilié votre contrat pendant que vous étiez malade ?"
+        "fr": "Votre employeur a-t-il résilié votre contrat pendant que vous étiez malade ?",
+        "it": "Il suo datore di lavoro le ha dato la disdetta mentre era malato?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
             "de": "Ja",
-            "fr": "Oui"
+            "fr": "Oui",
+            "it": "Sì"
           }
         },
         {
           "value": "no",
           "label": {
             "de": "Nein",
-            "fr": "Non"
+            "fr": "Non",
+            "it": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
             "de": "Ich weiss es nicht",
-            "fr": "Je ne sais pas"
+            "fr": "Je ne sais pas",
+            "it": "Non lo so"
           }
         }
       ]
@@ -169,7 +197,8 @@
       "kind": "escalate",
       "text": {
         "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
-        "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation."
+        "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation.",
+        "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, si applica di regola il diritto pubblico del personale e non il Codice delle obbligazioni. Questa guida non copre questo caso. Si rivolga al servizio giuridico della sua amministrazione, alla sua associazione del personale o a un servizio di consulenza."
       },
       "when": {
         "employer_type": [
@@ -182,7 +211,8 @@
       "kind": "rule",
       "text": {
         "de": "Sind Sie ohne eigenes Verschulden durch Krankheit, Unfall oder Schwangerschaft an der Arbeit verhindert, muss Ihnen Ihr Arbeitgeber für eine beschränkte Zeit den Lohn weiterzahlen, sobald das Arbeitsverhältnis mehr als drei Monate gedauert hat oder von Anfang an für mehr als drei Monate abgeschlossen wurde. Ohne andere Abrede gilt: im ersten Dienstjahr drei Wochen, danach eine angemessen längere Zeit je nach Dauer des Arbeitsverhältnisses und den Umständen.",
-        "fr": "En cas d’incapacité de travail non fautive due à la maladie, à un accident ou à la grossesse, votre employeur doit continuer à vous verser le salaire pour un temps limité, dès que les rapports de travail ont duré plus de trois mois ou ont été conclus dès le départ pour plus de trois mois. Sauf accord contraire, la durée est de trois semaines pendant la première année de service, puis d’une période plus longue fixée équitablement selon la durée des rapports de travail et les circonstances."
+        "fr": "En cas d’incapacité de travail non fautive due à la maladie, à un accident ou à la grossesse, votre employeur doit continuer à vous verser le salaire pour un temps limité, dès que les rapports de travail ont duré plus de trois mois ou ont été conclus dès le départ pour plus de trois mois. Sauf accord contraire, la durée est de trois semaines pendant la première année de service, puis d’une période plus longue fixée équitablement selon la durée des rapports de travail et les circonstances.",
+        "it": "Se lei è impedito di lavorare senza propria colpa per malattia, infortunio o gravidanza, il suo datore di lavoro deve continuare a pagarle il salario per un tempo limitato, non appena il rapporto di lavoro sia durato più di tre mesi o sia stato concluso fin dall’inizio per più di tre mesi. Senza altro accordo vale quanto segue: nel primo anno di servizio tre settimane, in seguito un tempo adeguatamente più lungo secondo la durata del rapporto di lavoro e le circostanze."
       },
       "when": {
         "tenure": [
@@ -199,7 +229,8 @@
       "kind": "warning",
       "text": {
         "de": "Dauert Ihr unbefristetes Arbeitsverhältnis erst weniger als drei Monate und wurde es nicht von Anfang an für mehr als drei Monate abgeschlossen, gibt Ihnen das Gesetz noch keinen Anspruch auf Lohnfortzahlung bei Krankheit. Prüfen Sie Ihren Arbeitsvertrag oder einen allfälligen Gesamtarbeitsvertrag auf eine bessere Regelung. Sobald Sie die drei Monate überschreiten, gilt der gesetzliche Anspruch automatisch.",
-        "fr": "Si vos rapports de travail de durée indéterminée durent depuis moins de trois mois et n’ont pas été conclus dès le départ pour plus de trois mois, la loi ne vous donne pas encore droit au maintien du salaire en cas de maladie. Vérifiez si votre contrat de travail ou une éventuelle convention collective prévoit une réglementation plus favorable. Dès que vous dépassez les trois mois, le droit légal s’applique automatiquement."
+        "fr": "Si vos rapports de travail de durée indéterminée durent depuis moins de trois mois et n’ont pas été conclus dès le départ pour plus de trois mois, la loi ne vous donne pas encore droit au maintien du salaire en cas de maladie. Vérifiez si votre contrat de travail ou une éventuelle convention collective prévoit une réglementation plus favorable. Dès que vous dépassez les trois mois, le droit légal s’applique automatiquement.",
+        "it": "Se il suo rapporto di lavoro a tempo indeterminato dura ancora meno di tre mesi e non è stato concluso fin dall’inizio per più di tre mesi, la legge non le dà ancora diritto alla continuazione del pagamento del salario in caso di malattia. Verifichi il suo contratto di lavoro o un eventuale contratto collettivo di lavoro per un’eventuale regolamentazione migliore. Non appena supera i tre mesi, il diritto legale si applica automaticamente."
       },
       "when": {
         "tenure": [
@@ -215,7 +246,8 @@
       "kind": "rule",
       "text": {
         "de": "Sind Sie obligatorisch gegen den wirtschaftlichen Ausfall bei unverschuldeter Arbeitsverhinderung versichert (Krankentaggeldversicherung), muss Ihr Arbeitgeber den Lohn nicht selbst zahlen, wenn die Versicherungsleistungen für die beschränkte Zeit mindestens vier Fünftel Ihres Lohnes decken. Sind sie tiefer, zahlt Ihr Arbeitgeber die Differenz auf vier Fünftel. Während einer Wartefrist vor Beginn der Versicherungsleistungen muss er mindestens vier Fünftel des Lohnes zahlen.",
-        "fr": "Si vous bénéficiez d’une assurance obligatoire contre la perte de gain en cas d’empêchement de travailler non fautif (assurance d’indemnités journalières en cas de maladie), votre employeur n’a pas à verser lui-même le salaire si les prestations d’assurance couvrent, pour la durée limitée, au moins quatre cinquièmes de votre salaire. Si elles sont inférieures, votre employeur verse la différence jusqu’à quatre cinquièmes. Pendant un délai d’attente précédant le début des prestations d’assurance, il doit verser au moins quatre cinquièmes du salaire."
+        "fr": "Si vous bénéficiez d’une assurance obligatoire contre la perte de gain en cas d’empêchement de travailler non fautif (assurance d’indemnités journalières en cas de maladie), votre employeur n’a pas à verser lui-même le salaire si les prestations d’assurance couvrent, pour la durée limitée, au moins quatre cinquièmes de votre salaire. Si elles sont inférieures, votre employeur verse la différence jusqu’à quatre cinquièmes. Pendant un délai d’attente précédant le début des prestations d’assurance, il doit verser au moins quatre cinquièmes du salaire.",
+        "it": "Se lei è assicurato obbligatoriamente contro la perdita economica in caso di impedimento al lavoro senza colpa (assicurazione d’indennità giornaliera in caso di malattia), il suo datore di lavoro non deve pagare personalmente il salario se le prestazioni assicurative coprono, per il tempo limitato, almeno quattro quinti del suo salario. Se sono inferiori, il suo datore di lavoro paga la differenza fino ai quattro quinti. Durante un termine d’attesa prima dell’inizio delle prestazioni assicurative, egli deve pagare almeno quattro quinti del salario."
       },
       "when": {
         "daily_benefit_insurance": [
@@ -232,7 +264,8 @@
       "kind": "rule",
       "text": {
         "de": "Eine schriftliche Abrede, ein Normalarbeitsvertrag oder ein Gesamtarbeitsvertrag kann die gesetzliche Lohnfortzahlung durch eine andere Regelung ersetzen (häufig eben eine Krankentaggeldversicherung). Das ist nur zulässig, wenn diese Regelung für Sie insgesamt mindestens gleichwertig ist.",
-        "fr": "Un accord écrit, un contrat-type de travail ou une convention collective peut remplacer le maintien légal du salaire par une autre réglementation (souvent précisément une assurance d’indemnités journalières en cas de maladie). Cela n’est admissible que si cette réglementation est, dans l’ensemble, au moins équivalente pour vous."
+        "fr": "Un accord écrit, un contrat-type de travail ou une convention collective peut remplacer le maintien légal du salaire par une autre réglementation (souvent précisément une assurance d’indemnités journalières en cas de maladie). Cela n’est admissible que si cette réglementation est, dans l’ensemble, au moins équivalente pour vous.",
+        "it": "Un accordo scritto, un contratto normale di lavoro o un contratto collettivo di lavoro può sostituire la continuazione legale del pagamento del salario con un’altra regolamentazione (spesso, appunto, un’assicurazione d’indennità giornaliera in caso di malattia). Ciò è ammesso solo se questa regolamentazione è per lei, nel complesso, almeno equivalente."
       },
       "sources": [
         "or-324a"
@@ -243,7 +276,8 @@
       "kind": "warning",
       "text": {
         "de": "Nach Ablauf der Probezeit darf Ihnen Ihr Arbeitgeber nicht kündigen, während Sie krankheits- oder unfallbedingt ohne eigenes Verschulden an der Arbeit verhindert sind: im ersten Dienstjahr während 30 Tagen, vom zweiten bis fünften Dienstjahr während 90 Tagen, ab dem sechsten Dienstjahr während 180 Tagen. Eine während dieser Zeit ausgesprochene Kündigung ist ungültig (nichtig). Erfolgte die Kündigung kurz vor Beginn dieser Frist, wird ihr Lauf unterbrochen und erst danach fortgesetzt.",
-        "fr": "Une fois le temps d’essai terminé, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail non fautive due à la maladie ou à un accident : durant 30 jours pendant la première année de service, durant 90 jours de la deuxième à la cinquième année de service, durant 180 jours à partir de la sixième année de service. Un congé donné pendant cette période est nul. Si le congé a été donné juste avant le début de cette période, son délai est suspendu et ne reprend son cours qu’ensuite."
+        "fr": "Une fois le temps d’essai terminé, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail non fautive due à la maladie ou à un accident : durant 30 jours pendant la première année de service, durant 90 jours de la deuxième à la cinquième année de service, durant 180 jours à partir de la sixième année de service. Un congé donné pendant cette période est nul. Si le congé a été donné juste avant le début de cette période, son délai est suspendu et ne reprend son cours qu’ensuite.",
+        "it": "Dopo la fine del tempo di prova, il suo datore di lavoro non può darle la disdetta mentre lei è impedito di lavorare senza sua colpa per malattia o infortunio: 30 giorni nel primo anno di servizio, 90 giorni dal secondo al quinto anno di servizio, 180 giorni dal sesto anno di servizio. Una disdetta data durante questo periodo è nulla. Se la disdetta è stata data poco prima dell’inizio di questo termine, il suo decorso è sospeso e riprende solo in seguito."
       },
       "when": {
         "dismissed_while_sick": [
@@ -260,7 +294,8 @@
       "kind": "step",
       "text": {
         "de": "Ihr Arbeitgeber darf von Ihnen ein ärztliches Zeugnis verlangen, das Ihre Arbeitsunfähigkeit bestätigt. Reichen Sie es zeitnah ein, damit Ihr Anspruch nicht in Frage gestellt wird.",
-        "fr": "Votre employeur peut exiger de vous un certificat médical attestant votre incapacité de travail. Remettez-le rapidement, afin que votre droit ne soit pas remis en question."
+        "fr": "Votre employeur peut exiger de vous un certificat médical attestant votre incapacité de travail. Remettez-le rapidement, afin que votre droit ne soit pas remis en question.",
+        "it": "Il suo datore di lavoro può esigere da lei un certificato medico che confermi la sua incapacità al lavoro. Lo consegni tempestivamente, affinché il suo diritto non venga messo in discussione."
       }
     },
     {
@@ -268,7 +303,8 @@
       "kind": "cost",
       "text": {
         "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung.",
-        "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même."
+        "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même.",
+        "it": "La procedura di conciliazione nelle controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi è gratuita: non vengono riscosse spese processuali. Per le spese della propria assistenza legale, in linea di principio, in questa procedura non è prevista alcuna indennità."
       },
       "sources": [
         "zpo-113"
@@ -279,7 +315,8 @@
       "kind": "escalate",
       "text": {
         "de": "Holen Sie rasch persönliche Beratung, wenn Ihr Arbeitgeber die Lohnfortzahlung verweigert, wenn Ihnen während der Krankheit gekündigt wurde, oder wenn Ihre Krankentaggeldversicherung Leistungen ablehnt.",
-        "fr": "Demandez rapidement un conseil personnalisé si votre employeur refuse le maintien du salaire, si votre contrat a été résilié pendant votre maladie, ou si votre assurance d’indemnités journalières refuse ses prestations."
+        "fr": "Demandez rapidement un conseil personnalisé si votre employeur refuse le maintien du salaire, si votre contrat a été résilié pendant votre maladie, ou si votre assurance d’indemnités journalières refuse ses prestations.",
+        "it": "Si faccia consigliare rapidamente da un professionista se il suo datore di lavoro rifiuta la continuazione del pagamento del salario, se le è stata data la disdetta durante la malattia, oppure se la sua assicurazione d’indennità giornaliera rifiuta le prestazioni."
       }
     },
     {
@@ -287,7 +324,8 @@
       "kind": "free-help",
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an.",
-        "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail ou d’une consultation juridique gratuite."
+        "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail ou d’une consultation juridique gratuite.",
+        "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. Molti Cantoni offrono ulteriore aiuto tramite l’ufficio del lavoro o una consulenza giuridica gratuita."
       }
     }
   ],
@@ -329,7 +367,8 @@
     {
       "label": {
         "de": "ch.ch: Arbeitsunfähigkeit in der Schweiz",
-        "fr": "ch.ch : Incapacité de travail en Suisse"
+        "fr": "ch.ch : Incapacité de travail en Suisse",
+        "it": "ch.ch: Incapacità al lavoro in Svizzera"
       },
       "url": "https://www.ch.ch/de/arbeit/arbeitsunfahigkeit/"
     }
