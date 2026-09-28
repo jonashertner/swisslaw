@@ -9,13 +9,15 @@
     "de": "Ich brauche ein Arbeitszeugnis oder mein Zeugnis ist unfair",
     "fr": "J’ai besoin d’un certificat de travail ou mon certificat est injuste",
     "it": "Ho bisogno di un attestato di lavoro, oppure il mio attestato è ingiusto",
-    "en": "I need a reference, or my reference is unfair"
+    "en": "I need a reference, or my reference is unfair",
+    "rm": "Jau dovr in certificat da lavur u miu certificat è nungist"
   },
   "summary": {
     "de": "Sie können jederzeit ein vollständiges Arbeitszeugnis oder auf Wunsch nur eine einfache Bestätigung verlangen. Das Zeugnis muss wohlwollend, aber auch wahr und vollständig sein. Bei Streit hilft die Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten, kostenlos bis 30 000 Franken.",
     "fr": "Vous pouvez en tout temps demander un certificat de travail complet, ou, si vous le souhaitez, une simple attestation. Le certificat doit être bienveillant, mais aussi véridique et complet. En cas de litige, l’autorité de conciliation en matière de droit du travail vous aide, gratuitement jusqu’à 30 000 francs.",
     "it": "Lei può chiedere in ogni momento un attestato di lavoro completo oppure, su richiesta, soltanto una semplice conferma. L’attestato deve essere benevolo, ma anche veritiero e completo. In caso di controversia aiuta l’autorità di conciliazione per le controversie di diritto del lavoro, gratuita fino a 30 000 franchi.",
-    "en": "You can ask for a full reference at any time or, if you prefer, only a simple confirmation. The reference must be favourable, but also true and complete. If there is a dispute, the conciliation authority for employment disputes can help, free of charge up to CHF 30,000."
+    "en": "You can ask for a full reference at any time or, if you prefer, only a simple confirmation. The reference must be favourable, but also true and complete. If there is a dispute, the conciliation authority for employment disputes can help, free of charge up to CHF 30,000.",
+    "rm": "Vus pudais mintga temp pretender in certificat da lavur cumplet u, sin giavisch, mo ina conferma simpla. Il certificat sto esser bainvulent, ma era ver e cumplet. En cas da dispita gida l'autoritad da mediaziun per dispitas da dretg da lavur, gratuita fin 30 000 francs."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "How do I get hold of my work reference?",
       "My employer won't give me a reference",
       "Can I ask for an interim reference while I'm still employed?"
+    ],
+    "rm": [
+      "Jau dovr in certificat da lavur, co survegn jau el?",
+      "Miu certificat da lavur è nungist, tge poss jau far?",
+      "Dastg jau pretender mo ina conferma da lavur empè d'in certificat cumplet?",
+      "Jau dovr mes certificat da lavur, co vegn jau tar el?",
+      "Miu patrun na vul betg deliverar a mai in certificat",
+      "Poss jau gia durant l'engaschament pretender in certificat intermediar?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Der Anspruch auf ein Arbeitszeugnis oder eine Arbeitsbestätigung und der Streit über dessen Inhalt bei privatrechtlichen Arbeitsverhältnissen in der Schweiz.",
       "fr": "Le droit à un certificat de travail ou à une attestation de travail, et le litige portant sur son contenu, dans les rapports de travail de droit privé en Suisse.",
       "it": "Il diritto a un attestato di lavoro o a una conferma di lavoro, e la controversia sul suo contenuto, nei rapporti di lavoro di diritto privato in Svizzera.",
-      "en": "The right to a reference or a confirmation of employment, and disputes about its content, under private-law employment relationships in Switzerland."
+      "en": "The right to a reference or a confirmation of employment, and disputes about its content, under private-law employment relationships in Switzerland.",
+      "rm": "Il dretg ad in certificat da lavur u ad ina conferma da lavur e la dispita davart ses cuntegn en relaziuns da lavur da dretg privat en Svizra."
     },
     "excludes": {
       "de": "Öffentlich-rechtliche Anstellungsverhältnisse und Streitigkeiten über andere Ansprüche aus dem Arbeitsverhältnis wie Lohn oder Kündigungsschutz.",
       "fr": "Les rapports de travail de droit public et les litiges portant sur d’autres prétentions découlant du rapport de travail, comme le salaire ou la protection contre le congé.",
       "it": "I rapporti d’impiego di diritto pubblico e le controversie su altre pretese derivanti dal rapporto di lavoro, come il salario o la protezione dalla disdetta.",
-      "en": "Public-law employment relationships, and disputes about other claims arising from the employment relationship, such as salary or protection against termination."
+      "en": "Public-law employment relationships, and disputes about other claims arising from the employment relationship, such as salary or protection against termination.",
+      "rm": "Relaziuns d'engaschament da dretg public e dispitas davart autras pretensiuns da la relaziun da lavur sco salari u protecziun cunter la disditga."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
         "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?",
         "it": "Lavora per un datore di lavoro privato o per lo Stato?",
-        "en": "Do you work for a private employer or for the state?"
+        "en": "Do you work for a private employer or for the state?",
+        "rm": "Lavurais Vus per in patrun privat u per il stadi?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
             "fr": "Employeur privé (entreprise, association, particulier)",
             "it": "Datore di lavoro privato (azienda, associazione, privato)",
-            "en": "Private employer (company, association, private individual)"
+            "en": "Private employer (company, association, private individual)",
+            "rm": "Patrun privat (interpresa, associaziun, persuna privata)"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
             "fr": "Confédération, canton, commune ou autre entité publique",
             "it": "Confederazione, Cantone, Comune o un altro ente pubblico",
-            "en": "The Confederation, a canton, a commune or another public body"
+            "en": "The Confederation, a canton, a commune or another public body",
+            "rm": "Confederaziun, chantun, vischnanca u in'autra instanza publica"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -110,7 +126,8 @@
         "de": "Arbeiten Sie noch bei diesem Arbeitgeber?",
         "fr": "Travaillez-vous encore pour cet employeur ?",
         "it": "Lavora ancora presso questo datore di lavoro?",
-        "en": "Do you still work for this employer?"
+        "en": "Do you still work for this employer?",
+        "rm": "Lavurais Vus anc tar quest patrun?"
       },
       "options": [
         {
@@ -119,7 +136,8 @@
             "de": "Ja, das Arbeitsverhältnis läuft noch",
             "fr": "Oui, les rapports de travail sont encore en cours",
             "it": "Sì, il rapporto di lavoro è ancora in corso",
-            "en": "Yes, the employment relationship is still ongoing"
+            "en": "Yes, the employment relationship is still ongoing",
+            "rm": "Gea, la relaziun da lavur correspunda anc"
           }
         },
         {
@@ -128,7 +146,8 @@
             "de": "Nein, es ist beendet",
             "fr": "Non, ils sont terminés",
             "it": "No, è terminato",
-            "en": "No, it has ended"
+            "en": "No, it has ended",
+            "rm": "Na, ella è finida"
           }
         },
         {
@@ -137,7 +156,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -148,7 +168,8 @@
         "de": "Welche Art von Zeugnis möchten Sie?",
         "fr": "Quel type de certificat souhaitez-vous ?",
         "it": "Che tipo di attestato desidera?",
-        "en": "What kind of reference would you like?"
+        "en": "What kind of reference would you like?",
+        "rm": "Tge gener da certificat giavischais Vus?"
       },
       "options": [
         {
@@ -157,7 +178,8 @@
             "de": "Ein vollständiges Zeugnis mit Leistung und Verhalten",
             "fr": "Un certificat complet portant sur les prestations et le comportement",
             "it": "Un attestato completo con prestazioni e condotta",
-            "en": "A full reference covering performance and conduct"
+            "en": "A full reference covering performance and conduct",
+            "rm": "In certificat cumplet cun prestaziun e cumportament"
           }
         },
         {
@@ -166,7 +188,8 @@
             "de": "Nur eine Bestätigung von Art und Dauer der Anstellung",
             "fr": "Une simple attestation de la nature et de la durée de l’emploi",
             "it": "Solo una conferma del tipo e della durata dell’impiego",
-            "en": "Only a confirmation of the type and duration of the employment"
+            "en": "Only a confirmation of the type and duration of the employment",
+            "rm": "Mo ina conferma da gener e durada da l'engaschament"
           }
         },
         {
@@ -175,7 +198,8 @@
             "de": "Ich bin mir nicht sicher",
             "fr": "Je n’en ai pas la certitude",
             "it": "Non ne sono sicuro",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -186,7 +210,8 @@
         "de": "Was ist Ihr Problem?",
         "fr": "Quel est votre problème ?",
         "it": "Qual è il suo problema?",
-        "en": "What is your problem?"
+        "en": "What is your problem?",
+        "rm": "Tge è Voss problem?"
       },
       "options": [
         {
@@ -195,7 +220,8 @@
             "de": "Ich habe noch kein Zeugnis verlangt",
             "fr": "Je n’ai pas encore demandé de certificat",
             "it": "Non ho ancora chiesto un attestato",
-            "en": "I haven't asked for a reference yet"
+            "en": "I haven't asked for a reference yet",
+            "rm": "Jau n'hai anc pretendì nagin certificat"
           }
         },
         {
@@ -204,7 +230,8 @@
             "de": "Mein Arbeitgeber stellt gar kein Zeugnis aus",
             "fr": "Mon employeur ne délivre aucun certificat",
             "it": "Il mio datore di lavoro non rilascia alcun attestato",
-            "en": "My employer won't issue a reference at all"
+            "en": "My employer won't issue a reference at all",
+            "rm": "Miu patrun na deliverescha nagin certificat"
           }
         },
         {
@@ -213,7 +240,8 @@
             "de": "Ich finde das Zeugnis unfair oder falsch",
             "fr": "Je trouve le certificat injuste ou erroné",
             "it": "Trovo l’attestato ingiusto o scorretto",
-            "en": "I think the reference is unfair or incorrect"
+            "en": "I think the reference is unfair or incorrect",
+            "rm": "Jau chat il certificat nungist u fals"
           }
         },
         {
@@ -222,7 +250,8 @@
             "de": "Ich bin mir nicht sicher",
             "fr": "Je n’en ai pas la certitude",
             "it": "Non ne sono sicuro",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -236,7 +265,8 @@
         "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihr Zeugnis meist öffentliches Personalrecht und nicht direkt das Obligationenrecht, auch wenn ähnliche Grundsätze gelten. Diese Anleitung deckt das nicht abschliessend ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung oder an Ihren Personalverband.",
         "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique à votre certificat, et non directement le Code des obligations, même si des principes similaires s’appliquent. Ce guide ne couvre pas cette situation de manière exhaustive. Adressez-vous au service juridique de votre administration ou à votre association du personnel.",
         "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, per il suo attestato si applica di regola il diritto pubblico del personale e non direttamente il Codice delle obbligazioni, anche se valgono principi analoghi. Questa guida non copre questo caso in modo esaustivo. Si rivolga al servizio giuridico della sua amministrazione o alla sua associazione del personale.",
-        "en": "If you work for the Confederation, a canton, a commune or another public body, your reference is usually governed by public-service law and not directly by the Code of Obligations, even though similar principles apply. This guide does not cover that exhaustively. Contact your administration's legal service or your staff association."
+        "en": "If you work for the Confederation, a canton, a commune or another public body, your reference is usually governed by public-service law and not directly by the Code of Obligations, even though similar principles apply. This guide does not cover that exhaustively. Contact your administration's legal service or your staff association.",
+        "rm": "Sche Vus lavurais per la Confederaziun, in chantun, ina vischnanca u in'autra instanza publica, vala per Voss certificat il pli savens il dretg public da persunal e betg directamain il Dretg d'obligaziuns (DO), era sche similars princips valan. Questa guida na tracta betg quest cas cumplessivamain. Contactai il servetsch giuridic da Vossa administraziun u Vossa federaziun professiunala."
       },
       "when": {
         "employer_type": [
@@ -251,7 +281,8 @@
         "de": "Sie können jederzeit von Ihrem Arbeitgeber ein Zeugnis verlangen, das sich über Art und Dauer des Arbeitsverhältnisses sowie über Ihre Leistungen und Ihr Verhalten ausspricht (vollständiges Zeugnis). Verlangen Sie ausdrücklich nur eine Bestätigung, muss sich diese auf Art und Dauer des Arbeitsverhältnisses beschränken (einfache Arbeitsbestätigung).",
         "fr": "Vous pouvez en tout temps demander à votre employeur un certificat portant sur la nature et la durée du rapport de travail, ainsi que sur vos prestations et votre comportement (certificat complet). Si vous demandez expressément une simple attestation, celle-ci doit se limiter à la nature et à la durée du rapport de travail (attestation de travail simple).",
         "it": "Lei può chiedere in ogni momento al suo datore di lavoro un attestato che si esprima sul tipo e sulla durata del rapporto di lavoro nonché sulle sue prestazioni e sulla sua condotta (attestato completo). Se lei chiede espressamente solo una conferma, questa deve limitarsi al tipo e alla durata del rapporto di lavoro (semplice conferma di lavoro).",
-        "en": "You can ask your employer at any time for a reference covering the type and duration of the employment relationship as well as your performance and conduct (full reference). If you expressly ask for only a confirmation, it must be limited to the type and duration of the employment relationship (simple confirmation of employment)."
+        "en": "You can ask your employer at any time for a reference covering the type and duration of the employment relationship as well as your performance and conduct (full reference). If you expressly ask for only a confirmation, it must be limited to the type and duration of the employment relationship (simple confirmation of employment).",
+        "rm": "Vus pudais mintga temp pretender da Voss patrun in certificat che s'exprima davart gener e durada da la relaziun da lavur sco era davart Vossas prestaziuns e Voss cumportament (certificat cumplet). Sche Vus pretendais explicitamain mo ina conferma, sto quella limitar sa a gener e durada da la relaziun da lavur (conferma simpla da lavur)."
       },
       "sources": [
         "or-330a"
@@ -264,7 +295,8 @@
         "de": "Verlangen Sie das Zeugnis schriftlich und sagen Sie klar, ob Sie ein vollständiges Zeugnis oder nur eine einfache Bestätigung wollen. Setzen Sie eine angemessene Frist für die Ausstellung.",
         "fr": "Demandez le certificat par écrit et indiquez clairement si vous souhaitez un certificat complet ou seulement une simple attestation. Fixez un délai raisonnable pour son établissement.",
         "it": "Chieda l’attestato per scritto e indichi chiaramente se desidera un attestato completo o solo una semplice conferma. Fissi un termine adeguato per il rilascio.",
-        "en": "Ask for the reference in writing and say clearly whether you want a full reference or only a simple confirmation. Set a reasonable deadline for it to be issued."
+        "en": "Ask for the reference in writing and say clearly whether you want a full reference or only a simple confirmation. Set a reasonable deadline for it to be issued.",
+        "rm": "Pretendai il certificat per scrit e declerai cleramain sch'Vus vulais in certificat cumplet u mo ina conferma simpla. Fixai in termin adequat per l'emissiun."
       },
       "when": {
         "problem": [
@@ -283,7 +315,8 @@
         "de": "Ein vollständiges Zeugnis soll Ihr berufliches Fortkommen fördern und deshalb wohlwollend formuliert sein. Dieses Wohlwollen findet aber seine Grenze in der Wahrheitspflicht: Das Zeugnis muss ein möglichst getreues und vollständiges Bild von Tätigkeit, Leistung und Verhalten geben. Es darf und muss deshalb auch negative Tatsachen erwähnen, wenn sie für die Gesamtbeurteilung erheblich sind.",
         "fr": "Un certificat complet doit favoriser votre avenir professionnel et être donc rédigé avec bienveillance. Cette bienveillance trouve toutefois sa limite dans le devoir de vérité : le certificat doit donner une image aussi fidèle et complète que possible de l’activité, des prestations et du comportement. Il peut et doit donc aussi mentionner des faits négatifs, s’ils sont importants pour l’appréciation d’ensemble.",
         "it": "Un attestato completo deve favorire il suo avanzamento professionale e va quindi formulato in modo benevolo. Questa benevolenza trova però il suo limite nell’obbligo di veridicità: l’attestato deve dare un’immagine quanto più fedele e completa possibile dell’attività, delle prestazioni e della condotta. Può e deve quindi menzionare anche fatti negativi, se rilevanti per la valutazione complessiva.",
-        "en": "A full reference should support your career and must therefore be worded favourably. However, this favourable wording is limited by the duty of truthfulness: the reference must give as accurate and complete a picture as possible of your duties, performance and conduct. It may, and indeed must, also mention negative facts where they are material to the overall assessment."
+        "en": "A full reference should support your career and must therefore be worded favourably. However, this favourable wording is limited by the duty of truthfulness: the reference must give as accurate and complete a picture as possible of your duties, performance and conduct. It may, and indeed must, also mention negative facts where they are material to the overall assessment.",
+        "rm": "In certificat cumplet duai promover Voss avanzament professiunal e perquai esser formulà bainvulentamain. Questa bainvulenza chatta dentant sia cunfin en l'obligaziun da vardad: il certificat sto dar in maletg il pli fidel e cumplet pussibel da l'activitad, da la prestaziun e dal cumportament. El dastga e sto perquai era numnar fatgs negativs, sch'els èn impurtants per il giudizi cumplessiv."
       },
       "sources": [
         "or-330a",
@@ -297,7 +330,8 @@
         "de": "Auch während das Arbeitsverhältnis noch läuft, etwa nach einem Wechsel der vorgesetzten Person oder der Funktion, können Sie ein Zwischenzeugnis verlangen, das die bisherige Zeit abdeckt.",
         "fr": "Même pendant que le rapport de travail se poursuit, par exemple après un changement de supérieur hiérarchique ou de fonction, vous pouvez demander un certificat intermédiaire couvrant la période écoulée.",
         "it": "Anche mentre il rapporto di lavoro è ancora in corso, ad esempio dopo un cambio della persona responsabile o della funzione, lei può chiedere un attestato intermedio che copra il periodo trascorso finora.",
-        "en": "Even while the employment relationship is still ongoing, for example after a change of supervisor or role, you can ask for an interim reference covering the period so far."
+        "en": "Even while the employment relationship is still ongoing, for example after a change of supervisor or role, you can ask for an interim reference covering the period so far.",
+        "rm": "Era durant che la relaziun da lavur correspunda anc, per exempel suenter in müdada da la persuna superiura u da la funcziun, pudais Vus pretender in certificat intermediar che cuvra il temp fin qua."
       },
       "when": {
         "currently_employed": [
@@ -315,7 +349,8 @@
         "de": "Finden Sie im Zeugnis Fehler, Unwahrheiten oder eine unfair negative Darstellung, verlangen Sie schriftlich die Korrektur und verweisen Sie auf den Grundsatz der Wahrheit und des Wohlwollens. Sammeln Sie Belege für Ihre Sicht, zum Beispiel frühere Beurteilungen oder Lob per E-Mail.",
         "fr": "Si vous constatez des erreurs, des inexactitudes ou une présentation négative injuste dans le certificat, demandez la correction par écrit en vous référant au principe de vérité et de bienveillance. Rassemblez des preuves à l’appui de votre point de vue, par exemple d’anciennes évaluations ou des éloges reçus par courriel.",
         "it": "Se nell’attestato trova errori, affermazioni non veritiere o una rappresentazione ingiustamente negativa, chieda per scritto la correzione e si richiami al principio della verità e della benevolenza. Raccolga prove a sostegno della sua versione, ad esempio valutazioni precedenti o elogi ricevuti per e-mail.",
-        "en": "If you find errors, untruths or an unfairly negative account in the reference, ask in writing for it to be corrected and refer to the principle of truthfulness and favourable wording. Gather evidence for your view, for example earlier appraisals or praise sent by email."
+        "en": "If you find errors, untruths or an unfairly negative account in the reference, ask in writing for it to be corrected and refer to the principle of truthfulness and favourable wording. Gather evidence for your view, for example earlier appraisals or praise sent by email.",
+        "rm": "Sche Vus chattais en il certificat sbagls, nunvardads u ina represchentaziun negativa nungista, pretendai per scrit la correcziun e renviai al princip da la vardad e da la bainvulenza. Cumbinai probas per Vossa vesida, per exempel giudizis precedents u lod per e-mail."
       },
       "when": {
         "problem": [
@@ -333,7 +368,8 @@
         "de": "Stellt Ihr Arbeitgeber trotz schriftlicher Aufforderung gar kein Zeugnis aus oder korrigiert er offensichtlich falsche Angaben nicht, können Sie Ihren Anspruch bei der kantonalen Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten geltend machen, zuständig am Wohnsitz oder Sitz Ihres Arbeitgebers oder am Ort, wo Sie gewöhnlich gearbeitet haben.",
         "fr": "Si votre employeur, malgré une demande écrite, ne délivre aucun certificat ou ne corrige pas des indications manifestement erronées, vous pouvez faire valoir votre droit auprès de l’autorité cantonale de conciliation en matière de droit du travail, compétente au domicile ou au siège de votre employeur, ou au lieu où vous avez habituellement travaillé.",
         "it": "Se, nonostante la richiesta scritta, il suo datore di lavoro non rilascia alcun attestato o non corregge indicazioni palesemente errate, lei può far valere il suo diritto presso l’autorità cantonale di conciliazione per le controversie di diritto del lavoro, competente nel luogo di domicilio o di sede del suo datore di lavoro oppure nel luogo dove lei ha abitualmente lavorato.",
-        "en": "If, despite a written request, your employer does not issue a reference at all, or does not correct information that is clearly wrong, you can assert your claim with the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation), which has jurisdiction at your employer's domicile or registered office, or at the place where you usually worked."
+        "en": "If, despite a written request, your employer does not issue a reference at all, or does not correct information that is clearly wrong, you can assert your claim with the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation), which has jurisdiction at your employer's domicile or registered office, or at the place where you usually worked.",
+        "rm": "Sche Voss patrun na deliverescha, malgrà pretensiun per scrit, nagin certificat u na corrigescha betg indicaziuns evidentamain fallidas, pudais Vus far valair Vossa pretensiun tar l'autoritad chantunala da mediaziun per dispitas da dretg da lavur, cumpetenta al domicil u sez da Voss patrun u al lieu, nua ch'Vus avais usitgamain lavurà."
       },
       "when": {
         "problem": [
@@ -351,7 +387,8 @@
         "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren.",
         "fr": "Les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs sont gratuits en procédure de conciliation et se déroulent devant le tribunal selon la procédure simplifiée, plus simple et plus rapide.",
         "it": "Le controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi sono gratuite nella procedura di conciliazione e si svolgono davanti al giudice secondo la procedura semplificata, più semplice e rapida.",
-        "en": "Employment disputes up to a value in dispute of CHF 30,000 are free of charge in conciliation proceedings and are dealt with in court under the simpler, faster simplified procedure."
+        "en": "Employment disputes up to a value in dispute of CHF 30,000 are free of charge in conciliation proceedings and are dealt with in court under the simpler, faster simplified procedure.",
+        "rm": "Dispitas da dretg da lavur fin ina valur litigiusa da 30 000 francs èn gratuitas en la procedura da mediaziun e vegnan tractadas avant dretgira en la procedura simplifitgada pli simpla e pli svelta."
       },
       "sources": [
         "zpo-113",
@@ -365,7 +402,8 @@
         "de": "Holen Sie rasch persönliche Beratung, wenn Sie das Zeugnis dringend für eine Bewerbung brauchen, Ihr Arbeitgeber gar nicht reagiert, oder ein Streit über schwerwiegende, schwer beweisbare Vorwürfe im Zeugnis besteht.",
         "fr": "Demandez rapidement un conseil personnalisé si vous avez besoin du certificat de toute urgence pour une candidature, si votre employeur ne réagit pas du tout, ou en cas de litige sur des reproches graves et difficiles à prouver figurant dans le certificat.",
         "it": "Si faccia consigliare rapidamente da un professionista se ha urgentemente bisogno dell’attestato per una candidatura, se il suo datore di lavoro non reagisce affatto, oppure se vi è una controversia su addebiti gravi e difficili da provare contenuti nell’attestato.",
-        "en": "Get personal advice quickly if you urgently need the reference for a job application, your employer does not respond at all, or there is a dispute over serious allegations in the reference that are difficult to prove."
+        "en": "Get personal advice quickly if you urgently need the reference for a job application, your employer does not respond at all, or there is a dispute over serious allegations in the reference that are difficult to prove.",
+        "rm": "Procurai svelt ina consulaziun persunala, sche Vus dovrais il certificat urgentamain per in'annunzia, Voss patrun na reagescha da nagin maniera, u sche dat ina dispita davart reproschs gravs e difficils da cumprovar en il certificat."
       }
     },
     {
@@ -375,7 +413,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. Molti Cantoni offrono una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes can tell you about the procedure. Trade unions advise their members. Many cantons offer free legal advice."
+        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes can tell you about the procedure. Trade unions advise their members. Many cantons offer free legal advice.",
+        "rm": "Agid gratuit u avantagius: l'autoritad chantunala da mediaziun per dispitas da dretg da lavur infurmescha davart la procedura. Sindicats cusseglieschan lur commembers. Blers chantuns porschan ina consulaziun giuridica gratuita."
       }
     }
   ],
@@ -426,7 +465,8 @@
         "de": "ch.ch: Arbeitszeugnis in der Schweiz",
         "fr": "ch.ch : Certificat de travail en Suisse",
         "it": "ch.ch: Attestato di lavoro in Svizzera",
-        "en": "ch.ch: Employment reference in Switzerland"
+        "en": "ch.ch: Employment reference in Switzerland",
+        "rm": "ch.ch: Certificat da lavur en Svizra"
       },
       "url": "https://www.ch.ch/de/arbeit/arbeitszeugnis/"
     }

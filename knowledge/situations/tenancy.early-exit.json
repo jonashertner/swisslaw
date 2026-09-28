@@ -9,13 +9,15 @@
     "de": "Ich will vor Ablauf der Kündigungsfrist ausziehen",
     "fr": "Je veux déménager avant la fin du délai de congé",
     "it": "Voglio traslocare prima della scadenza del termine di preavviso",
-    "en": "I want to move out before my notice period is up"
+    "en": "I want to move out before my notice period is up",
+    "rm": "Jau vi sortir avant la scadenza dal temp da disditga"
   },
   "summary": {
     "de": "Wer ohne Einhaltung von Kündigungsfrist oder -termin auszieht, wird nur frei, wenn er dem Vermieter eine zahlungsfähige und zumutbare Ersatzmieterin oder einen Ersatzmieter vorschlägt, die oder der den Vertrag zu den gleichen Bedingungen übernimmt. Der Vermieter darf diese Person nur aus sachlichen Gründen ablehnen. Gelingt das nicht, schulden Sie die Miete weiter, bis das Mietverhältnis ordentlich endet oder hätte beendet werden können. Bei Wohnungen gilt ohne andere Abmachung eine Kündigungsfrist von drei Monaten auf einen ortsüblichen Termin.",
     "fr": "Qui restitue le logement sans respecter le délai ou le terme de congé n'est libéré que s'il propose au bailleur un nouveau locataire solvable et acceptable, qui reprend le contrat aux mêmes conditions. Le bailleur ne peut refuser cette personne que pour des motifs objectifs. Si cela n'aboutit pas, vous devez continuer à payer le loyer jusqu'à ce que le bail prenne fin ou aurait pu prendre fin normalement. Pour un logement, à défaut d'autre accord, le délai de congé est de trois mois pour un terme usuel du lieu.",
     "it": "Chi trasloca senza rispettare il termine di preavviso o la scadenza di disdetta è liberato dai suoi obblighi solo se propone al locatore un nuovo conduttore solvibile e ragionevolmente accettabile, che riprenda il contratto alle stesse condizioni. Il locatore può rifiutare questa persona solo per motivi oggettivi. Se ciò non riesce, Lei continua a dovere la pigione fino a quando la locazione termina regolarmente o avrebbe potuto terminare. Per gli appartamenti, salvo diverso accordo, vale un termine di preavviso di tre mesi per una scadenza usuale nella località.",
-    "en": "If you move out without keeping to the notice period or termination date, you are only released from your obligations if you propose a new tenant to the landlord who is solvent and reasonable to accept, and who takes over the lease on the same terms. The landlord may only refuse this person for objective reasons. If this does not succeed, you continue to owe rent until the tenancy ends, or could have ended, in the ordinary way. For flats, unless otherwise agreed, the notice period is three months to a date customary in the locality."
+    "en": "If you move out without keeping to the notice period or termination date, you are only released from your obligations if you propose a new tenant to the landlord who is solvent and reasonable to accept, and who takes over the lease on the same terms. The landlord may only refuse this person for objective reasons. If this does not succeed, you continue to owe rent until the tenancy ends, or could have ended, in the ordinary way. For flats, unless otherwise agreed, the notice period is three months to a date customary in the locality.",
+    "rm": "Tgi che sorta senza observar il temp u il termin da disditga, vegn liber mo, sch'el proponia al locatur in locatari da remplazzament, solvent e razunaivel, che surpiglia il contract a las medemas cundiziuns. Il locatur dastga refusar questa persuna mo per motivs objectivs. Na reussescha quai betg, deivas Vus il tschains vinavant, enfin ch'la relaziun da locaziun finescha ordinarmain u avess pudì finir. Tar abitaziuns vala, senza autra cunvegna, in temp da disditga da trais mais sin in termin usità al lieu."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "How long is my notice period for my flat?",
       "The landlord is refusing the new tenant I suggested, is that allowed?",
       "What happens if I can't find anyone to take over my lease?"
+    ],
+    "rm": [
+      "Jau vi sortir avant la scadenza dal temp da disditga",
+      "Poss jau sortir pli baud da l'abitaziun, sche jau procur in locatari da remplazzament?",
+      "Stoss jau pajar vinavant tschains, sche jau sort avant temp?",
+      "Poss jau sortir pli baud, sche jau hai chattà in locatari da remplazzament?",
+      "Quant lung è mes temp da disditga per l'abitaziun?",
+      "Il locatur refusa il locatari da remplazzament ch'jau hai proponì, dastg'el quai?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Den vorzeitigen Auszug aus einer gemieteten Wohnung in der Schweiz, bevor die vertragliche oder gesetzliche Kündigungsfrist oder der Kündigungstermin erreicht ist, und die ordentlichen Kündigungsfristen für Wohnungen.",
       "fr": "Le départ anticipé d'un logement loué en Suisse, avant l'échéance du délai ou du terme de congé contractuel ou légal, et les délais de congé ordinaires pour les logements.",
       "it": "Il trasloco anticipato da un appartamento preso in locazione in Svizzera, prima che sia raggiunto il termine di preavviso o la scadenza di disdetta contrattuale o legale, e i termini di preavviso ordinari per gli appartamenti.",
-      "en": "Moving out early from a rented flat in Switzerland before the contractual or statutory notice period or termination date is reached, and the ordinary notice periods for flats."
+      "en": "Moving out early from a rented flat in Switzerland before the contractual or statutory notice period or termination date is reached, and the ordinary notice periods for flats.",
+      "rm": "La sortida avant temp d'in'abitaziun locada en Svizra, avant ch'il temp da disditga contractual u legal u il termin da disditga è cuntanschì, sco er ils temps da disditga ordinaris per abitaziuns."
     },
     "excludes": {
       "de": "Geschäftsräume und andere besondere Mietverhältnisse; die ausserordentliche, fristlose Auflösung des Mietverhältnisses aus wichtigem Grund.",
       "fr": "Les locaux commerciaux et les autres baux particuliers ; la résiliation extraordinaire, avec effet immédiat, du bail pour de justes motifs.",
       "it": "I locali commerciali e altri rapporti di locazione particolari; lo scioglimento straordinario e senza preavviso della locazione per motivi gravi.",
-      "en": "Commercial premises and other special types of tenancy; extraordinary termination of the tenancy with immediate effect for good cause."
+      "en": "Commercial premises and other special types of tenancy; extraordinary termination of the tenancy with immediate effect for good cause.",
+      "rm": "Locals commerzials ed autras relaziuns da locaziun spezialas; la schliaziun extraordinaria, senza termin, da la relaziun da locaziun per motiv impurtant."
     }
   },
   "facts": [
@@ -72,13 +84,15 @@
         "de": "Haben Sie einen befristeten oder unbefristeten Mietvertrag?",
         "fr": "Avez-vous un bail de durée déterminée ou indéterminée ?",
         "it": "Ha un contratto di locazione a tempo determinato o indeterminato?",
-        "en": "Do you have a fixed-term or an open-ended lease?"
+        "en": "Do you have a fixed-term or an open-ended lease?",
+        "rm": "Avais Vus in contract da locaziun temporar u illimità?"
       },
       "help": {
         "de": "Befristet heisst, der Vertrag endet automatisch an einem im Vertrag festgelegten Datum, ohne dass gekündigt werden muss.",
         "fr": "Déterminée signifie que le contrat prend fin automatiquement à une date fixée dans le contrat, sans qu'il faille résilier.",
         "it": "A tempo determinato significa che il contratto termina automaticamente a una data fissata nel contratto, senza bisogno di disdetta.",
-        "en": "Fixed-term means the lease ends automatically on a date set in the lease, without anyone having to give notice."
+        "en": "Fixed-term means the lease ends automatically on a date set in the lease, without anyone having to give notice.",
+        "rm": "Temporar vul dir ch'il contract finescha automaticamain ad ina data fixada en il contract, senza ch'i dovria disdir."
       },
       "options": [
         {
@@ -87,7 +101,8 @@
             "de": "Befristet, mit einem festen Enddatum",
             "fr": "Déterminée, avec une date de fin fixe",
             "it": "A tempo determinato, con una data di fine fissa",
-            "en": "Fixed-term, with a set end date"
+            "en": "Fixed-term, with a set end date",
+            "rm": "Temporar, cun ina data da fin fixa"
           }
         },
         {
@@ -96,7 +111,8 @@
             "de": "Unbefristet",
             "fr": "Indéterminée",
             "it": "A tempo indeterminato",
-            "en": "Open-ended"
+            "en": "Open-ended",
+            "rm": "Illimità"
           }
         },
         {
@@ -105,7 +121,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -116,7 +133,8 @@
         "de": "Haben Sie bereits eine Ersatzmieterin oder einen Ersatzmieter gefunden?",
         "fr": "Avez-vous déjà trouvé un nouveau locataire ?",
         "it": "Ha già trovato un nuovo conduttore?",
-        "en": "Have you already found a new tenant?"
+        "en": "Have you already found a new tenant?",
+        "rm": "Avais Vus gia chattà in locatari da remplazzament?"
       },
       "options": [
         {
@@ -125,7 +143,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -134,7 +153,8 @@
             "de": "Nein, noch nicht",
             "fr": "Non, pas encore",
             "it": "No, non ancora",
-            "en": "No, not yet"
+            "en": "No, not yet",
+            "rm": "Na, anc betg"
           }
         },
         {
@@ -143,7 +163,8 @@
             "de": "Ich bin mir nicht sicher, wie das funktioniert",
             "fr": "Je ne sais pas trop comment cela fonctionne",
             "it": "Non sono sicuro di come funzioni",
-            "en": "I'm not sure how this works"
+            "en": "I'm not sure how this works",
+            "rm": "Jau na sai betg exact, co quai funcziuna"
           }
         }
       ]
@@ -154,7 +175,8 @@
         "de": "Was möchten Sie wissen?",
         "fr": "Que souhaitez-vous savoir ?",
         "it": "Cosa vorrebbe sapere?",
-        "en": "What would you like to know?"
+        "en": "What would you like to know?",
+        "rm": "Tge vulais Vus savair?"
       },
       "options": [
         {
@@ -163,7 +185,8 @@
             "de": "Ich will einfach früher ausziehen, ohne die Kündigungsfrist abzuwarten",
             "fr": "Je veux simplement partir plus tôt, sans attendre le délai de congé",
             "it": "Voglio semplicemente traslocare prima, senza attendere il termine di preavviso",
-            "en": "I just want to move out earlier, without waiting out the notice period"
+            "en": "I just want to move out earlier, without waiting out the notice period",
+            "rm": "Jau vi simplamain sortir pli baud, senza spetgar il temp da disditga"
           }
         },
         {
@@ -172,7 +195,8 @@
             "de": "Ich weiss nicht, wie lange meine ordentliche Kündigungsfrist ist",
             "fr": "Je ne sais pas quelle est la durée de mon délai de congé ordinaire",
             "it": "Non so quanto dura il mio termine di preavviso ordinario",
-            "en": "I don't know how long my ordinary notice period is"
+            "en": "I don't know how long my ordinary notice period is",
+            "rm": "Jau na sai betg, quant lung ch'è mes temp da disditga ordinari"
           }
         },
         {
@@ -181,7 +205,8 @@
             "de": "Beides",
             "fr": "Les deux",
             "it": "Entrambe le cose",
-            "en": "Both"
+            "en": "Both",
+            "rm": "Tuttas duas chaussas"
           }
         },
         {
@@ -190,7 +215,8 @@
             "de": "Ich weiss es noch nicht",
             "fr": "Je ne sais pas encore",
             "it": "Non lo so ancora",
-            "en": "I don't know yet"
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -211,7 +237,8 @@
         "de": "Geben Sie die Wohnung zurück, ohne die Kündigungsfrist oder den Kündigungstermin einzuhalten, werden Sie von Ihren Pflichten gegenüber dem Vermieter nur befreit, wenn Sie ihm eine Ersatzmieterin oder einen Ersatzmieter vorschlagen, die oder der für den Vermieter zumutbar ist. Diese Person muss zahlungsfähig sein und bereit, Ihren Vertrag mit unveränderten Bedingungen weiterzuführen. Eine einzige geeignete Person genügt. Der Mietvertrag kann dieses Recht nicht zu Ihrem Nachteil ausschliessen.",
         "fr": "Si vous restituez le logement sans respecter le délai ou le terme de congé, vos obligations envers le bailleur ne prennent fin que si vous lui proposez un nouveau locataire acceptable pour lui. Cette personne doit être solvable et disposée à reprendre votre contrat aux conditions inchangées. Une seule personne appropriée suffit. Le bail ne peut pas exclure ce droit à votre détriment.",
         "it": "Se restituisce l'appartamento senza rispettare il termine di preavviso o la scadenza di disdetta, i Suoi obblighi verso il locatore cessano solo se gli propone un nuovo conduttore ragionevolmente accettabile per lui. Questa persona deve essere solvibile e disposta a proseguire il Suo contratto alle condizioni invariate. Basta una sola persona idonea. Il contratto di locazione non può escludere questo diritto a Suo svantaggio.",
-        "en": "If you return the flat without keeping to the notice period or termination date, you are only released from your obligations towards the landlord if you propose a new tenant who is reasonable for the landlord to accept. This person must be solvent and willing to continue your lease on unchanged terms. One suitable person is enough. The lease cannot exclude this right to your disadvantage."
+        "en": "If you return the flat without keeping to the notice period or termination date, you are only released from your obligations towards the landlord if you propose a new tenant who is reasonable for the landlord to accept. This person must be solvent and willing to continue your lease on unchanged terms. One suitable person is enough. The lease cannot exclude this right to your disadvantage.",
+        "rm": "Sche Vus restituis l'abitaziun senza observar il temp u il termin da disditga, vegnis Vus deliberads da Voss obligaziuns envers il locatur mo, sche Vus al proponais in locatari da remplazzament che saja razunaivel per il locatur. Questa persuna sto esser solventa e pronta da cuntinuar Voss contract a cundiziuns nunmidadas. Ina unica persuna adequata basta. Il contract da locaziun na po betg exclúder quest dretg a Voss disavantatg."
       },
       "sources": [
         "or-264",
@@ -232,7 +259,8 @@
         "de": "So gehen Sie vor: Teilen Sie dem Vermieter schriftlich mit, auf welches Datum Sie die Wohnung zurückgeben wollen, und nennen Sie die Ersatzmieterin oder den Ersatzmieter mit Name und Kontaktangaben. Legen Sie Unterlagen bei, die der Vermieter für seine Prüfung braucht, etwa einen aktuellen Betreibungsregisterauszug und einen Nachweis über das Einkommen. Hält der Vermieter die Unterlagen für ungenügend, muss er die fehlenden Dokumente verlangen. Er kann die Person nicht mit der Begründung ablehnen, es fehle ein Dokument, das er nie angefordert hat. Rechnen Sie damit, dass die Prüfung einige Zeit dauert, und schlagen Sie die Person deshalb früh vor.",
         "fr": "Comment procéder : communiquez par écrit au bailleur la date à laquelle vous voulez restituer le logement, et indiquez le nom et les coordonnées du nouveau locataire. Joignez les documents dont le bailleur a besoin pour son examen, par exemple un extrait récent du registre des poursuites et une preuve de revenu. Si le bailleur estime les documents insuffisants, il doit demander les pièces manquantes. Il ne peut pas refuser la personne au motif qu'un document qu'il n'a jamais demandé fait défaut. Comptez sur le fait que l'examen prend un certain temps, et proposez donc la personne tôt.",
         "it": "Come procedere: comunichi per scritto al locatore a quale data intende restituire l'appartamento, e indichi il nuovo conduttore con nome e recapiti. Alleghi i documenti di cui il locatore ha bisogno per la sua verifica, per esempio un estratto recente del registro delle esecuzioni e una prova del reddito. Se il locatore ritiene insufficienti i documenti, deve chiedere quelli mancanti. Non può rifiutare la persona con la motivazione che manca un documento che non ha mai richiesto. Conti sul fatto che la verifica richieda un certo tempo, e proponga quindi la persona per tempo.",
-        "en": "Here is how to proceed: tell the landlord in writing the date on which you want to return the flat, and name the new tenant, with contact details. Enclose documents the landlord needs for his assessment, such as a recent extract from the debt enforcement register and proof of income. If the landlord considers the documents insufficient, he must ask for what is missing. He cannot refuse the person on the ground that a document he never asked for is missing. Expect the assessment to take some time, so propose the person early."
+        "en": "Here is how to proceed: tell the landlord in writing the date on which you want to return the flat, and name the new tenant, with contact details. Enclose documents the landlord needs for his assessment, such as a recent extract from the debt enforcement register and proof of income. If the landlord considers the documents insufficient, he must ask for what is missing. He cannot refuse the person on the ground that a document he never asked for is missing. Expect the assessment to take some time, so propose the person early.",
+        "rm": "Uschia procedais Vus: communitgai al locatur per scrit, sin tge data che Vus vulais restituir l'abitaziun, e numnai il locatari da remplazzament cun num e datas da contact. Agiuntai documents che il locatur dovra per sia examinaziun, per exempel in extract actual dal register da scussiun e da concurs ed ina cumprova da l'entrada. Tegna il locatur ils documents per insuffizients, sto el pretender ils documents mancants. El na po betg refusar la persuna cun la motivaziun ch'i mancass in document ch'el n'ha mai pretendì. Quintai cun il fatg che l'examinaziun dura in pau da temp, e proponai perquai la persuna baud."
       },
       "sources": [
         "or-264",
@@ -253,7 +281,8 @@
         "de": "Der Vermieter muss nicht jede vorgeschlagene Person akzeptieren, er darf sie aber nur aus einem sachlichen Grund ablehnen. Solche Gründe sind zum Beispiel begründete Zweifel an der Zahlungsfähigkeit, eine Feindschaft zwischen ihm und der Person oder die Gefahr, dass sie andere Hausbewohner stört. Eine blosse Abneigung, vage Befürchtungen oder Vorurteile gegenüber einer ganzen Gruppe von Menschen genügen nicht. Die Zahlungsfähigkeit wird im Einzelfall beurteilt: Dass die Miete mehr als einen Drittel des Einkommens ausmacht, reicht allein nicht für eine Ablehnung. Lehnt der Vermieter eine zumutbare Person trotzdem ab, sind Sie ab dem Zeitpunkt frei, auf den diese Person die Wohnung übernommen hätte.",
         "fr": "Le bailleur n'est pas tenu d'accepter toute personne proposée, mais il ne peut la refuser que pour un motif objectif. De tels motifs sont par exemple des doutes fondés sur la solvabilité, une inimitié entre lui et la personne, ou le risque qu'elle dérange d'autres habitants de l'immeuble. Une simple antipathie, de vagues craintes ou des préjugés envers tout un groupe de personnes ne suffisent pas. La solvabilité s'apprécie au cas par cas : que le loyer représente plus d'un tiers du revenu ne suffit pas à lui seul à justifier un refus. Si le bailleur refuse quand même une personne acceptable, vos obligations prennent fin dès le moment où cette personne aurait repris le logement.",
         "it": "Il locatore non deve accettare ogni persona proposta, ma può rifiutarla solo per un motivo oggettivo. Motivi di questo tipo sono per esempio dubbi fondati sulla solvibilità, un'inimicizia tra lui e la persona, oppure il rischio che disturbi altri abitanti dello stabile. Una semplice antipatia, timori vaghi o pregiudizi verso un intero gruppo di persone non bastano. La solvibilità viene valutata caso per caso: il fatto che la pigione rappresenti più di un terzo del reddito non basta da solo per un rifiuto. Se il locatore rifiuta comunque una persona ragionevolmente accettabile, Lei è liberato a partire dal momento in cui questa persona avrebbe assunto l'appartamento.",
-        "en": "The landlord does not have to accept every person proposed, but he may only refuse for an objective reason. Such reasons include, for example, well-founded doubts about solvency, personal enmity between him and the person, or the risk that the person will disturb other occupants of the building. Mere dislike, vague fears, or prejudice against a whole group of people are not enough. Solvency is assessed case by case: the fact that the rent amounts to more than a third of income is not on its own enough to justify a refusal. If the landlord refuses a reasonable person anyway, you are released from the date on which that person would have taken over the flat."
+        "en": "The landlord does not have to accept every person proposed, but he may only refuse for an objective reason. Such reasons include, for example, well-founded doubts about solvency, personal enmity between him and the person, or the risk that the person will disturb other occupants of the building. Mere dislike, vague fears, or prejudice against a whole group of people are not enough. Solvency is assessed case by case: the fact that the rent amounts to more than a third of income is not on its own enough to justify a refusal. If the landlord refuses a reasonable person anyway, you are released from the date on which that person would have taken over the flat.",
+        "rm": "Il locatur na sto betg acceptar mintga persuna proponida, el dastga dentant refusar quella mo per in motiv objectiv. Talas motivs èn per exempel dubis fundads davart la solvenza, ina inimicizia tranter el e la persuna, u il privel ch'ella disturbia auters abitants da la chasa. Ina simpla aversiun, timurs vagas u prejudizis envers in grupp entir da persunas na bastan betg. La solvenza vegn giuditgada en il cas singul: che il tschains fetschia dapli ch'in terz da l'entrada na basta betg sulet per ina refusa. Refusa il locatur ina persuna razunaivla tuttina, essas Vus libers dapi il mument, sin il qual questa persuna avess surpiglià l'abitaziun."
       },
       "sources": [
         "or-264",
@@ -274,7 +303,8 @@
         "de": "Die Ersatzmieterin oder der Ersatzmieter muss den Vertrag zu den gleichen Bedingungen übernehmen, insbesondere zum gleichen Mietzins. Will die Person nur einen deutlich tieferen Mietzins bezahlen, darf der Vermieter sie ablehnen. Das gilt auch dann, wenn Sie anbieten, ihm die Differenz bis zum Ende Ihres Vertrags selbst zu bezahlen.",
         "fr": "Le nouveau locataire doit reprendre le contrat aux mêmes conditions, notamment au même loyer. Si la personne ne veut payer qu'un loyer nettement plus bas, le bailleur peut la refuser. Cela vaut aussi si vous offrez de lui payer vous-même la différence jusqu'à la fin de votre contrat.",
         "it": "Il nuovo conduttore deve assumere il contratto alle stesse condizioni, in particolare alla stessa pigione. Se la persona vuole pagare solo una pigione nettamente più bassa, il locatore può rifiutarla. Questo vale anche se Lei offre di pagargli di tasca propria la differenza fino alla fine del Suo contratto.",
-        "en": "The new tenant must take over the lease on the same terms, in particular at the same rent. If the person only wants to pay a significantly lower rent, the landlord may refuse them. This also applies if you offer to pay the difference to the landlord yourself until the end of your lease."
+        "en": "The new tenant must take over the lease on the same terms, in particular at the same rent. If the person only wants to pay a significantly lower rent, the landlord may refuse them. This also applies if you offer to pay the difference to the landlord yourself until the end of your lease.",
+        "rm": "Il locatari da remplazzament sto surpigliar il contract a las medemas cundiziuns, en spezial al medem tschains. Vul la persuna pajar mo in tschains considerablamain pli bass, dastga il locatur la refusar. Quai vala er, sche Vus offrais da pajar Vus sez la differenza enfin la fin da Voss contract."
       },
       "sources": [
         "or-264",
@@ -295,7 +325,8 @@
         "de": "Finden Sie keine zumutbare Ersatzmieterin oder keinen zumutbaren Ersatzmieter, oder lehnt der Vermieter zu Recht ab, müssen Sie den Mietzins weiter bezahlen, auch wenn Sie nicht mehr in der Wohnung wohnen. Das gilt bis zu dem Zeitpunkt, auf den das Mietverhältnis nach Vertrag oder Gesetz endet oder frühestens hätte beendet werden können. Der Vermieter kann diese Mietzinse gestützt auf den Mietvertrag betreiben. Er muss sich aber anrechnen lassen, was er an Auslagen erspart und was er durch eine anderweitige Nutzung der Wohnung einnimmt. Dasselbe gilt für Einnahmen, auf die er absichtlich verzichtet, etwa wenn er die Wohnung ohne guten Grund leer stehen lässt. Eine Ersatzperson zu finden ist grundsätzlich Ihre Aufgabe. Der Vermieter muss Sie dabei aber unterstützen, und finden Sie niemanden, muss er sich selbst um eine Weitervermietung bemühen.",
         "fr": "Si vous ne trouvez pas de nouveau locataire acceptable, ou si le bailleur refuse à juste titre, vous devez continuer à payer le loyer, même si vous n'habitez plus le logement. Cela vaut jusqu'au moment où le bail prend fin selon le contrat ou la loi, ou aurait pu prendre fin au plus tôt. Le bailleur peut poursuivre ces loyers sur la base du bail. Il doit cependant se laisser imputer ce qu'il économise en dépenses et ce qu'il retire d'un autre usage du logement. Il en va de même pour les revenus auxquels il renonce intentionnellement, par exemple s'il laisse le logement vide sans bon motif. Trouver une personne de remplacement est en principe votre tâche. Le bailleur doit cependant vous y aider, et si vous ne trouvez personne, il doit lui-même s'efforcer de relouer le logement.",
         "it": "Se non trova un nuovo conduttore ragionevolmente accettabile, o se il locatore rifiuta a ragione, Lei deve continuare a pagare la pigione, anche se non abita più nell'appartamento. Questo vale fino al momento in cui la locazione termina secondo il contratto o la legge, o avrebbe potuto terminare al più presto. Il locatore può escutere queste pigioni sulla base del contratto di locazione. Deve però lasciarsi imputare le spese risparmiate e ciò che guadagna con un'altra utilizzazione dell'appartamento. Lo stesso vale per i guadagni a cui rinuncia intenzionalmente, per esempio se lascia sfitto l'appartamento senza un buon motivo. Trovare una persona sostitutiva spetta in linea di principio a Lei. Il locatore deve però assisterLa in questo, e se non trova nessuno, deve adoperarsi lui stesso per una nuova locazione.",
-        "en": "If you cannot find a reasonable new tenant, or the landlord rightly refuses one, you must keep paying the rent, even once you no longer live in the flat. This applies until the date on which the tenancy ends, or could at the earliest have ended, under the lease or the law. The landlord can pursue this rent through debt enforcement proceedings based on the lease. He must, however, allow credit for what he saves in expenses and what he earns by using the flat another way. The same applies to income he deliberately forgoes, for example if he leaves the flat empty without good reason. Finding a replacement is, in principle, your job. The landlord must support you in this, though, and if you find no one, he must himself make an effort to re-let the flat."
+        "en": "If you cannot find a reasonable new tenant, or the landlord rightly refuses one, you must keep paying the rent, even once you no longer live in the flat. This applies until the date on which the tenancy ends, or could at the earliest have ended, under the lease or the law. The landlord can pursue this rent through debt enforcement proceedings based on the lease. He must, however, allow credit for what he saves in expenses and what he earns by using the flat another way. The same applies to income he deliberately forgoes, for example if he leaves the flat empty without good reason. Finding a replacement is, in principle, your job. The landlord must support you in this, though, and if you find no one, he must himself make an effort to re-let the flat.",
+        "rm": "Na chattais Vus nagin locatari da remplazzament razunaivel, u refusa il locatur cun raschun, stuais Vus pajar vinavant il tschains, era sche Vus n'abitais betg pli en l'abitaziun. Quai vala enfin il mument, sin il qual la relaziun da locaziun finescha tenor contract u lescha u avess pudì finir il pli baud. Il locatur po far scussiun per quests tschains sa basond sin il contract da locaziun. El sto dentant sa laschar quintar tge ch'el spargna en spesas e tge ch'el retira tras in'autra utilisaziun da l'abitaziun. Il medem vala per entradas a las qualas el renunzia intenziunadamain, per exempel sch'el laschia star vida l'abitaziun senza bun motiv. Chattar ina persuna da remplazzament è fundamentalmain Voss incumbensa. Il locatur sto Vus dentant sustegnair en quai, e sche Vus na chattais nagin, sto el sez s'engaschar per relocar l'abitaziun."
       },
       "sources": [
         "or-264",
@@ -321,7 +352,8 @@
         "de": "Ein Brief, in dem Sie auf ein Datum kündigen und zugleich ankündigen, eine Ersatzmieterin oder einen Ersatzmieter zu suchen, gilt in der Regel nicht als ordentliche Kündigung, sondern nur als Ankündigung des vorzeitigen Auszugs. Wollen Sie sichergehen, dass Ihre Pflichten spätestens auf den nächsten Kündigungstermin enden, kündigen Sie zusätzlich ausdrücklich und schriftlich, mit Ihrer Unterschrift, auf diesen Termin. Wohnen Sie mit Ihrer Ehefrau, Ihrem Ehemann oder Ihrer eingetragenen Partnerin oder Ihrem eingetragenen Partner in der Familienwohnung, braucht es deren ausdrückliche Zustimmung.",
         "fr": "Une lettre dans laquelle vous résiliez pour une date tout en annonçant en même temps que vous cherchez un nouveau locataire ne vaut en règle générale pas comme congé ordinaire, mais seulement comme annonce d'un départ anticipé. Si vous voulez vous assurer que vos obligations prennent fin au plus tard au prochain terme de congé, résiliez en outre expressément et par écrit, avec votre signature, pour ce terme. Si vous vivez avec votre épouse, votre époux, ou la personne avec qui vous êtes en partenariat enregistré, dans le logement de la famille, son accord exprès est nécessaire.",
         "it": "Una lettera in cui Lei disdice a una data e allo stesso tempo annuncia di cercare un nuovo conduttore non vale di regola come disdetta ordinaria, ma solo come annuncio del trasloco anticipato. Se vuole essere sicuro che i Suoi obblighi terminino al più tardi alla prossima scadenza di disdetta, disdica inoltre espressamente e per scritto, con la Sua firma, per quella scadenza. Se abita con la moglie, il marito o la partner o il partner registrato nell'abitazione familiare, serve il loro consenso espresso.",
-        "en": "A letter in which you give notice for a date and at the same time announce that you will look for a new tenant generally does not count as an ordinary notice of termination, only as notice of an early move. If you want to be sure your obligations end at the latest on the next termination date, also give notice separately, expressly and in writing, with your signature, for that date. If you live with your wife, your husband, or your registered partner in the family residence, their express consent is required."
+        "en": "A letter in which you give notice for a date and at the same time announce that you will look for a new tenant generally does not count as an ordinary notice of termination, only as notice of an early move. If you want to be sure your obligations end at the latest on the next termination date, also give notice separately, expressly and in writing, with your signature, for that date. If you live with your wife, your husband, or your registered partner in the family residence, their express consent is required.",
+        "rm": "Ina brev, en la quala Vus disdis sin ina data ed annunziais al medem temp da tschertgar in locatari da remplazzament, vala per regla betg sco disditga ordinaria, mabain mo sco annunzia da la sortida avant temp. Vulais Vus esser segirs che Voss obligaziuns finischan il pli tard sin il proxim termin da disditga, disdi supplementarmain explicitamain e per scrit, cun Vossa suttascripziun, sin quest termin. Abitais Vus cun Vossa consorta, Voss consort u cun Vossa partenaria registrada u Voss partenari registrà en l'abitaziun da famiglia, dovra ins lur consentiment explicit."
       },
       "sources": [
         "bger-4c-16-2000",
@@ -344,7 +376,8 @@
         "de": "Geben Sie die Wohnung tatsächlich zurück: geräumt, gereinigt und mit allen Schlüsseln. Vereinbaren Sie mit dem Vermieter einen Termin für die Rückgabe und lassen Sie ein Protokoll erstellen, das Sie beide unterschreiben. Der Vermieter muss die Wohnung dabei prüfen und Mängel, für die er Sie verantwortlich macht, sofort melden.",
         "fr": "Restituez effectivement le logement : vidé, nettoyé et avec toutes les clés. Convenez avec le bailleur d'une date pour la restitution et faites établir un procès-verbal que vous signez tous les deux. Le bailleur doit alors contrôler le logement et signaler immédiatement les défauts dont il vous tient responsable.",
         "it": "Restituisca effettivamente l'appartamento: sgombro, pulito e con tutte le chiavi. Concordi con il locatore un appuntamento per la riconsegna e faccia redigere un verbale che firmate entrambi. Il locatore deve controllare l'appartamento in quell'occasione e segnalare subito i difetti di cui La ritiene responsabile.",
-        "en": "Actually return the flat: cleared, cleaned, and with all the keys. Agree a date for the handover with the landlord and have a record drawn up that you both sign. The landlord must inspect the flat at that point and immediately report any defects he holds you responsible for."
+        "en": "Actually return the flat: cleared, cleaned, and with all the keys. Agree a date for the handover with the landlord and have a record drawn up that you both sign. The landlord must inspect the flat at that point and immediately report any defects he holds you responsible for.",
+        "rm": "Restituis Vus l'abitaziun effectivamain: vidada, nettegiada e cun tuttas clavs. Cunvegnai cun il locatur in termin per la restituziun e laschai far in protocol che Vus suttascrivais tuts dus. Il locatur sto examinar l'abitaziun en quest connex ed annunziar immediat defects per ils quals el Vus fa responsabels."
       },
       "sources": [
         "or-267"
@@ -368,7 +401,8 @@
         "de": "Bei einem unbefristeten Mietverhältnis über eine Wohnung beträgt die gesetzliche Kündigungsfrist für beide Seiten drei Monate. Gekündigt wird auf einen ortsüblichen Termin oder, wo es keinen gibt, auf das Ende einer dreimonatigen Mietdauer. Haben Sie mit dem Vermieter eine längere Frist oder einen anderen Termin vereinbart, gilt diese Abmachung. Halten Sie Frist oder Termin nicht ein, gilt Ihre Kündigung automatisch für den nächstmöglichen Termin.",
         "fr": "Pour un bail de durée indéterminée portant sur un logement, le délai de congé légal est de trois mois pour les deux parties. La résiliation se fait pour un terme usuel du lieu ou, s'il n'y en a pas, pour la fin d'une période de location de trois mois. Si vous avez convenu avec le bailleur d'un délai plus long ou d'un autre terme, cet accord s'applique. Si vous ne respectez pas le délai ou le terme, votre congé vaut automatiquement pour le prochain terme possible.",
         "it": "In un rapporto di locazione a tempo indeterminato su un appartamento, il termine legale di preavviso è di tre mesi per entrambe le parti. Si disdice per una scadenza usuale nella località o, dove non ve n'è una, per la fine di una durata di locazione di tre mesi. Se con il locatore ha pattuito un termine più lungo o una scadenza diversa, vale questo accordo. Se non rispetta il termine o la scadenza, la Sua disdetta vale automaticamente per la prossima scadenza possibile.",
-        "en": "For an open-ended tenancy of a flat, the statutory notice period for both sides is three months. Notice is given for a date customary in the locality or, where there is none, for the end of a three-month period of the tenancy. If you have agreed a longer period or a different date with the landlord, that agreement applies. If you do not keep to the notice period or date, your notice automatically takes effect on the next possible date."
+        "en": "For an open-ended tenancy of a flat, the statutory notice period for both sides is three months. Notice is given for a date customary in the locality or, where there is none, for the end of a three-month period of the tenancy. If you have agreed a longer period or a different date with the landlord, that agreement applies. If you do not keep to the notice period or date, your notice automatically takes effect on the next possible date.",
+        "rm": "Tar ina relaziun da locaziun illimitada per in'abitaziun munta il temp da disditga legal, per tuttas duas parts, trais mais. Ins disda sin in termin usità al lieu u, nua ch'i n'exista nagin, sin la fin d'ina durada da locaziun da trais mais. Avais Vus cunvegnì cun il locatur in temp pli lung u in auter termin, vala questa cunvegna. Na observais Vus il temp u il termin betg, vala Vossa disditga automaticamain per il proxim termin pussibel."
       },
       "sources": [
         "or-266a",
@@ -387,7 +421,8 @@
         "de": "Ein befristetes Mietverhältnis endet automatisch am vereinbarten Datum, ohne dass gekündigt werden muss. Vor diesem Datum können Sie es nur durch eine zahlungsfähige, zumutbare Ersatzmieterin oder einen ebensolchen Ersatzmieter oder durch eine Einigung mit dem Vermieter vorzeitig beenden. Finden Sie niemanden, schulden Sie den Mietzins bis zum vereinbarten Enddatum. Bleiben Sie nach diesem Datum stillschweigend wohnen und akzeptiert der Vermieter das, wird daraus ein unbefristetes Mietverhältnis mit den gesetzlichen Kündigungsfristen.",
         "fr": "Un bail de durée déterminée prend fin automatiquement à la date convenue, sans qu'il faille résilier. Avant cette date, vous ne pouvez y mettre fin par anticipation que par un nouveau locataire solvable et acceptable, ou par un accord avec le bailleur. Si vous ne trouvez personne, vous devez le loyer jusqu'à la date de fin convenue. Si vous restez habiter tacitement après cette date et que le bailleur l'accepte, le bail devient un bail de durée indéterminée soumis aux délais de congé légaux.",
         "it": "Un rapporto di locazione a tempo determinato termina automaticamente alla data pattuita, senza bisogno di disdetta. Prima di questa data può porvi fine anticipatamente solo tramite un nuovo conduttore solvibile e ragionevolmente accettabile, oppure tramite un accordo con il locatore. Se non trova nessuno, deve la pigione fino alla data di fine pattuita. Se dopo questa data resta ad abitare tacitamente e il locatore lo accetta, ne risulta un rapporto di locazione a tempo indeterminato con i termini di preavviso legali.",
-        "en": "A fixed-term tenancy ends automatically on the agreed date, without anyone needing to give notice. Before that date you can only end it early through a solvent, reasonable new tenant, or by agreement with the landlord. If you find no one, you owe the rent until the agreed end date. If you stay on after that date without objection and the landlord accepts this, it becomes an open-ended tenancy with the statutory notice periods."
+        "en": "A fixed-term tenancy ends automatically on the agreed date, without anyone needing to give notice. Before that date you can only end it early through a solvent, reasonable new tenant, or by agreement with the landlord. If you find no one, you owe the rent until the agreed end date. If you stay on after that date without objection and the landlord accepts this, it becomes an open-ended tenancy with the statutory notice periods.",
+        "rm": "Ina relaziun da locaziun temporara finescha automaticamain a la data cunvegnida, senza ch'i dovria disdir. Avant questa data pudais Vus la finir avant temp mo tras in locatari da remplazzament solvent e razunaivel u tras in'entesa cun il locatur. Na chattais Vus nagin, deivas Vus il tschains enfin la data da fin cunvegnida. Restais Vus abitar taschentamain suenter questa data ed accepta il locatur quai, resulta ord quai ina relaziun da locaziun illimitada cun ils temps da disditga legals."
       },
       "sources": [
         "or-266",
@@ -401,7 +436,8 @@
         "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
         "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
         "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
-        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid."
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid.",
+        "rm": "La procedura da mediaziun en fatgs da locaziun è gratuita: i na vegnan drizzads nagins custs giudizials. Igl na dat dentant er nagina indemnisaziun per custs d'advocat. Sche Vus consultais in'advocata u in advocat, purtais Vus quests custs en questa procedura per regla Vus sez. Sche suonda pli tard ina procedura giudiziala, pon resultar custs giudizials ed in'indemnisaziun a la cuntrapart. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zpo-113",
@@ -415,7 +451,8 @@
         "de": "Holen Sie persönliche Beratung, wenn der Vermieter eine vorgeschlagene Ersatzmieterin oder einen Ersatzmieter ohne sachlichen Grund ablehnt oder auf Ihren Vorschlag nicht reagiert, wenn Sie wegen ausstehender Mietzinse einen Zahlungsbefehl erhalten haben, wenn Sie sich mit dem Vermieter über die Höhe der geschuldeten Miete streiten, oder wenn ein wichtiger Grund für eine sofortige, ausserordentliche Auflösung vorliegen könnte.",
         "fr": "Demandez une consultation personnelle si le bailleur refuse sans motif objectif un nouveau locataire que vous proposez ou ne réagit pas à votre proposition, si vous avez reçu un commandement de payer pour des loyers impayés, si vous êtes en désaccord avec le bailleur sur le montant du loyer dû, ou si un juste motif pourrait justifier une résiliation extraordinaire immédiate.",
         "it": "Chieda una consulenza personale se il locatore rifiuta senza motivo oggettivo un nuovo conduttore proposto o non reagisce alla Sua proposta, se ha ricevuto un precetto esecutivo per pigione arretrata, se è in disaccordo con il locatore sull'entità della pigione dovuta, oppure se potrebbe sussistere un motivo grave per uno scioglimento immediato e straordinario.",
-        "en": "Get personal advice if the landlord refuses a proposed new tenant without an objective reason, or does not respond to your proposal, if you receive a summons for payment because of unpaid rent, if you and the landlord disagree on the amount of rent owed, or if there could be good cause for an immediate, extraordinary termination."
+        "en": "Get personal advice if the landlord refuses a proposed new tenant without an objective reason, or does not respond to your proposal, if you receive a summons for payment because of unpaid rent, if you and the landlord disagree on the amount of rent owed, or if there could be good cause for an immediate, extraordinary termination.",
+        "rm": "Tschertgai consulaziun persunala, sche il locatur refusa in locatari da remplazzament proponì senza motiv objectiv u na reagescha betg a Voss proposta, sche Vus avais retschavì in cumond da pajament pervi da tschains restants, sche Vus As dispitais cun il locatur davart l'autezza dal tschains dovì, u sche in motiv impurtant per ina schliaziun immediata ed extraordinaria pudess exister."
       }
     },
     {
@@ -425,7 +462,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Suche nach einer geeigneten Ersatzmieterin oder einem Ersatzmieter. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres, aussi pour la recherche d'un nouveau locataire approprié. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri, anche nella ricerca di un nuovo conduttore idoneo. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: the conciliation authority (Schlichtungsbehörde / autorité de conciliation) for tenancy matters provides information about the procedure. Tenants' associations advise their members, including on finding a suitable new tenant. Many cantons and bar associations offer free legal information."
+        "en": "Free or low-cost help: the conciliation authority (Schlichtungsbehörde / autorité de conciliation) for tenancy matters provides information about the procedure. Tenants' associations advise their members, including on finding a suitable new tenant. Many cantons and bar associations offer free legal information.",
+        "rm": "Agid gratuit u favuraivel: l'autoritad da mediaziun per fatgs da locaziun infurmescha davart la procedura. Associaziuns da locataris consultan lur commembers, er tar la tschertga d'in locatari da remplazzament adequat. Blers chantuns ed associaziuns d'advocats offran ina infurmaziun giuridica gratuita."
       }
     }
   ],
@@ -551,7 +589,8 @@
         "de": "ch.ch: Mietvertrag und Pachtvertrag",
         "fr": "ch.ch : contrat de bail à loyer et à ferme",
         "it": "ch.ch: Contratto di locazione e di affitto",
-        "en": "ch.ch: Tenancy and lease agreements"
+        "en": "ch.ch: Tenancy and lease agreements",
+        "rm": "ch.ch: Contract da locaziun e contract d'affitg"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
     }

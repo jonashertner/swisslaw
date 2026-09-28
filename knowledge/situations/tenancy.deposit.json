@@ -9,13 +9,15 @@
     "de": "Wie bekomme ich meine Mietkaution zurück?",
     "fr": "Comment récupérer ma garantie de loyer ?",
     "it": "Come recupero la mia garanzia di locazione?",
-    "en": "How do I get my rental deposit back?"
+    "en": "How do I get my rental deposit back?",
+    "rm": "Co survegn jau enavos mia cauziun da locaziun?"
   },
   "summary": {
     "de": "Die Mietkaution muss bei einer Bank auf einem Konto in Ihrem eigenen Namen liegen, und bei einer Wohnung darf sie höchstens drei Monatsmieten betragen. Nach Ende des Mietverhältnisses kommt der Vermieter nur mit Ihrer Zustimmung, einem rechtskräftigen Zahlungsbefehl oder einem Urteil an das Geld. Macht er innert einem Jahr keine rechtlichen Schritte, können Sie die Kaution direkt von der Bank zurückfordern. Gegen einen Zahlungsbefehl müssen Sie innert 10 Tagen Rechtsvorschlag erheben.",
     "fr": "La garantie de loyer doit se trouver auprès d'une banque, sur un compte à votre propre nom, et pour un logement elle ne peut pas dépasser trois mois de loyer. Après la fin du bail, le bailleur n'accède à cet argent qu'avec votre accord, un commandement de payer devenu exécutoire ou un jugement. S'il n'entreprend aucune démarche juridique dans un délai d'un an, vous pouvez réclamer la garantie directement à la banque. Contre un commandement de payer, vous devez faire opposition dans les 10 jours.",
     "it": "La garanzia di locazione deve trovarsi presso una banca, su un conto intestato a Lei stesso, e per un appartamento può ammontare al massimo a tre pigioni mensili. Dopo la fine della locazione, il locatore può accedere al denaro solo con il Suo consenso, con un precetto esecutivo passato in giudicato o con una sentenza. Se entro un anno non intraprende passi legali, Lei può chiedere la restituzione della garanzia direttamente dalla banca. Contro un precetto esecutivo deve fare opposizione entro 10 giorni.",
-    "en": "The rental deposit must be held at a bank, in an account in your own name, and for a flat it may not exceed three months' rent. After the tenancy ends, the landlord can only access the money with your consent, a summons for payment that has become final (Zahlungsbefehl / commandement de payer), or a court judgment. If he takes no legal steps within one year, you can claim the deposit back directly from the bank. Against a summons for payment you must file an objection within 10 days."
+    "en": "The rental deposit must be held at a bank, in an account in your own name, and for a flat it may not exceed three months' rent. After the tenancy ends, the landlord can only access the money with your consent, a summons for payment that has become final (Zahlungsbefehl / commandement de payer), or a court judgment. If he takes no legal steps within one year, you can claim the deposit back directly from the bank. Against a summons for payment you must file an objection within 10 days.",
+    "rm": "La cauziun da locaziun sto star tar ina banca sin in conto en Voss agen num, e tar in'abitaziun dastga ella muntar maximalmain trais tschains mensils. Suenter la fin da la relaziun da locaziun access il locatur al daner mo cun Voss consentiment, cun in cumond da pajament passà en fermezza legala u cun ina sentenzia. Sch'el n'interpiglia naginas mesiras legalas entaifer in onn, pudais Vus pretender enavos la cauziun directamain da la banca. Cunter in cumond da pajament stuais Vus far opposiziun entaifer 10 dis."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "How do I get my deposit back after moving out?",
       "Can the landlord ask for more than three months' rent as a deposit?",
       "Does the deposit have to be held in an account in my own name?"
+    ],
+    "rm": [
+      "Co survegn jau enavos mia cauziun da locaziun?",
+      "Il locatur na liberescha betg mia cauziun, tge poss jau far?",
+      "Quant ditg dastga il locatur retegnair mia cauziun?",
+      "Co survegn jau enavos mia cauziun suenter avair sortì da l'abitaziun?",
+      "Dastga il locatur pretender dapli che trais tschains mensils sco cauziun?",
+      "Sto la cauziun star sin in conto en mes agen num?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Die Mietkaution (Sicherheit in Geld oder Wertpapieren) bei der Miete von Wohnräumen in der Schweiz, während und nach Ende des Mietverhältnisses.",
       "fr": "La garantie de loyer (sûretés en espèces ou en papiers-valeurs) pour la location d'un logement en Suisse, pendant et après la fin du bail.",
       "it": "La garanzia di locazione (sicurezza in denaro o cartevalori) per la locazione di locali d'abitazione in Svizzera, durante e dopo la fine della locazione.",
-      "en": "The rental deposit (security in cash or securities) for residential tenancies in Switzerland, both during and after the end of the tenancy."
+      "en": "The rental deposit (security in cash or securities) for residential tenancies in Switzerland, both during and after the end of the tenancy.",
+      "rm": "La cauziun da locaziun (garanzia en daners u titels) tar la locaziun da locals d'abitar en Svizra, durant e suenter la fin da la relaziun da locaziun."
     },
     "excludes": {
       "de": "Geschäftsräume und andere besondere Mietverhältnisse; Kautionen, die nicht bei einer Bank, sondern zum Beispiel bar beim Vermieter hinterlegt wurden.",
       "fr": "Les locaux commerciaux et les autres baux particuliers ; les garanties qui n'ont pas été déposées auprès d'une banque mais, par exemple, remises en espèces au bailleur.",
       "it": "I locali commerciali e altri rapporti di locazione particolari; le garanzie non depositate presso una banca, ma per esempio versate in contanti al locatore.",
-      "en": "Commercial premises and other special types of tenancy; deposits not held at a bank but, for example, paid in cash to the landlord."
+      "en": "Commercial premises and other special types of tenancy; deposits not held at a bank but, for example, paid in cash to the landlord.",
+      "rm": "Locals commerzials ed autras relaziuns da locaziun spezialas; cauziuns che n'èn betg vegnidas depositadas tar ina banca, mabain per exempel en effectiv tar il locatur."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "In welcher Phase befinden Sie sich?",
         "fr": "Dans quelle phase vous trouvez-vous ?",
         "it": "In quale fase si trova?",
-        "en": "What stage are you at?"
+        "en": "What stage are you at?",
+        "rm": "En tge fasa Vus As chattais?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "Das Mietverhältnis dauert noch an",
             "fr": "Le bail dure encore",
             "it": "La locazione è ancora in corso",
-            "en": "The tenancy is still ongoing"
+            "en": "The tenancy is still ongoing",
+            "rm": "La relaziun da locaziun dura anc"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "Das Mietverhältnis ist seit weniger als einem Jahr beendet",
             "fr": "Le bail a pris fin depuis moins d'un an",
             "it": "La locazione è terminata da meno di un anno",
-            "en": "The tenancy ended less than a year ago"
+            "en": "The tenancy ended less than a year ago",
+            "rm": "La relaziun da locaziun è finida dapi damain ch'in onn"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "Das Mietverhältnis ist seit einem Jahr oder länger beendet",
             "fr": "Le bail a pris fin depuis un an ou plus",
             "it": "La locazione è terminata da un anno o più",
-            "en": "The tenancy ended a year ago or more"
+            "en": "The tenancy ended a year ago or more",
+            "rm": "La relaziun da locaziun è finida dapi in onn u dapli"
           }
         },
         {
@@ -108,7 +124,8 @@
             "de": "Ich weiss es nicht genau",
             "fr": "Je ne sais pas exactement",
             "it": "Non lo so con esattezza",
-            "en": "I'm not sure exactly"
+            "en": "I'm not sure exactly",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -119,7 +136,8 @@
         "de": "Hat der Vermieter Ihnen gegenüber eine Forderung geltend gemacht, zum Beispiel für Schäden oder ausstehende Miete?",
         "fr": "Le bailleur a-t-il fait valoir une prétention envers vous, par exemple pour des dommages ou un loyer impayé ?",
         "it": "Il locatore ha fatto valere una pretesa nei Suoi confronti, per esempio per danni o pigione arretrata?",
-        "en": "Has the landlord made a claim against you, for example for damage or unpaid rent?"
+        "en": "Has the landlord made a claim against you, for example for damage or unpaid rent?",
+        "rm": "Ha il locatur fatg valair envers Vus ina pretensiun, per exempel per donns u tschains restants?"
       },
       "options": [
         {
@@ -128,7 +146,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -137,7 +156,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -146,7 +166,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -157,7 +178,8 @@
         "de": "Liegt die Kaution auf einem Sparkonto oder Depot bei einer Bank, das auf Ihren eigenen Namen lautet?",
         "fr": "La garantie se trouve-t-elle sur un compte d'épargne ou un dépôt auprès d'une banque, à votre propre nom ?",
         "it": "La garanzia si trova su un conto di risparmio o un deposito presso una banca, intestato a Lei stesso?",
-        "en": "Is the deposit held in a savings account or deposit account at a bank in your own name?"
+        "en": "Is the deposit held in a savings account or deposit account at a bank in your own name?",
+        "rm": "Sta la cauziun sin in conto da spargn u in deposit tar ina banca, che suna sin Voss agen num?"
       },
       "options": [
         {
@@ -166,7 +188,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -175,7 +198,8 @@
             "de": "Nein, oder ich weiss es nicht",
             "fr": "Non, ou je ne sais pas",
             "it": "No, oppure non lo so",
-            "en": "No, or I don't know"
+            "en": "No, or I don't know",
+            "rm": "Na, u jau na sai betg"
           }
         },
         {
@@ -184,7 +208,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -195,7 +220,8 @@
         "de": "Was möchten Sie jetzt erreichen?",
         "fr": "Que souhaitez-vous obtenir maintenant ?",
         "it": "Cosa vorrebbe ottenere ora?",
-        "en": "What would you like to achieve now?"
+        "en": "What would you like to achieve now?",
+        "rm": "Tge vulais Vus cuntanscher ussa?"
       },
       "options": [
         {
@@ -204,7 +230,8 @@
             "de": "Ich will die Kaution zurückbekommen",
             "fr": "Je veux récupérer la garantie",
             "it": "Voglio recuperare la garanzia",
-            "en": "I want to get the deposit back"
+            "en": "I want to get the deposit back",
+            "rm": "Jau vi survegnir enavos la cauziun"
           }
         },
         {
@@ -213,7 +240,8 @@
             "de": "Ich will wissen, ob die verlangte Kaution zu hoch ist",
             "fr": "Je veux savoir si la garantie demandée est trop élevée",
             "it": "Voglio sapere se la garanzia richiesta è troppo alta",
-            "en": "I want to know whether the deposit asked for is too high"
+            "en": "I want to know whether the deposit asked for is too high",
+            "rm": "Jau vi savair, sche la cauziun pretendida è memia auta"
           }
         },
         {
@@ -222,7 +250,8 @@
             "de": "Ich weiss es noch nicht",
             "fr": "Je ne sais pas encore",
             "it": "Non lo so ancora",
-            "en": "I don't know yet"
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -236,7 +265,8 @@
         "de": "Eine Kaution schulden Sie nur, wenn sie im Mietvertrag vereinbart ist. Haben Sie für eine Wohnung Geld oder Wertpapiere als Sicherheit geleistet, muss der Vermieter diese bei einer Bank auf einem Sparkonto oder Depot hinterlegen, das auf Ihren eigenen Namen lautet. Das Geld bleibt damit während des ganzen Mietverhältnisses Ihres, und die Zinsen stehen Ihnen zu.",
         "fr": "Vous ne devez une garantie que si elle est convenue dans le bail. Si vous avez fourni de l'argent ou des papiers-valeurs comme sûretés pour un logement, le bailleur doit les confier à une banque, au moyen d'un compte d'épargne ou d'un dépôt ouvert à votre nom. L'argent reste ainsi le vôtre pendant toute la durée du bail, et les intérêts vous reviennent.",
         "it": "Lei deve una garanzia solo se è pattuita nel contratto di locazione. Se per un appartamento ha versato denaro o cartevalori come garanzia, il locatore deve collocarli in una banca, intestati a Lei stesso, su un conto di risparmio o un deposito. Il denaro resta così Suo durante tutta la locazione, e gli interessi spettano a Lei.",
-        "en": "You only owe a deposit if it was agreed in the lease. If you provided money or securities for a flat, the landlord must hold them at a bank, in a savings account or deposit account in your own name. This means the money stays yours throughout the tenancy, and the interest belongs to you."
+        "en": "You only owe a deposit if it was agreed in the lease. If you provided money or securities for a flat, the landlord must hold them at a bank, in a savings account or deposit account in your own name. This means the money stays yours throughout the tenancy, and the interest belongs to you.",
+        "rm": "Ina cauziun stuais Vus mo pajar, sch'ella è cunvegnida en il contract da locaziun. Avais Vus prestà per in'abitaziun daners u titels sco garanzia, sto il locatur depositar quels tar ina banca sin in conto da spargn u in deposit che suna sin Voss agen num. Il daner resta uschia Voss durant tutta la relaziun da locaziun, ed ils tschains As tutgan a Vus."
       },
       "sources": [
         "or-257e"
@@ -259,7 +289,8 @@
         "de": "Für eine Wohnung darf die Kaution höchstens drei Monatsmieten betragen. Gerechnet wird in der Regel mit der Monatsmiete einschliesslich der Nebenkosten-Akontozahlungen. Eine Klausel, die Ihnen eine höhere Kaution auferlegt, gilt für den übersteigenden Teil nicht. Haben Sie mehr bezahlt, können Sie den überschiessenden Betrag zurückverlangen.",
         "fr": "Pour un logement, la garantie ne peut pas dépasser trois mois de loyer. Le calcul se fait en règle générale sur la base du loyer mensuel, acomptes de frais accessoires compris. Une clause qui vous impose une garantie plus élevée ne vaut pas pour la partie qui dépasse ce montant. Si vous avez payé davantage, vous pouvez réclamer le montant excédentaire.",
         "it": "Per un appartamento la garanzia può ammontare al massimo a tre pigioni mensili. Di regola si calcola con la pigione mensile comprese le anticipazioni per le spese accessorie. Una clausola che Le impone una garanzia più alta non vale per la parte eccedente. Se ha pagato di più, può chiedere la restituzione dell'importo eccedente.",
-        "en": "For a flat, the deposit may not exceed three months' rent. This is generally calculated using the monthly rent including advance payments for accessory charges. A clause imposing a higher deposit on you is not valid for the excess amount. If you paid more, you can claim back the extra amount."
+        "en": "For a flat, the deposit may not exceed three months' rent. This is generally calculated using the monthly rent including advance payments for accessory charges. A clause imposing a higher deposit on you is not valid for the excess amount. If you paid more, you can claim back the extra amount.",
+        "rm": "Tar in'abitaziun dastga la cauziun muntar maximalmain trais tschains mensils. Ins quinta per regla cun il tschains mensil inclusiv ils pajaments d'acont dals custs accessoris. Ina clausa che Vus impona ina cauziun pli auta na vala betg per la part surpassanta. Avais Vus pajà dapli, pudais Vus pretender enavos la summa surpassanta."
       },
       "sources": [
         "or-257e"
@@ -278,7 +309,8 @@
         "de": "Liegt Ihre Kaution nicht auf einem Bankkonto in Ihrem eigenen Namen, verlangen Sie vom Vermieter schriftlich, dass er sie sofort korrekt hinterlegt und Ihnen die Bank nennt. Diese Pflicht trifft den Vermieter, nicht Sie. Tut er es trotz Aufforderung nicht, dürfen Sie das Geld zurückverlangen und mit fälligen Mietzinsen verrechnen. Warten Sie damit nicht: Wird die Liegenschaft verkauft, muss der neue Eigentümer eine Kaution, die er nie erhalten hat, nicht hinterlegen. Sie müssen sich dann an den früheren Vermieter halten. Einen neuen Betrag für die Kaution darf der Käufer von Ihnen aber nicht verlangen.",
         "fr": "Si votre garantie ne se trouve pas sur un compte bancaire à votre propre nom, exigez par écrit du bailleur qu'il la dépose immédiatement de manière correcte et qu'il vous indique la banque. Cette obligation incombe au bailleur, pas à vous. S'il ne le fait pas malgré votre demande, vous pouvez réclamer l'argent et le compenser avec des loyers échus. N'attendez pas pour cela : si l'immeuble est vendu, le nouveau propriétaire n'est pas tenu de déposer une garantie qu'il n'a jamais reçue. Vous devez alors vous adresser à l'ancien bailleur. L'acquéreur ne peut toutefois pas vous réclamer un nouveau montant de garantie.",
         "it": "Se la Sua garanzia non si trova su un conto bancario intestato a Lei stesso, chieda per scritto al locatore di depositarla subito correttamente e di comunicarLe la banca. Questo obbligo incombe al locatore, non a Lei. Se non lo fa nonostante l'invito, può chiedere la restituzione del denaro e compensarlo con pigioni scadute. Non aspetti: se l'immobile viene venduto, il nuovo proprietario non deve depositare una garanzia che non ha mai ricevuto. Lei dovrà allora rivolgersi al precedente locatore. Il compratore non può però chiederLe un nuovo importo per la garanzia.",
-        "en": "If your deposit is not held in a bank account in your own name, ask the landlord in writing to correct this immediately and to tell you which bank he is using. This duty falls on the landlord, not you. If he still does not do it despite being asked, you can demand the money back and set it off against rent falling due. Do not wait too long with this: if the property is sold, the new owner does not have to place a deposit he never received. You then have to pursue the previous landlord instead. The buyer may not, however, demand a new deposit amount from you."
+        "en": "If your deposit is not held in a bank account in your own name, ask the landlord in writing to correct this immediately and to tell you which bank he is using. This duty falls on the landlord, not you. If he still does not do it despite being asked, you can demand the money back and set it off against rent falling due. Do not wait too long with this: if the property is sold, the new owner does not have to place a deposit he never received. You then have to pursue the previous landlord instead. The buyer may not, however, demand a new deposit amount from you.",
+        "rm": "Sta Vossa cauziun betg sin in conto bancar en Voss agen num, pretendai dal locatur per scrit ch'el la depositia immediat correctamain e Vus numna la banca. Quest duair tutga al locatur, betg a Vus. Na fa el quai betg malgrà la pretensiun, dastgais Vus pretender enavos il daner e cumpensar quel cun tschains da locaziun scadids. Na spetgai betg cun quai: vegn l'immobiglia vendida, na sto il nov proprietari betg depositar ina cauziun ch'el n'ha mai retschavì. Vus stuais Vus lura tegnair al locatur precedent. Ina nova summa per la cauziun na dastga il cumprader dentant betg pretender da Vus."
       },
       "sources": [
         "or-257e",
@@ -299,7 +331,8 @@
         "de": "Die Bank darf die Kaution nur herausgeben, wenn beide Parteien schriftlich zustimmen, oder gestützt auf einen rechtskräftigen Zahlungsbefehl oder ein rechtskräftiges Gerichtsurteil gegen Sie. Solange Sie eine Forderung des Vermieters bestreiten, kommt er deshalb nicht an das Geld. Sind Sie sich einig, dass keine Forderungen mehr offen sind, unterschreiben Sie gemeinsam eine Freigabeerklärung an die Bank. Unterschreiben Sie keine Freigabe zugunsten des Vermieters für Beträge, die Sie nicht schulden.",
         "fr": "Pour restituer la garantie, la banque a besoin soit de l'accord écrit de vous et du bailleur, soit d'un commandement de payer devenu exécutoire ou d'un jugement exécutoire contre vous. Tant que vous contestez une prétention du bailleur, il n'accède donc pas à l'argent. Si vous êtes d'accord qu'aucune prétention n'est plus ouverte, signez ensemble une déclaration de libération adressée à la banque. Ne signez aucune libération en faveur du bailleur pour des montants que vous ne devez pas.",
         "it": "La banca può devolvere la garanzia solo con il consenso scritto di entrambe le parti, oppure sulla base di un precetto esecutivo passato in giudicato o di una sentenza passata in giudicato contro di Lei. Finché contesta una pretesa del locatore, questi non può quindi accedere al denaro. Se siete d'accordo che non resta più nulla di aperto, firmate insieme una dichiarazione di liberazione alla banca. Non firmi una liberazione a favore del locatore per importi che non deve.",
-        "en": "The bank may only release the deposit if both parties agree in writing, or on the basis of a summons for payment that has become final or a final court judgment against you. As long as you dispute a claim by the landlord, he therefore cannot get at the money. If you agree that no claims remain open, sign a release declaration to the bank together. Do not sign a release in the landlord's favour for amounts you do not owe."
+        "en": "The bank may only release the deposit if both parties agree in writing, or on the basis of a summons for payment that has become final or a final court judgment against you. As long as you dispute a claim by the landlord, he therefore cannot get at the money. If you agree that no claims remain open, sign a release declaration to the bank together. Do not sign a release in the landlord's favour for amounts you do not owe.",
+        "rm": "La banca dastga liberar la cauziun mo, sche tuttas duas parts consentan per scrit, u sa basond sin in cumond da pajament passà en fermezza legala u sin ina sentenzia giudiziala passada en fermezza legala cunter Vus. Uschè ditg che Vus contestais ina pretensiun dal locatur, n'access el perquai betg al daner. Essas Vus d'accord che naginas pretensiuns restan avertas, suttascrivais ensemen ina decleraziun da liberaziun a la banca. Na suttascrivais nagina liberaziun a favur dal locatur per summas che Vus na deivas betg."
       },
       "sources": [
         "or-257e",
@@ -319,7 +352,8 @@
         "de": "Prüfen Sie jede Forderung des Vermieters genau. Sie müssen die Wohnung nur in dem Zustand zurückgeben, der sich aus dem vertragsgemässen Gebrauch ergibt. Normale Abnützung, etwa durch jahrelanges Wohnen vergilbte Wände oder abgenutzte Böden, müssen Sie nicht bezahlen. Der Vermieter muss die Wohnung bei der Rückgabe prüfen und Mängel, für die er Sie verantwortlich macht, sofort melden. Versäumt er das, verliert er seine Ansprüche, ausser für Mängel, die bei einer üblichen Prüfung nicht erkennbar waren. Eine Vertragsklausel, nach der Sie beim Auszug pauschal mehr als den tatsächlichen Schaden zahlen, ist nichtig.",
         "fr": "Vérifiez de près chaque prétention du bailleur. Vous ne devez restituer le logement que dans l'état résultant de l'usage conforme au contrat. L'usure normale, par exemple des murs jaunis ou des sols usés après des années d'habitation, vous ne devez pas la payer. Le bailleur doit contrôler le logement lors de la restitution et signaler immédiatement les défauts dont il vous tient responsable. S'il omet de le faire, il perd ses prétentions, sauf pour des défauts non décelables lors d'un contrôle usuel. Une clause contractuelle selon laquelle vous payez au départ, forfaitairement, plus que le dommage réel, est nulle.",
         "it": "Verifichi con precisione ogni pretesa del locatore. Deve restituire l'appartamento solo nello stato risultante dall'uso conforme al contratto. Non deve pagare la normale usura, per esempio pareti ingiallite o pavimenti consumati dopo anni di abitazione. Il locatore deve controllare l'appartamento alla riconsegna e segnalare subito i difetti di cui La ritiene responsabile. Se lo omette, perde le sue pretese, salvo per i difetti non riconoscibili con un controllo usuale. Una clausola contrattuale secondo cui al trasloco Lei paga forfettariamente più del danno effettivo è nulla.",
-        "en": "Examine every claim by the landlord closely. You only have to return the flat in the condition that follows from its contractual use. You do not have to pay for normal wear and tear, for example walls yellowed or floors worn through years of living there. The landlord must inspect the flat when it is returned and immediately report any defects he holds you responsible for. If he fails to do so, he loses his claims, except for defects that could not be detected on a normal inspection. A contract clause under which you pay a flat amount higher than the actual damage when you move out is void."
+        "en": "Examine every claim by the landlord closely. You only have to return the flat in the condition that follows from its contractual use. You do not have to pay for normal wear and tear, for example walls yellowed or floors worn through years of living there. The landlord must inspect the flat when it is returned and immediately report any defects he holds you responsible for. If he fails to do so, he loses his claims, except for defects that could not be detected on a normal inspection. A contract clause under which you pay a flat amount higher than the actual damage when you move out is void.",
+        "rm": "Examinai exactamain mintga pretensiun dal locatur. Vus stuais restituir l'abitaziun mo en il stadi che resulta da l'utilisaziun contractuala. Ina desdorada normala, per exempel paretgs sdaviads u plaunchers dovrads pervi d'onns d'abitar, na stuais Vus betg pajar. Il locatur sto examinar l'abitaziun tar la restituziun ed annunziar immediat defects per ils quals el Vus fa responsabels. Manca el da far quai, perda el sias pretensiuns, cun excepziun da defects che n'eran betg reconoschibels tar in'examinaziun usitada. Ina clausa contractuala, tenor la quala Vus pajais a la sortida in import fixà pauschal dapli che il donn effectiv, è nulla."
       },
       "sources": [
         "or-267",
@@ -339,7 +373,8 @@
         "de": "Erhalten Sie wegen einer Forderung des Vermieters einen Zahlungsbefehl, handeln Sie sofort. Wird er rechtskräftig, darf die Bank die Kaution an den Vermieter auszahlen. Bestreiten Sie die Forderung ganz oder teilweise, erheben Sie Rechtsvorschlag innert 10 Tagen nach Zustellung, mündlich oder schriftlich beim Betreibungsamt. Eine Begründung ist nicht nötig. Der Vermieter muss dann ein Gerichtsverfahren anstrengen, und die Kaution bleibt bis zum Entscheid gesperrt.",
         "fr": "Si vous recevez un commandement de payer en raison d'une prétention du bailleur, agissez immédiatement. S'il devient exécutoire, la banque peut verser la garantie au bailleur. Si vous contestez la prétention en tout ou en partie, faites opposition dans les 10 jours qui suivent la notification, oralement ou par écrit auprès de l'office des poursuites. Aucune motivation n'est nécessaire. Le bailleur doit alors engager une procédure judiciaire, et la garantie reste bloquée jusqu'à la décision.",
         "it": "Se riceve un precetto esecutivo per una pretesa del locatore, agisca subito. Se diventa passato in giudicato, la banca può versare la garanzia al locatore. Se contesta la pretesa, del tutto o in parte, faccia opposizione entro 10 giorni dalla notificazione, oralmente o per scritto presso l'ufficio d'esecuzione. Non serve una motivazione. Il locatore deve allora avviare un procedimento giudiziario, e la garanzia resta bloccata fino alla decisione.",
-        "en": "If you receive a summons for payment because of a claim by the landlord, act immediately. If it becomes final, the bank may pay the deposit out to the landlord. If you dispute the claim in whole or in part, file an objection within 10 days of service, verbally or in writing, at the debt enforcement office (Betreibungsamt / office des poursuites). You do not need to give reasons. The landlord must then bring court proceedings, and the deposit stays blocked until the decision."
+        "en": "If you receive a summons for payment because of a claim by the landlord, act immediately. If it becomes final, the bank may pay the deposit out to the landlord. If you dispute the claim in whole or in part, file an objection within 10 days of service, verbally or in writing, at the debt enforcement office (Betreibungsamt / office des poursuites). You do not need to give reasons. The landlord must then bring court proceedings, and the deposit stays blocked until the decision.",
+        "rm": "Survegnis Vus pervi d'ina pretensiun dal locatur in cumond da pajament, agid immediat. Daventa el passà en fermezza legala, dastga la banca pajar ora la cauziun al locatur. Contestais Vus la pretensiun entiramain u per part, fetschai opposiziun entaifer 10 dis suenter la consegna, oralmain u per scrit tar l'uffizi da scussiun. Ina motivaziun n'è betg necessaria. Il locatur sto lura intentar ina procedura giudiziala, e la cauziun resta bloccada enfin la decisiun."
       },
       "sources": [
         "schkg-74",
@@ -363,7 +398,8 @@
         "de": "Hat der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keinen Anspruch gegen Sie rechtlich geltend gemacht, können Sie die Rückerstattung der Kaution direkt von der Bank verlangen, auch ohne seine Zustimmung. Rechtlich geltend machen heisst: eine Betreibung einleiten oder ein Verfahren bei der Schlichtungsbehörde oder beim Gericht anstrengen. Ein Brief, eine Mahnung oder eine Schadensliste genügen nicht. Sie müssen das Jahr nicht in jedem Fall abwarten: Ist nichts mehr offen und verweigert der Vermieter die Freigabe trotzdem, können Sie ihn schon vorher über die Schlichtungsbehörde zur Freigabe verpflichten lassen.",
         "fr": "Si le bailleur n'a fait valoir juridiquement aucune prétention contre vous dans un délai d'un an après la fin du bail, vous pouvez exiger de la banque la restitution de la garantie, même sans son accord. Faire valoir juridiquement signifie : engager une poursuite ou une procédure devant l'autorité de conciliation ou le tribunal. Une lettre, une mise en demeure ou une liste de dommages ne suffisent pas. Vous ne devez pas attendre l'année dans tous les cas : si plus rien n'est ouvert et que le bailleur refuse quand même la libération, vous pouvez déjà l'y obliger plus tôt par l'intermédiaire de l'autorité de conciliation.",
         "it": "Se il locatore non ha fatto valere giuridicamente alcun diritto contro di Lei entro un anno dalla fine della locazione, Lei può chiedere la restituzione della garanzia direttamente dalla banca, anche senza il suo consenso. Far valere giuridicamente significa: avviare un'esecuzione oppure un procedimento davanti all'autorità di conciliazione o al tribunale. Una lettera, una diffida o un elenco di danni non bastano. Non deve necessariamente attendere l'anno in ogni caso: se non resta più nulla di aperto e il locatore rifiuta comunque la liberazione, può già prima farlo obbligare alla liberazione tramite l'autorità di conciliazione.",
-        "en": "If the landlord has taken no legal steps against you within one year of the end of the tenancy, you can claim repayment of the deposit directly from the bank, even without his consent. Taking legal steps means starting debt enforcement proceedings or bringing proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) or the court. A letter, a reminder, or a list of damages is not enough. You do not have to wait out the full year in every case: if nothing remains open and the landlord still refuses to release the deposit, you can already have him ordered to release it beforehand, through the conciliation authority."
+        "en": "If the landlord has taken no legal steps against you within one year of the end of the tenancy, you can claim repayment of the deposit directly from the bank, even without his consent. Taking legal steps means starting debt enforcement proceedings or bringing proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) or the court. A letter, a reminder, or a list of damages is not enough. You do not have to wait out the full year in every case: if nothing remains open and the landlord still refuses to release the deposit, you can already have him ordered to release it beforehand, through the conciliation authority.",
+        "rm": "N'ha il locatur entaifer in onn suenter la fin da la relaziun da locaziun fatg valair legalmain nagina pretensiun cunter Vus, pudais Vus pretender la restituziun da la cauziun directamain da la banca, era senza ses consentiment. Far valair legalmain vul dir: introducir ina scussiun u intentar ina procedura tar l'autoritad da mediaziun u tar la dretgira. Ina brev, ina admoniziun u ina glista da donns na bastan betg. Vus na stuais betg en mintga cas spetgar l'onn: n'è nagut pli avert e refusa il locatur la liberaziun tuttina, pudais Vus al obligar gia avant, tras l'autoritad da mediaziun, a la liberaziun."
       },
       "sources": [
         "or-257e"
@@ -382,7 +418,8 @@
         "de": "So gehen Sie vor: Fragen Sie den Vermieter nach Ende des Mietverhältnisses schriftlich nach der Freigabe der Kaution. Ist ein Jahr seit Ende des Mietverhältnisses vergangen und hat der Vermieter nichts unternommen, wenden Sie sich mit dem Mietvertrag und einem Nachweis über das Ende des Mietverhältnisses direkt an die Bank.",
         "fr": "Comment procéder : après la fin du bail, demandez par écrit au bailleur la libération de la garantie. Si un an s'est écoulé depuis la fin du bail et que le bailleur n'a rien entrepris, adressez-vous directement à la banque avec le bail et une preuve de la fin du bail.",
         "it": "Come procedere: dopo la fine della locazione, chieda per scritto al locatore la liberazione della garanzia. Se è trascorso un anno dalla fine della locazione e il locatore non ha intrapreso nulla, si rivolga direttamente alla banca con il contratto di locazione e una prova della fine della locazione.",
-        "en": "Here is how to proceed: after the tenancy ends, ask the landlord in writing for the deposit to be released. If a year has passed since the end of the tenancy and the landlord has done nothing, go directly to the bank with the lease and proof that the tenancy has ended."
+        "en": "Here is how to proceed: after the tenancy ends, ask the landlord in writing for the deposit to be released. If a year has passed since the end of the tenancy and the landlord has done nothing, go directly to the bank with the lease and proof that the tenancy has ended.",
+        "rm": "Uschia procedais Vus: dumandai il locatur per scrit, suenter la fin da la relaziun da locaziun, per la liberaziun da la cauziun. È in onn passà dapi la fin da la relaziun da locaziun e n'ha il locatur nagut interpiglià, drizzai Vus cun il contract da locaziun ed ina cumprova da la fin da la relaziun da locaziun directamain a la banca."
       },
       "sources": [
         "or-257e"
@@ -395,7 +432,8 @@
         "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
         "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
         "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
-        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid."
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid.",
+        "rm": "La procedura da mediaziun en fatgs da locaziun è gratuita: i na vegnan drizzads nagins custs giudizials. Igl na dat dentant er nagina indemnisaziun per custs d'advocat. Sche Vus consultais in'advocata u in advocat, purtais Vus quests custs en questa procedura per regla Vus sez. Sche suonda pli tard ina procedura giudiziala, pon resultar custs giudizials ed in'indemnisaziun a la cuntrapart. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zpo-113",
@@ -409,7 +447,8 @@
         "de": "Holen Sie persönliche Beratung, wenn Sie einen Zahlungsbefehl erhalten haben, wenn der Vermieter innert der Jahresfrist Klage erhoben hat, wenn Sie mit der Höhe seiner Forderung nicht einverstanden sind, wenn Ihre Kaution nie auf ein Bankkonto in Ihrem Namen einbezahlt wurde, oder wenn die Bank die Freigabe trotz erfüllter Voraussetzungen verweigert.",
         "fr": "Demandez une consultation personnelle si vous avez reçu un commandement de payer, si le bailleur a agi en justice dans le délai d'un an, si vous n'êtes pas d'accord avec le montant de sa prétention, si votre garantie n'a jamais été versée sur un compte bancaire à votre nom, ou si la banque refuse la libération malgré des conditions remplies.",
         "it": "Chieda una consulenza personale se ha ricevuto un precetto esecutivo, se il locatore ha promosso causa entro il termine di un anno, se non è d'accordo con l'entità della sua pretesa, se la Sua garanzia non è mai stata versata su un conto bancario a Suo nome, oppure se la banca rifiuta la liberazione nonostante i presupposti siano soddisfatti.",
-        "en": "Get personal advice if you have received a summons for payment, if the landlord has brought an action within the one-year deadline, if you disagree with the amount of his claim, if your deposit was never paid into a bank account in your name, or if the bank refuses to release it despite the requirements being met."
+        "en": "Get personal advice if you have received a summons for payment, if the landlord has brought an action within the one-year deadline, if you disagree with the amount of his claim, if your deposit was never paid into a bank account in your name, or if the bank refuses to release it despite the requirements being met.",
+        "rm": "Tschertgai consulaziun persunala, sche Vus avais retschavì in cumond da pajament, sche il locatur ha inoltrà plant entaifer il termin d'in onn, sche Vus n'essas betg d'accord cun l'autezza da sia pretensiun, sche Vossa cauziun n'è mai vegnida pajada sin in conto bancar en Voss num, u sche la banca refusa la liberaziun malgrà premissas cumplitas."
       }
     },
     {
@@ -419,7 +458,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren, falls es zum Streit kommt. Mieterinnen- und Mieterverbände beraten ihre Mitglieder auch zu Kautionsfragen. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure en cas de litige. Les associations de locataires conseillent aussi leurs membres sur les questions de garantie. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura in caso di controversia. Le associazioni degli inquilini consigliano i propri membri anche sulle questioni relative alla garanzia. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: if a dispute arises, the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations also advise their members on deposit questions. Many cantons and bar associations offer free legal information."
+        "en": "Free or low-cost help: if a dispute arises, the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations also advise their members on deposit questions. Many cantons and bar associations offer free legal information.",
+        "rm": "Agid gratuit u favuraivel: l'autoritad da mediaziun per fatgs da locaziun infurmescha davart la procedura, sche i vegn a dispita. Associaziuns da locataris consultan lur commembers er en dumondas da cauziun. Blers chantuns ed associaziuns d'advocats offran ina infurmaziun giuridica gratuita."
       }
     }
   ],
@@ -493,7 +533,8 @@
         "de": "ch.ch: Mietvertrag und Pachtvertrag",
         "fr": "ch.ch : contrat de bail à loyer et à ferme",
         "it": "ch.ch: Contratto di locazione e di affitto",
-        "en": "ch.ch: Tenancy and lease agreements"
+        "en": "ch.ch: Tenancy and lease agreements",
+        "rm": "ch.ch: Contract da locaziun e contract d'affitg"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
     }

@@ -9,13 +9,15 @@
     "de": "Ich wurde fristlos entlassen",
     "fr": "Mon contrat a été résilié avec effet immédiat",
     "it": "Ho subito un licenziamento con effetto immediato",
-    "en": "I was dismissed with immediate effect"
+    "en": "I was dismissed with immediate effect",
+    "rm": "Mes patrun m'ha licenzià senza preavis"
   },
   "summary": {
     "de": "Eine fristlose Entlassung beendet das Arbeitsverhältnis sofort, egal ob sie berechtigt war oder nicht. War kein wichtiger Grund vorhanden, haben Sie Anspruch auf den Lohn bis zum Ende der ordentlichen Kündigungsfrist und allenfalls auf eine zusätzliche Entschädigung von bis zu sechs Monatslöhnen.",
     "fr": "Une résiliation immédiate met fin aux rapports de travail sur-le-champ, qu’elle soit justifiée ou non. S’il n’y avait pas de juste motif, vous avez droit au salaire jusqu’à la fin du délai de congé ordinaire, et éventuellement à une indemnité supplémentaire pouvant atteindre six mois de salaire.",
     "it": "Un licenziamento con effetto immediato pone fine al rapporto di lavoro subito, indipendentemente dal fatto che fosse giustificato o meno. Se non vi era una causa grave, lei ha diritto al salario fino alla fine del termine di disdetta ordinario e, se del caso, a un’indennità supplementare fino a sei mensilità di salario.",
-    "en": "A dismissal with immediate effect ends the employment relationship at once, whether or not it was justified. If there was no good cause, you are entitled to your salary up to the end of the ordinary notice period, and possibly to additional compensation of up to six months' salary."
+    "en": "A dismissal with immediate effect ends the employment relationship at once, whether or not it was justified. If there was no good cause, you are entitled to your salary up to the end of the ordinary notice period, and possibly to additional compensation of up to six months' salary.",
+    "rm": "Ina disditga senza preavis finescha la relaziun da lavur immediat, independentamain sch'ella era giustifitgada u betg. Sche na dave nagin motiv impurtant, avais Vus dretg al salari fin la fin dal termin da disditga ordinari ed eventualmain ad ina indemnisaziun supplementara da fin a ses salaris mensils."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "I lost my job from one day to the next, is that allowed?",
       "Am I entitled to salary even though I was dismissed with immediate effect?",
       "What is the difference between ordinary notice and dismissal with immediate effect?"
+    ],
+    "rm": [
+      "Mes patrun m'ha licenzià senza preavis, tge poss jau far?",
+      "Miu schef m'ha sbattì ora immediat",
+      "Era mia disditga senza preavis legala?",
+      "Jau hai pers mia plazza dad ozendi a damaun, è quai lubì?",
+      "Hai jau dretg al salari, schebain che mes patrun m'ha licenzià senza preavis?",
+      "Tge differenza dat i tranter disditga ordinaria e disditga senza preavis?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Die fristlose Auflösung des Arbeitsverhältnisses durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen in der Schweiz.",
       "fr": "La résiliation immédiate du contrat de travail par l’employeur, dans les rapports de travail de droit privé en Suisse.",
       "it": "Lo scioglimento immediato del rapporto di lavoro da parte del datore di lavoro nei rapporti di lavoro di diritto privato in Svizzera.",
-      "en": "Termination of the employment relationship with immediate effect by the employer, under private-law employment relationships in Switzerland."
+      "en": "Termination of the employment relationship with immediate effect by the employer, under private-law employment relationships in Switzerland.",
+      "rm": "La dissoluziun senza preavis da la relaziun da lavur dal patrun en relaziuns da lavur da dretg privat en Svizra."
     },
     "excludes": {
       "de": "Öffentlich-rechtliche Anstellungsverhältnisse, die ordentliche Kündigung mit Kündigungsfrist, und Fälle, in denen Sie selbst die Stelle ohne wichtigen Grund verlassen oder nicht antreten.",
       "fr": "Les rapports de travail de droit public, la résiliation ordinaire avec délai de congé, et les cas où vous quittez vous-même votre emploi sans juste motif ou n’entrez pas en fonction.",
       "it": "I rapporti d’impiego di diritto pubblico, la disdetta ordinaria con termine di disdetta, e i casi in cui è lei stesso a lasciare il posto senza causa grave o a non assumerlo.",
-      "en": "Public-law employment relationships, ordinary notice of termination with a notice period, and cases where you yourself leave or fail to take up the job without good cause."
+      "en": "Public-law employment relationships, ordinary notice of termination with a notice period, and cases where you yourself leave or fail to take up the job without good cause.",
+      "rm": "Relaziuns d'engaschament da dretg public, la disditga ordinaria cun termin da disditga, e cas nua ch'Vus abandunais Vus sez la plazza senza motiv impurtant u betg entrais en la plazza."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
         "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?",
         "it": "Lavora per un datore di lavoro privato o per lo Stato?",
-        "en": "Do you work for a private employer or for the state?"
+        "en": "Do you work for a private employer or for the state?",
+        "rm": "Lavurais Vus per in patrun privat u per il stadi?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
             "fr": "Employeur privé (entreprise, association, particulier)",
             "it": "Datore di lavoro privato (azienda, associazione, privato)",
-            "en": "Private employer (company, association, private individual)"
+            "en": "Private employer (company, association, private individual)",
+            "rm": "Patrun privat (interpresa, associaziun, persuna privata)"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
             "fr": "Confédération, canton, commune ou autre entité publique",
             "it": "Confederazione, Cantone, Comune o un altro ente pubblico",
-            "en": "The Confederation, a canton, a commune or another public body"
+            "en": "The Confederation, a canton, a commune or another public body",
+            "rm": "Confederaziun, chantun, vischnanca u in'autra instanza publica"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -110,7 +126,8 @@
         "de": "Hat Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung genannt?",
         "fr": "Votre employeur vous a-t-il communiqué les motifs de la résiliation immédiate ?",
         "it": "Il suo datore di lavoro le ha comunicato i motivi del licenziamento con effetto immediato?",
-        "en": "Did your employer tell you the reasons for the dismissal with immediate effect?"
+        "en": "Did your employer tell you the reasons for the dismissal with immediate effect?",
+        "rm": "Ha Voss patrun numnà a Vus ils motivs da la disditga senza preavis?"
       },
       "options": [
         {
@@ -119,7 +136,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -128,7 +146,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -137,7 +156,8 @@
             "de": "Ich bin nicht sicher",
             "fr": "Je n’en ai pas la certitude",
             "it": "Non ne sono sicuro",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -148,7 +168,8 @@
         "de": "Wie schätzen Sie die fristlose Entlassung ein?",
         "fr": "Comment évaluez-vous cette résiliation immédiate ?",
         "it": "Come valuta il licenziamento con effetto immediato?",
-        "en": "How do you assess the dismissal with immediate effect?"
+        "en": "How do you assess the dismissal with immediate effect?",
+        "rm": "Co giudichais Vus la disditga senza preavis?"
       },
       "options": [
         {
@@ -157,7 +178,8 @@
             "de": "Ich denke, sie war berechtigt",
             "fr": "Je pense qu’elle était justifiée",
             "it": "Penso che fosse giustificato",
-            "en": "I think it was justified"
+            "en": "I think it was justified",
+            "rm": "Jau pens ch'ella era giustifitgada"
           }
         },
         {
@@ -166,7 +188,8 @@
             "de": "Ich denke, sie war nicht berechtigt",
             "fr": "Je pense qu’elle n’était pas justifiée",
             "it": "Penso che non fosse giustificato",
-            "en": "I think it was not justified"
+            "en": "I think it was not justified",
+            "rm": "Jau pens ch'ella n'era betg giustifitgada"
           }
         },
         {
@@ -175,7 +198,8 @@
             "de": "Ich bin unsicher",
             "fr": "Je n’en ai pas la certitude",
             "it": "Non sono sicuro",
-            "en": "I'm unsure"
+            "en": "I'm unsure",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -186,7 +210,8 @@
         "de": "Haben Sie sich schon beim RAV (Regionales Arbeitsvermittlungszentrum) gemeldet?",
         "fr": "Avez-vous déjà procédé à votre inscription auprès de l’ORP (office régional de placement) ?",
         "it": "Si è già iscritto all’URC (ufficio regionale di collocamento)?",
-        "en": "Have you already registered with the regional employment office (RAV / office régional de placement, ORP)?"
+        "en": "Have you already registered with the regional employment office (RAV / office régional de placement, ORP)?",
+        "rm": "Essas Vus gia s'annunzià tar il CIL (Center regiunal per intermediaziun da lavur)?"
       },
       "options": [
         {
@@ -195,7 +220,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -204,7 +230,8 @@
             "de": "Nein, noch nicht",
             "fr": "Non, pas encore",
             "it": "No, non ancora",
-            "en": "No, not yet"
+            "en": "No, not yet",
+            "rm": "Na, anc betg"
           }
         },
         {
@@ -213,7 +240,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -227,7 +255,8 @@
         "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
         "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation.",
         "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, si applica di regola il diritto pubblico del personale e non il Codice delle obbligazioni. Questa guida non copre questo caso. Si rivolga al servizio giuridico della sua amministrazione, alla sua associazione del personale o a un servizio di consulenza.",
-        "en": "If you work for the Confederation, a canton, a commune or another public body, public-service law usually applies, not the Code of Obligations. This guide does not cover that. Contact your administration's legal service, your staff association or an advice centre."
+        "en": "If you work for the Confederation, a canton, a commune or another public body, public-service law usually applies, not the Code of Obligations. This guide does not cover that. Contact your administration's legal service, your staff association or an advice centre.",
+        "rm": "Sche Vus lavurais per la Confederaziun, in chantun, ina vischnanca u in'autra instanza publica, vala il pli savens il dretg public da persunal e betg il Dretg d'obligaziuns (DO). Questa guida na tracta betg quest cas. Contactai il servetsch giuridic da Vossa administraziun, Vossa federaziun professiunala u ina post da consulaziun."
       },
       "when": {
         "employer_type": [
@@ -242,7 +271,8 @@
         "de": "Aus wichtigen Gründen kann jede Seite das Arbeitsverhältnis jederzeit fristlos auflösen. Als wichtiger Grund gilt jeder Umstand, bei dem der kündigenden Seite die Fortsetzung des Arbeitsverhältnisses nach Treu und Glauben nicht mehr zugemutet werden kann. Die fristlose Entlassung beendet das Arbeitsverhältnis sofort, unabhängig davon, ob sie im Nachhinein als berechtigt gilt oder nicht.",
         "fr": "Chaque partie peut, pour de justes motifs, résilier le contrat de travail immédiatement et en tout temps. Est notamment considérée comme un juste motif toute circonstance qui, selon les règles de la bonne foi, ne permet plus d’exiger de la partie qui donne le congé la continuation des rapports de travail. La résiliation immédiate met fin aux rapports de travail sur-le-champ, indépendamment du fait qu’elle soit ensuite jugée justifiée ou non.",
         "it": "Per cause gravi, ciascuna parte può in ogni momento sciogliere immediatamente il rapporto di lavoro. È considerata causa grave ogni circostanza che non permetta più, secondo buona fede, di esigere dalla parte che dà la disdetta la continuazione del rapporto di lavoro. Il licenziamento con effetto immediato pone fine al rapporto di lavoro subito, indipendentemente dal fatto che risulti in seguito giustificato o meno.",
-        "en": "For good cause, either side may terminate the employment relationship with immediate effect at any time. Good cause means any circumstance under which the party giving notice cannot, in good faith, be expected to continue the employment relationship. Dismissal with immediate effect ends the employment relationship at once, regardless of whether it is later found to have been justified or not."
+        "en": "For good cause, either side may terminate the employment relationship with immediate effect at any time. Good cause means any circumstance under which the party giving notice cannot, in good faith, be expected to continue the employment relationship. Dismissal with immediate effect ends the employment relationship at once, regardless of whether it is later found to have been justified or not.",
+        "rm": "Pervia da motivs impurtants po mintga vart dissolver la relaziun da lavur en mintga mument senza preavis. Sco motiv impurtant vala mintga circumstanza en la quala la cuntinuaziun da la relaziun da lavur na po pli vegnir pretendida da buna fai da la vart che dà la disditga. La disditga senza preavis finescha la relaziun da lavur immediat, independentamain sch'ella vala suenter sco giustifitgada u betg."
       },
       "sources": [
         "or-337"
@@ -255,7 +285,8 @@
         "de": "Ein wichtiger Grund darf nie darin liegen, dass Sie ohne eigenes Verschulden an der Arbeitsleistung verhindert waren, zum Beispiel wegen Krankheit oder Unfall. Wurden Sie deswegen fristlos entlassen, war die Entlassung nicht berechtigt.",
         "fr": "Un juste motif ne peut jamais résider dans le fait que vous avez été empêché de travailler sans votre faute, par exemple en raison d’une maladie ou d’un accident. Si la résiliation immédiate a été donnée pour ce motif, elle n’était pas justifiée.",
         "it": "Una causa grave non può mai consistere nel fatto che lei sia stato impedito di lavorare senza sua colpa, ad esempio per malattia o infortunio. Se per questo motivo ha subito un licenziamento con effetto immediato, il licenziamento non era giustificato.",
-        "en": "Good cause can never consist in the fact that, through no fault of your own, you were prevented from working, for example because of illness or accident. If you were dismissed with immediate effect for that reason, the dismissal was not justified."
+        "en": "Good cause can never consist in the fact that, through no fault of your own, you were prevented from working, for example because of illness or accident. If you were dismissed with immediate effect for that reason, the dismissal was not justified.",
+        "rm": "In motiv impurtant na po mai consister en in'incapacitad da lavurar senza atgna culpa, per exempel pervia da malsogna u accident. Sche Voss patrun Vus ha licenzià senza preavis pervia da quai, n'era la disditga betg giustifitgada."
       },
       "sources": [
         "or-337"
@@ -268,7 +299,8 @@
         "de": "Verlangen Sie schriftlich, dass Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung schriftlich mitteilt.",
         "fr": "Demandez par écrit que votre employeur vous communique par écrit les motifs de la résiliation immédiate.",
         "it": "Chieda per scritto che il suo datore di lavoro le comunichi per scritto i motivi del licenziamento con effetto immediato.",
-        "en": "Ask in writing for your employer to give you the reasons for the dismissal with immediate effect in writing."
+        "en": "Ask in writing for your employer to give you the reasons for the dismissal with immediate effect in writing.",
+        "rm": "Pretendai per scrit ch'Voss patrun comunitgeschia a Vus per scrit ils motivs da la disditga senza preavis."
       },
       "when": {
         "reason_given": [
@@ -287,7 +319,8 @@
         "de": "Lag der wichtige Grund im vertragswidrigen Verhalten einer Seite, muss diese Seite den vollen Schaden ersetzen, unter Berücksichtigung aller Ansprüche aus dem Arbeitsverhältnis. In anderen Fällen legt das Gericht die finanziellen Folgen nach eigenem Ermessen fest.",
         "fr": "Si le juste motif réside dans le comportement contraire au contrat de l’une des parties, celle-ci doit réparer intégralement le dommage causé, compte tenu de toutes les prétentions découlant des rapports de travail. Dans les autres cas, le tribunal apprécie librement les conséquences financières.",
         "it": "Se la causa grave consisteva in un comportamento contrario al contratto di una delle parti, questa deve risarcire il danno integrale, tenuto conto di tutte le pretese derivanti dal rapporto di lavoro. Negli altri casi, il giudice stabilisce le conseguenze finanziarie secondo il proprio apprezzamento.",
-        "en": "If the good cause consisted in one side's breach of contract, that side must compensate the other in full, taking into account all claims arising from the employment relationship. In other cases, the court determines the financial consequences at its discretion."
+        "en": "If the good cause consisted in one side's breach of contract, that side must compensate the other in full, taking into account all claims arising from the employment relationship. In other cases, the court determines the financial consequences at its discretion.",
+        "rm": "Sche il motiv impurtant consisteva en il cumportament contrari al contract d'ina vart, sto quella vart substituir il donn cumplet, resguardond tut las pretensiuns da la relaziun da lavur. En auters cas fixescha la dretgira las consequenzas finanzialas tenor agen giudizi."
       },
       "when": {
         "your_view": [
@@ -306,7 +339,8 @@
         "de": "War die fristlose Entlassung nicht berechtigt, haben Sie Anspruch auf das, was Sie verdient hätten, wenn das Arbeitsverhältnis mit der ordentlichen Kündigungsfrist oder durch Ablauf einer befristeten Vertragsdauer beendet worden wäre. Was Sie dadurch gespart oder anderweitig verdient haben (oder absichtlich nicht verdienen wollten), wird angerechnet. Zusätzlich kann Ihnen das Gericht eine weitere Entschädigung von höchstens sechs Monatslöhnen zusprechen.",
         "fr": "Si la résiliation immédiate n’était pas justifiée, vous avez droit à ce que vous auriez gagné si les rapports de travail avaient pris fin avec le délai de congé ordinaire ou à l’échéance d’un contrat de durée déterminée. Ce que vous avez épargné de ce fait ou gagné autrement (ou renoncé intentionnellement à gagner) est porté en compte. Le tribunal peut en outre vous allouer une indemnité supplémentaire d’au maximum six mois de salaire.",
         "it": "Se il licenziamento con effetto immediato non era giustificato, lei ha diritto a quanto avrebbe guadagnato se il rapporto di lavoro fosse terminato con il termine di disdetta ordinario o con la scadenza di un contratto a tempo determinato. Ciò che in tal modo lei ha risparmiato o guadagnato altrove (o che ha intenzionalmente rinunciato a guadagnare) viene detratto. Inoltre, il giudice può assegnarle un’ulteriore indennità fino a un massimo di sei mensilità di salario.",
-        "en": "If the dismissal with immediate effect was not justified, you are entitled to what you would have earned if the employment relationship had ended with the ordinary notice period, or on expiry of a fixed contract term. Anything you saved as a result, or earned elsewhere (or deliberately chose not to earn), is deducted. In addition, the court may award you further compensation of not more than six months' salary."
+        "en": "If the dismissal with immediate effect was not justified, you are entitled to what you would have earned if the employment relationship had ended with the ordinary notice period, or on expiry of a fixed contract term. Anything you saved as a result, or earned elsewhere (or deliberately chose not to earn), is deducted. In addition, the court may award you further compensation of not more than six months' salary.",
+        "rm": "Sche la disditga senza preavis n'era betg giustifitgada, avais Vus dretg a quai ch'Vus avessas gudagnà, sche la relaziun da lavur füss vegnida finida cun il termin da disditga ordinari u tras la scadenza d'ina durada contractuala limitada. Quai ch'Vus avais spargnià u guadagnà autramain pervia da quai (u ch'Vus avais renunzià a guadagnar voluntariamain), vegn quintà en quint. Supplementarmain po la dretgira attribuir a Vus in'autra indemnisaziun da maximalmain ses salaris mensils."
       },
       "when": {
         "your_view": [
@@ -325,7 +359,8 @@
         "de": "Diese Anleitung behandelt die fristlose Entlassung durch den Arbeitgeber. Verlassen Sie stattdessen selbst ohne wichtigen Grund die Stelle oder treten Sie sie gar nicht erst an, gelten andere Regeln: Ihr Arbeitgeber kann dann seinerseits eine Entschädigung von Ihnen verlangen.",
         "fr": "Ce guide traite de la résiliation immédiate par l’employeur. Si vous quittez vous-même votre emploi sans juste motif, ou si vous n’entrez pas en fonction, d’autres règles s’appliquent : votre employeur peut alors exiger de son côté une indemnité de votre part.",
         "it": "Questa guida tratta il licenziamento con effetto immediato dato dal datore di lavoro. Se invece è lei a lasciare il posto senza causa grave, o a non assumerlo affatto, valgono altre regole: in tal caso è il suo datore di lavoro a poter esigere da lei un’indennità.",
-        "en": "This guide deals with dismissal with immediate effect by the employer. If instead you yourself leave the job without good cause, or fail to take it up at all, different rules apply: your employer can then claim compensation from you."
+        "en": "This guide deals with dismissal with immediate effect by the employer. If instead you yourself leave the job without good cause, or fail to take it up at all, different rules apply: your employer can then claim compensation from you.",
+        "rm": "Questa guida tracta la disditga senza preavis dal patrun. Sch'Vus abandunais Vus sez senza motiv impurtant la plazza u betg entrais en ella, valan autras reglas: Voss patrun po lura pretender in'indemnisaziun da Vus."
       },
       "sources": [
         "or-337d"
@@ -338,7 +373,8 @@
         "de": "Mit der Beendigung des Arbeitsverhältnisses werden sämtliche Forderungen daraus sofort fällig, also insbesondere ausstehender Lohn und nicht bezogene Ferien.",
         "fr": "À la fin des rapports de travail, toutes les créances qui en découlent deviennent immédiatement exigibles, notamment le salaire dû et les vacances non prises.",
         "it": "Con la fine del rapporto di lavoro, tutti i crediti che ne derivano diventano immediatamente esigibili, quindi in particolare il salario ancora dovuto e le vacanze non godute.",
-        "en": "When the employment relationship ends, all claims arising from it fall due immediately, in particular any outstanding salary and untaken holiday."
+        "en": "When the employment relationship ends, all claims arising from it fall due immediately, in particular any outstanding salary and untaken holiday.",
+        "rm": "Cun la fin da la relaziun da lavur vegnan tut las pretensiuns da quella subit exigiblas, uschia il salari anc dovì e las vacanzas betg prendidas."
       },
       "sources": [
         "or-339"
@@ -351,7 +387,8 @@
         "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen.",
         "fr": "Inscrivez-vous personnellement le plus tôt possible auprès de l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous demandez l’indemnité de chômage.",
         "it": "Si iscriva di persona il più presto possibile all’ufficio regionale di collocamento (URC), al più tardi il primo giorno per cui rivendica l’indennità di disoccupazione.",
-        "en": "Register in person with the RAV as early as possible, and at the latest on the first day for which you are claiming unemployment benefit."
+        "en": "Register in person with the RAV as early as possible, and at the latest on the first day for which you are claiming unemployment benefit.",
+        "rm": "Annunziai Vus il pli baud pussibel persunalmain tar il Center regiunal per intermediaziun da lavur (CIL), al pli tard il emprim di per il qual Vus pretendais indemnisaziun da disoccupaziun."
       },
       "when": {
         "unemployment_registered": [
@@ -370,7 +407,8 @@
         "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung.",
         "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même.",
         "it": "La procedura di conciliazione nelle controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi è gratuita: non vengono riscosse spese processuali. Per le spese della propria assistenza legale, in linea di principio, in questa procedura non è prevista alcuna indennità.",
-        "en": "Conciliation proceedings in employment disputes are free of charge up to a value in dispute of CHF 30,000: no court costs are charged. As a rule, there is no compensation in these proceedings for the cost of your own lawyer."
+        "en": "Conciliation proceedings in employment disputes are free of charge up to a value in dispute of CHF 30,000: no court costs are charged. As a rule, there is no compensation in these proceedings for the cost of your own lawyer.",
+        "rm": "La procedura da mediaziun en dispitas da dretg da lavur fin ina valur litigiusa da 30 000 francs è gratuita: na vegnan chargiads nagins custs giudizials. Per ils custs d'ina atgna advocata u d'in atgn advocat na dat i en questa procedura per principi nagina indemnisaziun."
       },
       "sources": [
         "zpo-113"
@@ -383,7 +421,8 @@
         "de": "Holen Sie rasch persönliche Beratung, wenn grosse Summen im Streit stehen, Ihr Arbeitgeber die Vorwürfe bestreitet, oder Sie sich unsicher sind, ob wirklich ein wichtiger Grund vorlag.",
         "fr": "Demandez rapidement un conseil personnalisé si des sommes importantes sont en jeu, si votre employeur conteste les reproches, ou si vous doutez qu’il y ait réellement eu un juste motif.",
         "it": "Si faccia consigliare rapidamente da un professionista se sono in gioco importi elevati, se il suo datore di lavoro contesta gli addebiti, oppure se non è sicuro che vi fosse davvero una causa grave.",
-        "en": "Get personal advice quickly if large sums are in dispute, your employer disputes the allegations, or you are unsure whether there really was good cause."
+        "en": "Get personal advice quickly if large sums are in dispute, your employer disputes the allegations, or you are unsure whether there really was good cause.",
+        "rm": "Procurai svelt ina consulaziun persunala, sche grondas summas èn en dispita, Voss patrun contesta ils reproschs, u Vus avais dubis sche propi in motiv impurtant dettia stà."
       }
     },
     {
@@ -393,7 +432,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit weitere Hilfe an.",
         "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail.",
         "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. Molti Cantoni offrono ulteriore aiuto tramite l’ufficio del lavoro.",
-        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation) can tell you about the procedure. Trade unions advise their members. Many cantons offer further help through the employment office."
+        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation) can tell you about the procedure. Trade unions advise their members. Many cantons offer further help through the employment office.",
+        "rm": "Agid gratuit u avantagius: l'autoritad chantunala da mediaziun per dispitas da dretg da lavur infurmescha davart la procedura. Sindicats cusseglieschan lur commembers. Blers chantuns porschan tras l'uffizi da lavur anc auter agid."
       }
     }
   ],
@@ -461,7 +501,8 @@
         "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz",
         "fr": "ch.ch : Résiliation du contrat de travail en Suisse",
         "it": "ch.ch: Disdetta del contratto di lavoro in Svizzera",
-        "en": "ch.ch: Termination of the employment contract in Switzerland"
+        "en": "ch.ch: Termination of the employment contract in Switzerland",
+        "rm": "ch.ch: Disditga dal contract da lavur en Svizra"
       },
       "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
     }

@@ -9,13 +9,15 @@
     "de": "Der Vermieter hat mir die Wohnung gekündigt",
     "fr": "Le bailleur a résilié le bail de mon logement",
     "it": "Il locatore mi ha disdetto l'appartamento",
-    "en": "My landlord has given notice on my flat"
+    "en": "My landlord has given notice on my flat",
+    "rm": "Il locatur ha disditg mia abitaziun"
   },
   "summary": {
     "de": "Sie können eine Kündigung der Wohnung anfechten oder mehr Zeit für den Auszug verlangen. Entscheidend ist die Frist von 30 Tagen ab Empfang der Kündigung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
     "fr": "Vous pouvez contester un congé portant sur votre logement ou demander plus de temps pour déménager. Le délai déterminant est de 30 jours dès réception du congé. La procédure de conciliation ne vous coûte rien.",
     "it": "Lei può contestare la disdetta dell'appartamento o chiedere più tempo per traslocare. Determinante è il termine di 30 giorni dalla ricezione della disdetta. La procedura di conciliazione non Le costa nulla.",
-    "en": "You can challenge a notice of termination on your flat or ask for more time before moving out. What matters most is the 30-day deadline from when you received the notice. Proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) are free of charge."
+    "en": "You can challenge a notice of termination on your flat or ask for more time before moving out. What matters most is the 30-day deadline from when you received the notice. Proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) are free of charge.",
+    "rm": "Vus pudais contestar ina disditga da l'abitaziun u pretender pli temp per sortir. Decisiv è il termin da 30 dis dapi la retschavida da la disditga. La procedura tar l'autoritad da mediaziun (Schlichtungsbehörde) è gratuita."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "My landlord just booted me out of my flat, what do I do now?",
       "I got a notice of termination on the official form and I don't want to move out",
       "Can I ask for more time to move out?"
+    ],
+    "rm": [
+      "Il locatur ha disditg mia abitaziun, tge poss jau far?",
+      "Retschavì ina disditga da l'abitaziun, quant temp hai jau?",
+      "Disditga pervi d'agen basegn, poss jau ma defender?",
+      "Il patrun da chasa ha disditg mia abitaziun, e jau na sai betg tge far ussa",
+      "Jau hai retschavì ina disditga sin il formular uffizial e na vi betg sortir",
+      "Poss jau pretender pli temp per sortir da l'abitaziun?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Kündigungen des Vermieters bei gewöhnlichen Mietwohnungen und Häusern in der Schweiz.",
       "fr": "Les congés donnés par le bailleur pour des appartements et maisons loués ordinaires en Suisse.",
       "it": "Le disdette del locatore per normali appartamenti e case in locazione in Svizzera.",
-      "en": "Notices of termination given by the landlord for ordinary rented flats and houses in Switzerland."
+      "en": "Notices of termination given by the landlord for ordinary rented flats and houses in Switzerland.",
+      "rm": "Disditgas dal locatur tar abitaziuns e chasas da locaziun usitadas en Svizra."
     },
     "excludes": {
       "de": "Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse; Kündigungen, die Sie selbst aussprechen; laufende Gerichts- oder Ausweisungsverfahren.",
       "fr": "Les locaux commerciaux, chambres meublées, logements de vacances et autres baux particuliers ; les congés que vous donnez vous-même ; les procédures judiciaires ou d'expulsion déjà en cours.",
       "it": "I locali commerciali, le camere ammobiliate, gli appartamenti di vacanza e altri rapporti di locazione particolari; le disdette pronunciate da Lei stesso; le procedure giudiziarie o di sfratto già in corso.",
-      "en": "Commercial premises, furnished rooms, holiday flats and other special types of tenancy; notices of termination that you give yourself; ongoing court or eviction proceedings."
+      "en": "Commercial premises, furnished rooms, holiday flats and other special types of tenancy; notices of termination that you give yourself; ongoing court or eviction proceedings.",
+      "rm": "Locals commerzials, chombras mobiliadas, abitaziuns da vacanzas ed autras relaziuns da locaziun spezialas; disditgas che Vus pronunziais Vus sez; proceduras giudizialas u d'expulsiun che èn gia en dumbrament."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "Um welche Art Mietverhältnis geht es?",
         "fr": "De quel type de bail s'agit-il ?",
         "it": "Di che tipo di locazione si tratta?",
-        "en": "What type of tenancy is this?"
+        "en": "What type of tenancy is this?",
+        "rm": "De tge gener da relaziun da locaziun sa tracta?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "Ich miete eine Wohnung oder ein Haus in der Schweiz",
             "fr": "Je loue un appartement ou une maison en Suisse",
             "it": "Ho preso in locazione un appartamento o una casa in Svizzera",
-            "en": "I rent a flat or house in Switzerland"
+            "en": "I rent a flat or house in Switzerland",
+            "rm": "Jau prend en locaziun in'abitaziun u ina chasa en Svizra"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "Geschäftsraum, möbliertes Zimmer, Ferienwohnung oder etwas anderes",
             "fr": "Local commercial, chambre meublée, logement de vacances ou autre chose",
             "it": "Un locale commerciale, una camera ammobiliata, un appartamento di vacanza o altro",
-            "en": "Commercial premises, a furnished room, a holiday flat or something else"
+            "en": "Commercial premises, a furnished room, a holiday flat or something else",
+            "rm": "In local commerzial, ina chombra mobiliada, in'abitaziun da vacanzas u insatge auter"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "Ich bin nicht sicher",
             "fr": "Je n'en ai pas la certitude",
             "it": "Non lo so con certezza",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Quai n'è betg cler per mai"
           }
         }
       ]
@@ -110,13 +126,15 @@
         "de": "Warum hat der Vermieter gekündigt?",
         "fr": "Pourquoi le bailleur a-t-il résilié le bail ?",
         "it": "Perché il locatore ha disdetto il contratto?",
-        "en": "Why did the landlord give notice?"
+        "en": "Why did the landlord give notice?",
+        "rm": "Pertge ha il locatur disditg?"
       },
       "help": {
         "de": "Der Grund steht oft im Begleitbrief. Wenn keiner angegeben ist, wählen Sie «Kein Grund angegeben».",
         "fr": "Le motif figure souvent dans la lettre d'accompagnement. S'il n'y en a aucun, choisissez « Aucun motif indiqué ».",
         "it": "Il motivo figura spesso nella lettera di accompagnamento. Se non ne è indicato nessuno, scelga «Nessun motivo indicato».",
-        "en": "The reason is often stated in the covering letter. If none is given, choose 'No reason given'."
+        "en": "The reason is often stated in the covering letter. If none is given, choose 'No reason given'.",
+        "rm": "Il motiv sta savens en la brev d'accumpagnament. Sche nagin motiv n'è indicà, tschernai «Nagin motiv indicà»."
       },
       "options": [
         {
@@ -125,7 +143,8 @@
             "de": "Wegen offener Mietzinse, nach einer schriftlichen Zahlungsfrist",
             "fr": "Pour loyers impayés, après un délai de paiement écrit",
             "it": "Per pigione arretrata, dopo un termine di pagamento notificato per scritto",
-            "en": "Because of unpaid rent, after a written deadline to pay"
+            "en": "Because of unpaid rent, after a written deadline to pay",
+            "rm": "Pervi da tschains da locaziun avert, suenter in termin da pajament dà per scrit"
           }
         },
         {
@@ -134,7 +153,8 @@
             "de": "Aus einem anderen Grund, zum Beispiel Eigenbedarf oder Sanierung",
             "fr": "Pour un autre motif, par exemple le besoin propre du bailleur ou des travaux de rénovation",
             "it": "Per un altro motivo, per esempio bisogno personale del locatore o ristrutturazione",
-            "en": "For another reason, for example the landlord wants the flat for personal use or plans renovations"
+            "en": "For another reason, for example the landlord wants the flat for personal use or plans renovations",
+            "rm": "Per in auter motiv, per exempel agen basegn u renovaziun"
           }
         },
         {
@@ -143,7 +163,8 @@
             "de": "Kein Grund angegeben",
             "fr": "Aucun motif indiqué",
             "it": "Nessun motivo indicato",
-            "en": "No reason given"
+            "en": "No reason given",
+            "rm": "Nagin motiv indicà"
           }
         },
         {
@@ -152,7 +173,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -163,13 +185,15 @@
         "de": "Kam die Kündigung auf einem amtlichen Formular des Kantons?",
         "fr": "Le congé est-il arrivé sur une formule officielle du canton ?",
         "it": "La disdetta è arrivata su un modulo ufficiale del Cantone?",
-        "en": "Did the notice of termination come on an official form (amtliches Formular / formule officielle) issued by the canton?"
+        "en": "Did the notice of termination come on an official form (amtliches Formular / formule officielle) issued by the canton?",
+        "rm": "È la disditga arrivada sin in formular uffizial dal chantun?"
       },
       "help": {
         "de": "Das Formular erklärt auf der Rückseite oder im Anhang, wie Sie die Kündigung anfechten können.",
         "fr": "La formule explique, au verso ou en annexe, comment contester le congé.",
         "it": "Il modulo spiega sul retro o in un allegato come contestare la disdetta.",
-        "en": "The form explains, on the back or in an attachment, how you can challenge the notice of termination."
+        "en": "The form explains, on the back or in an attachment, how you can challenge the notice of termination.",
+        "rm": "Il formular declera sin la vart posteriura u en l'agiunta co che Vus pudais contestar la disditga."
       },
       "options": [
         {
@@ -178,7 +202,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -187,7 +212,8 @@
             "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht",
             "fr": "Non, seulement une lettre ordinaire, un e-mail ou un message",
             "it": "No, solo una lettera comune, un'e-mail o un messaggio",
-            "en": "No, just an ordinary letter, an email or a message"
+            "en": "No, just an ordinary letter, an email or a message",
+            "rm": "Na, mo ina brev usitada, in e-mail u in messadi"
           }
         },
         {
@@ -196,7 +222,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -207,7 +234,8 @@
         "de": "Wohnen Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder Ihrer eingetragenen Partnerschaft in der Wohnung?",
         "fr": "Vivez-vous dans le logement avec votre épouse ou votre époux, ou en partenariat enregistré ?",
         "it": "Abita nell'appartamento con il coniuge o con il partner registrato?",
-        "en": "Do you live in the flat with your spouse or registered partner?"
+        "en": "Do you live in the flat with your spouse or registered partner?",
+        "rm": "Vivais Vus en l'abitaziun cun Vossa conjugala, Voss conjugal u en in partenadi registrà?"
       },
       "options": [
         {
@@ -216,7 +244,8 @@
             "de": "Ja, und jede Person hat eine eigene Kündigung erhalten",
             "fr": "Oui, et chaque personne a reçu son propre congé",
             "it": "Sì, e ognuno di noi ha ricevuto una disdetta separata",
-            "en": "Yes, and each of you received a separate notice of termination"
+            "en": "Yes, and each of you received a separate notice of termination",
+            "rm": "Gea, e mintga persuna ha retschavì ina disditga separada"
           }
         },
         {
@@ -225,7 +254,8 @@
             "de": "Ja, aber es kam nur eine Kündigung",
             "fr": "Oui, mais un seul congé est arrivé",
             "it": "Sì, ma è arrivata una sola disdetta",
-            "en": "Yes, but only one notice of termination arrived"
+            "en": "Yes, but only one notice of termination arrived",
+            "rm": "Gea, ma è arrivada mo ina disditga"
           }
         },
         {
@@ -234,7 +264,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -243,7 +274,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -254,7 +286,8 @@
         "de": "Was möchten Sie erreichen?",
         "fr": "Que souhaitez-vous obtenir ?",
         "it": "Cosa vorrebbe ottenere?",
-        "en": "What would you like to achieve?"
+        "en": "What would you like to achieve?",
+        "rm": "Tge vulais Vus cuntanscher?"
       },
       "options": [
         {
@@ -263,7 +296,8 @@
             "de": "In der Wohnung bleiben",
             "fr": "Rester dans le logement",
             "it": "Restare nell'appartamento",
-            "en": "Stay in the flat"
+            "en": "Stay in the flat",
+            "rm": "Restar en l'abitaziun"
           }
         },
         {
@@ -272,7 +306,8 @@
             "de": "Mehr Zeit für den Auszug",
             "fr": "Plus de temps pour déménager",
             "it": "Più tempo per traslocare",
-            "en": "More time to move out"
+            "en": "More time to move out",
+            "rm": "Pli temp per sortir"
           }
         },
         {
@@ -281,7 +316,8 @@
             "de": "Ich weiss es noch nicht",
             "fr": "Je ne sais pas encore",
             "it": "Non lo so ancora",
-            "en": "I don't know yet"
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -300,7 +336,8 @@
         "de": "Für Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse gelten teilweise andere Regeln. Diese Anleitung deckt sie nicht ab. Wenden Sie sich rasch an die Schlichtungsbehörde für Mietsachen oder an eine Beratungsstelle, denn auch hier kann eine kurze Frist laufen.",
         "fr": "Pour les locaux commerciaux, les chambres meublées, les logements de vacances et les autres baux particuliers, des règles en partie différentes s'appliquent. Cette fiche ne les couvre pas. Adressez-vous rapidement à l'autorité de conciliation en matière de baux ou à un service de consultation, car un délai court peut courir là aussi.",
         "it": "Per i locali commerciali, le camere ammobiliate, gli appartamenti di vacanza e altri rapporti di locazione particolari valgono in parte regole diverse. Questa guida non li tratta. Si rivolga rapidamente all'autorità di conciliazione in materia di locazione o a un servizio di consulenza, perché anche in questi casi può decorrere un termine breve.",
-        "en": "Commercial premises, furnished rooms, holiday flats and other special types of tenancy are partly subject to different rules. This guide does not cover them. Contact the conciliation authority for tenancy matters or an advice centre quickly, because a short deadline may be running here too."
+        "en": "Commercial premises, furnished rooms, holiday flats and other special types of tenancy are partly subject to different rules. This guide does not cover them. Contact the conciliation authority for tenancy matters or an advice centre quickly, because a short deadline may be running here too.",
+        "rm": "Per locals commerzials, chombras mobiliadas, abitaziuns da vacanzas ed autras relaziuns da locaziun spezialas valan per part autras reglas. Questa guida na tracta betg quests cas. Contactai svelt l'autoritad da mediaziun per fatgs da locaziun (Schlichtungsbehörde) u in post da consulaziun, perquai che era qua po currer in termin curt."
       }
     },
     {
@@ -316,7 +353,8 @@
         "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Einen eingeschriebenen Brief haben Sie nicht erst mit der Abholung empfangen, sondern sobald Sie ihn auf der Post hätten abholen können: meist am Tag, an dem die Abholungseinladung in Ihren Briefkasten gelegt wurde, sonst am folgenden Tag. Rechnen Sie sicherheitshalber ab dem Tag der Abholungseinladung. Die Frist lässt sich nicht verlängern, und wer sie verpasst, kann das in aller Regel nicht nachholen. Ferien, Gerichtsferien oder Abwesenheit halten sie nicht auf, ein Gespräch mit dem Vermieter ebenso wenig. Sind Sie länger weg, sorgen Sie dafür, dass Sie Ihre Post erhalten, oder teilen Sie dem Vermieter eine Adresse mit, unter der Sie erreichbar sind.",
         "fr": "Le délai le plus important : si vous voulez contester le congé ou demander plus de temps pour déménager, vous devez déposer votre requête au plus tard 30 jours après avoir reçu le congé auprès de l'autorité de conciliation. Une lettre recommandée n'est pas reçue seulement au moment où vous la retirez, mais dès que vous auriez pu la retirer à la poste : en général le jour où l'avis de retrait a été déposé dans votre boîte aux lettres, sinon le jour suivant. Par précaution, comptez à partir du jour de l'avis de retrait. Le délai ne peut pas être prolongé, et qui le manque ne peut en règle générale pas le rattraper. Ni les vacances, ni la suspension des délais, ni une absence ne l'arrêtent, pas plus qu'une discussion avec le bailleur. En cas d'absence prolongée, faites en sorte de recevoir votre courrier, ou communiquez au bailleur une adresse où vous êtes joignable.",
         "it": "Il termine più importante: se vuole contestare la disdetta o chiedere più tempo per traslocare, deve presentare la Sua istanza all'autorità di conciliazione entro 30 giorni dalla ricezione della disdetta. Una lettera raccomandata non è ricevuta solo al momento del ritiro, ma già dal momento in cui avrebbe potuto ritirarla alla posta: di regola il giorno in cui l'avviso di ritiro è stato messo nella Sua cassetta postale, altrimenti il giorno successivo. Per prudenza, calcoli il termine a partire dal giorno dell'avviso di ritiro. Il termine non può essere prorogato, e chi lo lascia scadere non può di regola rimediarvi in seguito. Le vacanze, le ferie giudiziarie o un'assenza non lo sospendono, e nemmeno un colloquio con il locatore. Se è assente per un periodo prolungato, si assicuri di ricevere la Sua posta oppure comunichi al locatore un indirizzo al quale può essere raggiunto.",
-        "en": "The most important deadline: if you want to challenge the notice of termination or ask for more time to move out, you must file your application with the conciliation authority within 30 days of receiving the notice. You are deemed to have received a registered letter not only once you collect it, but as soon as you could have collected it from the post office: usually the day the collection notice was put in your letterbox, otherwise the following day. To be safe, count from the day of the collection notice. The deadline cannot be extended, and if you miss it you generally cannot make up for it later. Holidays, court recess or being away do not stop it running, and nor does talking to the landlord. If you will be away for a longer period, arrange to receive your post, or give the landlord an address where you can be reached."
+        "en": "The most important deadline: if you want to challenge the notice of termination or ask for more time to move out, you must file your application with the conciliation authority within 30 days of receiving the notice. You are deemed to have received a registered letter not only once you collect it, but as soon as you could have collected it from the post office: usually the day the collection notice was put in your letterbox, otherwise the following day. To be safe, count from the day of the collection notice. The deadline cannot be extended, and if you miss it you generally cannot make up for it later. Holidays, court recess or being away do not stop it running, and nor does talking to the landlord. If you will be away for a longer period, arrange to receive your post, or give the landlord an address where you can be reached.",
+        "rm": "Il termin il pli impurtant: sche Vus vulais contestar la disditga u pretender pli temp per sortir, stuais Vus inoltrar Vossa dumonda entaifer 30 dis suenter la retschavida da la disditga tar l'autoritad da mediaziun. Ina brev recumandada n'avais Vus betg retschavì pir cun la retratga, mabain gia uschespert sco Vus la fissas pudida retrair da la posta: per regla il di ch'il invit da retratga è vegnì mess en Vossa chascha da brevs, autramain il di suandant. Per segirtad, quintai il termin dapi il di da l'invit da retratga. Il termin na po betg vegnir prolungà, e tgi ch'al mancunescha, na po per regla betg pli far quai pli tard. Vacanzas, vacanzas da dretgira u absenza na fermeschan betg il decurs dal termin; medemamain n'il ferma betg in discurs cun il locatur. Sche Vus essas pli ditg davent, procurai che Vus retschavais Vossa posta, u communitgai al locatur in'adressa, sut la quala Vus essas cuntanschibels."
       },
       "sources": [
         "or-273",
@@ -340,7 +378,8 @@
         "de": "Der Vermieter muss eine Wohnung schriftlich, unterschrieben und mit dem amtlichen Formular des Kantons kündigen. Eine E-Mail, SMS oder Chatnachricht genügt nicht. Fehlt das Formular, ist die Kündigung nichtig: Sie beendet die Miete nicht, auch wenn Sie nichts unternehmen. Schweigen Sie trotzdem nicht. Teilen Sie dem Vermieter rasch schriftlich mit, dass Sie die Kündigung für ungültig halten, denn wer lange nichts sagt, dem kann das später vorgehalten werden. Verlassen Sie sich auch nicht allein darauf: Reichen Sie Ihr Gesuch vorsorglich innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen.",
         "fr": "Le bailleur doit résilier le bail d'un logement par écrit, signé et au moyen de la formule officielle du canton. Un e-mail, un SMS ou un message de chat ne suffisent pas. Si la formule fait défaut, le congé est nul : il ne met pas fin au bail, même si vous ne faites rien. Ne gardez pourtant pas le silence. Communiquez rapidement et par écrit au bailleur que vous tenez le congé pour invalide, car qui ne dit longtemps rien peut se le voir reprocher par la suite. Ne vous fiez pas non plus uniquement à cela : déposez tout de même votre requête dans les 30 jours par précaution et faites examiner la validité du congé par l'autorité de conciliation.",
         "it": "Il locatore deve disdire un appartamento per scritto, con firma, e sul modulo ufficiale del Cantone. Un'e-mail, un SMS o un messaggio di chat non bastano. Se manca il modulo, la disdetta è nulla: non pone fine alla locazione, anche se Lei non fa nulla. Non resti comunque in silenzio. Comunichi rapidamente e per scritto al locatore che ritiene la disdetta invalida, perché a chi tace a lungo questo può in seguito essere rimproverato. Non si affidi solo a questo: presenti comunque, a titolo cautelativo, la Sua istanza entro 30 giorni e faccia verificare la validità dall'autorità di conciliazione.",
-        "en": "The landlord must give notice of termination on a flat in writing, signed, and on the canton's official form. An email, text message or chat message is not enough. If the form is missing, the notice is void: it does not end the lease, even if you do nothing. Even so, do not stay silent. Tell the landlord promptly, in writing, that you consider the notice invalid, because staying silent for a long time can later be held against you. Do not rely on this alone either: as a precaution, file your application within 30 days and have the conciliation authority examine its validity."
+        "en": "The landlord must give notice of termination on a flat in writing, signed, and on the canton's official form. An email, text message or chat message is not enough. If the form is missing, the notice is void: it does not end the lease, even if you do nothing. Even so, do not stay silent. Tell the landlord promptly, in writing, that you consider the notice invalid, because staying silent for a long time can later be held against you. Do not rely on this alone either: as a precaution, file your application within 30 days and have the conciliation authority examine its validity.",
+        "rm": "Il locatur sto disdir in'abitaziun per scrit, suttascrit e cun il formular uffizial dal chantun. In e-mail, in SMS u in messadi da chat na basta betg. Sche il formular manca, è la disditga nulla: ella na finescha betg la locaziun, era sche Vus n'interprendais nagut. Tuttina na duvrais Vus betg tacair. Communitgai svelt e per scrit al locatur che Vus tegnais la disditga per nunvalida, perquai che a tgi che dad ina lunga dad ora na di nagut, quai po pli tard vegnir tegnì cunter el. Na fidai Vus dentant betg mo da quai: inoltrai Vossa dumonda per precauziun entaifer 30 dis e laschai examinar la validitad tras l'autoritad da mediaziun."
       },
       "sources": [
         "or-266l",
@@ -360,7 +399,8 @@
         "de": "Prüfen Sie, ob die Kündigung auf einem amtlichen Formular des Kantons kam. Eine Kündigung der Wohnung ohne dieses Formular ist ungültig. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden.",
         "fr": "Vérifiez si le congé est arrivé sur une formule officielle du canton. Un congé portant sur un logement donné sans cette formule est invalide. Apportez le courrier avec vous lorsque vous vous adressez à l'autorité de conciliation.",
         "it": "Verifichi se la disdetta è arrivata su un modulo ufficiale del Cantone. Una disdetta di un appartamento senza questo modulo è invalida. Porti con sé lo scritto quando si rivolge all'autorità di conciliazione.",
-        "en": "Check whether the notice of termination came on the canton's official form. A notice of termination on a flat without this form is invalid. Bring the letter with you when you contact the conciliation authority."
+        "en": "Check whether the notice of termination came on the canton's official form. A notice of termination on a flat without this form is invalid. Bring the letter with you when you contact the conciliation authority.",
+        "rm": "Examinai sch'la disditga è arrivada sin in formular uffizial dal chantun. Ina disditga da l'abitaziun senza quest formular è nunvalida. Purtai cun Vus la brev, sche Vus contactais l'autoritad da mediaziun."
       },
       "sources": [
         "or-266l",
@@ -379,7 +419,8 @@
         "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Das gilt auch für eine vorausgehende Mahnung mit Zahlungsfrist wegen offener Mietzinse. Kam nur eine Kündigung, ist sie nichtig, sofern es sich tatsächlich um die Familienwohnung handelt. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen. Auch wer den Mietvertrag nicht selbst unterschrieben hat, kann die Kündigung der Familienwohnung anfechten.",
         "fr": "Si vous vivez avec votre épouse ou votre époux, ou en partenariat enregistré, dans le logement de la famille, le bailleur doit notifier un congé séparé à chacune des deux personnes. Cela vaut aussi pour une mise en demeure préalable avec délai de paiement en cas de loyers impayés. Si un seul congé est arrivé, il est nul, pour autant qu'il s'agisse effectivement du logement de la famille. Faites-le examiner par l'autorité de conciliation ; le délai est de 30 jours. Même la personne qui n'a pas signé elle-même le bail peut contester le congé portant sur le logement de la famille.",
         "it": "Se abita con il coniuge o in unione domestica registrata nell'abitazione familiare, il locatore deve notificare a ciascuna delle due persone una disdetta separata. Questo vale anche per una precedente diffida con termine di pagamento per pigione arretrata. Se è arrivata una sola disdetta, essa è nulla, sempre che si tratti effettivamente dell'abitazione familiare. Lo faccia verificare dall'autorità di conciliazione entro i 30 giorni. Anche chi non ha firmato personalmente il contratto di locazione può contestare la disdetta dell'abitazione familiare.",
-        "en": "If you live with your spouse or registered partner in the family residence, the landlord must serve a separate notice of termination on each of you. The same applies to an earlier reminder setting a deadline to pay because of unpaid rent. If only one notice arrived, it is void, provided the flat is actually the family residence. Have the conciliation authority examine this within the 30 days. Even someone who did not sign the lease themselves can challenge the notice of termination on the family residence."
+        "en": "If you live with your spouse or registered partner in the family residence, the landlord must serve a separate notice of termination on each of you. The same applies to an earlier reminder setting a deadline to pay because of unpaid rent. If only one notice arrived, it is void, provided the flat is actually the family residence. Have the conciliation authority examine this within the 30 days. Even someone who did not sign the lease themselves can challenge the notice of termination on the family residence.",
+        "rm": "Sche Vus vivais cun Vossa conjugala, Voss conjugal u en in partenadi registrà en l'abitaziun da la famiglia, sto il locatur trametter a mintga persuna sia atgna disditga separada. Quai vala er per ina smanatscha precedenta cun termin da pajament pervi da tschains da locaziun avert. Sche è arrivada mo ina disditga, è ella nulla, sch'i sa tracta propi da l'abitaziun da la famiglia. Laschai examinar quai entaifer ils 30 dis tras l'autoritad da mediaziun. Er tgi che n'ha betg suttascrit sez il contract da locaziun po contestar la disditga da l'abitaziun da la famiglia."
       },
       "sources": [
         "or-266n",
@@ -400,7 +441,8 @@
         "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Eine Begründung ist nicht nötig. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Verlangen Sie in der Regel beides: die Aufhebung der Kündigung und, für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Das gilt auch, wenn Sie vor allem mehr Zeit möchten, denn ein Gesuch, das nur eine Erstreckung verlangt, lässt sich nach Ablauf der Frist nicht mehr in eine Anfechtung umwandeln. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung.",
         "fr": "Comment procéder : adressez-vous à l'autorité de conciliation en matière de baux du lieu où se trouve le logement. Vous pouvez déposer votre requête par écrit ou la faire consigner oralement au procès-verbal par l'autorité. Aucune motivation n'est nécessaire. Indiquez le bailleur, ce que vous demandez, et joignez une copie du congé. En règle générale, demandez les deux choses : l'annulation du congé et, pour le cas où celle-ci échouerait, une prolongation du bail. Cela vaut aussi si vous souhaitez surtout obtenir plus de temps, car une requête qui ne demande qu'une prolongation ne peut plus, une fois le délai écoulé, être transformée en contestation. Si la contestation est rejetée, l'autorité examine d'office si une prolongation est possible. Si la requête a été déposée auprès d'une autorité incompétente, redéposez-la auprès de l'autorité compétente dans le mois qui suit sa décision ou votre retrait. C'est alors la date du premier dépôt qui compte.",
         "it": "Come procedere: si rivolga all'autorità di conciliazione in materia di locazione del luogo dove si trova l'appartamento. Può presentare la Sua istanza per scritto oppure a voce, a verbale presso l'autorità. Non serve una motivazione. Indichi il locatore, ciò che chiede, e allega una copia della disdetta. Di regola chieda entrambe le cose: l'annullamento della disdetta e, per il caso in cui questa non venga annullata, una protrazione della locazione. Questo vale anche se desidera soprattutto più tempo, perché un'istanza che chiede solo una protrazione non può più essere trasformata in una contestazione una volta scaduto il termine. Se la contestazione viene respinta, l'autorità esamina d'ufficio se sia possibile una protrazione. Se si è rivolto a un'autorità incompetente, ripresenti l'istanza entro un mese dalla decisione di quest'ultima o dal Suo ritiro presso l'autorità competente. Conta allora la data della prima presentazione.",
-        "en": "Here is how to proceed: contact the conciliation authority for tenancy matters at the location of the flat. You can file your application in writing or state it orally for the record at the authority. You do not need to give reasons. Name the landlord, state what you are asking for, and enclose a copy of the notice of termination. As a rule, ask for both: that the notice be set aside and, in case that fails, an extension of the lease. This applies even if you mainly want more time, because an application that only asks for an extension cannot be converted into a challenge once the deadline has passed. If the challenge is dismissed, the authority examines of its own motion whether an extension is possible. If you went to the wrong authority, file the application again with the correct authority within one month of its decision or of your withdrawal. The date of the first filing then counts."
+        "en": "Here is how to proceed: contact the conciliation authority for tenancy matters at the location of the flat. You can file your application in writing or state it orally for the record at the authority. You do not need to give reasons. Name the landlord, state what you are asking for, and enclose a copy of the notice of termination. As a rule, ask for both: that the notice be set aside and, in case that fails, an extension of the lease. This applies even if you mainly want more time, because an application that only asks for an extension cannot be converted into a challenge once the deadline has passed. If the challenge is dismissed, the authority examines of its own motion whether an extension is possible. If you went to the wrong authority, file the application again with the correct authority within one month of its decision or of your withdrawal. The date of the first filing then counts.",
+        "rm": "Uschia procedais Vus: contactai l'autoritad da mediaziun per fatgs da locaziun al lieu da l'abitaziun. Vus pudais inoltrar Vossa dumonda per scrit u declerar la oralmain a protocol tar l'autoritad. Ina motivaziun n'è betg necessaria. Numnai il locatur, tge che Vus pretendais, ed agiuntai ina copia da la disditga. Pretendai per regla omaduas chaussas: l'annullaziun da la disditga e, per il cas che quella na reussescha betg, ina prolungaziun da la locaziun. Quai vala er sche Vus vulais avant tut pli temp, perquai ch'ina dumonda che pretenda mo ina prolungaziun na po betg pli, suenter la scadenza dal termin, vegnir transfurmada en ina contestaziun. Sche la contestaziun vegn refusada, examinescha l'autoritad da sasez sche ina prolungaziun è pussibla. Sche Vus essas arrivads tar in post nuncumpetent, inoltrai da nov la dumonda entaifer in mais suenter la decisiun da quel u suenter Vossa retratga tar l'autoritad giusta. Lura conta la data da la emprima inoltraziun."
       },
       "sources": [
         "zpo-202",
@@ -423,7 +465,8 @@
         "de": "Haben mehrere Personen den Mietvertrag unterschrieben, zum Beispiel Sie und Ihr Ehepartner oder eine Mitbewohnerin, fechten Sie die Kündigung am besten gemeinsam an. Will jemand davon nicht mitmachen, können Sie trotzdem allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern.",
         "fr": "Si plusieurs personnes ont signé le bail, par exemple vous et votre conjoint ou une colocataire, le mieux est de contester le congé ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même contester sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse. Sinon, votre requête peut échouer pour ce seul motif.",
         "it": "Se più persone hanno firmato il contratto di locazione, per esempio Lei e il coniuge o una persona con cui condivide l'appartamento, è meglio contestare la disdetta insieme. Se qualcuno non vuole partecipare, Lei può comunque contestarla da solo. Indichi allora questa persona nell'istanza, accanto al locatore, come controparte. Altrimenti la Sua istanza può fallire solo per questo motivo.",
-        "en": "If several people signed the lease, for example you and your spouse or a flatmate, it is best to challenge the notice of termination together. If someone does not want to join in, you can still challenge it alone. In that case, name that person in the application as an opposing party alongside the landlord. Otherwise your application can fail for this reason alone."
+        "en": "If several people signed the lease, for example you and your spouse or a flatmate, it is best to challenge the notice of termination together. If someone does not want to join in, you can still challenge it alone. In that case, name that person in the application as an opposing party alongside the landlord. Otherwise your application can fail for this reason alone.",
+        "rm": "Sche pliras persunas han suttascrit il contract da locaziun, per exempel Vus e Voss conjugal u ina cohabitanta, è il meglier da contestar la disditga ensemen. Sche insatgi na vul betg participar, pudais Vus tuttina contestar Vus sulets. Numnai lura questa persuna en la dumonda, sper il locatur, sco cuntrapart. Autramain po Vossa dumonda betg reussir gist per quest motiv."
       },
       "sources": [
         "bge-145-iii-281"
@@ -442,7 +485,8 @@
         "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson, eine Beraterin oder einen Anwalt mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen, und die 30 Tage sind dann meist schon vorbei. Zusätzlich kann die Behörde eine Ordnungsbusse von bis zu 1000 Franken verhängen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg und fragen Sie, ob Sie sich vertreten lassen oder einen neuen Termin erhalten können.",
         "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance, d'une conseillère ou d'un avocat. Si vous ne comparaissez pas, votre requête est réputée retirée, et les 30 jours sont alors en général déjà écoulés. L'autorité peut en outre prononcer une amende d'ordre de 1000 francs au plus. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif et demandez si vous pouvez vous faire représenter ou obtenir un nouveau rendez-vous.",
         "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia, da un consulente o da un avvocato. Se non compare, la Sua istanza è considerata ritirata, e i 30 giorni sono allora di regola già scaduti. Inoltre l'autorità può infliggere una multa disciplinare fino a 1000 franchi. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo e chieda se può farsi rappresentare o ottenere un nuovo appuntamento.",
-        "en": "Attend the conciliation hearing in person. You may bring someone you trust, an adviser or a lawyer. If you do not appear, your application is deemed withdrawn, and by then the 30 days will usually already be over. The authority can also impose a disciplinary fine of up to 1000 francs. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence, and ask whether you can be represented or given a new date."
+        "en": "Attend the conciliation hearing in person. You may bring someone you trust, an adviser or a lawyer. If you do not appear, your application is deemed withdrawn, and by then the 30 days will usually already be over. The authority can also impose a disciplinary fine of up to 1000 francs. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence, and ask whether you can be represented or given a new date.",
+        "rm": "Participai persunalmain a l'udienza da mediaziun. Vus dastgais prender cun Vus ina persuna da fiducia, ina consultanta u in advocat. Sche Vus n'apparais betg, vala Vossa dumonda sco retratga, e las 30 dis èn lura per regla gia scadidas. Supplementarmain po l'autoritad impunder ina multa d'ordin enfin 1000 francs. Sche Vus essas impedì u impedida pervi da malsegna u d'in auter motiv impurtant, communitgai quai immediat a l'autoritad cun in'attestaziun e dumandai sche Vus Vus pudais laschar represchentar u survegnir in nov termin."
       },
       "sources": [
         "zpo-204",
@@ -462,7 +506,8 @@
         "de": "Nicht jeder Fehler wirkt gleich. Manche Kündigungen sind von vornherein unwirksam, etwa ohne amtliches Formular, ohne eigene Zustellung an beide Ehe- oder eingetragenen Partner in der Familienwohnung, oder wegen offener Mietzinse, obwohl gar nichts offen war. Eine solche Kündigung müssten Sie nicht innert 30 Tagen anfechten. Ist die Kündigung dagegen formell in Ordnung und halten Sie sie nur für unfair oder missbräuchlich, müssen Sie innert 30 Tagen anfechten, auch wenn der Missbrauch offensichtlich ist. Später können Sie das nicht mehr geltend machen, auch nicht, wenn der Vermieter Ihre Ausweisung verlangt. Weil die Abgrenzung schwierig ist, reichen Sie im Zweifel immer innert der Frist ein.",
         "fr": "Toutes les erreurs n'ont pas le même effet. Certains congés sont d'emblée sans effet, par exemple sans formule officielle, sans notification séparée aux deux époux ou partenaires enregistrés dans le logement de la famille, ou pour loyers impayés alors que rien n'était réellement dû. Un tel congé, vous n'auriez pas besoin de le contester dans les 30 jours. Si en revanche le congé est formellement en ordre et que vous le tenez seulement pour inéquitable ou abusif, vous devez le contester dans les 30 jours, même si l'abus est manifeste. Plus tard, vous ne pourrez plus le faire valoir, même si le bailleur demande votre expulsion. Comme la distinction est difficile, déposez toujours votre requête dans le délai en cas de doute.",
         "it": "Non tutti i vizi hanno lo stesso effetto. Alcune disdette sono inefficaci fin dall'inizio, per esempio senza modulo ufficiale, senza notifica separata a entrambi i coniugi o partner registrati nell'abitazione familiare, oppure per pigione arretrata quando in realtà non era dovuto nulla. Una disdetta di questo tipo non dovrebbe essere contestata entro 30 giorni. Se invece la disdetta è formalmente in ordine e Lei la ritiene solo ingiusta o abusiva, deve contestarla entro 30 giorni, anche se l'abuso è evidente. In seguito non potrà più farlo valere, nemmeno se il locatore chiede il Suo sfratto. Poiché la distinzione è difficile, nel dubbio presenti sempre l'istanza entro il termine.",
-        "en": "Not every defect has the same effect. Some notices of termination are ineffective from the outset, for example without the official form, without separate service on both spouses or registered partners in the family residence, or for unpaid rent although nothing was actually owed. You would not need to challenge such a notice within 30 days. If, on the other hand, the notice is formally in order and you merely consider it unfair or abusive, you must challenge it within 30 days, even if the abuse is obvious. You cannot raise this later, not even if the landlord seeks your eviction. Because the line between the two is difficult to draw, when in doubt always file within the deadline."
+        "en": "Not every defect has the same effect. Some notices of termination are ineffective from the outset, for example without the official form, without separate service on both spouses or registered partners in the family residence, or for unpaid rent although nothing was actually owed. You would not need to challenge such a notice within 30 days. If, on the other hand, the notice is formally in order and you merely consider it unfair or abusive, you must challenge it within 30 days, even if the abuse is obvious. You cannot raise this later, not even if the landlord seeks your eviction. Because the line between the two is difficult to draw, when in doubt always file within the deadline.",
+        "rm": "Betg mintga sbagl agescha il medem. Tscherts disditgas èn nullas gia dad entschatta ennà, per exempel senza formular uffizial, senza consegna separada a tuts dus conjugals u partenaris registrads en l'abitaziun da la famiglia, u pervi da tschains da locaziun avert, schebain che absolutamain nagut n'era avert. Ina tala disditga na stuess Vus betg contestar entaifer 30 dis. Sche la disditga percunter è formalmain en urden e Vus la tegnis mo per nungiusta u abusiva, stuais Vus contestar entaifer 30 dis, era sche l'abus è evident. Pli tard na pudais Vus betg pli far valair quai, betg era sche il locatur pretenda Vossa expulsiun. Perquai che la delimitaziun è difficila, inoltrai en cas da dubi adina entaifer il termin."
       },
       "sources": [
         "bge-121-iii-156",
@@ -484,7 +529,8 @@
         "de": "Hat der Vermieter eine zu kurze Kündigungsfrist oder einen falschen Termin gewählt, ist die Kündigung deshalb nicht ungültig. Sie gilt einfach für den nächsten zulässigen Termin. Welche Fristen und Termine gelten, steht in Ihrem Mietvertrag oder, wenn dieser nichts regelt, im Gesetz.",
         "fr": "Si le bailleur a choisi un délai de congé trop court ou un terme erroné, le congé n'est pas invalide pour autant. Il vaut simplement pour le prochain terme admissible. Les délais et termes applicables figurent dans votre bail ou, si celui-ci ne règle rien, dans la loi.",
         "it": "Se il locatore ha scelto un termine di preavviso troppo breve o una scadenza sbagliata, la disdetta non è per questo invalida. Essa vale semplicemente per la prossima scadenza ammissibile. Quali termini e scadenze valgono risulta dal Suo contratto di locazione o, se questo non prevede nulla, dalla legge.",
-        "en": "If the landlord chose too short a notice period or the wrong termination date, the notice is not invalid for that reason. It simply takes effect on the next permissible termination date. Which notice periods and termination dates apply is set out in your lease or, if the lease says nothing about it, in the law."
+        "en": "If the landlord chose too short a notice period or the wrong termination date, the notice is not invalid for that reason. It simply takes effect on the next permissible termination date. Which notice periods and termination dates apply is set out in your lease or, if the lease says nothing about it, in the law.",
+        "rm": "Sche il locatur ha tschernì in temp da disditga memia curt u in termin fallà, n'è la disditga betg nunvalida pervi da quai. Ella vala simplamain per il proxim termin admissibel. Tge temps da disditga e termins che valan, sta en Voss contract da locaziun u, sche quel na regla nagut, en la lescha."
       },
       "sources": [
         "or-266a"
@@ -503,7 +549,8 @@
         "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
         "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
         "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se Lei incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
-        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid."
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid.",
+        "rm": "La procedura da mediaziun en fatgs da locaziun è gratuita: i na vegnan drizzads nagins custs giudizials. Igl na dat dentant er nagina indemnisaziun per custs d'advocat. Sche Vus consultais in'advocata u in advocat, purtais Vus quests custs en questa procedura per regla Vus sez. Sche suonda pli tard ina procedura giudiziala, pon resultar custs giudizials ed in'indemnisaziun a la cuntrapart. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zpo-113",
@@ -523,7 +570,8 @@
         "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, kann die Behörde einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als angenommen. Macht die Behörde keinen Vorschlag, erhalten Sie eine Klagebewilligung; auch dann beträgt die Frist für die Klage 30 Tage. Diese Fristen sind kurz. Lassen Sie sich spätestens jetzt beraten.",
         "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, l'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si l'autorité ne fait pas de proposition, vous recevez une autorisation de procéder ; là aussi, le délai pour agir en justice est de 30 jours. Ces délais sont courts. Faites-vous conseiller au plus tard à ce stade.",
         "it": "Se all'udienza di conciliazione non si trova un accordo, l'autorità può sottoporre alle parti una proposta di decisione. Essa diventa vincolante se nessuno la rifiuta entro 20 giorni dalla comunicazione scritta. Chi la rifiuta riceve l'autorizzazione ad agire e deve promuovere causa al tribunale entro 30 giorni, altrimenti la proposta è considerata accettata. Se l'autorità non fa alcuna proposta, Lei riceve l'autorizzazione ad agire; anche in questo caso il termine per la causa è di 30 giorni. Questi termini sono brevi. Si faccia consigliare al più tardi a questo punto.",
-        "en": "If you do not reach agreement at the conciliation hearing, the authority may submit a proposed judgment (Urteilsvorschlag / proposition de décision) to the parties. It becomes binding if no one rejects it within 20 days of written notification. Anyone who rejects it receives an authorisation to proceed (Klagebewilligung / autorisation de procéder) and must bring an action in court within 30 days, otherwise the proposal is deemed accepted. If the authority does not make a proposal, you receive an authorisation to proceed; here too, the deadline for the action is 30 days. These deadlines are short. Get advice at the latest at this point."
+        "en": "If you do not reach agreement at the conciliation hearing, the authority may submit a proposed judgment (Urteilsvorschlag / proposition de décision) to the parties. It becomes binding if no one rejects it within 20 days of written notification. Anyone who rejects it receives an authorisation to proceed (Klagebewilligung / autorisation de procéder) and must bring an action in court within 30 days, otherwise the proposal is deemed accepted. If the authority does not make a proposal, you receive an authorisation to proceed; here too, the deadline for the action is 30 days. These deadlines are short. Get advice at the latest at this point.",
+        "rm": "Sche Vus na chattais betg in'entesa a l'udienza da mediaziun, po l'autoritad far ina proposta da sentenzia (Urteilsvorschlag). Ella daventa obligatorica, sche nagin na la refusa entaifer 20 dis suenter la communicaziun per scrit. Tgi che refusa survegn la permissiun da plant (Klagebewilligung) e sto plantar en dretgira entaifer 30 dis, autramain vala la proposta sco acceptada. Sche l'autoritad na fa nagina proposta, survegnis Vus la permissiun da plant; er lura munta il termin per plantar 30 dis. Quests termins èn curts. Laschai Vus consultar il pli tard ussa."
       },
       "sources": [
         "zpo-211",
@@ -548,7 +596,8 @@
         "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Der Vermieter muss nicht innert Ihrer Frist antworten. Reichen Sie Ihr Gesuch deshalb innert der 30 Tage ein, ohne auf die Antwort zu warten. Bewahren Sie die Antwort gut auf: Nennt der Vermieter keinen Grund oder später einen anderen, kann das im Verfahren für Sie sprechen.",
         "fr": "Vous pouvez exiger que le bailleur motive le congé. Demandez-le par écrit. Le bailleur n'est pas tenu de répondre dans votre délai. Déposez donc votre requête dans les 30 jours sans attendre sa réponse. Conservez bien la réponse : si le bailleur n'indique aucun motif ou en indique un autre par la suite, cela peut jouer en votre faveur dans la procédure.",
         "it": "Può esigere che il locatore motivi la disdetta. Lo chieda per scritto. Il locatore non deve rispondere entro il Suo termine. Presenti quindi la Sua istanza entro i 30 giorni, senza aspettare la risposta. Conservi bene la risposta: se il locatore non indica alcun motivo, o in seguito ne indica uno diverso, questo può giocare a Suo favore nella procedura.",
-        "en": "You can ask the landlord to give reasons for the notice of termination. Ask in writing. The landlord does not have to answer within your deadline. File your application within the 30 days regardless, without waiting for the answer. Keep the answer safe: if the landlord gives no reason, or later gives a different one, this can work in your favour in the proceedings."
+        "en": "You can ask the landlord to give reasons for the notice of termination. Ask in writing. The landlord does not have to answer within your deadline. File your application within the 30 days regardless, without waiting for the answer. Keep the answer safe: if the landlord gives no reason, or later gives a different one, this can work in your favour in the proceedings.",
+        "rm": "Vus pudais pretender che il locatur motivescha la disditga. Dumandai per scrit. Il locatur na sto betg respunder entaifer Voss termin. Inoltrai perquai Vossa dumonda entaifer ils 30 dis, senza spetgar la resposta. Conservai bain la resposta: sche il locatur na numna nagin motiv u pli tard in auter, po quai parlar per Vus en la procedura."
       },
       "sources": [
         "or-271",
@@ -573,7 +622,8 @@
         "de": "Der Vermieter darf eine unbefristete Miete grundsätzlich auch ohne besonderen Grund kündigen, zum Beispiel weil er die Wohnung selbst nutzen, umbauen oder anders vermieten will. Anfechtbar ist eine Kündigung, wenn sie gegen Treu und Glauben verstösst, etwa weil der genannte Grund nur vorgeschoben ist oder kein schützenswertes Interesse dahintersteht. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis. Eine Kündigung wegen Umbau oder Sanierung kann missbräuchlich sein, wenn das Projekt bei der Kündigung noch nicht genügend ausgearbeitet war oder offensichtlich nicht bewilligt werden kann. Dass der Auszug für Sie schwer ist, macht die Kündigung allein nicht missbräuchlich; das zählt bei der Erstreckung. Den Missbrauch müssen Sie beweisen. Der Vermieter muss aber seinen Grund darlegen und belegen.",
         "fr": "Le bailleur peut en principe résilier un bail de durée indéterminée même sans motif particulier, par exemple parce qu'il veut utiliser lui-même le logement, le transformer ou le relouer autrement. Un congé est contestable lorsqu'il contrevient aux règles de la bonne foi, par exemple parce que le motif invoqué n'est qu'un prétexte ou qu'aucun intérêt digne de protection ne le sous-tend. La loi donne des exemples : lorsque le bailleur résilie parce que vous avez fait valoir de bonne foi des prétentions découlant du bail ; parce qu'il veut imposer une majoration de loyer ou une autre modification du contrat à vos dépens ; parce que votre situation familiale a changé, sans que cela lui cause d'inconvénients majeurs ; ou pendant une procédure de conciliation ou judiciaire avec vous au sujet du bail. Un congé motivé par des travaux ou une rénovation peut être abusif si le projet n'était pas encore suffisamment élaboré au moment du congé ou s'il ne peut manifestement pas être autorisé. Le fait que le départ soit difficile pour vous ne rend pas à lui seul le congé abusif ; cela compte pour la prolongation. C'est à vous de prouver l'abus. Mais le bailleur doit exposer et étayer son motif.",
         "it": "Il locatore può di regola disdire una locazione a tempo indeterminato anche senza un motivo particolare, per esempio perché vuole usare personalmente l'appartamento, ristrutturarlo o locarlo diversamente. La disdetta è contestabile se è contraria alle regole della buona fede, per esempio perché il motivo indicato è solo un pretesto o non vi è dietro alcun interesse degno di protezione. La legge indica esempi: quando il locatore disdice perché Lei ha fatto valere in buona fede pretese derivanti dal contratto di locazione; perché vuole imporre un aumento della pigione o un'altra modifica del contratto a Suo svantaggio; perché la Sua situazione familiare è cambiata, senza che ne derivino svantaggi essenziali per lui; oppure durante un procedimento di conciliazione o giudiziario con Lei sulla locazione. Una disdetta per ristrutturazione o risanamento può essere abusiva se, al momento della disdetta, il progetto non era ancora sufficientemente elaborato o non può manifestamente essere autorizzato. Il fatto che il trasloco sia difficile per Lei non rende da solo abusiva la disdetta; questo conta per la protrazione. L'abuso deve provarlo Lei. Il locatore deve però esporre e comprovare il proprio motivo.",
-        "en": "As a rule, the landlord may terminate an open-ended lease even without a particular reason, for example because he wants to use the flat himself, convert it, or let it out differently. A notice of termination can be challenged if it contravenes the principle of good faith, for instance because the reason given is a mere pretext or there is no interest behind it worth protecting. The law gives examples: where the landlord gives notice because you have asserted rightful claims arising under the lease; because he wants to enforce a rent increase or another change to the contract to your detriment; because your family circumstances have changed, without this causing him significant disadvantage; or during conciliation or court proceedings between you concerning the lease. A notice of termination given because of conversion or renovation work can be abusive if the project was not yet sufficiently developed when notice was given, or clearly cannot obtain the necessary permit. The fact that moving out is hard for you does not by itself make the notice abusive; that is relevant when it comes to an extension of the lease. You must prove the abuse. However, the landlord must explain and substantiate his reason."
+        "en": "As a rule, the landlord may terminate an open-ended lease even without a particular reason, for example because he wants to use the flat himself, convert it, or let it out differently. A notice of termination can be challenged if it contravenes the principle of good faith, for instance because the reason given is a mere pretext or there is no interest behind it worth protecting. The law gives examples: where the landlord gives notice because you have asserted rightful claims arising under the lease; because he wants to enforce a rent increase or another change to the contract to your detriment; because your family circumstances have changed, without this causing him significant disadvantage; or during conciliation or court proceedings between you concerning the lease. A notice of termination given because of conversion or renovation work can be abusive if the project was not yet sufficiently developed when notice was given, or clearly cannot obtain the necessary permit. The fact that moving out is hard for you does not by itself make the notice abusive; that is relevant when it comes to an extension of the lease. You must prove the abuse. However, the landlord must explain and substantiate his reason.",
+        "rm": "Il locatur po per principi disdir era senza motiv spezial ina locaziun betg limitada, per exempel perquai ch'el vul duvrar l'abitaziun sez, transfurmar la u dar la en locaziun autramain. Contestabla è ina disditga, sche ella violescha la buna fai, per exempel perquai ch'il motiv indicà è mo pretendì u ch'i na sta nagin interess degn da protecziun davos. La lescha numna exempels: sche il locatur disda perquai che Vus avais fatg valair pretensiuns giustifitgadas dal contract da locaziun; perquai ch'el vul far valair in augment dal tschains da locaziun u ina autra midada dal contract a Voss donn; perquai che Vossa situaziun famigliara è midada, senza che quai al chaschuna dischavantatgs essenzials; u durant ina procedura da mediaziun u giudiziala cun Vus davart la locaziun. Ina disditga pervi da transfurmaziun u renovaziun po esser abusiva, sche il project n'era anc betg suffizientamain elavurà al mument da la disditga u sche el na po evidentamain betg vegnir approvà. Ch'il sortir saja greivant per Vus na fa betg la disditga abusiva be per quai; quai conta tar la prolungaziun. L'abus stuais Vus cumprovar. Il locatur sto dentant exponer e cumprovar ses motiv."
       },
       "sources": [
         "or-271",
@@ -600,7 +650,8 @@
         "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen. Ausgenommen sind Kündigungen wegen dringendem Eigenbedarf des Vermieters oder naher Verwandter, wegen Zahlungsrückstand, wegen schwerer Verletzung der Pflicht zu Sorgfalt und Rücksicht, nach einem Verkauf der Wohnung oder des Hauses, aus wichtigen Gründen und bei Konkurs des Mieters.",
         "fr": "Si vous avez mené, au cours des trois dernières années, une procédure de conciliation ou judiciaire avec le bailleur au sujet du bail, un congé donné pendant cette période est contestable si le bailleur y a succombé dans une large mesure, a retiré ou notablement réduit sa prétention, a renoncé à saisir le juge, ou s'est entendu avec vous. Cela vaut aussi pour un accord conclu sans procédure, si vous pouvez le prouver par des écrits. Cette protection ne s'applique pas à tous les congés. En sont exceptés les congés donnés pour besoin urgent du bailleur ou de ses proches parents, pour retard de paiement, pour violation grave du devoir de diligence et d'égards, après une vente du logement ou de l'immeuble, pour de justes motifs et en cas de faillite du locataire.",
         "it": "Se negli ultimi tre anni ha condotto con il locatore un procedimento di conciliazione o giudiziario sulla locazione, una disdetta data in questo periodo è contestabile se il locatore vi è risultato ampiamente soccombente, ha ritirato o sensibilmente ridotto la sua pretesa, ha rinunciato ad adire il giudice, oppure si è accordato con Lei. Questo vale anche per un accordo raggiunto senza procedimento, se può provarlo con documenti scritti. Questa protezione non vale per tutte le disdette. Ne sono escluse le disdette per bisogno personale urgente del locatore o di suoi stretti parenti o affini, per mora nel pagamento, per grave violazione dell'obbligo di diligenza e di riguardo, dopo una vendita dell'appartamento o della casa, per motivi gravi e in caso di fallimento del conduttore.",
-        "en": "If you have had conciliation or court proceedings with the landlord about the lease in the last three years, a notice of termination given during that time can be challenged if the landlord was largely unsuccessful in those proceedings, withdrew or considerably reduced his claim, declined to bring the matter before the court, or reached a settlement with you. This also applies to a settlement reached without proceedings, if you can prove it with documents. This protection does not apply to every notice of termination. Exceptions are notices given because of the landlord's or a close relative's urgent need to use the flat themselves, because of arrears, because of a serious breach of the duty of care and consideration, following a sale of the flat or house, for good cause, and where the tenant is bankrupt."
+        "en": "If you have had conciliation or court proceedings with the landlord about the lease in the last three years, a notice of termination given during that time can be challenged if the landlord was largely unsuccessful in those proceedings, withdrew or considerably reduced his claim, declined to bring the matter before the court, or reached a settlement with you. This also applies to a settlement reached without proceedings, if you can prove it with documents. This protection does not apply to every notice of termination. Exceptions are notices given because of the landlord's or a close relative's urgent need to use the flat themselves, because of arrears, because of a serious breach of the duty of care and consideration, following a sale of the flat or house, for good cause, and where the tenant is bankrupt.",
+        "rm": "Sche Vus avais manà ils davos trais onns cun il locatur ina procedura da mediaziun u giudiziala davart la locaziun, è ina disditga durant quest temp contestabla, sche il locatur ha perdì en gronda part, ha retratg u limità considerablamain sia pretensiun, ha renunzià dad ir en dretgira u sa ha arrangià cun Vus. Quai vala era per in'arranschadada senza procedura, sche Vus la pudais cumprovar cun documents. Questa protecziun na vala betg tar tut las disditgas. Exceptadas èn disditgas pervi d'urgent agen basegn dal locatur u da parents datiers, pervi da retard da pajament, pervi d'ina violaziun greva dal dever da diligenza e resguard, suenter ina vendita da l'abitaziun u da la chasa, per motivs impurtants e tar concurs dal locatari."
       },
       "sources": [
         "or-271a"
@@ -624,7 +675,8 @@
         "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Eine Härte liegt vor allem vor, wenn Sie in der verbleibenden Zeit keine zumutbare Ersatzwohnung finden können. Die Umstände, die jeder Umzug mit sich bringt, genügen allein nicht. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Eine zweite Erstreckung müssen Sie spätestens 60 Tage vor Ablauf der ersten verlangen. Bietet Ihnen der Vermieter verbindlich eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen. Während der Erstreckung dürfen Sie früher ausziehen: bei einer Erstreckung bis zu einem Jahr mit einem Monat Frist auf Ende eines Monats, sonst mit drei Monaten auf einen gesetzlichen Termin, wenn nichts anderes festgelegt wurde.",
         "fr": "Même si le congé est valable, vous pouvez demander une prolongation du bail si le départ représente pour vous ou votre famille une rigueur que les intérêts du bailleur ne justifient pas. Une telle rigueur existe surtout lorsque vous ne pouvez pas trouver de logement de remplacement acceptable dans le temps restant. Les inconvénients que comporte tout déménagement ne suffisent pas à eux seuls. L'autorité pèse notamment la durée pendant laquelle vous habitez déjà le logement, votre situation personnelle, familiale et financière, un éventuel besoin propre du bailleur et la situation du marché local du logement. Pour un logement, une prolongation de quatre ans au maximum est possible au total, en une ou deux étapes. Une deuxième prolongation doit être demandée au moins 60 jours avant que la première prenne fin. Si le bailleur vous propose fermement un autre logement équivalent, une prolongation est en règle générale exclue. Pendant la prolongation, vous pouvez déménager plus tôt : pour une prolongation allant jusqu'à un an, avec un délai d'un mois pour la fin d'un mois, sinon avec trois mois pour un terme légal, sauf accord contraire.",
         "it": "Anche se la disdetta è valida, Lei può chiedere una protrazione della locazione se il trasloco rappresenta per Lei o per la Sua famiglia un effetto gravoso che gli interessi del locatore non giustificano. Un effetto gravoso sussiste soprattutto quando, nel tempo restante, Lei non può trovare un'abitazione sostitutiva ragionevolmente esigibile. Le circostanze che ogni trasloco comporta non bastano da sole. L'autorità pondera tra l'altro da quanto tempo abita nell'appartamento, la Sua situazione personale, familiare ed economica, un eventuale bisogno personale del locatore e la situazione sul mercato locale degli alloggi. Per gli appartamenti è possibile una protrazione complessiva di al massimo quattro anni, in una o due tappe. Una seconda protrazione deve chiederla almeno 60 giorni prima che termini la prima. Se il locatore Le offre in modo vincolante un altro appartamento equivalente, una protrazione è di regola esclusa. Durante la protrazione Lei può traslocare prima: con una protrazione fino a un anno, con un mese di preavviso per la fine di un mese; altrimenti con tre mesi di preavviso per una scadenza legale, salvo diversa pattuizione.",
-        "en": "Even if the notice of termination is valid, you can request an extension of the lease if moving out would cause you or your family hardship that the landlord's interests do not justify. Hardship exists above all if you cannot find a reasonable replacement flat in the time remaining. The circumstances that any move brings with it are not enough on their own. Among other things, the authority weighs up how long you have already lived in the flat, your personal, family and financial situation, any need the landlord may have to use the flat himself, and the situation on the local housing market. For flats, an extension of up to four years in total is possible, granted in one or two steps. You must request a second extension no later than 60 days before the first one expires. If the landlord makes you a binding offer of an equivalent flat, an extension is generally excluded. During the extension you may move out earlier: for an extension of up to one year, with one month's notice to the end of a month; otherwise with three months' notice to a statutory termination date, unless something else has been agreed."
+        "en": "Even if the notice of termination is valid, you can request an extension of the lease if moving out would cause you or your family hardship that the landlord's interests do not justify. Hardship exists above all if you cannot find a reasonable replacement flat in the time remaining. The circumstances that any move brings with it are not enough on their own. Among other things, the authority weighs up how long you have already lived in the flat, your personal, family and financial situation, any need the landlord may have to use the flat himself, and the situation on the local housing market. For flats, an extension of up to four years in total is possible, granted in one or two steps. You must request a second extension no later than 60 days before the first one expires. If the landlord makes you a binding offer of an equivalent flat, an extension is generally excluded. During the extension you may move out earlier: for an extension of up to one year, with one month's notice to the end of a month; otherwise with three months' notice to a statutory termination date, unless something else has been agreed.",
+        "rm": "Era sche la disditga è valida, pudais Vus pretender ina prolungaziun da la locaziun, sche il sortir signifitgass per Vus u Vossa famiglia ina greivezza che ils interess dal locatur na giustifitgeschan betg. Ina greivezza exista avant tut, sche Vus na pudais betg chattar en il temp restant in'abitaziun da remplazzament raschunaivla. Las circumstanzas che mintga demenagiada porta cun sai na bastan betg suletas. L'autoritad resguarda denter auter quant ditg Vus vivais gia en l'abitaziun, Vossa situaziun persunala, famigliara e finanziala, in eventual agen basegn dal locatur e la situaziun sin il martgà d'abitaziuns local. Per abitaziuns è pussibla ina prolungaziun da total maximalmain quatter onns, en in u dus pass. Ina segunda prolungaziun stuais Vus pretender il pli tard 60 dis avant la scadenza da la emprima. Sche il locatur Vus offra obligatoricamain in'autra abitaziun equivalenta, è ina prolungaziun per regla exclusa. Durant la prolungaziun dastgais Vus sortir pli baud: tar ina prolungaziun enfin in onn cun in mais da termin per la fin d'in mais, autramain cun trais mais per in termin legal, sche nagut auter n'è vegnì fixà."
       },
       "sources": [
         "or-272",
@@ -652,7 +704,8 @@
         "de": "Suchen Sie trotzdem schon jetzt eine neue Wohnung und bewahren Sie Belege Ihrer Suche auf, etwa Bewerbungen und Absagen. Verlangen Sie später eine zweite Erstreckung, prüft die Behörde, ob Sie alles Zumutbare unternommen haben, um eine Lösung zu finden.",
         "fr": "Cherchez tout de même dès maintenant un nouveau logement et conservez les preuves de vos recherches, par exemple vos candidatures et les refus reçus. Si vous demandez plus tard une deuxième prolongation, l'autorité vérifiera si vous avez entrepris tout ce qui pouvait raisonnablement être exigé de vous pour trouver une solution.",
         "it": "Cerchi comunque già ora un nuovo appartamento e conservi le prove delle Sue ricerche, per esempio le candidature e i rifiuti ricevuti. Se in seguito chiede una seconda protrazione, l'autorità verifica se ha intrapreso tutto ciò che si poteva ragionevolmente pretendere da Lei per trovare una soluzione.",
-        "en": "Even so, start looking for a new flat now and keep evidence of your search, such as applications and rejections. If you later request a second extension, the authority checks whether you have done everything that could reasonably be expected of you to find a solution."
+        "en": "Even so, start looking for a new flat now and keep evidence of your search, such as applications and rejections. If you later request a second extension, the authority checks whether you have done everything that could reasonably be expected of you to find a solution.",
+        "rm": "Tschertgai tuttina gia ussa in'autra abitaziun e conservai attestaziuns da Vossa tschertga, per exempel annunzias e refusas. Sche Vus pretendais pli tard ina segunda prolungaziun, examinescha l'autoritad sche Vus avais interprais tut quai che sto resguardablamain vegnir pretendì per chattar ina soluziun."
       },
       "sources": [
         "or-272"
@@ -680,7 +733,8 @@
         "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Bei einer Familienwohnung ist sie nur gültig, wenn beide Ehe- oder eingetragenen Partner sie abschliessen. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein.",
         "fr": "Si vous avez surtout besoin de plus de temps, vous pouvez aussi convenir directement de la prolongation avec le bailleur. Un tel accord n'est pas lié à la durée maximale légale. Faites-le par écrit et signé. Pour un logement de la famille, il n'est valable que si les deux époux ou partenaires enregistrés le concluent. Tant qu'aucun accord signé n'existe, déposez tout de même votre requête dans le délai, par précaution.",
         "it": "Se Le serve soprattutto più tempo, può anche concordare la protrazione direttamente con il locatore. Un simile accordo non è vincolato alla durata massima legale. Lo metta per scritto e lo faccia firmare. Per l'abitazione familiare, l'accordo è valido solo se lo concludono entrambi i coniugi o partner registrati. Finché non esiste un accordo firmato, presenti comunque la Sua istanza entro il termine, a titolo cautelativo.",
-        "en": "If what you mainly need is more time, you can also agree the extension directly with the landlord. Such an agreement is not bound by the statutory maximum duration. Put it in writing and have it signed. For a family residence, it is only valid if both spouses or registered partners conclude it. As long as there is no signed agreement, file your application within the deadline anyway, as a precaution."
+        "en": "If what you mainly need is more time, you can also agree the extension directly with the landlord. Such an agreement is not bound by the statutory maximum duration. Put it in writing and have it signed. For a family residence, it is only valid if both spouses or registered partners conclude it. As long as there is no signed agreement, file your application within the deadline anyway, as a precaution.",
+        "rm": "Sche Vus basegnais avant tut pli temp, pudais Vus vegnir d'accord davart la prolungaziun era directamain cun il locatur. Ina tala cunvegna n'è betg liada a la durada maximala legala. Fixai la per scrit e suttascritta. Tar in'abitaziun da la famiglia è ella valida mo, sche tuts dus conjugals u partenaris registrads la conclúdan. Uschè ditg che nagina cunvegna suttascritta n'exista, inoltrai Vossa dumonda per precauziun tuttina entaifer il termin."
       },
       "sources": [
         "or-272b",
@@ -699,7 +753,8 @@
         "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen, und der Vermieter kann Ihre Ausweisung in einem raschen Gerichtsverfahren verlangen, auch wenn Ihre Anfechtung noch läuft. Prüfen Sie: Hat der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht? Ging diese Mahnung bei einer Familienwohnung an beide Partner je separat? Kam die Kündigung erst nach Ablauf dieser Zahlungsfrist, auf dem amtlichen Formular und mit mindestens 30 Tagen auf Ende eines Monats? Waren die Beträge wirklich geschuldet? Mietzins, den Sie wegen eines Mangels korrekt bei der vom Kanton bezeichneten Stelle hinterlegt haben, gilt als bezahlt. Wer dagegen Mietzins einfach zurückbehält oder innert der Zahlungsfrist nur einen Teil bezahlt, riskiert eine gültige Kündigung. Fehlt eine Voraussetzung, kann die Kündigung unwirksam sein. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein.",
         "fr": "En cas de congé pour loyers impayés, des règles plus strictes s'appliquent : une prolongation est exclue, et le bailleur peut demander votre expulsion dans une procédure judiciaire rapide, même si votre contestation est encore pendante. Vérifiez : le bailleur vous a-t-il fixé au préalable, par écrit, un délai de paiement d'au moins 30 jours en menaçant de résilier ? Cette mise en demeure a-t-elle été adressée séparément à chacun des deux partenaires, pour un logement de la famille ? Le congé n'est-il arrivé qu'après l'échéance de ce délai de paiement, sur la formule officielle et avec un délai d'au moins 30 jours, fixé à la fin d'un mois ? Les montants étaient-ils réellement dus ? Le loyer que vous avez correctement consigné auprès de l'office désigné par le canton en raison d'un défaut est réputé payé. En revanche, qui retient simplement le loyer ou n'en paie qu'une partie dans le délai de paiement risque un congé valable. Si une condition fait défaut, le congé peut être sans effet. Faites-vous conseiller immédiatement. Déposez tout de même une éventuelle requête dans les 30 jours.",
         "it": "Per una disdetta per pigione arretrata valgono regole più severe: una protrazione è esclusa, e il locatore può chiedere il Suo sfratto in una procedura giudiziaria rapida, anche se la Sua contestazione è ancora pendente. Verifichi: il locatore Le ha prima fissato per scritto un termine di pagamento di almeno 30 giorni e minacciato la disdetta? Per un'abitazione familiare, questa diffida è stata inviata separatamente a entrambi i partner? La disdetta è arrivata solo dopo la scadenza di questo termine di pagamento, sul modulo ufficiale e con almeno 30 giorni per la fine di un mese? Gli importi erano davvero dovuti? La pigione che Lei ha correttamente depositato presso l'ufficio designato dal Cantone a causa di un difetto è considerata pagata. Chi invece trattiene semplicemente la pigione o ne paga solo una parte entro il termine di pagamento rischia una disdetta valida. Se manca un presupposto, la disdetta può essere inefficace. Si faccia consigliare immediatamente. Presenti comunque un'eventuale istanza entro 30 giorni.",
-        "en": "Stricter rules apply to a notice of termination for unpaid rent: an extension is excluded, and the landlord can seek your eviction in a fast-track court procedure, even while your challenge is still pending. Check the following: did the landlord first give you a written deadline of at least 30 days to pay and threaten termination? For a family residence, was this reminder sent to both partners separately? Did the notice of termination come only after this payment deadline expired, on the official form, and with at least 30 days' notice to the end of a month? Were the amounts actually owed? Rent that you correctly deposited with the office designated by the canton because of a defect counts as paid. On the other hand, anyone who simply withholds rent, or pays only part of it within the payment deadline, risks a valid notice of termination. If one of these requirements is missing, the notice of termination may be ineffective. Get advice immediately. File any application within 30 days regardless."
+        "en": "Stricter rules apply to a notice of termination for unpaid rent: an extension is excluded, and the landlord can seek your eviction in a fast-track court procedure, even while your challenge is still pending. Check the following: did the landlord first give you a written deadline of at least 30 days to pay and threaten termination? For a family residence, was this reminder sent to both partners separately? Did the notice of termination come only after this payment deadline expired, on the official form, and with at least 30 days' notice to the end of a month? Were the amounts actually owed? Rent that you correctly deposited with the office designated by the canton because of a defect counts as paid. On the other hand, anyone who simply withholds rent, or pays only part of it within the payment deadline, risks a valid notice of termination. If one of these requirements is missing, the notice of termination may be ineffective. Get advice immediately. File any application within 30 days regardless.",
+        "rm": "Tar ina disditga pervi da tschains da locaziun avert valan reglas pli severas: ina prolungaziun è exclusa, e il locatur po pretender Vossa expulsiun en ina procedura giudiziala accelerada, era sche Vossa contestaziun è anc pendenta. Examinai: ha il locatur Vus fixà ordavant per scrit in termin da pajament d'almain 30 dis e smanatschà la disditga? È questa smanatscha, tar in'abitaziun da la famiglia, ida a tuts dus partenaris mintgin separadamain? È la disditga arrivada mo suenter la scadenza da quest termin da pajament, sin il formular uffizial e cun almain 30 dis per la fin d'in mais? Eran ils imports propi debids? Tschains da locaziun che Vus avais deposità correctamain, pervi d'in defect, tar il post designà dal chantun vala sco pajà. Tgi che percunter retegna simplamain il tschains da locaziun u paja entaifer il termin da pajament mo ina part, riscla ina disditga valida. Sche manca ina premissa, po la disditga esser senza effect. Laschai Vus consultar immediat. Inoltrai in'eventuala dumonda tuttina entaifer 30 dis."
       },
       "sources": [
         "or-257d",
@@ -717,7 +772,8 @@
         "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft.",
         "fr": "Demandez une consultation personnelle si une procédure judiciaire ou une requête d'expulsion du bailleur est déjà en cours, si vous avez reçu une proposition de décision ou une autorisation de procéder, si le congé a été donné pour loyers impayés, s'il s'agit de locaux commerciaux, ou si le délai expire dans quelques jours.",
         "it": "Chieda una consulenza personale se è già in corso un procedimento giudiziario o una domanda di sfratto del locatore, se ha ricevuto una proposta di decisione o un'autorizzazione ad agire, se la disdetta è stata data per pigione arretrata, se si tratta di locali commerciali, oppure se il termine scade tra pochi giorni.",
-        "en": "Get personal advice if court proceedings or an eviction application by the landlord are already under way, if you have received a proposed judgment or an authorisation to proceed, if notice was given because of unpaid rent, if commercial premises are involved, or if the deadline expires in a few days."
+        "en": "Get personal advice if court proceedings or an eviction application by the landlord are already under way, if you have received a proposed judgment or an authorisation to proceed, if notice was given because of unpaid rent, if commercial premises are involved, or if the deadline expires in a few days.",
+        "rm": "Tschertgai consulaziun persunala, sche gia è pendenta ina procedura giudiziala u ina dumonda d'expulsiun dal locatur, sche Vus avais retschavì ina proposta da sentenzia u ina permissiun da plant, sche la disditga è vegnida data pervi da tschains da locaziun avert, sch'i sa tracta da locals commerzials, u sche il termin scada entaifer paucs dis."
       }
     },
     {
@@ -727,7 +783,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members. Many cantons and bar associations offer free legal information."
+        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members. Many cantons and bar associations offer free legal information.",
+        "rm": "Agid gratuit u favuraivel: l'autoritad da mediaziun per fatgs da locaziun infurmescha davart la procedura. Associaziuns da locataris consultan lur commembers. Blers chantuns ed associaziuns d'advocats offran ina infurmaziun giuridica gratuita."
       }
     }
   ],
@@ -986,7 +1043,8 @@
         "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht",
         "fr": "Office fédéral du logement : procédure de conciliation en droit du bail",
         "it": "Ufficio federale delle abitazioni: procedura di conciliazione nel diritto di locazione",
-        "en": "Federal Office for Housing: Conciliation proceedings in tenancy law"
+        "en": "Federal Office for Housing: Conciliation proceedings in tenancy law",
+        "rm": "Uffizi federal d'abitaziuns (UFAB): Procedura da mediaziun en il dretg da locaziun"
       },
       "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
     },
@@ -995,7 +1053,8 @@
         "de": "ch.ch: Mietvertrag und Pachtvertrag",
         "fr": "ch.ch : contrat de bail à loyer et à ferme",
         "it": "ch.ch: Contratto di locazione e di affitto",
-        "en": "ch.ch: Tenancy and lease agreements"
+        "en": "ch.ch: Tenancy and lease agreements",
+        "rm": "ch.ch: Contract da locaziun e contract d'affitg"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
     }

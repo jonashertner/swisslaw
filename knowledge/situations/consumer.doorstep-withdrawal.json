@@ -9,13 +9,15 @@
     "de": "Kann ich einen Vertrag an der Haustür oder am Telefon widerrufen?",
     "fr": "Puis-je révoquer un contrat conclu à domicile ou par téléphone ?",
     "it": "Posso revocare un contratto concluso alla porta di casa o per telefono?",
-    "en": "Can I revoke a contract made at my door or over the phone?"
+    "en": "Can I revoke a contract made at my door or over the phone?",
+    "rm": "Poss jau revocar in contract a la porta da chasa u per telefon?"
   },
   "summary": {
     "de": "Für Verträge, die Ihnen an der Haustür, unterwegs, an einer Ausflugs-Werbeveranstaltung oder am Telefon aufgedrängt wurden, gibt es ein 14-tägiges Widerrufsrecht. Für gewöhnliche Online-Käufe gibt es dieses Recht nicht.",
     "fr": "Pour les contrats qui vous ont été imposés à votre domicile, en déplacement, lors d’une manifestation publicitaire avec excursion, ou par téléphone, il existe un droit de révocation de 14 jours. Pour les achats en ligne ordinaires, ce droit n’existe pas.",
     "it": "Per i contratti che le sono stati proposti con insistenza alla porta di casa, in viaggio, durante una manifestazione pubblicitaria con gita, o per telefono, esiste un diritto di revoca di 14 giorni. Per i normali acquisti online questo diritto non esiste.",
-    "en": "For contracts pushed on you at your door, while out and about, at a promotional excursion event, or over the phone, there is a 14-day right of revocation. This right does not apply to ordinary online purchases."
+    "en": "For contracts pushed on you at your door, while out and about, at a promotional excursion event, or over the phone, there is a 14-day right of revocation. This right does not apply to ordinary online purchases.",
+    "rm": "Per contracts che Vus è vegnì impundì a la porta da chasa, sut via, ad in arrangiament da promoziun cun gita u per telefon, exista in dretg da revocaziun da 14 dis. Per cumpras usitadas online n'exista quest dretg betg."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "Does the right of revocation also apply to online orders?",
       "I signed up for something over the phone, can I get out of it?",
       "A salesperson came to my home and I signed something, can I back out?"
+    ],
+    "rm": [
+      "Poss jau revocar in contract a la porta da chasa?",
+      "Jau hai fatg in abunament per telefon, poss jau annullar el?",
+      "Quants dis hai jau temp per ina revocaziun?",
+      "Vala il dretg da revocaziun era per ordinaziuns online?",
+      "Jau hai fatg insatge per telefon, poss jau revocar quai?",
+      "In vendider è vegnì tar mai a chasa e jau hai suttascrit, poss jau retrair?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Verträge über bewegliche Sachen oder Dienstleistungen für Ihren persönlichen oder familiären Gebrauch, die Ihnen an der Haustür, am Arbeitsplatz, unterwegs, an einer Ausflugs-Werbeveranstaltung oder am Telefon angeboten wurden, wenn Ihre Zahlung mehr als 100 Franken beträgt.",
       "fr": "Les contrats portant sur des choses mobilières ou des services destinés à votre usage personnel ou familial, qui vous ont été proposés à votre domicile, sur votre lieu de travail, en déplacement, lors d’une manifestation publicitaire avec excursion, ou par téléphone, lorsque votre paiement dépasse 100 francs.",
       "it": "I contratti su cose mobili o servizi per il suo uso personale o familiare, che le sono stati offerti alla porta di casa, sul posto di lavoro, in viaggio, durante una manifestazione pubblicitaria con gita, o per telefono, se il suo pagamento supera i 100 franchi.",
-      "en": "Contracts for movable items or services for your personal or family use that were offered to you at your door, at your workplace, while out and about, at a promotional excursion event, or over the phone, where your payment is more than 100 francs."
+      "en": "Contracts for movable items or services for your personal or family use that were offered to you at your door, at your workplace, while out and about, at a promotional excursion event, or over the phone, where your payment is more than 100 francs.",
+      "rm": "Contracts davart chaussas moviblas u prestaziuns per Voss utilisaziun persunala u familiara, che Vus èn vegnids porschids a la porta da chasa, a Voss lieu da lavur, sut via, ad in arrangiament da promoziun cun gita, u per telefon, sche Voss pajament importa dapli che 100 francs."
     },
     "excludes": {
       "de": "Online-Käufe, telefonische Bestellungen, die Sie selbst ausgelöst haben, Käufe an Markt- und Messeständen, Finanzdienstleistungsverträge von Banken und Finanzinstituten sowie Versicherungsverträge.",
       "fr": "Les achats en ligne, les commandes par téléphone que vous avez vous-même initiées, les achats effectués sur un marché ou un stand de foire, les contrats de services financiers de banques et d’établissements financiers, ainsi que les contrats d’assurance.",
       "it": "Gli acquisti online, gli ordini telefonici avviati personalmente da lei, gli acquisti presso bancarelle di mercati e fiere, i contratti di servizi finanziari di banche e istituti finanziari, nonché i contratti di assicurazione.",
-      "en": "Online purchases, telephone orders that you initiated yourself, purchases at market and trade-fair stands, financial services contracts with banks and financial institutions, and insurance contracts."
+      "en": "Online purchases, telephone orders that you initiated yourself, purchases at market and trade-fair stands, financial services contracts with banks and financial institutions, and insurance contracts.",
+      "rm": "Cumpras online, ordinaziuns per telefon che Vus avais lantschà sez, cumpras a stogls da martgà e da fieras, contracts da servetschs finanzials da bancas ed instituts finanzials sco er contracts d'assicuranza."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "Wo oder wie wurde Ihnen das Angebot gemacht?",
         "fr": "Où ou comment l’offre vous a-t-elle été faite ?",
         "it": "Dove o come le è stata fatta l'offerta?",
-        "en": "Where or how was the offer made to you?"
+        "en": "Where or how was the offer made to you?",
+        "rm": "Nua u co Vus è vegnida fatga l'offerta?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "An meiner Haustür, zu Hause oder an meinem Arbeitsplatz",
             "fr": "À mon domicile, chez moi ou sur mon lieu de travail",
             "it": "Alla porta di casa mia, a casa o sul mio posto di lavoro",
-            "en": "At my door, at home, or at my workplace"
+            "en": "At my door, at home, or at my workplace",
+            "rm": "A mia porta da chasa, a chasa u a mes lieu da lavur"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "In einem öffentlichen Verkehrsmittel oder auf der Strasse",
             "fr": "Dans un moyen de transport public ou dans la rue",
             "it": "In un mezzo di trasporto pubblico o per strada",
-            "en": "On public transport or in the street"
+            "en": "On public transport or in the street",
+            "rm": "En in meds da transport public u sin via"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "An einer Werbeveranstaltung mit einer Ausflugsfahrt",
             "fr": "Lors d’une manifestation publicitaire avec une excursion",
             "it": "A una manifestazione pubblicitaria con una gita",
-            "en": "At a promotional event involving an excursion"
+            "en": "At a promotional event involving an excursion",
+            "rm": "Ad in arrangiament da promoziun cun ina gita"
           }
         },
         {
@@ -108,7 +124,8 @@
             "de": "Am Telefon, weil ich angerufen wurde",
             "fr": "Par téléphone, parce que j’ai reçu un appel",
             "it": "Per telefono, perché mi hanno chiamato",
-            "en": "On the phone, because I was called"
+            "en": "On the phone, because I was called",
+            "rm": "Per telefon, perquai ch'jau sun vegnì/vegnida clamà/clamada"
           }
         },
         {
@@ -117,7 +134,8 @@
             "de": "Online, per E-Mail, im Laden oder ich habe selbst angerufen",
             "fr": "En ligne, par e-mail, en magasin, ou j’ai moi-même appelé",
             "it": "Online, via e-mail, in negozio, oppure la chiamata l'ho fatta io",
-            "en": "Online, by email, in a shop, or I called myself"
+            "en": "Online, by email, in a shop, or I called myself",
+            "rm": "Online, per e-mail, en il magazin u jau hai clamà sez"
           }
         },
         {
@@ -126,7 +144,8 @@
             "de": "Ich bin nicht sicher",
             "fr": "Je n’en ai pas la certitude",
             "it": "Non lo so con sicurezza",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -137,7 +156,8 @@
         "de": "Fand das Gespräch an einem Markt- oder Messestand statt, oder haben Sie das Verkaufsgespräch selbst ausdrücklich gewünscht?",
         "fr": "La discussion a-t-elle eu lieu sur un marché ou un stand de foire, ou avez-vous vous-même expressément souhaité cet entretien de vente ?",
         "it": "La conversazione ha avuto luogo presso una bancarella di mercato o di fiera, oppure il colloquio di vendita è stato espressamente richiesto da lei?",
-        "en": "Did the conversation take place at a market or trade-fair stand, or did you expressly ask for the sales conversation yourself?"
+        "en": "Did the conversation take place at a market or trade-fair stand, or did you expressly ask for the sales conversation yourself?",
+        "rm": "Ha la discussiun gì lieu a in stogl da martgà u da fiera, u avais Vus giavischà explicitamain sez la discussiun da vendita?"
       },
       "options": [
         {
@@ -146,7 +166,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -155,7 +176,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -164,7 +186,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -175,7 +198,8 @@
         "de": "Wie hoch ist der Betrag, den Sie laut Vertrag zahlen sollen?",
         "fr": "Quel est le montant que vous devez payer selon le contrat ?",
         "it": "A quanto ammonta l'importo che, secondo il contratto, deve pagare?",
-        "en": "How much are you due to pay under the contract?"
+        "en": "How much are you due to pay under the contract?",
+        "rm": "Quant grond è l'import che Vus stuais pajar tenor il contract?"
       },
       "options": [
         {
@@ -184,7 +208,8 @@
             "de": "Mehr als 100 Franken",
             "fr": "Plus de 100 francs",
             "it": "Più di 100 franchi",
-            "en": "More than 100 francs"
+            "en": "More than 100 francs",
+            "rm": "Dapli che 100 francs"
           }
         },
         {
@@ -193,7 +218,8 @@
             "de": "100 Franken oder weniger",
             "fr": "100 francs ou moins",
             "it": "100 franchi o meno",
-            "en": "100 francs or less"
+            "en": "100 francs or less",
+            "rm": "100 francs u damain"
           }
         },
         {
@@ -202,7 +228,8 @@
             "de": "Ich weiss es nicht genau",
             "fr": "Je ne le sais pas exactement",
             "it": "Non lo so con esattezza",
-            "en": "I don't know exactly"
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -213,7 +240,8 @@
         "de": "Wollen Sie den Vertrag rückgängig machen?",
         "fr": "Voulez-vous annuler le contrat ?",
         "it": "Vuole annullare il contratto?",
-        "en": "Do you want to undo the contract?"
+        "en": "Do you want to undo the contract?",
+        "rm": "Vulais Vus annullar il contract?"
       },
       "options": [
         {
@@ -222,7 +250,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -231,7 +260,8 @@
             "de": "Nein, ich möchte nur wissen, wie es funktioniert",
             "fr": "Non, je veux seulement savoir comment cela fonctionne",
             "it": "No, vorrei solo sapere come funziona",
-            "en": "No, I just want to know how it works"
+            "en": "No, I just want to know how it works",
+            "rm": "Na, jau vuless mo savair, co quai funcziuna"
           }
         },
         {
@@ -240,7 +270,8 @@
             "de": "Ich weiss es noch nicht",
             "fr": "Je ne le sais pas encore",
             "it": "Non lo so ancora",
-            "en": "I don't know yet"
+            "en": "I don't know yet",
+            "rm": "Jau na sai anc betg"
           }
         }
       ]
@@ -251,7 +282,8 @@
         "de": "Haben Sie die Sache bereits benutzt?",
         "fr": "Avez-vous déjà utilisé l’objet ?",
         "it": "Ha già usato la cosa?",
-        "en": "Have you already used the item?"
+        "en": "Have you already used the item?",
+        "rm": "Avais Vus gia duvrà la chaussa?"
       },
       "options": [
         {
@@ -260,7 +292,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -269,7 +302,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -278,7 +312,8 @@
             "de": "Trifft nicht zu oder weiss ich nicht",
             "fr": "Sans objet, ou je ne sais pas",
             "it": "Non è il mio caso, oppure non lo so",
-            "en": "Not applicable, or I don't know"
+            "en": "Not applicable, or I don't know",
+            "rm": "Na tucca betg u jau na sai betg"
           }
         }
       ]
@@ -297,7 +332,8 @@
         "de": "Für Online-Käufe, Bestellungen per E-Mail oder telefonische Bestellungen, die Sie selbst ausgelöst haben, gibt es in der Schweiz kein allgemeines gesetzliches Widerrufsrecht. Die hier beschriebenen Regeln gelten nur für die im Gesetz genannten Situationen: ein Angebot an Ihrer Haustür, an Ihrem Arbeitsplatz, in einem öffentlichen Verkehrsmittel, auf der Strasse, an einer Werbeveranstaltung mit Ausflug, oder am Telefon, wenn der Anbieter Sie angerufen hat. Ein freiwilliges Rückgaberecht eines Online-Shops richtet sich allein nach dessen eigenen Bedingungen.",
         "fr": "Pour les achats en ligne, les commandes par e-mail ou les commandes téléphoniques que vous avez vous-même initiées, il n’existe pas de droit de révocation légal général en Suisse. Les règles décrites ici ne s’appliquent qu’aux situations mentionnées dans la loi : une offre à votre domicile, sur votre lieu de travail, dans un moyen de transport public, dans la rue, lors d’une manifestation publicitaire avec excursion, ou par téléphone, lorsque le fournisseur vous a appelé. Un droit de retour volontaire d’une boutique en ligne dépend uniquement de ses propres conditions.",
         "it": "Per gli acquisti online, gli ordini per e-mail o gli ordini telefonici avviati personalmente da lei, in Svizzera non esiste un diritto di revoca legale generale. Le regole qui descritte valgono solo per le situazioni indicate dalla legge: un'offerta alla sua porta di casa, sul suo posto di lavoro, in un mezzo di trasporto pubblico, per strada, a una manifestazione pubblicitaria con gita, oppure per telefono, se è stato il fornitore a chiamarla. Un diritto di restituzione volontario di un negozio online dipende unicamente dalle condizioni proprie di quest'ultimo.",
-        "en": "For online purchases, orders by email, or telephone orders that you initiated yourself, there is no general statutory right of revocation in Switzerland. The rules described here apply only to the situations named in the law: an offer at your door, at your workplace, on public transport, in the street, at a promotional event involving an excursion, or on the phone, if the supplier called you. A voluntary right of return offered by an online shop is governed solely by that shop's own terms."
+        "en": "For online purchases, orders by email, or telephone orders that you initiated yourself, there is no general statutory right of revocation in Switzerland. The rules described here apply only to the situations named in the law: an offer at your door, at your workplace, on public transport, in the street, at a promotional event involving an excursion, or on the phone, if the supplier called you. A voluntary right of return offered by an online shop is governed solely by that shop's own terms.",
+        "rm": "Per cumpras online, ordinaziuns per e-mail u ordinaziuns per telefon che Vus avais lantschà sez, na dat i en Svizra nagin dretg da revocaziun general e legal. Las reglas descrittas qua valan mo per las situaziuns numnadas en la lescha: in'offerta a Vossa porta da chasa, a Voss lieu da lavur, en in meds da transport public, sin via, ad in arrangiament da promoziun cun gita, u per telefon, sche l'purschider Vus ha clamà. In dretg da restituziun voluntar d'in shop online sa drizza mo tenor sias atgnas cundiziuns."
       },
       "sources": [
         "or-40a",
@@ -311,7 +347,8 @@
         "de": "Ein gesetzliches Widerrufsrecht besteht, wenn Ihnen ein Anbieter, der beruflich oder gewerblich handelt, bewegliche Sachen oder Dienstleistungen für Ihren persönlichen oder familiären Gebrauch verkauft hat und Ihre Zahlung mehr als 100 Franken beträgt.",
         "fr": "Un droit de révocation légal existe lorsqu’un fournisseur, agissant dans le cadre d’une activité professionnelle ou commerciale, vous a vendu des choses mobilières ou des services destinés à votre usage personnel ou familial, et que votre paiement dépasse 100 francs.",
         "it": "Esiste un diritto di revoca legale se un fornitore, che agisce nell'esercizio della sua professione o della sua impresa, le ha venduto cose mobili o servizi per il suo uso personale o familiare, e il suo pagamento supera i 100 franchi.",
-        "en": "A statutory right of revocation exists where a supplier acting in a professional or commercial capacity has sold you movable items or services for your personal or family use, and your payment is more than 100 francs."
+        "en": "A statutory right of revocation exists where a supplier acting in a professional or commercial capacity has sold you movable items or services for your personal or family use, and your payment is more than 100 francs.",
+        "rm": "In dretg da revocaziun legal exista, sche in purschider che agescha professiunalmain u commerzialmain Vus ha vendì chaussas moviblas u prestaziuns per Voss utilisaziun persunala u familiara e Voss pajament importa dapli che 100 francs."
       },
       "sources": [
         "or-40a"
@@ -329,7 +366,8 @@
         "de": "Beträgt Ihre Zahlung 100 Franken oder weniger, gilt dieses Widerrufsrecht nicht.",
         "fr": "Si votre paiement s’élève à 100 francs ou moins, ce droit de révocation ne s’applique pas.",
         "it": "Se il suo pagamento è di 100 franchi o meno, questo diritto di revoca non si applica.",
-        "en": "If your payment is 100 francs or less, this right of revocation does not apply."
+        "en": "If your payment is 100 francs or less, this right of revocation does not apply.",
+        "rm": "Sche Voss pajament importa 100 francs u damain, na vala quest dretg da revocaziun betg."
       },
       "sources": [
         "or-40a"
@@ -351,7 +389,8 @@
         "de": "Sie können Ihren Antrag oder Ihre Annahme des Vertrags widerrufen, wenn Ihnen das Angebot an Ihrem Arbeitsplatz, in Wohnräumen oder in deren unmittelbarer Umgebung, in einem öffentlichen Verkehrsmittel oder auf der Strasse, an einer Werbeveranstaltung mit einer Ausflugsfahrt, oder am Telefon bzw. einem vergleichbaren Mittel gleichzeitiger mündlicher Kommunikation gemacht wurde.",
         "fr": "Vous pouvez révoquer votre offre ou votre acceptation du contrat si celui-ci vous a été proposé sur votre lieu de travail, dans des locaux d’habitation ou leurs abords immédiats, dans un moyen de transport public ou dans la rue, lors d’une manifestation publicitaire avec une excursion, ou par téléphone ou un moyen de communication orale directe comparable.",
         "it": "Può revocare la sua proposta o la sua accettazione del contratto se l'offerta le è stata fatta sul suo posto di lavoro, in locali d'abitazione o nelle loro immediate vicinanze, in un mezzo di trasporto pubblico o per strada, a una manifestazione pubblicitaria con una gita, oppure per telefono o un mezzo di comunicazione orale simultanea comparabile.",
-        "en": "You can revoke your offer to enter into the contract, or your acceptance of it, if the offer was made to you at your workplace, on residential premises or in their immediate vicinity, on public transport or in the street, at a promotional event involving an excursion, or by telephone or a comparable means of simultaneous verbal communication."
+        "en": "You can revoke your offer to enter into the contract, or your acceptance of it, if the offer was made to you at your workplace, on residential premises or in their immediate vicinity, on public transport or in the street, at a promotional event involving an excursion, or by telephone or a comparable means of simultaneous verbal communication.",
+        "rm": "Vus pudais revocar Voss antrag u Vossa acceptaziun dal contract, sche Vus è vegnida fatga l'offerta a Voss lieu da lavur, en localitads d'abitar u en lur circumdant immediat, en in meds da transport public u sin via, ad in arrangiament da promoziun cun ina gita, u per telefon respectivamain in med cumparegliabel da communicaziun orala simultanea."
       },
       "sources": [
         "or-40b"
@@ -370,7 +409,8 @@
         "de": "Kein Widerrufsrecht besteht, wenn Sie das Verkaufsgespräch selbst ausdrücklich gewünscht haben, oder wenn Sie Ihre Erklärung an einem Markt- oder Messestand abgegeben haben.",
         "fr": "Il n’existe aucun droit de révocation si vous avez vous-même expressément souhaité l’entretien de vente, ou si vous avez donné votre déclaration sur un marché ou un stand de foire.",
         "it": "Non esiste alcun diritto di revoca se il colloquio di vendita è stato richiesto espressamente da lei, oppure se ha reso la sua dichiarazione presso una bancarella di mercato o di fiera.",
-        "en": "There is no right of revocation if you expressly requested the sales conversation yourself, or if you made your declaration at a stand at a market or trade fair."
+        "en": "There is no right of revocation if you expressly requested the sales conversation yourself, or if you made your declaration at a stand at a market or trade fair.",
+        "rm": "Nagin dretg da revocaziun exista, sche Vus avais giavischà explicitamain sez la discussiun da vendita, u sche Vus avais dà Vossa decleraziun a in stogl da martgà u da fiera."
       },
       "sources": [
         "or-40c"
@@ -383,7 +423,8 @@
         "de": "Sie haben 14 Tage Zeit, um zu widerrufen. Diese Frist beginnt, sobald Sie den Vertrag beantragt oder angenommen haben und die vom Anbieter vorgeschriebenen Angaben erhalten haben. Den Beweis, wann Sie diese Angaben erhalten haben, muss der Anbieter erbringen. Die Frist ist eingehalten, wenn Sie am letzten Tag Ihren Widerruf dem Anbieter mitteilen oder Ihre Widerrufserklärung der Post übergeben.",
         "fr": "Vous disposez de 14 jours pour révoquer le contrat. Ce délai commence à courir dès que vous avez proposé ou accepté le contrat et que vous avez reçu les informations prescrites par le fournisseur. La preuve du moment où vous avez reçu ces informations incombe au fournisseur. Le délai est respecté si, le dernier jour, vous communiquez votre révocation au fournisseur ou remettez votre déclaration de révocation à la poste.",
         "it": "Ha 14 giorni di tempo per revocare. Questo termine di revoca inizia a decorrere non appena ha proposto o accettato il contratto e ha ricevuto le indicazioni prescritte dal fornitore. La prova del momento in cui ha ricevuto queste indicazioni spetta al fornitore. Il termine è rispettato se, l'ultimo giorno, comunica la sua revoca al fornitore oppure consegna la sua dichiarazione di revoca alla posta.",
-        "en": "You have 14 days to revoke the contract. This period begins as soon as you have proposed or accepted the contract and have received the information the supplier is required to provide. The supplier must prove when you received that information. The time limit is observed if, on the last day, you inform the supplier of your revocation or hand your written notice of revocation to the post office."
+        "en": "You have 14 days to revoke the contract. This period begins as soon as you have proposed or accepted the contract and have received the information the supplier is required to provide. The supplier must prove when you received that information. The time limit is observed if, on the last day, you inform the supplier of your revocation or hand your written notice of revocation to the post office.",
+        "rm": "Vus avais 14 dis temp per revocar. Questa termin cumenza, uschespert che Vus avais dumandà u acceptà il contract e survegnì las indicaziuns prescrittas da l'purschider. La cumprova, cur che Vus avais survegnì questas indicaziuns, sto porscher l'purschider. La termin è observada, sche Vus communitgais Vossa revocaziun a l'purschider l'ultim di u consegnais Vossa decleraziun da revocaziun a la posta."
       },
       "sources": [
         "or-40e"
@@ -396,7 +437,8 @@
         "de": "Für den Widerruf gibt es keine Formvorschrift. Sie müssen aber beweisen können, dass Sie rechtzeitig widerrufen haben. Teilen Sie den Widerruf deshalb schriftlich mit, etwa per Brief, E-Mail oder Nachricht, und bewahren Sie einen Beleg auf.",
         "fr": "La révocation n’est soumise à aucune forme particulière. Vous devez toutefois pouvoir prouver que vous avez révoqué en temps utile. Communiquez donc la révocation par écrit, par exemple par lettre, e-mail ou message, et conservez une preuve.",
         "it": "Per la revoca non è prevista alcuna forma particolare. Deve però poter provare di aver revocato in tempo utile. Comunichi quindi la revoca per scritto, per esempio per lettera, e-mail o messaggio, e conservi una prova.",
-        "en": "Revocation need not be in any particular form. But you must be able to prove that you revoked the contract in time. So communicate your revocation in writing, for example by letter, email or message, and keep evidence of it."
+        "en": "Revocation need not be in any particular form. But you must be able to prove that you revoked the contract in time. So communicate your revocation in writing, for example by letter, email or message, and keep evidence of it.",
+        "rm": "Per la revocaziun n'exista nagina prescripziun da furma. Vus stuais dentant pudair cumprovar che Vus avais revocà a temp. Communitgai la revocaziun percunquai en scrit, per exempel per brev, e-mail u messadi, e conservai ina cumprova."
       },
       "sources": [
         "or-40e"
@@ -415,7 +457,8 @@
         "de": "Widerrufen Sie den Vertrag, müssen beide Seiten bereits erhaltene Leistungen zurückgeben. Hat der Anbieter bereits eine Dienstleistung erbracht, müssen Sie ihm seine Auslagen und Aufwendungen ersetzen. Eine weitere Entschädigung schulden Sie dem Anbieter nicht.",
         "fr": "Si vous révoquez le contrat, les deux parties doivent restituer les prestations déjà reçues. Si le fournisseur a déjà fourni un service, vous devez lui rembourser ses dépenses et ses frais. Vous ne devez au fournisseur aucune autre indemnité.",
         "it": "Se revoca il contratto, entrambe le parti devono restituire le prestazioni già ricevute. Se il fornitore ha già eseguito una prestazione di servizio, deve rimborsargli le sue spese e i suoi esborsi. Non deve al fornitore nessun'altra indennità.",
-        "en": "If you revoke the contract, both sides must provide restitution for any performance already made. If the supplier has already rendered a service, you must reimburse the supplier for its outlays and expenses. You do not owe the supplier any further compensation."
+        "en": "If you revoke the contract, both sides must provide restitution for any performance already made. If the supplier has already rendered a service, you must reimburse the supplier for its outlays and expenses. You do not owe the supplier any further compensation.",
+        "rm": "Sche Vus revocais il contract, stuan omaduas varts restituir prestaziuns gia survegnidas. Sche l'purschider ha gia furnì ina prestaziun da servetsch, stuais Vus indemnisar ad el sias spesas e sias expensas. Ina ulteriura indemnisaziun na dettais Vus betg a l'purschider."
       },
       "sources": [
         "or-40f"
@@ -433,7 +476,8 @@
         "de": "Haben Sie die Sache schon benutzt, schulden Sie dem Anbieter dafür einen angemessenen Mietzins, auch wenn Sie den Vertrag widerrufen. Das Recht, überhaupt zu widerrufen, geht dadurch aber nicht verloren.",
         "fr": "Si vous avez déjà utilisé l’objet, vous devez au fournisseur un loyer approprié pour cela, même si vous révoquez le contrat. Le droit de révoquer n’est toutefois pas perdu pour autant.",
         "it": "Se ha già usato la cosa, deve al fornitore un'adeguata pigione, anche se revoca il contratto. Il diritto di revocare in quanto tale non va tuttavia perso per questo motivo.",
-        "en": "If you have already used the item, you owe the supplier an appropriate rental payment for that, even though you are revoking the contract. However, this does not affect your right to revoke the contract at all."
+        "en": "If you have already used the item, you owe the supplier an appropriate rental payment for that, even though you are revoking the contract. However, this does not affect your right to revoke the contract at all.",
+        "rm": "Sche Vus avais gia duvrà la chaussa, dettais Vus a l'purschider per quai in tschains adequat, er sche Vus revocais il contract. Il dretg da revocar en general na va dentant betg pers tras quai."
       },
       "sources": [
         "or-40f"
@@ -446,7 +490,8 @@
         "de": "Holen Sie persönliche Beratung, wenn der Anbieter Ihren Widerruf nicht akzeptiert, wenn es um einen hohen Betrag geht, oder wenn die 14-tägige Frist in wenigen Tagen abläuft.",
         "fr": "Demandez un conseil personnalisé si le fournisseur n’accepte pas votre révocation, si le montant en jeu est élevé, ou si le délai de 14 jours arrive à échéance dans quelques jours.",
         "it": "Si faccia consigliare personalmente se il fornitore non accetta la sua revoca, se si tratta di un importo elevato, oppure se il termine di 14 giorni scade tra pochi giorni.",
-        "en": "Get personal advice if the supplier does not accept your revocation, if a large amount of money is at stake, or if the 14-day period is about to expire in a few days."
+        "en": "Get personal advice if the supplier does not accept your revocation, if a large amount of money is at stake, or if the 14-day period is about to expire in a few days.",
+        "rm": "Retschertgai cussegliaziun persunala, sche l'purschider n'accepta betg Vossa revocaziun, sche i sa tracta d'in import auss, u sche la termin da 14 dis scada en paucs dis."
       }
     },
     {
@@ -456,7 +501,8 @@
         "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Fragen zum Widerrufsrecht. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an.",
         "fr": "Aide gratuite ou à faible coût : les organisations de consommateurs conseillent sur les questions relatives au droit de révocation. Certains cantons et associations d’avocats offrent une première consultation gratuite.",
         "it": "Aiuto gratuito o a basso costo: le organizzazioni dei consumatori consigliano per le domande sul diritto di revoca. Alcuni Cantoni e ordini degli avvocati offrono una prima consulenza gratuita.",
-        "en": "Free or low-cost help: consumer organisations advise on questions about the right of revocation. Some cantons and bar associations offer a free initial consultation."
+        "en": "Free or low-cost help: consumer organisations advise on questions about the right of revocation. Some cantons and bar associations offer a free initial consultation.",
+        "rm": "Agid gratuit u avantagius: Organisaziuns da consuments cusseglian tar dumondas davart il dretg da revocaziun. Tscherts chantuns e federaziuns d'advocatas ed advocats offran in emprim cussegl gratuit."
       }
     }
   ],
@@ -508,7 +554,8 @@
         "de": "ch.ch: Waren zurückgeben oder umtauschen",
         "fr": "ch.ch : Retourner ou échanger des marchandises",
         "it": "ch.ch: restituire o cambiare merce",
-        "en": "ch.ch: Returning or exchanging goods"
+        "en": "ch.ch: Returning or exchanging goods",
+        "rm": "ch.ch: Restituir u barattar martganzia"
       },
       "url": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
     }

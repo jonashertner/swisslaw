@@ -9,13 +9,15 @@
     "de": "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts",
     "fr": "Quelque chose est cassé dans mon logement et le bailleur ne fait rien",
     "it": "Nel mio appartamento c'è qualcosa di rotto e il locatore non fa nulla",
-    "en": "Something is broken in my flat and the landlord isn't doing anything"
+    "en": "Something is broken in my flat and the landlord isn't doing anything",
+    "rm": "En mia abitaziun è insatge rut e il locatur na fa nagut"
   },
   "summary": {
     "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben, sobald er davon weiss. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Ab dem Zeitpunkt, an dem der Vermieter vom Mangel weiss, können Sie eine Herabsetzung der Miete verlangen, auch rückwirkend. Kürzen Sie die Miete aber nicht einfach selbst. Hinterlegen können Sie die Miete nur unter strengen Formvorschriften. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
     "fr": "Le bailleur doit maintenir le logement dans un état permettant l'usage convenu et remédier aux défauts dès qu'il en a connaissance. Signalez le défaut par écrit et fixez un délai raisonnable. Dès le moment où le bailleur connaît le défaut, vous pouvez demander une réduction du loyer, même rétroactivement. Ne réduisez toutefois pas le loyer vous-même sans autre. Vous ne pouvez consigner le loyer que sous des conditions de forme strictes. La procédure de conciliation ne vous coûte rien.",
     "it": "Il locatore deve mantenere l'appartamento in uno stato utilizzabile ed eliminare i difetti non appena ne è a conoscenza. Segnali il difetto per scritto e fissi un termine adeguato. Dal momento in cui il locatore è a conoscenza del difetto, Lei può chiedere una riduzione della pigione, anche retroattivamente. Non riduca però semplicemente da solo la pigione. Può depositare la pigione solo rispettando severe prescrizioni di forma. La procedura di conciliazione non Le costa nulla.",
-    "en": "The landlord must keep the flat fit for use and remedy defects as soon as he knows about them. Report the defect in writing and set a reasonable deadline. From the moment the landlord learns of the defect, you can ask for a reduction of the rent, even retroactively. Do not simply cut the rent yourself, though. You may only deposit the rent if you follow strict formal requirements. Proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) are free of charge."
+    "en": "The landlord must keep the flat fit for use and remedy defects as soon as he knows about them. Report the defect in writing and set a reasonable deadline. From the moment the landlord learns of the defect, you can ask for a reduction of the rent, even retroactively. Do not simply cut the rent yourself, though. You may only deposit the rent if you follow strict formal requirements. Proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) are free of charge.",
+    "rm": "Il locatur sto tegnair l'abitaziun en in stadi utilisabel e sanar defects, uschespert ch'el sa da quels. Annunziai il defect per scrit e fixai in termin adequat. Dapi il mument che il locatur sa dal defect, pudais Vus pretender ina reducziun dal tschains da locaziun, era retroactivamain. Na reducai dentant betg il tschains sez. Depositar il tschains pudais Vus mo sut prescripziuns da furma severas. La procedura tar l'autoritad da mediaziun è gratuita."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "My landlord isn't responding even though the bathroom's been broken for weeks",
       "Am I allowed to just pay less rent until the defect is fixed?",
       "What does depositing the rent mean and how does it work?"
+    ],
+    "rm": [
+      "En mia abitaziun è insatge rut e il locatur na fa nagut",
+      "Il chaufadi na funcziuna betg dapi emnas, tge poss jau far?",
+      "Poss jau reducir il tschains, perquai ch'i dat in donn d'aua?",
+      "Mes locatur na reagescha betg, uschiglio ch'il bogn è defect dapi emnas",
+      "Dastg jau simplamain pajar damain tschains, enfin ch'il defect è sanà?",
+      "Tge vul dir 'depositar il tschains da locaziun' e co funcziuna quai?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Mängel an einer gemieteten Wohnung während eines laufenden Mietverhältnisses in der Schweiz, zum Beispiel an Heizung, Sanitäranlagen, Elektrik, Fenstern oder bei Feuchtigkeit und Schimmel.",
       "fr": "Les défauts d'un logement loué pendant un bail en cours en Suisse, par exemple au chauffage, aux installations sanitaires, à l'électricité, aux fenêtres, ou en cas d'humidité et de moisissure.",
       "it": "I difetti di un appartamento preso in locazione durante un rapporto di locazione in corso in Svizzera, per esempio al riscaldamento, agli impianti sanitari, all'impianto elettrico, alle finestre, o in caso di umidità e muffa.",
-      "en": "Defects in a rented flat during an ongoing tenancy in Switzerland, for example in the heating, plumbing, electrics, windows, or damp and mould."
+      "en": "Defects in a rented flat during an ongoing tenancy in Switzerland, for example in the heating, plumbing, electrics, windows, or damp and mould.",
+      "rm": "Defects en in'abitaziun locada durant ina relaziun da locaziun current en Svizra, per exempel al chaufadi, a las instalaziuns sanitarias, a l'electricitad, a las fanestras u tar umiditad e miifa."
     },
     "excludes": {
       "de": "Mängel, die Sie selbst verschuldet haben, Geschäftsräume und andere besondere Mietverhältnisse, sowie Schäden an Ihrem eigenen Eigentum, zum Beispiel an Ihren Möbeln.",
       "fr": "Les défauts que vous avez vous-même causés, les locaux commerciaux et les autres baux particuliers, ainsi que les dommages à vos propres biens, par exemple à vos meubles.",
       "it": "I difetti causati da Lei stesso, i locali commerciali e altri rapporti di locazione particolari, nonché i danni ai Suoi beni, per esempio ai Suoi mobili.",
-      "en": "Defects that you caused yourself, commercial premises and other special types of tenancy, and damage to your own property, for example to your furniture."
+      "en": "Defects that you caused yourself, commercial premises and other special types of tenancy, and damage to your own property, for example to your furniture.",
+      "rm": "Defects che Vus avais chaschunà Vus sez, locals commerzials ed autras relaziuns da locaziun spezialas, sco er donns a Vossa atgna proprietad, per exempel a Voss mobiglia."
     }
   },
   "facts": [
@@ -72,13 +84,15 @@
         "de": "Wie stark beeinträchtigt der Mangel den Gebrauch der Wohnung?",
         "fr": "Dans quelle mesure le défaut entrave-t-il l'usage du logement ?",
         "it": "Quanto pregiudica il difetto l'uso dell'appartamento?",
-        "en": "How much does the defect affect your use of the flat?"
+        "en": "How much does the defect affect your use of the flat?",
+        "rm": "Quant fitg restrenscha il defect l'utilisaziun da l'abitaziun?"
       },
       "help": {
         "de": "Kleine Ausbesserungen für den gewöhnlichen Unterhalt, zum Beispiel ein verstopfter Abfluss, muss der Mieter selbst und auf eigene Kosten beheben.",
         "fr": "Les menus travaux de réparation relevant de l'entretien courant, par exemple un écoulement bouché, doivent être réparés par le locataire lui-même et à ses frais.",
         "it": "Le piccole riparazioni della normale manutenzione, per esempio uno scarico intasato, deve eliminarle il conduttore stesso e a proprie spese.",
-        "en": "You must fix minor repairs that count as ordinary maintenance yourself and at your own expense, for example a blocked drain."
+        "en": "You must fix minor repairs that count as ordinary maintenance yourself and at your own expense, for example a blocked drain.",
+        "rm": "Pitschnas reparaziuns per la manutenziun usitada, per exempel in scolader stupà, sto il locatari sanar sez e a sias atgnas spesas."
       },
       "options": [
         {
@@ -87,7 +101,8 @@
             "de": "Es ist eine Kleinigkeit, die ich normalerweise selbst beheben müsste",
             "fr": "C'est un détail que je devrais normalement réparer moi-même",
             "it": "È una piccolezza che normalmente dovrei riparare da solo",
-            "en": "It's a small thing that I'd normally have to fix myself"
+            "en": "It's a small thing that I'd normally have to fix myself",
+            "rm": "È ina bagatella che jau stuess normalmain sanar sez"
           }
         },
         {
@@ -96,7 +111,8 @@
             "de": "Ein grösserer Mangel, zum Beispiel Heizung, Wasser, Schimmel oder Lift",
             "fr": "Un défaut plus important, par exemple le chauffage, l'eau, la moisissure ou l'ascenseur",
             "it": "Un difetto più importante, per esempio riscaldamento, acqua, muffa o ascensore",
-            "en": "A bigger defect, for example the heating, water, mould or the lift"
+            "en": "A bigger defect, for example the heating, water, mould or the lift",
+            "rm": "In defect pli grond, per exempel chaufadi, aua, miifa u ascensur"
           }
         },
         {
@@ -105,7 +121,8 @@
             "de": "Ich bin nicht sicher",
             "fr": "Je n'en ai pas la certitude",
             "it": "Non ne sono certo",
-            "en": "I'm not sure"
+            "en": "I'm not sure",
+            "rm": "Quai n'è betg cler per mai"
           }
         }
       ]
@@ -116,7 +133,8 @@
         "de": "Haben Sie den Mangel dem Vermieter oder der Verwaltung schriftlich gemeldet?",
         "fr": "Avez-vous signalé le défaut par écrit au bailleur ou à la gérance ?",
         "it": "Ha segnalato il difetto per scritto al locatore o all'amministrazione?",
-        "en": "Have you reported the defect to the landlord or the managing agent in writing?"
+        "en": "Have you reported the defect to the landlord or the managing agent in writing?",
+        "rm": "Avais Vus annunzià il defect per scrit al locatur u a l'administraziun?"
       },
       "options": [
         {
@@ -125,7 +143,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -134,7 +153,8 @@
             "de": "Nein, noch nicht schriftlich",
             "fr": "Non, pas encore par écrit",
             "it": "No, non ancora per scritto",
-            "en": "No, not in writing yet"
+            "en": "No, not in writing yet",
+            "rm": "Na, anc betg per scrit"
           }
         },
         {
@@ -143,7 +163,8 @@
             "de": "Ich weiss es nicht mehr genau",
             "fr": "Je ne m'en souviens plus exactement",
             "it": "Non lo ricordo con precisione",
-            "en": "I can't quite remember"
+            "en": "I can't quite remember",
+            "rm": "Jau na sai betg pli exact"
           }
         }
       ]
@@ -154,7 +175,8 @@
         "de": "Was hat der Vermieter seither unternommen?",
         "fr": "Qu'a fait le bailleur depuis lors ?",
         "it": "Cosa ha intrapreso finora il locatore?",
-        "en": "What has the landlord done since then?"
+        "en": "What has the landlord done since then?",
+        "rm": "Tge ha il locatur interpiglià dapi lura?"
       },
       "options": [
         {
@@ -163,7 +185,8 @@
             "de": "Nichts",
             "fr": "Rien",
             "it": "Niente",
-            "en": "Nothing"
+            "en": "Nothing",
+            "rm": "Nagut"
           }
         },
         {
@@ -172,7 +195,8 @@
             "de": "Er hat eine Reparatur zugesagt, aber noch nichts getan",
             "fr": "Il a promis une réparation, mais n'a encore rien fait",
             "it": "Ha promesso una riparazione, ma non ha ancora fatto nulla",
-            "en": "He promised a repair but hasn't done anything yet"
+            "en": "He promised a repair but hasn't done anything yet",
+            "rm": "El ha empromess ina reparaziun, ma n'ha anc nagut fatg"
           }
         },
         {
@@ -181,7 +205,8 @@
             "de": "Der Mangel wurde inzwischen behoben",
             "fr": "Le défaut a entre-temps été réparé",
             "it": "Nel frattempo il difetto è stato eliminato",
-            "en": "The defect has since been fixed"
+            "en": "The defect has since been fixed",
+            "rm": "Il defect è entretant sanà"
           }
         },
         {
@@ -190,7 +215,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -201,7 +227,8 @@
         "de": "Was möchten Sie erreichen?",
         "fr": "Que souhaitez-vous obtenir ?",
         "it": "Cosa vorrebbe ottenere?",
-        "en": "What would you like to achieve?"
+        "en": "What would you like to achieve?",
+        "rm": "Tge vulais Vus cuntanscher?"
       },
       "options": [
         {
@@ -210,7 +237,8 @@
             "de": "Ich will, dass der Mangel behoben wird",
             "fr": "Je veux que le défaut soit réparé",
             "it": "Voglio che il difetto venga eliminato",
-            "en": "I want the defect fixed"
+            "en": "I want the defect fixed",
+            "rm": "Jau vi ch'il defect vegnia sanà"
           }
         },
         {
@@ -219,7 +247,8 @@
             "de": "Ich will weniger Miete zahlen, solange der Mangel besteht",
             "fr": "Je veux payer moins de loyer tant que le défaut existe",
             "it": "Voglio pagare meno pigione finché il difetto persiste",
-            "en": "I want to pay less rent for as long as the defect lasts"
+            "en": "I want to pay less rent for as long as the defect lasts",
+            "rm": "Jau vi pajar damain tschains, uschè ditg ch'il defect exista"
           }
         },
         {
@@ -228,7 +257,8 @@
             "de": "Beides",
             "fr": "Les deux",
             "it": "Entrambe le cose",
-            "en": "Both"
+            "en": "Both",
+            "rm": "Tuttas duas chaussas"
           }
         },
         {
@@ -237,7 +267,8 @@
             "de": "Ich weiss es noch nicht",
             "fr": "Je ne sais pas encore",
             "it": "Non lo so ancora",
-            "en": "I don't know yet"
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -256,7 +287,8 @@
         "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, erledigen Sie selbst und auf eigene Kosten. Gemeint sind Arbeiten, für die es keine Fachperson braucht oder die wenig kosten, zum Beispiel eine Glühbirne oder einen Duschschlauch ersetzen oder einen verstopften Abfluss freimachen. Alles, was darüber hinausgeht, muss der Vermieter beheben. Eine Klausel im Mietvertrag, nach der Sie grössere Reparaturen ganz oder teilweise selbst bezahlen, gilt bei einer Wohnung nicht. Fragen Sie beim Vermieter nach, wenn Sie unsicher sind.",
         "fr": "Les petits nettoyages et réparations relevant de l'entretien courant, vous les effectuez vous-même et à vos frais. Il s'agit de travaux qui ne nécessitent pas de spécialiste ou qui coûtent peu, par exemple remplacer une ampoule ou un flexible de douche, ou déboucher un écoulement. Tout ce qui va au-delà doit être réparé par le bailleur. Une clause du bail selon laquelle vous payez vous-même, en tout ou en partie, des réparations plus importantes ne vaut pas pour un logement. Renseignez-vous auprès du bailleur en cas de doute.",
         "it": "Le piccole pulizie e riparazioni che rientrano nella normale manutenzione le esegue Lei stesso e a proprie spese. Si intendono i lavori per cui non serve una persona specializzata o che costano poco, per esempio sostituire una lampadina o un flessibile della doccia, oppure liberare uno scarico intasato. Tutto ciò che va oltre deve eliminarlo il locatore. Una clausola nel contratto di locazione secondo cui Lei paga interamente o in parte riparazioni più importanti non vale per un appartamento. Se ha dei dubbi, si informi presso il locatore.",
-        "en": "Small cleaning jobs and repairs that count as ordinary maintenance are your own responsibility, at your own expense. This means work that needs no specialist or costs little, for example replacing a light bulb or a shower hose, or clearing a blocked drain. The landlord must fix anything beyond that. A clause in the lease under which you pay for larger repairs yourself, in full or in part, is not valid for a flat. Ask the landlord if you are unsure."
+        "en": "Small cleaning jobs and repairs that count as ordinary maintenance are your own responsibility, at your own expense. This means work that needs no specialist or costs little, for example replacing a light bulb or a shower hose, or clearing a blocked drain. The landlord must fix anything beyond that. A clause in the lease under which you pay for larger repairs yourself, in full or in part, is not valid for a flat. Ask the landlord if you are unsure.",
+        "rm": "Pitschnas nettezzas e reparaziuns che tutgan a la manutenziun usitada fais Vus sez ed a Vossas atgnas spesas. Numnadamain lavurs per las qualas na dovra ins nagina persuna spezialisada u che custan pauc, per exempel remplazzar ina lampa u in tub da dutscha u liberar in scolader stupà. Tut quai che va pli lunsch, sto il locatur sanar. Ina clausa en il contract da locaziun, tenor la quala Vus pajais entiramain u per part reparaziuns pli gronda Vus sez, na vala betg tar in'abitaziun. Dumandai tar il locatur, sche Vus n'essas betg segir."
       },
       "sources": [
         "or-259",
@@ -270,7 +302,8 @@
         "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Sobald er von einem Mangel weiss, muss er ihn beheben, auch wenn er ihn nicht verursacht hat. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden.",
         "fr": "Le bailleur doit remettre et maintenir le logement dans un état approprié à l'usage convenu. Dès qu'il a connaissance d'un défaut, il doit y remédier, même s'il ne l'a pas causé. Cette obligation ne peut pas être supprimée à votre détriment dans un bail de logement ou de locaux commerciaux.",
         "it": "Il locatore deve consegnare e mantenere l'appartamento in uno stato che ne permetta l'uso pattuito. Non appena è a conoscenza di un difetto, deve eliminarlo, anche se non lo ha causato lui. Questo obbligo non può essere escluso a Suo svantaggio in un contratto di locazione per un'abitazione o un locale commerciale.",
-        "en": "The landlord must hand over and maintain the flat in a condition fit for the agreed use. As soon as he knows of a defect, he must remedy it, even if he did not cause it. This duty cannot be excluded to your disadvantage in a lease for residential or commercial premises."
+        "en": "The landlord must hand over and maintain the flat in a condition fit for the agreed use. As soon as he knows of a defect, he must remedy it, even if he did not cause it. This duty cannot be excluded to your disadvantage in a lease for residential or commercial premises.",
+        "rm": "Il locatur sto surdar e tegnair l'abitaziun en in stadi che pussibilitescha l'utilisaziun cunvegnida. Uschespert ch'el sa d'in defect, sto el al sanar, era sch'el na l'ha betg chaschunà. Quest duair na po betg vegnir exclus en in contract da locaziun per locals d'abitar u commerzials a Voss disavantatg."
       },
       "sources": [
         "or-256"
@@ -293,7 +326,8 @@
         "de": "So gehen Sie vor: Melden Sie den Mangel sofort schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief. Beschreiben Sie, was nicht funktioniert, seit wann, und wie es Sie im Alltag einschränkt. Verlangen Sie die Behebung und setzen Sie eine Frist, die zur Dringlichkeit passt: Fällt im Winter die Heizung aus, sind es wenige Tage, bei weniger dringenden Mängeln einige Wochen. Machen Sie Fotos oder Videos mit Datum und bewahren Sie alle Nachrichten auf. Im Streitfall müssen Sie den Mangel belegen. Behauptet der Vermieter, Sie hätten ihn selbst verursacht, muss er das beweisen.",
         "fr": "Comment procéder : signalez le défaut immédiatement par écrit, par exemple par e-mail ou par lettre recommandée. Décrivez ce qui ne fonctionne pas, depuis quand, et comment cela vous limite au quotidien. Exigez la remise en état et fixez un délai adapté à l'urgence : si le chauffage tombe en panne en hiver, ce sont quelques jours, pour des défauts moins urgents, quelques semaines. Prenez des photos ou des vidéos datées et conservez tous les messages. En cas de litige, c'est à vous de prouver le défaut. Si le bailleur prétend que vous l'avez causé vous-même, c'est à lui de le prouver.",
         "it": "Come procedere: segnali subito il difetto per scritto, per esempio per e-mail o lettera raccomandata. Descriva cosa non funziona, da quando, e come La limita nella vita quotidiana. Chieda l'eliminazione e fissi un termine adeguato all'urgenza: se in inverno si guasta il riscaldamento, bastano pochi giorni; per difetti meno urgenti, alcune settimane. Faccia foto o video con la data e conservi tutti i messaggi. In caso di controversia, deve provare il difetto. Se il locatore afferma che l'ha causato Lei stesso, deve provarlo lui.",
-        "en": "Here is how to proceed: report the defect immediately in writing, for example by email or registered letter. Describe what is not working, since when, and how it affects your daily life. Ask for it to be fixed and set a deadline that matches how urgent it is: if the heating fails in winter, a few days; for less urgent defects, a few weeks. Take dated photos or videos and keep all messages. If there is a dispute, you must prove the defect. If the landlord claims you caused it yourself, he must prove that."
+        "en": "Here is how to proceed: report the defect immediately in writing, for example by email or registered letter. Describe what is not working, since when, and how it affects your daily life. Ask for it to be fixed and set a deadline that matches how urgent it is: if the heating fails in winter, a few days; for less urgent defects, a few weeks. Take dated photos or videos and keep all messages. If there is a dispute, you must prove the defect. If the landlord claims you caused it yourself, he must prove that.",
+        "rm": "Uschia procedais Vus: annunziai il defect immediat per scrit, per exempel per e-mail u brev racumandada. Descrivai tge che na funcziuna betg, dapi quant temp, e co quai Vus restrenscha en la vita da tuttadi. Pretendai la sanaziun e fixai in termin che correspunda a l'urgenza: crolla il chaufadi en unviern, sun quai paucs dis, tar defects damain urgents intgins emnas. Fetschai fotografias u videos cun data e conservai tut las communicaziuns. En cas da dispita stuais Vus cumprovar il defect. Pretenda il locatur ch'i saja Vus che l'hajas chaschunà, sto el quai cumprovar."
       },
       "sources": [
         "or-256",
@@ -313,7 +347,8 @@
         "de": "Lassen Sie den Vermieter und die Handwerker für die Reparatur in die Wohnung. Arbeiten, die zur Behebung des Mangels nötig sind, müssen Sie dulden. Der Vermieter muss sie rechtzeitig ankündigen und bei der Ausführung auf Sie Rücksicht nehmen. Ihre Ansprüche auf Herabsetzung der Miete und auf Schadenersatz bleiben bestehen.",
         "fr": "Laissez entrer le bailleur et les artisans pour la réparation. Vous devez tolérer les travaux nécessaires à la remise en état. Le bailleur doit les annoncer à temps et tenir compte de vous dans leur exécution. Vos droits à la réduction du loyer et aux dommages-intérêts subsistent.",
         "it": "Lasci entrare nell'appartamento il locatore e gli artigiani per la riparazione. Deve tollerare i lavori necessari per eliminare il difetto. Il locatore deve annunciarli per tempo e, nell'esecuzione, avere riguardo per Lei. Le Sue pretese di riduzione della pigione e di risarcimento del danno restano intatte.",
-        "en": "Let the landlord and tradespeople into the flat for the repair. You must tolerate work needed to remedy the defect. The landlord must give reasonable notice and show consideration for you while it is carried out. Your claims for a reduction of the rent and for damages remain unaffected."
+        "en": "Let the landlord and tradespeople into the flat for the repair. You must tolerate work needed to remedy the defect. The landlord must give reasonable notice and show consideration for you while it is carried out. Your claims for a reduction of the rent and for damages remain unaffected.",
+        "rm": "Laschai entrar il locatur ed ils artisans per la reparaziun en l'abitaziun. Lavurs necessarias per sanar il defect stuais Vus tolerar. Il locatur sto ins annunziar a temp e resguardar Vus tar l'execuziun. Voss dretgs a la reducziun dal tschains ed a l'indemnisaziun dal donn restan intacts."
       },
       "sources": [
         "or-257h"
@@ -332,7 +367,8 @@
         "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen. Diese Rechte schliessen sich nicht aus. Sie können zum Beispiel die Behebung verlangen und für die Zeit bis dahin eine Herabsetzung der Miete.",
         "fr": "En cas de défaut que vous n'avez pas causé vous-même et que vous n'avez pas à réparer vous-même, vous pouvez exiger du bailleur qu'il remédie au défaut, qu'il réduise le loyer proportionnellement, qu'il vous répare le dommage subi, ou qu'il prenne en charge un litige avec un tiers concerné. Pour un logement ou une maison, vous pouvez en outre, sous certaines conditions, consigner le loyer. Ces droits ne s'excluent pas mutuellement. Vous pouvez par exemple exiger la remise en état et, pour le temps jusque-là, une réduction du loyer.",
         "it": "In presenza di un difetto che Lei non ha causato e che non deve eliminare da solo, può esigere dal locatore che elimini il difetto, riduca proporzionalmente la pigione, Le risarcisca il danno subito, oppure assuma una lite con un terzo coinvolto. Per un appartamento o una casa può inoltre, a determinate condizioni, depositare la pigione. Questi diritti non si escludono a vicenda. Può per esempio chiedere l'eliminazione e, per il periodo fino ad allora, una riduzione della pigione.",
-        "en": "For a defect that you did not cause and are not required to fix yourself, you can ask the landlord to remedy the defect, reduce the rent proportionately, compensate you for the loss you suffered, or take over a dispute with a third party involved. For a flat or house, under certain conditions you can also deposit the rent. These rights are not mutually exclusive. You can, for example, ask for the defect to be fixed and, for the time until it is, a reduction of the rent."
+        "en": "For a defect that you did not cause and are not required to fix yourself, you can ask the landlord to remedy the defect, reduce the rent proportionately, compensate you for the loss you suffered, or take over a dispute with a third party involved. For a flat or house, under certain conditions you can also deposit the rent. These rights are not mutually exclusive. You can, for example, ask for the defect to be fixed and, for the time until it is, a reduction of the rent.",
+        "rm": "Tar in defect che Vus n'avais betg chaschunà Vus sez e che Vus na stuais betg sanar Vus sez, pudais Vus pretender dal locatur ch'el sana il defect, ch'el reducia il tschains da locaziun proporziunalmain, ch'el Vus indemnisescha il donn resultà, u ch'el surpiglia in dispita giuridica cun ina terza persuna participada. Tar in'abitaziun u ina chasa pudais Vus, sut tschertas premissas, ultra da quai depositar il tschains da locaziun. Quests dretgs n'exclúdan ins l'auter. Vus pudais per exempel pretender la sanaziun ed en il medem temp ina reducziun dal tschains per il temp enfin lura."
       },
       "sources": [
         "or-259a"
@@ -352,7 +388,8 @@
         "de": "Beeinträchtigt der Mangel den vertragsgemässen Gebrauch der Wohnung, können Sie eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Es spielt keine Rolle, ob er es von Ihnen, vom Hauswart oder auf anderem Weg erfahren hat. Ein Verschulden des Vermieters ist nicht nötig.",
         "fr": "Si le défaut entrave l'usage du logement conforme au contrat, vous pouvez demander une réduction proportionnelle du loyer. Elle court dès que le bailleur est informé du défaut et dure jusqu'à la réparation. Peu importe qu'il l'ait appris de vous, du concierge ou d'une autre manière. Une faute du bailleur n'est pas nécessaire.",
         "it": "Se il difetto pregiudica l'uso pattuito dell'appartamento, Lei può chiedere una riduzione proporzionale della pigione. Essa vale dal momento in cui il locatore è venuto a conoscenza del difetto fino alla sua eliminazione. Non ha importanza se lo ha saputo da Lei, dal portinaio o in altro modo. Non è necessaria una colpa del locatore.",
-        "en": "If the defect affects your contractual use of the flat, you can ask for a proportionate reduction of the rent. It applies from the moment the landlord learned of the defect until it is fixed. It makes no difference whether he learned of it from you, from the caretaker, or in some other way. The landlord does not need to be at fault."
+        "en": "If the defect affects your contractual use of the flat, you can ask for a proportionate reduction of the rent. It applies from the moment the landlord learned of the defect until it is fixed. It makes no difference whether he learned of it from you, from the caretaker, or in some other way. The landlord does not need to be at fault.",
+        "rm": "Restrenscha il defect l'utilisaziun contractuala da l'abitaziun, pudais Vus pretender ina reducziun proporziunala dal tschains da locaziun. Ella vala dapi il mument cur ch'il locatur ha vegnì a savair dal defect, enfin ch'il defect è sanà. Na fa nagina differenza, sch'el l'ha vegnì a savair da Vus, dal pedel u sin auter via. Ina culpa dal locatur n'è betg necessaria."
       },
       "sources": [
         "or-259d"
@@ -372,7 +409,8 @@
         "de": "Wie viel? Verglichen wird der Wert der Wohnung mit dem Mangel mit ihrem Wert ohne Mangel. Um diesen Anteil sinkt die Miete. Oft lässt sich das nicht genau berechnen. Die Gerichte schätzen die Herabsetzung dann nach der Lebenserfahrung und nach vergleichbaren Fällen. Schmälert ein kleiner Mangel den Gebrauch um weniger als etwa 5 Prozent, gibt es in der Regel keine Herabsetzung. Anders ist es, wenn er lange andauert, obwohl der Vermieter davon weiss.",
         "fr": "Combien ? On compare la valeur du logement avec le défaut à sa valeur sans le défaut. C'est de cette proportion que le loyer baisse. Souvent, cela ne peut pas être calculé exactement. Les tribunaux estiment alors la réduction selon l'expérience générale et des cas comparables. Si un petit défaut réduit l'usage de moins d'environ 5 pour cent, il n'y a en règle générale pas de réduction. Il en va autrement s'il dure longtemps alors que le bailleur en a connaissance.",
         "it": "Quanto? Si confronta il valore dell'appartamento con il difetto con il suo valore senza il difetto. La pigione scende di questa quota. Spesso non è possibile calcolarlo con esattezza. I tribunali stimano allora la riduzione secondo l'esperienza generale e casi comparabili. Se un piccolo difetto riduce l'uso di meno di circa il 5 per cento, di regola non c'è alcuna riduzione. È diverso se il difetto dura a lungo, pur essendo noto al locatore.",
-        "en": "How much? The value of the flat with the defect is compared with its value without the defect. The rent falls by that proportion. This often cannot be calculated exactly. Courts then estimate the reduction based on experience and comparable cases. If a minor defect reduces use by less than about 5 percent, there is generally no reduction. It is different if the defect lasts a long time despite the landlord knowing about it."
+        "en": "How much? The value of the flat with the defect is compared with its value without the defect. The rent falls by that proportion. This often cannot be calculated exactly. Courts then estimate the reduction based on experience and comparable cases. If a minor defect reduces use by less than about 5 percent, there is generally no reduction. It is different if the defect lasts a long time despite the landlord knowing about it.",
+        "rm": "Quant? Ins cumpara la valur da l'abitaziun cun il defect cun sia valur senza defect. Per questa part calla il tschains. Savens n'è quai betg calculabel exactamain. Las dretgiras stimman lura la reducziun tenor l'experientscha da vita e tenor cas cumparabels. Restrenscha in pitschen defect l'utilisaziun per damain che radund 5 pertschient, na dat ei per regla nagina reducziun. Auter è, sch'el dura ditg, malgrà che il locatur al sa."
       },
       "sources": [
         "or-259d",
@@ -394,7 +432,8 @@
         "de": "Kürzen Sie die Miete nicht einfach selbst. Ist Ihr Abzug zu hoch oder nicht berechtigt, sind Sie mit der Differenz im Zahlungsrückstand, und der Vermieter kann Ihnen deswegen kündigen. Sicherer ist dieser Weg: Verlangen Sie die Herabsetzung schriftlich, zahlen Sie die Miete weiter voll und fordern Sie den zu viel bezahlten Betrag zurück, wenn nötig über die Schlichtungsbehörde. Solange der Vermieter den Mangel nicht behebt, können Sie ausserdem die Miete hinterlegen.",
         "fr": "Ne réduisez pas le loyer vous-même sans autre. Si votre déduction est trop élevée ou injustifiée, vous êtes en retard de paiement pour la différence, et le bailleur peut vous résilier le bail pour ce motif. La voie plus sûre est celle-ci : demandez la réduction par écrit, continuez à payer le loyer intégralement et réclamez le montant payé en trop, au besoin par la voie de l'autorité de conciliation. Tant que le bailleur ne répare pas le défaut, vous pouvez en outre consigner le loyer.",
         "it": "Non riduca semplicemente da solo la pigione. Se la Sua trattenuta è troppo alta o non giustificata, Lei è in mora per la differenza, e il locatore può disdirLe il contratto per questo motivo. Più sicuro è questo percorso: chieda la riduzione per scritto, continui a pagare integralmente la pigione ed esiga la restituzione dell'importo pagato in eccesso, se necessario tramite l'autorità di conciliazione. Finché il locatore non elimina il difetto, può inoltre depositare la pigione.",
-        "en": "Do not simply cut the rent yourself. If your deduction is too high or not justified, you fall into arrears for the difference, and the landlord can give you notice of termination for that. This is the safer approach: ask for the reduction in writing, keep paying the rent in full, and claim back the amount overpaid, if necessary through the conciliation authority. As long as the landlord does not remedy the defect, you can also deposit the rent."
+        "en": "Do not simply cut the rent yourself. If your deduction is too high or not justified, you fall into arrears for the difference, and the landlord can give you notice of termination for that. This is the safer approach: ask for the reduction in writing, keep paying the rent in full, and claim back the amount overpaid, if necessary through the conciliation authority. As long as the landlord does not remedy the defect, you can also deposit the rent.",
+        "rm": "Na reducai betg simplamain il tschains Vus sez. Sche Voss deducziun è memia auta u betg giustifitgada, essas Vus en retard da pajament cun la differenza, e il locatur po pervi da quai disdir a Vus. Pli segir è quest chaminar: pretendai la reducziun per scrit, pajai il tschains vinavant entiramain e pretendai enavos la summa surpajada, sche necessari tras l'autoritad da mediaziun. Uschè ditg ch'il locatur na sana betg il defect, pudais Vus ultra da quai depositar il tschains."
       },
       "sources": [
         "or-259d",
@@ -415,7 +454,8 @@
         "de": "Die Herabsetzung können Sie auch noch verlangen, wenn der Mangel inzwischen behoben ist oder Sie schon ausgezogen sind. Zu viel bezahlte Miete können Sie während fünf Jahren zurückfordern. Das gilt aber nicht ohne Weiteres für eine Zeit, in der Sie den Mangel nie beanstandet und die Miete ohne Vorbehalt gezahlt haben. Dann darf der Vermieter annehmen, Sie seien damit einverstanden gewesen. Beanstanden Sie einen störenden Mangel deshalb früh und schriftlich.",
         "fr": "Vous pouvez aussi demander la réduction si le défaut a entre-temps été réparé ou si vous avez déjà déménagé. Vous pouvez réclamer le loyer payé en trop pendant cinq ans. Cela ne vaut toutefois pas sans autre pour une période durant laquelle vous n'avez jamais contesté le défaut et avez payé le loyer sans réserve. Le bailleur peut alors supposer que vous étiez d'accord. Contestez donc tôt et par écrit un défaut qui vous dérange.",
         "it": "Può chiedere la riduzione anche se nel frattempo il difetto è stato eliminato o Lei è già traslocato. Può chiedere la restituzione della pigione pagata in eccesso per cinque anni. Questo non vale però senz'altro per un periodo in cui non ha mai contestato il difetto e ha pagato la pigione senza riserve. In tal caso il locatore può presumere che Lei fosse d'accordo. Contesti quindi presto e per scritto un difetto fastidioso.",
-        "en": "You can still ask for the reduction even if the defect has since been fixed or you have already moved out. You can claim back overpaid rent for five years. This does not automatically apply, though, to a period in which you never objected to the defect and paid the rent without reservation. The landlord may then assume you agreed to it. So object to a disruptive defect early and in writing."
+        "en": "You can still ask for the reduction even if the defect has since been fixed or you have already moved out. You can claim back overpaid rent for five years. This does not automatically apply, though, to a period in which you never objected to the defect and paid the rent without reservation. The landlord may then assume you agreed to it. So object to a disruptive defect early and in writing.",
+        "rm": "La reducziun pudais Vus pretender er anc, sch'il defect è entretant sanà u sche Vus essas gia sortids. Tschains surpajà pudais Vus pretender enavos durant tschintg onns. Quai na vala dentant betg senza auter per in temp, en il qual Vus n'avais mai contestà il defect ed avais pajà il tschains senza resalva. Lura po il locatur supponer che Vus fussas d'accord cun quai. Contestai perquai in defect disturbant baud e per scrit."
       },
       "sources": [
         "or-259d",
@@ -437,7 +477,8 @@
         "de": "Hat Ihnen der Mangel zusätzliche Kosten verursacht, zum Beispiel für eine Ersatzunterkunft, für Arztbesuche oder für den Strom von Trocknungsgeräten, muss der Vermieter diese ersetzen, wenn er nicht beweisen kann, dass ihn kein Verschulden trifft. Bewahren Sie alle Belege auf. Dieser Anspruch kommt zur Herabsetzung der Miete hinzu.",
         "fr": "Si le défaut vous a causé des frais supplémentaires, par exemple pour un logement de remplacement, des consultations médicales ou l'électricité d'appareils de séchage, le bailleur doit vous les rembourser s'il ne peut pas prouver qu'aucune faute ne lui est imputable. Conservez tous les justificatifs. Cette prétention s'ajoute à la réduction du loyer.",
         "it": "Se il difetto Le ha causato costi supplementari, per esempio per un alloggio sostitutivo, per visite mediche o per la corrente di apparecchi di essiccazione, il locatore deve risarcirli, a meno che non possa provare di non averne colpa. Conservi tutti i giustificativi. Questa pretesa si aggiunge alla riduzione della pigione.",
-        "en": "If the defect caused you extra costs, for example for alternative accommodation, medical visits, or the electricity for drying equipment, the landlord must compensate you for these unless he can prove he was not at fault. Keep all receipts. This claim comes on top of the reduction of the rent."
+        "en": "If the defect caused you extra costs, for example for alternative accommodation, medical visits, or the electricity for drying equipment, the landlord must compensate you for these unless he can prove he was not at fault. Keep all receipts. This claim comes on top of the reduction of the rent.",
+        "rm": "Ha il defect chaschunà a Vus custs supplementars, per exempel per in agid d'abitar provisoric, per visitas dal medi u per la correlia d'apparats da secar, sto il locatur quels indemnisar, sch'el na po betg cumprovar che nagina culpa al tutgia. Conservai tut las cumprovas. Questa pretensiun vegn supplementarmain a la reducziun dal tschains."
       },
       "sources": [
         "or-259e"
@@ -461,7 +502,8 @@
         "de": "Behebt der Vermieter einen Mangel, von dem er weiss, nicht innert angemessener Frist, haben Sie weitere Möglichkeiten. Ist die Wohnung wegen des Mangels nicht mehr bewohnbar oder nur noch stark eingeschränkt nutzbar, können Sie fristlos kündigen, und zwar schriftlich. Ist der Mangel weniger gravierend, dürfen Sie ihn auf Kosten des Vermieters von einer Fachperson beheben lassen. Beide Schritte sind riskant: Fehlen die Voraussetzungen, ist die Kündigung unwirksam oder Sie bleiben auf den Kosten sitzen. Lassen Sie sich vorher beraten.",
         "fr": "Si le bailleur ne répare pas, dans un délai raisonnable, un défaut dont il a connaissance, vous avez d'autres possibilités. Si le logement n'est plus habitable à cause du défaut, ou seulement utilisable de manière fortement restreinte, vous pouvez résilier le bail avec effet immédiat, par écrit. Si le défaut est moins grave, vous pouvez le faire réparer par un spécialiste aux frais du bailleur. Ces deux démarches sont risquées : si les conditions font défaut, le congé est sans effet ou vous restez avec les frais. Faites-vous conseiller auparavant.",
         "it": "Se il locatore, pur essendo a conoscenza di un difetto, non lo elimina entro un termine adeguato, Lei ha altre possibilità. Se a causa del difetto l'appartamento non è più abitabile o lo è solo in modo fortemente limitato, può recedere senza preavviso dal contratto, per scritto. Se il difetto è meno grave, può farlo eliminare a spese del locatore da una persona specializzata. Entrambi i passi sono rischiosi: se mancano i presupposti, la disdetta è inefficace oppure resta a Suo carico il costo. Si faccia consigliare prima.",
-        "en": "If the landlord fails to remedy a defect he knows about within a reasonable time, you have further options. If the flat has become uninhabitable, or usable only to a severely limited extent, because of the defect, you can terminate the lease with immediate effect, in writing. If the defect is less serious, you may have it fixed by a specialist at the landlord's expense. Both steps carry risk: if the requirements are not met, the termination is ineffective, or you are left with the costs. Get advice first."
+        "en": "If the landlord fails to remedy a defect he knows about within a reasonable time, you have further options. If the flat has become uninhabitable, or usable only to a severely limited extent, because of the defect, you can terminate the lease with immediate effect, in writing. If the defect is less serious, you may have it fixed by a specialist at the landlord's expense. Both steps carry risk: if the requirements are not met, the termination is ineffective, or you are left with the costs. Get advice first.",
+        "rm": "Sana il locatur betg entaifer in termin adequat in defect ch'el enconuscha, avais Vus ulteriuras pussibladads. N'è l'abitaziun betg pli abitabla pervi dal defect u mo pli utilisabla en moda fitg restrenschida, pudais Vus disdir senza termin, e quai per scrit. È il defect damain grave, dastgais Vus al laschar sanar a spesas dal locatur tras ina persuna spezialisada. Ils dus pass èn arriscads: mancan las premissas, è la disditga nunvalaivla u Vus restais sin ils custs. Laschai Vus consultar ordavant."
       },
       "sources": [
         "or-259b",
@@ -486,7 +528,8 @@
         "de": "Reagiert der Vermieter nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten Stelle hinterlegen. Welche Stelle das ist, erfahren Sie bei der Schlichtungsbehörde. Hält der Vermieter die Frist für zu kurz, muss er Ihnen das sagen. Läuft die Frist ungenutzt ab, kündigen Sie ihm die Hinterlegung schriftlich an und zahlen die Miete an diese Stelle statt an ihn. Sie dürfen die ganze Miete hinterlegen, auch die fest vereinbarten Nebenkosten, unabhängig davon, wie schwer der Mangel ist. Die hinterlegte Miete gilt als bezahlt. Die Hinterlegung dient dazu, die Behebung durchzusetzen. Sie ist deshalb nur möglich, solange der Mangel besteht und Sie seine Behebung verlangen.",
         "fr": "Si le bailleur ne réagit pas, vous pouvez lui fixer par écrit un délai raisonnable pour remédier au défaut et le menacer de consigner les loyers futurs auprès de l'office désigné par le canton. Vous apprendrez quel est cet office auprès de l'autorité de conciliation. Si le bailleur estime le délai trop court, il doit vous le dire. Si le délai expire sans résultat, annoncez-lui par écrit la consignation et versez le loyer à cet office plutôt qu'à lui. Vous pouvez consigner tout le loyer, y compris les acomptes de frais accessoires fixés, indépendamment de la gravité du défaut. Le loyer consigné est réputé payé. La consignation sert à faire aboutir la remise en état. Elle n'est donc possible que tant que le défaut existe et que vous en demandez la réparation.",
         "it": "Se il locatore non reagisce, può fissargli per scritto un termine adeguato per l'eliminazione e avvertirlo che depositerà le pigioni future presso l'ufficio designato dal Cantone. Quale sia questo ufficio, lo saprà dall'autorità di conciliazione. Se il locatore ritiene il termine troppo breve, deve dirglielo. Se il termine scade infruttuosamente, gli annunci per scritto il deposito e versi la pigione a questo ufficio invece che a lui. Può depositare l'intera pigione, comprese le spese accessorie pattuite in modo fisso, indipendentemente dalla gravità del difetto. La pigione depositata è considerata pagata. Il deposito serve a far valere l'eliminazione. È quindi possibile solo finché il difetto persiste e Lei ne chiede l'eliminazione.",
-        "en": "If the landlord does not respond, you can set him a reasonable written deadline to remedy the defect and warn him that you will deposit future rent payments with the office designated by the canton. You can find out which office this is from the conciliation authority. If the landlord considers the deadline too short, he must tell you so. If the deadline passes without result, give him written notice that you are depositing the rent, and pay it to that office instead of to him. You may deposit the whole rent, including any fixed accessory charges, whatever the seriousness of the defect. Rent paid on deposit counts as paid. Depositing the rent is meant to enforce the repair, so it is only possible for as long as the defect exists and you are asking for it to be fixed."
+        "en": "If the landlord does not respond, you can set him a reasonable written deadline to remedy the defect and warn him that you will deposit future rent payments with the office designated by the canton. You can find out which office this is from the conciliation authority. If the landlord considers the deadline too short, he must tell you so. If the deadline passes without result, give him written notice that you are depositing the rent, and pay it to that office instead of to him. You may deposit the whole rent, including any fixed accessory charges, whatever the seriousness of the defect. Rent paid on deposit counts as paid. Depositing the rent is meant to enforce the repair, so it is only possible for as long as the defect exists and you are asking for it to be fixed.",
+        "rm": "Na reagescha il locatur betg, pudais Vus al fixar per scrit in termin adequat per la sanaziun e minatschar che Vus depositais ils tschains futurs tar il post designà dal chantun. Tge post che quai è, savais Vus dumandar tar l'autoritad da mediaziun. Tegna il locatur il termin per memia curt, sto el Vus quai comunitgar. Scada il termin senza resultat, annunziai al locatur per scrit il deposit e pajai il tschains a quest post empè ad el. Vus dastgais depositar il tschains cumplet, era ils custs accessoris fixads, independentamain da quant grev ch'il defect è. Il tschains deposità vala sco pajà. Il deposit serva a far valair la sanaziun. El è perquai mo pussibel, uschè ditg ch'il defect exista e che Vus pretendais sia sanaziun."
       },
       "sources": [
         "or-259g",
@@ -513,7 +556,8 @@
         "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Hinterlegen dürfen Sie nur Mieten, die noch nicht fällig sind. Eine bereits fällige Miete gilt durch die Hinterlegung nicht als bezahlt, und Sie riskieren eine Kündigung wegen Zahlungsrückstand. Zudem müssen Sie sich mit Ihren Ansprüchen innert 30 Tagen an die Schlichtungsbehörde wenden. Die Frist beginnt, sobald die erste hinterlegte Miete fällig wird. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung.",
         "fr": "La consignation n'est valable que si vous accomplissez les deux étapes par écrit, dans le bon ordre : d'abord la fixation du délai avec menace, puis seulement, une fois le délai expiré sans résultat, l'annonce de la consignation. Vous ne pouvez consigner que des loyers pas encore échus. Un loyer déjà échu n'est pas réputé payé par la consignation, et vous risquez un congé pour retard de paiement. Vous devez en outre saisir l'autorité de conciliation de vos prétentions dans les 30 jours. Le délai commence dès que le premier loyer consigné devient exigible. Si vous ne le faites pas à temps, l'argent consigné revient au bailleur. En raison de ces exigences de forme strictes, une consultation personnelle vaut la peine avant une consignation.",
         "it": "Il deposito è valido solo se compie entrambi i passi per scritto, nell'ordine corretto: prima la fissazione del termine con la minaccia, poi, solo dopo la scadenza infruttuosa del termine, l'annuncio del deposito. Può depositare solo pigioni non ancora scadute. Una pigione già scaduta non è considerata pagata con il deposito, e Lei rischia una disdetta per mora nel pagamento. Deve inoltre rivolgersi con le Sue pretese all'autorità di conciliazione entro 30 giorni. Il termine inizia a decorrere non appena scade la prima pigione depositata. Se non lo fa in tempo, il denaro depositato spetta al locatore. Data queste severe prescrizioni di forma, prima di un deposito conviene una consulenza personale.",
-        "en": "The deposit is only valid if you take both steps in writing and in the right order: first the deadline with the warning, then, only once the deadline has passed without result, the notice that you are depositing the rent. You may only deposit rent that is not yet due. Rent that is already due does not count as paid through the deposit, and you risk a notice of termination for arrears. You must also take your claims to the conciliation authority within 30 days. This deadline starts as soon as the first deposited rent falls due. If you do not do this in time, the deposited money goes to the landlord. Because of these strict formal requirements, personal advice is worthwhile before depositing rent."
+        "en": "The deposit is only valid if you take both steps in writing and in the right order: first the deadline with the warning, then, only once the deadline has passed without result, the notice that you are depositing the rent. You may only deposit rent that is not yet due. Rent that is already due does not count as paid through the deposit, and you risk a notice of termination for arrears. You must also take your claims to the conciliation authority within 30 days. This deadline starts as soon as the first deposited rent falls due. If you do not do this in time, the deposited money goes to the landlord. Because of these strict formal requirements, personal advice is worthwhile before depositing rent.",
+        "rm": "Il deposit è mo valaivel, sche Vus fais ils dus pass per scrit, en l'urden gist: emprim la fixaziun dal termin cun minatscha, lura pir, suenter la scadenza senza resultat dal termin, l'annunzia dal deposit. Depositar dastgais Vus mo tschains che n'èn anc betg scadids. In tschains gia scadì na vala betg sco pajà tras il deposit, e Vus arriscais ina disditga pervi da retard da pajament. Ultra da quai stuais Vus Vus drizzar cun Voss pretensiuns entaifer 30 dis a l'autoritad da mediaziun. Il termin cumenza, uschespert ch'il emprim tschains deposità scada. Na fais Vus quai betg a temp, croda il daner deposità al locatur. Pervi da questas prescripziuns da furma severas vala la paina ina consulaziun persunala avant in deposit."
       },
       "sources": [
         "or-259g",
@@ -539,7 +583,8 @@
         "de": "Stellt sich später heraus, dass kein Mangel bestand, den der Vermieter hätte beheben müssen, schützt Sie die Hinterlegung trotzdem, wenn Sie in guten Treuen davon ausgegangen sind. Die Miete gilt dann als bezahlt, und eine Kündigung wegen Zahlungsrückstand ist ungültig. Hinterlegen Sie aber nie, nur um Druck zu machen, wenn Sie selbst nicht an einen Mangel glauben.",
         "fr": "S'il s'avère plus tard qu'il n'y avait aucun défaut que le bailleur aurait dû réparer, la consignation vous protège quand même si vous étiez de bonne foi. Le loyer est alors réputé payé, et un congé pour retard de paiement est invalide. Mais ne consignez jamais seulement pour faire pression, si vous ne croyez pas vous-même à un défaut.",
         "it": "Se in seguito risulta che non c'era alcun difetto che il locatore avrebbe dovuto eliminare, il deposito La protegge comunque, se Lei era in buona fede convinto che ci fosse. La pigione è allora considerata pagata, e una disdetta per mora nel pagamento è invalida. Non depositi però mai solo per fare pressione, se Lei stesso non crede a un difetto.",
-        "en": "If it later turns out that there was no defect that the landlord should have remedied, the deposit still protects you if you acted in good faith. The rent then counts as paid, and a notice of termination for arrears is invalid. Never deposit rent, though, just to put on pressure, if you do not yourself believe there is a defect."
+        "en": "If it later turns out that there was no defect that the landlord should have remedied, the deposit still protects you if you acted in good faith. The rent then counts as paid, and a notice of termination for arrears is invalid. Never deposit rent, though, just to put on pressure, if you do not yourself believe there is a defect.",
+        "rm": "Sa mussa pli tard ch'i n'exista nagin defect ch'il locatur avess stuì sanar, protegia il deposit Vus tuttina, sche Vus essas partì da quai en buna fai. Il tschains vala lura sco pajà, ed ina disditga pervi da retard da pajament è nunvalaivla. Na depositai dentant mai mo per far pressiun, sche Vus sez na crajais betg ad in defect."
       },
       "sources": [
         "or-259g",
@@ -559,7 +604,8 @@
         "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie in guten Treuen die Behebung eines Mangels oder eine Herabsetzung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während eines Verfahrens vor der Schlichtungsbehörde oder dem Gericht oder innert drei Jahren danach, wenn der Vermieter zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
         "fr": "Le bailleur ne peut pas vous résilier le bail parce que vous demandez de bonne foi la réparation d'un défaut ou une réduction. Un tel congé est contestable. Est aussi contestable un congé donné pendant une procédure devant l'autorité de conciliation ou le tribunal, ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu.",
         "it": "Il locatore non può disdirLe il contratto perché Lei chiede in buona fede l'eliminazione di un difetto o una riduzione. Una simile disdetta è contestabile. È contestabile anche una disdetta data durante un procedimento davanti all'autorità di conciliazione o al tribunale, o entro tre anni dopo, se il locatore vi è risultato ampiamente soccombente, ha ceduto o si è accordato con Lei. Questa protezione non vale per tutte le disdette, per esempio non per la mora nel pagamento. Contro una disdetta deve presentare una propria contestazione entro 30 giorni dalla ricezione.",
-        "en": "The landlord may not give you notice of termination because you ask, in good faith, for a defect to be remedied or for a reduction. Such a notice can be challenged. A notice given during proceedings before the conciliation authority or the court, or within three years afterwards, can also be challenged if the landlord was largely unsuccessful in the proceedings, gave way, or reached a settlement with you. This protection does not apply to every notice of termination, for example not for arrears. Against a notice of termination you must file your own challenge within 30 days of receiving it."
+        "en": "The landlord may not give you notice of termination because you ask, in good faith, for a defect to be remedied or for a reduction. Such a notice can be challenged. A notice given during proceedings before the conciliation authority or the court, or within three years afterwards, can also be challenged if the landlord was largely unsuccessful in the proceedings, gave way, or reached a settlement with you. This protection does not apply to every notice of termination, for example not for arrears. Against a notice of termination you must file your own challenge within 30 days of receiving it.",
+        "rm": "Il locatur na dastga betg disdir a Vus, perquai che Vus pretendais en buna fai la sanaziun d'in defect u ina reducziun. Ina tala disditga è contestabla. Contestabla è er ina disditga durant ina procedura tar l'autoritad da mediaziun u la dretgira u entaifer trais onns suenter, sche il locatur ha perdì en gronda part, ha cedì u sa ha arrangià cun Vus. Questa protecziun na vala betg tar tut las disditgas, per exempel betg tar retard da pajament. Cunter ina disditga stuais Vus inoltrar entaifer 30 dis suenter la retschavida in'atgna contestaziun."
       },
       "sources": [
         "or-271a",
@@ -584,7 +630,8 @@
         "de": "Einigen Sie sich nicht, können Sie Ihre Ansprüche bei der Schlichtungsbehörde am Ort der Wohnung geltend machen, zum Beispiel die Behebung, die Herabsetzung und die Rückzahlung zu viel bezahlter Miete. Gehen Sie persönlich zur Verhandlung. Sie dürfen eine Vertrauensperson mitnehmen. Bleiben Sie als gesuchstellende Partei fern, gilt Ihr Gesuch als zurückgezogen. Kommt keine Einigung zustande, macht die Behörde entweder einen Urteilsvorschlag, der verbindlich wird, wenn ihn niemand innert 20 Tagen ablehnt, oder sie stellt eine Klagebewilligung aus. Für die Klage beim Gericht haben Sie dann in Mietsachen 30 Tage Zeit. Lesen Sie die Belehrung auf dem Schreiben genau.",
         "fr": "Si vous ne trouvez pas d'accord, vous pouvez faire valoir vos prétentions devant l'autorité de conciliation du lieu où se trouve le logement, par exemple la remise en état, la réduction et le remboursement du loyer payé en trop. Rendez-vous personnellement à l'audience. Vous pouvez vous faire accompagner d'une personne de confiance. Si vous, en tant que partie requérante, ne comparaissez pas, votre requête est réputée retirée. Si aucun accord n'est trouvé, l'autorité fait soit une proposition de décision, qui devient contraignante si personne ne la refuse dans les 20 jours, soit elle délivre une autorisation de procéder. Pour agir en justice, vous avez alors 30 jours en matière de bail. Lisez attentivement les indications figurant sur le courrier.",
         "it": "Se non si trova un accordo, può far valere le Sue pretese presso l'autorità di conciliazione del luogo dove si trova l'appartamento, per esempio l'eliminazione, la riduzione e la restituzione della pigione pagata in eccesso. Si presenti personalmente all'udienza. Può farsi accompagnare da una persona di fiducia. Se Lei, come parte istante, resta assente, la Sua istanza è considerata ritirata. Se non si trova un accordo, l'autorità sottopone una proposta di decisione, che diventa vincolante se nessuno la rifiuta entro 20 giorni, oppure rilascia un'autorizzazione ad agire. Per la causa al tribunale ha allora 30 giorni in materia di locazione. Legga attentamente le istruzioni sullo scritto.",
-        "en": "If you cannot reach agreement, you can bring your claims before the conciliation authority at the location of the flat, for example for the repair, the reduction, and repayment of rent overpaid. Attend the hearing in person. You may bring someone you trust. If you, as the applicant, stay away, your application is deemed withdrawn. If no agreement is reached, the authority either makes a proposed judgment, which becomes binding if no one rejects it within 20 days, or it issues an authorisation to proceed. You then have 30 days to bring an action in court in tenancy matters. Read the notice attached to the letter carefully."
+        "en": "If you cannot reach agreement, you can bring your claims before the conciliation authority at the location of the flat, for example for the repair, the reduction, and repayment of rent overpaid. Attend the hearing in person. You may bring someone you trust. If you, as the applicant, stay away, your application is deemed withdrawn. If no agreement is reached, the authority either makes a proposed judgment, which becomes binding if no one rejects it within 20 days, or it issues an authorisation to proceed. You then have 30 days to bring an action in court in tenancy matters. Read the notice attached to the letter carefully.",
+        "rm": "Na chattais Vus betg in'entesa, pudais Vus far valair Vossas pretensiuns tar l'autoritad da mediaziun al lieu da l'abitaziun, per exempel la sanaziun, la reducziun e la restituziun dal tschains surpajà. Participai persunalmain a l'udienza. Vus dastgais prender cun Vus ina persuna da fiducia. Restais Vus, sco part petenta, absent, vala Vossa dumonda sco retratga. Na vegn nagina entesa a stand, fa l'autoritad ina proposta da sentenzia, che daventa obligatorica, sche nagin na la refusa entaifer 20 dis, u ella emetta ina permissiun da plant. Per la plant tar la dretgira avais Vus lura, en fatgs da locaziun, 30 dis temp. Legiai attentamain l'instrucziun sin la brev."
       },
       "sources": [
         "zpo-204",
@@ -601,7 +648,8 @@
         "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
         "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
         "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
-        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid."
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid.",
+        "rm": "La procedura da mediaziun en fatgs da locaziun è gratuita: i na vegnan drizzads nagins custs giudizials. Igl na dat dentant er nagina indemnisaziun per custs d'advocat. Sche Vus consultais in'advocata u in advocat, purtais Vus quests custs en questa procedura per regla Vus sez. Sche suonda pli tard ina procedura giudiziala, pon resultar custs giudizials ed in'indemnisaziun a la cuntrapart. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zpo-113",
@@ -615,7 +663,8 @@
         "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, fristlos kündigen oder einen Mangel selbst beheben lassen. Ebenso bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, wenn Sie unsicher sind, wie hoch eine angemessene Herabsetzung wäre, oder wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben.",
         "fr": "Demandez une consultation personnelle avant de consigner le loyer, de résilier avec effet immédiat ou de faire réparer un défaut vous-même. De même en cas de risques pour la santé comme la moisissure, si le bailleur menace de résilier, si vous n'avez pas la certitude du montant d'une réduction appropriée, ou si vous avez reçu une proposition de décision ou une autorisation de procéder.",
         "it": "Chieda una consulenza personale prima di depositare la pigione, di recedere senza preavviso o di far eliminare un difetto da solo. Lo stesso vale in caso di rischi per la salute come la muffa, se il locatore minaccia una disdetta, se non è sicuro di quale sia un'entità adeguata di una riduzione, oppure se ha ricevuto una proposta di decisione o un'autorizzazione ad agire.",
-        "en": "Get personal advice before you deposit rent, terminate the lease with immediate effect, or have a defect fixed yourself. Likewise for health risks such as mould, if the landlord threatens notice of termination, if you are unsure how large a reasonable reduction would be, or if you have received a proposed judgment or an authorisation to proceed."
+        "en": "Get personal advice before you deposit rent, terminate the lease with immediate effect, or have a defect fixed yourself. Likewise for health risks such as mould, if the landlord threatens notice of termination, if you are unsure how large a reasonable reduction would be, or if you have received a proposed judgment or an authorisation to proceed.",
+        "rm": "Tschertgai consulaziun persunala, avant che Vus depositais il tschains, disdis senza termin u laschais sanar in defect Vus sez. Uschè er tar rischs per la sanadad sco miifa, sche il locatur minatscha cun ina disditga, sche Vus n'essas betg segirs, quant auta ch'ina reducziun adequata fiss, u sche Vus avais retschavì ina proposta da sentenzia u ina permissiun da plant."
       }
     },
     {
@@ -625,7 +674,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Höhe einer Mietzinsreduktion. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres, aussi sur le montant d'une réduction de loyer. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri, anche sull'entità di una riduzione della pigione. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members, including on the size of a rent reduction. Many cantons and bar associations offer free legal information."
+        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members, including on the size of a rent reduction. Many cantons and bar associations offer free legal information.",
+        "rm": "Agid gratuit u favuraivel: l'autoritad da mediaziun per fatgs da locaziun infurmescha davart la procedura. Associaziuns da locataris consultan lur commembers, er davart l'autezza d'ina reducziun dal tschains. Blers chantuns ed associaziuns d'advocats offran ina infurmaziun giuridica gratuita."
       }
     }
   ],
@@ -860,7 +910,8 @@
         "de": "ch.ch: Wohnen, Mietzins und Mängel",
         "fr": "ch.ch : logement, loyer et défauts",
         "it": "ch.ch: Abitare, pigione e difetti",
-        "en": "ch.ch: Housing, rent and defects"
+        "en": "ch.ch: Housing, rent and defects",
+        "rm": "ch.ch: Abitar, tschains da locaziun e defects"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

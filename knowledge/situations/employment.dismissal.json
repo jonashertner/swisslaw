@@ -9,13 +9,15 @@
     "de": "Mein Arbeitgeber hat mir gekündigt",
     "fr": "Mon employeur a résilié mon contrat de travail",
     "it": "Il mio datore di lavoro mi ha dato la disdetta",
-    "en": "My employer has given me notice"
+    "en": "My employer has given me notice",
+    "rm": "Mes patrun m'ha dà la disditga"
   },
   "summary": {
     "de": "Ihr Arbeitgeber darf Ihnen grundsätzlich frei kündigen. Wichtig sind die richtige Kündigungsfrist, allfällige Sperrfristen bei Krankheit oder Schwangerschaft, und ob die Kündigung missbräuchlich sein könnte. Wollen Sie eine Entschädigung, müssen Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache erheben.",
     "fr": "En principe, votre employeur peut résilier votre contrat de travail librement. Ce qui compte, c’est le respect du bon délai de congé, d’éventuelles périodes de protection en cas de maladie ou de grossesse, et le fait de savoir si le congé pourrait être abusif. Si vous voulez une indemnité, vous devez faire opposition par écrit au congé au plus tard à la fin du délai de congé.",
     "it": "Il suo datore di lavoro può, in linea di principio, darle liberamente la disdetta. Sono importanti il corretto termine di disdetta, gli eventuali periodi di protezione in caso di malattia o gravidanza, e se la disdetta potrebbe essere abusiva. Se vuole un’indennità, deve fare opposizione per scritto al più tardi entro la fine del termine di disdetta.",
-    "en": "In principle, your employer may give you notice freely. What matters is the correct notice period, any proscribed periods during illness or pregnancy, and whether the termination could be wrongful. If you want compensation, you must raise a written objection no later than the end of the notice period."
+    "en": "In principle, your employer may give you notice freely. What matters is the correct notice period, any proscribed periods during illness or pregnancy, and whether the termination could be wrongful. If you want compensation, you must raise a written objection no later than the end of the notice period.",
+    "rm": "Voss patrun po per principi Vus disdir libramain. Impurtants èn il correct termin da disditga, eventuals termins da bloccada en cas da malsogna u gravidanza, e sche la disditga saja eventualmain abusiva. Sche Vus vulais retschaiver in'indemnisaziun, stuais Vus far protesta per scrit al pli tard fin la fin dal termin da disditga."
   },
   "examples": {
     "de": [
@@ -49,6 +51,14 @@
       "I was given notice while I was off sick",
       "Do I have to register with the unemployment office straight away?",
       "I just got fired, what do I do now?"
+    ],
+    "rm": [
+      "Mes patrun m'ha dà la disditga, tge poss jau far?",
+      "Quant lung è mes termin da disditga?",
+      "È mia disditga abusiva?",
+      "Jau hai survegnì la disditga durant ina malsogna",
+      "Stoss jau ma annunziar immediat tar il CIL?",
+      "Jau hai gì la disditga, tge stoss jau far ussa?"
     ]
   },
   "scope": {
@@ -56,13 +66,15 @@
       "de": "Ordentliche Kündigungen durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen (Einzelarbeitsvertrag) in der Schweiz.",
       "fr": "Les résiliations ordinaires par l’employeur dans les rapports de travail de droit privé (contrat individuel de travail) en Suisse.",
       "it": "Le disdette ordinarie date dal datore di lavoro nei rapporti di lavoro di diritto privato (contratto individuale di lavoro) in Svizzera.",
-      "en": "Ordinary notice of termination given by the employer under private-law employment relationships (individual employment contract) in Switzerland."
+      "en": "Ordinary notice of termination given by the employer under private-law employment relationships (individual employment contract) in Switzerland.",
+      "rm": "Disditgas ordinarias dal patrun en relaziuns da lavur da dretg privat (contract individual da lavur) en Svizra."
     },
     "excludes": {
       "de": "Öffentlich-rechtliche Anstellungsverhältnisse bei Bund, Kantonen oder Gemeinden, fristlose Entlassungen, Kündigungen durch Sie selbst, Massenentlassungen und Lehrverhältnisse.",
       "fr": "Les rapports de travail de droit public auprès de la Confédération, des cantons ou des communes, les résiliations immédiates, les résiliations données par vous-même, les licenciements collectifs et les rapports d’apprentissage.",
       "it": "I rapporti d’impiego di diritto pubblico presso Confederazione, Cantoni o Comuni, le risoluzioni immediate, le disdette date da lei stesso, i licenziamenti collettivi e i rapporti di tirocinio.",
-      "en": "Public-law employment relationships with the Confederation, cantons or communes, termination with immediate effect, notice given by you, mass redundancies, and apprenticeships."
+      "en": "Public-law employment relationships with the Confederation, cantons or communes, termination with immediate effect, notice given by you, mass redundancies, and apprenticeships.",
+      "rm": "Relaziuns d'engaschament da dretg public tar la Confederaziun, ils chantuns u las vischnancas, disditgas senza preavis, disditgas dadas da Vus sez, licenziaments en massa e relaziuns d'emprendissadi."
     }
   },
   "facts": [
@@ -72,7 +84,8 @@
         "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
         "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?",
         "it": "Lavora per un datore di lavoro privato o per lo Stato?",
-        "en": "Do you work for a private employer or for the state?"
+        "en": "Do you work for a private employer or for the state?",
+        "rm": "Lavurais Vus per in patrun privat u per il stadi?"
       },
       "options": [
         {
@@ -81,7 +94,8 @@
             "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
             "fr": "Employeur privé (entreprise, association, particulier)",
             "it": "Datore di lavoro privato (azienda, associazione, privato)",
-            "en": "Private employer (company, association, private individual)"
+            "en": "Private employer (company, association, private individual)",
+            "rm": "Patrun privat (interpresa, associaziun, persuna privata)"
           }
         },
         {
@@ -90,7 +104,8 @@
             "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
             "fr": "Confédération, canton, commune ou autre entité publique",
             "it": "Confederazione, Cantone, Comune o un altro ente pubblico",
-            "en": "The Confederation, a canton, a commune or another public body"
+            "en": "The Confederation, a canton, a commune or another public body",
+            "rm": "Confederaziun, chantun, vischnanca u in'autra instanza publica"
           }
         },
         {
@@ -99,7 +114,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -110,7 +126,8 @@
         "de": "Sind Sie noch in der Probezeit?",
         "fr": "Êtes-vous encore en période d’essai ?",
         "it": "È ancora in tempo di prova?",
-        "en": "Are you still in your probation period?"
+        "en": "Are you still in your probation period?",
+        "rm": "Essas Vus anc en il temp da prova?"
       },
       "options": [
         {
@@ -119,7 +136,8 @@
             "de": "Ja",
             "fr": "Oui",
             "it": "Sì",
-            "en": "Yes"
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
@@ -128,7 +146,8 @@
             "de": "Nein",
             "fr": "Non",
             "it": "No",
-            "en": "No"
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
@@ -137,7 +156,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ],
@@ -145,7 +165,8 @@
         "de": "Die Probezeit dauert normalerweise den ersten Monat. Sie kann schriftlich auf höchstens drei Monate verlängert werden.",
         "fr": "Le temps d’essai dure normalement le premier mois. Il peut être prolongé par écrit jusqu’à trois mois au maximum.",
         "it": "Il tempo di prova dura di norma il primo mese. Può essere prolungato per scritto fino a un massimo di tre mesi.",
-        "en": "The probation period normally lasts the first month. It can be extended in writing to no more than three months."
+        "en": "The probation period normally lasts the first month. It can be extended in writing to no more than three months.",
+        "rm": "Il temp da prova dura normalmain il emprim mais. El po vegnir prolungà per scrit fin al maximum trais mais."
       }
     },
     {
@@ -154,7 +175,8 @@
         "de": "Wie lange arbeiten Sie schon für diesen Arbeitgeber?",
         "fr": "Depuis combien de temps travaillez-vous pour cet employeur ?",
         "it": "Da quanto tempo lavora per questo datore di lavoro?",
-        "en": "How long have you already been working for this employer?"
+        "en": "How long have you already been working for this employer?",
+        "rm": "Quant lung lavurais Vus gia per quest patrun?"
       },
       "options": [
         {
@@ -163,7 +185,8 @@
             "de": "Weniger als ein Jahr",
             "fr": "Moins d’un an",
             "it": "Meno di un anno",
-            "en": "Less than one year"
+            "en": "Less than one year",
+            "rm": "Damain che in onn"
           }
         },
         {
@@ -172,7 +195,8 @@
             "de": "Ein bis neun Jahre",
             "fr": "De un à neuf ans",
             "it": "Da uno a nove anni",
-            "en": "One to nine years"
+            "en": "One to nine years",
+            "rm": "In fin nov onns"
           }
         },
         {
@@ -181,7 +205,8 @@
             "de": "Zehn Jahre oder länger",
             "fr": "Dix ans ou plus",
             "it": "Dieci anni o più",
-            "en": "Ten years or more"
+            "en": "Ten years or more",
+            "rm": "Diesch onns u dapli"
           }
         },
         {
@@ -190,7 +215,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -201,7 +227,8 @@
         "de": "Befinden Sie sich gerade in einer besonders geschützten Situation?",
         "fr": "Vous trouvez-vous actuellement dans une situation particulièrement protégée ?",
         "it": "Si trova attualmente in una situazione particolarmente protetta?",
-        "en": "Are you currently in a specially protected situation?"
+        "en": "Are you currently in a specially protected situation?",
+        "rm": "Vus chattais Vus actualmain en ina situaziun spezialmain protegida?"
       },
       "options": [
         {
@@ -210,7 +237,8 @@
             "de": "Krankheit oder Unfall",
             "fr": "Maladie ou accident",
             "it": "Malattia o infortunio",
-            "en": "Illness or accident"
+            "en": "Illness or accident",
+            "rm": "Malsogna u accident"
           }
         },
         {
@@ -219,7 +247,8 @@
             "de": "Schwangerschaft oder ich habe vor kurzem entbunden",
             "fr": "Grossesse ou accouchement récent",
             "it": "Gravidanza, oppure ho partorito da poco",
-            "en": "Pregnancy, or I gave birth recently"
+            "en": "Pregnancy, or I gave birth recently",
+            "rm": "Gravidanza u jau hai gì in affon dacurt"
           }
         },
         {
@@ -228,7 +257,8 @@
             "de": "Obligatorischer Militär-, Schutz- oder Zivildienst",
             "fr": "Service militaire, de protection civile ou civil obligatoire",
             "it": "Servizio militare, di protezione civile o civile obbligatorio",
-            "en": "Compulsory military service, civil defence service or alternative civilian service"
+            "en": "Compulsory military service, civil defence service or alternative civilian service",
+            "rm": "Servetsch militar, da protecziun u civil obligatoric"
           }
         },
         {
@@ -237,7 +267,8 @@
             "de": "Nein, nichts davon",
             "fr": "Non, rien de tout cela",
             "it": "No, niente di tutto ciò",
-            "en": "No, none of these"
+            "en": "No, none of these",
+            "rm": "Na, nagut da quai"
           }
         },
         {
@@ -246,7 +277,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -257,7 +289,8 @@
         "de": "Warum, glauben Sie, wurde Ihnen gekündigt?",
         "fr": "Pour quelle raison pensez-vous que votre contrat a été résilié ?",
         "it": "Secondo lei, perché le è stata data la disdetta?",
-        "en": "Why do you think you were given notice?"
+        "en": "Why do you think you were given notice?",
+        "rm": "Pertge crajais Vus d'avair survegnì la disditga?"
       },
       "options": [
         {
@@ -266,7 +299,8 @@
             "de": "Ich vermute einen unfairen oder unzulässigen Grund",
             "fr": "Je soupçonne un motif déloyal ou inadmissible",
             "it": "Sospetto un motivo ingiusto o inammissibile",
-            "en": "I suspect an unfair or impermissible reason"
+            "en": "I suspect an unfair or impermissible reason",
+            "rm": "Jau suppon in motiv nungist u nunlubì"
           }
         },
         {
@@ -275,7 +309,8 @@
             "de": "Es wurde mir kein Grund genannt",
             "fr": "Aucun motif ne m’a été communiqué",
             "it": "Non mi è stato indicato alcun motivo",
-            "en": "I wasn't given any reason"
+            "en": "I wasn't given any reason",
+            "rm": "Jau n'hai retschet nagin motiv"
           }
         },
         {
@@ -284,7 +319,8 @@
             "de": "Ein gewöhnlicher betrieblicher oder persönlicher Grund",
             "fr": "Un motif ordinaire, d’ordre économique ou personnel",
             "it": "Un motivo aziendale o personale ordinario",
-            "en": "An ordinary operational or personal reason"
+            "en": "An ordinary operational or personal reason",
+            "rm": "In motiv normal d'interpresa u persunal"
           }
         },
         {
@@ -293,7 +329,8 @@
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
             "it": "Non lo so",
-            "en": "I don't know"
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -307,7 +344,8 @@
         "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihre Kündigung meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
         "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique à votre résiliation, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation.",
         "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, per la sua disdetta si applica di regola il diritto pubblico del personale e non il Codice delle obbligazioni. Questa guida non copre questo caso. Si rivolga al servizio giuridico della sua amministrazione, alla sua associazione del personale o a un servizio di consulenza.",
-        "en": "If you work for the Confederation, a canton, a commune or another public body, your notice of termination is usually governed by public-service law, not by the Code of Obligations. This guide does not cover that. Contact your administration's legal service, your staff association or an advice centre."
+        "en": "If you work for the Confederation, a canton, a commune or another public body, your notice of termination is usually governed by public-service law, not by the Code of Obligations. This guide does not cover that. Contact your administration's legal service, your staff association or an advice centre.",
+        "rm": "Sche Vus lavurais per la Confederaziun, in chantun, ina vischnanca u in'autra instanza publica, vala per Vossa disditga il pli savens il dretg public da persunal e betg il Dretg d'obligaziuns (DO). Questa guida na tracta betg quest cas. Contactai il servetsch giuridic da Vossa administraziun, Vossa federaziun professiunala u ina post da consulaziun."
       },
       "when": {
         "employer_type": [
@@ -322,7 +360,8 @@
         "de": "Ausserhalb der Probezeit gilt ohne andere schriftliche Abrede: Im ersten Dienstjahr beträgt die Kündigungsfrist einen Monat, vom zweiten bis und mit dem neunten Dienstjahr zwei Monate, danach drei Monate, jeweils auf das Ende eines Monats. Diese Fristen können durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag geändert werden; auf weniger als einen Monat dürfen sie nur durch Gesamtarbeitsvertrag und nur im ersten Dienstjahr verkürzt werden.",
         "fr": "En dehors du temps d’essai, à défaut d’accord écrit contraire : le délai de congé est d’un mois pendant la première année de service, de deux mois de la deuxième à la neuvième année de service incluse, puis de trois mois ensuite, toujours pour la fin d’un mois. Ces délais peuvent être modifiés par accord écrit, contrat-type de travail ou convention collective ; ils ne peuvent être réduits à moins d’un mois que par convention collective, et seulement pendant la première année de service.",
         "it": "Al di fuori del tempo di prova, senza un altro accordo scritto vale quanto segue: nel primo anno di servizio il termine di disdetta è di un mese, dal secondo al nono anno di servizio incluso di due mesi, in seguito di tre mesi, sempre per la fine di un mese. Questi termini possono essere modificati per accordo scritto, contratto normale di lavoro o contratto collettivo di lavoro; possono essere ridotti a meno di un mese solo mediante contratto collettivo di lavoro e solo nel primo anno di servizio.",
-        "en": "Outside the probation period, unless otherwise agreed in writing: in the first year of service the notice period is one month, from the second to the ninth year of service it is two months, and after that three months, in each case expiring at the end of a month. These periods can be changed by written agreement, standard employment contract or collective employment contract; they may only be shortened to less than one month by collective employment contract, and only in the first year of service."
+        "en": "Outside the probation period, unless otherwise agreed in writing: in the first year of service the notice period is one month, from the second to the ninth year of service it is two months, and after that three months, in each case expiring at the end of a month. These periods can be changed by written agreement, standard employment contract or collective employment contract; they may only be shortened to less than one month by collective employment contract, and only in the first year of service.",
+        "rm": "Ordaifer il temp da prova vala, senza autra cunvegna per scrit: en il emprim onn da servetsch importa il termin da disditga in mais, dal segund fin e cun il novavel onn da servetsch dus mais, suenter trais mais, mintgamai per la fin d'in mais. Quests termins pon vegnir midads tras ina cunvegna per scrit, in contract normal da lavur (CNL) u in contract collectiv da lavur (CCL); a damain che in mais pon els vegnir accurtads mo tras in contract collectiv da lavur e mo en il emprim onn da servetsch."
       },
       "when": {
         "employer_type": [
@@ -345,7 +384,8 @@
         "de": "Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden. Wurde die Probezeit schriftlich verlängert oder wegen Krankheit, Unfall oder einer nicht freiwillig übernommenen gesetzlichen Pflicht verlängert, gilt diese kurze Frist während der ganzen (verlängerten) Probezeit.",
         "fr": "Pendant le temps d’essai, chaque partie peut résilier le contrat en tout temps moyennant un délai de congé de sept jours. Si le temps d’essai a été prolongé par écrit, ou prolongé en raison d’une maladie, d’un accident ou de l’accomplissement non volontaire d’une obligation légale, ce délai court reste applicable pendant tout le temps d’essai (prolongé).",
         "it": "Durante il tempo di prova, il rapporto di lavoro può essere disdetto in ogni momento da entrambe le parti con un termine di disdetta di sette giorni. Se il tempo di prova è stato prolungato per scritto, oppure prolungato a causa di malattia, infortunio o di un obbligo legale non assunto volontariamente, questo breve termine vale per tutto il tempo di prova (prolungato).",
-        "en": "During the probation period, either side may terminate the employment relationship at any time with seven days' notice. If the probation period was extended in writing, or extended because of illness, accident or a legal duty not taken on voluntarily, this short period applies throughout the whole (extended) probation period."
+        "en": "During the probation period, either side may terminate the employment relationship at any time with seven days' notice. If the probation period was extended in writing, or extended because of illness, accident or a legal duty not taken on voluntarily, this short period applies throughout the whole (extended) probation period.",
+        "rm": "Durant il temp da prova po l'relaziun da lavur vegnir disditga da tuttas duas varts en mintga mument cun in termin da disditga da set dis. Sche il temp da prova è vegnì prolungà per scrit u prolungà pervia da malsogna, accident u d'in'obligaziun legala betg surpigliada voluntariamain, vala quest curt termin durant tut il temp da prova (prolungà)."
       },
       "when": {
         "probation": [
@@ -363,7 +403,8 @@
         "de": "Sie können von Ihrem Arbeitgeber verlangen, dass er die Kündigung schriftlich begründet. Verlangen Sie dies schriftlich; er muss Ihnen dann schriftlich antworten.",
         "fr": "Vous pouvez demander à votre employeur qu’il motive le congé par écrit. Faites cette demande par écrit ; il doit alors vous répondre par écrit.",
         "it": "Può esigere dal suo datore di lavoro che motivi la disdetta per scritto. Lo richieda per scritto; il datore di lavoro dovrà quindi risponderle per scritto.",
-        "en": "You can ask your employer to give the reasons for the termination in writing. Make this request in writing; your employer must then reply to you in writing."
+        "en": "You can ask your employer to give the reasons for the termination in writing. Make this request in writing; your employer must then reply to you in writing.",
+        "rm": "Vus pudais pretender da Voss patrun ch'el motivescha la disditga per scrit. Pretendai quai per scrit; el sto lura respunder a Vus per scrit."
       },
       "sources": [
         "or-335"
@@ -376,7 +417,8 @@
         "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt.",
         "fr": "Après le temps d’essai, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail, totale ou partielle, due à une maladie ou un accident non imputable à votre faute (30 jours pendant la première année de service, 90 jours de la deuxième à la cinquième année de service, 180 jours à partir de la sixième année de service), pendant la grossesse et durant les 16 semaines qui suivent l’accouchement, ou pendant que vous accomplissez un service militaire, de protection civile ou civil obligatoire de plus de onze jours (plus quatre semaines avant et après le service). Un congé donné pendant une telle période de protection est nul. Si le congé a été donné juste avant le début de la période de protection, le délai de congé est suspendu et ne reprend son cours qu’à la fin de cette période.",
         "it": "Dopo il tempo di prova, il suo datore di lavoro non può darle la disdetta mentre lei è impedito di lavorare senza sua colpa per malattia o infortunio (30 giorni nel primo anno di servizio, 90 giorni dal secondo al quinto anno di servizio, 180 giorni dal sesto anno di servizio), durante la gravidanza e nelle 16 settimane successive, oppure mentre presta servizio militare, di protezione civile o civile obbligatorio di più di undici giorni (più quattro settimane prima e dopo). Una disdetta data durante uno di questi periodi di protezione è nulla. Se la disdetta è stata data poco prima dell’inizio del periodo di protezione, il decorso del termine di disdetta è sospeso e riprende solo dopo la fine del periodo di protezione.",
-        "en": "After the probation period, your employer may not give notice while you are prevented from working, through no fault of your own, because of illness or accident (30 days in the first year of service, 90 days from the second to the fifth year of service, 180 days from the sixth year of service), during pregnancy and for 16 weeks afterwards, or while you are doing more than eleven days of compulsory military service, civil defence service or alternative civilian service (plus four weeks before and after). Notice given during such a proscribed period is invalid (void). If notice was given shortly before a proscribed period began, the notice period is suspended and only continues once the proscribed period has ended."
+        "en": "After the probation period, your employer may not give notice while you are prevented from working, through no fault of your own, because of illness or accident (30 days in the first year of service, 90 days from the second to the fifth year of service, 180 days from the sixth year of service), during pregnancy and for 16 weeks afterwards, or while you are doing more than eleven days of compulsory military service, civil defence service or alternative civilian service (plus four weeks before and after). Notice given during such a proscribed period is invalid (void). If notice was given shortly before a proscribed period began, the notice period is suspended and only continues once the proscribed period has ended.",
+        "rm": "Suenter il temp da prova na dastga Voss patrun betg dar la disditga, durant in'incapacitad da lavurar senza atgna culpa pervia da malsogna u accident (en il emprim onn da servetsch 30 dis, dal segund fin il tschintgavel onn da servetsch 90 dis, dal sisavel onn da servetsch enavant 180 dis), durant la gravidanza e durant las 16 emnas suenter, u durant che Vus prestais servetsch militar, da protecziun u civil obligatoric da dapli che indesch dis (plus quatter emnas avant e suenter). Ina disditga ch'è vegnida dada durant in tal termin da bloccada è nunvalaivla (nulla). Sche la disditga è vegnida dada curt avant il cumenzament dal termin da bloccada, vegn il decuors dal termin da disditga interrut e cuntinuà mo suenter la fin dal termin da bloccada."
       },
       "when": {
         "protected_situation": [
@@ -401,7 +443,8 @@
         "de": "Während der Probezeit gelten diese Sperrfristen noch nicht. Ihr Arbeitgeber darf Ihnen also auch während einer Krankheit, eines Unfalls oder einer Schwangerschaft in der Probezeit kündigen.",
         "fr": "Pendant le temps d’essai, ces périodes de protection ne s’appliquent pas encore. Votre employeur peut donc résilier le contrat même pendant une maladie, un accident ou une grossesse survenant durant le temps d’essai.",
         "it": "Durante il tempo di prova questi periodi di protezione non si applicano ancora. Il suo datore di lavoro può quindi darle la disdetta anche durante una malattia, un infortunio o una gravidanza nel tempo di prova.",
-        "en": "These proscribed periods do not yet apply during the probation period. So your employer may give you notice during the probation period even if you are ill, have had an accident, or are pregnant."
+        "en": "These proscribed periods do not yet apply during the probation period. So your employer may give you notice during the probation period even if you are ill, have had an accident, or are pregnant.",
+        "rm": "Durant il temp da prova na valan encar betg quests termins da bloccada. Voss patrun dastga uschia dar a Vus la disditga era durant ina malsogna, in accident u ina gravidanza en il temp da prova."
       },
       "when": {
         "protected_situation": [
@@ -424,7 +467,8 @@
         "de": "Eine Kündigung ist missbräuchlich, wenn sie zum Beispiel ausgesprochen wird wegen einer persönlichen Eigenschaft ohne Bezug zur Arbeit, weil Sie ein verfassungsmässiges Recht ausüben, nur um Ihre vertraglichen Ansprüche zu vereiteln, weil Sie nach Treu und Glauben Ansprüche aus dem Arbeitsverhältnis geltend machen, wegen Militär- oder Zivildienst, wegen Gewerkschaftszugehörigkeit oder -tätigkeit, gegen eine gewählte Arbeitnehmervertretung ohne begründeten Anlass, oder im Rahmen einer Massenentlassung ohne vorherige Konsultation der Arbeitnehmenden.",
         "fr": "Un congé est abusif s’il est donné, par exemple, en raison d’une caractéristique personnelle sans rapport avec le travail, parce que vous exercez un droit constitutionnel, uniquement pour empêcher la naissance de vos prétentions contractuelles, parce que vous faites valoir de bonne foi des prétentions découlant du rapport de travail, en raison d’un service militaire ou civil, en raison de votre appartenance ou de votre activité syndicale, contre un représentant élu des travailleurs sans motif justifié, ou dans le cadre d’un licenciement collectif sans consultation préalable des travailleurs.",
         "it": "Una disdetta è abusiva se viene data, ad esempio, per una caratteristica personale senza rapporto con il lavoro, perché lei esercita un diritto costituzionale, soltanto per vanificare le sue pretese contrattuali, perché lei fa valere in buona fede pretese derivanti dal rapporto di lavoro, per il servizio militare o civile, per l’appartenenza sindacale o un’attività sindacale, contro una rappresentanza dei lavoratori eletta senza motivo giustificato, oppure nel quadro di un licenziamento collettivo senza previa consultazione dei lavoratori.",
-        "en": "A termination is wrongful if, for example, it is given because of a personal characteristic that has nothing to do with your work, because you are exercising a constitutional right, solely to prevent your contractual claims from arising, because you are asserting claims from the employment relationship in good faith, because of military or civilian service, because of trade union membership or activity, against an elected employee representative without good reason, or as part of a mass redundancy without prior consultation of the employees."
+        "en": "A termination is wrongful if, for example, it is given because of a personal characteristic that has nothing to do with your work, because you are exercising a constitutional right, solely to prevent your contractual claims from arising, because you are asserting claims from the employment relationship in good faith, because of military or civilian service, because of trade union membership or activity, against an elected employee representative without good reason, or as part of a mass redundancy without prior consultation of the employees.",
+        "rm": "Ina disditga è abusiva sche ella vegn dada per exempel pervia d'ina caracteristica persunala senza connex cun la lavur, perquai ch'Vus exercitais in dretg constituziunal, mo per impedir Vossas pretensiuns contractualas, perquai ch'Vus fceais valair da buna fai pretensiuns da la relaziun da lavur, pervia da servetsch militar u civil, pervia d'appartegnientscha u activitad sindicala, cunter ina represchentanza dals lavurants elegida senza motiv fundà, u en il rom d'in licenziament en massa senza consultaziun anticipada dals lavurants."
       },
       "when": {
         "reason_belief": [
@@ -444,7 +488,8 @@
         "de": "Wird eine Kündigung als missbräuchlich beurteilt, muss die kündigende Partei eine Entschädigung bezahlen. Das Gericht legt die Höhe nach den Umständen fest, höchstens aber sechs Monatslöhne (bei einer missbräuchlichen Kündigung wegen unterlassener Konsultation bei einer Massenentlassung höchstens zwei Monatslöhne).",
         "fr": "Si un congé est jugé abusif, la partie qui l’a donné doit verser une indemnité. Le tribunal en fixe le montant selon les circonstances, mais au maximum six mois de salaire (au maximum deux mois de salaire en cas de congé abusif pour défaut de consultation lors d’un licenciement collectif).",
         "it": "Se una disdetta è giudicata abusiva, la parte che l’ha data deve pagare un’indennità. Il giudice ne fissa l’importo secondo le circostanze, ma al massimo sei mensilità di salario (nel caso di una disdetta abusiva per omessa consultazione in un licenziamento collettivo, al massimo due mensilità di salario).",
-        "en": "If a termination is found to be wrongful, the party that gave notice must pay compensation. The court sets the amount according to the circumstances, but not more than six months' salary (not more than two months' salary where the termination was wrongful because of a failure to consult in a mass redundancy)."
+        "en": "If a termination is found to be wrongful, the party that gave notice must pay compensation. The court sets the amount according to the circumstances, but not more than six months' salary (not more than two months' salary where the termination was wrongful because of a failure to consult in a mass redundancy).",
+        "rm": "Sche ina disditga vegn giuditgada abusiva, sto la vart che ha dà la disditga pajar in'indemnisaziun. La dretgira fixescha l'autezza tenor las circumstanzas, maximalmain dentant ses salaris mensils (tar ina disditga abusiva pervia da consultaziun tralaschada tar in licenziament en massa maximalmain dus salaris mensils)."
       },
       "when": {
         "reason_belief": [
@@ -464,7 +509,8 @@
         "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch.",
         "fr": "Le délai le plus important si vous voulez une indemnité pour congé abusif : faites opposition par écrit au congé auprès de votre employeur, au plus tard à la fin du délai de congé. Si vous ne vous entendez pas ensuite sur la poursuite du rapport de travail, vous devez faire valoir votre prétention à une indemnité par voie judiciaire (déposer une requête de conciliation) dans les 180 jours suivant la fin du rapport de travail, sous peine de péremption.",
         "it": "Il termine più importante se vuole un’indennità per disdetta abusiva: faccia opposizione per scritto alla disdetta presso il suo datore di lavoro al più tardi entro la fine del termine di disdetta. Se poi non vi è accordo sulla continuazione del rapporto di lavoro, deve far valere in giudizio la sua pretesa d’indennità entro 180 giorni dalla cessazione del rapporto di lavoro (presentando un’istanza di conciliazione), altrimenti la pretesa decade.",
-        "en": "The most important deadline if you want compensation for a wrongful termination: raise a written objection to the termination with your employer no later than the end of the notice period. If you and your employer then do not agree to continue the employment relationship, you must bring your claim for compensation before a court within 180 days of the end of the employment relationship (by filing a request for conciliation), or the claim lapses."
+        "en": "The most important deadline if you want compensation for a wrongful termination: raise a written objection to the termination with your employer no later than the end of the notice period. If you and your employer then do not agree to continue the employment relationship, you must bring your claim for compensation before a court within 180 days of the end of the employment relationship (by filing a request for conciliation), or the claim lapses.",
+        "rm": "Il pli impurtant termin, sche Vus vulais in'indemnisaziun pervia d'ina disditga abusiva: fai protesta per scrit tar Voss patrun cunter la disditga al pli tard fin la fin dal termin da disditga. Sch'i na vegn betg accordà suenter in cuntinuaziun da la relaziun da lavur, stuais Vus far valair Vossa pretensiun d'indemnisaziun tras dretgira entaifer 180 dis suenter la fin da la relaziun da lavur (inoltrar ina dumonda da mediaziun), auter vegn la pretensiun a scadair."
       },
       "when": {
         "reason_belief": [
@@ -487,7 +533,8 @@
         "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Ab dann müssen Sie die Kontrollvorschriften befolgen und sich um eine neue Stelle bemühen.",
         "fr": "Inscrivez-vous personnellement le plus tôt possible auprès de l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous demandez l’indemnité de chômage. Dès ce moment, vous devez respecter les prescriptions de contrôle et rechercher activement un nouvel emploi.",
         "it": "Si iscriva di persona il più presto possibile all’ufficio regionale di collocamento (URC), al più tardi il primo giorno per cui rivendica l’indennità di disoccupazione. Da quel momento deve rispettare gli obblighi di controllo e adoperarsi per trovare un nuovo impiego.",
-        "en": "Register in person with the regional employment office (RAV / office régional de placement, ORP) as early as possible, and at the latest on the first day for which you are claiming unemployment benefit. From then on you must comply with the monitoring requirements and look for a new job."
+        "en": "Register in person with the regional employment office (RAV / office régional de placement, ORP) as early as possible, and at the latest on the first day for which you are claiming unemployment benefit. From then on you must comply with the monitoring requirements and look for a new job.",
+        "rm": "Annunziai Vus il pli baud pussibel persunalmain tar il Center regiunal per intermediaziun da lavur (CIL, en tudestg RAV), al pli tard il emprim di per il qual Vus pretendais indemnisaziun da disoccupaziun. Dapi lura stuais Vus resguardar las prescripziuns da controlla e Vus stentar per ina nova plazza."
       },
       "sources": [
         "avig-17"
@@ -500,7 +547,8 @@
         "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung.",
         "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même.",
         "it": "La procedura di conciliazione nelle controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi è gratuita: non vengono riscosse spese processuali. Per le spese della propria assistenza legale, in linea di principio, in questa procedura non è prevista alcuna indennità.",
-        "en": "Conciliation proceedings in employment disputes are free of charge up to a value in dispute of CHF 30,000: no court costs are charged. As a rule, there is no compensation in these proceedings for the cost of your own lawyer."
+        "en": "Conciliation proceedings in employment disputes are free of charge up to a value in dispute of CHF 30,000: no court costs are charged. As a rule, there is no compensation in these proceedings for the cost of your own lawyer.",
+        "rm": "La procedura da mediaziun en dispitas da dretg da lavur fin ina valur litigiusa da 30 000 francs è gratuita: na vegnan chargiads nagins custs giudizials. Per ils custs d'ina atgna advocata u d'in atgn advocat na dat i en questa procedura per principi nagina indemnisaziun."
       },
       "sources": [
         "zpo-113"
@@ -513,7 +561,8 @@
         "de": "Holen Sie rasch persönliche Beratung, wenn die Kündigungsfrist bald endet, wenn grosse Summen im Streit stehen, wenn Ihr Arbeitgeber die Sachlage bestreitet, oder wenn Sie unsicher sind, ob Ihre Situation wirklich geschützt ist.",
         "fr": "Demandez rapidement un conseil personnalisé si le délai de congé arrive bientôt à échéance, si des sommes importantes sont en jeu, si votre employeur conteste les faits, ou si vous doutez que votre situation soit réellement protégée.",
         "it": "Si faccia consigliare rapidamente da un professionista se il termine di disdetta sta per scadere, se sono in gioco importi elevati, se il suo datore di lavoro contesta i fatti, oppure se non è sicuro che la sua situazione sia davvero protetta.",
-        "en": "Get personal advice quickly if the notice period is ending soon, if large sums are in dispute, if your employer disputes the facts, or if you are unsure whether your situation is really protected."
+        "en": "Get personal advice quickly if the notice period is ending soon, if large sums are in dispute, if your employer disputes the facts, or if you are unsure whether your situation is really protected.",
+        "rm": "Procurai svelt ina consulaziun persunala, sche il termin da disditga finescha bainbaud, sche grondas summas èn en dispita, sche Voss patrun contesta la situaziun, u sche Vus avais dubis, sche Vossa situaziun saja propi protegida."
       }
     },
     {
@@ -523,7 +572,8 @@
         "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an.",
         "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail ou d’une consultation juridique gratuite.",
         "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. Molti Cantoni offrono ulteriore aiuto tramite l’ufficio del lavoro o una consulenza giuridica gratuita.",
-        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation) can tell you about the procedure. Trade unions advise their members. Many cantons offer further help through the employment office or a free legal advice service."
+        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation) can tell you about the procedure. Trade unions advise their members. Many cantons offer further help through the employment office or a free legal advice service.",
+        "rm": "Agid gratuit u avantagius: l'autoritad chantunala da mediaziun per dispitas da dretg da lavur infurmescha davart la procedura. Sindicats cusseglieschan lur commembers. Blers chantuns porschan tras l'uffizi da lavur u ina consulaziun giuridica gratuita anc auter agid."
       }
     }
   ],
@@ -613,7 +663,8 @@
         "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz",
         "fr": "ch.ch : Résiliation du contrat de travail en Suisse",
         "it": "ch.ch: Disdetta del contratto di lavoro in Svizzera",
-        "en": "ch.ch: Termination of the employment contract in Switzerland"
+        "en": "ch.ch: Termination of the employment contract in Switzerland",
+        "rm": "ch.ch: Disditga dal contract da lavur en Svizra"
       },
       "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
     },
@@ -622,7 +673,8 @@
         "de": "ch.ch: Arbeitslosigkeit in der Schweiz (Anmeldung beim RAV)",
         "fr": "ch.ch : Chômage en Suisse (inscription à l’ORP)",
         "it": "ch.ch: Disoccupazione in Svizzera (iscrizione all’URC)",
-        "en": "ch.ch: Unemployment in Switzerland (registering with the RAV)"
+        "en": "ch.ch: Unemployment in Switzerland (registering with the RAV)",
+        "rm": "ch.ch: Disoccupaziun en Svizra (annunzia tar il CIL)"
       },
       "url": "https://www.ch.ch/de/versicherungen/arbeitslosenversicherung/"
     }
