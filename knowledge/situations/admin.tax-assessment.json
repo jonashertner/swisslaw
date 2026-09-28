@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich bin mit meiner Steuerveranlagung nicht einverstanden"
+    "de": "Ich bin mit meiner Steuerveranlagung nicht einverstanden",
+    "fr": "Je ne suis pas d’accord avec ma taxation fiscale"
   },
   "summary": {
-    "de": "Gegen eine Steuerveranlagung können Sie innert 30 Tagen nach Zustellung schriftlich Einsprache erheben, bei der direkten Bundessteuer und bei den Kantons- und Gemeindesteuern je einzeln. Die Fristen laufen unabhängig voneinander, auch wenn beide Veranlagungen zusammen kommen."
+    "de": "Gegen eine Steuerveranlagung können Sie innert 30 Tagen nach Zustellung schriftlich Einsprache erheben, bei der direkten Bundessteuer und bei den Kantons- und Gemeindesteuern je einzeln. Die Fristen laufen unabhängig voneinander, auch wenn beide Veranlagungen zusammen kommen.",
+    "fr": "Vous pouvez faire opposition par écrit contre une taxation dans les 30 jours suivant sa notification, séparément pour l’impôt fédéral direct et pour les impôts cantonaux et communaux. Les délais courent indépendamment l’un de l’autre, même si les deux taxations arrivent ensemble."
   },
   "examples": {
     "de": [
@@ -19,51 +21,67 @@
       "Muss ich gegen die Bundessteuer und die Kantonssteuer separat Einsprache erheben?",
       "Ich bi mit minere Veranlagig nöd iverstande, was cha ich mache?",
       "Ich habe einen Abzug vergessen anzugeben, kann ich das noch korrigieren?"
+    ],
+    "fr": [
+      "Je ne suis pas d’accord avec ma taxation fiscale, que puis-je faire ?",
+      "Combien de temps ai-je pour faire réclamation contre la taxation fiscale ?",
+      "J’ai reçu une taxation d’office parce que je n’ai pas remis de déclaration d’impôt.",
+      "Dois-je faire réclamation séparément contre l’impôt fédéral et l’impôt cantonal ?",
+      "Je ne suis pas d’accord avec ma taxation, je fais comment ?",
+      "J’ai oublié de mentionner une déduction, puis-je encore la corriger ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die ordentliche Veranlagung der direkten Bundessteuer sowie der Kantons- und Gemeindesteuern für natürliche Personen in der Schweiz."
+      "de": "Die ordentliche Veranlagung der direkten Bundessteuer sowie der Kantons- und Gemeindesteuern für natürliche Personen in der Schweiz.",
+      "fr": "La taxation ordinaire de l’impôt fédéral direct ainsi que des impôts cantonaux et communaux pour les personnes physiques en Suisse."
     },
     "excludes": {
-      "de": "Die Mehrwertsteuer und andere indirekte Steuern, Erbschafts- und Schenkungssteuern, sowie bereits laufende Nachsteuer- oder Steuerstrafverfahren. Dort gelten teils andere Regeln."
+      "de": "Die Mehrwertsteuer und andere indirekte Steuern, Erbschafts- und Schenkungssteuern, sowie bereits laufende Nachsteuer- oder Steuerstrafverfahren. Dort gelten teils andere Regeln.",
+      "fr": "La taxe sur la valeur ajoutée et les autres impôts indirects, les impôts sur les successions et les donations, ainsi que les procédures de rappel d’impôt ou de procédure pénale fiscale déjà en cours. D’autres règles s’appliquent parfois dans ces cas."
     }
   },
   "facts": [
     {
       "key": "reason",
       "question": {
-        "de": "Womit sind Sie bei der Veranlagung nicht einverstanden?"
+        "de": "Womit sind Sie bei der Veranlagung nicht einverstanden?",
+        "fr": "Avec quoi n’êtes-vous pas d’accord dans la taxation ?"
       },
       "options": [
         {
           "value": "too-high",
           "label": {
-            "de": "Das Einkommen oder Vermögen wurde zu hoch eingeschätzt"
+            "de": "Das Einkommen oder Vermögen wurde zu hoch eingeschätzt",
+            "fr": "Le revenu ou la fortune a été estimé trop haut"
           }
         },
         {
           "value": "missing-deduction",
           "label": {
-            "de": "Ein Abzug wurde nicht berücksichtigt"
+            "de": "Ein Abzug wurde nicht berücksichtigt",
+            "fr": "Une déduction n’a pas été prise en compte"
           }
         },
         {
           "value": "estimated",
           "label": {
-            "de": "Ich habe eine Ermessensveranlagung erhalten, weil keine Steuererklärung vorlag"
+            "de": "Ich habe eine Ermessensveranlagung erhalten, weil keine Steuererklärung vorlag",
+            "fr": "J’ai reçu une taxation d’office, faute de déclaration d’impôt"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Aus einem anderen Grund"
+            "de": "Aus einem anderen Grund",
+            "fr": "Pour un autre motif"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir nicht sicher"
+            "de": "Ich bin mir nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -71,34 +89,40 @@
     {
       "key": "level",
       "question": {
-        "de": "Geht es um die direkte Bundessteuer, die Kantons- und Gemeindesteuern, oder beides?"
+        "de": "Geht es um die direkte Bundessteuer, die Kantons- und Gemeindesteuern, oder beides?",
+        "fr": "S’agit-il de l’impôt fédéral direct, des impôts cantonaux et communaux, ou des deux ?"
       },
       "help": {
-        "de": "Oft kommen beide Veranlagungen zusammen mit der gleichen Post, sind aber rechtlich zwei getrennte Verfügungen."
+        "de": "Oft kommen beide Veranlagungen zusammen mit der gleichen Post, sind aber rechtlich zwei getrennte Verfügungen.",
+        "fr": "Souvent, les deux taxations arrivent avec le même envoi, mais il s’agit juridiquement de deux décisions distinctes."
       },
       "options": [
         {
           "value": "federal",
           "label": {
-            "de": "Nur die direkte Bundessteuer"
+            "de": "Nur die direkte Bundessteuer",
+            "fr": "Seulement l’impôt fédéral direct"
           }
         },
         {
           "value": "cantonal",
           "label": {
-            "de": "Nur die Kantons- und Gemeindesteuern"
+            "de": "Nur die Kantons- und Gemeindesteuern",
+            "fr": "Seulement les impôts cantonaux et communaux"
           }
         },
         {
           "value": "both",
           "label": {
-            "de": "Beides"
+            "de": "Beides",
+            "fr": "Les deux"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -106,25 +130,29 @@
     {
       "key": "penalty",
       "question": {
-        "de": "Geht es zusätzlich um ein Steuerstrafverfahren oder eine Nachsteuer für frühere Jahre?"
+        "de": "Geht es zusätzlich um ein Steuerstrafverfahren oder eine Nachsteuer für frühere Jahre?",
+        "fr": "S’agit-il en plus d’une procédure pénale fiscale ou d’un rappel d’impôt pour des années antérieures ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -135,7 +163,8 @@
       "id": "deadline-note",
       "kind": "rule",
       "text": {
-        "de": "Gegen die Veranlagung können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Das gilt für die direkte Bundessteuer und für die Kantons- und Gemeindesteuern je separat. Die Frist beginnt am Tag nach der Zustellung zu laufen."
+        "de": "Gegen die Veranlagung können Sie innert 30 Tagen nach Zustellung bei der Veranlagungsbehörde schriftlich Einsprache erheben. Das gilt für die direkte Bundessteuer und für die Kantons- und Gemeindesteuern je separat. Die Frist beginnt am Tag nach der Zustellung zu laufen.",
+        "fr": "Vous pouvez faire opposition par écrit contre la taxation, dans les 30 jours suivant sa notification, auprès de l’autorité de taxation. Cela vaut séparément pour l’impôt fédéral direct et pour les impôts cantonaux et communaux. Le délai commence à courir le lendemain de la notification."
       },
       "sources": [
         "dbg-132",
@@ -152,7 +181,8 @@
         ]
       },
       "text": {
-        "de": "Bundessteuer und Kantons- und Gemeindesteuern werden meist zusammen veranlagt und in derselben Sendung eröffnet. Es sind aber zwei getrennte Verfügungen mit je eigener Frist. Wollen Sie sich gegen beide wehren, brauchen Sie grundsätzlich zwei Einsprachen, auch wenn Sie sie in einem einzigen Schreiben zusammenfassen können."
+        "de": "Bundessteuer und Kantons- und Gemeindesteuern werden meist zusammen veranlagt und in derselben Sendung eröffnet. Es sind aber zwei getrennte Verfügungen mit je eigener Frist. Wollen Sie sich gegen beide wehren, brauchen Sie grundsätzlich zwei Einsprachen, auch wenn Sie sie in einem einzigen Schreiben zusammenfassen können.",
+        "fr": "L’impôt fédéral direct et les impôts cantonaux et communaux sont généralement taxés ensemble et notifiés dans le même envoi. Il s’agit toutefois de deux décisions distinctes, chacune avec son propre délai. Si vous voulez vous opposer aux deux, il vous faut en principe deux oppositions, même si vous pouvez les regrouper dans un seul courrier."
       },
       "sources": [
         "dbg-132",
@@ -163,7 +193,8 @@
       "id": "how-to-file",
       "kind": "step",
       "text": {
-        "de": "Reichen Sie die Einsprache schriftlich bei der Veranlagungsbehörde ein, die die Veranlagung erlassen hat. Nennen Sie, was Sie beanstanden und warum. Die Post zählt am letzten Tag der Frist, wenn Sie den Brief bis dahin der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder anerkannten Feiertag, läuft die Frist erst am nächsten Werktag ab."
+        "de": "Reichen Sie die Einsprache schriftlich bei der Veranlagungsbehörde ein, die die Veranlagung erlassen hat. Nennen Sie, was Sie beanstanden und warum. Die Post zählt am letzten Tag der Frist, wenn Sie den Brief bis dahin der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder anerkannten Feiertag, läuft die Frist erst am nächsten Werktag ab.",
+        "fr": "Déposez l’opposition par écrit auprès de l’autorité de taxation qui a rendu la taxation. Indiquez ce que vous contestez et pourquoi. Le délai est respecté si vous remettez la lettre à la Poste Suisse au plus tard le dernier jour du délai. Si le dernier jour tombe un samedi, un dimanche ou un jour férié reconnu, le délai n’expire que le jour ouvrable suivant."
       },
       "sources": [
         "dbg-133"
@@ -178,7 +209,8 @@
         ]
       },
       "text": {
-        "de": "Eine Ermessensveranlagung, also eine Schätzung mangels Steuererklärung, können Sie nur wegen offensichtlicher Unrichtigkeit anfechten. Ihre Einsprache muss begründet sein und die Beweismittel nennen, mit denen Sie die Unrichtigkeit belegen, zum Beispiel die nachgereichte Steuererklärung mit Belegen."
+        "de": "Eine Ermessensveranlagung, also eine Schätzung mangels Steuererklärung, können Sie nur wegen offensichtlicher Unrichtigkeit anfechten. Ihre Einsprache muss begründet sein und die Beweismittel nennen, mit denen Sie die Unrichtigkeit belegen, zum Beispiel die nachgereichte Steuererklärung mit Belegen.",
+        "fr": "Une taxation d’office, c’est-à-dire une estimation faute de déclaration d’impôt, ne peut être contestée que pour cause d’inexactitude manifeste. Votre opposition doit être motivée et indiquer les moyens de preuve permettant d’établir cette inexactitude, par exemple la déclaration d’impôt remise après coup avec les justificatifs."
       },
       "sources": [
         "dbg-132",
@@ -189,7 +221,8 @@
       "id": "late-objection",
       "kind": "rule",
       "text": {
-        "de": "Eine verspätete Einsprache wird bei der direkten Bundessteuer nur noch geprüft, wenn Sie glaubhaft machen, dass Sie durch Militär- oder Zivildienst, Krankheit, Landesabwesenheit oder einen anderen erheblichen Grund an der rechtzeitigen Einreichung gehindert waren, und die Einsprache innert 30 Tagen nach Wegfall dieses Hindernisses einreichen."
+        "de": "Eine verspätete Einsprache wird bei der direkten Bundessteuer nur noch geprüft, wenn Sie glaubhaft machen, dass Sie durch Militär- oder Zivildienst, Krankheit, Landesabwesenheit oder einen anderen erheblichen Grund an der rechtzeitigen Einreichung gehindert waren, und die Einsprache innert 30 Tagen nach Wegfall dieses Hindernisses einreichen.",
+        "fr": "Une opposition tardive n’est encore examinée, pour l’impôt fédéral direct, que si vous rendez vraisemblable que vous avez été empêché de la déposer en temps utile en raison d’un service militaire ou civil, d’une maladie, d’une absence du pays ou d’un autre motif sérieux, et que vous déposez l’opposition dans les 30 jours suivant la disparition de cet empêchement."
       },
       "sources": [
         "dbg-133"
@@ -199,7 +232,8 @@
       "id": "reformatio-in-peius",
       "kind": "warning",
       "text": {
-        "de": "Eine Einsprache kann Ihre Veranlagung auch verschlechtern: Die Behörde prüft den ganzen Fall neu und kann alle Steuerfaktoren neu festsetzen, nicht nur die von Ihnen beanstandeten Punkte. Bevor sie zu Ihrem Nachteil entscheidet, muss sie Sie dazu anhören. Prüfen Sie deshalb vorher, ob Ihr Fall insgesamt wirklich zu Ihren Gunsten ausfallen dürfte."
+        "de": "Eine Einsprache kann Ihre Veranlagung auch verschlechtern: Die Behörde prüft den ganzen Fall neu und kann alle Steuerfaktoren neu festsetzen, nicht nur die von Ihnen beanstandeten Punkte. Bevor sie zu Ihrem Nachteil entscheidet, muss sie Sie dazu anhören. Prüfen Sie deshalb vorher, ob Ihr Fall insgesamt wirklich zu Ihren Gunsten ausfallen dürfte.",
+        "fr": "Une opposition peut aussi aggraver votre taxation : l’autorité réexamine l’ensemble du cas et peut fixer à nouveau tous les éléments de l’impôt, et pas seulement les points que vous avez contestés. Avant de statuer à votre désavantage, elle doit vous entendre. Vérifiez donc au préalable si votre cas devrait vraiment, dans l’ensemble, tourner à votre avantage."
       },
       "sources": [
         "dbg-135",
@@ -210,7 +244,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Einspracheverfahren bei der direkten Bundessteuer ist kostenlos. Bei den Kantons- und Gemeindesteuern regelt jeder Kanton die Kosten des Einspracheverfahrens selbst; meist ist auch dieses Verfahren kostenlos oder jedenfalls günstig. Für ein anschliessendes Beschwerdeverfahren vor Gericht können Kosten anfallen."
+        "de": "Das Einspracheverfahren bei der direkten Bundessteuer ist kostenlos. Bei den Kantons- und Gemeindesteuern regelt jeder Kanton die Kosten des Einspracheverfahrens selbst; meist ist auch dieses Verfahren kostenlos oder jedenfalls günstig. Für ein anschliessendes Beschwerdeverfahren vor Gericht können Kosten anfallen.",
+        "fr": "La procédure d’opposition pour l’impôt fédéral direct est gratuite. Pour les impôts cantonaux et communaux, chaque canton règle lui-même les frais de la procédure d’opposition ; le plus souvent, cette procédure est également gratuite ou en tout cas peu coûteuse. Une procédure de recours ultérieure devant un tribunal peut entraîner des frais."
       },
       "sources": [
         "dbg-135"
@@ -226,21 +261,24 @@
         ]
       },
       "text": {
-        "de": "Für ein Steuerstrafverfahren oder eine Nachsteuer gelten eigene, teils strengere Regeln, zum Beispiel zur Mitwirkungspflicht und zu möglichen Strafen. Holen Sie sich hierfür unbedingt persönliche Beratung."
+        "de": "Für ein Steuerstrafverfahren oder eine Nachsteuer gelten eigene, teils strengere Regeln, zum Beispiel zur Mitwirkungspflicht und zu möglichen Strafen. Holen Sie sich hierfür unbedingt persönliche Beratung.",
+        "fr": "Pour une procédure pénale fiscale ou un rappel d’impôt, des règles propres, parfois plus strictes, s’appliquent, par exemple en matière d’obligation de collaborer et de sanctions possibles. Demandez impérativement un conseil personnalisé dans ce cas."
       }
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie sich Beratung, wenn hohe Beträge im Streit stehen, wenn Sie unsicher sind, ob Ihre Beweismittel ausreichen, oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie sich Beratung, wenn hohe Beträge im Streit stehen, wenn Sie unsicher sind, ob Ihre Beweismittel ausreichen, oder wenn die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez conseil si des montants élevés sont en jeu, si vous n’êtes pas certain que vos moyens de preuve suffisent, ou si le délai arrive à échéance dans quelques jours."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonale Steuerverwaltung, die die Veranlagung erlassen hat, beantwortet Fragen zum Verfahren. Manche Gemeinden bieten eine Steuerberatung für Private an, und Anwaltsverbände vermitteln eine erste, unentgeltliche Rechtsauskunft."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Steuerverwaltung, die die Veranlagung erlassen hat, beantwortet Fragen zum Verfahren. Manche Gemeinden bieten eine Steuerberatung für Private an, und Anwaltsverbände vermitteln eine erste, unentgeltliche Rechtsauskunft.",
+        "fr": "Aide gratuite ou à faible coût : l’administration fiscale cantonale qui a rendu la taxation répond aux questions sur la procédure. Certaines communes proposent un conseil fiscal pour les particuliers, et les associations d’avocats offrent une première consultation juridique gratuite."
       }
     }
   ],
@@ -281,7 +319,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ESTV: Direkte Bundessteuer"
+        "de": "ESTV: Direkte Bundessteuer",
+        "fr": "AFC : Impôt fédéral direct"
       },
       "url": "https://www.estv.admin.ch/de/direkte-bundessteuer"
     }

@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich wurde fristlos entlassen"
+    "de": "Ich wurde fristlos entlassen",
+    "fr": "Mon contrat a été résilié avec effet immédiat"
   },
   "summary": {
-    "de": "Eine fristlose Entlassung beendet das Arbeitsverhältnis sofort, egal ob sie berechtigt war oder nicht. War kein wichtiger Grund vorhanden, haben Sie Anspruch auf den Lohn bis zum Ende der ordentlichen Kündigungsfrist und allenfalls auf eine zusätzliche Entschädigung von bis zu sechs Monatslöhnen."
+    "de": "Eine fristlose Entlassung beendet das Arbeitsverhältnis sofort, egal ob sie berechtigt war oder nicht. War kein wichtiger Grund vorhanden, haben Sie Anspruch auf den Lohn bis zum Ende der ordentlichen Kündigungsfrist und allenfalls auf eine zusätzliche Entschädigung von bis zu sechs Monatslöhnen.",
+    "fr": "Une résiliation immédiate met fin aux rapports de travail sur-le-champ, qu’elle soit justifiée ou non. S’il n’y avait pas de juste motif, vous avez droit au salaire jusqu’à la fin du délai de congé ordinaire, et éventuellement à une indemnité supplémentaire pouvant atteindre six mois de salaire."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Ich han d Stell vo hüt uf morn verlore, isch das erlaubt?",
       "Habe ich Anspruch auf Lohn, obwohl ich fristlos entlassen wurde?",
       "Was ist der Unterschied zwischen Kündigung und fristloser Entlassung?"
+    ],
+    "fr": [
+      "Mon contrat a été résilié avec effet immédiat, que puis-je faire ?",
+      "Je me suis fait virer du jour au lendemain, c’est légal ?",
+      "Ma résiliation immédiate était-elle justifiée ?",
+      "J’ai perdu ma place du jour au lendemain, c’est permis ça ?",
+      "Ai-je droit à mon salaire même si mon contrat a été résilié avec effet immédiat ?",
+      "Quelle est la différence entre un licenciement ordinaire et une résiliation immédiate ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die fristlose Auflösung des Arbeitsverhältnisses durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen in der Schweiz."
+      "de": "Die fristlose Auflösung des Arbeitsverhältnisses durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen in der Schweiz.",
+      "fr": "La résiliation immédiate du contrat de travail par l’employeur, dans les rapports de travail de droit privé en Suisse."
     },
     "excludes": {
-      "de": "Öffentlich-rechtliche Anstellungsverhältnisse, die ordentliche Kündigung mit Kündigungsfrist, und Fälle, in denen Sie selbst die Stelle ohne wichtigen Grund verlassen oder nicht antreten."
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse, die ordentliche Kündigung mit Kündigungsfrist, und Fälle, in denen Sie selbst die Stelle ohne wichtigen Grund verlassen oder nicht antreten.",
+      "fr": "Les rapports de travail de droit public, la résiliation ordinaire avec délai de congé, et les cas où vous quittez vous-même votre emploi sans juste motif ou n’entrez pas en fonction."
     }
   },
   "facts": [
     {
       "key": "employer_type",
       "question": {
-        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
+        "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
+            "fr": "Employeur privé (entreprise, association, particulier)"
           }
         },
         {
           "value": "public",
           "label": {
-            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
+            "fr": "Confédération, canton, commune ou autre entité publique"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "reason_given",
       "question": {
-        "de": "Hat Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung genannt?"
+        "de": "Hat Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung genannt?",
+        "fr": "Votre employeur vous a-t-il communiqué les motifs de la résiliation immédiate ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -85,25 +105,29 @@
     {
       "key": "your_view",
       "question": {
-        "de": "Wie schätzen Sie die fristlose Entlassung ein?"
+        "de": "Wie schätzen Sie die fristlose Entlassung ein?",
+        "fr": "Comment évaluez-vous cette résiliation immédiate ?"
       },
       "options": [
         {
           "value": "believe-justified",
           "label": {
-            "de": "Ich denke, sie war berechtigt"
+            "de": "Ich denke, sie war berechtigt",
+            "fr": "Je pense qu’elle était justifiée"
           }
         },
         {
           "value": "believe-unjustified",
           "label": {
-            "de": "Ich denke, sie war nicht berechtigt"
+            "de": "Ich denke, sie war nicht berechtigt",
+            "fr": "Je pense qu’elle n’était pas justifiée"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin unsicher"
+            "de": "Ich bin unsicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -111,25 +135,29 @@
     {
       "key": "unemployment_registered",
       "question": {
-        "de": "Haben Sie sich schon beim RAV (Regionales Arbeitsvermittlungszentrum) gemeldet?"
+        "de": "Haben Sie sich schon beim RAV (Regionales Arbeitsvermittlungszentrum) gemeldet?",
+        "fr": "Avez-vous déjà procédé à votre inscription auprès de l’ORP (office régional de placement) ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -140,7 +168,8 @@
       "id": "public-employer",
       "kind": "escalate",
       "text": {
-        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
+        "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation."
       },
       "when": {
         "employer_type": [
@@ -152,7 +181,8 @@
       "id": "immediate-effect",
       "kind": "rule",
       "text": {
-        "de": "Aus wichtigen Gründen kann jede Seite das Arbeitsverhältnis jederzeit fristlos auflösen. Als wichtiger Grund gilt jeder Umstand, bei dem der kündigenden Seite die Fortsetzung des Arbeitsverhältnisses nach Treu und Glauben nicht mehr zugemutet werden kann. Die fristlose Entlassung beendet das Arbeitsverhältnis sofort, unabhängig davon, ob sie im Nachhinein als berechtigt gilt oder nicht."
+        "de": "Aus wichtigen Gründen kann jede Seite das Arbeitsverhältnis jederzeit fristlos auflösen. Als wichtiger Grund gilt jeder Umstand, bei dem der kündigenden Seite die Fortsetzung des Arbeitsverhältnisses nach Treu und Glauben nicht mehr zugemutet werden kann. Die fristlose Entlassung beendet das Arbeitsverhältnis sofort, unabhängig davon, ob sie im Nachhinein als berechtigt gilt oder nicht.",
+        "fr": "Chaque partie peut, pour de justes motifs, résilier le contrat de travail immédiatement et en tout temps. Est notamment considérée comme un juste motif toute circonstance qui, selon les règles de la bonne foi, ne permet plus d’exiger de la partie qui donne le congé la continuation des rapports de travail. La résiliation immédiate met fin aux rapports de travail sur-le-champ, indépendamment du fait qu’elle soit ensuite jugée justifiée ou non."
       },
       "sources": [
         "or-337"
@@ -162,7 +192,8 @@
       "id": "no-fault-incapacity",
       "kind": "warning",
       "text": {
-        "de": "Ein wichtiger Grund darf nie darin liegen, dass Sie ohne eigenes Verschulden an der Arbeitsleistung verhindert waren, zum Beispiel wegen Krankheit oder Unfall. Wurden Sie deswegen fristlos entlassen, war die Entlassung nicht berechtigt."
+        "de": "Ein wichtiger Grund darf nie darin liegen, dass Sie ohne eigenes Verschulden an der Arbeitsleistung verhindert waren, zum Beispiel wegen Krankheit oder Unfall. Wurden Sie deswegen fristlos entlassen, war die Entlassung nicht berechtigt.",
+        "fr": "Un juste motif ne peut jamais résider dans le fait que vous avez été empêché de travailler sans votre faute, par exemple en raison d’une maladie ou d’un accident. Si la résiliation immédiate a été donnée pour ce motif, elle n’était pas justifiée."
       },
       "sources": [
         "or-337"
@@ -172,7 +203,8 @@
       "id": "request-reasons",
       "kind": "step",
       "text": {
-        "de": "Verlangen Sie schriftlich, dass Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung schriftlich mitteilt."
+        "de": "Verlangen Sie schriftlich, dass Ihnen Ihr Arbeitgeber die Gründe für die fristlose Entlassung schriftlich mitteilt.",
+        "fr": "Demandez par écrit que votre employeur vous communique par écrit les motifs de la résiliation immédiate."
       },
       "when": {
         "reason_given": [
@@ -188,7 +220,8 @@
       "id": "fault-based-damages",
       "kind": "rule",
       "text": {
-        "de": "Lag der wichtige Grund im vertragswidrigen Verhalten einer Seite, muss diese Seite den vollen Schaden ersetzen, unter Berücksichtigung aller Ansprüche aus dem Arbeitsverhältnis. In anderen Fällen legt das Gericht die finanziellen Folgen nach eigenem Ermessen fest."
+        "de": "Lag der wichtige Grund im vertragswidrigen Verhalten einer Seite, muss diese Seite den vollen Schaden ersetzen, unter Berücksichtigung aller Ansprüche aus dem Arbeitsverhältnis. In anderen Fällen legt das Gericht die finanziellen Folgen nach eigenem Ermessen fest.",
+        "fr": "Si le juste motif réside dans le comportement contraire au contrat de l’une des parties, celle-ci doit réparer intégralement le dommage causé, compte tenu de toutes les prétentions découlant des rapports de travail. Dans les autres cas, le tribunal apprécie librement les conséquences financières."
       },
       "when": {
         "your_view": [
@@ -204,7 +237,8 @@
       "id": "unjustified-summary-dismissal",
       "kind": "rule",
       "text": {
-        "de": "War die fristlose Entlassung nicht berechtigt, haben Sie Anspruch auf das, was Sie verdient hätten, wenn das Arbeitsverhältnis mit der ordentlichen Kündigungsfrist oder durch Ablauf einer befristeten Vertragsdauer beendet worden wäre. Was Sie dadurch gespart oder anderweitig verdient haben (oder absichtlich nicht verdienen wollten), wird angerechnet. Zusätzlich kann Ihnen das Gericht eine weitere Entschädigung von höchstens sechs Monatslöhnen zusprechen."
+        "de": "War die fristlose Entlassung nicht berechtigt, haben Sie Anspruch auf das, was Sie verdient hätten, wenn das Arbeitsverhältnis mit der ordentlichen Kündigungsfrist oder durch Ablauf einer befristeten Vertragsdauer beendet worden wäre. Was Sie dadurch gespart oder anderweitig verdient haben (oder absichtlich nicht verdienen wollten), wird angerechnet. Zusätzlich kann Ihnen das Gericht eine weitere Entschädigung von höchstens sechs Monatslöhnen zusprechen.",
+        "fr": "Si la résiliation immédiate n’était pas justifiée, vous avez droit à ce que vous auriez gagné si les rapports de travail avaient pris fin avec le délai de congé ordinaire ou à l’échéance d’un contrat de durée déterminée. Ce que vous avez épargné de ce fait ou gagné autrement (ou renoncé intentionnellement à gagner) est porté en compte. Le tribunal peut en outre vous allouer une indemnité supplémentaire d’au maximum six mois de salaire."
       },
       "when": {
         "your_view": [
@@ -220,7 +254,8 @@
       "id": "scope-boundary",
       "kind": "warning",
       "text": {
-        "de": "Diese Anleitung behandelt die fristlose Entlassung durch den Arbeitgeber. Verlassen Sie stattdessen selbst ohne wichtigen Grund die Stelle oder treten Sie sie gar nicht erst an, gelten andere Regeln: Ihr Arbeitgeber kann dann seinerseits eine Entschädigung von Ihnen verlangen."
+        "de": "Diese Anleitung behandelt die fristlose Entlassung durch den Arbeitgeber. Verlassen Sie stattdessen selbst ohne wichtigen Grund die Stelle oder treten Sie sie gar nicht erst an, gelten andere Regeln: Ihr Arbeitgeber kann dann seinerseits eine Entschädigung von Ihnen verlangen.",
+        "fr": "Ce guide traite de la résiliation immédiate par l’employeur. Si vous quittez vous-même votre emploi sans juste motif, ou si vous n’entrez pas en fonction, d’autres règles s’appliquent : votre employeur peut alors exiger de son côté une indemnité de votre part."
       },
       "sources": [
         "or-337d"
@@ -230,7 +265,8 @@
       "id": "claims-due",
       "kind": "rule",
       "text": {
-        "de": "Mit der Beendigung des Arbeitsverhältnisses werden sämtliche Forderungen daraus sofort fällig, also insbesondere ausstehender Lohn und nicht bezogene Ferien."
+        "de": "Mit der Beendigung des Arbeitsverhältnisses werden sämtliche Forderungen daraus sofort fällig, also insbesondere ausstehender Lohn und nicht bezogene Ferien.",
+        "fr": "À la fin des rapports de travail, toutes les créances qui en découlent deviennent immédiatement exigibles, notamment le salaire dû et les vacances non prises."
       },
       "sources": [
         "or-339"
@@ -240,7 +276,8 @@
       "id": "register-rav",
       "kind": "step",
       "text": {
-        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen."
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen.",
+        "fr": "Inscrivez-vous personnellement le plus tôt possible auprès de l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous demandez l’indemnité de chômage."
       },
       "when": {
         "unemployment_registered": [
@@ -256,7 +293,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung."
+        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung.",
+        "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même."
       },
       "sources": [
         "zpo-113"
@@ -266,14 +304,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie rasch persönliche Beratung, wenn grosse Summen im Streit stehen, Ihr Arbeitgeber die Vorwürfe bestreitet, oder Sie sich unsicher sind, ob wirklich ein wichtiger Grund vorlag."
+        "de": "Holen Sie rasch persönliche Beratung, wenn grosse Summen im Streit stehen, Ihr Arbeitgeber die Vorwürfe bestreitet, oder Sie sich unsicher sind, ob wirklich ein wichtiger Grund vorlag.",
+        "fr": "Demandez rapidement un conseil personnalisé si des sommes importantes sont en jeu, si votre employeur conteste les reproches, ou si vous doutez qu’il y ait réellement eu un juste motif."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit weitere Hilfe an."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit weitere Hilfe an.",
+        "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail."
       }
     }
   ],
@@ -338,7 +378,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz"
+        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz",
+        "fr": "ch.ch : Résiliation du contrat de travail en Suisse"
       },
       "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
     }

@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Etwas, das ich gekauft habe, ist defekt"
+    "de": "Etwas, das ich gekauft habe, ist defekt",
+    "fr": "Un objet que j’ai acheté est défectueux"
   },
   "summary": {
-    "de": "Prüfen Sie eine gekaufte Sache sofort und melden Sie Mängel umgehend dem Verkäufer. Sie können in der Regel zwischen Rückgabe und Preisminderung wählen. Ihre Ansprüche verjähren normalerweise nach zwei Jahren."
+    "de": "Prüfen Sie eine gekaufte Sache sofort und melden Sie Mängel umgehend dem Verkäufer. Sie können in der Regel zwischen Rückgabe und Preisminderung wählen. Ihre Ansprüche verjähren normalerweise nach zwei Jahren.",
+    "fr": "Examinez immédiatement l’objet acheté et signalez sans délai tout défaut au vendeur. Vous pouvez en général choisir entre la résiliation de la vente et la réduction du prix. Vos droits se prescrivent normalement après deux ans."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Kann ich eine Preisminderung statt Rückgabe verlangen?",
       "Mis Ding, wo ich kouft ha, isch kaputt, was cha ich mache?",
       "Der Verkäufer will nur reparieren, nicht zurücknehmen, darf er das?"
+    ],
+    "fr": [
+      "Un objet que j’ai acheté est défectueux, que puis-je faire ?",
+      "Ai-je le droit de retourner un article défectueux ?",
+      "Combien de temps ai-je pour signaler un défaut ?",
+      "Puis-je demander une réduction du prix plutôt qu’un remboursement ?",
+      "Le truc que j’ai acheté est cassé, je fais comment ?",
+      "Le vendeur ne veut que réparer, pas reprendre l’article, en a-t-il le droit ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Den Kauf beweglicher Sachen, zum Beispiel Elektronik, Möbel oder Kleidung, die einen sichtbaren oder verborgenen Mangel haben."
+      "de": "Den Kauf beweglicher Sachen, zum Beispiel Elektronik, Möbel oder Kleidung, die einen sichtbaren oder verborgenen Mangel haben.",
+      "fr": "L’achat de choses mobilières, par exemple de l’électronique, des meubles ou des vêtements, qui présentent un défaut apparent ou caché."
     },
     "excludes": {
-      "de": "Werkverträge mit Handwerkern (siehe die Anleitung zu schlecht ausgeführter Handwerksarbeit), den Kauf von Grundstücken, sowie reine Streitigkeiten über den Kaufpreis ohne Mangel."
+      "de": "Werkverträge mit Handwerkern (siehe die Anleitung zu schlecht ausgeführter Handwerksarbeit), den Kauf von Grundstücken, sowie reine Streitigkeiten über den Kaufpreis ohne Mangel.",
+      "fr": "Les contrats d’entreprise conclus avec des artisans (voir le guide sur les travaux d’artisanat mal exécutés), l’achat d’immeubles, ainsi que les simples litiges sur le prix de vente sans défaut."
     }
   },
   "facts": [
     {
       "key": "inspected",
       "question": {
-        "de": "Haben Sie die Sache gleich nach dem Kauf oder Erhalt geprüft?"
+        "de": "Haben Sie die Sache gleich nach dem Kauf oder Erhalt geprüft?",
+        "fr": "Avez-vous vérifié l’objet dès l’achat ou dès sa réception ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht mehr"
+            "de": "Ich weiss es nicht mehr",
+            "fr": "Je ne m’en souviens plus"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "notified",
       "question": {
-        "de": "Haben Sie den Mangel dem Verkäufer sofort nach der Entdeckung gemeldet?"
+        "de": "Haben Sie den Mangel dem Verkäufer sofort nach der Entdeckung gemeldet?",
+        "fr": "Avez-vous signalé le défaut au vendeur immédiatement après l’avoir découvert ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -85,25 +105,29 @@
     {
       "key": "buyer_type",
       "question": {
-        "de": "Haben Sie privat gekauft, oder für Ihr Geschäft bzw. Ihre Firma?"
+        "de": "Haben Sie privat gekauft, oder für Ihr Geschäft bzw. Ihre Firma?",
+        "fr": "Avez-vous acheté à titre privé, ou pour votre commerce ou votre entreprise ?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Privat, für den persönlichen oder familiären Gebrauch"
+            "de": "Privat, für den persönlichen oder familiären Gebrauch",
+            "fr": "À titre privé, pour un usage personnel ou familial"
           }
         },
         {
           "value": "business",
           "label": {
-            "de": "Für mein Geschäft oder meine Firma"
+            "de": "Für mein Geschäft oder meine Firma",
+            "fr": "Pour mon commerce ou mon entreprise"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -111,25 +135,29 @@
     {
       "key": "goods_condition",
       "question": {
-        "de": "War die Sache neu oder gebraucht?"
+        "de": "War die Sache neu oder gebraucht?",
+        "fr": "L’objet était-il neuf ou d’occasion ?"
       },
       "options": [
         {
           "value": "new",
           "label": {
-            "de": "Neu"
+            "de": "Neu",
+            "fr": "Neuf"
           }
         },
         {
           "value": "used",
           "label": {
-            "de": "Gebraucht"
+            "de": "Gebraucht",
+            "fr": "D’occasion"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -137,31 +165,36 @@
     {
       "key": "want",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?"
       },
       "options": [
         {
           "value": "refund-or-replace",
           "label": {
-            "de": "Rückgabe oder Ersatzlieferung"
+            "de": "Rückgabe oder Ersatzlieferung",
+            "fr": "Résiliation de la vente ou livraison de remplacement"
           }
         },
         {
           "value": "price-reduction",
           "label": {
-            "de": "Preisminderung"
+            "de": "Preisminderung",
+            "fr": "Réduction du prix"
           }
         },
         {
           "value": "repair",
           "label": {
-            "de": "Kostenlose Reparatur"
+            "de": "Kostenlose Reparatur",
+            "fr": "Réparation gratuite"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne le sais pas encore"
           }
         }
       ]
@@ -169,25 +202,29 @@
     {
       "key": "terms_reference",
       "question": {
-        "de": "Verweisen die Verkaufsbedingungen (AGB) des Verkäufers auf Reparatur oder Ersatz statt auf Rückgabe?"
+        "de": "Verweisen die Verkaufsbedingungen (AGB) des Verkäufers auf Reparatur oder Ersatz statt auf Rückgabe?",
+        "fr": "Les conditions de vente (CGV) du vendeur renvoient-elles à une réparation ou à un remplacement plutôt qu’à la résiliation de la vente ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, das habe ich nicht gesehen"
+            "de": "Nein, das habe ich nicht gesehen",
+            "fr": "Non, je n’ai rien vu de tel"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -198,7 +235,8 @@
       "id": "inspect-duty",
       "kind": "rule",
       "text": {
-        "de": "Sie müssen die gekaufte Sache prüfen, sobald es der übliche Geschäftsgang erlaubt, und einen entdeckten Mangel dem Verkäufer sofort melden. Tun Sie das nicht, gilt die Sache als genehmigt, ausser bei Mängeln, die bei einer normalen Prüfung nicht erkennbar waren. Solche versteckten Mängel müssen Sie sofort nach der Entdeckung melden."
+        "de": "Sie müssen die gekaufte Sache prüfen, sobald es der übliche Geschäftsgang erlaubt, und einen entdeckten Mangel dem Verkäufer sofort melden. Tun Sie das nicht, gilt die Sache als genehmigt, ausser bei Mängeln, die bei einer normalen Prüfung nicht erkennbar waren. Solche versteckten Mängel müssen Sie sofort nach der Entdeckung melden.",
+        "fr": "Vous devez vérifier l’objet acheté dès que la marche habituelle des affaires le permet, et signaler immédiatement au vendeur tout défaut découvert. Si vous ne le faites pas, l’objet est considéré comme accepté, sauf pour les défauts qu’une vérification normale ne permettait pas de découvrir. Ces défauts cachés doivent être signalés immédiatement après leur découverte."
       },
       "sources": [
         "or-201"
@@ -213,7 +251,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie die Sache noch nicht geprüft, tun Sie das jetzt so schnell wie möglich und melden Sie einen allfälligen Mangel sofort. Je länger Sie warten, desto grösser ist das Risiko, dass die Sache als genehmigt gilt und Sie Ihre Ansprüche verlieren."
+        "de": "Haben Sie die Sache noch nicht geprüft, tun Sie das jetzt so schnell wie möglich und melden Sie einen allfälligen Mangel sofort. Je länger Sie warten, desto grösser ist das Risiko, dass die Sache als genehmigt gilt und Sie Ihre Ansprüche verlieren.",
+        "fr": "Si vous n’avez pas encore vérifié l’objet, faites-le maintenant le plus vite possible et signalez immédiatement tout défaut éventuel. Plus vous attendez, plus le risque est grand que l’objet soit considéré comme accepté et que vous perdiez vos droits."
       },
       "sources": [
         "or-201"
@@ -228,7 +267,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie einen entdeckten Mangel dem Verkäufer noch nicht gemeldet, tun Sie das sofort, am besten schriftlich mit Foto und Kaufdatum. Warten Sie zu lange, gilt die Sache auch bezüglich dieses Mangels als genehmigt."
+        "de": "Haben Sie einen entdeckten Mangel dem Verkäufer noch nicht gemeldet, tun Sie das sofort, am besten schriftlich mit Foto und Kaufdatum. Warten Sie zu lange, gilt die Sache auch bezüglich dieses Mangels als genehmigt.",
+        "fr": "Si vous n’avez pas encore signalé au vendeur un défaut découvert, faites-le immédiatement, si possible par écrit, avec une photo et la date d’achat. Si vous attendez trop longtemps, l’objet est considéré comme accepté également pour ce défaut."
       },
       "sources": [
         "or-201"
@@ -238,7 +278,8 @@
       "id": "warranty-basis",
       "kind": "rule",
       "text": {
-        "de": "Der Verkäufer haftet dafür, dass die Sache keine Mängel hat, die ihren Wert oder ihre Tauglichkeit zum vorausgesetzten Gebrauch aufheben oder erheblich mindern, und zwar auch dann, wenn er die Mängel selbst nicht kannte."
+        "de": "Der Verkäufer haftet dafür, dass die Sache keine Mängel hat, die ihren Wert oder ihre Tauglichkeit zum vorausgesetzten Gebrauch aufheben oder erheblich mindern, und zwar auch dann, wenn er die Mängel selbst nicht kannte.",
+        "fr": "Le vendeur répond du fait que l’objet ne présente pas de défauts qui suppriment ou diminuent sensiblement sa valeur ou son aptitude à l’usage auquel il est destiné, et cela même s’il ignorait lui-même ces défauts."
       },
       "sources": [
         "or-197"
@@ -248,7 +289,8 @@
       "id": "remedies",
       "kind": "rule",
       "text": {
-        "de": "Liegt ein solcher Mangel vor, haben Sie grundsätzlich die Wahl: Sie können vom Kauf zurücktreten (Wandelung) oder eine Preisminderung verlangen (Minderung). Ein Gericht kann bei einer Wandelungsklage auch nur eine Preisminderung zusprechen, wenn die Umstände eine Rückgabe nicht rechtfertigen. Erreicht die geforderte Minderung den ganzen Kaufpreis, können Sie nur noch die Rückgabe verlangen."
+        "de": "Liegt ein solcher Mangel vor, haben Sie grundsätzlich die Wahl: Sie können vom Kauf zurücktreten (Wandelung) oder eine Preisminderung verlangen (Minderung). Ein Gericht kann bei einer Wandelungsklage auch nur eine Preisminderung zusprechen, wenn die Umstände eine Rückgabe nicht rechtfertigen. Erreicht die geforderte Minderung den ganzen Kaufpreis, können Sie nur noch die Rückgabe verlangen.",
+        "fr": "En présence d’un tel défaut, vous avez en principe le choix : vous pouvez résilier la vente (résiliation) ou demander une réduction du prix (réduction du prix). En cas d’action en résiliation, le tribunal peut aussi se limiter à accorder une réduction du prix si les circonstances ne justifient pas une résiliation. Si la réduction demandée atteint la totalité du prix de vente, vous ne pouvez plus demander que la résiliation."
       },
       "sources": [
         "or-205"
@@ -264,7 +306,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie eine Sache aus einer bestimmten Menge gleichartiger, vertretbarer Sachen gekauft, zum Beispiel eine Ware, die es mehrfach identisch gibt, können Sie statt Rückgabe oder Minderung auch Ersatzlieferung einwandfreier Ware derselben Art verlangen. Wurde Ihnen die Ware nicht von einem anderen Ort zugesandt, kann sich auch der Verkäufer durch sofortige Ersatzlieferung und Ersatz des entstandenen Schadens von weiteren Ansprüchen befreien."
+        "de": "Haben Sie eine Sache aus einer bestimmten Menge gleichartiger, vertretbarer Sachen gekauft, zum Beispiel eine Ware, die es mehrfach identisch gibt, können Sie statt Rückgabe oder Minderung auch Ersatzlieferung einwandfreier Ware derselben Art verlangen. Wurde Ihnen die Ware nicht von einem anderen Ort zugesandt, kann sich auch der Verkäufer durch sofortige Ersatzlieferung und Ersatz des entstandenen Schadens von weiteren Ansprüchen befreien.",
+        "fr": "Si vous avez acheté un objet provenant d’une quantité déterminée de choses fongibles, par exemple un article qui existe à l’identique en plusieurs exemplaires, vous pouvez, au lieu de la résiliation ou de la réduction du prix, exiger la livraison d’un objet irréprochable du même genre. Si la marchandise ne vous a pas été expédiée d’un autre lieu, le vendeur peut lui aussi se libérer de toute autre prétention en vous livrant immédiatement un objet de remplacement et en réparant le dommage subi."
       },
       "sources": [
         "or-206"
@@ -279,7 +322,8 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie in erster Linie eine Reparatur, prüfen Sie zuerst die Verkaufsbedingungen: Viele Verkäufer bieten freiwillig eine Reparatur oder eine Garantie an, die über die gesetzliche Gewährleistung hinausgeht. Das Gesetz selbst sieht in erster Linie Rückgabe oder Preisminderung vor, und Ersatzlieferung nur bei vertretbaren Sachen."
+        "de": "Wollen Sie in erster Linie eine Reparatur, prüfen Sie zuerst die Verkaufsbedingungen: Viele Verkäufer bieten freiwillig eine Reparatur oder eine Garantie an, die über die gesetzliche Gewährleistung hinausgeht. Das Gesetz selbst sieht in erster Linie Rückgabe oder Preisminderung vor, und Ersatzlieferung nur bei vertretbaren Sachen.",
+        "fr": "Si vous souhaitez avant tout une réparation, vérifiez d’abord les conditions de vente : de nombreux vendeurs proposent volontairement une réparation ou une garantie allant au-delà de la garantie légale. La loi elle-même prévoit en premier lieu la résiliation de la vente ou la réduction du prix, et la livraison de remplacement seulement pour les choses fongibles."
       },
       "sources": [
         "or-205",
@@ -290,7 +334,8 @@
       "id": "limitation",
       "kind": "rule",
       "text": {
-        "de": "Ansprüche wegen eines Mangels verjähren zwei Jahre nach der Ablieferung der Sache an Sie, auch wenn Sie den Mangel erst später entdecken, ausser der Verkäufer hat eine längere Haftung zugesichert. Ist die Sache Teil eines unbeweglichen Bauwerks geworden und hat sie dessen Mangelhaftigkeit verursacht, beträgt die Frist fünf Jahre."
+        "de": "Ansprüche wegen eines Mangels verjähren zwei Jahre nach der Ablieferung der Sache an Sie, auch wenn Sie den Mangel erst später entdecken, ausser der Verkäufer hat eine längere Haftung zugesichert. Ist die Sache Teil eines unbeweglichen Bauwerks geworden und hat sie dessen Mangelhaftigkeit verursacht, beträgt die Frist fünf Jahre.",
+        "fr": "Les droits pour cause de défaut se prescrivent par deux ans à compter de la livraison de l’objet, même si vous ne découvrez le défaut que plus tard, sauf si le vendeur a promis une garantie plus longue. Si l’objet est devenu partie d’un ouvrage immobilier et a causé les défauts de cet ouvrage, le délai est de cinq ans."
       },
       "sources": [
         "or-210"
@@ -310,7 +355,8 @@
         ]
       },
       "text": {
-        "de": "Kaufen Sie als Privatperson für Ihren persönlichen oder familiären Gebrauch bei einem Verkäufer, der beruflich oder gewerblich handelt, darf diese Verjährungsfrist vertraglich nicht auf weniger als zwei Jahre verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+        "de": "Kaufen Sie als Privatperson für Ihren persönlichen oder familiären Gebrauch bei einem Verkäufer, der beruflich oder gewerblich handelt, darf diese Verjährungsfrist vertraglich nicht auf weniger als zwei Jahre verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig.",
+        "fr": "Si vous achetez en tant que particulier, pour votre usage personnel ou familial, auprès d’un vendeur agissant dans le cadre d’une activité professionnelle ou commerciale, ce délai de prescription ne peut pas être raccourci contractuellement à moins de deux ans. Un délai plus court prévu dans les conditions de vente est alors nul."
       },
       "sources": [
         "or-210"
@@ -329,7 +375,8 @@
         ]
       },
       "text": {
-        "de": "Kaufen Sie eine gebrauchte Sache als Privatperson bei einem beruflich oder gewerblich handelnden Verkäufer, darf die Verjährungsfrist vertraglich nicht auf weniger als ein Jahr verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+        "de": "Kaufen Sie eine gebrauchte Sache als Privatperson bei einem beruflich oder gewerblich handelnden Verkäufer, darf die Verjährungsfrist vertraglich nicht auf weniger als ein Jahr verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig.",
+        "fr": "Si vous achetez une chose d’occasion en tant que particulier auprès d’un vendeur agissant dans le cadre d’une activité professionnelle ou commerciale, le délai de prescription ne peut pas être raccourci contractuellement à moins d’un an. Un délai plus court prévu dans les conditions de vente est alors nul."
       },
       "sources": [
         "or-210"
@@ -345,7 +392,8 @@
         ]
       },
       "text": {
-        "de": "Der Verkäufer kann Ihre Rechte in seinen Verkaufsbedingungen einschränken oder zum Beispiel durch ein Recht auf Reparatur ersetzen. Eine solche Einschränkung gilt aber nicht, wenn der Verkäufer Ihnen den Mangel absichtlich verschwiegen hat."
+        "de": "Der Verkäufer kann Ihre Rechte in seinen Verkaufsbedingungen einschränken oder zum Beispiel durch ein Recht auf Reparatur ersetzen. Eine solche Einschränkung gilt aber nicht, wenn der Verkäufer Ihnen den Mangel absichtlich verschwiegen hat.",
+        "fr": "Le vendeur peut restreindre vos droits dans ses conditions de vente, ou les remplacer par exemple par un droit à la réparation. Une telle restriction ne vaut toutefois pas si le vendeur vous a intentionnellement caché le défaut."
       },
       "sources": [
         "or-199"
@@ -355,14 +403,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der Verkäufer nicht reagiert, wenn es um einen hohen Betrag geht, oder wenn unklar ist, ob die Verjährungsfrist schon abgelaufen ist."
+        "de": "Holen Sie persönliche Beratung, wenn der Verkäufer nicht reagiert, wenn es um einen hohen Betrag geht, oder wenn unklar ist, ob die Verjährungsfrist schon abgelaufen ist.",
+        "fr": "Demandez un conseil personnalisé si le vendeur ne réagit pas, si le montant en jeu est élevé, ou s’il n’est pas clair que le délai de prescription soit déjà écoulé."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Reklamationen. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an. Für einzelne Branchen gibt es kostenlose Schlichtungsstellen, die zwischen Ihnen und dem Verkäufer vermitteln."
+        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Reklamationen. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an. Für einzelne Branchen gibt es kostenlose Schlichtungsstellen, die zwischen Ihnen und dem Verkäufer vermitteln.",
+        "fr": "Aide gratuite ou à faible coût : les organisations de consommateurs conseillent en cas de réclamation. Certains cantons et associations d’avocats offrent une première consultation gratuite. Pour certaines branches, il existe des organes de conciliation gratuits qui interviennent entre vous et le vendeur."
       }
     }
   ],
@@ -419,7 +469,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Waren zurückgeben oder umtauschen"
+        "de": "ch.ch: Waren zurückgeben oder umtauschen",
+        "fr": "ch.ch : Retourner ou échanger des marchandises"
       },
       "url": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
     }

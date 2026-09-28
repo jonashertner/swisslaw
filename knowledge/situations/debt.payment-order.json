@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich habe einen Zahlungsbefehl erhalten"
+    "de": "Ich habe einen Zahlungsbefehl erhalten",
+    "fr": "J’ai reçu un commandement de payer"
   },
   "summary": {
-    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter."
+    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter.",
+    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, la poursuite suit son cours après 20 jours."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Kann ich nur einen Teil der Forderung bestreiten?",
       "Ich han en Zahligsbefehl übercho vom Betriibigsamt, was söll i mache?",
       "Erscheint ein Zahlungsbefehl in einem Betreibungsregisterauszug?"
+    ],
+    "fr": [
+      "J’ai reçu un commandement de payer, que dois-je faire maintenant ?",
+      "Qu’est-ce qu’une opposition et de combien de temps est-ce que je dispose ?",
+      "Dois-je quand même payer une créance que je considère comme infondée ?",
+      "Puis-je contester seulement une partie de la créance ?",
+      "J’ai reçu un commandement de payer de l’office des poursuites, qu’est-ce que je dois faire ?",
+      "Un commandement de payer apparaît-il dans un extrait du registre des poursuites ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung)."
+      "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung).",
+      "fr": "Un commandement de payer de l’office des poursuites pour une créance d’argent (poursuite ordinaire)."
     },
     "excludes": {
-      "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst."
+      "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst.",
+      "fr": "La poursuite pour effets de change, les procédures de saisie ou de faillite déjà en cours, ainsi que la procédure judiciaire de mainlevée ou d’action elle-même."
     }
   },
   "facts": [
     {
       "key": "stage",
       "question": {
-        "de": "In welcher Phase der Betreibung befinden Sie sich?"
+        "de": "In welcher Phase der Betreibung befinden Sie sich?",
+        "fr": "À quel stade de la poursuite vous trouvez-vous ?"
       },
       "options": [
         {
           "value": "payment-order",
           "label": {
-            "de": "Ich habe gerade einen Zahlungsbefehl erhalten"
+            "de": "Ich habe gerade einen Zahlungsbefehl erhalten",
+            "fr": "Je viens de recevoir un commandement de payer"
           }
         },
         {
           "value": "later",
           "label": {
-            "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten"
+            "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten",
+            "fr": "J’ai déjà reçu un avis de saisie ou une commination de faillite"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -59,31 +75,36 @@
     {
       "key": "dispute",
       "question": {
-        "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?"
+        "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?",
+        "fr": "Voulez-vous contester la créance (former opposition) ?"
       },
       "options": [
         {
           "value": "all",
           "label": {
-            "de": "Ja, die ganze Forderung"
+            "de": "Ja, die ganze Forderung",
+            "fr": "Oui, la totalité de la créance"
           }
         },
         {
           "value": "partial",
           "label": {
-            "de": "Ja, aber nur einen Teil"
+            "de": "Ja, aber nur einen Teil",
+            "fr": "Oui, mais seulement une partie"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, ich will nicht bestreiten"
+            "de": "Nein, ich will nicht bestreiten",
+            "fr": "Non, je ne veux pas contester"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore"
           }
         }
       ]
@@ -91,28 +112,33 @@
     {
       "key": "partial_amount",
       "question": {
-        "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?"
+        "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?",
+        "fr": "Si vous ne contestez que partiellement : savez-vous exactement quel montant vous reconnaissez et lequel vous contestez ?"
       },
       "help": {
-        "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist."
+        "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist.",
+        "fr": "Par exemple parce qu’une partie de la créance est déjà payée ou prescrite."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, das ist mir noch nicht klar"
+            "de": "Nein, das ist mir noch nicht klar",
+            "fr": "Non, ce n’est pas encore clair pour moi"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore"
           }
         }
       ]
@@ -120,25 +146,29 @@
     {
       "key": "register_concern",
       "question": {
-        "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?"
+        "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?",
+        "fr": "Est-il important pour vous de savoir si des tiers (p. ex. lors d’une candidature à un logement) peuvent voir ce commandement de payer dans un extrait du registre des poursuites ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -154,7 +184,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen."
+        "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen.",
+        "fr": "Si vous avez déjà reçu un avis de saisie ou une commination de faillite, la poursuite est déjà plus avancée qu’au stade d’un simple commandement de payer. Ce guide ne couvre pas cette phase. Adressez-vous immédiatement à un service de désendettement ou à une avocate ou un avocat, car des délais courts peuvent aussi courir à ce stade."
       }
     },
     {
@@ -167,7 +198,8 @@
         ]
       },
       "text": {
-        "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch."
+        "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch.",
+        "fr": "Le délai le plus important : si vous voulez contester la créance en tout ou en partie, vous devez former opposition dans les 10 jours suivant la notification du commandement de payer. Vous pouvez la déclarer immédiatement, oralement, à la personne qui vous a remis le commandement de payer, ou, dans les 10 jours, la déclarer oralement ou par écrit à l’office des poursuites. Vous n’avez pas à motiver l’opposition. Le moment exact où le délai se termine dépend de la date de notification et des féries des poursuites ; notre calculateur de délais en tient compte automatiquement."
       },
       "sources": [
         "schkg-74"
@@ -186,7 +218,8 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag."
+        "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag.",
+        "fr": "Examinez attentivement le commandement de payer. Il contient les indications de la réquisition de poursuite, la sommation de payer la créance avec les frais de poursuite dans les 20 jours, ainsi que l’avis que vous pouvez former opposition dans les 10 jours. Ces deux délais sont différents : les 20 jours concernent le paiement, les 10 jours l’opposition."
       },
       "sources": [
         "schkg-69"
@@ -203,7 +236,8 @@
         ]
       },
       "text": {
-        "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände."
+        "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände.",
+        "fr": "Vous n’avez besoin d’aucun motif pour former opposition. Vous pouvez aussi la former si vous ne savez pas encore exactement comment vous voulez contester la créance. Si vous la motivez quand même, cela ne vous fait perdre aucun autre moyen de contestation."
       },
       "sources": [
         "schkg-75"
@@ -218,7 +252,8 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten."
+        "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten.",
+        "fr": "Si vous ne voulez contester la créance que partiellement, vous devez indiquer exactement dans l’opposition quel montant vous reconnaissez et lequel vous contestez. Si vous n’indiquez aucun montant, la totalité de la créance est automatiquement réputée contestée."
       },
       "sources": [
         "schkg-74"
@@ -237,7 +272,8 @@
         ]
       },
       "text": {
-        "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten."
+        "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten.",
+        "fr": "Vous ne savez pas encore exactement quel montant reconnaître ? Rassemblez des pièces telles que factures, confirmations de paiement ou correspondance, et indiquez le montant contesté dans l’opposition aussi précisément que possible. Si vous n’y parvenez pas, cela ne joue pas en votre défaveur : sans indication de montant, la totalité de la créance est simplement réputée contestée."
       },
       "sources": [
         "schkg-74"
@@ -258,7 +294,8 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen."
+        "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen.",
+        "fr": "Voici comment procéder : déclarez l’opposition immédiatement à la personne qui vous a remis le commandement de payer, ou adressez-vous, dans les 10 jours, à l’office des poursuites mentionné sur le commandement de payer. Une déclaration orale suffit, mais un courrier bref est plus sûr. Demandez une attestation de l’opposition ; l’office doit vous la délivrer gratuitement."
       },
       "sources": [
         "schkg-74"
@@ -273,7 +310,8 @@
         ]
       },
       "text": {
-        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben."
+        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben.",
+        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, la poursuite suit automatiquement son cours à l’expiration du délai de paiement de 20 jours, sans que vous puissiez encore vous défendre. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance."
       },
       "sources": [
         "schkg-69"
@@ -294,7 +332,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert."
+        "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert.",
+        "fr": "Si vous avez formé opposition, la poursuite est provisoirement arrêtée. Le créancier ne peut la poursuivre que s’il obtient d’abord du tribunal la levée de l’opposition (mainlevée) ou s’il fait valoir sa prétention par voie d’action en justice. Pour une mainlevée définitive, le créancier a déjà besoin d’un jugement exécutoire ; pour une mainlevée provisoire, une reconnaissance de dette passée par acte authentique ou signée par vous suffit, à moins que vous ne rendiez immédiatement vraisemblables des objections. Sans l’une de ces voies, la poursuite reste bloquée."
       },
       "sources": [
         "schkg-79",
@@ -312,7 +351,8 @@
         ]
       },
       "text": {
-        "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung."
+        "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung.",
+        "fr": "Un commandement de payer est consigné dans le registre de l’office des poursuites. Toute personne qui rend son intérêt vraisemblable peut consulter ce registre, par exemple dans le cadre de la conclusion d’un contrat comme une candidature à un logement."
       },
       "sources": [
         "schkg-8a"
@@ -333,7 +373,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens."
+        "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens.",
+        "fr": "Si vous avez formé opposition, vous pouvez demander à l’office des poursuites, au plus tôt trois mois après la notification du commandement de payer, que cette poursuite ne soit plus portée à la connaissance des tiers. L’office impartit alors au créancier un délai de 20 jours pour prouver qu’il a engagé à temps une procédure visant à faire écarter l’opposition. S’il n’y parvient pas, l’inscription reste cachée aux tiers. Le droit de consultation des tiers s’éteint de toute façon cinq ans après la clôture de la procédure."
       },
       "sources": [
         "schkg-8a"
@@ -349,7 +390,8 @@
         ]
       },
       "text": {
-        "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen."
+        "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen.",
+        "fr": "L’opposition elle-même ne coûte rien. Si vous demandez une attestation que vous l’avez formée, l’office des poursuites doit vous la délivrer gratuitement."
       },
       "sources": [
         "schkg-74"
@@ -359,14 +401,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez un conseil personnalisé si la créance est élevée, si vous avez déjà reçu un avis de saisie ou une commination de faillite, si le créancier demande la mainlevée, ou si le délai expire dans quelques jours."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur le déroulement de la procédure, mais ne remplace pas un conseil juridique. Des services cantonaux et privés de désendettement conseillent gratuitement ou à faible coût en cas de difficultés de paiement. Des organisations de consommateurs et de nombreux ordres d’avocats offrent un premier renseignement gratuit."
       }
     }
   ],
@@ -431,7 +475,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Betreibungen"
+        "de": "ch.ch: Betreibungen",
+        "fr": "ch.ch : Poursuites"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }

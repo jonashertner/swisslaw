@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Mein Lohn wird gepfändet. Wie viel muss mir bleiben?"
+    "de": "Mein Lohn wird gepfändet. Wie viel muss mir bleiben?",
+    "fr": "Mon salaire est saisi. Combien doit-il me rester ?"
   },
   "summary": {
-    "de": "Das Betreibungsamt darf nur den Teil Ihres Lohns pfänden, der über das hinausgeht, was Sie und Ihre Familie zum Leben brauchen (Existenzminimum). Ändert sich Ihre Situation, müssen Sie das dem Amt melden. Eine Lohnpfändung dauert höchstens ein Jahr."
+    "de": "Das Betreibungsamt darf nur den Teil Ihres Lohns pfänden, der über das hinausgeht, was Sie und Ihre Familie zum Leben brauchen (Existenzminimum). Ändert sich Ihre Situation, müssen Sie das dem Amt melden. Eine Lohnpfändung dauert höchstens ein Jahr.",
+    "fr": "L’office des poursuites ne peut saisir que la part de votre salaire qui dépasse ce dont vous et votre famille avez besoin pour vivre (minimum vital). Si votre situation change, vous devez le signaler à l’office. Une saisie de salaire dure un an au maximum."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Muss ich dem Betreibungsamt melden, wenn meine Miete steigt?",
       "Min Lohn wird pfändet, wie viu muess mir no bliibe?",
       "Kann ich die Pfändungsverfügung anfechten?"
+    ],
+    "fr": [
+      "Mon salaire est saisi, combien doit-il me rester ?",
+      "Qu’est-ce que le minimum vital en cas de saisie de salaire ?",
+      "Combien de temps une saisie de salaire peut-elle durer ?",
+      "Dois-je signaler à l’office des poursuites une augmentation de mon loyer ?",
+      "On me saisit mon salaire, il doit m’en rester combien ?",
+      "Puis-je contester la décision de saisie ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Pfändung von Lohn, Rente oder ähnlichen wiederkehrenden Leistungen durch das Betreibungsamt."
+      "de": "Die Pfändung von Lohn, Rente oder ähnlichen wiederkehrenden Leistungen durch das Betreibungsamt.",
+      "fr": "La saisie du salaire, d’une rente ou de prestations périodiques similaires par l’office des poursuites."
     },
     "excludes": {
-      "de": "Die Pfändung von Gegenständen oder anderem Vermögen, das Konkursverfahren, sowie Lohnabzüge des Arbeitgebers ausserhalb einer Betreibung (z. B. Quellensteuer)."
+      "de": "Die Pfändung von Gegenständen oder anderem Vermögen, das Konkursverfahren, sowie Lohnabzüge des Arbeitgebers ausserhalb einer Betreibung (z. B. Quellensteuer).",
+      "fr": "La saisie d’objets ou d’autres biens, la procédure de faillite, ainsi que les retenues salariales de l’employeur en dehors d’une poursuite (p. ex. l’impôt à la source)."
     }
   },
   "facts": [
     {
       "key": "duration_change",
       "question": {
-        "de": "Läuft Ihre aktuelle Lohnpfändung schon fast ein Jahr?"
+        "de": "Läuft Ihre aktuelle Lohnpfändung schon fast ein Jahr?",
+        "fr": "Votre saisie de salaire actuelle dure-t-elle déjà depuis presque un an ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, oder ich bin mir nicht sicher, wie lange sie schon läuft"
+            "de": "Ja, oder ich bin mir nicht sicher, wie lange sie schon läuft",
+            "fr": "Oui, ou je n’ai pas de certitude sur sa durée"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, sie hat erst vor Kurzem begonnen"
+            "de": "Nein, sie hat erst vor Kurzem begonnen",
+            "fr": "Non, elle a commencé récemment"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "circumstances_changed",
       "question": {
-        "de": "Hat sich seit der Pfändung etwas an Ihrer Situation geändert, zum Beispiel Miete, Krankenkassenprämie, Familiensituation oder Einkommen?"
+        "de": "Hat sich seit der Pfändung etwas an Ihrer Situation geändert, zum Beispiel Miete, Krankenkassenprämie, Familiensituation oder Einkommen?",
+        "fr": "Votre situation a-t-elle changé depuis la saisie, par exemple votre loyer, votre prime d’assurance-maladie, votre situation familiale ou vos revenus ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -85,25 +105,29 @@
     {
       "key": "knows_minimum",
       "question": {
-        "de": "Kennen Sie den vom Amt berechneten Betrag, der Ihnen monatlich bleiben muss?"
+        "de": "Kennen Sie den vom Amt berechneten Betrag, der Ihnen monatlich bleiben muss?",
+        "fr": "Connaissez-vous le montant calculé par l’office, qui doit vous rester chaque mois ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -111,25 +135,29 @@
     {
       "key": "disagree",
       "question": {
-        "de": "Sind Sie mit der berechneten Pfändungssumme nicht einverstanden?"
+        "de": "Sind Sie mit der berechneten Pfändungssumme nicht einverstanden?",
+        "fr": "Êtes-vous en désaccord avec le montant de saisie calculé ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir nicht sicher"
+            "de": "Ich bin mir nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -140,7 +168,8 @@
       "id": "existenzminimum",
       "kind": "rule",
       "text": {
-        "de": "Das Betreibungsamt darf nur den Teil Ihres Erwerbseinkommens, Ihrer Rente oder ähnlicher wiederkehrender Leistungen pfänden, der über das hinausgeht, was Sie und Ihre Familie unbedingt zum Leben brauchen (Existenzminimum). Wie hoch dieser Betrag ist, legt das Amt nach den Richtlinien Ihres Kantons fest; er hängt unter anderem von Ihrer Wohnsituation, Ihren Krankenkassenprämien und Ihrer Familiengrösse ab."
+        "de": "Das Betreibungsamt darf nur den Teil Ihres Erwerbseinkommens, Ihrer Rente oder ähnlicher wiederkehrender Leistungen pfänden, der über das hinausgeht, was Sie und Ihre Familie unbedingt zum Leben brauchen (Existenzminimum). Wie hoch dieser Betrag ist, legt das Amt nach den Richtlinien Ihres Kantons fest; er hängt unter anderem von Ihrer Wohnsituation, Ihren Krankenkassenprämien und Ihrer Familiengrösse ab.",
+        "fr": "L’office des poursuites ne peut saisir que la part de votre revenu du travail, de votre rente ou de prestations périodiques similaires qui dépasse ce dont vous et votre famille avez absolument besoin pour vivre (minimum vital). L’office fixe le montant de ce minimum selon les directives de votre canton ; il dépend notamment de votre situation de logement, de vos primes d’assurance-maladie et de la taille de votre famille."
       },
       "sources": [
         "schkg-93"
@@ -156,7 +185,8 @@
         ]
       },
       "text": {
-        "de": "Läuft Ihre Pfändung schon fast ein Jahr, endet sie automatisch nach zwölf Monaten seit dem Pfändungsvollzug. Nehmen mehrere Gläubiger an der Pfändung teil, zählt die erste Pfändung der betreffenden Gläubigergruppe. Will der Gläubiger danach weiter vorgehen, muss er eine neue Pfändung verlangen, und das Amt prüft Ihre Situation dabei neu."
+        "de": "Läuft Ihre Pfändung schon fast ein Jahr, endet sie automatisch nach zwölf Monaten seit dem Pfändungsvollzug. Nehmen mehrere Gläubiger an der Pfändung teil, zählt die erste Pfändung der betreffenden Gläubigergruppe. Will der Gläubiger danach weiter vorgehen, muss er eine neue Pfändung verlangen, und das Amt prüft Ihre Situation dabei neu.",
+        "fr": "Si votre saisie dure déjà depuis presque un an, elle prend automatiquement fin douze mois après l’exécution de la saisie. Si plusieurs créanciers participent à la saisie, c’est la première saisie de la série de créanciers concernée qui compte. Si le créancier veut ensuite continuer, il doit demander une nouvelle saisie, et l’office réexamine alors votre situation."
       },
       "sources": [
         "schkg-93"
@@ -172,7 +202,8 @@
         ]
       },
       "text": {
-        "de": "Ändert sich Ihre Situation während der Pfändung, zum Beispiel weil die Miete oder die Krankenkassenprämie steigt, Sie weniger verdienen oder sich Ihre Familiensituation ändert, melden Sie dies sofort dem Betreibungsamt. Erfährt das Amt von einer solchen Änderung, passt es die Pfändung den neuen Verhältnissen an."
+        "de": "Ändert sich Ihre Situation während der Pfändung, zum Beispiel weil die Miete oder die Krankenkassenprämie steigt, Sie weniger verdienen oder sich Ihre Familiensituation ändert, melden Sie dies sofort dem Betreibungsamt. Erfährt das Amt von einer solchen Änderung, passt es die Pfändung den neuen Verhältnissen an.",
+        "fr": "Si votre situation change pendant la saisie, par exemple parce que le loyer ou la prime d’assurance-maladie augmente, que vous gagnez moins ou que votre situation familiale change, signalez-le immédiatement à l’office des poursuites. Si l’office a connaissance d’un tel changement, il adapte la saisie aux nouvelles circonstances."
       },
       "sources": [
         "schkg-93"
@@ -182,7 +213,8 @@
       "id": "health-insurance",
       "kind": "rule",
       "text": {
-        "de": "Auf Ihren Antrag kann das Amt Ihren Arbeitgeber anweisen, während der Pfändung zusätzlich den Betrag für Ihre laufenden Krankenkassenprämien und Kostenbeteiligungen direkt an das Amt zu überweisen, soweit diese zu Ihrem Existenzminimum gehören. Das Amt begleicht die Prämien damit direkt bei der Krankenkasse."
+        "de": "Auf Ihren Antrag kann das Amt Ihren Arbeitgeber anweisen, während der Pfändung zusätzlich den Betrag für Ihre laufenden Krankenkassenprämien und Kostenbeteiligungen direkt an das Amt zu überweisen, soweit diese zu Ihrem Existenzminimum gehören. Das Amt begleicht die Prämien damit direkt bei der Krankenkasse.",
+        "fr": "Sur votre demande, l’office peut charger votre employeur de verser en plus, pendant la saisie, le montant de vos primes d’assurance-maladie courantes et de vos participations aux coûts directement à l’office, dans la mesure où elles font partie de votre minimum vital. L’office règle ainsi les primes directement auprès de la caisse-maladie."
       },
       "sources": [
         "schkg-93"
@@ -192,7 +224,8 @@
       "id": "protected-items",
       "kind": "rule",
       "text": {
-        "de": "Unabhängig von Ihrem Einkommen sind bestimmte Vermögenswerte immer unpfändbar: persönliche Gegenstände, die Sie unbedingt brauchen, wie notwendige Kleidung oder Hausrat, die Werkzeuge und Bücher für Ihren Beruf, Nahrungsmittel für die zwei folgenden Monate, Haustiere, die nicht dem Erwerb dienen, sowie bestimmte Sozialversicherungsleistungen wie AHV- und IV-Renten, Ergänzungsleistungen und Ansprüche aus der beruflichen Vorsorge vor deren Fälligkeit."
+        "de": "Unabhängig von Ihrem Einkommen sind bestimmte Vermögenswerte immer unpfändbar: persönliche Gegenstände, die Sie unbedingt brauchen, wie notwendige Kleidung oder Hausrat, die Werkzeuge und Bücher für Ihren Beruf, Nahrungsmittel für die zwei folgenden Monate, Haustiere, die nicht dem Erwerb dienen, sowie bestimmte Sozialversicherungsleistungen wie AHV- und IV-Renten, Ergänzungsleistungen und Ansprüche aus der beruflichen Vorsorge vor deren Fälligkeit.",
+        "fr": "Indépendamment de votre revenu, certains biens sont toujours insaisissables : les objets personnels dont vous avez absolument besoin, comme les vêtements ou le mobilier de ménage nécessaires, les outils et les livres nécessaires à votre profession, les denrées alimentaires pour les deux mois suivants, les animaux domestiques qui ne servent pas à un but lucratif, ainsi que certaines prestations des assurances sociales telles que les rentes AVS et AI, les prestations complémentaires et les prétentions de la prévoyance professionnelle avant leur échéance."
       },
       "sources": [
         "schkg-92"
@@ -208,7 +241,8 @@
         ]
       },
       "text": {
-        "de": "Kennen Sie den berechneten Betrag nicht, verlangen Sie beim Betreibungsamt die Pfändungsurkunde oder -verfügung. Darin steht, wie viel Ihnen monatlich bleibt und wie sich der Betrag zusammensetzt. Das Amt berechnet diesen Betrag nach den Existenzminimum-Richtlinien Ihres Kantons, nicht nach einem schweizweit einheitlichen Tarif."
+        "de": "Kennen Sie den berechneten Betrag nicht, verlangen Sie beim Betreibungsamt die Pfändungsurkunde oder -verfügung. Darin steht, wie viel Ihnen monatlich bleibt und wie sich der Betrag zusammensetzt. Das Amt berechnet diesen Betrag nach den Existenzminimum-Richtlinien Ihres Kantons, nicht nach einem schweizweit einheitlichen Tarif.",
+        "fr": "Si vous ne connaissez pas le montant calculé, demandez à l’office des poursuites le procès-verbal ou la décision de saisie. Ce document indique le montant qui doit vous rester chaque mois et comment il se compose. L’office calcule ce montant selon les directives sur le minimum vital de votre canton, et non selon un barème uniforme à l’échelle suisse."
       }
     },
     {
@@ -221,7 +255,8 @@
         ]
       },
       "text": {
-        "de": "Sind Sie mit der Pfändungsverfügung nicht einverstanden, können Sie dagegen innert 10 Tagen, nachdem Sie davon Kenntnis erhalten haben, bei der Aufsichtsbehörde für Schuldbetreibung und Konkurs Beschwerde erheben, zum Beispiel wegen Gesetzesverletzung oder weil die Berechnung unangemessen ist. Das Betreibungsamt sagt Ihnen, welche Behörde in Ihrem Kanton dafür zuständig ist."
+        "de": "Sind Sie mit der Pfändungsverfügung nicht einverstanden, können Sie dagegen innert 10 Tagen, nachdem Sie davon Kenntnis erhalten haben, bei der Aufsichtsbehörde für Schuldbetreibung und Konkurs Beschwerde erheben, zum Beispiel wegen Gesetzesverletzung oder weil die Berechnung unangemessen ist. Das Betreibungsamt sagt Ihnen, welche Behörde in Ihrem Kanton dafür zuständig ist.",
+        "fr": "Si vous n’êtes pas d’accord avec la décision de saisie, vous pouvez, dans les 10 jours dès que vous en avez eu connaissance, porter plainte auprès de l’autorité de surveillance en matière de poursuite pour dettes et de faillite, par exemple pour violation de la loi ou parce que le calcul n’est pas approprié. L’office des poursuites vous indique quelle autorité est compétente dans votre canton."
       },
       "sources": [
         "schkg-17"
@@ -231,14 +266,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Ihr Existenzminimum so tief berechnet wurde, dass Sie sich das Nötigste nicht mehr leisten können, wenn mehrere Pfändungen gleichzeitig laufen, oder wenn Sie eine Beschwerdefrist knapp einhalten müssen."
+        "de": "Holen Sie persönliche Beratung, wenn Ihr Existenzminimum so tief berechnet wurde, dass Sie sich das Nötigste nicht mehr leisten können, wenn mehrere Pfändungen gleichzeitig laufen, oder wenn Sie eine Beschwerdefrist knapp einhalten müssen.",
+        "fr": "Demandez un conseil personnalisé si votre minimum vital a été calculé si bas que vous ne pouvez plus vous permettre le nécessaire, si plusieurs saisies sont en cours en même temps, ou si vous devez respecter de justesse un délai de plainte."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über das Verfahren und die Berechnung, berät aber nicht rechtlich. Kantonale und private Schuldenberatungsstellen helfen kostenlos oder günstig beim Haushaltsbudget und bei Verhandlungen mit Gläubigern. Konsumentenorganisationen bieten allgemeine Auskünfte."
+        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über das Verfahren und die Berechnung, berät aber nicht rechtlich. Kantonale und private Schuldenberatungsstellen helfen kostenlos oder günstig beim Haushaltsbudget und bei Verhandlungen mit Gläubigern. Konsumentenorganisationen bieten allgemeine Auskünfte.",
+        "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur la procédure et le calcul, mais ne fournit pas de conseil juridique. Des services cantonaux et privés de désendettement aident gratuitement ou à faible coût pour le budget du ménage et les négociations avec les créanciers. Des organisations de consommateurs offrent des renseignements généraux."
       }
     }
   ],
@@ -271,7 +308,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Betreibungen"
+        "de": "ch.ch: Betreibungen",
+        "fr": "ch.ch : Poursuites"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }

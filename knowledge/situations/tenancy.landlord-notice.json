@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Der Vermieter hat mir die Wohnung gekündigt"
+    "de": "Der Vermieter hat mir die Wohnung gekündigt",
+    "fr": "Le bailleur a résilié le bail de mon logement"
   },
   "summary": {
-    "de": "Sie können eine Kündigung der Wohnung anfechten oder mehr Zeit für den Auszug verlangen. Entscheidend ist die Frist von 30 Tagen ab Empfang der Kündigung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+    "de": "Sie können eine Kündigung der Wohnung anfechten oder mehr Zeit für den Auszug verlangen. Entscheidend ist die Frist von 30 Tagen ab Empfang der Kündigung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
+    "fr": "Vous pouvez contester un congé portant sur votre logement ou demander plus de temps pour déménager. Le délai déterminant est de 30 jours dès réception du congé. La procédure de conciliation ne vous coûte rien."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "de Vermieter het mir d Wohnig kündet",
       "Ich habe eine Kündigung auf dem Formular bekommen und will nicht ausziehen",
       "Kann ich mehr Zeit für den Auszug verlangen?"
+    ],
+    "fr": [
+      "Le bailleur a résilié le bail de mon logement, que puis-je faire ?",
+      "J'ai reçu un congé pour mon appartement, combien de temps ai-je ?",
+      "Congé pour besoin propre du bailleur, puis-je m'y opposer ?",
+      "Mon proprio veut me virer de l'appart, il a le droit ?",
+      "J'ai reçu un congé sur la formule officielle et je ne veux pas déménager",
+      "Puis-je demander plus de temps pour déménager ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Kündigungen des Vermieters bei gewöhnlichen Mietwohnungen und Häusern in der Schweiz."
+      "de": "Kündigungen des Vermieters bei gewöhnlichen Mietwohnungen und Häusern in der Schweiz.",
+      "fr": "Les congés donnés par le bailleur pour des appartements et maisons loués ordinaires en Suisse."
     },
     "excludes": {
-      "de": "Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse; Kündigungen, die Sie selbst aussprechen; laufende Gerichts- oder Ausweisungsverfahren."
+      "de": "Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse; Kündigungen, die Sie selbst aussprechen; laufende Gerichts- oder Ausweisungsverfahren.",
+      "fr": "Les locaux commerciaux, chambres meublées, logements de vacances et autres baux particuliers ; les congés que vous donnez vous-même ; les procédures judiciaires ou d'expulsion déjà en cours."
     }
   },
   "facts": [
     {
       "key": "scope",
       "question": {
-        "de": "Um welche Art Mietverhältnis geht es?"
+        "de": "Um welche Art Mietverhältnis geht es?",
+        "fr": "De quel type de bail s'agit-il ?"
       },
       "options": [
         {
           "value": "home",
           "label": {
-            "de": "Ich miete eine Wohnung oder ein Haus in der Schweiz"
+            "de": "Ich miete eine Wohnung oder ein Haus in der Schweiz",
+            "fr": "Je loue un appartement ou une maison en Suisse"
           }
         },
         {
           "value": "special",
           "label": {
-            "de": "Geschäftsraum, möbliertes Zimmer, Ferienwohnung oder etwas anderes"
+            "de": "Geschäftsraum, möbliertes Zimmer, Ferienwohnung oder etwas anderes",
+            "fr": "Local commercial, chambre meublée, logement de vacances ou autre chose"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n'en ai pas la certitude"
           }
         }
       ]
@@ -59,34 +75,40 @@
     {
       "key": "reason",
       "question": {
-        "de": "Warum hat der Vermieter gekündigt?"
+        "de": "Warum hat der Vermieter gekündigt?",
+        "fr": "Pourquoi le bailleur a-t-il résilié le bail ?"
       },
       "help": {
-        "de": "Der Grund steht oft im Begleitbrief. Wenn keiner angegeben ist, wählen Sie «Kein Grund angegeben»."
+        "de": "Der Grund steht oft im Begleitbrief. Wenn keiner angegeben ist, wählen Sie «Kein Grund angegeben».",
+        "fr": "Le motif figure souvent dans la lettre d'accompagnement. S'il n'y en a aucun, choisissez « Aucun motif indiqué »."
       },
       "options": [
         {
           "value": "arrears",
           "label": {
-            "de": "Wegen offener Mietzinse, nach einer schriftlichen Zahlungsfrist"
+            "de": "Wegen offener Mietzinse, nach einer schriftlichen Zahlungsfrist",
+            "fr": "Pour loyers impayés, après un délai de paiement écrit"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Aus einem anderen Grund, zum Beispiel Eigenbedarf oder Sanierung"
+            "de": "Aus einem anderen Grund, zum Beispiel Eigenbedarf oder Sanierung",
+            "fr": "Pour un autre motif, par exemple le besoin propre du bailleur ou des travaux de rénovation"
           }
         },
         {
           "value": "none",
           "label": {
-            "de": "Kein Grund angegeben"
+            "de": "Kein Grund angegeben",
+            "fr": "Aucun motif indiqué"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -94,28 +116,33 @@
     {
       "key": "form",
       "question": {
-        "de": "Kam die Kündigung auf einem amtlichen Formular des Kantons?"
+        "de": "Kam die Kündigung auf einem amtlichen Formular des Kantons?",
+        "fr": "Le congé est-il arrivé sur une formule officielle du canton ?"
       },
       "help": {
-        "de": "Das Formular erklärt auf der Rückseite oder im Anhang, wie Sie die Kündigung anfechten können."
+        "de": "Das Formular erklärt auf der Rückseite oder im Anhang, wie Sie die Kündigung anfechten können.",
+        "fr": "La formule explique, au verso ou en annexe, comment contester le congé."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht"
+            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht",
+            "fr": "Non, seulement une lettre ordinaire, un e-mail ou un message"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -123,31 +150,36 @@
     {
       "key": "family",
       "question": {
-        "de": "Wohnen Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder Ihrer eingetragenen Partnerschaft in der Wohnung?"
+        "de": "Wohnen Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder Ihrer eingetragenen Partnerschaft in der Wohnung?",
+        "fr": "Vivez-vous dans le logement avec votre épouse ou votre époux, ou en partenariat enregistré ?"
       },
       "options": [
         {
           "value": "separate",
           "label": {
-            "de": "Ja, und jede Person hat eine eigene Kündigung erhalten"
+            "de": "Ja, und jede Person hat eine eigene Kündigung erhalten",
+            "fr": "Oui, et chaque personne a reçu son propre congé"
           }
         },
         {
           "value": "single",
           "label": {
-            "de": "Ja, aber es kam nur eine Kündigung"
+            "de": "Ja, aber es kam nur eine Kündigung",
+            "fr": "Oui, mais un seul congé est arrivé"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -155,25 +187,29 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?"
       },
       "options": [
         {
           "value": "stay",
           "label": {
-            "de": "In der Wohnung bleiben"
+            "de": "In der Wohnung bleiben",
+            "fr": "Rester dans le logement"
           }
         },
         {
           "value": "time",
           "label": {
-            "de": "Mehr Zeit für den Auszug"
+            "de": "Mehr Zeit für den Auszug",
+            "fr": "Plus de temps pour déménager"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore"
           }
         }
       ]
@@ -189,7 +225,8 @@
         ]
       },
       "text": {
-        "de": "Für Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse gelten teilweise andere Regeln. Diese Anleitung deckt sie nicht ab. Wenden Sie sich rasch an die Schlichtungsbehörde für Mietsachen oder an eine Beratungsstelle, denn auch hier kann eine kurze Frist laufen."
+        "de": "Für Geschäftsräume, möblierte Zimmer, Ferienwohnungen und andere besondere Mietverhältnisse gelten teilweise andere Regeln. Diese Anleitung deckt sie nicht ab. Wenden Sie sich rasch an die Schlichtungsbehörde für Mietsachen oder an eine Beratungsstelle, denn auch hier kann eine kurze Frist laufen.",
+        "fr": "Pour les locaux commerciaux, les chambres meublées, les logements de vacances et les autres baux particuliers, des règles en partie différentes s'appliquent. Cette fiche ne les couvre pas. Adressez-vous rapidement à l'autorité de conciliation en matière de baux ou à un service de consultation, car un délai court peut courir là aussi."
       }
     },
     {
@@ -202,7 +239,8 @@
         ]
       },
       "text": {
-        "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Einen eingeschriebenen Brief haben Sie nicht erst mit der Abholung empfangen, sondern sobald Sie ihn auf der Post hätten abholen können: meist am Tag, an dem die Abholungseinladung in Ihren Briefkasten gelegt wurde, sonst am folgenden Tag. Rechnen Sie sicherheitshalber ab dem Tag der Abholungseinladung. Die Frist lässt sich nicht verlängern, und wer sie verpasst, kann das in aller Regel nicht nachholen. Ferien, Gerichtsferien oder Abwesenheit halten sie nicht auf, ein Gespräch mit dem Vermieter ebenso wenig. Sind Sie länger weg, sorgen Sie dafür, dass Sie Ihre Post erhalten, oder teilen Sie dem Vermieter eine Adresse mit, unter der Sie erreichbar sind."
+        "de": "Die wichtigste Frist: Wenn Sie die Kündigung anfechten oder mehr Zeit für den Auszug verlangen wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Kündigung bei der Schlichtungsbehörde einreichen. Einen eingeschriebenen Brief haben Sie nicht erst mit der Abholung empfangen, sondern sobald Sie ihn auf der Post hätten abholen können: meist am Tag, an dem die Abholungseinladung in Ihren Briefkasten gelegt wurde, sonst am folgenden Tag. Rechnen Sie sicherheitshalber ab dem Tag der Abholungseinladung. Die Frist lässt sich nicht verlängern, und wer sie verpasst, kann das in aller Regel nicht nachholen. Ferien, Gerichtsferien oder Abwesenheit halten sie nicht auf, ein Gespräch mit dem Vermieter ebenso wenig. Sind Sie länger weg, sorgen Sie dafür, dass Sie Ihre Post erhalten, oder teilen Sie dem Vermieter eine Adresse mit, unter der Sie erreichbar sind.",
+        "fr": "Le délai le plus important : si vous voulez contester le congé ou demander plus de temps pour déménager, vous devez déposer votre requête au plus tard 30 jours après avoir reçu le congé auprès de l'autorité de conciliation. Une lettre recommandée n'est pas reçue seulement au moment où vous la retirez, mais dès que vous auriez pu la retirer à la poste : en général le jour où l'avis de retrait a été déposé dans votre boîte aux lettres, sinon le jour suivant. Par précaution, comptez à partir du jour de l'avis de retrait. Le délai ne peut pas être prolongé, et qui le manque ne peut en règle générale pas le rattraper. Ni les vacances, ni la suspension des délais, ni une absence ne l'arrêtent, pas plus qu'une discussion avec le bailleur. En cas d'absence prolongée, faites en sorte de recevoir votre courrier, ou communiquez au bailleur une adresse où vous êtes joignable."
       },
       "sources": [
         "or-273",
@@ -223,7 +261,8 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss eine Wohnung schriftlich, unterschrieben und mit dem amtlichen Formular des Kantons kündigen. Eine E-Mail, SMS oder Chatnachricht genügt nicht. Fehlt das Formular, ist die Kündigung nichtig: Sie beendet die Miete nicht, auch wenn Sie nichts unternehmen. Schweigen Sie trotzdem nicht. Teilen Sie dem Vermieter rasch schriftlich mit, dass Sie die Kündigung für ungültig halten, denn wer lange nichts sagt, dem kann das später vorgehalten werden. Verlassen Sie sich auch nicht allein darauf: Reichen Sie Ihr Gesuch vorsorglich innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen."
+        "de": "Der Vermieter muss eine Wohnung schriftlich, unterschrieben und mit dem amtlichen Formular des Kantons kündigen. Eine E-Mail, SMS oder Chatnachricht genügt nicht. Fehlt das Formular, ist die Kündigung nichtig: Sie beendet die Miete nicht, auch wenn Sie nichts unternehmen. Schweigen Sie trotzdem nicht. Teilen Sie dem Vermieter rasch schriftlich mit, dass Sie die Kündigung für ungültig halten, denn wer lange nichts sagt, dem kann das später vorgehalten werden. Verlassen Sie sich auch nicht allein darauf: Reichen Sie Ihr Gesuch vorsorglich innert 30 Tagen ein und lassen Sie die Gültigkeit von der Schlichtungsbehörde prüfen.",
+        "fr": "Le bailleur doit résilier le bail d'un logement par écrit, signé et au moyen de la formule officielle du canton. Un e-mail, un SMS ou un message de chat ne suffisent pas. Si la formule fait défaut, le congé est nul : il ne met pas fin au bail, même si vous ne faites rien. Ne gardez pourtant pas le silence. Communiquez rapidement et par écrit au bailleur que vous tenez le congé pour invalide, car qui ne dit longtemps rien peut se le voir reprocher par la suite. Ne vous fiez pas non plus uniquement à cela : déposez tout de même votre requête dans les 30 jours par précaution et faites examiner la validité du congé par l'autorité de conciliation."
       },
       "sources": [
         "or-266l",
@@ -240,7 +279,8 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie, ob die Kündigung auf einem amtlichen Formular des Kantons kam. Eine Kündigung der Wohnung ohne dieses Formular ist ungültig. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden."
+        "de": "Prüfen Sie, ob die Kündigung auf einem amtlichen Formular des Kantons kam. Eine Kündigung der Wohnung ohne dieses Formular ist ungültig. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden.",
+        "fr": "Vérifiez si le congé est arrivé sur une formule officielle du canton. Un congé portant sur un logement donné sans cette formule est invalide. Apportez le courrier avec vous lorsque vous vous adressez à l'autorité de conciliation."
       },
       "sources": [
         "or-266l",
@@ -256,7 +296,8 @@
         ]
       },
       "text": {
-        "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Das gilt auch für eine vorausgehende Mahnung mit Zahlungsfrist wegen offener Mietzinse. Kam nur eine Kündigung, ist sie nichtig, sofern es sich tatsächlich um die Familienwohnung handelt. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen. Auch wer den Mietvertrag nicht selbst unterschrieben hat, kann die Kündigung der Familienwohnung anfechten."
+        "de": "Leben Sie mit Ihrer Ehepartnerin, Ihrem Ehepartner oder in eingetragener Partnerschaft in der Familienwohnung, muss der Vermieter beiden Personen je eine eigene Kündigung zustellen. Das gilt auch für eine vorausgehende Mahnung mit Zahlungsfrist wegen offener Mietzinse. Kam nur eine Kündigung, ist sie nichtig, sofern es sich tatsächlich um die Familienwohnung handelt. Lassen Sie das innert der 30 Tage von der Schlichtungsbehörde prüfen. Auch wer den Mietvertrag nicht selbst unterschrieben hat, kann die Kündigung der Familienwohnung anfechten.",
+        "fr": "Si vous vivez avec votre épouse ou votre époux, ou en partenariat enregistré, dans le logement de la famille, le bailleur doit notifier un congé séparé à chacune des deux personnes. Cela vaut aussi pour une mise en demeure préalable avec délai de paiement en cas de loyers impayés. Si un seul congé est arrivé, il est nul, pour autant qu'il s'agisse effectivement du logement de la famille. Faites-le examiner par l'autorité de conciliation ; le délai est de 30 jours. Même la personne qui n'a pas signé elle-même le bail peut contester le congé portant sur le logement de la famille."
       },
       "sources": [
         "or-266n",
@@ -274,7 +315,8 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Eine Begründung ist nicht nötig. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Verlangen Sie in der Regel beides: die Aufhebung der Kündigung und, für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Das gilt auch, wenn Sie vor allem mehr Zeit möchten, denn ein Gesuch, das nur eine Erstreckung verlangt, lässt sich nach Ablauf der Frist nicht mehr in eine Anfechtung umwandeln. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung."
+        "de": "So gehen Sie vor: Wenden Sie sich an die Schlichtungsbehörde für Mietsachen am Ort der Wohnung. Sie können Ihr Gesuch schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Eine Begründung ist nicht nötig. Nennen Sie den Vermieter, was Sie verlangen, und legen Sie eine Kopie der Kündigung bei. Verlangen Sie in der Regel beides: die Aufhebung der Kündigung und, für den Fall, dass diese scheitert, eine Erstreckung des Mietverhältnisses. Das gilt auch, wenn Sie vor allem mehr Zeit möchten, denn ein Gesuch, das nur eine Erstreckung verlangt, lässt sich nach Ablauf der Frist nicht mehr in eine Anfechtung umwandeln. Wird die Anfechtung abgewiesen, prüft die Behörde von sich aus, ob eine Erstreckung möglich ist. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung.",
+        "fr": "Comment procéder : adressez-vous à l'autorité de conciliation en matière de baux du lieu où se trouve le logement. Vous pouvez déposer votre requête par écrit ou la faire consigner oralement au procès-verbal par l'autorité. Aucune motivation n'est nécessaire. Indiquez le bailleur, ce que vous demandez, et joignez une copie du congé. En règle générale, demandez les deux choses : l'annulation du congé et, pour le cas où celle-ci échouerait, une prolongation du bail. Cela vaut aussi si vous souhaitez surtout obtenir plus de temps, car une requête qui ne demande qu'une prolongation ne peut plus, une fois le délai écoulé, être transformée en contestation. Si la contestation est rejetée, l'autorité examine d'office si une prolongation est possible. Si la requête a été déposée auprès d'une autorité incompétente, redéposez-la auprès de l'autorité compétente dans le mois qui suit sa décision ou votre retrait. C'est alors la date du premier dépôt qui compte."
       },
       "sources": [
         "zpo-202",
@@ -294,7 +336,8 @@
         ]
       },
       "text": {
-        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, zum Beispiel Sie und Ihr Ehepartner oder eine Mitbewohnerin, fechten Sie die Kündigung am besten gemeinsam an. Will jemand davon nicht mitmachen, können Sie trotzdem allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern."
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, zum Beispiel Sie und Ihr Ehepartner oder eine Mitbewohnerin, fechten Sie die Kündigung am besten gemeinsam an. Will jemand davon nicht mitmachen, können Sie trotzdem allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern.",
+        "fr": "Si plusieurs personnes ont signé le bail, par exemple vous et votre conjoint ou une colocataire, le mieux est de contester le congé ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même contester sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse. Sinon, votre requête peut échouer pour ce seul motif."
       },
       "sources": [
         "bge-145-iii-281"
@@ -310,7 +353,8 @@
         ]
       },
       "text": {
-        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson, eine Beraterin oder einen Anwalt mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen, und die 30 Tage sind dann meist schon vorbei. Zusätzlich kann die Behörde eine Ordnungsbusse von bis zu 1000 Franken verhängen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg und fragen Sie, ob Sie sich vertreten lassen oder einen neuen Termin erhalten können."
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson, eine Beraterin oder einen Anwalt mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen, und die 30 Tage sind dann meist schon vorbei. Zusätzlich kann die Behörde eine Ordnungsbusse von bis zu 1000 Franken verhängen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg und fragen Sie, ob Sie sich vertreten lassen oder einen neuen Termin erhalten können.",
+        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance, d'une conseillère ou d'un avocat. Si vous ne comparaissez pas, votre requête est réputée retirée, et les 30 jours sont alors en général déjà écoulés. L'autorité peut en outre prononcer une amende d'ordre de 1000 francs au plus. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif et demandez si vous pouvez vous faire représenter ou obtenir un nouveau rendez-vous."
       },
       "sources": [
         "zpo-204",
@@ -327,7 +371,8 @@
         ]
       },
       "text": {
-        "de": "Nicht jeder Fehler wirkt gleich. Manche Kündigungen sind von vornherein unwirksam, etwa ohne amtliches Formular, ohne eigene Zustellung an beide Ehe- oder eingetragenen Partner in der Familienwohnung, oder wegen offener Mietzinse, obwohl gar nichts offen war. Eine solche Kündigung müssten Sie nicht innert 30 Tagen anfechten. Ist die Kündigung dagegen formell in Ordnung und halten Sie sie nur für unfair oder missbräuchlich, müssen Sie innert 30 Tagen anfechten, auch wenn der Missbrauch offensichtlich ist. Später können Sie das nicht mehr geltend machen, auch nicht, wenn der Vermieter Ihre Ausweisung verlangt. Weil die Abgrenzung schwierig ist, reichen Sie im Zweifel immer innert der Frist ein."
+        "de": "Nicht jeder Fehler wirkt gleich. Manche Kündigungen sind von vornherein unwirksam, etwa ohne amtliches Formular, ohne eigene Zustellung an beide Ehe- oder eingetragenen Partner in der Familienwohnung, oder wegen offener Mietzinse, obwohl gar nichts offen war. Eine solche Kündigung müssten Sie nicht innert 30 Tagen anfechten. Ist die Kündigung dagegen formell in Ordnung und halten Sie sie nur für unfair oder missbräuchlich, müssen Sie innert 30 Tagen anfechten, auch wenn der Missbrauch offensichtlich ist. Später können Sie das nicht mehr geltend machen, auch nicht, wenn der Vermieter Ihre Ausweisung verlangt. Weil die Abgrenzung schwierig ist, reichen Sie im Zweifel immer innert der Frist ein.",
+        "fr": "Toutes les erreurs n'ont pas le même effet. Certains congés sont d'emblée sans effet, par exemple sans formule officielle, sans notification séparée aux deux époux ou partenaires enregistrés dans le logement de la famille, ou pour loyers impayés alors que rien n'était réellement dû. Un tel congé, vous n'auriez pas besoin de le contester dans les 30 jours. Si en revanche le congé est formellement en ordre et que vous le tenez seulement pour inéquitable ou abusif, vous devez le contester dans les 30 jours, même si l'abus est manifeste. Plus tard, vous ne pourrez plus le faire valoir, même si le bailleur demande votre expulsion. Comme la distinction est difficile, déposez toujours votre requête dans le délai en cas de doute."
       },
       "sources": [
         "bge-121-iii-156",
@@ -346,7 +391,8 @@
         ]
       },
       "text": {
-        "de": "Hat der Vermieter eine zu kurze Kündigungsfrist oder einen falschen Termin gewählt, ist die Kündigung deshalb nicht ungültig. Sie gilt einfach für den nächsten zulässigen Termin. Welche Fristen und Termine gelten, steht in Ihrem Mietvertrag oder, wenn dieser nichts regelt, im Gesetz."
+        "de": "Hat der Vermieter eine zu kurze Kündigungsfrist oder einen falschen Termin gewählt, ist die Kündigung deshalb nicht ungültig. Sie gilt einfach für den nächsten zulässigen Termin. Welche Fristen und Termine gelten, steht in Ihrem Mietvertrag oder, wenn dieser nichts regelt, im Gesetz.",
+        "fr": "Si le bailleur a choisi un délai de congé trop court ou un terme erroné, le congé n'est pas invalide pour autant. Il vaut simplement pour le prochain terme admissible. Les délais et termes applicables figurent dans votre bail ou, si celui-ci ne règle rien, dans la loi."
       },
       "sources": [
         "or-266a"
@@ -362,7 +408,8 @@
         ]
       },
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Wenn Sie eine Anwältin oder einen Anwalt beiziehen, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire."
       },
       "sources": [
         "zpo-113",
@@ -379,7 +426,8 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, kann die Behörde einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als angenommen. Macht die Behörde keinen Vorschlag, erhalten Sie eine Klagebewilligung; auch dann beträgt die Frist für die Klage 30 Tage. Diese Fristen sind kurz. Lassen Sie sich spätestens jetzt beraten."
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, kann die Behörde einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als angenommen. Macht die Behörde keinen Vorschlag, erhalten Sie eine Klagebewilligung; auch dann beträgt die Frist für die Klage 30 Tage. Diese Fristen sind kurz. Lassen Sie sich spätestens jetzt beraten.",
+        "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, l'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si l'autorité ne fait pas de proposition, vous recevez une autorisation de procéder ; là aussi, le délai pour agir en justice est de 30 jours. Ces délais sont courts. Faites-vous conseiller au plus tard à ce stade."
       },
       "sources": [
         "zpo-211",
@@ -401,7 +449,8 @@
         ]
       },
       "text": {
-        "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Der Vermieter muss nicht innert Ihrer Frist antworten. Reichen Sie Ihr Gesuch deshalb innert der 30 Tage ein, ohne auf die Antwort zu warten. Bewahren Sie die Antwort gut auf: Nennt der Vermieter keinen Grund oder später einen anderen, kann das im Verfahren für Sie sprechen."
+        "de": "Sie können verlangen, dass der Vermieter die Kündigung begründet. Fragen Sie schriftlich nach. Der Vermieter muss nicht innert Ihrer Frist antworten. Reichen Sie Ihr Gesuch deshalb innert der 30 Tage ein, ohne auf die Antwort zu warten. Bewahren Sie die Antwort gut auf: Nennt der Vermieter keinen Grund oder später einen anderen, kann das im Verfahren für Sie sprechen.",
+        "fr": "Vous pouvez exiger que le bailleur motive le congé. Demandez-le par écrit. Le bailleur n'est pas tenu de répondre dans votre délai. Déposez donc votre requête dans les 30 jours sans attendre sa réponse. Conservez bien la réponse : si le bailleur n'indique aucun motif ou en indique un autre par la suite, cela peut jouer en votre faveur dans la procédure."
       },
       "sources": [
         "or-271",
@@ -423,7 +472,8 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter darf eine unbefristete Miete grundsätzlich auch ohne besonderen Grund kündigen, zum Beispiel weil er die Wohnung selbst nutzen, umbauen oder anders vermieten will. Anfechtbar ist eine Kündigung, wenn sie gegen Treu und Glauben verstösst, etwa weil der genannte Grund nur vorgeschoben ist oder kein schützenswertes Interesse dahintersteht. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis. Eine Kündigung wegen Umbau oder Sanierung kann missbräuchlich sein, wenn das Projekt bei der Kündigung noch nicht genügend ausgearbeitet war oder offensichtlich nicht bewilligt werden kann. Dass der Auszug für Sie schwer ist, macht die Kündigung allein nicht missbräuchlich; das zählt bei der Erstreckung. Den Missbrauch müssen Sie beweisen. Der Vermieter muss aber seinen Grund darlegen und belegen."
+        "de": "Der Vermieter darf eine unbefristete Miete grundsätzlich auch ohne besonderen Grund kündigen, zum Beispiel weil er die Wohnung selbst nutzen, umbauen oder anders vermieten will. Anfechtbar ist eine Kündigung, wenn sie gegen Treu und Glauben verstösst, etwa weil der genannte Grund nur vorgeschoben ist oder kein schützenswertes Interesse dahintersteht. Das Gesetz nennt Beispiele: wenn der Vermieter kündigt, weil Sie berechtigte Ansprüche aus dem Mietvertrag geltend gemacht haben; weil er eine Mietzinserhöhung oder eine andere Vertragsänderung zu Ihren Lasten durchsetzen will; weil sich Ihre Familiensituation geändert hat, ohne dass ihm daraus wesentliche Nachteile entstehen; oder während eines Schlichtungs- oder Gerichtsverfahrens mit Ihnen über das Mietverhältnis. Eine Kündigung wegen Umbau oder Sanierung kann missbräuchlich sein, wenn das Projekt bei der Kündigung noch nicht genügend ausgearbeitet war oder offensichtlich nicht bewilligt werden kann. Dass der Auszug für Sie schwer ist, macht die Kündigung allein nicht missbräuchlich; das zählt bei der Erstreckung. Den Missbrauch müssen Sie beweisen. Der Vermieter muss aber seinen Grund darlegen und belegen.",
+        "fr": "Le bailleur peut en principe résilier un bail de durée indéterminée même sans motif particulier, par exemple parce qu'il veut utiliser lui-même le logement, le transformer ou le relouer autrement. Un congé est contestable lorsqu'il contrevient aux règles de la bonne foi, par exemple parce que le motif invoqué n'est qu'un prétexte ou qu'aucun intérêt digne de protection ne le sous-tend. La loi donne des exemples : lorsque le bailleur résilie parce que vous avez fait valoir de bonne foi des prétentions découlant du bail ; parce qu'il veut imposer une majoration de loyer ou une autre modification du contrat à vos dépens ; parce que votre situation familiale a changé, sans que cela lui cause d'inconvénients majeurs ; ou pendant une procédure de conciliation ou judiciaire avec vous au sujet du bail. Un congé motivé par des travaux ou une rénovation peut être abusif si le projet n'était pas encore suffisamment élaboré au moment du congé ou s'il ne peut manifestement pas être autorisé. Le fait que le départ soit difficile pour vous ne rend pas à lui seul le congé abusif ; cela compte pour la prolongation. C'est à vous de prouver l'abus. Mais le bailleur doit exposer et étayer son motif."
       },
       "sources": [
         "or-271",
@@ -447,7 +497,8 @@
         ]
       },
       "text": {
-        "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen. Ausgenommen sind Kündigungen wegen dringendem Eigenbedarf des Vermieters oder naher Verwandter, wegen Zahlungsrückstand, wegen schwerer Verletzung der Pflicht zu Sorgfalt und Rücksicht, nach einem Verkauf der Wohnung oder des Hauses, aus wichtigen Gründen und bei Konkurs des Mieters."
+        "de": "Haben Sie in den letzten drei Jahren mit dem Vermieter ein Schlichtungs- oder Gerichtsverfahren über die Miete geführt, ist eine Kündigung in dieser Zeit anfechtbar, wenn der Vermieter dabei zu einem erheblichen Teil unterlegen ist, seine Forderung zurückgezogen oder deutlich eingeschränkt hat, auf den Gang ans Gericht verzichtet hat oder sich mit Ihnen geeinigt hat. Das gilt auch für eine Einigung ohne Verfahren, wenn Sie sie mit Schriftstücken belegen können. Dieser Schutz gilt nicht bei allen Kündigungen. Ausgenommen sind Kündigungen wegen dringendem Eigenbedarf des Vermieters oder naher Verwandter, wegen Zahlungsrückstand, wegen schwerer Verletzung der Pflicht zu Sorgfalt und Rücksicht, nach einem Verkauf der Wohnung oder des Hauses, aus wichtigen Gründen und bei Konkurs des Mieters.",
+        "fr": "Si vous avez mené, au cours des trois dernières années, une procédure de conciliation ou judiciaire avec le bailleur au sujet du bail, un congé donné pendant cette période est contestable si le bailleur y a succombé dans une large mesure, a retiré ou notablement réduit sa prétention, a renoncé à saisir le juge, ou s'est entendu avec vous. Cela vaut aussi pour un accord conclu sans procédure, si vous pouvez le prouver par des écrits. Cette protection ne s'applique pas à tous les congés. En sont exceptés les congés donnés pour besoin urgent du bailleur ou de ses proches parents, pour retard de paiement, pour violation grave du devoir de diligence et d'égards, après une vente du logement ou de l'immeuble, pour de justes motifs et en cas de faillite du locataire."
       },
       "sources": [
         "or-271a"
@@ -468,7 +519,8 @@
         ]
       },
       "text": {
-        "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Eine Härte liegt vor allem vor, wenn Sie in der verbleibenden Zeit keine zumutbare Ersatzwohnung finden können. Die Umstände, die jeder Umzug mit sich bringt, genügen allein nicht. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Eine zweite Erstreckung müssen Sie spätestens 60 Tage vor Ablauf der ersten verlangen. Bietet Ihnen der Vermieter verbindlich eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen. Während der Erstreckung dürfen Sie früher ausziehen: bei einer Erstreckung bis zu einem Jahr mit einem Monat Frist auf Ende eines Monats, sonst mit drei Monaten auf einen gesetzlichen Termin, wenn nichts anderes festgelegt wurde."
+        "de": "Auch wenn die Kündigung gültig ist, können Sie eine Erstreckung des Mietverhältnisses verlangen, wenn der Auszug für Sie oder Ihre Familie eine Härte bedeutet, die die Interessen des Vermieters nicht rechtfertigen. Eine Härte liegt vor allem vor, wenn Sie in der verbleibenden Zeit keine zumutbare Ersatzwohnung finden können. Die Umstände, die jeder Umzug mit sich bringt, genügen allein nicht. Die Behörde wägt unter anderem ab, wie lange Sie schon in der Wohnung leben, Ihre persönliche, familiäre und finanzielle Lage, einen allfälligen Eigenbedarf des Vermieters und die Lage auf dem örtlichen Wohnungsmarkt. Für Wohnungen ist eine Erstreckung um insgesamt höchstens vier Jahre möglich, in einem oder zwei Schritten. Eine zweite Erstreckung müssen Sie spätestens 60 Tage vor Ablauf der ersten verlangen. Bietet Ihnen der Vermieter verbindlich eine gleichwertige andere Wohnung an, ist eine Erstreckung in der Regel ausgeschlossen. Während der Erstreckung dürfen Sie früher ausziehen: bei einer Erstreckung bis zu einem Jahr mit einem Monat Frist auf Ende eines Monats, sonst mit drei Monaten auf einen gesetzlichen Termin, wenn nichts anderes festgelegt wurde.",
+        "fr": "Même si le congé est valable, vous pouvez demander une prolongation du bail si le départ représente pour vous ou votre famille une rigueur que les intérêts du bailleur ne justifient pas. Une telle rigueur existe surtout lorsque vous ne pouvez pas trouver de logement de remplacement acceptable dans le temps restant. Les inconvénients que comporte tout déménagement ne suffisent pas à eux seuls. L'autorité pèse notamment la durée pendant laquelle vous habitez déjà le logement, votre situation personnelle, familiale et financière, un éventuel besoin propre du bailleur et la situation du marché local du logement. Pour un logement, une prolongation de quatre ans au maximum est possible au total, en une ou deux étapes. Une deuxième prolongation doit être demandée au moins 60 jours avant que la première prenne fin. Si le bailleur vous propose fermement un autre logement équivalent, une prolongation est en règle générale exclue. Pendant la prolongation, vous pouvez déménager plus tôt : pour une prolongation allant jusqu'à un an, avec un délai d'un mois pour la fin d'un mois, sinon avec trois mois pour un terme légal, sauf accord contraire."
       },
       "sources": [
         "or-272",
@@ -493,7 +545,8 @@
         ]
       },
       "text": {
-        "de": "Suchen Sie trotzdem schon jetzt eine neue Wohnung und bewahren Sie Belege Ihrer Suche auf, etwa Bewerbungen und Absagen. Verlangen Sie später eine zweite Erstreckung, prüft die Behörde, ob Sie alles Zumutbare unternommen haben, um eine Lösung zu finden."
+        "de": "Suchen Sie trotzdem schon jetzt eine neue Wohnung und bewahren Sie Belege Ihrer Suche auf, etwa Bewerbungen und Absagen. Verlangen Sie später eine zweite Erstreckung, prüft die Behörde, ob Sie alles Zumutbare unternommen haben, um eine Lösung zu finden.",
+        "fr": "Cherchez tout de même dès maintenant un nouveau logement et conservez les preuves de vos recherches, par exemple vos candidatures et les refus reçus. Si vous demandez plus tard une deuxième prolongation, l'autorité vérifiera si vous avez entrepris tout ce qui pouvait raisonnablement être exigé de vous pour trouver une solution."
       },
       "sources": [
         "or-272"
@@ -518,7 +571,8 @@
         ]
       },
       "text": {
-        "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Bei einer Familienwohnung ist sie nur gültig, wenn beide Ehe- oder eingetragenen Partner sie abschliessen. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein."
+        "de": "Brauchen Sie vor allem mehr Zeit, können Sie die Erstreckung auch direkt mit dem Vermieter vereinbaren. Eine solche Vereinbarung ist nicht an die gesetzliche Höchstdauer gebunden. Halten Sie sie schriftlich und unterschrieben fest. Bei einer Familienwohnung ist sie nur gültig, wenn beide Ehe- oder eingetragenen Partner sie abschliessen. Solange keine unterschriebene Einigung vorliegt, reichen Sie Ihr Gesuch vorsorglich trotzdem innert der Frist ein.",
+        "fr": "Si vous avez surtout besoin de plus de temps, vous pouvez aussi convenir directement de la prolongation avec le bailleur. Un tel accord n'est pas lié à la durée maximale légale. Faites-le par écrit et signé. Pour un logement de la famille, il n'est valable que si les deux époux ou partenaires enregistrés le concluent. Tant qu'aucun accord signé n'existe, déposez tout de même votre requête dans le délai, par précaution."
       },
       "sources": [
         "or-272b",
@@ -534,7 +588,8 @@
         ]
       },
       "text": {
-        "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen, und der Vermieter kann Ihre Ausweisung in einem raschen Gerichtsverfahren verlangen, auch wenn Ihre Anfechtung noch läuft. Prüfen Sie: Hat der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht? Ging diese Mahnung bei einer Familienwohnung an beide Partner je separat? Kam die Kündigung erst nach Ablauf dieser Zahlungsfrist, auf dem amtlichen Formular und mit mindestens 30 Tagen auf Ende eines Monats? Waren die Beträge wirklich geschuldet? Mietzins, den Sie wegen eines Mangels korrekt bei der vom Kanton bezeichneten Stelle hinterlegt haben, gilt als bezahlt. Wer dagegen Mietzins einfach zurückbehält oder innert der Zahlungsfrist nur einen Teil bezahlt, riskiert eine gültige Kündigung. Fehlt eine Voraussetzung, kann die Kündigung unwirksam sein. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein."
+        "de": "Bei einer Kündigung wegen offener Mietzinse gelten strengere Regeln: Eine Erstreckung ist ausgeschlossen, und der Vermieter kann Ihre Ausweisung in einem raschen Gerichtsverfahren verlangen, auch wenn Ihre Anfechtung noch läuft. Prüfen Sie: Hat der Vermieter Ihnen vorher schriftlich eine Zahlungsfrist von mindestens 30 Tagen gesetzt und die Kündigung angedroht? Ging diese Mahnung bei einer Familienwohnung an beide Partner je separat? Kam die Kündigung erst nach Ablauf dieser Zahlungsfrist, auf dem amtlichen Formular und mit mindestens 30 Tagen auf Ende eines Monats? Waren die Beträge wirklich geschuldet? Mietzins, den Sie wegen eines Mangels korrekt bei der vom Kanton bezeichneten Stelle hinterlegt haben, gilt als bezahlt. Wer dagegen Mietzins einfach zurückbehält oder innert der Zahlungsfrist nur einen Teil bezahlt, riskiert eine gültige Kündigung. Fehlt eine Voraussetzung, kann die Kündigung unwirksam sein. Lassen Sie sich sofort beraten. Reichen Sie ein allfälliges Gesuch trotzdem innert 30 Tagen ein.",
+        "fr": "En cas de congé pour loyers impayés, des règles plus strictes s'appliquent : une prolongation est exclue, et le bailleur peut demander votre expulsion dans une procédure judiciaire rapide, même si votre contestation est encore pendante. Vérifiez : le bailleur vous a-t-il fixé au préalable, par écrit, un délai de paiement d'au moins 30 jours en menaçant de résilier ? Cette mise en demeure a-t-elle été adressée séparément à chacun des deux partenaires, pour un logement de la famille ? Le congé n'est-il arrivé qu'après l'échéance de ce délai de paiement, sur la formule officielle et avec un délai d'au moins 30 jours, fixé à la fin d'un mois ? Les montants étaient-ils réellement dus ? Le loyer que vous avez correctement consigné auprès de l'office désigné par le canton en raison d'un défaut est réputé payé. En revanche, qui retient simplement le loyer ou n'en paie qu'une partie dans le délai de paiement risque un congé valable. Si une condition fait défaut, le congé peut être sans effet. Faites-vous conseiller immédiatement. Déposez tout de même une éventuelle requête dans les 30 jours."
       },
       "sources": [
         "or-257d",
@@ -549,14 +604,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn bereits ein Gerichtsverfahren oder ein Ausweisungsgesuch des Vermieters läuft, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, wenn wegen offener Mietzinse gekündigt wurde, wenn es um Geschäftsräume geht oder wenn die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez une consultation personnelle si une procédure judiciaire ou une requête d'expulsion du bailleur est déjà en cours, si vous avez reçu une proposition de décision ou une autorisation de procéder, si le congé a été donné pour loyers impayés, s'il s'agit de locaux commerciaux, ou si le délai expire dans quelques jours."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite."
       }
     }
   ],
@@ -812,13 +869,15 @@
   "official_links": [
     {
       "label": {
-        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht"
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht",
+        "fr": "Office fédéral du logement : procédure de conciliation en droit du bail"
       },
       "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
     },
     {
       "label": {
-        "de": "ch.ch: Mietvertrag und Pachtvertrag"
+        "de": "ch.ch: Mietvertrag und Pachtvertrag",
+        "fr": "ch.ch : contrat de bail à loyer et à ferme"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/mietvertrag-und-pachtvertrag/"
     }

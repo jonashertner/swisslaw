@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich brauche ein Arbeitszeugnis oder mein Zeugnis ist unfair"
+    "de": "Ich brauche ein Arbeitszeugnis oder mein Zeugnis ist unfair",
+    "fr": "J’ai besoin d’un certificat de travail ou mon certificat est injuste"
   },
   "summary": {
-    "de": "Sie können jederzeit ein vollständiges Arbeitszeugnis oder auf Wunsch nur eine einfache Bestätigung verlangen. Das Zeugnis muss wohlwollend, aber auch wahr und vollständig sein. Bei Streit hilft die Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten, kostenlos bis 30 000 Franken."
+    "de": "Sie können jederzeit ein vollständiges Arbeitszeugnis oder auf Wunsch nur eine einfache Bestätigung verlangen. Das Zeugnis muss wohlwollend, aber auch wahr und vollständig sein. Bei Streit hilft die Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten, kostenlos bis 30 000 Franken.",
+    "fr": "Vous pouvez en tout temps demander un certificat de travail complet, ou, si vous le souhaitez, une simple attestation. Le certificat doit être bienveillant, mais aussi véridique et complet. En cas de litige, l’autorité de conciliation en matière de droit du travail vous aide, gratuitement jusqu’à 30 000 francs."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Ich bruuche mis Arbeitszügnis, wie chum ich drazue?",
       "Mein Arbeitgeber will mir kein Zeugnis ausstellen",
       "Kann ich schon während der Anstellung ein Zwischenzeugnis verlangen?"
+    ],
+    "fr": [
+      "J’ai besoin d’un certificat de travail, comment l’obtenir ?",
+      "Mon certificat de travail est injuste, que puis-je faire ?",
+      "Puis-je demander seulement une attestation de travail plutôt qu’un certificat complet ?",
+      "J’ai besoin de mon certificat de travail, comment je fais pour l’avoir ?",
+      "Mon employeur refuse de m’établir un certificat",
+      "Puis-je déjà demander un certificat intermédiaire pendant mon emploi ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Der Anspruch auf ein Arbeitszeugnis oder eine Arbeitsbestätigung und der Streit über dessen Inhalt bei privatrechtlichen Arbeitsverhältnissen in der Schweiz."
+      "de": "Der Anspruch auf ein Arbeitszeugnis oder eine Arbeitsbestätigung und der Streit über dessen Inhalt bei privatrechtlichen Arbeitsverhältnissen in der Schweiz.",
+      "fr": "Le droit à un certificat de travail ou à une attestation de travail, et le litige portant sur son contenu, dans les rapports de travail de droit privé en Suisse."
     },
     "excludes": {
-      "de": "Öffentlich-rechtliche Anstellungsverhältnisse und Streitigkeiten über andere Ansprüche aus dem Arbeitsverhältnis wie Lohn oder Kündigungsschutz."
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse und Streitigkeiten über andere Ansprüche aus dem Arbeitsverhältnis wie Lohn oder Kündigungsschutz.",
+      "fr": "Les rapports de travail de droit public et les litiges portant sur d’autres prétentions découlant du rapport de travail, comme le salaire ou la protection contre le congé."
     }
   },
   "facts": [
     {
       "key": "employer_type",
       "question": {
-        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
+        "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
+            "fr": "Employeur privé (entreprise, association, particulier)"
           }
         },
         {
           "value": "public",
           "label": {
-            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
+            "fr": "Confédération, canton, commune ou autre entité publique"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "currently_employed",
       "question": {
-        "de": "Arbeiten Sie noch bei diesem Arbeitgeber?"
+        "de": "Arbeiten Sie noch bei diesem Arbeitgeber?",
+        "fr": "Travaillez-vous encore pour cet employeur ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, das Arbeitsverhältnis läuft noch"
+            "de": "Ja, das Arbeitsverhältnis läuft noch",
+            "fr": "Oui, les rapports de travail sont encore en cours"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es ist beendet"
+            "de": "Nein, es ist beendet",
+            "fr": "Non, ils sont terminés"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -85,25 +105,29 @@
     {
       "key": "kind_wanted",
       "question": {
-        "de": "Welche Art von Zeugnis möchten Sie?"
+        "de": "Welche Art von Zeugnis möchten Sie?",
+        "fr": "Quel type de certificat souhaitez-vous ?"
       },
       "options": [
         {
           "value": "full-reference",
           "label": {
-            "de": "Ein vollständiges Zeugnis mit Leistung und Verhalten"
+            "de": "Ein vollständiges Zeugnis mit Leistung und Verhalten",
+            "fr": "Un certificat complet portant sur les prestations et le comportement"
           }
         },
         {
           "value": "simple-confirmation",
           "label": {
-            "de": "Nur eine Bestätigung von Art und Dauer der Anstellung"
+            "de": "Nur eine Bestätigung von Art und Dauer der Anstellung",
+            "fr": "Une simple attestation de la nature et de la durée de l’emploi"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir nicht sicher"
+            "de": "Ich bin mir nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -111,31 +135,36 @@
     {
       "key": "problem",
       "question": {
-        "de": "Was ist Ihr Problem?"
+        "de": "Was ist Ihr Problem?",
+        "fr": "Quel est votre problème ?"
       },
       "options": [
         {
           "value": "not-yet-requested",
           "label": {
-            "de": "Ich habe noch kein Zeugnis verlangt"
+            "de": "Ich habe noch kein Zeugnis verlangt",
+            "fr": "Je n’ai pas encore demandé de certificat"
           }
         },
         {
           "value": "employer-refuses",
           "label": {
-            "de": "Mein Arbeitgeber stellt gar kein Zeugnis aus"
+            "de": "Mein Arbeitgeber stellt gar kein Zeugnis aus",
+            "fr": "Mon employeur ne délivre aucun certificat"
           }
         },
         {
           "value": "content-unfair",
           "label": {
-            "de": "Ich finde das Zeugnis unfair oder falsch"
+            "de": "Ich finde das Zeugnis unfair oder falsch",
+            "fr": "Je trouve le certificat injuste ou erroné"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir nicht sicher"
+            "de": "Ich bin mir nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -146,7 +175,8 @@
       "id": "public-employer",
       "kind": "escalate",
       "text": {
-        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihr Zeugnis meist öffentliches Personalrecht und nicht direkt das Obligationenrecht, auch wenn ähnliche Grundsätze gelten. Diese Anleitung deckt das nicht abschliessend ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung oder an Ihren Personalverband."
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihr Zeugnis meist öffentliches Personalrecht und nicht direkt das Obligationenrecht, auch wenn ähnliche Grundsätze gelten. Diese Anleitung deckt das nicht abschliessend ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung oder an Ihren Personalverband.",
+        "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique à votre certificat, et non directement le Code des obligations, même si des principes similaires s’appliquent. Ce guide ne couvre pas cette situation de manière exhaustive. Adressez-vous au service juridique de votre administration ou à votre association du personnel."
       },
       "when": {
         "employer_type": [
@@ -158,7 +188,8 @@
       "id": "right-to-reference",
       "kind": "rule",
       "text": {
-        "de": "Sie können jederzeit von Ihrem Arbeitgeber ein Zeugnis verlangen, das sich über Art und Dauer des Arbeitsverhältnisses sowie über Ihre Leistungen und Ihr Verhalten ausspricht (vollständiges Zeugnis). Verlangen Sie ausdrücklich nur eine Bestätigung, muss sich diese auf Art und Dauer des Arbeitsverhältnisses beschränken (einfache Arbeitsbestätigung)."
+        "de": "Sie können jederzeit von Ihrem Arbeitgeber ein Zeugnis verlangen, das sich über Art und Dauer des Arbeitsverhältnisses sowie über Ihre Leistungen und Ihr Verhalten ausspricht (vollständiges Zeugnis). Verlangen Sie ausdrücklich nur eine Bestätigung, muss sich diese auf Art und Dauer des Arbeitsverhältnisses beschränken (einfache Arbeitsbestätigung).",
+        "fr": "Vous pouvez en tout temps demander à votre employeur un certificat portant sur la nature et la durée du rapport de travail, ainsi que sur vos prestations et votre comportement (certificat complet). Si vous demandez expressément une simple attestation, celle-ci doit se limiter à la nature et à la durée du rapport de travail (attestation de travail simple)."
       },
       "sources": [
         "or-330a"
@@ -168,7 +199,8 @@
       "id": "how-to-ask",
       "kind": "step",
       "text": {
-        "de": "Verlangen Sie das Zeugnis schriftlich und sagen Sie klar, ob Sie ein vollständiges Zeugnis oder nur eine einfache Bestätigung wollen. Setzen Sie eine angemessene Frist für die Ausstellung."
+        "de": "Verlangen Sie das Zeugnis schriftlich und sagen Sie klar, ob Sie ein vollständiges Zeugnis oder nur eine einfache Bestätigung wollen. Setzen Sie eine angemessene Frist für die Ausstellung.",
+        "fr": "Demandez le certificat par écrit et indiquez clairement si vous souhaitez un certificat complet ou seulement une simple attestation. Fixez un délai raisonnable pour son établissement."
       },
       "when": {
         "problem": [
@@ -184,7 +216,8 @@
       "id": "truthful-and-benevolent",
       "kind": "rule",
       "text": {
-        "de": "Ein vollständiges Zeugnis soll Ihr berufliches Fortkommen fördern und deshalb wohlwollend formuliert sein. Dieses Wohlwollen findet aber seine Grenze in der Wahrheitspflicht: Das Zeugnis muss ein möglichst getreues und vollständiges Bild von Tätigkeit, Leistung und Verhalten geben. Es darf und muss deshalb auch negative Tatsachen erwähnen, wenn sie für die Gesamtbeurteilung erheblich sind."
+        "de": "Ein vollständiges Zeugnis soll Ihr berufliches Fortkommen fördern und deshalb wohlwollend formuliert sein. Dieses Wohlwollen findet aber seine Grenze in der Wahrheitspflicht: Das Zeugnis muss ein möglichst getreues und vollständiges Bild von Tätigkeit, Leistung und Verhalten geben. Es darf und muss deshalb auch negative Tatsachen erwähnen, wenn sie für die Gesamtbeurteilung erheblich sind.",
+        "fr": "Un certificat complet doit favoriser votre avenir professionnel et être donc rédigé avec bienveillance. Cette bienveillance trouve toutefois sa limite dans le devoir de vérité : le certificat doit donner une image aussi fidèle et complète que possible de l’activité, des prestations et du comportement. Il peut et doit donc aussi mentionner des faits négatifs, s’ils sont importants pour l’appréciation d’ensemble."
       },
       "sources": [
         "or-330a",
@@ -195,7 +228,8 @@
       "id": "interim-reference",
       "kind": "step",
       "text": {
-        "de": "Auch während das Arbeitsverhältnis noch läuft, etwa nach einem Wechsel der vorgesetzten Person oder der Funktion, können Sie ein Zwischenzeugnis verlangen, das die bisherige Zeit abdeckt."
+        "de": "Auch während das Arbeitsverhältnis noch läuft, etwa nach einem Wechsel der vorgesetzten Person oder der Funktion, können Sie ein Zwischenzeugnis verlangen, das die bisherige Zeit abdeckt.",
+        "fr": "Même pendant que le rapport de travail se poursuit, par exemple après un changement de supérieur hiérarchique ou de fonction, vous pouvez demander un certificat intermédiaire couvrant la période écoulée."
       },
       "when": {
         "currently_employed": [
@@ -210,7 +244,8 @@
       "id": "content-unfair",
       "kind": "step",
       "text": {
-        "de": "Finden Sie im Zeugnis Fehler, Unwahrheiten oder eine unfair negative Darstellung, verlangen Sie schriftlich die Korrektur und verweisen Sie auf den Grundsatz der Wahrheit und des Wohlwollens. Sammeln Sie Belege für Ihre Sicht, zum Beispiel frühere Beurteilungen oder Lob per E-Mail."
+        "de": "Finden Sie im Zeugnis Fehler, Unwahrheiten oder eine unfair negative Darstellung, verlangen Sie schriftlich die Korrektur und verweisen Sie auf den Grundsatz der Wahrheit und des Wohlwollens. Sammeln Sie Belege für Ihre Sicht, zum Beispiel frühere Beurteilungen oder Lob per E-Mail.",
+        "fr": "Si vous constatez des erreurs, des inexactitudes ou une présentation négative injuste dans le certificat, demandez la correction par écrit en vous référant au principe de vérité et de bienveillance. Rassemblez des preuves à l’appui de votre point de vue, par exemple d’anciennes évaluations ou des éloges reçus par courriel."
       },
       "when": {
         "problem": [
@@ -225,7 +260,8 @@
       "id": "employer-refuses",
       "kind": "escalate",
       "text": {
-        "de": "Stellt Ihr Arbeitgeber trotz schriftlicher Aufforderung gar kein Zeugnis aus oder korrigiert er offensichtlich falsche Angaben nicht, können Sie Ihren Anspruch bei der kantonalen Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten geltend machen, zuständig am Wohnsitz oder Sitz Ihres Arbeitgebers oder am Ort, wo Sie gewöhnlich gearbeitet haben."
+        "de": "Stellt Ihr Arbeitgeber trotz schriftlicher Aufforderung gar kein Zeugnis aus oder korrigiert er offensichtlich falsche Angaben nicht, können Sie Ihren Anspruch bei der kantonalen Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten geltend machen, zuständig am Wohnsitz oder Sitz Ihres Arbeitgebers oder am Ort, wo Sie gewöhnlich gearbeitet haben.",
+        "fr": "Si votre employeur, malgré une demande écrite, ne délivre aucun certificat ou ne corrige pas des indications manifestement erronées, vous pouvez faire valoir votre droit auprès de l’autorité cantonale de conciliation en matière de droit du travail, compétente au domicile ou au siège de votre employeur, ou au lieu où vous avez habituellement travaillé."
       },
       "when": {
         "problem": [
@@ -240,7 +276,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren."
+        "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren.",
+        "fr": "Les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs sont gratuits en procédure de conciliation et se déroulent devant le tribunal selon la procédure simplifiée, plus simple et plus rapide."
       },
       "sources": [
         "zpo-113",
@@ -251,14 +288,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie rasch persönliche Beratung, wenn Sie das Zeugnis dringend für eine Bewerbung brauchen, Ihr Arbeitgeber gar nicht reagiert, oder ein Streit über schwerwiegende, schwer beweisbare Vorwürfe im Zeugnis besteht."
+        "de": "Holen Sie rasch persönliche Beratung, wenn Sie das Zeugnis dringend für eine Bewerbung brauchen, Ihr Arbeitgeber gar nicht reagiert, oder ein Streit über schwerwiegende, schwer beweisbare Vorwürfe im Zeugnis besteht.",
+        "fr": "Demandez rapidement un conseil personnalisé si vous avez besoin du certificat de toute urgence pour une candidature, si votre employeur ne réagit pas du tout, ou en cas de litige sur des reproches graves et difficiles à prouver figurant dans le certificat."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une consultation juridique gratuite."
       }
     }
   ],
@@ -306,7 +345,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Arbeitszeugnis in der Schweiz"
+        "de": "ch.ch: Arbeitszeugnis in der Schweiz",
+        "fr": "ch.ch : Certificat de travail en Suisse"
       },
       "url": "https://www.ch.ch/de/arbeit/arbeitszeugnis/"
     }

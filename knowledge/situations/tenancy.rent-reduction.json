@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?"
+    "de": "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?",
+    "fr": "Le taux hypothécaire de référence a baissé. Puis-je demander une diminution du loyer ?"
   },
   "summary": {
-    "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie gilt ab dem nächsten Kündigungstermin und nur für die Zukunft. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Lehnt er ab oder antwortet er nicht innert 30 Tagen, können Sie danach innert 30 Tagen die Schlichtungsbehörde anrufen. Das Verfahren dort ist kostenlos."
+    "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie gilt ab dem nächsten Kündigungstermin und nur für die Zukunft. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Lehnt er ab oder antwortet er nicht innert 30 Tagen, können Sie danach innert 30 Tagen die Schlichtungsbehörde anrufen. Das Verfahren dort ist kostenlos.",
+    "fr": "Si le taux hypothécaire de référence a baissé ou si les coûts du bailleur ont diminué d'une autre manière, vous pouvez demander une diminution du loyer. Elle vaut dès le prochain terme de congé et seulement pour l'avenir. Vous devez d'abord vous adresser par écrit au bailleur. S'il refuse ou ne répond pas dans les 30 jours, vous disposez ensuite de 30 jours pour saisir l'autorité de conciliation. La procédure y est gratuite."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Chan ich e Mietzinssenkig verlange, wills mit de Hypizinse abegangen isch?",
       "Muss ich zuerst den Vermieter anschreiben, bevor ich zur Schlichtungsbehörde gehe?",
       "Der Vermieter reagiert nicht auf mein Gesuch um eine tiefere Miete, was jetzt?"
+    ],
+    "fr": [
+      "Le taux hypothécaire de référence a baissé. Puis-je demander une diminution du loyer ?",
+      "Puis-je faire baisser mon loyer parce que les taux hypothécaires ont chuté ?",
+      "Comment demander une diminution de loyer ?",
+      "Les taux ont baissé, je peux demander moins de loyer comment ?",
+      "Dois-je d'abord écrire au bailleur avant d'aller à l'autorité de conciliation ?",
+      "Le bailleur ne réagit pas à ma demande de loyer plus bas, que faire maintenant ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Das Herabsetzungsbegehren des Mieters während eines laufenden Wohnungsmietverhältnisses in der Schweiz, insbesondere wegen eines gesunkenen Referenzzinssatzes oder anderer gesunkener Kosten des Vermieters."
+      "de": "Das Herabsetzungsbegehren des Mieters während eines laufenden Wohnungsmietverhältnisses in der Schweiz, insbesondere wegen eines gesunkenen Referenzzinssatzes oder anderer gesunkener Kosten des Vermieters.",
+      "fr": "La demande de diminution du locataire pendant un bail de logement en cours en Suisse, notamment en raison d'une baisse du taux hypothécaire de référence ou d'autres coûts réduits du bailleur."
     },
     "excludes": {
-      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse; die Anfechtung einer Mietzinserhöhung, die gleichzeitig mit einem eigenen Herabsetzungsbegehren erfolgt."
+      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse; die Anfechtung einer Mietzinserhöhung, die gleichzeitig mit einem eigenen Herabsetzungsbegehren erfolgt.",
+      "fr": "Le loyer fixé à la conclusion d'un nouveau bail (loyer initial), les locaux commerciaux et les autres baux particuliers ; la contestation d'une majoration de loyer accompagnée simultanément d'une demande de diminution propre."
     }
   },
   "facts": [
     {
       "key": "reason",
       "question": {
-        "de": "Warum, denken Sie, sollte Ihr Mietzins jetzt gesenkt werden?"
+        "de": "Warum, denken Sie, sollte Ihr Mietzins jetzt gesenkt werden?",
+        "fr": "Pourquoi pensez-vous que votre loyer devrait être diminué maintenant ?"
       },
       "options": [
         {
           "value": "reference-rate",
           "label": {
-            "de": "Der hypothekarische Referenzzinssatz ist gesunken"
+            "de": "Der hypothekarische Referenzzinssatz ist gesunken",
+            "fr": "Le taux hypothécaire de référence a baissé"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Aus einem anderen Grund, zum Beispiel tiefere Kosten des Vermieters"
+            "de": "Aus einem anderen Grund, zum Beispiel tiefere Kosten des Vermieters",
+            "fr": "Pour un autre motif, par exemple des coûts réduits du bailleur"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n'en ai pas la certitude"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "requested",
       "question": {
-        "de": "Haben Sie den Vermieter schon schriftlich um eine Mietzinssenkung gebeten?"
+        "de": "Haben Sie den Vermieter schon schriftlich um eine Mietzinssenkung gebeten?",
+        "fr": "Avez-vous déjà demandé par écrit une diminution de loyer au bailleur ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht mehr genau"
+            "de": "Ich weiss es nicht mehr genau",
+            "fr": "Je ne m'en souviens plus exactement"
           }
         }
       ]
@@ -85,31 +105,36 @@
     {
       "key": "landlord_answer",
       "question": {
-        "de": "Wie hat der Vermieter auf Ihr Begehren reagiert?"
+        "de": "Wie hat der Vermieter auf Ihr Begehren reagiert?",
+        "fr": "Comment le bailleur a-t-il réagi à votre demande ?"
       },
       "options": [
         {
           "value": "agreed",
           "label": {
-            "de": "Er hat die Senkung ganz oder teilweise akzeptiert"
+            "de": "Er hat die Senkung ganz oder teilweise akzeptiert",
+            "fr": "Il a accepté la diminution en tout ou en partie"
           }
         },
         {
           "value": "refused",
           "label": {
-            "de": "Er hat abgelehnt"
+            "de": "Er hat abgelehnt",
+            "fr": "Il a refusé"
           }
         },
         {
           "value": "silent",
           "label": {
-            "de": "Er hat sich nicht innert 30 Tagen gemeldet"
+            "de": "Er hat sich nicht innert 30 Tagen gemeldet",
+            "fr": "Il ne s'est pas manifesté dans les 30 jours"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht oder habe noch kein Begehren gestellt"
+            "de": "Ich weiss es noch nicht oder habe noch kein Begehren gestellt",
+            "fr": "Je ne sais pas encore ou je n'ai pas encore fait de demande"
           }
         }
       ]
@@ -126,7 +151,8 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Schreiben Sie dem Vermieter einen Brief und verlangen Sie darin die Senkung Ihres Mietzinses. Das Gesuch geht zuerst an den Vermieter, nicht an die Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und den Termin, ab dem die tiefere Miete gelten soll. Bewahren Sie eine Kopie und den Versandnachweis auf."
+        "de": "So gehen Sie vor: Schreiben Sie dem Vermieter einen Brief und verlangen Sie darin die Senkung Ihres Mietzinses. Das Gesuch geht zuerst an den Vermieter, nicht an die Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und den Termin, ab dem die tiefere Miete gelten soll. Bewahren Sie eine Kopie und den Versandnachweis auf.",
+        "fr": "Comment procéder : écrivez une lettre au bailleur et demandez-y la diminution de votre loyer. La demande va d'abord au bailleur, pas à l'autorité de conciliation. Indiquez le motif, par exemple la baisse du taux hypothécaire de référence, et le terme à partir duquel le loyer plus bas doit s'appliquer. Conservez une copie et la preuve d'envoi."
       },
       "sources": [
         "or-270a",
@@ -137,7 +163,8 @@
       "id": "timing",
       "kind": "rule",
       "text": {
-        "de": "Die Senkung gilt erst ab dem nächsten Termin, auf den Sie den Mietvertrag kündigen könnten. Ihr Brief muss beim Vermieter deshalb eintreffen, bevor die Kündigungsfrist für diesen Termin beginnt. Beträgt Ihre Kündigungsfrist zum Beispiel drei Monate und ist der 30. September ein Kündigungstermin, muss der Brief spätestens Ende Juni beim Vermieter sein. Trifft er später ein, gilt die Senkung erst auf den folgenden Termin. Für vergangene Monate erhalten Sie kein Geld zurück, auch wenn der Referenzzinssatz schon länger gesunken ist. Warten Sie deshalb nicht."
+        "de": "Die Senkung gilt erst ab dem nächsten Termin, auf den Sie den Mietvertrag kündigen könnten. Ihr Brief muss beim Vermieter deshalb eintreffen, bevor die Kündigungsfrist für diesen Termin beginnt. Beträgt Ihre Kündigungsfrist zum Beispiel drei Monate und ist der 30. September ein Kündigungstermin, muss der Brief spätestens Ende Juni beim Vermieter sein. Trifft er später ein, gilt die Senkung erst auf den folgenden Termin. Für vergangene Monate erhalten Sie kein Geld zurück, auch wenn der Referenzzinssatz schon länger gesunken ist. Warten Sie deshalb nicht.",
+        "fr": "La diminution ne vaut qu'à partir du prochain terme pour lequel vous pourriez résilier le bail. Votre lettre doit donc parvenir au bailleur avant le début du délai de congé pour ce terme. Si votre délai de congé est par exemple de trois mois et que le 30 septembre est un terme de congé, la lettre doit être chez le bailleur au plus tard fin juin. Si elle arrive plus tard, la diminution ne vaut que pour le terme suivant. Pour les mois passés, vous ne récupérez pas d'argent, même si le taux de référence a baissé depuis longtemps. N'attendez donc pas."
       },
       "sources": [
         "or-270a",
@@ -154,7 +181,8 @@
         ]
       },
       "text": {
-        "de": "Das Gesuch an den Vermieter ist Pflicht. Gehen Sie ohne dieses Gesuch direkt zur Schlichtungsbehörde, tritt sie in der Regel nicht darauf ein. Eine Ausnahme gilt, wenn der Vermieter schon klar erklärt hat, er werde den Mietzins nicht senken. Ein allgemeiner Streit mit dem Vermieter genügt dafür nicht. Im Zweifel schreiben Sie ihm zuerst."
+        "de": "Das Gesuch an den Vermieter ist Pflicht. Gehen Sie ohne dieses Gesuch direkt zur Schlichtungsbehörde, tritt sie in der Regel nicht darauf ein. Eine Ausnahme gilt, wenn der Vermieter schon klar erklärt hat, er werde den Mietzins nicht senken. Ein allgemeiner Streit mit dem Vermieter genügt dafür nicht. Im Zweifel schreiben Sie ihm zuerst.",
+        "fr": "La demande adressée au bailleur est obligatoire. Si vous allez directement à l'autorité de conciliation sans cette demande, elle n'entre en général pas en matière. Une exception vaut lorsque le bailleur a déjà clairement déclaré qu'il ne diminuerait pas le loyer. Un désaccord général avec le bailleur ne suffit pas pour cela. En cas de doute, écrivez-lui d'abord."
       },
       "sources": [
         "bge-132-iii-702"
@@ -164,7 +192,8 @@
       "id": "landlord-response-window",
       "kind": "warning",
       "text": {
-        "de": "Der Vermieter muss innert 30 Tagen nach Ihrem schriftlichen Begehren Stellung nehmen. Lehnt er ganz oder teilweise ab, oder antwortet er innert dieser 30 Tage gar nicht, können Sie danach innert weiterer 30 Tage die Schlichtungsbehörde für Mietsachen anrufen. Warten Sie nicht zu lange: Notieren Sie sich das Datum Ihres Begehrens und rechnen Sie die beiden Fristen von je 30 Tagen nach."
+        "de": "Der Vermieter muss innert 30 Tagen nach Ihrem schriftlichen Begehren Stellung nehmen. Lehnt er ganz oder teilweise ab, oder antwortet er innert dieser 30 Tage gar nicht, können Sie danach innert weiterer 30 Tage die Schlichtungsbehörde für Mietsachen anrufen. Warten Sie nicht zu lange: Notieren Sie sich das Datum Ihres Begehrens und rechnen Sie die beiden Fristen von je 30 Tagen nach.",
+        "fr": "Le bailleur doit prendre position dans les 30 jours qui suivent votre demande écrite. S'il refuse en tout ou en partie, ou s'il ne répond pas du tout dans ces 30 jours, vous pouvez ensuite saisir l'autorité de conciliation en matière de baux dans un délai supplémentaire de 30 jours. N'attendez pas trop longtemps : notez la date de votre demande et calculez les deux délais de 30 jours chacun."
       },
       "sources": [
         "or-270a"
@@ -180,7 +209,8 @@
         ]
       },
       "text": {
-        "de": "Hat der Vermieter zugestimmt, lassen Sie sich die neue Miete und das Datum schriftlich bestätigen. Prüfen Sie, ob die Senkung der Änderung des Referenzzinssatzes entspricht. Bietet er weniger an, als Sie verlangt haben, gilt das als teilweise Ablehnung: Sie können dann innert 30 Tagen die Schlichtungsbehörde anrufen. Nehmen Sie eine zu kleine Senkung bloss stillschweigend hin, verzichten Sie damit nicht auf den Rest. Unterschreiben Sie aber eine Vereinbarung über die neue Miete, sind Sie daran in der Regel gebunden."
+        "de": "Hat der Vermieter zugestimmt, lassen Sie sich die neue Miete und das Datum schriftlich bestätigen. Prüfen Sie, ob die Senkung der Änderung des Referenzzinssatzes entspricht. Bietet er weniger an, als Sie verlangt haben, gilt das als teilweise Ablehnung: Sie können dann innert 30 Tagen die Schlichtungsbehörde anrufen. Nehmen Sie eine zu kleine Senkung bloss stillschweigend hin, verzichten Sie damit nicht auf den Rest. Unterschreiben Sie aber eine Vereinbarung über die neue Miete, sind Sie daran in der Regel gebunden.",
+        "fr": "Si le bailleur a accepté, faites-vous confirmer par écrit le nouveau loyer et la date. Vérifiez si la diminution correspond à la variation du taux de référence. S'il propose moins que ce que vous avez demandé, cela vaut comme refus partiel : vous disposez alors de 30 jours pour saisir l'autorité de conciliation. Si vous acceptez tacitement une diminution trop faible, vous ne renoncez pas pour autant au reste. Mais si vous signez un accord sur le nouveau loyer, cela vous engage en règle générale."
       },
       "sources": [
         "or-270a",
@@ -197,7 +227,8 @@
         ]
       },
       "text": {
-        "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Massgebend ist, welcher Satz Ihrer heutigen Miete zugrunde liegt. Das steht meist im Mietvertrag oder in der letzten Mitteilung über eine Mietzinsänderung. Nur was sich seither verändert hat, zählt. Liegt der Satz unter 5 Prozent, wie seit vielen Jahren, entspricht jeder Viertelprozentpunkt weniger einer Senkung um knapp 3 Prozent der Nettomiete. Ist der Satz um einen halben Prozentpunkt gesunken, sind es also rund 5,7 Prozent."
+        "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Massgebend ist, welcher Satz Ihrer heutigen Miete zugrunde liegt. Das steht meist im Mietvertrag oder in der letzten Mitteilung über eine Mietzinsänderung. Nur was sich seither verändert hat, zählt. Liegt der Satz unter 5 Prozent, wie seit vielen Jahren, entspricht jeder Viertelprozentpunkt weniger einer Senkung um knapp 3 Prozent der Nettomiete. Ist der Satz um einen halben Prozentpunkt gesunken, sind es also rund 5,7 Prozent.",
+        "fr": "Le taux hypothécaire de référence est une valeur moyenne officielle des taux hypothécaires en Suisse. La Confédération le publie chaque trimestre. Ce qui compte, c'est le taux sur lequel se fonde votre loyer actuel. Cela figure en général dans le bail ou dans le dernier avis de modification de loyer. Seul ce qui a changé depuis lors compte. Si le taux est inférieur à 5 pour cent, comme depuis de nombreuses années, chaque quart de point de moins correspond à une diminution d'environ 3 pour cent du loyer net. Si le taux a baissé d'un demi-point, cela représente donc environ 5,7 pour cent."
       },
       "sources": [
         "vmwg-12a",
@@ -215,7 +246,8 @@
         ]
       },
       "text": {
-        "de": "Auch andere Kostensenkungen des Vermieters können eine Herabsetzung rechtfertigen, wenn sie dazu führen, dass er einen übersetzten, das heisst missbräuchlich hohen, Ertrag aus der Wohnung erzielt. Ein Beispiel ist eine deutlich günstigere Refinanzierung der Liegenschaft. Nennen Sie dem Vermieter im Begehren, worauf Sie sich stützen."
+        "de": "Auch andere Kostensenkungen des Vermieters können eine Herabsetzung rechtfertigen, wenn sie dazu führen, dass er einen übersetzten, das heisst missbräuchlich hohen, Ertrag aus der Wohnung erzielt. Ein Beispiel ist eine deutlich günstigere Refinanzierung der Liegenschaft. Nennen Sie dem Vermieter im Begehren, worauf Sie sich stützen.",
+        "fr": "D'autres baisses de coûts du bailleur peuvent aussi justifier une diminution, si elles font qu'il obtient un rendement excessif, c'est-à-dire abusivement élevé, du logement. Un exemple est un refinancement nettement plus avantageux de l'immeuble. Indiquez au bailleur, dans votre demande, sur quoi vous vous fondez."
       },
       "sources": [
         "or-270a"
@@ -225,7 +257,8 @@
       "id": "landlord-objections",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter muss nicht in jedem Fall voll senken. Er darf die Einsparung mit Kosten verrechnen, die seit der letzten Festlegung Ihrer Miete gestiegen sind. Dazu gehören die allgemeine Teuerung, von der er 40 Prozent weitergeben darf, und höhere Unterhalts- und Betriebskosten. Er kann auch geltend machen, Ihre Miete bringe ihm trotz der Änderung keinen übersetzten Ertrag oder sie liege im Rahmen der Mieten im Quartier. Das muss er dann belegen. Verlangen Sie in diesem Fall eine nachvollziehbare Berechnung."
+        "de": "Der Vermieter muss nicht in jedem Fall voll senken. Er darf die Einsparung mit Kosten verrechnen, die seit der letzten Festlegung Ihrer Miete gestiegen sind. Dazu gehören die allgemeine Teuerung, von der er 40 Prozent weitergeben darf, und höhere Unterhalts- und Betriebskosten. Er kann auch geltend machen, Ihre Miete bringe ihm trotz der Änderung keinen übersetzten Ertrag oder sie liege im Rahmen der Mieten im Quartier. Das muss er dann belegen. Verlangen Sie in diesem Fall eine nachvollziehbare Berechnung.",
+        "fr": "Le bailleur n'est pas tenu de diminuer intégralement dans tous les cas. Il peut compenser l'économie avec des coûts qui ont augmenté depuis la dernière fixation de votre loyer. En font partie le renchérissement général, dont il peut répercuter 40 pour cent, et des frais d'entretien et d'exploitation plus élevés. Il peut aussi faire valoir que votre loyer ne lui procure malgré la variation aucun rendement excessif ou qu'il se situe dans le cadre des loyers du quartier. Il doit alors le prouver. Exigez dans ce cas un calcul compréhensible."
       },
       "sources": [
         "or-269a",
@@ -238,7 +271,8 @@
       "id": "contract-clause",
       "kind": "rule",
       "text": {
-        "de": "Steht in Ihrem Vertrag, der Mietzins werde nicht an den Referenzzinssatz angepasst, gilt diese Klausel nicht. Der Schutz vor missbräuchlichen Mietzinsen lässt sich vertraglich nicht wegbedingen. Sie können die Senkung trotzdem verlangen."
+        "de": "Steht in Ihrem Vertrag, der Mietzins werde nicht an den Referenzzinssatz angepasst, gilt diese Klausel nicht. Der Schutz vor missbräuchlichen Mietzinsen lässt sich vertraglich nicht wegbedingen. Sie können die Senkung trotzdem verlangen.",
+        "fr": "Si votre contrat indique que le loyer ne sera pas adapté au taux de référence, cette clause ne vaut pas. La protection contre les loyers abusifs ne peut pas être supprimée par contrat. Vous pouvez malgré tout demander la diminution."
       },
       "sources": [
         "bge-133-iii-61"
@@ -255,7 +289,8 @@
         ]
       },
       "text": {
-        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, stellen Sie das Gesuch am besten gemeinsam. Will jemand nicht mitmachen, können Sie auch allein zur Schlichtungsbehörde gehen. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei."
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, stellen Sie das Gesuch am besten gemeinsam. Will jemand nicht mitmachen, können Sie auch allein zur Schlichtungsbehörde gehen. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei.",
+        "fr": "Si plusieurs personnes ont signé le bail, le mieux est de déposer la demande ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même saisir l'autorité de conciliation sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse."
       },
       "sources": [
         "bge-146-iii-346"
@@ -272,7 +307,8 @@
         ]
       },
       "text": {
-        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg."
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg.",
+        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif."
       },
       "sources": [
         "zpo-204",
@@ -283,7 +319,8 @@
       "id": "protection",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie eine Senkung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während des Verfahrens oder innert drei Jahren danach, wenn der Vermieter im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie eine Senkung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während des Verfahrens oder innert drei Jahren danach, wenn der Vermieter im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
+        "fr": "Le bailleur ne peut pas vous résilier le bail parce que vous demandez une diminution. Un tel congé est contestable. Est aussi contestable un congé donné pendant la procédure ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu."
       },
       "sources": [
         "or-271a",
@@ -294,7 +331,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire."
       },
       "sources": [
         "zpo-113",
@@ -312,7 +350,8 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Macht die Behörde keinen Vorschlag, erhalten Sie die Klagebewilligung. Wollen Sie an der Senkung festhalten, müssen Sie innert 30 Tagen beim Gericht klagen. Lassen Sie sich spätestens jetzt beraten."
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Macht die Behörde keinen Vorschlag, erhalten Sie die Klagebewilligung. Wollen Sie an der Senkung festhalten, müssen Sie innert 30 Tagen beim Gericht klagen. Lassen Sie sich spätestens jetzt beraten.",
+        "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, deux voies s'ouvrent. L'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si l'autorité ne fait pas de proposition, vous recevez l'autorisation de procéder. Si vous voulez maintenir la diminution, vous devez agir en justice dans les 30 jours. Faites-vous conseiller au plus tard à ce stade."
       },
       "sources": [
         "zpo-209",
@@ -324,14 +363,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der Senkung nicht selbst berechnen können, wenn der Vermieter Kostensteigerungen oder eine Ertragsrechnung entgegenhält, wenn Ihnen im Zusammenhang mit dem Gesuch gekündigt wird, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, oder wenn eine der 30-Tage-Fristen in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der Senkung nicht selbst berechnen können, wenn der Vermieter Kostensteigerungen oder eine Ertragsrechnung entgegenhält, wenn Ihnen im Zusammenhang mit dem Gesuch gekündigt wird, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, oder wenn eine der 30-Tage-Fristen in wenigen Tagen abläuft.",
+        "fr": "Demandez une consultation personnelle si vous ne pouvez pas calculer vous-même le montant exact de la diminution, si le bailleur oppose des hausses de coûts ou un calcul de rendement, si un congé vous est donné en lien avec la demande, si vous avez reçu une proposition de décision ou une autorisation de procéder, ou si l'un des délais de 30 jours expire dans quelques jours."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder und helfen oft auch bei der Berechnung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder und helfen oft auch bei der Berechnung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres et aident souvent aussi au calcul. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite."
       }
     }
   ],
@@ -501,13 +542,15 @@
   "official_links": [
     {
       "label": {
-        "de": "Bundesamt für Wohnungswesen: Referenzzinssatz"
+        "de": "Bundesamt für Wohnungswesen: Referenzzinssatz",
+        "fr": "Office fédéral du logement : taux hypothécaire de référence"
       },
       "url": "https://www.bwo.admin.ch/de/referenzzinssatz"
     },
     {
       "label": {
-        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+        "de": "ch.ch: Wohnen, Mietzins und Mängel",
+        "fr": "ch.ch : logement, loyer et défauts"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

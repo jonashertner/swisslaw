@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Welche Daten hat eine Firma über mich?"
+    "de": "Welche Daten hat eine Firma über mich?",
+    "fr": "Quelles données une entreprise détient-elle sur moi ?"
   },
   "summary": {
-    "de": "Jede Person kann von einer Firma oder Behörde Auskunft verlangen, welche Personendaten über sie bearbeitet werden. Die Auskunft ist grundsätzlich kostenlos und muss in der Regel innert 30 Tagen erfolgen. In bestimmten Fällen darf sie eingeschränkt oder verweigert werden."
+    "de": "Jede Person kann von einer Firma oder Behörde Auskunft verlangen, welche Personendaten über sie bearbeitet werden. Die Auskunft ist grundsätzlich kostenlos und muss in der Regel innert 30 Tagen erfolgen. In bestimmten Fällen darf sie eingeschränkt oder verweigert werden.",
+    "fr": "Toute personne peut demander à une entreprise ou à une autorité de lui indiquer quelles données personnelles la concernant sont traitées. Cette information est en principe gratuite et doit en général être fournie dans un délai de 30 jours. Dans certains cas, elle peut être restreinte ou refusée."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Ich habe seit Wochen keine Antwort auf mein Auskunftsgesuch erhalten.",
       "Weles Date het e Firma über mich gspeicheret?",
       "Eine Firma verweigert mir die Auskunft über meine Daten, was kann ich tun?"
+    ],
+    "fr": [
+      "Quelles données une entreprise a-t-elle enregistrées sur moi ?",
+      "Comment déposer une demande d’accès selon la loi sur la protection des données ?",
+      "Une entreprise veut me faire payer pour l’accès à mes données, est-ce autorisé ?",
+      "Je n’ai reçu aucune réponse à ma demande d’accès depuis des semaines.",
+      "Quelles données une entreprise a-t-elle sur moi ?",
+      "Une entreprise me refuse l’accès à mes données, que puis-je faire ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Das Auskunftsrecht gegenüber privaten Firmen, Vereinen und Bundesbehörden, die Personendaten über Sie bearbeiten, nach dem schweizerischen Datenschutzgesetz."
+      "de": "Das Auskunftsrecht gegenüber privaten Firmen, Vereinen und Bundesbehörden, die Personendaten über Sie bearbeiten, nach dem schweizerischen Datenschutzgesetz.",
+      "fr": "Le droit d’accès envers les entreprises privées, les associations et les autorités fédérales qui traitent des données personnelles vous concernant, selon la loi suisse sur la protection des données."
     },
     "excludes": {
-      "de": "Auskunftsgesuche gegenüber kantonalen oder kommunalen Behörden, die eigenem kantonalem Datenschutzrecht unterstehen, sowie Gesuche gegenüber Firmen im Ausland ohne Bezug zur Schweiz."
+      "de": "Auskunftsgesuche gegenüber kantonalen oder kommunalen Behörden, die eigenem kantonalem Datenschutzrecht unterstehen, sowie Gesuche gegenüber Firmen im Ausland ohne Bezug zur Schweiz.",
+      "fr": "Les demandes d’accès adressées à des autorités cantonales ou communales, qui relèvent de leur propre droit cantonal de protection des données, ainsi que les demandes adressées à des entreprises à l’étranger sans lien avec la Suisse."
     }
   },
   "facts": [
     {
       "key": "responsible",
       "question": {
-        "de": "Wer bearbeitet die Daten, über die Sie Auskunft möchten?"
+        "de": "Wer bearbeitet die Daten, über die Sie Auskunft möchten?",
+        "fr": "Qui traite les données pour lesquelles vous souhaitez un accès ?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Eine private Firma oder ein Verein"
+            "de": "Eine private Firma oder ein Verein",
+            "fr": "Une entreprise privée ou une association"
           }
         },
         {
           "value": "federal",
           "label": {
-            "de": "Eine Bundesbehörde"
+            "de": "Eine Bundesbehörde",
+            "fr": "Une autorité fédérale"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht sicher"
+            "de": "Ich weiss es nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -59,37 +75,43 @@
     {
       "key": "status",
       "question": {
-        "de": "Haben Sie bereits ein Auskunftsgesuch gestellt und wie hat die Firma reagiert?"
+        "de": "Haben Sie bereits ein Auskunftsgesuch gestellt und wie hat die Firma reagiert?",
+        "fr": "Avez-vous déjà déposé une demande d’accès, et comment l’entreprise a-t-elle réagi ?"
       },
       "options": [
         {
           "value": "not-yet",
           "label": {
-            "de": "Ich habe noch kein Gesuch gestellt"
+            "de": "Ich habe noch kein Gesuch gestellt",
+            "fr": "Je n’ai pas encore déposé de demande"
           }
         },
         {
           "value": "no-answer",
           "label": {
-            "de": "Ich habe noch keine Antwort erhalten"
+            "de": "Ich habe noch keine Antwort erhalten",
+            "fr": "Je n’ai encore reçu aucune réponse"
           }
         },
         {
           "value": "refused",
           "label": {
-            "de": "Die Auskunft wurde verweigert oder eingeschränkt"
+            "de": "Die Auskunft wurde verweigert oder eingeschränkt",
+            "fr": "L’accès a été refusé ou restreint"
           }
         },
         {
           "value": "answered",
           "label": {
-            "de": "Ich habe eine Antwort erhalten, bin aber nicht sicher, ob sie vollständig ist"
+            "de": "Ich habe eine Antwort erhalten, bin aber nicht sicher, ob sie vollständig ist",
+            "fr": "J’ai reçu une réponse, mais je ne suis pas sûr qu’elle soit complète"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -97,25 +119,29 @@
     {
       "key": "cost_requested",
       "question": {
-        "de": "Wurde von Ihnen für die Auskunft eine Zahlung verlangt?"
+        "de": "Wurde von Ihnen für die Auskunft eine Zahlung verlangt?",
+        "fr": "Un paiement vous a-t-il été demandé pour l’accès ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Trifft nicht zu oder ich weiss es nicht"
+            "de": "Trifft nicht zu oder ich weiss es nicht",
+            "fr": "Sans objet, ou je ne sais pas"
           }
         }
       ]
@@ -126,7 +152,8 @@
       "id": "right-to-access",
       "kind": "rule",
       "text": {
-        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten."
+        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten.",
+        "fr": "Vous pouvez demander à toute entreprise, association ou autorité si et quelles données personnelles vous concernant sont traitées. Vous avez droit à l’identité du responsable du traitement, aux données traitées elles-mêmes, à la finalité du traitement, à la durée de conservation ou aux critères pour la fixer, à l’origine des données, ainsi qu’aux destinataires auxquels les données sont communiquées. Vous ne pouvez pas renoncer d’avance à ce droit."
       },
       "sources": [
         "dsg-25"
@@ -136,7 +163,8 @@
       "id": "free-of-charge",
       "kind": "cost",
       "text": {
-        "de": "Die Auskunft muss grundsätzlich kostenlos erteilt werden. Nur wenn die Auskunft einen unverhältnismässigen Aufwand verursacht, darf eine Beteiligung an den Kosten von höchstens 300 Franken verlangt werden. Das muss Ihnen vor der Auskunftserteilung mitgeteilt werden; bestätigen Sie das Gesuch danach nicht innert 10 Tagen, gilt es als ohne Kostenfolge zurückgezogen."
+        "de": "Die Auskunft muss grundsätzlich kostenlos erteilt werden. Nur wenn die Auskunft einen unverhältnismässigen Aufwand verursacht, darf eine Beteiligung an den Kosten von höchstens 300 Franken verlangt werden. Das muss Ihnen vor der Auskunftserteilung mitgeteilt werden; bestätigen Sie das Gesuch danach nicht innert 10 Tagen, gilt es als ohne Kostenfolge zurückgezogen.",
+        "fr": "L’information doit en principe être fournie gratuitement. Ce n’est que si elle occasionne des efforts disproportionnés qu’une participation aux frais de 300 francs au maximum peut être demandée. Cela doit vous être communiqué avant que l’information ne soit donnée ; si vous ne confirmez pas la demande dans les 10 jours, elle est considérée comme retirée sans frais."
       },
       "sources": [
         "dsg-25",
@@ -153,7 +181,8 @@
       "id": "response-deadline",
       "kind": "rule",
       "text": {
-        "de": "Die Auskunft muss grundsätzlich innerhalb von 30 Tagen nach Eingang Ihres Gesuchs erteilt werden. Ist das nicht möglich, muss man Sie darüber informieren und Ihnen mitteilen, bis wann die Auskunft erfolgt. Auch eine Verweigerung, Einschränkung oder ein Aufschub der Auskunft muss innert dieser Frist mitgeteilt werden."
+        "de": "Die Auskunft muss grundsätzlich innerhalb von 30 Tagen nach Eingang Ihres Gesuchs erteilt werden. Ist das nicht möglich, muss man Sie darüber informieren und Ihnen mitteilen, bis wann die Auskunft erfolgt. Auch eine Verweigerung, Einschränkung oder ein Aufschub der Auskunft muss innert dieser Frist mitgeteilt werden.",
+        "fr": "L’information doit en principe être fournie dans un délai de 30 jours après réception de votre demande. Si cela n’est pas possible, on doit vous en informer et vous indiquer d’ici quand l’information sera fournie. Un refus, une restriction ou un report de l’information doit également vous être communiqué dans ce délai."
       },
       "sources": [
         "dsv-18"
@@ -163,7 +192,8 @@
       "id": "restrictions",
       "kind": "warning",
       "text": {
-        "de": "Die Auskunft darf verweigert, eingeschränkt oder aufgeschoben werden, wenn ein Gesetz das vorsieht, etwa zum Schutz eines Berufsgeheimnisses, wenn überwiegende Interessen Dritter das erfordern, oder wenn das Gesuch offensichtlich unbegründet oder querulatorisch ist. Für private Firmen kommt hinzu: eigene überwiegende Interessen genügen nur, wenn die Daten nicht an Dritte weitergegeben werden. Die verantwortliche Stelle muss Ihnen begründen, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt."
+        "de": "Die Auskunft darf verweigert, eingeschränkt oder aufgeschoben werden, wenn ein Gesetz das vorsieht, etwa zum Schutz eines Berufsgeheimnisses, wenn überwiegende Interessen Dritter das erfordern, oder wenn das Gesuch offensichtlich unbegründet oder querulatorisch ist. Für private Firmen kommt hinzu: eigene überwiegende Interessen genügen nur, wenn die Daten nicht an Dritte weitergegeben werden. Die verantwortliche Stelle muss Ihnen begründen, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt.",
+        "fr": "L’information peut être refusée, restreinte ou différée lorsqu’une loi le prévoit, notamment pour protéger un secret professionnel, lorsque des intérêts prépondérants de tiers l’exigent, ou lorsque la demande est manifestement infondée ou procédurière. Pour les entreprises privées s’ajoute ceci : leurs propres intérêts prépondérants ne suffisent que si les données ne sont pas communiquées à des tiers. Le responsable du traitement doit vous indiquer le motif pour lequel il refuse, restreint ou diffère l’information."
       },
       "sources": [
         "dsg-26"
@@ -173,7 +203,8 @@
       "id": "how-to-write",
       "kind": "step",
       "text": {
-        "de": "Schreiben Sie Ihr Gesuch schriftlich an die Firma oder Behörde. Nennen Sie Ihren vollen Namen und Ihre Kontaktdaten, damit man Sie identifizieren kann, und verlangen Sie ausdrücklich Auskunft über alle Personendaten, die über Sie bearbeitet werden, einschliesslich Herkunft, Zweck, Aufbewahrungsdauer und Empfängerinnen und Empfänger. Bewahren Sie eine Kopie Ihres Gesuchs auf und notieren Sie das Absendedatum."
+        "de": "Schreiben Sie Ihr Gesuch schriftlich an die Firma oder Behörde. Nennen Sie Ihren vollen Namen und Ihre Kontaktdaten, damit man Sie identifizieren kann, und verlangen Sie ausdrücklich Auskunft über alle Personendaten, die über Sie bearbeitet werden, einschliesslich Herkunft, Zweck, Aufbewahrungsdauer und Empfängerinnen und Empfänger. Bewahren Sie eine Kopie Ihres Gesuchs auf und notieren Sie das Absendedatum.",
+        "fr": "Adressez votre demande par écrit à l’entreprise ou à l’autorité. Indiquez votre nom complet et vos coordonnées afin de permettre votre identification, et demandez expressément l’accès à toutes les données personnelles traitées vous concernant, y compris leur origine, leur finalité, leur durée de conservation et leurs destinataires. Conservez une copie de votre demande et notez la date d’envoi."
       }
     },
     {
@@ -186,7 +217,8 @@
         ]
       },
       "text": {
-        "de": "Stellen Sie fest, dass Daten über Sie unrichtig sind, können Sie deren Berichtigung verlangen, ausser wenn ein Gesetz das verbietet oder die Daten zu Archivzwecken im öffentlichen Interesse bearbeitet werden. Sie können zudem auf dem Klageweg verlangen, dass eine bestimmte Bearbeitung oder Weitergabe unterbleibt, oder dass Daten gelöscht oder vernichtet werden."
+        "de": "Stellen Sie fest, dass Daten über Sie unrichtig sind, können Sie deren Berichtigung verlangen, ausser wenn ein Gesetz das verbietet oder die Daten zu Archivzwecken im öffentlichen Interesse bearbeitet werden. Sie können zudem auf dem Klageweg verlangen, dass eine bestimmte Bearbeitung oder Weitergabe unterbleibt, oder dass Daten gelöscht oder vernichtet werden.",
+        "fr": "Si vous constatez que des données vous concernant sont inexactes, vous pouvez en demander la rectification, sauf si une loi l’interdit ou si les données sont traitées à des fins d’archivage dans l’intérêt public. Vous pouvez en outre demander, par voie d’action, qu’un traitement ou une communication déterminée cesse, ou que des données soient effacées ou détruites."
       },
       "sources": [
         "dsg-32"
@@ -203,7 +235,8 @@
         ]
       },
       "text": {
-        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis."
+        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis.",
+        "fr": "Si vous ne recevez aucune réponse, une réponse tardive, ou une réponse manifestement insuffisante, vous pouvez vous adresser, par une dénonciation, au Préposé fédéral à la protection des données et à la transparence (PFPDT). Le PFPDT peut ouvrir une enquête et vous informe de son résultat."
       },
       "sources": [
         "dsg-49"
@@ -213,14 +246,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie sich persönliche Beratung, wenn viel auf dem Spiel steht, wenn Sie eine Klage in Erwägung ziehen, oder wenn die verantwortliche Stelle wiederholt nicht reagiert."
+        "de": "Holen Sie sich persönliche Beratung, wenn viel auf dem Spiel steht, wenn Sie eine Klage in Erwägung ziehen, oder wenn die verantwortliche Stelle wiederholt nicht reagiert.",
+        "fr": "Demandez un conseil personnalisé si beaucoup est en jeu, si vous envisagez une action en justice, ou si le responsable du traitement ne réagit pas malgré des rappels répétés."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Der EDÖB informiert allgemein über das Auskunftsrecht und das Vorgehen bei einer Anzeige. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Der EDÖB informiert allgemein über das Auskunftsrecht und das Vorgehen bei einer Anzeige. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : le PFPDT informe de manière générale sur le droit d’accès et la marche à suivre pour une dénonciation. De nombreux cantons et associations d’avocats offrent une première consultation juridique gratuite."
       }
     }
   ],
@@ -277,7 +312,8 @@
   "official_links": [
     {
       "label": {
-        "de": "EDÖB"
+        "de": "EDÖB",
+        "fr": "PFPDT"
       },
       "url": "https://www.edoeb.admin.ch/de"
     }

@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts"
+    "de": "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts",
+    "fr": "Quelque chose est cassé dans mon logement et le bailleur ne fait rien"
   },
   "summary": {
-    "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben, sobald er davon weiss. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Ab dem Zeitpunkt, an dem der Vermieter vom Mangel weiss, können Sie eine Herabsetzung der Miete verlangen, auch rückwirkend. Kürzen Sie die Miete aber nicht einfach selbst. Hinterlegen können Sie die Miete nur unter strengen Formvorschriften. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+    "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben, sobald er davon weiss. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Ab dem Zeitpunkt, an dem der Vermieter vom Mangel weiss, können Sie eine Herabsetzung der Miete verlangen, auch rückwirkend. Kürzen Sie die Miete aber nicht einfach selbst. Hinterlegen können Sie die Miete nur unter strengen Formvorschriften. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
+    "fr": "Le bailleur doit maintenir le logement dans un état permettant l'usage convenu et remédier aux défauts dès qu'il en a connaissance. Signalez le défaut par écrit et fixez un délai raisonnable. Dès le moment où le bailleur connaît le défaut, vous pouvez demander une réduction du loyer, même rétroactivement. Ne réduisez toutefois pas le loyer vous-même sans autre. Vous ne pouvez consigner le loyer que sous des conditions de forme strictes. La procédure de conciliation ne vous coûte rien."
   },
   "examples": {
     "de": [
@@ -19,42 +21,57 @@
       "Min Vermieter reagiert nöd, obwohl s Bad sit Wuche defekt isch",
       "Darf ich einfach weniger Miete bezahlen, bis der Mangel behoben ist?",
       "Was bedeutet Mietzins hinterlegen und wie geht das?"
+    ],
+    "fr": [
+      "Quelque chose est cassé dans mon logement et le bailleur ne fait rien",
+      "Le chauffage ne fonctionne plus depuis des semaines, que puis-je faire ?",
+      "Puis-je réduire le loyer à cause d'un dégât d'eau ?",
+      "Mon bailleur ne réagit pas alors que la salle de bain est en panne depuis des semaines",
+      "Ai-je le droit de payer simplement moins de loyer tant que le défaut n'est pas réparé ?",
+      "Que signifie consigner le loyer et comment ça marche ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Mängel an einer gemieteten Wohnung während eines laufenden Mietverhältnisses in der Schweiz, zum Beispiel an Heizung, Sanitäranlagen, Elektrik, Fenstern oder bei Feuchtigkeit und Schimmel."
+      "de": "Mängel an einer gemieteten Wohnung während eines laufenden Mietverhältnisses in der Schweiz, zum Beispiel an Heizung, Sanitäranlagen, Elektrik, Fenstern oder bei Feuchtigkeit und Schimmel.",
+      "fr": "Les défauts d'un logement loué pendant un bail en cours en Suisse, par exemple au chauffage, aux installations sanitaires, à l'électricité, aux fenêtres, ou en cas d'humidité et de moisissure."
     },
     "excludes": {
-      "de": "Mängel, die Sie selbst verschuldet haben, Geschäftsräume und andere besondere Mietverhältnisse, sowie Schäden an Ihrem eigenen Eigentum, zum Beispiel an Ihren Möbeln."
+      "de": "Mängel, die Sie selbst verschuldet haben, Geschäftsräume und andere besondere Mietverhältnisse, sowie Schäden an Ihrem eigenen Eigentum, zum Beispiel an Ihren Möbeln.",
+      "fr": "Les défauts que vous avez vous-même causés, les locaux commerciaux et les autres baux particuliers, ainsi que les dommages à vos propres biens, par exemple à vos meubles."
     }
   },
   "facts": [
     {
       "key": "severity",
       "question": {
-        "de": "Wie stark beeinträchtigt der Mangel den Gebrauch der Wohnung?"
+        "de": "Wie stark beeinträchtigt der Mangel den Gebrauch der Wohnung?",
+        "fr": "Dans quelle mesure le défaut entrave-t-il l'usage du logement ?"
       },
       "help": {
-        "de": "Kleine Ausbesserungen für den gewöhnlichen Unterhalt, zum Beispiel ein verstopfter Abfluss, muss der Mieter selbst und auf eigene Kosten beheben."
+        "de": "Kleine Ausbesserungen für den gewöhnlichen Unterhalt, zum Beispiel ein verstopfter Abfluss, muss der Mieter selbst und auf eigene Kosten beheben.",
+        "fr": "Les menus travaux de réparation relevant de l'entretien courant, par exemple un écoulement bouché, doivent être réparés par le locataire lui-même et à ses frais."
       },
       "options": [
         {
           "value": "small",
           "label": {
-            "de": "Es ist eine Kleinigkeit, die ich normalerweise selbst beheben müsste"
+            "de": "Es ist eine Kleinigkeit, die ich normalerweise selbst beheben müsste",
+            "fr": "C'est un détail que je devrais normalement réparer moi-même"
           }
         },
         {
           "value": "serious",
           "label": {
-            "de": "Ein grösserer Mangel, zum Beispiel Heizung, Wasser, Schimmel oder Lift"
+            "de": "Ein grösserer Mangel, zum Beispiel Heizung, Wasser, Schimmel oder Lift",
+            "fr": "Un défaut plus important, par exemple le chauffage, l'eau, la moisissure ou l'ascenseur"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n'en ai pas la certitude"
           }
         }
       ]
@@ -62,25 +79,29 @@
     {
       "key": "reported",
       "question": {
-        "de": "Haben Sie den Mangel dem Vermieter oder der Verwaltung schriftlich gemeldet?"
+        "de": "Haben Sie den Mangel dem Vermieter oder der Verwaltung schriftlich gemeldet?",
+        "fr": "Avez-vous signalé le défaut par écrit au bailleur ou à la gérance ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht schriftlich"
+            "de": "Nein, noch nicht schriftlich",
+            "fr": "Non, pas encore par écrit"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht mehr genau"
+            "de": "Ich weiss es nicht mehr genau",
+            "fr": "Je ne m'en souviens plus exactement"
           }
         }
       ]
@@ -88,31 +109,36 @@
     {
       "key": "landlord_action",
       "question": {
-        "de": "Was hat der Vermieter seither unternommen?"
+        "de": "Was hat der Vermieter seither unternommen?",
+        "fr": "Qu'a fait le bailleur depuis lors ?"
       },
       "options": [
         {
           "value": "nothing",
           "label": {
-            "de": "Nichts"
+            "de": "Nichts",
+            "fr": "Rien"
           }
         },
         {
           "value": "promised",
           "label": {
-            "de": "Er hat eine Reparatur zugesagt, aber noch nichts getan"
+            "de": "Er hat eine Reparatur zugesagt, aber noch nichts getan",
+            "fr": "Il a promis une réparation, mais n'a encore rien fait"
           }
         },
         {
           "value": "fixed",
           "label": {
-            "de": "Der Mangel wurde inzwischen behoben"
+            "de": "Der Mangel wurde inzwischen behoben",
+            "fr": "Le défaut a entre-temps été réparé"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -120,31 +146,36 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?"
       },
       "options": [
         {
           "value": "repair",
           "label": {
-            "de": "Ich will, dass der Mangel behoben wird"
+            "de": "Ich will, dass der Mangel behoben wird",
+            "fr": "Je veux que le défaut soit réparé"
           }
         },
         {
           "value": "reduction",
           "label": {
-            "de": "Ich will weniger Miete zahlen, solange der Mangel besteht"
+            "de": "Ich will weniger Miete zahlen, solange der Mangel besteht",
+            "fr": "Je veux payer moins de loyer tant que le défaut existe"
           }
         },
         {
           "value": "both",
           "label": {
-            "de": "Beides"
+            "de": "Beides",
+            "fr": "Les deux"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore"
           }
         }
       ]
@@ -160,7 +191,8 @@
         ]
       },
       "text": {
-        "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, erledigen Sie selbst und auf eigene Kosten. Gemeint sind Arbeiten, für die es keine Fachperson braucht oder die wenig kosten, zum Beispiel eine Glühbirne oder einen Duschschlauch ersetzen oder einen verstopften Abfluss freimachen. Alles, was darüber hinausgeht, muss der Vermieter beheben. Eine Klausel im Mietvertrag, nach der Sie grössere Reparaturen ganz oder teilweise selbst bezahlen, gilt bei einer Wohnung nicht. Fragen Sie beim Vermieter nach, wenn Sie unsicher sind."
+        "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, erledigen Sie selbst und auf eigene Kosten. Gemeint sind Arbeiten, für die es keine Fachperson braucht oder die wenig kosten, zum Beispiel eine Glühbirne oder einen Duschschlauch ersetzen oder einen verstopften Abfluss freimachen. Alles, was darüber hinausgeht, muss der Vermieter beheben. Eine Klausel im Mietvertrag, nach der Sie grössere Reparaturen ganz oder teilweise selbst bezahlen, gilt bei einer Wohnung nicht. Fragen Sie beim Vermieter nach, wenn Sie unsicher sind.",
+        "fr": "Les petits nettoyages et réparations relevant de l'entretien courant, vous les effectuez vous-même et à vos frais. Il s'agit de travaux qui ne nécessitent pas de spécialiste ou qui coûtent peu, par exemple remplacer une ampoule ou un flexible de douche, ou déboucher un écoulement. Tout ce qui va au-delà doit être réparé par le bailleur. Une clause du bail selon laquelle vous payez vous-même, en tout ou en partie, des réparations plus importantes ne vaut pas pour un logement. Renseignez-vous auprès du bailleur en cas de doute."
       },
       "sources": [
         "or-259",
@@ -171,7 +203,8 @@
       "id": "landlord-duty",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Sobald er von einem Mangel weiss, muss er ihn beheben, auch wenn er ihn nicht verursacht hat. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden."
+        "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Sobald er von einem Mangel weiss, muss er ihn beheben, auch wenn er ihn nicht verursacht hat. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden.",
+        "fr": "Le bailleur doit remettre et maintenir le logement dans un état approprié à l'usage convenu. Dès qu'il a connaissance d'un défaut, il doit y remédier, même s'il ne l'a pas causé. Cette obligation ne peut pas être supprimée à votre détriment dans un bail de logement ou de locaux commerciaux."
       },
       "sources": [
         "or-256"
@@ -191,7 +224,8 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Melden Sie den Mangel sofort schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief. Beschreiben Sie, was nicht funktioniert, seit wann, und wie es Sie im Alltag einschränkt. Verlangen Sie die Behebung und setzen Sie eine Frist, die zur Dringlichkeit passt: Fällt im Winter die Heizung aus, sind es wenige Tage, bei weniger dringenden Mängeln einige Wochen. Machen Sie Fotos oder Videos mit Datum und bewahren Sie alle Nachrichten auf. Im Streitfall müssen Sie den Mangel belegen. Behauptet der Vermieter, Sie hätten ihn selbst verursacht, muss er das beweisen."
+        "de": "So gehen Sie vor: Melden Sie den Mangel sofort schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief. Beschreiben Sie, was nicht funktioniert, seit wann, und wie es Sie im Alltag einschränkt. Verlangen Sie die Behebung und setzen Sie eine Frist, die zur Dringlichkeit passt: Fällt im Winter die Heizung aus, sind es wenige Tage, bei weniger dringenden Mängeln einige Wochen. Machen Sie Fotos oder Videos mit Datum und bewahren Sie alle Nachrichten auf. Im Streitfall müssen Sie den Mangel belegen. Behauptet der Vermieter, Sie hätten ihn selbst verursacht, muss er das beweisen.",
+        "fr": "Comment procéder : signalez le défaut immédiatement par écrit, par exemple par e-mail ou par lettre recommandée. Décrivez ce qui ne fonctionne pas, depuis quand, et comment cela vous limite au quotidien. Exigez la remise en état et fixez un délai adapté à l'urgence : si le chauffage tombe en panne en hiver, ce sont quelques jours, pour des défauts moins urgents, quelques semaines. Prenez des photos ou des vidéos datées et conservez tous les messages. En cas de litige, c'est à vous de prouver le défaut. Si le bailleur prétend que vous l'avez causé vous-même, c'est à lui de le prouver."
       },
       "sources": [
         "or-256",
@@ -208,7 +242,8 @@
         ]
       },
       "text": {
-        "de": "Lassen Sie den Vermieter und die Handwerker für die Reparatur in die Wohnung. Arbeiten, die zur Behebung des Mangels nötig sind, müssen Sie dulden. Der Vermieter muss sie rechtzeitig ankündigen und bei der Ausführung auf Sie Rücksicht nehmen. Ihre Ansprüche auf Herabsetzung der Miete und auf Schadenersatz bleiben bestehen."
+        "de": "Lassen Sie den Vermieter und die Handwerker für die Reparatur in die Wohnung. Arbeiten, die zur Behebung des Mangels nötig sind, müssen Sie dulden. Der Vermieter muss sie rechtzeitig ankündigen und bei der Ausführung auf Sie Rücksicht nehmen. Ihre Ansprüche auf Herabsetzung der Miete und auf Schadenersatz bleiben bestehen.",
+        "fr": "Laissez entrer le bailleur et les artisans pour la réparation. Vous devez tolérer les travaux nécessaires à la remise en état. Le bailleur doit les annoncer à temps et tenir compte de vous dans leur exécution. Vos droits à la réduction du loyer et aux dommages-intérêts subsistent."
       },
       "sources": [
         "or-257h"
@@ -224,7 +259,8 @@
         ]
       },
       "text": {
-        "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen. Diese Rechte schliessen sich nicht aus. Sie können zum Beispiel die Behebung verlangen und für die Zeit bis dahin eine Herabsetzung der Miete."
+        "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen. Diese Rechte schliessen sich nicht aus. Sie können zum Beispiel die Behebung verlangen und für die Zeit bis dahin eine Herabsetzung der Miete.",
+        "fr": "En cas de défaut que vous n'avez pas causé vous-même et que vous n'avez pas à réparer vous-même, vous pouvez exiger du bailleur qu'il remédie au défaut, qu'il réduise le loyer proportionnellement, qu'il vous répare le dommage subi, ou qu'il prenne en charge un litige avec un tiers concerné. Pour un logement ou une maison, vous pouvez en outre, sous certaines conditions, consigner le loyer. Ces droits ne s'excluent pas mutuellement. Vous pouvez par exemple exiger la remise en état et, pour le temps jusque-là, une réduction du loyer."
       },
       "sources": [
         "or-259a"
@@ -241,7 +277,8 @@
         ]
       },
       "text": {
-        "de": "Beeinträchtigt der Mangel den vertragsgemässen Gebrauch der Wohnung, können Sie eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Es spielt keine Rolle, ob er es von Ihnen, vom Hauswart oder auf anderem Weg erfahren hat. Ein Verschulden des Vermieters ist nicht nötig."
+        "de": "Beeinträchtigt der Mangel den vertragsgemässen Gebrauch der Wohnung, können Sie eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Es spielt keine Rolle, ob er es von Ihnen, vom Hauswart oder auf anderem Weg erfahren hat. Ein Verschulden des Vermieters ist nicht nötig.",
+        "fr": "Si le défaut entrave l'usage du logement conforme au contrat, vous pouvez demander une réduction proportionnelle du loyer. Elle vaut à partir du moment où le bailleur a eu connaissance du défaut, jusqu'à ce qu'il soit réparé. Peu importe qu'il l'ait appris de vous, du concierge ou d'une autre manière. Une faute du bailleur n'est pas nécessaire."
       },
       "sources": [
         "or-259d"
@@ -258,7 +295,8 @@
         ]
       },
       "text": {
-        "de": "Wie viel? Verglichen wird der Wert der Wohnung mit dem Mangel mit ihrem Wert ohne Mangel. Um diesen Anteil sinkt die Miete. Oft lässt sich das nicht genau berechnen. Die Gerichte schätzen die Herabsetzung dann nach der Lebenserfahrung und nach vergleichbaren Fällen. Schmälert ein kleiner Mangel den Gebrauch um weniger als etwa 5 Prozent, gibt es in der Regel keine Herabsetzung. Anders ist es, wenn er lange andauert, obwohl der Vermieter davon weiss."
+        "de": "Wie viel? Verglichen wird der Wert der Wohnung mit dem Mangel mit ihrem Wert ohne Mangel. Um diesen Anteil sinkt die Miete. Oft lässt sich das nicht genau berechnen. Die Gerichte schätzen die Herabsetzung dann nach der Lebenserfahrung und nach vergleichbaren Fällen. Schmälert ein kleiner Mangel den Gebrauch um weniger als etwa 5 Prozent, gibt es in der Regel keine Herabsetzung. Anders ist es, wenn er lange andauert, obwohl der Vermieter davon weiss.",
+        "fr": "Combien ? On compare la valeur du logement avec le défaut à sa valeur sans le défaut. C'est de cette proportion que le loyer baisse. Souvent, cela ne peut pas être calculé exactement. Les tribunaux estiment alors la réduction selon l'expérience générale et des cas comparables. Si un petit défaut réduit l'usage de moins d'environ 5 pour cent, il n'y a en règle générale pas de réduction. Il en va autrement s'il dure longtemps alors que le bailleur en a connaissance."
       },
       "sources": [
         "or-259d",
@@ -277,7 +315,8 @@
         ]
       },
       "text": {
-        "de": "Kürzen Sie die Miete nicht einfach selbst. Ist Ihr Abzug zu hoch oder nicht berechtigt, sind Sie mit der Differenz im Zahlungsrückstand, und der Vermieter kann Ihnen deswegen kündigen. Sicherer ist dieser Weg: Verlangen Sie die Herabsetzung schriftlich, zahlen Sie die Miete weiter voll und fordern Sie den zu viel bezahlten Betrag zurück, wenn nötig über die Schlichtungsbehörde. Solange der Vermieter den Mangel nicht behebt, können Sie ausserdem die Miete hinterlegen."
+        "de": "Kürzen Sie die Miete nicht einfach selbst. Ist Ihr Abzug zu hoch oder nicht berechtigt, sind Sie mit der Differenz im Zahlungsrückstand, und der Vermieter kann Ihnen deswegen kündigen. Sicherer ist dieser Weg: Verlangen Sie die Herabsetzung schriftlich, zahlen Sie die Miete weiter voll und fordern Sie den zu viel bezahlten Betrag zurück, wenn nötig über die Schlichtungsbehörde. Solange der Vermieter den Mangel nicht behebt, können Sie ausserdem die Miete hinterlegen.",
+        "fr": "Ne réduisez pas le loyer vous-même sans autre. Si votre déduction est trop élevée ou injustifiée, vous êtes en retard de paiement pour la différence, et le bailleur peut vous résilier le bail pour ce motif. La voie plus sûre est celle-ci : demandez la réduction par écrit, continuez à payer le loyer intégralement et réclamez le montant payé en trop, au besoin par la voie de l'autorité de conciliation. Tant que le bailleur ne répare pas le défaut, vous pouvez en outre consigner le loyer."
       },
       "sources": [
         "or-259d",
@@ -295,7 +334,8 @@
         ]
       },
       "text": {
-        "de": "Die Herabsetzung können Sie auch noch verlangen, wenn der Mangel inzwischen behoben ist oder Sie schon ausgezogen sind. Zu viel bezahlte Miete können Sie während fünf Jahren zurückfordern. Das gilt aber nicht ohne Weiteres für eine Zeit, in der Sie den Mangel nie beanstandet und die Miete ohne Vorbehalt gezahlt haben. Dann darf der Vermieter annehmen, Sie seien damit einverstanden gewesen. Beanstanden Sie einen störenden Mangel deshalb früh und schriftlich."
+        "de": "Die Herabsetzung können Sie auch noch verlangen, wenn der Mangel inzwischen behoben ist oder Sie schon ausgezogen sind. Zu viel bezahlte Miete können Sie während fünf Jahren zurückfordern. Das gilt aber nicht ohne Weiteres für eine Zeit, in der Sie den Mangel nie beanstandet und die Miete ohne Vorbehalt gezahlt haben. Dann darf der Vermieter annehmen, Sie seien damit einverstanden gewesen. Beanstanden Sie einen störenden Mangel deshalb früh und schriftlich.",
+        "fr": "Vous pouvez aussi demander la réduction si le défaut a entre-temps été réparé ou si vous avez déjà déménagé. Vous pouvez réclamer le loyer payé en trop pendant cinq ans. Cela ne vaut toutefois pas sans autre pour une période durant laquelle vous n'avez jamais contesté le défaut et avez payé le loyer sans réserve. Le bailleur peut alors supposer que vous étiez d'accord. Contestez donc tôt et par écrit un défaut qui vous dérange."
       },
       "sources": [
         "or-259d",
@@ -314,7 +354,8 @@
         ]
       },
       "text": {
-        "de": "Hat Ihnen der Mangel zusätzliche Kosten verursacht, zum Beispiel für eine Ersatzunterkunft, für Arztbesuche oder für den Strom von Trocknungsgeräten, muss der Vermieter diese ersetzen, wenn er nicht beweisen kann, dass ihn kein Verschulden trifft. Bewahren Sie alle Belege auf. Dieser Anspruch kommt zur Herabsetzung der Miete hinzu."
+        "de": "Hat Ihnen der Mangel zusätzliche Kosten verursacht, zum Beispiel für eine Ersatzunterkunft, für Arztbesuche oder für den Strom von Trocknungsgeräten, muss der Vermieter diese ersetzen, wenn er nicht beweisen kann, dass ihn kein Verschulden trifft. Bewahren Sie alle Belege auf. Dieser Anspruch kommt zur Herabsetzung der Miete hinzu.",
+        "fr": "Si le défaut vous a causé des frais supplémentaires, par exemple pour un logement de remplacement, des consultations médicales ou l'électricité d'appareils de séchage, le bailleur doit vous les rembourser s'il ne peut pas prouver qu'aucune faute ne lui est imputable. Conservez tous les justificatifs. Cette prétention s'ajoute à la réduction du loyer."
       },
       "sources": [
         "or-259e"
@@ -335,7 +376,8 @@
         ]
       },
       "text": {
-        "de": "Behebt der Vermieter einen Mangel, von dem er weiss, nicht innert angemessener Frist, haben Sie weitere Möglichkeiten. Ist die Wohnung wegen des Mangels nicht mehr bewohnbar oder nur noch stark eingeschränkt nutzbar, können Sie fristlos kündigen, und zwar schriftlich. Ist der Mangel weniger gravierend, dürfen Sie ihn auf Kosten des Vermieters von einer Fachperson beheben lassen. Beide Schritte sind riskant: Fehlen die Voraussetzungen, ist die Kündigung unwirksam oder Sie bleiben auf den Kosten sitzen. Lassen Sie sich vorher beraten."
+        "de": "Behebt der Vermieter einen Mangel, von dem er weiss, nicht innert angemessener Frist, haben Sie weitere Möglichkeiten. Ist die Wohnung wegen des Mangels nicht mehr bewohnbar oder nur noch stark eingeschränkt nutzbar, können Sie fristlos kündigen, und zwar schriftlich. Ist der Mangel weniger gravierend, dürfen Sie ihn auf Kosten des Vermieters von einer Fachperson beheben lassen. Beide Schritte sind riskant: Fehlen die Voraussetzungen, ist die Kündigung unwirksam oder Sie bleiben auf den Kosten sitzen. Lassen Sie sich vorher beraten.",
+        "fr": "Si le bailleur ne répare pas, dans un délai raisonnable, un défaut dont il a connaissance, vous avez d'autres possibilités. Si le logement n'est plus habitable à cause du défaut, ou seulement utilisable de manière fortement restreinte, vous pouvez résilier le bail avec effet immédiat, par écrit. Si le défaut est moins grave, vous pouvez le faire réparer par un spécialiste aux frais du bailleur. Ces deux démarches sont risquées : si les conditions font défaut, le congé est sans effet ou vous restez avec les frais. Faites-vous conseiller auparavant."
       },
       "sources": [
         "or-259b",
@@ -357,7 +399,8 @@
         ]
       },
       "text": {
-        "de": "Reagiert der Vermieter nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten Stelle hinterlegen. Welche Stelle das ist, erfahren Sie bei der Schlichtungsbehörde. Hält der Vermieter die Frist für zu kurz, muss er Ihnen das sagen. Läuft die Frist ungenutzt ab, kündigen Sie ihm die Hinterlegung schriftlich an und zahlen die Miete an diese Stelle statt an ihn. Sie dürfen die ganze Miete hinterlegen, auch die fest vereinbarten Nebenkosten, unabhängig davon, wie schwer der Mangel ist. Die hinterlegte Miete gilt als bezahlt. Die Hinterlegung dient dazu, die Behebung durchzusetzen. Sie ist deshalb nur möglich, solange der Mangel besteht und Sie seine Behebung verlangen."
+        "de": "Reagiert der Vermieter nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten Stelle hinterlegen. Welche Stelle das ist, erfahren Sie bei der Schlichtungsbehörde. Hält der Vermieter die Frist für zu kurz, muss er Ihnen das sagen. Läuft die Frist ungenutzt ab, kündigen Sie ihm die Hinterlegung schriftlich an und zahlen die Miete an diese Stelle statt an ihn. Sie dürfen die ganze Miete hinterlegen, auch die fest vereinbarten Nebenkosten, unabhängig davon, wie schwer der Mangel ist. Die hinterlegte Miete gilt als bezahlt. Die Hinterlegung dient dazu, die Behebung durchzusetzen. Sie ist deshalb nur möglich, solange der Mangel besteht und Sie seine Behebung verlangen.",
+        "fr": "Si le bailleur ne réagit pas, vous pouvez lui fixer par écrit un délai raisonnable pour remédier au défaut et le menacer de consigner les loyers futurs auprès de l'office désigné par le canton. Vous apprendrez quel est cet office auprès de l'autorité de conciliation. Si le bailleur estime le délai trop court, il doit vous le dire. Si le délai expire sans résultat, annoncez-lui par écrit la consignation et versez le loyer à cet office plutôt qu'à lui. Vous pouvez consigner tout le loyer, y compris les acomptes de frais accessoires fixés, indépendamment de la gravité du défaut. Le loyer consigné est réputé payé. La consignation sert à faire aboutir la remise en état. Elle n'est donc possible que tant que le défaut existe et que vous en demandez la réparation."
       },
       "sources": [
         "or-259g",
@@ -381,7 +424,8 @@
         ]
       },
       "text": {
-        "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Hinterlegen dürfen Sie nur Mieten, die noch nicht fällig sind. Eine bereits fällige Miete gilt durch die Hinterlegung nicht als bezahlt, und Sie riskieren eine Kündigung wegen Zahlungsrückstand. Zudem müssen Sie sich mit Ihren Ansprüchen innert 30 Tagen an die Schlichtungsbehörde wenden. Die Frist beginnt, sobald die erste hinterlegte Miete fällig wird. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung."
+        "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Hinterlegen dürfen Sie nur Mieten, die noch nicht fällig sind. Eine bereits fällige Miete gilt durch die Hinterlegung nicht als bezahlt, und Sie riskieren eine Kündigung wegen Zahlungsrückstand. Zudem müssen Sie sich mit Ihren Ansprüchen innert 30 Tagen an die Schlichtungsbehörde wenden. Die Frist beginnt, sobald die erste hinterlegte Miete fällig wird. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung.",
+        "fr": "La consignation n'est valable que si vous accomplissez les deux étapes par écrit, dans le bon ordre : d'abord la fixation du délai avec menace, puis seulement, une fois le délai expiré sans résultat, l'annonce de la consignation. Vous ne pouvez consigner que des loyers pas encore échus. Un loyer déjà échu n'est pas réputé payé par la consignation, et vous risquez un congé pour retard de paiement. Vous devez en outre saisir l'autorité de conciliation de vos prétentions dans les 30 jours. Le délai commence dès que le premier loyer consigné devient exigible. Si vous ne le faites pas à temps, l'argent consigné revient au bailleur. En raison de ces exigences de forme strictes, une consultation personnelle vaut la peine avant une consignation."
       },
       "sources": [
         "or-259g",
@@ -404,7 +448,8 @@
         ]
       },
       "text": {
-        "de": "Stellt sich später heraus, dass kein Mangel bestand, den der Vermieter hätte beheben müssen, schützt Sie die Hinterlegung trotzdem, wenn Sie in guten Treuen davon ausgegangen sind. Die Miete gilt dann als bezahlt, und eine Kündigung wegen Zahlungsrückstand ist ungültig. Hinterlegen Sie aber nie, nur um Druck zu machen, wenn Sie selbst nicht an einen Mangel glauben."
+        "de": "Stellt sich später heraus, dass kein Mangel bestand, den der Vermieter hätte beheben müssen, schützt Sie die Hinterlegung trotzdem, wenn Sie in guten Treuen davon ausgegangen sind. Die Miete gilt dann als bezahlt, und eine Kündigung wegen Zahlungsrückstand ist ungültig. Hinterlegen Sie aber nie, nur um Druck zu machen, wenn Sie selbst nicht an einen Mangel glauben.",
+        "fr": "S'il s'avère plus tard qu'il n'y avait aucun défaut que le bailleur aurait dû réparer, la consignation vous protège quand même si vous étiez de bonne foi. Le loyer est alors réputé payé, et un congé pour retard de paiement est invalide. Mais ne consignez jamais seulement pour faire pression, si vous ne croyez pas vous-même à un défaut."
       },
       "sources": [
         "or-259g",
@@ -421,7 +466,8 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie in guten Treuen die Behebung eines Mangels oder eine Herabsetzung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während eines Verfahrens vor der Schlichtungsbehörde oder dem Gericht oder innert drei Jahren danach, wenn der Vermieter zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie in guten Treuen die Behebung eines Mangels oder eine Herabsetzung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während eines Verfahrens vor der Schlichtungsbehörde oder dem Gericht oder innert drei Jahren danach, wenn der Vermieter zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
+        "fr": "Le bailleur ne peut pas vous résilier le bail parce que vous demandez de bonne foi la réparation d'un défaut ou une réduction. Un tel congé est contestable. Est aussi contestable un congé donné pendant une procédure devant l'autorité de conciliation ou le tribunal, ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu."
       },
       "sources": [
         "or-271a",
@@ -443,7 +489,8 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich nicht, können Sie Ihre Ansprüche bei der Schlichtungsbehörde am Ort der Wohnung geltend machen, zum Beispiel die Behebung, die Herabsetzung und die Rückzahlung zu viel bezahlter Miete. Gehen Sie persönlich zur Verhandlung. Sie dürfen eine Vertrauensperson mitnehmen. Bleiben Sie als gesuchstellende Partei fern, gilt Ihr Gesuch als zurückgezogen. Kommt keine Einigung zustande, macht die Behörde entweder einen Urteilsvorschlag, der verbindlich wird, wenn ihn niemand innert 20 Tagen ablehnt, oder sie stellt eine Klagebewilligung aus. Für die Klage beim Gericht haben Sie dann in Mietsachen 30 Tage Zeit. Lesen Sie die Belehrung auf dem Schreiben genau."
+        "de": "Einigen Sie sich nicht, können Sie Ihre Ansprüche bei der Schlichtungsbehörde am Ort der Wohnung geltend machen, zum Beispiel die Behebung, die Herabsetzung und die Rückzahlung zu viel bezahlter Miete. Gehen Sie persönlich zur Verhandlung. Sie dürfen eine Vertrauensperson mitnehmen. Bleiben Sie als gesuchstellende Partei fern, gilt Ihr Gesuch als zurückgezogen. Kommt keine Einigung zustande, macht die Behörde entweder einen Urteilsvorschlag, der verbindlich wird, wenn ihn niemand innert 20 Tagen ablehnt, oder sie stellt eine Klagebewilligung aus. Für die Klage beim Gericht haben Sie dann in Mietsachen 30 Tage Zeit. Lesen Sie die Belehrung auf dem Schreiben genau.",
+        "fr": "Si vous ne trouvez pas d'accord, vous pouvez faire valoir vos prétentions devant l'autorité de conciliation du lieu où se trouve le logement, par exemple la remise en état, la réduction et le remboursement du loyer payé en trop. Rendez-vous personnellement à l'audience. Vous pouvez vous faire accompagner d'une personne de confiance. Si vous, en tant que partie requérante, ne comparaissez pas, votre requête est réputée retirée. Si aucun accord n'est trouvé, l'autorité fait soit une proposition de décision, qui devient contraignante si personne ne la refuse dans les 20 jours, soit elle délivre une autorisation de procéder. Pour agir en justice, vous avez alors 30 jours en matière de bail. Lisez attentivement les indications figurant sur le courrier."
       },
       "sources": [
         "zpo-204",
@@ -457,7 +504,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire."
       },
       "sources": [
         "zpo-113",
@@ -468,14 +516,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, fristlos kündigen oder einen Mangel selbst beheben lassen. Ebenso bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, wenn Sie unsicher sind, wie hoch eine angemessene Herabsetzung wäre, oder wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben."
+        "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, fristlos kündigen oder einen Mangel selbst beheben lassen. Ebenso bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, wenn Sie unsicher sind, wie hoch eine angemessene Herabsetzung wäre, oder wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben.",
+        "fr": "Demandez une consultation personnelle avant de consigner le loyer, de résilier avec effet immédiat ou de faire réparer un défaut vous-même. De même en cas de risques pour la santé comme la moisissure, si le bailleur menace de résilier, si vous n'avez pas la certitude du montant d'une réduction appropriée, ou si vous avez reçu une proposition de décision ou une autorisation de procéder."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Höhe einer Mietzinsreduktion. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, auch zur Höhe einer Mietzinsreduktion. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres, aussi sur le montant d'une réduction de loyer. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite."
       }
     }
   ],
@@ -707,7 +757,8 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+        "de": "ch.ch: Wohnen, Mietzins und Mängel",
+        "fr": "ch.ch : logement, loyer et défauts"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

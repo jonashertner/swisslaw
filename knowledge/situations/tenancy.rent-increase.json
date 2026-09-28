@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Meine Miete wird erhöht. Kann ich mich wehren?"
+    "de": "Meine Miete wird erhöht. Kann ich mich wehren?",
+    "fr": "Mon loyer augmente. Puis-je m'y opposer ?"
   },
   "summary": {
-    "de": "Eine Mietzinserhöhung muss in der Regel auf einem amtlichen Formular kommen und begründet sein, sonst ist sie ungültig. Sie können sie zusätzlich als missbräuchlich anfechten. Dafür haben Sie 30 Tage ab Erhalt der Mitteilung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+    "de": "Eine Mietzinserhöhung muss in der Regel auf einem amtlichen Formular kommen und begründet sein, sonst ist sie ungültig. Sie können sie zusätzlich als missbräuchlich anfechten. Dafür haben Sie 30 Tage ab Erhalt der Mitteilung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
+    "fr": "Une majoration de loyer doit en règle générale arriver sur une formule officielle et être motivée, sinon elle est invalide. Vous pouvez en outre la contester comme abusive. Vous avez pour cela 30 jours dès réception de l'avis. La procédure de conciliation ne vous coûte rien."
   },
   "examples": {
     "de": [
@@ -19,42 +21,57 @@
       "Han e Mietzinserhöhig übercho, chan i mich dagege wehre?",
       "Wie lange habe ich Zeit, um eine Mieterhöhung anzufechten?",
       "Die Mieterhöhung kam nur per E-Mail ohne Formular, ist das gültig?"
+    ],
+    "fr": [
+      "Mon loyer augmente. Puis-je m'y opposer ?",
+      "J'ai reçu une majoration de loyer, que puis-je faire ?",
+      "Le bailleur veut plus de loyer, est-ce autorisé ?",
+      "J'ai reçu une hausse de loyer, je peux contester ça comment ?",
+      "Combien de temps ai-je pour contester une hausse de loyer ?",
+      "La hausse de loyer est arrivée juste par e-mail sans formule, est-ce valable ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Erhöhungen des laufenden Mietzinses und andere einseitige Vertragsänderungen zu Lasten des Mieters bei bestehenden Wohnungsmietverhältnissen in der Schweiz."
+      "de": "Erhöhungen des laufenden Mietzinses und andere einseitige Vertragsänderungen zu Lasten des Mieters bei bestehenden Wohnungsmietverhältnissen in der Schweiz.",
+      "fr": "Les majorations du loyer en cours et les autres modifications unilatérales du contrat aux dépens du locataire, dans des baux de logement existants en Suisse."
     },
     "excludes": {
-      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse."
+      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse.",
+      "fr": "Le loyer fixé à la conclusion d'un nouveau bail (loyer initial), les locaux commerciaux et les autres baux particuliers."
     }
   },
   "facts": [
     {
       "key": "form",
       "question": {
-        "de": "Kam die Mietzinserhöhung auf einem amtlichen, vom Kanton genehmigten Formular?"
+        "de": "Kam die Mietzinserhöhung auf einem amtlichen, vom Kanton genehmigten Formular?",
+        "fr": "La majoration de loyer est-elle arrivée sur une formule officielle, agréée par le canton ?"
       },
       "help": {
-        "de": "Das Formular ist gesetzlich vorgeschrieben. Ein gewöhnlicher Brief oder eine E-Mail genügen nicht. Eine Ausnahme gilt nur für die Stufen einer im Vertrag vereinbarten Staffelmiete."
+        "de": "Das Formular ist gesetzlich vorgeschrieben. Ein gewöhnlicher Brief oder eine E-Mail genügen nicht. Eine Ausnahme gilt nur für die Stufen einer im Vertrag vereinbarten Staffelmiete.",
+        "fr": "La formule est prescrite par la loi. Une lettre ordinaire ou un e-mail ne suffisent pas. Une exception vaut seulement pour les paliers d'un loyer échelonné convenu dans le contrat."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht"
+            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht",
+            "fr": "Non, seulement une lettre ordinaire, un e-mail ou un message"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -62,28 +79,33 @@
     {
       "key": "reasons",
       "question": {
-        "de": "Hat der Vermieter die Erhöhung schriftlich begründet?"
+        "de": "Hat der Vermieter die Erhöhung schriftlich begründet?",
+        "fr": "Le bailleur a-t-il motivé la majoration par écrit ?"
       },
       "help": {
-        "de": "Die Begründung steht meist auf dem Formular selbst oder in einer Beilage."
+        "de": "Die Begründung steht meist auf dem Formular selbst oder in einer Beilage.",
+        "fr": "Le motif figure en général sur la formule elle-même ou dans une annexe."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es steht kein Grund dabei"
+            "de": "Nein, es steht kein Grund dabei",
+            "fr": "Non, aucun motif n'est indiqué"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -91,25 +113,29 @@
     {
       "key": "threat",
       "question": {
-        "de": "Wurde mit der Mitteilung gleichzeitig eine Kündigung angedroht oder ausgesprochen?"
+        "de": "Wurde mit der Mitteilung gleichzeitig eine Kündigung angedroht oder ausgesprochen?",
+        "fr": "Un congé a-t-il été menacé ou prononcé en même temps que l'avis ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -117,34 +143,40 @@
     {
       "key": "clause",
       "question": {
-        "de": "Sieht Ihr Mietvertrag eine Staffelmiete oder eine indexierte Miete vor?"
+        "de": "Sieht Ihr Mietvertrag eine Staffelmiete oder eine indexierte Miete vor?",
+        "fr": "Votre bail prévoit-il un loyer échelonné ou un loyer indexé ?"
       },
       "help": {
-        "de": "Bei einer Staffelmiete steht schon im Vertrag, wann die Miete um welchen Frankenbetrag steigt. Bei einer indexierten Miete folgt sie dem Landesindex der Konsumentenpreise."
+        "de": "Bei einer Staffelmiete steht schon im Vertrag, wann die Miete um welchen Frankenbetrag steigt. Bei einer indexierten Miete folgt sie dem Landesindex der Konsumentenpreise.",
+        "fr": "Pour un loyer échelonné, le contrat indique déjà à quel moment et de quel montant le loyer augmente. Pour un loyer indexé, il suit l'indice suisse des prix à la consommation."
       },
       "options": [
         {
           "value": "none",
           "label": {
-            "de": "Nein, weder noch"
+            "de": "Nein, weder noch",
+            "fr": "Non, ni l'un ni l'autre"
           }
         },
         {
           "value": "staffel",
           "label": {
-            "de": "Ja, eine Staffelmiete"
+            "de": "Ja, eine Staffelmiete",
+            "fr": "Oui, un loyer échelonné"
           }
         },
         {
           "value": "index",
           "label": {
-            "de": "Ja, eine indexierte Miete"
+            "de": "Ja, eine indexierte Miete",
+            "fr": "Oui, un loyer indexé"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -152,25 +184,29 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?"
       },
       "options": [
         {
           "value": "contest",
           "label": {
-            "de": "Ich will die Erhöhung anfechten"
+            "de": "Ich will die Erhöhung anfechten",
+            "fr": "Je veux contester la majoration"
           }
         },
         {
           "value": "info",
           "label": {
-            "de": "Ich möchte zuerst nur wissen, ob sie zulässig ist"
+            "de": "Ich möchte zuerst nur wissen, ob sie zulässig ist",
+            "fr": "Je veux d'abord seulement savoir si elle est admissible"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore"
           }
         }
       ]
@@ -191,7 +227,8 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss eine Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular mitteilen und begründen. Ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht genügt nicht. Fehlt das Formular, ist die Erhöhung nichtig: Sie gilt von Anfang an nicht, und Sie schulden weiterhin die bisherige Miete. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie innert 30 Tagen ein Gesuch bei der Schlichtungsbehörde ein und lassen Sie die Gültigkeit prüfen."
+        "de": "Der Vermieter muss eine Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular mitteilen und begründen. Ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht genügt nicht. Fehlt das Formular, ist die Erhöhung nichtig: Sie gilt von Anfang an nicht, und Sie schulden weiterhin die bisherige Miete. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie innert 30 Tagen ein Gesuch bei der Schlichtungsbehörde ein und lassen Sie die Gültigkeit prüfen.",
+        "fr": "Le bailleur doit notifier et motiver une majoration de loyer au moyen de la formule officielle, agréée par le canton. Une lettre ordinaire, un e-mail ou un message ne suffisent pas. Si la formule fait défaut, la majoration est nulle : elle ne vaut pas dès le départ, et vous continuez à devoir l'ancien loyer. Ne vous fiez pourtant pas uniquement à cela : déposez une requête dans les 30 jours auprès de l'autorité de conciliation et faites examiner la validité."
       },
       "sources": [
         "or-269d"
@@ -211,7 +248,8 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie, ob die Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular kam. Ohne dieses Formular ist eine Erhöhung ungültig. Eine gedruckte statt einer handschriftlichen Unterschrift auf dem Formular genügt. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden."
+        "de": "Prüfen Sie, ob die Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular kam. Ohne dieses Formular ist eine Erhöhung ungültig. Eine gedruckte statt einer handschriftlichen Unterschrift auf dem Formular genügt. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden.",
+        "fr": "Vérifiez si la majoration de loyer est arrivée sur la formule officielle, agréée par le canton. Sans cette formule, une majoration est invalide. Une signature imprimée plutôt que manuscrite sur la formule suffit. Apportez le courrier avec vous lorsque vous vous adressez à l'autorité de conciliation."
       },
       "sources": [
         "or-269d"
@@ -226,7 +264,8 @@
         ]
       },
       "text": {
-        "de": "Bei einer Staffelmiete steigt die Miete zu den im Vertrag festgelegten Zeitpunkten um die dort bestimmten Frankenbeträge. Eine solche Klausel gilt nur, wenn der Vertrag den Vermieter für wenigstens drei Jahre bindet, die Miete höchstens einmal im Jahr steigt und jede Stufe als Frankenbetrag feststeht. Für die Mitteilung einer vereinbarten Stufe braucht der Vermieter seit dem 1. Oktober 2025 kein amtliches Formular mehr, ein Schreiben genügt. Die einzelnen Stufen können Sie nicht als missbräuchlich anfechten. Prüfen Sie aber, ob die Klausel diese Voraussetzungen erfüllt und ob der verlangte Betrag genau dem Vertrag entspricht. Neben den vereinbarten Stufen darf der Vermieter während der festen Vertragsdauer grundsätzlich keine weiteren Erhöhungen verlangen. Tut er es trotzdem, lassen Sie das innert 30 Tagen prüfen."
+        "de": "Bei einer Staffelmiete steigt die Miete zu den im Vertrag festgelegten Zeitpunkten um die dort bestimmten Frankenbeträge. Eine solche Klausel gilt nur, wenn der Vertrag den Vermieter für wenigstens drei Jahre bindet, die Miete höchstens einmal im Jahr steigt und jede Stufe als Frankenbetrag feststeht. Für die Mitteilung einer vereinbarten Stufe braucht der Vermieter seit dem 1. Oktober 2025 kein amtliches Formular mehr, ein Schreiben genügt. Die einzelnen Stufen können Sie nicht als missbräuchlich anfechten. Prüfen Sie aber, ob die Klausel diese Voraussetzungen erfüllt und ob der verlangte Betrag genau dem Vertrag entspricht. Neben den vereinbarten Stufen darf der Vermieter während der festen Vertragsdauer grundsätzlich keine weiteren Erhöhungen verlangen. Tut er es trotzdem, lassen Sie das innert 30 Tagen prüfen.",
+        "fr": "Pour un loyer échelonné, le loyer augmente aux moments fixés dans le contrat, des montants en francs qui y sont déterminés. Une telle clause ne vaut que si le contrat lie le bailleur pour trois ans au moins, que le loyer n'augmente pas plus d'une fois par an et que chaque palier est fixé comme montant en francs. Depuis le 1er octobre 2025, le bailleur n'a plus besoin de formule officielle pour notifier un palier convenu ; une lettre suffit. Vous ne pouvez pas contester les différents paliers comme abusifs. Vérifiez cependant si la clause remplit ces conditions et si le montant demandé correspond exactement au contrat. En dehors des paliers convenus, le bailleur ne peut en principe pas demander d'autres majorations pendant la durée ferme du contrat. S'il le fait quand même, faites-le examiner dans les 30 jours."
       },
       "sources": [
         "or-269c",
@@ -244,7 +283,8 @@
         ]
       },
       "text": {
-        "de": "Bei einer indexierten Miete folgt der Mietzins dem Landesindex der Konsumentenpreise. Eine solche Klausel setzt voraus, dass der Vertrag den Vermieter für wenigstens fünf Jahre bindet. Jede Anpassung muss Ihnen der Vermieter trotzdem auf dem amtlichen Formular mitteilen. Innert 30 Tagen anfechten können Sie sie nur mit dem Einwand, sie entspreche nicht der tatsächlichen Veränderung des Indexes. Rechnen Sie deshalb nach: Stimmen der Indexstand bei der letzten Anpassung, der neue Indexstand und der daraus berechnete Betrag? Weitere Erhöhungsgründe neben dem Index kann der Vermieter während der festen Vertragsdauer grundsätzlich nicht anrufen."
+        "de": "Bei einer indexierten Miete folgt der Mietzins dem Landesindex der Konsumentenpreise. Eine solche Klausel setzt voraus, dass der Vertrag den Vermieter für wenigstens fünf Jahre bindet. Jede Anpassung muss Ihnen der Vermieter trotzdem auf dem amtlichen Formular mitteilen. Innert 30 Tagen anfechten können Sie sie nur mit dem Einwand, sie entspreche nicht der tatsächlichen Veränderung des Indexes. Rechnen Sie deshalb nach: Stimmen der Indexstand bei der letzten Anpassung, der neue Indexstand und der daraus berechnete Betrag? Weitere Erhöhungsgründe neben dem Index kann der Vermieter während der festen Vertragsdauer grundsätzlich nicht anrufen.",
+        "fr": "Pour un loyer indexé, le loyer suit l'indice suisse des prix à la consommation. Une telle clause suppose que le contrat lie le bailleur pour cinq ans au moins. Le bailleur doit malgré tout vous notifier chaque adaptation sur la formule officielle. Vous ne pouvez la contester dans les 30 jours qu'en objectant qu'elle ne correspond pas à la variation réelle de l'indice. Faites donc le calcul : le niveau de l'indice lors de la dernière adaptation, le nouveau niveau de l'indice et le montant qui en résulte concordent-ils ? En dehors de l'indice, le bailleur ne peut en principe invoquer aucun autre motif de majoration pendant la durée ferme du contrat."
       },
       "sources": [
         "or-269b",
@@ -262,7 +302,8 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss die Erhöhung auf dem Formular auch begründen, zum Beispiel mit gestiegenen Kosten oder dem orts- oder quartierüblichen Mietzins. Fehlt jede Begründung, ist die Erhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert 30 Tagen ein und lassen Sie dies prüfen."
+        "de": "Der Vermieter muss die Erhöhung auf dem Formular auch begründen, zum Beispiel mit gestiegenen Kosten oder dem orts- oder quartierüblichen Mietzins. Fehlt jede Begründung, ist die Erhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert 30 Tagen ein und lassen Sie dies prüfen.",
+        "fr": "Le bailleur doit aussi motiver la majoration sur la formule, par exemple par des coûts plus élevés ou par le loyer usuel du quartier. Si toute motivation fait défaut, la majoration est invalide. Déposez tout de même votre requête dans les 30 jours et faites examiner ce point."
       },
       "sources": [
         "or-269d"
@@ -277,7 +318,8 @@
         ]
       },
       "text": {
-        "de": "Droht der Vermieter in derselben Mitteilung eine Kündigung an oder spricht er sie gleich aus, ist die Mietzinserhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert der Frist ein und weisen Sie die Schlichtungsbehörde darauf hin. Eine Kündigung, mit der der Vermieter eine Erhöhung durchsetzen will, ist zudem anfechtbar. Dafür läuft eine eigene Frist von 30 Tagen ab Empfang der Kündigung. Fechten Sie deshalb auch die Kündigung selbst an."
+        "de": "Droht der Vermieter in derselben Mitteilung eine Kündigung an oder spricht er sie gleich aus, ist die Mietzinserhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert der Frist ein und weisen Sie die Schlichtungsbehörde darauf hin. Eine Kündigung, mit der der Vermieter eine Erhöhung durchsetzen will, ist zudem anfechtbar. Dafür läuft eine eigene Frist von 30 Tagen ab Empfang der Kündigung. Fechten Sie deshalb auch die Kündigung selbst an.",
+        "fr": "Si le bailleur menace de résilier ou résilie carrément dans le même avis, la majoration de loyer est invalide. Déposez tout de même votre requête dans le délai et signalez-le à l'autorité de conciliation. Un congé par lequel le bailleur veut imposer une majoration est en outre contestable. Un délai propre de 30 jours dès réception du congé court pour cela. Contestez donc aussi le congé lui-même."
       },
       "sources": [
         "or-269d",
@@ -289,7 +331,8 @@
       "id": "deadline",
       "kind": "deadline",
       "text": {
-        "de": "Die wichtigste Frist: Wenn Sie die Erhöhung als missbräuchlich anfechten wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Mitteilung bei der Schlichtungsbehörde einreichen. Kam die Mitteilung eingeschrieben, gilt sie als empfangen, sobald Sie sie auf der Post abholen, spätestens aber am siebten Tag nach der Abholungseinladung. Holen Sie den Brief nicht ab, läuft die Frist trotzdem. Die Frist lässt sich nicht verlängern. Rechnen Sie nicht damit, dass Gerichtsferien, Ihre Ferien oder Gespräche mit dem Vermieter sie aufhalten. Verpassen Sie die Frist, wird eine formell gültige Erhöhung verbindlich. Warten Sie nicht, bis die höhere Miete fällig wird."
+        "de": "Die wichtigste Frist: Wenn Sie die Erhöhung als missbräuchlich anfechten wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Mitteilung bei der Schlichtungsbehörde einreichen. Kam die Mitteilung eingeschrieben, gilt sie als empfangen, sobald Sie sie auf der Post abholen, spätestens aber am siebten Tag nach der Abholungseinladung. Holen Sie den Brief nicht ab, läuft die Frist trotzdem. Die Frist lässt sich nicht verlängern. Rechnen Sie nicht damit, dass Gerichtsferien, Ihre Ferien oder Gespräche mit dem Vermieter sie aufhalten. Verpassen Sie die Frist, wird eine formell gültige Erhöhung verbindlich. Warten Sie nicht, bis die höhere Miete fällig wird.",
+        "fr": "Le délai le plus important : si vous voulez contester la majoration comme abusive, vous devez déposer votre requête au plus tard 30 jours après avoir reçu l'avis auprès de l'autorité de conciliation. Si l'avis est arrivé par courrier recommandé, il est réputé reçu dès que vous le retirez à la poste, mais au plus tard le septième jour après l'avis de retrait. Si vous ne retirez pas la lettre, le délai court quand même. Le délai ne peut pas être prolongé. Ne comptez pas sur le fait que la suspension des délais, vos vacances ou des discussions avec le bailleur l'arrêtent. Si vous manquez le délai, une majoration formellement valable devient contraignante. N'attendez pas que le loyer plus élevé devienne exigible."
       },
       "sources": [
         "or-270b",
@@ -303,7 +346,8 @@
       "id": "timing",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter kann die Miete nur auf einen Kündigungstermin erhöhen, und die Mitteilung muss Ihnen mindestens zehn Tage vor Beginn der Kündigungsfrist zugehen. So bleibt Ihnen Zeit zu überlegen, ob Sie stattdessen kündigen wollen. Kommt die Mitteilung zu spät oder nennt sie einen zu frühen Termin, ist sie deshalb nicht ungültig: Die Erhöhung gilt in der Regel erst auf den nächsten zulässigen Termin. Bei einem befristeten Mietvertrag, der während einer festen Dauer nicht gekündigt werden kann, darf der Vermieter die Miete in dieser Zeit nicht einseitig erhöhen, ausser der Vertrag sieht eine Staffel oder eine Indexierung vor."
+        "de": "Der Vermieter kann die Miete nur auf einen Kündigungstermin erhöhen, und die Mitteilung muss Ihnen mindestens zehn Tage vor Beginn der Kündigungsfrist zugehen. So bleibt Ihnen Zeit zu überlegen, ob Sie stattdessen kündigen wollen. Kommt die Mitteilung zu spät oder nennt sie einen zu frühen Termin, ist sie deshalb nicht ungültig: Die Erhöhung gilt in der Regel erst auf den nächsten zulässigen Termin. Bei einem befristeten Mietvertrag, der während einer festen Dauer nicht gekündigt werden kann, darf der Vermieter die Miete in dieser Zeit nicht einseitig erhöhen, ausser der Vertrag sieht eine Staffel oder eine Indexierung vor.",
+        "fr": "Le bailleur ne peut majorer le loyer que pour un terme de congé, et l'avis doit vous parvenir au moins dix jours avant le début du délai de congé. Cela vous laisse le temps de réfléchir si vous voulez plutôt résilier. Si l'avis arrive trop tard ou indique un terme trop rapproché, il n'est pas invalide pour autant : la majoration ne vaut en règle générale que pour le prochain terme admissible. Pour un bail de durée déterminée qui ne peut pas être résilié pendant une durée ferme, le bailleur ne peut pas majorer unilatéralement le loyer durant cette période, sauf si le contrat prévoit un échelonnement ou une indexation."
       },
       "sources": [
         "or-269d",
@@ -326,7 +370,8 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie die Begründung genau. Sie muss so klar sein, dass Sie entscheiden können, ob Sie die Erhöhung annehmen, anfechten oder die Wohnung kündigen. Widersprüchliche Gründe können die Erhöhung ungültig machen, etwa wenn der Vermieter sich zugleich auf die ortsüblichen Mieten und auf gestiegene Kosten oder Investitionen beruft. Im Verfahren ist der Vermieter grundsätzlich an die Gründe im Formular gebunden und kann keine neuen nachschieben. Bei einer Erhöhung wegen gestiegener Kosten oder wertvermehrender Investitionen können Sie verlangen, dass er Ihnen den Betrag mit Zahlen belegt. Das verlängert die 30 Tage aber nicht. Im Schlichtungsverfahren können Sie die Belege für alle genannten Gründe verlangen."
+        "de": "Prüfen Sie die Begründung genau. Sie muss so klar sein, dass Sie entscheiden können, ob Sie die Erhöhung annehmen, anfechten oder die Wohnung kündigen. Widersprüchliche Gründe können die Erhöhung ungültig machen, etwa wenn der Vermieter sich zugleich auf die ortsüblichen Mieten und auf gestiegene Kosten oder Investitionen beruft. Im Verfahren ist der Vermieter grundsätzlich an die Gründe im Formular gebunden und kann keine neuen nachschieben. Bei einer Erhöhung wegen gestiegener Kosten oder wertvermehrender Investitionen können Sie verlangen, dass er Ihnen den Betrag mit Zahlen belegt. Das verlängert die 30 Tage aber nicht. Im Schlichtungsverfahren können Sie die Belege für alle genannten Gründe verlangen.",
+        "fr": "Examinez la motivation de près. Elle doit être assez claire pour que vous puissiez décider si vous acceptez la majoration, la contestez ou résiliez le logement. Des motifs contradictoires peuvent rendre la majoration invalide, par exemple si le bailleur invoque en même temps les loyers usuels du quartier et des coûts ou investissements accrus. Dans la procédure, le bailleur est en principe lié par les motifs indiqués sur la formule et ne peut pas en ajouter de nouveaux. En cas de majoration pour coûts accrus ou investissements à plus-value, vous pouvez exiger qu'il justifie le montant par des chiffres. Cela ne prolonge toutefois pas les 30 jours. Dans la procédure de conciliation, vous pouvez exiger les pièces justificatives pour tous les motifs invoqués."
       },
       "sources": [
         "or-269d",
@@ -338,7 +383,8 @@
       "id": "consent",
       "kind": "warning",
       "text": {
-        "de": "Unterschreiben Sie keine vorbereitete Vereinbarung über eine höhere Miete, ohne sie in Ruhe zu prüfen. Sie können einer Erhöhung zwar auch ohne amtliches Formular zustimmen. Eine solche Zustimmung bindet Sie aber nur, wenn Sie frei entschieden haben und wussten, dass Sie die Erhöhung auch anfechten könnten, und nicht etwa, weil sonst eine Kündigung drohte. Haben Sie bereits unterschrieben und kommen Ihnen Zweifel, lassen Sie sich rasch beraten."
+        "de": "Unterschreiben Sie keine vorbereitete Vereinbarung über eine höhere Miete, ohne sie in Ruhe zu prüfen. Sie können einer Erhöhung zwar auch ohne amtliches Formular zustimmen. Eine solche Zustimmung bindet Sie aber nur, wenn Sie frei entschieden haben und wussten, dass Sie die Erhöhung auch anfechten könnten, und nicht etwa, weil sonst eine Kündigung drohte. Haben Sie bereits unterschrieben und kommen Ihnen Zweifel, lassen Sie sich rasch beraten.",
+        "fr": "Ne signez aucun accord préparé sur un loyer plus élevé sans l'examiner tranquillement. Vous pouvez certes consentir à une majoration même sans formule officielle. Un tel consentement ne vous lie toutefois que si vous avez décidé librement et saviez que vous pouviez aussi contester la majoration, et non parce qu'un congé menaçait sinon. Si vous avez déjà signé et que des doutes vous viennent, faites-vous conseiller rapidement."
       },
       "sources": [
         "bge-128-iii-419"
@@ -348,7 +394,8 @@
       "id": "void-paid",
       "kind": "step",
       "text": {
-        "de": "Ist eine Erhöhung ungültig, etwa weil das Formular oder die Begründung fehlt, schulden Sie nur die bisherige Miete. Haben Sie den höheren Betrag trotzdem bezahlt, können Sie die Differenz grundsätzlich zurückfordern. Warten Sie damit nicht zu lange und lassen Sie sich beraten: Wer eine formell ungültige Erhöhung längere Zeit bezahlt hat, obwohl er den Fehler kannte, dem kann im Einzelfall Rechtsmissbrauch vorgehalten werden."
+        "de": "Ist eine Erhöhung ungültig, etwa weil das Formular oder die Begründung fehlt, schulden Sie nur die bisherige Miete. Haben Sie den höheren Betrag trotzdem bezahlt, können Sie die Differenz grundsätzlich zurückfordern. Warten Sie damit nicht zu lange und lassen Sie sich beraten: Wer eine formell ungültige Erhöhung längere Zeit bezahlt hat, obwohl er den Fehler kannte, dem kann im Einzelfall Rechtsmissbrauch vorgehalten werden.",
+        "fr": "Si une majoration est invalide, par exemple parce que la formule ou la motivation fait défaut, vous ne devez que l'ancien loyer. Si vous avez malgré tout payé le montant plus élevé, vous pouvez en principe réclamer la différence. N'attendez pas trop longtemps et faites-vous conseiller : à qui a payé longtemps une majoration formellement invalide tout en connaissant l'erreur, on peut dans certains cas reprocher un abus de droit."
       },
       "sources": [
         "or-62",
@@ -360,7 +407,8 @@
       "id": "other-one-sided-changes",
       "kind": "rule",
       "text": {
-        "de": "Dieselbe Frist und dasselbe Verfahren gelten auch, wenn der Vermieter den Mietvertrag sonst einseitig zu Ihren Lasten ändert, zum Beispiel bisherige Leistungen kürzt oder neue Nebenkosten einführt, ohne dass es formal um eine Mietzinserhöhung geht."
+        "de": "Dieselbe Frist und dasselbe Verfahren gelten auch, wenn der Vermieter den Mietvertrag sonst einseitig zu Ihren Lasten ändert, zum Beispiel bisherige Leistungen kürzt oder neue Nebenkosten einführt, ohne dass es formal um eine Mietzinserhöhung geht.",
+        "fr": "Le même délai et la même procédure s'appliquent aussi lorsque le bailleur modifie unilatéralement le bail à vos dépens d'une autre manière, par exemple en réduisant des prestations existantes ou en introduisant de nouveaux frais accessoires, sans qu'il s'agisse formellement d'une majoration de loyer."
       },
       "sources": [
         "or-270b"
@@ -376,7 +424,8 @@
         ]
       },
       "text": {
-        "de": "Ein Mietzins ist missbräuchlich, wenn der Vermieter damit einen übersetzten Ertrag aus der Wohnung erzielt. Nicht missbräuchlich ist eine Erhöhung in der Regel, wenn sie zum Beispiel im Rahmen der orts- oder quartierüblichen Mietzinse liegt, durch gestiegene Kosten oder zusätzliche Leistungen des Vermieters begründet ist, bei neueren Bauten im Rahmen einer kostendeckenden Rendite bleibt, oder nur die Teuerung auf dem eigenen, risikotragenden Kapital ausgleicht. So prüfen Sie die häufigsten Gründe: Beruft sich der Vermieter auf einen gestiegenen Referenzzinssatz, fragen Sie, ob frühere Senkungen an Sie weitergegeben wurden. Wenn nicht, sind sie anzurechnen. Für die Teuerung darf er höchstens 40 Prozent des Anstiegs des Konsumentenpreisindexes weitergeben. Beruft er sich auf die orts- oder quartierüblichen Mieten, muss er das mit amtlichen Statistiken oder mit mindestens fünf vergleichbaren Wohnungen belegen. Dieser Nachweis gelingt in der Praxis selten. Passt die Begründung zu keinem dieser Fälle oder erscheint sie Ihnen nicht glaubwürdig, lohnt sich eine Anfechtung."
+        "de": "Ein Mietzins ist missbräuchlich, wenn der Vermieter damit einen übersetzten Ertrag aus der Wohnung erzielt. Nicht missbräuchlich ist eine Erhöhung in der Regel, wenn sie zum Beispiel im Rahmen der orts- oder quartierüblichen Mietzinse liegt, durch gestiegene Kosten oder zusätzliche Leistungen des Vermieters begründet ist, bei neueren Bauten im Rahmen einer kostendeckenden Rendite bleibt, oder nur die Teuerung auf dem eigenen, risikotragenden Kapital ausgleicht. So prüfen Sie die häufigsten Gründe: Beruft sich der Vermieter auf einen gestiegenen Referenzzinssatz, fragen Sie, ob frühere Senkungen an Sie weitergegeben wurden. Wenn nicht, sind sie anzurechnen. Für die Teuerung darf er höchstens 40 Prozent des Anstiegs des Konsumentenpreisindexes weitergeben. Beruft er sich auf die orts- oder quartierüblichen Mieten, muss er das mit amtlichen Statistiken oder mit mindestens fünf vergleichbaren Wohnungen belegen. Dieser Nachweis gelingt in der Praxis selten. Passt die Begründung zu keinem dieser Fälle oder erscheint sie Ihnen nicht glaubwürdig, lohnt sich eine Anfechtung.",
+        "fr": "Un loyer est abusif lorsqu'il procure au bailleur un rendement excessif du logement. N'est en règle générale pas abusive une majoration qui, par exemple, reste dans le cadre des loyers usuels du quartier, est motivée par des coûts accrus ou des prestations supplémentaires du bailleur, reste dans le cadre d'un rendement couvrant les frais pour des constructions récentes, ou ne fait que compenser le renchérissement sur les fonds propres à risque du bailleur. Voici comment vérifier les motifs les plus fréquents : si le bailleur invoque une hausse du taux hypothécaire de référence, demandez si des baisses antérieures vous ont été répercutées. Si non, elles doivent être imputées. Pour le renchérissement, il ne peut répercuter que 40 pour cent au maximum de la hausse de l'indice des prix à la consommation. S'il invoque les loyers usuels du quartier, il doit le prouver par des statistiques officielles ou par au moins cinq logements comparables. Cette preuve réussit rarement en pratique. Si la motivation ne correspond à aucun de ces cas ou ne vous paraît pas crédible, une contestation en vaut la peine."
       },
       "sources": [
         "or-269",
@@ -396,7 +445,8 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Reichen Sie innert der Frist ein Gesuch bei der Schlichtungsbehörde für Mietsachen am Ort der Wohnung ein. Sie können es schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Legen Sie eine Kopie der Mitteilung bei und erklären Sie kurz, warum Sie die Erhöhung für missbräuchlich oder formell ungültig halten. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung."
+        "de": "So gehen Sie vor: Reichen Sie innert der Frist ein Gesuch bei der Schlichtungsbehörde für Mietsachen am Ort der Wohnung ein. Sie können es schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Legen Sie eine Kopie der Mitteilung bei und erklären Sie kurz, warum Sie die Erhöhung für missbräuchlich oder formell ungültig halten. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung.",
+        "fr": "Comment procéder : déposez une requête dans le délai auprès de l'autorité de conciliation en matière de baux du lieu où se trouve le logement. Vous pouvez la déposer par écrit ou la faire consigner oralement au procès-verbal par l'autorité. Joignez une copie de l'avis et expliquez brièvement pourquoi vous tenez la majoration pour abusive ou formellement invalide. Si la requête a été déposée auprès d'une autorité incompétente, redéposez-la auprès de l'autorité compétente dans le mois qui suit sa décision ou votre retrait. C'est alors la date du premier dépôt qui compte."
       },
       "sources": [
         "or-270b",
@@ -413,7 +463,8 @@
         ]
       },
       "text": {
-        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, fechten Sie die Erhöhung am besten gemeinsam an. Will jemand nicht mitmachen, können Sie auch allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern."
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, fechten Sie die Erhöhung am besten gemeinsam an. Will jemand nicht mitmachen, können Sie auch allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern.",
+        "fr": "Si plusieurs personnes ont signé le bail, le mieux est de contester la majoration ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même contester sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse. Sinon, votre requête peut échouer pour ce seul motif."
       },
       "sources": [
         "bge-146-iii-346"
@@ -429,7 +480,8 @@
         ]
       },
       "text": {
-        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Die 30 Tage sind dann meist abgelaufen, und eine formell gültige Erhöhung wird verbindlich. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg."
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Die 30 Tage sind dann meist abgelaufen, und eine formell gültige Erhöhung wird verbindlich. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg.",
+        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. Les 30 jours sont alors en général déjà écoulés, et une majoration formellement valable devient contraignante. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif."
       },
       "sources": [
         "zpo-204",
@@ -446,7 +498,8 @@
         ]
       },
       "text": {
-        "de": "Solange das Verfahren läuft, bleibt Ihr Mietvertrag, wie er ist: Sie zahlen die bisherige Miete, nicht die erhöhte. Wird die Erhöhung später ganz oder teilweise bestätigt, schulden Sie die Differenz rückwirkend ab dem Erhöhungstermin. Legen Sie diesen Betrag deshalb zur Seite. Zahlen Sie die bisherige Miete vollständig und pünktlich weiter, denn wer eigenmächtig weniger bezahlt, riskiert eine Kündigung wegen Zahlungsrückstands."
+        "de": "Solange das Verfahren läuft, bleibt Ihr Mietvertrag, wie er ist: Sie zahlen die bisherige Miete, nicht die erhöhte. Wird die Erhöhung später ganz oder teilweise bestätigt, schulden Sie die Differenz rückwirkend ab dem Erhöhungstermin. Legen Sie diesen Betrag deshalb zur Seite. Zahlen Sie die bisherige Miete vollständig und pünktlich weiter, denn wer eigenmächtig weniger bezahlt, riskiert eine Kündigung wegen Zahlungsrückstands.",
+        "fr": "Tant que la procédure est en cours, votre bail reste tel quel : vous payez l'ancien loyer, pas le loyer majoré. Si la majoration est ensuite confirmée en tout ou en partie, vous devez la différence rétroactivement depuis la date de la majoration. Mettez donc ce montant de côté. Continuez à payer l'ancien loyer intégralement et à temps, car qui paie unilatéralement moins risque un congé pour retard de paiement."
       },
       "sources": [
         "or-270e"
@@ -462,7 +515,8 @@
         ]
       },
       "text": {
-        "de": "Das Gesetz schützt Sie davor, wegen der Anfechtung die Wohnung zu verlieren. Eine Kündigung ist anfechtbar, wenn der Vermieter damit eine Mietzinserhöhung durchsetzen will. Anfechtbar ist sie auch, wenn er sie während des Verfahrens ausspricht oder innert drei Jahren danach, sofern er im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz während und nach dem Verfahren gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand oder dringendem Eigenbedarf. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+        "de": "Das Gesetz schützt Sie davor, wegen der Anfechtung die Wohnung zu verlieren. Eine Kündigung ist anfechtbar, wenn der Vermieter damit eine Mietzinserhöhung durchsetzen will. Anfechtbar ist sie auch, wenn er sie während des Verfahrens ausspricht oder innert drei Jahren danach, sofern er im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz während und nach dem Verfahren gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand oder dringendem Eigenbedarf. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
+        "fr": "La loi vous protège contre le fait de perdre le logement à cause de la contestation. Un congé est contestable lorsque le bailleur veut ainsi imposer une majoration de loyer. Il l'est aussi lorsqu'il est donné pendant la procédure ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection pendant et après la procédure ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement ou de besoin urgent du bailleur. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu."
       },
       "sources": [
         "or-271a",
@@ -473,7 +527,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire."
       },
       "sources": [
         "zpo-113",
@@ -490,7 +545,8 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Lehnen Sie einen Vorschlag ab, müssen also Sie selbst klagen. Macht die Behörde keinen Vorschlag, erhält der Vermieter die Klagebewilligung. Will er an der Erhöhung festhalten, muss er innert 30 Tagen klagen. Bis zum Urteil zahlen Sie die bisherige Miete. Lassen Sie sich spätestens jetzt beraten."
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Lehnen Sie einen Vorschlag ab, müssen also Sie selbst klagen. Macht die Behörde keinen Vorschlag, erhält der Vermieter die Klagebewilligung. Will er an der Erhöhung festhalten, muss er innert 30 Tagen klagen. Bis zum Urteil zahlen Sie die bisherige Miete. Lassen Sie sich spätestens jetzt beraten.",
+        "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, deux voies s'ouvrent. L'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si vous refusez une proposition, c'est donc à vous d'agir en justice. Si l'autorité ne fait pas de proposition, le bailleur reçoit l'autorisation de procéder. S'il veut maintenir la majoration, il doit agir en justice dans les 30 jours. Jusqu'au jugement, vous payez l'ancien loyer. Faites-vous conseiller au plus tard à ce stade."
       },
       "sources": [
         "zpo-209",
@@ -502,14 +558,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn die Erhöhung mit umfangreichen Sanierungsarbeiten begründet wird und Sie die Zahlen nicht nachvollziehen können, wenn gleichzeitig eine Kündigung droht, wenn Sie bereits eine Vereinbarung über eine höhere Miete unterschrieben haben, wenn Sie einen Urteilsvorschlag oder eine Klage erhalten haben, oder wenn die 30-tägige Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn die Erhöhung mit umfangreichen Sanierungsarbeiten begründet wird und Sie die Zahlen nicht nachvollziehen können, wenn gleichzeitig eine Kündigung droht, wenn Sie bereits eine Vereinbarung über eine höhere Miete unterschrieben haben, wenn Sie einen Urteilsvorschlag oder eine Klage erhalten haben, oder wenn die 30-tägige Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez une consultation personnelle si la majoration est motivée par d'importants travaux de rénovation et que vous ne comprenez pas les chiffres, si un congé menace en même temps, si vous avez déjà signé un accord sur un loyer plus élevé, si vous avez reçu une proposition de décision ou une action en justice, ou si le délai de 30 jours expire dans quelques jours."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, oft schon bei der Prüfung des Formulars. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, oft schon bei der Prüfung des Formulars. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres, souvent déjà lors de l'examen de la formule. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite."
       }
     }
   ],
@@ -773,13 +831,15 @@
   "official_links": [
     {
       "label": {
-        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht"
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht",
+        "fr": "Office fédéral du logement : procédure de conciliation en droit du bail"
       },
       "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
     },
     {
       "label": {
-        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+        "de": "ch.ch: Wohnen, Mietzins und Mängel",
+        "fr": "ch.ch : logement, loyer et défauts"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

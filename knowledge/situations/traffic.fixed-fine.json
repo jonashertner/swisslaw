@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich habe eine Ordnungsbusse erhalten"
+    "de": "Ich habe eine Ordnungsbusse erhalten",
+    "fr": "J’ai reçu une amende d’ordre"
   },
   "summary": {
-    "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen. Sie können sie innert 30 Tagen bezahlen oder das Verfahren ablehnen. Das Verfahren selbst ist kostenlos, lehnen Sie es ab, folgt ein ordentliches Strafverfahren."
+    "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen. Sie können sie innert 30 Tagen bezahlen oder das Verfahren ablehnen. Das Verfahren selbst ist kostenlos, lehnen Sie es ab, folgt ein ordentliches Strafverfahren.",
+    "fr": "L’amende d’ordre est une procédure simplifiée pour certaines contraventions mineures. Vous pouvez la payer dans les 30 jours ou refuser la procédure. La procédure elle-même est gratuite ; si vous la refusez, une procédure pénale ordinaire s’ensuit."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Was passiert, wenn ich die Ordnungsbusse nicht bezahle?",
       "Ich ha e Ordnigsbuess übercho, muess ich die zahle?",
       "Ich bin nur die Halterin des Autos, aber jemand anders ist gefahren."
+    ],
+    "fr": [
+      "J’ai reçu une amende d’ordre, dois-je la payer ?",
+      "Combien de temps ai-je pour payer une amende d’ordre ?",
+      "Puis-je refuser une amende d’ordre ?",
+      "Que se passe-t-il si je ne paie pas l’amende d’ordre ?",
+      "J’ai reçu une amende d’ordre, je dois la payer ou pas ?",
+      "Je ne suis que la détentrice de la voiture, mais c’est quelqu’un d’autre qui conduisait."
     ]
   },
   "scope": {
     "covers": {
-      "de": "Ordnungsbussen nach dem Ordnungsbussengesetz, zum Beispiel wegen kleinerer Widerhandlungen im Strassenverkehr."
+      "de": "Ordnungsbussen nach dem Ordnungsbussengesetz, zum Beispiel wegen kleinerer Widerhandlungen im Strassenverkehr.",
+      "fr": "Les amendes d’ordre selon la loi sur les amendes d’ordre, par exemple pour de petites infractions à la circulation routière."
     },
     "excludes": {
-      "de": "Strafbefehle und andere Verfahren, in denen bereits eine höhere Strafe als eine Ordnungsbusse ausgesprochen wurde. Dafür gibt es eine eigene Anleitung."
+      "de": "Strafbefehle und andere Verfahren, in denen bereits eine höhere Strafe als eine Ordnungsbusse ausgesprochen wurde. Dafür gibt es eine eigene Anleitung.",
+      "fr": "Les ordonnances pénales et les autres procédures dans lesquelles une peine plus sévère qu’une amende d’ordre a déjà été prononcée. Il existe pour cela un guide séparé."
     }
   },
   "facts": [
     {
       "key": "paid",
       "question": {
-        "de": "Haben Sie die Ordnungsbusse schon bezahlt?"
+        "de": "Haben Sie die Ordnungsbusse schon bezahlt?",
+        "fr": "Avez-vous déjà payé l’amende d’ordre ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht genau"
+            "de": "Ich weiss es nicht genau",
+            "fr": "Je ne le sais pas exactement"
           }
         }
       ]
@@ -59,28 +75,33 @@
     {
       "key": "accept",
       "question": {
-        "de": "Möchten Sie die Ordnungsbusse akzeptieren oder ablehnen?"
+        "de": "Möchten Sie die Ordnungsbusse akzeptieren oder ablehnen?",
+        "fr": "Voulez-vous accepter ou refuser l’amende d’ordre ?"
       },
       "help": {
-        "de": "Lehnen Sie ab, wird die Sache nicht einfacher: Es folgt ein ordentliches Strafverfahren."
+        "de": "Lehnen Sie ab, wird die Sache nicht einfacher: Es folgt ein ordentliches Strafverfahren.",
+        "fr": "Si vous refusez, cela ne simplifie pas les choses : une procédure pénale ordinaire s’ensuit."
       },
       "options": [
         {
           "value": "accept",
           "label": {
-            "de": "Ich akzeptiere sie und will sie bezahlen"
+            "de": "Ich akzeptiere sie und will sie bezahlen",
+            "fr": "Je l’accepte et je veux la payer"
           }
         },
         {
           "value": "refuse",
           "label": {
-            "de": "Ich lehne sie ab, ich bin nicht einverstanden"
+            "de": "Ich lehne sie ab, ich bin nicht einverstanden",
+            "fr": "Je la refuse, je ne suis pas d’accord"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir noch nicht sicher"
+            "de": "Ich bin mir noch nicht sicher",
+            "fr": "Je n’en ai pas encore la certitude"
           }
         }
       ]
@@ -88,25 +109,29 @@
     {
       "key": "role",
       "question": {
-        "de": "Sind Sie die Person, die das Fahrzeug gelenkt hat, oder nur die Halterin oder der Halter?"
+        "de": "Sind Sie die Person, die das Fahrzeug gelenkt hat, oder nur die Halterin oder der Halter?",
+        "fr": "Êtes-vous la personne qui conduisait le véhicule, ou seulement la détentrice ou le détenteur ?"
       },
       "options": [
         {
           "value": "driver",
           "label": {
-            "de": "Ich bin selbst gefahren"
+            "de": "Ich bin selbst gefahren",
+            "fr": "C’est moi qui conduisais"
           }
         },
         {
           "value": "owner",
           "label": {
-            "de": "Ich bin nur Halterin oder Halter, jemand anderes ist gefahren"
+            "de": "Ich bin nur Halterin oder Halter, jemand anderes ist gefahren",
+            "fr": "Je ne suis que la détentrice ou le détenteur, quelqu’un d’autre conduisait"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -117,7 +142,8 @@
       "id": "what-it-is",
       "kind": "rule",
       "text": {
-        "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen, zum Beispiel im Strassenverkehr. Sie beträgt höchstens 300 Franken. Ihr Vorleben und Ihre persönlichen Verhältnisse spielen dabei keine Rolle."
+        "de": "Die Ordnungsbusse ist ein vereinfachtes Verfahren für bestimmte kleinere Übertretungen, zum Beispiel im Strassenverkehr. Sie beträgt höchstens 300 Franken. Ihr Vorleben und Ihre persönlichen Verhältnisse spielen dabei keine Rolle.",
+        "fr": "L’amende d’ordre est une procédure simplifiée pour certaines contraventions mineures, par exemple dans la circulation routière. Elle s’élève au maximum à 300 francs. Vos antécédents et votre situation personnelle n’y jouent aucun rôle."
       },
       "sources": [
         "obg-1"
@@ -133,7 +159,8 @@
         ]
       },
       "text": {
-        "de": "Ab der Eröffnung haben Sie 30 Tage Zeit, um die Ordnungsbusse zu bezahlen. Diese Zeitspanne heisst Bedenkfrist. Bezahlen Sie sofort an Ort und Stelle, erhalten Sie eine Quittung ohne Ihren Namen."
+        "de": "Ab der Eröffnung haben Sie 30 Tage Zeit, um die Ordnungsbusse zu bezahlen. Diese Zeitspanne heisst Bedenkfrist. Bezahlen Sie sofort an Ort und Stelle, erhalten Sie eine Quittung ohne Ihren Namen.",
+        "fr": "Dès la notification, vous disposez de 30 jours pour payer l’amende d’ordre. Cette période s’appelle le délai de réflexion. Si vous payez immédiatement sur place, vous recevez une quittance ne mentionnant pas votre nom."
       },
       "sources": [
         "obg-6"
@@ -149,7 +176,8 @@
         ]
       },
       "text": {
-        "de": "Sie haben das Recht, das Ordnungsbussenverfahren abzulehnen. Die Person, die Ihnen die Busse eröffnet, muss Sie darauf hinweisen. Lehnen Sie ab, wird stattdessen ein ordentliches Strafverfahren durchgeführt, so wie bei anderen Übertretungen."
+        "de": "Sie haben das Recht, das Ordnungsbussenverfahren abzulehnen. Die Person, die Ihnen die Busse eröffnet, muss Sie darauf hinweisen. Lehnen Sie ab, wird stattdessen ein ordentliches Strafverfahren durchgeführt, so wie bei anderen Übertretungen.",
+        "fr": "Vous avez le droit de refuser la procédure de l’amende d’ordre. La personne qui vous notifie l’amende doit vous le signaler. Si vous refusez, une procédure pénale ordinaire est menée à la place, comme pour d’autres contraventions."
       },
       "sources": [
         "obg-13"
@@ -165,7 +193,8 @@
         ]
       },
       "text": {
-        "de": "Bezahlen Sie die Ordnungsbusse nicht innerhalb der 30 Tage, wird ebenfalls ein ordentliches Strafverfahren durchgeführt. Das kann zu einem Strafbefehl mit einer höheren Strafe führen, und in diesem Verfahren gelten wieder andere Fristen."
+        "de": "Bezahlen Sie die Ordnungsbusse nicht innerhalb der 30 Tage, wird ebenfalls ein ordentliches Strafverfahren durchgeführt. Das kann zu einem Strafbefehl mit einer höheren Strafe führen, und in diesem Verfahren gelten wieder andere Fristen.",
+        "fr": "Si vous ne payez pas l’amende d’ordre dans les 30 jours, une procédure pénale ordinaire est également menée. Cela peut aboutir à une ordonnance pénale avec une peine plus sévère, et d’autres délais s’appliquent alors dans cette procédure."
       },
       "sources": [
         "obg-6"
@@ -175,7 +204,8 @@
       "id": "no-costs",
       "kind": "cost",
       "text": {
-        "de": "Im Ordnungsbussenverfahren selbst werden keine Kosten erhoben. Lehnen Sie das Verfahren ab oder bezahlen Sie nicht rechtzeitig, gelten für das anschliessende ordentliche Strafverfahren die dortigen Kostenregeln."
+        "de": "Im Ordnungsbussenverfahren selbst werden keine Kosten erhoben. Lehnen Sie das Verfahren ab oder bezahlen Sie nicht rechtzeitig, gelten für das anschliessende ordentliche Strafverfahren die dortigen Kostenregeln.",
+        "fr": "La procédure de l’amende d’ordre elle-même n’entraîne aucun frais. Si vous refusez la procédure ou ne payez pas à temps, les règles de frais de la procédure pénale ordinaire qui s’ensuit s’appliquent."
       },
       "sources": [
         "obg-12"
@@ -191,7 +221,8 @@
         ]
       },
       "text": {
-        "de": "Ist nicht bekannt, wer gefahren ist, wird die Busse der Halterin oder dem Halter des Fahrzeugs eröffnet. Auch hier gilt eine Zahlungsfrist von 30 Tagen. Sie können stattdessen Namen und Adresse der Person nennen, die tatsächlich gefahren ist; dann läuft das Verfahren gegen diese Person weiter. Bezahlen Sie als Halterin oder Halter nicht rechtzeitig, folgt ein ordentliches Strafverfahren."
+        "de": "Ist nicht bekannt, wer gefahren ist, wird die Busse der Halterin oder dem Halter des Fahrzeugs eröffnet. Auch hier gilt eine Zahlungsfrist von 30 Tagen. Sie können stattdessen Namen und Adresse der Person nennen, die tatsächlich gefahren ist; dann läuft das Verfahren gegen diese Person weiter. Bezahlen Sie als Halterin oder Halter nicht rechtzeitig, folgt ein ordentliches Strafverfahren.",
+        "fr": "Si l’on ne sait pas qui conduisait, l’amende est notifiée à la détentrice ou au détenteur du véhicule. Un délai de paiement de 30 jours s’applique également ici. Vous pouvez à la place indiquer le nom et l’adresse de la personne qui conduisait réellement ; la procédure se poursuit alors contre cette personne. Si vous ne payez pas à temps en tant que détentrice ou détenteur, une procédure pénale ordinaire s’ensuit."
       },
       "sources": [
         "obg-7"
@@ -201,14 +232,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie sich Rat, wenn Sie den Sachverhalt bestreiten, wenn aus der Sache ein ordentliches Strafverfahren mit einem Strafbefehl geworden ist, oder wenn unklar ist, wer als Fahrzeugführerin oder Fahrzeugführer galt."
+        "de": "Holen Sie sich Rat, wenn Sie den Sachverhalt bestreiten, wenn aus der Sache ein ordentliches Strafverfahren mit einem Strafbefehl geworden ist, oder wenn unklar ist, wer als Fahrzeugführerin oder Fahrzeugführer galt.",
+        "fr": "Demandez conseil si vous contestez les faits, si l’affaire a débouché sur une procédure pénale ordinaire avec une ordonnance pénale, ou s’il n’est pas clair qui était considéré comme conductrice ou conducteur du véhicule."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Behörde, die die Busse ausgestellt hat, beantwortet Fragen zum Verfahren. Kantonale Anwaltsverbände und viele Kantone bieten eine erste, unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Behörde, die die Busse ausgestellt hat, beantwortet Fragen zum Verfahren. Kantonale Anwaltsverbände und viele Kantone bieten eine erste, unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : l’autorité qui a établi l’amende répond aux questions sur la procédure. Les associations cantonales d’avocats et de nombreux cantons offrent une première consultation juridique gratuite."
       }
     }
   ],

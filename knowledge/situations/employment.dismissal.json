@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Mein Arbeitgeber hat mir gekündigt"
+    "de": "Mein Arbeitgeber hat mir gekündigt",
+    "fr": "Mon employeur a résilié mon contrat de travail"
   },
   "summary": {
-    "de": "Ihr Arbeitgeber darf Ihnen grundsätzlich frei kündigen. Wichtig sind die richtige Kündigungsfrist, allfällige Sperrfristen bei Krankheit oder Schwangerschaft, und ob die Kündigung missbräuchlich sein könnte. Wollen Sie eine Entschädigung, müssen Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache erheben."
+    "de": "Ihr Arbeitgeber darf Ihnen grundsätzlich frei kündigen. Wichtig sind die richtige Kündigungsfrist, allfällige Sperrfristen bei Krankheit oder Schwangerschaft, und ob die Kündigung missbräuchlich sein könnte. Wollen Sie eine Entschädigung, müssen Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache erheben.",
+    "fr": "En principe, votre employeur peut résilier votre contrat de travail librement. Ce qui compte, c’est le respect du bon délai de congé, d’éventuelles périodes de protection en cas de maladie ou de grossesse, et le fait de savoir si le congé pourrait être abusif. Si vous voulez une indemnité, vous devez faire opposition par écrit au congé au plus tard à la fin du délai de congé."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Ich wurde gekündigt, während ich krank war",
       "Muss ich mich sofort beim RAV meleden?",
       "Han d Kündigung übercho, was mues ich jetzt mache?"
+    ],
+    "fr": [
+      "Mon employeur a résilié mon contrat de travail, que puis-je faire ?",
+      "Quel est mon délai de congé ?",
+      "Mon licenciement est-il abusif ?",
+      "Mon contrat a été résilié alors que j’étais malade",
+      "Dois-je m’annoncer tout de suite à l’ORP ?",
+      "On vient de me virer, qu’est-ce que je dois faire ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Ordentliche Kündigungen durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen (Einzelarbeitsvertrag) in der Schweiz."
+      "de": "Ordentliche Kündigungen durch den Arbeitgeber bei privatrechtlichen Arbeitsverhältnissen (Einzelarbeitsvertrag) in der Schweiz.",
+      "fr": "Les résiliations ordinaires par l’employeur dans les rapports de travail de droit privé (contrat individuel de travail) en Suisse."
     },
     "excludes": {
-      "de": "Öffentlich-rechtliche Anstellungsverhältnisse bei Bund, Kantonen oder Gemeinden, fristlose Entlassungen, Kündigungen durch Sie selbst, Massenentlassungen und Lehrverhältnisse."
+      "de": "Öffentlich-rechtliche Anstellungsverhältnisse bei Bund, Kantonen oder Gemeinden, fristlose Entlassungen, Kündigungen durch Sie selbst, Massenentlassungen und Lehrverhältnisse.",
+      "fr": "Les rapports de travail de droit public auprès de la Confédération, des cantons ou des communes, les résiliations immédiates, les résiliations données par vous-même, les licenciements collectifs et les rapports d’apprentissage."
     }
   },
   "facts": [
     {
       "key": "employer_type",
       "question": {
-        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?"
+        "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
+        "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)"
+            "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
+            "fr": "Employeur privé (entreprise, association, particulier)"
           }
         },
         {
           "value": "public",
           "label": {
-            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle"
+            "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
+            "fr": "Confédération, canton, commune ou autre entité publique"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -59,60 +75,70 @@
     {
       "key": "probation",
       "question": {
-        "de": "Sind Sie noch in der Probezeit?"
+        "de": "Sind Sie noch in der Probezeit?",
+        "fr": "Êtes-vous encore en période d’essai ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ],
       "help": {
-        "de": "Die Probezeit dauert normalerweise den ersten Monat. Sie kann schriftlich auf höchstens drei Monate verlängert werden."
+        "de": "Die Probezeit dauert normalerweise den ersten Monat. Sie kann schriftlich auf höchstens drei Monate verlängert werden.",
+        "fr": "Le temps d’essai dure normalement le premier mois. Il peut être prolongé par écrit jusqu’à trois mois au maximum."
       }
     },
     {
       "key": "tenure",
       "question": {
-        "de": "Wie lange arbeiten Sie schon für diesen Arbeitgeber?"
+        "de": "Wie lange arbeiten Sie schon für diesen Arbeitgeber?",
+        "fr": "Depuis combien de temps travaillez-vous pour cet employeur ?"
       },
       "options": [
         {
           "value": "under-one-year",
           "label": {
-            "de": "Weniger als ein Jahr"
+            "de": "Weniger als ein Jahr",
+            "fr": "Moins d’un an"
           }
         },
         {
           "value": "one-to-nine-years",
           "label": {
-            "de": "Ein bis neun Jahre"
+            "de": "Ein bis neun Jahre",
+            "fr": "De un à neuf ans"
           }
         },
         {
           "value": "ten-plus-years",
           "label": {
-            "de": "Zehn Jahre oder länger"
+            "de": "Zehn Jahre oder länger",
+            "fr": "Dix ans ou plus"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -120,37 +146,43 @@
     {
       "key": "protected_situation",
       "question": {
-        "de": "Befinden Sie sich gerade in einer besonders geschützten Situation?"
+        "de": "Befinden Sie sich gerade in einer besonders geschützten Situation?",
+        "fr": "Vous trouvez-vous actuellement dans une situation particulièrement protégée ?"
       },
       "options": [
         {
           "value": "illness-or-accident",
           "label": {
-            "de": "Krankheit oder Unfall"
+            "de": "Krankheit oder Unfall",
+            "fr": "Maladie ou accident"
           }
         },
         {
           "value": "pregnancy",
           "label": {
-            "de": "Schwangerschaft oder ich habe vor kurzem entbunden"
+            "de": "Schwangerschaft oder ich habe vor kurzem entbunden",
+            "fr": "Grossesse ou accouchement récent"
           }
         },
         {
           "value": "service",
           "label": {
-            "de": "Obligatorischer Militär-, Schutz- oder Zivildienst"
+            "de": "Obligatorischer Militär-, Schutz- oder Zivildienst",
+            "fr": "Service militaire, de protection civile ou civil obligatoire"
           }
         },
         {
           "value": "none",
           "label": {
-            "de": "Nein, nichts davon"
+            "de": "Nein, nichts davon",
+            "fr": "Non, rien de tout cela"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -158,31 +190,36 @@
     {
       "key": "reason_belief",
       "question": {
-        "de": "Warum, glauben Sie, wurde Ihnen gekündigt?"
+        "de": "Warum, glauben Sie, wurde Ihnen gekündigt?",
+        "fr": "Pour quelle raison pensez-vous que votre contrat a été résilié ?"
       },
       "options": [
         {
           "value": "suspect-unfair",
           "label": {
-            "de": "Ich vermute einen unfairen oder unzulässigen Grund"
+            "de": "Ich vermute einen unfairen oder unzulässigen Grund",
+            "fr": "Je soupçonne un motif déloyal ou inadmissible"
           }
         },
         {
           "value": "no-reason-given",
           "label": {
-            "de": "Es wurde mir kein Grund genannt"
+            "de": "Es wurde mir kein Grund genannt",
+            "fr": "Aucun motif ne m’a été communiqué"
           }
         },
         {
           "value": "ordinary-reason",
           "label": {
-            "de": "Ein gewöhnlicher betrieblicher oder persönlicher Grund"
+            "de": "Ein gewöhnlicher betrieblicher oder persönlicher Grund",
+            "fr": "Un motif ordinaire, d’ordre économique ou personnel"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas"
           }
         }
       ]
@@ -193,7 +230,8 @@
       "id": "public-employer",
       "kind": "escalate",
       "text": {
-        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihre Kündigung meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle."
+        "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt für Ihre Kündigung meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
+        "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique à votre résiliation, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation."
       },
       "when": {
         "employer_type": [
@@ -205,7 +243,8 @@
       "id": "notice-period",
       "kind": "rule",
       "text": {
-        "de": "Ausserhalb der Probezeit gilt ohne andere schriftliche Abrede: Im ersten Dienstjahr beträgt die Kündigungsfrist einen Monat, vom zweiten bis und mit dem neunten Dienstjahr zwei Monate, danach drei Monate, jeweils auf das Ende eines Monats. Diese Fristen können durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag geändert werden; auf weniger als einen Monat dürfen sie nur durch Gesamtarbeitsvertrag und nur im ersten Dienstjahr verkürzt werden."
+        "de": "Ausserhalb der Probezeit gilt ohne andere schriftliche Abrede: Im ersten Dienstjahr beträgt die Kündigungsfrist einen Monat, vom zweiten bis und mit dem neunten Dienstjahr zwei Monate, danach drei Monate, jeweils auf das Ende eines Monats. Diese Fristen können durch schriftliche Abrede, Normalarbeitsvertrag oder Gesamtarbeitsvertrag geändert werden; auf weniger als einen Monat dürfen sie nur durch Gesamtarbeitsvertrag und nur im ersten Dienstjahr verkürzt werden.",
+        "fr": "En dehors du temps d’essai, à défaut d’accord écrit contraire : le délai de congé est d’un mois pendant la première année de service, de deux mois de la deuxième à la neuvième année de service incluse, puis de trois mois ensuite, toujours pour la fin d’un mois. Ces délais peuvent être modifiés par accord écrit, contrat-type de travail ou convention collective ; ils ne peuvent être réduits à moins d’un mois que par convention collective, et seulement pendant la première année de service."
       },
       "when": {
         "employer_type": [
@@ -225,7 +264,8 @@
       "id": "probation-notice",
       "kind": "rule",
       "text": {
-        "de": "Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden. Wurde die Probezeit schriftlich verlängert oder wegen Krankheit, Unfall oder einer nicht freiwillig übernommenen gesetzlichen Pflicht verlängert, gilt diese kurze Frist während der ganzen (verlängerten) Probezeit."
+        "de": "Während der Probezeit kann das Arbeitsverhältnis von beiden Seiten jederzeit mit einer Kündigungsfrist von sieben Tagen gekündigt werden. Wurde die Probezeit schriftlich verlängert oder wegen Krankheit, Unfall oder einer nicht freiwillig übernommenen gesetzlichen Pflicht verlängert, gilt diese kurze Frist während der ganzen (verlängerten) Probezeit.",
+        "fr": "Pendant le temps d’essai, chaque partie peut résilier le contrat en tout temps moyennant un délai de congé de sept jours. Si le temps d’essai a été prolongé par écrit, ou prolongé en raison d’une maladie, d’un accident ou de l’accomplissement non volontaire d’une obligation légale, ce délai court reste applicable pendant tout le temps d’essai (prolongé)."
       },
       "when": {
         "probation": [
@@ -240,7 +280,8 @@
       "id": "written-reasons",
       "kind": "step",
       "text": {
-        "de": "Sie können von Ihrem Arbeitgeber verlangen, dass er die Kündigung schriftlich begründet. Verlangen Sie dies schriftlich; er muss Ihnen dann schriftlich antworten."
+        "de": "Sie können von Ihrem Arbeitgeber verlangen, dass er die Kündigung schriftlich begründet. Verlangen Sie dies schriftlich; er muss Ihnen dann schriftlich antworten.",
+        "fr": "Vous pouvez demander à votre employeur qu’il motive le congé par écrit. Faites cette demande par écrit ; il doit alors vous répondre par écrit."
       },
       "sources": [
         "or-335"
@@ -250,7 +291,8 @@
       "id": "blocking-periods",
       "kind": "warning",
       "text": {
-        "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt."
+        "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt.",
+        "fr": "Après le temps d’essai, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail, totale ou partielle, due à une maladie ou un accident non imputable à votre faute (30 jours pendant la première année de service, 90 jours de la deuxième à la cinquième année de service, 180 jours à partir de la sixième année de service), pendant la grossesse et durant les 16 semaines qui suivent l’accouchement, ou pendant que vous accomplissez un service militaire, de protection civile ou civil obligatoire de plus de onze jours (plus quatre semaines avant et après le service). Un congé donné pendant une telle période de protection est nul. Si le congé a été donné juste avant le début de la période de protection, le délai de congé est suspendu et ne reprend son cours qu’à la fin de cette période."
       },
       "when": {
         "protected_situation": [
@@ -272,7 +314,8 @@
       "id": "blocking-periods-probation",
       "kind": "warning",
       "text": {
-        "de": "Während der Probezeit gelten diese Sperrfristen noch nicht. Ihr Arbeitgeber darf Ihnen also auch während einer Krankheit, eines Unfalls oder einer Schwangerschaft in der Probezeit kündigen."
+        "de": "Während der Probezeit gelten diese Sperrfristen noch nicht. Ihr Arbeitgeber darf Ihnen also auch während einer Krankheit, eines Unfalls oder einer Schwangerschaft in der Probezeit kündigen.",
+        "fr": "Pendant le temps d’essai, ces périodes de protection ne s’appliquent pas encore. Votre employeur peut donc résilier le contrat même pendant une maladie, un accident ou une grossesse survenant durant le temps d’essai."
       },
       "when": {
         "protected_situation": [
@@ -292,7 +335,8 @@
       "id": "abusive-grounds",
       "kind": "rule",
       "text": {
-        "de": "Eine Kündigung ist missbräuchlich, wenn sie zum Beispiel ausgesprochen wird wegen einer persönlichen Eigenschaft ohne Bezug zur Arbeit, weil Sie ein verfassungsmässiges Recht ausüben, nur um Ihre vertraglichen Ansprüche zu vereiteln, weil Sie nach Treu und Glauben Ansprüche aus dem Arbeitsverhältnis geltend machen, wegen Militär- oder Zivildienst, wegen Gewerkschaftszugehörigkeit oder -tätigkeit, gegen eine gewählte Arbeitnehmervertretung ohne begründeten Anlass, oder im Rahmen einer Massenentlassung ohne vorherige Konsultation der Arbeitnehmenden."
+        "de": "Eine Kündigung ist missbräuchlich, wenn sie zum Beispiel ausgesprochen wird wegen einer persönlichen Eigenschaft ohne Bezug zur Arbeit, weil Sie ein verfassungsmässiges Recht ausüben, nur um Ihre vertraglichen Ansprüche zu vereiteln, weil Sie nach Treu und Glauben Ansprüche aus dem Arbeitsverhältnis geltend machen, wegen Militär- oder Zivildienst, wegen Gewerkschaftszugehörigkeit oder -tätigkeit, gegen eine gewählte Arbeitnehmervertretung ohne begründeten Anlass, oder im Rahmen einer Massenentlassung ohne vorherige Konsultation der Arbeitnehmenden.",
+        "fr": "Un congé est abusif s’il est donné, par exemple, en raison d’une caractéristique personnelle sans rapport avec le travail, parce que vous exercez un droit constitutionnel, uniquement pour empêcher la naissance de vos prétentions contractuelles, parce que vous faites valoir de bonne foi des prétentions découlant du rapport de travail, en raison d’un service militaire ou civil, en raison de votre appartenance ou de votre activité syndicale, contre un représentant élu des travailleurs sans motif justifié, ou dans le cadre d’un licenciement collectif sans consultation préalable des travailleurs."
       },
       "when": {
         "reason_belief": [
@@ -309,7 +353,8 @@
       "id": "compensation-cap",
       "kind": "rule",
       "text": {
-        "de": "Wird eine Kündigung als missbräuchlich beurteilt, muss die kündigende Partei eine Entschädigung bezahlen. Das Gericht legt die Höhe nach den Umständen fest, höchstens aber sechs Monatslöhne (bei einer missbräuchlichen Kündigung wegen unterlassener Konsultation bei einer Massenentlassung höchstens zwei Monatslöhne)."
+        "de": "Wird eine Kündigung als missbräuchlich beurteilt, muss die kündigende Partei eine Entschädigung bezahlen. Das Gericht legt die Höhe nach den Umständen fest, höchstens aber sechs Monatslöhne (bei einer missbräuchlichen Kündigung wegen unterlassener Konsultation bei einer Massenentlassung höchstens zwei Monatslöhne).",
+        "fr": "Si un congé est jugé abusif, la partie qui l’a donné doit verser une indemnité. Le tribunal en fixe le montant selon les circonstances, mais au maximum six mois de salaire (au maximum deux mois de salaire en cas de congé abusif pour défaut de consultation lors d’un licenciement collectif)."
       },
       "when": {
         "reason_belief": [
@@ -326,7 +371,8 @@
       "id": "written-objection",
       "kind": "deadline",
       "text": {
-        "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch."
+        "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch.",
+        "fr": "Le délai le plus important si vous voulez une indemnité pour congé abusif : faites opposition par écrit au congé auprès de votre employeur, au plus tard à la fin du délai de congé. Si vous ne vous entendez pas ensuite sur la poursuite du rapport de travail, vous devez faire valoir votre prétention à une indemnité par voie judiciaire (déposer une requête de conciliation) dans les 180 jours suivant la fin du rapport de travail, sous peine de péremption."
       },
       "when": {
         "reason_belief": [
@@ -346,7 +392,8 @@
       "id": "rav-registration",
       "kind": "step",
       "text": {
-        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Ab dann müssen Sie die Kontrollvorschriften befolgen und sich um eine neue Stelle bemühen."
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Ab dann müssen Sie die Kontrollvorschriften befolgen und sich um eine neue Stelle bemühen.",
+        "fr": "Inscrivez-vous personnellement le plus tôt possible auprès de l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous demandez l’indemnité de chômage. Dès ce moment, vous devez respecter les prescriptions de contrôle et rechercher activement un nouvel emploi."
       },
       "sources": [
         "avig-17"
@@ -356,7 +403,8 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung."
+        "de": "Das Schlichtungsverfahren in arbeitsrechtlichen Streitigkeiten bis zu einem Streitwert von 30 000 Franken ist kostenlos: Es werden keine Gerichtskosten erhoben. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es in diesem Verfahren grundsätzlich keine Entschädigung.",
+        "fr": "La procédure de conciliation dans les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs est gratuite : aucun frais judiciaire n’est perçu. En principe, cette procédure ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même."
       },
       "sources": [
         "zpo-113"
@@ -366,14 +414,16 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie rasch persönliche Beratung, wenn die Kündigungsfrist bald endet, wenn grosse Summen im Streit stehen, wenn Ihr Arbeitgeber die Sachlage bestreitet, oder wenn Sie unsicher sind, ob Ihre Situation wirklich geschützt ist."
+        "de": "Holen Sie rasch persönliche Beratung, wenn die Kündigungsfrist bald endet, wenn grosse Summen im Streit stehen, wenn Ihr Arbeitgeber die Sachlage bestreitet, oder wenn Sie unsicher sind, ob Ihre Situation wirklich geschützt ist.",
+        "fr": "Demandez rapidement un conseil personnalisé si le délai de congé arrive bientôt à échéance, si des sommes importantes sont en jeu, si votre employeur conteste les faits, ou si vous doutez que votre situation soit réellement protégée."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Viele Kantone bieten über das Amt für Arbeit oder eine unentgeltliche Rechtsauskunft weitere Hilfe an.",
+        "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. De nombreux cantons proposent une aide supplémentaire par l’intermédiaire de l’office du travail ou d’une consultation juridique gratuite."
       }
     }
   ],
@@ -460,13 +510,15 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz"
+        "de": "ch.ch: Kündigung Arbeitsvertrag in der Schweiz",
+        "fr": "ch.ch : Résiliation du contrat de travail en Suisse"
       },
       "url": "https://www.ch.ch/de/arbeit/kundigung-arbeitsvertrag/"
     },
     {
       "label": {
-        "de": "ch.ch: Arbeitslosigkeit in der Schweiz (Anmeldung beim RAV)"
+        "de": "ch.ch: Arbeitslosigkeit in der Schweiz (Anmeldung beim RAV)",
+        "fr": "ch.ch : Chômage en Suisse (inscription à l’ORP)"
       },
       "url": "https://www.ch.ch/de/versicherungen/arbeitslosenversicherung/"
     }

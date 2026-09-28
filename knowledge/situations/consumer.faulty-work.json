@@ -6,10 +6,12 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ein Handwerker hat schlecht gearbeitet"
+    "de": "Ein Handwerker hat schlecht gearbeitet",
+    "fr": "Un artisan a mal travaillé"
   },
   "summary": {
-    "de": "Prüfen Sie das abgelieferte Werk und melden Sie Mängel sofort. Sie können je nach Schwere des Mangels die Abnahme verweigern, einen Preisabzug verlangen oder eine kostenlose Nachbesserung fordern. Ihre Ansprüche verjähren in der Regel nach zwei Jahren, bei einer Baute nach fünf Jahren."
+    "de": "Prüfen Sie das abgelieferte Werk und melden Sie Mängel sofort. Sie können je nach Schwere des Mangels die Abnahme verweigern, einen Preisabzug verlangen oder eine kostenlose Nachbesserung fordern. Ihre Ansprüche verjähren in der Regel nach zwei Jahren, bei einer Baute nach fünf Jahren.",
+    "fr": "Vérifiez l’ouvrage livré et signalez sans délai tout défaut. Selon la gravité du défaut, vous pouvez refuser la réception, demander une réduction de prix ou exiger une réfection gratuite. Vos droits se prescrivent en général après deux ans, et après cinq ans pour une construction."
   },
   "examples": {
     "de": [
@@ -19,39 +21,53 @@
       "Darf ich die Zahlung kürzen, wenn die Arbeit mangelhaft war?",
       "Der Schrinner het schlächt gschaffet, was cha ich mache?",
       "Muss ich das Werk abnehmen, auch wenn es Mängel hat?"
+    ],
+    "fr": [
+      "Un artisan a mal travaillé, que puis-je faire ?",
+      "L’électricien a fait une erreur, doit-il la réparer gratuitement ?",
+      "Combien de temps puis-je encore signaler un défaut sur une rénovation ?",
+      "Ai-je le droit de réduire le paiement si le travail était défectueux ?",
+      "Le menuisier a mal bossé, je fais comment ?",
+      "Dois-je réceptionner l’ouvrage même s’il présente des défauts ?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Werkverträge mit Handwerkerinnen und Handwerkern, zum Beispiel Reparaturen, Umbauten oder andere handwerkliche Arbeiten."
+      "de": "Werkverträge mit Handwerkerinnen und Handwerkern, zum Beispiel Reparaturen, Umbauten oder andere handwerkliche Arbeiten.",
+      "fr": "Les contrats d’entreprise conclus avec des artisanes et artisans, par exemple des réparations, des transformations ou d’autres travaux artisanaux."
     },
     "excludes": {
-      "de": "Den Kauf fertiger Ware ohne handwerkliche Leistung (siehe die Anleitung zu einer defekten Ware), Arbeitsverträge, sowie grössere Bauverträge mit Generalunternehmern, bei denen zusätzliche Regeln gelten können."
+      "de": "Den Kauf fertiger Ware ohne handwerkliche Leistung (siehe die Anleitung zu einer defekten Ware), Arbeitsverträge, sowie grössere Bauverträge mit Generalunternehmern, bei denen zusätzliche Regeln gelten können.",
+      "fr": "L’achat d’un produit fini sans prestation artisanale (voir le guide sur un article défectueux), les contrats de travail, ainsi que les contrats de construction plus importants conclus avec des entreprises générales, où des règles supplémentaires peuvent s’appliquer."
     }
   },
   "facts": [
     {
       "key": "work_type",
       "question": {
-        "de": "Um welche Art Werk geht es?"
+        "de": "Um welche Art Werk geht es?",
+        "fr": "De quel type d’ouvrage s’agit-il ?"
       },
       "options": [
         {
           "value": "movable",
           "label": {
-            "de": "Ein bewegliches Werk, zum Beispiel die Reparatur eines Geräts oder Möbelstücks"
+            "de": "Ein bewegliches Werk, zum Beispiel die Reparatur eines Geräts oder Möbelstücks",
+            "fr": "Un ouvrage mobilier, par exemple la réparation d’un appareil ou d’un meuble"
           }
         },
         {
           "value": "building",
           "label": {
-            "de": "Ein unbewegliches Werk, zum Beispiel eine Arbeit an einem Haus oder in einer Wohnung"
+            "de": "Ein unbewegliches Werk, zum Beispiel eine Arbeit an einem Haus oder in einer Wohnung",
+            "fr": "Un ouvrage immobilier, par exemple un travail effectué dans une maison ou un appartement"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -59,25 +75,29 @@
     {
       "key": "accepted",
       "question": {
-        "de": "Haben Sie das Werk schon abgenommen, zum Beispiel durch Unterschrift oder indem Sie es kommentarlos übernommen haben?"
+        "de": "Haben Sie das Werk schon abgenommen, zum Beispiel durch Unterschrift oder indem Sie es kommentarlos übernommen haben?",
+        "fr": "Avez-vous déjà réceptionné l’ouvrage, par exemple par signature ou en le reprenant sans faire de remarque ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -85,25 +105,29 @@
     {
       "key": "checked",
       "question": {
-        "de": "Haben Sie das abgelieferte Werk geprüft und einen Mangel gemeldet?"
+        "de": "Haben Sie das abgelieferte Werk geprüft und einen Mangel gemeldet?",
+        "fr": "Avez-vous vérifié l’ouvrage livré et signalé un défaut ?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht mehr genau"
+            "de": "Ich weiss es nicht mehr genau",
+            "fr": "Je ne m’en souviens plus exactement"
           }
         }
       ]
@@ -111,25 +135,29 @@
     {
       "key": "severity",
       "question": {
-        "de": "Wie stark beeinträchtigt der Mangel das Werk?"
+        "de": "Wie stark beeinträchtigt der Mangel das Werk?",
+        "fr": "Dans quelle mesure le défaut affecte-t-il l’ouvrage ?"
       },
       "options": [
         {
           "value": "severe",
           "label": {
-            "de": "Das Werk ist für mich unbrauchbar oder weicht stark vom Vertrag ab"
+            "de": "Das Werk ist für mich unbrauchbar oder weicht stark vom Vertrag ab",
+            "fr": "L’ouvrage m’est inutilisable ou s’écarte fortement du contrat"
           }
         },
         {
           "value": "minor",
           "label": {
-            "de": "Der Mangel ist eher gering"
+            "de": "Der Mangel ist eher gering",
+            "fr": "Le défaut est plutôt mineur"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude"
           }
         }
       ]
@@ -137,31 +165,36 @@
     {
       "key": "want",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?"
       },
       "options": [
         {
           "value": "reject",
           "label": {
-            "de": "Abnahme verweigern und Schadenersatz"
+            "de": "Abnahme verweigern und Schadenersatz",
+            "fr": "Refuser la réception et obtenir des dommages-intérêts"
           }
         },
         {
           "value": "reduction",
           "label": {
-            "de": "Preisabzug"
+            "de": "Preisabzug",
+            "fr": "Une réduction de prix"
           }
         },
         {
           "value": "repair",
           "label": {
-            "de": "Kostenlose Nachbesserung"
+            "de": "Kostenlose Nachbesserung",
+            "fr": "Une réfection gratuite"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne le sais pas encore"
           }
         }
       ]
@@ -172,7 +205,8 @@
       "id": "werkvertrag-def",
       "kind": "rule",
       "text": {
-        "de": "Ein Werkvertrag liegt vor, wenn sich jemand verpflichtet, für Sie ein Werk herzustellen, zum Beispiel eine Reparatur, einen Umbau oder ein Möbelstück, und Sie sich im Gegenzug verpflichten, dafür eine Vergütung zu bezahlen."
+        "de": "Ein Werkvertrag liegt vor, wenn sich jemand verpflichtet, für Sie ein Werk herzustellen, zum Beispiel eine Reparatur, einen Umbau oder ein Möbelstück, und Sie sich im Gegenzug verpflichten, dafür eine Vergütung zu bezahlen.",
+        "fr": "Un contrat d’entreprise existe lorsque quelqu’un s’engage à réaliser pour vous un ouvrage, par exemple une réparation, une transformation ou un meuble, et que vous vous engagez en contrepartie à payer une rémunération."
       },
       "sources": [
         "or-363"
@@ -182,7 +216,8 @@
       "id": "inspect-duty",
       "kind": "rule",
       "text": {
-        "de": "Nach der Ablieferung müssen Sie das Werk prüfen, sobald es der übliche Geschäftsgang erlaubt, und den Handwerker über allfällige Mängel informieren, die Sie dabei entdecken."
+        "de": "Nach der Ablieferung müssen Sie das Werk prüfen, sobald es der übliche Geschäftsgang erlaubt, und den Handwerker über allfällige Mängel informieren, die Sie dabei entdecken.",
+        "fr": "Après la livraison, vous devez vérifier l’ouvrage dès que la marche habituelle des affaires le permet, et informer l’artisan de tout défaut que vous découvrez à cette occasion."
       },
       "sources": [
         "or-367"
@@ -197,7 +232,8 @@
         ]
       },
       "text": {
-        "de": "Geht es um ein unbewegliches Werk, zum Beispiel eine Arbeit an Ihrem Haus oder in Ihrer Wohnung, haben Sie für die Mängelrüge 60 Tage Zeit. Eine kürzere Frist kann nicht wirksam vereinbart werden."
+        "de": "Geht es um ein unbewegliches Werk, zum Beispiel eine Arbeit an Ihrem Haus oder in Ihrer Wohnung, haben Sie für die Mängelrüge 60 Tage Zeit. Eine kürzere Frist kann nicht wirksam vereinbart werden.",
+        "fr": "S’il s’agit d’un ouvrage immobilier, par exemple un travail dans votre maison ou votre appartement, vous disposez de 60 jours pour l’avis des défauts. Un délai plus court ne peut pas être valablement convenu."
       },
       "sources": [
         "or-367"
@@ -213,7 +249,8 @@
         ]
       },
       "text": {
-        "de": "Bei einem beweglichen Werk, zum Beispiel einem reparierten Gerät, müssen Sie den Mangel sofort nach der Entdeckung melden; das Gesetz nennt hier keine feste Anzahl Tage."
+        "de": "Bei einem beweglichen Werk, zum Beispiel einem reparierten Gerät, müssen Sie den Mangel sofort nach der Entdeckung melden; das Gesetz nennt hier keine feste Anzahl Tage.",
+        "fr": "Pour un ouvrage mobilier, par exemple un appareil réparé, vous devez signaler le défaut immédiatement après l’avoir découvert ; la loi ne fixe ici aucun nombre de jours précis."
       },
       "sources": [
         "or-367"
@@ -232,7 +269,8 @@
         ]
       },
       "text": {
-        "de": "Ist das Werk so mangelhaft, dass es für Sie unbrauchbar ist, oder weicht es so stark vom Vertrag ab, dass Ihnen die Abnahme billigerweise nicht zugemutet werden kann, dürfen Sie die Abnahme verweigern. Trifft den Handwerker ein Verschulden, können Sie zusätzlich Schadenersatz verlangen. Geht es dagegen um ein Werk, das auf Ihrem eigenen Grundstück errichtet wurde und seiner Natur nach nur mit unverhältnismässigen Nachteilen wieder entfernt werden könnte, zum Beispiel ein Anbau oder eine fest verbaute Renovation, steht Ihnen dieses Recht nicht zu. Dort haben Sie auch bei einem schweren Mangel nur Anspruch auf Preisabzug oder kostenlose Nachbesserung."
+        "de": "Ist das Werk so mangelhaft, dass es für Sie unbrauchbar ist, oder weicht es so stark vom Vertrag ab, dass Ihnen die Abnahme billigerweise nicht zugemutet werden kann, dürfen Sie die Abnahme verweigern. Trifft den Handwerker ein Verschulden, können Sie zusätzlich Schadenersatz verlangen. Geht es dagegen um ein Werk, das auf Ihrem eigenen Grundstück errichtet wurde und seiner Natur nach nur mit unverhältnismässigen Nachteilen wieder entfernt werden könnte, zum Beispiel ein Anbau oder eine fest verbaute Renovation, steht Ihnen dieses Recht nicht zu. Dort haben Sie auch bei einem schweren Mangel nur Anspruch auf Preisabzug oder kostenlose Nachbesserung.",
+        "fr": "Si l’ouvrage est si défectueux qu’il vous est inutilisable, ou s’il s’écarte tellement du contrat que la réception ne peut équitablement pas vous être imposée, vous avez le droit de refuser la réception. Si l’artisan est en faute, vous pouvez en outre demander des dommages-intérêts. En revanche, s’il s’agit d’un ouvrage construit sur votre propre fonds et qui, de par sa nature, ne pourrait être enlevé qu’au prix d’inconvénients excessifs, par exemple une annexe ou une rénovation fixée à demeure, ce droit ne vous appartient pas. Dans ce cas, même en présence d’un défaut grave, vous n’avez droit qu’à une réduction de prix ou à une réfection gratuite."
       },
       "sources": [
         "or-368"
@@ -248,7 +286,8 @@
         ]
       },
       "text": {
-        "de": "Sind die Mängel oder die Abweichungen vom Vertrag weniger erheblich, können Sie einen Preisabzug entsprechend dem Minderwert des Werkes verlangen, oder, sofern es den Handwerker nicht übermässig belastet, eine kostenlose Nachbesserung sowie bei Verschulden zusätzlich Schadenersatz."
+        "de": "Sind die Mängel oder die Abweichungen vom Vertrag weniger erheblich, können Sie einen Preisabzug entsprechend dem Minderwert des Werkes verlangen, oder, sofern es den Handwerker nicht übermässig belastet, eine kostenlose Nachbesserung sowie bei Verschulden zusätzlich Schadenersatz.",
+        "fr": "Si les défauts ou les écarts par rapport au contrat sont de moindre importance, vous pouvez demander une réduction de prix correspondant à la moins-value de l’ouvrage, ou, si cela n’impose pas une charge excessive à l’artisan, une réfection gratuite, ainsi que des dommages-intérêts supplémentaires en cas de faute."
       },
       "sources": [
         "or-368"
@@ -263,7 +302,8 @@
         ]
       },
       "text": {
-        "de": "Geht es um einen Mangel an einer Baute, ist eine im Voraus getroffene Vereinbarung, die Ihren Anspruch auf kostenlose Nachbesserung einschränkt oder ausschliesst, ungültig."
+        "de": "Geht es um einen Mangel an einer Baute, ist eine im Voraus getroffene Vereinbarung, die Ihren Anspruch auf kostenlose Nachbesserung einschränkt oder ausschliesst, ungültig.",
+        "fr": "S’agissant d’un défaut sur une construction, toute clause convenue à l’avance qui restreint ou exclut votre droit à une réfection gratuite est nulle."
       },
       "sources": [
         "or-368"
@@ -279,7 +319,8 @@
         ]
       },
       "text": {
-        "de": "Nehmen Sie das abgelieferte Werk ausdrücklich oder stillschweigend ab, ist der Handwerker von seiner Haftung befreit, ausser bei Mängeln, die bei der Abnahme und einer ordentlichen Prüfung nicht erkennbar waren, oder die er absichtlich verschwiegen hat. Unterlassen Sie die vorgeschriebene Prüfung und Anzeige, gilt das Werk als stillschweigend genehmigt."
+        "de": "Nehmen Sie das abgelieferte Werk ausdrücklich oder stillschweigend ab, ist der Handwerker von seiner Haftung befreit, ausser bei Mängeln, die bei der Abnahme und einer ordentlichen Prüfung nicht erkennbar waren, oder die er absichtlich verschwiegen hat. Unterlassen Sie die vorgeschriebene Prüfung und Anzeige, gilt das Werk als stillschweigend genehmigt.",
+        "fr": "Si vous réceptionnez l’ouvrage livré, expressément ou tacitement, l’artisan est libéré de sa responsabilité, sauf pour les défauts qui n’étaient pas décelables lors de la réception et d’une vérification en bonne et due forme, ou qu’il vous a intentionnellement cachés. Si vous omettez la vérification et l’avis prescrits, l’ouvrage est considéré comme tacitement accepté."
       },
       "sources": [
         "or-370"
@@ -295,7 +336,8 @@
         ]
       },
       "text": {
-        "de": "Zeigt sich ein zuerst nicht erkennbarer Mangel erst später, müssen Sie ihn sofort nach der Entdeckung melden, sonst gilt das Werk auch bezüglich dieses Mangels als genehmigt."
+        "de": "Zeigt sich ein zuerst nicht erkennbarer Mangel erst später, müssen Sie ihn sofort nach der Entdeckung melden, sonst gilt das Werk auch bezüglich dieses Mangels als genehmigt.",
+        "fr": "Si un défaut d’abord non décelable apparaît plus tard, vous devez le signaler immédiatement après l’avoir découvert, sinon l’ouvrage est également considéré comme accepté pour ce défaut."
       },
       "sources": [
         "or-370"
@@ -310,7 +352,8 @@
         ]
       },
       "text": {
-        "de": "Bei einem unbeweglichen Werk haben Sie für die Meldung eines erst später entdeckten, bei der Abnahme nicht erkennbaren Mangels 60 Tage seit der Entdeckung Zeit. Eine kürzere Frist ist ungültig."
+        "de": "Bei einem unbeweglichen Werk haben Sie für die Meldung eines erst später entdeckten, bei der Abnahme nicht erkennbaren Mangels 60 Tage seit der Entdeckung Zeit. Eine kürzere Frist ist ungültig.",
+        "fr": "Pour un ouvrage immobilier, vous disposez de 60 jours depuis la découverte pour signaler un défaut apparu plus tard et non décelable lors de la réception. Un délai plus court est nul."
       },
       "sources": [
         "or-370"
@@ -320,7 +363,8 @@
       "id": "limitation",
       "kind": "rule",
       "text": {
-        "de": "Ihre Ansprüche wegen Mängeln des Werkes verjähren zwei Jahre nach der Abnahme des Werkes."
+        "de": "Ihre Ansprüche wegen Mängeln des Werkes verjähren zwei Jahre nach der Abnahme des Werkes.",
+        "fr": "Vos droits pour défauts de l’ouvrage se prescrivent par deux ans à compter de la réception de l’ouvrage."
       },
       "sources": [
         "or-371"
@@ -335,7 +379,8 @@
         ]
       },
       "text": {
-        "de": "Bei einem unbeweglichen Werk verjähren Ihre Ansprüche gegen den Handwerker sowie gegen eine beteiligte Architektin oder einen Ingenieur erst fünf Jahre nach der Abnahme. Diese fünfjährige Frist darf nicht zu Ihren Lasten verkürzt werden."
+        "de": "Bei einem unbeweglichen Werk verjähren Ihre Ansprüche gegen den Handwerker sowie gegen eine beteiligte Architektin oder einen Ingenieur erst fünf Jahre nach der Abnahme. Diese fünfjährige Frist darf nicht zu Ihren Lasten verkürzt werden.",
+        "fr": "Pour un ouvrage immobilier, vos droits envers l’artisan ainsi qu’envers une architecte ou un ingénieur ayant participé aux travaux ne se prescrivent qu’après cinq ans à compter de la réception. Ce délai de cinq ans ne peut pas être raccourci à votre détriment."
       },
       "sources": [
         "or-371"
@@ -350,7 +395,8 @@
         ]
       },
       "text": {
-        "de": "Die Abnahme verweigern dürfen Sie nur, wenn der Mangel schwer wiegt, das Werk also für Sie unbrauchbar ist oder so stark vom Vertrag abweicht, dass Ihnen die Abnahme billigerweise nicht zugemutet werden kann, und es sich nicht um ein auf Ihrem Grundstück errichtetes Werk handelt, das nur mit unverhältnismässigen Nachteilen entfernt werden könnte. Trifft das auf Sie zu: Teilen Sie dies dem Handwerker schriftlich mit, begründen Sie den Mangel und dokumentieren Sie ihn mit Fotos. Verlangen Sie bei einem Verschulden des Handwerkers zusätzlich Schadenersatz. Sonst kommen nur Preisabzug oder kostenlose Nachbesserung in Frage."
+        "de": "Die Abnahme verweigern dürfen Sie nur, wenn der Mangel schwer wiegt, das Werk also für Sie unbrauchbar ist oder so stark vom Vertrag abweicht, dass Ihnen die Abnahme billigerweise nicht zugemutet werden kann, und es sich nicht um ein auf Ihrem Grundstück errichtetes Werk handelt, das nur mit unverhältnismässigen Nachteilen entfernt werden könnte. Trifft das auf Sie zu: Teilen Sie dies dem Handwerker schriftlich mit, begründen Sie den Mangel und dokumentieren Sie ihn mit Fotos. Verlangen Sie bei einem Verschulden des Handwerkers zusätzlich Schadenersatz. Sonst kommen nur Preisabzug oder kostenlose Nachbesserung in Frage.",
+        "fr": "Vous ne pouvez refuser la réception que si le défaut est grave, c’est-à-dire que l’ouvrage vous est inutilisable ou s’écarte tellement du contrat que la réception ne peut équitablement pas vous être imposée, et qu’il ne s’agit pas d’un ouvrage construit sur votre fonds qui ne pourrait être enlevé qu’au prix d’inconvénients excessifs. Si c’est votre cas : communiquez-le par écrit à l’artisan, motivez le défaut et documentez-le par des photos. En cas de faute de l’artisan, demandez en plus des dommages-intérêts. Sinon, seules une réduction de prix ou une réfection gratuite entrent en ligne de compte."
       },
       "sources": [
         "or-368"
@@ -365,7 +411,8 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie einen Preisabzug: Berechnen Sie den Minderwert möglichst nachvollziehbar, zum Beispiel mit einer Kostenschätzung für die fehlende oder mangelhafte Leistung, und teilen Sie dies dem Handwerker schriftlich mit."
+        "de": "Wollen Sie einen Preisabzug: Berechnen Sie den Minderwert möglichst nachvollziehbar, zum Beispiel mit einer Kostenschätzung für die fehlende oder mangelhafte Leistung, und teilen Sie dies dem Handwerker schriftlich mit.",
+        "fr": "Si vous souhaitez une réduction de prix : calculez la moins-value de la manière la plus vérifiable possible, par exemple à l’aide d’un devis pour la prestation manquante ou défectueuse, et communiquez-le par écrit à l’artisan."
       }
     },
     {
@@ -377,21 +424,24 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie eine kostenlose Nachbesserung: Setzen Sie dem Handwerker schriftlich eine angemessene Frist, um den Mangel zu beheben, und beschreiben Sie den Mangel möglichst genau."
+        "de": "Wollen Sie eine kostenlose Nachbesserung: Setzen Sie dem Handwerker schriftlich eine angemessene Frist, um den Mangel zu beheben, und beschreiben Sie den Mangel möglichst genau.",
+        "fr": "Si vous souhaitez une réfection gratuite : fixez par écrit à l’artisan un délai raisonnable pour remédier au défaut, et décrivez le défaut aussi précisément que possible."
       }
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der Handwerker nicht reagiert, wenn es um einen hohen Betrag oder eine Baute geht, oder wenn Ihr Vertrag auf SIA-Normen oder andere Branchennormen verweist, die die gesetzlichen Regeln abändern können."
+        "de": "Holen Sie persönliche Beratung, wenn der Handwerker nicht reagiert, wenn es um einen hohen Betrag oder eine Baute geht, oder wenn Ihr Vertrag auf SIA-Normen oder andere Branchennormen verweist, die die gesetzlichen Regeln abändern können.",
+        "fr": "Demandez un conseil personnalisé si l’artisan ne réagit pas, si le montant en jeu est élevé ou qu’il s’agit d’une construction, ou si votre contrat renvoie aux normes SIA ou à d’autres normes de la branche qui peuvent modifier les règles légales."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Streitigkeiten mit Handwerkerinnen und Handwerkern. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Streitigkeiten mit Handwerkerinnen und Handwerkern. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : les organisations de consommateurs conseillent en cas de litige avec des artisanes et artisans. Certains cantons et associations d’avocats offrent une première consultation gratuite."
       }
     }
   ],
