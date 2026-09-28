@@ -1,0 +1,993 @@
+{
+  "schema": 1,
+  "id": "family.child-maintenance",
+  "domain": "family",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Kinderunterhalt: Wie viel, und was tun, wenn nicht bezahlt wird?"
+  },
+  "summary": {
+    "de": "Beide Eltern müssen für ihr Kind sorgen, ob sie verheiratet sind oder nicht. Lebt das Kind hauptsächlich bei einem Elternteil, zahlt in der Regel der andere den Geldunterhalt. Dazu kann ein Betrag für die Betreuung gehören. Der Unterhalt ist bis zur Volljährigkeit geschuldet und bei einer noch laufenden Erstausbildung oft länger. Eine private Vereinbarung wird für das Kind erst verbindlich, wenn die Kindesschutzbehörde (KESB) oder das Gericht sie genehmigt. Zahlt der andere Elternteil nicht, hilft eine kantonale Fachstelle kostenlos beim Eintreiben, und viele Kantone zahlen unter Bedingungen einen Vorschuss."
+  },
+  "examples": {
+    "de": [
+      "Wie viel Kinderunterhalt muss der Vater bezahlen?",
+      "Mein Ex zahlt seit Monaten keine Alimente für unser Kind, was kann ich tun?",
+      "Wir sind nicht verheiratet und haben uns getrennt. Wie regeln wir den Unterhalt für unsere Tochter?",
+      "Ich habe meine Stelle verloren und kann den Unterhalt nicht mehr zahlen.",
+      "Min Vater zahlt kei Unterhalt meh, sit ich 18 bi, aber ich bi no i de Lehr.",
+      "Bekomme ich einen Vorschuss vom Kanton, wenn die Alimente nicht kommen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Den Unterhalt für minderjährige Kinder und für volljährige Kinder in Erstausbildung in der Schweiz, bei verheirateten, getrennten, geschiedenen und unverheirateten Eltern: wer zahlt, was der Unterhalt umfasst, wie lange er dauert, wie er festgelegt und geändert wird und welche Hilfe es gibt, wenn nicht bezahlt wird."
+    },
+    "excludes": {
+      "de": "Den Unterhalt zwischen Ehegatten oder geschiedenen Ehegatten, die Feststellung oder Anfechtung der Vaterschaft, Fragen der elterlichen Sorge, der Obhut und des Besuchsrechts sowie Fälle, in denen ein Elternteil im Ausland lebt. Dort gelten teils andere Regeln."
+    }
+  },
+  "facts": [
+    {
+      "key": "parents",
+      "question": {
+        "de": "In welcher Situation sind die Eltern?"
+      },
+      "options": [
+        {
+          "value": "married-separated",
+          "label": {
+            "de": "Verheiratet, aber getrennt oder in Trennung"
+          }
+        },
+        {
+          "value": "divorcing",
+          "label": {
+            "de": "In Scheidung oder bereits geschieden"
+          }
+        },
+        {
+          "value": "unmarried",
+          "label": {
+            "de": "Nie miteinander verheiratet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "child_age",
+      "question": {
+        "de": "Wie alt ist das Kind?"
+      },
+      "options": [
+        {
+          "value": "minor",
+          "label": {
+            "de": "Unter 18 Jahre"
+          }
+        },
+        {
+          "value": "adult-in-education",
+          "label": {
+            "de": "18 oder älter und noch in Ausbildung (Lehre, Schule, Studium)"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "title",
+      "question": {
+        "de": "Ist der Unterhalt schon verbindlich festgelegt?"
+      },
+      "help": {
+        "de": "Verbindlich heisst: durch einen Entscheid eines Gerichts oder durch einen Unterhaltsvertrag, den die KESB oder ein Gericht genehmigt hat."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, durch ein Gericht oder einen genehmigten Vertrag"
+          }
+        },
+        {
+          "value": "private-agreement",
+          "label": {
+            "de": "Wir haben nur untereinander etwas abgemacht"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, es gibt noch nichts"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Worum geht es Ihnen?"
+      },
+      "options": [
+        {
+          "value": "amount",
+          "label": {
+            "de": "Wie viel Unterhalt geschuldet ist und wie man ihn festlegt"
+          }
+        },
+        {
+          "value": "not-paid",
+          "label": {
+            "de": "Der Unterhalt wird nicht oder nicht vollständig bezahlt"
+          }
+        },
+        {
+          "value": "change",
+          "label": {
+            "de": "Die Verhältnisse haben sich geändert, der Betrag soll angepasst werden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "role",
+      "question": {
+        "de": "Wer sind Sie?"
+      },
+      "options": [
+        {
+          "value": "receiving-parent",
+          "label": {
+            "de": "Der Elternteil, bei dem das Kind lebt"
+          }
+        },
+        {
+          "value": "paying-parent",
+          "label": {
+            "de": "Der Elternteil, der Unterhalt zahlen soll"
+          }
+        },
+        {
+          "value": "child",
+          "label": {
+            "de": "Das Kind selbst"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich möchte das nicht angeben"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "both-parents",
+      "kind": "rule",
+      "text": {
+        "de": "Beide Eltern müssen für den Unterhalt ihres Kindes aufkommen, jeder nach seinen Möglichkeiten. Das gilt unabhängig davon, ob die Eltern verheiratet sind oder nicht. Unterhalt wird durch Pflege und Erziehung und durch Geld geleistet. Lebt das Kind hauptsächlich bei einem Elternteil und sieht es den anderen nur an Besuchstagen und in den Ferien, leistet der betreuende Elternteil seinen Teil grundsätzlich durch die Betreuung. Den Geldunterhalt trägt dann im Grundsatz der andere. Betreuen beide Eltern das Kind abwechselnd, trägt derjenige, der das Kind weniger betreut, einen entsprechend grösseren Teil der Geldkosten. Bei etwa gleich grossen Betreuungsanteilen richtet sich die Aufteilung nach der finanziellen Leistungsfähigkeit der Eltern."
+      },
+      "sources": [
+        "zgb-276",
+        "bge-147-iii-265-e-5-5"
+      ]
+    },
+    {
+      "id": "what-it-covers",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "amount",
+          "change",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Geldunterhalt deckt zuerst die Kosten des Kindes selbst, etwa Wohnanteil, Essen, Kleider, Krankenkasse, Schule, Hobbys und Fremdbetreuung (Barunterhalt). Dazu kann ein Betrag für die Betreuung kommen (Betreuungsunterhalt). Er soll ermöglichen, dass ein Elternteil das Kind persönlich betreut, auch wenn er deshalb weniger oder nicht arbeiten kann. Er richtet sich nach den eigenen Lebenskosten des betreuenden Elternteils, soweit sein Einkommen diese nicht deckt, und nicht nach dem Lebensstandard des zahlenden Elternteils. Der Betreuungsunterhalt steht rechtlich dem Kind zu, auch wenn die Eltern nie verheiratet waren."
+      },
+      "sources": [
+        "zgb-276",
+        "zgb-285",
+        "zgb-289",
+        "bge-147-iii-265-e-5-3",
+        "bge-144-iii-377"
+      ]
+    },
+    {
+      "id": "how-calculated",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "amount",
+          "change",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Es gibt in der Schweiz keine festen Tabellen und keine Prozentsätze des Lohns. Gerichte und KESB rechnen in zwei Schritten: Zuerst werden die Einkommen beider Eltern und des Kindes ermittelt und der Bedarf aller Beteiligten bestimmt. Danach wird das Geld in einer festen Reihenfolge auf diesen Bedarf verteilt. Bleibt nach Deckung des Bedarfs etwas übrig, wird dieser Überschuss angemessen aufgeteilt. Nur bei aussergewöhnlich guten finanziellen Verhältnissen kann das Gericht anders vorgehen. Dem zahlenden Elternteil muss in jedem Fall sein eigenes Existenzminimum bleiben. Reicht das Geld nicht, kann der volle Bedarf des Kindes nicht gedeckt werden. Eigenes Einkommen oder Vermögen des Kindes wird berücksichtigt."
+      },
+      "sources": [
+        "zgb-285",
+        "bge-147-iii-265-e-6-2",
+        "bge-147-iii-265-e-6-4",
+        "bge-147-iii-265-e-6-6",
+        "bge-147-iii-265-e-7-4"
+      ]
+    },
+    {
+      "id": "work-duty",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "amount",
+          "change",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Beim Kinderunterhalt wird von beiden Eltern verlangt, dass sie ihre Arbeitskraft voll einsetzen. Wer weniger arbeitet, als ihm möglich und zumutbar wäre, dem kann das Gericht ein höheres, erreichbares Einkommen anrechnen. Das Gericht darf aber kein Einkommen annehmen, das die Person tatsächlich nicht erzielen kann. Vom Elternteil, der das Kind hauptsächlich betreut, wird im Normalfall erwartet, dass er ab dem obligatorischen Schuleintritt des jüngsten Kindes zu 50 Prozent arbeitet, ab dessen Übertritt in die Oberstufe zu 80 Prozent und ab dessen 16. Geburtstag voll. Das Gericht kann im Einzelfall davon abweichen."
+      },
+      "sources": [
+        "bge-147-iii-265-e-7-4",
+        "bge-144-iii-481"
+      ]
+    },
+    {
+      "id": "payment-and-allowances",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "amount",
+          "not-paid",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Unterhalt ist im Voraus zu zahlen, zu den Terminen, die im Entscheid oder Vertrag stehen, üblicherweise monatlich. Der Anspruch gehört dem Kind. Solange es minderjährig ist, wird an den Elternteil gezahlt, der das Kind betreut oder es gesetzlich vertritt. Kinder- und Ausbildungszulagen, die der zahlende Elternteil bezieht, muss er zusätzlich zum Unterhalt weitergeben."
+      },
+      "sources": [
+        "zgb-285",
+        "zgb-285a",
+        "zgb-289"
+      ]
+    },
+    {
+      "id": "duration",
+      "kind": "rule",
+      "text": {
+        "de": "Unterhalt ist mindestens bis zum 18. Geburtstag geschuldet. Hat das Kind dann noch keine angemessene Erstausbildung abgeschlossen, müssen die Eltern weiter zahlen, bis diese Ausbildung bei normalem Verlauf abgeschlossen sein kann, soweit ihnen das nach den gesamten Umständen zumutbar ist. Eine feste Altersgrenze gibt es dabei nicht. Ein Gericht kann den Unterhalt schon im Voraus über die Volljährigkeit hinaus festlegen. Der Unterhalt für minderjährige Kinder geht dem Unterhalt für andere Familienmitglieder grundsätzlich vor."
+      },
+      "sources": [
+        "zgb-277",
+        "zgb-133",
+        "zgb-276a"
+      ]
+    },
+    {
+      "id": "adult-child",
+      "kind": "warning",
+      "when": {
+        "child_age": [
+          "adult-in-education",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ab 18 macht das Kind seinen Anspruch selbst geltend, nicht mehr der Elternteil, bei dem es wohnt. Der Unterhalt für volljährige Kinder muss den Eltern auch persönlich zumutbar sein. Bricht ein erwachsenes Kind den Kontakt zum zahlenden Elternteil ab, befreit das diesen nur, wenn dem Kind der Abbruch persönlich vorzuwerfen ist und es allein dafür verantwortlich ist. Trägt auch der Elternteil einen Teil der Verantwortung, bleibt der Unterhalt geschuldet. Lehnt ein Kind den Kontakt rund um die Scheidung der Eltern ab, wird ihm das in der Regel nicht angelastet. Erst wenn es auch nach dem 18. Geburtstag bei seiner Ablehnung bleibt, obwohl sich der Elternteil ihm gegenüber korrekt verhält, kann dieser von der Zahlung befreit sein. Der Unterhalt für ein volljähriges Kind deckt höchstens das familienrechtliche Existenzminimum einschliesslich der Ausbildungskosten; einen Anteil an einem Überschuss der Eltern erhält es nicht. Eigenes Einkommen wird dem Kind angerechnet, soweit ihm eine Arbeit neben der Ausbildung zuzumuten ist."
+      },
+      "sources": [
+        "zgb-277",
+        "zgb-276",
+        "zgb-289",
+        "bge-129-iii-375",
+        "bger-5a-340-2021",
+        "bge-147-iii-265-e-7-2"
+      ]
+    },
+    {
+      "id": "agreement-approval",
+      "kind": "warning",
+      "when": {
+        "title": [
+          "private-agreement",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eltern können den Kinderunterhalt in einem Vertrag regeln. Für ein minderjähriges Kind wird ein solcher Vertrag aber erst verbindlich, wenn die zuständige KESB ihn genehmigt hat. Wird der Vertrag während eines Gerichtsverfahrens geschlossen, genehmigt ihn das Gericht. Eine nur mündliche oder nur unterschriebene Abmachung ohne Genehmigung kann das Kind nicht wie ein Urteil vollstrecken lassen. Ein genehmigter Vertrag dagegen wirkt bei der Betreibung wie ein Gerichtsentscheid. Reichen Sie Ihre Vereinbarung deshalb schriftlich zur Genehmigung ein."
+      },
+      "sources": [
+        "zgb-287",
+        "bger-5a-630-2015"
+      ]
+    },
+    {
+      "id": "where-married",
+      "kind": "step",
+      "when": {
+        "parents": [
+          "married-separated",
+          "divorcing"
+        ],
+        "title": [
+          "private-agreement",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind die Eltern verheiratet und leben getrennt, legt das Eheschutzgericht auf Antrag eines Ehegatten den Unterhalt für die Kinder fest. In einem Scheidungsverfahren regelt das Scheidungsgericht den Kinderunterhalt zusammen mit Sorge, Obhut und Betreuung. Eine Einigung der Eltern legen Sie dem Gericht vor, das sie prüft."
+      },
+      "sources": [
+        "zgb-176",
+        "zgb-133"
+      ]
+    },
+    {
+      "id": "where-unmarried",
+      "kind": "step",
+      "when": {
+        "parents": [
+          "unmarried",
+          "unknown"
+        ],
+        "title": [
+          "private-agreement",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind die Eltern nicht verheiratet, haben Sie zwei Wege: Sie einigen sich und lassen den Unterhaltsvertrag von der KESB genehmigen. Oder Sie reichen im Namen des Kindes eine Unterhaltsklage beim Gericht ein, am Wohnsitz des Kindes oder des beklagten Elternteils. Ein vorheriger Schlichtungsversuch ist dafür nicht nötig. Es gilt das vereinfachte Verfahren, und das Gericht klärt den Sachverhalt von sich aus ab. Während des Verfahrens kann das Gericht anordnen, dass vorläufig Unterhalt gezahlt wird."
+      },
+      "sources": [
+        "zgb-287",
+        "zgb-279",
+        "zpo-26",
+        "zpo-198",
+        "zpo-295",
+        "zpo-296",
+        "zpo-303"
+      ]
+    },
+    {
+      "id": "act-early",
+      "kind": "warning",
+      "when": {
+        "title": [
+          "private-agreement",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Warten Sie nicht zu lange. Mit einer Klage kann Unterhalt für die Zukunft und nur für ein Jahr vor Einreichung der Klage verlangt werden. Für frühere Zeiträume ohne verbindliche Regelung ist der Unterhalt in der Regel verloren."
+      },
+      "sources": [
+        "zgb-279"
+      ]
+    },
+    {
+      "id": "change",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "change",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ändern sich die Verhältnisse erheblich und dauerhaft, etwa durch Stellenverlust, Krankheit, ein neues Kind oder einen Wechsel der Betreuung, kann ein Elternteil oder das Kind beim Gericht verlangen, dass der Unterhalt neu festgesetzt oder aufgehoben wird. Eine Veränderung führt nicht automatisch zu einem anderen Betrag: Das Gericht wägt die Interessen des Kindes und beider Eltern ab und rechnet dann mit allen aktuellen Zahlen neu. Einigen sich die Eltern über die Änderung, braucht die neue Vereinbarung wiederum die Genehmigung der KESB oder des Gerichts. Für unvorhergesehene, aussergewöhnliche Kosten des Kindes, etwa eine Zahnkorrektur, kann das Gericht einen besonderen Beitrag anordnen."
+      },
+      "sources": [
+        "zgb-286",
+        "zgb-287",
+        "bge-137-iii-604",
+        "bge-137-iii-604-e-4-1-2"
+      ]
+    },
+    {
+      "id": "keep-paying",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "change",
+          "unknown"
+        ],
+        "role": [
+          "paying-parent",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kürzen Sie den Unterhalt nicht eigenmächtig. Der festgelegte Betrag bleibt geschuldet, bis das Gericht oder eine genehmigte neue Vereinbarung ihn ändert, und kann bis dahin betrieben werden. Reichen Sie deshalb rasch ein Abänderungsbegehren ein, sobald sich Ihre Lage dauerhaft verschlechtert. Wer zahlen könnte und trotzdem nicht zahlt, kann sich zudem strafbar machen."
+      },
+      "sources": [
+        "zgb-286",
+        "stgb-217"
+      ]
+    },
+    {
+      "id": "shortfall-catch-up",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "change",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wurde im Entscheid oder im genehmigten Vertrag festgehalten, dass der Unterhalt den Bedarf des Kindes nicht deckt, und verbessert sich die finanzielle Lage des zahlenden Elternteils später aussergewöhnlich, kann das Kind die Fehlbeträge der letzten fünf Jahre nachfordern. Dieser Anspruch muss innert eines Jahres geltend gemacht werden, nachdem das Kind oder sein Vertreter von der Verbesserung erfahren hat."
+      },
+      "sources": [
+        "zgb-286a"
+      ]
+    },
+    {
+      "id": "no-title-first",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "not-paid"
+        ],
+        "title": [
+          "private-agreement",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die kantonale Inkassohilfe und die Betreibung mit Aussicht auf Erfolg setzen einen Unterhaltstitel voraus: einen vollstreckbaren Entscheid oder einen schriftlichen Unterhaltsvertrag, der zur definitiven Rechtsöffnung berechtigt, beim minderjährigen Kind also einen von der KESB oder vom Gericht genehmigten. Für volljährige Kinder genügt ein schriftlicher Unterhaltsvertrag. Fehlt ein solcher Titel, lassen Sie den Unterhalt zuerst verbindlich festlegen."
+      },
+      "sources": [
+        "inkhv-4",
+        "zgb-287"
+      ]
+    },
+    {
+      "id": "collection-help",
+      "kind": "step",
+      "when": {
+        "goal": [
+          "not-paid",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wird der Unterhalt nicht, zu spät, nur teilweise oder unregelmässig bezahlt, können Sie bei der kantonalen Fachstelle für Inkassohilfe an Ihrem Wohnsitz ein Gesuch stellen. Das kann der Elternteil tun, bei dem das Kind lebt, oder das Kind selbst. Die Fachstelle berät Sie, rechnet die Ausstände aus, sucht den Kontakt mit dem zahlungspflichtigen Elternteil, mahnt ihn und leitet nötigenfalls Betreibung oder andere Zwangsmassnahmen ein. Sie hilft für die laufenden und künftigen Beiträge und kann auch bei früheren Ausständen helfen. Sind vier Monatsbeiträge im Rückstand, kann sie dies der Pensionskasse oder Freizügigkeitseinrichtung des Schuldners melden. Während die Fachstelle für Sie tätig ist, müssen Sie mitwirken, Änderungen sofort melden und selbst keine eigenen Inkassoschritte unternehmen. Welche Stelle zuständig ist, bestimmt der Kanton. Fragen Sie bei Ihrer Wohngemeinde nach."
+      },
+      "sources": [
+        "zgb-290",
+        "inkhv-2",
+        "inkhv-3",
+        "inkhv-5",
+        "inkhv-8",
+        "inkhv-10",
+        "inkhv-11",
+        "inkhv-12",
+        "inkhv-13"
+      ]
+    },
+    {
+      "id": "advance-payments",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "not-paid",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zahlt ein Elternteil den Unterhalt nicht, sehen die Kantone Vorschüsse für den Kinderunterhalt vor (Alimentenbevorschussung). Voraussetzungen, Höchstbeträge und Einkommensgrenzen legt jeder Kanton selbst fest und sie unterscheiden sich stark. Zahlt der Kanton, geht der Unterhaltsanspruch in diesem Umfang auf ihn über, und er fordert das Geld beim zahlungspflichtigen Elternteil ein. Erkundigen Sie sich bei Ihrer Wohngemeinde oder der kantonalen Fachstelle, ob und in welcher Höhe Sie Anspruch haben."
+      },
+      "sources": [
+        "zgb-293",
+        "zgb-289"
+      ]
+    },
+    {
+      "id": "enforcement-tools",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "not-paid"
+        ],
+        "title": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Mit einem Gerichtsentscheid oder einem genehmigten Unterhaltsvertrag können Sie die Ausstände betreiben. Erhebt der Schuldner Rechtsvorschlag, kann das Gericht diesen in einem raschen Verfahren beseitigen (definitive Rechtsöffnung). Vernachlässigt ein Elternteil seine Pflicht, kann das Gericht zudem seinen Arbeitgeber oder andere Schuldner anweisen, einen Teil des Lohns direkt für das Kind zu zahlen. Zahlt er beharrlich nicht oder schafft er Vermögen beiseite, kann das Gericht eine Sicherheit für künftige Beiträge verlangen. Die Inkassohilfe unterstützt Sie bei diesen Schritten."
+      },
+      "sources": [
+        "schkg-80",
+        "bger-5a-630-2015",
+        "zgb-291",
+        "zgb-292",
+        "inkhv-12"
+      ]
+    },
+    {
+      "id": "criminal",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "not-paid"
+        ]
+      },
+      "text": {
+        "de": "Wer seine Unterhaltspflicht nicht erfüllt, obwohl er dazu die Mittel hätte oder haben könnte, macht sich strafbar. Das Verfahren wird nur auf Strafantrag eröffnet. Ein Strafverfahren bringt allerdings nicht direkt Geld. Die Inkassohilfe prüft solche Schritte, wenn Gespräche und Mahnungen nichts nützen."
+      },
+      "sources": [
+        "stgb-217",
+        "inkhv-11"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Die Inkassohilfe für Kinderunterhalt ist kostenlos. Kosten Dritter, etwa für Betreibung oder Übersetzung, schiesst das Gemeinwesen vor. Sie gehen zulasten des zahlungspflichtigen Elternteils und können Ihnen nur auferlegt werden, wenn Sie über die nötigen Mittel verfügen. Für die Genehmigung eines Unterhaltsvertrags durch die KESB und für Gerichtsverfahren können Gebühren anfallen. Ihre Höhe regelt jeder Kanton selbst. In familienrechtlichen Verfahren kann das Gericht die Kosten nach Ermessen verteilen und muss sich nicht streng nach dem Ausgang richten. Fehlen Ihnen die Mittel und ist Ihr Begehren nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+      },
+      "sources": [
+        "zgb-290",
+        "inkhv-18",
+        "inkhv-19",
+        "zpo-107",
+        "zpo-117"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn die Eltern sich über den Betrag nicht einigen, wenn hohe oder schwankende Einkommen, Selbständigkeit oder Vermögen im Spiel sind, wenn ein Elternteil im Ausland lebt, wenn das Gericht ein hypothetisches Einkommen anrechnen könnte, wenn es um Unterhalt für ein volljähriges Kind und einen Kontaktabbruch geht, oder wenn Sie eine Klage oder ein Abänderungsbegehren einreichen wollen. Die Berechnung ist anspruchsvoll, und Fehler wirken sich über Jahre aus."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Fachstelle für Inkassohilfe und Alimentenbevorschussung berät Sie unentgeltlich, die Wohngemeinde nennt Ihnen die zuständige Stelle. Die KESB informiert über Unterhaltsverträge und deren Genehmigung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an, und Familien- und Sozialberatungsstellen helfen bei der Vorbereitung."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-276": {
+      "type": "statute",
+      "sr": "210",
+      "article": "276",
+      "label": "ZGB · Art. 276",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_276",
+      "sha256": "48f78ab24517e824a89d2e1afa382f215451da935a8582d7803d527e0e3a5696"
+    },
+    "zgb-276a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "276a",
+      "label": "ZGB · Art. 276a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_276a",
+      "sha256": "87a77042e1f82a5b633161d1f22665a768363da0a844d7c8da08c4acdc5514b9"
+    },
+    "zgb-277": {
+      "type": "statute",
+      "sr": "210",
+      "article": "277",
+      "label": "ZGB · Art. 277",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_277",
+      "sha256": "7f90d09a500ba7bb2d10f69453518f8832ee2c89a8699472e950fa25556f8324"
+    },
+    "zgb-279": {
+      "type": "statute",
+      "sr": "210",
+      "article": "279",
+      "label": "ZGB · Art. 279",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_279",
+      "sha256": "43d58e39f311018c18726a35d31fcf5c76c7c3cbf3ed96fc0e21ab04cd89b3b8"
+    },
+    "zgb-285": {
+      "type": "statute",
+      "sr": "210",
+      "article": "285",
+      "label": "ZGB · Art. 285",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_285",
+      "sha256": "5c6ef032d7c8dbde06f607a1574b4b8e33c02962e6fca75e3948b02242444333"
+    },
+    "zgb-285a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "285a",
+      "label": "ZGB · Art. 285a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_285a",
+      "sha256": "4e2f4426513c1fba982946330c8878bebe8efa3a2989092c53cf1bf6adf86fed"
+    },
+    "zgb-286": {
+      "type": "statute",
+      "sr": "210",
+      "article": "286",
+      "label": "ZGB · Art. 286",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_286",
+      "sha256": "f9e542a9be342212dabf03dbd7e427dab3c3d8c895a133a8ef30e225bdea783f"
+    },
+    "zgb-286a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "286a",
+      "label": "ZGB · Art. 286a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_286a",
+      "sha256": "0f9b5a3ce77cb383cad675de8c73dceeb144f8e42c89434d9f873bc77b26e5f3"
+    },
+    "zgb-287": {
+      "type": "statute",
+      "sr": "210",
+      "article": "287",
+      "label": "ZGB · Art. 287",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_287",
+      "sha256": "393f8d418a7d00ef26b616701bf3ab54d2d1f8597fa3544439812a941ac0fb30"
+    },
+    "zgb-289": {
+      "type": "statute",
+      "sr": "210",
+      "article": "289",
+      "label": "ZGB · Art. 289",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_289",
+      "sha256": "cf4192556569629630043189acf2cdff74b54d7151e1d7692bb16ea2f485a01a"
+    },
+    "zgb-290": {
+      "type": "statute",
+      "sr": "210",
+      "article": "290",
+      "label": "ZGB · Art. 290",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_290",
+      "sha256": "3fb48b96de2eca5d1fb7e9d8fd9323929acc6db4bea792b19380fec8af933bb3"
+    },
+    "zgb-291": {
+      "type": "statute",
+      "sr": "210",
+      "article": "291",
+      "label": "ZGB · Art. 291",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_291",
+      "sha256": "096af5bfe539d8597cfcc252e2328274659ef89912aea54563fd210c29005690"
+    },
+    "zgb-292": {
+      "type": "statute",
+      "sr": "210",
+      "article": "292",
+      "label": "ZGB · Art. 292",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_292",
+      "sha256": "22151080fa0d46fe26b84fb9f1be04a79a75516026bcc0405b1f96ddff76968a"
+    },
+    "zgb-293": {
+      "type": "statute",
+      "sr": "210",
+      "article": "293",
+      "label": "ZGB · Art. 293",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_293",
+      "sha256": "fb5b18566b61e6fe2159b5855aa8d397c5ce3259e66f677afecaf162b12c71dc"
+    },
+    "zgb-133": {
+      "type": "statute",
+      "sr": "210",
+      "article": "133",
+      "label": "ZGB · Art. 133",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_133",
+      "sha256": "c9e500b2f537b495412371ab55a49d5dabb3bb78eabccf386deda06f113b96e7"
+    },
+    "zgb-176": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176",
+      "label": "ZGB · Art. 176",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176",
+      "sha256": "9fee2770069d0fa1f8cd5e0cebcd2bd02389920b69531cec314dcbe7877bbd54"
+    },
+    "inkhv-2": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "2",
+      "label": "InkHV · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_2",
+      "sha256": "0cad7e6ddcb4e8da9013057b47d7cc3a0c91454f636102ebae55fa264c64b881"
+    },
+    "inkhv-3": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "3",
+      "label": "InkHV · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_3",
+      "sha256": "9150f48c1ec4280e92bdd7fc48d20710ba4fb32a7a46bc27c719f7c1203e1f28"
+    },
+    "inkhv-4": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "4",
+      "label": "InkHV · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_4",
+      "sha256": "de2d5b29e1681c531531737e744414d11817ac88d19a79163bf5b95f37ca8881"
+    },
+    "inkhv-5": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "5",
+      "label": "InkHV · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_5",
+      "sha256": "e0b3b13201f546c3ba955265db44c9a361ff4de6a050683a67a11072cb9e486b"
+    },
+    "inkhv-8": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "8",
+      "label": "InkHV · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_8",
+      "sha256": "46619b1765cfcab849db65ceb66db079f197844d9063b7c63968bd3af3aba61c"
+    },
+    "inkhv-10": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "10",
+      "label": "InkHV · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_10",
+      "sha256": "9d6320aa56e2fc52e3c15fe985417399715e39e1cff586ea2d6d700c81372850"
+    },
+    "inkhv-11": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "11",
+      "label": "InkHV · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_11",
+      "sha256": "6534163bae3ba6c52c9029f8efbdcf074a25183f901fc587b6417373fe1a1172"
+    },
+    "inkhv-12": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "12",
+      "label": "InkHV · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_12",
+      "sha256": "57a9f90a6b517d028c572bc556c7dabd4a2d64aaf381462ad04a9d771b77103e"
+    },
+    "inkhv-13": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "13",
+      "label": "InkHV · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_13",
+      "sha256": "309bb41c18f4bf290279ba39f9266c07a4a434c71999d5cdc530e581b48b3c2d"
+    },
+    "inkhv-18": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "18",
+      "label": "InkHV · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_18",
+      "sha256": "81141dbdda0c2a0a1060204f5506209c64e4e2c36de4cceaad7e01b7f3e7b7db"
+    },
+    "inkhv-19": {
+      "type": "statute",
+      "sr": "211.214.32",
+      "article": "19",
+      "label": "InkHV · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2020/4/de#art_19",
+      "sha256": "65c857d7adf7301465fc12bda65cba44037ac316058b19adbb219324ea030af5"
+    },
+    "zpo-26": {
+      "type": "statute",
+      "sr": "272",
+      "article": "26",
+      "label": "ZPO · Art. 26",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_26",
+      "sha256": "466879a52cf36716135c03ae1bb7842d89806193b3de37d6c2f3bc93b03db69f"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-198": {
+      "type": "statute",
+      "sr": "272",
+      "article": "198",
+      "label": "ZPO · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_198",
+      "sha256": "f9a9e217d9f9e15c677af3b0e7b39597f5a276afa8fe7fd5e9d6086dcf7d36c7"
+    },
+    "zpo-295": {
+      "type": "statute",
+      "sr": "272",
+      "article": "295",
+      "label": "ZPO · Art. 295",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_295",
+      "sha256": "1920e7d79c2cac6f222f0a6a1c4648329763570d03baee6f34b2bdeb54f944bb"
+    },
+    "zpo-296": {
+      "type": "statute",
+      "sr": "272",
+      "article": "296",
+      "label": "ZPO · Art. 296",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_296",
+      "sha256": "f41c367d1e10fb8e7a997418cd65c933b8a9e1e41cc89c9b6acf592cd9a9f4e3"
+    },
+    "zpo-303": {
+      "type": "statute",
+      "sr": "272",
+      "article": "303",
+      "label": "ZPO · Art. 303",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_303",
+      "sha256": "d983edc3bc329e8bd7176c3887ee4e194c87cb8226b968d8b99a6ab6524aba07"
+    },
+    "schkg-80": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "80",
+      "label": "SchKG · Art. 80",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_80",
+      "sha256": "3d3a621d037cc71df9aeffc97b9be2bcd399798bef4792e8a5eeda0f8fa0f5ab"
+    },
+    "stgb-217": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "217",
+      "label": "StGB · Art. 217",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_217",
+      "sha256": "4fc661843883d2b4ed93222cca1e8ad4afd868d3643b86f6083d832a9e65e7f7"
+    },
+    "bge-147-iii-265-e-5-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "5.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-5-3"
+    },
+    "bge-147-iii-265-e-5-5": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-5-5"
+    },
+    "bge-147-iii-265-e-6-6": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "6.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-6-6"
+    },
+    "bge-147-iii-265-e-7-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "7.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-7-4"
+    },
+    "bge-144-iii-377": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_III_377",
+      "citation": "BGE 144 III 377",
+      "e": "7.1.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_III_377#e-7-1-4"
+    },
+    "bge-144-iii-481": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_III_481",
+      "citation": "BGE 144 III 481",
+      "e": "4.7.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_III_481#e-4-7-6"
+    },
+    "bge-129-iii-375": {
+      "type": "decision",
+      "decision_id": "bge_BGE_129_III_375",
+      "citation": "BGE 129 III 375",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_129_III_375#e-4-2"
+    },
+    "bge-137-iii-604": {
+      "type": "decision",
+      "decision_id": "bge_BGE_137_III_604",
+      "citation": "BGE 137 III 604",
+      "e": "4.1.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_137_III_604#e-4-1-1"
+    },
+    "bger-5a-630-2015": {
+      "type": "decision",
+      "decision_id": "bger_5A_630_2015",
+      "citation": "BGer 5A_630/2015 vom 9. Februar 2016",
+      "e": "2.2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_630_2015#e-2-2-2"
+    },
+    "bge-147-iii-265-e-6-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "6.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-6-2"
+    },
+    "bge-147-iii-265-e-6-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "6.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-6-4"
+    },
+    "bge-147-iii-265-e-7-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_265",
+      "citation": "BGE 147 III 265",
+      "e": "7.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_265#e-7-2"
+    },
+    "bge-137-iii-604-e-4-1-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_137_III_604",
+      "citation": "BGE 137 III 604",
+      "e": "4.1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_137_III_604#e-4-1-2"
+    },
+    "bger-5a-340-2021": {
+      "type": "decision",
+      "decision_id": "bger_5A_340_2021",
+      "citation": "BGer 5A_340/2021 vom 16. November 2021",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_340_2021#e-3-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Die Folgen einer Scheidung (Unterhalt, Inkassohilfe, Vorschüsse)"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/folgen-einer-scheidung/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Unverheiratete Paare und Kinder"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/heirat--konkubinat--partenariat/konkubinat/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

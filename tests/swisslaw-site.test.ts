@@ -4,7 +4,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { SituationSchema, type Situation } from '../lib/swisslaw-chat/knowledge';
 import { checkedFacts, LETTERS, parseRoute, searchSituations, situationHash, sourceLabel, sourceUrl, unreviewedTranslation, visibleInChannel, withPublishedLanguages } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, LETTER_TEXT, SITE_TEXT } from '../lib/swisslaw-chat/site-i18n';
-import { LATER, WAVE_1 } from '../lib/swisslaw-chat/coverage';
+import { LATER, WAVE_1, WAVE_2 } from '../lib/swisslaw-chat/coverage';
 
 const dir = new URL('../knowledge/situations/', import.meta.url);
 const all: Situation[] = readdirSync(dir).filter(f => f.endsWith('.json'))
@@ -51,9 +51,9 @@ test('interface text exists in all five languages', () => {
 });
 
 test('coverage lists every situation once, in all five languages', () => {
-  const ids = WAVE_1.flatMap(g => g.topics.map(x => x.id));
+  const ids = [...WAVE_1, ...WAVE_2].flatMap(g => g.topics.map(x => x.id));
   assert.deepEqual([...ids].sort(), all.map(s => s.id).sort());
-  for (const g of [...WAVE_1, ...LATER]) {
+  for (const g of [...WAVE_1, ...WAVE_2, ...LATER]) {
     const label = g.label ?? AREA_TEXT[g.area];
     for (const lang of ['de', 'fr', 'it', 'rm', 'en'] as const) {
       assert.ok(label?.[lang], `${g.area}.${lang}`);

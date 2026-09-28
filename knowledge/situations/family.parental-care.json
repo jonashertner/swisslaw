@@ -1,0 +1,1184 @@
+{
+  "schema": 1,
+  "id": "family.parental-care",
+  "domain": "family",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Sorgerecht und Besuchsrecht: Was gilt für unser Kind?"
+  },
+  "summary": {
+    "de": "Die gemeinsame elterliche Sorge ist die Regel, auch nach einer Trennung oder Scheidung und auch für nicht verheiratete Eltern, die eine gemeinsame Erklärung abgeben. Wer das Kind betreut, wie oft der andere Elternteil es sieht und ob es umziehen darf, richtet sich nach dem Wohl des Kindes. Zuständig ist bei verheirateten Eltern in einem Eheschutz- oder Scheidungsverfahren das Gericht, sonst meist die KESB. Für Rechtsmittel gilt meist eine Frist von 30 Tagen, bei vorsorglichen Massnahmen oft nur von 10 Tagen."
+  },
+  "examples": {
+    "de": [
+      "Wir trennen uns. Wer bekommt das Sorgerecht für unsere Tochter?",
+      "Wir sind nicht verheiratet. Wie bekommen wir das gemeinsame Sorgerecht?",
+      "Darf meine Ex-Frau mit den Kindern nach Deutschland ziehen?",
+      "De Vater laht mi d Chind nöd gseh, was chan ich mache?",
+      "Ich möchte die Kinder zur Hälfte betreuen. Habe ich Anspruch auf alternierende Obhut?",
+      "Mein Sohn ist 13 und will nicht mehr zu seinem Vater. Muss er gehen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Elterliche Sorge, Obhut und Betreuung, alternierende Obhut, Besuchsrecht (persönlicher Verkehr), Umzug mit dem Kind im In- und Ausland, Anhörung und Vertretung des Kindes sowie die Zuständigkeit von Gericht und KESB, für verheiratete, getrennte, geschiedene und nicht verheiratete Eltern in der Schweiz."
+    },
+    "excludes": {
+      "de": "Die Höhe des Kindesunterhalts, die Anerkennung oder Anfechtung der Vaterschaft, Kindesschutzmassnahmen wie die Unterbringung ausserhalb der Familie oder den Entzug der elterlichen Sorge, das Besuchsrecht von Grosseltern und anderen Dritten, Adoption sowie Fragen der internationalen Zuständigkeit im Einzelnen."
+    }
+  },
+  "facts": [
+    {
+      "key": "relationship",
+      "question": {
+        "de": "Wie ist Ihre Beziehung zum anderen Elternteil?"
+      },
+      "options": [
+        {
+          "value": "married",
+          "label": {
+            "de": "Wir sind verheiratet und leben zusammen"
+          }
+        },
+        {
+          "value": "separated",
+          "label": {
+            "de": "Wir sind verheiratet, leben aber getrennt oder sind im Scheidungsverfahren"
+          }
+        },
+        {
+          "value": "divorced",
+          "label": {
+            "de": "Wir sind geschieden"
+          }
+        },
+        {
+          "value": "unmarried",
+          "label": {
+            "de": "Wir sind nicht miteinander verheiratet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "custody",
+      "question": {
+        "de": "Wer hat heute die elterliche Sorge für das Kind?"
+      },
+      "help": {
+        "de": "Die elterliche Sorge ist das Recht und die Pflicht, die wichtigen Entscheidungen für das Kind zu treffen. Sie steht in der Scheidungs- oder Trennungsvereinbarung, im Urteil oder in der Erklärung beim Zivilstandsamt oder bei der KESB."
+      },
+      "options": [
+        {
+          "value": "joint",
+          "label": {
+            "de": "Wir beide gemeinsam"
+          }
+        },
+        {
+          "value": "sole-me",
+          "label": {
+            "de": "Ich allein"
+          }
+        },
+        {
+          "value": "sole-other",
+          "label": {
+            "de": "Der andere Elternteil allein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "topic",
+      "question": {
+        "de": "Worum geht es Ihnen vor allem?"
+      },
+      "options": [
+        {
+          "value": "custody",
+          "label": {
+            "de": "Wer die elterliche Sorge hat oder bekommt"
+          }
+        },
+        {
+          "value": "care",
+          "label": {
+            "de": "Bei wem das Kind wohnt und wer es wie viel betreut"
+          }
+        },
+        {
+          "value": "contact",
+          "label": {
+            "de": "Das Besuchsrecht"
+          }
+        },
+        {
+          "value": "move",
+          "label": {
+            "de": "Einen Umzug mit dem Kind"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht oder es geht um mehreres"
+          }
+        }
+      ]
+    },
+    {
+      "key": "move_where",
+      "question": {
+        "de": "Wohin soll das Kind umziehen?"
+      },
+      "options": [
+        {
+          "value": "abroad",
+          "label": {
+            "de": "Ins Ausland"
+          }
+        },
+        {
+          "value": "switzerland",
+          "label": {
+            "de": "Innerhalb der Schweiz"
+          }
+        },
+        {
+          "value": "no-move",
+          "label": {
+            "de": "Es ist kein Umzug geplant"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "contact_problem",
+      "question": {
+        "de": "Gibt es ein Problem mit dem Besuchsrecht?"
+      },
+      "options": [
+        {
+          "value": "no-rule",
+          "label": {
+            "de": "Es gibt noch keine Regelung"
+          }
+        },
+        {
+          "value": "blocked",
+          "label": {
+            "de": "Der andere Elternteil verhindert die Besuche"
+          }
+        },
+        {
+          "value": "child-refuses",
+          "label": {
+            "de": "Das Kind will nicht mehr zum anderen Elternteil"
+          }
+        },
+        {
+          "value": "safety",
+          "label": {
+            "de": "Ich mache mir Sorgen um die Sicherheit des Kindes bei den Besuchen"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, kein besonderes Problem"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "child_age",
+      "question": {
+        "de": "Wie alt ist das Kind?"
+      },
+      "options": [
+        {
+          "value": "under-6",
+          "label": {
+            "de": "Jünger als 6 Jahre"
+          }
+        },
+        {
+          "value": "age-6-11",
+          "label": {
+            "de": "6 bis 11 Jahre"
+          }
+        },
+        {
+          "value": "age-12-plus",
+          "label": {
+            "de": "12 Jahre oder älter"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "agreement",
+      "question": {
+        "de": "Sind Sie sich mit dem anderen Elternteil einig?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, wir wollen es nur richtig festhalten"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, wir sind uns nicht einig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "child-welfare",
+      "kind": "rule",
+      "text": {
+        "de": "Bei allen Fragen zu Sorgerecht, Betreuung, Besuchsrecht und Umzug entscheidet das Wohl des Kindes. Was sich die Eltern wünschen, tritt dahinter zurück. Gericht und KESB prüfen deshalb auch eine Lösung, auf die Sie sich geeinigt haben, darauf, ob sie für das Kind gut ist."
+      },
+      "sources": [
+        "zgb-296",
+        "zgb-133",
+        "bge-142-iii-612"
+      ]
+    },
+    {
+      "id": "joint-custody",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "custody",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die gemeinsame elterliche Sorge ist die Regel, egal ob die Eltern verheiratet, getrennt, geschieden oder nie verheiratet waren. Eine Trennung oder Scheidung ändert daran nichts von selbst. Das Gericht oder die KESB gibt die Sorge nur dann einem Elternteil allein, wenn das für das Wohl des Kindes nötig ist. Das ist eine eng begrenzte Ausnahme. Gewöhnliche Streitigkeiten, wie sie bei einer Trennung vorkommen, genügen nicht. Es braucht einen schweren und andauernden Konflikt oder eine dauerhafte Unfähigkeit, miteinander zu reden, die dem Kind schadet, und die Alleinsorge muss die Lage für das Kind verbessern. Oft reicht es auch, wenn das Gericht oder die KESB nur über eine einzelne Streitfrage entscheidet, etwa die Schule."
+      },
+      "sources": [
+        "zgb-296",
+        "zgb-298",
+        "zgb-298b",
+        "zgb-298d",
+        "bge-141-iii-472",
+        "bge-141-iii-472-4-7"
+      ]
+    },
+    {
+      "id": "what-custody-means",
+      "kind": "rule",
+      "when": {
+        "custody": [
+          "joint",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gemeinsame Sorge heisst: Wichtige Entscheidungen treffen Sie zusammen, zum Beispiel über Schule und Ausbildung, Religion, grössere medizinische Eingriffe oder einen Umzug des Kindes. Der Elternteil, bei dem das Kind gerade ist, darf allein entscheiden, wenn es um den Alltag geht, wenn es dringend ist oder wenn der andere Elternteil mit vernünftigem Aufwand nicht erreichbar ist."
+      },
+      "sources": [
+        "zgb-301",
+        "zgb-301a"
+      ]
+    },
+    {
+      "id": "unmarried-declaration",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "unmarried",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie nicht verheiratet, entsteht die gemeinsame Sorge nicht automatisch. Sie geben dazu zusammen eine Erklärung ab: beim Zivilstandsamt, wenn der Vater das Kind anerkennt, oder später bei der KESB am Wohnsitz des Kindes. Darin bestätigen Sie, dass Sie gemeinsam Verantwortung übernehmen wollen und sich über Betreuung, Kontakt und Unterhalt des Kindes verständigt haben. Solange diese Erklärung fehlt, hat die Mutter die elterliche Sorge allein. Vorher können Sie sich von der KESB beraten lassen."
+      },
+      "sources": [
+        "zgb-298a"
+      ]
+    },
+    {
+      "id": "unmarried-refusal",
+      "kind": "step",
+      "when": {
+        "relationship": [
+          "unmarried",
+          "unknown"
+        ],
+        "custody": [
+          "sole-me",
+          "sole-other",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Weigert sich ein Elternteil, die Erklärung abzugeben, kann sich der andere an die KESB am Wohnsitz des Kindes wenden. Die KESB ordnet die gemeinsame Sorge an, ausser das Wohl des Kindes verlangt, dass die Mutter die Sorge allein behält oder dass sie dem Vater allein übertragen wird. Sie regelt dabei auch die anderen strittigen Fragen wie Betreuung und Kontakt. Ist beim Gericht eine Klage auf Kindesunterhalt hängig, entscheidet das Gericht über alles zusammen."
+      },
+      "sources": [
+        "zgb-298b"
+      ]
+    },
+    {
+      "id": "info-rights",
+      "kind": "rule",
+      "when": {
+        "custody": [
+          "sole-other",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie die elterliche Sorge nicht, sollen Sie trotzdem über besondere Ereignisse im Leben Ihres Kindes informiert und vor wichtigen Entscheidungen über seine Entwicklung angehört werden. Sie dürfen bei Lehrpersonen, Ärztinnen und Ärzten und anderen Betreuungspersonen selbst Auskunft über das Befinden und die Entwicklung des Kindes verlangen."
+      },
+      "sources": [
+        "zgb-275a"
+      ]
+    },
+    {
+      "id": "care-arrangement",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "care",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die elterliche Sorge ist nicht dasselbe wie die Obhut. Die Obhut betrifft den Alltag: bei wem das Kind lebt und wer es täglich betreut. Leben die Eltern getrennt und einigen sie sich nicht, legt das Gericht oder die KESB fest, wer die Obhut hat und wie der Kontakt oder die Betreuungsanteile des anderen Elternteils aussehen. Dabei berücksichtigt es das Recht des Kindes, regelmässig mit beiden Eltern Kontakt zu haben."
+      },
+      "sources": [
+        "zgb-298",
+        "zgb-298b",
+        "zgb-298d"
+      ]
+    },
+    {
+      "id": "alternating-care",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "care",
+          "unknown"
+        ],
+        "custody": [
+          "joint",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie die gemeinsame Sorge und verlangt ein Elternteil oder das Kind eine abwechselnde (alternierende) Betreuung, muss das Gericht oder die KESB diese Möglichkeit ernsthaft prüfen. Einen automatischen Anspruch darauf gibt es nicht. Entscheidend ist eine Einschätzung im Einzelfall, ob dieses Modell voraussichtlich dem Kind dient. Voraussetzung ist, dass beide Eltern erziehungsfähig sind. Wichtig sind ausserdem: ob die Eltern in Kinderfragen miteinander reden und zusammenarbeiten können, wie weit die beiden Wohnungen auseinanderliegen, wie das Kind bisher betreut wurde, ob die Eltern selbst betreuen können, das Alter des Kindes, seine Geschwister, sein Umfeld und sein eigener Wunsch. Dass ein Elternteil die alternierende Obhut ablehnt, schliesst sie für sich allein noch nicht aus."
+      },
+      "sources": [
+        "zgb-298",
+        "zgb-298b",
+        "bge-142-iii-612",
+        "bge-142-iii-612-4-3"
+      ]
+    },
+    {
+      "id": "contact-right",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "contact",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Elternteil, der die Sorge oder die Obhut nicht hat, und das Kind haben gegenseitig ein Recht auf angemessenen persönlichen Kontakt. Dazu gehören Besuche, Wochenenden und Ferien, aber auch Telefon oder Videoanrufe. Beide Eltern müssen alles vermeiden, was die Beziehung des Kindes zum anderen Elternteil stört oder dessen Erziehung erschwert. Sie können verlangen, dass Ihr Besuchsrecht verbindlich geregelt wird."
+      },
+      "sources": [
+        "zgb-273",
+        "zgb-274"
+      ]
+    },
+    {
+      "id": "contact-limits",
+      "kind": "warning",
+      "when": {
+        "topic": [
+          "contact",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Besuchsrecht darf nicht schon deshalb eingeschränkt werden, weil die Eltern zerstritten sind. Eine Einschränkung ist nur gerechtfertigt, wenn konkrete Umstände zeigen, dass der übliche Kontakt das Wohl des Kindes gefährden würde. Ganz verweigert oder entzogen werden kann das Besuchsrecht nur als letztes Mittel, etwa wenn das Kind gefährdet ist, wenn der Elternteil sein Recht missbraucht oder wenn er sich nicht ernsthaft um das Kind gekümmert hat. Auch begleitete Besuche, bei denen eine Fachperson dabei ist, setzen konkrete Anhaltspunkte für eine Gefährdung voraus. Eine bloss abstrakte Befürchtung reicht nicht. Mildere Lösungen gehen vor."
+      },
+      "sources": [
+        "zgb-274",
+        "bge-131-iii-209",
+        "bge-122-iii-404"
+      ]
+    },
+    {
+      "id": "no-rule-yet",
+      "kind": "warning",
+      "when": {
+        "contact_problem": [
+          "no-rule"
+        ]
+      },
+      "text": {
+        "de": "Gibt es noch keine Regelung durch Gericht oder KESB, kann der Kontakt nicht gegen den Willen des Elternteils durchgesetzt werden, der die Sorge oder Obhut hat. Beantragen Sie deshalb eine Regelung: bei der KESB am Wohnsitz des Kindes oder, wenn ein Eheschutz- oder Scheidungsverfahren läuft, beim Gericht."
+      },
+      "sources": [
+        "zgb-275",
+        "zgb-273"
+      ]
+    },
+    {
+      "id": "contact-blocked",
+      "kind": "warning",
+      "when": {
+        "contact_problem": [
+          "blocked"
+        ]
+      },
+      "text": {
+        "de": "Verhindert der andere Elternteil die geregelten Besuche, halten Sie die ausgefallenen Termine schriftlich fest und wenden Sie sich an die KESB. Sie kann die Eltern ermahnen und ihnen Weisungen erteilen. Holen Sie das Kind nicht eigenmächtig. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt bestimmen darf, oder es nach einem Besuch nicht zurückbringt, kann sich strafbar machen."
+      },
+      "sources": [
+        "zgb-273",
+        "zgb-274",
+        "stgb-220"
+      ]
+    },
+    {
+      "id": "child-refuses",
+      "kind": "rule",
+      "when": {
+        "contact_problem": [
+          "child-refuses"
+        ]
+      },
+      "text": {
+        "de": "Der Wille des Kindes zählt, aber das Kind entscheidet nicht allein, ob Kontakt stattfindet. Wie viel Gewicht seine Meinung hat, hängt vom Alter ab, davon, wie beständig es sie äussert, und ob es sie selbst gebildet hat. Ab etwa 12 Jahren gehen die Gerichte in der Regel davon aus, dass ein Kind sich dazu eine eigene Meinung bilden kann. Lehnt das Kind den Kontakt ab, wird geprüft, warum. Lehnt ein urteilsfähiges Kind den Kontakt wegen eigener Erfahrungen entschieden ab, wird er nicht erzwungen. Eine ablehnende Haltung allein bedeutet aber noch nicht, dass das Kind durch die Besuche gefährdet ist."
+      },
+      "sources": [
+        "bger-5a-670-2023",
+        "bger-5a-670-2023-5-2-3"
+      ]
+    },
+    {
+      "id": "safety",
+      "kind": "escalate",
+      "when": {
+        "contact_problem": [
+          "safety"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie konkrete Hinweise auf Gewalt, Missbrauch oder eine andere Gefahr für das Kind, wenden Sie sich sofort an die KESB. Sie kann den Kontakt einschränken, begleitete Besuche anordnen oder ihn aussetzen. In einer akuten Notlage rufen Sie die Polizei (117). Lassen Sie sich in dieser Lage rasch beraten, zum Beispiel bei einer Opferberatungsstelle."
+      },
+      "sources": [
+        "zgb-274",
+        "bge-122-iii-404"
+      ]
+    },
+    {
+      "id": "move-rule",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "move",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die elterliche Sorge umfasst das Recht, zu bestimmen, wo das Kind wohnt. Bei gemeinsamer Sorge braucht ein Elternteil, der mit dem Kind umziehen will, die Zustimmung des anderen oder einen Entscheid des Gerichts oder der KESB, wenn das Kind ins Ausland ziehen soll oder wenn der Umzug die Betreuung oder den Kontakt durch den anderen Elternteil erheblich erschwert. Hat ein Elternteil die Sorge allein, darf er selbst entscheiden, muss den anderen aber rechtzeitig informieren. Das gilt auch, wenn ein Elternteil nur seinen eigenen Wohnsitz verlegt."
+      },
+      "sources": [
+        "zgb-301a"
+      ]
+    },
+    {
+      "id": "move-in-switzerland",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "move",
+          "unknown"
+        ],
+        "move_where": [
+          "switzerland",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei einem Umzug innerhalb der Schweiz kommt es vor allem darauf an, ob die bisherige Betreuung unverändert oder mit kleinen Anpassungen weitergehen kann. Bei alternierender Obhut kann schon eine kurze Distanz erheblich sein. Auch wenn der andere Elternteil das Kind regelmässig in die Krippe oder Schule bringt oder dort abholt, ist die Schwelle rasch erreicht."
+      },
+      "sources": [
+        "zgb-301a",
+        "bge-142-iii-502-2-4-1"
+      ]
+    },
+    {
+      "id": "move-decision",
+      "kind": "rule",
+      "when": {
+        "topic": [
+          "move",
+          "unknown"
+        ],
+        "custody": [
+          "joint",
+          "unknown"
+        ],
+        "agreement": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gericht und KESB fragen nicht, ob es für das Kind besser wäre, wenn beide Eltern am bisherigen Ort blieben. Die Eltern dürfen grundsätzlich wegziehen, ihre Gründe werden in der Regel nicht geprüft. Entschieden wird, ob das Kind besser mit dem wegziehenden Elternteil geht oder beim anderen bleibt. Ausgangspunkt ist die bisherige Betreuung: Hat der wegziehende Elternteil das Kind bisher ganz oder überwiegend betreut, wird der Umzug meistens erlaubt. Haben beide etwa gleich viel betreut, entscheiden weitere Umstände wie Umfeld, Stabilität, Sprache, Schule, Gesundheit und die Meinung älterer Kinder. Zieht ein Elternteil ohne plausiblen Grund weg, nur um das Kind vom anderen zu entfremden, kann das dazu führen, dass das Kind beim anderen Elternteil bleibt."
+      },
+      "sources": [
+        "zgb-301a",
+        "bge-142-iii-502",
+        "bge-142-iii-481"
+      ]
+    },
+    {
+      "id": "move-abroad",
+      "kind": "warning",
+      "when": {
+        "topic": [
+          "move",
+          "unknown"
+        ],
+        "move_where": [
+          "abroad",
+          "unknown"
+        ],
+        "custody": [
+          "joint",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ziehen Sie bei gemeinsamer Sorge nicht ohne Zustimmung des anderen Elternteils oder ohne Entscheid des Gerichts oder der KESB mit dem Kind ins Ausland. Ein solcher Wegzug gilt als widerrechtlich und kann ein Verfahren auf Rückführung des Kindes nach dem Haager Kindesentführungsübereinkommen auslösen. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt mitbestimmt, kann sich zudem strafbar machen. Planen Sie den Umzug früh und holen Sie die Zustimmung schriftlich ein."
+      },
+      "sources": [
+        "zgb-301a",
+        "hkue-3",
+        "stgb-220"
+      ]
+    },
+    {
+      "id": "move-adjust",
+      "kind": "step",
+      "when": {
+        "topic": [
+          "move",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Umzug verlangt meist eine neue Regelung von Betreuung, Besuchsrecht und Unterhalt. Versuchen Sie zuerst, sich mit dem anderen Elternteil darüber zu einigen, und halten Sie die Einigung schriftlich fest. Gelingt das nicht, entscheidet das Gericht oder die KESB, in der Regel zusammen mit der Frage, ob der Umzug erlaubt wird."
+      },
+      "sources": [
+        "zgb-301a",
+        "bge-142-iii-502-2-6"
+      ]
+    },
+    {
+      "id": "child-hearing",
+      "kind": "rule",
+      "when": {
+        "child_age": [
+          "age-6-11",
+          "age-12-plus",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Kind wird vom Gericht oder von der KESB oder von einer beauftragten Fachperson in geeigneter Form persönlich angehört, ausser sein Alter oder andere wichtige Gründe sprechen dagegen. Als Richtlinie ist eine Anhörung ab dem vollendeten sechsten Altersjahr möglich. Im Protokoll steht nur, was für den Entscheid wesentlich ist, und die Eltern werden darüber informiert. Vor Gericht findet die Anhörung nicht per Video statt. Ein urteilsfähiges Kind kann sich mit einer Beschwerde wehren, wenn es nicht angehört wird."
+      },
+      "sources": [
+        "zpo-298",
+        "zgb-314a",
+        "bge-131-iii-553"
+      ]
+    },
+    {
+      "id": "child-hearing-young",
+      "kind": "rule",
+      "when": {
+        "child_age": [
+          "under-6"
+        ]
+      },
+      "text": {
+        "de": "Auch ein jüngeres Kind kann angehört werden, wenn die Umstände es nahelegen, etwa wenn es kurz vor dem sechsten Geburtstag steht und seine älteren Geschwister angehört werden. Das Gericht oder die KESB entscheidet darüber."
+      },
+      "sources": [
+        "zpo-298",
+        "zgb-314a",
+        "bge-131-iii-553"
+      ]
+    },
+    {
+      "id": "child-representation",
+      "kind": "rule",
+      "when": {
+        "agreement": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn nötig, erhält das Kind eine eigene Vertretung, eine in sozialen und rechtlichen Fragen erfahrene Person. Das wird vor allem geprüft, wenn die Eltern Unterschiedliches zur Sorge, zur Obhut, zu wichtigen Fragen des Kontakts oder zur Betreuung beantragen. Verlangt ein urteilsfähiges Kind vor Gericht eine Vertretung, muss sie angeordnet werden. Die Vertretung kann Anträge stellen und Rechtsmittel ergreifen."
+      },
+      "sources": [
+        "zpo-299",
+        "zgb-314abis"
+      ]
+    },
+    {
+      "id": "agreement",
+      "kind": "step",
+      "when": {
+        "agreement": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie sich einig, halten Sie Ihre Regelung zu Sorge, Obhut, Betreuung, Kontakt und Unterhalt schriftlich fest und lassen Sie sie vom Gericht oder der KESB genehmigen. Nur eine genehmigte Regelung ist verbindlich und kann durchgesetzt werden. Das Gericht oder die KESB prüft, ob sie dem Wohl des Kindes entspricht."
+      },
+      "sources": [
+        "zgb-133",
+        "zgb-134",
+        "zgb-298a"
+      ]
+    },
+    {
+      "id": "mediation",
+      "kind": "step",
+      "when": {
+        "agreement": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie sich nicht einig, kann eine Mediation helfen, eine Lösung zu finden, mit der beide leben können. Gericht und KESB können die Eltern auffordern, eine Mediation zu versuchen. Eine Regelung, hinter der beide Eltern stehen, ist für das Kind meist besser als ein Entscheid gegen einen von Ihnen."
+      },
+      "sources": [
+        "zpo-297",
+        "zgb-314"
+      ]
+    },
+    {
+      "id": "where-married",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "married",
+          "separated",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie verheiratet und leben getrennt oder läuft ein Scheidungsverfahren, regelt das Gericht im Eheschutz- oder Scheidungsverfahren die Kinderbelange: elterliche Sorge, Obhut, Kontakt oder Betreuungsanteile und Unterhalt. Es trifft auch nötige Schutzmassnahmen für das Kind. Die KESB bleibt zuständig, wenn sie schon vorher ein Verfahren begonnen hat oder wenn sofort gehandelt werden muss und das Gericht nicht rechtzeitig entscheiden kann."
+      },
+      "sources": [
+        "zgb-176",
+        "zgb-133",
+        "zgb-275",
+        "zgb-315a"
+      ]
+    },
+    {
+      "id": "where-divorced",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "divorced",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie geschieden und haben sich die Verhältnisse wesentlich verändert, kann die Regelung angepasst werden. Sind Sie sich einig, ist die KESB zuständig, um Sorge und Obhut neu zu regeln. Sonst entscheidet das Gericht, das für die Abänderung des Scheidungsurteils zuständig ist. Geht es nur um das Besuchsrecht oder die Betreuungsanteile und nicht auch um Sorge, Obhut oder Unterhalt, entscheidet die KESB."
+      },
+      "sources": [
+        "zgb-134"
+      ]
+    },
+    {
+      "id": "where-unmarried",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "unmarried",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie nicht verheiratet, ist für Sorge, Obhut, Besuchsrecht, Betreuungsanteile und Umzug die KESB am Wohnsitz des Kindes zuständig. Sie regelt diese Fragen neu, wenn sich die Verhältnisse wesentlich verändert haben. Ist aber auch der Kindesunterhalt strittig und wird dafür beim Gericht geklagt, entscheidet das Gericht über alle Kinderbelange."
+      },
+      "sources": [
+        "zgb-298b",
+        "zgb-298d",
+        "zgb-275"
+      ]
+    },
+    {
+      "id": "appeal",
+      "kind": "rule",
+      "text": {
+        "de": "Gegen einen Endentscheid der KESB können Sie innert 30 Tagen, seit er Ihnen mitgeteilt wurde, schriftlich und begründet Beschwerde beim zuständigen kantonalen Gericht erheben. Gegen einen Endentscheid des Gerichts in Kinderbelangen beträgt die Frist für die Berufung in der Regel ebenfalls 30 Tage. Kürzer ist die Frist bei vorsorglichen Massnahmen, also bei Anordnungen, die nur für die Dauer des Verfahrens gelten: Gegen solche Entscheide der KESB müssen Sie innert 10 Tagen Beschwerde erheben, und auch bei vorsorglichen Massnahmen eines Gerichts kann die Frist nur 10 Tage betragen. Im summarischen Verfahren, zum Beispiel im Eheschutz, gibt es keine Gerichtsferien: Die Frist läuft auch über Ostern, im Sommer und über Weihnachten weiter. Lesen Sie deshalb sofort die Rechtsmittelbelehrung am Ende des Entscheids. Sie nennt die Frist und die Stelle, bei der Sie das Rechtsmittel einreichen. Die Frist läuft auch, wenn Sie noch keine Beratung haben."
+      },
+      "sources": [
+        "zgb-314",
+        "zgb-450",
+        "zgb-450b",
+        "zgb-445",
+        "zpo-311",
+        "zpo-314",
+        "zpo-145"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Welche Gebühren die KESB verlangt, bestimmt jeder Kanton selbst. Vor Gericht kann das Gericht die Kosten in familienrechtlichen Verfahren nach Ermessen verteilen und muss sie nicht einfach der unterliegenden Seite auferlegen. Hinzu kommen allenfalls Anwaltskosten. Fehlen Ihnen die Mittel und ist Ihr Anliegen nicht aussichtslos, haben Sie vor Gericht und vor Behörden wie der KESB Anspruch auf unentgeltliche Rechtspflege und, wenn es nötig ist, auf eine unentgeltliche Anwältin oder einen unentgeltlichen Anwalt."
+      },
+      "sources": [
+        "zpo-107",
+        "zpo-117",
+        "bv-29"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der andere Elternteil die Alleinsorge verlangt, wenn ein Umzug ins Ausland im Raum steht oder das Kind bereits ohne Zustimmung weggebracht wurde, wenn Besuche seit längerem verhindert werden, wenn Sie Gewalt befürchten oder wenn Sie einen Entscheid der KESB oder des Gerichts anfechten wollen. Beachten Sie die Rechtsmittelfrist."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die KESB berät Eltern, zum Beispiel vor der Erklärung über die gemeinsame Sorge. Viele Gemeinden und Kantone haben Familien-, Erziehungs- oder Elternberatungsstellen und Mediationsangebote. Opferberatungsstellen helfen bei häuslicher Gewalt. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Welche Stellen es in Ihrem Kanton gibt, erfahren Sie bei der KESB oder auf der Website Ihres Kantons."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-296": {
+      "type": "statute",
+      "sr": "210",
+      "article": "296",
+      "label": "ZGB · Art. 296",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_296",
+      "sha256": "3ff3ecb7a6df5e6a61be27a27937635c55a60cf9c06ed4401cb20c012b0e2557"
+    },
+    "zgb-298": {
+      "type": "statute",
+      "sr": "210",
+      "article": "298",
+      "label": "ZGB · Art. 298",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_298",
+      "sha256": "43700d2d6a1aea36d905d231e4e3f1783c700974f148ae11759b988bcae3d185"
+    },
+    "zgb-298a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "298a",
+      "label": "ZGB · Art. 298a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_298a",
+      "sha256": "b808d394361454f2f43f6744dc92711b87bafcd09335220e3ce0056c38d2229a"
+    },
+    "zgb-298b": {
+      "type": "statute",
+      "sr": "210",
+      "article": "298b",
+      "label": "ZGB · Art. 298b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_298b",
+      "sha256": "106dc584e64fc38be253e68ea596557cd9dfce3c3b38d1c97915ff75f47bbdc5"
+    },
+    "zgb-298d": {
+      "type": "statute",
+      "sr": "210",
+      "article": "298d",
+      "label": "ZGB · Art. 298d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_298d",
+      "sha256": "3ec371478046724f9930539e5b8a58e4038e1ee0fd2a84c4614ea2e352b71b74"
+    },
+    "zgb-301": {
+      "type": "statute",
+      "sr": "210",
+      "article": "301",
+      "label": "ZGB · Art. 301",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_301",
+      "sha256": "6fc0ce6352c0d89bb79a46f5d05c1d77a2707592a34573be9bdb10f47e94d67a"
+    },
+    "zgb-301a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "301a",
+      "label": "ZGB · Art. 301a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_301a",
+      "sha256": "1fde50f86e1fb0c9cfef80aac29f6ab53eae25c8711916161b2dd9ba2b75077c"
+    },
+    "zgb-273": {
+      "type": "statute",
+      "sr": "210",
+      "article": "273",
+      "label": "ZGB · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_273",
+      "sha256": "4a28266475610f8366059e1cd2ace2a54bc3ad40a56526f475dbf219f19e81b2"
+    },
+    "zgb-274": {
+      "type": "statute",
+      "sr": "210",
+      "article": "274",
+      "label": "ZGB · Art. 274",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_274",
+      "sha256": "478911667edb2dd2608ec4cccdd0c85a01c5a6285bc23d92633a93fbfefb0cd2"
+    },
+    "zgb-275": {
+      "type": "statute",
+      "sr": "210",
+      "article": "275",
+      "label": "ZGB · Art. 275",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_275",
+      "sha256": "d8d3c29570cf16d72d92dd0616d85e5df5797f226787c41a3f9a829502ddbfc5"
+    },
+    "zgb-275a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "275a",
+      "label": "ZGB · Art. 275a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_275a",
+      "sha256": "805a6fafe1fe166b0026f13e15d69537e4590eb9fa02cc4ea66437de2b97e118"
+    },
+    "zgb-314a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "314a",
+      "label": "ZGB · Art. 314a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_314a",
+      "sha256": "4dc863051bde14846aa5fca32a0a7e97941c0a42c5f1185c64b2e931f393e49a"
+    },
+    "zgb-314abis": {
+      "type": "statute",
+      "sr": "210",
+      "article": "314abis",
+      "label": "ZGB · Art. 314abis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_314abis",
+      "sha256": "e20ce1bc08e58a424db732d2b03808eb3ed46e986982f503c319630eb370b413"
+    },
+    "zgb-314": {
+      "type": "statute",
+      "sr": "210",
+      "article": "314",
+      "label": "ZGB · Art. 314",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_314",
+      "sha256": "ae891035cc5f9e124d4a3d2f6e2d2a830ac5cf77580736833421db881c52992b"
+    },
+    "zgb-450": {
+      "type": "statute",
+      "sr": "210",
+      "article": "450",
+      "label": "ZGB · Art. 450",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_450",
+      "sha256": "cdb27da0373d9ee70a336bcff962dd56b7dd84bdbba080f55442c89daecaa38d"
+    },
+    "zgb-450b": {
+      "type": "statute",
+      "sr": "210",
+      "article": "450b",
+      "label": "ZGB · Art. 450b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_450b",
+      "sha256": "5f1dcf8be508e95f78d9f16c02d28ee93b93a339359ab13a49de363e443efab3"
+    },
+    "zgb-133": {
+      "type": "statute",
+      "sr": "210",
+      "article": "133",
+      "label": "ZGB · Art. 133",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_133",
+      "sha256": "c9e500b2f537b495412371ab55a49d5dabb3bb78eabccf386deda06f113b96e7"
+    },
+    "zgb-134": {
+      "type": "statute",
+      "sr": "210",
+      "article": "134",
+      "label": "ZGB · Art. 134",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_134",
+      "sha256": "0f472e345cbc7ed142695516b03d14a682c9d54fbbd0e7fcf01d3edff2b84faf"
+    },
+    "zgb-176": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176",
+      "label": "ZGB · Art. 176",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176",
+      "sha256": "9fee2770069d0fa1f8cd5e0cebcd2bd02389920b69531cec314dcbe7877bbd54"
+    },
+    "zgb-315a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "315a",
+      "label": "ZGB · Art. 315a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_315a",
+      "sha256": "1f6528ffb07f03071b22985c477d0af86b362b8b4d41db690d6a7ff974981de4"
+    },
+    "zpo-298": {
+      "type": "statute",
+      "sr": "272",
+      "article": "298",
+      "label": "ZPO · Art. 298",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_298",
+      "sha256": "08d0780406c74a37db82e74db8664faa8180668706e990344aa29c0683a0913f"
+    },
+    "zpo-299": {
+      "type": "statute",
+      "sr": "272",
+      "article": "299",
+      "label": "ZPO · Art. 299",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_299",
+      "sha256": "2a4399685010cdf71e0f018838e05da1598df7b2eea70572546a8c49eb1986e3"
+    },
+    "zpo-297": {
+      "type": "statute",
+      "sr": "272",
+      "article": "297",
+      "label": "ZPO · Art. 297",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_297",
+      "sha256": "269005c3098d3b668d691cbdedd2057a51383cefd6ac26880313b0bfdc5a9e88"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-311": {
+      "type": "statute",
+      "sr": "272",
+      "article": "311",
+      "label": "ZPO · Art. 311",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_311",
+      "sha256": "a629baf2ee2ad4fa15a8dbe6878699cde58ba7fe55a7229858a8d87ce5b81bed"
+    },
+    "zpo-314": {
+      "type": "statute",
+      "sr": "272",
+      "article": "314",
+      "label": "ZPO · Art. 314",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_314",
+      "sha256": "3f6809939e06dac4f1725ccba2e6cbb3f37e91742adc00a581f40e87d4ed3963"
+    },
+    "bv-29": {
+      "type": "statute",
+      "sr": "101",
+      "article": "29",
+      "label": "BV · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_29",
+      "sha256": "50280ceb6b3ce862d8db477b1915ecb2a07aa51d1f504d45ba22226b27cdf71d"
+    },
+    "stgb-220": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "220",
+      "label": "StGB · Art. 220",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_220",
+      "sha256": "608846ae0c0e1cb8ca9b1739c31099cf57e44d829424f16a0830e651603e495d"
+    },
+    "hkue-3": {
+      "type": "statute",
+      "sr": "0.211.230.02",
+      "article": "3",
+      "label": "HKÜ · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1694_1694_1694/de#art_3",
+      "sha256": "bf30144771fd8b0b6ab96b4039f015d56ee0da0638dbe04aaba4c2d8b973f1da"
+    },
+    "zgb-445": {
+      "type": "statute",
+      "sr": "210",
+      "article": "445",
+      "label": "ZGB · Art. 445",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_445",
+      "sha256": "4058146aa742b93e516eb3cf8c6d6ec2721a01c67420dc1b744e5c1b5912abd4"
+    },
+    "zpo-145": {
+      "type": "statute",
+      "sr": "272",
+      "article": "145",
+      "label": "ZPO · Art. 145",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_145",
+      "sha256": "da9b9a4faa60143781d32202737f842239e2c945928e4c565d3895d6991867dd"
+    },
+    "bge-141-iii-472": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_III_472",
+      "citation": "BGE 141 III 472",
+      "e": "4.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_III_472#e-4-6"
+    },
+    "bge-141-iii-472-4-7": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_III_472",
+      "citation": "BGE 141 III 472",
+      "e": "4.7",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_III_472#e-4-7"
+    },
+    "bge-142-iii-612": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_612",
+      "citation": "BGE 142 III 612",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_612#e-4-2"
+    },
+    "bge-142-iii-612-4-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_612",
+      "citation": "BGE 142 III 612",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_612#e-4-3"
+    },
+    "bge-131-iii-209": {
+      "type": "decision",
+      "decision_id": "bge_BGE_131_III_209",
+      "citation": "BGE 131 III 209",
+      "e": "5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_131_III_209#e-5"
+    },
+    "bge-122-iii-404": {
+      "type": "decision",
+      "decision_id": "bge_BGE_122_III_404",
+      "citation": "BGE 122 III 404",
+      "e": "3c",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_122_III_404#e-3c"
+    },
+    "bge-142-iii-481": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_481",
+      "citation": "BGE 142 III 481",
+      "e": "2.7",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_481#e-2-7"
+    },
+    "bge-142-iii-502": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_502",
+      "citation": "BGE 142 III 502",
+      "e": "2.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_502#e-2-5"
+    },
+    "bge-142-iii-502-2-6": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_502",
+      "citation": "BGE 142 III 502",
+      "e": "2.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_502#e-2-6"
+    },
+    "bge-142-iii-502-2-4-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_502",
+      "citation": "BGE 142 III 502",
+      "e": "2.4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_502#e-2-4-1"
+    },
+    "bge-131-iii-553": {
+      "type": "decision",
+      "decision_id": "bge_BGE_131_III_553",
+      "citation": "BGE 131 III 553",
+      "e": "1.2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_131_III_553#e-1-2-3"
+    },
+    "bger-5a-670-2023": {
+      "type": "decision",
+      "decision_id": "bger_5A_670_2023",
+      "citation": "BGer 5A_670/2023 vom 11. Juni 2024",
+      "e": "5.2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_670_2023#e-5-2-2"
+    },
+    "bger-5a-670-2023-5-2-3": {
+      "type": "decision",
+      "decision_id": "bger_5A_670_2023",
+      "citation": "BGer 5A_670/2023 vom 11. Juni 2024",
+      "e": "5.2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_670_2023#e-5-2-3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Elterliche Sorge bei verheirateten und nicht verheirateten Paaren"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/mutterschaft-und-vaterschaft/schwangerschaft-und-geburt/elterliche-sorge-nicht-verheiratete-eltern/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Die Folgen einer Scheidung"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/folgen-einer-scheidung/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

@@ -1,5 +1,5 @@
 // What swisslaw.io intends to cover, in the order of knowledge/COVERAGE.md. Topic names only; legal content lives in knowledge/.
-// A wave-1 topic counts as live once its situation is public. Romansh (rm) is a first translation and needs review by a native speaker.
+// A wave-1 or wave-2 topic counts as live once its situation is public. Romansh (rm) is a first translation and needs review by a native speaker.
 import type { KnowledgeLanguage } from './knowledge';
 
 type Entry = Record<KnowledgeLanguage, string>;
@@ -47,26 +47,30 @@ export const WAVE_1: readonly CoverageGroup[] = [
   ] },
 ];
 
-/** Waves 2 and 3: planned, not yet drafted. */
-export const LATER: readonly CoverageGroup[] = [
+/** Wave 2: every topic has a situation file, drafted for review. */
+export const WAVE_2: readonly CoverageGroup[] = [
   { area: 'family', topics: [
-    { title: e('Trennung', 'Séparation', 'Separazione', 'Separaziun', 'Separation') },
-    { title: e('Scheidung: die Grundlagen', 'Divorce : les bases', 'Divorzio: le basi', 'Divorzi: las basas', 'Divorce basics') },
-    { title: e('Kinderunterhalt', 'Contribution d’entretien pour l’enfant', 'Contributo di mantenimento per i figli', 'Contribuziun da mantegniment per uffants', 'Child maintenance') },
-    { title: e('Elterliche Sorge und Kontakt', 'Autorité parentale et relations personnelles', 'Autorità parentale e relazioni personali', 'Tgira genituriala e contact', 'Parental responsibility and contact') },
+    { id: 'family.separation', title: e('Trennung', 'Séparation', 'Separazione', 'Separaziun', 'Separation') },
+    { id: 'family.divorce', title: e('Scheidung: die Grundlagen', 'Divorce : les bases', 'Divorzio: le basi', 'Divorzi: las basas', 'Divorce basics') },
+    { id: 'family.child-maintenance', title: e('Kinderunterhalt', 'Contribution d’entretien pour l’enfant', 'Contributo di mantenimento per i figli', 'Contribuziun da mantegniment per uffants', 'Child maintenance') },
+    { id: 'family.parental-care', title: e('Elterliche Sorge und Kontakt', 'Autorité parentale et relations personnelles', 'Autorità parentale e relazioni personali', 'Tgira genituriala e contact', 'Parental responsibility and contact') },
   ] },
+  { area: 'social', topics: [
+    { id: 'social.unemployment', title: e('Arbeitslos melden und Einstelltage', 'S’inscrire au chômage et jours de suspension', 'Iscriversi alla disoccupazione e giorni di sospensione', 'S’annunziar sco dischoccupà e dis da suspensiun', 'Registering as unemployed and benefit suspensions') },
+    { id: 'social.invalidity-application', title: e('Anmeldung bei der IV', 'Demande à l’AI', 'Richiesta all’AI', 'Annunzia tar l’AI', 'Invalidity insurance application') },
+    { id: 'social.work-accident', title: e('Unfall bei der Arbeit', 'Accident professionnel', 'Infortunio professionale', 'Accident a la lavur', 'Accident at work') },
+    { id: 'social.ahv-gaps', title: e('Beitragslücken in der AHV', 'Lacunes de cotisation AVS', 'Lacune contributive AVS', 'Mancanzas da contribuziun a l’AVS', 'Gaps in AHV contributions') },
+  ] },
+];
+
+/** Wave 3: planned, not yet drafted. */
+export const LATER: readonly CoverageGroup[] = [
   { area: 'inheritance', topics: [
     { title: e('Testament errichten', 'Rédiger un testament', 'Redigere un testamento', 'Far in testament', 'Making a will') },
     { title: e('Pflichtteile', 'Réserves héréditaires', 'Porzioni legittime', 'Parts obligatoricas', 'Compulsory shares') },
     { title: e('Erbschaft ausschlagen', 'Répudier une succession', 'Rinunciare all’eredità', 'Refusar l’ierta', 'Refusing an inheritance') },
     { title: e('Schulden der verstorbenen Person', 'Dettes de la personne décédée', 'Debiti della persona defunta', 'Debits da la persuna morta', 'Debts of the deceased') },
     { title: e('Vorsorgeauftrag', 'Mandat pour cause d’inaptitude', 'Mandato precauzionale', 'Mandat da precauziun', 'Advance care directive') },
-  ] },
-  { area: 'social', topics: [
-    { title: e('Arbeitslos melden und Einstelltage', 'S’inscrire au chômage et jours de suspension', 'Iscriversi alla disoccupazione e giorni di sospensione', 'S’annunziar sco dischoccupà e dis da suspensiun', 'Registering as unemployed and benefit suspensions') },
-    { title: e('Anmeldung bei der IV', 'Demande à l’AI', 'Richiesta all’AI', 'Annunzia tar l’AI', 'Invalidity insurance application') },
-    { title: e('Unfall bei der Arbeit', 'Accident professionnel', 'Infortunio professionale', 'Accident a la lavur', 'Accident at work') },
-    { title: e('Beitragslücken in der AHV', 'Lacunes de cotisation AVS', 'Lacune contributive AVS', 'Mancanzas da contribuziun a l’AVS', 'Gaps in AHV contributions') },
   ] },
   { area: 'health', label: e('Krankenversicherung', 'Assurance maladie', 'Assicurazione malattie', 'Assicuranza da malsogna', 'Health insurance'), topics: [
     { title: e('Die Kasse zahlt eine Rechnung nicht', 'La caisse refuse de payer une facture', 'La cassa non paga una fattura', 'La cassa na paja betg in quint', 'The insurer refuses to pay a bill') },

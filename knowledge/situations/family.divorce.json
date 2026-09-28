@@ -1,0 +1,1061 @@
+{
+  "schema": 1,
+  "id": "family.divorce",
+  "domain": "family",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich will mich scheiden lassen. Wie geht das?"
+  },
+  "summary": {
+    "de": "Eine Scheidung spricht in der Schweiz immer ein Gericht aus. Wollen Sie beide die Scheidung, reichen Sie gemeinsam ein Begehren ein, am besten mit einer Vereinbarung über alle Folgen. Will Ihr Ehepartner nicht, können Sie in der Regel erst klagen, wenn Sie seit mindestens zwei Jahren getrennt leben. Zu regeln sind vor allem die Kinder, der Unterhalt, die Pensionskasse, das Vermögen und die Wohnung. Das Gericht prüft jede Vereinbarung, bevor es sie genehmigt. Lassen Sie sich früh persönlich beraten."
+  },
+  "examples": {
+    "de": [
+      "Ich will mich scheiden lassen, wie geht das?",
+      "Mein Mann will die Scheidung nicht, was kann ich tun?",
+      "Wie wird bei einer Scheidung die Pensionskasse geteilt?",
+      "Ich wott mi la schaide, was muess ich mache?",
+      "Muss ich nach der Scheidung meiner Frau Unterhalt zahlen?",
+      "Wer darf nach der Scheidung in der Wohnung bleiben?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Grundzüge der Scheidung einer Ehe in der Schweiz: die Scheidungsgründe, was geregelt werden muss (Kinder, Unterhalt, Pensionskasse, Güterrecht, Familienwohnung), das Verfahren vor Gericht und die Prüfung der Scheidungsvereinbarung durch das Gericht."
+    },
+    "excludes": {
+      "de": "Die Einzelheiten zu elterlicher Sorge, Obhut, Betreuung und Kindesunterhalt (dafür gibt es eigene Anleitungen), die genaue Berechnung von Unterhalt und Güterrecht, die gerichtliche Trennung ohne Scheidung, die Auflösung einer eingetragenen Partnerschaft sowie Scheidungen mit Bezug zum Ausland."
+    }
+  },
+  "facts": [
+    {
+      "key": "both_want",
+      "question": {
+        "de": "Will Ihre Ehefrau oder Ihr Ehemann die Scheidung auch?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, wir wollen uns beide scheiden lassen"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, sie oder er ist dagegen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "consequences_agreed",
+      "question": {
+        "de": "Sind Sie sich über die Folgen der Scheidung einig, etwa über Kinder, Geld und Wohnung?"
+      },
+      "options": [
+        {
+          "value": "all",
+          "label": {
+            "de": "Ja, über alles"
+          }
+        },
+        {
+          "value": "partly",
+          "label": {
+            "de": "Nur über einen Teil"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, über nichts"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "separated",
+      "question": {
+        "de": "Leben Sie bereits getrennt, und seit wann?"
+      },
+      "options": [
+        {
+          "value": "not-separated",
+          "label": {
+            "de": "Nein, wir wohnen noch zusammen"
+          }
+        },
+        {
+          "value": "under-two-years",
+          "label": {
+            "de": "Ja, seit weniger als zwei Jahren"
+          }
+        },
+        {
+          "value": "two-years-plus",
+          "label": {
+            "de": "Ja, seit zwei Jahren oder länger"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children",
+      "question": {
+        "de": "Haben Sie gemeinsame Kinder unter 18 Jahren?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "work_split",
+      "question": {
+        "de": "Wie haben Sie die Arbeit während der Ehe aufgeteilt?"
+      },
+      "options": [
+        {
+          "value": "one-at-home",
+          "label": {
+            "de": "Eine Person hat ganz oder grösstenteils für Haushalt und Kinder gesorgt"
+          }
+        },
+        {
+          "value": "both-working",
+          "label": {
+            "de": "Wir waren beide etwa gleich erwerbstätig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "home",
+      "question": {
+        "de": "Ist Ihre Familienwohnung gemietet oder gehört sie Ihnen?"
+      },
+      "options": [
+        {
+          "value": "rented",
+          "label": {
+            "de": "Gemietet"
+          }
+        },
+        {
+          "value": "owned",
+          "label": {
+            "de": "Sie gehört uns oder einem von uns"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "pension",
+      "question": {
+        "de": "Bezieht einer von Ihnen bereits eine Altersrente oder eine Invalidenrente der Pensionskasse?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "advice-first",
+      "kind": "escalate",
+      "text": {
+        "de": "Eine Scheidung hat grosse und oft dauerhafte Folgen für Ihr Einkommen, Ihre Altersvorsorge, Ihre Wohnung und Ihre Kinder. Holen Sie sich deshalb persönliche Beratung, bevor Sie etwas unterschreiben oder beim Gericht einreichen. Diese Anleitung erklärt nur die Grundzüge."
+      }
+    },
+    {
+      "id": "three-ways",
+      "kind": "rule",
+      "text": {
+        "de": "Es gibt drei Wege zur Scheidung. Erstens: Sie beantragen die Scheidung gemeinsam, mit einer Einigung über alle Folgen oder nur über einen Teil davon. Zweitens: Einer von Ihnen klagt allein, nachdem Sie mindestens zwei Jahre getrennt gelebt haben. Drittens: Einer von Ihnen klagt schon früher, weil ihm die Ehe aus schwerwiegenden Gründen, für die er nicht selbst verantwortlich ist, nicht mehr zugemutet werden kann. Nach Schuld wird ausser beim dritten Weg nicht gefragt."
+      },
+      "sources": [
+        "zgb-111",
+        "zgb-112",
+        "zgb-114",
+        "zgb-115"
+      ]
+    },
+    {
+      "id": "where-to-file",
+      "kind": "step",
+      "text": {
+        "de": "Sie reichen das gemeinsame Scheidungsbegehren oder die Scheidungsklage direkt beim Gericht ein, zuständig ist das Gericht am Wohnsitz von Ihnen oder Ihrem Ehepartner. Einen vorherigen Schlichtungsversuch gibt es bei der Scheidung nicht. Welches Gericht das genau ist und welche Formulare es gibt, regelt jeder Kanton selbst. Die Gerichte Ihres Wohnkantons informieren darüber auf ihrer Website."
+      },
+      "sources": [
+        "zpo-23",
+        "zpo-198",
+        "zpo-274"
+      ]
+    },
+    {
+      "id": "joint-full",
+      "kind": "rule",
+      "when": {
+        "both_want": [
+          "yes",
+          "unknown"
+        ],
+        "consequences_agreed": [
+          "all",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie sich über alles einig, reichen Sie gemeinsam ein: das Scheidungsbegehren, eine vollständige, datierte und von Ihnen beiden unterschriebene Vereinbarung über die Folgen der Scheidung, gemeinsame Anträge zu den Kindern und die nötigen Belege. Ist die Eingabe vollständig, lädt das Gericht Sie zu einer Anhörung ein. Es spricht mit jedem von Ihnen allein und mit Ihnen beiden zusammen, manchmal in mehreren Sitzungen. Ist das Gericht überzeugt, dass Sie die Scheidung und die Vereinbarung frei und gut überlegt wollen, und kann es die Vereinbarung genehmigen, spricht es die Scheidung aus."
+      },
+      "sources": [
+        "zgb-111",
+        "zpo-285",
+        "zpo-287",
+        "zpo-288"
+      ]
+    },
+    {
+      "id": "joint-partial",
+      "kind": "rule",
+      "when": {
+        "both_want": [
+          "yes",
+          "unknown"
+        ],
+        "consequences_agreed": [
+          "partly",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wollen Sie beide die Scheidung, sind sich aber über einzelne oder alle Folgen nicht einig, können Sie trotzdem gemeinsam die Scheidung verlangen. Sie beantragen dann, dass das Gericht die umstrittenen Punkte entscheidet, und jeder von Ihnen kann dazu begründete Anträge stellen. Nach der Anhörung wird über die offenen Punkte wie in einem Prozess zwischen zwei Parteien weiter verhandelt, im vereinfachten Verfahren. Das dauert meist länger und kostet mehr als eine vollständige Einigung."
+      },
+      "sources": [
+        "zgb-112",
+        "zpo-286",
+        "zpo-288"
+      ]
+    },
+    {
+      "id": "joint-fails",
+      "kind": "warning",
+      "when": {
+        "both_want": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zieht einer von Ihnen seine Zustimmung zur Scheidung zurück oder sind die Voraussetzungen für eine Scheidung auf gemeinsames Begehren sonst nicht erfüllt, weist das Gericht das gemeinsame Begehren ab. Es gibt dann jedem von Ihnen eine Frist, um eine Scheidungsklage einzureichen. Während dieser Frist bleibt das Verfahren hängig und vorsorgliche Massnahmen, etwa zum Unterhalt, gelten weiter. Beachten Sie die Frist, die das Gericht in seinem Entscheid nennt."
+      },
+      "sources": [
+        "zpo-288"
+      ]
+    },
+    {
+      "id": "court-checks-agreement",
+      "kind": "rule",
+      "text": {
+        "de": "Eine Scheidungsvereinbarung gilt erst, wenn das Gericht sie genehmigt hat. Das Gericht genehmigt sie nur, wenn Sie beide sie freiwillig und gut überlegt abgeschlossen haben und wenn sie klar, vollständig und nicht offensichtlich unangemessen ist. Offensichtlich unangemessen ist eine Vereinbarung, die auf den ersten Blick und krass von dem abweicht, was das Gericht ohne Vereinbarung entscheiden würde, ohne dass es dafür einen fairen Grund gibt. So soll verhindert werden, dass ein Ehegatte übervorteilt wird. Was Sie über die Kinder vereinbaren, gilt nur als gemeinsamer Antrag: Das Gericht berücksichtigt ihn, entscheidet aber selbst und nach dem Wohl des Kindes."
+      },
+      "sources": [
+        "zpo-279",
+        "zpo-296",
+        "bger-5a-980-2018",
+        "bge-143-iii-361"
+      ]
+    },
+    {
+      "id": "divorce-final",
+      "kind": "warning",
+      "when": {
+        "both_want": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Überlegen Sie sich Ihren Entscheid vor der Anhörung gut. Hat das Gericht die Scheidung ausgesprochen, können Sie die Scheidung selbst nur noch anfechten, wenn Ihr Wille mangelhaft war, zum Beispiel weil Sie getäuscht oder bedroht wurden."
+      },
+      "sources": [
+        "zpo-289"
+      ]
+    },
+    {
+      "id": "action-after-two-years",
+      "kind": "rule",
+      "when": {
+        "both_want": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist Ihr Ehepartner gegen die Scheidung, können Sie allein auf Scheidung klagen, wenn Sie beide im Zeitpunkt der Klage seit mindestens zwei Jahren getrennt leben. Einen weiteren Grund müssen Sie dann nicht nachweisen. Die Klage braucht keine schriftliche Begründung. Sie muss aber den Scheidungsgrund nennen und Ihre Anträge zu Geld, Vermögen und Kindern sowie die nötigen Belege enthalten. Das Gericht lädt Sie beide zuerst zu einer Einigungsverhandlung ein. Ist Ihr Ehepartner im Verfahren doch mit der Scheidung einverstanden, kann es unter Umständen als gemeinsames Begehren weitergehen."
+      },
+      "sources": [
+        "zgb-114",
+        "zpo-290",
+        "zpo-291",
+        "zpo-292"
+      ]
+    },
+    {
+      "id": "too-early",
+      "kind": "warning",
+      "when": {
+        "both_want": [
+          "no",
+          "unknown"
+        ],
+        "separated": [
+          "not-separated",
+          "under-two-years",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die zwei Jahre Getrenntleben müssen erfüllt sein, wenn Sie die Klage einreichen. Klagen Sie früher, ohne dass Ihnen die Ehe aus schwerwiegenden Gründen unzumutbar ist, kann die Klage scheitern und Kosten verursachen. Halten Sie das Datum fest, an dem Sie sich getrennt haben, und bewahren Sie Belege auf, etwa einen neuen Mietvertrag oder die Ummeldung bei der Gemeinde."
+      },
+      "sources": [
+        "zgb-114"
+      ]
+    },
+    {
+      "id": "unreasonable",
+      "kind": "rule",
+      "when": {
+        "both_want": [
+          "no",
+          "unknown"
+        ],
+        "separated": [
+          "not-separated",
+          "under-two-years",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Vor Ablauf der zwei Jahre ist eine Scheidung gegen den Willen des Ehepartners nur ausnahmsweise möglich: wenn Ihnen schon das rechtliche Weiterbestehen der Ehe aus schwerwiegenden Gründen nicht zugemutet werden kann und Sie diese Gründe nicht selbst verursacht haben. Es kommt darauf an, ob ein Aussenstehender nachvollziehen kann, dass die Ehe für Sie unerträglich geworden ist. Eine besondere Empfindlichkeit genügt nicht. Anerkannt ist, dass Gewalt, welche die körperliche oder psychische Gesundheit gefährdet, ein solcher schwerwiegender Grund sein kann. Ob Ihr Fall reicht, ist eine Frage des Einzelfalls: Lassen Sie sich beraten, bevor Sie so klagen."
+      },
+      "sources": [
+        "zgb-115",
+        "bge-127-iii-129",
+        "bger-5a-192-2021"
+      ]
+    },
+    {
+      "id": "meanwhile",
+      "kind": "step",
+      "when": {
+        "separated": [
+          "not-separated",
+          "under-two-years",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bis zur Scheidung können Sie das Getrenntleben gerichtlich regeln lassen (Eheschutz). Das Gericht kann auf Antrag den Unterhalt für Sie und die Kinder festlegen, bestimmen, wer die Wohnung und den Hausrat benützt, und die nötigen Massnahmen für die Kinder treffen. Während eines Scheidungsverfahrens trifft das Scheidungsgericht solche Anordnungen als vorsorgliche Massnahmen, und bereits angeordnete Eheschutzmassnahmen gelten weiter."
+      },
+      "sources": [
+        "zgb-176",
+        "zpo-276"
+      ]
+    },
+    {
+      "id": "what-to-settle",
+      "kind": "step",
+      "text": {
+        "de": "In der Vereinbarung oder im Urteil muss alles geregelt sein, was die Scheidung auslöst: die Kinder, der Unterhalt zwischen Ihnen, die Teilung der Pensionskasse, die Teilung von Vermögen und Schulden und die Familienwohnung. Legen Sie Belege bei, etwa Lohnausweise, Steuererklärungen, Kontoauszüge und die Bestätigungen Ihrer Pensionskassen. Wird Unterhalt festgelegt, muss darin stehen, von welchem Einkommen und Vermögen jeder von Ihnen ausgeht und wie viel für den Ehegatten und wie viel für jedes Kind bestimmt ist. Das ist wichtig, falls sich später etwas ändert."
+      },
+      "sources": [
+        "zpo-282",
+        "zpo-283",
+        "zpo-285"
+      ]
+    },
+    {
+      "id": "children",
+      "kind": "rule",
+      "when": {
+        "children": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei gemeinsamen Kindern regelt das Gericht die elterliche Sorge, die Obhut, den persönlichen Kontakt oder die Betreuungsanteile und den Kindesunterhalt. Massgebend ist das Wohl des Kindes. Das Gericht berücksichtigt einen gemeinsamen Antrag der Eltern und, soweit möglich, die Meinung des Kindes. Es hört die Eltern persönlich an und in der Regel auch das Kind, wenn sein Alter es zulässt, und kann die Eltern zu einer Mediation auffordern. Einzelheiten zur elterlichen Sorge und zum Kindesunterhalt finden Sie in den eigenen Anleitungen dazu."
+      },
+      "sources": [
+        "zgb-133",
+        "zpo-297",
+        "zpo-298"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "kind": "rule",
+      "text": {
+        "de": "Nach der Scheidung muss grundsätzlich jeder selbst für seinen Lebensunterhalt und seine Altersvorsorge sorgen. Nur wer das nicht kann oder wem es nicht zuzumuten ist, erhält vom anderen einen angemessenen Beitrag, soweit dieser leistungsfähig ist. Ob, wie viel und wie lange, hängt vom Einzelfall ab: unter anderem von der Aufgabenteilung und der Dauer der Ehe, vom Alter und der Gesundheit, von Einkommen und Vermögen, von der Betreuung der Kinder und von den Chancen auf dem Arbeitsmarkt. Das Bundesgericht verlangt, dass eine zumutbare Arbeit gesucht oder ausgebaut wird, grundsätzlich eine Vollzeitstelle, solange keine gemeinsamen Kinder betreut werden. Wer sich nicht darum bemüht, dem wird ein Einkommen angerechnet, das er erzielen könnte. Ein Unterhaltsbeitrag wird in der Regel zeitlich begrenzt."
+      },
+      "sources": [
+        "zgb-125",
+        "bge-147-iii-249-e3-4-4",
+        "bge-147-iii-249-e3-4-5"
+      ]
+    },
+    {
+      "id": "maintenance-one-at-home",
+      "kind": "warning",
+      "when": {
+        "work_split": [
+          "one-at-home",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie für Haushalt und Kinder auf Ihre Erwerbstätigkeit verzichtet, gilt auch für Sie: Spätestens ab der Scheidung, und schon ab der Trennung, wenn eine Wiederaufnahme des Ehelebens vernünftigerweise nicht mehr zu erwarten ist, wird erwartet, dass Sie wieder arbeiten oder Ihr Pensum ausbauen, soweit das nach Alter, Gesundheit, Ausbildung, Kinderbetreuung und Arbeitsmarkt möglich ist, auch in einem anderen Beruf als früher. Anspruch auf einen Beitrag, der sich am gemeinsamen Lebensstandard orientiert, besteht grundsätzlich nur, wenn Sie nach einer langen Ehe mit dieser Aufgabenteilung nicht mehr an Ihre frühere berufliche Stellung anknüpfen können. Nach langer Ehe mit voller Kinderbetreuung kann der Unterhalt bis zum Rentenalter der zahlenden Person dauern. Lassen Sie Ihre Lage beraten, bevor Sie einer Vereinbarung zustimmen."
+      },
+      "sources": [
+        "zgb-125",
+        "bge-147-iii-249-e3-4-3",
+        "bge-147-iii-249-e3-4-4",
+        "bge-147-iii-249-e3-4-5"
+      ]
+    },
+    {
+      "id": "maintenance-later",
+      "kind": "rule",
+      "text": {
+        "de": "Das Gericht legt den Unterhalt in der Regel als monatliche Rente fest. Die Pflicht endet mit dem Tod einer der beiden Personen und, wenn nichts anderes vereinbart ist, wenn die berechtigte Person wieder heiratet. Ändern sich die Verhältnisse später erheblich und dauerhaft, kann die Rente herabgesetzt, aufgehoben oder vorübergehend eingestellt werden. Hält das Urteil fest, dass der gebührende Unterhalt nicht gedeckt werden konnte, kann die berechtigte Person innert fünf Jahren seit der Scheidung eine Rente oder eine höhere Rente verlangen, wenn es der zahlenden Person wirtschaftlich entsprechend besser geht."
+      },
+      "sources": [
+        "zgb-126",
+        "zgb-129",
+        "zgb-130"
+      ]
+    },
+    {
+      "id": "pension-split",
+      "kind": "rule",
+      "text": {
+        "de": "Was Sie beide während der Ehe bis zur Einleitung des Scheidungsverfahrens in der Pensionskasse angespart haben, wird bei der Scheidung ausgeglichen: Die Austrittsleistungen werden grundsätzlich je zur Hälfte geteilt, einschliesslich Freizügigkeitsguthaben und Vorbezügen für Wohneigentum. Sie können in der Vereinbarung davon abweichen oder darauf verzichten, aber nur, wenn für beide eine angemessene Alters- und Invalidenvorsorge bleibt, und Sie brauchen eine Bestätigung der Pensionskassen, dass die Regelung durchführbar ist. Ohne Vereinbarung weicht das Gericht nur aus wichtigen Gründen von der hälftigen Teilung ab. Wie sich jemand während der Ehe verhalten hat, spielt dabei grundsätzlich keine Rolle; nur in besonders stossenden Fällen, etwa bei grober Verletzung der Pflicht, zum Familienunterhalt beizutragen, kann das anders sein. In der AHV werden die Einkommen aus den Ehejahren ebenfalls je zur Hälfte aufgeteilt."
+      },
+      "sources": [
+        "zgb-122",
+        "zgb-123",
+        "zgb-124b",
+        "zpo-280",
+        "bge-145-iii-56",
+        "ahvg-29quinquies"
+      ]
+    },
+    {
+      "id": "pension-already-paid",
+      "kind": "warning",
+      "when": {
+        "pension": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bezieht einer von Ihnen bei Einleitung des Scheidungsverfahrens bereits eine Altersrente oder eine Invalidenrente der Pensionskasse, gelten besondere Regeln. Bei einer Altersrente oder einer Invalidenrente nach dem reglementarischen Rentenalter teilt das Gericht die Rente nach seinem Ermessen und achtet vor allem auf die Dauer der Ehe und den Vorsorgebedarf von Ihnen beiden. Der zugesprochene Anteil wird in eine lebenslange Rente umgerechnet. Das ist rechnerisch anspruchsvoll: Lassen Sie sich beraten und holen Sie früh Auskünfte bei der Pensionskasse ein."
+      },
+      "sources": [
+        "zgb-124",
+        "zgb-124a"
+      ]
+    },
+    {
+      "id": "property",
+      "kind": "rule",
+      "text": {
+        "de": "Das Vermögen wird nach dem Güterrecht geteilt. Haben Sie keinen Ehevertrag, gilt die Errungenschaftsbeteiligung. Was jemand schon vor der Ehe besass oder während der Ehe geerbt oder geschenkt erhielt, gehört zum Eigengut und wird grundsätzlich nicht geteilt. Vom Ersparten aus der Ehezeit, etwa aus dem Lohn, steht jedem die Hälfte des Überschusses des anderen zu. Massgebend für den Umfang ist der Tag, an dem das Scheidungsbegehren eingereicht wurde. Die Abrechnung kann kompliziert sein, besonders bei Liegenschaften, Firmen oder Schulden. Nach der Scheidung erben Sie einander nicht mehr von Gesetzes wegen."
+      },
+      "sources": [
+        "zgb-120",
+        "zgb-181",
+        "zgb-198",
+        "zgb-204",
+        "zgb-215"
+      ]
+    },
+    {
+      "id": "home-rented",
+      "kind": "rule",
+      "when": {
+        "home": [
+          "rented",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist die Familienwohnung gemietet und ist einer von Ihnen wegen der Kinder oder aus anderen wichtigen Gründen auf sie angewiesen, kann das Gericht ihm den Mietvertrag allein übertragen, wenn das für den anderen zumutbar ist. Der andere haftet dann weiter für die Miete mit, bis der Mietvertrag endet oder gekündigt werden könnte, längstens zwei Jahre. Muss er Miete bezahlen, kann er den Betrag monatsweise mit dem Unterhalt verrechnen, den er dem anderen Ehegatten schuldet."
+      },
+      "sources": [
+        "zgb-121"
+      ]
+    },
+    {
+      "id": "home-owned",
+      "kind": "rule",
+      "when": {
+        "home": [
+          "owned",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gehört die Familienwohnung einem von Ihnen, ist unter denselben Bedingungen ein befristetes Wohnrecht für den anderen möglich, das das Gericht anordnen kann. Dafür ist eine angemessene Entschädigung geschuldet, oder das Wohnrecht wird auf den Unterhalt angerechnet. Wer die Wohnung am Ende behält und zu welchem Wert, wird im Güterrecht geklärt."
+      },
+      "sources": [
+        "zgb-121",
+        "zgb-120"
+      ]
+    },
+    {
+      "id": "name",
+      "kind": "rule",
+      "text": {
+        "de": "Haben Sie bei der Heirat Ihren Namen geändert, behalten Sie ihn nach der Scheidung. Sie können aber jederzeit beim Zivilstandsamt erklären, dass Sie wieder Ihren Ledignamen tragen wollen."
+      },
+      "sources": [
+        "zgb-119"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Für das Scheidungsverfahren erhebt das Gericht Gebühren. Ihre Höhe legt jeder Kanton selbst fest; eine Einigung über alle Folgen ist meist deutlich günstiger als ein Streit. Dazu kommen allenfalls Kosten für eine Anwältin oder einen Anwalt. In familienrechtlichen Verfahren kann das Gericht die Kosten nach Ermessen verteilen, oft werden sie geteilt. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen, allenfalls mit einer unentgeltlichen Anwältin oder einem unentgeltlichen Anwalt."
+      },
+      "sources": [
+        "zpo-95",
+        "zpo-107",
+        "zpo-117"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie unbedingt persönliche Beratung, bevor Sie eine Scheidungsvereinbarung unterschreiben, wenn Ihr Ehepartner gegen die Scheidung ist, wenn Sie wegen Gewalt oder Drohungen nicht zwei Jahre warten können, wenn Sie für Haushalt oder Kinder auf Erwerb verzichtet haben, wenn Liegenschaften, eine Firma, grössere Vermögen oder Schulden im Spiel sind, wenn einer von Ihnen schon eine Rente bezieht oder wenn ein Bezug zum Ausland besteht. Bei Gewalt in der Ehe wenden Sie sich zuerst an die Polizei oder eine Opferberatungsstelle."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Familien-, Ehe- und Paarberatungsstellen beraten zu Trennung und Scheidung, und Mediatorinnen und Mediatoren helfen, eine Einigung zu finden. Die Gerichte informieren über das Verfahren und die Formulare. Bei Gewalt helfen die kantonalen Opferberatungsstellen kostenlos und vertraulich."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-111": {
+      "type": "statute",
+      "sr": "210",
+      "article": "111",
+      "label": "ZGB · Art. 111",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_111",
+      "sha256": "88107456c6db5d6f2e1fa3f9bcd5378e27798f0958b5d4b97f0a943b309f97d0"
+    },
+    "zgb-112": {
+      "type": "statute",
+      "sr": "210",
+      "article": "112",
+      "label": "ZGB · Art. 112",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_112",
+      "sha256": "cc8a3849e0e522e3766cb98219ca1e4142c7d9bedac64e23d0e20c459826a9f0"
+    },
+    "zgb-114": {
+      "type": "statute",
+      "sr": "210",
+      "article": "114",
+      "label": "ZGB · Art. 114",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_114",
+      "sha256": "080cf257a8dd4ac1dff7e6431d350928bb876df760202896ef76d2f3c903ae53"
+    },
+    "zgb-115": {
+      "type": "statute",
+      "sr": "210",
+      "article": "115",
+      "label": "ZGB · Art. 115",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_115",
+      "sha256": "22e97bbb36a6dc3585b7acf2d0511279c6a315602393632b7e988e14f4ec4475"
+    },
+    "zgb-119": {
+      "type": "statute",
+      "sr": "210",
+      "article": "119",
+      "label": "ZGB · Art. 119",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_119",
+      "sha256": "57e0d33550e0d2934974edee57f73ad8deda5cf12bcc6e23d84bedf77edffd87"
+    },
+    "zgb-120": {
+      "type": "statute",
+      "sr": "210",
+      "article": "120",
+      "label": "ZGB · Art. 120",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_120",
+      "sha256": "3079d30046d71be54b5cf666068d5d4f59b602d542a25ae132000bd3d46063d5"
+    },
+    "zgb-121": {
+      "type": "statute",
+      "sr": "210",
+      "article": "121",
+      "label": "ZGB · Art. 121",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_121",
+      "sha256": "63548f04594b3e5d97325125bde6708e4189bf4bd88f0f86b49d8872bc609374"
+    },
+    "zgb-122": {
+      "type": "statute",
+      "sr": "210",
+      "article": "122",
+      "label": "ZGB · Art. 122",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_122",
+      "sha256": "99dac3164bcc610b2920bb6163a4fc8c88ed077fdf83fa857229c36cba1daee1"
+    },
+    "zgb-123": {
+      "type": "statute",
+      "sr": "210",
+      "article": "123",
+      "label": "ZGB · Art. 123",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_123",
+      "sha256": "02a3f7385019f55d4229a8ceaba15d08d972dd173e92e35c00250e6cff05108d"
+    },
+    "zgb-124": {
+      "type": "statute",
+      "sr": "210",
+      "article": "124",
+      "label": "ZGB · Art. 124",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_124",
+      "sha256": "b55754f140b8f85aa386aab58464b1dfb2ae6aafee98a9332426447496ac6d0e"
+    },
+    "zgb-124a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "124a",
+      "label": "ZGB · Art. 124a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_124a",
+      "sha256": "a4e22837583343e71114055c9b3e0dc3cdcee4f723750ca2a69116219ae608e6"
+    },
+    "zgb-124b": {
+      "type": "statute",
+      "sr": "210",
+      "article": "124b",
+      "label": "ZGB · Art. 124b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_124b",
+      "sha256": "ce0be7e1825c00820dc7b06ac350b5e5e206e13d3f9698c1ac49e8f52628018f"
+    },
+    "zgb-125": {
+      "type": "statute",
+      "sr": "210",
+      "article": "125",
+      "label": "ZGB · Art. 125",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_125",
+      "sha256": "bd49ced813d854a7c590a01a396f021851076f48925665756c740845211fa5a6"
+    },
+    "zgb-126": {
+      "type": "statute",
+      "sr": "210",
+      "article": "126",
+      "label": "ZGB · Art. 126",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_126",
+      "sha256": "a603ec4885c22d6659bd1a3f8f35e984e90f6f81f18e716f568b33128d3ba19b"
+    },
+    "zgb-129": {
+      "type": "statute",
+      "sr": "210",
+      "article": "129",
+      "label": "ZGB · Art. 129",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_129",
+      "sha256": "5e9a4c3ab5da32c20349d1b7755e33344d374121b779f65b12e4c8edc5c2fa99"
+    },
+    "zgb-130": {
+      "type": "statute",
+      "sr": "210",
+      "article": "130",
+      "label": "ZGB · Art. 130",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_130",
+      "sha256": "fb0ef5f832792e93211d3ede1a7c9f572a01f244cb50613f3fee2a6e83a9956f"
+    },
+    "zgb-133": {
+      "type": "statute",
+      "sr": "210",
+      "article": "133",
+      "label": "ZGB · Art. 133",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_133",
+      "sha256": "c9e500b2f537b495412371ab55a49d5dabb3bb78eabccf386deda06f113b96e7"
+    },
+    "zgb-176": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176",
+      "label": "ZGB · Art. 176",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176",
+      "sha256": "9fee2770069d0fa1f8cd5e0cebcd2bd02389920b69531cec314dcbe7877bbd54"
+    },
+    "zgb-181": {
+      "type": "statute",
+      "sr": "210",
+      "article": "181",
+      "label": "ZGB · Art. 181",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_181",
+      "sha256": "87e6efa42d6af05893bcff5d9356cc5ef4687b14357c352d68697c93b1c2ee9d"
+    },
+    "zgb-198": {
+      "type": "statute",
+      "sr": "210",
+      "article": "198",
+      "label": "ZGB · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_198",
+      "sha256": "8bf8e82b74ed3909dd78ef61c76150775431fd88bde346de7dc1a2cedee99249"
+    },
+    "zgb-204": {
+      "type": "statute",
+      "sr": "210",
+      "article": "204",
+      "label": "ZGB · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_204",
+      "sha256": "82df472267dea27055fe25fba8c41c5bfc9b68b1454f94bcea3cc8b79a2907fe"
+    },
+    "zgb-215": {
+      "type": "statute",
+      "sr": "210",
+      "article": "215",
+      "label": "ZGB · Art. 215",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_215",
+      "sha256": "4929375a199f2170d4f43481562610c04583bff3fad8e1196be7b4d3f70336e5"
+    },
+    "zpo-23": {
+      "type": "statute",
+      "sr": "272",
+      "article": "23",
+      "label": "ZPO · Art. 23",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_23",
+      "sha256": "ed54bceb7fb36f4653d69f5a3cc316b405b49f89434be591c806ef2d2d01d7ab"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-198": {
+      "type": "statute",
+      "sr": "272",
+      "article": "198",
+      "label": "ZPO · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_198",
+      "sha256": "f9a9e217d9f9e15c677af3b0e7b39597f5a276afa8fe7fd5e9d6086dcf7d36c7"
+    },
+    "zpo-274": {
+      "type": "statute",
+      "sr": "272",
+      "article": "274",
+      "label": "ZPO · Art. 274",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_274",
+      "sha256": "7412437fd18e72343b1af528687fa2a1160c80838e56114b4afdde1769e42e89"
+    },
+    "zpo-276": {
+      "type": "statute",
+      "sr": "272",
+      "article": "276",
+      "label": "ZPO · Art. 276",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_276",
+      "sha256": "0cb79971987d07c539316459d0e58ed86cf5e5ab8d2c94703edadd5f849ed7ee"
+    },
+    "zpo-279": {
+      "type": "statute",
+      "sr": "272",
+      "article": "279",
+      "label": "ZPO · Art. 279",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_279",
+      "sha256": "e6bda94539786b025be174c6ddd7495b577de56f72ac1b677f02654ab4c080fd"
+    },
+    "zpo-280": {
+      "type": "statute",
+      "sr": "272",
+      "article": "280",
+      "label": "ZPO · Art. 280",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_280",
+      "sha256": "45c4120da31355e193a5b94b9a25589b6ab6d80a486df66f679afdacd5047fdb"
+    },
+    "zpo-282": {
+      "type": "statute",
+      "sr": "272",
+      "article": "282",
+      "label": "ZPO · Art. 282",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_282",
+      "sha256": "ccdb7ba9704dc3ed0ac90e7725f737d659b06d62d5394391e53ac9befb68cf65"
+    },
+    "zpo-283": {
+      "type": "statute",
+      "sr": "272",
+      "article": "283",
+      "label": "ZPO · Art. 283",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_283",
+      "sha256": "6eee273f5a5f802eae4ddc4e2ebb641a0d91880f5b45e76e2344a6687443e035"
+    },
+    "zpo-285": {
+      "type": "statute",
+      "sr": "272",
+      "article": "285",
+      "label": "ZPO · Art. 285",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_285",
+      "sha256": "5da961bfe4e6588a06bd3f3b9c84741e896b3d7c905046c4df432a88b8d5360b"
+    },
+    "zpo-286": {
+      "type": "statute",
+      "sr": "272",
+      "article": "286",
+      "label": "ZPO · Art. 286",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_286",
+      "sha256": "c92ce2ae537abd822aa6ca4aa443ff31ae47409bdd7fcb70f48cad08601e2812"
+    },
+    "zpo-287": {
+      "type": "statute",
+      "sr": "272",
+      "article": "287",
+      "label": "ZPO · Art. 287",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_287",
+      "sha256": "7561fab417bec43c8cc5cf13d977364866dde62cdb009d60272b22bba94d929f"
+    },
+    "zpo-288": {
+      "type": "statute",
+      "sr": "272",
+      "article": "288",
+      "label": "ZPO · Art. 288",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_288",
+      "sha256": "62e8bc897c0d69b6cafcedf0f4992f3862c0923d2c5574f5e5abd83b56a4761d"
+    },
+    "zpo-289": {
+      "type": "statute",
+      "sr": "272",
+      "article": "289",
+      "label": "ZPO · Art. 289",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_289",
+      "sha256": "9902cabcf99158bec9c95916826e486b5741073781e6c036790a711e017df8b2"
+    },
+    "zpo-290": {
+      "type": "statute",
+      "sr": "272",
+      "article": "290",
+      "label": "ZPO · Art. 290",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_290",
+      "sha256": "a8142ee96f1da836b07506238214cb39e406cb333f39897e68a55644180bde06"
+    },
+    "zpo-291": {
+      "type": "statute",
+      "sr": "272",
+      "article": "291",
+      "label": "ZPO · Art. 291",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_291",
+      "sha256": "f1ab1ddf52c1fe1be7c01f54ac39b72cf15da0edfd9094992b33fbc121d620e4"
+    },
+    "zpo-292": {
+      "type": "statute",
+      "sr": "272",
+      "article": "292",
+      "label": "ZPO · Art. 292",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_292",
+      "sha256": "64c4ea3af4385c48c62daba2cf46985331eb74d1fce00303ecab4aeadf264ad3"
+    },
+    "zpo-296": {
+      "type": "statute",
+      "sr": "272",
+      "article": "296",
+      "label": "ZPO · Art. 296",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_296",
+      "sha256": "f41c367d1e10fb8e7a997418cd65c933b8a9e1e41cc89c9b6acf592cd9a9f4e3"
+    },
+    "zpo-297": {
+      "type": "statute",
+      "sr": "272",
+      "article": "297",
+      "label": "ZPO · Art. 297",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_297",
+      "sha256": "269005c3098d3b668d691cbdedd2057a51383cefd6ac26880313b0bfdc5a9e88"
+    },
+    "zpo-298": {
+      "type": "statute",
+      "sr": "272",
+      "article": "298",
+      "label": "ZPO · Art. 298",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_298",
+      "sha256": "08d0780406c74a37db82e74db8664faa8180668706e990344aa29c0683a0913f"
+    },
+    "ahvg-29quinquies": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "29quinquies",
+      "label": "AHVG · Art. 29quinquies",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_29quinquies",
+      "sha256": "0398bdaa50a42b8496a91fbce9c98f2be7e3d32c1c17ae61debf84295dc670fd"
+    },
+    "bge-147-iii-249-e3-4-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_249",
+      "citation": "BGE 147 III 249",
+      "e": "3.4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_249#e-3-4-3"
+    },
+    "bge-147-iii-249-e3-4-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_249",
+      "citation": "BGE 147 III 249",
+      "e": "3.4.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_249#e-3-4-4"
+    },
+    "bge-147-iii-249-e3-4-5": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_249",
+      "citation": "BGE 147 III 249",
+      "e": "3.4.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_249#e-3-4-5"
+    },
+    "bge-145-iii-56": {
+      "type": "decision",
+      "decision_id": "bge_BGE_145_III_56",
+      "citation": "BGE 145 III 56",
+      "e": "5.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_145_III_56#e-5-4"
+    },
+    "bge-127-iii-129": {
+      "type": "decision",
+      "decision_id": "bge_BGE_127_III_129",
+      "citation": "BGE 127 III 129",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_127_III_129#e-3"
+    },
+    "bger-5a-192-2021": {
+      "type": "decision",
+      "decision_id": "bger_5A_192_2021",
+      "citation": "BGer 5A_192/2021 vom 18. November 2021",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_192_2021#e-3-1"
+    },
+    "bge-143-iii-361": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_III_361",
+      "citation": "BGE 143 III 361",
+      "e": "7.3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_III_361#e-7-3-1"
+    },
+    "bger-5a-980-2018": {
+      "type": "decision",
+      "decision_id": "bger_5A_980_2018",
+      "citation": "BGer 5A_980/2018 vom 5. Juni 2019",
+      "e": "4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_980_2018#e-4-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/scheidungsverfahren/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Die Folgen einer Scheidung"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/folgen-einer-scheidung/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

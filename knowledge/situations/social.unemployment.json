@@ -1,0 +1,842 @@
+{
+  "schema": 1,
+  "id": "social.unemployment",
+  "domain": "social",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich werde arbeitslos. Was muss ich tun, und was sind Einstelltage?"
+  },
+  "summary": {
+    "de": "Melden Sie sich früh beim RAV an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung wollen. Suchen Sie schon während der Kündigungsfrist eine Stelle und sammeln Sie die Belege. Verletzen Sie Ihre Pflichten, zum Beispiel mit zu wenigen Bewerbungen oder einem verpassten Termin, oder sind Sie selbst schuld an der Arbeitslosigkeit, erhalten Sie für einige Tage kein Geld (Einstelltage). Dagegen können Sie innert 30 Tagen kostenlos Einsprache erheben."
+  },
+  "examples": {
+    "de": [
+      "Mir wurde gekündigt, wann muss ich mich beim RAV melden?",
+      "Ich habe Einstelltage bekommen, weil ich zu wenig Bewerbungen hatte. Kann ich mich wehren?",
+      "Ich habe einen RAV-Termin verpasst, was passiert jetzt?",
+      "Wenn ich selbst kündige, bekomme ich dann Arbeitslosengeld?",
+      "Ich bi arbeitslos worde, was muess ich jetzt mache?",
+      "Die Arbeitslosenkasse sagt, ich sei selber schuld an meiner Kündigung. Stimmt das?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Anmeldung bei der Arbeitslosenversicherung, die Grundvoraussetzungen für Arbeitslosenentschädigung, die Pflicht zur Stellensuche und die Einstellung in der Anspruchsberechtigung (Einstelltage) mit den häufigsten Gründen, sowie Einsprache und Beschwerde gegen eine Einstellung."
+    },
+    "excludes": {
+      "de": "Die Berechnung und Höhe der Taggelder, Kurzarbeits-, Schlechtwetter- und Insolvenzentschädigung, arbeitsmarktliche Massnahmen im Einzelnen, Selbständigerwerbende, Grenzgängerinnen und Grenzgänger sowie die Rückforderung zu viel bezahlter Leistungen. Streitigkeiten mit dem Arbeitgeber über die Kündigung selbst behandeln die arbeitsrechtlichen Anleitungen."
+    }
+  },
+  "facts": [
+    {
+      "key": "stage",
+      "question": {
+        "de": "Wo stehen Sie gerade?"
+      },
+      "options": [
+        {
+          "value": "notice-period",
+          "label": {
+            "de": "Mir wurde gekündigt oder mein Vertrag läuft aus, ich arbeite aber noch"
+          }
+        },
+        {
+          "value": "not-registered",
+          "label": {
+            "de": "Ich bin schon ohne Arbeit, aber noch nicht beim RAV angemeldet"
+          }
+        },
+        {
+          "value": "registered",
+          "label": {
+            "de": "Ich bin beim RAV angemeldet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "how_ended",
+      "question": {
+        "de": "Wie endet oder endete Ihre letzte Stelle?"
+      },
+      "options": [
+        {
+          "value": "employer",
+          "label": {
+            "de": "Der Arbeitgeber hat gekündigt"
+          }
+        },
+        {
+          "value": "own-notice",
+          "label": {
+            "de": "Ich habe selbst gekündigt"
+          }
+        },
+        {
+          "value": "agreement",
+          "label": {
+            "de": "Wir haben uns auf eine Auflösung geeinigt"
+          }
+        },
+        {
+          "value": "fixed-term",
+          "label": {
+            "de": "Der befristete Vertrag ist ausgelaufen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "contributions",
+      "question": {
+        "de": "Haben Sie in den letzten zwei Jahren insgesamt mindestens zwölf Monate als Angestellte oder Angestellter gearbeitet?"
+      },
+      "help": {
+        "de": "Gemeint ist eine Anstellung, bei der vom Lohn Beiträge an die Arbeitslosenversicherung abgezogen wurden. Mehrere Stellen werden zusammengezählt."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "suspension",
+      "question": {
+        "de": "Haben Sie eine Verfügung über Einstelltage erhalten? Wenn ja, weshalb?"
+      },
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "de": "Nein, keine Einstelltage"
+          }
+        },
+        {
+          "value": "fault",
+          "label": {
+            "de": "Ja, weil ich selbst schuld an der Arbeitslosigkeit sein soll"
+          }
+        },
+        {
+          "value": "job-search",
+          "label": {
+            "de": "Ja, wegen zu wenigen oder ungenügenden Bewerbungen"
+          }
+        },
+        {
+          "value": "appointment",
+          "label": {
+            "de": "Ja, wegen eines verpassten Termins oder einer nicht befolgten Weisung"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Ja, aus einem anderen Grund"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "procedure",
+      "question": {
+        "de": "Welches Schreiben haben Sie zuletzt zu den Einstelltagen erhalten?"
+      },
+      "help": {
+        "de": "Der Titel und die Rechtsmittelbelehrung am Schluss des Schreibens sagen, ob es eine Verfügung oder ein Einspracheentscheid ist."
+      },
+      "options": [
+        {
+          "value": "decision",
+          "label": {
+            "de": "Eine Verfügung (erster Entscheid)"
+          }
+        },
+        {
+          "value": "objection-decided",
+          "label": {
+            "de": "Einen Einspracheentscheid (ich habe schon Einsprache erhoben)"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "register-early",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "notice-period",
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Sie können sich online über die offizielle Plattform der Arbeitslosenversicherung oder direkt bei der zuständigen Stelle Ihrer Wohngemeinde anmelden. Halten Sie Ihre AHV-Nummer bereit. Das Datum der Anmeldung wird Ihnen schriftlich bestätigt. Sie können sich schon während der Kündigungsfrist anmelden."
+      },
+      "sources": [
+        "avig-17",
+        "aviv-19"
+      ]
+    },
+    {
+      "id": "late-registration",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Als arbeitslos gelten Sie für die Versicherung erst ab dem Tag, an dem Sie sich zur Arbeitsvermittlung angemeldet haben. Für Tage davor erhalten Sie in der Regel kein Geld, auch wenn Sie schon ohne Stelle waren. Warten Sie deshalb nicht."
+      },
+      "sources": [
+        "avig-10",
+        "avig-17"
+      ]
+    },
+    {
+      "id": "conditions",
+      "kind": "rule",
+      "text": {
+        "de": "Arbeitslosenentschädigung erhalten Sie unter anderem nur, wenn Sie ganz oder teilweise arbeitslos sind, in der Schweiz wohnen, das Rentenalter noch nicht erreicht haben, die Beitragszeit erfüllt haben, eine zumutbare Stelle annehmen könnten und wollen (vermittlungsfähig) und die Kontrollvorschriften einhalten. Die Beitragszeit erfüllen Sie in der Regel, wenn Sie in den zwei Jahren vor Beginn des Anspruchs während mindestens zwölf Monaten eine Stelle hatten, auf deren Lohn Beiträge bezahlt wurden. Das Geld fliesst erst nach einigen Wartetagen, meist fünf, bei höherem Verdienst und ohne Kinder mehr."
+      },
+      "sources": [
+        "avig-8",
+        "avig-9",
+        "avig-13",
+        "avig-15",
+        "avig-18"
+      ]
+    },
+    {
+      "id": "short-contributions",
+      "kind": "warning",
+      "when": {
+        "contributions": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie in den letzten zwei Jahren weniger als zwölf Monate Beiträge bezahlt, besteht in der Regel kein Anspruch. Mitgezählt werden aber zum Beispiel Militär-, Zivil- und Schutzdienst sowie Zeiten, in denen Sie zwar angestellt waren, wegen Krankheit oder Unfall aber keinen Lohn erhielten. Von der Beitragszeit befreit sein kann, wer sie wegen einer Ausbildung, wegen Krankheit, Unfall oder Mutterschaft nicht erfüllen konnte oder wer wegen einer Trennung oder Scheidung eine Stelle suchen muss. Melden Sie sich trotzdem an und lassen Sie Ihren Anspruch von der Arbeitslosenkasse prüfen."
+      },
+      "sources": [
+        "avig-13",
+        "avig-14"
+      ]
+    },
+    {
+      "id": "claim-with-fund",
+      "kind": "rule",
+      "text": {
+        "de": "Neben der Anmeldung beim RAV müssen Sie Ihren Anspruch bei einer Arbeitslosenkasse geltend machen. Sie wählen die Kasse selbst, dürfen sie danach aber während der zweijährigen Bezugsperiode grundsätzlich nicht mehr wechseln. Die Kasse braucht eine Arbeitsbescheinigung Ihres letzten Arbeitgebers; dieser muss sie Ihnen ausstellen. Reichen Sie die Unterlagen für jeden Monat rasch ein: Der Anspruch für einen Monat erlischt, wenn Sie ihn nicht innert drei Monaten nach dessen Ende geltend machen."
+      },
+      "sources": [
+        "avig-20",
+        "avig-9"
+      ]
+    },
+    {
+      "id": "search-during-notice",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "notice-period",
+          "not-registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie müssen alles Zumutbare tun, um Arbeitslosigkeit zu vermeiden oder zu verkürzen. Deshalb müssen Sie sich schon ab der Kündigung und während der ganzen Kündigungsfrist von sich aus intensiv um eine neue Stelle bemühen, nicht erst ab der Anmeldung beim RAV. Dass Sie das nicht gewusst haben, entschuldigt Sie nicht. Bei der Anmeldung müssen Sie die Belege für Ihre Bewerbungen aus dieser Zeit vorlegen. Fehlen sie, drohen Einstelltage."
+      },
+      "sources": [
+        "avig-17",
+        "avig-30",
+        "bge-139-v-524-2-1-2"
+      ]
+    },
+    {
+      "id": "job-search-proof",
+      "kind": "step",
+      "text": {
+        "de": "Bewerben Sie sich gezielt, in der Regel mit einer richtigen Bewerbung, nötigenfalls auch ausserhalb Ihres bisherigen Berufs. Es zählt nicht nur die Qualität, sondern auch die Anzahl: In der Praxis gelten durchschnittlich zehn bis zwölf Bewerbungen pro Monat in der Regel als genügend, massgebend sind aber Ihre Umstände und die Vorgaben Ihres RAV. Bewahren Sie Inserate, Bewerbungen und Antworten auf. Reichen Sie den Nachweis für jeden Monat spätestens am fünften Tag des Folgemonats ein (fällt dieser Tag nicht auf einen Werktag, am nächsten Werktag). Später eingereichte Bemühungen werden ohne entschuldbaren Grund nicht mehr berücksichtigt."
+      },
+      "sources": [
+        "avig-17",
+        "aviv-26",
+        "bge-139-v-524-2-1-4"
+      ]
+    },
+    {
+      "id": "appointments",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "registered",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das RAV führt mit Ihnen mindestens alle zwei Monate ein Beratungs- und Kontrollgespräch. Sie müssen an diesen Gesprächen teilnehmen, den Weisungen des RAV folgen und innerhalb eines Arbeitstages erreichbar sein. Können Sie einen Termin wegen eines zwingenden Ereignisses, etwa eines Vorstellungsgesprächs, nicht wahrnehmen, bitten Sie vorher um eine Verschiebung und legen Sie einen Nachweis bei. Wer einen Termin ohne entschuldbaren Grund verpasst, wird in der Regel eingestellt."
+      },
+      "sources": [
+        "avig-17",
+        "aviv-21",
+        "aviv-25",
+        "bger-8c-125-2013"
+      ]
+    },
+    {
+      "id": "missed-appointment",
+      "kind": "rule",
+      "when": {
+        "suspension": [
+          "appointment",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie ein Beratungs- und Kontrollgespräch beim RAV unentschuldigt verpasst, ist das nach der Rechtsprechung ausnahmsweise kein Grund für Einstelltage, wenn Sie in den zwölf Monaten vor dem verpassten Gespräch alle Ihre Pflichten als arbeitslose Person korrekt erfüllt und sich danach von sich aus entschuldigt haben. Die Ausnahme entfällt, wenn Sie sich in diesen zwölf Monaten schon einmal so verhalten haben, dass dies selbst Einstelltage hätte rechtfertigen können, auch wenn es damals keine Sanktion gab. Entschuldigen Sie sich deshalb sofort schriftlich beim RAV."
+      },
+      "sources": [
+        "bger-8c-202-2025-3",
+        "bger-8c-202-2025-5-1",
+        "aviv-21"
+      ]
+    },
+    {
+      "id": "suspension-grounds",
+      "kind": "rule",
+      "text": {
+        "de": "Einstelltage (Einstellung in der Anspruchsberechtigung) sind Tage, für die Sie trotz Arbeitslosigkeit kein Taggeld erhalten. Die häufigsten Gründe sind: Sie sind durch eigenes Verschulden arbeitslos geworden, Sie haben sich nicht genügend um zumutbare Arbeit bemüht, Sie haben Kontrollvorschriften oder Weisungen nicht befolgt (zum Beispiel einen Termin verpasst oder eine zumutbare Stelle abgelehnt), oder Sie haben falsche oder unvollständige Angaben gemacht. Die Einstelltage werden von der Höchstzahl Ihrer Taggelder abgezogen. Je nach Grund entscheidet das RAV beziehungsweise das kantonale Amt oder die Arbeitslosenkasse."
+      },
+      "sources": [
+        "avig-30"
+      ]
+    },
+    {
+      "id": "suspension-length",
+      "kind": "rule",
+      "text": {
+        "de": "Wie viele Einstelltage es gibt, hängt davon ab, wie schwer Ihr Verschulden wiegt: 1 bis 15 Tage bei leichtem, 16 bis 30 Tage bei mittelschwerem und 31 bis 60 Tage bei schwerem Verschulden. Pro Grund sind es höchstens 60 Tage. Die Einstelltage werden von der Höchstzahl der Taggelder abgezogen, auf die Sie Anspruch haben. Als schwer gilt es in der Regel, wenn Sie ohne entschuldbaren Grund eine zumutbare Stelle aufgeben, ohne eine neue zugesichert zu haben, oder eine zumutbare Arbeit ablehnen. Werden Sie wiederholt eingestellt, wird die Dauer verlängert; dabei zählen die Einstellungen der letzten zwei Jahre. Die Einstelltage laufen ab dem Tag nach dem Ende der Stelle oder nach dem Fehlverhalten. Werden sie nicht innert sechs Monaten vollzogen, fallen sie weg."
+      },
+      "sources": [
+        "avig-30",
+        "aviv-45"
+      ]
+    },
+    {
+      "id": "own-notice",
+      "kind": "warning",
+      "when": {
+        "how_ended": [
+          "own-notice",
+          "agreement",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kündigen Sie selbst, ohne dass Ihnen eine neue Stelle zugesichert ist, gelten Sie als selbst schuld an der Arbeitslosigkeit, ausser es war Ihnen nicht zumutbar, an der Stelle zu bleiben. Dann drohen viele Einstelltage. Das Gleiche kann gelten, wenn Sie einer vorzeitigen Auflösung zustimmen und damit auf die Weiterarbeit bis zum Ende der Kündigungsfrist verzichten, oder wenn Sie zulasten der Versicherung auf Lohn oder eine Entschädigung verzichten. Unterschreiben Sie eine Auflösungsvereinbarung oder kündigen Sie erst, nachdem Sie sich beraten lassen haben. War das Bleiben unzumutbar, etwa aus gesundheitlichen Gründen, sichern Sie Belege wie ein Arztzeugnis."
+      },
+      "sources": [
+        "aviv-44",
+        "avig-30",
+        "bge-124-v-234",
+        "bge-112-v-323",
+        "aviv-45"
+      ]
+    },
+    {
+      "id": "fault-dismissal",
+      "kind": "rule",
+      "when": {
+        "how_ended": [
+          "employer",
+          "unknown"
+        ],
+        "suspension": [
+          "fault",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch wenn der Arbeitgeber kündigt, kann die Versicherung Sie als selbst schuld ansehen, wenn Sie ihm mit Ihrem Verhalten Anlass zur Kündigung gegeben haben, etwa durch Verletzung Ihrer Pflichten aus dem Arbeitsvertrag. Dafür braucht es keinen Grund für eine fristlose Entlassung. Ihr Fehlverhalten muss aber klar feststehen. Bestreiten Sie die Vorwürfe, genügen die Behauptungen des Arbeitgebers allein nicht, wenn keine weiteren Beweise oder Hinweise sie stützen. Äussern Sie sich deshalb gegenüber der Kasse zu den Vorwürfen und legen Sie Ihre Belege vor."
+      },
+      "sources": [
+        "avig-30",
+        "aviv-44",
+        "bge-112-v-242"
+      ]
+    },
+    {
+      "id": "objection",
+      "kind": "rule",
+      "when": {
+        "suspension": [
+          "fault",
+          "job-search",
+          "appointment",
+          "other",
+          "unknown"
+        ],
+        "procedure": [
+          "decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen eine Verfügung über Einstelltage können Sie innert 30 Tagen Einsprache erheben, grundsätzlich bei der Stelle, die entschieden hat; massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Bei der Arbeitslosenversicherung muss die Einsprache schriftlich sein und Ihre Unterschrift tragen. Sie muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag der Post übergeben."
+      },
+      "sources": [
+        "atsg-52",
+        "atsv-10",
+        "atsg-38",
+        "atsg-39"
+      ]
+    },
+    {
+      "id": "no-email",
+      "kind": "warning",
+      "when": {
+        "suspension": [
+          "fault",
+          "job-search",
+          "appointment",
+          "other",
+          "unknown"
+        ],
+        "procedure": [
+          "decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Einsprache per gewöhnlicher E-Mail erfüllt die vorgeschriebene Schriftform nicht, weil die Unterschrift fehlt. Sie wahrt die Einsprachefrist nicht, und Sie haben keinen Anspruch darauf, den Mangel nachträglich in einer zusätzlichen Frist zu beheben. Solange die Einsprachefrist noch läuft, können Sie aber eine unterschriebene Einsprache einreichen. Schicken Sie deshalb einen unterschriebenen Brief, am besten eingeschrieben, und behalten Sie eine Kopie."
+      },
+      "sources": [
+        "atsg-52",
+        "atsv-10",
+        "bge-142-v-152"
+      ]
+    },
+    {
+      "id": "how-to-object",
+      "kind": "step",
+      "when": {
+        "suspension": [
+          "fault",
+          "job-search",
+          "appointment",
+          "other",
+          "unknown"
+        ],
+        "procedure": [
+          "decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie vor: Schreiben Sie, welche Verfügung Sie anfechten (Datum), was Sie verlangen, zum Beispiel keine oder weniger Einstelltage, und warum. Legen Sie Belege bei, etwa Kopien Ihrer Bewerbungen, ein Arztzeugnis, Ihre Entschuldigung an das RAV oder Unterlagen, die die Vorwürfe des Arbeitgebers widerlegen. Die 30-tägige Frist steht im Gesetz und kann nicht verlängert werden. Warten Sie deshalb nicht auf fehlende Unterlagen, sondern reichen Sie die Einsprache rechtzeitig ein. Unterschreiben Sie den Brief."
+      },
+      "sources": [
+        "atsg-52",
+        "atsv-10",
+        "atsg-40"
+      ]
+    },
+    {
+      "id": "appeal",
+      "kind": "rule",
+      "when": {
+        "suspension": [
+          "fault",
+          "job-search",
+          "appointment",
+          "other",
+          "unknown"
+        ],
+        "procedure": [
+          "objection-decided",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen; wie es heisst und wo es ist, steht in der Rechtsmittelbelehrung und auf der Website Ihres Kantons. Die Beschwerde muss kurz den Sachverhalt schildern, ein Begehren enthalten und begründet sein. Fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an die Begehren gebunden."
+      },
+      "sources": [
+        "atsg-56",
+        "atsg-58",
+        "atsg-60",
+        "atsg-61"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Die Einsprache ist kostenlos. Eine Entschädigung für eine Anwältin oder einen Anwalt gibt es dafür in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei der Arbeitslosenversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, erhalten Sie Ihre Parteikosten ersetzt. Wo es die Verhältnisse rechtfertigen, bewilligt das Gericht eine unentgeltliche Rechtsvertretung."
+      },
+      "sources": [
+        "atsg-52",
+        "atsg-61"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, bevor Sie selbst kündigen oder eine Auflösungsvereinbarung unterschreiben, wenn Ihnen viele Einstelltage wegen selbstverschuldeter Arbeitslosigkeit drohen, wenn Ihnen die Kasse die Beitragszeit oder die Vermittlungsfähigkeit abspricht, wenn Sie zu viel bezahlte Leistungen zurückzahlen sollen, wenn Sie einen Einspracheentscheid an das Gericht weiterziehen wollen oder wenn die Frist in wenigen Tagen abläuft."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Das RAV und Ihre Arbeitslosenkasse müssen Sie über Ihre Rechte und Pflichten aufklären und beraten, grundsätzlich kostenlos. Gewerkschaften und Arbeitslosenkomitees beraten ebenfalls, Gewerkschaften ihre Mitglieder auch im Streit mit der Kasse. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Die Angebote und Zuständigkeiten unterscheiden sich von Kanton zu Kanton; die Website Ihres Kantons nennt die zuständigen Stellen."
+      },
+      "sources": [
+        "atsg-27"
+      ]
+    }
+  ],
+  "sources": {
+    "avig-8": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "8",
+      "label": "AVIG · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_8",
+      "sha256": "e78066cd5f4a466c3f4542cf06af6523a679015ed931b50919c2732961d91540"
+    },
+    "avig-9": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "9",
+      "label": "AVIG · Art. 9",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_9",
+      "sha256": "14d1fab8436be833385951473a4205eb01761a9627e0bc89c14394f7d424d216"
+    },
+    "avig-10": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "10",
+      "label": "AVIG · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_10",
+      "sha256": "93536018c3c153337b1b91dbc6b36a2d2355016251f21e9d1e73e5e3c1d02ceb"
+    },
+    "avig-13": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "13",
+      "label": "AVIG · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_13",
+      "sha256": "44e7953801d03d760706e351e5a21cd525af1829e633558642bdb65fac810408"
+    },
+    "avig-15": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "15",
+      "label": "AVIG · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_15",
+      "sha256": "d6a0904bfcef626d11185945df9aad17aa44884497d819cd09d00e4d445022f6"
+    },
+    "avig-17": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "17",
+      "label": "AVIG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_17",
+      "sha256": "f7524015817c568d6b92b981899d520148d6bfb1ef533f5ba03fbdc0ba335c1a"
+    },
+    "avig-18": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "18",
+      "label": "AVIG · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_18",
+      "sha256": "9f9670ad1e75d5666d5683ef6fc9244a7d5dac9e489ed9d454e832132a4beef4"
+    },
+    "avig-20": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "20",
+      "label": "AVIG · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_20",
+      "sha256": "bfa8efaf46acb13b9e0f091fabbfcd6675ba04ecefb75850191cabe30bf2fa84"
+    },
+    "avig-30": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "30",
+      "label": "AVIG · Art. 30",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_30",
+      "sha256": "db1dbc23a0370383f94e96475762a731d43a55696495a16dc255d29a19c2eaf6"
+    },
+    "aviv-19": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "19",
+      "label": "AVIV · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_19",
+      "sha256": "4ed3488a4b6cd9a298f023224599220dde72c6d97170cc9501bd7d818e4884ec"
+    },
+    "aviv-21": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "21",
+      "label": "AVIV · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_21",
+      "sha256": "666a68d28e184fd73d1df5006fd3d21e3164e77d35f2e0a6ea3e72497fc73bbf"
+    },
+    "aviv-25": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "25",
+      "label": "AVIV · Art. 25",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_25",
+      "sha256": "e31e6b70af82e91e961af29201590a37b41fbf45bb7797c79789edc9b81e3aa4"
+    },
+    "aviv-26": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "26",
+      "label": "AVIV · Art. 26",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_26",
+      "sha256": "009e1c742fa5e31fb00eb4fde122475ec9e86e704f0c7447caf23e0a6ca1b5ee"
+    },
+    "aviv-44": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "44",
+      "label": "AVIV · Art. 44",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_44",
+      "sha256": "286fcb56d950be4efc5ed8e120dfdab5c77dee73174d557abe34762c38bef785"
+    },
+    "aviv-45": {
+      "type": "statute",
+      "sr": "837.02",
+      "article": "45",
+      "label": "AVIV · Art. 45",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/1205_1205_1205/de#art_45",
+      "sha256": "1ca719b8f1c666b18b7e06bd968cd6ad78ebb615c04080a9cd017a1c22c82ede"
+    },
+    "atsg-38": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "38",
+      "label": "ATSG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38",
+      "sha256": "217553f9ceb68e6918228f6dc8a9d82a55113dda82477e1d3df4cb1d13eb42ff"
+    },
+    "atsg-39": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "39",
+      "label": "ATSG · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39",
+      "sha256": "f36ab1046e28439f454d3def4b1e74630b3483d0d78aed818bf6aae86619511d"
+    },
+    "atsg-52": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "52",
+      "label": "ATSG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_52",
+      "sha256": "9c4de6689671dc542d40efc1f52797b2984008257cb39866a145216b163bf54b"
+    },
+    "atsg-56": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "56",
+      "label": "ATSG · Art. 56",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_56",
+      "sha256": "6e22aaeb587c66bae70866fc6f0ca5ff34a37c335ed426b92cac5311b838d3df"
+    },
+    "atsg-58": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "58",
+      "label": "ATSG · Art. 58",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_58",
+      "sha256": "557edf902c4123ecf24973ffc157a04f51f5b5245a40cbd40584522fb6896c50"
+    },
+    "atsg-60": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "60",
+      "label": "ATSG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_60",
+      "sha256": "ab000f5ea37a5e0de9ccb6b5da45767a50cf87a0520a996c794c7703031386be"
+    },
+    "atsg-61": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "61",
+      "label": "ATSG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_61",
+      "sha256": "bfcd579d997ba4f6e8dc23876f903ee0f307b95f32bf5302d45ba3f164ed5a2c"
+    },
+    "atsv-10": {
+      "type": "statute",
+      "sr": "830.11",
+      "article": "10",
+      "label": "ATSV · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/569/de#art_10",
+      "sha256": "847557a0a3f88b169b51f2ba4d64c65980a16d16b77e72f57571a01478670041"
+    },
+    "bge-139-v-524-2-1-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_V_524",
+      "citation": "BGE 139 V 524",
+      "e": "2.1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_V_524#e-2-1-2"
+    },
+    "bge-139-v-524-2-1-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_V_524",
+      "citation": "BGE 139 V 524",
+      "e": "2.1.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_V_524#e-2-1-4"
+    },
+    "bger-8c-125-2013": {
+      "type": "decision",
+      "decision_id": "bger_8C_125_2013",
+      "citation": "BGer 8C_125/2013 vom 29. August 2013",
+      "e": "2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_8C_125_2013#e-2"
+    },
+    "bge-124-v-234": {
+      "type": "decision",
+      "decision_id": "bge_BGE_124_V_234",
+      "citation": "BGE 124 V 234",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_124_V_234#e-3"
+    },
+    "bge-112-v-323": {
+      "type": "decision",
+      "decision_id": "bge_BGE_112_V_323",
+      "citation": "BGE 112 V 323",
+      "e": "2b",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_112_V_323#e-2b"
+    },
+    "bge-112-v-242": {
+      "type": "decision",
+      "decision_id": "bge_BGE_112_V_242",
+      "citation": "BGE 112 V 242",
+      "e": "1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_112_V_242#e-1"
+    },
+    "bge-142-v-152": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_V_152",
+      "citation": "BGE 142 V 152",
+      "e": "4.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_V_152#e-4-6"
+    },
+    "avig-14": {
+      "type": "statute",
+      "sr": "837.0",
+      "article": "14",
+      "label": "AVIG · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/2184_2184_2184/de#art_14",
+      "sha256": "be6a1097cd52c2ce03c7a26033a314ad1ed7a1f40585622f2162e6ab15457b94"
+    },
+    "atsg-27": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "27",
+      "label": "ATSG · Art. 27",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_27",
+      "sha256": "4d657dfbdcd42d5675c8df5f262adefcd5330a2e59f7e3b6e1ef9d63dacec24b"
+    },
+    "atsg-40": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "40",
+      "label": "ATSG · Art. 40",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_40",
+      "sha256": "ca4475ea4521366799104b9cc6369bc9d717a88c7a88b1d7b834e78e2d0cad3d"
+    },
+    "bger-8c-202-2025-3": {
+      "type": "decision",
+      "decision_id": "bger_8C_202_2025",
+      "citation": "BGer 8C_202/2025 vom 7. Januar 2026",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_8C_202_2025#e-3"
+    },
+    "bger-8c-202-2025-5-1": {
+      "type": "decision",
+      "decision_id": "bger_8C_202_2025",
+      "citation": "BGer 8C_202/2025 vom 7. Januar 2026",
+      "e": "5.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_8C_202_2025#e-5-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "arbeit.swiss: Erste Schritte nach Kündigung oder bei drohender Arbeitslosigkeit"
+      },
+      "url": "https://www.arbeit.swiss/secoalv/de/home/menue/stellensuchende/arbeitslos-was-tun-.html"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Arbeitslosigkeit in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/versicherungen/arbeitslosenversicherung/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

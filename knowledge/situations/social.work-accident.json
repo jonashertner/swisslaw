@@ -1,0 +1,984 @@
+{
+  "schema": 1,
+  "id": "social.work-accident",
+  "domain": "social",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich hatte einen Unfall. Was zahlt die Unfallversicherung?"
+  },
+  "summary": {
+    "de": "Wer in der Schweiz angestellt ist, ist über den Arbeitgeber obligatorisch gegen Unfälle versichert: bei der Arbeit immer, in der Freizeit, wenn Sie bei diesem Arbeitgeber mindestens acht Stunden pro Woche arbeiten. Melden Sie den Unfall sofort dem Arbeitgeber. Die Unfallversicherung bezahlt die Heilbehandlung und ab dem dritten Tag nach dem Unfalltag ein Taggeld von 80 Prozent des versicherten Lohnes. Gegen einen Entscheid, mit dem Sie nicht einverstanden sind, können Sie innert 30 Tagen kostenlos Einsprache erheben."
+  },
+  "examples": {
+    "de": [
+      "Ich hatte einen Unfall. Was zahlt die Unfallversicherung?",
+      "Ich bin in der Freizeit beim Sport verunfallt, bin ich über den Arbeitgeber versichert?",
+      "Die Suva will meinen Meniskusriss nicht übernehmen, was kann ich tun?",
+      "I bi bim Schaffe umkeit und cha nüm schaffe, wer zahlt mer de Lohn?",
+      "Die Unfallversicherung kürzt mein Taggeld wegen grober Fahrlässigkeit",
+      "Ich arbeite nur ein paar Stunden pro Woche. Bin ich in der Freizeit gegen Unfall versichert?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Berufsunfälle und Nichtberufsunfälle von Arbeitnehmerinnen und Arbeitnehmern, die in der Schweiz beschäftigt sind, und die Leistungen der obligatorischen Unfallversicherung: Meldung, Heilbehandlung, Taggeld, Kürzungen, Einsprache und Beschwerde."
+    },
+    "excludes": {
+      "de": "Selbständigerwerbende, arbeitslose Personen, Berufskrankheiten, die genaue Berechnung von Invalidenrenten und Integritätsentschädigungen, Unfälle im Militärdienst sowie Haftpflichtansprüche gegen die Person, die den Unfall verursacht hat."
+    }
+  },
+  "facts": [
+    {
+      "key": "accident_place",
+      "question": {
+        "de": "Wo ist der Unfall passiert?"
+      },
+      "options": [
+        {
+          "value": "work",
+          "label": {
+            "de": "Bei der Arbeit oder in einer Pause auf dem Arbeitsgelände"
+          }
+        },
+        {
+          "value": "commute",
+          "label": {
+            "de": "Auf dem Weg zur Arbeit oder nach Hause"
+          }
+        },
+        {
+          "value": "leisure",
+          "label": {
+            "de": "In der Freizeit, zum Beispiel beim Sport, im Haushalt oder im Verkehr"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "weekly_hours",
+      "question": {
+        "de": "Wie viele Stunden pro Woche arbeiten Sie bei dem Arbeitgeber, bei dem Sie zur Zeit des Unfalls angestellt waren?"
+      },
+      "help": {
+        "de": "Massgebend ist die Arbeitszeit bei einem einzelnen Arbeitgeber. Stunden bei mehreren Arbeitgebern werden nicht zusammengezählt."
+      },
+      "options": [
+        {
+          "value": "eight-or-more",
+          "label": {
+            "de": "Acht Stunden oder mehr"
+          }
+        },
+        {
+          "value": "under-eight",
+          "label": {
+            "de": "Weniger als acht Stunden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "employment",
+      "question": {
+        "de": "Waren Sie zur Zeit des Unfalls noch angestellt?"
+      },
+      "options": [
+        {
+          "value": "employed",
+          "label": {
+            "de": "Ja, ich war angestellt"
+          }
+        },
+        {
+          "value": "recently-ended",
+          "label": {
+            "de": "Meine Stelle hatte kurz vorher geendet"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "injury",
+      "question": {
+        "de": "Wie ist es zur Verletzung gekommen?"
+      },
+      "options": [
+        {
+          "value": "clear-event",
+          "label": {
+            "de": "Durch ein klares Ereignis, zum Beispiel einen Sturz, einen Schlag oder einen Zusammenstoss"
+          }
+        },
+        {
+          "value": "no-clear-event",
+          "label": {
+            "de": "Ohne besonderes Ereignis, zum Beispiel ein Riss im Knie beim Aufstehen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "stage",
+      "question": {
+        "de": "Wo stehen Sie?"
+      },
+      "options": [
+        {
+          "value": "just-happened",
+          "label": {
+            "de": "Der Unfall ist gerade passiert, ich will wissen, was ich tun muss"
+          }
+        },
+        {
+          "value": "informal-refusal",
+          "label": {
+            "de": "Die Versicherung zahlt nicht oder nicht mehr, ich habe aber keine formelle Verfügung erhalten"
+          }
+        },
+        {
+          "value": "decision",
+          "label": {
+            "de": "Ich habe eine Verfügung erhalten, mit der ich nicht einverstanden bin"
+          }
+        },
+        {
+          "value": "objection-decision",
+          "label": {
+            "de": "Ich habe bereits Einsprache erhoben und einen Einspracheentscheid erhalten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "reduction",
+      "question": {
+        "de": "Wirft Ihnen die Versicherung vor, den Unfall durch grobe Fahrlässigkeit oder ein besonders gefährliches Verhalten selbst verursacht zu haben?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "who-is-insured",
+      "kind": "rule",
+      "text": {
+        "de": "Wer in der Schweiz als Arbeitnehmerin oder Arbeitnehmer beschäftigt ist, ist von Gesetzes wegen gegen Unfälle versichert. Das gilt auch für Lernende, Praktikantinnen und Praktikanten sowie Personen in Heimarbeit. Ihr Arbeitgeber muss Sie bei einem Unfallversicherer anmelden. Gegen Berufsunfälle sind Sie immer versichert. Gegen Unfälle in der Freizeit (Nichtberufsunfälle) sind Sie nur versichert, wenn Sie bei einem einzelnen Arbeitgeber mindestens acht Stunden pro Woche arbeiten."
+      },
+      "sources": [
+        "uvg-1a",
+        "uvg-7",
+        "uvg-8",
+        "uvv-13"
+      ]
+    },
+    {
+      "id": "occupational-or-not",
+      "kind": "rule",
+      "when": {
+        "accident_place": [
+          "work",
+          "commute",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Berufsunfall ist ein Unfall bei einer Arbeit, die Sie im Auftrag oder im Interesse des Arbeitgebers erledigen. Dazu zählen auch Unfälle während der Pausen sowie vor und nach der Arbeit, solange Sie sich erlaubterweise am Arbeitsort oder im Gefahrenbereich Ihrer Arbeit aufhalten. Ein Unfall auf dem Arbeitsweg gilt grundsätzlich als Nichtberufsunfall. Arbeiten Sie weniger als acht Stunden pro Woche bei diesem Arbeitgeber, gilt ein Unfall auf dem Arbeitsweg als Berufsunfall und ist deshalb versichert."
+      },
+      "sources": [
+        "uvg-7",
+        "uvg-8",
+        "uvv-13"
+      ]
+    },
+    {
+      "id": "under-eight-hours",
+      "kind": "warning",
+      "when": {
+        "weekly_hours": [
+          "under-eight",
+          "unknown"
+        ],
+        "accident_place": [
+          "leisure",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Arbeiten Sie bei Ihrem Arbeitgeber weniger als acht Stunden pro Woche, deckt seine Unfallversicherung einen Unfall in der Freizeit nicht. Dann übernimmt Ihre Krankenkasse die Behandlungskosten, allerdings mit Franchise und Selbstbehalt. Ein Taggeld der Unfallversicherung erhalten Sie in diesem Fall nicht. Ob und wie lange Ihr Arbeitgeber während Ihrer Arbeitsunfähigkeit den Lohn weiterzahlen muss, richtet sich nach den Regeln über die Lohnfortzahlung im Arbeitsrecht und nach Ihrem Arbeitsvertrag."
+      },
+      "sources": [
+        "uvv-13",
+        "kvg-1a",
+        "kvg-64",
+        "or-324a"
+      ]
+    },
+    {
+      "id": "coverage-after-job-end",
+      "kind": "warning",
+      "when": {
+        "employment": [
+          "recently-ended",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Versicherungsschutz endet nicht am letzten Arbeitstag. Er dauert bis zum 31. Tag nach dem Tag, an dem Ihr Anspruch auf mindestens den halben Lohn aufgehört hat. Ihr bisheriger Versicherer muss Ihnen anbieten, die Deckung mit einer besonderen Vereinbarung um bis zu sechs Monate zu verlängern. Sind Sie bei der Arbeitslosenversicherung angemeldet und erfüllen Sie deren Voraussetzungen, sind Sie über diese gegen Unfälle versichert."
+      },
+      "sources": [
+        "uvg-3",
+        "uvg-1a"
+      ]
+    },
+    {
+      "id": "what-is-an-accident",
+      "kind": "rule",
+      "text": {
+        "de": "Als Unfall gilt nur ein Ereignis, bei dem etwas von aussen plötzlich und ungewollt auf Ihren Körper einwirkt und Ihre körperliche, geistige oder psychische Gesundheit schädigt. Zudem muss dieser äussere Faktor ungewöhnlich sein: Er muss, objektiv betrachtet, über das hinausgehen, was im betreffenden Lebensbereich alltäglich und normal ist. Fehlt eines dieser Merkmale, handelt es sich rechtlich um eine Krankheit, und zuständig ist die Krankenkasse. Beschwerden, die sich schleichend durch Abnützung entwickeln, sind deshalb in der Regel kein Unfall."
+      },
+      "sources": [
+        "atsg-4",
+        "bge-134-v-72-e22",
+        "bge-134-v-72-e41"
+      ]
+    },
+    {
+      "id": "listed-injuries",
+      "kind": "rule",
+      "when": {
+        "injury": [
+          "no-clear-event",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für bestimmte Verletzungen zahlt die Unfallversicherung auch ohne ungewöhnliches Ereignis: Knochenbrüche, ausgerenkte Gelenke, Meniskusrisse, Muskelrisse, Muskelzerrungen, Sehnenrisse, Bandverletzungen und Verletzungen des Trommelfells. Sie muss nur dann nicht leisten, wenn die Verletzung vorwiegend auf Abnützung oder Krankheit zurückgeht. Das muss der Unfallversicherer nachweisen. Vorwiegend heisst: Abnützung oder Krankheit machen mehr als die Hälfte aller Ursachen aus. Schildern Sie deshalb genau, wann und bei welcher Bewegung die Beschwerden erstmals aufgetreten sind."
+      },
+      "sources": [
+        "uvg-6",
+        "bge-146-v-51"
+      ]
+    },
+    {
+      "id": "causation",
+      "kind": "rule",
+      "text": {
+        "de": "Die Unfallversicherung leistet nur für Gesundheitsschäden, die auf den Unfall zurückgehen. Dafür braucht es zweierlei. Erstens muss der Unfall eine Ursache der Beschwerden sein. Er muss nicht die einzige Ursache sein; es genügt, dass die Beschwerden ohne den Unfall nicht oder nicht in dieser Form aufgetreten wären. Das muss überwiegend wahrscheinlich sein; dass ein Zusammenhang bloss möglich ist, genügt nicht. Zweitens muss ein Unfall dieser Art nach allgemeiner Lebenserfahrung und dem üblichen Gang der Dinge geeignet sein, einen solchen Schaden zu bewirken. Diese zweite Frage ist eine Rechtsfrage: Darüber entscheiden die Versicherung und im Streitfall das Gericht, nicht die Ärztin oder der Arzt. Bei klar nachweisbaren körperlichen Verletzungen ist sie meist unproblematisch. Bei psychischen Beschwerden und bei Schleudertraumen ist sie dagegen oft umstritten. Ein Arztbericht allein entscheidet sie deshalb nicht. Ist ein Gesundheitsschaden nur teilweise Folge des Unfalls, werden Heilbehandlung und Taggeld trotzdem nicht gekürzt. Renten und Integritätsentschädigungen können dagegen angemessen gekürzt werden. Frühere Gesundheitsschäden, die Ihre Erwerbsfähigkeit nicht vermindert hatten, zählen dabei nicht."
+      },
+      "sources": [
+        "bge-129-v-177",
+        "bge-129-v-177-e32",
+        "bge-117-v-359",
+        "uvg-36"
+      ]
+    },
+    {
+      "id": "report-accident",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "just-happened",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Melden Sie den Unfall unverzüglich Ihrem Arbeitgeber oder direkt dem Unfallversicherer, wenn Sie ärztliche Behandlung brauchen oder nicht arbeiten können. Das gilt auch für Unfälle in der Freizeit. Geben Sie an, wann, wo und wie es passiert ist, welche Folgen der Unfall hat, wer Sie behandelt und ob eine andere Person oder deren Versicherung betroffen ist. Der Arbeitgeber leitet die Meldung an den Versicherer weiter. Meist erhalten Sie einen Unfallschein, den Sie bei jeder ärztlichen Behandlung und in der Apotheke vorzeigen."
+      },
+      "sources": [
+        "uvg-45",
+        "uvv-53"
+      ]
+    },
+    {
+      "id": "late-report",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "just-happened",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Melden Sie den Unfall ohne entschuldbaren Grund zu spät und verursacht das dem Versicherer erheblichen Aufwand, kann er die Geldleistungen für die Zwischenzeit bis zur Hälfte streichen. Hat er vom Unfall aus einem solchen Grund nicht innert drei Monaten erfahren, kann er jede Leistung um die Hälfte kürzen. Eine absichtlich falsche Unfallmeldung kann zum Verlust aller Leistungen führen."
+      },
+      "sources": [
+        "uvg-46"
+      ]
+    },
+    {
+      "id": "describe-accurately",
+      "kind": "step",
+      "text": {
+        "de": "Schildern Sie den Hergang von Anfang an genau, vollständig und immer gleich. Widersprechen sich Ihre Angaben, stützen sich Versicherung und Gericht meist auf Ihre ersten Aussagen kurz nach dem Unfall, weil diese als unbefangener gelten als spätere Schilderungen. Halten Sie Namen von Zeuginnen und Zeugen fest und bewahren Sie Fotos, Arztberichte und Arbeitsunfähigkeitszeugnisse auf."
+      },
+      "sources": [
+        "bge-121-v-45-e2a"
+      ]
+    },
+    {
+      "id": "medical-treatment",
+      "kind": "rule",
+      "text": {
+        "de": "Die Unfallversicherung übernimmt die zweckmässige Behandlung der Unfallfolgen: ambulante Behandlung bei Ärztin, Arzt, Zahnärztin, Zahnarzt oder Chiropraktor, ärztlich verordnete Therapien, Medikamente und Analysen, den Spitalaufenthalt in der allgemeinen Abteilung sowie Hilfsmittel, die der Heilung dienen. Sie können Ihre Ärztin oder Ihren Arzt, das Spital und die Apotheke frei wählen. Anders als bei der Krankenkasse bezahlen Sie keine Franchise und keinen Selbstbehalt. Für eine private oder halbprivate Spitalabteilung brauchen Sie eine Zusatzversicherung."
+      },
+      "sources": [
+        "uvg-10",
+        "kvg-64"
+      ]
+    },
+    {
+      "id": "daily-allowance",
+      "kind": "rule",
+      "text": {
+        "de": "Können Sie wegen des Unfalls ganz oder teilweise nicht arbeiten, erhalten Sie ein Taggeld. Der Anspruch beginnt am dritten Tag nach dem Unfalltag. Bei voller Arbeitsunfähigkeit beträgt das Taggeld 80 Prozent des versicherten Verdienstes, bei teilweiser Arbeitsunfähigkeit entsprechend weniger. Massgebend ist der letzte Lohn vor dem Unfall, höchstens aber 148 200 Franken im Jahr. Das Taggeld endet, wenn Sie wieder voll arbeitsfähig sind, wenn eine Rente beginnt oder mit dem Tod."
+      },
+      "sources": [
+        "uvg-16",
+        "uvg-17",
+        "uvg-15",
+        "uvv-22"
+      ]
+    },
+    {
+      "id": "waiting-days",
+      "kind": "rule",
+      "text": {
+        "de": "Zahlt die Unfallversicherung ein Taggeld, muss Ihr Arbeitgeber Ihnen für die Tage, bevor der Anspruch einsetzt, mindestens 80 Prozent des Lohnes bezahlen. Deckt das Taggeld weniger als 80 Prozent Ihres Lohnes, zum Beispiel weil Ihr Lohn über dem versicherten Höchstbetrag liegt, muss der Arbeitgeber für eine beschränkte Zeit die Differenz bis zu 80 Prozent übernehmen. Viele Arbeitsverträge und Gesamtarbeitsverträge sehen mehr vor."
+      },
+      "sources": [
+        "or-324b",
+        "or-324a"
+      ]
+    },
+    {
+      "id": "lasting-harm",
+      "kind": "rule",
+      "text": {
+        "de": "Bleibt nach dem Unfall ein dauernder Schaden, kommen weitere Leistungen in Frage: eine Invalidenrente, wenn Sie wegen des Unfalls zu mindestens 10 Prozent invalid sind, und eine einmalige Integritätsentschädigung bei einer dauernden, erheblichen Schädigung Ihrer körperlichen, geistigen oder psychischen Unversehrtheit. Diese Leistungen werden in der Regel erst festgelegt, wenn die Behandlung abgeschlossen ist. Lassen Sie sich in diesem Fall beraten."
+      },
+      "sources": [
+        "uvg-18",
+        "uvg-24"
+      ]
+    },
+    {
+      "id": "gross-negligence",
+      "kind": "warning",
+      "when": {
+        "accident_place": [
+          "leisure",
+          "commute",
+          "unknown"
+        ],
+        "reduction": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie einen Freizeitunfall grob fahrlässig verursacht, kürzt die Versicherung die Taggelder der ersten zwei Jahre nach dem Unfall. Haben Sie für Angehörige zu sorgen, die bei Ihrem Tod eine Hinterlassenenrente erhalten würden, darf sie höchstens die Hälfte kürzen. Die Heilbehandlung wird nicht gekürzt. Bei Berufsunfällen gibt es keine Kürzung wegen grober Fahrlässigkeit. Gekürzt werden darf nur, wenn Ihr Fehlverhalten nach allgemeiner Erfahrung geeignet war, den Unfall oder seine Folgen herbeizuführen oder zu verschlimmern. Als Beispiel dafür, was als grob fahrlässig gilt: Die Rechtsprechung hat es so beurteilt, beim Mofafahren einen mitgeführten Helm nicht aufzusetzen. Wie stark gekürzt wird, lässt sich aus diesem älteren Entscheid nicht ableiten; das richtet sich nach dem heutigen Gesetz. Wer sich absichtlich verletzt, erhält keine Leistungen. Führt die Absicht zum Tod, werden nur die Bestattungskosten bezahlt."
+      },
+      "sources": [
+        "uvg-37",
+        "atsg-21",
+        "bge-121-v-45-e2c"
+      ]
+    },
+    {
+      "id": "daring-acts",
+      "kind": "warning",
+      "when": {
+        "accident_place": [
+          "leisure",
+          "unknown"
+        ],
+        "reduction": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Geht ein Freizeitunfall auf ein sogenanntes Wagnis zurück, werden die Geldleistungen wie das Taggeld um die Hälfte gekürzt, in besonders schweren Fällen ganz verweigert. Ein Wagnis ist eine Handlung, bei der Sie sich einer besonders grossen Gefahr aussetzen, ohne das Risiko durch Vorkehrungen auf ein vernünftiges Mass zu senken, oder ohne dass das überhaupt möglich wäre. Die Rechtsprechung unterscheidet Tätigkeiten, die selbst unter besten Bedingungen zu gefährlich sind, von an sich erlaubten Tätigkeiten, bei denen Sie mögliche Vorsichtsmassnahmen unterlassen haben. Die Heilbehandlung wird weiterhin bezahlt. Wer eine andere Person zu retten versucht, bleibt voll versichert."
+      },
+      "sources": [
+        "uvg-39",
+        "uvv-50",
+        "bge-138-v-522"
+      ]
+    },
+    {
+      "id": "ask-for-decision",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "informal-refusal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Teilt Ihnen der Versicherer nur in einem Brief, per Telefon oder durch das Einstellen der Zahlungen mit, dass er nicht oder nicht mehr leistet, verlangen Sie schriftlich eine formelle Verfügung. Wenn Sie nicht einverstanden sind, muss er über Ihre Leistungen schriftlich verfügen und seinen Entscheid begründen. Erst gegen eine solche Verfügung können Sie Einsprache erheben. Warten Sie damit nicht lange."
+      },
+      "sources": [
+        "atsg-49",
+        "atsg-51"
+      ]
+    },
+    {
+      "id": "objection-deadline",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "decision",
+          "informal-refusal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen eine Verfügung der Unfallversicherung können Sie innert 30 Tagen bei der Stelle Einsprache erheben, welche die Verfügung erlassen hat. Die Frist beginnt am Tag nach der Zustellung. Einen eingeschriebenen Brief, den Sie nicht abholen, behandelt das Gesetz spätestens am siebten Tag nach dem ersten erfolglosen Zustellversuch als zugestellt. Die Frist ist eingehalten, wenn Sie Ihre Einsprache spätestens am letzten Tag der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet die Frist am nächsten Werktag. Diese gesetzliche Frist kann nicht verlängert werden."
+      },
+      "sources": [
+        "atsg-52",
+        "atsg-38",
+        "atsg-39",
+        "atsg-40"
+      ]
+    },
+    {
+      "id": "objection-form",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "decision",
+          "informal-refusal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Schreiben Sie in der Einsprache, was Sie verlangen (zum Beispiel die Weiterzahlung des Taggeldes) und warum. Legen Sie Arztberichte bei, die Ihre Sicht stützen. Unterschreiben Sie den Brief von Hand und schicken Sie ihn eingeschrieben. Sie können die Einsprache auch persönlich am Schalter des Versicherers mündlich erheben. Eine Einsprache per gewöhnlicher E-Mail ist ungültig, weil die Unterschrift fehlt, und wahrt die Frist nicht. Den Fehler können Sie nur beheben, solange die 30 Tage noch laufen."
+      },
+      "sources": [
+        "atsv-10",
+        "bge-142-v-152"
+      ]
+    },
+    {
+      "id": "worse-outcome",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "decision",
+          "informal-refusal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Versicherer ist im Einspracheverfahren nicht an Ihre Anträge gebunden. Er kann die Verfügung auch zu Ihrem Nachteil ändern, etwa eine Rente herabsetzen. Will er das tun, muss er Sie vorher darauf hinweisen und Ihnen die Möglichkeit geben, die Einsprache zurückzuziehen. Nehmen Sie einen solchen Hinweis ernst und holen Sie Rat."
+      },
+      "sources": [
+        "atsv-12"
+      ]
+    },
+    {
+      "id": "court-appeal",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "objection-decision",
+          "decision",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie mit dem Einspracheentscheid nicht einverstanden, können Sie innert 30 Tagen nach der Eröffnung Beschwerde beim Versicherungsgericht des Kantons erheben, in dem Sie wohnen. Die Beschwerde muss kurz schildern, was passiert ist, sagen, was Sie verlangen, und dies kurz begründen. Fehlt etwas davon, gibt Ihnen das Gericht eine Frist zur Verbesserung. Wie das Gericht heisst und wo es ist, ist von Kanton zu Kanton verschieden. Die genaue Stelle steht in der Rechtsmittelbelehrung am Ende des Einspracheentscheids. Erlässt der Versicherer trotz Ihrer Aufforderung keine Verfügung oder keinen Einspracheentscheid, können Sie sich ebenfalls beim Versicherungsgericht beschweren."
+      },
+      "sources": [
+        "atsg-56",
+        "atsg-58",
+        "atsg-60",
+        "atsg-61"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Einspracheverfahren ist kostenlos. Eine Entschädigung für Anwaltskosten erhalten Sie dort in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei Streit über Leistungen der Unfallversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, muss Ihnen die Versicherung Ihre Parteikosten ersetzen. Fehlen Ihnen die Mittel und brauchen Sie wegen der Schwierigkeit des Falls eine Vertretung, kann Ihnen für das Einspracheverfahren und für das Gerichtsverfahren eine unentgeltliche Anwältin oder ein unentgeltlicher Anwalt bewilligt werden."
+      },
+      "sources": [
+        "atsg-52",
+        "atsg-61",
+        "atsg-37"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie rasch persönliche Beratung, wenn der Versicherer bestreitet, dass es ein Unfall war, oder Ihre Beschwerden auf Abnützung oder eine Krankheit zurückführt, wenn er das Taggeld einstellt, obwohl Sie nicht arbeiten können, wenn er Leistungen wegen grober Fahrlässigkeit oder eines Wagnisses kürzt, wenn eine Invalidenrente oder Integritätsentschädigung zur Diskussion steht, oder wenn die Frist für Einsprache oder Beschwerde bald abläuft. Nehmen Sie die Verfügung, die Arztberichte und Ihre Unfallmeldung mit."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Gewerkschaften beraten ihre Mitglieder in Fragen der Unfallversicherung. Behindertenorganisationen und andere Beratungsstellen für Sozialversicherungen helfen bei längeren oder schweren Fällen. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Prüfen Sie auch, ob Sie eine Rechtsschutzversicherung haben."
+      }
+    }
+  ],
+  "sources": {
+    "uvg-1a": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "1a",
+      "label": "UVG · Art. 1a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_1a",
+      "sha256": "7136e164c008b6b8b79eb60cd8b7e7a5e8305ec342bfb2ce4772f3872c2d3277"
+    },
+    "uvg-3": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "3",
+      "label": "UVG · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_3",
+      "sha256": "cb2636ae4e931548a1dc4b1bf2271390cb3c8b9d768b0400afb79078445370f3"
+    },
+    "uvg-6": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "6",
+      "label": "UVG · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_6",
+      "sha256": "32c016583251234ca66ef9785422c065a53b20d8b16b36f85da8ae0dcc988a15"
+    },
+    "uvg-7": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "7",
+      "label": "UVG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_7",
+      "sha256": "5602e04aa0f53d0e2d8840032ae5c0b48cdfcab510bb490fe8b4de5fc367c002"
+    },
+    "uvg-8": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "8",
+      "label": "UVG · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_8",
+      "sha256": "cb9bb37f172e2c9c2b833b5e08c2574670f91a9eaf07c20cd0aa57b544cb46c4"
+    },
+    "uvg-10": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "10",
+      "label": "UVG · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_10",
+      "sha256": "8a686fe9c1a48a031931e5433dd9154829e67b2ea92d822ed0794d9add811e1e"
+    },
+    "uvg-15": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "15",
+      "label": "UVG · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_15",
+      "sha256": "3c00c53ad80251676edbfc695d3372c3a3e980e237fdb137904c3fd3356f9525"
+    },
+    "uvg-16": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "16",
+      "label": "UVG · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_16",
+      "sha256": "50b433e8383a977220fe2a718c9964e76459142f0b21ed2b1ffc5d6a89a98820"
+    },
+    "uvg-17": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "17",
+      "label": "UVG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_17",
+      "sha256": "181d791990a30fc8359fd569f9e2b50f6d4968401fca94a771abe72512a6b30f"
+    },
+    "uvg-18": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "18",
+      "label": "UVG · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_18",
+      "sha256": "31f63894103a31513ec84ce30a8a01b8c814926314a145085ba7de5eae5858e8"
+    },
+    "uvg-24": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "24",
+      "label": "UVG · Art. 24",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_24",
+      "sha256": "d2deb478bec95ec7924bf33de99ab7b7790d61422e77a428a7b524241db34acb"
+    },
+    "uvg-36": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "36",
+      "label": "UVG · Art. 36",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_36",
+      "sha256": "e8ba70f14438044c71c0b2e4e00dcab49783543d2afad2514b433f9dc9ad2174"
+    },
+    "uvg-37": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "37",
+      "label": "UVG · Art. 37",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_37",
+      "sha256": "2755d25c617ab5d7d968bbfd35677aa54b668f3c52470d121b95f7f2fdb053ae"
+    },
+    "uvg-39": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "39",
+      "label": "UVG · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_39",
+      "sha256": "fe81363b95a4bb5a825396dc80cedf2ecb680b37f1703c7ef47ada75612a5128"
+    },
+    "uvg-45": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "45",
+      "label": "UVG · Art. 45",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_45",
+      "sha256": "af04d6c2c7a710603ac2317b981fbf7db422314a227752dcb42b139d7bb22143"
+    },
+    "uvg-46": {
+      "type": "statute",
+      "sr": "832.20",
+      "article": "46",
+      "label": "UVG · Art. 46",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1982/1676_1676_1676/de#art_46",
+      "sha256": "249a8464ac519bce1458f83eb5fbc49232e92eb5a8ce0474a8a0eb373e0a7db1"
+    },
+    "uvv-13": {
+      "type": "statute",
+      "sr": "832.202",
+      "article": "13",
+      "label": "UVV · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/38_38_38/de#art_13",
+      "sha256": "40a43c8438bed89ffea43cd601f47d7de8467587fe5c043f348f19ca89e1c372"
+    },
+    "uvv-22": {
+      "type": "statute",
+      "sr": "832.202",
+      "article": "22",
+      "label": "UVV · Art. 22",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/38_38_38/de#art_22",
+      "sha256": "0035a4d5f1a215efe5e1bd90ac91b04e46ee71d966c1d963fffbccbb65bd256c"
+    },
+    "uvv-50": {
+      "type": "statute",
+      "sr": "832.202",
+      "article": "50",
+      "label": "UVV · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/38_38_38/de#art_50",
+      "sha256": "4914b639fbccc96e920a0b5f02df0abe3931a53935a59b991e6b363d371d2a2a"
+    },
+    "uvv-53": {
+      "type": "statute",
+      "sr": "832.202",
+      "article": "53",
+      "label": "UVV · Art. 53",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/38_38_38/de#art_53",
+      "sha256": "2758722d11b6c76d4a0f273ae61cfcacfec836cd7632ce4311a8c41b399748f3"
+    },
+    "atsg-4": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "4",
+      "label": "ATSG · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_4",
+      "sha256": "2e23aacae1fb52b0dbe161e3ce78eb505bbe09b26e6c8770509e3ee7ce98be77"
+    },
+    "atsg-21": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "21",
+      "label": "ATSG · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_21",
+      "sha256": "1158f754413cf62050741efdd7e874db813b15facaff20c69f10c67dafbbbcf6"
+    },
+    "atsg-37": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "37",
+      "label": "ATSG · Art. 37",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_37",
+      "sha256": "00232b14e344827a12be5b283a6a2055db79f8c6e71f17c34f4d3524bb930eea"
+    },
+    "atsg-38": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "38",
+      "label": "ATSG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38",
+      "sha256": "217553f9ceb68e6918228f6dc8a9d82a55113dda82477e1d3df4cb1d13eb42ff"
+    },
+    "atsg-39": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "39",
+      "label": "ATSG · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39",
+      "sha256": "f36ab1046e28439f454d3def4b1e74630b3483d0d78aed818bf6aae86619511d"
+    },
+    "atsg-40": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "40",
+      "label": "ATSG · Art. 40",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_40",
+      "sha256": "ca4475ea4521366799104b9cc6369bc9d717a88c7a88b1d7b834e78e2d0cad3d"
+    },
+    "atsg-49": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "49",
+      "label": "ATSG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_49",
+      "sha256": "b8e54caafbcfcc5995be7bb611cc62afc409b40ecf6b66f7c2644c8b39cef6d7"
+    },
+    "atsg-51": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "51",
+      "label": "ATSG · Art. 51",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_51",
+      "sha256": "6ca95f8d8957a8a813972b6c51684438f2072f831133472af9cf6dd7f1ead18c"
+    },
+    "atsg-52": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "52",
+      "label": "ATSG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_52",
+      "sha256": "9c4de6689671dc542d40efc1f52797b2984008257cb39866a145216b163bf54b"
+    },
+    "atsg-56": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "56",
+      "label": "ATSG · Art. 56",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_56",
+      "sha256": "6e22aaeb587c66bae70866fc6f0ca5ff34a37c335ed426b92cac5311b838d3df"
+    },
+    "atsg-58": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "58",
+      "label": "ATSG · Art. 58",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_58",
+      "sha256": "557edf902c4123ecf24973ffc157a04f51f5b5245a40cbd40584522fb6896c50"
+    },
+    "atsg-60": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "60",
+      "label": "ATSG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_60",
+      "sha256": "ab000f5ea37a5e0de9ccb6b5da45767a50cf87a0520a996c794c7703031386be"
+    },
+    "atsg-61": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "61",
+      "label": "ATSG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_61",
+      "sha256": "bfcd579d997ba4f6e8dc23876f903ee0f307b95f32bf5302d45ba3f164ed5a2c"
+    },
+    "atsv-10": {
+      "type": "statute",
+      "sr": "830.11",
+      "article": "10",
+      "label": "ATSV · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/569/de#art_10",
+      "sha256": "847557a0a3f88b169b51f2ba4d64c65980a16d16b77e72f57571a01478670041"
+    },
+    "atsv-12": {
+      "type": "statute",
+      "sr": "830.11",
+      "article": "12",
+      "label": "ATSV · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/569/de#art_12",
+      "sha256": "bdb2d15290cdb25e2652ca29d78913f47d7126fd7513cf8c9a237a0236426d92"
+    },
+    "kvg-1a": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "1a",
+      "label": "KVG · Art. 1a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_1a",
+      "sha256": "9c676e3a8bfe4fbc1cc0fdb020596d766d409592f676f65c6f589a7513108458"
+    },
+    "kvg-64": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "64",
+      "label": "KVG · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_64",
+      "sha256": "a2e477348249d67e9f4656834eda4be1cd22cf5d4b37d071bff3eedef36cb11c"
+    },
+    "or-324a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "324a",
+      "label": "OR · Art. 324a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_324a",
+      "sha256": "91e050c032ed0be5a45fac7aa0bd9dec38a70b2427bce48018cc66cc66f90467"
+    },
+    "or-324b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "324b",
+      "label": "OR · Art. 324b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_324b",
+      "sha256": "0fe4e13d98e24d7c0e10ac4cd07995bc150ad7a1b2cf61a30cb756804907b87b"
+    },
+    "bge-134-v-72-e22": {
+      "type": "decision",
+      "decision_id": "bge_BGE_134_V_72",
+      "citation": "BGE 134 V 72",
+      "e": "2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_134_V_72#e-2-2"
+    },
+    "bge-134-v-72-e41": {
+      "type": "decision",
+      "decision_id": "bge_BGE_134_V_72",
+      "citation": "BGE 134 V 72",
+      "e": "4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_134_V_72#e-4-1"
+    },
+    "bge-146-v-51": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_V_51",
+      "citation": "BGE 146 V 51",
+      "e": "8.2.2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_V_51#e-8-2-2-1"
+    },
+    "bge-129-v-177": {
+      "type": "decision",
+      "decision_id": "bge_BGE_129_V_177",
+      "citation": "BGE 129 V 177",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_129_V_177#e-3-1"
+    },
+    "bge-121-v-45-e2a": {
+      "type": "decision",
+      "decision_id": "bge_BGE_121_V_45",
+      "citation": "BGE 121 V 45",
+      "e": "2a",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_121_V_45#e-2a"
+    },
+    "bge-121-v-45-e2c": {
+      "type": "decision",
+      "decision_id": "bge_BGE_121_V_45",
+      "citation": "BGE 121 V 45",
+      "e": "2c",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_121_V_45#e-2c"
+    },
+    "bge-138-v-522": {
+      "type": "decision",
+      "decision_id": "bge_BGE_138_V_522",
+      "citation": "BGE 138 V 522",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_138_V_522#e-3-1"
+    },
+    "bge-142-v-152": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_V_152",
+      "citation": "BGE 142 V 152",
+      "e": "4.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_V_152#e-4-6"
+    },
+    "bge-129-v-177-e32": {
+      "type": "decision",
+      "decision_id": "bge_BGE_129_V_177",
+      "citation": "BGE 129 V 177",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_129_V_177#e-3-2"
+    },
+    "bge-117-v-359": {
+      "type": "decision",
+      "decision_id": "bge_BGE_117_V_359",
+      "citation": "BGE 117 V 359",
+      "e": "5d",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_117_V_359#e-5d"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "BAG: Unfallversicherung – wer ist obligatorisch versichert?"
+      },
+      "url": "https://www.bag.admin.ch/de/unfallversicherung-wer-ist-obligatorisch-versichert"
+    },
+    {
+      "label": {
+        "de": "BAG: Was bietet die Unfallversicherung?"
+      },
+      "url": "https://www.bag.admin.ch/de/was-bietet-die-unfallversicherung"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
