@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Wir trennen uns. Was müssen wir regeln?"
+    "de": "Wir trennen uns. Was müssen wir regeln?",
+    "fr": "Nous nous séparons. Que devons-nous régler ?",
+    "it": "Ci separiamo. Cosa dobbiamo regolare?",
+    "rm": "Nus ans separain. Tge stuain nus reglar?",
+    "en": "We are separating. What do we need to arrange?"
   },
   "summary": {
-    "de": "Verheiratete Paare und eingetragene Partnerinnen und Partner dürfen getrennt leben, ohne sich scheiden zu lassen. Zu regeln sind vor allem die Wohnung, der Unterhalt und die Kinder. Sind Sie sich einig, können Sie Ihre Vereinbarung vom Gericht genehmigen lassen. Sind Sie sich nicht einig, entscheidet auf Gesuch das Gericht am Wohnsitz von einem von Ihnen in einem raschen Verfahren. Ändern sich die Verhältnisse später wesentlich, kann die Regelung angepasst werden. Gegen einen Entscheid gelten kurze Fristen, auch in den Gerichtsferien."
+    "de": "Verheiratete Paare und eingetragene Partnerinnen und Partner dürfen getrennt leben, ohne sich scheiden zu lassen. Zu regeln sind vor allem die Wohnung, der Unterhalt und die Kinder. Sind Sie sich einig, können Sie Ihre Vereinbarung vom Gericht genehmigen lassen. Sind Sie sich nicht einig, entscheidet auf Gesuch das Gericht am Wohnsitz von einem von Ihnen in einem raschen Verfahren. Ändern sich die Verhältnisse später wesentlich, kann die Regelung angepasst werden. Gegen einen Entscheid gelten kurze Fristen, auch in den Gerichtsferien.",
+    "fr": "Les couples mariés et les partenaires enregistrés peuvent vivre séparés sans divorcer. Il faut surtout régler le logement, l'entretien et les enfants. Si vous êtes d'accord, vous pouvez faire homologuer votre convention par le tribunal. Si vous n'êtes pas d'accord, le tribunal du domicile de l'un de vous statue sur requête, dans une procédure rapide. Si la situation change ensuite de manière importante, la réglementation peut être adaptée. Des délais courts s'appliquent contre une décision, même pendant les féries judiciaires.",
+    "it": "Le coppie sposate e le partner o i partner in un'unione domestica registrata possono vivere separati senza divorziare. Da regolare sono soprattutto l'abitazione, il mantenimento e i figli. Se siete d'accordo, potete far approvare la vostra convenzione dal giudice. Se non siete d'accordo, decide su istanza il giudice del domicilio di uno di voi, in una procedura rapida. Se le circostanze cambiano in modo rilevante in seguito, la regolamentazione può essere adeguata. Contro una decisione valgono termini brevi, anche durante la sospensione dei termini.",
+    "rm": "Coppias maridadas e persunas en partenadi registrà dastgan viver separadas, senza sa divorziar. Reglar sto Vus surtut l'abitaziun, il mantegniment ed ils uffants. Essas Vus d'accord, pudais Vus laschar approvar Vossa cunvegna da la dretgira. N'essas Vus betg d'accord, decida sin dumonda la dretgira dal domicil d'in da Vus en ina procedura svelta. Sche las circumstanzas mudan pli tard considerablamain, po la reglaziun vegnir adattada. Cunter ina decisiun valan termins curts, era durant las vacanzas da dretgira.",
+    "en": "Married couples and registered partners may live apart without getting divorced. What mainly needs to be arranged is the home, maintenance and the children. If you agree, you can have the court approve your agreement. If you do not agree, the court at the place of residence of one of you decides on application, in a fast-track procedure. If circumstances change significantly later, the arrangement can be adjusted. Short deadlines apply against a decision, even during the court recess."
   },
   "examples": {
     "de": [
@@ -19,45 +27,105 @@
       "Mir trenned eus. Muess ich minere Frau jetzt Unterhalt zahle?",
       "Brauchen wir für eine Trennung ein Gericht?",
       "Mein Einkommen ist gesunken. Kann ich den Trennungsunterhalt ändern lassen?"
+    ],
+    "fr": [
+      "Nous nous séparons. Que devons-nous régler ?",
+      "Mon mari est parti et ne paie plus rien. Que puis-je faire ?",
+      "Qui peut rester dans le logement en cas de séparation ?",
+      "On se sépare. Je dois déjà verser une pension à ma femme ?",
+      "Avons-nous besoin d'un tribunal pour nous séparer ?",
+      "Mon revenu a baissé. Puis-je faire modifier la pension due pendant la séparation ?"
+    ],
+    "it": [
+      "Ci separiamo. Cosa dobbiamo regolare?",
+      "Mio marito se n'è andato di casa e non paga più niente. Cosa posso fare?",
+      "Chi può restare nell'abitazione se ci separiamo?",
+      "Ci stiamo separando. Devo già pagare gli alimenti a mia moglie?",
+      "Per separarci serve andare dal giudice?",
+      "Il mio reddito è diminuito. Posso far modificare il mantenimento durante la separazione?"
+    ],
+    "rm": [
+      "Nus ans separain. Tge stuain nus reglar?",
+      "Mes um è sortì da chasa e na paja plus nagut. Tge poss jau far?",
+      "Tgi dastga restar en l'abitaziun, sche nus ans separain?",
+      "Nus ans separain. Stoss jau ussa pajar mantegniment a mia dunna?",
+      "Dovrain nus ina dretgira per ina separaziun?",
+      "Mias entradas èn sa reducidas. Poss jau laschar midar il mantegniment da separaziun?"
+    ],
+    "en": [
+      "We're separating. What do we need to sort out?",
+      "My husband has moved out and isn't paying anything any more. What can I do?",
+      "Who gets to stay in the flat if we separate?",
+      "We're splitting up. Do I have to start paying my wife maintenance now?",
+      "Do we need to go to court to separate?",
+      "My income has dropped. Can I get the separation maintenance changed?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Trennung von Ehepaaren und eingetragenen Partnerinnen und Partnern ohne Scheidung: das Recht, getrennt zu leben, die Regelung von Unterhalt, Wohnung, Hausrat und Kindern durch Vereinbarung oder durch das Eheschutzgericht, das Verfahren, die Fristen für Rechtsmittel und die spätere Änderung der Massnahmen."
+      "de": "Die Trennung von Ehepaaren und eingetragenen Partnerinnen und Partnern ohne Scheidung: das Recht, getrennt zu leben, die Regelung von Unterhalt, Wohnung, Hausrat und Kindern durch Vereinbarung oder durch das Eheschutzgericht, das Verfahren, die Fristen für Rechtsmittel und die spätere Änderung der Massnahmen.",
+      "fr": "La séparation des couples mariés et des partenaires enregistrés sans divorce : le droit de vivre séparés, le règlement de l'entretien, du logement, du mobilier de ménage et des enfants par convention ou par le tribunal de la protection de l'union conjugale, la procédure, les délais de recours et la modification ultérieure des mesures.",
+      "it": "La separazione di coppie sposate e di partner in un'unione domestica registrata senza divorzio: il diritto di vivere separati, la regolamentazione del mantenimento, dell'abitazione, delle suppellettili domestiche e dei figli mediante convenzione o mediante il giudice della protezione dell'unione coniugale, la procedura, i termini per i rimedi giuridici e la successiva modifica delle misure.",
+      "rm": "La separaziun da coppias maridadas e da persunas en partenadi registrà senza divorzi: il dretg da viver separads, la reglaziun dal mantegniment, da l'abitaziun, da la rauba da chasa e dals uffants tras cunvegna u tras la dretgira da protecziun da la cuminanza conjugala, la procedura, ils termins per meds legals e la midada posteriura da las mesiras.",
+      "en": "The separation of married couples and registered partners without divorce: the right to live apart, arranging maintenance, the home, household effects and the children by agreement or through the court for protective measures for the marital union, the procedure, the deadlines for a legal remedy, and later changes to the measures."
     },
     "excludes": {
-      "de": "Die Scheidung selbst, die Trennung von unverheirateten Paaren (nur ein kurzer Hinweis) und der Schutz vor häuslicher Gewalt im Einzelnen (nur ein Hinweis auf Hilfe). Die Berechnung des Kindesunterhalts und die elterliche Sorge sind in eigenen Leitfäden erklärt."
+      "de": "Die Scheidung selbst, die Trennung von unverheirateten Paaren (nur ein kurzer Hinweis) und der Schutz vor häuslicher Gewalt im Einzelnen (nur ein Hinweis auf Hilfe). Die Berechnung des Kindesunterhalts und die elterliche Sorge sind in eigenen Leitfäden erklärt.",
+      "fr": "Le divorce lui-même, la séparation des couples non mariés (seulement une brève remarque) et la protection contre la violence domestique en détail (seulement un renvoi vers de l'aide). Le calcul de l'entretien de l'enfant et l'autorité parentale sont expliqués dans des guides séparés.",
+      "it": "Il divorzio in quanto tale, la separazione di coppie non sposate (solo un breve rimando) e la protezione dalla violenza domestica nel dettaglio (solo un rimando all'aiuto disponibile). Il calcolo del mantenimento del figlio e l'autorità parentale sono spiegati in guide proprie.",
+      "rm": "Il divorzi sez, la separaziun da coppias betg maridadas (mo in curt indizi) e la protecziun cunter violenza domestica en detagl (mo in indizi d'agid). La calculaziun dal mantegniment da l'uffant e la tgira genituriala èn explitgadas en agens manuals.",
+      "en": "Divorce itself, the separation of unmarried couples (only a brief pointer), and protection from domestic violence in detail (only a pointer to help). The calculation of child maintenance and parental responsibility are explained in their own guides."
     }
   },
   "facts": [
     {
       "key": "status",
       "question": {
-        "de": "Sind Sie verheiratet oder leben Sie in einer eingetragenen Partnerschaft?"
+        "de": "Sind Sie verheiratet oder leben Sie in einer eingetragenen Partnerschaft?",
+        "fr": "Êtes-vous mariés ou vivez-vous en partenariat enregistré ?",
+        "it": "È sposato o sposata, oppure vive in un'unione domestica registrata?",
+        "rm": "Essas Vus maridads u vivais Vus en in partenadi registrà?",
+        "en": "Are you married or in a registered partnership?"
       },
       "options": [
         {
           "value": "married",
           "label": {
-            "de": "Wir sind verheiratet"
+            "de": "Wir sind verheiratet",
+            "fr": "Nous sommes mariés",
+            "it": "Siamo sposati",
+            "rm": "Nus essan maridads",
+            "en": "We are married"
           }
         },
         {
           "value": "registered",
           "label": {
-            "de": "Wir leben in einer eingetragenen Partnerschaft"
+            "de": "Wir leben in einer eingetragenen Partnerschaft",
+            "fr": "Nous vivons en partenariat enregistré",
+            "it": "Viviamo in un'unione domestica registrata",
+            "rm": "Nus vivain en in partenadi registrà",
+            "en": "We are in a registered partnership"
           }
         },
         {
           "value": "unmarried",
           "label": {
-            "de": "Weder noch, wir sind nicht verheiratet"
+            "de": "Weder noch, wir sind nicht verheiratet",
+            "fr": "Ni l'un ni l'autre, nous ne sommes pas mariés",
+            "it": "Né l'uno né l'altro, non siamo sposati",
+            "rm": "Nagin da tuts dus, nus na essan betg maridads",
+            "en": "Neither, we are not married"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -65,25 +133,41 @@
     {
       "key": "living",
       "question": {
-        "de": "Wohnen Sie noch zusammen?"
+        "de": "Wohnen Sie noch zusammen?",
+        "fr": "Habitez-vous encore ensemble ?",
+        "it": "Vivete ancora insieme?",
+        "rm": "Vivais Vus anc ensemen?",
+        "en": "Are you still living together?"
       },
       "options": [
         {
           "value": "together",
           "label": {
-            "de": "Ja, noch in derselben Wohnung"
+            "de": "Ja, noch in derselben Wohnung",
+            "fr": "Oui, encore dans le même logement",
+            "it": "Sì, ancora nella stessa abitazione",
+            "rm": "Gea, anc en la medema abitaziun",
+            "en": "Yes, still in the same home"
           }
         },
         {
           "value": "apart",
           "label": {
-            "de": "Nein, einer von uns ist ausgezogen"
+            "de": "Nein, einer von uns ist ausgezogen",
+            "fr": "Non, l'un de nous a déménagé",
+            "it": "No, uno di noi ha già lasciato l'abitazione",
+            "rm": "Na, in da nus è sortì da chasa",
+            "en": "No, one of us has moved out"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -91,25 +175,41 @@
     {
       "key": "children",
       "question": {
-        "de": "Haben Sie gemeinsame minderjährige Kinder?"
+        "de": "Haben Sie gemeinsame minderjährige Kinder?",
+        "fr": "Avez-vous des enfants mineurs communs ?",
+        "it": "Avete figli minorenni in comune?",
+        "rm": "Avais Vus uffants minorens cuminaivels?",
+        "en": "Do you have joint children who are minors?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -117,34 +217,58 @@
     {
       "key": "agreement",
       "question": {
-        "de": "Sind Sie sich über die Folgen der Trennung einig?"
+        "de": "Sind Sie sich über die Folgen der Trennung einig?",
+        "fr": "Êtes-vous d'accord sur les conséquences de la séparation ?",
+        "it": "Siete d'accordo sulle conseguenze della separazione?",
+        "rm": "Essas Vus d'accord davart las consequenzas da la separaziun?",
+        "en": "Do you agree on the consequences of the separation?"
       },
       "help": {
-        "de": "Gemeint sind vor allem Wohnung, Unterhalt und Kinder."
+        "de": "Gemeint sind vor allem Wohnung, Unterhalt und Kinder.",
+        "fr": "Il s'agit surtout du logement, de l'entretien et des enfants.",
+        "it": "Si intende soprattutto l'abitazione, il mantenimento e i figli.",
+        "rm": "Sa tracta surtut da l'abitaziun, dal mantegniment ed dals uffants.",
+        "en": "This mainly means the home, maintenance and the children."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, wir sind uns weitgehend einig"
+            "de": "Ja, wir sind uns weitgehend einig",
+            "fr": "Oui, nous sommes largement d'accord",
+            "it": "Sì, siamo d'accordo sulla maggior parte dei punti",
+            "rm": "Gea, nus essan largamain d'accord",
+            "en": "Yes, we largely agree"
           }
         },
         {
           "value": "partly",
           "label": {
-            "de": "Nur in einigen Punkten"
+            "de": "Nur in einigen Punkten",
+            "fr": "Seulement sur certains points",
+            "it": "Solo su alcuni punti",
+            "rm": "Mo en tscherts puncts",
+            "en": "Only on some points"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "rm": "Jau na sai betg anc",
+            "en": "I don't know yet"
           }
         }
       ]
@@ -152,25 +276,41 @@
     {
       "key": "violence",
       "question": {
-        "de": "Gibt es Gewalt, Drohungen oder Nachstellungen?"
+        "de": "Gibt es Gewalt, Drohungen oder Nachstellungen?",
+        "fr": "Y a-t-il de la violence, des menaces ou du harcèlement ?",
+        "it": "Ci sono violenza, minacce o insidie?",
+        "rm": "Datti violenza, smanatschas u persecuziuns?",
+        "en": "Is there violence, threats or stalking?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht oder möchte es nicht sagen"
+            "de": "Ich weiss es nicht oder möchte es nicht sagen",
+            "fr": "Je ne sais pas ou je ne souhaite pas le dire",
+            "it": "Non lo so o preferisco non dirlo",
+            "rm": "Jau na sai betg u na vi betg dir quai",
+            "en": "I don't know or would rather not say"
           }
         }
       ]
@@ -178,25 +318,41 @@
     {
       "key": "court_decision",
       "question": {
-        "de": "Hat ein Gericht Ihre Trennung schon geregelt?"
+        "de": "Hat ein Gericht Ihre Trennung schon geregelt?",
+        "fr": "Un tribunal a-t-il déjà réglé votre séparation ?",
+        "it": "Un giudice ha già regolato la vostra separazione?",
+        "rm": "Ha ina dretgira gia reglà Vossa separaziun?",
+        "en": "Has a court already dealt with your separation?"
       },
       "options": [
         {
           "value": "none",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore",
+            "it": "No, non ancora",
+            "rm": "Na, anc betg",
+            "en": "No, not yet"
           }
         },
         {
           "value": "exists",
           "label": {
-            "de": "Ja, es gibt einen Entscheid oder eine genehmigte Vereinbarung"
+            "de": "Ja, es gibt einen Entscheid oder eine genehmigte Vereinbarung",
+            "fr": "Oui, il y a une décision ou une convention homologuée",
+            "it": "Sì, esiste una decisione o una convenzione approvata",
+            "rm": "Gea, igl è ina decisiun u ina cunvegna approvada",
+            "en": "Yes, there is a decision or an approved agreement"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -212,7 +368,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie in Gefahr, rufen Sie sofort die Polizei unter 117. Wer Gewalt, Drohungen oder Nachstellungen erlebt, kann beim Gericht verlangen, dass der anderen Person verboten wird, sich zu nähern oder Kontakt aufzunehmen. Wohnen Sie zusammen, kann das Gericht die gewalttätige Person für eine bestimmte Zeit aus der Wohnung weisen. Auch das Eheschutzgericht kann solche Schutzmassnahmen anordnen. Wie die Polizei jemanden in einer akuten Krise sofort aus der Wohnung weist, regelt Ihr Kanton. Opferhilfe-Beratungsstellen helfen kostenlos und vertraulich, auch bei der Suche nach einer sicheren Unterkunft. Kümmern Sie sich zuerst um Ihre Sicherheit und die der Kinder, erst dann um Unterhalt und Wohnung."
+        "de": "Sind Sie in Gefahr, rufen Sie sofort die Polizei unter 117. Wer Gewalt, Drohungen oder Nachstellungen erlebt, kann beim Gericht verlangen, dass der anderen Person verboten wird, sich zu nähern oder Kontakt aufzunehmen. Wohnen Sie zusammen, kann das Gericht die gewalttätige Person für eine bestimmte Zeit aus der Wohnung weisen. Auch das Eheschutzgericht kann solche Schutzmassnahmen anordnen. Wie die Polizei jemanden in einer akuten Krise sofort aus der Wohnung weist, regelt Ihr Kanton. Opferhilfe-Beratungsstellen helfen kostenlos und vertraulich, auch bei der Suche nach einer sicheren Unterkunft. Kümmern Sie sich zuerst um Ihre Sicherheit und die der Kinder, erst dann um Unterhalt und Wohnung.",
+        "fr": "Si vous êtes en danger, appelez immédiatement la police au 117. Toute personne qui subit de la violence, des menaces ou du harcèlement peut demander au tribunal d'interdire à l'autre personne de s'approcher d'elle ou de prendre contact avec elle. Si vous habitez ensemble, le tribunal peut expulser la personne violente du logement pour une durée déterminée. Le tribunal de la protection de l'union conjugale peut lui aussi ordonner de telles mesures de protection. La manière dont la police expulse immédiatement une personne du logement en cas de crise aiguë est réglée par votre canton. Les centres de consultation LAVI aident gratuitement et confidentiellement, y compris pour trouver un hébergement sûr. Occupez-vous d'abord de votre sécurité et de celle des enfants, avant de vous occuper de l'entretien et du logement.",
+        "it": "Se è in pericolo, chiami subito la polizia al numero 117. Chi subisce violenza, minacce o insidie può chiedere al giudice che all'altra persona sia vietato avvicinarsi o mettersi in contatto. Se vivete insieme, il giudice può allontanare dall'abitazione la persona violenta per un periodo determinato. Anche il giudice della protezione dell'unione coniugale può ordinare simili misure di protezione. Il modo in cui la polizia allontana subito qualcuno dall'abitazione in una crisi acuta è disciplinato dal suo Cantone. I consultori per l'aiuto alle vittime aiutano gratuitamente e in modo confidenziale, anche nella ricerca di un alloggio sicuro. Si occupi prima della sua sicurezza e di quella dei figli, solo dopo del mantenimento e dell'abitazione.",
+        "rm": "Essas Vus en privel, telefonai immediat a la polizia sut il 117. Tgi che vain violenza, smanatschas u persecuziuns po pretender da la dretgira che a l'autra persuna vegnia scumandà da s'avischinar u da prender contact. Vivais Vus ensemen, po la dretgira bandischar la persuna violenta ordaifer l'abitaziun per in temp determinà. Er la dretgira da protecziun da la cuminanza conjugala po ordinar talas mesiras da protecziun. Co la polizia bandischa insatgi immediat ordaifer l'abitaziun en ina crisa acuta, regla Voss chantun. Postas da consulaziun per victimas gidan gratuitamain e confidenzialmain, era en la tschertga d'in allogiament segir. Occupai Vus enfin da Vossa segirezza e da quella dals uffants, be lura dal mantegniment e da l'abitaziun.",
+        "en": "If you are in danger, call the police immediately on 117. Anyone who experiences violence, threats or stalking can ask the court to forbid the other person from approaching them or making contact. If you live together, the court can bar the violent person from the home for a set period. The court for protective measures for the marital union can also order such protective measures. How the police immediately remove someone from the home in an acute crisis is governed by your canton. Victim support centres help free of charge and confidentially, including with finding safe accommodation. Look after your safety and that of the children first, and only then deal with maintenance and the home."
       },
       "sources": [
         "zgb-28b",
@@ -228,7 +388,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie weder verheiratet noch in eingetragener Partnerschaft, gilt dieser Leitfaden für Sie nicht. Es gibt dann kein Eheschutzverfahren, und das Gesetz sieht keinen Unterhalt zwischen den Partnern vor. Für gemeinsame Kinder gelten die Regeln über Kindesunterhalt und persönlichen Verkehr aber unabhängig davon, ob die Eltern verheiratet sind. Dazu gibt es eigene Leitfäden. Mietvertrag, gemeinsames Eigentum und gemeinsame Konten müssen Sie nach den allgemeinen Regeln auseinandersetzen. Lassen Sie sich dafür persönlich beraten."
+        "de": "Sind Sie weder verheiratet noch in eingetragener Partnerschaft, gilt dieser Leitfaden für Sie nicht. Es gibt dann kein Eheschutzverfahren, und das Gesetz sieht keinen Unterhalt zwischen den Partnern vor. Für gemeinsame Kinder gelten die Regeln über Kindesunterhalt und persönlichen Verkehr aber unabhängig davon, ob die Eltern verheiratet sind. Dazu gibt es eigene Leitfäden. Mietvertrag, gemeinsames Eigentum und gemeinsame Konten müssen Sie nach den allgemeinen Regeln auseinandersetzen. Lassen Sie sich dafür persönlich beraten.",
+        "fr": "Si vous n'êtes ni mariés ni en partenariat enregistré, ce guide ne s'applique pas à vous. Il n'existe alors pas de procédure de protection de l'union conjugale, et la loi ne prévoit pas d'entretien entre partenaires. Pour les enfants communs, les règles sur l'entretien de l'enfant et les relations personnelles s'appliquent toutefois indépendamment du fait que les parents soient mariés ou non. Des guides séparés y sont consacrés. Le bail, la propriété commune et les comptes communs doivent être réglés selon les règles générales. Faites-vous conseiller personnellement pour cela.",
+        "it": "Se non siete né sposati né uniti in un'unione domestica registrata, questa guida non fa per voi. In tal caso non esiste una procedura di protezione dell'unione coniugale, e la legge non prevede un mantenimento tra i partner. Per i figli in comune valgono comunque le regole sul mantenimento del figlio e sulle relazioni personali, indipendentemente dal fatto che i genitori siano sposati. Su questo esistono guide proprie. Il contratto di locazione, la proprietà comune e i conti comuni dovete liquidarli secondo le regole generali. Si faccia consigliare personalmente per questo.",
+        "rm": "Sche Vus n'essas ni maridads ni en in partenadi registrà, na vala quest manual betg per Vus. Igl na dat lura nagina procedura da protecziun da la cuminanza conjugala, e la lescha na prevesa nagin mantegniment tranter ils partenaris. Per uffants cuminaivels valan dentant las reglas davart il mantegniment da l'uffant e la relaziun persunala independentamain, sch'ils geniturs èn maridads u betg. Per quai datti agens manuals. Contract da locaziun, proprietad cuminaivla e contos cuminaivels stuais Vus reglar tenor las reglas generalas. Laschai Vus cussegliar persunalmain per quai.",
+        "en": "If you are neither married nor in a registered partnership, this guide does not apply to you. There is then no procedure for protective measures for the marital union, and the law does not provide for maintenance between partners. For joint children, however, the rules on child maintenance and contact apply regardless of whether the parents are married. There are separate guides on this. You must settle the tenancy agreement, joint property and joint accounts under the general rules. Get personal advice for this."
       },
       "sources": [
         "zgb-276",
@@ -244,7 +408,11 @@
         ]
       },
       "text": {
-        "de": "Für eingetragene Partnerschaften gelten weitgehend die gleichen Regeln. Aus wichtigen Gründen dürfen Sie den gemeinsamen Haushalt aufheben. Auf Gesuch legt das Gericht die Geldbeiträge fest und bestimmt, wer die Wohnung und den Hausrat benützen darf. Das gilt auch, wenn Ihre Partnerin oder Ihr Partner das Zusammenleben ohne triftigen Grund verweigert. Zuständig ist das Gericht am Wohnsitz einer der beiden Personen, und es gilt das gleiche rasche Verfahren wie für Ehepaare. Wo dieser Leitfaden von Ehegatten spricht, gilt er im Wesentlichen auch für Sie."
+        "de": "Für eingetragene Partnerschaften gelten weitgehend die gleichen Regeln. Aus wichtigen Gründen dürfen Sie den gemeinsamen Haushalt aufheben. Auf Gesuch legt das Gericht die Geldbeiträge fest und bestimmt, wer die Wohnung und den Hausrat benützen darf. Das gilt auch, wenn Ihre Partnerin oder Ihr Partner das Zusammenleben ohne triftigen Grund verweigert. Zuständig ist das Gericht am Wohnsitz einer der beiden Personen, und es gilt das gleiche rasche Verfahren wie für Ehepaare. Wo dieser Leitfaden von Ehegatten spricht, gilt er im Wesentlichen auch für Sie.",
+        "fr": "Pour les partenariats enregistrés, les mêmes règles s'appliquent pour l'essentiel. Vous pouvez, pour de justes motifs, suspendre la vie commune. Sur requête, le tribunal fixe les contributions pécuniaires et détermine qui peut utiliser le logement et le mobilier de ménage. Cela vaut aussi lorsque votre partenaire refuse la vie commune sans motif valable. Le tribunal compétent est celui du domicile de l'une des deux personnes, et la même procédure rapide que pour les couples mariés s'applique. Lorsque ce guide parle d'époux, il s'applique pour l'essentiel aussi à vous.",
+        "it": "Per le unioni domestiche registrate valgono in gran parte le stesse regole. Per motivi gravi potete sciogliere l'economia domestica comune. Su istanza, il giudice fissa i contributi in denaro e stabilisce chi può utilizzare l'abitazione e le suppellettili domestiche. Questo vale anche se la sua partner o il suo partner rifiuta la convivenza senza un motivo valido. È competente il giudice del domicilio di una delle due persone, e si applica la stessa procedura rapida prevista per le coppie sposate. Dove questa guida parla di coniugi, essa vale sostanzialmente anche per voi.",
+        "rm": "Per partenadis registrads valan largamain las medemas reglas. Per motivs impurtants dastgais Vus schliar la chasada cuminaivla. Sin dumonda fixescha la dretgira las contribuziuns finanzialas e determinescha tgi che dastga utilisar l'abitaziun e la rauba da chasa. Quai vala era, sche Vossa partenadra u Voss partener refusa la convivenza senza motiv valaivel. Cumpetenta è la dretgira dal domicil d'ina da las duas persunas, e vala la medema procedura svelta sco per coppias maridadas. Nua che quest manual discurra da consorts, vala el en il fond er per Vus.",
+        "en": "Largely the same rules apply to registered partnerships. You may give up the joint household for good cause. On application, the court sets the financial contributions and determines who may use the home and the household effects. This also applies if your partner refuses to live together without good reason. The court at the place of residence of either of you has jurisdiction, and the same fast-track procedure applies as for married couples. Where this guide refers to spouses, it essentially applies to you too."
       },
       "sources": [
         "partg-17",
@@ -263,7 +431,11 @@
         ]
       },
       "text": {
-        "de": "Sie dürfen getrennt leben, ohne sich scheiden zu lassen. Für den Auszug brauchen Sie keine Erlaubnis des Gerichts. Das Gesetz gibt Ihnen dieses Recht, wenn das Zusammenleben Ihre Persönlichkeit, Ihre finanzielle Sicherheit oder das Familienwohl ernsthaft gefährdet. Auch wenn ein Zusammenleben nicht möglich ist, etwa weil Ihr Ehepartner es ohne Grund verweigert, können Sie das Gericht anrufen. Die Ehe bleibt während der Trennung bestehen. Sie schulden einander weiterhin Unterhalt, und die Folgen des Getrenntlebens können Sie einvernehmlich oder vor Gericht regeln lassen."
+        "de": "Sie dürfen getrennt leben, ohne sich scheiden zu lassen. Für den Auszug brauchen Sie keine Erlaubnis des Gerichts. Das Gesetz gibt Ihnen dieses Recht, wenn das Zusammenleben Ihre Persönlichkeit, Ihre finanzielle Sicherheit oder das Familienwohl ernsthaft gefährdet. Auch wenn ein Zusammenleben nicht möglich ist, etwa weil Ihr Ehepartner es ohne Grund verweigert, können Sie das Gericht anrufen. Die Ehe bleibt während der Trennung bestehen. Sie schulden einander weiterhin Unterhalt, und die Folgen des Getrenntlebens können Sie einvernehmlich oder vor Gericht regeln lassen.",
+        "fr": "Vous pouvez vivre séparés sans divorcer. Pour quitter le domicile, vous n'avez pas besoin de l'autorisation du tribunal. La loi vous donne ce droit lorsque la vie commune met sérieusement en péril votre personnalité, votre sécurité financière ou le bien de la famille. Même si la vie commune est impossible, par exemple parce que votre conjoint la refuse sans motif, vous pouvez saisir le tribunal. Le mariage subsiste pendant la séparation. Vous vous devez mutuellement l'entretien, et vous pouvez régler les conséquences de la vie séparée d'un commun accord ou devant le tribunal.",
+        "it": "Potete vivere separati senza divorziare. Per uscire di casa non avete bisogno dell'autorizzazione del giudice. La legge vi concede questo diritto quando la convivenza mette seriamente in pericolo la vostra personalità, la vostra sicurezza finanziaria o il bene della famiglia. Anche se la convivenza non è possibile, per esempio perché il suo coniuge la rifiuta senza motivo, può rivolgersi al giudice. Il matrimonio rimane in essere durante la separazione. Vi dovete reciprocamente il mantenimento, e le conseguenze della vita separata potete farle regolare in modo consensuale o dal giudice.",
+        "rm": "Vus dastgais viver separads, senza Vus divorziar. Per sortir da chasa na dovrais Vus nagina permissiun da la dretgira. La lescha As dat quest dretg, sche la convivenza periclitescha seriusamain Vossa persunalitad, Vossa segirezza finanziala u il bainstar da la famiglia. Er sche ina convivenza n'è betg pussaivla, per exempel perquai che Voss consort la refusa senza motiv, pudais Vus appellar a la dretgira. La lètg resta persistenta durant la separaziun. Vus As dovais vicendaivlamain anc mantegniment, e las consequenzas da la vita separada pudais Vus laschar reglar en cuminanza u avant dretgira.",
+        "en": "You may live apart without getting divorced. You do not need the court's permission to move out. The law gives you this right if living together seriously endangers your personality, your financial security or the welfare of the family. Even if living together is not possible, for example because your spouse refuses it without reason, you can apply to the court. The marriage continues during the separation. You still owe each other maintenance, and you can settle the consequences of living apart by agreement or have the court do so."
       },
       "sources": [
         "zgb-175",
@@ -281,7 +453,11 @@
         ]
       },
       "text": {
-        "de": "Die bisherige gemeinsame Wohnung bleibt auch nach der Trennung die Familienwohnung, solange die Ehe dauert. Ohne ausdrückliche Zustimmung des anderen darf keiner von Ihnen den Mietvertrag kündigen oder das Haus oder die Wohnung verkaufen. Dieser Schutz kann wegfallen, wenn der geschützte Ehegatte endgültig oder auf unbestimmte Zeit auszieht. Klären Sie deshalb, wer in der Wohnung bleibt, bevor jemand den Mietvertrag kündigt oder das Eigentum verkauft, am besten in einer Vereinbarung oder vor Gericht."
+        "de": "Die bisherige gemeinsame Wohnung bleibt auch nach der Trennung die Familienwohnung, solange die Ehe dauert. Ohne ausdrückliche Zustimmung des anderen darf keiner von Ihnen den Mietvertrag kündigen oder das Haus oder die Wohnung verkaufen. Dieser Schutz kann wegfallen, wenn der geschützte Ehegatte endgültig oder auf unbestimmte Zeit auszieht. Klären Sie deshalb, wer in der Wohnung bleibt, bevor jemand den Mietvertrag kündigt oder das Eigentum verkauft, am besten in einer Vereinbarung oder vor Gericht.",
+        "fr": "Le logement commun précédent reste le logement de la famille même après la séparation, aussi longtemps que dure le mariage. Sans l'accord exprès de l'autre, aucun de vous ne peut résilier le bail ou vendre la maison ou l'appartement. Cette protection peut cesser si le conjoint protégé déménage définitivement ou pour une durée indéterminée. Clarifiez donc qui reste dans le logement avant que quelqu'un ne résilie le bail ou ne vende le bien, si possible dans une convention ou devant le tribunal.",
+        "it": "L'abitazione finora comune resta l'abitazione familiare anche dopo la separazione, finché dura il matrimonio. Senza il consenso esplicito dell'altro, nessuno dei due può disdire il contratto di locazione o vendere la casa o l'abitazione. Questa protezione può venir meno se il coniuge protetto trasloca definitivamente o per un tempo indeterminato. Chiarite quindi chi resta nell'abitazione prima che qualcuno disdica il contratto di locazione o venda la proprietà, idealmente con una convenzione o davanti al giudice.",
+        "rm": "L'abitaziun cuminaivla d'enfin qua resta er suenter la separaziun l'abitaziun da la famiglia, sco ditg che la lètg dura. Senza il consentiment express da l'auter na dastga nagin da Vus disdir il contract da locaziun u vender la chasa u l'abitaziun. Questa protecziun po crudar davent, sche il consort protegì sortescha definitivamain u per in temp indeterminà. Clarifitgai percunquai, tgi che resta en l'abitaziun, avant che insatgi disdia il contract da locaziun u vendia la proprietad, il meglier en ina cunvegna u avant dretgira.",
+        "en": "Your previous joint home remains the family home even after the separation, for as long as the marriage lasts. Neither of you may terminate the tenancy agreement or sell the house or flat without the other's express consent. This protection can lapse if the protected spouse moves out permanently or for an indefinite period. So clarify who is staying in the home before anyone terminates the tenancy agreement or sells the property, ideally in an agreement or before the court."
       },
       "sources": [
         "zgb-169",
@@ -299,7 +475,11 @@
         ]
       },
       "text": {
-        "de": "Klären Sie bei einer Trennung vor allem diese Fragen: Wer bleibt in der Wohnung, und wer nimmt welchen Hausrat? Wer zahlt wem ab wann wie viel Unterhalt? Wer zahlt bis dahin Miete, Krankenkasse und Steuern? Bei Kindern: Bei wem wohnen sie hauptsächlich, wie wird die Betreuung aufgeteilt, wann sind sie beim anderen Elternteil, und wie viel Kindesunterhalt wird bezahlt? Braucht es ausnahmsweise eine Gütertrennung? Halten Sie schriftlich fest, ab welchem Datum Sie getrennt leben. Dieses Datum kann später für eine Scheidung wichtig sein."
+        "de": "Klären Sie bei einer Trennung vor allem diese Fragen: Wer bleibt in der Wohnung, und wer nimmt welchen Hausrat? Wer zahlt wem ab wann wie viel Unterhalt? Wer zahlt bis dahin Miete, Krankenkasse und Steuern? Bei Kindern: Bei wem wohnen sie hauptsächlich, wie wird die Betreuung aufgeteilt, wann sind sie beim anderen Elternteil, und wie viel Kindesunterhalt wird bezahlt? Braucht es ausnahmsweise eine Gütertrennung? Halten Sie schriftlich fest, ab welchem Datum Sie getrennt leben. Dieses Datum kann später für eine Scheidung wichtig sein.",
+        "fr": "Lors d'une séparation, clarifiez surtout ces questions : qui reste dans le logement, et qui prend quel mobilier de ménage ? Qui paie à qui, à partir de quand et combien d'entretien ? Qui paie d'ici là le loyer, l'assurance-maladie et les impôts ? S'il y a des enfants : chez qui vivent-ils principalement, comment la prise en charge est-elle répartie, quand sont-ils chez l'autre parent, et quel entretien de l'enfant est versé ? Une séparation de biens est-elle exceptionnellement nécessaire ? Consignez par écrit à partir de quelle date vous vivez séparés. Cette date peut avoir de l'importance plus tard pour un divorce.",
+        "it": "In caso di separazione, chiarite soprattutto queste domande: chi resta nell'abitazione e chi prende quali suppellettili domestiche? Chi paga a chi, da quando e quanto mantenimento? Chi paga fino ad allora la pigione, la cassa malati e le imposte? Per i figli: presso chi vivono principalmente, come viene ripartita la cura, quando stanno con l'altro genitore e quanto mantenimento del figlio viene versato? Serve eccezionalmente una separazione dei beni? Fissate per scritto da quale data vivete separati. Questa data può essere importante in seguito per un divorzio.",
+        "rm": "Clarifitgai en cas d'ina separaziun surtut questas dumondas: Tgi resta en l'abitaziun, e tgi survegn tge rauba da chasa? Tgi paja a tgi, dapi quon e quant mantegniment? Tgi paja enfin lura il tschains, la cassa da malsauns ed las taglias? Tar uffants: tar tgi vivan els principalmain, co vegn la tgira repartida, cura èn els tar l'auter genitur, e quant mantegniment da l'uffant vegn pajà? Dovri excepziunalmain ina separaziun dals bains? Notai per scrit dapi tge data che Vus vivais separads. Questa data po pli tard esser impurtanta per in divorzi.",
+        "en": "When you separate, above all clarify these questions: who stays in the home, and who takes which household effects? Who pays whom how much maintenance, and from when? Who pays the rent, health insurance and taxes until then? For children: where do they mainly live, how is their care split, when are they with the other parent, and how much child maintenance is paid? Is separation of property needed as an exception? Record in writing the date from which you are living apart. This date can later matter for a divorce."
       },
       "sources": [
         "zgb-176",
@@ -321,7 +501,11 @@
         ]
       },
       "text": {
-        "de": "Wohnen Sie noch zusammen, besprechen Sie wenn möglich vor dem Auszug, wer geht und ab wann. Sichern Sie Kopien von Unterlagen, die Sie beide betreffen, etwa Steuerunterlagen, Kontoauszüge, Mietvertrag und Versicherungspolicen. Richten Sie ein eigenes Konto ein, auf das Ihr Lohn oder später der Unterhalt fliesst. Melden Sie eine neue Adresse bei der Gemeinde an. Nehmen Sie beim Auszug Ihre persönlichen Sachen mit. Über den übrigen Hausrat einigen Sie sich am besten oder lassen das Gericht entscheiden."
+        "de": "Wohnen Sie noch zusammen, besprechen Sie wenn möglich vor dem Auszug, wer geht und ab wann. Sichern Sie Kopien von Unterlagen, die Sie beide betreffen, etwa Steuerunterlagen, Kontoauszüge, Mietvertrag und Versicherungspolicen. Richten Sie ein eigenes Konto ein, auf das Ihr Lohn oder später der Unterhalt fliesst. Melden Sie eine neue Adresse bei der Gemeinde an. Nehmen Sie beim Auszug Ihre persönlichen Sachen mit. Über den übrigen Hausrat einigen Sie sich am besten oder lassen das Gericht entscheiden.",
+        "fr": "Si vous habitez encore ensemble, discutez si possible avant le déménagement de qui part et à partir de quand. Conservez des copies des documents qui vous concernent tous les deux, par exemple les documents fiscaux, les relevés de comptes, le bail et les polices d'assurance. Ouvrez un compte à votre nom sur lequel votre salaire, puis plus tard l'entretien, sera versé. Annoncez votre nouvelle adresse à la commune. Emportez vos effets personnels lors du déménagement. Pour le reste du mobilier de ménage, mettez-vous d'accord si possible, ou laissez le tribunal trancher.",
+        "it": "Se vive ancora con l'altra persona, discuta se possibile prima del trasloco chi se ne va e da quando. Metta al sicuro copie dei documenti che riguardano entrambi, ad esempio documenti fiscali, estratti conto, contratto di locazione e polizze assicurative. Apra un conto proprio sul quale far confluire il suo salario o, in seguito, il mantenimento. Comunichi il nuovo indirizzo al Comune. Al trasloco, porti con sé i suoi effetti personali. Sulle restanti suppellettili domestiche è meglio accordarsi, altrimenti lasci decidere il giudice.",
+        "rm": "Sche Vus vivais anc ensemen, discutai sche pussaivel avant da sortir da chasa, tgi che va ed a partir da cura. Assogurai copias da documents che As pertutgan tuts dus, per exempel documents da taglia, extracts da conto, contract da locaziun e polizzas d'assicuranza. Drizzai si in agen conto, sin il qual flua Voss salari u pli tard il mantegniment. Annunziai ina nova adressa tar la vischnanca. Prendai cun Vus Vossas chaussas persunalas cur che Vus sortis da chasa. Davart la rauba da chasa restanta essas Vus il meglier d'accord u laschais decider la dretgira.",
+        "en": "If you are still living together, discuss before moving out, if possible, who is leaving and from when. Keep copies of documents that concern both of you, such as tax records, bank statements, the tenancy agreement and insurance policies. Open your own account for your wages, or later your maintenance, to be paid into. Register a new address with your municipality. Take your personal belongings with you when you move out. It is best to agree on the remaining household effects yourselves, or have the court decide."
       }
     },
     {
@@ -340,7 +524,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie sich einig, halten Sie Ihre Regelung schriftlich in einer Trennungsvereinbarung fest und reichen Sie diese mit einem Gesuch beim Gericht ein. Damit sie als Eheschutzentscheid gilt, muss das Gericht sie genehmigen. Bei den Unterhaltsbeiträgen prüft es, ob Sie beide aus freiem Willen und nach reiflicher Überlegung zugestimmt haben, ob die Regelung klar und vollständig ist und ob sie nicht offensichtlich unangemessen ist. Bei den Kindern ist das Gericht an Ihre Einigung nicht gebunden. Es behandelt sie wie einen gemeinsamen Antrag und entscheidet selbst nach dem Wohl des Kindes."
+        "de": "Sind Sie sich einig, halten Sie Ihre Regelung schriftlich in einer Trennungsvereinbarung fest und reichen Sie diese mit einem Gesuch beim Gericht ein. Damit sie als Eheschutzentscheid gilt, muss das Gericht sie genehmigen. Bei den Unterhaltsbeiträgen prüft es, ob Sie beide aus freiem Willen und nach reiflicher Überlegung zugestimmt haben, ob die Regelung klar und vollständig ist und ob sie nicht offensichtlich unangemessen ist. Bei den Kindern ist das Gericht an Ihre Einigung nicht gebunden. Es behandelt sie wie einen gemeinsamen Antrag und entscheidet selbst nach dem Wohl des Kindes.",
+        "fr": "Si vous êtes d'accord, consignez votre réglementation par écrit dans une convention de séparation et déposez-la avec une requête auprès du tribunal. Pour valoir comme décision de protection de l'union conjugale, elle doit être homologuée par le tribunal. Pour les contributions d'entretien, il examine si vous avez tous deux donné votre accord librement et après mûre réflexion, si la réglementation est claire et complète, et si elle n'est pas manifestement inéquitable. Pour les enfants, le tribunal n'est pas lié par votre accord. Il le traite comme une requête commune et statue lui-même selon le bien de l'enfant.",
+        "it": "Se siete d'accordo, mettete per scritto la vostra regolamentazione in una convenzione di separazione e presentatela al giudice con un'istanza. Perché valga come decisione di protezione dell'unione coniugale, il giudice deve approvarla. Per i contributi di mantenimento, verifica se entrambi avete acconsentito liberamente e dopo matura riflessione, se la regolamentazione è chiara e completa e se non è manifestamente inadeguata. Per i figli, il giudice non è vincolato al vostro accordo. Lo tratta come un'istanza comune e decide autonomamente secondo il bene del figlio.",
+        "rm": "Essas Vus d'accord, notai Vossa reglaziun per scrit en ina cunvegna da separaziun e inoltrai questa cun ina dumonda a la dretgira. Per che ella valia sco decisiun da protecziun da la cuminanza conjugala, sto la dretgira approvar ella. Tar las contribuziuns da mantegniment examinescha ella, sche Vus avais tuts dus consentì da libra voluntad e suenter madira reflexiun, sche la reglaziun è clera e cumpletta e sch'ella n'è betg evidentamain nunadequata. Tar ils uffants n'è la dretgira betg liada a Vossa cunvegna. Ella tracta quella sco ina dumonda cuminaivla e decida sezza tenor il bainstar da l'uffant.",
+        "en": "If you agree, put your arrangement in writing in a separation agreement and file it with the court together with an application. For it to count as a decision on protective measures for the marital union, the court must approve it. For the maintenance contributions, it checks whether you both agreed freely and after careful thought, whether the arrangement is clear and complete, and whether it is not obviously inappropriate. For the children, the court is not bound by your agreement. It treats it as a joint request and decides itself according to the best interests of the child."
       },
       "sources": [
         "bger-5a-1031-2019",
@@ -363,7 +551,11 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich nicht, kann jeder von Ihnen beim Gericht ein Gesuch um Eheschutz stellen. Das Gericht versucht an der Verhandlung zuerst, eine Einigung zu erreichen, und kann Ihnen eine Mediation empfehlen. Gelingt keine Einigung, entscheidet das Gericht. Es setzt die Unterhaltsbeiträge für die Kinder und für den Ehegatten fest, bestimmt, wer die Wohnung und welchen Hausrat benützen darf, und regelt die Kinderbelange. Eine Gütertrennung ordnet es nur an, wenn die Umstände das rechtfertigen."
+        "de": "Einigen Sie sich nicht, kann jeder von Ihnen beim Gericht ein Gesuch um Eheschutz stellen. Das Gericht versucht an der Verhandlung zuerst, eine Einigung zu erreichen, und kann Ihnen eine Mediation empfehlen. Gelingt keine Einigung, entscheidet das Gericht. Es setzt die Unterhaltsbeiträge für die Kinder und für den Ehegatten fest, bestimmt, wer die Wohnung und welchen Hausrat benützen darf, und regelt die Kinderbelange. Eine Gütertrennung ordnet es nur an, wenn die Umstände das rechtfertigen.",
+        "fr": "Si vous ne trouvez pas d'accord, chacun de vous peut déposer auprès du tribunal une requête de protection de l'union conjugale. Le tribunal essaie d'abord, lors de l'audience, de parvenir à un accord, et peut vous recommander une médiation. Si aucun accord n'aboutit, le tribunal statue. Il fixe les contributions d'entretien pour les enfants et pour le conjoint, détermine qui peut utiliser le logement et quel mobilier de ménage, et règle les questions concernant les enfants. Il n'ordonne une séparation de biens que si les circonstances le justifient.",
+        "it": "Se non vi accordate, ciascuno di voi può presentare al giudice un'istanza di protezione dell'unione coniugale. All'udienza, il giudice cerca dapprima di raggiungere un'intesa e può consigliarvi una mediazione. Se non si raggiunge un accordo, decide il giudice. Fissa i contributi di mantenimento per i figli e per il coniuge, stabilisce chi può utilizzare l'abitazione e quali suppellettili domestiche, e regola le questioni relative ai figli. Ordina una separazione dei beni solo se le circostanze lo giustificano.",
+        "rm": "Sche Vus na Vus metetas betg d'accord, po mintga da Vus far a la dretgira ina dumonda da protecziun da la cuminanza conjugala. La dretgira emprova a l'udienza per l'emprim d'ateindre in'entesa e po As recumandar ina mediaziun. Sch'ina entesa na reussescha betg, decida la dretgira. Ella fixescha las contribuziuns da mantegniment per ils uffants e per il consort, determinescha tgi che dastga utilisar l'abitaziun e tge rauba da chasa, e regla las dumondas dals uffants. Ina separaziun dals bains ordinescha ella mo, sche las circumstanzas la giustifitgeschan.",
+        "en": "If you cannot agree, either of you can apply to the court for protective measures for the marital union. At the hearing, the court first tries to reach an agreement and can recommend mediation to you. If no agreement is reached, the court decides. It sets the maintenance contributions for the children and for the spouse, determines who may use the home and which household effects, and settles matters concerning the children. It only orders separation of property if the circumstances justify it."
       },
       "sources": [
         "zgb-176",
@@ -383,7 +575,11 @@
         ]
       },
       "text": {
-        "de": "Zuständig ist das Gericht am Wohnsitz von Ihnen oder von Ihrem Ehepartner; Sie können wählen. Es gilt das summarische Verfahren, das einfacher und schneller ist als ein ordentlicher Prozess. Reichen Sie das Gesuch schriftlich ein. In einfachen oder dringenden Fällen können Sie es beim Gericht auch mündlich vorbringen. Schreiben Sie genau, was Sie verlangen, zum Beispiel welchen Unterhaltsbetrag ab welchem Datum. In der Regel lädt das Gericht Sie beide zu einer Verhandlung ein, zu der Sie persönlich erscheinen müssen. Es klärt den Sachverhalt von sich aus ab, Sie müssen aber mitwirken. Welches Gericht in Ihrem Kanton zuständig ist und ob es Formulare gibt, erfahren Sie auf der Website der Gerichte Ihres Kantons."
+        "de": "Zuständig ist das Gericht am Wohnsitz von Ihnen oder von Ihrem Ehepartner; Sie können wählen. Es gilt das summarische Verfahren, das einfacher und schneller ist als ein ordentlicher Prozess. Reichen Sie das Gesuch schriftlich ein. In einfachen oder dringenden Fällen können Sie es beim Gericht auch mündlich vorbringen. Schreiben Sie genau, was Sie verlangen, zum Beispiel welchen Unterhaltsbetrag ab welchem Datum. In der Regel lädt das Gericht Sie beide zu einer Verhandlung ein, zu der Sie persönlich erscheinen müssen. Es klärt den Sachverhalt von sich aus ab, Sie müssen aber mitwirken. Welches Gericht in Ihrem Kanton zuständig ist und ob es Formulare gibt, erfahren Sie auf der Website der Gerichte Ihres Kantons.",
+        "fr": "Le tribunal compétent est celui de votre domicile ou de celui de votre conjoint ; vous pouvez choisir. La procédure sommaire s'applique, plus simple et plus rapide qu'un procès ordinaire. Déposez la requête par écrit. Dans les cas simples ou urgents, vous pouvez aussi la présenter oralement au tribunal. Indiquez précisément ce que vous demandez, par exemple quel montant d'entretien à partir de quelle date. En règle générale, le tribunal vous convoque tous deux à une audience à laquelle vous devez comparaître personnellement. Il établit les faits d'office, mais vous devez collaborer. Vous trouverez sur le site internet des tribunaux de votre canton quel tribunal est compétent et s'il existe des formulaires.",
+        "it": "È competente il giudice del domicilio suo o del suo coniuge; può scegliere. Si applica la procedura sommaria, più semplice e più rapida di un processo ordinario. Presenti l'istanza per scritto. Nei casi semplici o urgenti può presentarla oralmente anche direttamente al giudice. Scriva con precisione cosa chiede, per esempio quale importo di mantenimento a partire da quale data. Di regola il giudice convoca entrambi a un'udienza, alla quale dovete comparire personalmente. Accerta d'ufficio i fatti, ma dovete collaborare. Quale giudice sia competente nel suo Cantone e se esistano moduli, lo trova sul sito dei tribunali del suo Cantone.",
+        "rm": "Cumpetenta è la dretgira da Voss domicil u da quel da Voss consort; Vus pudais tscherner. Vala la procedura summarica, che è pli simpla e pli svelta ch'in process ordinari. Inoltrai la dumonda per scrit. En cas simpels u urgents pudais Vus era preschentar la dumonda oralmain a la dretgira. Scrivai exactamain tge che Vus pretendais, per exempel tge import da mantegniment a partir da tge data. Per regla envida la dretgira Vus tuts dus ad in'udienza, a la quala Vus stuais cumparair persunalmain. Ella clarifitgescha ils fatgs d'atgna iniziativa, Vus stuais dentant collavurar. Tge dretgira che è cumpetenta en Voss chantun e sche datti formulars, savais Vus sin il sit web da las dretgiras da Voss chantun.",
+        "en": "The court at your place of residence or your spouse's has jurisdiction; you can choose. The summary procedure applies, which is simpler and faster than ordinary proceedings. File the application in writing. In simple or urgent cases, you can also present it to the court orally. State precisely what you are asking for, for example which maintenance amount from which date. As a rule, the court invites you both to a hearing, which you must attend in person. It establishes the facts itself, but you must cooperate. You can find out which court has jurisdiction in your canton and whether forms are available on the website of your cantonal courts."
       },
       "sources": [
         "zpo-23",
@@ -404,7 +600,11 @@
         ]
       },
       "text": {
-        "de": "Bereiten Sie Ihre Unterlagen vor: Lohnausweise und Lohnabrechnungen der letzten Monate, die letzte Steuererklärung und Steuerveranlagung, Mietvertrag oder Belege zur Hypothek, Krankenkassenpolicen, Belege für Kosten der Kinderbetreuung und für Berufsauslagen sowie Auszüge über Konten, Vermögen und Schulden. Im Eheschutzverfahren wird vor allem mit Urkunden bewiesen. Ehegatten müssen einander Auskunft über Einkommen, Vermögen und Schulden geben. Verweigert Ihr Ehepartner das, kann das Gericht ihn oder Dritte, etwa den Arbeitgeber, verpflichten, Auskünfte zu erteilen und Unterlagen vorzulegen."
+        "de": "Bereiten Sie Ihre Unterlagen vor: Lohnausweise und Lohnabrechnungen der letzten Monate, die letzte Steuererklärung und Steuerveranlagung, Mietvertrag oder Belege zur Hypothek, Krankenkassenpolicen, Belege für Kosten der Kinderbetreuung und für Berufsauslagen sowie Auszüge über Konten, Vermögen und Schulden. Im Eheschutzverfahren wird vor allem mit Urkunden bewiesen. Ehegatten müssen einander Auskunft über Einkommen, Vermögen und Schulden geben. Verweigert Ihr Ehepartner das, kann das Gericht ihn oder Dritte, etwa den Arbeitgeber, verpflichten, Auskünfte zu erteilen und Unterlagen vorzulegen.",
+        "fr": "Préparez vos documents : certificats de salaire et décomptes de salaire des derniers mois, la dernière déclaration et décision de taxation fiscales, le bail ou les justificatifs relatifs à l'hypothèque, les polices d'assurance-maladie, les justificatifs des frais de garde des enfants et des frais professionnels, ainsi que les extraits de comptes, de fortune et de dettes. Dans la procédure de protection de l'union conjugale, la preuve se fait surtout par titres. Les époux doivent se renseigner mutuellement sur leurs revenus, leur fortune et leurs dettes. Si votre conjoint le refuse, le tribunal peut l'obliger, lui ou des tiers, par exemple l'employeur, à fournir des renseignements et à produire des documents.",
+        "it": "Prepari i suoi documenti: certificati di salario e conteggi salariali degli ultimi mesi, l'ultima dichiarazione e tassazione fiscale, il contratto di locazione o i documenti relativi all'ipoteca, le polizze della cassa malati, le prove delle spese per la custodia dei figli e per le spese professionali, nonché estratti su conti, sostanza e debiti. Nella procedura di protezione dell'unione coniugale si prova soprattutto con documenti. I coniugi devono darsi reciprocamente informazioni su reddito, sostanza e debiti. Se il suo coniuge lo rifiuta, il giudice può obbligare lui o terzi, per esempio il datore di lavoro, a fornire informazioni e a presentare i documenti.",
+        "rm": "Preparai Vossas documentaziuns: certificats da salari e quintas da salari dals ultims mais, l'ultima decleraziun da taglia e la taxaziun, il contract da locaziun u cumprovas da l'ipoteca, polizzas da la cassa da malsauns, cumprovas per ils custs da la tgira dals uffants e per las expensas professiunalas sco er extracts davart contos, facultad e debits. En la procedura da protecziun da la cuminanza conjugala sa cumprova surtut cun documents. Consorts ston As infurmar vicendaivlamain davart entradas, facultad e debits. Refusa Voss consort da far quai, po la dretgira obligar el u terzas persunas, per exempel il patrun, da dar infurmaziuns e da preschentar documents.",
+        "en": "Prepare your documents: salary statements and payslips from recent months, your last tax return and tax assessment, the tenancy agreement or mortgage records, health insurance policies, evidence of childcare costs and work expenses, and statements of accounts, assets and debts. In proceedings for protective measures for the marital union, evidence is mainly given through documents. Spouses must inform each other about income, assets and debts. If your spouse refuses to do so, the court can require them, or third parties such as the employer, to provide information and produce documents."
       },
       "sources": [
         "zgb-170",
@@ -422,7 +622,11 @@
         ]
       },
       "text": {
-        "de": "Die Gerichte berechnen den Unterhalt für Kinder und für den Ehegatten nach einer einheitlichen Methode in zwei Stufen. Zuerst ermitteln sie die Einkommen und den Bedarf aller Beteiligten. Ausgangspunkt ist das betreibungsrechtliche Existenzminimum. Reichen die Mittel, wird es um weitere Posten wie Steuern erweitert. Wer zahlen muss, behält immer sein eigenes Existenzminimum. Dann wird verteilt: zuerst der Barbedarf der Kinder, danach der Betreuungsunterhalt, danach der Unterhalt des Ehegatten. Bleibt ein Überschuss, wird er grundsätzlich nach «grossen und kleinen Köpfen» verteilt, Erwachsene erhalten also mehr als Kinder. Was die Familie nachweislich regelmässig gespart hat, wird nicht verteilt. Massgebend ist der zuletzt gemeinsam gelebte Lebensstandard. Zwei Haushalte kosten mehr als einer, deshalb reicht das Geld nicht immer für beide."
+        "de": "Die Gerichte berechnen den Unterhalt für Kinder und für den Ehegatten nach einer einheitlichen Methode in zwei Stufen. Zuerst ermitteln sie die Einkommen und den Bedarf aller Beteiligten. Ausgangspunkt ist das betreibungsrechtliche Existenzminimum. Reichen die Mittel, wird es um weitere Posten wie Steuern erweitert. Wer zahlen muss, behält immer sein eigenes Existenzminimum. Dann wird verteilt: zuerst der Barbedarf der Kinder, danach der Betreuungsunterhalt, danach der Unterhalt des Ehegatten. Bleibt ein Überschuss, wird er grundsätzlich nach «grossen und kleinen Köpfen» verteilt, Erwachsene erhalten also mehr als Kinder. Was die Familie nachweislich regelmässig gespart hat, wird nicht verteilt. Massgebend ist der zuletzt gemeinsam gelebte Lebensstandard. Zwei Haushalte kosten mehr als einer, deshalb reicht das Geld nicht immer für beide.",
+        "fr": "Les tribunaux calculent l'entretien des enfants et du conjoint selon une méthode uniforme, en deux étapes. Ils déterminent d'abord les revenus et les besoins de toutes les personnes concernées. Le point de départ est le minimum vital du droit des poursuites. Si les moyens le permettent, il est étendu à d'autres postes comme les impôts. La personne qui doit payer conserve toujours son propre minimum vital. Le montant disponible est ensuite réparti : d'abord les besoins en espèces des enfants, puis la contribution de prise en charge, puis l'entretien du conjoint. S'il reste un excédent, il est en principe réparti selon la méthode des «grandes et petites têtes», les adultes recevant donc plus que les enfants. Ce que la famille a régulièrement épargné de manière avérée n'est pas réparti. Le niveau de vie mené en dernier lieu en commun est déterminant. Deux ménages coûtent plus cher qu'un seul, si bien que l'argent ne suffit pas toujours pour les deux.",
+        "it": "I giudici calcolano il mantenimento per i figli e per il coniuge secondo un metodo unitario in due fasi. Dapprima accertano i redditi e il fabbisogno di tutte le persone coinvolte. Il punto di partenza è il minimo vitale del diritto esecutivo. Se i mezzi bastano, viene ampliato con ulteriori voci come le imposte. Chi deve pagare conserva sempre il proprio minimo vitale. Poi si ripartisce: prima il fabbisogno in denaro dei figli, poi il contributo di accudimento, poi il mantenimento del coniuge. Se resta un'eccedenza, viene ripartita in linea di principio secondo il criterio delle «teste grandi e piccole»: gli adulti ricevono quindi più dei figli. Quanto la famiglia ha comprovatamente risparmiato con regolarità non viene ripartito. È determinante il tenore di vita vissuto da ultimo in comune. Due economie domestiche costano più di una, per questo il denaro non sempre basta per entrambe.",
+        "rm": "Las dretgiras calculeschan il mantegniment per uffants e per il consort tenor in metode unitar en dus stgalims. Empruma vegnan constatadas las entradas ed il basegn da tut las persunas participadas. Il punct da partenza è il minimum d'existenza dal dretg da scussiun. Sche ils mezs bastan, vegn quest minimum augmentà cun ulteriurs posts sco taglias. Tgi che sto pajar, mantegna adina ses agen minimum d'existenza. Lura vegn repartì: empruma il basegn en daners dals uffants, suenter il mantegniment da tgira, suenter il mantegniment dal consort. Resta in surplus, vegn el repartì per princip tenor «grondas e pitschnas testas», creschids survegnan lura dapli che uffants. Quai che la famiglia ha cumprovadamain spargnà regularmain, na vegn betg repartì. Determinant è l'ultim standard da vita vivì ensemen. Duas chasadas custan dapli ch'ina, percunquai na bastan ils daners betg adina per tuttas duas.",
+        "en": "The courts calculate maintenance for children and for the spouse using a single method in two steps. First, they establish the income and needs of everyone involved. The starting point is the subsistence minimum under debt enforcement law. If there is enough money, it is extended by further items such as taxes. Whoever has to pay always keeps their own subsistence minimum. The money is then allocated: first the children's cash needs, then the care contribution, then the spouse's maintenance. If there is a surplus, it is generally shared out by 'large and small heads', so adults receive more than children. Whatever the family can show it regularly saved is not shared out. What counts is the standard of living the family last shared. Two households cost more than one, so the money does not always stretch to cover both."
       },
       "sources": [
         "bge-147-iii-265",
@@ -444,7 +648,11 @@
         ]
       },
       "text": {
-        "de": "Ist nicht mehr damit zu rechnen, dass Sie wieder zusammenleben, kann das Gericht schon während der Trennung prüfen, ob die Person, die bisher den Haushalt geführt oder die Kinder betreut hat, eine Erwerbstätigkeit aufnehmen oder ausbauen kann. Für den Elternteil, der die Kinder hauptsächlich betreut, gilt als Leitlinie: ab der obligatorischen Einschulung des jüngsten Kindes eine Erwerbstätigkeit von 50 Prozent, ab dessen Eintritt in die Sekundarstufe I von 80 Prozent und ab dessen 16. Geburtstag von 100 Prozent. Ist Ihnen eine Arbeit zumutbar und möglich, kann das Gericht Ihnen ein entsprechendes Einkommen anrechnen, auch wenn Sie es tatsächlich nicht erzielen."
+        "de": "Ist nicht mehr damit zu rechnen, dass Sie wieder zusammenleben, kann das Gericht schon während der Trennung prüfen, ob die Person, die bisher den Haushalt geführt oder die Kinder betreut hat, eine Erwerbstätigkeit aufnehmen oder ausbauen kann. Für den Elternteil, der die Kinder hauptsächlich betreut, gilt als Leitlinie: ab der obligatorischen Einschulung des jüngsten Kindes eine Erwerbstätigkeit von 50 Prozent, ab dessen Eintritt in die Sekundarstufe I von 80 Prozent und ab dessen 16. Geburtstag von 100 Prozent. Ist Ihnen eine Arbeit zumutbar und möglich, kann das Gericht Ihnen ein entsprechendes Einkommen anrechnen, auch wenn Sie es tatsächlich nicht erzielen.",
+        "fr": "S'il n'est plus à prévoir que vous repreniez la vie commune, le tribunal peut déjà, pendant la séparation, examiner si la personne qui tenait jusqu'ici le ménage ou s'occupait des enfants peut prendre ou étendre une activité lucrative. Pour le parent qui prend principalement en charge les enfants, la ligne directrice est la suivante : une activité lucrative de 50 pour cent dès la scolarisation obligatoire du plus jeune enfant, de 80 pour cent dès son entrée dans le degré secondaire I, et de 100 pour cent dès son 16e anniversaire. Si un travail vous est raisonnablement exigible et possible, le tribunal peut vous imputer un revenu correspondant, même si vous ne le réalisez pas effectivement.",
+        "it": "Se non è più ragionevole attendersi che torniate a vivere insieme, già durante la separazione il giudice può esaminare se la persona che finora ha condotto l'economia domestica o si è occupata dei figli possa iniziare o ampliare un'attività lucrativa. Per il genitore che si occupa principalmente dei figli vale come criterio orientativo: un'attività lucrativa al 50 per cento dall'ingresso obbligatorio a scuola del figlio più giovane, all'80 per cento dal suo passaggio al grado secondario I, e al 100 per cento dal suo 16° compleanno. Se un lavoro le è ragionevolmente esigibile e possibile, il giudice può computarle un reddito corrispondente, anche se in realtà non lo consegue.",
+        "rm": "N'è betg pli d'aspectar ch'Vus vegnias puspè a viver ensemen, po la dretgira gia durant la separaziun examinar, sche la persuna che ha manà enfin qua la chasada u tgirà ils uffants po cumenzar u ampliar in'activitad lucrativa. Per il genitur che tgira principalmain ils uffants vala sco directiva: a partir da l'entrada scolastica obligatorica dal pli giuven uffant in'activitad lucrativa dal 50 pertschient, a partir da sia entrada en il stgalim secundari I dal 80 pertschient ed a partir da ses 16avel anniversari dal 100 pertschient. Sch'in lavur Vus è raschunaivla e pussaivla, po la dretgira Vus computar in'entrada correspondenta, era sche Vus n'obtegnis betg quella realmain.",
+        "en": "If living together again can no longer be expected, the court can already examine, during the separation, whether the person who has so far run the household or looked after the children can take up or extend paid work. For the parent who mainly looks after the children, the guideline is: paid work of 50 percent from when the youngest child starts compulsory school, 80 percent from when that child starts lower secondary school, and 100 percent from that child's 16th birthday. If work is reasonable and possible for you, the court can attribute a corresponding income to you, even if you do not actually earn it."
       },
       "sources": [
         "bge-147-iii-301",
@@ -463,7 +671,11 @@
         ]
       },
       "text": {
-        "de": "Unterhalt können Sie für die Zukunft verlangen und zusätzlich für bis zu einem Jahr vor Einreichung Ihres Gesuchs. Die Zeit vor dem Gesuch erhalten Sie aber nur, wenn Sie das ausdrücklich beantragen. Sonst beginnt die Unterhaltspflicht erst mit dem Gesuch. Auch für Kinder kann Unterhalt für die Zukunft und für ein Jahr zurück verlangt werden. Zahlt Ihr Ehepartner nach dem Auszug nichts oder zu wenig, warten Sie deshalb nicht zu lange mit dem Gesuch."
+        "de": "Unterhalt können Sie für die Zukunft verlangen und zusätzlich für bis zu einem Jahr vor Einreichung Ihres Gesuchs. Die Zeit vor dem Gesuch erhalten Sie aber nur, wenn Sie das ausdrücklich beantragen. Sonst beginnt die Unterhaltspflicht erst mit dem Gesuch. Auch für Kinder kann Unterhalt für die Zukunft und für ein Jahr zurück verlangt werden. Zahlt Ihr Ehepartner nach dem Auszug nichts oder zu wenig, warten Sie deshalb nicht zu lange mit dem Gesuch.",
+        "fr": "Vous pouvez demander l'entretien pour l'avenir, ainsi que, en plus, pour une année au maximum avant le dépôt de votre requête. Vous n'obtenez toutefois la période antérieure à la requête que si vous le demandez expressément. Sinon, l'obligation d'entretien ne commence qu'avec la requête. Pour les enfants aussi, l'entretien peut être demandé pour l'avenir et pour une année en arrière. Si votre conjoint ne paie rien ou trop peu après le déménagement, n'attendez donc pas trop longtemps pour déposer votre requête.",
+        "it": "Può chiedere il mantenimento per il futuro e, in aggiunta, per un periodo fino a un anno prima della presentazione della sua istanza. Il periodo precedente l'istanza le viene però riconosciuto solo se lo richiede espressamente. Altrimenti l'obbligo di mantenimento inizia solo con l'istanza. Anche per i figli il mantenimento può essere chiesto per il futuro e retroattivamente per un anno. Se dopo il trasloco il suo coniuge non paga nulla o paga troppo poco, non aspetti quindi troppo a lungo con l'istanza.",
+        "rm": "Mantegniment pudais Vus pretender per il futur e supplementarmain per fin ad in onn avant l'inoltraziun da Vossa dumonda. Il temp avant la dumonda survegnis Vus dentant mo, sche Vus pretendais quai expressamain. Autramain cumenza l'obligaziun da mantegniment mo cun la dumonda. Er per uffants po mantegniment vegnir pretendì per il futur e per in onn enavos. Sche Voss consort na paja nagut u memia pauc suenter il sortir da chasa, spetgai percunquai betg memia ditg cun la dumonda.",
+        "en": "You can claim maintenance for the future and, in addition, for up to one year before you filed your application. However, you only receive the time before the application if you expressly request it. Otherwise, the maintenance obligation only begins with the application. Maintenance for children, too, can be claimed for the future and for one year back. So if your spouse pays nothing or too little after moving out, do not wait too long to file your application."
       },
       "sources": [
         "zgb-173",
@@ -482,7 +694,11 @@
         ]
       },
       "text": {
-        "de": "Wer in der Wohnung bleiben darf, entscheidet das Gericht danach, was zweckmässig ist, und grundsätzlich nicht danach, wer Eigentümer oder Mieter ist. Leben Kinder im Haushalt, zählt zuerst ihr Interesse, in der gewohnten Umgebung zu bleiben. Berücksichtigt wird auch, dass eine Einzelperson meist leichter eine neue Wohnung findet. Danach zählen berufliche und gesundheitliche Gründe, dann persönliche Bindungen an die Wohnung. Das Eigentum spielt erst eine Rolle, wenn diese Gesichtspunkte nicht weiterhelfen. Auch der Hausrat, zu dem etwa ein Auto gehören kann, wird nach Zweckmässigkeit zugeteilt. Das Eheschutzgericht regelt nur, wer Wohnung und Hausrat benützen darf. Wem sie gehören, entscheidet es nicht."
+        "de": "Wer in der Wohnung bleiben darf, entscheidet das Gericht danach, was zweckmässig ist, und grundsätzlich nicht danach, wer Eigentümer oder Mieter ist. Leben Kinder im Haushalt, zählt zuerst ihr Interesse, in der gewohnten Umgebung zu bleiben. Berücksichtigt wird auch, dass eine Einzelperson meist leichter eine neue Wohnung findet. Danach zählen berufliche und gesundheitliche Gründe, dann persönliche Bindungen an die Wohnung. Das Eigentum spielt erst eine Rolle, wenn diese Gesichtspunkte nicht weiterhelfen. Auch der Hausrat, zu dem etwa ein Auto gehören kann, wird nach Zweckmässigkeit zugeteilt. Das Eheschutzgericht regelt nur, wer Wohnung und Hausrat benützen darf. Wem sie gehören, entscheidet es nicht.",
+        "fr": "Le tribunal décide qui peut rester dans le logement en fonction de ce qui est opportun, et en principe non en fonction de qui en est propriétaire ou locataire. Si des enfants vivent dans le ménage, c'est d'abord leur intérêt à rester dans leur environnement habituel qui compte. Il est aussi tenu compte du fait qu'une personne seule trouve en général plus facilement un nouveau logement. Viennent ensuite des raisons professionnelles et de santé, puis les attaches personnelles au logement. La propriété ne joue un rôle que si ces éléments ne permettent pas de trancher. Le mobilier de ménage, qui peut comprendre par exemple une voiture, est également attribué selon un critère d'opportunité. Le tribunal de la protection de l'union conjugale règle uniquement qui peut utiliser le logement et le mobilier de ménage. Il ne décide pas à qui ils appartiennent.",
+        "it": "Chi può restare nell'abitazione lo decide il giudice in base a ciò che è opportuno, e non, in linea di principio, in base a chi ne sia proprietario o conduttore. Se nell'economia domestica vivono figli, conta anzitutto il loro interesse a restare nell'ambiente abituale. Si tiene conto anche del fatto che una persona sola trova di regola più facilmente una nuova abitazione. Contano poi motivi professionali e di salute, quindi i legami personali con l'abitazione. La proprietà entra in gioco solo se questi criteri non permettono di decidere. Anche le suppellettili domestiche, tra cui può rientrare un'automobile, vengono assegnate secondo criteri di opportunità. Il giudice della protezione dell'unione coniugale disciplina soltanto chi può utilizzare l'abitazione e le suppellettili domestiche. Non decide a chi appartengano.",
+        "rm": "Tgi che dastga restar en l'abitaziun, decida la dretgira tenor quai ch'è adequat, e per princip betg tenor tgi ch'è proprietari u locatari. Vivan uffants en la chasada, conta empruma lur interess da restar en l'ambient usità. Resguardà vegn er che ina persuna sula chatta il pli savens pli faciilmain in'abitaziun nova. Suenter contan motivs professiunals e da sanadad, lura ligiams persunals a l'abitaziun. La proprietad gioga in rolla mo, sche quests aspects n'agidan betg vinavant. Er la rauba da chasa, a la quala po tutgar per exempel in auto, vegn repartida tenor adequatezza. La dretgira da protecziun da la cuminanza conjugala regla mo, tgi che dastga utilisar l'abitaziun e la rauba da chasa. Tgi ch'ella tutga, na decida ella betg.",
+        "en": "The court decides who may stay in the home based on what is appropriate, and in principle not on who is the owner or the tenant. If children live in the household, their interest in staying in their familiar surroundings counts first. It is also taken into account that a single person usually finds a new home more easily. After that, professional and health reasons count, then personal ties to the home. Ownership only plays a role if these points do not help decide. The household effects, which can include a car, are also allocated on the basis of what is appropriate. The court for protective measures for the marital union only decides who may use the home and the household effects. It does not decide who owns them."
       },
       "sources": [
         "zgb-176",
@@ -506,7 +722,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie minderjährige Kinder, regelt das Gericht auch deren Situation: bei wem sie hauptsächlich wohnen (Obhut), wie die Betreuung aufgeteilt wird, wie oft sie den anderen Elternteil sehen und wie viel Kindesunterhalt bezahlt wird. Die gemeinsame elterliche Sorge bleibt in der Regel bestehen. Nur wenn das Kindeswohl es verlangt, erhält ein Elternteil die alleinige Sorge. Verlangt ein Elternteil oder das Kind eine alternierende Obhut, muss das Gericht sie prüfen. Es achtet unter anderem darauf, ob beide Eltern erziehungsfähig sind, wie gut sie miteinander reden und zusammenarbeiten, wie weit ihre Wohnungen auseinanderliegen, wie die Kinder bisher betreut wurden und was die Kinder selbst wünschen. Bei Kinderfragen ist das Gericht nicht an Ihre Anträge gebunden. Es hört das Kind in der Regel persönlich an oder lässt es durch eine Fachperson anhören, ausser das Kind ist zu jung oder andere wichtige Gründe sprechen dagegen. Mehr dazu finden Sie in den Leitfäden zur elterlichen Sorge und zum Kindesunterhalt."
+        "de": "Haben Sie minderjährige Kinder, regelt das Gericht auch deren Situation: bei wem sie hauptsächlich wohnen (Obhut), wie die Betreuung aufgeteilt wird, wie oft sie den anderen Elternteil sehen und wie viel Kindesunterhalt bezahlt wird. Die gemeinsame elterliche Sorge bleibt in der Regel bestehen. Nur wenn das Kindeswohl es verlangt, erhält ein Elternteil die alleinige Sorge. Verlangt ein Elternteil oder das Kind eine alternierende Obhut, muss das Gericht sie prüfen. Es achtet unter anderem darauf, ob beide Eltern erziehungsfähig sind, wie gut sie miteinander reden und zusammenarbeiten, wie weit ihre Wohnungen auseinanderliegen, wie die Kinder bisher betreut wurden und was die Kinder selbst wünschen. Bei Kinderfragen ist das Gericht nicht an Ihre Anträge gebunden. Es hört das Kind in der Regel persönlich an oder lässt es durch eine Fachperson anhören, ausser das Kind ist zu jung oder andere wichtige Gründe sprechen dagegen. Mehr dazu finden Sie in den Leitfäden zur elterlichen Sorge und zum Kindesunterhalt.",
+        "fr": "Si vous avez des enfants mineurs, le tribunal règle aussi leur situation : chez qui ils vivent principalement (garde), comment la prise en charge est répartie, à quelle fréquence ils voient l'autre parent et quel entretien de l'enfant est versé. L'autorité parentale conjointe subsiste en règle générale. Un parent n'obtient l'autorité parentale exclusive que si le bien de l'enfant l'exige. Si un parent ou l'enfant demande une garde alternée, le tribunal doit l'examiner. Il vérifie notamment si les deux parents sont aptes à éduquer l'enfant, dans quelle mesure ils communiquent et collaborent entre eux, quelle est la distance entre leurs logements, comment les enfants ont été pris en charge jusqu'ici et ce que les enfants souhaitent eux-mêmes. Pour les questions concernant les enfants, le tribunal n'est pas lié par vos conclusions. Il entend en règle générale l'enfant personnellement ou le fait entendre par une personne spécialisée, sauf si l'enfant est trop jeune ou si d'autres motifs importants s'y opposent. Vous trouverez plus d'informations à ce sujet dans les guides sur l'autorité parentale et sur l'entretien de l'enfant.",
+        "it": "Se avete figli minorenni, il giudice regola anche la loro situazione: presso chi vivono principalmente (custodia), come viene ripartita la cura, quanto spesso vedono l'altro genitore e quanto mantenimento del figlio viene versato. L'autorità parentale congiunta resta di norma invariata. Solo se il bene del figlio lo richiede, un genitore ottiene l'autorità parentale esclusiva. Se un genitore o il figlio chiede una custodia alternata, il giudice deve esaminarla. Tiene conto tra l'altro del fatto che entrambi i genitori siano capaci di educare, di quanto bene comunicano e collaborano tra loro, di quanto distino le loro abitazioni, di come i figli sono stati finora accuditi e di cosa desiderano i figli stessi. Nelle questioni riguardanti i figli il giudice non è vincolato alle vostre richieste. Di regola sente personalmente il figlio o lo fa sentire da una persona esperta, a meno che il figlio sia troppo giovane o vi si oppongano altri motivi importanti. Maggiori informazioni si trovano nelle guide sull'autorità parentale e sul mantenimento del figlio.",
+        "rm": "Avais Vus uffants minorens, regla la dretgira era lur situaziun: tar tgi ch'els vivan principalmain (surveglianza), co la tgira vegn repartida, quant savens ch'els vesan l'auter genitur e quant mantegniment da l'uffant vegn pajà. La tgira genituriala cuminaivla resta per regla persistenta. Mo sche il bainstar da l'uffant al pretenda, survegn in genitur la tgira exclusiva. Pretenda in genitur u l'uffant ina surveglianza alternada, sto la dretgira examinar quella. Ella resguarda danter auter, sche tuts dus geniturs èn abels d'educar, co bain ch'els discurran e collavuran, quant lontan che lur abitaziuns èn ina da l'autra, co ils uffants èn vegnids tgirads enfin qua e tge ch'ils uffants sez giavischan. Tar dumondas dals uffants n'è la dretgira betg liada a Vossas dumondas. Ella udescha l'uffant per regla persunalmain u lascha'l udir tras ina persuna spezialisada, ausser l'uffant è memia giuven u auters motivs impurtants sa drizzan cunter quai. Dapli davart quai chattais Vus en ils manuals davart la tgira genituriala e davart il mantegniment da l'uffant.",
+        "en": "If you have children who are minors, the court also settles their situation: where they mainly live (day-to-day care), how their care is split, how often they see the other parent, and how much child maintenance is paid. Joint parental responsibility generally continues. Only if the best interests of the child require it does one parent receive sole parental responsibility. If a parent or the child asks for alternating care, the court must examine this seriously. Among other things, it looks at whether both parents are fit to raise the child, how well they talk to each other and cooperate, how far apart their homes are, how the children have been looked after so far, and what the children themselves want. On matters concerning the children, the court is not bound by your requests. It usually hears the child in person or has a specialist hear them, unless the child is too young or other important reasons argue against it. You can find more on this in the guides on parental responsibility and child maintenance."
       },
       "sources": [
         "zgb-298",
@@ -528,7 +748,11 @@
         ]
       },
       "text": {
-        "de": "Zahlt Ihr Ehepartner den festgelegten Unterhalt nicht, gibt es mehrere Wege. Eine vom Kanton bezeichnete Fachstelle hilft Ihnen auf Gesuch, die Beiträge einzutreiben. Ob und wie weit der Staat Unterhaltsbeiträge bevorschusst, regelt Ihr Kanton. Das Gericht kann zudem den Arbeitgeber oder andere Schuldner Ihres Ehepartners anweisen, den Unterhalt direkt an Sie zu zahlen. Besteht die Gefahr, dass Ihr Ehepartner Vermögen beiseiteschafft, um sich seinen Pflichten zu entziehen, kann das Gericht ihm verbieten, ohne Ihre Zustimmung über bestimmte Vermögenswerte zu verfügen, zum Beispiel über ein Grundstück."
+        "de": "Zahlt Ihr Ehepartner den festgelegten Unterhalt nicht, gibt es mehrere Wege. Eine vom Kanton bezeichnete Fachstelle hilft Ihnen auf Gesuch, die Beiträge einzutreiben. Ob und wie weit der Staat Unterhaltsbeiträge bevorschusst, regelt Ihr Kanton. Das Gericht kann zudem den Arbeitgeber oder andere Schuldner Ihres Ehepartners anweisen, den Unterhalt direkt an Sie zu zahlen. Besteht die Gefahr, dass Ihr Ehepartner Vermögen beiseiteschafft, um sich seinen Pflichten zu entziehen, kann das Gericht ihm verbieten, ohne Ihre Zustimmung über bestimmte Vermögenswerte zu verfügen, zum Beispiel über ein Grundstück.",
+        "fr": "Si votre conjoint ne paie pas l'entretien fixé, plusieurs voies existent. Un service désigné par le canton vous aide, sur demande, à recouvrer les contributions. C'est votre canton qui détermine si et dans quelle mesure l'État avance les contributions d'entretien. Le tribunal peut en outre ordonner à l'employeur ou à d'autres débiteurs de votre conjoint de vous verser l'entretien directement. S'il existe un risque que votre conjoint dissimule des biens pour se soustraire à ses obligations, le tribunal peut lui interdire de disposer, sans votre accord, de certains biens, par exemple d'un bien-fonds.",
+        "it": "Se il suo coniuge non paga il mantenimento fissato, esistono diverse vie. Un servizio designato dal Cantone la aiuta, su istanza, a incassare i contributi. Se e in che misura lo Stato anticipi i contributi di mantenimento lo stabilisce il suo Cantone. Il giudice può inoltre ordinare al datore di lavoro o ad altri debitori del suo coniuge di versare il mantenimento direttamente a lei. Se esiste il rischio che il suo coniuge distragga la sostanza per sottrarsi ai propri obblighi, il giudice può vietargli di disporre, senza il suo consenso, di determinati valori patrimoniali, per esempio di un fondo.",
+        "rm": "Sche Voss consort na paja betg il mantegniment fixà, datti plirs vias. Ina posta spezialisada designada dal chantun As gida sin dumonda dad incassar las contribuziuns. Sche e quant vast il stadi avanza contribuziuns da mantegniment, regla Voss chantun. La dretgira po supplementarmain incumbensar il patrun u auters debiturs da Voss consort da pajar il mantegniment directamain a Vus. Sche datti il privel che Voss consort transferescha facultad per As sottrair a sias obligaziuns, po la dretgira scumandar ad el da disponer, senza Voss consentiment, davart tschertas valurs patrimonialas, per exempel davart in bain immobigliar.",
+        "en": "If your spouse does not pay the maintenance that has been set, there are several ways forward. A specialist office designated by the canton helps you, on application, to collect the contributions. Whether and to what extent the state advances maintenance contributions is governed by your canton. The court can also instruct the employer or other debtors of your spouse to pay the maintenance directly to you. If there is a risk that your spouse is moving assets out of reach to escape their obligations, the court can forbid them from disposing of certain assets, for example a property, without your consent."
       },
       "sources": [
         "zgb-176a",
@@ -551,7 +775,11 @@
         ]
       },
       "text": {
-        "de": "Eheschutzmassnahmen gelten, bis sie geändert oder aufgehoben werden. Haben sich die Verhältnisse seit dem Entscheid wesentlich und dauerhaft verändert, zum Beispiel weil ein Einkommen deutlich gesunken ist oder die Kinder anders betreut werden, können Sie beim Gericht eine Anpassung verlangen. Das gilt auch, wenn sich der Entscheid auf Annahmen stützte, die sich als falsch erwiesen oder nicht wie erwartet eingetreten sind. Ziehen Sie wieder zusammen, fallen die Massnahmen grundsätzlich weg. Eine angeordnete Gütertrennung und Kindesschutzmassnahmen bleiben aber bestehen. Wird die Scheidung eingereicht, ist für neue Massnahmen das Scheidungsgericht zuständig. Bis es etwas anderes anordnet, gelten die Eheschutzmassnahmen weiter."
+        "de": "Eheschutzmassnahmen gelten, bis sie geändert oder aufgehoben werden. Haben sich die Verhältnisse seit dem Entscheid wesentlich und dauerhaft verändert, zum Beispiel weil ein Einkommen deutlich gesunken ist oder die Kinder anders betreut werden, können Sie beim Gericht eine Anpassung verlangen. Das gilt auch, wenn sich der Entscheid auf Annahmen stützte, die sich als falsch erwiesen oder nicht wie erwartet eingetreten sind. Ziehen Sie wieder zusammen, fallen die Massnahmen grundsätzlich weg. Eine angeordnete Gütertrennung und Kindesschutzmassnahmen bleiben aber bestehen. Wird die Scheidung eingereicht, ist für neue Massnahmen das Scheidungsgericht zuständig. Bis es etwas anderes anordnet, gelten die Eheschutzmassnahmen weiter.",
+        "fr": "Les mesures de protection de l'union conjugale valent jusqu'à ce qu'elles soient modifiées ou levées. Si la situation a changé de manière importante et durable depuis la décision, par exemple parce qu'un revenu a nettement baissé ou que la prise en charge des enfants a changé, vous pouvez demander une adaptation au tribunal. Cela vaut aussi si la décision reposait sur des hypothèses qui se sont révélées fausses ou qui ne se sont pas réalisées comme prévu. Si vous reprenez la vie commune, les mesures tombent en principe. Une séparation de biens ordonnée et des mesures de protection de l'enfant restent toutefois en vigueur. Si le divorce est déposé, le tribunal du divorce est compétent pour de nouvelles mesures. Jusqu'à ce qu'il en décide autrement, les mesures de protection de l'union conjugale continuent de s'appliquer.",
+        "it": "Le misure di protezione dell'unione coniugale valgono finché non vengono modificate o revocate. Se le circostanze sono cambiate in modo rilevante e duraturo dalla decisione, per esempio perché un reddito è diminuito sensibilmente o i figli vengono accuditi diversamente, può chiedere al giudice un adeguamento. Questo vale anche se la decisione si fondava su ipotesi rivelatesi errate o non avveratesi come previsto. Se tornate a vivere insieme, le misure decadono in linea di principio. Una separazione dei beni ordinata e le misure di protezione del figlio restano tuttavia in vigore. Se viene introdotta la procedura di divorzio, per nuove misure è competente il giudice del divorzio. Finché non dispone altrimenti, le misure di protezione dell'unione coniugale restano applicabili.",
+        "rm": "Mesiras da protecziun da la cuminanza conjugala valan, enfin ch'ellas vegnan midadas u abolidas. Sche las circumstanzas èn sa midadas considerablamain e durablamain dapi la decisiun, per exempel perquai ch'in'entrada è sa reducida notablamain u ils uffants vegnan tgirads autramain, pudais Vus pretender a la dretgira in'adattaziun. Quai vala er, sche la decisiun sa basava sin supposiziuns che sa sun mussadas fallschas u che n'èn betg entradas sco spetgà. Turnais Vus a viver ensemen, crodan las mesiras per princip davent. Ina separaziun dals bains ordinada e mesiras da protecziun da l'uffant restan dentant persistentas. Vegn il divorzi inoltrà, è per novas mesiras cumpetenta la dretgira da divorzi. Enfin ch'ella ordinescha insatge auter, valan las mesiras da protecziun da la cuminanza conjugala vinavant.",
+        "en": "Protective measures for the marital union remain in force until they are changed or lifted. If circumstances have changed significantly and lastingly since the decision, for example because an income has dropped considerably or the children are cared for differently, you can ask the court for an adjustment. This also applies if the decision was based on assumptions that turned out to be wrong or did not materialise as expected. If you move back in together, the measures generally lapse. However, an ordered separation of property and child protection measures remain in place. If the divorce is filed, the divorce court has jurisdiction for new measures. Until it orders otherwise, the protective measures for the marital union continue to apply."
       },
       "sources": [
         "zgb-179",
@@ -575,7 +803,11 @@
         ]
       },
       "text": {
-        "de": "Eröffnet Ihnen das Gericht den Entscheid ohne schriftliche Begründung, müssen Sie innert 10 Tagen eine Begründung verlangen. Tun Sie das nicht, verzichten Sie auf ein Rechtsmittel. Gegen den begründeten Entscheid können Sie in der Regel innert 30 Tagen Berufung an die obere kantonale Instanz erheben. Geht es nur um Geld und beträgt der Streitwert weniger als 10 000 Franken, ist stattdessen nur die Beschwerde möglich, und dafür gilt eine Frist von 10 Tagen. Achtung: In diesem Verfahren gibt es keine Gerichtsferien. Die Fristen laufen also auch über Ostern, im Sommer und über Weihnachten weiter. Massgebend ist die Rechtsmittelbelehrung am Ende des Entscheids. Lesen Sie sie sofort und holen Sie rasch Rat."
+        "de": "Eröffnet Ihnen das Gericht den Entscheid ohne schriftliche Begründung, müssen Sie innert 10 Tagen eine Begründung verlangen. Tun Sie das nicht, verzichten Sie auf ein Rechtsmittel. Gegen den begründeten Entscheid können Sie in der Regel innert 30 Tagen Berufung an die obere kantonale Instanz erheben. Geht es nur um Geld und beträgt der Streitwert weniger als 10 000 Franken, ist stattdessen nur die Beschwerde möglich, und dafür gilt eine Frist von 10 Tagen. Achtung: In diesem Verfahren gibt es keine Gerichtsferien. Die Fristen laufen also auch über Ostern, im Sommer und über Weihnachten weiter. Massgebend ist die Rechtsmittelbelehrung am Ende des Entscheids. Lesen Sie sie sofort und holen Sie rasch Rat.",
+        "fr": "Si le tribunal vous notifie la décision sans motivation écrite, vous devez demander une motivation dans les 10 jours. Si vous ne le faites pas, vous renoncez à un moyen de recours. Contre la décision motivée, vous pouvez en règle générale déposer un appel auprès de l'instance cantonale supérieure dans les 30 jours. S'il ne s'agit que d'argent et que la valeur litigieuse est inférieure à 10 000 francs, seul le recours est possible à la place, avec un délai de 10 jours. Attention : dans cette procédure, il n'y a pas de féries judiciaires. Les délais courent donc aussi pendant Pâques, en été et pendant Noël. C'est l'indication des voies de droit à la fin de la décision qui fait foi. Lisez-la immédiatement et demandez rapidement conseil.",
+        "it": "Se il giudice le comunica la decisione senza motivazione scritta, deve chiedere la motivazione entro 10 giorni. Se non lo fa, rinuncia a un rimedio giuridico. Contro la decisione motivata può di regola interporre appello all'istanza cantonale superiore entro 30 giorni. Se si tratta solo di denaro e il valore litigioso è inferiore a 10 000 franchi, è invece possibile solo il reclamo, per il quale vale un termine di 10 giorni. Attenzione: in questa procedura non vi è sospensione dei termini. I termini decorrono quindi anche a Pasqua, in estate e a Natale. Determinante è l'indicazione dei rimedi giuridici alla fine della decisione. La legga subito e si faccia consigliare rapidamente.",
+        "rm": "Communitgescha Vus la dretgira la decisiun senza motivaziun scritta, stuais Vus pretender ina motivaziun entaifer 10 dis. Na fasais Vus betg quai, renunziais Vus ad in med legal. Cunter la decisiun motivada pudais Vus per regla far appellaziun a l'instanza chantunala superiura entaifer 30 dis. Sche sa tracta mo da daners e sche la valur litigiusa importa damain che 10 000 francs, è enstagl mo pussaivel il recurs, e per quel vala in termin da 10 dis. Attenziun: en questa procedura na datti naginas vacanzas da dretgira. Ils termins curran donc vinavant er sur Pasqua, en stad e sur Nadal. Determinanta è l'indicaziun dals meds legals a la fin da la decisiun. Legiai'la immediat e retschertgai svelt cussegl.",
+        "en": "If the court notifies you of the decision without written reasons, you must request reasons within 10 days. If you do not, you give up the right to a legal remedy. Against the reasoned decision, you can generally file an appeal (Berufung) with the higher cantonal court within 30 days. If the case is only about money and the amount in dispute is less than 10,000 francs, only a complaint (Beschwerde) is available instead, and the deadline for that is 10 days. Note: there is no court recess in these proceedings. The deadlines therefore keep running over Easter, in summer and over Christmas as well. What matters is the notice of legal remedies at the end of the decision. Read it immediately and get advice quickly."
       },
       "sources": [
         "zpo-239",
@@ -595,7 +827,11 @@
         ]
       },
       "text": {
-        "de": "Eine Trennung ist keine Scheidung. Will einer von Ihnen später die Scheidung und ist der andere nicht einverstanden, kann die Scheidung in der Regel verlangt werden, wenn Sie bei Einreichung der Klage seit mindestens zwei Jahren getrennt leben. Die Eheschutzmassnahmen gelten auch während eines Scheidungsverfahrens weiter, bis das Scheidungsgericht sie ändert. Mehr dazu finden Sie im Leitfaden zur Scheidung."
+        "de": "Eine Trennung ist keine Scheidung. Will einer von Ihnen später die Scheidung und ist der andere nicht einverstanden, kann die Scheidung in der Regel verlangt werden, wenn Sie bei Einreichung der Klage seit mindestens zwei Jahren getrennt leben. Die Eheschutzmassnahmen gelten auch während eines Scheidungsverfahrens weiter, bis das Scheidungsgericht sie ändert. Mehr dazu finden Sie im Leitfaden zur Scheidung.",
+        "fr": "Une séparation n'est pas un divorce. Si l'un de vous veut plus tard divorcer et que l'autre n'est pas d'accord, le divorce peut en règle générale être demandé si vous vivez séparés depuis deux ans au moins au moment du dépôt de la demande. Les mesures de protection de l'union conjugale continuent aussi de s'appliquer pendant une procédure de divorce, jusqu'à ce que le tribunal du divorce les modifie. Vous trouverez plus d'informations à ce sujet dans le guide sur le divorce.",
+        "it": "Una separazione non è un divorzio. Se in seguito uno di voi vuole il divorzio e l'altro non è d'accordo, il divorzio può di regola essere chiesto se al momento della presentazione dell'azione vivete separati da almeno due anni. Le misure di protezione dell'unione coniugale restano applicabili anche durante una procedura di divorzio, finché il giudice del divorzio non le modifica. Maggiori informazioni si trovano nella guida sul divorzio.",
+        "rm": "Ina separaziun n'è nagin divorzi. Vul in da Vus pli tard il divorzi e n'è l'auter betg d'accord, po il divorzi per regla vegnir pretendì, sche Vus vivais separads dapi almain dus onns al mument da l'inoltraziun da la plant. Las mesiras da protecziun da la cuminanza conjugala valan er durant ina procedura da divorzi vinavant, enfin che la dretgira da divorzi las mida. Dapli davart quai chattais Vus en il manual davart il divorzi.",
+        "en": "A separation is not a divorce. If one of you later wants a divorce and the other does not agree, the divorce can generally be requested if you have been living apart for at least two years when the action is filed. The protective measures for the marital union also continue to apply during divorce proceedings until the divorce court changes them. You can find more on this in the guide on divorce."
       },
       "sources": [
         "zgb-114",
@@ -606,7 +842,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Für das Eheschutzverfahren erhebt das Gericht Gerichtskosten. Wie hoch sie sind, bestimmt der Tarif Ihres Kantons. Das Gericht kann einen Kostenvorschuss verlangen, in diesem Verfahren aber höchstens die Hälfte der voraussichtlichen Gerichtskosten. In familienrechtlichen Verfahren kann das Gericht die Kosten nach seinem Ermessen verteilen, zum Beispiel je zur Hälfte, unabhängig davon, wer mehr erreicht hat. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen. Dann müssen Sie keinen Vorschuss und keine Gerichtskosten bezahlen, und das Gericht kann Ihnen wenn nötig eine Anwältin oder einen Anwalt bestellen. Eine allfällige Entschädigung an die Gegenseite deckt sie nicht."
+        "de": "Für das Eheschutzverfahren erhebt das Gericht Gerichtskosten. Wie hoch sie sind, bestimmt der Tarif Ihres Kantons. Das Gericht kann einen Kostenvorschuss verlangen, in diesem Verfahren aber höchstens die Hälfte der voraussichtlichen Gerichtskosten. In familienrechtlichen Verfahren kann das Gericht die Kosten nach seinem Ermessen verteilen, zum Beispiel je zur Hälfte, unabhängig davon, wer mehr erreicht hat. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen. Dann müssen Sie keinen Vorschuss und keine Gerichtskosten bezahlen, und das Gericht kann Ihnen wenn nötig eine Anwältin oder einen Anwalt bestellen. Eine allfällige Entschädigung an die Gegenseite deckt sie nicht.",
+        "fr": "Pour la procédure de protection de l'union conjugale, le tribunal perçoit des frais judiciaires. Leur montant est fixé par le tarif de votre canton. Le tribunal peut exiger une avance de frais, mais dans cette procédure au maximum la moitié des frais judiciaires prévisibles. Dans les procédures de droit de la famille, le tribunal peut répartir les frais selon son appréciation, par exemple par moitié, indépendamment de qui a obtenu le plus gain de cause. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire. Vous n'aurez alors ni avance ni frais judiciaires à payer, et le tribunal pourra, si nécessaire, vous désigner une avocate ou un avocat. Elle ne couvre pas une éventuelle indemnité due à la partie adverse.",
+        "it": "Per la procedura di protezione dell'unione coniugale il giudice riscuote spese giudiziarie. Il loro importo è stabilito dalla tariffa del suo Cantone. Il giudice può esigere un anticipo delle spese, ma in questa procedura al massimo la metà delle spese giudiziarie presumibili. Nelle procedure di diritto di famiglia il giudice può ripartire le spese secondo il proprio apprezzamento, per esempio a metà ciascuno, indipendentemente da chi abbia ottenuto di più. Se le mancano i mezzi e la sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio. In tal caso non deve pagare né anticipo né spese giudiziarie, e il giudice può, se necessario, designarle un'avvocata o un avvocato. Il gratuito patrocinio non copre invece un'eventuale indennità dovuta alla controparte.",
+        "rm": "Per la procedura da protecziun da la cuminanza conjugala drizza la dretgira custs giudizials. Quant auts ch'els èn, determinescha il tarif da Voss chantun. La dretgira po pretender in'avanza da custs, en questa procedura dentant maximalmain la mesadad dals custs giudizials previsibels. En proceduras dal dretg da famiglia po la dretgira repartir ils custs tenor ses appreziament, per exempel mez per mez, independentamain da tgi ch'ha reussì dapli. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita. Lura na stuais Vus pajar nagina avanza e nagins custs giudizials, e la dretgira po As designar, sche necessari, in'advocata u in advocat. Ina eventuala indemnisaziun a la cuntrapart na cuvra ella betg.",
+        "en": "The court charges court costs for proceedings on protective measures for the marital union. How much they are is set by your canton's tariff. The court can require an advance on costs, but in these proceedings at most half of the expected court costs. In family law proceedings, the court can allocate the costs at its discretion, for example half each, regardless of who achieved more. If you lack the means and your position is not hopeless, you can apply for legal aid. You then do not have to pay an advance or court costs, and the court can appoint you a lawyer if necessary. Legal aid does not cover any compensation payable to the other side."
       },
       "sources": [
         "zpo-95",
@@ -620,14 +860,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Sie sich über Unterhalt, Wohnung oder Kinder nicht einigen können, wenn Ihr Ehepartner Einkommen oder Vermögen verschweigt, wenn einer von Ihnen selbständig erwerbend ist, wenn Liegenschaften, grössere Vermögen oder Schulden im Spiel sind, wenn ein Umzug mit den Kindern oder ein Wegzug ins Ausland zur Diskussion steht, oder wenn Sie einen Entscheid erhalten haben und ihn anfechten wollen. Wegen der kurzen Fristen sollten Sie dann nicht warten."
+        "de": "Holen Sie persönliche Beratung, wenn Sie sich über Unterhalt, Wohnung oder Kinder nicht einigen können, wenn Ihr Ehepartner Einkommen oder Vermögen verschweigt, wenn einer von Ihnen selbständig erwerbend ist, wenn Liegenschaften, grössere Vermögen oder Schulden im Spiel sind, wenn ein Umzug mit den Kindern oder ein Wegzug ins Ausland zur Diskussion steht, oder wenn Sie einen Entscheid erhalten haben und ihn anfechten wollen. Wegen der kurzen Fristen sollten Sie dann nicht warten.",
+        "fr": "Demandez un conseil personnalisé si vous n'arrivez pas à vous entendre sur l'entretien, le logement ou les enfants, si votre conjoint dissimule des revenus ou une fortune, si l'un de vous est indépendant, si des immeubles, une fortune importante ou des dettes sont en jeu, si un déménagement avec les enfants ou un départ à l'étranger est envisagé, ou si vous avez reçu une décision que vous voulez contester. En raison des délais courts, n'attendez pas dans ce cas.",
+        "it": "Si faccia consigliare personalmente se non riuscite ad accordarvi su mantenimento, abitazione o figli, se il suo coniuge nasconde reddito o sostanza, se uno di voi esercita un'attività indipendente, se sono in gioco immobili, patrimoni importanti o debiti, se si discute di un trasloco con i figli o di un trasferimento all'estero, oppure se ha ricevuto una decisione e vuole impugnarla. Vista la brevità dei termini, in tal caso non dovrebbe aspettare.",
+        "rm": "Retschertgai consulaziun persunala, sche Vus na Vus metetas betg d'accord davart mantegniment, abitaziun u uffants, sche Voss consort zoppa entradas u facultad, sche in da Vus è independent, sche immobiglias, facultads pli grondas u debits èn en gieu, sche in trasloc cun ils uffants u ina partenza a l'exteriur è en discussiun, u sche Vus avais retschet ina decisiun e la vulais contestar. Pervia dals termins curts na duvrais Vus lura betg spetgar.",
+        "en": "Get personal advice if you cannot agree on maintenance, the home or the children, if your spouse is concealing income or assets, if one of you is self-employed, if property, larger assets or debts are involved, if a move with the children or moving abroad is under discussion, or if you have received a decision and want to challenge it. Because the deadlines are short, do not wait in that case."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Viele Gerichte informieren auf ihrer Website über das Eheschutzverfahren. Familien- und Paarberatungsstellen sowie Mediatorinnen und Mediatoren unterstützen Sie dabei, eine Einigung zu finden. Bei Gewalt beraten die Opferhilfe-Beratungsstellen kostenlos und vertraulich. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Viele Gerichte informieren auf ihrer Website über das Eheschutzverfahren. Familien- und Paarberatungsstellen sowie Mediatorinnen und Mediatoren unterstützen Sie dabei, eine Einigung zu finden. Bei Gewalt beraten die Opferhilfe-Beratungsstellen kostenlos und vertraulich. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : de nombreux tribunaux informent sur leur site internet sur la procédure de protection de l'union conjugale. Les centres de consultation familiale et conjugale ainsi que les médiatrices et médiateurs vous aident à trouver un accord. En cas de violence, les centres de consultation LAVI conseillent gratuitement et confidentiellement. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
+        "it": "Aiuto gratuito o a basso costo: molti tribunali informano sul loro sito web in merito alla procedura di protezione dell'unione coniugale. I consultori familiari e di coppia, così come le mediatrici e i mediatori, la aiutano a trovare un accordo. In caso di violenza, i consultori di aiuto alle vittime offrono consulenza gratuita e confidenziale. Molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita.",
+        "rm": "Agid gratuit u avantagius: Bleras dretgiras infurmeschan sin lur sit web davart la procedura da protecziun da la cuminanza conjugala. Postas da consulaziun per famiglias e per coppias sco er mediaturas e mediaturs As sustegnan a chattar in'entesa. En cas da violenza cusseglian las postas da consulaziun per victimas gratuitamain e confidenzialmain. Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita.",
+        "en": "Free or low-cost help: many courts provide information on their website about proceedings for protective measures for the marital union. Family and couples counselling centres and mediators support you in finding an agreement. In cases of violence, victim support centres advise free of charge and confidentially. Many cantons and bar associations offer free legal information."
       }
     }
   ],
@@ -1069,13 +1317,21 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz"
+        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz",
+        "fr": "ch.ch : Comment divorcer en Suisse",
+        "it": "ch.ch: Come divorziare in Svizzera",
+        "rm": "ch.ch: Co sa divorziar en la Svizra",
+        "en": "ch.ch: How to get divorced in Switzerland"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/scheidungsverfahren/"
     },
     {
       "label": {
-        "de": "EBG: Gewalt gegen Frauen und häusliche Gewalt"
+        "de": "EBG: Gewalt gegen Frauen und häusliche Gewalt",
+        "fr": "BFEG : Violence à l'égard des femmes et violence domestique",
+        "it": "UFU: La violenza contro le donne e la violenza domestica",
+        "rm": "EBG: Violenza cunter dunnas e violenza domestica",
+        "en": "FOGE: Violence against women and domestic violence"
       },
       "url": "https://www.ebg.admin.ch/de/gewalt-gegen-frauen-und-hausliche-gewalt"
     }

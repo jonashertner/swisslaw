@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich will mich scheiden lassen. Wie geht das?"
+    "de": "Ich will mich scheiden lassen. Wie geht das?",
+    "fr": "Je veux divorcer. Comment faire ?",
+    "it": "Voglio divorziare. Come si fa?",
+    "rm": "Jau vi divorziar. Co funcziuna quai?",
+    "en": "I want a divorce. How does it work?"
   },
   "summary": {
-    "de": "Eine Scheidung spricht in der Schweiz immer ein Gericht aus. Wollen Sie beide die Scheidung, reichen Sie gemeinsam ein Begehren ein, am besten mit einer Vereinbarung über alle Folgen. Will Ihr Ehepartner nicht, können Sie in der Regel erst klagen, wenn Sie seit mindestens zwei Jahren getrennt leben. Zu regeln sind vor allem die Kinder, der Unterhalt, die Pensionskasse, das Vermögen und die Wohnung. Das Gericht prüft jede Vereinbarung, bevor es sie genehmigt. Lassen Sie sich früh persönlich beraten."
+    "de": "Eine Scheidung spricht in der Schweiz immer ein Gericht aus. Wollen Sie beide die Scheidung, reichen Sie gemeinsam ein Begehren ein, am besten mit einer Vereinbarung über alle Folgen. Will Ihr Ehepartner nicht, können Sie in der Regel erst klagen, wenn Sie seit mindestens zwei Jahren getrennt leben. Zu regeln sind vor allem die Kinder, der Unterhalt, die Pensionskasse, das Vermögen und die Wohnung. Das Gericht prüft jede Vereinbarung, bevor es sie genehmigt. Lassen Sie sich früh persönlich beraten.",
+    "fr": "En Suisse, le divorce est toujours prononcé par un tribunal. Si vous voulez tous deux divorcer, déposez une requête commune, si possible avec une convention réglant toutes les conséquences. Si votre conjoint ne le veut pas, vous ne pouvez en règle générale agir en justice que si vous vivez séparés depuis deux ans au moins. Il faut surtout régler les enfants, l'entretien, la caisse de pension, la fortune et le logement. Le tribunal examine chaque convention avant de l'homologuer. Faites-vous conseiller personnellement tôt.",
+    "it": "In Svizzera il divorzio è sempre pronunciato da un giudice. Se lo volete entrambi, presentate insieme una richiesta, idealmente con una convenzione su tutte le conseguenze. Se il suo coniuge non vuole, può di regola agire in giudizio solo se vivete separati da almeno due anni. Da regolare sono soprattutto i figli, il mantenimento, la cassa pensioni, la sostanza e l'abitazione. Il giudice esamina ogni convenzione prima di approvarla. Si faccia consigliare personalmente per tempo.",
+    "rm": "In divorzi pronunzia en la Svizra adina ina dretgira. Vulais Vus tuts dus il divorzi, inoltrai ensemen ina dumonda, il meglier cun ina cunvegna davart tut las consequenzas. Na vul Voss consort betg, pudais Vus per regla mo plantar plant, sche Vus vivais separads dapi almain dus onns. Reglar sto Vus surtut ils uffants, il mantegniment, la cassa da pensiun, la facultad e l'abitaziun. La dretgira examinescha mintga cunvegna avant ch'ella l'approvia. Laschai Vus cussegliar persunalmain baud.",
+    "en": "In Switzerland, only a court can grant a divorce. If you both want the divorce, you file a joint request, ideally with an agreement covering all the consequences. If your spouse does not want it, you can generally only bring an action once you have been living apart for at least two years. What mainly needs to be arranged is the children, maintenance, the pension fund, assets and the home. The court examines every agreement before approving it. Get personal advice early on."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Ich wott mi la schaide, was muess ich mache?",
       "Muss ich nach der Scheidung meiner Frau Unterhalt zahlen?",
       "Wer darf nach der Scheidung in der Wohnung bleiben?"
+    ],
+    "fr": [
+      "Je veux divorcer, comment faire ?",
+      "Mon mari ne veut pas divorcer, que puis-je faire ?",
+      "Comment la caisse de pension est-elle partagée en cas de divorce ?",
+      "Je veux divorcer, qu'est-ce que je dois faire ?",
+      "Dois-je verser une pension à ma femme après le divorce ?",
+      "Qui peut rester dans le logement après le divorce ?"
+    ],
+    "it": [
+      "Voglio divorziare, come si fa?",
+      "Mio marito non vuole il divorzio, cosa posso fare?",
+      "Come viene divisa la cassa pensioni in caso di divorzio?",
+      "Voglio divorziare, cosa devo fare?",
+      "Dopo il divorzio devo pagare il mantenimento a mia moglie?",
+      "Chi può restare nell'abitazione dopo il divorzio?"
+    ],
+    "rm": [
+      "Jau vi divorziar, co funcziuna quai?",
+      "Mes um na vul betg il divorzi, tge poss jau far?",
+      "Co vegn la cassa da pensiun repartida tar in divorzi?",
+      "Jau vi divorziar, tge stoss jau intraprender?",
+      "Stoss jau pajar mantegniment a mia dunna suenter il divorzi?",
+      "Tgi dastga restar en l'abitaziun suenter il divorzi?"
+    ],
+    "en": [
+      "I want a divorce, how does it work?",
+      "My husband doesn't want a divorce, what can I do?",
+      "How is the pension fund split in a divorce?",
+      "I want to get divorced, what do I need to do?",
+      "Do I have to pay my wife maintenance after the divorce?",
+      "Who gets to keep the flat after a divorce?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Grundzüge der Scheidung einer Ehe in der Schweiz: die Scheidungsgründe, was geregelt werden muss (Kinder, Unterhalt, Pensionskasse, Güterrecht, Familienwohnung), das Verfahren vor Gericht und die Prüfung der Scheidungsvereinbarung durch das Gericht."
+      "de": "Die Grundzüge der Scheidung einer Ehe in der Schweiz: die Scheidungsgründe, was geregelt werden muss (Kinder, Unterhalt, Pensionskasse, Güterrecht, Familienwohnung), das Verfahren vor Gericht und die Prüfung der Scheidungsvereinbarung durch das Gericht.",
+      "fr": "Les grandes lignes du divorce en Suisse : les causes de divorce, ce qui doit être réglé (enfants, entretien, caisse de pension, régime matrimonial, logement de la famille), la procédure devant le tribunal et l'examen de la convention de divorce par le tribunal.",
+      "it": "Le linee fondamentali del divorzio di un matrimonio in Svizzera: le cause di divorzio, ciò che deve essere regolato (figli, mantenimento, cassa pensioni, regime dei beni, abitazione familiare), la procedura davanti al giudice e l'esame della convenzione di divorzio da parte del giudice.",
+      "rm": "Ils elements fundamentals dal divorzi d'ina lètg en la Svizra: ils motivs da divorzi, tge che sto vegnir reglà (uffants, mantegniment, cassa da pensiun, dretg dals bains, abitaziun da la famiglia), la procedura avant dretgira e l'examinaziun da la cunvegna da divorzi tras la dretgira.",
+      "en": "The basics of divorcing a marriage in Switzerland: the grounds for divorce, what must be arranged (children, maintenance, the pension fund, marital property, the family home), the court procedure, and the court's review of the divorce agreement."
     },
     "excludes": {
-      "de": "Die Einzelheiten zu elterlicher Sorge, Obhut, Betreuung und Kindesunterhalt (dafür gibt es eigene Anleitungen), die genaue Berechnung von Unterhalt und Güterrecht, die gerichtliche Trennung ohne Scheidung, die Auflösung einer eingetragenen Partnerschaft sowie Scheidungen mit Bezug zum Ausland."
+      "de": "Die Einzelheiten zu elterlicher Sorge, Obhut, Betreuung und Kindesunterhalt (dafür gibt es eigene Anleitungen), die genaue Berechnung von Unterhalt und Güterrecht, die gerichtliche Trennung ohne Scheidung, die Auflösung einer eingetragenen Partnerschaft sowie Scheidungen mit Bezug zum Ausland.",
+      "fr": "Les détails relatifs à l'autorité parentale, à la garde, à la prise en charge et à l'entretien de l'enfant (des guides séparés y sont consacrés), le calcul exact de l'entretien et du régime matrimonial, la séparation judiciaire sans divorce, la dissolution d'un partenariat enregistré ainsi que les divorces avec un lien avec l'étranger.",
+      "it": "I dettagli su autorità parentale, custodia, cura e mantenimento del figlio (per questi esistono guide proprie), il calcolo esatto del mantenimento e del regime dei beni, la separazione giudiziale senza divorzio, lo scioglimento di un'unione domestica registrata, nonché i divorzi con un legame con l'estero.",
+      "rm": "Ils detagls davart la tgira genituriala, la surveglianza, la tgira e il mantegniment da l'uffant (per quai datti agens manuals), la calculaziun exacta dal mantegniment e dal dretg dals bains, la separaziun giudiziala senza divorzi, la schliaziun d'in partenadi registrà sco er divorzis cun connex a l'exteriur.",
+      "en": "The details of parental responsibility, day-to-day care, care arrangements and child maintenance (there are separate guides for these), the precise calculation of maintenance and marital property, judicial separation without divorce, the dissolution of a registered partnership, and divorces with a connection to another country."
     }
   },
   "facts": [
     {
       "key": "both_want",
       "question": {
-        "de": "Will Ihre Ehefrau oder Ihr Ehemann die Scheidung auch?"
+        "de": "Will Ihre Ehefrau oder Ihr Ehemann die Scheidung auch?",
+        "fr": "Votre conjoint souhaite-t-il, lui aussi, divorcer ?",
+        "it": "Anche sua moglie o suo marito vuole il divorzio?",
+        "rm": "Vul era Vossa consorta u Voss consort il divorzi?",
+        "en": "Does your wife or husband want the divorce too?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, wir wollen uns beide scheiden lassen"
+            "de": "Ja, wir wollen uns beide scheiden lassen",
+            "fr": "Oui, nous voulons tous deux divorcer",
+            "it": "Sì, vogliamo divorziare entrambi",
+            "rm": "Gea, nus vulain tuts dus divorziar",
+            "en": "Yes, we both want to get divorced"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, sie oder er ist dagegen"
+            "de": "Nein, sie oder er ist dagegen",
+            "fr": "Non, il ou elle est contre",
+            "it": "No, non è d'accordo",
+            "rm": "Na, ella u el è cunter",
+            "en": "No, they are against it"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -59,31 +123,51 @@
     {
       "key": "consequences_agreed",
       "question": {
-        "de": "Sind Sie sich über die Folgen der Scheidung einig, etwa über Kinder, Geld und Wohnung?"
+        "de": "Sind Sie sich über die Folgen der Scheidung einig, etwa über Kinder, Geld und Wohnung?",
+        "fr": "Êtes-vous d'accord sur les conséquences du divorce, par exemple sur les enfants, l'argent et le logement ?",
+        "it": "Siete d'accordo sulle conseguenze del divorzio, per esempio su figli, denaro e abitazione?",
+        "rm": "Essas Vus d'accord davart las consequenzas dal divorzi, per exempel davart uffants, daners ed abitaziun?",
+        "en": "Do you agree on the consequences of the divorce, for example on the children, money and the home?"
       },
       "options": [
         {
           "value": "all",
           "label": {
-            "de": "Ja, über alles"
+            "de": "Ja, über alles",
+            "fr": "Oui, sur tout",
+            "it": "Sì, su tutto",
+            "rm": "Gea, davart tut",
+            "en": "Yes, on everything"
           }
         },
         {
           "value": "partly",
           "label": {
-            "de": "Nur über einen Teil"
+            "de": "Nur über einen Teil",
+            "fr": "Seulement en partie",
+            "it": "Solo in parte",
+            "rm": "Mo davart ina part",
+            "en": "Only on some of it"
           }
         },
         {
           "value": "none",
           "label": {
-            "de": "Nein, über nichts"
+            "de": "Nein, über nichts",
+            "fr": "Non, sur rien",
+            "it": "No, su niente",
+            "rm": "Na, davart nagut",
+            "en": "No, on nothing"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -91,31 +175,51 @@
     {
       "key": "separated",
       "question": {
-        "de": "Leben Sie bereits getrennt, und seit wann?"
+        "de": "Leben Sie bereits getrennt, und seit wann?",
+        "fr": "Vivez-vous déjà séparés, et depuis quand ?",
+        "it": "Vivete già separati, e da quando?",
+        "rm": "Vivais Vus gia separads, e dapi cura?",
+        "en": "Are you already living apart, and since when?"
       },
       "options": [
         {
           "value": "not-separated",
           "label": {
-            "de": "Nein, wir wohnen noch zusammen"
+            "de": "Nein, wir wohnen noch zusammen",
+            "fr": "Non, nous habitons encore ensemble",
+            "it": "No, viviamo ancora insieme",
+            "rm": "Na, nus vivain anc ensemen",
+            "en": "No, we still live together"
           }
         },
         {
           "value": "under-two-years",
           "label": {
-            "de": "Ja, seit weniger als zwei Jahren"
+            "de": "Ja, seit weniger als zwei Jahren",
+            "fr": "Oui, depuis moins de deux ans",
+            "it": "Sì, da meno di due anni",
+            "rm": "Gea, dapi damain che dus onns",
+            "en": "Yes, for less than two years"
           }
         },
         {
           "value": "two-years-plus",
           "label": {
-            "de": "Ja, seit zwei Jahren oder länger"
+            "de": "Ja, seit zwei Jahren oder länger",
+            "fr": "Oui, depuis deux ans ou plus",
+            "it": "Sì, da due anni o più",
+            "rm": "Gea, dapi dus onns u pli ditg",
+            "en": "Yes, for two years or more"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht genau"
+            "de": "Ich weiss es nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con esattezza",
+            "rm": "Jau na sai betg exactamain",
+            "en": "I'm not exactly sure"
           }
         }
       ]
@@ -123,25 +227,41 @@
     {
       "key": "children",
       "question": {
-        "de": "Haben Sie gemeinsame Kinder unter 18 Jahren?"
+        "de": "Haben Sie gemeinsame Kinder unter 18 Jahren?",
+        "fr": "Avez-vous des enfants communs de moins de 18 ans ?",
+        "it": "Avete figli in comune di età inferiore a 18 anni?",
+        "rm": "Avais Vus uffants cuminaivels sut 18 onns?",
+        "en": "Do you have joint children under 18?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -149,25 +269,41 @@
     {
       "key": "work_split",
       "question": {
-        "de": "Wie haben Sie die Arbeit während der Ehe aufgeteilt?"
+        "de": "Wie haben Sie die Arbeit während der Ehe aufgeteilt?",
+        "fr": "Comment avez-vous réparti le travail pendant le mariage ?",
+        "it": "Come avete ripartito il lavoro durante il matrimonio?",
+        "rm": "Co avais Vus repartì la lavur durant la lètg?",
+        "en": "How did you split work during the marriage?"
       },
       "options": [
         {
           "value": "one-at-home",
           "label": {
-            "de": "Eine Person hat ganz oder grösstenteils für Haushalt und Kinder gesorgt"
+            "de": "Eine Person hat ganz oder grösstenteils für Haushalt und Kinder gesorgt",
+            "fr": "Une personne s'est occupée entièrement ou en grande partie du ménage et des enfants",
+            "it": "Una persona si è occupata interamente o prevalentemente della casa e dei figli",
+            "rm": "Ina persuna ha procurà entiramain u per gronda part per la chasada ed ils uffants",
+            "en": "One person took care of the household and children wholly or mostly"
           }
         },
         {
           "value": "both-working",
           "label": {
-            "de": "Wir waren beide etwa gleich erwerbstätig"
+            "de": "Wir waren beide etwa gleich erwerbstätig",
+            "fr": "Nous exercions tous deux une activité lucrative à peu près équivalente",
+            "it": "Eravamo entrambi occupati più o meno allo stesso modo",
+            "rm": "Nus essan stads tuts dus bain il medem grad activs professiunalmain",
+            "en": "We were both in paid work to roughly the same extent"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -175,25 +311,41 @@
     {
       "key": "home",
       "question": {
-        "de": "Ist Ihre Familienwohnung gemietet oder gehört sie Ihnen?"
+        "de": "Ist Ihre Familienwohnung gemietet oder gehört sie Ihnen?",
+        "fr": "Votre logement de famille est-il loué, ou vous appartient-il ?",
+        "it": "La vostra abitazione familiare è in locazione o vi appartiene?",
+        "rm": "È Vossa abitaziun da la famiglia lozada u tutga ella a Vus?",
+        "en": "Is your family home rented, or does it belong to you?"
       },
       "options": [
         {
           "value": "rented",
           "label": {
-            "de": "Gemietet"
+            "de": "Gemietet",
+            "fr": "Loué",
+            "it": "In locazione",
+            "rm": "Lozada",
+            "en": "Rented"
           }
         },
         {
           "value": "owned",
           "label": {
-            "de": "Sie gehört uns oder einem von uns"
+            "de": "Sie gehört uns oder einem von uns",
+            "fr": "Il nous appartient, ou appartient à l'un de nous",
+            "it": "Appartiene a noi o a uno di noi",
+            "rm": "Ella tutga a nus u ad in da nus",
+            "en": "It belongs to us or to one of us"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -201,25 +353,41 @@
     {
       "key": "pension",
       "question": {
-        "de": "Bezieht einer von Ihnen bereits eine Altersrente oder eine Invalidenrente der Pensionskasse?"
+        "de": "Bezieht einer von Ihnen bereits eine Altersrente oder eine Invalidenrente der Pensionskasse?",
+        "fr": "L'un de vous perçoit-il déjà une rente de vieillesse ou une rente d'invalidité de la caisse de pension ?",
+        "it": "Uno di voi percepisce già una rendita di vecchiaia o una rendita d'invalidità della cassa pensioni?",
+        "rm": "Retscheiva in da Vus gia ina renta da vegliadetgna u ina renta d'invaliditad da la cassa da pensiun?",
+        "en": "Is either of you already receiving an old-age pension or a disability pension from the pension fund?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -230,14 +398,22 @@
       "id": "advice-first",
       "kind": "escalate",
       "text": {
-        "de": "Eine Scheidung hat grosse und oft dauerhafte Folgen für Ihr Einkommen, Ihre Altersvorsorge, Ihre Wohnung und Ihre Kinder. Holen Sie sich deshalb persönliche Beratung, bevor Sie etwas unterschreiben oder beim Gericht einreichen. Diese Anleitung erklärt nur die Grundzüge."
+        "de": "Eine Scheidung hat grosse und oft dauerhafte Folgen für Ihr Einkommen, Ihre Altersvorsorge, Ihre Wohnung und Ihre Kinder. Holen Sie sich deshalb persönliche Beratung, bevor Sie etwas unterschreiben oder beim Gericht einreichen. Diese Anleitung erklärt nur die Grundzüge.",
+        "fr": "Un divorce a des conséquences importantes et souvent durables sur votre revenu, votre prévoyance vieillesse, votre logement et vos enfants. Faites-vous donc conseiller personnellement avant de signer quoi que ce soit ou de déposer une demande au tribunal. Ce guide n'explique que les grandes lignes.",
+        "it": "Un divorzio ha conseguenze rilevanti e spesso durature per il suo reddito, la sua previdenza per la vecchiaia, la sua abitazione e i suoi figli. Si faccia quindi consigliare personalmente prima di firmare qualcosa o di presentare un'istanza al giudice. Questa guida spiega solo le linee fondamentali.",
+        "rm": "In divorzi ha consequenzas grondas e savens durablas per Vossas entradas, Vossa provediment da vegliadetgna, Vossa abitaziun e Vossas uffants. Retschertgai percunquai consulaziun persunala, avant che Vus suttascrivais insatge u inoltrais insatge a la dretgira. Quest manual explitgescha mo ils elements fundamentals.",
+        "en": "A divorce has major and often lasting consequences for your income, your retirement provision, your home and your children. So get personal advice before you sign anything or file anything with the court. This guide only explains the basics."
       }
     },
     {
       "id": "three-ways",
       "kind": "rule",
       "text": {
-        "de": "Es gibt drei Wege zur Scheidung. Erstens: Sie beantragen die Scheidung gemeinsam, mit einer Einigung über alle Folgen oder nur über einen Teil davon. Zweitens: Einer von Ihnen klagt allein, nachdem Sie mindestens zwei Jahre getrennt gelebt haben. Drittens: Einer von Ihnen klagt schon früher, weil ihm die Ehe aus schwerwiegenden Gründen, für die er nicht selbst verantwortlich ist, nicht mehr zugemutet werden kann. Nach Schuld wird ausser beim dritten Weg nicht gefragt."
+        "de": "Es gibt drei Wege zur Scheidung. Erstens: Sie beantragen die Scheidung gemeinsam, mit einer Einigung über alle Folgen oder nur über einen Teil davon. Zweitens: Einer von Ihnen klagt allein, nachdem Sie mindestens zwei Jahre getrennt gelebt haben. Drittens: Einer von Ihnen klagt schon früher, weil ihm die Ehe aus schwerwiegenden Gründen, für die er nicht selbst verantwortlich ist, nicht mehr zugemutet werden kann. Nach Schuld wird ausser beim dritten Weg nicht gefragt.",
+        "fr": "Il existe trois voies vers le divorce. Premièrement : vous demandez le divorce ensemble, avec un accord sur toutes les conséquences ou seulement sur une partie d'entre elles. Deuxièmement : l'un de vous agit seul en justice, après que vous avez vécu séparés pendant deux ans au moins. Troisièmement : l'un de vous agit déjà plus tôt, parce que la continuation du mariage ne peut plus être raisonnablement exigée de lui pour des motifs sérieux dont il n'est pas lui-même responsable. Sauf dans la troisième voie, la question de la faute ne se pose pas.",
+        "it": "Ci sono tre vie per il divorzio. Primo: chiedete il divorzio insieme, con un accordo su tutte le conseguenze o solo su una parte di esse. Secondo: uno di voi agisce in giudizio da solo, dopo che avete vissuto separati per almeno due anni. Terzo: uno di voi agisce in giudizio già prima, perché per gravi motivi di cui non è responsabile non gli si può più ragionevolmente esigere la continuazione del matrimonio. Della colpa non si tiene conto, salvo che nella terza via.",
+        "rm": "Datti trais vias per il divorzi. Emprim: Vus pretendais il divorzi ensemen, cun in'entesa davart tut las consequenzas u mo davart ina part da quellas. Segund: In da Vus plantescha plant sulet, suenter che Vus avais vivì separads durant almain dus onns. Terz: In da Vus plantescha gia pli baud plant, perquai ch'a questa persuna na po pli vegnir pretendì da persister en la lètg per motivs greivs, per ils quals ella n'è betg sezza responsabla. Suenter culpa na vegn dumandà, ordaifer tar la terza via.",
+        "en": "There are three routes to divorce. First: you jointly request the divorce, with an agreement covering all the consequences or only some of them. Second: one of you brings an action alone, after you have lived apart for at least two years. Third: one of you brings an action earlier, because serious reasons for which they are not themselves responsible mean the marriage can no longer reasonably be expected of them. Except on the third route, fault is not in question."
       },
       "sources": [
         "zgb-111",
@@ -250,7 +426,11 @@
       "id": "where-to-file",
       "kind": "step",
       "text": {
-        "de": "Sie reichen das gemeinsame Scheidungsbegehren oder die Scheidungsklage direkt beim Gericht ein, zuständig ist das Gericht am Wohnsitz von Ihnen oder Ihrem Ehepartner. Einen vorherigen Schlichtungsversuch gibt es bei der Scheidung nicht. Welches Gericht das genau ist und welche Formulare es gibt, regelt jeder Kanton selbst. Die Gerichte Ihres Wohnkantons informieren darüber auf ihrer Website."
+        "de": "Sie reichen das gemeinsame Scheidungsbegehren oder die Scheidungsklage direkt beim Gericht ein, zuständig ist das Gericht am Wohnsitz von Ihnen oder Ihrem Ehepartner. Einen vorherigen Schlichtungsversuch gibt es bei der Scheidung nicht. Welches Gericht das genau ist und welche Formulare es gibt, regelt jeder Kanton selbst. Die Gerichte Ihres Wohnkantons informieren darüber auf ihrer Website.",
+        "fr": "Vous déposez la requête commune en divorce ou la demande unilatérale en divorce directement auprès du tribunal ; le tribunal compétent est celui de votre domicile ou de celui de votre conjoint. Il n'y a pas de tentative de conciliation préalable en matière de divorce. Chaque canton détermine lui-même quel tribunal est exactement compétent et quels formulaires existent. Les tribunaux de votre canton de domicile en informent sur leur site internet.",
+        "it": "Presentate la richiesta comune di divorzio o l'azione di divorzio direttamente al giudice; è competente il giudice del domicilio suo o del suo coniuge. Per il divorzio non è previsto un previo tentativo di conciliazione. Quale sia esattamente questo giudice e quali moduli esistano lo stabilisce ogni Cantone. I tribunali del suo Cantone di domicilio ne informano sul loro sito web.",
+        "rm": "Vus inoltrais la dumonda cuminaivla da divorzi u la plant da divorzi directamain a la dretgira; cumpetenta è la dretgira da Voss domicil u da quel da Voss consort. In'emprova da mediaziun previa n'exista betg tar il divorzi. Tge dretgira che è exactamain quai e tge formulars che datti, regla mintga chantun sez. Las dretgiras da Voss chantun da domicil infurmeschan davart quai sin lur sit web.",
+        "en": "You file the joint request for divorce or the action for divorce directly with the court; the court at your place of residence or your spouse's has jurisdiction. There is no prior conciliation attempt for a divorce. Which court this is exactly, and what forms exist, is decided by each canton itself. The courts of your canton of residence provide information about this on their website."
       },
       "sources": [
         "zpo-23",
@@ -272,7 +452,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie sich über alles einig, reichen Sie gemeinsam ein: das Scheidungsbegehren, eine vollständige, datierte und von Ihnen beiden unterschriebene Vereinbarung über die Folgen der Scheidung, gemeinsame Anträge zu den Kindern und die nötigen Belege. Ist die Eingabe vollständig, lädt das Gericht Sie zu einer Anhörung ein. Es spricht mit jedem von Ihnen allein und mit Ihnen beiden zusammen, manchmal in mehreren Sitzungen. Ist das Gericht überzeugt, dass Sie die Scheidung und die Vereinbarung frei und gut überlegt wollen, und kann es die Vereinbarung genehmigen, spricht es die Scheidung aus."
+        "de": "Sind Sie sich über alles einig, reichen Sie gemeinsam ein: das Scheidungsbegehren, eine vollständige, datierte und von Ihnen beiden unterschriebene Vereinbarung über die Folgen der Scheidung, gemeinsame Anträge zu den Kindern und die nötigen Belege. Ist die Eingabe vollständig, lädt das Gericht Sie zu einer Anhörung ein. Es spricht mit jedem von Ihnen allein und mit Ihnen beiden zusammen, manchmal in mehreren Sitzungen. Ist das Gericht überzeugt, dass Sie die Scheidung und die Vereinbarung frei und gut überlegt wollen, und kann es die Vereinbarung genehmigen, spricht es die Scheidung aus.",
+        "fr": "Si vous êtes d'accord sur tout, déposez ensemble : la requête en divorce, une convention complète, datée et signée par vous deux sur les conséquences du divorce, des conclusions communes relatives aux enfants et les pièces nécessaires. Si la requête est complète, le tribunal vous convoque à une audition. Il s'entretient avec chacun de vous séparément et avec vous deux ensemble, parfois en plusieurs séances. S'il est convaincu que vous voulez le divorce et la convention librement et après mûre réflexion, et s'il peut homologuer la convention, il prononce le divorce.",
+        "it": "Se siete d'accordo su tutto, presentate insieme: la richiesta di divorzio, una convenzione completa, datata e firmata da entrambi sulle conseguenze del divorzio, le richieste comuni riguardanti i figli e i documenti necessari. Se l'istanza è completa, il giudice vi convoca a un'udienza. Parla con ciascuno di voi da solo e con entrambi insieme, talvolta in più sedute. Se il giudice è convinto che vogliate il divorzio e la convenzione liberamente e dopo matura riflessione, e può approvare la convenzione, pronuncia il divorzio.",
+        "rm": "Essas Vus d'accord davart tut, inoltrai ensemen: la dumonda da divorzi, ina cunvegna cumpletta, datada e suttascritta da Vus tuts dus davart las consequenzas dal divorzi, dumondas cuminaivlas davart ils uffants e las cumprovas necessarias. Sche l'inoltraziun è cumpletta, envida la dretgira Vus ad in'udida. Ella discurra cun mintga da Vus sulet e cun Vus tuts dus ensemen, a moda part en pliras sesidas. Sch'ella è persvadida che Vus vulais il divorzi e la cunvegna da libra voluntad e suenter madira reflexiun, e sch'ella po approvar la cunvegna, pronunzia ella il divorzi.",
+        "en": "If you agree on everything, you file jointly: the request for divorce, a complete agreement on the consequences of the divorce, dated and signed by both of you, joint requests concerning the children, and the necessary evidence. If the filing is complete, the court invites you to a hearing. It speaks with each of you alone and with both of you together, sometimes over several sessions. If the court is satisfied that you want the divorce and the agreement freely and after careful thought, and it can approve the agreement, it grants the divorce."
       },
       "sources": [
         "zgb-111",
@@ -296,7 +480,11 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie beide die Scheidung, sind sich aber über einzelne oder alle Folgen nicht einig, können Sie trotzdem gemeinsam die Scheidung verlangen. Sie beantragen dann, dass das Gericht die umstrittenen Punkte entscheidet, und jeder von Ihnen kann dazu begründete Anträge stellen. Nach der Anhörung wird über die offenen Punkte wie in einem Prozess zwischen zwei Parteien weiter verhandelt, im vereinfachten Verfahren. Das dauert meist länger und kostet mehr als eine vollständige Einigung."
+        "de": "Wollen Sie beide die Scheidung, sind sich aber über einzelne oder alle Folgen nicht einig, können Sie trotzdem gemeinsam die Scheidung verlangen. Sie beantragen dann, dass das Gericht die umstrittenen Punkte entscheidet, und jeder von Ihnen kann dazu begründete Anträge stellen. Nach der Anhörung wird über die offenen Punkte wie in einem Prozess zwischen zwei Parteien weiter verhandelt, im vereinfachten Verfahren. Das dauert meist länger und kostet mehr als eine vollständige Einigung.",
+        "fr": "Si vous voulez tous deux divorcer, mais que vous n'êtes pas d'accord sur certaines conséquences, voire sur toutes, vous pouvez tout de même demander le divorce ensemble. Vous demandez alors que le tribunal statue sur les points litigieux, et chacun de vous peut présenter des conclusions motivées à ce sujet. Après l'audition, les points encore ouverts sont débattus comme dans un procès entre deux parties, selon la procédure simplifiée. Cela dure en général plus longtemps et coûte plus cher qu'un accord complet.",
+        "it": "Se volete entrambi il divorzio, ma non siete d'accordo su singole conseguenze o su tutte, potete comunque chiedere insieme il divorzio. Chiedete allora che il giudice decida sui punti controversi, e ciascuno di voi può presentare al riguardo richieste motivate. Dopo l'udienza, sui punti aperti si prosegue come in un processo tra due parti, nella procedura semplificata. Questo dura di regola più a lungo e costa di più di un accordo completo.",
+        "rm": "Vulais Vus tuts dus il divorzi, na essas dentant betg d'accord davart singuls u davart tuts ils puncts, pudais Vus tuttina pretender il divorzi ensemen. Vus pretendais lura che la dretgira decida ils puncts litigius, e mintga da Vus po far per quai dumondas motivadas. Suenter l'udida vegn negozià vinavant davart ils puncts averts sco en in process tranter duas parts, en la procedura simplifitgada. Quai dura per regla pli ditg e custa dapli ch'in'entesa cumpletta.",
+        "en": "If you both want the divorce but do not agree on some or all of the consequences, you can still jointly request the divorce. You then ask the court to decide the disputed points, and each of you can make reasoned requests on them. After the hearing, the open points are argued further as in proceedings between two parties, under the simplified procedure. This usually takes longer and costs more than a complete agreement."
       },
       "sources": [
         "zgb-112",
@@ -314,7 +502,11 @@
         ]
       },
       "text": {
-        "de": "Zieht einer von Ihnen seine Zustimmung zur Scheidung zurück oder sind die Voraussetzungen für eine Scheidung auf gemeinsames Begehren sonst nicht erfüllt, weist das Gericht das gemeinsame Begehren ab. Es gibt dann jedem von Ihnen eine Frist, um eine Scheidungsklage einzureichen. Während dieser Frist bleibt das Verfahren hängig und vorsorgliche Massnahmen, etwa zum Unterhalt, gelten weiter. Beachten Sie die Frist, die das Gericht in seinem Entscheid nennt."
+        "de": "Zieht einer von Ihnen seine Zustimmung zur Scheidung zurück oder sind die Voraussetzungen für eine Scheidung auf gemeinsames Begehren sonst nicht erfüllt, weist das Gericht das gemeinsame Begehren ab. Es gibt dann jedem von Ihnen eine Frist, um eine Scheidungsklage einzureichen. Während dieser Frist bleibt das Verfahren hängig und vorsorgliche Massnahmen, etwa zum Unterhalt, gelten weiter. Beachten Sie die Frist, die das Gericht in seinem Entscheid nennt.",
+        "fr": "Si l'un de vous retire son accord au divorce ou si les conditions du divorce sur requête commune ne sont pas remplies pour une autre raison, le tribunal rejette la requête commune. Il impartit alors à chacun de vous un délai pour déposer une demande unilatérale en divorce. Pendant ce délai, la procédure reste pendante et les mesures provisionnelles, par exemple sur l'entretien, continuent de s'appliquer. Respectez le délai indiqué par le tribunal dans sa décision.",
+        "it": "Se uno di voi ritira il proprio consenso al divorzio, o se i presupposti per un divorzio su richiesta comune non sono altrimenti adempiuti, il giudice respinge la richiesta comune. Fissa allora a ciascuno di voi un termine per presentare un'azione di divorzio. Durante questo termine la procedura resta pendente e i provvedimenti cautelari, per esempio sul mantenimento, restano applicabili. Osservi il termine indicato dal giudice nella sua decisione.",
+        "rm": "Sche in da Vus retira ses consentiment al divorzi u sche las premissas per in divorzi sin dumonda cuminaivla n'èn autramain betg ademplidas, refusa la dretgira la dumonda cuminaivla. Ella dat lura ad mintga da Vus in termin per inoltrar ina plant da divorzi. Durant quest termin resta la procedura pendenta e mesiras provisionalas, per exempel per il mantegniment, valan vinavant. Resguardai il termin che la dretgira numna en sia decisiun.",
+        "en": "If one of you withdraws consent to the divorce, or the requirements for a divorce on joint request are otherwise not met, the court dismisses the joint request. It then gives each of you a deadline to file an action for divorce. During this deadline, the proceedings remain pending and provisional measures, for example on maintenance, continue to apply. Note the deadline stated by the court in its decision."
       },
       "sources": [
         "zpo-288"
@@ -324,7 +516,11 @@
       "id": "court-checks-agreement",
       "kind": "rule",
       "text": {
-        "de": "Eine Scheidungsvereinbarung gilt erst, wenn das Gericht sie genehmigt hat. Das Gericht genehmigt sie nur, wenn Sie beide sie freiwillig und gut überlegt abgeschlossen haben und wenn sie klar, vollständig und nicht offensichtlich unangemessen ist. Offensichtlich unangemessen ist eine Vereinbarung, die auf den ersten Blick und krass von dem abweicht, was das Gericht ohne Vereinbarung entscheiden würde, ohne dass es dafür einen fairen Grund gibt. So soll verhindert werden, dass ein Ehegatte übervorteilt wird. Was Sie über die Kinder vereinbaren, gilt nur als gemeinsamer Antrag: Das Gericht berücksichtigt ihn, entscheidet aber selbst und nach dem Wohl des Kindes."
+        "de": "Eine Scheidungsvereinbarung gilt erst, wenn das Gericht sie genehmigt hat. Das Gericht genehmigt sie nur, wenn Sie beide sie freiwillig und gut überlegt abgeschlossen haben und wenn sie klar, vollständig und nicht offensichtlich unangemessen ist. Offensichtlich unangemessen ist eine Vereinbarung, die auf den ersten Blick und krass von dem abweicht, was das Gericht ohne Vereinbarung entscheiden würde, ohne dass es dafür einen fairen Grund gibt. So soll verhindert werden, dass ein Ehegatte übervorteilt wird. Was Sie über die Kinder vereinbaren, gilt nur als gemeinsamer Antrag: Das Gericht berücksichtigt ihn, entscheidet aber selbst und nach dem Wohl des Kindes.",
+        "fr": "Une convention de divorce n'est valable qu'une fois homologuée par le tribunal. Le tribunal ne l'homologue que si vous l'avez conclue tous deux librement et après mûre réflexion, et si elle est claire, complète et pas manifestement inéquitable. Est manifestement inéquitable une convention qui s'écarte, à première vue et de façon flagrante, de ce que le tribunal déciderait en l'absence de convention, sans qu'il existe de motif équitable à cela. Cela doit empêcher qu'un époux soit désavantagé. Ce que vous convenez au sujet des enfants ne vaut que comme requête commune : le tribunal en tient compte, mais statue lui-même selon le bien de l'enfant.",
+        "it": "Una convenzione di divorzio vale solo quando il giudice l'ha approvata. Il giudice la approva solo se entrambi l'avete conclusa liberamente e dopo matura riflessione, e se è chiara, completa e non manifestamente inadeguata. È manifestamente inadeguata una convenzione che, a prima vista e in modo marcato, si discosta da ciò che il giudice deciderebbe senza convenzione, senza che vi sia per questo un motivo equo. Ciò serve a evitare che un coniuge sia svantaggiato. Quanto convenite sui figli vale solo come richiesta comune: il giudice ne tiene conto, ma decide autonomamente e secondo il bene del figlio.",
+        "rm": "Ina cunvegna da divorzi vala mo, sche la dretgira l'ha approvada. La dretgira l'approvescha mo, sche Vus l'avais tuts dus conclusa da libra voluntad e suenter madira reflexiun e sch'ella è clera, cumpletta e betg evidentamain nunadequata. Evidentamain nunadequata è ina cunvegna che, a l'emprima vista e crassamain, divergescha da quai che la dretgira decidess senza cunvegna, senza ch'i dettia in motiv equitabel per quai. Uschia duai vegnir empedì ch'in consort vegnia deseguidà. Quai che Vus cunvegnis davart ils uffants vala mo sco dumonda cuminaivla: la dretgira resguarda ella, decida dentant sezza e tenor il bainstar da l'uffant.",
+        "en": "A divorce agreement only takes effect once the court has approved it. The court approves it only if you both concluded it voluntarily and after careful thought, and if it is clear, complete and not obviously inappropriate. An agreement is obviously inappropriate if, at first glance, it departs sharply from what the court would decide without an agreement, without a fair reason for this. This is meant to prevent one spouse being taken advantage of. What you agree about the children only counts as a joint request: the court takes it into account but decides itself, according to the best interests of the child."
       },
       "sources": [
         "zpo-279",
@@ -343,7 +539,11 @@
         ]
       },
       "text": {
-        "de": "Überlegen Sie sich Ihren Entscheid vor der Anhörung gut. Hat das Gericht die Scheidung ausgesprochen, können Sie die Scheidung selbst nur noch anfechten, wenn Ihr Wille mangelhaft war, zum Beispiel weil Sie getäuscht oder bedroht wurden."
+        "de": "Überlegen Sie sich Ihren Entscheid vor der Anhörung gut. Hat das Gericht die Scheidung ausgesprochen, können Sie die Scheidung selbst nur noch anfechten, wenn Ihr Wille mangelhaft war, zum Beispiel weil Sie getäuscht oder bedroht wurden.",
+        "fr": "Réfléchissez bien à votre décision avant l'audition. Une fois que le tribunal a prononcé le divorce, vous ne pouvez plus contester le divorce lui-même que si votre volonté était viciée, par exemple parce que vous avez été trompé ou menacé.",
+        "it": "Rifletta bene sulla sua decisione prima dell'udienza. Una volta che il giudice ha pronunciato il divorzio, il divorzio in quanto tale può essere impugnato solo se la volontà era viziata, per esempio a causa di inganno o minaccia.",
+        "rm": "Reflectai bain Vossa decisiun avant l'udida. Ha la dretgira pronunzià il divorzi, pudais Vus contestar il divorzi sez mo pli, sche Vossa voluntad era vizià, per exempel perquai ch'Vus essas vegnids ingannads u smanatschads.",
+        "en": "Think your decision through carefully before the hearing. Once the court has granted the divorce, you can only still challenge the divorce itself if your consent was defective, for example because you were deceived or threatened."
       },
       "sources": [
         "zpo-289"
@@ -359,7 +559,11 @@
         ]
       },
       "text": {
-        "de": "Ist Ihr Ehepartner gegen die Scheidung, können Sie allein auf Scheidung klagen, wenn Sie beide im Zeitpunkt der Klage seit mindestens zwei Jahren getrennt leben. Einen weiteren Grund müssen Sie dann nicht nachweisen. Die Klage braucht keine schriftliche Begründung. Sie muss aber den Scheidungsgrund nennen und Ihre Anträge zu Geld, Vermögen und Kindern sowie die nötigen Belege enthalten. Das Gericht lädt Sie beide zuerst zu einer Einigungsverhandlung ein. Ist Ihr Ehepartner im Verfahren doch mit der Scheidung einverstanden, kann es unter Umständen als gemeinsames Begehren weitergehen."
+        "de": "Ist Ihr Ehepartner gegen die Scheidung, können Sie allein auf Scheidung klagen, wenn Sie beide im Zeitpunkt der Klage seit mindestens zwei Jahren getrennt leben. Einen weiteren Grund müssen Sie dann nicht nachweisen. Die Klage braucht keine schriftliche Begründung. Sie muss aber den Scheidungsgrund nennen und Ihre Anträge zu Geld, Vermögen und Kindern sowie die nötigen Belege enthalten. Das Gericht lädt Sie beide zuerst zu einer Einigungsverhandlung ein. Ist Ihr Ehepartner im Verfahren doch mit der Scheidung einverstanden, kann es unter Umständen als gemeinsames Begehren weitergehen.",
+        "fr": "Si votre conjoint s'oppose au divorce, vous pouvez agir seul en divorce si vous vivez tous deux séparés depuis deux ans au moins au moment de l'action. Vous n'avez alors pas besoin de prouver un autre motif. La demande n'a pas besoin de motivation écrite. Elle doit toutefois indiquer la cause du divorce et contenir vos conclusions sur l'argent, la fortune et les enfants, ainsi que les pièces nécessaires. Le tribunal vous convoque d'abord tous deux à une audience de conciliation. Si votre conjoint finit par accepter le divorce au cours de la procédure, celle-ci peut, selon les circonstances, se poursuivre comme une requête commune.",
+        "it": "Se il suo coniuge è contrario al divorzio, può agire in giudizio da solo o da sola per il divorzio, se al momento dell'azione vivete separati da almeno due anni. Non deve allora dimostrare un ulteriore motivo. L'azione non richiede una motivazione scritta. Deve però indicare la causa di divorzio e contenere le sue richieste su denaro, sostanza e figli, nonché i documenti necessari. Il giudice vi convoca dapprima entrambi a un'udienza di conciliazione. Se nel corso della procedura il suo coniuge acconsente comunque al divorzio, essa può eventualmente proseguire come richiesta comune.",
+        "rm": "Sch'Voss consort è cunter il divorzi, pudais Vus plantar plant da divorzi sulet, sche Vus vivais tuts dus separads dapi almain dus onns al mument da la plant. In ulteriur motiv na stuais Vus lura betg cumprovar. La plant na dovra nagina motivaziun scritta. Ella sto dentant numnar il motiv da divorzi e cuntegnair Vossas dumondas davart daners, facultad ed uffants sco er las cumprovas necessarias. La dretgira envida Vus tuts dus empruma ad in'udienza da conciliaziun. Sch'Voss consort è pia en la procedura d'accord cun il divorzi, po quella per part cuntinuar sco dumonda cuminaivla.",
+        "en": "If your spouse is against the divorce, you can bring an action for divorce alone if you have both been living apart for at least two years at the time the action is filed. You then do not need to prove any further reason. The action does not need written grounds. However, it must state the ground for divorce and contain your requests on money, assets and the children, together with the necessary evidence. The court first invites you both to a settlement hearing. If your spouse does after all agree to the divorce during the proceedings, it may in some circumstances continue as a joint request."
       },
       "sources": [
         "zgb-114",
@@ -383,7 +587,11 @@
         ]
       },
       "text": {
-        "de": "Die zwei Jahre Getrenntleben müssen erfüllt sein, wenn Sie die Klage einreichen. Klagen Sie früher, ohne dass Ihnen die Ehe aus schwerwiegenden Gründen unzumutbar ist, kann die Klage scheitern und Kosten verursachen. Halten Sie das Datum fest, an dem Sie sich getrennt haben, und bewahren Sie Belege auf, etwa einen neuen Mietvertrag oder die Ummeldung bei der Gemeinde."
+        "de": "Die zwei Jahre Getrenntleben müssen erfüllt sein, wenn Sie die Klage einreichen. Klagen Sie früher, ohne dass Ihnen die Ehe aus schwerwiegenden Gründen unzumutbar ist, kann die Klage scheitern und Kosten verursachen. Halten Sie das Datum fest, an dem Sie sich getrennt haben, und bewahren Sie Belege auf, etwa einen neuen Mietvertrag oder die Ummeldung bei der Gemeinde.",
+        "fr": "Les deux ans de vie séparée doivent être accomplis au moment où vous déposez la demande. Si vous agissez plus tôt, sans que la continuation du mariage vous soit devenue inexigible pour des motifs sérieux, la demande peut échouer et entraîner des frais. Consignez la date à laquelle vous vous êtes séparés, et conservez des justificatifs, par exemple un nouveau bail ou le changement d'adresse annoncé à la commune.",
+        "it": "I due anni di vita separata devono essere trascorsi quando presenta l'azione. Se agisce prima, senza che il matrimonio le sia divenuto insopportabile per gravi motivi, l'azione può fallire e causare spese. Fissi per iscritto la data in cui vi siete separati, e conservi le prove, per esempio un nuovo contratto di locazione o il cambio di residenza presso il Comune.",
+        "rm": "Ils dus onns da vita separada ston esser ademplids, cur che Vus inoltrais la plant. Plantais Vus plant pli baud, senza che la lètg Vus saja nunpretendibla per motivs greivs, po la plant fallir e chaschunar custs. Notai la data, a la quala Vus Vus essas separads, e conservai cumprovas, per exempel in nov contract da locaziun u l'annunzia da la nova adressa tar la vischnanca.",
+        "en": "The two years of living apart must be completed when you file the action. If you bring the action earlier, without the marriage being unreasonable for you because of serious reasons, the action can fail and cause costs. Record the date on which you separated, and keep evidence, such as a new tenancy agreement or your change of address with the municipality."
       },
       "sources": [
         "zgb-114"
@@ -404,7 +612,11 @@
         ]
       },
       "text": {
-        "de": "Vor Ablauf der zwei Jahre ist eine Scheidung gegen den Willen des Ehepartners nur ausnahmsweise möglich: wenn Ihnen schon das rechtliche Weiterbestehen der Ehe aus schwerwiegenden Gründen nicht zugemutet werden kann und Sie diese Gründe nicht selbst verursacht haben. Es kommt darauf an, ob ein Aussenstehender nachvollziehen kann, dass die Ehe für Sie unerträglich geworden ist. Eine besondere Empfindlichkeit genügt nicht. Anerkannt ist, dass Gewalt, welche die körperliche oder psychische Gesundheit gefährdet, ein solcher schwerwiegender Grund sein kann. Ob Ihr Fall reicht, ist eine Frage des Einzelfalls: Lassen Sie sich beraten, bevor Sie so klagen."
+        "de": "Vor Ablauf der zwei Jahre ist eine Scheidung gegen den Willen des Ehepartners nur ausnahmsweise möglich: wenn Ihnen schon das rechtliche Weiterbestehen der Ehe aus schwerwiegenden Gründen nicht zugemutet werden kann und Sie diese Gründe nicht selbst verursacht haben. Es kommt darauf an, ob ein Aussenstehender nachvollziehen kann, dass die Ehe für Sie unerträglich geworden ist. Eine besondere Empfindlichkeit genügt nicht. Anerkannt ist, dass Gewalt, welche die körperliche oder psychische Gesundheit gefährdet, ein solcher schwerwiegender Grund sein kann. Ob Ihr Fall reicht, ist eine Frage des Einzelfalls: Lassen Sie sich beraten, bevor Sie so klagen.",
+        "fr": "Avant l'écoulement des deux ans, un divorce contre la volonté du conjoint n'est possible qu'à titre exceptionnel : lorsque la persistance juridique du mariage ne peut déjà plus vous être imposée pour des motifs sérieux dont vous n'êtes pas vous-même responsable. Il s'agit de savoir si un tiers peut comprendre que le mariage soit devenu insupportable pour vous. Une sensibilité particulière ne suffit pas. Il est reconnu qu'une violence mettant en danger la santé physique ou psychique peut constituer un tel motif sérieux. La question de savoir si votre cas suffit dépend du cas d'espèce : faites-vous conseiller avant d'agir de la sorte.",
+        "it": "Prima della scadenza dei due anni, un divorzio contro la volontà del coniuge è possibile solo eccezionalmente: quando il permanere giuridico del matrimonio non le può già essere ragionevolmente imposto per gravi motivi di cui lei non è responsabile. Conta il fatto che una persona esterna possa comprendere che il matrimonio è diventato per lei intollerabile. Una particolare sensibilità personale non basta. È riconosciuto che la violenza che mette in pericolo la salute fisica o psichica può costituire un simile motivo grave. Se il suo caso sia sufficiente è una questione da valutare nel caso concreto: si faccia consigliare prima di agire in giudizio in questo modo.",
+        "rm": "Avant la scadenza dals dus onns è in divorzi cunter la voluntad dal consort mo excepziunalmain pussaivel: sche gia il persister giuridic da la lètg na po pli vegnir pretendì a Vus per motivs greivs e sche Vus n'avais betg chaschunà Vus sez quests motivs. I dependa da quai, sch'ina persuna externa po chapir che la lètg saja daventada nunsupportabla per Vus. Ina sensibilitad speziala na basta betg. Renconoschì è che violenza, che periclitescha la sanadad corporala u psichica, po esser in tal motiv greiv. Sche Voss cas basta, è ina dumonda dal cas singul: laschai Vus cussegliar, avant che Vus plantais uschia plant.",
+        "en": "Before the two years are up, a divorce against the will of the spouse is only possible as an exception: if the continued legal existence of the marriage cannot reasonably be expected of you because of serious reasons, and you did not cause these reasons yourself. What matters is whether an outsider can understand that the marriage has become unbearable for you. Particular sensitivity is not enough. It is recognised that violence endangering physical or mental health can be such a serious reason. Whether your case is sufficient is a question for the individual case: get advice before bringing an action on this basis."
       },
       "sources": [
         "zgb-115",
@@ -423,7 +635,11 @@
         ]
       },
       "text": {
-        "de": "Bis zur Scheidung können Sie das Getrenntleben gerichtlich regeln lassen (Eheschutz). Das Gericht kann auf Antrag den Unterhalt für Sie und die Kinder festlegen, bestimmen, wer die Wohnung und den Hausrat benützt, und die nötigen Massnahmen für die Kinder treffen. Während eines Scheidungsverfahrens trifft das Scheidungsgericht solche Anordnungen als vorsorgliche Massnahmen, und bereits angeordnete Eheschutzmassnahmen gelten weiter."
+        "de": "Bis zur Scheidung können Sie das Getrenntleben gerichtlich regeln lassen (Eheschutz). Das Gericht kann auf Antrag den Unterhalt für Sie und die Kinder festlegen, bestimmen, wer die Wohnung und den Hausrat benützt, und die nötigen Massnahmen für die Kinder treffen. Während eines Scheidungsverfahrens trifft das Scheidungsgericht solche Anordnungen als vorsorgliche Massnahmen, und bereits angeordnete Eheschutzmassnahmen gelten weiter.",
+        "fr": "Jusqu'au divorce, vous pouvez faire régler judiciairement la vie séparée (protection de l'union conjugale). Sur requête, le tribunal peut fixer l'entretien pour vous et les enfants, déterminer qui utilise le logement et le mobilier de ménage, et prendre les mesures nécessaires pour les enfants. Pendant une procédure de divorce, le tribunal du divorce prend de telles ordonnances à titre de mesures provisionnelles, et les mesures de protection de l'union conjugale déjà ordonnées continuent de s'appliquer.",
+        "it": "Fino al divorzio può far regolare giudizialmente la vita separata (protezione dell'unione coniugale). Su richiesta, il giudice può fissare il mantenimento per lei e per i figli, stabilire chi utilizza l'abitazione e le suppellettili domestiche, e adottare le misure necessarie per i figli. Durante una procedura di divorzio, il giudice del divorzio adotta tali disposizioni come provvedimenti cautelari, e le misure di protezione dell'unione coniugale già ordinate restano applicabili.",
+        "rm": "Enfin il divorzi pudais Vus laschar reglar giudizialmain la vita separada (protecziun da la cuminanza conjugala). Sin dumonda po la dretgira fixar il mantegniment per Vus ed ils uffants, determinar tgi che utilisescha l'abitaziun e la rauba da chasa, e prender las mesiras necessarias per ils uffants. Durant ina procedura da divorzi prenda la dretgira da divorzi talas disposiziuns sco mesiras provisionalas, e mesiras da protecziun da la cuminanza conjugala gia ordinadas valan vinavant.",
+        "en": "Until the divorce, you can have the court regulate your living apart (protective measures for the marital union). On application, the court can set maintenance for you and the children, determine who uses the home and the household effects, and take the necessary measures for the children. During divorce proceedings, the divorce court makes such orders as provisional measures, and protective measures already ordered continue to apply."
       },
       "sources": [
         "zgb-176",
@@ -434,7 +650,11 @@
       "id": "what-to-settle",
       "kind": "step",
       "text": {
-        "de": "In der Vereinbarung oder im Urteil muss alles geregelt sein, was die Scheidung auslöst: die Kinder, der Unterhalt zwischen Ihnen, die Teilung der Pensionskasse, die Teilung von Vermögen und Schulden und die Familienwohnung. Legen Sie Belege bei, etwa Lohnausweise, Steuererklärungen, Kontoauszüge und die Bestätigungen Ihrer Pensionskassen. Wird Unterhalt festgelegt, muss darin stehen, von welchem Einkommen und Vermögen jeder von Ihnen ausgeht und wie viel für den Ehegatten und wie viel für jedes Kind bestimmt ist. Das ist wichtig, falls sich später etwas ändert."
+        "de": "In der Vereinbarung oder im Urteil muss alles geregelt sein, was die Scheidung auslöst: die Kinder, der Unterhalt zwischen Ihnen, die Teilung der Pensionskasse, die Teilung von Vermögen und Schulden und die Familienwohnung. Legen Sie Belege bei, etwa Lohnausweise, Steuererklärungen, Kontoauszüge und die Bestätigungen Ihrer Pensionskassen. Wird Unterhalt festgelegt, muss darin stehen, von welchem Einkommen und Vermögen jeder von Ihnen ausgeht und wie viel für den Ehegatten und wie viel für jedes Kind bestimmt ist. Das ist wichtig, falls sich später etwas ändert.",
+        "fr": "La convention ou le jugement doit régler tout ce que déclenche le divorce : les enfants, l'entretien entre vous, le partage de la caisse de pension, le partage de la fortune et des dettes, et le logement de la famille. Joignez des pièces justificatives, par exemple des certificats de salaire, des déclarations d'impôt, des extraits de comptes et les confirmations de vos caisses de pension. Si un entretien est fixé, il doit indiquer de quel revenu et de quelle fortune part chacun de vous, et quelle part est destinée au conjoint et quelle part à chaque enfant. Cela est important en cas de changement ultérieur.",
+        "it": "Nella convenzione o nella sentenza deve essere regolato tutto ciò che il divorzio comporta: i figli, il mantenimento tra voi, la divisione della cassa pensioni, la divisione di sostanza e debiti e l'abitazione familiare. Alleghi i documenti giustificativi, per esempio certificati di salario, dichiarazioni fiscali, estratti conto e le conferme delle vostre casse pensioni. Se viene fissato un mantenimento, deve risultare da quale reddito e sostanza parte ciascuno di voi e quanto è destinato al coniuge e quanto a ciascun figlio. Ciò è importante nel caso in cui qualcosa cambi in seguito.",
+        "rm": "En la cunvegna u en la sentenzia sto vegnir reglà tut quai ch'il divorzi declanchescha: ils uffants, il mantegniment tranter Vus, la repartiziun da la cassa da pensiun, la repartiziun da facultad e debits e l'abitaziun da la famiglia. Agiuntai cumprovas, per exempel certificats da salari, declaraziuns da taglia, extracts da conto e las confermas da Vossas cassas da pensiun. Vegn fixà mantegniment, sto star en la cunvegna da tge entradas e facultad che mintga da Vus partescha e quant è destinà per il consort e quant per mintga uffant. Quai è impurtant, sch'insatge muda pli tard.",
+        "en": "The agreement or the judgment must settle everything the divorce triggers: the children, maintenance between you, the division of the pension fund, the division of assets and debts, and the family home. Attach evidence, such as salary statements, tax returns, bank statements and confirmations from your pension funds. If maintenance is set, it must state what income and assets each of you is assumed to have, and how much is intended for the spouse and how much for each child. This matters in case something changes later."
       },
       "sources": [
         "zpo-282",
@@ -452,7 +672,11 @@
         ]
       },
       "text": {
-        "de": "Bei gemeinsamen Kindern regelt das Gericht die elterliche Sorge, die Obhut, den persönlichen Kontakt oder die Betreuungsanteile und den Kindesunterhalt. Massgebend ist das Wohl des Kindes. Das Gericht berücksichtigt einen gemeinsamen Antrag der Eltern und, soweit möglich, die Meinung des Kindes. Es hört die Eltern persönlich an und in der Regel auch das Kind, wenn sein Alter es zulässt, und kann die Eltern zu einer Mediation auffordern. Einzelheiten zur elterlichen Sorge und zum Kindesunterhalt finden Sie in den eigenen Anleitungen dazu."
+        "de": "Bei gemeinsamen Kindern regelt das Gericht die elterliche Sorge, die Obhut, den persönlichen Kontakt oder die Betreuungsanteile und den Kindesunterhalt. Massgebend ist das Wohl des Kindes. Das Gericht berücksichtigt einen gemeinsamen Antrag der Eltern und, soweit möglich, die Meinung des Kindes. Es hört die Eltern persönlich an und in der Regel auch das Kind, wenn sein Alter es zulässt, und kann die Eltern zu einer Mediation auffordern. Einzelheiten zur elterlichen Sorge und zum Kindesunterhalt finden Sie in den eigenen Anleitungen dazu.",
+        "fr": "En présence d'enfants communs, le tribunal règle l'autorité parentale, la garde, les relations personnelles ou les parts de prise en charge, et l'entretien de l'enfant. Le bien de l'enfant est déterminant. Le tribunal tient compte d'une requête commune des parents et, dans la mesure du possible, de l'avis de l'enfant. Il entend personnellement les parents et, en règle générale, aussi l'enfant si son âge le permet, et peut inviter les parents à suivre une médiation. Vous trouverez les détails sur l'autorité parentale et l'entretien de l'enfant dans les guides qui leur sont consacrés.",
+        "it": "Per i figli in comune, il giudice regola l'autorità parentale, la custodia, i contatti personali o le quote di cura, e il mantenimento del figlio. Determinante è il bene del figlio. Il giudice tiene conto di una richiesta comune dei genitori e, per quanto possibile, dell'opinione del figlio. Sente personalmente i genitori e, di regola, anche il figlio, se la sua età lo consente, e può invitare i genitori a una mediazione. I dettagli sull'autorità parentale e sul mantenimento del figlio si trovano nelle guide proprie dedicate a questi temi.",
+        "rm": "Tar uffants cuminaivels regla la dretgira la tgira genituriala, la surveglianza, il contact persunal u las quotas da tgira ed il mantegniment da l'uffant. Determinant è il bainstar da l'uffant. La dretgira resguarda ina dumonda cuminaivla dals geniturs e, uschenavant pussaivel, l'opiniun da l'uffant. Ella udescha ils geniturs persunalmain e per regla er l'uffant, sch'igl è pussaivel tenor si'età, e po pretender dals geniturs ina mediaziun. Detagls davart la tgira genituriala e davart il mantegniment da l'uffant chattais Vus en ils agens manuals davart quai.",
+        "en": "Where there are joint children, the court settles parental responsibility, day-to-day care, contact or the sharing of care, and child maintenance. What counts is the best interests of the child. The court takes into account a joint request by the parents and, as far as possible, the child's opinion. It hears the parents in person and, as a rule, also the child, if their age allows it, and can invite the parents to try mediation. You can find details on parental responsibility and child maintenance in the separate guides on these topics."
       },
       "sources": [
         "zgb-133",
@@ -464,7 +688,11 @@
       "id": "maintenance",
       "kind": "rule",
       "text": {
-        "de": "Nach der Scheidung muss grundsätzlich jeder selbst für seinen Lebensunterhalt und seine Altersvorsorge sorgen. Nur wer das nicht kann oder wem es nicht zuzumuten ist, erhält vom anderen einen angemessenen Beitrag, soweit dieser leistungsfähig ist. Ob, wie viel und wie lange, hängt vom Einzelfall ab: unter anderem von der Aufgabenteilung und der Dauer der Ehe, vom Alter und der Gesundheit, von Einkommen und Vermögen, von der Betreuung der Kinder und von den Chancen auf dem Arbeitsmarkt. Das Bundesgericht verlangt, dass eine zumutbare Arbeit gesucht oder ausgebaut wird, grundsätzlich eine Vollzeitstelle, solange keine gemeinsamen Kinder betreut werden. Wer sich nicht darum bemüht, dem wird ein Einkommen angerechnet, das er erzielen könnte. Ein Unterhaltsbeitrag wird in der Regel zeitlich begrenzt."
+        "de": "Nach der Scheidung muss grundsätzlich jeder selbst für seinen Lebensunterhalt und seine Altersvorsorge sorgen. Nur wer das nicht kann oder wem es nicht zuzumuten ist, erhält vom anderen einen angemessenen Beitrag, soweit dieser leistungsfähig ist. Ob, wie viel und wie lange, hängt vom Einzelfall ab: unter anderem von der Aufgabenteilung und der Dauer der Ehe, vom Alter und der Gesundheit, von Einkommen und Vermögen, von der Betreuung der Kinder und von den Chancen auf dem Arbeitsmarkt. Das Bundesgericht verlangt, dass eine zumutbare Arbeit gesucht oder ausgebaut wird, grundsätzlich eine Vollzeitstelle, solange keine gemeinsamen Kinder betreut werden. Wer sich nicht darum bemüht, dem wird ein Einkommen angerechnet, das er erzielen könnte. Ein Unterhaltsbeitrag wird in der Regel zeitlich begrenzt.",
+        "fr": "Après le divorce, chacun doit en principe subvenir lui-même à son entretien et à sa prévoyance vieillesse. Seule la personne qui ne le peut pas, ou à qui cela ne peut être raisonnablement exigé, reçoit de l'autre une contribution équitable, dans la mesure où celui-ci en a la capacité. Le fait de savoir si, combien et pendant combien de temps dépend du cas d'espèce : notamment de la répartition des tâches et de la durée du mariage, de l'âge et de la santé, du revenu et de la fortune, de la prise en charge des enfants et des perspectives sur le marché du travail. Le Tribunal fédéral exige qu'un travail raisonnablement exigible soit recherché ou étendu, en principe un poste à plein temps, tant qu'aucun enfant commun n'est pris en charge. À qui ne s'en efforce pas, on impute un revenu qu'il pourrait réaliser. Une contribution d'entretien est en règle générale limitée dans le temps.",
+        "it": "Dopo il divorzio, in linea di principio ciascuno deve provvedere da sé al proprio sostentamento e alla propria previdenza per la vecchiaia. Solo chi non è in grado di farlo, o per cui ciò non è ragionevolmente esigibile, riceve dall'altro un contributo adeguato, nella misura in cui questi ne abbia la capacità economica. Se, quanto e per quanto tempo dipende dal caso concreto: tra l'altro dalla ripartizione dei compiti e dalla durata del matrimonio, dall'età e dalla salute, dal reddito e dalla sostanza, dalla cura dei figli e dalle opportunità sul mercato del lavoro. Il Tribunale federale esige che si cerchi o si amplii un'attività lucrativa ragionevolmente esigibile, in linea di principio un impiego a tempo pieno, finché non vengono accuditi figli comuni. A chi non si adopera in tal senso viene computato un reddito che potrebbe conseguire. Un contributo di mantenimento è di regola limitato nel tempo.",
+        "rm": "Suenter il divorzi sto per princip mintgin procurar sez per ses mantegniment e per sia provediment da vegliadetgna. Mo tgi che na po betg quai u a tgi che quai n'è betg pretendibel, survegn da l'auter ina contribuziun adequata, uschenavant che quel è finanzialmain abel. Sche, quant e quant ditg, dependa dal cas singul: danter auter da la repartiziun dals incumbents e da la durada da la lètg, da l'età e da la sanadad, da las entradas e da la facultad, da la tgira dals uffants e da las schanzas sin il martgà da lavur. Il Tribunal federal pretenda che vegnia tschertgada u ampliada ina lavur pretendibla, per princip in plazza a temp cumplain, uschè ditg che naginas uffants cuminaivels vegnan tgirads. Tgi che na s'engascha betg per quai, vegn a quel computada in'entrada ch'el pudess obtegnair. Ina contribuziun da mantegniment vegn per regla limitada temporalmain.",
+        "en": "After the divorce, in principle each of you must provide for your own living costs and your own retirement provision. Only someone who cannot do this, or for whom it is not reasonable, receives an appropriate contribution from the other, as far as the other can afford it. Whether, how much and for how long depends on the individual case: among other things, on the division of tasks and the length of the marriage, on age and health, on income and assets, on the care of the children, and on the prospects on the job market. The Federal Supreme Court requires that reasonable work be sought or extended, in principle a full-time position, as long as no joint children are being cared for. Anyone who does not make this effort has an income attributed to them that they could earn. A maintenance contribution is usually limited in time."
       },
       "sources": [
         "zgb-125",
@@ -482,7 +710,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie für Haushalt und Kinder auf Ihre Erwerbstätigkeit verzichtet, gilt auch für Sie: Spätestens ab der Scheidung, und schon ab der Trennung, wenn eine Wiederaufnahme des Ehelebens vernünftigerweise nicht mehr zu erwarten ist, wird erwartet, dass Sie wieder arbeiten oder Ihr Pensum ausbauen, soweit das nach Alter, Gesundheit, Ausbildung, Kinderbetreuung und Arbeitsmarkt möglich ist, auch in einem anderen Beruf als früher. Anspruch auf einen Beitrag, der sich am gemeinsamen Lebensstandard orientiert, besteht grundsätzlich nur, wenn Sie nach einer langen Ehe mit dieser Aufgabenteilung nicht mehr an Ihre frühere berufliche Stellung anknüpfen können. Nach langer Ehe mit voller Kinderbetreuung kann der Unterhalt bis zum Rentenalter der zahlenden Person dauern. Lassen Sie Ihre Lage beraten, bevor Sie einer Vereinbarung zustimmen."
+        "de": "Haben Sie für Haushalt und Kinder auf Ihre Erwerbstätigkeit verzichtet, gilt auch für Sie: Spätestens ab der Scheidung, und schon ab der Trennung, wenn eine Wiederaufnahme des Ehelebens vernünftigerweise nicht mehr zu erwarten ist, wird erwartet, dass Sie wieder arbeiten oder Ihr Pensum ausbauen, soweit das nach Alter, Gesundheit, Ausbildung, Kinderbetreuung und Arbeitsmarkt möglich ist, auch in einem anderen Beruf als früher. Anspruch auf einen Beitrag, der sich am gemeinsamen Lebensstandard orientiert, besteht grundsätzlich nur, wenn Sie nach einer langen Ehe mit dieser Aufgabenteilung nicht mehr an Ihre frühere berufliche Stellung anknüpfen können. Nach langer Ehe mit voller Kinderbetreuung kann der Unterhalt bis zum Rentenalter der zahlenden Person dauern. Lassen Sie Ihre Lage beraten, bevor Sie einer Vereinbarung zustimmen.",
+        "fr": "Si vous avez renoncé à une activité lucrative pour le ménage et les enfants, cela vaut aussi pour vous : au plus tard dès le divorce, et déjà dès la séparation si une reprise raisonnable de la vie commune n'est plus à attendre, on attend de vous que vous repreniez le travail ou que vous étendiez votre taux d'activité, dans la mesure où cela est possible selon l'âge, la santé, la formation, la prise en charge des enfants et le marché du travail, y compris dans une autre profession qu'auparavant. Le droit à une contribution orientée sur le niveau de vie commun n'existe en principe que si, après un long mariage avec cette répartition des tâches, vous ne pouvez plus renouer avec votre situation professionnelle antérieure. Après un long mariage avec une prise en charge complète des enfants, l'entretien peut durer jusqu'à l'âge de la retraite de la personne débitrice. Faites conseiller votre situation avant d'accepter une convention.",
+        "it": "Se ha rinunciato alla propria attività lucrativa per la casa e i figli, vale anche per lei: al più tardi dal divorzio, e già dalla separazione se una ripresa della vita coniugale non è più ragionevolmente prevedibile, ci si attende che riprenda a lavorare o che amplii il suo grado di occupazione, nella misura in cui ciò sia possibile secondo età, salute, formazione, cura dei figli e mercato del lavoro, anche in una professione diversa da quella precedente. Il diritto a un contributo commisurato al tenore di vita comune sussiste in linea di principio solo se, dopo un lungo matrimonio con questa ripartizione dei compiti, non può più ricollegarsi alla sua precedente posizione professionale. Dopo un lungo matrimonio con cura completa dei figli, il mantenimento può durare fino all'età di pensionamento della persona debitrice. Si faccia consigliare sulla sua situazione prima di accettare una convenzione.",
+        "rm": "Avais Vus renunzià a Vossa activitad lucrativa per la chasada ed ils uffants, vala er per Vus: il pli tard a partir dal divorzi, e gia a partir da la separaziun, sche in reingaschament da la vita conjugala n'è raschunaivlamain pli betg d'aspectar, vegn spetgà che Vus lavurai puspè u ampliai Voss pensum, uschenavant che quai è pussaivel tenor età, sanadad, formaziun, tgira dals uffants e martgà da lavur, era en in'autra professiun che avant. In dretg ad ina contribuziun, orientada al standard da vita cuminaivel, exista per princip mo, sche Vus na pudais pli, suenter ina lètg lunga cun questa repartiziun dals incumbents, cuntinuar a Vossa posiziun professionala anteriura. Suenter ina lètg lunga cun tgira cumplaina dals uffants po il mantegniment durar enfin l'età da rentar da la persuna che paja. Laschai Vus cussegliar davart Vossa situaziun, avant che Vus consentis ad ina cunvegna.",
+        "en": "If you gave up paid work for the household and the children, this also applies to you: at the latest from the divorce, and already from the separation if resuming married life can no longer reasonably be expected, you are expected to work again or increase your hours, as far as this is possible given your age, health, training, childcare and the job market, including in a different occupation from before. A claim to a contribution based on the shared standard of living generally exists only if, after a long marriage with this division of tasks, you can no longer take up your former professional position. After a long marriage with full-time childcare, maintenance can last until the paying person's retirement age. Get advice on your situation before agreeing to any agreement."
       },
       "sources": [
         "zgb-125",
@@ -495,7 +727,11 @@
       "id": "maintenance-later",
       "kind": "rule",
       "text": {
-        "de": "Das Gericht legt den Unterhalt in der Regel als monatliche Rente fest. Die Pflicht endet mit dem Tod einer der beiden Personen und, wenn nichts anderes vereinbart ist, wenn die berechtigte Person wieder heiratet. Ändern sich die Verhältnisse später erheblich und dauerhaft, kann die Rente herabgesetzt, aufgehoben oder vorübergehend eingestellt werden. Hält das Urteil fest, dass der gebührende Unterhalt nicht gedeckt werden konnte, kann die berechtigte Person innert fünf Jahren seit der Scheidung eine Rente oder eine höhere Rente verlangen, wenn es der zahlenden Person wirtschaftlich entsprechend besser geht."
+        "de": "Das Gericht legt den Unterhalt in der Regel als monatliche Rente fest. Die Pflicht endet mit dem Tod einer der beiden Personen und, wenn nichts anderes vereinbart ist, wenn die berechtigte Person wieder heiratet. Ändern sich die Verhältnisse später erheblich und dauerhaft, kann die Rente herabgesetzt, aufgehoben oder vorübergehend eingestellt werden. Hält das Urteil fest, dass der gebührende Unterhalt nicht gedeckt werden konnte, kann die berechtigte Person innert fünf Jahren seit der Scheidung eine Rente oder eine höhere Rente verlangen, wenn es der zahlenden Person wirtschaftlich entsprechend besser geht.",
+        "fr": "Le tribunal fixe en règle générale l'entretien sous forme de rente mensuelle. L'obligation s'éteint au décès de l'une des deux personnes et, sauf convention contraire, lorsque la personne créancière se remarie. Si la situation change ensuite de manière importante et durable, la rente peut être réduite, supprimée ou suspendue temporairement. Si le jugement constate que l'entretien dû n'a pas pu être couvert, la personne créancière peut, dans les cinq ans suivant le divorce, exiger une rente ou une rente plus élevée si la situation économique de la personne débitrice s'est nettement améliorée en conséquence.",
+        "it": "Il giudice fissa di regola il mantenimento come rendita mensile. L'obbligo si estingue con la morte di una delle due persone e, se non è convenuto altrimenti, quando la persona avente diritto si risposa. Se le circostanze cambiano in seguito in modo rilevante e duraturo, la rendita può essere ridotta, soppressa o sospesa temporaneamente. Se la sentenza constata che il mantenimento dovuto non ha potuto essere coperto, la persona avente diritto può, entro cinque anni dal divorzio, chiedere una rendita o una rendita più elevata se la persona debitrice sta economicamente meglio in misura corrispondente.",
+        "rm": "La dretgira fixescha il mantegniment per regla sco renta mensila. L'obligaziun finescha cun la mort d'ina da las duas persunas e, sche nagut auter è vegnì cunvegnì, cur che la persuna dretgivla sa marida puspè. Sche las circumstanzas mudan pli tard considerablamain e durablamain, po la renta vegnir reducida, abolida u sospendida temporarmain. Constatescha la sentenzia che il mantegniment duì n'ha betg pudì vegnir cuvrì, po la persuna dretgivla pretender entaifer tschintg onns dapi il divorzi ina renta u ina renta pli auta, sche la persuna che paja va economicamain correspundentamain meglier.",
+        "en": "The court usually sets maintenance as a monthly payment. The obligation ends on the death of either person and, unless otherwise agreed, if the person entitled to it remarries. If circumstances change significantly and lastingly later, the payment can be reduced, cancelled or temporarily suspended. If the judgment states that the maintenance actually owed could not be covered, the entitled person can, within five years of the divorce, claim a payment or a higher payment if the paying person's financial situation has correspondingly improved."
       },
       "sources": [
         "zgb-126",
@@ -507,7 +743,11 @@
       "id": "pension-split",
       "kind": "rule",
       "text": {
-        "de": "Was Sie beide während der Ehe bis zur Einleitung des Scheidungsverfahrens in der Pensionskasse angespart haben, wird bei der Scheidung ausgeglichen: Die Austrittsleistungen werden grundsätzlich je zur Hälfte geteilt, einschliesslich Freizügigkeitsguthaben und Vorbezügen für Wohneigentum. Sie können in der Vereinbarung davon abweichen oder darauf verzichten, aber nur, wenn für beide eine angemessene Alters- und Invalidenvorsorge bleibt, und Sie brauchen eine Bestätigung der Pensionskassen, dass die Regelung durchführbar ist. Ohne Vereinbarung weicht das Gericht nur aus wichtigen Gründen von der hälftigen Teilung ab. Wie sich jemand während der Ehe verhalten hat, spielt dabei grundsätzlich keine Rolle; nur in besonders stossenden Fällen, etwa bei grober Verletzung der Pflicht, zum Familienunterhalt beizutragen, kann das anders sein. In der AHV werden die Einkommen aus den Ehejahren ebenfalls je zur Hälfte aufgeteilt."
+        "de": "Was Sie beide während der Ehe bis zur Einleitung des Scheidungsverfahrens in der Pensionskasse angespart haben, wird bei der Scheidung ausgeglichen: Die Austrittsleistungen werden grundsätzlich je zur Hälfte geteilt, einschliesslich Freizügigkeitsguthaben und Vorbezügen für Wohneigentum. Sie können in der Vereinbarung davon abweichen oder darauf verzichten, aber nur, wenn für beide eine angemessene Alters- und Invalidenvorsorge bleibt, und Sie brauchen eine Bestätigung der Pensionskassen, dass die Regelung durchführbar ist. Ohne Vereinbarung weicht das Gericht nur aus wichtigen Gründen von der hälftigen Teilung ab. Wie sich jemand während der Ehe verhalten hat, spielt dabei grundsätzlich keine Rolle; nur in besonders stossenden Fällen, etwa bei grober Verletzung der Pflicht, zum Familienunterhalt beizutragen, kann das anders sein. In der AHV werden die Einkommen aus den Ehejahren ebenfalls je zur Hälfte aufgeteilt.",
+        "fr": "Ce que vous avez tous deux épargné dans la caisse de pension pendant le mariage jusqu'à l'introduction de la procédure de divorce est compensé lors du divorce : les prestations de sortie sont en principe partagées par moitié, y compris les avoirs de libre passage et les versements anticipés pour la propriété du logement. Vous pouvez y déroger ou y renoncer dans la convention, mais seulement si une prévoyance vieillesse et invalidité appropriée reste assurée pour vous deux, et vous avez besoin d'une confirmation des caisses de pension attestant que la réglementation est réalisable. Sans convention, le tribunal ne s'écarte du partage par moitié que pour de justes motifs. La manière dont une personne s'est comportée pendant le mariage n'a en principe pas d'importance à cet égard ; il peut en aller autrement seulement dans des cas particulièrement choquants, par exemple en cas de violation grave de l'obligation de contribuer à l'entretien de la famille. Dans l'AVS, les revenus des années de mariage sont eux aussi répartis par moitié.",
+        "it": "Quanto entrambi avete risparmiato nella cassa pensioni durante il matrimonio fino all'avvio della procedura di divorzio viene compensato in occasione del divorzio: le prestazioni d'uscita sono divise di principio a metà, compresi gli averi di libero passaggio e i prelievi anticipati per la proprietà di un'abitazione. Nella convenzione potete derogare a questo principio o rinunciarvi, ma solo se per entrambi resta garantita un'adeguata previdenza per la vecchiaia e per l'invalidità, e avete bisogno di una conferma delle casse pensioni che la regolamentazione sia attuabile. Senza convenzione, il giudice si scosta dalla divisione a metà solo per motivi gravi. Il modo in cui qualcuno si è comportato durante il matrimonio non gioca in linea di principio alcun ruolo; solo in casi particolarmente urtanti, per esempio in caso di grave violazione dell'obbligo di contribuire al mantenimento della famiglia, può essere diverso. Nell'AVS, i redditi degli anni di matrimonio vengono ugualmente ripartiti a metà.",
+        "rm": "Quai che Vus avais tuts dus spargnà durant la lètg enfin l'introducziun da la procedura da divorzi en la cassa da pensiun, vegn cumpensà tar il divorzi: las prestaziuns da sortida vegnan per princip repartidas mez per mez, inclus avers da libra circulaziun e retratgas anticipadas per proprietad d'abitar. Vus pudais As slontanar da quai en la cunvegna u renunziar a quai, dentant mo, sche per tuts dus resta ina provediment adequata da vegliadetgna e d'invaliditad, e Vus dovrais ina conferma da las cassas da pensiun che la reglaziun saja realisabla. Senza cunvegna sa slontanescha la dretgira da la repartiziun mez per mez mo per motivs impurtants. Co insatgi sa saja cumportà durant la lètg gioga per princip nagina rolla; mo en cas particularmain xocants, per exempel tar violaziun grava da l'obligaziun da contribuir al mantegniment da la famiglia, po quai esser autramain. En l'AVS vegnan las entradas dals onns da lètg vegnidas repartidas medemamain mez per mez.",
+        "en": "What you both saved in the pension fund during the marriage, up to the start of the divorce proceedings, is equalised on divorce: the vested benefits are in principle divided equally, including vested-benefits accounts and advance withdrawals for home ownership. You can depart from this in the agreement or waive it, but only if adequate old-age and invalidity provision remains for both of you, and you need confirmation from the pension funds that the arrangement can be carried out. Without an agreement, the court departs from the equal division only for good cause. How someone behaved during the marriage is in principle irrelevant here; only in particularly shocking cases, for example a serious breach of the duty to contribute to the family's maintenance, can this be different. Under the OASI, the income from the years of marriage is likewise split equally."
       },
       "sources": [
         "zgb-122",
@@ -528,7 +768,11 @@
         ]
       },
       "text": {
-        "de": "Bezieht einer von Ihnen bei Einleitung des Scheidungsverfahrens bereits eine Altersrente oder eine Invalidenrente der Pensionskasse, gelten besondere Regeln. Bei einer Altersrente oder einer Invalidenrente nach dem reglementarischen Rentenalter teilt das Gericht die Rente nach seinem Ermessen und achtet vor allem auf die Dauer der Ehe und den Vorsorgebedarf von Ihnen beiden. Der zugesprochene Anteil wird in eine lebenslange Rente umgerechnet. Das ist rechnerisch anspruchsvoll: Lassen Sie sich beraten und holen Sie früh Auskünfte bei der Pensionskasse ein."
+        "de": "Bezieht einer von Ihnen bei Einleitung des Scheidungsverfahrens bereits eine Altersrente oder eine Invalidenrente der Pensionskasse, gelten besondere Regeln. Bei einer Altersrente oder einer Invalidenrente nach dem reglementarischen Rentenalter teilt das Gericht die Rente nach seinem Ermessen und achtet vor allem auf die Dauer der Ehe und den Vorsorgebedarf von Ihnen beiden. Der zugesprochene Anteil wird in eine lebenslange Rente umgerechnet. Das ist rechnerisch anspruchsvoll: Lassen Sie sich beraten und holen Sie früh Auskünfte bei der Pensionskasse ein.",
+        "fr": "Si l'un de vous perçoit déjà, au moment de l'introduction de la procédure de divorce, une rente de vieillesse ou une rente d'invalidité de la caisse de pension, des règles particulières s'appliquent. Pour une rente de vieillesse ou une rente d'invalidité versée après l'âge réglementaire de la retraite, le tribunal partage la rente selon son appréciation et tient compte surtout de la durée du mariage et des besoins de prévoyance de vous deux. La part attribuée est convertie en une rente viagère. Ce calcul est complexe : faites-vous conseiller et demandez tôt des renseignements à la caisse de pension.",
+        "it": "Se uno di voi percepisce già, all'avvio della procedura di divorzio, una rendita di vecchiaia o una rendita d'invalidità della cassa pensioni, valgono regole particolari. In caso di rendita di vecchiaia o di rendita d'invalidità dopo l'età di pensionamento regolamentare, il giudice divide la rendita secondo il proprio apprezzamento e considera soprattutto la durata del matrimonio e il fabbisogno previdenziale di entrambi. La quota assegnata viene convertita in una rendita vitalizia. Il calcolo è complesso: si faccia consigliare e chieda per tempo informazioni alla cassa pensioni.",
+        "rm": "Retscheiva in da Vus gia a l'introducziun da la procedura da divorzi ina renta da vegliadetgna u ina renta d'invaliditad da la cassa da pensiun, valan reglas spezialas. Tar ina renta da vegliadetgna u ina renta d'invaliditad suenter l'età da rentar reglamentara repartescha la dretgira la renta tenor ses appreziament e resguarda surtut la durada da la lètg ed il basegn da provediment da Vus tuts dus. La quota concedida vegn convertida en ina renta viagera. Quai è exigent dal punct da vista da calculaziun: laschai Vus cussegliar e retschertgai baud infurmaziuns tar la cassa da pensiun.",
+        "en": "If either of you is already receiving an old-age pension or a disability pension from the pension fund when the divorce proceedings begin, special rules apply. For an old-age pension, or a disability pension paid after the reglementary retirement age, the court divides the pension at its discretion, considering above all the length of the marriage and both your retirement provision needs. The share awarded is converted into a lifelong pension. This is complex to calculate: get advice and obtain information from the pension fund early on."
       },
       "sources": [
         "zgb-124",
@@ -539,7 +783,11 @@
       "id": "property",
       "kind": "rule",
       "text": {
-        "de": "Das Vermögen wird nach dem Güterrecht geteilt. Haben Sie keinen Ehevertrag, gilt die Errungenschaftsbeteiligung. Was jemand schon vor der Ehe besass oder während der Ehe geerbt oder geschenkt erhielt, gehört zum Eigengut und wird grundsätzlich nicht geteilt. Vom Ersparten aus der Ehezeit, etwa aus dem Lohn, steht jedem die Hälfte des Überschusses des anderen zu. Massgebend für den Umfang ist der Tag, an dem das Scheidungsbegehren eingereicht wurde. Die Abrechnung kann kompliziert sein, besonders bei Liegenschaften, Firmen oder Schulden. Nach der Scheidung erben Sie einander nicht mehr von Gesetzes wegen."
+        "de": "Das Vermögen wird nach dem Güterrecht geteilt. Haben Sie keinen Ehevertrag, gilt die Errungenschaftsbeteiligung. Was jemand schon vor der Ehe besass oder während der Ehe geerbt oder geschenkt erhielt, gehört zum Eigengut und wird grundsätzlich nicht geteilt. Vom Ersparten aus der Ehezeit, etwa aus dem Lohn, steht jedem die Hälfte des Überschusses des anderen zu. Massgebend für den Umfang ist der Tag, an dem das Scheidungsbegehren eingereicht wurde. Die Abrechnung kann kompliziert sein, besonders bei Liegenschaften, Firmen oder Schulden. Nach der Scheidung erben Sie einander nicht mehr von Gesetzes wegen.",
+        "fr": "La fortune est partagée selon le régime matrimonial. Si vous n'avez pas de contrat de mariage, la participation aux acquêts s'applique. Ce que quelqu'un possédait déjà avant le mariage, ou a reçu par héritage ou donation pendant le mariage, fait partie des biens propres et n'est en principe pas partagé. Sur ce qui a été épargné pendant le mariage, par exemple sur le salaire, chacun a droit à la moitié de l'excédent de l'autre. Le jour du dépôt de la requête en divorce est déterminant pour l'étendue de la masse. Le décompte peut être compliqué, notamment en présence d'immeubles, d'entreprises ou de dettes. Après le divorce, vous n'héritez plus l'un de l'autre de par la loi.",
+        "it": "La sostanza viene divisa secondo il regime dei beni. Se non avete un contratto matrimoniale, si applica la partecipazione agli acquisti. Ciò che qualcuno possedeva già prima del matrimonio, o che ha ricevuto in eredità o in dono durante il matrimonio, appartiene ai beni propri e non viene in linea di principio diviso. Dei risparmi accumulati durante il matrimonio, per esempio dal salario, a ciascuno spetta la metà dell'eccedenza dell'altro. Determinante per l'entità è il giorno in cui è stata presentata la richiesta di divorzio. Il conteggio può essere complicato, in particolare in presenza di immobili, aziende o debiti. Dopo il divorzio non vi ereditate più reciprocamente per legge.",
+        "rm": "La facultad vegn repartida tenor il dretg dals bains. N'avais Vus nagin contract matrimonial, vala la participaziun als acquists. Quai ch'insatgi possedeva gia avant la lètg u ch'el ha eredità u retschet sco regal durant la lètg, tutga al bain agen e na vegn per princip betg repartì. Da quai ch'Vus avais spargnà durant la lètg, per exempel dal salari, tutga ad mintgin la mesadad dal surplus da l'auter. Determinant per l'extensiun è il di, en il qual la dumonda da divorzi è vegnida inoltrada. La quintaziun po esser cumplitgada, surtut tar immobiglias, interpresas u debits. Suenter il divorzi na As ereditais plus betg vicendaivlamain da lescha.",
+        "en": "Assets are divided under marital property law. If you have no marriage contract, the regime of participation in acquired property applies. What someone already owned before the marriage, or inherited or was given during the marriage, belongs to their individual property and is in principle not divided. From what was saved during the marriage, for example out of wages, each of you is entitled to half of the other's surplus. What counts for the scope of this is the day the divorce request was filed. The reckoning can be complicated, especially where property, companies or debts are involved. After the divorce, you no longer inherit from each other by operation of law."
       },
       "sources": [
         "zgb-120",
@@ -559,7 +807,11 @@
         ]
       },
       "text": {
-        "de": "Ist die Familienwohnung gemietet und ist einer von Ihnen wegen der Kinder oder aus anderen wichtigen Gründen auf sie angewiesen, kann das Gericht ihm den Mietvertrag allein übertragen, wenn das für den anderen zumutbar ist. Der andere haftet dann weiter für die Miete mit, bis der Mietvertrag endet oder gekündigt werden könnte, längstens zwei Jahre. Muss er Miete bezahlen, kann er den Betrag monatsweise mit dem Unterhalt verrechnen, den er dem anderen Ehegatten schuldet."
+        "de": "Ist die Familienwohnung gemietet und ist einer von Ihnen wegen der Kinder oder aus anderen wichtigen Gründen auf sie angewiesen, kann das Gericht ihm den Mietvertrag allein übertragen, wenn das für den anderen zumutbar ist. Der andere haftet dann weiter für die Miete mit, bis der Mietvertrag endet oder gekündigt werden könnte, längstens zwei Jahre. Muss er Miete bezahlen, kann er den Betrag monatsweise mit dem Unterhalt verrechnen, den er dem anderen Ehegatten schuldet.",
+        "fr": "Si le logement de la famille est loué et que l'un de vous en dépend en raison des enfants ou pour d'autres motifs importants, le tribunal peut lui transférer seul le bail, si cela est raisonnablement exigible de l'autre. L'autre reste alors solidairement responsable du loyer jusqu'à la fin du bail ou jusqu'au moment où il pourrait être résilié, deux ans au maximum. S'il doit payer un loyer, il peut compenser ce montant mensuellement avec l'entretien qu'il doit à l'autre conjoint.",
+        "it": "Se l'abitazione familiare è in locazione e uno di voi ne dipende a causa dei figli o per altri motivi importanti, il giudice può trasferirgli il contratto di locazione da solo, se ciò è ragionevolmente esigibile per l'altro. L'altro risponde allora ancora della pigione fino alla fine del contratto di locazione o fino al momento in cui potrebbe essere disdetto, al massimo per due anni. Se deve pagare la pigione, può compensarne l'importo, mese per mese, con il mantenimento che deve all'altro coniuge.",
+        "rm": "Sche l'abitaziun da la famiglia è lozada ed in da Vus è, pervia dals uffants u per auters motivs impurtants, dependent d'ella, po la dretgira transferir ad el sulet il contract da locaziun, sch'igl è pretendibel per l'auter. L'auter respunda lura vinavant per il tschains, enfin che il contract da locaziun finescha u pudess vegnir disditg, maximalmain durant dus onns. Sto el pajar tschains, po el cumpensar l'import mais per mais cun il mantegniment ch'el deiva a l'auter consort.",
+        "en": "If the family home is rented and one of you depends on it because of the children or for other good reasons, the court can transfer the tenancy agreement to that person alone, if this is reasonable for the other. The other then remains jointly liable for the rent until the tenancy agreement ends or could be terminated, for at most two years. If they have to pay rent, they can offset the amount, month by month, against the maintenance they owe the other spouse."
       },
       "sources": [
         "zgb-121"
@@ -575,7 +827,11 @@
         ]
       },
       "text": {
-        "de": "Gehört die Familienwohnung einem von Ihnen, ist unter denselben Bedingungen ein befristetes Wohnrecht für den anderen möglich, das das Gericht anordnen kann. Dafür ist eine angemessene Entschädigung geschuldet, oder das Wohnrecht wird auf den Unterhalt angerechnet. Wer die Wohnung am Ende behält und zu welchem Wert, wird im Güterrecht geklärt."
+        "de": "Gehört die Familienwohnung einem von Ihnen, ist unter denselben Bedingungen ein befristetes Wohnrecht für den anderen möglich, das das Gericht anordnen kann. Dafür ist eine angemessene Entschädigung geschuldet, oder das Wohnrecht wird auf den Unterhalt angerechnet. Wer die Wohnung am Ende behält und zu welchem Wert, wird im Güterrecht geklärt.",
+        "fr": "Si le logement de la famille appartient à l'un de vous, un droit d'habitation limité dans le temps pour l'autre est possible aux mêmes conditions, que le tribunal peut ordonner. Une indemnité équitable est due pour cela, ou le droit d'habitation est imputé sur l'entretien. La question de savoir qui garde finalement le logement, et à quelle valeur, est réglée dans le cadre du régime matrimonial.",
+        "it": "Se l'abitazione familiare appartiene a uno di voi, alle stesse condizioni è possibile un diritto di abitazione a tempo determinato per l'altro, che il giudice può ordinare. Per questo è dovuta un'indennità adeguata, oppure il diritto di abitazione viene computato sul mantenimento. Chi alla fine mantiene l'abitazione e a quale valore viene chiarito nell'ambito del regime dei beni.",
+        "rm": "Tutga l'abitaziun da la famiglia ad in da Vus, è sut las medemas cundiziuns pussaivel in dretg d'abitar temporà per l'auter, che la dretgira po ordinar. Per quai è deivida in'indemnisaziun adequata, u il dretg d'abitar vegn computà sin il mantegniment. Tgi che manten a la fin l'abitaziun e per tge valur, vegn clarifitgà en il dretg dals bains.",
+        "en": "If the family home belongs to one of you, a time-limited right of residence for the other is possible under the same conditions, and the court can order it. An appropriate payment is owed for this, or the right of residence is set off against maintenance. Who keeps the home in the end, and at what value, is settled under marital property law."
       },
       "sources": [
         "zgb-121",
@@ -586,7 +842,11 @@
       "id": "name",
       "kind": "rule",
       "text": {
-        "de": "Haben Sie bei der Heirat Ihren Namen geändert, behalten Sie ihn nach der Scheidung. Sie können aber jederzeit beim Zivilstandsamt erklären, dass Sie wieder Ihren Ledignamen tragen wollen."
+        "de": "Haben Sie bei der Heirat Ihren Namen geändert, behalten Sie ihn nach der Scheidung. Sie können aber jederzeit beim Zivilstandsamt erklären, dass Sie wieder Ihren Ledignamen tragen wollen.",
+        "fr": "Si vous avez changé de nom lors du mariage, vous le conservez après le divorce. Vous pouvez toutefois déclarer en tout temps à l'office de l'état civil vouloir reprendre votre nom de célibataire.",
+        "it": "Se al momento del matrimonio ha cambiato cognome, lo conserva anche dopo il divorzio. Può tuttavia dichiarare in qualsiasi momento all'ufficio dello stato civile di voler riprendere il proprio cognome da celibe o nubile.",
+        "rm": "Avais Vus midà Voss num tar la maridaglia, mantegnis Vus el suenter il divorzi. Vus pudais dentant en mintga mument declerar tar l'uffizi da stadi civil che Vus vulais puspè purtar Voss num da celibat.",
+        "en": "If you changed your name when you married, you keep it after the divorce. However, you can declare to the civil registry office at any time that you want to use your name from before marriage again."
       },
       "sources": [
         "zgb-119"
@@ -596,7 +856,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Für das Scheidungsverfahren erhebt das Gericht Gebühren. Ihre Höhe legt jeder Kanton selbst fest; eine Einigung über alle Folgen ist meist deutlich günstiger als ein Streit. Dazu kommen allenfalls Kosten für eine Anwältin oder einen Anwalt. In familienrechtlichen Verfahren kann das Gericht die Kosten nach Ermessen verteilen, oft werden sie geteilt. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen, allenfalls mit einer unentgeltlichen Anwältin oder einem unentgeltlichen Anwalt."
+        "de": "Für das Scheidungsverfahren erhebt das Gericht Gebühren. Ihre Höhe legt jeder Kanton selbst fest; eine Einigung über alle Folgen ist meist deutlich günstiger als ein Streit. Dazu kommen allenfalls Kosten für eine Anwältin oder einen Anwalt. In familienrechtlichen Verfahren kann das Gericht die Kosten nach Ermessen verteilen, oft werden sie geteilt. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen, allenfalls mit einer unentgeltlichen Anwältin oder einem unentgeltlichen Anwalt.",
+        "fr": "Le tribunal perçoit des émoluments pour la procédure de divorce. Chaque canton en fixe lui-même le montant ; un accord sur toutes les conséquences est en général nettement plus avantageux qu'un litige. S'y ajoutent le cas échéant des frais d'avocat. Dans les procédures de droit de la famille, le tribunal peut répartir les frais selon son appréciation ; ils sont souvent partagés. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire, le cas échéant avec une avocate ou un avocat d'office.",
+        "it": "Per la procedura di divorzio il giudice riscuote emolumenti. Il loro importo è stabilito da ogni Cantone; un accordo su tutte le conseguenze è di regola nettamente più economico di una controversia. A ciò si aggiungono eventualmente i costi per un'avvocata o un avvocato. Nelle procedure di diritto di famiglia il giudice può ripartire le spese secondo il proprio apprezzamento, spesso vengono divise. Se le mancano i mezzi e la sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio, eventualmente con un'avvocata o un avvocato d'ufficio.",
+        "rm": "Per la procedura da divorzi drizza la dretgira taxas. Lur autezza fixescha mintga chantun sez; in'entesa davart tut las consequenzas è il pli savens considerablamain pli avantagiusa ch'ina cuntraversia. Sur da quai vegnan eventualmain custs per in'advocata u in advocat. En proceduras dal dretg da famiglia po la dretgira repartir ils custs tenor appreziament, savens vegnan els repartids. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita, eventualmain cun in'advocata gratuita u in advocat gratuit.",
+        "en": "The court charges fees for divorce proceedings. Their amount is set by each canton itself; an agreement covering all the consequences is usually significantly cheaper than a dispute. There may also be costs for a lawyer. In family law proceedings, the court can allocate the costs at its discretion, and they are often split. If you lack the means and your position is not hopeless, you can apply for legal aid, if necessary with a lawyer appointed under legal aid."
       },
       "sources": [
         "zpo-95",
@@ -608,14 +872,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie unbedingt persönliche Beratung, bevor Sie eine Scheidungsvereinbarung unterschreiben, wenn Ihr Ehepartner gegen die Scheidung ist, wenn Sie wegen Gewalt oder Drohungen nicht zwei Jahre warten können, wenn Sie für Haushalt oder Kinder auf Erwerb verzichtet haben, wenn Liegenschaften, eine Firma, grössere Vermögen oder Schulden im Spiel sind, wenn einer von Ihnen schon eine Rente bezieht oder wenn ein Bezug zum Ausland besteht. Bei Gewalt in der Ehe wenden Sie sich zuerst an die Polizei oder eine Opferberatungsstelle."
+        "de": "Holen Sie unbedingt persönliche Beratung, bevor Sie eine Scheidungsvereinbarung unterschreiben, wenn Ihr Ehepartner gegen die Scheidung ist, wenn Sie wegen Gewalt oder Drohungen nicht zwei Jahre warten können, wenn Sie für Haushalt oder Kinder auf Erwerb verzichtet haben, wenn Liegenschaften, eine Firma, grössere Vermögen oder Schulden im Spiel sind, wenn einer von Ihnen schon eine Rente bezieht oder wenn ein Bezug zum Ausland besteht. Bei Gewalt in der Ehe wenden Sie sich zuerst an die Polizei oder eine Opferberatungsstelle.",
+        "fr": "Faites-vous absolument conseiller personnellement avant de signer une convention de divorce, si votre conjoint s'oppose au divorce, si vous ne pouvez pas attendre deux ans en raison de violence ou de menaces, si vous avez renoncé à une activité lucrative pour le ménage ou les enfants, si des immeubles, une entreprise, une fortune importante ou des dettes sont en jeu, si l'un de vous perçoit déjà une rente, ou s'il existe un lien avec l'étranger. En cas de violence conjugale, adressez-vous d'abord à la police ou à un centre de consultation LAVI.",
+        "it": "Si faccia assolutamente consigliare personalmente prima di firmare una convenzione di divorzio, se il suo coniuge è contrario al divorzio, se a causa di violenza o minacce non può attendere due anni, se ha rinunciato a un'attività lucrativa per la casa o per i figli, se sono in gioco immobili, un'azienda, patrimoni importanti o debiti, se uno di voi percepisce già una rendita, oppure se esiste un legame con l'estero. In caso di violenza nel matrimonio, si rivolga prima alla polizia o a un consultorio per l'aiuto alle vittime.",
+        "rm": "Retschertgai a moda absoluta consulaziun persunala, avant che Vus suttascrivais ina cunvegna da divorzi, sche Voss consort è cunter il divorzi, sche Vus na pudais betg spetgar dus onns pervia da violenza u smanatschas, sche Vus avais renunzià ad in'activitad lucrativa per la chasada u per ils uffants, sche immobiglias, in'interpresa, facultads pli grondas u debits èn en gieu, sche in da Vus retscheiva gia ina renta u sche datti in connex a l'exteriur. En cas da violenza en la lètg As drizzai empruma a la polizia u ad ina posta da consulaziun per victimas.",
+        "en": "Always get personal advice before signing a divorce agreement, if your spouse is against the divorce, if you cannot wait two years because of violence or threats, if you gave up paid work for the household or the children, if property, a company, larger assets or debts are involved, if one of you is already receiving a pension, or if there is a connection to another country. In the event of violence in the marriage, contact the police or a victim support centre first."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Familien-, Ehe- und Paarberatungsstellen beraten zu Trennung und Scheidung, und Mediatorinnen und Mediatoren helfen, eine Einigung zu finden. Die Gerichte informieren über das Verfahren und die Formulare. Bei Gewalt helfen die kantonalen Opferberatungsstellen kostenlos und vertraulich."
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Familien-, Ehe- und Paarberatungsstellen beraten zu Trennung und Scheidung, und Mediatorinnen und Mediatoren helfen, eine Einigung zu finden. Die Gerichte informieren über das Verfahren und die Formulare. Bei Gewalt helfen die kantonalen Opferberatungsstellen kostenlos und vertraulich.",
+        "fr": "Aide gratuite ou à faible coût : de nombreux cantons et associations d'avocats offrent une consultation juridique gratuite. Les centres de consultation familiale, conjugale et de couple conseillent en matière de séparation et de divorce, et les médiatrices et médiateurs aident à trouver un accord. Les tribunaux informent sur la procédure et les formulaires. En cas de violence, les centres cantonaux de consultation LAVI aident gratuitement et confidentiellement.",
+        "it": "Aiuto gratuito o a basso costo: molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita. I consultori familiari, matrimoniali e di coppia offrono consulenza su separazione e divorzio, e le mediatrici e i mediatori aiutano a trovare un accordo. I tribunali informano sulla procedura e sui moduli. In caso di violenza, i consultori cantonali per l'aiuto alle vittime aiutano gratuitamente e in modo confidenziale.",
+        "rm": "Agid gratuit u avantagius: Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita. Postas da consulaziun per famiglias, per lètg e per coppias cusseglian davart separaziun e divorzi, e mediaturas e mediaturs gidan a chattar in'entesa. Las dretgiras infurmeschan davart la procedura ed ils formulars. En cas da violenza gidan las postas chantunalas da consulaziun per victimas gratuitamain e confidenzialmain.",
+        "en": "Free or low-cost help: many cantons and bar associations offer free legal information. Family, marriage and couples counselling centres advise on separation and divorce, and mediators help you reach an agreement. The courts provide information on the procedure and the forms. In cases of violence, the cantonal victim support centres help free of charge and confidentially."
       }
     }
   ],
@@ -1040,13 +1312,21 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz"
+        "de": "ch.ch: Wie sich scheiden lassen in der Schweiz",
+        "fr": "ch.ch : Comment divorcer en Suisse",
+        "it": "ch.ch: Come divorziare in Svizzera",
+        "rm": "ch.ch: Co sa divorziar en la Svizra",
+        "en": "ch.ch: How to get divorced in Switzerland"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/scheidungsverfahren/"
     },
     {
       "label": {
-        "de": "ch.ch: Die Folgen einer Scheidung"
+        "de": "ch.ch: Die Folgen einer Scheidung",
+        "fr": "ch.ch : Les conséquences d'un divorce",
+        "it": "ch.ch: Le conseguenze di un divorzio",
+        "rm": "ch.ch: Las consequenzas d'in divorzi",
+        "en": "ch.ch: The consequences of a divorce"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/folgen-einer-scheidung/"
     }
