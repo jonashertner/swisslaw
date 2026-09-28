@@ -40,7 +40,7 @@ test('schema rejects missing unknown option, dangling references and unreviewed 
   assert.ok(validateSituation(dangling).some(p => p.includes('unknown source nope')));
   const badRule = structuredClone(s); badRule.blocks[1].deadline_rules = ['no_such_rule'];
   assert.ok(validateSituation(badRule).some(p => p.includes('unknown deadline rule')));
-  const unreviewed = structuredClone(s); unreviewed.status = 'public';
+  const unreviewed = structuredClone(s); unreviewed.status = 'public'; unreviewed.review = { ...s.review, reviewed_by: null, reviewed_at: null, languages_reviewed: [] };
   assert.ok(validateSituation(unreviewed).some(p => p.startsWith('review:')));
 });
 
