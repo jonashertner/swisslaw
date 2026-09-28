@@ -102,6 +102,25 @@ test('OR 273 / 270b tenancy receipt doctrines', () => {
   assert.equal(run('or_270b_anfechtung_mietzinserhoehung', { method: 'registered', noticeDate: '2026-10-05', collectedDate: '2026-10-07' }).bindingDue, '2026-11-06');
 });
 
+test('ATSG 38 Abs. 4: standstill at Easter, in summer and at Christmas (BGE 131 V 305 E. 4)', () => {
+  const r = run('atsg_52_einsprache', personal('2026-07-10')); // 4 days before 15 July, 26 after 15 August
+  assert.equal(r.bindingDue, '2026-09-10');
+  assert.ok(r.notes.includes('standstill') && !r.needsLawyer);
+  assert.equal(run('atsg_60_beschwerde', personal('2026-08-02')).bindingDue, '2026-09-14'); // served during the standstill
+  assert.ok(!run('atsg_52_einsprache', personal('2026-10-05')).notes.includes('standstill'));
+  assert.equal(run('atsg_52_einsprache', personal('2026-12-10')).bindingDue, '2027-01-25'); // 7 days before 18 Dec, 23 after 2 Jan
+  // Uncollected registered mail: deemed served Wed 8 Jul (ATSG 38 Abs. 2bis), 6 days before the standstill, 24 after
+  assert.equal(run('atsg_52_einsprache', { method: 'registered', noticeDate: '2026-07-01' }).bindingDue, '2026-09-08');
+  // Last day Sat 20 Mar 2027 moves to Mon 22 Mar, inside the Easter standstill (Easter 28 Mar)
+  const easter = run('atsg_52_einsprache', personal('2027-02-18'));
+  assert.equal(easter.bindingDue, '2027-03-22');
+  assert.deepEqual(easter.couldBeLater.map(l => [l.date, l.code]), [['2027-04-05', 'after_standstill']]);
+  // Ordinary or A-Post Plus mail is valid service; a Saturday in the letterbox counts
+  const ordinary = run('atsg_52_einsprache', { method: 'ordinary', date: '2026-10-03' });
+  assert.equal(ordinary.bindingDue, '2026-11-02');
+  assert.ok(ordinary.notes.includes('letterbox_day') && !ordinary.needsLawyer);
+});
+
 test('OR 336b 180 days and urgency', () => {
   assert.equal(run('or_336b_klage_missbraeuchliche_kuendigung', { method: 'event', date: '2026-12-31' }).bindingDue, '2027-06-29');
   const d = personal('2026-10-05'); // due Thu 15 Oct

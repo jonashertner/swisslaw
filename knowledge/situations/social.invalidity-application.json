@@ -524,7 +524,7 @@
     },
     {
       "id": "appeal",
-      "kind": "warning",
+      "kind": "deadline",
       "when": {
         "stage": [
           "pre-decision",
@@ -545,6 +545,9 @@
         "atsg-38",
         "atsg-39",
         "atsg-49"
+      ],
+      "deadline_rules": [
+        "atsg_60_beschwerde"
       ]
     },
     {

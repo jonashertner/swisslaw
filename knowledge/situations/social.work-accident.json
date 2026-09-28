@@ -704,7 +704,7 @@
     },
     {
       "id": "objection-deadline",
-      "kind": "rule",
+      "kind": "deadline",
       "when": {
         "stage": [
           "decision",
@@ -724,6 +724,9 @@
         "atsg-38",
         "atsg-39",
         "atsg-40"
+      ],
+      "deadline_rules": [
+        "atsg_52_einsprache"
       ]
     },
     {
@@ -771,7 +774,7 @@
     },
     {
       "id": "court-appeal",
-      "kind": "rule",
+      "kind": "deadline",
       "when": {
         "stage": [
           "objection-decision",
@@ -791,6 +794,9 @@
         "atsg-58",
         "atsg-60",
         "atsg-61"
+      ],
+      "deadline_rules": [
+        "atsg_60_beschwerde"
       ]
     },
     {

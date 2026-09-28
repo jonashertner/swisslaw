@@ -719,7 +719,7 @@
     },
     {
       "id": "objection",
-      "kind": "rule",
+      "kind": "deadline",
       "text": {
         "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei.",
         "fr": "Si vous n’êtes pas d’accord avec une décision de la caisse de compensation, par exemple concernant des bonifications refusées, une rectification de compte refusée ou le montant des cotisations, vous pouvez former opposition par écrit auprès de la caisse de compensation dans les 30 jours suivant la notification. Motivez brièvement ce qui est erroné et joignez des pièces justificatives.",
@@ -729,6 +729,9 @@
       },
       "sources": [
         "atsg-52"
+      ],
+      "deadline_rules": [
+        "atsg_52_einsprache"
       ]
     },
     {
