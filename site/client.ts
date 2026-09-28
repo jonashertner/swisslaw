@@ -45,6 +45,7 @@ function initSearch() {
     none.hidden = hits.length > 0;
   };
   input.addEventListener('input', run);
+  for (const chip of $$<HTMLButtonElement>('.chip', form)) chip.addEventListener('click', () => { input.value = chip.dataset.q ?? ''; run(); input.focus(); });
   form.addEventListener('submit', e => { e.preventDefault(); const first = $<HTMLAnchorElement>('a', list); if (first) location.href = first.href; });
   const initial = new URLSearchParams(location.search).get('q'); if (initial) { input.value = initial; run(); }
 }
