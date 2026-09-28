@@ -50,6 +50,29 @@ test('SchKG 74 Rechtsvorschlag', () => {
   assert.ok(run('schkg_74_rechtsvorschlag', personal('2026-07-20')).warnings.some(w => w.includes('Betreibungsferien')));
 });
 
+test('SchKG 56: service in a closed period takes effect afterwards (BGE 121 III 284 E. 2b)', () => {
+  // Mon 20 Jul + 10 = Thu 30 Jul in ferien -> Wed 5 Aug binding. Effect after Fri 31 Jul: Sat 1 Aug holiday, Sun 2 -> Mon 3 Aug + 10 = Thu 13 Aug
+  const july = run('schkg_74_rechtsvorschlag', personal('2026-07-20'));
+  assert.equal(july.bindingDue, '2026-08-05'); assert.deepEqual(later(july), ['2026-08-13']);
+  assert.deepEqual(july.notes, ['served_in_ferien']); assert.ok(!july.needsLawyer);
+  assert.equal(july.couldBeLater[0].code, 'closed_time');
+  // Mon 21 Dec -> binding Wed 6 Jan. Effect Sat 2 Jan (Saturday is not closed) + 10 = Tue 12 Jan;
+  // if Berchtoldstag counts: Mon 4 Jan + 10 = Thu 14 Jan
+  const christmas = run('schkg_74_rechtsvorschlag', personal('2026-12-21'));
+  assert.deepEqual(christmas.couldBeLater.map(x => [x.date, x.code]), [['2027-01-12', 'closed_time'], ['2027-01-14', 'closed_time_candidate']]);
+  // Sun 4 Oct + 10 = Wed 14 Oct; effect Mon 5 Oct -> Thu 15 Oct
+  const sunday = run('schkg_74_rechtsvorschlag', personal('2026-10-04'));
+  assert.equal(sunday.bindingDue, '2026-10-14'); assert.deepEqual(later(sunday), ['2026-10-15']); assert.deepEqual(sunday.notes, ['served_sunday']);
+  // Tue 1 Aug 2028 (federal holiday) + 10 = Fri 11 Aug; effect Wed 2 Aug + 10 = Sat 12 -> Mon 14 Aug
+  const holiday = run('schkg_74_rechtsvorschlag', personal('2028-08-01'));
+  assert.equal(holiday.bindingDue, '2028-08-11'); assert.deepEqual(later(holiday), ['2028-08-14']); assert.deepEqual(holiday.notes, ['served_holiday']);
+  // Saturday service is allowed: no note, no later date
+  const saturday = run('schkg_74_rechtsvorschlag', personal('2026-10-03'));
+  assert.deepEqual(saturday.notes, []); assert.deepEqual(later(saturday), []);
+  // Other rules are not Betreibungshandlungen
+  assert.deepEqual(run('stpo_354_einsprache_strafbefehl', personal('2026-10-04')).notes, []);
+});
+
 test('StPO 354 Einsprache gegen Strafbefehl', () => {
   // Notice Tue 3 Nov -> deemed served Tue 10 Nov -> Fri 20 Nov
   const fiction = run('stpo_354_einsprache_strafbefehl', { method: 'registered', noticeDate: '2026-11-03' });
