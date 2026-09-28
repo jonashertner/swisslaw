@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich habe einen Strafbefehl erhalten"
+    "de": "Ich habe einen Strafbefehl erhalten",
+    "fr": "J’ai reçu une ordonnance pénale",
+    "it": "Ho ricevuto un decreto d'accusa",
+    "en": "I've received a summary penalty order (Strafbefehl / ordonnance pénale)",
+    "rm": "Jau hai survegnì in mandat penal (Strafbefehl)"
   },
   "summary": {
-    "de": "Ein Strafbefehl wird ohne gültige Einsprache automatisch zu einem rechtskräftigen Urteil. Die wichtigste Frist: 10 Tage ab Erhalt, schriftlich, ohne Begründung. Prüfen Sie, ob zusätzlich der Führerausweis oder Ihr Aufenthaltsstatus betroffen sind."
+    "de": "Ein Strafbefehl wird ohne gültige Einsprache automatisch zu einem rechtskräftigen Urteil. Die wichtigste Frist: 10 Tage ab Erhalt, schriftlich, ohne Begründung. Prüfen Sie, ob zusätzlich der Führerausweis oder Ihr Aufenthaltsstatus betroffen sind.",
+    "fr": "Sans opposition valable, une ordonnance pénale devient automatiquement un jugement entré en force. Le délai le plus important : 10 jours dès réception, par écrit, sans motivation. Vérifiez si le permis de conduire ou votre statut de séjour sont en outre concernés.",
+    "it": "Un decreto d'accusa, senza un'opposizione valida, diventa automaticamente una sentenza passata in giudicato. Il termine più importante: 10 giorni dalla ricezione, per scritto, senza motivazione. Verifichi se sono toccati anche la licenza di condurre o il suo statuto di soggiorno.",
+    "en": "A summary penalty order automatically becomes a final judgment unless you validly reject it. The most important time limit: 10 days from receipt, in writing, no grounds required. Check whether your driving licence or your residence status are also affected.",
+    "rm": "In mandat penal (Strafbefehl) daventa senza protesta valaivla automaticamain ina sentenzia legalmain valaivla. La termin la pli impurtanta: 10 dis dapi la recepziun, en scrit, senza motivaziun. Examinai, sche supplementarmain il permiss dad ir cun auto u Voss status da dimora èn tangads."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Ich bin nicht einverstanden mit der Busse im Strafbefehl.",
       "Ich ha en Strafbefehl übercho, was mach ich jetzt?",
       "Kann mir wegen dem Strafbefehl der Führerausweis weggenommen werden?"
+    ],
+    "fr": [
+      "J’ai reçu une ordonnance pénale, que dois-je faire maintenant ?",
+      "Combien de temps ai-je pour faire opposition à une ordonnance pénale ?",
+      "Dois-je motiver mon opposition à l’ordonnance pénale ?",
+      "Je ne suis pas d’accord avec l’amende fixée dans l’ordonnance pénale.",
+      "J’ai reçu une ordonnance pénale, je fais quoi maintenant ?",
+      "Peut-on me retirer le permis de conduire à cause de l’ordonnance pénale ?"
+    ],
+    "it": [
+      "Ho ricevuto un decreto d'accusa, cosa devo fare adesso?",
+      "Quanto tempo ho per fare opposizione a un decreto d'accusa?",
+      "Devo motivare la mia opposizione al decreto d'accusa?",
+      "Non sono d'accordo con la multa indicata nel decreto d'accusa.",
+      "Mi è arrivato un decreto d'accusa, adesso cosa faccio?",
+      "Mi possono ritirare la licenza di condurre a causa del decreto d'accusa?"
+    ],
+    "en": [
+      "I've received a summary penalty order, what do I need to do now?",
+      "How long do I have to reject a summary penalty order?",
+      "Do I have to give reasons when I reject a summary penalty order?",
+      "I disagree with the fine in the summary penalty order.",
+      "I got a penalty notice in the post, what do I do now?",
+      "Can my driving licence be taken away because of the summary penalty order?"
+    ],
+    "rm": [
+      "Jau hai survegnì in mandat penal, tge stoss jau far ussa?",
+      "Quant temp hai jau per far protesta cunter in mandat penal?",
+      "Stoss jau motivar mia protesta cunter il mandat penal?",
+      "Jau na sun betg d'accord cun la multa en il mandat penal.",
+      "Jau hai survegnì in mandat penal, tge fetsch jau ussa?",
+      "Poss jau perder il permiss dad ir cun auto pervia dal mandat penal?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Sie haben von einer Staatsanwaltschaft einen Strafbefehl erhalten, zum Beispiel wegen einer Widerhandlung im Strassenverkehr oder eines anderen Vergehens."
+      "de": "Sie haben von einer Staatsanwaltschaft einen Strafbefehl erhalten, zum Beispiel wegen einer Widerhandlung im Strassenverkehr oder eines anderen Vergehens.",
+      "fr": "Vous avez reçu du ministère public une ordonnance pénale, par exemple pour une infraction à la circulation routière ou un autre délit.",
+      "it": "Ha ricevuto da un pubblico ministero un decreto d'accusa, per esempio per un'infrazione alla circolazione stradale o un altro reato.",
+      "en": "You have received a summary penalty order from a public prosecutor, for example for a road traffic offence or another minor criminal offence.",
+      "rm": "Vus avais survegnì d'ina procura publica in mandat penal (Strafbefehl), per exempel pervia d'ina cuntravenziun en il traffic u d'in auter delict."
     },
     "excludes": {
-      "de": "Das Ordnungsbussenverfahren für kleinere Übertretungen (dafür gibt es eine eigene Anleitung), Verfahren vor der Jugendanwaltschaft sowie Verwaltungsstrafverfahren, zum Beispiel im Zoll- oder Steuerrecht."
+      "de": "Das Ordnungsbussenverfahren für kleinere Übertretungen (dafür gibt es eine eigene Anleitung), Verfahren vor der Jugendanwaltschaft sowie Verwaltungsstrafverfahren, zum Beispiel im Zoll- oder Steuerrecht.",
+      "fr": "La procédure de l’amende d’ordre pour les contraventions mineures (il existe pour cela un guide séparé), les procédures devant le ministère public des mineurs, ainsi que les procédures pénales administratives, par exemple en droit douanier ou fiscal.",
+      "it": "La procedura della multa disciplinare per le contravvenzioni minori (per questo caso esiste una guida propria), le procedure davanti alla magistratura dei minorenni, nonché le procedure penali amministrative, per esempio nel diritto doganale o fiscale.",
+      "en": "The fixed penalty procedure for minor contraventions (there is a separate guide for that), proceedings before the juvenile prosecutor's office, and administrative penalty proceedings, for example under customs or tax law.",
+      "rm": "La procedura da multa disciplinara per pitschnas cuntravenziuns (per quai exista in'instrucziun separada), proceduras avant l'autoritad penala per giuvenils sco er proceduras da chasti administrativ, per exempel en il dretg da duana u da taglia."
     }
   },
   "facts": [
     {
       "key": "agree",
       "question": {
-        "de": "Sind Sie mit dem Strafbefehl einverstanden, also mit dem Vorwurf und der Strafe?"
+        "de": "Sind Sie mit dem Strafbefehl einverstanden, also mit dem Vorwurf und der Strafe?",
+        "fr": "Êtes-vous d’accord avec l’ordonnance pénale, c’est-à-dire avec le reproche et la peine ?",
+        "it": "È d'accordo con il decreto d'accusa, ossia con l'accusa e con la pena?",
+        "en": "Do you agree with the summary penalty order, that is, with the accusation and the sentence?",
+        "rm": "Essas Vus d'accord cun il mandat penal, dunca cun il rimproc e la pena?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, ich bin einverstanden"
+            "de": "Ja, ich bin einverstanden",
+            "fr": "Oui, je suis d’accord",
+            "it": "Sì, sono d'accordo",
+            "en": "Yes, I agree",
+            "rm": "Gea, jau sun d'accord"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, ich möchte mich wehren"
+            "de": "Nein, ich möchte mich wehren",
+            "fr": "Non, je veux me défendre",
+            "it": "No, voglio oppormi",
+            "en": "No, I want to contest it",
+            "rm": "Na, jau vuless defender mai"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin mir noch nicht sicher"
+            "de": "Ich bin mir noch nicht sicher",
+            "fr": "Je ne le sais pas encore",
+            "it": "Non lo so ancora con sicurezza",
+            "en": "I'm not sure yet",
+            "rm": "Jau na sai anc betg"
           }
         }
       ]
@@ -59,34 +123,58 @@
     {
       "key": "sanction",
       "question": {
-        "de": "Welche Strafe spricht der Strafbefehl aus?"
+        "de": "Welche Strafe spricht der Strafbefehl aus?",
+        "fr": "Quelle peine prononce l’ordonnance pénale ?",
+        "it": "Quale pena pronuncia il decreto d'accusa?",
+        "en": "What sentence does the summary penalty order impose?",
+        "rm": "Tge pena pronunzia il mandat penal?"
       },
       "help": {
-        "de": "Die Strafe steht im Strafbefehl selbst, meist unter der Überschrift «Sanktion»."
+        "de": "Die Strafe steht im Strafbefehl selbst, meist unter der Überschrift «Sanktion».",
+        "fr": "La peine figure dans l’ordonnance pénale elle-même, en général sous le titre « Sanction ».",
+        "it": "La pena è indicata nel decreto d'accusa stesso, di solito sotto il titolo «Sanzione».",
+        "en": "The sentence is stated in the summary penalty order itself, usually under the heading 'Sanction'.",
+        "rm": "La pena stat en il mandat penal sez, il pli savens sut il titel «Sancziun»."
       },
       "options": [
         {
           "value": "busse",
           "label": {
-            "de": "Nur eine Busse"
+            "de": "Nur eine Busse",
+            "fr": "Seulement une amende",
+            "it": "Solo una multa",
+            "en": "Only a fine",
+            "rm": "Mo ina multa"
           }
         },
         {
           "value": "geldstrafe",
           "label": {
-            "de": "Eine Geldstrafe (in Tagessätzen)"
+            "de": "Eine Geldstrafe (in Tagessätzen)",
+            "fr": "Une peine pécuniaire (en jours-amende)",
+            "it": "Una pena pecuniaria (in aliquote giornaliere)",
+            "en": "A monetary penalty (in daily penalty units)",
+            "rm": "In chasti pecuniar (en taxs giurnalers)"
           }
         },
         {
           "value": "freiheitsstrafe",
           "label": {
-            "de": "Eine Freiheitsstrafe"
+            "de": "Eine Freiheitsstrafe",
+            "fr": "Une peine privative de liberté",
+            "it": "Una pena detentiva",
+            "en": "A custodial sentence",
+            "rm": "In chasti che priva da la libertad"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -94,25 +182,41 @@
     {
       "key": "licence",
       "question": {
-        "de": "Geht es in Ihrem Fall auch um den Führerausweis, zum Beispiel um einen Entzug oder eine Verwarnung?"
+        "de": "Geht es in Ihrem Fall auch um den Führerausweis, zum Beispiel um einen Entzug oder eine Verwarnung?",
+        "fr": "Votre cas concerne-t-il aussi le permis de conduire, par exemple un retrait ou un avertissement ?",
+        "it": "Nel suo caso si tratta anche della licenza di condurre, per esempio di una revoca o di un avvertimento?",
+        "en": "Does your case also involve your driving licence, for example a withdrawal or a warning?",
+        "rm": "Sa tracta i en Voss cas era dal permiss dad ir cun auto, per exempel d'ina retratga u d'in avertiment?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -120,25 +224,41 @@
     {
       "key": "foreign_status",
       "question": {
-        "de": "Könnte der Strafbefehl Auswirkungen auf Ihren Aufenthalt in der Schweiz haben, zum Beispiel auf eine Aufenthaltsbewilligung oder ein Einbürgerungsgesuch?"
+        "de": "Könnte der Strafbefehl Auswirkungen auf Ihren Aufenthalt in der Schweiz haben, zum Beispiel auf eine Aufenthaltsbewilligung oder ein Einbürgerungsgesuch?",
+        "fr": "L’ordonnance pénale pourrait-elle avoir des répercussions sur votre séjour en Suisse, par exemple sur une autorisation de séjour ou une demande de naturalisation ?",
+        "it": "Il decreto d'accusa potrebbe avere conseguenze sul suo soggiorno in Svizzera, per esempio su un permesso di soggiorno o una domanda di naturalizzazione?",
+        "en": "Could the summary penalty order affect your residence status in Switzerland, for example a residence permit or a naturalisation application?",
+        "rm": "Il mandat penal pudess el avair consequenzas per Voss dimora en Svizra, per exempel per ina permissiun da dimora u ina dumonda da naturalisaziun?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -149,7 +269,11 @@
       "id": "check-content",
       "kind": "step",
       "text": {
-        "de": "Prüfen Sie den Strafbefehl genau: Er muss den Sachverhalt nennen, der Ihnen vorgeworfen wird, die ausgesprochene Strafe, die Kosten- und Entschädigungsfolgen sowie einen Hinweis auf die Einsprachemöglichkeit und die Folgen, wenn Sie keine Einsprache erheben."
+        "de": "Prüfen Sie den Strafbefehl genau: Er muss den Sachverhalt nennen, der Ihnen vorgeworfen wird, die ausgesprochene Strafe, die Kosten- und Entschädigungsfolgen sowie einen Hinweis auf die Einsprachemöglichkeit und die Folgen, wenn Sie keine Einsprache erheben.",
+        "fr": "Vérifiez attentivement l’ordonnance pénale : elle doit mentionner les faits qui vous sont reprochés, la peine prononcée, les frais et indemnités, ainsi qu’une indication sur la possibilité de faire opposition et les conséquences si vous n’en faites pas.",
+        "it": "Esamini attentamente il decreto d'accusa: deve indicare la fattispecie che le viene contestata, la pena pronunciata, le conseguenze in materia di spese e indennità, nonché un'indicazione sulla possibilità di fare opposizione e sulle conseguenze se non la fa.",
+        "en": "Check the summary penalty order carefully: it must state the facts alleged against you, the sentence imposed, the costs and compensation payable, and a reference to the possibility of rejecting the order and the consequences of not doing so.",
+        "rm": "Examinai il mandat penal precisamain: El sto numnar il fatg che Vus vegn rimprovà, la pena pronunziada, las consequenzas da custs e d'indemnisaziun sco er in'indicaziun davart la pussaivladad da far protesta e las consequenzas, sche Vus na fetschais nagina protesta."
       },
       "sources": [
         "stpo-353"
@@ -159,7 +283,11 @@
       "id": "deadline",
       "kind": "deadline",
       "text": {
-        "de": "Die wichtigste Frist: Wenn Sie sich gegen den Strafbefehl wehren wollen, müssen Sie innert 10 Tagen nach Erhalt schriftlich Einsprache bei der Staatsanwaltschaft erheben, die den Strafbefehl ausgestellt hat. Sie müssen Ihre Einsprache nicht begründen. Kam der Strafbefehl als eingeschriebener Brief und haben Sie ihn nicht abgeholt, gilt er bereits am siebten Tag nach dem erfolglosen Zustellversuch als erhalten, wenn Sie mit einer Zustellung rechnen mussten. Warten Sie deshalb nicht auf die Abholung."
+        "de": "Die wichtigste Frist: Wenn Sie sich gegen den Strafbefehl wehren wollen, müssen Sie innert 10 Tagen nach Erhalt schriftlich Einsprache bei der Staatsanwaltschaft erheben, die den Strafbefehl ausgestellt hat. Sie müssen Ihre Einsprache nicht begründen. Kam der Strafbefehl als eingeschriebener Brief und haben Sie ihn nicht abgeholt, gilt er bereits am siebten Tag nach dem erfolglosen Zustellversuch als erhalten, wenn Sie mit einer Zustellung rechnen mussten. Warten Sie deshalb nicht auf die Abholung.",
+        "fr": "Le délai le plus important : si vous voulez vous défendre contre l’ordonnance pénale, vous devez former opposition par écrit, dans les 10 jours suivant sa réception, auprès du ministère public qui l’a rendue. Vous n’avez pas besoin de motiver votre opposition. Si l’ordonnance pénale est arrivée par lettre recommandée et que vous ne l’avez pas retirée, elle est réputée reçue dès le septième jour suivant l’échec de la remise, si vous deviez vous attendre à une notification. N’attendez donc pas de la retirer.",
+        "it": "Il termine più importante: se vuole opporsi al decreto d'accusa, deve presentare opposizione scritta entro 10 giorni dalla ricezione al pubblico ministero che ha emesso il decreto. Non deve motivare la sua opposizione. Se il decreto d'accusa le è stato inviato per lettera raccomandata e lei non l'ha ritirato, esso si considera comunque ricevuto già il settimo giorno dopo il tentativo di recapito fallito, se doveva aspettarsi una notificazione. Non aspetti quindi il ritiro.",
+        "en": "The most important time limit: if you want to contest the summary penalty order, you must file a written rejection (Einsprache / opposition) with the public prosecutor (Staatsanwaltschaft / ministère public) who issued it, within 10 days of receipt. You do not have to give reasons for your rejection. If the summary penalty order arrived by registered letter and you did not collect it, it is deemed received on the seventh day after the failed delivery attempt, provided you had to expect delivery. So do not wait until you collect it.",
+        "rm": "La termin la pli impurtanta: Sche Vus vulais defender Vus cunter il mandat penal, stuais Vus far protesta en scrit entaifer 10 dis suenter la recepziun tar la procura publica che ha emess il mandat penal. Vus na stuais betg motivar Vossa protesta. Sche il mandat penal è arrivà sco brev racumandada e Vus n'avais betg il retratg, vala el gia il settavel di suenter il emprim empruv da consegna senza success sco survegnì, sche Vus stuevas quintar cun ina consegna. Spetgai percunquai betg cun il retratg."
       },
       "sources": [
         "stpo-354",
@@ -179,7 +307,11 @@
         ]
       },
       "text": {
-        "de": "Ihre Einsprache muss nicht begründet werden. Es reicht ein kurzes Schreiben, in dem Sie sagen, dass Sie gegen den Strafbefehl Einsprache erheben. Nennen Sie das Datum und das Aktenzeichen des Strafbefehls und unterschreiben Sie das Schreiben."
+        "de": "Ihre Einsprache muss nicht begründet werden. Es reicht ein kurzes Schreiben, in dem Sie sagen, dass Sie gegen den Strafbefehl Einsprache erheben. Nennen Sie das Datum und das Aktenzeichen des Strafbefehls und unterschreiben Sie das Schreiben.",
+        "fr": "Votre opposition n’a pas besoin d’être motivée. Un bref courrier indiquant que vous formez opposition à l’ordonnance pénale suffit. Mentionnez la date et le numéro de référence de l’ordonnance pénale et signez le courrier.",
+        "it": "La sua opposizione non deve essere motivata. Basta un breve scritto in cui dichiara di fare opposizione al decreto d'accusa. Indichi la data e il numero di riferimento del decreto d'accusa e firmi lo scritto.",
+        "en": "Your rejection does not need to give reasons. A short letter stating that you are rejecting the summary penalty order is enough. State the date and the reference number of the summary penalty order and sign the letter.",
+        "rm": "Vossa protesta na sto betg vegnir motivada. Basta ina curta brev, en la quala Vus disches che Vus fetschais protesta cunter il mandat penal. Numnai la data e il numer d'acts dal mandat penal e suttascrivai la brev."
       },
       "sources": [
         "stpo-354"
@@ -189,7 +321,11 @@
       "id": "final-judgment",
       "kind": "warning",
       "text": {
-        "de": "Ohne gültige Einsprache innert der Frist wird der Strafbefehl automatisch zu einem rechtskräftigen Urteil, so wie wenn Sie ein Gericht verurteilt hätte. Das gilt auch, wenn Sie den Brief gar nie gelesen haben."
+        "de": "Ohne gültige Einsprache innert der Frist wird der Strafbefehl automatisch zu einem rechtskräftigen Urteil, so wie wenn Sie ein Gericht verurteilt hätte. Das gilt auch, wenn Sie den Brief gar nie gelesen haben.",
+        "fr": "Sans opposition valable dans le délai, l’ordonnance pénale devient automatiquement un jugement entré en force, comme si un tribunal vous avait condamné. Cela vaut également si vous n’avez jamais lu le courrier.",
+        "it": "Senza un'opposizione valida entro il termine, il decreto d'accusa diventa automaticamente una sentenza passata in giudicato, come se l'avesse condannata un giudice. Ciò vale anche se non ha mai letto la lettera.",
+        "en": "Without a valid rejection filed in time, the summary penalty order automatically becomes a final judgment, just as if a court had convicted you. This applies even if you never actually read the letter.",
+        "rm": "Senza protesta valaivla entaifer la termin daventa il mandat penal automaticamain ina sentenzia legalmain valaivla, exact sco sche ina dretgira Vus avess cundemnà. Quai vala er, sche Vus n'avais mai legì la brev."
       },
       "sources": [
         "stpo-354"
@@ -205,7 +341,11 @@
         ]
       },
       "text": {
-        "de": "Nach Ihrer Einsprache erhebt die Staatsanwaltschaft bei Bedarf weitere Beweise. Danach entscheidet sie, ob sie am Strafbefehl festhält, das Verfahren einstellt, einen neuen Strafbefehl erlässt oder beim Gericht Anklage erhebt. Hält sie am Strafbefehl fest, entscheidet das Gericht über die Gültigkeit von Strafbefehl und Einsprache. Sie können Ihre Einsprache bis zum Ende der Parteivorträge vor Gericht zurückziehen. Bleiben Sie einer Einvernahme oder der Hauptverhandlung unentschuldigt fern, gilt Ihre Einsprache als zurückgezogen, und der ursprüngliche Strafbefehl wird rechtskräftig."
+        "de": "Nach Ihrer Einsprache erhebt die Staatsanwaltschaft bei Bedarf weitere Beweise. Danach entscheidet sie, ob sie am Strafbefehl festhält, das Verfahren einstellt, einen neuen Strafbefehl erlässt oder beim Gericht Anklage erhebt. Hält sie am Strafbefehl fest, entscheidet das Gericht über die Gültigkeit von Strafbefehl und Einsprache. Sie können Ihre Einsprache bis zum Ende der Parteivorträge vor Gericht zurückziehen. Bleiben Sie einer Einvernahme oder der Hauptverhandlung unentschuldigt fern, gilt Ihre Einsprache als zurückgezogen, und der ursprüngliche Strafbefehl wird rechtskräftig.",
+        "fr": "Après votre opposition, le ministère public administre au besoin d’autres preuves. Il décide ensuite de maintenir l’ordonnance pénale, de classer la procédure, de rendre une nouvelle ordonnance pénale, ou de porter l’accusation devant le tribunal. S’il maintient l’ordonnance pénale, le tribunal statue sur la validité de l’ordonnance pénale et de l’opposition. Vous pouvez retirer votre opposition jusqu’à l’issue des plaidoiries devant le tribunal. Si vous faites défaut, sans excuse, à une audition ou aux débats, votre opposition est réputée retirée et l’ordonnance pénale initiale entre en force.",
+        "it": "Dopo la sua opposizione, il pubblico ministero assume se necessario ulteriori prove. In seguito decide se mantenere il decreto d'accusa, abbandonare il procedimento, emanare un nuovo decreto d'accusa oppure promuovere l'accusa davanti al giudice. Se mantiene il decreto d'accusa, è il giudice a decidere sulla validità del decreto d'accusa e dell'opposizione. Può ritirare la sua opposizione fino alla fine delle arringhe davanti al giudice. Se rimane assente ingiustificatamente a un interrogatorio o al dibattimento, la sua opposizione si considera ritirata, e il decreto d'accusa originario passa in giudicato.",
+        "en": "After your rejection, the public prosecutor gathers any further evidence needed. It then decides whether to stand by the summary penalty order, abandon the proceedings, issue a new summary penalty order, or bring charges before the court. If it stands by the summary penalty order, the court decides on the validity of the summary penalty order and the rejection. You can withdraw your rejection at any time up to the conclusion of the party submissions before the court. If you fail to attend a hearing or the trial without an excuse, your rejection is deemed withdrawn, and the original summary penalty order becomes final.",
+        "rm": "Suenter Vossa protesta releva la procura publica, sche basegn, ulteriuras cumprovas. Suenter quai decida ella, sch'ella resta tar il mandat penal, sospenda la procedura, emetta in nov mandat penal u leva acusa tar la dretgira. Sch'ella resta tar il mandat penal, decida la dretgira davart la validitad dal mandat penal e da la protesta. Vus pudais retrair Vossa protesta fin a la fin dals plaids da las parts avant dretgira. Sche Vus mancais senza scusa ad in'audiziun u a la varenda principala, vala Vossa protesta sco retratga, e l'original mandat penal daventa legalmain valaivel."
       },
       "sources": [
         "stpo-355",
@@ -222,7 +362,11 @@
         ]
       },
       "text": {
-        "de": "Wird Ihre Einsprache abgewiesen oder gilt sie als zurückgezogen, tragen Sie in der Regel die Verfahrenskosten, so wie bei einer Verurteilung. Auch ein eigener Rückzug der Einsprache kann Kosten auslösen. Prüfen Sie deshalb vor einer Einsprache, ob sich diese lohnt, oder lassen Sie sich beraten."
+        "de": "Wird Ihre Einsprache abgewiesen oder gilt sie als zurückgezogen, tragen Sie in der Regel die Verfahrenskosten, so wie bei einer Verurteilung. Auch ein eigener Rückzug der Einsprache kann Kosten auslösen. Prüfen Sie deshalb vor einer Einsprache, ob sich diese lohnt, oder lassen Sie sich beraten.",
+        "fr": "Si votre opposition est rejetée ou réputée retirée, vous supportez en général les frais de procédure, comme en cas de condamnation. Un retrait de l’opposition de votre propre initiative peut également entraîner des frais. Vérifiez donc, avant de former opposition, si cela en vaut la peine, ou faites-vous conseiller.",
+        "it": "Se la sua opposizione viene respinta o si considera ritirata, di regola sostiene le spese procedurali, come in caso di condanna. Anche un ritiro spontaneo dell'opposizione può generare spese. Prima di fare opposizione, verifichi quindi se ne vale la pena, oppure si faccia consigliare.",
+        "en": "If your rejection is dismissed or deemed withdrawn, you generally bear the costs of the proceedings, just as if you had been convicted. Withdrawing your rejection yourself can also trigger costs. So before filing a rejection, consider whether it is worthwhile, or get advice.",
+        "rm": "Sche Vossa protesta vegn refusada u vala sco retratga, purtais Vus normalmain ils custs da procedura, exact sco tar ina cundemnaziun. Er in agen retratg da la protesta po chaschunar custs. Examinai percunquai avant ina protesta, sche quai as paja ora, u laschai Vus cusseglier."
       },
       "sources": [
         "stpo-426",
@@ -239,7 +383,11 @@
         ]
       },
       "text": {
-        "de": "Ein Entzug des Führerausweises oder eine Verwarnung ist ein eigenes Verwaltungsverfahren der kantonalen Strassenverkehrsbehörde, getrennt vom Strafverfahren. Eine Einsprache gegen den Strafbefehl stoppt dieses Verfahren nicht automatisch. Holen Sie sich rasch Rat, wenn ein Ausweisentzug droht oder Ihnen bereits eine separate Verfügung dazu zugestellt wurde."
+        "de": "Ein Entzug des Führerausweises oder eine Verwarnung ist ein eigenes Verwaltungsverfahren der kantonalen Strassenverkehrsbehörde, getrennt vom Strafverfahren. Eine Einsprache gegen den Strafbefehl stoppt dieses Verfahren nicht automatisch. Holen Sie sich rasch Rat, wenn ein Ausweisentzug droht oder Ihnen bereits eine separate Verfügung dazu zugestellt wurde.",
+        "fr": "Un retrait du permis de conduire ou un avertissement constitue une procédure administrative propre, menée par l’autorité cantonale de la circulation routière, distincte de la procédure pénale. Une opposition à l’ordonnance pénale n’arrête pas automatiquement cette procédure. Demandez rapidement conseil si un retrait de permis menace ou si une décision distincte à ce sujet vous a déjà été notifiée.",
+        "it": "Una revoca della licenza di condurre o un avvertimento sono una procedura amministrativa propria dell'autorità cantonale della circolazione stradale, separata dal procedimento penale. Un'opposizione al decreto d'accusa non arresta automaticamente questa procedura. Si faccia consigliare rapidamente se rischia una revoca della licenza o se le è già stata notificata una decisione separata in merito.",
+        "en": "A withdrawal of your driving licence or a warning is a separate administrative procedure conducted by the cantonal road traffic authority, distinct from the criminal proceedings. Rejecting the summary penalty order does not automatically stop that procedure. Get advice quickly if a licence withdrawal is threatened, or if you have already been served with a separate ruling on it.",
+        "rm": "Ina retratga dal permiss dad ir cun auto u in avertiment è in'agena procedura administrativa da l'autoritad chantunala dal traffic, separada da la procedura penala. Ina protesta cunter il mandat penal na ferma betg automaticamain questa procedura. Retschertgai svelt cussegl, sche ina retratga dal permiss smanatscha u sche Vus avais gia survegnì ina decisiun separada per quai."
       },
       "sources": [
         "svg-16"
@@ -254,7 +402,11 @@
         ]
       },
       "text": {
-        "de": "Der Strafbefehl spricht eine Freiheitsstrafe aus. Holen Sie sich unbedingt rechtliche Beratung, bevor die Frist abläuft, denn eine Freiheitsstrafe hat weitreichende Folgen."
+        "de": "Der Strafbefehl spricht eine Freiheitsstrafe aus. Holen Sie sich unbedingt rechtliche Beratung, bevor die Frist abläuft, denn eine Freiheitsstrafe hat weitreichende Folgen.",
+        "fr": "L’ordonnance pénale prononce une peine privative de liberté. Demandez impérativement un conseil juridique avant l’expiration du délai, car une peine privative de liberté a des conséquences importantes.",
+        "it": "Il decreto d'accusa pronuncia una pena detentiva. Si faccia assolutamente consigliare da un legale prima della scadenza del termine, poiché una pena detentiva ha conseguenze di vasta portata.",
+        "en": "The summary penalty order imposes a custodial sentence. Be sure to get legal advice before the time limit expires, because a custodial sentence has far-reaching consequences.",
+        "rm": "Il mandat penal pronunzia in chasti che priva da la libertad. Retschertgai a bel tschert cussegliaziun giuridica, avant che la termin scada, denn in chasti che priva da la libertad ha consequenzas extensivas."
       }
     },
     {
@@ -267,21 +419,33 @@
         ]
       },
       "text": {
-        "de": "Ein Strafbefehl kann sich auf ausländerrechtliche Bewilligungen oder ein Einbürgerungsgesuch auswirken. Holen Sie sich vor Ablauf der Frist rechtliche Beratung, zum Beispiel bei einer Fachstelle für Migrationsrecht."
+        "de": "Ein Strafbefehl kann sich auf ausländerrechtliche Bewilligungen oder ein Einbürgerungsgesuch auswirken. Holen Sie sich vor Ablauf der Frist rechtliche Beratung, zum Beispiel bei einer Fachstelle für Migrationsrecht.",
+        "fr": "Une ordonnance pénale peut avoir des répercussions sur des autorisations relevant du droit des étrangers ou sur une demande de naturalisation. Demandez un conseil juridique avant l’expiration du délai, par exemple auprès d’un service spécialisé en droit des migrations.",
+        "it": "Un decreto d'accusa può ripercuotersi su permessi di diritto degli stranieri o su una domanda di naturalizzazione. Si faccia consigliare da un legale prima della scadenza del termine, per esempio presso un servizio specializzato in diritto della migrazione.",
+        "en": "A summary penalty order can affect permits under immigration law or a naturalisation application. Get legal advice before the time limit expires, for example from a specialist migration law service.",
+        "rm": "In mandat penal po avair effect sin permissiuns dal dretg dals esters u sin ina dumonda da naturalisaziun. Retschertgai avant la scadenza da la termin cussegliaziun giuridica, per exempel tar in post spezialisà per il dretg da migraziun."
       }
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie sich in jedem Fall persönliche Beratung, wenn eine Freiheitsstrafe, ein Führerausweisentzug oder ausländerrechtliche Folgen drohen, wenn der Sachverhalt komplex ist oder die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie sich in jedem Fall persönliche Beratung, wenn eine Freiheitsstrafe, ein Führerausweisentzug oder ausländerrechtliche Folgen drohen, wenn der Sachverhalt komplex ist oder die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez dans tous les cas un conseil personnalisé si une peine privative de liberté, un retrait de permis de conduire ou des conséquences relevant du droit des étrangers menacent, si les faits sont complexes, ou si le délai arrive à échéance dans quelques jours.",
+        "it": "Si faccia in ogni caso consigliare personalmente se rischia una pena detentiva, una revoca della licenza di condurre o conseguenze di diritto degli stranieri, se la fattispecie è complessa, oppure se il termine scade tra pochi giorni.",
+        "en": "In any case, get personal advice if a custodial sentence, a driving licence withdrawal, or consequences under immigration law are at stake, if the facts are complex, or if the time limit expires in a few days.",
+        "rm": "Retschertgai en mintga cas cussegliaziun persunala, sche in chasti che priva da la libertad, ina retratga dal permiss dad ir cun auto u consequenzas dal dretg dals esters smanatschan, sche il fatg è cumplex u sche la termin scada en paucs dis."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Staatsanwaltschaft, die den Strafbefehl ausgestellt hat, beantwortet Verfahrensfragen. Kantonale Anwaltsverbände und viele Kantone bieten eine erste, unentgeltliche Rechtsauskunft an. Bei finanzieller Bedürftigkeit können Sie im Verfahren eine unentgeltliche Rechtsvertretung beantragen."
+        "de": "Kostenlose oder günstige Hilfe: Die Staatsanwaltschaft, die den Strafbefehl ausgestellt hat, beantwortet Verfahrensfragen. Kantonale Anwaltsverbände und viele Kantone bieten eine erste, unentgeltliche Rechtsauskunft an. Bei finanzieller Bedürftigkeit können Sie im Verfahren eine unentgeltliche Rechtsvertretung beantragen.",
+        "fr": "Aide gratuite ou à faible coût : le ministère public qui a rendu l’ordonnance pénale répond aux questions de procédure. Les associations cantonales d’avocats et de nombreux cantons offrent une première consultation juridique gratuite. En cas de besoin financier, vous pouvez demander une défense d’office dans la procédure.",
+        "it": "Aiuto gratuito o a basso costo: il pubblico ministero che ha emesso il decreto d'accusa risponde alle domande procedurali. Gli ordini cantonali degli avvocati e molti Cantoni offrono una prima consulenza giuridica gratuita. In caso di indigenza, può chiedere nel procedimento il gratuito patrocinio.",
+        "en": "Free or low-cost help: the public prosecutor that issued the summary penalty order will answer questions about the procedure. Cantonal bar associations and many cantons offer an initial, free legal consultation. If you are financially needy, you can apply for free legal representation in the proceedings.",
+        "rm": "Agid gratuit u avantagius: La procura publica che ha emess il mandat penal respunda a dumondas davart la procedura. Federaziuns chantunalas d'advocatas ed advocats e blers chantuns offran in emprim cussegl giuridic gratuit. Tar basegn finanzial pudais Vus dumandar en la procedura ina represchentanza giudiziala gratuita."
       }
     }
   ],

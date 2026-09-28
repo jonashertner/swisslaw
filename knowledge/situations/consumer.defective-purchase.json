@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Etwas, das ich gekauft habe, ist defekt"
+    "de": "Etwas, das ich gekauft habe, ist defekt",
+    "fr": "Un objet que j’ai acheté est défectueux",
+    "it": "Una cosa che ho comprato è difettosa",
+    "en": "Something I bought is faulty",
+    "rm": "Insatge che jau hai cumprà è defect"
   },
   "summary": {
-    "de": "Prüfen Sie eine gekaufte Sache sofort und melden Sie Mängel umgehend dem Verkäufer. Sie können in der Regel zwischen Rückgabe und Preisminderung wählen. Ihre Ansprüche verjähren normalerweise nach zwei Jahren."
+    "de": "Prüfen Sie eine gekaufte Sache sofort und melden Sie Mängel umgehend dem Verkäufer. Sie können in der Regel zwischen Rückgabe und Preisminderung wählen. Ihre Ansprüche verjähren normalerweise nach zwei Jahren.",
+    "fr": "Examinez immédiatement l’objet acheté et signalez sans délai tout défaut au vendeur. Vous pouvez en général choisir entre la résiliation de la vente et la réduction du prix. Vos droits se prescrivent normalement après deux ans.",
+    "it": "Controlli subito la cosa comprata e segnali senza indugio i difetti al venditore. Di regola può scegliere tra la restituzione e la riduzione del prezzo. Le sue pretese si prescrivono di norma dopo due anni.",
+    "en": "Inspect a purchased item immediately and report defects to the seller without delay. You can usually choose between returning the item and a price reduction. Your claims are usually time-barred after two years.",
+    "rm": "Examinai ina chaussa cumprada immediatamain e communitgai mancanzas senza retard al vendider. Normalmain pudais tscherner tranter redebitaziun e reducziun dal pretsch. Voss dretgs suranneschan normalmain suenter dus onns."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Kann ich eine Preisminderung statt Rückgabe verlangen?",
       "Mis Ding, wo ich kouft ha, isch kaputt, was cha ich mache?",
       "Der Verkäufer will nur reparieren, nicht zurücknehmen, darf er das?"
+    ],
+    "fr": [
+      "Un objet que j’ai acheté est défectueux, que puis-je faire ?",
+      "Ai-je le droit de retourner un article défectueux ?",
+      "Combien de temps ai-je pour signaler un défaut ?",
+      "Puis-je demander une réduction du prix plutôt qu’un remboursement ?",
+      "Le truc que j’ai acheté est cassé, je fais comment ?",
+      "Le vendeur ne veut que réparer, pas reprendre l’article, en a-t-il le droit ?"
+    ],
+    "it": [
+      "Ho comprato una cosa che è difettosa, cosa posso fare?",
+      "Posso restituire una merce difettosa?",
+      "Quanto tempo ho per segnalare un difetto?",
+      "Posso chiedere una riduzione del prezzo invece della restituzione?",
+      "Ho comprato una cosa che si è subito rotta, che faccio?",
+      "Il venditore vuole solo ripararla e non riprenderla indietro: può farlo?"
+    ],
+    "en": [
+      "Something I bought is faulty, what can I do?",
+      "Am I allowed to return faulty goods?",
+      "How long do I have to report a defect?",
+      "Can I ask for a price reduction instead of returning the item?",
+      "The thing I bought is broken, what do I do?",
+      "The seller only wants to repair it, not take it back, is that allowed?"
+    ],
+    "rm": [
+      "Insatge che jau hai cumprà è defect, tge poss jau far?",
+      "Poss jau restituir ina martganzia defecta?",
+      "Quant temp hai jau per communitgar ina mancanza?",
+      "Poss jau pretender ina reducziun dal pretsch empè d'ina restituziun?",
+      "Ina chaussa che jau hai cumprà na funcziuna betg, tge poss jau far?",
+      "Il vendider vul mo reparar, betg prender enavos, ha el il dretg da far quai?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Den Kauf beweglicher Sachen, zum Beispiel Elektronik, Möbel oder Kleidung, die einen sichtbaren oder verborgenen Mangel haben."
+      "de": "Den Kauf beweglicher Sachen, zum Beispiel Elektronik, Möbel oder Kleidung, die einen sichtbaren oder verborgenen Mangel haben.",
+      "fr": "L’achat de choses mobilières, par exemple de l’électronique, des meubles ou des vêtements, qui présentent un défaut apparent ou caché.",
+      "it": "L'acquisto di cose mobili, per esempio elettronica, mobili o abbigliamento, che presentano un difetto palese o occulto.",
+      "en": "The purchase of movable items, for example electronics, furniture or clothing, that have a visible or hidden defect.",
+      "rm": "La cumpra da chaussas moviblas, per exempel electronica, mobiglia u vestgiments, che han ina mancanza visibla u zuppada."
     },
     "excludes": {
-      "de": "Werkverträge mit Handwerkern (siehe die Anleitung zu schlecht ausgeführter Handwerksarbeit), den Kauf von Grundstücken, sowie reine Streitigkeiten über den Kaufpreis ohne Mangel."
+      "de": "Werkverträge mit Handwerkern (siehe die Anleitung zu schlecht ausgeführter Handwerksarbeit), den Kauf von Grundstücken, sowie reine Streitigkeiten über den Kaufpreis ohne Mangel.",
+      "fr": "Les contrats d’entreprise conclus avec des artisans (voir le guide sur les travaux d’artisanat mal exécutés), l’achat d’immeubles, ainsi que les simples litiges sur le prix de vente sans défaut.",
+      "it": "I contratti d'appalto con artigiani (si veda la guida sui lavori artigianali eseguiti male), l'acquisto di fondi, come pure le semplici controversie sul prezzo d'acquisto senza difetto.",
+      "en": "Work contracts with tradespeople (see the guide on poor tradesperson's work), the purchase of land, and pure disputes about the purchase price with no defect involved.",
+      "rm": "Contracts d'execuziun da lavurs cun artisanas ed artisans (guardai l'instrucziun davart lavur d'artisan fatga mal), la cumpra da bains immobigliars, sco er simplas disputas davart il pretsch da cumpra senza mancanza."
     }
   },
   "facts": [
     {
       "key": "inspected",
       "question": {
-        "de": "Haben Sie die Sache gleich nach dem Kauf oder Erhalt geprüft?"
+        "de": "Haben Sie die Sache gleich nach dem Kauf oder Erhalt geprüft?",
+        "fr": "Avez-vous vérifié l’objet dès l’achat ou dès sa réception ?",
+        "it": "Ha controllato la cosa subito dopo l'acquisto o la ricezione?",
+        "en": "Did you inspect the item straight after buying or receiving it?",
+        "rm": "Avais Vus examinà la chaussa immediatamain suenter la cumpra u la recepziun?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore",
+            "it": "No, non ancora",
+            "en": "No, not yet",
+            "rm": "Na, anc betg"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht mehr"
+            "de": "Ich weiss es nicht mehr",
+            "fr": "Je ne m’en souviens plus",
+            "it": "Non me lo ricordo più",
+            "en": "I can't remember",
+            "rm": "Jau na sai betg pli"
           }
         }
       ]
@@ -59,25 +123,41 @@
     {
       "key": "notified",
       "question": {
-        "de": "Haben Sie den Mangel dem Verkäufer sofort nach der Entdeckung gemeldet?"
+        "de": "Haben Sie den Mangel dem Verkäufer sofort nach der Entdeckung gemeldet?",
+        "fr": "Avez-vous signalé le défaut au vendeur immédiatement après l’avoir découvert ?",
+        "it": "Ha segnalato il difetto al venditore subito dopo averlo scoperto?",
+        "en": "Did you report the defect to the seller immediately after discovering it?",
+        "rm": "Avais Vus communitgà la mancanza al vendider immediatamain suenter l'avair scuvrì?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore",
+            "it": "No, non ancora",
+            "en": "No, not yet",
+            "rm": "Na, anc betg"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude",
+            "it": "Non lo so con sicurezza",
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -85,25 +165,41 @@
     {
       "key": "buyer_type",
       "question": {
-        "de": "Haben Sie privat gekauft, oder für Ihr Geschäft bzw. Ihre Firma?"
+        "de": "Haben Sie privat gekauft, oder für Ihr Geschäft bzw. Ihre Firma?",
+        "fr": "Avez-vous acheté à titre privé, ou pour votre commerce ou votre entreprise ?",
+        "it": "Ha acquistato a titolo privato oppure per la sua attività o la sua ditta?",
+        "en": "Did you buy as a private individual, or for your business or company?",
+        "rm": "Avais Vus cumprà privatamain u per Voss affar respectivamain Vossa firma?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Privat, für den persönlichen oder familiären Gebrauch"
+            "de": "Privat, für den persönlichen oder familiären Gebrauch",
+            "fr": "À titre privé, pour un usage personnel ou familial",
+            "it": "A titolo privato, per uso personale o familiare",
+            "en": "As a private individual, for personal or family use",
+            "rm": "Privatamain, per l'utilisaziun persunala u familiara"
           }
         },
         {
           "value": "business",
           "label": {
-            "de": "Für mein Geschäft oder meine Firma"
+            "de": "Für mein Geschäft oder meine Firma",
+            "fr": "Pour mon commerce ou mon entreprise",
+            "it": "Per la mia attività o la mia ditta",
+            "en": "For my business or company",
+            "rm": "Per mes affar u mia firma"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude",
+            "it": "Non lo so con sicurezza",
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -111,25 +207,41 @@
     {
       "key": "goods_condition",
       "question": {
-        "de": "War die Sache neu oder gebraucht?"
+        "de": "War die Sache neu oder gebraucht?",
+        "fr": "L’objet était-il neuf ou d’occasion ?",
+        "it": "La cosa era nuova o usata?",
+        "en": "Was the item new or second-hand?",
+        "rm": "Era la chaussa nova u d'ussanza?"
       },
       "options": [
         {
           "value": "new",
           "label": {
-            "de": "Neu"
+            "de": "Neu",
+            "fr": "Neuf",
+            "it": "Nuova",
+            "en": "New",
+            "rm": "Nova"
           }
         },
         {
           "value": "used",
           "label": {
-            "de": "Gebraucht"
+            "de": "Gebraucht",
+            "fr": "D’occasion",
+            "it": "Usata",
+            "en": "Second-hand",
+            "rm": "D'ussanza"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -137,31 +249,51 @@
     {
       "key": "want",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?",
+        "it": "Cosa vuole ottenere?",
+        "en": "What would you like to achieve?",
+        "rm": "Tge vulais Vus cuntanscher?"
       },
       "options": [
         {
           "value": "refund-or-replace",
           "label": {
-            "de": "Rückgabe oder Ersatzlieferung"
+            "de": "Rückgabe oder Ersatzlieferung",
+            "fr": "Résiliation de la vente ou livraison de remplacement",
+            "it": "Restituzione o consegna sostitutiva",
+            "en": "Return the item or get a replacement",
+            "rm": "Restituziun u furniziun remplazzanta"
           }
         },
         {
           "value": "price-reduction",
           "label": {
-            "de": "Preisminderung"
+            "de": "Preisminderung",
+            "fr": "Réduction du prix",
+            "it": "Riduzione del prezzo",
+            "en": "Price reduction",
+            "rm": "Reducziun dal pretsch"
           }
         },
         {
           "value": "repair",
           "label": {
-            "de": "Kostenlose Reparatur"
+            "de": "Kostenlose Reparatur",
+            "fr": "Réparation gratuite",
+            "it": "Riparazione gratuita",
+            "en": "Free repair",
+            "rm": "Reparaziun gratuita"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne le sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Jau na sai anc betg"
           }
         }
       ]
@@ -169,25 +301,41 @@
     {
       "key": "terms_reference",
       "question": {
-        "de": "Verweisen die Verkaufsbedingungen (AGB) des Verkäufers auf Reparatur oder Ersatz statt auf Rückgabe?"
+        "de": "Verweisen die Verkaufsbedingungen (AGB) des Verkäufers auf Reparatur oder Ersatz statt auf Rückgabe?",
+        "fr": "Les conditions de vente (CGV) du vendeur renvoient-elles à une réparation ou à un remplacement plutôt qu’à la résiliation de la vente ?",
+        "it": "Le condizioni di vendita (CG) del venditore rinviano alla riparazione o alla sostituzione invece che alla restituzione?",
+        "en": "Do the seller's terms and conditions refer to repair or replacement instead of returning the item?",
+        "rm": "Renviain las cundiziuns generalas (CG) dal vendider a la reparaziun u al remplazzament empè da la restituziun?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, das habe ich nicht gesehen"
+            "de": "Nein, das habe ich nicht gesehen",
+            "fr": "Non, je n’ai rien vu de tel",
+            "it": "No, non l'ho visto",
+            "en": "No, I haven't seen that",
+            "rm": "Na, quai n'hai jau betg vis"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -198,7 +346,11 @@
       "id": "inspect-duty",
       "kind": "rule",
       "text": {
-        "de": "Sie müssen die gekaufte Sache prüfen, sobald es der übliche Geschäftsgang erlaubt, und einen entdeckten Mangel dem Verkäufer sofort melden. Tun Sie das nicht, gilt die Sache als genehmigt, ausser bei Mängeln, die bei einer normalen Prüfung nicht erkennbar waren. Solche versteckten Mängel müssen Sie sofort nach der Entdeckung melden."
+        "de": "Sie müssen die gekaufte Sache prüfen, sobald es der übliche Geschäftsgang erlaubt, und einen entdeckten Mangel dem Verkäufer sofort melden. Tun Sie das nicht, gilt die Sache als genehmigt, ausser bei Mängeln, die bei einer normalen Prüfung nicht erkennbar waren. Solche versteckten Mängel müssen Sie sofort nach der Entdeckung melden.",
+        "fr": "Vous devez vérifier l’objet acheté dès que la marche habituelle des affaires le permet, et signaler immédiatement au vendeur tout défaut découvert. Si vous ne le faites pas, l’objet est considéré comme accepté, sauf pour les défauts qu’une vérification normale ne permettait pas de découvrir. Ces défauts cachés doivent être signalés immédiatement après leur découverte.",
+        "it": "Deve controllare la cosa comprata non appena lo consenta il corso ordinario degli affari, e segnalare subito al venditore un difetto scoperto. Se non lo fa, la cosa si ritiene accettata, tranne che per i difetti non riconoscibili con un controllo ordinario. Tali difetti occulti deve segnalarli subito dopo averli scoperti.",
+        "en": "You must inspect the purchased item as soon as feasible in the normal course of business, and report any defect you find to the seller immediately. If you fail to do this, the item is deemed accepted, except for defects that a normal inspection would not have revealed. You must report such hidden defects immediately after discovering them.",
+        "rm": "Vus stuais examinar la chaussa cumprada uschespert sco il decurs normal dals affars al permetta, e communitgar ina mancanza scuvrida immediatamain al vendider. Sche Vus na fetschais betg quai, vala la chaussa sco approvada, ussa exceptà mancanzas che n'eran betg reconoschaivlas tar in'examinaziun normala. Talas mancanzas zuppadas stuais Vus communitgar immediatamain suenter l'avair scuvrì."
       },
       "sources": [
         "or-201"
@@ -213,7 +365,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie die Sache noch nicht geprüft, tun Sie das jetzt so schnell wie möglich und melden Sie einen allfälligen Mangel sofort. Je länger Sie warten, desto grösser ist das Risiko, dass die Sache als genehmigt gilt und Sie Ihre Ansprüche verlieren."
+        "de": "Haben Sie die Sache noch nicht geprüft, tun Sie das jetzt so schnell wie möglich und melden Sie einen allfälligen Mangel sofort. Je länger Sie warten, desto grösser ist das Risiko, dass die Sache als genehmigt gilt und Sie Ihre Ansprüche verlieren.",
+        "fr": "Si vous n’avez pas encore vérifié l’objet, faites-le maintenant le plus vite possible et signalez immédiatement tout défaut éventuel. Plus vous attendez, plus le risque est grand que l’objet soit considéré comme accepté et que vous perdiez vos droits.",
+        "it": "Se non ha ancora controllato la cosa, lo faccia ora il più presto possibile e segnali subito un eventuale difetto. Più aspetta, maggiore è il rischio che la cosa sia ritenuta accettata e che lei perda le sue pretese.",
+        "en": "If you have not yet inspected the item, do so now as quickly as possible and report any defect immediately. The longer you wait, the greater the risk that the item will be deemed accepted and that you will lose your claims.",
+        "rm": "Sche Vus n'avais anc betg examinà la chaussa, fetschai quai ussa uschespert sco pussaivel e communitgai ina eventuala mancanza immediatamain. Pli lung che Vus spetgais, pli grond è il ristg che la chaussa valga sco approvada e che Vus perdiais Voss dretgs."
       },
       "sources": [
         "or-201"
@@ -228,7 +384,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie einen entdeckten Mangel dem Verkäufer noch nicht gemeldet, tun Sie das sofort, am besten schriftlich mit Foto und Kaufdatum. Warten Sie zu lange, gilt die Sache auch bezüglich dieses Mangels als genehmigt."
+        "de": "Haben Sie einen entdeckten Mangel dem Verkäufer noch nicht gemeldet, tun Sie das sofort, am besten schriftlich mit Foto und Kaufdatum. Warten Sie zu lange, gilt die Sache auch bezüglich dieses Mangels als genehmigt.",
+        "fr": "Si vous n’avez pas encore signalé au vendeur un défaut découvert, faites-le immédiatement, si possible par écrit, avec une photo et la date d’achat. Si vous attendez trop longtemps, l’objet est considéré comme accepté également pour ce défaut.",
+        "it": "Se non ha ancora segnalato al venditore un difetto scoperto, lo faccia subito, idealmente per scritto con una foto e la data d'acquisto. Se aspetta troppo, la cosa si ritiene accettata anche riguardo a questo difetto.",
+        "en": "If you have discovered a defect but not yet reported it to the seller, do so immediately, ideally in writing with a photo and the purchase date. If you wait too long, the item will be deemed accepted with regard to that defect too.",
+        "rm": "Sche Vus n'avais anc betg communitgà al vendider ina mancanza scuvrida, fetschai quai immediatamain, il meglier en scrit cun foto e data da cumpra. Sche Vus spetgais memia lung, vala la chaussa era en connex cun questa mancanza sco approvada."
       },
       "sources": [
         "or-201"
@@ -238,7 +398,11 @@
       "id": "warranty-basis",
       "kind": "rule",
       "text": {
-        "de": "Der Verkäufer haftet dafür, dass die Sache keine Mängel hat, die ihren Wert oder ihre Tauglichkeit zum vorausgesetzten Gebrauch aufheben oder erheblich mindern, und zwar auch dann, wenn er die Mängel selbst nicht kannte."
+        "de": "Der Verkäufer haftet dafür, dass die Sache keine Mängel hat, die ihren Wert oder ihre Tauglichkeit zum vorausgesetzten Gebrauch aufheben oder erheblich mindern, und zwar auch dann, wenn er die Mängel selbst nicht kannte.",
+        "fr": "Le vendeur répond du fait que l’objet ne présente pas de défauts qui suppriment ou diminuent sensiblement sa valeur ou son aptitude à l’usage auquel il est destiné, et cela même s’il ignorait lui-même ces défauts.",
+        "it": "Il venditore risponde del fatto che la cosa non abbia difetti che ne tolgano o ne diminuiscano notevolmente il valore o l'idoneità all'uso a cui è destinata, anche se egli stesso non conosceva i difetti.",
+        "en": "The seller is liable to you for any defects that negate or substantially reduce the value of the item or its fitness for the intended use, even if the seller was not aware of the defects.",
+        "rm": "Il vendider respunda per il fatg che la chaussa n'haja naginas mancanzas che stizzan u reduceschan considerablamain lur valur u lur adattabladad per l'utilisaziun previsa, e quai era sch'el sez n'enconuscheva betg las mancanzas."
       },
       "sources": [
         "or-197"
@@ -248,7 +412,11 @@
       "id": "remedies",
       "kind": "rule",
       "text": {
-        "de": "Liegt ein solcher Mangel vor, haben Sie grundsätzlich die Wahl: Sie können vom Kauf zurücktreten (Wandelung) oder eine Preisminderung verlangen (Minderung). Ein Gericht kann bei einer Wandelungsklage auch nur eine Preisminderung zusprechen, wenn die Umstände eine Rückgabe nicht rechtfertigen. Erreicht die geforderte Minderung den ganzen Kaufpreis, können Sie nur noch die Rückgabe verlangen."
+        "de": "Liegt ein solcher Mangel vor, haben Sie grundsätzlich die Wahl: Sie können vom Kauf zurücktreten (Wandelung) oder eine Preisminderung verlangen (Minderung). Ein Gericht kann bei einer Wandelungsklage auch nur eine Preisminderung zusprechen, wenn die Umstände eine Rückgabe nicht rechtfertigen. Erreicht die geforderte Minderung den ganzen Kaufpreis, können Sie nur noch die Rückgabe verlangen.",
+        "fr": "En présence d’un tel défaut, vous avez en principe le choix : vous pouvez résilier la vente (résiliation) ou demander une réduction du prix (réduction du prix). En cas d’action en résiliation, le tribunal peut aussi se limiter à accorder une réduction du prix si les circonstances ne justifient pas une résiliation. Si la réduction demandée atteint la totalité du prix de vente, vous ne pouvez plus demander que la résiliation.",
+        "it": "Se sussiste un simile difetto, in linea di massima può scegliere: può recedere dal contratto (azione redibitoria) oppure chiedere un risarcimento per il minor valore della cosa (azione estimatoria). In caso di azione redibitoria, il giudice può anche accordare soltanto un risarcimento per il minor valore della cosa, se le circostanze non giustificano la restituzione. Se il risarcimento richiesto raggiunge l'intero prezzo d'acquisto, può chiedere solo più la restituzione.",
+        "en": "If such a defect is present, you generally have a choice: you can rescind the purchase (rescission) or ask for a price reduction. Even if you sue for rescission, a court may instead order only a price reduction if it considers that the circumstances do not justify rescission. If the reduction you are entitled to equals the whole purchase price, you can only claim rescission.",
+        "rm": "Sche ina tala mancanza è avant maun, avais Vus fundamentalmain la tscherna: Vus pudais retrair dal contract (redebitaziun) u pretender ina reducziun dal pretsch (reducziun). Ina dretgira po era, en cas d'ina plant da redebitaziun, concheder mo ina reducziun dal pretsch, sche las circumstanzas na giustifitgeschan betg ina restituziun. Sche la reducziun pretendida cuntanscha il pretsch da cumpra entir, pudais Vus mo pli pretender la restituziun."
       },
       "sources": [
         "or-205"
@@ -264,7 +432,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie eine Sache aus einer bestimmten Menge gleichartiger, vertretbarer Sachen gekauft, zum Beispiel eine Ware, die es mehrfach identisch gibt, können Sie statt Rückgabe oder Minderung auch Ersatzlieferung einwandfreier Ware derselben Art verlangen. Wurde Ihnen die Ware nicht von einem anderen Ort zugesandt, kann sich auch der Verkäufer durch sofortige Ersatzlieferung und Ersatz des entstandenen Schadens von weiteren Ansprüchen befreien."
+        "de": "Haben Sie eine Sache aus einer bestimmten Menge gleichartiger, vertretbarer Sachen gekauft, zum Beispiel eine Ware, die es mehrfach identisch gibt, können Sie statt Rückgabe oder Minderung auch Ersatzlieferung einwandfreier Ware derselben Art verlangen. Wurde Ihnen die Ware nicht von einem anderen Ort zugesandt, kann sich auch der Verkäufer durch sofortige Ersatzlieferung und Ersatz des entstandenen Schadens von weiteren Ansprüchen befreien.",
+        "fr": "Si vous avez acheté un objet provenant d’une quantité déterminée de choses fongibles, par exemple un article qui existe à l’identique en plusieurs exemplaires, vous pouvez, au lieu de la résiliation ou de la réduction du prix, exiger la livraison d’un objet irréprochable du même genre. Si la marchandise ne vous a pas été expédiée d’un autre lieu, le vendeur peut lui aussi se libérer de toute autre prétention en vous livrant immédiatement un objet de remplacement et en réparant le dommage subi.",
+        "it": "Se ha comprato una cosa tratta da una determinata quantità di cose fungibili dello stesso genere, per esempio una merce disponibile più volte in modo identico, può chiedere, invece della restituzione o della riduzione, anche la consegna sostitutiva di merce ineccepibile dello stesso genere. Se la merce non le è stata spedita da un altro luogo, anche il venditore può liberarsi da ulteriori pretese mediante l'immediata consegna sostitutiva e il risarcimento del danno subito.",
+        "en": "If you bought an item from a specified quantity of identical, interchangeable items, for example goods that exist in multiple identical units, you can also ask for a replacement delivery of flawless goods of the same kind instead of rescission or a price reduction. If the goods were not sent to you from another place, the seller can also discharge itself from further claims by immediately delivering a replacement and compensating you for any damage caused.",
+        "rm": "Sche Vus avais cumprà ina chaussa d'ina tscherta quantitad da chaussas da medema sort che pon vegnir remplazzadas, per exempel ina martganzia che exista pliras giadas identicamain, pudais Vus empè da restituziun u reducziun era pretender ina furniziun remplazzanta da martganzia impeccabla da medema sort. Sche la martganzia na Vus è betg vegnida tramessa d'in auter lieu, po er il vendider sa liberar dad ulteriuras pretensiuns tras ina furniziun remplazzanta immediata e la substituziun dal donn chaschunà."
       },
       "sources": [
         "or-206"
@@ -279,7 +451,11 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie in erster Linie eine Reparatur, prüfen Sie zuerst die Verkaufsbedingungen: Viele Verkäufer bieten freiwillig eine Reparatur oder eine Garantie an, die über die gesetzliche Gewährleistung hinausgeht. Das Gesetz selbst sieht in erster Linie Rückgabe oder Preisminderung vor, und Ersatzlieferung nur bei vertretbaren Sachen."
+        "de": "Wollen Sie in erster Linie eine Reparatur, prüfen Sie zuerst die Verkaufsbedingungen: Viele Verkäufer bieten freiwillig eine Reparatur oder eine Garantie an, die über die gesetzliche Gewährleistung hinausgeht. Das Gesetz selbst sieht in erster Linie Rückgabe oder Preisminderung vor, und Ersatzlieferung nur bei vertretbaren Sachen.",
+        "fr": "Si vous souhaitez avant tout une réparation, vérifiez d’abord les conditions de vente : de nombreux vendeurs proposent volontairement une réparation ou une garantie allant au-delà de la garantie légale. La loi elle-même prévoit en premier lieu la résiliation de la vente ou la réduction du prix, et la livraison de remplacement seulement pour les choses fongibles.",
+        "it": "Se desidera anzitutto una riparazione, controlli prima le condizioni di vendita: molti venditori offrono volontariamente una riparazione o una garanzia che va oltre la garanzia legale per i difetti. La legge stessa prevede in primo luogo la restituzione o la riduzione del prezzo, e la consegna sostitutiva solo per le cose fungibili.",
+        "en": "If your main aim is a repair, check the terms and conditions first: many sellers voluntarily offer a repair or a guarantee that goes beyond the statutory warranty. The law itself primarily provides for rescission or a price reduction, and a replacement delivery only for interchangeable items.",
+        "rm": "Sche Vus vulais en emprima lingia ina reparaziun, examinai avant tut las cundiziuns generalas: Blers vendiders porschan voluntariamain ina reparaziun u ina garanzia che va pli lunsch che la garanzia legala. La lescha sezza preveda en emprima lingia la restituziun u la reducziun dal pretsch, e la furniziun remplazzanta mo tar chaussas che pon vegnir remplazzadas."
       },
       "sources": [
         "or-205",
@@ -290,7 +466,11 @@
       "id": "limitation",
       "kind": "rule",
       "text": {
-        "de": "Ansprüche wegen eines Mangels verjähren zwei Jahre nach der Ablieferung der Sache an Sie, auch wenn Sie den Mangel erst später entdecken, ausser der Verkäufer hat eine längere Haftung zugesichert. Ist die Sache Teil eines unbeweglichen Bauwerks geworden und hat sie dessen Mangelhaftigkeit verursacht, beträgt die Frist fünf Jahre."
+        "de": "Ansprüche wegen eines Mangels verjähren zwei Jahre nach der Ablieferung der Sache an Sie, auch wenn Sie den Mangel erst später entdecken, ausser der Verkäufer hat eine längere Haftung zugesichert. Ist die Sache Teil eines unbeweglichen Bauwerks geworden und hat sie dessen Mangelhaftigkeit verursacht, beträgt die Frist fünf Jahre.",
+        "fr": "Les droits pour cause de défaut se prescrivent par deux ans à compter de la livraison de l’objet, même si vous ne découvrez le défaut que plus tard, sauf si le vendeur a promis une garantie plus longue. Si l’objet est devenu partie d’un ouvrage immobilier et a causé les défauts de cet ouvrage, le délai est de cinq ans.",
+        "it": "Le pretese per un difetto si prescrivono in due anni dalla consegna della cosa, anche se lei scopre il difetto solo più tardi, a meno che il venditore non abbia assunto una garanzia più estesa. Se la cosa è divenuta parte di un'opera immobiliare e ne ha causato la difettosità, il termine è di cinque anni.",
+        "en": "Claims for a defect become time-barred two years after the item was delivered to you, even if you only discover the defect later, unless the seller has guaranteed a longer period of liability. If the item has become part of an immovable structure and has caused that structure to be defective, the period is five years.",
+        "rm": "Pretensiuns pervia d'ina mancanza suranneschan dus onns suenter la consegna da la chaussa a Vus, era sche Vus scuvrais la mancanza mo pli tard, exceptà sche il vendider ha garantì ina responsabladad pli lunga. Sche la chaussa è daventada part d'ina ovra immovibla ed ha chaschunà la mancanza da quella, importa la termin tschintg onns."
       },
       "sources": [
         "or-210"
@@ -310,7 +490,11 @@
         ]
       },
       "text": {
-        "de": "Kaufen Sie als Privatperson für Ihren persönlichen oder familiären Gebrauch bei einem Verkäufer, der beruflich oder gewerblich handelt, darf diese Verjährungsfrist vertraglich nicht auf weniger als zwei Jahre verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+        "de": "Kaufen Sie als Privatperson für Ihren persönlichen oder familiären Gebrauch bei einem Verkäufer, der beruflich oder gewerblich handelt, darf diese Verjährungsfrist vertraglich nicht auf weniger als zwei Jahre verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig.",
+        "fr": "Si vous achetez en tant que particulier, pour votre usage personnel ou familial, auprès d’un vendeur agissant dans le cadre d’une activité professionnelle ou commerciale, ce délai de prescription ne peut pas être raccourci contractuellement à moins de deux ans. Un délai plus court prévu dans les conditions de vente est alors nul.",
+        "it": "Se acquista come privato, per uso personale o familiare, presso un venditore che agisce nell'esercizio della sua professione o della sua impresa, questo termine di prescrizione non può essere ridotto per contratto a meno di due anni. Un termine più breve nelle condizioni di vendita è in tal caso nullo.",
+        "en": "If you buy as a private individual for your personal or family use from a seller acting in a professional or commercial capacity, this time limit cannot be contractually shortened to less than two years. A shorter period in the terms and conditions is invalid in that case.",
+        "rm": "Sche Vus cumprais sco persuna privata per Voss utilisaziun persunala u familiara tar in vendider che agescha professiunalmain u commerzialmain, na dastga questa termin da surannaziun betg vegnir curtaschada contractualmain a damain che dus onns. Ina termin pli curta en las cundiziuns generalas è en quest cas nunvalaivla."
       },
       "sources": [
         "or-210"
@@ -329,7 +513,11 @@
         ]
       },
       "text": {
-        "de": "Kaufen Sie eine gebrauchte Sache als Privatperson bei einem beruflich oder gewerblich handelnden Verkäufer, darf die Verjährungsfrist vertraglich nicht auf weniger als ein Jahr verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig."
+        "de": "Kaufen Sie eine gebrauchte Sache als Privatperson bei einem beruflich oder gewerblich handelnden Verkäufer, darf die Verjährungsfrist vertraglich nicht auf weniger als ein Jahr verkürzt werden. Eine kürzere Frist in den Verkaufsbedingungen ist in diesem Fall ungültig.",
+        "fr": "Si vous achetez une chose d’occasion en tant que particulier auprès d’un vendeur agissant dans le cadre d’une activité professionnelle ou commerciale, le délai de prescription ne peut pas être raccourci contractuellement à moins d’un an. Un délai plus court prévu dans les conditions de vente est alors nul.",
+        "it": "Se acquista una cosa usata come privato presso un venditore che agisce nell'esercizio della sua professione o della sua impresa, il termine di prescrizione non può essere ridotto per contratto a meno di un anno. Un termine più breve nelle condizioni di vendita è in tal caso nullo.",
+        "en": "If you buy a second-hand item as a private individual from a seller acting in a professional or commercial capacity, the time limit cannot be contractually shortened to less than one year. A shorter period in the terms and conditions is invalid in that case.",
+        "rm": "Sche Vus cumprais ina chaussa d'ussanza sco persuna privata tar in vendider che agescha professiunalmain u commerzialmain, na dastga la termin da surannaziun betg vegnir curtaschada contractualmain a damain che in onn. Ina termin pli curta en las cundiziuns generalas è en quest cas nunvalaivla."
       },
       "sources": [
         "or-210"
@@ -345,7 +533,11 @@
         ]
       },
       "text": {
-        "de": "Der Verkäufer kann Ihre Rechte in seinen Verkaufsbedingungen einschränken oder zum Beispiel durch ein Recht auf Reparatur ersetzen. Eine solche Einschränkung gilt aber nicht, wenn der Verkäufer Ihnen den Mangel absichtlich verschwiegen hat."
+        "de": "Der Verkäufer kann Ihre Rechte in seinen Verkaufsbedingungen einschränken oder zum Beispiel durch ein Recht auf Reparatur ersetzen. Eine solche Einschränkung gilt aber nicht, wenn der Verkäufer Ihnen den Mangel absichtlich verschwiegen hat.",
+        "fr": "Le vendeur peut restreindre vos droits dans ses conditions de vente, ou les remplacer par exemple par un droit à la réparation. Une telle restriction ne vaut toutefois pas si le vendeur vous a intentionnellement caché le défaut.",
+        "it": "Il venditore può limitare i suoi diritti nelle proprie condizioni di vendita, oppure sostituirli per esempio con un diritto alla riparazione. Una simile limitazione non vale però se il venditore le ha intenzionalmente taciuto il difetto.",
+        "en": "The seller can restrict your rights in its terms and conditions, or replace them, for example, with a right to a repair. Such a restriction does not apply, however, if the seller wilfully concealed the defect from you.",
+        "rm": "Il vendider po restrenscher Voss dretgs en sias cundiziuns generalas u substituir els per exempel tras in dretg da reparaziun. Ina tala restricziun na vala dentant betg, sche il vendider Vus ha zuppà la mancanza a bel intent."
       },
       "sources": [
         "or-199"
@@ -355,14 +547,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der Verkäufer nicht reagiert, wenn es um einen hohen Betrag geht, oder wenn unklar ist, ob die Verjährungsfrist schon abgelaufen ist."
+        "de": "Holen Sie persönliche Beratung, wenn der Verkäufer nicht reagiert, wenn es um einen hohen Betrag geht, oder wenn unklar ist, ob die Verjährungsfrist schon abgelaufen ist.",
+        "fr": "Demandez un conseil personnalisé si le vendeur ne réagit pas, si le montant en jeu est élevé, ou s’il n’est pas clair que le délai de prescription soit déjà écoulé.",
+        "it": "Si faccia consigliare personalmente se il venditore non reagisce, se si tratta di un importo elevato, oppure se non è chiaro se il termine di prescrizione sia già scaduto.",
+        "en": "Get personal advice if the seller does not respond, if a large amount of money is at stake, or if it is unclear whether the time limit has already expired.",
+        "rm": "Retschertgai cussegliaziun persunala, sche il vendider na reagescha betg, sche i sa tracta d'in import auss, u sche i n'è betg cler, sche la termin da surannaziun è gia scadida."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Reklamationen. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an. Für einzelne Branchen gibt es kostenlose Schlichtungsstellen, die zwischen Ihnen und dem Verkäufer vermitteln."
+        "de": "Kostenlose oder günstige Hilfe: Konsumentenorganisationen beraten bei Reklamationen. Manche Kantone und Anwaltsverbände bieten eine kostenlose Erstauskunft an. Für einzelne Branchen gibt es kostenlose Schlichtungsstellen, die zwischen Ihnen und dem Verkäufer vermitteln.",
+        "fr": "Aide gratuite ou à faible coût : les organisations de consommateurs conseillent en cas de réclamation. Certains cantons et associations d’avocats offrent une première consultation gratuite. Pour certaines branches, il existe des organes de conciliation gratuits qui interviennent entre vous et le vendeur.",
+        "it": "Aiuto gratuito o a basso costo: le organizzazioni dei consumatori consigliano in caso di reclami. Alcuni Cantoni e ordini degli avvocati offrono una prima consulenza gratuita. Per singoli settori esistono organi di conciliazione gratuiti, che mediano tra lei e il venditore.",
+        "en": "Free or low-cost help: consumer organisations advise on complaints. Some cantons and bar associations offer a free initial consultation. For some industries there are free conciliation boards that mediate between you and the seller.",
+        "rm": "Agid gratuit u avantagius: Organisaziuns da consuments cusseglian tar reclamaziuns. Tscherts chantuns e federaziuns d'advocatas ed advocats offran in emprim cussegl gratuit. Per singulas branschas exista posts da conciliaziun gratuits, che intermedieschan tranter Vus e il vendider."
       }
     }
   ],
@@ -419,7 +619,11 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Waren zurückgeben oder umtauschen"
+        "de": "ch.ch: Waren zurückgeben oder umtauschen",
+        "fr": "ch.ch : Retourner ou échanger des marchandises",
+        "it": "ch.ch: restituire o cambiare merce",
+        "en": "ch.ch: Returning or exchanging goods",
+        "rm": "ch.ch: Restituir u barattar martganzia"
       },
       "url": "https://www.ch.ch/de/sicherheit-und-recht/waren-zuruckgeben-oder-umtauschen/"
     }

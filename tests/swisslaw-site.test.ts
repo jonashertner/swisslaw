@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readdirSync, readFileSync } from 'node:fs';
 import { SituationSchema, type Situation } from '../lib/swisslaw-chat/knowledge';
-import { checkedFacts, LETTERS, parseRoute, searchSituations, situationHash, visibleInChannel } from '../lib/swisslaw-chat/site';
+import { checkedFacts, LETTERS, parseRoute, searchSituations, situationHash, sourceLabel, sourceUrl, unreviewedTranslation, visibleInChannel, withPublishedLanguages } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, LETTER_TEXT, SITE_TEXT } from '../lib/swisslaw-chat/site-i18n';
 import { LATER, WAVE_1 } from '../lib/swisslaw-chat/coverage';
 
@@ -60,4 +60,27 @@ test('coverage lists every situation once, in all five languages', () => {
       for (const x of g.topics) assert.ok(x.title[lang], `${x.id ?? x.title.de}.${lang}`);
     }
   }
+});
+
+test('unreviewed translations stay off the public site', () => {
+  const s = structuredClone(all.find(x => x.id === 'tenancy.early-exit')!);
+  s.title.fr = 'Je veux partir avant la fin du délai de congé'; s.blocks[0].text.fr = 'Texte'; s.examples.fr = ['Partir plus tôt']; delete s.title.it;
+  s.review.languages_reviewed = ['de'];
+  const pub = withPublishedLanguages(s, 'public');
+  assert.equal(pub.title.fr, undefined); assert.equal(pub.blocks[0].text.fr, undefined); assert.equal(pub.examples.fr, undefined);
+  assert.equal(pub.sources['or-264'].url, s.sources['or-264'].url);
+  assert.equal(withPublishedLanguages(s, 'review').title.fr, s.title.fr);
+  assert.ok(unreviewedTranslation(s, 'fr')); assert.ok(!unreviewedTranslation(s, 'it'));
+  s.review.languages_reviewed = ['de', 'fr'];
+  assert.equal(withPublishedLanguages(s, 'public').title.fr, s.title.fr); assert.ok(!unreviewedTranslation(s, 'fr'));
+});
+
+test('sources use the reader\'s official abbreviations and Fedlex language', () => {
+  const s = all.find(x => x.id === 'tenancy.early-exit')!;
+  assert.equal(sourceLabel(s.sources['or-264'], 'fr'), 'CO · art. 264');
+  assert.equal(sourceUrl(s.sources['or-264'], 'it'), 'https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it#art_264');
+  assert.equal(sourceLabel(s.sources['or-264'], 'en'), 'OR · Art. 264');
+  assert.equal(sourceLabel(s.sources['bge-119-ii-36'], 'it'), 'DTF 119 II 36, consid. 3d');
+  assert.equal(sourceLabel(s.sources['bger-4a-452-2019'], 'fr'), 'TF 4A_452/2019 du 1er juillet 2020, consid. 4.6');
+  assert.equal(sourceLabel(s.sources['bger-4a-452-2019'], 'de'), 'BGer 4A_452/2019 vom 1. Juli 2020, E. 4.6');
 });

@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Welche Daten hat eine Firma über mich?"
+    "de": "Welche Daten hat eine Firma über mich?",
+    "fr": "Quelles données une entreprise détient-elle sur moi ?",
+    "it": "Quali dati ha un'azienda su di me?",
+    "en": "What data does a company hold about me?",
+    "rm": "Tge datas ha ina firma davart mai?"
   },
   "summary": {
-    "de": "Jede Person kann von einer Firma oder Behörde Auskunft verlangen, welche Personendaten über sie bearbeitet werden. Die Auskunft ist grundsätzlich kostenlos und muss in der Regel innert 30 Tagen erfolgen. In bestimmten Fällen darf sie eingeschränkt oder verweigert werden."
+    "de": "Jede Person kann von einer Firma oder Behörde Auskunft verlangen, welche Personendaten über sie bearbeitet werden. Die Auskunft ist grundsätzlich kostenlos und muss in der Regel innert 30 Tagen erfolgen. In bestimmten Fällen darf sie eingeschränkt oder verweigert werden.",
+    "fr": "Toute personne peut demander à une entreprise ou à une autorité de lui indiquer quelles données personnelles la concernant sont traitées. Cette information est en principe gratuite et doit en général être fournie dans un délai de 30 jours. Dans certains cas, elle peut être restreinte ou refusée.",
+    "it": "Ogni persona può chiedere a un'azienda o a un'autorità quali dati personali che la riguardano vengono trattati. L'informazione è di principio gratuita e deve di regola essere fornita entro 30 giorni. In determinati casi può essere limitata o rifiutata.",
+    "en": "Anyone can ask a company or public authority for information on what personal data is being processed about them. This right to information (Auskunftsrecht / droit d'accès) is generally free of charge and must usually be provided within 30 days. In certain cases it may be restricted or refused.",
+    "rm": "Mintga persuna po pretender d'ina firma u d'in'autoritad infurmaziuns, tge datas persunalas che vegnan elavuradas davart ella. L'infurmaziun è fundamentalmain gratuita e sto avair lieu normalmain entaifer 30 dis. En tscherts cas dastga ella vegnir restrenschida u refusada."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Ich habe seit Wochen keine Antwort auf mein Auskunftsgesuch erhalten.",
       "Weles Date het e Firma über mich gspeicheret?",
       "Eine Firma verweigert mir die Auskunft über meine Daten, was kann ich tun?"
+    ],
+    "fr": [
+      "Quelles données une entreprise a-t-elle enregistrées sur moi ?",
+      "Comment déposer une demande d’accès selon la loi sur la protection des données ?",
+      "Une entreprise veut me faire payer pour l’accès à mes données, est-ce autorisé ?",
+      "Je n’ai reçu aucune réponse à ma demande d’accès depuis des semaines.",
+      "Quelles données une entreprise a-t-elle sur moi ?",
+      "Une entreprise me refuse l’accès à mes données, que puis-je faire ?"
+    ],
+    "it": [
+      "Quali dati ha memorizzato un'azienda su di me?",
+      "Come presento una domanda di accesso secondo la legge sulla protezione dei dati?",
+      "Un'azienda vuole farmi pagare per l'informazione sui miei dati, è permesso?",
+      "Non ho ricevuto risposta alla mia domanda di accesso da settimane.",
+      "Che dati ha salvato un'azienda su di me?",
+      "Un'azienda mi rifiuta l'informazione sui miei dati, cosa posso fare?"
+    ],
+    "en": [
+      "What data does a company have stored about me?",
+      "How do I submit a request for information under the Data Protection Act?",
+      "A company wants to charge me for information about my data, is that allowed?",
+      "I haven't had a reply to my request for information for weeks.",
+      "What data does a company have on me?",
+      "A company is refusing to give me information about my data, what can I do?"
+    ],
+    "rm": [
+      "Tge datas ha ina firma memorisà davart mai?",
+      "Co fetsch jau ina dumonda d'infurmaziun tenor la lescha da protecziun da datas?",
+      "Ina firma vul dumandar daners per l'infurmaziun davart mias datas, è quai permess?",
+      "Jau n'hai betg survegnì resposta a mia dumonda d'infurmaziun dapi emnas.",
+      "Tge datas ha ina firma memorisà davart mai?",
+      "Ina firma refusa da Vus dar l'infurmaziun davart mias datas, tge poss jau far?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Das Auskunftsrecht gegenüber privaten Firmen, Vereinen und Bundesbehörden, die Personendaten über Sie bearbeiten, nach dem schweizerischen Datenschutzgesetz."
+      "de": "Das Auskunftsrecht gegenüber privaten Firmen, Vereinen und Bundesbehörden, die Personendaten über Sie bearbeiten, nach dem schweizerischen Datenschutzgesetz.",
+      "fr": "Le droit d’accès envers les entreprises privées, les associations et les autorités fédérales qui traitent des données personnelles vous concernant, selon la loi suisse sur la protection des données.",
+      "it": "Il diritto d'accesso nei confronti di aziende private, associazioni e autorità federali che trattano dati personali che la riguardano, secondo la legge svizzera sulla protezione dei dati.",
+      "en": "The right to information under the Swiss Data Protection Act against private companies, associations and federal authorities that process personal data about you.",
+      "rm": "Il dretg d'obtegnair infurmaziuns envers firmas privatas, associaziuns ed autoritads federalas che elavureschan datas persunalas davart Vus, tenor la lescha svizra da protecziun da datas."
     },
     "excludes": {
-      "de": "Auskunftsgesuche gegenüber kantonalen oder kommunalen Behörden, die eigenem kantonalem Datenschutzrecht unterstehen, sowie Gesuche gegenüber Firmen im Ausland ohne Bezug zur Schweiz."
+      "de": "Auskunftsgesuche gegenüber kantonalen oder kommunalen Behörden, die eigenem kantonalem Datenschutzrecht unterstehen, sowie Gesuche gegenüber Firmen im Ausland ohne Bezug zur Schweiz.",
+      "fr": "Les demandes d’accès adressées à des autorités cantonales ou communales, qui relèvent de leur propre droit cantonal de protection des données, ainsi que les demandes adressées à des entreprises à l’étranger sans lien avec la Suisse.",
+      "it": "Le domande di accesso nei confronti di autorità cantonali o comunali, che sottostanno al proprio diritto cantonale della protezione dei dati, nonché le domande nei confronti di aziende all'estero senza alcun legame con la Svizzera.",
+      "en": "Requests for information addressed to cantonal or municipal authorities, which are subject to their own cantonal data protection law, and requests addressed to companies abroad with no connection to Switzerland.",
+      "rm": "Dumondas d'infurmaziun envers autoritads chantunalas u communalas, che sutstattan al dretg chantunal atgn da protecziun da datas, sco er dumondas envers firmas a l'exteriur senza connex a la Svizra."
     }
   },
   "facts": [
     {
       "key": "responsible",
       "question": {
-        "de": "Wer bearbeitet die Daten, über die Sie Auskunft möchten?"
+        "de": "Wer bearbeitet die Daten, über die Sie Auskunft möchten?",
+        "fr": "Qui traite les données pour lesquelles vous souhaitez un accès ?",
+        "it": "Chi tratta i dati sui quali desidera ottenere informazioni?",
+        "en": "Who is processing the data you want information about?",
+        "rm": "Tgi elavurescha las datas, davart las qualas Vus vulais infurmaziun?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Eine private Firma oder ein Verein"
+            "de": "Eine private Firma oder ein Verein",
+            "fr": "Une entreprise privée ou une association",
+            "it": "Un'azienda privata o un'associazione",
+            "en": "A private company or an association",
+            "rm": "Ina firma privata u in'associaziun"
           }
         },
         {
           "value": "federal",
           "label": {
-            "de": "Eine Bundesbehörde"
+            "de": "Eine Bundesbehörde",
+            "fr": "Une autorité fédérale",
+            "it": "Un'autorità federale",
+            "en": "A federal authority",
+            "rm": "In'autoritad federala"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht sicher"
+            "de": "Ich weiss es nicht sicher",
+            "fr": "Je n’en ai pas la certitude",
+            "it": "Non lo so con sicurezza",
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg cun segirezza"
           }
         }
       ]
@@ -59,37 +123,61 @@
     {
       "key": "status",
       "question": {
-        "de": "Haben Sie bereits ein Auskunftsgesuch gestellt und wie hat die Firma reagiert?"
+        "de": "Haben Sie bereits ein Auskunftsgesuch gestellt und wie hat die Firma reagiert?",
+        "fr": "Avez-vous déjà déposé une demande d’accès, et comment l’entreprise a-t-elle réagi ?",
+        "it": "Ha già presentato una domanda di accesso, e come ha reagito l'azienda?",
+        "en": "Have you already made a request for information, and how did the company respond?",
+        "rm": "Avais Vus gia fatg ina dumonda d'infurmaziun e co ha la firma reagì?"
       },
       "options": [
         {
           "value": "not-yet",
           "label": {
-            "de": "Ich habe noch kein Gesuch gestellt"
+            "de": "Ich habe noch kein Gesuch gestellt",
+            "fr": "Je n’ai pas encore déposé de demande",
+            "it": "Non ho ancora presentato nessuna domanda",
+            "en": "I haven't made a request yet",
+            "rm": "Jau n'hai anc fatg nagina dumonda"
           }
         },
         {
           "value": "no-answer",
           "label": {
-            "de": "Ich habe noch keine Antwort erhalten"
+            "de": "Ich habe noch keine Antwort erhalten",
+            "fr": "Je n’ai encore reçu aucune réponse",
+            "it": "Non ho ancora ricevuto risposta",
+            "en": "I haven't received a reply yet",
+            "rm": "Jau n'hai anc survegnì nagina resposta"
           }
         },
         {
           "value": "refused",
           "label": {
-            "de": "Die Auskunft wurde verweigert oder eingeschränkt"
+            "de": "Die Auskunft wurde verweigert oder eingeschränkt",
+            "fr": "L’accès a été refusé ou restreint",
+            "it": "L'informazione è stata rifiutata o limitata",
+            "en": "The information was refused or restricted",
+            "rm": "L'infurmaziun è vegnida refusada u restrenschida"
           }
         },
         {
           "value": "answered",
           "label": {
-            "de": "Ich habe eine Antwort erhalten, bin aber nicht sicher, ob sie vollständig ist"
+            "de": "Ich habe eine Antwort erhalten, bin aber nicht sicher, ob sie vollständig ist",
+            "fr": "J’ai reçu une réponse, mais je ne suis pas sûr qu’elle soit complète",
+            "it": "Ho ricevuto una risposta, ma non ho la certezza che sia completa",
+            "en": "I received a reply, but I'm not sure whether it's complete",
+            "rm": "Jau hai survegnì ina resposta, ma na sai betg sch'ella è cumpletta"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -97,25 +185,41 @@
     {
       "key": "cost_requested",
       "question": {
-        "de": "Wurde von Ihnen für die Auskunft eine Zahlung verlangt?"
+        "de": "Wurde von Ihnen für die Auskunft eine Zahlung verlangt?",
+        "fr": "Un paiement vous a-t-il été demandé pour l’accès ?",
+        "it": "Le è stato chiesto un pagamento per l'informazione?",
+        "en": "Were you asked to pay for the information?",
+        "rm": "È Vus vegnì pretendì in pajament per l'infurmaziun?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Trifft nicht zu oder ich weiss es nicht"
+            "de": "Trifft nicht zu oder ich weiss es nicht",
+            "fr": "Sans objet, ou je ne sais pas",
+            "it": "Non è il mio caso, oppure non lo so",
+            "en": "Not applicable, or I don't know",
+            "rm": "Na tucca betg u jau na sai betg"
           }
         }
       ]
@@ -126,7 +230,11 @@
       "id": "right-to-access",
       "kind": "rule",
       "text": {
-        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten."
+        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten.",
+        "fr": "Vous pouvez demander à toute entreprise, association ou autorité si et quelles données personnelles vous concernant sont traitées. Vous avez droit à l’identité du responsable du traitement, aux données traitées elles-mêmes, à la finalité du traitement, à la durée de conservation ou aux critères pour la fixer, à l’origine des données, ainsi qu’aux destinataires auxquels les données sont communiquées. Vous ne pouvez pas renoncer d’avance à ce droit.",
+        "it": "Può chiedere a ogni azienda, associazione o autorità se e quali dati personali che la riguardano vengono trattati. Ha diritto all'identità del titolare del trattamento, ai dati trattati stessi, allo scopo del trattamento, alla durata di conservazione o ai criteri per determinarla, all'origine dei dati, nonché ai destinatari a cui i dati vengono comunicati. Non può rinunciare in anticipo a questo diritto.",
+        "en": "You can ask any company, association or authority whether, and which, personal data is being processed about you. You are entitled to the identity and contact details of the controller, the processed personal data itself, the purpose of the processing, the retention period for the data or the criteria for determining it, the available information on the origin of the data, and the recipients or categories of recipients to which data is disclosed. You cannot waive this right in advance.",
+        "rm": "Vus pudais pretender da mintga firma, mintga associaziun u mintga autoritad, sche e tge datas persunalas che vegnan elavuradas davart Vus. Vus avais dretg a l'identitad dal post responsabel, las datas elavuradas sezzas, il fin da l'elavuraziun, la durada da conservaziun u ils criteris per quai, la derivanza da las datas, sco er las destinatarias ed ils destinatars, als quals datas vegnan trasmessas. Sin quest dretg na pudais Vus betg renunziar ordavant."
       },
       "sources": [
         "dsg-25"
@@ -136,7 +244,11 @@
       "id": "free-of-charge",
       "kind": "cost",
       "text": {
-        "de": "Die Auskunft muss grundsätzlich kostenlos erteilt werden. Nur wenn die Auskunft einen unverhältnismässigen Aufwand verursacht, darf eine Beteiligung an den Kosten von höchstens 300 Franken verlangt werden. Das muss Ihnen vor der Auskunftserteilung mitgeteilt werden; bestätigen Sie das Gesuch danach nicht innert 10 Tagen, gilt es als ohne Kostenfolge zurückgezogen."
+        "de": "Die Auskunft muss grundsätzlich kostenlos erteilt werden. Nur wenn die Auskunft einen unverhältnismässigen Aufwand verursacht, darf eine Beteiligung an den Kosten von höchstens 300 Franken verlangt werden. Das muss Ihnen vor der Auskunftserteilung mitgeteilt werden; bestätigen Sie das Gesuch danach nicht innert 10 Tagen, gilt es als ohne Kostenfolge zurückgezogen.",
+        "fr": "L’information doit en principe être fournie gratuitement. Ce n’est que si elle occasionne des efforts disproportionnés qu’une participation aux frais de 300 francs au maximum peut être demandée. Cela doit vous être communiqué avant que l’information ne soit donnée ; si vous ne confirmez pas la demande dans les 10 jours, elle est considérée comme retirée sans frais.",
+        "it": "L'informazione deve di principio essere fornita gratuitamente. Solo se l'informazione causa un onere sproporzionato, può essere richiesta una partecipazione alle spese di al massimo 300 franchi. Questo le deve essere comunicato prima della fornitura dell'informazione; se in seguito non conferma la domanda entro 10 giorni, questa si considera ritirata senza conseguenze sui costi.",
+        "en": "The information must generally be provided free of charge. Only if providing the information involves disproportionate effort may a contribution to the costs of at most 300 francs be charged. You must be told this before the information is provided; if you do not then confirm your request within 10 days, it is deemed withdrawn without any cost consequences.",
+        "rm": "L'infurmaziun sto fundamentalmain vegnir dada gratuitamain. Mo sche l'infurmaziun chaschuna in effort sproporziunà, dastga vegnir pretendida ina participaziun als custs da maximalmain 300 francs. Quai sto Vus vegnir communitgà avant l'infurmaziun; sche Vus na confirmais betg la dumonda entaifer 10 dis suenter quai, vala ella sco retratga senza consequenzas da custs."
       },
       "sources": [
         "dsg-25",
@@ -153,7 +265,11 @@
       "id": "response-deadline",
       "kind": "rule",
       "text": {
-        "de": "Die Auskunft muss grundsätzlich innerhalb von 30 Tagen nach Eingang Ihres Gesuchs erteilt werden. Ist das nicht möglich, muss man Sie darüber informieren und Ihnen mitteilen, bis wann die Auskunft erfolgt. Auch eine Verweigerung, Einschränkung oder ein Aufschub der Auskunft muss innert dieser Frist mitgeteilt werden."
+        "de": "Die Auskunft muss grundsätzlich innerhalb von 30 Tagen nach Eingang Ihres Gesuchs erteilt werden. Ist das nicht möglich, muss man Sie darüber informieren und Ihnen mitteilen, bis wann die Auskunft erfolgt. Auch eine Verweigerung, Einschränkung oder ein Aufschub der Auskunft muss innert dieser Frist mitgeteilt werden.",
+        "fr": "L’information doit en principe être fournie dans un délai de 30 jours après réception de votre demande. Si cela n’est pas possible, on doit vous en informer et vous indiquer d’ici quand l’information sera fournie. Un refus, une restriction ou un report de l’information doit également vous être communiqué dans ce délai.",
+        "it": "L'informazione deve di principio essere fornita entro 30 giorni dalla ricezione della sua domanda. Se ciò non è possibile, deve esserne informata e le si deve comunicare entro quando l'informazione sarà fornita. Anche un rifiuto, una limitazione o un differimento dell'informazione devono esserle comunicati entro questo termine.",
+        "en": "The information must generally be provided within 30 days of receipt of your request. If that is not possible, you must be told this and informed by when the information will be provided. A refusal, restriction or postponement of the information must also be communicated within this time limit.",
+        "rm": "L'infurmaziun sto fundamentalmain vegnir dada entaifer 30 dis suenter l'entrada da Vossa dumonda. Sche quai n'è betg pussaivel, sto insatgi Vus infurmar davart quai e communitgar a Vus fin quaunda che l'infurmaziun ha lieu. Er ina refusa, restricziun u dilaziun da l'infurmaziun sto vegnir communitgada entaifer questa termin."
       },
       "sources": [
         "dsv-18"
@@ -163,7 +279,11 @@
       "id": "restrictions",
       "kind": "warning",
       "text": {
-        "de": "Die Auskunft darf verweigert, eingeschränkt oder aufgeschoben werden, wenn ein Gesetz das vorsieht, etwa zum Schutz eines Berufsgeheimnisses, wenn überwiegende Interessen Dritter das erfordern, oder wenn das Gesuch offensichtlich unbegründet oder querulatorisch ist. Für private Firmen kommt hinzu: eigene überwiegende Interessen genügen nur, wenn die Daten nicht an Dritte weitergegeben werden. Die verantwortliche Stelle muss Ihnen begründen, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt."
+        "de": "Die Auskunft darf verweigert, eingeschränkt oder aufgeschoben werden, wenn ein Gesetz das vorsieht, etwa zum Schutz eines Berufsgeheimnisses, wenn überwiegende Interessen Dritter das erfordern, oder wenn das Gesuch offensichtlich unbegründet oder querulatorisch ist. Für private Firmen kommt hinzu: eigene überwiegende Interessen genügen nur, wenn die Daten nicht an Dritte weitergegeben werden. Die verantwortliche Stelle muss Ihnen begründen, weshalb sie die Auskunft verweigert, einschränkt oder aufschiebt.",
+        "fr": "L’information peut être refusée, restreinte ou différée lorsqu’une loi le prévoit, notamment pour protéger un secret professionnel, lorsque des intérêts prépondérants de tiers l’exigent, ou lorsque la demande est manifestement infondée ou procédurière. Pour les entreprises privées s’ajoute ceci : leurs propres intérêts prépondérants ne suffisent que si les données ne sont pas communiquées à des tiers. Le responsable du traitement doit vous indiquer le motif pour lequel il refuse, restreint ou diffère l’information.",
+        "it": "L'informazione può essere rifiutata, limitata o differita se una legge lo prevede, per esempio a tutela di un segreto professionale, se lo richiedono interessi preponderanti di terzi, oppure se la domanda è manifestamente infondata o querulomane. Per le aziende private si aggiunge quanto segue: propri interessi preponderanti bastano solo se i dati non vengono comunicati a terzi. Il titolare del trattamento deve motivarle perché rifiuta, limita o differisce l'informazione.",
+        "en": "The information may be refused, restricted or postponed if a law so provides, for example to protect professional secrecy, if it is required to safeguard overriding third-party interests, or if the request is obviously unfounded or vexatious. For private companies there is an additional ground: the controller's own overriding interests are sufficient only if the data is not disclosed to third parties. The controller must give you reasons for refusing, restricting or postponing the information.",
+        "rm": "L'infurmaziun dastga vegnir refusada, restrenschida u dilazionada, sche ina lescha quai preveda, per exempel per proteger in secret professiunal, sche interess predominants da terzas persunas quai pretendan, u sche la dumonda è evidentamain nunfundada u querulatorica. Per firmas privatas vegn agiuntà: interess predominants atgns bastan mo, sche las datas na vegnan betg trasmessas a terzas persunas. Il post responsabel sto motivar a Vus, pertge ch'el refusa, restrenscha u dilaziuna l'infurmaziun."
       },
       "sources": [
         "dsg-26"
@@ -173,7 +293,11 @@
       "id": "how-to-write",
       "kind": "step",
       "text": {
-        "de": "Schreiben Sie Ihr Gesuch schriftlich an die Firma oder Behörde. Nennen Sie Ihren vollen Namen und Ihre Kontaktdaten, damit man Sie identifizieren kann, und verlangen Sie ausdrücklich Auskunft über alle Personendaten, die über Sie bearbeitet werden, einschliesslich Herkunft, Zweck, Aufbewahrungsdauer und Empfängerinnen und Empfänger. Bewahren Sie eine Kopie Ihres Gesuchs auf und notieren Sie das Absendedatum."
+        "de": "Schreiben Sie Ihr Gesuch schriftlich an die Firma oder Behörde. Nennen Sie Ihren vollen Namen und Ihre Kontaktdaten, damit man Sie identifizieren kann, und verlangen Sie ausdrücklich Auskunft über alle Personendaten, die über Sie bearbeitet werden, einschliesslich Herkunft, Zweck, Aufbewahrungsdauer und Empfängerinnen und Empfänger. Bewahren Sie eine Kopie Ihres Gesuchs auf und notieren Sie das Absendedatum.",
+        "fr": "Adressez votre demande par écrit à l’entreprise ou à l’autorité. Indiquez votre nom complet et vos coordonnées afin de permettre votre identification, et demandez expressément l’accès à toutes les données personnelles traitées vous concernant, y compris leur origine, leur finalité, leur durée de conservation et leurs destinataires. Conservez une copie de votre demande et notez la date d’envoi.",
+        "it": "Scriva la sua domanda per scritto all'azienda o all'autorità. Indichi il suo nome completo e i suoi dati di contatto, affinché la si possa identificare, e chieda espressamente informazioni su tutti i dati personali che la riguardano trattati, inclusi origine, scopo, durata di conservazione e destinatari. Conservi una copia della sua domanda e annoti la data di invio.",
+        "en": "Write your request in writing to the company or authority. Give your full name and contact details so that you can be identified, and expressly ask for information on all personal data being processed about you, including its origin, purpose, retention period, and recipients. Keep a copy of your request and note the date you sent it.",
+        "rm": "Scrivai Vossa dumonda en scrit a la firma u a l'autoritad. Numnai Voss num cumplet e Vossas datas da contact, per che insatgi possia identifitgar Vus, e pretendai explicitamain infurmaziun davart tut las datas persunalas che vegnan elavuradas davart Vus, inclusa la derivanza, il fin, la durada da conservaziun e las destinatarias ed ils destinatars. Conservai ina copia da Vossa dumonda e notai la data da spediziun."
       }
     },
     {
@@ -186,7 +310,11 @@
         ]
       },
       "text": {
-        "de": "Stellen Sie fest, dass Daten über Sie unrichtig sind, können Sie deren Berichtigung verlangen, ausser wenn ein Gesetz das verbietet oder die Daten zu Archivzwecken im öffentlichen Interesse bearbeitet werden. Sie können zudem auf dem Klageweg verlangen, dass eine bestimmte Bearbeitung oder Weitergabe unterbleibt, oder dass Daten gelöscht oder vernichtet werden."
+        "de": "Stellen Sie fest, dass Daten über Sie unrichtig sind, können Sie deren Berichtigung verlangen, ausser wenn ein Gesetz das verbietet oder die Daten zu Archivzwecken im öffentlichen Interesse bearbeitet werden. Sie können zudem auf dem Klageweg verlangen, dass eine bestimmte Bearbeitung oder Weitergabe unterbleibt, oder dass Daten gelöscht oder vernichtet werden.",
+        "fr": "Si vous constatez que des données vous concernant sont inexactes, vous pouvez en demander la rectification, sauf si une loi l’interdit ou si les données sont traitées à des fins d’archivage dans l’intérêt public. Vous pouvez en outre demander, par voie d’action, qu’un traitement ou une communication déterminée cesse, ou que des données soient effacées ou détruites.",
+        "it": "Se constata che dati che la riguardano sono inesatti, può chiederne la rettifica, a meno che una legge lo vieti o che i dati siano trattati a scopi di archiviazione nell'interesse pubblico. Può inoltre chiedere per via giudiziale che un determinato trattamento o una determinata comunicazione non abbiano luogo, oppure che i dati siano cancellati o distrutti.",
+        "en": "If you find that data about you is incorrect, you can ask for it to be corrected, unless a law prohibits this or the data is processed for archiving purposes in the public interest. You can also bring a claim in court to have a particular processing activity or disclosure stopped, or to have data deleted or destroyed.",
+        "rm": "Sche Vus constatais che datas davart Vus n'èn betg correctas, pudais Vus pretender lur rectificaziun, exceptà sche ina lescha quai scumonda u sche las datas vegnan elavuradas per finamiras d'archiv en interess public. Vus pudais era pretender per via da plant che ina tscherta elavuraziun u trasmissiun na vegnia betg fatga, u che datas vegnian stizzadas u destruidas."
       },
       "sources": [
         "dsg-32"
@@ -203,7 +331,11 @@
         ]
       },
       "text": {
-        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis."
+        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis.",
+        "fr": "Si vous ne recevez aucune réponse, une réponse tardive, ou une réponse manifestement insuffisante, vous pouvez vous adresser, par une dénonciation, au Préposé fédéral à la protection des données et à la transparence (PFPDT). Le PFPDT peut ouvrir une enquête et vous informe de son résultat.",
+        "it": "Se non riceve alcuna risposta, non la riceve in tempo utile, oppure riceve una risposta manifestamente insufficiente, può rivolgersi con una segnalazione all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT). L'IFPDT può aprire un'inchiesta e la informa sul relativo esito.",
+        "en": "If you receive no reply, no timely reply, or an obviously inadequate reply, you can file a complaint with the Federal Data Protection and Information Commissioner (EDÖB / PFPDT, FDPIC). The FDPIC can open an investigation and will inform you of its outcome.",
+        "rm": "Sche Vus na survegnis nagina, nagina resposta a temp u ina resposta evidentamain nunsuffizienta, pudais Vus Vus drizzar cun in'annunzia a l'Incumbensà federal per la protecziun da datas e per la transparenza (EDÖB). L'EDÖB po avrir in'examinaziun e Vus infurmar davart lur resultat."
       },
       "sources": [
         "dsg-49"
@@ -213,14 +345,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie sich persönliche Beratung, wenn viel auf dem Spiel steht, wenn Sie eine Klage in Erwägung ziehen, oder wenn die verantwortliche Stelle wiederholt nicht reagiert."
+        "de": "Holen Sie sich persönliche Beratung, wenn viel auf dem Spiel steht, wenn Sie eine Klage in Erwägung ziehen, oder wenn die verantwortliche Stelle wiederholt nicht reagiert.",
+        "fr": "Demandez un conseil personnalisé si beaucoup est en jeu, si vous envisagez une action en justice, ou si le responsable du traitement ne réagit pas malgré des rappels répétés.",
+        "it": "Si faccia consigliare personalmente se è in gioco molto, se sta valutando un'azione giudiziaria, oppure se il titolare del trattamento non reagisce ripetutamente.",
+        "en": "Get personal advice if a lot is at stake, if you are considering bringing a claim, or if the controller repeatedly fails to respond.",
+        "rm": "Retschertgai cussegliaziun persunala, sche i sa tracta da bler, sche Vus consideras ina plant, u sche il post responsabel na reagescha repetidamain betg."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Der EDÖB informiert allgemein über das Auskunftsrecht und das Vorgehen bei einer Anzeige. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Der EDÖB informiert allgemein über das Auskunftsrecht und das Vorgehen bei einer Anzeige. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : le PFPDT informe de manière générale sur le droit d’accès et la marche à suivre pour une dénonciation. De nombreux cantons et associations d’avocats offrent une première consultation juridique gratuite.",
+        "it": "Aiuto gratuito o a basso costo: l'IFPDT informa in generale sul diritto d'accesso e sulla procedura per una segnalazione. Molti Cantoni e ordini degli avvocati offrono una prima consulenza giuridica gratuita.",
+        "en": "Free or low-cost help: the FDPIC provides general information about the right to information and how to file a complaint. Many cantons and bar associations offer an initial, free legal consultation.",
+        "rm": "Agid gratuit u avantagius: L'EDÖB infurmescha en general davart il dretg d'obtegnair infurmaziuns e davart la procedura d'ina annunzia. Blers chantuns e federaziuns d'advocatas ed advocats offran in emprim cussegl giuridic gratuit."
       }
     }
   ],
@@ -277,7 +417,11 @@
   "official_links": [
     {
       "label": {
-        "de": "EDÖB"
+        "de": "EDÖB",
+        "fr": "PFPDT",
+        "it": "IFPDT",
+        "en": "FDPIC",
+        "rm": "EDÖB"
       },
       "url": "https://www.edoeb.admin.ch/de"
     }

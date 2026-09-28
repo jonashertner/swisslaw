@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Meine Miete wird erhöht. Kann ich mich wehren?"
+    "de": "Meine Miete wird erhöht. Kann ich mich wehren?",
+    "fr": "Mon loyer augmente. Puis-je m'y opposer ?",
+    "it": "La mia pigione viene aumentata. Posso oppormi?",
+    "en": "My rent is being increased. Can I fight it?",
+    "rm": "Mia tschains da locaziun vegn augmentada. Poss jau ma defender?"
   },
   "summary": {
-    "de": "Eine Mietzinserhöhung muss in der Regel auf einem amtlichen Formular kommen und begründet sein, sonst ist sie ungültig. Sie können sie zusätzlich als missbräuchlich anfechten. Dafür haben Sie 30 Tage ab Erhalt der Mitteilung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+    "de": "Eine Mietzinserhöhung muss in der Regel auf einem amtlichen Formular kommen und begründet sein, sonst ist sie ungültig. Sie können sie zusätzlich als missbräuchlich anfechten. Dafür haben Sie 30 Tage ab Erhalt der Mitteilung. Das Verfahren bei der Schlichtungsbehörde ist kostenlos.",
+    "fr": "Une majoration de loyer doit en règle générale arriver sur une formule officielle et être motivée, sinon elle est invalide. Vous pouvez en outre la contester comme abusive. Vous avez pour cela 30 jours dès réception de l'avis. La procédure de conciliation ne vous coûte rien.",
+    "it": "Un aumento della pigione deve di regola arrivare su un modulo ufficiale ed essere motivato, altrimenti è invalido. Lei può inoltre contestarlo come abusivo. Per questo ha 30 giorni dalla ricezione della notifica. La procedura di conciliazione non Le costa nulla.",
+    "en": "A rent increase must generally come on an official form (amtliches Formular / formule officielle) and give reasons, otherwise it is invalid. You can also challenge it as abusive. You have 30 days from receiving the notice to do so. Proceedings before the conciliation authority (Schlichtungsbehörde / autorité de conciliation) are free of charge.",
+    "rm": "In augment dal tschains da locaziun sto per regla arrivar sin in formular uffizial ed esser motivà, autramain è el nunvalid. Vus al pudais supplementarmain contestar sco abusiv. Per quai avais Vus 30 dis dapi la retschavida da la communicaziun. La procedura tar l'autoritad da mediaziun (Schlichtungsbehörde) è gratuita."
   },
   "examples": {
     "de": [
@@ -19,42 +27,102 @@
       "Han e Mietzinserhöhig übercho, chan i mich dagege wehre?",
       "Wie lange habe ich Zeit, um eine Mieterhöhung anzufechten?",
       "Die Mieterhöhung kam nur per E-Mail ohne Formular, ist das gültig?"
+    ],
+    "fr": [
+      "Mon loyer augmente. Puis-je m'y opposer ?",
+      "J'ai reçu une majoration de loyer, que puis-je faire ?",
+      "Le bailleur veut plus de loyer, est-ce autorisé ?",
+      "J'ai reçu une hausse de loyer, je peux contester ça comment ?",
+      "Combien de temps ai-je pour contester une hausse de loyer ?",
+      "La hausse de loyer est arrivée juste par e-mail sans formule, est-ce valable ?"
+    ],
+    "it": [
+      "La mia pigione viene aumentata. Posso oppormi?",
+      "Ho ricevuto un aumento della pigione, cosa posso fare?",
+      "Il padrone di casa vuole più pigione, è permesso?",
+      "Mi hanno aumentato la pigione, posso oppormi?",
+      "Quanto tempo ho per contestare un aumento della pigione?",
+      "L'aumento della pigione è arrivato solo per e-mail senza modulo, è valido?"
+    ],
+    "en": [
+      "My rent is being increased, can I fight it?",
+      "I've received a rent increase, what can I do?",
+      "The landlord wants more rent, is that allowed?",
+      "Can I challenge a rent increase, and how much time do I have?",
+      "How long do I have to challenge a rent increase?",
+      "The rent increase only came by email with no form, is that valid?"
+    ],
+    "rm": [
+      "Mia tschains da locaziun vegn augmentada. Poss jau ma defender?",
+      "Jau hai retschavì in augment dal tschains da locaziun, tge poss jau far?",
+      "Il locatur vul dapli tschains, è quai admess?",
+      "Il patrun da chasa ha augmentà il tschains, e jau na sai betg sch'jau dastg ma defender",
+      "Quant temp hai jau per contestar in augment da tschains?",
+      "L'augment è arrivà mo per e-mail senza formular, è quai valid?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Erhöhungen des laufenden Mietzinses und andere einseitige Vertragsänderungen zu Lasten des Mieters bei bestehenden Wohnungsmietverhältnissen in der Schweiz."
+      "de": "Erhöhungen des laufenden Mietzinses und andere einseitige Vertragsänderungen zu Lasten des Mieters bei bestehenden Wohnungsmietverhältnissen in der Schweiz.",
+      "fr": "Les majorations du loyer en cours et les autres modifications unilatérales du contrat aux dépens du locataire, dans des baux de logement existants en Suisse.",
+      "it": "Gli aumenti della pigione corrente e altre modifiche unilaterali del contratto a svantaggio del conduttore in rapporti di locazione di appartamenti già in corso in Svizzera.",
+      "en": "Increases in the current rent and other unilateral changes to the contract to the tenant's detriment in existing residential tenancies in Switzerland.",
+      "rm": "Augments dal tschains da locaziun current ed autras midadas unilaterala dal contract a donn dal locatari tar relaziuns da locaziun d'abitaziuns existentas en Svizra."
     },
     "excludes": {
-      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse."
+      "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse.",
+      "fr": "Le loyer fixé à la conclusion d'un nouveau bail (loyer initial), les locaux commerciaux et les autres baux particuliers.",
+      "it": "La pigione fissata alla conclusione di un nuovo contratto di locazione (pigione iniziale), i locali commerciali e altri rapporti di locazione particolari.",
+      "en": "The rent set when a new lease is concluded (the initial rent), commercial premises and other special types of tenancy.",
+      "rm": "Il tschains da locaziun a la conclusiun d'in nov contract da locaziun (tschains da locaziun inizial), locals commerzials ed autras relaziuns da locaziun spezialas."
     }
   },
   "facts": [
     {
       "key": "form",
       "question": {
-        "de": "Kam die Mietzinserhöhung auf einem amtlichen, vom Kanton genehmigten Formular?"
+        "de": "Kam die Mietzinserhöhung auf einem amtlichen, vom Kanton genehmigten Formular?",
+        "fr": "La majoration de loyer est-elle arrivée sur une formule officielle, agréée par le canton ?",
+        "it": "L'aumento della pigione è arrivato su un modulo ufficiale approvato dal Cantone?",
+        "en": "Did the rent increase come on an official form approved by the canton?",
+        "rm": "È l'augment dal tschains da locaziun arrivà sin in formular uffizial, approvà dal chantun?"
       },
       "help": {
-        "de": "Das Formular ist gesetzlich vorgeschrieben. Ein gewöhnlicher Brief oder eine E-Mail genügen nicht. Eine Ausnahme gilt nur für die Stufen einer im Vertrag vereinbarten Staffelmiete."
+        "de": "Das Formular ist gesetzlich vorgeschrieben. Ein gewöhnlicher Brief oder eine E-Mail genügen nicht. Eine Ausnahme gilt nur für die Stufen einer im Vertrag vereinbarten Staffelmiete.",
+        "fr": "La formule est prescrite par la loi. Une lettre ordinaire ou un e-mail ne suffisent pas. Une exception vaut seulement pour les paliers d'un loyer échelonné convenu dans le contrat.",
+        "it": "Il modulo è prescritto dalla legge. Una lettera comune o un'e-mail non bastano. Un'eccezione vale solo per le tappe di una pigione scalare pattuita nel contratto.",
+        "en": "The form is required by law. An ordinary letter or an email is not enough. An exception applies only to the steps of a staggered rent agreed in the lease.",
+        "rm": "Il formular è prescrit da la lescha. Ina brev usitada u in e-mail na bastan betg. Ina excepziun vala mo per ils stgalims d'in tschains da locaziun a stgalims cunvegnì en il contract."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht"
+            "de": "Nein, nur ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht",
+            "fr": "Non, seulement une lettre ordinaire, un e-mail ou un message",
+            "it": "No, solo una lettera comune, un'e-mail o un messaggio",
+            "en": "No, just an ordinary letter, an email or a message",
+            "rm": "Na, mo ina brev usitada, in e-mail u in messadi"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -62,28 +130,48 @@
     {
       "key": "reasons",
       "question": {
-        "de": "Hat der Vermieter die Erhöhung schriftlich begründet?"
+        "de": "Hat der Vermieter die Erhöhung schriftlich begründet?",
+        "fr": "Le bailleur a-t-il motivé la majoration par écrit ?",
+        "it": "Il locatore ha motivato l'aumento per scritto?",
+        "en": "Did the landlord give written reasons for the increase?",
+        "rm": "Ha il locatur motivà l'augment per scrit?"
       },
       "help": {
-        "de": "Die Begründung steht meist auf dem Formular selbst oder in einer Beilage."
+        "de": "Die Begründung steht meist auf dem Formular selbst oder in einer Beilage.",
+        "fr": "Le motif figure en général sur la formule elle-même ou dans une annexe.",
+        "it": "La motivazione si trova di solito sul modulo stesso o in un allegato.",
+        "en": "The reasons are usually stated on the form itself or in an enclosure.",
+        "rm": "La motivaziun sta per regla sin il formular sez u en in'agiunta."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es steht kein Grund dabei"
+            "de": "Nein, es steht kein Grund dabei",
+            "fr": "Non, aucun motif n'est indiqué",
+            "it": "No, non è indicato alcun motivo",
+            "en": "No, no reason is given",
+            "rm": "Na, i na sta nagin motiv"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -91,25 +179,41 @@
     {
       "key": "threat",
       "question": {
-        "de": "Wurde mit der Mitteilung gleichzeitig eine Kündigung angedroht oder ausgesprochen?"
+        "de": "Wurde mit der Mitteilung gleichzeitig eine Kündigung angedroht oder ausgesprochen?",
+        "fr": "Un congé a-t-il été menacé ou prononcé en même temps que l'avis ?",
+        "it": "Insieme alla notifica è stata minacciata o pronunciata anche una disdetta?",
+        "en": "Did the notice also threaten or give notice of termination at the same time?",
+        "rm": "È cun la communicaziun vegnida smanatschada u pronunziada al medem temp ina disditga?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -117,34 +221,58 @@
     {
       "key": "clause",
       "question": {
-        "de": "Sieht Ihr Mietvertrag eine Staffelmiete oder eine indexierte Miete vor?"
+        "de": "Sieht Ihr Mietvertrag eine Staffelmiete oder eine indexierte Miete vor?",
+        "fr": "Votre bail prévoit-il un loyer échelonné ou un loyer indexé ?",
+        "it": "Il Suo contratto di locazione prevede una pigione scalare o una pigione indicizzata?",
+        "en": "Does your lease provide for a staggered rent or an index-linked rent?",
+        "rm": "Prevesa Voss contract da locaziun in tschains da locaziun a stgalims u in tschains indexà?"
       },
       "help": {
-        "de": "Bei einer Staffelmiete steht schon im Vertrag, wann die Miete um welchen Frankenbetrag steigt. Bei einer indexierten Miete folgt sie dem Landesindex der Konsumentenpreise."
+        "de": "Bei einer Staffelmiete steht schon im Vertrag, wann die Miete um welchen Frankenbetrag steigt. Bei einer indexierten Miete folgt sie dem Landesindex der Konsumentenpreise.",
+        "fr": "Pour un loyer échelonné, le contrat indique déjà à quel moment et de quel montant le loyer augmente. Pour un loyer indexé, il suit l'indice suisse des prix à la consommation.",
+        "it": "Con una pigione scalare, il contratto stabilisce già di quale importo in franchi e quando la pigione aumenta. Con una pigione indicizzata, essa segue l'indice nazionale dei prezzi al consumo.",
+        "en": "With a staggered rent, the lease already states when the rent rises and by how many francs. With an index-linked rent, it follows the Swiss Consumer Price Index.",
+        "rm": "Tar in tschains a stgalims sta gia en il contract, cur ch'il tschains crescha e per tge import en francs. Tar in tschains indexà suonda el a l'index naziunal dals pretschs da consum."
       },
       "options": [
         {
           "value": "none",
           "label": {
-            "de": "Nein, weder noch"
+            "de": "Nein, weder noch",
+            "fr": "Non, ni l'un ni l'autre",
+            "it": "No, né l'una né l'altra",
+            "en": "No, neither",
+            "rm": "Na, betg l'in ni l'auter"
           }
         },
         {
           "value": "staffel",
           "label": {
-            "de": "Ja, eine Staffelmiete"
+            "de": "Ja, eine Staffelmiete",
+            "fr": "Oui, un loyer échelonné",
+            "it": "Sì, una pigione scalare",
+            "en": "Yes, a staggered rent",
+            "rm": "Gea, in tschains a stgalims"
           }
         },
         {
           "value": "index",
           "label": {
-            "de": "Ja, eine indexierte Miete"
+            "de": "Ja, eine indexierte Miete",
+            "fr": "Oui, un loyer indexé",
+            "it": "Sì, una pigione indicizzata",
+            "en": "Yes, an index-linked rent",
+            "rm": "Gea, in tschains indexà"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -152,25 +280,41 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que souhaitez-vous obtenir ?",
+        "it": "Cosa vorrebbe ottenere?",
+        "en": "What would you like to achieve?",
+        "rm": "Tge vulais Vus cuntanscher?"
       },
       "options": [
         {
           "value": "contest",
           "label": {
-            "de": "Ich will die Erhöhung anfechten"
+            "de": "Ich will die Erhöhung anfechten",
+            "fr": "Je veux contester la majoration",
+            "it": "Voglio contestare l'aumento",
+            "en": "I want to challenge the increase",
+            "rm": "Jau vi contestar l'augment"
           }
         },
         {
           "value": "info",
           "label": {
-            "de": "Ich möchte zuerst nur wissen, ob sie zulässig ist"
+            "de": "Ich möchte zuerst nur wissen, ob sie zulässig ist",
+            "fr": "Je veux d'abord seulement savoir si elle est admissible",
+            "it": "Per ora voglio solo sapere se è lecito",
+            "en": "I just want to know first whether it is permitted",
+            "rm": "Jau less avant tut mo savair sch'el è admissibel"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -191,7 +335,11 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss eine Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular mitteilen und begründen. Ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht genügt nicht. Fehlt das Formular, ist die Erhöhung nichtig: Sie gilt von Anfang an nicht, und Sie schulden weiterhin die bisherige Miete. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie innert 30 Tagen ein Gesuch bei der Schlichtungsbehörde ein und lassen Sie die Gültigkeit prüfen."
+        "de": "Der Vermieter muss eine Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular mitteilen und begründen. Ein gewöhnlicher Brief, eine E-Mail oder eine Nachricht genügt nicht. Fehlt das Formular, ist die Erhöhung nichtig: Sie gilt von Anfang an nicht, und Sie schulden weiterhin die bisherige Miete. Verlassen Sie sich trotzdem nicht allein darauf: Reichen Sie innert 30 Tagen ein Gesuch bei der Schlichtungsbehörde ein und lassen Sie die Gültigkeit prüfen.",
+        "fr": "Le bailleur doit notifier et motiver une majoration de loyer au moyen de la formule officielle, agréée par le canton. Une lettre ordinaire, un e-mail ou un message ne suffisent pas. Si la formule fait défaut, la majoration est nulle : elle ne vaut pas dès le départ, et vous continuez à devoir l'ancien loyer. Ne vous fiez pourtant pas uniquement à cela : déposez une requête dans les 30 jours auprès de l'autorité de conciliation et faites examiner la validité.",
+        "it": "Il locatore deve notificare e motivare un aumento della pigione sul modulo ufficiale approvato dal Cantone. Una lettera comune, un'e-mail o un messaggio non bastano. Se manca il modulo, l'aumento è nullo: non vale fin dall'inizio, e Lei continua a dovere la pigione precedente. Non si affidi comunque solo a questo: presenti entro 30 giorni un'istanza all'autorità di conciliazione e ne faccia verificare la validità.",
+        "en": "The landlord must notify and give reasons for a rent increase on the official form approved by the canton. An ordinary letter, an email or a message is not enough. If the form is missing, the increase is void: it never took effect, and you still owe only the previous rent. Even so, do not rely on this alone: file an application with the conciliation authority within 30 days and have its validity examined.",
+        "rm": "Il locatur sto communitgar e motivar in augment dal tschains da locaziun sin il formular uffizial, approvà dal chantun. Ina brev usitada, in e-mail u in messadi na basta betg. Sche il formular manca, è l'augment nul: el na vala dad entschatta ennà, e Vus dubitais vinavant il tschains anteriur. Na fidai Vus dentant betg mo da quai: inoltrai entaifer 30 dis ina dumonda tar l'autoritad da mediaziun e laschai examinar la validitad."
       },
       "sources": [
         "or-269d"
@@ -211,7 +359,11 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie, ob die Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular kam. Ohne dieses Formular ist eine Erhöhung ungültig. Eine gedruckte statt einer handschriftlichen Unterschrift auf dem Formular genügt. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden."
+        "de": "Prüfen Sie, ob die Mietzinserhöhung auf dem amtlichen, vom Kanton genehmigten Formular kam. Ohne dieses Formular ist eine Erhöhung ungültig. Eine gedruckte statt einer handschriftlichen Unterschrift auf dem Formular genügt. Bringen Sie das Schreiben mit, wenn Sie sich an die Schlichtungsbehörde wenden.",
+        "fr": "Vérifiez si la majoration de loyer est arrivée sur la formule officielle, agréée par le canton. Sans cette formule, une majoration est invalide. Une signature imprimée plutôt que manuscrite sur la formule suffit. Apportez le courrier avec vous lorsque vous vous adressez à l'autorité de conciliation.",
+        "it": "Verifichi se l'aumento della pigione è arrivato sul modulo ufficiale approvato dal Cantone. Senza questo modulo, un aumento è invalido. Una firma stampata invece che manoscritta sul modulo è sufficiente. Porti con sé lo scritto quando si rivolge all'autorità di conciliazione.",
+        "en": "Check whether the rent increase came on the official form approved by the canton. Without this form, an increase is invalid. A printed signature on the form, rather than a handwritten one, is sufficient. Bring the letter with you when you contact the conciliation authority.",
+        "rm": "Examinai sch'l'augment dal tschains da locaziun è arrivà sin il formular uffizial, approvà dal chantun. Senza quest formular è in augment nunvalid. Ina suttascripziun stampada empè d'ina scritta a maun sin il formular basta. Purtai cun Vus la brev, sche Vus contactais l'autoritad da mediaziun."
       },
       "sources": [
         "or-269d"
@@ -226,7 +378,11 @@
         ]
       },
       "text": {
-        "de": "Bei einer Staffelmiete steigt die Miete zu den im Vertrag festgelegten Zeitpunkten um die dort bestimmten Frankenbeträge. Eine solche Klausel gilt nur, wenn der Vertrag den Vermieter für wenigstens drei Jahre bindet, die Miete höchstens einmal im Jahr steigt und jede Stufe als Frankenbetrag feststeht. Für die Mitteilung einer vereinbarten Stufe braucht der Vermieter seit dem 1. Oktober 2025 kein amtliches Formular mehr, ein Schreiben genügt. Die einzelnen Stufen können Sie nicht als missbräuchlich anfechten. Prüfen Sie aber, ob die Klausel diese Voraussetzungen erfüllt und ob der verlangte Betrag genau dem Vertrag entspricht. Neben den vereinbarten Stufen darf der Vermieter während der festen Vertragsdauer grundsätzlich keine weiteren Erhöhungen verlangen. Tut er es trotzdem, lassen Sie das innert 30 Tagen prüfen."
+        "de": "Bei einer Staffelmiete steigt die Miete zu den im Vertrag festgelegten Zeitpunkten um die dort bestimmten Frankenbeträge. Eine solche Klausel gilt nur, wenn der Vertrag den Vermieter für wenigstens drei Jahre bindet, die Miete höchstens einmal im Jahr steigt und jede Stufe als Frankenbetrag feststeht. Für die Mitteilung einer vereinbarten Stufe braucht der Vermieter seit dem 1. Oktober 2025 kein amtliches Formular mehr, ein Schreiben genügt. Die einzelnen Stufen können Sie nicht als missbräuchlich anfechten. Prüfen Sie aber, ob die Klausel diese Voraussetzungen erfüllt und ob der verlangte Betrag genau dem Vertrag entspricht. Neben den vereinbarten Stufen darf der Vermieter während der festen Vertragsdauer grundsätzlich keine weiteren Erhöhungen verlangen. Tut er es trotzdem, lassen Sie das innert 30 Tagen prüfen.",
+        "fr": "Pour un loyer échelonné, le loyer augmente aux moments fixés dans le contrat, des montants en francs qui y sont déterminés. Une telle clause ne vaut que si le contrat lie le bailleur pour trois ans au moins, que le loyer n'augmente pas plus d'une fois par an et que chaque palier est fixé comme montant en francs. Depuis le 1er octobre 2025, le bailleur n'a plus besoin de formule officielle pour notifier un palier convenu ; une lettre suffit. Vous ne pouvez pas contester les différents paliers comme abusifs. Vérifiez cependant si la clause remplit ces conditions et si le montant demandé correspond exactement au contrat. En dehors des paliers convenus, le bailleur ne peut en principe pas demander d'autres majorations pendant la durée ferme du contrat. S'il le fait quand même, faites-le examiner dans les 30 jours.",
+        "it": "Con una pigione scalare, la pigione aumenta agli scadenzari fissati nel contratto degli importi in franchi ivi stabiliti. Una simile clausola vale solo se il contratto vincola il locatore per almeno tre anni, la pigione aumenta al massimo una volta all'anno e ogni tappa è fissata in un importo preciso in franchi. Per la notifica di una tappa pattuita, dal 1° ottobre 2025 il locatore non ha più bisogno di un modulo ufficiale: basta uno scritto. Le singole tappe non possono essere contestate come abusive. Verifichi tuttavia se la clausola soddisfa questi presupposti e se l'importo richiesto corrisponde esattamente al contratto. Oltre alle tappe pattuite, durante la durata fissa del contratto il locatore non può di regola chiedere altri aumenti. Se lo fa comunque, lo faccia verificare entro 30 giorni.",
+        "en": "With a staggered rent, the rent rises at the times set out in the lease, by the francs amounts specified there. Such a clause is only valid if the lease binds the landlord for at least three years, the rent rises no more than once a year, and each step is fixed as a franc amount. Since 1 October 2025, the landlord no longer needs the official form to notify an agreed step; a letter is enough. You cannot challenge the individual steps as abusive. Do check, though, whether the clause meets these requirements and whether the amount claimed exactly matches the lease. Apart from the agreed steps, the landlord generally may not demand further increases during the fixed term of the lease. If he does so anyway, have this examined within 30 days.",
+        "rm": "Tar in tschains a stgalims creschan ils tschains, als mumenz fixads en il contract, dals imports en francs là determinads. Ina tala clausa vala mo, sche il contract liga il locatur per almain trais onns, il tschains crescha maximalmain ina giada l'onn e mintga stgalim è fixà sco import en francs. Per la communicaziun d'in stgalim cunvegnì na basegna il locatur, dapi il 1. october 2025, nagin formular uffizial pli; ina brev basta. Ils singuls stgalims na pudais Vus betg contestar sco abusivs. Examinai dentant sche la clausa ademplescha questas premissas e sche l'import pretendì correspunda exactamain al contract. Sper ils stgalims cunvegnids na dastga il locatur, durant la durada fixa dal contract, per principi pretender naginas ulteriuras augments. Fa el quai tuttina, laschai examinar quai entaifer 30 dis."
       },
       "sources": [
         "or-269c",
@@ -244,7 +400,11 @@
         ]
       },
       "text": {
-        "de": "Bei einer indexierten Miete folgt der Mietzins dem Landesindex der Konsumentenpreise. Eine solche Klausel setzt voraus, dass der Vertrag den Vermieter für wenigstens fünf Jahre bindet. Jede Anpassung muss Ihnen der Vermieter trotzdem auf dem amtlichen Formular mitteilen. Innert 30 Tagen anfechten können Sie sie nur mit dem Einwand, sie entspreche nicht der tatsächlichen Veränderung des Indexes. Rechnen Sie deshalb nach: Stimmen der Indexstand bei der letzten Anpassung, der neue Indexstand und der daraus berechnete Betrag? Weitere Erhöhungsgründe neben dem Index kann der Vermieter während der festen Vertragsdauer grundsätzlich nicht anrufen."
+        "de": "Bei einer indexierten Miete folgt der Mietzins dem Landesindex der Konsumentenpreise. Eine solche Klausel setzt voraus, dass der Vertrag den Vermieter für wenigstens fünf Jahre bindet. Jede Anpassung muss Ihnen der Vermieter trotzdem auf dem amtlichen Formular mitteilen. Innert 30 Tagen anfechten können Sie sie nur mit dem Einwand, sie entspreche nicht der tatsächlichen Veränderung des Indexes. Rechnen Sie deshalb nach: Stimmen der Indexstand bei der letzten Anpassung, der neue Indexstand und der daraus berechnete Betrag? Weitere Erhöhungsgründe neben dem Index kann der Vermieter während der festen Vertragsdauer grundsätzlich nicht anrufen.",
+        "fr": "Pour un loyer indexé, le loyer suit l'indice suisse des prix à la consommation. Une telle clause suppose que le contrat lie le bailleur pour cinq ans au moins. Le bailleur doit malgré tout vous notifier chaque adaptation sur la formule officielle. Vous ne pouvez la contester dans les 30 jours qu'en objectant qu'elle ne correspond pas à la variation réelle de l'indice. Faites donc le calcul : le niveau de l'indice lors de la dernière adaptation, le nouveau niveau de l'indice et le montant qui en résulte concordent-ils ? En dehors de l'indice, le bailleur ne peut en principe invoquer aucun autre motif de majoration pendant la durée ferme du contrat.",
+        "it": "Con una pigione indicizzata, la pigione segue l'indice nazionale dei prezzi al consumo. Una simile clausola presuppone che il contratto vincoli il locatore per almeno cinque anni. Ogni adeguamento deve comunque esserLe notificato dal locatore sul modulo ufficiale. Può contestarlo entro 30 giorni solo con l'obiezione che non corrisponde all'effettiva variazione dell'indice. Faccia quindi il conto: coincidono il livello dell'indice all'ultimo adeguamento, il nuovo livello dell'indice e l'importo così calcolato? Durante la durata fissa del contratto, il locatore non può di regola invocare altri motivi di aumento oltre all'indice.",
+        "en": "With an index-linked rent, the rent follows the Swiss Consumer Price Index. Such a clause requires the lease to bind the landlord for at least five years. Even so, the landlord must notify you of every adjustment on the official form. Within 30 days you can only challenge it on the ground that it does not match the actual change in the index. So check the figures: do the index level at the last adjustment, the new index level, and the amount calculated from them all add up? During the fixed term of the lease, the landlord generally cannot rely on grounds for an increase other than the index.",
+        "rm": "Tar in tschains indexà suonda il tschains da locaziun a l'index naziunal dals pretschs da consum. Ina tala clausa premetta che il contract liga il locatur per almain tschintg onns. Mintga adattaziun sto il locatur, tuttina, communitgar Vus sin il formular uffizial. Contestar entaifer 30 dis pudais Vus l'adattaziun mo cun l'objecziun ch'ella na correspunda betg a la midada effectiva da l'index. Quintai perquai enavos: correspundan il stadi da l'index tar l'ultima adattaziun, il nov stadi da l'index e l'import calculà da quai? Ulteriurs motivs d'augment sper l'index na po il locatur, durant la durada fixa dal contract, per principi betg far valair."
       },
       "sources": [
         "or-269b",
@@ -262,7 +422,11 @@
         ]
       },
       "text": {
-        "de": "Der Vermieter muss die Erhöhung auf dem Formular auch begründen, zum Beispiel mit gestiegenen Kosten oder dem orts- oder quartierüblichen Mietzins. Fehlt jede Begründung, ist die Erhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert 30 Tagen ein und lassen Sie dies prüfen."
+        "de": "Der Vermieter muss die Erhöhung auf dem Formular auch begründen, zum Beispiel mit gestiegenen Kosten oder dem orts- oder quartierüblichen Mietzins. Fehlt jede Begründung, ist die Erhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert 30 Tagen ein und lassen Sie dies prüfen.",
+        "fr": "Le bailleur doit aussi motiver la majoration sur la formule, par exemple par des coûts plus élevés ou par le loyer usuel du quartier. Si toute motivation fait défaut, la majoration est invalide. Déposez tout de même votre requête dans les 30 jours et faites examiner ce point.",
+        "it": "Il locatore deve anche motivare l'aumento sul modulo, per esempio con costi aumentati o con la pigione usuale nella località o nel quartiere. Se manca ogni motivazione, l'aumento è invalido. Presenti comunque la Sua istanza entro 30 giorni e lo faccia verificare.",
+        "en": "The landlord must also give reasons for the increase on the form, for example increased costs or the rent customary in the locality or district. If no reason at all is given, the increase is invalid. File your application within 30 days regardless and have this examined.",
+        "rm": "Il locatur sto er motivar l'augment sin il formular, per exempel cun custs creschids u cun il tschains da locaziun usità en il lieu u en il quartier. Sche mancass mintga motivaziun, è l'augment nunvalid. Inoltrai tuttina Vossa dumonda entaifer 30 dis e laschai examinar quai."
       },
       "sources": [
         "or-269d"
@@ -277,7 +441,11 @@
         ]
       },
       "text": {
-        "de": "Droht der Vermieter in derselben Mitteilung eine Kündigung an oder spricht er sie gleich aus, ist die Mietzinserhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert der Frist ein und weisen Sie die Schlichtungsbehörde darauf hin. Eine Kündigung, mit der der Vermieter eine Erhöhung durchsetzen will, ist zudem anfechtbar. Dafür läuft eine eigene Frist von 30 Tagen ab Empfang der Kündigung. Fechten Sie deshalb auch die Kündigung selbst an."
+        "de": "Droht der Vermieter in derselben Mitteilung eine Kündigung an oder spricht er sie gleich aus, ist die Mietzinserhöhung ungültig. Reichen Sie Ihr Gesuch trotzdem innert der Frist ein und weisen Sie die Schlichtungsbehörde darauf hin. Eine Kündigung, mit der der Vermieter eine Erhöhung durchsetzen will, ist zudem anfechtbar. Dafür läuft eine eigene Frist von 30 Tagen ab Empfang der Kündigung. Fechten Sie deshalb auch die Kündigung selbst an.",
+        "fr": "Si le bailleur menace de résilier ou résilie carrément dans le même avis, la majoration de loyer est invalide. Déposez tout de même votre requête dans le délai et signalez-le à l'autorité de conciliation. Un congé par lequel le bailleur veut imposer une majoration est en outre contestable. Un délai propre de 30 jours dès réception du congé court pour cela. Contestez donc aussi le congé lui-même.",
+        "it": "Se nella stessa notifica il locatore minaccia una disdetta o la pronuncia direttamente, l'aumento della pigione è nullo. Presenti comunque la Sua istanza entro il termine e lo segnali all'autorità di conciliazione. Una disdetta con cui il locatore vuole imporre un aumento è inoltre contestabile. Per questo decorre un termine proprio di 30 giorni dalla ricezione della disdetta. Contesti quindi anche la disdetta stessa.",
+        "en": "If the landlord threatens notice of termination in the same notice, or gives it at the same time, the rent increase is invalid. File your application within the deadline regardless and point this out to the conciliation authority. A notice of termination with which the landlord seeks to enforce an increase can also be challenged. A separate 30-day deadline runs for this, from receipt of the notice of termination. So challenge the notice of termination itself as well.",
+        "rm": "Sche il locatur smanatscha en la medema communicaziun ina disditga u la pronunzia gliei, è l'augment dal tschains da locaziun nunvalid. Inoltrai tuttina Vossa dumonda entaifer il termin e schegiai l'autoritad da mediaziun sin quai. Ina disditga, cun la quala il locatur vul far valair in augment, è supplementarmain contestabla. Per quai currà in agen termin da 30 dis dapi la retschavida da la disditga. Contestai perquai er la disditga sez."
       },
       "sources": [
         "or-269d",
@@ -289,7 +457,11 @@
       "id": "deadline",
       "kind": "deadline",
       "text": {
-        "de": "Die wichtigste Frist: Wenn Sie die Erhöhung als missbräuchlich anfechten wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Mitteilung bei der Schlichtungsbehörde einreichen. Kam die Mitteilung eingeschrieben, gilt sie als empfangen, sobald Sie sie auf der Post abholen, spätestens aber am siebten Tag nach der Abholungseinladung. Holen Sie den Brief nicht ab, läuft die Frist trotzdem. Die Frist lässt sich nicht verlängern. Rechnen Sie nicht damit, dass Gerichtsferien, Ihre Ferien oder Gespräche mit dem Vermieter sie aufhalten. Verpassen Sie die Frist, wird eine formell gültige Erhöhung verbindlich. Warten Sie nicht, bis die höhere Miete fällig wird."
+        "de": "Die wichtigste Frist: Wenn Sie die Erhöhung als missbräuchlich anfechten wollen, müssen Sie Ihr Gesuch innert 30 Tagen nach Empfang der Mitteilung bei der Schlichtungsbehörde einreichen. Kam die Mitteilung eingeschrieben, gilt sie als empfangen, sobald Sie sie auf der Post abholen, spätestens aber am siebten Tag nach der Abholungseinladung. Holen Sie den Brief nicht ab, läuft die Frist trotzdem. Die Frist lässt sich nicht verlängern. Rechnen Sie nicht damit, dass Gerichtsferien, Ihre Ferien oder Gespräche mit dem Vermieter sie aufhalten. Verpassen Sie die Frist, wird eine formell gültige Erhöhung verbindlich. Warten Sie nicht, bis die höhere Miete fällig wird.",
+        "fr": "Le délai le plus important : si vous voulez contester la majoration comme abusive, vous devez déposer votre requête au plus tard 30 jours après avoir reçu l'avis auprès de l'autorité de conciliation. Si l'avis est arrivé par courrier recommandé, il est réputé reçu dès que vous le retirez à la poste, mais au plus tard le septième jour après l'avis de retrait. Si vous ne retirez pas la lettre, le délai court quand même. Le délai ne peut pas être prolongé. Ne comptez pas sur le fait que la suspension des délais, vos vacances ou des discussions avec le bailleur l'arrêtent. Si vous manquez le délai, une majoration formellement valable devient contraignante. N'attendez pas que le loyer plus élevé devienne exigible.",
+        "it": "Il termine più importante: se vuole contestare l'aumento come abusivo, deve presentare la Sua istanza all'autorità di conciliazione entro 30 giorni dalla ricezione della notifica. Se la notifica arriva per lettera raccomandata, è considerata ricevuta non appena Lei la ritira alla posta, ma al più tardi il settimo giorno dopo l'avviso di ritiro. Se non ritira la lettera, il termine decorre comunque. Il termine non può essere prorogato. Non conti sul fatto che le ferie giudiziarie, le Sue vacanze o colloqui con il locatore lo sospendano. Se lascia scadere il termine, un aumento formalmente valido diventa vincolante. Non aspetti che la pigione più alta diventi esigibile.",
+        "en": "The most important deadline: if you want to challenge the increase as abusive, you must file your application with the conciliation authority within 30 days of receiving the notice. If the notice was sent by registered letter, it is deemed received as soon as you collect it from the post office, but at the latest on the seventh day after the collection notice. If you do not collect the letter, the deadline still runs. The deadline cannot be extended. Do not count on court recess, your own holidays or talks with the landlord holding it up. If you miss the deadline, a formally valid increase becomes binding. Do not wait until the higher rent falls due.",
+        "rm": "Il termin il pli impurtant: sche Vus vulais contestar l'augment sco abusiv, stuais Vus inoltrar Vossa dumonda entaifer 30 dis suenter la retschavida da la communicaziun tar l'autoritad da mediaziun. Sche la communicaziun è arrivada recumandada, vala ella sco retschavida uschespert sco Vus la retrahais da la posta, il pli tard dentant il settavel di suenter l'invit da retratga. Sche Vus na retrahais betg la brev, curra il termin tuttina. Il termin na po betg vegnir prolungà. Na quintai betg che vacanzas da dretgira, Vossas vacanzas u discurs cun il locatur al fermian. Sche Vus mancunais il termin, daventa in augment formalmain valid obligatoric. Betg spetgar enfin ch'il tschains pli aut daventia exigibel."
       },
       "sources": [
         "or-270b",
@@ -303,7 +475,11 @@
       "id": "timing",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter kann die Miete nur auf einen Kündigungstermin erhöhen, und die Mitteilung muss Ihnen mindestens zehn Tage vor Beginn der Kündigungsfrist zugehen. So bleibt Ihnen Zeit zu überlegen, ob Sie stattdessen kündigen wollen. Kommt die Mitteilung zu spät oder nennt sie einen zu frühen Termin, ist sie deshalb nicht ungültig: Die Erhöhung gilt in der Regel erst auf den nächsten zulässigen Termin. Bei einem befristeten Mietvertrag, der während einer festen Dauer nicht gekündigt werden kann, darf der Vermieter die Miete in dieser Zeit nicht einseitig erhöhen, ausser der Vertrag sieht eine Staffel oder eine Indexierung vor."
+        "de": "Der Vermieter kann die Miete nur auf einen Kündigungstermin erhöhen, und die Mitteilung muss Ihnen mindestens zehn Tage vor Beginn der Kündigungsfrist zugehen. So bleibt Ihnen Zeit zu überlegen, ob Sie stattdessen kündigen wollen. Kommt die Mitteilung zu spät oder nennt sie einen zu frühen Termin, ist sie deshalb nicht ungültig: Die Erhöhung gilt in der Regel erst auf den nächsten zulässigen Termin. Bei einem befristeten Mietvertrag, der während einer festen Dauer nicht gekündigt werden kann, darf der Vermieter die Miete in dieser Zeit nicht einseitig erhöhen, ausser der Vertrag sieht eine Staffel oder eine Indexierung vor.",
+        "fr": "Le bailleur ne peut majorer le loyer que pour un terme de congé, et l'avis doit vous parvenir au moins dix jours avant le début du délai de congé. Cela vous laisse le temps de réfléchir si vous voulez plutôt résilier. Si l'avis arrive trop tard ou indique un terme trop rapproché, il n'est pas invalide pour autant : la majoration ne vaut en règle générale que pour le prochain terme admissible. Pour un bail de durée déterminée qui ne peut pas être résilié pendant une durée ferme, le bailleur ne peut pas majorer unilatéralement le loyer durant cette période, sauf si le contrat prévoit un échelonnement ou une indexation.",
+        "it": "Il locatore può aumentare la pigione solo per una scadenza di disdetta, e la notifica deve pervenirLe almeno dieci giorni prima dell'inizio del termine di preavviso. Così Le resta il tempo di valutare se disdire invece il contratto. Se la notifica arriva troppo tardi o indica una scadenza troppo ravvicinata, non è per questo invalida: l'aumento vale di regola solo a partire dalla prossima scadenza ammissibile. In un contratto di locazione a tempo determinato, che non può essere disdetto durante una durata fissa, il locatore non può aumentare unilateralmente la pigione in questo periodo, a meno che il contratto preveda una scala o un'indicizzazione.",
+        "en": "The landlord can only increase the rent as of a termination date, and the notice must reach you at least ten days before the notice period for that date begins. This leaves you time to consider whether to give notice instead. If the notice arrives too late, or names too early a date, it is not invalid for that reason: the increase generally only takes effect on the next permissible date. During a fixed-term lease that cannot be terminated for its fixed duration, the landlord may not unilaterally increase the rent in that time, unless the lease provides for a staggered or index-linked rent.",
+        "rm": "Il locatur po augmentar il tschains mo per in termin da disditga, e la communicaziun sto Vus arrivar almain diesch dis avant il cumenzament dal temp da disditga. Uschia Vus resta temp per considerar sche Vus vulais pia disdir Vus sez. Sche la communicaziun arriva memia tard u numna in termin memia baud, n'è ella betg nunvalida pervi da quai: l'augment vala per regla pir per il proxim termin admissibel. Tar in contract da locaziun limità, che na po betg vegnir disditg durant ina durada fixa, na dastga il locatur augmentar il tschains unilateralmain durant quest temp, ordan che il contract prevesia in stgalim u in'indexaziun."
       },
       "sources": [
         "or-269d",
@@ -326,7 +502,11 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie die Begründung genau. Sie muss so klar sein, dass Sie entscheiden können, ob Sie die Erhöhung annehmen, anfechten oder die Wohnung kündigen. Widersprüchliche Gründe können die Erhöhung ungültig machen, etwa wenn der Vermieter sich zugleich auf die ortsüblichen Mieten und auf gestiegene Kosten oder Investitionen beruft. Im Verfahren ist der Vermieter grundsätzlich an die Gründe im Formular gebunden und kann keine neuen nachschieben. Bei einer Erhöhung wegen gestiegener Kosten oder wertvermehrender Investitionen können Sie verlangen, dass er Ihnen den Betrag mit Zahlen belegt. Das verlängert die 30 Tage aber nicht. Im Schlichtungsverfahren können Sie die Belege für alle genannten Gründe verlangen."
+        "de": "Prüfen Sie die Begründung genau. Sie muss so klar sein, dass Sie entscheiden können, ob Sie die Erhöhung annehmen, anfechten oder die Wohnung kündigen. Widersprüchliche Gründe können die Erhöhung ungültig machen, etwa wenn der Vermieter sich zugleich auf die ortsüblichen Mieten und auf gestiegene Kosten oder Investitionen beruft. Im Verfahren ist der Vermieter grundsätzlich an die Gründe im Formular gebunden und kann keine neuen nachschieben. Bei einer Erhöhung wegen gestiegener Kosten oder wertvermehrender Investitionen können Sie verlangen, dass er Ihnen den Betrag mit Zahlen belegt. Das verlängert die 30 Tage aber nicht. Im Schlichtungsverfahren können Sie die Belege für alle genannten Gründe verlangen.",
+        "fr": "Examinez la motivation de près. Elle doit être assez claire pour que vous puissiez décider si vous acceptez la majoration, la contestez ou résiliez le logement. Des motifs contradictoires peuvent rendre la majoration invalide, par exemple si le bailleur invoque en même temps les loyers usuels du quartier et des coûts ou investissements accrus. Dans la procédure, le bailleur est en principe lié par les motifs indiqués sur la formule et ne peut pas en ajouter de nouveaux. En cas de majoration pour coûts accrus ou investissements à plus-value, vous pouvez exiger qu'il justifie le montant par des chiffres. Cela ne prolonge toutefois pas les 30 jours. Dans la procédure de conciliation, vous pouvez exiger les pièces justificatives pour tous les motifs invoqués.",
+        "it": "Verifichi con precisione la motivazione. Deve essere abbastanza chiara da permetterLe di decidere se accettare l'aumento, contestarlo o disdire l'appartamento. Motivi contraddittori possono rendere invalido l'aumento, per esempio se il locatore invoca contemporaneamente le pigioni usuali di quartiere e costi o investimenti aumentati. Nella procedura, il locatore è di regola vincolato ai motivi indicati sul modulo e non può addurne di nuovi in seguito. In caso di aumento per costi aumentati o investimenti che accrescono il valore, può esigere che egli Le comprovi l'importo con cifre. Questo non prolunga però i 30 giorni. Nella procedura di conciliazione può esigere le prove per tutti i motivi indicati.",
+        "en": "Examine the reasons closely. They must be clear enough for you to decide whether to accept the increase, challenge it, or give notice on the flat. Contradictory reasons can make the increase invalid, for example if the landlord relies at the same time on local rents and on increased costs or investments. In the proceedings, the landlord is generally bound by the reasons stated on the form and cannot add new ones later. For an increase based on increased costs or value-enhancing investments, you can ask him to substantiate the amount with figures. This does not extend the 30 days, though. In the conciliation proceedings you can demand evidence for all the reasons given.",
+        "rm": "Examinai exactamain la motivaziun. Ella sto esser uschè clara che Vus pudais decider, sche Vus acceptais l'augment, al contestais u disdis l'abitaziun. Motivs cuntradictoris pon far l'augment nunvalid, per exempel sche il locatur sa referescha al medem temp als tschains usitads en il lieu ed a custs u investiziuns creschids. En la procedura è il locatur per principi lià als motivs sin il formular e na po betg agiuntar novs pli tard. Tar in augment pervi da custs creschids u investiziuns che augmentan la valur, pudais Vus pretender ch'el Vus cumprovia l'import cun cifras. Quai na prolongia dentant betg ils 30 dis. En la procedura da mediaziun pudais Vus pretender ils cumprovaments per tut ils motivs indicads."
       },
       "sources": [
         "or-269d",
@@ -338,7 +518,11 @@
       "id": "consent",
       "kind": "warning",
       "text": {
-        "de": "Unterschreiben Sie keine vorbereitete Vereinbarung über eine höhere Miete, ohne sie in Ruhe zu prüfen. Sie können einer Erhöhung zwar auch ohne amtliches Formular zustimmen. Eine solche Zustimmung bindet Sie aber nur, wenn Sie frei entschieden haben und wussten, dass Sie die Erhöhung auch anfechten könnten, und nicht etwa, weil sonst eine Kündigung drohte. Haben Sie bereits unterschrieben und kommen Ihnen Zweifel, lassen Sie sich rasch beraten."
+        "de": "Unterschreiben Sie keine vorbereitete Vereinbarung über eine höhere Miete, ohne sie in Ruhe zu prüfen. Sie können einer Erhöhung zwar auch ohne amtliches Formular zustimmen. Eine solche Zustimmung bindet Sie aber nur, wenn Sie frei entschieden haben und wussten, dass Sie die Erhöhung auch anfechten könnten, und nicht etwa, weil sonst eine Kündigung drohte. Haben Sie bereits unterschrieben und kommen Ihnen Zweifel, lassen Sie sich rasch beraten.",
+        "fr": "Ne signez aucun accord préparé sur un loyer plus élevé sans l'examiner tranquillement. Vous pouvez certes consentir à une majoration même sans formule officielle. Un tel consentement ne vous lie toutefois que si vous avez décidé librement et saviez que vous pouviez aussi contester la majoration, et non parce qu'un congé menaçait sinon. Si vous avez déjà signé et que des doutes vous viennent, faites-vous conseiller rapidement.",
+        "it": "Non firmi un accordo già predisposto su una pigione più alta senza esaminarlo con calma. Può certo acconsentire a un aumento anche senza modulo ufficiale. Un simile consenso La vincola però solo se ha deciso liberamente e sapeva di poter anche contestare l'aumento, e non, per esempio, perché altrimenti minacciava una disdetta. Se ha già firmato e Le vengono dei dubbi, si faccia consigliare rapidamente.",
+        "en": "Do not sign a prepared agreement for a higher rent without examining it calmly first. You can agree to an increase even without the official form. Such consent only binds you, though, if you decided freely and knew that you could also have challenged the increase, and not, say, because a notice of termination otherwise threatened. If you have already signed and now have doubts, get advice quickly.",
+        "rm": "Na suttascrivai naginas cunvegnas preparadas davart in tschains pli aut, senza las examinar en quietezza. Vus pudais bain er consentir ad in augment senza formular uffizial. In tal consentiment Vus liescha dentant mo, sche Vus avais decidì libramain e savevas che Vus fissas er pudì contestar l'augment, e betg perquai ch'autramain smanatschava ina disditga. Avais Vus gia suttascrit e Vus vegnan dubis, laschai Vus consultar svelt."
       },
       "sources": [
         "bge-128-iii-419"
@@ -348,7 +532,11 @@
       "id": "void-paid",
       "kind": "step",
       "text": {
-        "de": "Ist eine Erhöhung ungültig, etwa weil das Formular oder die Begründung fehlt, schulden Sie nur die bisherige Miete. Haben Sie den höheren Betrag trotzdem bezahlt, können Sie die Differenz grundsätzlich zurückfordern. Warten Sie damit nicht zu lange und lassen Sie sich beraten: Wer eine formell ungültige Erhöhung längere Zeit bezahlt hat, obwohl er den Fehler kannte, dem kann im Einzelfall Rechtsmissbrauch vorgehalten werden."
+        "de": "Ist eine Erhöhung ungültig, etwa weil das Formular oder die Begründung fehlt, schulden Sie nur die bisherige Miete. Haben Sie den höheren Betrag trotzdem bezahlt, können Sie die Differenz grundsätzlich zurückfordern. Warten Sie damit nicht zu lange und lassen Sie sich beraten: Wer eine formell ungültige Erhöhung längere Zeit bezahlt hat, obwohl er den Fehler kannte, dem kann im Einzelfall Rechtsmissbrauch vorgehalten werden.",
+        "fr": "Si une majoration est invalide, par exemple parce que la formule ou la motivation fait défaut, vous ne devez que l'ancien loyer. Si vous avez malgré tout payé le montant plus élevé, vous pouvez en principe réclamer la différence. N'attendez pas trop longtemps et faites-vous conseiller : à qui a payé longtemps une majoration formellement invalide tout en connaissant l'erreur, on peut dans certains cas reprocher un abus de droit.",
+        "it": "Se un aumento è invalido, per esempio perché manca il modulo o la motivazione, Lei deve solo la pigione precedente. Se ha comunque pagato l'importo più alto, può di regola chiederne la restituzione della differenza. Non aspetti troppo a lungo e si faccia consigliare: a chi ha pagato per lungo tempo un aumento formalmente invalido pur conoscendo il vizio, può in singoli casi essere rimproverato un abuso di diritto.",
+        "en": "If an increase is invalid, for example because the form or the reasons are missing, you owe only the previous rent. If you paid the higher amount anyway, you can generally claim back the difference. Do not wait too long, and get advice: someone who has paid a formally invalid increase for a long time while knowing of the defect can, in individual cases, be accused of abuse of rights.",
+        "rm": "Sch'in augment è nunvalid, per exempel perquai ch'il formular u la motivaziun manca, dubitais Vus mo il tschains anteriur. Avais Vus tuttina pajà l'import pli aut, pudais Vus per principi pretender enavos la differenza. Na spetgai betg memia ditg cun quai e laschai Vus consultar: a tgi ch'ha pajà in augment formalmain nunvalid durant pli ditg temp, schebain ch'el enconuschess il sbagl, po en il cas singul vegnir tegnì cunter abus da dretg."
       },
       "sources": [
         "or-62",
@@ -360,7 +548,11 @@
       "id": "other-one-sided-changes",
       "kind": "rule",
       "text": {
-        "de": "Dieselbe Frist und dasselbe Verfahren gelten auch, wenn der Vermieter den Mietvertrag sonst einseitig zu Ihren Lasten ändert, zum Beispiel bisherige Leistungen kürzt oder neue Nebenkosten einführt, ohne dass es formal um eine Mietzinserhöhung geht."
+        "de": "Dieselbe Frist und dasselbe Verfahren gelten auch, wenn der Vermieter den Mietvertrag sonst einseitig zu Ihren Lasten ändert, zum Beispiel bisherige Leistungen kürzt oder neue Nebenkosten einführt, ohne dass es formal um eine Mietzinserhöhung geht.",
+        "fr": "Le même délai et la même procédure s'appliquent aussi lorsque le bailleur modifie unilatéralement le bail à vos dépens d'une autre manière, par exemple en réduisant des prestations existantes ou en introduisant de nouveaux frais accessoires, sans qu'il s'agisse formellement d'une majoration de loyer.",
+        "it": "Lo stesso termine e la stessa procedura valgono anche quando il locatore modifica altrimenti unilateralmente il contratto a Suo svantaggio, per esempio riducendo prestazioni finora fornite o introducendo nuove spese accessorie, senza che si tratti formalmente di un aumento della pigione.",
+        "en": "The same deadline and the same procedure apply if the landlord otherwise unilaterally changes the lease to your detriment, for example by cutting existing services or introducing new accessory charges, without it formally being a rent increase.",
+        "rm": "Il medem termin e la medema procedura valan er, sche il locatur mida autramain unilateralmain il contract da locaziun a Voss donn, per exempel sche el reducescha prestaziuns anteriuras u introduescha novs custs accessorics, senza ch'i sa tracti formalmain d'in augment dal tschains da locaziun."
       },
       "sources": [
         "or-270b"
@@ -376,7 +568,11 @@
         ]
       },
       "text": {
-        "de": "Ein Mietzins ist missbräuchlich, wenn der Vermieter damit einen übersetzten Ertrag aus der Wohnung erzielt. Nicht missbräuchlich ist eine Erhöhung in der Regel, wenn sie zum Beispiel im Rahmen der orts- oder quartierüblichen Mietzinse liegt, durch gestiegene Kosten oder zusätzliche Leistungen des Vermieters begründet ist, bei neueren Bauten im Rahmen einer kostendeckenden Rendite bleibt, oder nur die Teuerung auf dem eigenen, risikotragenden Kapital ausgleicht. So prüfen Sie die häufigsten Gründe: Beruft sich der Vermieter auf einen gestiegenen Referenzzinssatz, fragen Sie, ob frühere Senkungen an Sie weitergegeben wurden. Wenn nicht, sind sie anzurechnen. Für die Teuerung darf er höchstens 40 Prozent des Anstiegs des Konsumentenpreisindexes weitergeben. Beruft er sich auf die orts- oder quartierüblichen Mieten, muss er das mit amtlichen Statistiken oder mit mindestens fünf vergleichbaren Wohnungen belegen. Dieser Nachweis gelingt in der Praxis selten. Passt die Begründung zu keinem dieser Fälle oder erscheint sie Ihnen nicht glaubwürdig, lohnt sich eine Anfechtung."
+        "de": "Ein Mietzins ist missbräuchlich, wenn der Vermieter damit einen übersetzten Ertrag aus der Wohnung erzielt. Nicht missbräuchlich ist eine Erhöhung in der Regel, wenn sie zum Beispiel im Rahmen der orts- oder quartierüblichen Mietzinse liegt, durch gestiegene Kosten oder zusätzliche Leistungen des Vermieters begründet ist, bei neueren Bauten im Rahmen einer kostendeckenden Rendite bleibt, oder nur die Teuerung auf dem eigenen, risikotragenden Kapital ausgleicht. So prüfen Sie die häufigsten Gründe: Beruft sich der Vermieter auf einen gestiegenen Referenzzinssatz, fragen Sie, ob frühere Senkungen an Sie weitergegeben wurden. Wenn nicht, sind sie anzurechnen. Für die Teuerung darf er höchstens 40 Prozent des Anstiegs des Konsumentenpreisindexes weitergeben. Beruft er sich auf die orts- oder quartierüblichen Mieten, muss er das mit amtlichen Statistiken oder mit mindestens fünf vergleichbaren Wohnungen belegen. Dieser Nachweis gelingt in der Praxis selten. Passt die Begründung zu keinem dieser Fälle oder erscheint sie Ihnen nicht glaubwürdig, lohnt sich eine Anfechtung.",
+        "fr": "Un loyer est abusif lorsqu'il procure au bailleur un rendement excessif du logement. N'est en règle générale pas abusive une majoration qui, par exemple, reste dans le cadre des loyers usuels du quartier, est motivée par des coûts accrus ou des prestations supplémentaires du bailleur, reste dans le cadre d'un rendement couvrant les frais pour des constructions récentes, ou ne fait que compenser le renchérissement sur les fonds propres à risque du bailleur. Voici comment vérifier les motifs les plus fréquents : si le bailleur invoque une hausse du taux hypothécaire de référence, demandez si des baisses antérieures vous ont été répercutées. Si non, elles doivent être imputées. Pour le renchérissement, il ne peut répercuter que 40 pour cent au maximum de la hausse de l'indice des prix à la consommation. S'il invoque les loyers usuels du quartier, il doit le prouver par des statistiques officielles ou par au moins cinq logements comparables. Cette preuve réussit rarement en pratique. Si la motivation ne correspond à aucun de ces cas ou ne vous paraît pas crédible, une contestation en vaut la peine.",
+        "it": "Una pigione è abusiva quando con essa il locatore ottiene un reddito sproporzionato dall'appartamento. Di regola non è abusivo un aumento se, per esempio, rientra nell'ambito delle pigioni usuali nella località o nel quartiere, è motivato da costi aumentati o da prestazioni supplementari del locatore, resta nell'ambito di un reddito che copre i costi per costruzioni recenti, oppure compensa solo il rincaro sul proprio capitale esposto al rischio. Ecco come verificare i motivi più frequenti: se il locatore invoca un aumento del tasso d'interesse di riferimento, chieda se precedenti diminuzioni Le sono state trasmesse. In caso contrario, vanno computate. Per il rincaro può trasmettere al massimo il 40 per cento dell'aumento dell'indice dei prezzi al consumo. Se invoca le pigioni usuali nella località o nel quartiere, deve comprovarlo con statistiche ufficiali o con almeno cinque appartamenti comparabili. Questa prova riesce raramente nella pratica. Se la motivazione non corrisponde a nessuno di questi casi o non Le sembra credibile, conviene contestarla.",
+        "en": "A rent is abusive if it lets the landlord earn an excessive return from the flat. An increase is generally not abusive if, for example, it lies within the range of rents customary in the locality or district, is justified by increased costs or additional services from the landlord, stays within a cost-covering return for newer buildings, or merely offsets inflation on the landlord's own risk capital. Here is how to check the most common reasons: if the landlord relies on a higher reference interest rate, ask whether earlier decreases were passed on to you. If not, they must be credited. For inflation, he may pass on at most 40 percent of the rise in the consumer price index. If he relies on rents customary in the locality or district, he must prove this with official statistics or with at least five comparable flats. In practice, this evidence rarely succeeds. If the reasons given fit none of these cases, or do not seem credible to you, a challenge is worthwhile.",
+        "rm": "In tschains da locaziun è abusiv, sche il locatur cuntanscha cun quel ina rendita exagerada da l'abitaziun. Betg abusiv è per regla in augment, sche el sta per exempel en il rom dals tschains usitads en il lieu u en il quartier, è motivà tras custs creschids u prestaziuns supplementaras dal locatur, resta tar edifizis pli novs en il rom d'ina rendita che quatra ils custs, u cumpensescha mo la chareschia sin il agen chapital che porta ristga. Uschia examinais Vus ils motivs ils pli frequents: sche il locatur sa referescha ad in tschains da referenza creschì, dumandai sche reducziuns anteriuras Vus èn vegnidas transmessas. Sch'i n'è betg il cas, ston ellas vegnir quintadas en. Per la chareschia dastga el transmetter maximalmain 40 pertschient da l'augment da l'index dals pretschs da consum. Sche el sa referescha als tschains usitads en il lieu u en il quartier, sto el cumprovar quai cun statisticas uffizialas u cun almain tschintg abitaziuns cumparegliablas. Questa cumprova reussescha en la pratica raramain. Sche la motivaziun na correspunda a nagin da quests cas u na Vus para betg credibla, sa paja ina contestaziun."
       },
       "sources": [
         "or-269",
@@ -396,7 +592,11 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Reichen Sie innert der Frist ein Gesuch bei der Schlichtungsbehörde für Mietsachen am Ort der Wohnung ein. Sie können es schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Legen Sie eine Kopie der Mitteilung bei und erklären Sie kurz, warum Sie die Erhöhung für missbräuchlich oder formell ungültig halten. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung."
+        "de": "So gehen Sie vor: Reichen Sie innert der Frist ein Gesuch bei der Schlichtungsbehörde für Mietsachen am Ort der Wohnung ein. Sie können es schriftlich einreichen oder mündlich bei der Behörde zu Protokoll geben. Legen Sie eine Kopie der Mitteilung bei und erklären Sie kurz, warum Sie die Erhöhung für missbräuchlich oder formell ungültig halten. Sind Sie an eine unzuständige Stelle gelangt, reichen Sie das Gesuch innert eines Monats nach deren Entscheid oder nach Ihrem Rückzug bei der richtigen Behörde neu ein. Dann zählt das Datum der ersten Einreichung.",
+        "fr": "Comment procéder : déposez une requête dans le délai auprès de l'autorité de conciliation en matière de baux du lieu où se trouve le logement. Vous pouvez la déposer par écrit ou la faire consigner oralement au procès-verbal par l'autorité. Joignez une copie de l'avis et expliquez brièvement pourquoi vous tenez la majoration pour abusive ou formellement invalide. Si la requête a été déposée auprès d'une autorité incompétente, redéposez-la auprès de l'autorité compétente dans le mois qui suit sa décision ou votre retrait. C'est alors la date du premier dépôt qui compte.",
+        "it": "Come procedere: presenti entro il termine un'istanza all'autorità di conciliazione in materia di locazione del luogo dove si trova l'appartamento. Può presentarla per scritto oppure a voce, a verbale presso l'autorità. Allega una copia della notifica e spieghi brevemente perché ritiene l'aumento abusivo o formalmente invalido. Se si è rivolto a un'autorità incompetente, ripresenti l'istanza entro un mese dalla decisione di quest'ultima o dal Suo ritiro presso l'autorità competente. Conta allora la data della prima presentazione.",
+        "en": "Here is how to proceed: file an application with the conciliation authority for tenancy matters at the location of the flat within the deadline. You can file it in writing or state it orally for the record at the authority. Enclose a copy of the notice and briefly explain why you consider the increase abusive or formally invalid. If you went to the wrong authority, file the application again with the correct authority within one month of its decision or of your withdrawal. The date of the first filing then counts.",
+        "rm": "Uschia procedais Vus: inoltrai entaifer il termin ina dumonda tar l'autoritad da mediaziun per fatgs da locaziun al lieu da l'abitaziun. Vus la pudais inoltrar per scrit u declerar la oralmain a protocol tar l'autoritad. Agiuntai ina copia da la communicaziun e declerai curtamain pertge Vus tegnis l'augment per abusiv u formalmain nunvalid. Sche Vus essas arrivads tar in post nuncumpetent, inoltrai da nov la dumonda entaifer in mais suenter la decisiun da quel u suenter Vossa retratga tar l'autoritad giusta. Lura conta la data da la emprima inoltraziun."
       },
       "sources": [
         "or-270b",
@@ -413,7 +613,11 @@
         ]
       },
       "text": {
-        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, fechten Sie die Erhöhung am besten gemeinsam an. Will jemand nicht mitmachen, können Sie auch allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern."
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, fechten Sie die Erhöhung am besten gemeinsam an. Will jemand nicht mitmachen, können Sie auch allein anfechten. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei. Sonst kann Ihr Gesuch allein aus diesem Grund scheitern.",
+        "fr": "Si plusieurs personnes ont signé le bail, le mieux est de contester la majoration ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même contester sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse. Sinon, votre requête peut échouer pour ce seul motif.",
+        "it": "Se più persone hanno firmato il contratto di locazione, è meglio contestare l'aumento insieme. Se qualcuno non vuole partecipare, può contestarlo anche da solo. Indichi allora questa persona nell'istanza, accanto al locatore, come controparte. Altrimenti la Sua istanza può fallire solo per questo motivo.",
+        "en": "If several people signed the lease, it is best to challenge the increase together. If someone does not want to join in, you can still challenge it alone. In that case, name that person in the application as an opposing party alongside the landlord. Otherwise your application can fail for this reason alone.",
+        "rm": "Sche pliras persunas han suttascrit il contract da locaziun, è il meglier da contestar l'augment ensemen. Sche insatgi na vul betg participar, pudais Vus er contestar Vus sulets. Numnai lura questa persuna en la dumonda, sper il locatur, sco cuntrapart. Autramain po Vossa dumonda betg reussir gist per quest motiv."
       },
       "sources": [
         "bge-146-iii-346"
@@ -429,7 +633,11 @@
         ]
       },
       "text": {
-        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Die 30 Tage sind dann meist abgelaufen, und eine formell gültige Erhöhung wird verbindlich. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg."
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Die 30 Tage sind dann meist abgelaufen, und eine formell gültige Erhöhung wird verbindlich. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg.",
+        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. Les 30 jours sont alors en général déjà écoulés, et une majoration formellement valable devient contraignante. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif.",
+        "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia o da una consulente. Se non compare, la Sua istanza è considerata ritirata. I 30 giorni sono allora di regola già scaduti, e un aumento formalmente valido diventa vincolante. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo.",
+        "en": "Attend the conciliation hearing in person. You may bring someone you trust or an adviser. If you do not appear, your application is deemed withdrawn. By then the 30 days will usually have expired, and a formally valid increase becomes binding. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence.",
+        "rm": "Participai persunalmain a l'udienza da mediaziun. Vus dastgais prender cun Vus ina persuna da fiducia u ina consultanta. Sche Vus n'apparais betg, vala Vossa dumonda sco retratga. Las 30 dis èn lura per regla gia scadidas, ed in augment formalmain valid daventa obligatoric. Sche Vus essas impedì u impedida pervi da malsegna u d'in auter motiv impurtant, communitgai quai immediat a l'autoritad cun in'attestaziun."
       },
       "sources": [
         "zpo-204",
@@ -446,7 +654,11 @@
         ]
       },
       "text": {
-        "de": "Solange das Verfahren läuft, bleibt Ihr Mietvertrag, wie er ist: Sie zahlen die bisherige Miete, nicht die erhöhte. Wird die Erhöhung später ganz oder teilweise bestätigt, schulden Sie die Differenz rückwirkend ab dem Erhöhungstermin. Legen Sie diesen Betrag deshalb zur Seite. Zahlen Sie die bisherige Miete vollständig und pünktlich weiter, denn wer eigenmächtig weniger bezahlt, riskiert eine Kündigung wegen Zahlungsrückstands."
+        "de": "Solange das Verfahren läuft, bleibt Ihr Mietvertrag, wie er ist: Sie zahlen die bisherige Miete, nicht die erhöhte. Wird die Erhöhung später ganz oder teilweise bestätigt, schulden Sie die Differenz rückwirkend ab dem Erhöhungstermin. Legen Sie diesen Betrag deshalb zur Seite. Zahlen Sie die bisherige Miete vollständig und pünktlich weiter, denn wer eigenmächtig weniger bezahlt, riskiert eine Kündigung wegen Zahlungsrückstands.",
+        "fr": "Tant que la procédure est en cours, votre bail reste tel quel : vous payez l'ancien loyer, pas le loyer majoré. Si la majoration est ensuite confirmée en tout ou en partie, vous devez la différence rétroactivement depuis la date de la majoration. Mettez donc ce montant de côté. Continuez à payer l'ancien loyer intégralement et à temps, car qui paie unilatéralement moins risque un congé pour retard de paiement.",
+        "it": "Finché la procedura è pendente, il Suo contratto di locazione resta com'è: Lei paga la pigione precedente, non quella aumentata. Se l'aumento viene poi confermato del tutto o in parte, Lei deve la differenza retroattivamente dalla scadenza dell'aumento. Metta quindi da parte questo importo. Continui a pagare per intero e puntualmente la pigione precedente, perché chi paga di propria iniziativa un importo inferiore rischia una disdetta per mora nel pagamento.",
+        "en": "While the proceedings are pending, your lease stays as it is: you pay the previous rent, not the increased one. If the increase is later confirmed in whole or in part, you owe the difference retroactively from the date of the increase. Set this amount aside. Keep paying the previous rent in full and on time, because anyone who unilaterally pays less risks a notice of termination for arrears.",
+        "rm": "Uschè ditg che la procedura currà, resta Voss contract da locaziun sco el è: Vus pajais il tschains anteriur, betg quel augmentà. Sche l'augment vegn pli tard confermà entiramain u per part, dubitais Vus la differenza cun effect retroactiv dapi il termin da l'augment. Metai perquai quest import a la varta. Cuntinuai a pajar cumplettamain e punctualmain il tschains anteriur, perquai che tgi che paja da sasez damain, riscla ina disditga pervi da retard da pajament."
       },
       "sources": [
         "or-270e"
@@ -462,7 +674,11 @@
         ]
       },
       "text": {
-        "de": "Das Gesetz schützt Sie davor, wegen der Anfechtung die Wohnung zu verlieren. Eine Kündigung ist anfechtbar, wenn der Vermieter damit eine Mietzinserhöhung durchsetzen will. Anfechtbar ist sie auch, wenn er sie während des Verfahrens ausspricht oder innert drei Jahren danach, sofern er im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz während und nach dem Verfahren gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand oder dringendem Eigenbedarf. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+        "de": "Das Gesetz schützt Sie davor, wegen der Anfechtung die Wohnung zu verlieren. Eine Kündigung ist anfechtbar, wenn der Vermieter damit eine Mietzinserhöhung durchsetzen will. Anfechtbar ist sie auch, wenn er sie während des Verfahrens ausspricht oder innert drei Jahren danach, sofern er im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz während und nach dem Verfahren gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand oder dringendem Eigenbedarf. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
+        "fr": "La loi vous protège contre le fait de perdre le logement à cause de la contestation. Un congé est contestable lorsque le bailleur veut ainsi imposer une majoration de loyer. Il l'est aussi lorsqu'il est donné pendant la procédure ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection pendant et après la procédure ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement ou de besoin urgent du bailleur. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu.",
+        "it": "La legge La protegge dal perdere l'appartamento a causa della contestazione. Una disdetta è contestabile se il locatore vuole con essa imporre un aumento della pigione. È contestabile anche se la pronuncia durante la procedura o entro tre anni dopo, sempre che vi sia risultato ampiamente soccombente, abbia ceduto o si sia accordato con Lei. Questa protezione durante e dopo la procedura non vale per tutte le disdette, per esempio non per la mora nel pagamento o il bisogno personale urgente. Contro una disdetta deve presentare una propria contestazione entro 30 giorni dalla ricezione.",
+        "en": "The law protects you from losing the flat because you challenged the increase. A notice of termination can be challenged if the landlord gives it to enforce a rent increase. It can also be challenged if he gives it during the proceedings or within three years afterwards, provided he was largely unsuccessful in the proceedings, gave way, or reached a settlement with you. This protection during and after the proceedings does not apply to every notice of termination, for example not for arrears or urgent need to use the flat himself. Against a notice of termination you must file your own challenge within 30 days of receiving it.",
+        "rm": "La lescha Vus protegia da perder l'abitaziun pervi da la contestaziun. Ina disditga è contestabla, sche il locatur vul far valair cun quella in augment dal tschains da locaziun. Contestabla è ella er, sche el la pronunzia durant la procedura u entaifer trais onns suenter, sche el ha perdì en la procedura en gronda part, ha cedì u sa ha arrangià cun Vus. Questa protecziun durant e suenter la procedura na vala betg tar tut las disditgas, per exempel betg tar retard da pajament u urgent agen basegn. Cunter ina disditga stuais Vus inoltrar entaifer 30 dis suenter la retschavida in'atgna contestaziun."
       },
       "sources": [
         "or-271a",
@@ -473,7 +689,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
+        "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid.",
+        "rm": "La procedura da mediaziun en fatgs da locaziun è gratuita: i na vegnan drizzads nagins custs giudizials. Igl na dat dentant er nagina indemnisaziun per custs d'advocat. Sche Vus consultais in'advocata u in advocat, purtais Vus quests custs en questa procedura per regla Vus sez. Sche suonda pli tard ina procedura giudiziala, pon resultar custs giudizials ed in'indemnisaziun a la cuntrapart. Sche a Vus mancan ils mezs e Voss punct da vista n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zpo-113",
@@ -490,7 +710,11 @@
         ]
       },
       "text": {
-        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Lehnen Sie einen Vorschlag ab, müssen also Sie selbst klagen. Macht die Behörde keinen Vorschlag, erhält der Vermieter die Klagebewilligung. Will er an der Erhöhung festhalten, muss er innert 30 Tagen klagen. Bis zum Urteil zahlen Sie die bisherige Miete. Lassen Sie sich spätestens jetzt beraten."
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Lehnen Sie einen Vorschlag ab, müssen also Sie selbst klagen. Macht die Behörde keinen Vorschlag, erhält der Vermieter die Klagebewilligung. Will er an der Erhöhung festhalten, muss er innert 30 Tagen klagen. Bis zum Urteil zahlen Sie die bisherige Miete. Lassen Sie sich spätestens jetzt beraten.",
+        "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, deux voies s'ouvrent. L'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si vous refusez une proposition, c'est donc à vous d'agir en justice. Si l'autorité ne fait pas de proposition, le bailleur reçoit l'autorisation de procéder. S'il veut maintenir la majoration, il doit agir en justice dans les 30 jours. Jusqu'au jugement, vous payez l'ancien loyer. Faites-vous conseiller au plus tard à ce stade.",
+        "it": "Se all'udienza di conciliazione non si trova un accordo, ci sono due vie. L'autorità può sottoporre alle parti una proposta di decisione. Essa diventa vincolante se nessuno la rifiuta entro 20 giorni dalla comunicazione scritta. Chi la rifiuta riceve l'autorizzazione ad agire e deve promuovere causa al tribunale entro 30 giorni, altrimenti la proposta è considerata accettata. Se Lei rifiuta una proposta, è quindi Lei stesso a dover promuovere causa. Se l'autorità non fa alcuna proposta, è il locatore a ricevere l'autorizzazione ad agire. Se vuole mantenere l'aumento, deve promuovere causa entro 30 giorni. Fino alla sentenza Lei paga la pigione precedente. Si faccia consigliare al più tardi a questo punto.",
+        "en": "If you do not reach agreement at the conciliation hearing, there are two paths. The authority may submit a proposed judgment (Urteilsvorschlag / proposition de décision) to the parties. It becomes binding if no one rejects it within 20 days of written notification. Anyone who rejects it receives an authorisation to proceed (Klagebewilligung / autorisation de procéder) and must bring an action in court within 30 days, otherwise the proposal is deemed accepted. If you reject a proposal, you yourself must therefore bring the action. If the authority does not make a proposal, the landlord receives the authorisation to proceed. If he wants to maintain the increase, he must bring an action within 30 days. Until judgment, you pay the previous rent. Get advice at the latest at this point.",
+        "rm": "Sche Vus na chattais betg in'entesa a l'udienza da mediaziun, dat ei duas pussibladads. L'autoritad po far ina proposta da sentenzia. Ella daventa obligatorica, sche nagin na la refusa entaifer 20 dis suenter la communicaziun per scrit. Tgi che la refusa survegn la permissiun da plant e sto plantar en dretgira entaifer 30 dis, autramain vala la proposta sco renconuschida. Refusais Vus ina proposta, stuais pia Vus sez plantar. Sche l'autoritad na fa nagina proposta, survegn il locatur la permissiun da plant. Vul el persister sin l'augment, sto el plantar entaifer 30 dis. Enfin la sentenzia pajais Vus il tschains anteriur. Laschai Vus consultar il pli tard ussa."
       },
       "sources": [
         "zpo-209",
@@ -502,14 +726,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn die Erhöhung mit umfangreichen Sanierungsarbeiten begründet wird und Sie die Zahlen nicht nachvollziehen können, wenn gleichzeitig eine Kündigung droht, wenn Sie bereits eine Vereinbarung über eine höhere Miete unterschrieben haben, wenn Sie einen Urteilsvorschlag oder eine Klage erhalten haben, oder wenn die 30-tägige Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn die Erhöhung mit umfangreichen Sanierungsarbeiten begründet wird und Sie die Zahlen nicht nachvollziehen können, wenn gleichzeitig eine Kündigung droht, wenn Sie bereits eine Vereinbarung über eine höhere Miete unterschrieben haben, wenn Sie einen Urteilsvorschlag oder eine Klage erhalten haben, oder wenn die 30-tägige Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez une consultation personnelle si la majoration est motivée par d'importants travaux de rénovation et que vous ne comprenez pas les chiffres, si un congé menace en même temps, si vous avez déjà signé un accord sur un loyer plus élevé, si vous avez reçu une proposition de décision ou une action en justice, ou si le délai de 30 jours expire dans quelques jours.",
+        "it": "Chieda una consulenza personale se l'aumento è motivato con ampi lavori di risanamento e non riesce a seguire le cifre, se contemporaneamente minaccia una disdetta, se ha già firmato un accordo su una pigione più alta, se ha ricevuto una proposta di decisione o una citazione in giudizio, oppure se il termine di 30 giorni scade tra pochi giorni.",
+        "en": "Get personal advice if the increase is justified by extensive renovation work and you cannot follow the figures, if a notice of termination threatens at the same time, if you have already signed an agreement for a higher rent, if you have received a proposed judgment or an action, or if the 30-day deadline expires in a few days.",
+        "rm": "Tschertgai consulaziun persunala, sche l'augment vegn motivà cun vastas lavurs da renovaziun e Vus na pudais betg cumprender las cifras, sche al medem temp smanatscha ina disditga, sche Vus avais gia suttascrit ina cunvegna davart in tschains pli aut, sche Vus avais retschavì ina proposta da sentenzia u ina plant, u sche il termin da 30 dis scada entaifer paucs dis."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, oft schon bei der Prüfung des Formulars. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder, oft schon bei der Prüfung des Formulars. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres, souvent déjà lors de l'examen de la formule. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
+        "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri, spesso già per la verifica del modulo. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
+        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members, often already when checking the form. Many cantons and bar associations offer free legal information.",
+        "rm": "Agid gratuit u favuraivel: l'autoritad da mediaziun per fatgs da locaziun infurmescha davart la procedura. Associaziuns da locataris consultan lur commembers, savens gia tar l'examinaziun dal formular. Blers chantuns ed associaziuns d'advocats offran ina infurmaziun giuridica gratuita."
       }
     }
   ],
@@ -773,13 +1005,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht"
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren im Mietrecht",
+        "fr": "Office fédéral du logement : procédure de conciliation en droit du bail",
+        "it": "Ufficio federale delle abitazioni: procedura di conciliazione nel diritto di locazione",
+        "en": "Federal Office for Housing: Conciliation proceedings in tenancy law",
+        "rm": "Uffizi federal d'abitaziuns (UFAB): Procedura da mediaziun en il dretg da locaziun"
       },
       "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
     },
     {
       "label": {
-        "de": "ch.ch: Wohnen, Mietzins und Mängel"
+        "de": "ch.ch: Wohnen, Mietzins und Mängel",
+        "fr": "ch.ch : logement, loyer et défauts",
+        "it": "ch.ch: Abitare, pigione e difetti",
+        "en": "ch.ch: Housing, rent and defects",
+        "rm": "ch.ch: Abitar, tschains da locaziun e defects"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

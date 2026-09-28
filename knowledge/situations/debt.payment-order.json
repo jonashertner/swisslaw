@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich habe einen Zahlungsbefehl erhalten"
+    "de": "Ich habe einen Zahlungsbefehl erhalten",
+    "fr": "J’ai reçu un commandement de payer",
+    "it": "Ho ricevuto un precetto esecutivo",
+    "en": "I have received a summons for payment",
+    "rm": "Jau hai retschet in cumond da pajament (Zahlungsbefehl)"
   },
   "summary": {
-    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter."
+    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter.",
+    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, la poursuite suit son cours après 20 jours.",
+    "it": "Lei può fermare un’esecuzione facendo opposizione. Ha a disposizione solo 10 giorni per farlo, e non deve motivare l’opposizione. Senza opposizione, l’esecuzione prosegue dopo 20 giorni.",
+    "en": "You can stop debt enforcement proceedings by filing an objection (Rechtsvorschlag / opposition). You have only 10 days to do so, and you do not have to give reasons for the objection. Without an objection, the proceedings continue after 20 days.",
+    "rm": "Vus pudais stupagiar ina scussiun cun l'opposiziun (Rechtsvorschlag). Vus avais dentant mo 10 dis temp per quai, e Vus na stuais betg motivar l'opposiziun. Senza opposiziun vinavant cuntinuescha la scussiun suenter 20 dis."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Kann ich nur einen Teil der Forderung bestreiten?",
       "Ich han en Zahligsbefehl übercho vom Betriibigsamt, was söll i mache?",
       "Erscheint ein Zahlungsbefehl in einem Betreibungsregisterauszug?"
+    ],
+    "fr": [
+      "J’ai reçu un commandement de payer, que dois-je faire maintenant ?",
+      "Qu’est-ce qu’une opposition et de combien de temps est-ce que je dispose ?",
+      "Dois-je quand même payer une créance que je considère comme infondée ?",
+      "Puis-je contester seulement une partie de la créance ?",
+      "J’ai reçu un commandement de payer de l’office des poursuites, qu’est-ce que je dois faire ?",
+      "Un commandement de payer apparaît-il dans un extrait du registre des poursuites ?"
+    ],
+    "it": [
+      "Ho ricevuto un precetto esecutivo, cosa devo fare adesso?",
+      "Cos’è un’opposizione e quanto tempo ho a disposizione?",
+      "Devo pagare comunque un credito che ritengo infondato?",
+      "Posso contestare solo una parte del credito?",
+      "Ho ricevuto un precetto esecutivo dall’ufficio d’esecuzione, cosa devo fare?",
+      "Un precetto esecutivo compare in un estratto del registro delle esecuzioni?"
+    ],
+    "en": [
+      "I have received a summons for payment, what do I need to do now?",
+      "What is an objection and how long do I have?",
+      "Do I still have to pay a claim I believe is wrong?",
+      "Can I dispute only part of the claim?",
+      "I got a payment demand from the debt office, what should I do?",
+      "Does a summons for payment show up on a debt enforcement register extract?"
+    ],
+    "rm": [
+      "Jau hai retschet in cumond da pajament, tge stoss jau far ussa?",
+      "Tge è in'opposiziun e quant temp hai jau?",
+      "Stoss jau tuttina pajar ina pretensiun ch'jau tegn per falsa?",
+      "Poss jau contestar mo ina part da la pretensiun?",
+      "Jau hai retschet in cumond da pajament da l'uffizi da scussiun, tge duai jau far?",
+      "Cumpara in cumond da pajament en in extract dal register da las scussiuns?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung)."
+      "de": "Einen Zahlungsbefehl des Betreibungsamts für eine Geldforderung (gewöhnliche Betreibung).",
+      "fr": "Un commandement de payer de l’office des poursuites pour une créance d’argent (poursuite ordinaire).",
+      "it": "Un precetto esecutivo dell’ufficio d’esecuzione per un credito pecuniario (esecuzione ordinaria).",
+      "en": "A summons for payment (Zahlungsbefehl / commandement de payer) issued by the debt enforcement office (Betreibungsamt / office des poursuites) for a monetary claim (ordinary debt enforcement).",
+      "rm": "In cumond da pajament da l'uffizi da scussiun (Betreibungsamt) per ina pretensiun da daners (scussiun ordinaria)."
     },
     "excludes": {
-      "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst."
+      "de": "Die Wechselbetreibung, bereits laufende Pfändungs- oder Konkursverfahren, sowie das gerichtliche Rechtsöffnungs- oder Klageverfahren selbst.",
+      "fr": "La poursuite pour effets de change, les procédures de saisie ou de faillite déjà en cours, ainsi que la procédure judiciaire de mainlevée ou d’action elle-même.",
+      "it": "L’esecuzione cambiaria, le procedure di pignoramento o di fallimento già in corso, nonché la procedura giudiziaria di rigetto dell’opposizione o di azione in giudizio stessa.",
+      "en": "Debt enforcement on a bill of exchange, distraint or bankruptcy proceedings that are already under way, and the court proceedings to set aside the objection or the action itself.",
+      "rm": "La scussiun da la cambiala, procediments da pegn u da concurs gia currents, sco era la procedura giudiziala d'avertura da dretg u da plant sez."
     }
   },
   "facts": [
     {
       "key": "stage",
       "question": {
-        "de": "In welcher Phase der Betreibung befinden Sie sich?"
+        "de": "In welcher Phase der Betreibung befinden Sie sich?",
+        "fr": "À quel stade de la poursuite vous trouvez-vous ?",
+        "it": "In quale fase dell’esecuzione si trova?",
+        "en": "What stage of the debt enforcement proceedings are you at?",
+        "rm": "En tge fasa da la scussiun chattais Vus?"
       },
       "options": [
         {
           "value": "payment-order",
           "label": {
-            "de": "Ich habe gerade einen Zahlungsbefehl erhalten"
+            "de": "Ich habe gerade einen Zahlungsbefehl erhalten",
+            "fr": "Je viens de recevoir un commandement de payer",
+            "it": "Ho appena ricevuto un precetto esecutivo",
+            "en": "I have just received a summons for payment",
+            "rm": "Jau hai gist retschet in cumond da pajament"
           }
         },
         {
           "value": "later",
           "label": {
-            "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten"
+            "de": "Ich habe schon eine Pfändungsankündigung oder eine Konkursandrohung erhalten",
+            "fr": "J’ai déjà reçu un avis de saisie ou une commination de faillite",
+            "it": "Ho già ricevuto un avviso di pignoramento o una comminatoria di fallimento",
+            "en": "I have already received a notice of distraint or a notice of impending bankruptcy",
+            "rm": "Jau hai gia retschet in'annunzia da pegn u ina smanatscha da concurs"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich bin nicht sicher"
+            "de": "Ich bin nicht sicher",
+            "fr": "Je n’en ai pas la certitude",
+            "it": "Non ne sono sicuro",
+            "en": "I'm not sure",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -59,31 +123,51 @@
     {
       "key": "dispute",
       "question": {
-        "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?"
+        "de": "Wollen Sie die Forderung bestreiten (Rechtsvorschlag erheben)?",
+        "fr": "Voulez-vous contester la créance (former opposition) ?",
+        "it": "Vuole contestare il credito (fare opposizione)?",
+        "en": "Do you want to dispute the claim (file an objection)?",
+        "rm": "Vulais Vus contestar la pretensiun (far opposiziun)?"
       },
       "options": [
         {
           "value": "all",
           "label": {
-            "de": "Ja, die ganze Forderung"
+            "de": "Ja, die ganze Forderung",
+            "fr": "Oui, la totalité de la créance",
+            "it": "Sì, l’intero credito",
+            "en": "Yes, the whole claim",
+            "rm": "Gea, tut la pretensiun"
           }
         },
         {
           "value": "partial",
           "label": {
-            "de": "Ja, aber nur einen Teil"
+            "de": "Ja, aber nur einen Teil",
+            "fr": "Oui, mais seulement une partie",
+            "it": "Sì, ma solo una parte",
+            "en": "Yes, but only part of it",
+            "rm": "Gea, ma mo ina part"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, ich will nicht bestreiten"
+            "de": "Nein, ich will nicht bestreiten",
+            "fr": "Non, je ne veux pas contester",
+            "it": "No, non voglio contestare",
+            "en": "No, I don't want to dispute it",
+            "rm": "Na, jau na vi betg contestar"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -91,28 +175,48 @@
     {
       "key": "partial_amount",
       "question": {
-        "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?"
+        "de": "Wenn Sie nur teilweise bestreiten: Wissen Sie genau, welchen Betrag Sie anerkennen und welchen Sie bestreiten?",
+        "fr": "Si vous ne contestez que partiellement : savez-vous exactement quel montant vous reconnaissez et lequel vous contestez ?",
+        "it": "Se contesta solo parzialmente: sa esattamente quale importo riconosce e quale contesta?",
+        "en": "If you are disputing only part of the claim: do you know exactly which amount you accept and which you dispute?",
+        "rm": "Sche Vus contestais mo parzialmain: savais Vus exactamain, tge summa Vus renconuschais e tge summa Vus contestais?"
       },
       "help": {
-        "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist."
+        "de": "Zum Beispiel, weil ein Teil der Forderung bereits bezahlt oder verjährt ist.",
+        "fr": "Par exemple parce qu’une partie de la créance est déjà payée ou prescrite.",
+        "it": "Ad esempio perché una parte del credito è già stata pagata o è prescritta.",
+        "en": "For example, because part of the claim has already been paid or is time-barred.",
+        "rm": "Per exempel, perquai ch'ina part da la pretensiun è gia pajada u prescritta."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, das ist mir noch nicht klar"
+            "de": "Nein, das ist mir noch nicht klar",
+            "fr": "Non, ce n’est pas encore clair pour moi",
+            "it": "No, non mi è ancora chiaro",
+            "en": "No, that's not yet clear to me",
+            "rm": "Na, quai n'è a mi anc betg cler"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es noch nicht"
+            "de": "Ich weiss es noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Jau na sai betg anc"
           }
         }
       ]
@@ -120,25 +224,41 @@
     {
       "key": "register_concern",
       "question": {
-        "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?"
+        "de": "Ist Ihnen wichtig, ob Dritte (z. B. bei einer Wohnungsbewerbung) den Zahlungsbefehl in einem Betreibungsregisterauszug sehen können?",
+        "fr": "Est-il important pour vous de savoir si des tiers (p. ex. lors d’une candidature à un logement) peuvent voir ce commandement de payer dans un extrait du registre des poursuites ?",
+        "it": "Le importa se terzi (ad es. in occasione di una candidatura per un alloggio) possano vedere il precetto esecutivo in un estratto del registro delle esecuzioni?",
+        "en": "Does it matter to you whether third parties (for example when you apply for a flat) can see the summons for payment on a debt enforcement register extract?",
+        "rm": "Èsi impurtant per Vus, sche terzas persunas (p.ex. tar in'annunzia d'abitaziun) pon vesair il cumond da pajament en in extract dal register da las scussiuns?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -154,7 +274,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen."
+        "de": "Haben Sie bereits eine Pfändungsankündigung oder eine Konkursandrohung erhalten, ist die Betreibung schon weiter fortgeschritten als bei einem einfachen Zahlungsbefehl. Diese Anleitung deckt diese Phase nicht ab. Wenden Sie sich sofort an eine Schuldenberatungsstelle oder an eine Anwältin oder einen Anwalt, denn auch hier können kurze Fristen laufen.",
+        "fr": "Si vous avez déjà reçu un avis de saisie ou une commination de faillite, la poursuite est déjà plus avancée qu’au stade d’un simple commandement de payer. Ce guide ne couvre pas cette phase. Adressez-vous immédiatement à un service de désendettement ou à une avocate ou un avocat, car des délais courts peuvent aussi courir à ce stade.",
+        "it": "Se lei ha già ricevuto un avviso di pignoramento o una comminatoria di fallimento, l’esecuzione è già più avanzata rispetto a un semplice precetto esecutivo. Questa guida non copre questa fase. Si rivolga subito a un servizio di consulenza in materia di debiti o a un legale, perché anche qui possono decorrere termini brevi.",
+        "en": "If you have already received a notice of distraint or a notice of impending bankruptcy, the debt enforcement proceedings are already further advanced than at the stage of a simple summons for payment. This guide does not cover that stage. Contact a debt counselling service or a lawyer straight away, because short deadlines can apply here too.",
+        "rm": "Sche Vus avais gia retschet in'annunzia da pegn u ina smanatscha da concurs, è la scussiun gia pli avanzada ch'in simpel cumond da pajament. Questa guida na tracta betg questa fasa. Contactai immediat ina post da consulaziun da debits u in'advocata u in advocat, perquai che era qua pon curer termins curts."
       }
     },
     {
@@ -167,7 +291,11 @@
         ]
       },
       "text": {
-        "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch."
+        "de": "Die wichtigste Frist: Wollen Sie die Forderung ganz oder teilweise bestreiten, müssen Sie den Rechtsvorschlag innert 10 Tagen nach Zustellung des Zahlungsbefehls erheben. Sie können ihn sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, mündlich mitteilen, oder innert der 10 Tage mündlich oder schriftlich beim Betreibungsamt erklären. Sie müssen den Rechtsvorschlag nicht begründen. Wann die Frist genau endet, hängt vom Zustelldatum und von den Betreibungsferien ab; unser Fristenrechner berücksichtigt das automatisch.",
+        "fr": "Le délai le plus important : si vous voulez contester la créance en tout ou en partie, vous devez former opposition dans les 10 jours suivant la notification du commandement de payer. Vous pouvez la déclarer immédiatement, oralement, à la personne qui vous a remis le commandement de payer, ou, dans les 10 jours, la déclarer oralement ou par écrit à l’office des poursuites. Vous n’avez pas à motiver l’opposition. Le moment exact où le délai se termine dépend de la date de notification et des féries des poursuites ; notre calculateur de délais en tient compte automatiquement.",
+        "it": "Il termine più importante: se vuole contestare il credito in tutto o in parte, deve fare opposizione entro 10 giorni dalla notificazione del precetto esecutivo. Può dichiararla subito, verbalmente, alla persona che le ha consegnato il precetto esecutivo, oppure dichiararla, verbalmente o per scritto, all’ufficio d’esecuzione entro i 10 giorni. Non deve motivare l’opposizione. La data esatta in cui scade il termine dipende dalla data di notificazione e dalle ferie esecutive; il nostro calcolatore di termini ne tiene conto automaticamente.",
+        "en": "The most important deadline: if you want to dispute the claim in whole or in part, you must file the objection within 10 days of service of the summons for payment. You can tell the person who handed you the summons for payment immediately and orally, or declare it orally or in writing to the debt enforcement office within the 10 days. You do not have to give reasons for the objection. Exactly when the deadline ends depends on the date of service and on the debt enforcement holidays; our deadline calculator takes this into account automatically.",
+        "rm": "Il pli impurtant termin: Sche Vus vulais contestar la pretensiun cumplessivamain u parzialmain, stuais Vus far opposiziun entaifer 10 dis suenter la consegna dal cumond da pajament. Vus pudais communitgar quai immediat a la persuna ch'ha consegnà a Vus il cumond da pajament, oralmain, u declerar quai entaifer ils 10 dis oralmain u per scrit tar l'uffizi da scussiun. Vus na stuais betg motivar l'opposiziun. Cura ch'il termin finescha exactamain, dependa da la data da consegna e da las vacanzas da scussiun; noss calculatur da termins resguarda quai automaticamain."
       },
       "sources": [
         "schkg-74"
@@ -186,7 +314,11 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag."
+        "de": "Prüfen Sie den Zahlungsbefehl genau. Er enthält die Angaben aus dem Betreibungsbegehren, die Aufforderung, die Forderung samt Betreibungskosten innert 20 Tagen zu bezahlen, sowie den Hinweis, dass Sie innert 10 Tagen Rechtsvorschlag erheben können. Diese zwei Fristen sind unterschiedlich: Die 20 Tage betreffen die Zahlung, die 10 Tage den Rechtsvorschlag.",
+        "fr": "Examinez attentivement le commandement de payer. Il contient les indications de la réquisition de poursuite, la sommation de payer la créance avec les frais de poursuite dans les 20 jours, ainsi que l’avis que vous pouvez former opposition dans les 10 jours. Ces deux délais sont différents : les 20 jours concernent le paiement, les 10 jours l’opposition.",
+        "it": "Esamini attentamente il precetto esecutivo. Esso contiene le indicazioni della domanda d’esecuzione, l’ingiunzione di pagare il credito con le spese d’esecuzione entro 20 giorni, nonché l’avvertenza che lei può fare opposizione entro 10 giorni. Questi due termini sono diversi: i 20 giorni riguardano il pagamento, i 10 giorni l’opposizione.",
+        "en": "Check the summons for payment carefully. It contains the details from the request for debt enforcement, the demand to pay the claim together with the debt enforcement costs within 20 days, and a note that you can file an objection within 10 days. These two deadlines are different: the 20 days relate to payment, the 10 days to the objection.",
+        "rm": "Examinai il cumond da pajament exactamain. El cuntegna las indicaziuns da la dumonda da scussiun, l'invit da pajar la pretensiun cun ils custs da scussiun entaifer 20 dis, sco era l'indicaziun ch'Vus pudais far opposiziun entaifer 10 dis. Quests dus termins èn different: ils 20 dis reguardan il pajament, ils 10 dis l'opposiziun."
       },
       "sources": [
         "schkg-69"
@@ -203,7 +335,11 @@
         ]
       },
       "text": {
-        "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände."
+        "de": "Für den Rechtsvorschlag brauchen Sie keinen Grund. Sie können ihn auch erheben, wenn Sie noch nicht genau wissen, wie Sie die Forderung bestreiten wollen. Begründen Sie ihn trotzdem, verlieren Sie dadurch keine weiteren Einwände.",
+        "fr": "Vous n’avez besoin d’aucun motif pour former opposition. Vous pouvez aussi la former si vous ne savez pas encore exactement comment vous voulez contester la créance. Si vous la motivez quand même, cela ne vous fait perdre aucun autre moyen de contestation.",
+        "it": "Per l’opposizione non le serve alcun motivo. Può farla anche se non sa ancora esattamente come intende contestare il credito. Se la motiva comunque, non perde per questo altre eccezioni.",
+        "en": "You do not need a reason for the objection. You can file it even if you do not yet know exactly how you want to dispute the claim. If you give reasons anyway, you do not lose any further objections as a result.",
+        "rm": "Per l'opposiziun na dovrais Vus nagin motiv. Vus pudais era far opposiziun, sch'Vus na savais anc betg exactamain, co Vus vulais contestar la pretensiun. Sch'Vus la motivais tuttina, na perdais Vus perquai naginas ulteriuras objecziuns."
       },
       "sources": [
         "schkg-75"
@@ -218,7 +354,11 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten."
+        "de": "Wollen Sie die Forderung nur teilweise bestreiten, müssen Sie im Rechtsvorschlag genau angeben, welchen Betrag Sie anerkennen und welchen Sie bestreiten. Geben Sie keinen Betrag an, gilt automatisch die ganze Forderung als bestritten.",
+        "fr": "Si vous ne voulez contester la créance que partiellement, vous devez indiquer exactement dans l’opposition quel montant vous reconnaissez et lequel vous contestez. Si vous n’indiquez aucun montant, la totalité de la créance est automatiquement réputée contestée.",
+        "it": "Se vuole contestare il credito solo in parte, deve indicare esattamente nell’opposizione quale importo riconosce e quale contesta. Se non indica alcun importo, si considera automaticamente contestato l’intero credito.",
+        "en": "If you want to dispute only part of the claim, you must state exactly in the objection which amount you accept and which you dispute. If you do not state an amount, the whole claim is automatically treated as disputed.",
+        "rm": "Sch'Vus vulais contestar la pretensiun mo parzialmain, stuais Vus indicar exactamain en l'opposiziun, tge summa Vus renconuschais e tge summa Vus contestais. Sch'Vus n'indicais nagina summa, vala automaticamain tut la pretensiun sco contestada."
       },
       "sources": [
         "schkg-74"
@@ -237,7 +377,11 @@
         ]
       },
       "text": {
-        "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten."
+        "de": "Sie wissen noch nicht genau, welchen Betrag Sie anerkennen? Sammeln Sie Belege wie Rechnungen, Zahlungsbestätigungen oder Korrespondenz, und geben Sie den bestrittenen Betrag im Rechtsvorschlag so genau wie möglich an. Gelingt Ihnen das nicht, wirkt sich das nicht gegen Sie aus: Ohne Angabe eines Betrags gilt einfach die ganze Forderung als bestritten.",
+        "fr": "Vous ne savez pas encore exactement quel montant reconnaître ? Rassemblez des pièces telles que factures, confirmations de paiement ou correspondance, et indiquez le montant contesté dans l’opposition aussi précisément que possible. Si vous n’y parvenez pas, cela ne joue pas en votre défaveur : sans indication de montant, la totalité de la créance est simplement réputée contestée.",
+        "it": "Non sa ancora esattamente quale importo riconoscere? Raccolga prove come fatture, conferme di pagamento o corrispondenza, e indichi nell’opposizione l’importo contestato nel modo più preciso possibile. Se non ci riesce, questo non le è di pregiudizio: senza l’indicazione di un importo, si considera semplicemente contestato l’intero credito.",
+        "en": "Not sure yet exactly which amount you accept? Gather evidence such as invoices, payment confirmations or correspondence, and state the disputed amount in the objection as precisely as you can. If you cannot manage this, it will not count against you: without a stated amount, the whole claim is simply treated as disputed.",
+        "rm": "Vus na savais anc betg exactamain, tge summa Vus renconuschais? Cumbinai probas sco quintas, confermaziuns da pajament u correspondenza, e indicai la summa contestada en l'opposiziun uschè exact sco pussibel. Sch'quai na Vus reussescha betg, n'ha quai naginas consequenzas negativas: senza indicaziun d'ina summa vala simplamain tut la pretensiun sco contestada."
       },
       "sources": [
         "schkg-74"
@@ -258,7 +402,11 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen."
+        "de": "So gehen Sie vor: Erklären Sie den Rechtsvorschlag sofort der Person, die Ihnen den Zahlungsbefehl überbracht hat, oder wenden Sie sich innert 10 Tagen an das im Zahlungsbefehl genannte Betreibungsamt. Eine mündliche Erklärung reicht, ein kurzes Schreiben ist aber sicherer. Verlangen Sie eine Bestätigung des Rechtsvorschlags; diese muss Ihnen das Amt gebührenfrei ausstellen.",
+        "fr": "Voici comment procéder : déclarez l’opposition immédiatement à la personne qui vous a remis le commandement de payer, ou adressez-vous, dans les 10 jours, à l’office des poursuites mentionné sur le commandement de payer. Une déclaration orale suffit, mais un courrier bref est plus sûr. Demandez une attestation de l’opposition ; l’office doit vous la délivrer gratuitement.",
+        "it": "Come procedere: dichiari l’opposizione subito alla persona che le ha consegnato il precetto esecutivo, oppure si rivolga entro 10 giorni all’ufficio d’esecuzione indicato nel precetto esecutivo. Una dichiarazione verbale è sufficiente, ma uno scritto breve è più sicuro. Chieda una conferma dell’opposizione; l’ufficio deve rilasciargliela gratuitamente.",
+        "en": "Here is how to proceed: declare the objection immediately to the person who handed you the summons for payment, or contact the debt enforcement office named in the summons for payment within 10 days. An oral declaration is enough, but a short letter is safer. Ask for confirmation of the objection; the office must issue this to you free of charge.",
+        "rm": "Uschia procedais Vus: declerai l'opposiziun immediat a la persuna ch'ha consegnà a Vus il cumond da pajament, u contactai entaifer 10 dis l'uffizi da scussiun numnà en il cumond da pajament. Ina declaraziun orala basta, in curt scrit è dentant pli segir. Pretendai ina confermaziun da l'opposiziun; l'uffizi sto deliverar quella a Vus gratuitamain."
       },
       "sources": [
         "schkg-74"
@@ -273,7 +421,11 @@
         ]
       },
       "text": {
-        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben."
+        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben.",
+        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, la poursuite suit automatiquement son cours à l’expiration du délai de paiement de 20 jours, sans que vous puissiez encore vous défendre. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance.",
+        "it": "Se non contesta il credito e non fa opposizione, l’esecuzione prosegue automaticamente dopo la scadenza del termine di pagamento di 20 giorni, senza che lei possa più difendersi. Paghi il credito con le spese d’esecuzione, oppure faccia opposizione entro il termine se ha dubbi sul credito.",
+        "en": "If you do not dispute the claim and do not file an objection, the debt enforcement proceedings automatically continue once the 20-day payment deadline has passed, and you can no longer defend yourself. Pay the claim together with the debt enforcement costs, or file an objection in time if you have doubts about the claim.",
+        "rm": "Sch'Vus na contestais betg la pretensiun e na fais nagina opposiziun, cuntinuescha la scussiun automaticamain suenter la scadenza dal termin da pajament da 20 dis, senza che Vus pudais Vus difender anc. Pajai la pretensiun cun ils custs da scussiun, u fai opposiziun a temp, sch'Vus avais dubis davart la pretensiun."
       },
       "sources": [
         "schkg-69"
@@ -294,7 +446,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert."
+        "de": "Haben Sie Rechtsvorschlag erhoben, ist die Betreibung vorerst gestoppt. Der Gläubiger kann sie nur fortsetzen, wenn er zuerst bei Gericht die Aufhebung des Rechtsvorschlags erwirkt (Rechtsöffnung) oder Ihren Anspruch auf dem Weg der Klage geltend macht. Für eine definitive Rechtsöffnung braucht der Gläubiger bereits einen vollstreckbaren gerichtlichen Entscheid; für eine provisorische Rechtsöffnung genügt eine öffentlich beurkundete oder von Ihnen unterschriebene Schuldanerkennung, sofern Sie nicht sofort glaubhafte Einwände dagegen vorbringen. Ohne einen dieser Wege bleibt die Betreibung blockiert.",
+        "fr": "Si vous avez formé opposition, la poursuite est provisoirement arrêtée. Le créancier ne peut la poursuivre que s’il obtient d’abord du tribunal la levée de l’opposition (mainlevée) ou s’il fait valoir sa prétention par voie d’action en justice. Pour une mainlevée définitive, le créancier a déjà besoin d’un jugement exécutoire ; pour une mainlevée provisoire, une reconnaissance de dette passée par acte authentique ou signée par vous suffit, à moins que vous ne rendiez immédiatement vraisemblables des objections. Sans l’une de ces voies, la poursuite reste bloquée.",
+        "it": "Se lei ha fatto opposizione, l’esecuzione è per il momento bloccata. Il creditore può proseguirla solo se ottiene prima dal giudice l’eliminazione dell’opposizione (rigetto dell’opposizione) oppure fa valere la sua pretesa per via di azione. Per un rigetto definitivo dell’opposizione, il creditore ha già bisogno di una decisione giudiziaria esecutiva; per un rigetto provvisorio è sufficiente un riconoscimento di debito autenticato da atto pubblico o firmato da lei, a meno che lei non sollevi immediatamente eccezioni rese verosimili. Senza una di queste vie, l’esecuzione resta bloccata.",
+        "en": "If you have filed an objection, the debt enforcement proceedings are stopped for the time being. The creditor can only continue them by first obtaining a court order setting aside the objection, or by bringing an action to establish the claim. To have the objection set aside definitively, the creditor already needs an enforceable court judgment; to have it set aside provisionally, a publicly certified acknowledgement of debt, or one signed by you, is enough, provided you do not immediately raise credible objections to it. Without one of these routes, the debt enforcement proceedings remain blocked.",
+        "rm": "Sch'Vus avais fatg opposiziun, è la scussiun stupagiada per il mument. Il creditur po cuntinuar ella mo, sch'el obtegna avant dretgira l'avertura da dretg (in'annullaziun da l'opposiziun), u sch'el fa valair Vossa pretensiun sin via da plant. Per in'avertura da dretg definitiva dovra il creditur gia in decret giudizial exequibel; per in'avertura da dretg provisorica basta ina renconuschientscha da debit documentada publicamain u suttascritta da Vus, ordaifer sch'Vus fais immediat objecziuns versaisimilas cunter quai. Senza in da quests vias resta la scussiun bloccada."
       },
       "sources": [
         "schkg-79",
@@ -312,7 +468,11 @@
         ]
       },
       "text": {
-        "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung."
+        "de": "Ein Zahlungsbefehl wird im Register des Betreibungsamts festgehalten. Jede Person, die ein Interesse glaubhaft macht, kann dieses Register einsehen, zum Beispiel im Zusammenhang mit dem Abschluss eines Vertrags wie einer Wohnungsbewerbung.",
+        "fr": "Un commandement de payer est consigné dans le registre de l’office des poursuites. Toute personne qui rend son intérêt vraisemblable peut consulter ce registre, par exemple dans le cadre de la conclusion d’un contrat comme une candidature à un logement.",
+        "it": "Un precetto esecutivo viene registrato nel registro dell’ufficio d’esecuzione. Chiunque renda verosimile un interesse può consultare questo registro, ad esempio in relazione alla conclusione di un contratto come una candidatura per un alloggio.",
+        "en": "A summons for payment is recorded in the debt enforcement office's register. Anyone who can show a credible interest may inspect this register, for example in connection with entering into a contract such as a flat application.",
+        "rm": "In cumond da pajament vegn registrà en il register da l'uffizi da scussiun. Mintga persuna che fa versaisimil in interess, po consultar quest register, per exempel en connex cun la conclusiun d'in contract sco in'annunzia d'abitaziun."
       },
       "sources": [
         "schkg-8a"
@@ -333,7 +493,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens."
+        "de": "Haben Sie Rechtsvorschlag erhoben, können Sie frühestens drei Monate nach Zustellung des Zahlungsbefehls beim Betreibungsamt beantragen, dass Dritten diese Betreibung nicht mehr bekanntgegeben wird. Das Amt setzt dem Gläubiger dann eine Frist von 20 Tagen, um nachzuweisen, dass er rechtzeitig ein Verfahren zur Beseitigung des Rechtsvorschlags eingeleitet hat. Gelingt ihm das nicht, bleibt der Eintrag für Dritte verborgen. Das Einsichtsrecht Dritter erlischt ohnehin fünf Jahre nach Abschluss des Verfahrens.",
+        "fr": "Si vous avez formé opposition, vous pouvez demander à l’office des poursuites, au plus tôt trois mois après la notification du commandement de payer, que cette poursuite ne soit plus portée à la connaissance des tiers. L’office impartit alors au créancier un délai de 20 jours pour prouver qu’il a engagé à temps une procédure visant à faire écarter l’opposition. S’il n’y parvient pas, l’inscription reste cachée aux tiers. Le droit de consultation des tiers s’éteint de toute façon cinq ans après la clôture de la procédure.",
+        "it": "Se lei ha fatto opposizione, può chiedere all’ufficio d’esecuzione, al più presto tre mesi dopo la notificazione del precetto esecutivo, che questa esecuzione non venga più comunicata a terzi. L’ufficio fissa allora al creditore un termine di 20 giorni per dimostrare di aver avviato tempestivamente una procedura per l’eliminazione dell’opposizione. Se non vi riesce, l’iscrizione resta nascosta ai terzi. Il diritto di consultazione dei terzi si estingue comunque cinque anni dopo la chiusura della procedura.",
+        "en": "If you have filed an objection, you can apply to the debt enforcement office, at the earliest three months after service of the summons for payment, for this debt enforcement to no longer be disclosed to third parties. The office then sets the creditor a 20-day deadline to prove that they have started proceedings in time to have the objection set aside. If the creditor fails to do so, the entry remains hidden from third parties. In any event, the right of third parties to inspect it lapses five years after the proceedings conclude.",
+        "rm": "Sch'Vus avais fatg opposiziun, pudais Vus il pli baud trais mais suenter la consegna dal cumond da pajament dumandar tar l'uffizi da scussiun, che questa scussiun na vegnia betg pli communitgada a terzas persunas. L'uffizi fixa lura al creditur in termin da 20 dis per cumprovar ch'el ha inizià a temp ina procedura per eliminar l'opposiziun. Sch'el na reussescha betg quai, resta l'endataziun zuppada per terzas persunas. Il dretg da consultaziun da terzas persunas scada tuttina tschintg onns suenter la fin da la procedura."
       },
       "sources": [
         "schkg-8a"
@@ -349,7 +513,11 @@
         ]
       },
       "text": {
-        "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen."
+        "de": "Der Rechtsvorschlag selbst kostet nichts. Verlangen Sie eine Bestätigung, dass Sie ihn erhoben haben, muss Ihnen das Betreibungsamt diese gebührenfrei ausstellen.",
+        "fr": "L’opposition elle-même ne coûte rien. Si vous demandez une attestation que vous l’avez formée, l’office des poursuites doit vous la délivrer gratuitement.",
+        "it": "L’opposizione in sé non costa nulla. Se chiede una conferma di averla fatta, l’ufficio d’esecuzione deve rilasciargliela gratuitamente.",
+        "en": "The objection itself is free. If you ask for confirmation that you have filed it, the debt enforcement office must issue this to you free of charge.",
+        "rm": "L'opposiziun sez na custa nagut. Sch'Vus pretendais ina confermaziun ch'Vus avais fatg opposiziun, sto l'uffizi da scussiun deliverar quella a Vus gratuitamain."
       },
       "sources": [
         "schkg-74"
@@ -359,14 +527,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn die Forderung hoch ist, wenn Sie bereits eine Pfändungsankündigung oder Konkursandrohung erhalten haben, wenn der Gläubiger die Rechtsöffnung verlangt, oder wenn die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez un conseil personnalisé si la créance est élevée, si vous avez déjà reçu un avis de saisie ou une commination de faillite, si le créancier demande la mainlevée, ou si le délai expire dans quelques jours.",
+        "it": "Si faccia consigliare da un professionista se il credito è elevato, se ha già ricevuto un avviso di pignoramento o una comminatoria di fallimento, se il creditore chiede il rigetto dell’opposizione, oppure se il termine scade tra pochi giorni.",
+        "en": "Get personal advice if the claim is large, if you have already received a notice of distraint or a notice of impending bankruptcy, if the creditor applies to have the objection set aside, or if the deadline runs out in a few days.",
+        "rm": "Procurai ina consulaziun persunala, sche la pretensiun è auta, sch'Vus avais gia retschet in'annunzia da pegn u ina smanatscha da concurs, sche il creditur pretenda l'avertura da dretg, u sche il termin scada en pauc dis."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über den Ablauf des Verfahrens, ersetzt aber keine Rechtsberatung. Kantonale und private Schuldenberatungsstellen beraten kostenlos oder günstig bei Zahlungsschwierigkeiten. Konsumentenorganisationen und viele Anwaltsverbände bieten eine kostenlose Erstauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur le déroulement de la procédure, mais ne remplace pas un conseil juridique. Des services cantonaux et privés de désendettement conseillent gratuitement ou à faible coût en cas de difficultés de paiement. Des organisations de consommateurs et de nombreux ordres d’avocats offrent un premier renseignement gratuit.",
+        "it": "Aiuto gratuito o a basso costo: l’ufficio d’esecuzione informa sullo svolgimento della procedura, ma non sostituisce una consulenza legale. Servizi cantonali e privati di consulenza in materia di debiti consigliano gratuitamente o a basso costo in caso di difficoltà di pagamento. Le organizzazioni dei consumatori e molte associazioni di avvocati offrono una prima consulenza gratuita.",
+        "en": "Free or low-cost help: the debt enforcement office can tell you how the procedure works, but it is not a substitute for legal advice. Cantonal and private debt counselling services advise free of charge or cheaply on payment difficulties. Consumer organisations and many bar associations offer a free initial consultation.",
+        "rm": "Agid gratuit u avantagius: l'uffizi da scussiun infurmescha davart il decuors da la procedura, ma na remplazza nagina consulaziun giuridica. Postas chantunalas e privatas da consulaziun da debits cusseglieschan gratuitamain u a bun martgà en cas da difficultads da pajament. Organisaziuns da consuments e blers associaziuns d'advocatas ed advocats porschan in'informaziun inizial gratuita."
       }
     }
   ],
@@ -431,7 +607,11 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Betreibungen"
+        "de": "ch.ch: Betreibungen",
+        "fr": "ch.ch : Poursuites",
+        "it": "ch.ch: Esecuzioni",
+        "en": "ch.ch: Debt enforcement",
+        "rm": "ch.ch: Scussiuns"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }

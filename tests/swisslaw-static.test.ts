@@ -51,3 +51,13 @@ test('pages work without JavaScript: content is in the HTML, enhancements start 
   assert.match(s, /Content-Security-Policy|<style>/);
   assert.ok(!/<script>(?!try\{)/.test(s), 'no inline executable scripts except the root language redirect');
 });
+
+test('search engines get one URL per text: sitemap lists canonical pages, hreflang only published languages', () => {
+  const canonical = (loc: string) => readFileSync(join(pub, loc.endsWith('/') ? `${loc}index.html` : loc), 'utf8').match(/<link rel="canonical" href="https:\/\/swisslaw\.io([^"]+)"/)?.[1];
+  for (const m of readFileSync(join(pub, 'sitemap.xml'), 'utf8').matchAll(/<loc>https:\/\/swisslaw\.io(\/[^<]*)<\/loc>/g)) assert.equal(canonical(m[1]), m[1]);
+  for (const s of JSON.parse(readFileSync(join(pub, 'data/index.json'), 'utf8')).situations as { url: Record<string, string>; languages: string[] }[]) {
+    const head = readFileSync(join(pub, new URL(s.url.de).pathname, 'index.html'), 'utf8');
+    assert.deepEqual([...head.matchAll(/hreflang="([a-z]{2})"/g)].map(m => m[1]).sort(), [...s.languages].sort(), s.url.de);
+  }
+  assert.match(readFileSync(join(pub, 'de/thanks/index.html'), 'utf8'), /<meta name="robots" content="noindex">/);
+});

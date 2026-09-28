@@ -1,7 +1,7 @@
 // Static page templates. Rendered to HTML at build time (renderToStaticMarkup); no React runs in the browser.
 import type { ReactNode } from 'react';
 import { applicableBlocks, localText, type KnowledgeLanguage, type Situation } from '../lib/swisslaw-chat/knowledge';
-import { BLOCK_ORDER, byImportance, LETTERS, type AreaId } from '../lib/swisslaw-chat/site';
+import { BLOCK_ORDER, byImportance, LETTERS, sourceLabel, sourceUrl, unreviewedTranslation, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { CANTONS, DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
 import { LATER, WAVE_1, type CoverageGroup } from '../lib/swisslaw-chat/coverage';
@@ -242,9 +242,9 @@ export function AboutBody({ ctx }: { ctx: Ctx }) {
   );
 }
 
-function Refs({ s, keys }: { s: Situation; keys?: string[] }) {
+function Refs({ s, keys, ctx }: { s: Situation; keys?: string[]; ctx: Ctx }) {
   if (!keys?.length) return null;
-  return <p className="refs">{keys.map((k, i) => { const r = s.sources[k]; return <span key={k}>{i > 0 && ', '}<a href={r.url}>{r.type === 'statute' ? r.label : `${r.citation}${r.e ? `, E. ${r.e}` : ''}`}</a></span>; })}</p>;
+  return <p className="refs">{keys.map((k, i) => { const r = s.sources[k]; return <span key={k}>{i > 0 && ', '}<a href={sourceUrl(r, ctx.lang)}>{sourceLabel(r, ctx.lang)}</a></span>; })}</p>;
 }
 
 export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
@@ -268,6 +268,7 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
           <p className="doc-meta">{t(ctx, 'reviewedBy', { who: s.review.reviewed_by, date: formatDate(s.review.reviewed_at, ctx.lang, false) })}</p>
         )}
         {ctx.lang !== 'de' && !s.title[ctx.lang] && <p className="doc-meta">{t(ctx, 'untranslated')}</p>}
+        {unreviewedTranslation(s, ctx.lang) && <p className="doc-meta">{t(ctx, 'unreviewedTranslation')}</p>}
       </header>
 
       <div className="doc-grid">
@@ -323,10 +324,10 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
                     <div className="due" id="due" aria-live="polite" data-rules={JSON.stringify(deadlineRules)} hidden><p className="due-prompt">{t(ctx, 'enterDate')}</p></div>
                   )}
                   {ordered ? (
-                    <ol className="steps">{list.map(b => <li key={b.id} data-when={whenAttr(b.when)} hidden={!visible.has(b.id)}><Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} /></li>)}</ol>
+                    <ol className="steps">{list.map(b => <li key={b.id} data-when={whenAttr(b.when)} hidden={!visible.has(b.id)}><Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} ctx={ctx} /></li>)}</ol>
                   ) : list.map(b => (
                     <div key={b.id} className="para" data-when={whenAttr(b.when)} hidden={!visible.has(b.id)} data-rules={b.deadline_rules ? JSON.stringify(b.deadline_rules) : undefined}>
-                      <Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} />
+                      <Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} ctx={ctx} />
                     </div>
                   ))}
                 </div>
@@ -344,7 +345,7 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
             <h2 id="r-src" className="row-label">{t(ctx, 'lbl_sources')}</h2>
             <div className="row-body">
               <ul className="source-list">{Object.entries(s.sources).map(([k, r]) => (
-                <li key={k}><a href={r.url}>{r.type === 'statute' ? r.label : `${r.citation}${r.e ? `, E. ${r.e}` : ''}`}</a></li>
+                <li key={k}><a href={sourceUrl(r, ctx.lang)}>{sourceLabel(r, ctx.lang)}</a></li>
               ))}</ul>
               {s.official_links.length > 0 && <ul className="source-links">{s.official_links.map(l => <li key={l.url}><a href={l.url}><Txt value={l.label} ctx={ctx} /></a></li>)}</ul>}
               <p className="checked">{t(ctx, 'checkedAsOf', { date: formatDate(s.version, ctx.lang, false) })}</p>
