@@ -1,0 +1,437 @@
+{
+  "schema": 1,
+  "id": "health.switching",
+  "domain": "health",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Die Kasse wechseln: Fristen"
+  },
+  "summary": {
+    "de": "Sie möchten die Krankenkasse für Ihre obligatorische Grundversicherung wechseln. Dieser Leitfaden zeigt, welche Kündigungsfristen gelten, wann eine Kündigung rechtzeitig ist, welche Einschränkungen eine höhere Franchise oder ein Hausarzt-, HMO- oder Telmed-Modell mit sich bringen, wann offene Rechnungen einen Wechsel blockieren und wann die alte Versicherung tatsächlich endet."
+  },
+  "examples": {
+    "de": [
+      "Meine Krankenkasse hat die Prämie erhöht, bis wann muss ich kündigen?",
+      "Kann ich mitten im Jahr die Kasse wechseln, wenn ich eine hohe Franchise habe?",
+      "Ich habe noch offene Rechnungen bei der Kasse, darf ich trotzdem wechseln?",
+      "Muss ich eingeschrieben kündigen, damit es gültig ist?",
+      "Was passiert mit meiner Zusatzversicherung, wenn ich die Grundversicherung wechsle?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Der Wechsel des Versicherers für die obligatorische Krankenpflegeversicherung (Grundversicherung) nach KVG und KVV: die beiden Kündigungswege, die Kündigungsfrist und wann eine Kündigung rechtzeitig ist, die Einschränkungen bei höherer Franchise oder besonderem Versicherungsmodell, die Sperre bei offenen Prämien, den Zeitpunkt, an dem die alte Versicherung endet, die Aufnahmepflicht der neuen Kasse sowie die Auswirkungen auf eine bestehende Zusatzversicherung."
+    },
+    "excludes": {
+      "de": "Nicht behandelt werden die Wahl einer bestimmten Franchise oder eines Versicherungsmodells als solche, Streitigkeiten über die Höhe von Prämien oder Leistungen, das Einsprache- und Beschwerdeverfahren gegen Verfügungen der Kasse, die Situation von Personen mit Wohnsitz im Ausland (EU, Island, Norwegen, Vereinigtes Königreich) sowie die inhaltlichen Bedingungen einer Zusatzversicherung selbst."
+    }
+  },
+  "facts": [
+    {
+      "key": "route",
+      "question": {
+        "de": "Warum möchten Sie die Krankenkasse wechseln?"
+      },
+      "options": [
+        {
+          "value": "semester",
+          "label": {
+            "de": "Ich möchte einfach wechseln, ohne besonderen Anlass"
+          }
+        },
+        {
+          "value": "premium",
+          "label": {
+            "de": "Meine Kasse hat mir eine höhere Prämie angekündigt"
+          }
+        },
+        {
+          "value": "move-or-job",
+          "label": {
+            "de": "Ich ziehe um oder trete eine neue Stelle an"
+          }
+        },
+        {
+          "value": "insurer-exits",
+          "label": {
+            "de": "Meine Kasse gibt die Grundversicherung auf oder verliert die Bewilligung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "franchise",
+      "question": {
+        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt?"
+      },
+      "options": [
+        {
+          "value": "higher",
+          "label": {
+            "de": "Ja, eine höhere Franchise"
+          }
+        },
+        {
+          "value": "minimum",
+          "label": {
+            "de": "Nein, die tiefste Franchise"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "alt_model",
+      "question": {
+        "de": "Sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell)?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, im Standardmodell"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "arrears",
+      "question": {
+        "de": "Haben Sie bei Ihrer heutigen Kasse noch offene, gemahnte Prämien oder Kostenbeteiligungen, oder läuft bereits eine Betreibung?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, alles bezahlt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "supplementary",
+      "question": {
+        "de": "Haben Sie bei Ihrer heutigen Kasse auch eine Zusatzversicherung?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, oder bei einer anderen Kasse"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "regular-notice",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können die Krankenkasse für die Grundversicherung jederzeit auf das Ende eines Kalendersemesters wechseln, also auf den 30. Juni oder den 31. Dezember. Dafür gilt eine Kündigungsfrist von drei Monaten: Ihre Kündigung muss der bisherigen Kasse spätestens am 31. März (für den 30. Juni) oder am 30. September (für den 31. Dezember) vorliegen. Das Gesetz schreibt keine bestimmte Form vor; ein unterschriebenes Kündigungsschreiben genügt."
+      },
+      "sources": [
+        "kvg-7"
+      ]
+    },
+    {
+      "id": "premium-increase-notice",
+      "kind": "rule",
+      "text": {
+        "de": "Erhöht Ihre Kasse die Prämie, muss sie Ihnen die neue, vom Bundesamt für Gesundheit genehmigte Prämie mindestens zwei Monate im Voraus mitteilen und Sie dabei auf Ihr Recht hinweisen, die Kasse zu wechseln. Sie können dann mit einer Kündigungsfrist von einem Monat auf das Ende des Monats wechseln, der dem Beginn der neuen Prämie vorausgeht. Gilt die neue Prämie zum Beispiel ab 1. Januar, muss Ihre Kündigung spätestens Ende November bei der Kasse vorliegen."
+      },
+      "sources": [
+        "kvg-7"
+      ]
+    },
+    {
+      "id": "notice-must-arrive",
+      "kind": "warning",
+      "text": {
+        "de": "Für die Kündigungsfrist zählt nicht der Tag, an dem Sie den Brief aufgeben, sondern der Zeitpunkt, an dem die Kündigung bei der Kasse tatsächlich eintrifft. Ein Brief, den Sie erst am letzten Tag der Frist der Post übergeben, kommt in der Regel zu spät an und wahrt die Frist nicht. Geben Sie Ihre Kündigung deshalb rechtzeitig vor Fristende auf. Eine eingeschriebene Sendung ist gesetzlich nicht vorgeschrieben, hilft Ihnen aber später zu beweisen, wann die Kündigung eingetroffen ist. Trifft die Kündigung zu spät ein, ist sie nicht ungültig, wirkt aber erst auf den nächstmöglichen Termin."
+      },
+      "sources": [
+        "kvg-7",
+        "bger-k39-00"
+      ]
+    },
+    {
+      "id": "move-or-new-job",
+      "kind": "warning",
+      "when": {
+        "route": [
+          "move-or-job"
+        ]
+      },
+      "text": {
+        "de": "Müssen Sie Ihre Kasse verlassen, weil Sie umziehen oder eine neue Stelle antreten, endet das Versicherungsverhältnis bereits im Zeitpunkt des Umzugs oder des Stellenantritts. Sie brauchen dafür weder die dreimonatige noch die einmonatige Kündigungsfrist einzuhalten."
+      },
+      "sources": [
+        "kvg-7"
+      ]
+    },
+    {
+      "id": "insurer-exits",
+      "kind": "warning",
+      "when": {
+        "route": [
+          "insurer-exits"
+        ]
+      },
+      "text": {
+        "de": "Stellt Ihre Kasse die Grundversicherung freiwillig ein oder verliert sie die Bewilligung dazu, endet Ihr Versicherungsverhältnis mit dem Entzug der Bewilligung. Kümmern Sie sich in diesem Fall rechtzeitig um eine neue Kasse, damit keine Lücke im Versicherungsschutz entsteht."
+      },
+      "sources": [
+        "kvg-7"
+      ]
+    },
+    {
+      "id": "higher-deductible-or-model",
+      "kind": "rule",
+      "text": {
+        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt, oder sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell), gilt eine zusätzliche Einschränkung: Ein gewöhnlicher Wechsel der Kasse, der Franchise oder des Modells wird in diesen Fällen nur auf den Beginn eines Kalenderjahres wirksam, also auf den 1. Januar – selbst wenn Sie fristgerecht auf Ende Juni gekündigt haben. Die Kündigungsfristen von drei beziehungsweise einem Monat gelten dabei unverändert."
+      },
+      "sources": [
+        "kvv-94",
+        "kvv-100"
+      ]
+    },
+    {
+      "id": "mid-year-exceptions",
+      "kind": "rule",
+      "text": {
+        "de": "Wechseln Sie die Kasse, weil Ihnen eine Prämienerhöhung angekündigt wurde, weil Sie umziehen oder die Stelle wechseln, oder weil Ihre bisherige Kasse die Bewilligung verliert, gilt die Jahresend-Beschränkung nicht: Der Wechsel wird dann auch unterjährig wirksam. Sie behalten dabei Ihre bisherige Franchise, sofern die neue Kasse diese ebenfalls anbietet."
+      },
+      "sources": [
+        "kvv-94",
+        "kvv-100"
+      ]
+    },
+    {
+      "id": "arrears-block-switch",
+      "kind": "warning",
+      "text": {
+        "de": "Solange Sie ausstehende Prämien, Kostenbeteiligungen, Verzugszinsen oder Betreibungskosten bei Ihrer bisherigen Kasse nicht vollständig bezahlt haben, können Sie die Kasse grundsätzlich nicht wechseln. Das Bundesgericht hat diese Regel streng ausgelegt. Seit 2024 und 2025 gibt es aber Ausnahmen, etwa für Schulden aus der Zeit, als Sie minderjährig waren, oder wenn der Kanton die Forderungen der Kasse übernommen hat. Klären Sie deshalb vor der Kündigung mit der Kasse oder der Ombudsstelle, ob offene Beträge Ihren Wechsel blockieren, und begleichen Sie sie wenn möglich vollständig oder vereinbaren Sie eine Abzahlung."
+      },
+      "sources": [
+        "bge-144-v-380"
+      ],
+      "when": {
+        "arrears": [
+          "yes",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "old-cover-ends-on-confirmation",
+      "kind": "warning",
+      "text": {
+        "de": "Ihre Kündigung allein beendet das Versicherungsverhältnis mit der bisherigen Kasse noch nicht. Es endet erst, wenn die neue Kasse der bisherigen mitteilt, dass Sie dort ohne Unterbruch versichert sind. Bis diese Mitteilung eingetroffen ist, bleiben Sie bei der bisherigen Kasse versichert und prämienpflichtig. Kommt die Mitteilung erst nach Ablauf Ihrer Kündigungsfrist bei der bisherigen Kasse an, endet das alte Versicherungsverhältnis erst Ende des Monats, in dem diese verspätete Mitteilung dort eingegangen ist. Versäumt die neue Kasse die Mitteilung ganz, muss sie Ihnen den dadurch entstandenen Schaden ersetzen, insbesondere eine allfällige Prämiendifferenz. Kündigen Sie deshalb nicht vorschnell weitere Verträge oder Zahlungen bei der alten Kasse, solange Ihnen die Aufnahmebestätigung der neuen Kasse nicht vorliegt."
+      },
+      "sources": [
+        "kvg-7",
+        "bge-127-v-38"
+      ]
+    },
+    {
+      "id": "duty-to-accept",
+      "kind": "rule",
+      "text": {
+        "de": "Jede Kasse, die zur Durchführung der Grundversicherung zugelassen ist, muss in ihrem Tätigkeitsgebiet jede Person aufnehmen, die der Versicherungspflicht untersteht. Das gilt unabhängig von Alter, Gesundheitszustand oder Vorerkrankungen und ist eine Bedingung für die Bewilligung der Kasse. Die neue Kasse darf Sie für die Grundversicherung also nicht ablehnen."
+      },
+      "sources": [
+        "kvag-5"
+      ]
+    },
+    {
+      "id": "supplementary-separate",
+      "kind": "warning",
+      "text": {
+        "de": "Zusatzversicherungen sind privatrechtliche Verträge nach dem Versicherungsvertragsgesetz und rechtlich von der Grundversicherung getrennt (Art. 2 Abs. 2 KVAG). Die Aufnahmepflicht gilt für sie nicht: Die neue Kasse kann einen Antrag für eine Zusatzversicherung ablehnen oder Vorbehalte anbringen, etwa wegen bestehender Gesundheitsprobleme. Ihre bisherige Kasse darf Sie nicht dazu zwingen, beim Wechsel der Grundversicherung auch Ihre Zusatzversicherungen bei ihr zu kündigen, und darf diese nicht allein deshalb kündigen, weil Sie die Grundversicherung wechseln (Art. 7 Abs. 7 und 8 KVG). Sie können also die Grundversicherung wechseln und die Zusatzversicherung behalten. Kündigen Sie eine bestehende Zusatzversicherung erst, wenn feststeht, ob und zu welchen Bedingungen eine neue Kasse Sie dort aufnimmt."
+      },
+      "sources": [
+        "kvg-7",
+        "kvag-2"
+      ],
+      "when": {
+        "supplementary": [
+          "yes",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "compare-premiums",
+      "kind": "step",
+      "text": {
+        "de": "Vergleichen Sie die Prämien und Modelle verschiedener Kassen, bevor Sie kündigen, zum Beispiel mit dem Prämienrechner des Bundes. Prüfen Sie dabei, ob die neue Kasse die von Ihnen gewünschte Franchise und das gewünschte Versicherungsmodell überhaupt anbietet, und holen Sie sich eine schriftliche Bestätigung, bevor Sie sich endgültig auf einen Wechsel verlassen."
+      }
+    },
+    {
+      "id": "premium-reduction",
+      "kind": "cost",
+      "text": {
+        "de": "Unabhängig davon, bei welcher Kasse Sie versichert sind, verbilligen die Kantone Personen mit bescheidenem Einkommen die Prämien der Grundversicherung; ein Kassenwechsel ändert an diesem Anspruch nichts."
+      },
+      "sources": [
+        "kvg-65"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Bestreitet Ihre Kasse, dass Ihre Kündigung rechtzeitig eingegangen ist, ist unklar, ob ein Verlustschein Ihren Wechsel blockiert, oder beruft sich die Kasse darauf, dass Sie wegen höherer Franchise oder besonderem Modell nicht unterjährig wechseln dürfen, obwohl bei Ihnen eine Ausnahme vorliegen könnte: Lassen Sie sich in diesen Fällen persönlich beraten, bevor Sie von einem gültigen Wechsel ausgehen oder Zahlungen einstellen."
+      }
+    },
+    {
+      "id": "ombudsman",
+      "kind": "free-help",
+      "text": {
+        "de": "Die Ombudsstelle der Krankenversicherung klärt kostenlos und neutral Missverständnisse und Streitigkeiten zwischen Versicherten und Krankenkassen, auch über die Frage, ob eine Kündigung rechtzeitig und gültig war. Sie können sich dorthin wenden, bevor Sie eine Anwältin oder einen Anwalt beiziehen."
+      }
+    }
+  ],
+  "sources": {
+    "kvg-7": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "7",
+      "label": "KVG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_7",
+      "sha256": "a1b3394ad75f004ec6e60661e9493cdd7f3e27aacf86661c75581219159ed2b2"
+    },
+    "kvag-5": {
+      "type": "statute",
+      "sr": "832.12",
+      "article": "5",
+      "label": "KVAG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2015/839/de#art_5",
+      "sha256": "c8a808297a88b66c796cc6fa315680121d15e4302f22fff64b1f3b6d110b5ae0"
+    },
+    "kvv-94": {
+      "type": "statute",
+      "sr": "832.102",
+      "article": "94",
+      "label": "KVV · Art. 94",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_94",
+      "sha256": "fe8ac6c99ec5d02a49f9929f6211749fbf8d86e2199b82bc829b3b3152c831a1"
+    },
+    "kvv-100": {
+      "type": "statute",
+      "sr": "832.102",
+      "article": "100",
+      "label": "KVV · Art. 100",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_100",
+      "sha256": "24c6bea313e19ea0081d3f6526d9556c4d34aebc8f304e817274afb5aae0b3b1"
+    },
+    "kvg-65": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "65",
+      "label": "KVG · Art. 65",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_65",
+      "sha256": "f731d5dea500f15ea07cb109f21805e1c28fa8ba4317583630ccfa7dfd7923ec"
+    },
+    "bger-k39-00": {
+      "type": "decision",
+      "decision_id": "bger_K_39_00",
+      "citation": "BGer K_39/00 vom 16. Mai 2001",
+      "e": "5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_K_39_00#e-5"
+    },
+    "bge-127-v-38": {
+      "type": "decision",
+      "decision_id": "bge_BGE_127_V_38",
+      "citation": "BGE 127 V 38",
+      "e": "4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_127_V_38#e-4"
+    },
+    "bge-144-v-380": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_V_380",
+      "citation": "BGE 144 V 380",
+      "e": "6.2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_V_380#e-6-2-1"
+    },
+    "kvag-2": {
+      "type": "statute",
+      "sr": "832.12",
+      "article": "2",
+      "label": "KVAG · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2015/839/de#art_2",
+      "sha256": "cc62572723deee0d96a9a9c6ad3b694412e96fbc5ecbffe7deb899b7a02ee80c"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Prämien vergleichen (priminfo.admin.ch)"
+      },
+      "url": "https://www.priminfo.admin.ch/de/praemien"
+    },
+    {
+      "label": {
+        "de": "Ombudsstelle der Krankenversicherung"
+      },
+      "url": "https://om-kv.ch/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

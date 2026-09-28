@@ -320,10 +320,11 @@
         ]
       },
       "text": {
-        "de": "War beim Tod ein Scheidungsverfahren hängig, verliert die überlebende Ehepartnerin oder der überlebende Ehepartner den Pflichtteil, wenn das Verfahren auf gemeinsames Begehren eingeleitet oder so fortgeführt wurde, oder wenn die Ehegatten zu diesem Zeitpunkt bereits mindestens zwei Jahre getrennt gelebt haben. In diesem Fall gelten die Pflichtteile der übrigen Erben, wie wenn die Erblasserin oder der Erblasser nicht verheiratet gewesen wäre. Für ein Verfahren zur Auflösung einer eingetragenen Partnerschaft gilt dasselbe sinngemäss. Das gilt unabhängig davon, ob das Testament dazu etwas sagt."
+        "de": "War beim Tod ein Scheidungsverfahren hängig, verliert die überlebende Ehepartnerin oder der überlebende Ehepartner den Pflichtteil, wenn das Verfahren auf gemeinsames Begehren eingeleitet oder so fortgeführt wurde, oder wenn die Ehegatten zu diesem Zeitpunkt bereits mindestens zwei Jahre getrennt gelebt haben. In diesem Fall gelten die Pflichtteile der übrigen Erben, wie wenn die Erblasserin oder der Erblasser nicht verheiratet gewesen wäre. Für ein Verfahren zur Auflösung einer eingetragenen Partnerschaft gilt dasselbe sinngemäss. Das heisst nicht, dass sie oder er automatisch weniger erbt: Die Ehe besteht bis zur rechtskräftigen Scheidung weiter, und ohne Testament oder Erbvertrag erhält sie oder er den gesetzlichen Erbteil. Die Regel bewirkt nur, dass die verstorbene Person sie oder ihn in einem Testament oder Erbvertrag ganz übergehen durfte."
       },
       "sources": [
-        "zgb-472"
+        "zgb-472",
+        "zgb-462"
       ]
     },
     {
@@ -340,7 +341,7 @@
         ]
       },
       "text": {
-        "de": "Die Erblasserin oder der Erblasser kann der überlebenden Ehepartnerin oder dem überlebenden Ehepartner beziehungsweise der überlebenden eingetragenen Partnerin oder dem überlebenden eingetragenen Partner durch Testament oder Erbvertrag statt eines Erbteils die Nutzniessung am ganzen Anteil zuwenden, der den gemeinsamen Nachkommen zufällt. Das gibt der überlebenden Person ein Nutzungsrecht am ganzen Nachlassanteil der Kinder, ohne dass dieser sofort ausbezahlt werden muss. Daneben beträgt der frei verfügbare Teil die Hälfte des Nachlasses. Heiratet die überlebende Person wieder oder geht sie eine neue eingetragene Partnerschaft ein, entfällt die Nutzniessung auf jenem Teil, der sonst über den Pflichtteil der Nachkommen hinausginge."
+        "de": "Die Erblasserin oder der Erblasser kann der Person, mit der sie oder er verheiratet war oder in eingetragener Partnerschaft lebte, durch Testament oder Erbvertrag statt eines Erbteils die Nutzniessung am ganzen Anteil zuwenden, der den gemeinsamen Nachkommen zufällt. Das gibt der überlebenden Person ein Nutzungsrecht am ganzen Nachlassanteil der Kinder, ohne dass dieser sofort ausbezahlt werden muss. Daneben beträgt der frei verfügbare Teil die Hälfte des Nachlasses. Heiratet die überlebende Person wieder oder geht sie eine neue eingetragene Partnerschaft ein, entfällt die Nutzniessung auf jenem Teil, der sonst über den Pflichtteil der Nachkommen hinausginge."
       },
       "sources": [
         "zgb-473"
@@ -394,12 +395,13 @@
         ]
       },
       "text": {
-        "de": "Erhalten Sie wertmässig weniger als Ihren Pflichtteil, können Sie mit der Herabsetzungsklage verlangen, dass gesetzliche Erbteile, testamentarische Zuwendungen und die genannten Lebzeit-Zuwendungen so weit herabgesetzt werden, bis Ihr Pflichtteil hergestellt ist. Die Klage richtet sich gegen die Personen, die zu viel erhalten haben. Wurden mehrere pflichtteilsberechtigte Erben von Todes wegen begünstigt, wird unter ihnen im Verhältnis dessen herabgesetzt, was sie über ihren eigenen Pflichtteil hinaus erhalten haben. Den Herabsetzungsanspruch können Sie auch einredeweise geltend machen, also zur Abwehr, wenn Sie selbst auf Herausgabe verklagt werden; das ist zeitlich nicht befristet."
+        "de": "Erhalten Sie wertmässig weniger als Ihren Pflichtteil, können Sie mit der Herabsetzungsklage verlangen, dass andere Zuwendungen so weit herabgesetzt werden, bis Ihr Pflichtteil hergestellt ist. Das geschieht der Reihe nach: zuerst das, was andere nach der gesetzlichen Erbfolge erhalten, dann die Zuwendungen aus Testament oder Erbvertrag, und erst wenn das nicht reicht, die Lebzeit-Zuwendungen, dabei die späteren vor den früheren. Die Klage richtet sich gegen die Personen, die zu viel erhalten haben. Wurden mehrere pflichtteilsberechtigte Erben von Todes wegen begünstigt, wird unter ihnen im Verhältnis dessen herabgesetzt, was sie über ihren eigenen Pflichtteil hinaus erhalten haben. Den Herabsetzungsanspruch können Sie auch einredeweise geltend machen, also zur Abwehr, wenn Sie selbst auf Herausgabe verklagt werden; das ist zeitlich nicht befristet."
       },
       "sources": [
         "zgb-522",
         "zgb-523",
-        "zgb-533"
+        "zgb-533",
+        "zgb-532"
       ]
     },
     {
@@ -416,11 +418,14 @@
         ]
       },
       "text": {
-        "de": "Wichtigste Frist: Die Herabsetzungsklage verjährt innert einem Jahr, nachdem Sie von der Verletzung Ihres Pflichtteils Kenntnis erhalten haben. Dafür genügt es, dass Sie die Tatsachen kennen, die einen Erfolg der Klage möglich erscheinen lassen; völlige Gewissheit ist nicht nötig, die Frist läuft trotzdem bereits. In jedem Fall verjährt die Klage spätestens zehn Jahre nach der Eröffnung des Testaments oder Erbvertrags, bei Lebzeit-Zuwendungen zehn Jahre nach dem Tod der Erblasserin oder des Erblassers. Warten Sie deshalb nicht, bis alle Zahlen feststehen: Sobald Sie eine Verletzung Ihres Pflichtteils vermuten können, sollten Sie handeln oder zumindest die Frist rechtzeitig wahren."
+        "de": "Wichtigste Frist: Die Herabsetzungsklage verjährt innert einem Jahr, nachdem Sie von der Verletzung Ihres Pflichtteils Kenntnis erhalten haben. Dafür genügt es, dass Sie die Tatsachen kennen, die einen Erfolg der Klage möglich erscheinen lassen; völlige Gewissheit ist nicht nötig, die Frist läuft trotzdem bereits. In jedem Fall verjährt die Klage spätestens zehn Jahre nach der Eröffnung des Testaments oder Erbvertrags, bei Lebzeit-Zuwendungen zehn Jahre nach dem Tod der Erblasserin oder des Erblassers. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Warten Sie deshalb nicht, bis alle Zahlen feststehen: Sobald Sie eine Verletzung Ihres Pflichtteils vermuten können, sollten Sie handeln oder zumindest die Frist rechtzeitig wahren."
       },
       "sources": [
         "zgb-533",
-        "bge-121-iii-249"
+        "bge-121-iii-249",
+        "bge-98-ii-176",
+        "zpo-62",
+        "zpo-64"
       ]
     },
     {
@@ -756,6 +761,37 @@
       "label": "ZGB · Art. 458",
       "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_458",
       "sha256": "1933b9a395d369c0b983e610d06ff021699abb6420167e6ac9b4aa884accd218"
+    },
+    "zgb-532": {
+      "type": "statute",
+      "sr": "210",
+      "article": "532",
+      "label": "ZGB · Art. 532",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_532",
+      "sha256": "64c991759754048bc3621691b3cc16daf93508892e69b4d1d2d577cd4f973cbf"
+    },
+    "bge-98-ii-176": {
+      "type": "decision",
+      "decision_id": "bge_BGE_98_II_176",
+      "citation": "BGE 98 II 176",
+      "e": "10",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_98_II_176#e-10"
+    },
+    "zpo-62": {
+      "type": "statute",
+      "sr": "272",
+      "article": "62",
+      "label": "ZPO · Art. 62",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_62",
+      "sha256": "561ba4deec9540e574b3e56e0024c2431249bd89d842c7b42206154e98f71991"
+    },
+    "zpo-64": {
+      "type": "statute",
+      "sr": "272",
+      "article": "64",
+      "label": "ZPO · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_64",
+      "sha256": "7c58333ebba85402a4ae20fe39c84ffb48e7e73e9153b980bb4faadfe95e56b1"
     }
   },
   "official_links": [

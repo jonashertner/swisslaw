@@ -223,10 +223,12 @@
       "id": "deadline-extension",
       "kind": "warning",
       "text": {
-        "de": "Reicht die Zeit nicht, können Sie bei der zuständigen Behörde aus wichtigen Gründen eine Fristverlängerung oder eine neue Frist beantragen – zum Beispiel, wenn Sie sich noch keinen Überblick über Vermögen und Schulden verschaffen konnten. Stellen Sie dieses Gesuch rechtzeitig vor Ablauf der ursprünglichen Frist bei der Behörde am letzten Wohnsitz der verstorbenen Person."
+        "de": "Reicht die Zeit nicht, können Sie bei der zuständigen Behörde am letzten Wohnsitz der verstorbenen Person eine Fristverlängerung oder eine neue Frist beantragen. Das gibt es nur aus wichtigen Gründen, und nur, wenn Sie alles unternommen haben, was man von Ihnen erwarten konnte, um sich einen Überblick über Vermögen und Schulden zu verschaffen, zum Beispiel ein öffentliches Inventar zu verlangen. Stellen Sie das Gesuch vor Ablauf der Frist. Erfahren Sie erst später von einem wichtigen Grund, handeln Sie sofort: Wer danach wochen- oder monatelang zuwartet, riskiert, dass das Gesuch als verspätet abgewiesen wird."
       },
       "sources": [
-        "zgb-576"
+        "zgb-576",
+        "bger-5a-998-2020",
+        "bge-114-ii-220"
       ]
     },
     {
@@ -264,11 +266,12 @@
       "id": "minors-must-refuse-too",
       "kind": "warning",
       "text": {
-        "de": "Minderjährige Kinder können eine Erbschaft nicht selbst ausschlagen – das übernimmt für sie die gesetzliche Vertretung, in der Regel die Eltern. Besteht dabei ein Interessenkonflikt (zum Beispiel, weil ein Elternteil selbst zur gleichen Erbengemeinschaft gehört), entfällt die Vertretungsbefugnis der Eltern in dieser Sache von Gesetzes wegen, auch wenn noch keine Beiständin oder kein Beistand ernannt wurde. Die Kindes- und Erwachsenenschutzbehörde (KESB) wird dann tätig. Werden durch eine Ausschlagung minderjährige Kinder zu Erbinnen oder Erben, klären Sie frühzeitig mit der KESB Ihres Wohnortes ab, wer für sie handeln kann und ob eine behördliche Zustimmung nötig ist – die Frist läuft weiter."
+        "de": "Minderjährige Kinder können eine Erbschaft nicht selbst ausschlagen; das tun für sie ihre gesetzlichen Vertreter, in der Regel die Eltern. Haben die Eltern dabei eigene Interessen, die denen des Kindes widersprechen, entfällt ihre Vertretungsbefugnis in dieser Sache von Gesetzes wegen, auch wenn noch keine Beiständin oder kein Beistand ernannt ist. Dann muss die Kindes- und Erwachsenenschutzbehörde (KESB) einbezogen werden. Ist die Erbschaft überschuldet, schützt die Ausschlagung in der Regel auch die Kinder. Ist sie es nicht, entgeht den Kindern durch die Ausschlagung Vermögen. Dann kann das Gericht annehmen, dass die Eltern nicht allein für sie ausschlagen können, auch wenn ein Elternteil selbst schon ausgeschlagen hat. Werden durch Ihre Ausschlagung minderjährige Kinder zu Erbinnen oder Erben, klären Sie deshalb früh mit der zuständigen Behörde oder der KESB ab, ob Sie für die Kinder ausschlagen können. Die Frist läuft weiter."
       },
       "sources": [
         "zgb-306",
-        "zh-lf240049"
+        "zh-lf240049",
+        "zh-lf240049-e3"
       ],
       "when": {
         "children_would_inherit": [
@@ -493,6 +496,27 @@
       "citation": "Obergericht ZH LF240049 vom 27. Juni 2024",
       "e": "1.2",
       "url": "https://mcp.opencaselaw.ch/entscheid/zh_obergericht_LF240049#e-1-2"
+    },
+    "zh-lf240049-e3": {
+      "type": "decision",
+      "decision_id": "zh_obergericht_LF240049",
+      "citation": "Obergericht ZH LF240049 vom 27. Juni 2024",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/zh_obergericht_LF240049#e-3-2"
+    },
+    "bger-5a-998-2020": {
+      "type": "decision",
+      "decision_id": "bger_5A_998_2020",
+      "citation": "BGer 5A_998/2020 vom 25. Juni 2021",
+      "e": "4.2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_998_2020#e-4-2-1"
+    },
+    "bge-114-ii-220": {
+      "type": "decision",
+      "decision_id": "bge_BGE_114_II_220",
+      "citation": "BGE 114 II 220",
+      "e": "4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_114_II_220#e-4"
     }
   },
   "official_links": [

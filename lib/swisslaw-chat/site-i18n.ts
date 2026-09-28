@@ -192,6 +192,7 @@ export const AREA_TEXT: Record<string, Entry> = {
   family: e('Familie und Partnerschaft', 'Famille et couple', 'Famiglia e coppia', 'Famiglia e partenadi', 'Family and partnership'),
   inheritance: e('Erben und Vorsorge', 'Successions et prévoyance', 'Successioni e previdenza', 'Ierta e prevenziun', 'Inheritance and planning ahead'),
   social: e('Sozialversicherungen', 'Assurances sociales', 'Assicurazioni sociali', 'Assicuranzas socialas', 'Social insurance'),
+  health: e('Krankenversicherung', 'Assurance maladie', 'Assicurazione malattie', 'Assicuranza da malsogna', 'Health insurance'),
 };
 
 export const LETTER_TEXT: Record<string, { name: Entry; deadline: Entry }> = {

@@ -54,10 +54,12 @@ Family situations point to personal advice early.
 | Inheritance | `inheritance.will` | How do I make a valid will? | ○ |
 | Inheritance | `inheritance.compulsory-shares` | Compulsory shares: what close relatives are entitled to | ○ |
 | Inheritance | `inheritance.power-of-attorney` | Who decides for me if I no longer can? Vorsorgeauftrag and advance directive | ○ |
+| Health insurance | `health.refused-bill` | The health insurer refuses to pay a bill | ○ |
+| Health insurance | `health.switching` | Changing basic health insurer: deadlines and conditions | ○ |
+| Health insurance | `health.supplementary` | A dispute over supplementary health insurance | ○ |
 
 Still planned, in this order:
 
-- **Health insurance:** refusal to pay a bill, changing insurer and its deadlines, supplementary insurance disputes.
 - **Protection:** victim support (Opferhilfe), rights when questioned by the police, domestic violence (safety first).
 - **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.
 
