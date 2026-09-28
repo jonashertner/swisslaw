@@ -9,7 +9,7 @@
     "de": "Wie bekomme ich meine Mietkaution zurück?"
   },
   "summary": {
-    "de": "Die Mietkaution muss bei einer Bank auf einem Konto in Ihrem eigenen Namen liegen. Nach Ende des Mietverhältnisses können Sie die Freigabe verlangen, sobald keine offenen Ansprüche mehr bestehen. Macht der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keine rechtlichen Schritte, können Sie die Kaution direkt von der Bank zurückfordern."
+    "de": "Die Mietkaution muss bei einer Bank auf einem Konto in Ihrem eigenen Namen liegen, und bei einer Wohnung darf sie höchstens drei Monatsmieten betragen. Nach Ende des Mietverhältnisses kommt der Vermieter nur mit Ihrer Zustimmung, einem rechtskräftigen Zahlungsbefehl oder einem Urteil an das Geld. Macht er innert einem Jahr keine rechtlichen Schritte, können Sie die Kaution direkt von der Bank zurückfordern. Gegen einen Zahlungsbefehl müssen Sie innert 10 Tagen Rechtsvorschlag erheben."
   },
   "examples": {
     "de": [
@@ -146,7 +146,7 @@
       "id": "bank-account-rule",
       "kind": "rule",
       "text": {
-        "de": "Leisten Sie bei der Miete von Wohn- oder Geschäftsräumen eine Sicherheit in Geld oder Wertpapieren, muss der Vermieter diese bei einer Bank auf einem Sparkonto oder Depot hinterlegen, das auf Ihren eigenen Namen lautet. Die Kaution bleibt damit während des ganzen Mietverhältnisses Ihr Eigentum."
+        "de": "Eine Kaution schulden Sie nur, wenn sie im Mietvertrag vereinbart ist. Haben Sie für eine Wohnung Geld oder Wertpapiere als Sicherheit geleistet, muss der Vermieter diese bei einer Bank auf einem Sparkonto oder Depot hinterlegen, das auf Ihren eigenen Namen lautet. Das Geld bleibt damit während des ganzen Mietverhältnisses Ihres, und die Zinsen stehen Ihnen zu."
       },
       "sources": [
         "or-257e"
@@ -166,7 +166,7 @@
         ]
       },
       "text": {
-        "de": "Bei der Miete von Wohnräumen darf der Vermieter höchstens drei Monatsmietzinse als Kaution verlangen. Verlangt er mehr, können Sie die Rückzahlung des überschiessenden Betrags verlangen."
+        "de": "Für eine Wohnung darf die Kaution höchstens drei Monatsmieten betragen. Gerechnet wird in der Regel mit der Monatsmiete einschliesslich der Nebenkosten-Akontozahlungen. Eine Klausel, die Ihnen eine höhere Kaution auferlegt, gilt für den übersteigenden Teil nicht. Haben Sie mehr bezahlt, können Sie den überschiessenden Betrag zurückverlangen."
       },
       "sources": [
         "or-257e"
@@ -182,10 +182,11 @@
         ]
       },
       "text": {
-        "de": "Liegt Ihre Kaution nicht auf einem Bankkonto in Ihrem eigenen Namen, verlangen Sie schriftlich von Ihrem Vermieter, dass er dies nachholt. Diese Pflicht trifft den Vermieter, nicht Sie."
+        "de": "Liegt Ihre Kaution nicht auf einem Bankkonto in Ihrem eigenen Namen, verlangen Sie vom Vermieter schriftlich, dass er sie sofort korrekt hinterlegt und Ihnen die Bank nennt. Diese Pflicht trifft den Vermieter, nicht Sie. Tut er es trotz Aufforderung nicht, dürfen Sie das Geld zurückverlangen und mit fälligen Mietzinsen verrechnen. Warten Sie damit nicht: Wird die Liegenschaft verkauft, muss der neue Eigentümer eine Kaution, die er nie erhalten hat, nicht hinterlegen. Sie müssen sich dann an den früheren Vermieter halten. Einen neuen Betrag für die Kaution darf der Käufer von Ihnen aber nicht verlangen."
       },
       "sources": [
-        "or-257e"
+        "or-257e",
+        "bge-127-iii-273"
       ]
     },
     {
@@ -199,10 +200,48 @@
         ]
       },
       "text": {
-        "de": "Die Bank darf die Kaution nur herausgeben, wenn beide Parteien schriftlich zustimmen, oder gestützt auf einen rechtskräftigen Zahlungsbefehl oder ein rechtskräftiges Gerichtsurteil gegen Sie. Sind Sie sich mit dem Vermieter einig, dass keine Forderungen mehr offen sind, unterschreiben Sie mit ihm gemeinsam eine Freigabeerklärung an die Bank."
+        "de": "Die Bank darf die Kaution nur herausgeben, wenn beide Parteien schriftlich zustimmen, oder gestützt auf einen rechtskräftigen Zahlungsbefehl oder ein rechtskräftiges Gerichtsurteil gegen Sie. Solange Sie eine Forderung des Vermieters bestreiten, kommt er deshalb nicht an das Geld. Sind Sie sich einig, dass keine Forderungen mehr offen sind, unterschreiben Sie gemeinsam eine Freigabeerklärung an die Bank. Unterschreiben Sie keine Freigabe zugunsten des Vermieters für Beträge, die Sie nicht schulden."
       },
       "sources": [
+        "or-257e",
+        "bger-4a-422-2016"
+      ]
+    },
+    {
+      "id": "check-claim",
+      "kind": "rule",
+      "when": {
+        "landlord_claim": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie jede Forderung des Vermieters genau. Sie müssen die Wohnung nur in dem Zustand zurückgeben, der sich aus dem vertragsgemässen Gebrauch ergibt. Normale Abnützung, etwa durch jahrelanges Wohnen vergilbte Wände oder abgenutzte Böden, müssen Sie nicht bezahlen. Der Vermieter muss die Wohnung bei der Rückgabe prüfen und Mängel, für die er Sie verantwortlich macht, sofort melden. Versäumt er das, verliert er seine Ansprüche, ausser für Mängel, die bei einer üblichen Prüfung nicht erkennbar waren. Eine Vertragsklausel, nach der Sie beim Auszug pauschal mehr als den tatsächlichen Schaden zahlen, ist nichtig."
+      },
+      "sources": [
+        "or-267",
+        "or-267a"
+      ]
+    },
+    {
+      "id": "payment-order",
+      "kind": "deadline",
+      "when": {
+        "landlord_claim": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Erhalten Sie wegen einer Forderung des Vermieters einen Zahlungsbefehl, handeln Sie sofort. Wird er rechtskräftig, darf die Bank die Kaution an den Vermieter auszahlen. Bestreiten Sie die Forderung ganz oder teilweise, erheben Sie Rechtsvorschlag innert 10 Tagen nach Zustellung, mündlich oder schriftlich beim Betreibungsamt. Eine Begründung ist nicht nötig. Der Vermieter muss dann ein Gerichtsverfahren anstrengen, und die Kaution bleibt bis zum Entscheid gesperrt."
+      },
+      "sources": [
+        "schkg-74",
         "or-257e"
+      ],
+      "deadline_rules": [
+        "schkg_74_rechtsvorschlag"
       ]
     },
     {
@@ -216,7 +255,7 @@
         ]
       },
       "text": {
-        "de": "Hat der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keinen Anspruch gegen Sie rechtlich geltend gemacht, zum Beispiel durch eine Betreibung oder eine Klage, können Sie die Rückerstattung der Kaution direkt von der Bank verlangen, auch ohne seine Zustimmung."
+        "de": "Hat der Vermieter innert einem Jahr nach Ende des Mietverhältnisses keinen Anspruch gegen Sie rechtlich geltend gemacht, können Sie die Rückerstattung der Kaution direkt von der Bank verlangen, auch ohne seine Zustimmung. Rechtlich geltend machen heisst: eine Betreibung einleiten oder ein Verfahren bei der Schlichtungsbehörde oder beim Gericht anstrengen. Ein Brief, eine Mahnung oder eine Schadensliste genügen nicht. Sie müssen das Jahr nicht in jedem Fall abwarten: Ist nichts mehr offen und verweigert der Vermieter die Freigabe trotzdem, können Sie ihn schon vorher über die Schlichtungsbehörde zur Freigabe verpflichten lassen."
       },
       "sources": [
         "or-257e"
@@ -242,17 +281,18 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Streitigkeiten aus Miete und Pacht von Wohnräumen sind vor der Schlichtungsbehörde und dem erstinstanzlichen Gericht kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
       },
       "sources": [
-        "zpo-113"
+        "zpo-113",
+        "zpo-117"
       ]
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der Vermieter innert der Jahresfrist eine Betreibung gegen Sie eingeleitet oder Klage erhoben hat, wenn Sie mit der Höhe seiner Forderung nicht einverstanden sind, oder wenn die Bank die Freigabe trotz erfüllter Voraussetzungen verweigert."
+        "de": "Holen Sie persönliche Beratung, wenn Sie einen Zahlungsbefehl erhalten haben, wenn der Vermieter innert der Jahresfrist Klage erhoben hat, wenn Sie mit der Höhe seiner Forderung nicht einverstanden sind, wenn Ihre Kaution nie auf ein Bankkonto in Ihrem Namen einbezahlt wurde, oder wenn die Bank die Freigabe trotz erfüllter Voraussetzungen verweigert."
       }
     },
     {
@@ -279,6 +319,52 @@
       "label": "ZPO · Art. 113",
       "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
       "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "schkg-74": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "74",
+      "label": "SchKG · Art. 74",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_74",
+      "sha256": "0eea2da09f08a2f83ea660433a85ecbc3d54ca4b8741a690ce232c5ccb7e2629"
+    },
+    "or-267": {
+      "type": "statute",
+      "sr": "220",
+      "article": "267",
+      "label": "OR · Art. 267",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_267",
+      "sha256": "ba38d762abd0213337b107ad6151af57c1e20294142ac6a17e785fe3e0deffd4"
+    },
+    "or-267a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "267a",
+      "label": "OR · Art. 267a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_267a",
+      "sha256": "2f631dc25952c957b3c39459cf081a33f6dd80e3689d486f0b65e213bb87e98f"
+    },
+    "bge-127-iii-273": {
+      "type": "decision",
+      "decision_id": "bge_BGE_127_III_273",
+      "citation": "BGE 127 III 273",
+      "e": "4c",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_127_III_273#e-4c"
+    },
+    "bger-4a-422-2016": {
+      "type": "decision",
+      "decision_id": "bger_4A_422_2016",
+      "citation": "BGer 4A_422/2016 vom 1. Dezember 2016",
+      "e": "4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_422_2016#e-4-1"
     }
   },
   "official_links": [
