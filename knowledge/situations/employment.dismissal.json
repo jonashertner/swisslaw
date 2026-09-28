@@ -506,11 +506,11 @@
       "id": "written-objection",
       "kind": "deadline",
       "text": {
-        "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch.",
-        "fr": "Le délai le plus important si vous voulez une indemnité pour congé abusif : faites opposition par écrit au congé auprès de votre employeur, au plus tard à la fin du délai de congé. Si vous ne vous entendez pas ensuite sur la poursuite du rapport de travail, vous devez faire valoir votre prétention à une indemnité par voie judiciaire (déposer une requête de conciliation) dans les 180 jours suivant la fin du rapport de travail, sous peine de péremption.",
-        "it": "Il termine più importante se vuole un’indennità per disdetta abusiva: faccia opposizione per scritto alla disdetta presso il suo datore di lavoro al più tardi entro la fine del termine di disdetta. Se poi non vi è accordo sulla continuazione del rapporto di lavoro, deve far valere in giudizio la sua pretesa d’indennità entro 180 giorni dalla cessazione del rapporto di lavoro (presentando un’istanza di conciliazione), altrimenti la pretesa decade.",
-        "en": "The most important deadline if you want compensation for a wrongful termination: raise a written objection to the termination with your employer no later than the end of the notice period. If you and your employer then do not agree to continue the employment relationship, you must bring your claim for compensation before a court within 180 days of the end of the employment relationship (by filing a request for conciliation), or the claim lapses.",
-        "rm": "Il pli impurtant termin, sche Vus vulais in'indemnisaziun pervia d'ina disditga abusiva: fai protesta per scrit tar Voss patrun cunter la disditga al pli tard fin la fin dal termin da disditga. Sch'i na vegn betg accordà suenter in cuntinuaziun da la relaziun da lavur, stuais Vus far valair Vossa pretensiun d'indemnisaziun tras dretgira entaifer 180 dis suenter la fin da la relaziun da lavur (inoltrar ina dumonda da mediaziun), auter vegn la pretensiun a scadair."
+        "de": "Wichtigste Frist, wenn Sie eine Entschädigung wegen missbräuchlicher Kündigung wollen: Erheben Sie spätestens bis zum Ende der Kündigungsfrist schriftlich Einsprache bei Ihrem Arbeitgeber gegen die Kündigung. Die Einsprache muss spätestens am letzten Tag der Kündigungsfrist bei Ihrem Arbeitgeber ankommen; es genügt nicht, sie an diesem Tag abzuschicken. Übergeben Sie sie deshalb persönlich gegen eine Empfangsbestätigung oder schicken Sie sie so früh, dass sie rechtzeitig eintrifft. Einigen Sie sich danach nicht auf eine Fortsetzung des Arbeitsverhältnisses, müssen Sie Ihren Entschädigungsanspruch innert 180 Tagen nach Beendigung des Arbeitsverhältnisses gerichtlich geltend machen (Schlichtungsgesuch einreichen), sonst verfällt der Anspruch.",
+        "fr": "Le délai le plus important si vous voulez une indemnité pour congé abusif : faites opposition par écrit au congé auprès de votre employeur, au plus tard à la fin du délai de congé. L’opposition doit parvenir à votre employeur au plus tard le dernier jour du délai de congé ; il ne suffit pas de l’envoyer ce jour-là. Remettez-la donc en mains propres contre un accusé de réception, ou envoyez-la assez tôt pour qu’elle arrive à temps. Si vous ne vous entendez pas ensuite sur la poursuite du rapport de travail, vous devez faire valoir votre prétention à une indemnité par voie judiciaire (déposer une requête de conciliation) dans les 180 jours suivant la fin du rapport de travail, sous peine de péremption.",
+        "it": "Il termine più importante se vuole un’indennità per disdetta abusiva: faccia opposizione per scritto alla disdetta presso il suo datore di lavoro al più tardi entro la fine del termine di disdetta. L’opposizione deve pervenire al suo datore di lavoro al più tardi l’ultimo giorno del termine di disdetta; non basta spedirla quel giorno. La consegni quindi personalmente contro ricevuta, oppure la spedisca abbastanza presto perché arrivi in tempo. Se poi non vi è accordo sulla continuazione del rapporto di lavoro, deve far valere in giudizio la sua pretesa d’indennità entro 180 giorni dalla cessazione del rapporto di lavoro (presentando un’istanza di conciliazione), altrimenti la pretesa decade.",
+        "en": "The most important deadline if you want compensation for a wrongful termination: raise a written objection to the termination with your employer no later than the end of the notice period. The objection must reach your employer by the last day of the notice period at the latest; posting it on that day is not enough. So hand it over in person against a signed receipt, or send it early enough to arrive in time. If you and your employer then do not agree to continue the employment relationship, you must bring your claim for compensation before a court within 180 days of the end of the employment relationship (by filing a request for conciliation), or the claim lapses.",
+        "rm": "Il pli impurtant termin, sche Vus vulais in'indemnisaziun pervia d'ina disditga abusiva: fai protesta per scrit tar Voss patrun cunter la disditga al pli tard fin la fin dal termin da disditga. La protesta sto arrivar tar Voss patrun il pli tard l'ultim di dal termin da disditga; i na basta betg da la trametter quel di. Surdai percunquai la protesta persunalmain cunter ina conferma da retschavida, u tramettai la protesta uschè baud ch'ella arriva a temp. Sch'i na vegn betg accordà suenter in cuntinuaziun da la relaziun da lavur, stuais Vus far valair Vossa pretensiun d'indemnisaziun tras dretgira entaifer 180 dis suenter la fin da la relaziun da lavur (inoltrar ina dumonda da mediaziun), auter vegn la pretensiun a scadair."
       },
       "when": {
         "reason_belief": [
@@ -520,7 +520,8 @@
         ]
       },
       "sources": [
-        "or-336b"
+        "or-336b",
+        "bge-136-iii-96"
       ],
       "deadline_rules": [
         "or_336b_klage_missbraeuchliche_kuendigung"
@@ -655,6 +656,13 @@
       "decision_id": "bge_BGE_115_V_437",
       "citation": "BGE 115 V 437",
       "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_115_V_437"
+    },
+    "bge-136-iii-96": {
+      "type": "decision",
+      "decision_id": "bge_BGE_136_III_96",
+      "citation": "BGE 136 III 96",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_136_III_96#e-2-3"
     }
   },
   "official_links": [
