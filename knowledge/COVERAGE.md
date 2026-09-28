@@ -45,11 +45,18 @@ Status: ● public · ◐ live review · ○ draft · · planned
 
 Family situations point to personal advice early.
 
-## Wave 3 — planned
+## Wave 3 — inheritance, health insurance, protection, courts
 
-Next, in this order:
+| Area | Situation id | Question in plain words | Status |
+| --- | --- | --- | --- |
+| Inheritance | `inheritance.refusal` | Can I refuse an inheritance, and by when? | ○ |
+| Inheritance | `inheritance.debts` | Do I have to pay the debts of the deceased? | ○ |
+| Inheritance | `inheritance.will` | How do I make a valid will? | ○ |
+| Inheritance | `inheritance.compulsory-shares` | Compulsory shares: what close relatives are entitled to | ○ |
+| Inheritance | `inheritance.power-of-attorney` | Who decides for me if I no longer can? Vorsorgeauftrag and advance directive | ○ |
 
-- **Inheritance:** making a will, compulsory shares, refusing an inheritance (three months), debts of the deceased, advance care directive.
+Still planned, in this order:
+
 - **Health insurance:** refusal to pay a bill, changing insurer and its deadlines, supplementary insurance disputes.
 - **Protection:** victim support (Opferhilfe), rights when questioned by the police, domestic violence (safety first).
 - **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.

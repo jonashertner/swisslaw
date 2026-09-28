@@ -75,6 +75,7 @@ export const SITUATION_ORDER: readonly string[] = [
   'data.access-request',
   'family.separation', 'family.divorce', 'family.child-maintenance', 'family.parental-care',
   'social.unemployment', 'social.invalidity-application', 'social.work-accident', 'social.ahv-gaps',
+  'inheritance.refusal', 'inheritance.debts', 'inheritance.will', 'inheritance.compulsory-shares', 'inheritance.power-of-attorney',
 ];
 export function byImportance(a: { id: string }, b: { id: string }): number {
   const rank = (id: string) => { const i = SITUATION_ORDER.indexOf(id); return i < 0 ? SITUATION_ORDER.length : i; };

@@ -1,0 +1,856 @@
+{
+  "schema": 1,
+  "id": "inheritance.power-of-attorney",
+  "domain": "inheritance",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Vorsorgeauftrag und Patientenverfügung"
+  },
+  "summary": {
+    "de": "Wenn Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden, können Sie nicht mehr selbst entscheiden. Mit einem Vorsorgeauftrag bestimmen Sie im Voraus, wer sich um Ihre Person, Ihr Vermögen und Ihre rechtlichen Angelegenheiten kümmert. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Ohne solche Dokumente haben nur Ehegatten und eingetragene Partnerinnen und Partner ein beschränktes gesetzliches Vertretungsrecht für Alltagsgeschäfte. Bei medizinischen Entscheiden bestimmt das Gesetz eine Reihenfolge von Angehörigen. Für alles andere muss die Erwachsenenschutzbehörde (KESB) einschreiten. Beide Dokumente können Sie nur erstellen, solange Sie selbst urteilsfähig sind."
+  },
+  "examples": {
+    "de": [
+      "Was passiert, wenn ich dement werde und nicht mehr entscheiden kann?",
+      "Wie kann ich bestimmen, wer für mich entscheidet, wenn ich verunfallt bin?",
+      "Muss ich eine Patientenverfügung machen?",
+      "Was ist der Unterschied zwischen Vorsorgeauftrag und Patientenverfügung?",
+      "Wer entscheidet über meine Behandlung, wenn ich im Koma liege?",
+      "Min Vater wird viergässlich, chan ich für ihn öppis vorkehre?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Den Vorsorgeauftrag (ZGB 360–369) für die Vertretung in persönlichen, finanziellen und rechtlichen Angelegenheiten bei Urteilsunfähigkeit, die Patientenverfügung (ZGB 370–373) für medizinische Entscheidungen, sowie die gesetzliche Vertretung durch Ehegatten und eingetragene Partnerinnen und Partner und die Vertretung bei medizinischen Massnahmen, wenn keine solchen Dokumente vorliegen."
+    },
+    "excludes": {
+      "de": "Die Vorsorge für minderjährige Kinder, den fürsorgerischen Freiheitsentzug, das Erb- und Testamentsrecht sowie kantonale Formulare und Gebühren im Einzelnen. Dazu gibt es eigene Leitfäden beziehungsweise kantonale Auskünfte."
+    }
+  },
+  "facts": [
+    {
+      "key": "interest",
+      "question": {
+        "de": "Was möchten Sie regeln?"
+      },
+      "help": {
+        "de": "Sie können auch beide Dokumente wählen."
+      },
+      "options": [
+        {
+          "value": "vorsorgeauftrag",
+          "label": {
+            "de": "Wer sich um mein Vermögen und meine Angelegenheiten kümmert (Vorsorgeauftrag)"
+          }
+        },
+        {
+          "value": "patientenverfuegung",
+          "label": {
+            "de": "Welche medizinische Behandlung ich will oder nicht will (Patientenverfügung)"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "relationship",
+      "question": {
+        "de": "Wie leben Sie zurzeit?"
+      },
+      "options": [
+        {
+          "value": "married",
+          "label": {
+            "de": "Verheiratet oder in eingetragener Partnerschaft"
+          }
+        },
+        {
+          "value": "partner",
+          "label": {
+            "de": "Unverheiratet, aber mit einer Partnerin oder einem Partner zusammenlebend"
+          }
+        },
+        {
+          "value": "single",
+          "label": {
+            "de": "Alleinstehend"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht oder möchte ich nicht sagen"
+          }
+        }
+      ]
+    },
+    {
+      "key": "existing",
+      "question": {
+        "de": "Haben Sie schon einen Vorsorgeauftrag oder eine Patientenverfügung erstellt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Bin ich nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "situation",
+      "question": {
+        "de": "Für wen möchten Sie dies regeln?"
+      },
+      "options": [
+        {
+          "value": "self",
+          "label": {
+            "de": "Für mich selbst, auf Vorrat"
+          }
+        },
+        {
+          "value": "relative",
+          "label": {
+            "de": "Eine mir nahestehende Person ist bereits urteilsunfähig geworden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "overview",
+      "kind": "rule",
+      "text": {
+        "de": "Mit zwei Dokumenten können Sie vorsorgen für den Fall, dass Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden: Mit einem Vorsorgeauftrag bestimmen Sie, wer sich um Ihre Person und Ihr Vermögen kümmert und Sie im Rechtsverkehr vertritt. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen oder nicht zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Sie können das eine, das andere oder beide Dokumente erstellen; sie ergänzen sich."
+      },
+      "sources": [
+        "zgb-360",
+        "zgb-370"
+      ]
+    },
+    {
+      "id": "not-a-will",
+      "kind": "warning",
+      "text": {
+        "de": "Ein Vorsorgeauftrag ist kein Testament. Er regelt nicht, wer nach Ihrem Tod Ihr Vermögen erhält; das legen Sie in einer letztwilligen Verfügung fest, einem eigenen Dokument mit eigenen Formvorschriften. Der Vorsorgeauftrag regelt allein die Vertretung zu Lebzeiten, solange Sie urteilsunfähig sind, und unterliegt eigenen Schutzmechanismen wie der Prüfung durch die Erwachsenenschutzbehörde. Das Bundesgericht hat diese beiden Rechtsgeschäfte ausdrücklich voneinander abgegrenzt."
+      },
+      "sources": [
+        "bger-5a-336-2024"
+      ]
+    },
+    {
+      "id": "capacity",
+      "kind": "rule",
+      "text": {
+        "de": "Einen Vorsorgeauftrag können Sie nur erstellen, solange Sie handlungsfähig sind: volljährig und urteilsfähig, also fähig, die Tragweite Ihres Entscheids zu erkennen und danach zu handeln. Für eine Patientenverfügung genügt Urteilsfähigkeit allein; ein Mindestalter schreibt das Gesetz dafür nicht vor. Massgebend ist immer der Zeitpunkt, in dem Sie das Dokument erstellen. Werden Sie später urteilsunfähig, bleibt ein gültig errichtetes Dokument trotzdem wirksam."
+      },
+      "sources": [
+        "zgb-13",
+        "zgb-16",
+        "zgb-360",
+        "zgb-370"
+      ]
+    },
+    {
+      "id": "vorsorgeauftrag-scope",
+      "kind": "rule",
+      "text": {
+        "de": "Im Vorsorgeauftrag beauftragen Sie eine oder mehrere natürliche oder juristische Personen damit, im Fall Ihrer Urteilsunfähigkeit Ihre Personensorge oder Ihre Vermögenssorge zu übernehmen oder Sie im Rechtsverkehr zu vertreten. Sie müssen die Aufgaben, die Sie übertragen wollen, umschreiben, und Sie können der beauftragten Person Weisungen für die Erfüllung dieser Aufgaben erteilen."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-360"
+      ]
+    },
+    {
+      "id": "form-vorsorgeauftrag",
+      "kind": "rule",
+      "text": {
+        "de": "Ein Vorsorgeauftrag ist nur gültig, wenn Sie ihn von Anfang bis Ende eigenhändig von Hand schreiben, datieren und unterzeichnen, oder wenn Sie ihn öffentlich beurkunden lassen, also bei einer Notarin oder einem Notar. Ein am Computer geschriebenes und nur unterschriebenes Dokument genügt nicht."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-361"
+      ]
+    },
+    {
+      "id": "register-vorsorgeauftrag",
+      "kind": "step",
+      "text": {
+        "de": "Melden Sie dem Zivilstandsamt, dass Sie einen Vorsorgeauftrag errichtet haben, und wo er hinterlegt ist. Das Amt trägt dies auf Antrag in eine zentrale Datenbank ein, auf die die Erwachsenenschutzbehörde bei Bedarf zugreifen kann. Das ersetzt nicht die sorgfältige Aufbewahrung des Originals selbst."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-361"
+      ]
+    },
+    {
+      "id": "choosing-appointee",
+      "kind": "step",
+      "text": {
+        "de": "Wählen Sie eine Person, der Sie vertrauen und die die Aufgabe zeitlich und persönlich übernehmen kann, und sprechen Sie vorher mit ihr. Bestimmen Sie auch eine Ersatzperson für den Fall, dass die erste Person ungeeignet ist, den Auftrag nicht annimmt oder ihn später kündigt. Sie können die Aufgaben aufteilen, zum Beispiel Personensorge und Vermögenssorge an verschiedene Personen übertragen."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-360"
+      ]
+    },
+    {
+      "id": "when-it-applies",
+      "kind": "rule",
+      "text": {
+        "de": "Ihr Vorsorgeauftrag wird erst wirksam, wenn die Erwachsenenschutzbehörde (KESB) dies feststellt. Erfährt sie, dass jemand urteilsunfähig geworden ist, erkundigt sie sich beim Zivilstandsamt nach einem Vorsorgeauftrag. Liegt einer vor, prüft sie, ob er gültig errichtet wurde, ob die Urteilsunfähigkeit tatsächlich eingetreten ist, ob die beauftragte Person geeignet ist und ob weitere Massnahmen nötig sind. Nimmt die beauftragte Person den Auftrag an, weist die KESB sie auf ihre Pflichten hin und stellt ihr eine Urkunde über ihre Befugnisse aus."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-363"
+      ]
+    },
+    {
+      "id": "suitability",
+      "kind": "warning",
+      "text": {
+        "de": "Die KESB prüft nicht nur, ob Ihr Vorsorgeauftrag formell gültig ist, sondern auch, ob die von Ihnen gewählte Person tatsächlich geeignet ist, die konkreten Aufgaben zu übernehmen. In einem Fall, der bis vor Bundesgericht ging, hielt das kantonale Gericht eine beauftragte Person für die Personensorge für geeignet, wegen eines anhaltenden Familienkonflikts aber nicht für die Vermögenssorge. Wählen Sie deshalb pro Aufgabenbereich eine Person, die dafür tatsächlich in Frage kommt, und bedenken Sie familiäre Spannungen."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-363",
+        "bger-5a-624-2024"
+      ]
+    },
+    {
+      "id": "duties-appointee",
+      "kind": "rule",
+      "text": {
+        "de": "Die beauftragte Person vertritt Sie nur im Rahmen dessen, was der Vorsorgeauftrag umschreibt, und muss ihre Aufgaben sorgfältig wahrnehmen, wie es die Regeln des Auftragsrechts verlangen. Muss sie ein Geschäft besorgen, das der Vorsorgeauftrag nicht erfasst, oder hat sie in einer Sache eigene Interessen, die Ihren widersprechen, muss sie unverzüglich die KESB benachrichtigen. Bei einer solchen Interessenkollision fallen ihre Befugnisse von Gesetzes wegen weg."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-365"
+      ]
+    },
+    {
+      "id": "compensation",
+      "kind": "cost",
+      "text": {
+        "de": "Regeln Sie im Vorsorgeauftrag nicht selbst, ob und wie die beauftragte Person entschädigt wird, legt die KESB eine angemessene Entschädigung fest, wenn dies wegen des Aufgabenumfangs gerechtfertigt ist oder solche Leistungen üblicherweise bezahlt werden. Entschädigung und notwendige Spesen gehen zu Ihren eigenen Lasten. Lassen Sie den Vorsorgeauftrag öffentlich beurkunden, kommt dafür die kantonal unterschiedliche Notariatsgebühr hinzu; für ein eigenhändig geschriebenes Dokument fällt keine Notariatsgebühr an."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-366"
+      ]
+    },
+    {
+      "id": "termination",
+      "kind": "warning",
+      "text": {
+        "de": "Die beauftragte Person kann den Vorsorgeauftrag jederzeit mit einer Frist von zwei Monaten kündigen, durch schriftliche Mitteilung an die KESB; aus wichtigen Gründen darf sie fristlos kündigen. Prüfen Sie deshalb periodisch, ob die von Ihnen gewählte Person die Aufgabe weiterhin übernehmen will und kann, und halten Sie eine Ersatzperson bereit."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-367"
+      ]
+    },
+    {
+      "id": "kesb-intervention",
+      "kind": "warning",
+      "text": {
+        "de": "Sind Ihre Interessen gefährdet oder nicht mehr gewahrt, greift die KESB von sich aus oder auf Antrag einer nahestehenden Person ein. Sie kann der beauftragten Person Weisungen erteilen, ein Inventar, eine periodische Rechnungsablage oder Berichte verlangen, oder ihr die Befugnisse teilweise oder ganz entziehen. Wer aus der Familie Missstände bemerkt, kann sich also jederzeit an die KESB wenden."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-368"
+      ]
+    },
+    {
+      "id": "recovery",
+      "kind": "rule",
+      "text": {
+        "de": "Werden Sie wieder urteilsfähig, verliert der Vorsorgeauftrag von Gesetzes wegen seine Wirkung. Wären Ihre Interessen dadurch gefährdet, muss die beauftragte Person die übertragenen Aufgaben trotzdem weiterführen, bis Sie Ihre Interessen wieder selbst wahren können. Geschäfte, welche die beauftragte Person vornimmt, bevor sie vom Ende ihres Auftrags erfährt, bleiben für Sie verbindlich, wie wenn der Auftrag noch bestünde."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-369"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "kind": "step",
+      "text": {
+        "de": "Ist eine Formulierung im Vorsorgeauftrag unklar, oder muss ein Nebenpunkt ergänzt werden, den Sie nicht geregelt haben, kann die beauftragte Person die KESB um Auslegung oder Ergänzung ersuchen. Umschreiben Sie die Aufgaben deshalb möglichst klar, das erspart der beauftragten Person später diesen Weg."
+      },
+      "when": {
+        "interest": [
+          "vorsorgeauftrag",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-364"
+      ]
+    },
+    {
+      "id": "patientenverfuegung-scope",
+      "kind": "rule",
+      "text": {
+        "de": "In der Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie im Fall Ihrer Urteilsunfähigkeit zustimmen und welchen nicht. Sie können auch eine Person bezeichnen, die im Fall Ihrer Urteilsunfähigkeit mit der behandelnden Ärztin oder dem behandelnden Arzt die medizinischen Massnahmen bespricht und in Ihrem Namen entscheidet, und dieser Person Weisungen erteilen. Auch hier können Sie eine Ersatzperson bestimmen."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-370"
+      ]
+    },
+    {
+      "id": "form-patientenverfuegung",
+      "kind": "rule",
+      "text": {
+        "de": "Eine Patientenverfügung muss schriftlich errichtet, datiert und unterzeichnet sein; anders als beim Vorsorgeauftrag müssen Sie sie nicht von Hand schreiben, ein ausgedrucktes und unterschriebenes Formular genügt."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-371"
+      ]
+    },
+    {
+      "id": "register-patientenverfuegung",
+      "kind": "step",
+      "text": {
+        "de": "Lassen Sie die Tatsache, dass Sie eine Patientenverfügung errichtet haben, und den Hinterlegungsort auf Ihrer Versichertenkarte eintragen. So findet das Behandlungsteam im Ernstfall rasch heraus, dass ein Dokument besteht und wo es liegt. Geben Sie eine Kopie zusätzlich der von Ihnen bezeichneten Vertrauensperson und Ihrer Hausärztin oder Ihrem Hausarzt."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-371"
+      ]
+    },
+    {
+      "id": "doctor-checks",
+      "kind": "rule",
+      "text": {
+        "de": "Sind Sie urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung besteht, klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand Ihrer Versichertenkarte ab, ausser in dringlichen Fällen. Liegt eine Patientenverfügung vor, muss die Ärztin oder der Arzt ihr folgen, ausser sie verstösst gegen gesetzliche Vorschriften oder es bestehen begründete Zweifel, dass sie auf freiem Willen beruht oder noch Ihrem mutmasslichen Willen entspricht. Weicht die Ärztin oder der Arzt davon ab, muss sie oder er die Gründe im Patientendossier festhalten."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-372"
+      ]
+    },
+    {
+      "id": "no-directive",
+      "kind": "rule",
+      "text": {
+        "de": "Haben Sie sich zur anstehenden Behandlung in keiner Patientenverfügung geäussert, plant die behandelnde Ärztin oder der behandelnde Arzt die Behandlung zusammen mit der Person, die zu Ihrer Vertretung bei medizinischen Massnahmen berechtigt ist. Diese Person wird über Gründe, Zweck, Art, Risiken, Nebenwirkungen und Kosten der Massnahme sowie über Alternativen informiert. Soweit möglich werden auch Sie selbst in die Entscheidfindung einbezogen, und der Behandlungsplan wird laufend angepasst."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-377"
+      ]
+    },
+    {
+      "id": "emergency",
+      "kind": "warning",
+      "text": {
+        "de": "In dringlichen Fällen wartet die Ärztin oder der Arzt nicht erst auf die Abklärung einer Patientenverfügung oder die vertretungsberechtigte Person, sondern ergreift sofort die nötigen medizinischen Massnahmen, nach Ihrem mutmasslichen Willen und Ihren Interessen."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-379"
+      ]
+    },
+    {
+      "id": "complaint-kesb",
+      "kind": "rule",
+      "text": {
+        "de": "Jede Ihnen nahestehende Person kann sich schriftlich an die KESB wenden, wenn Ihrer Patientenverfügung nicht entsprochen wird, wenn Ihre Interessen als urteilsunfähige Person gefährdet oder nicht mehr gewahrt sind, oder wenn geltend gemacht wird, die Patientenverfügung beruhe nicht auf Ihrem freien Willen. Die KESB prüft dann, wie beim Vorsorgeauftrag, ob eine behördliche Massnahme nötig ist."
+      },
+      "when": {
+        "interest": [
+          "patientenverfuegung",
+          "both",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-373"
+      ]
+    },
+    {
+      "id": "medical-representation-order",
+      "kind": "rule",
+      "text": {
+        "de": "Für die Zustimmung zu medizinischen Massnahmen gilt eine gesetzliche Reihenfolge, wenn Sie urteilsunfähig sind: zuerst die in einer Patientenverfügung oder einem Vorsorgeauftrag bezeichnete Person, dann eine Beiständin oder ein Beistand mit einem entsprechenden Vertretungsrecht, dann Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner, sofern gemeinsamer Haushalt oder regelmässige persönliche Betreuung besteht, dann eine Person, die mit Ihnen einen Haushalt führt und Sie regelmässig persönlich betreut, dann Ihre Nachkommen, dann Ihre Eltern und zuletzt Ihre Geschwister, jeweils wenn sie Sie regelmässig und persönlich betreuen. Sind mehrere Personen gleichermassen berechtigt, darf die gutgläubige Ärztin oder der gutgläubige Arzt annehmen, dass sie im Einverständnis miteinander handeln. Fehlen Weisungen, entscheidet die vertretungsberechtigte Person nach Ihrem mutmasslichen Willen und Ihren Interessen."
+      },
+      "sources": [
+        "zgb-378"
+      ]
+    },
+    {
+      "id": "spousal-representation",
+      "kind": "rule",
+      "text": {
+        "de": "Führen Sie mit Ihrem Ehegatten oder Ihrer eingetragenen Partnerin bzw. Ihrem eingetragenen Partner einen gemeinsamen Haushalt oder leistet diese Person Ihnen regelmässig und persönlich Beistand, hat sie von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht. Dieses Recht deckt Rechtshandlungen, die üblicherweise zur Deckung Ihres Unterhaltsbedarfs nötig sind, die ordentliche Verwaltung Ihres Einkommens und übrigen Vermögens, sowie nötigenfalls das Öffnen und Erledigen der Post. Für ausserordentliche Vermögensverwaltung braucht sie zusätzlich die Zustimmung der KESB, und auch sie muss dabei sorgfältig handeln. Bestehen Zweifel, ob die Voraussetzungen erfüllt sind, entscheidet die KESB."
+      },
+      "when": {
+        "relationship": [
+          "married",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-374",
+        "zgb-375",
+        "zgb-376"
+      ]
+    },
+    {
+      "id": "no-default-representation",
+      "kind": "warning",
+      "text": {
+        "de": "Ohne Vorsorgeauftrag gilt das gesetzliche Vertretungsrecht für Alltagsgeschäfte und Vermögen nur zwischen Ehegatten oder eingetragenen Partnerinnen und Partnern, die zusammenleben oder sich regelmässig persönlich betreuen, und auch dann nur beschränkt. Leben Sie unverheiratet mit einer Partnerin oder einem Partner zusammen, oder leben Sie allein, hat diese Person, so nahe sie Ihnen steht, für Vermögens- und Rechtsgeschäfte kein solches gesetzliches Vertretungsrecht; bei medizinischen Massnahmen kann eine mit Ihnen im Haushalt lebende, Sie betreuende Partnerin oder ein solcher Partner immerhin in der gesetzlichen Reihenfolge vertretungsberechtigt sein. Sind Ihre Interessen sonst gefährdet und liegt keine gültige Vorsorge vor, muss die KESB einschreiten, in der Regel mit einer Beistandschaft. Das ist ein wichtiger Grund, gerade als unverheiratetes Paar oder als alleinstehende Person einen Vorsorgeauftrag zu erstellen."
+      },
+      "when": {
+        "relationship": [
+          "partner",
+          "single",
+          "unknown"
+        ]
+      },
+      "sources": [
+        "zgb-374",
+        "zgb-378",
+        "zgb-388"
+      ]
+    },
+    {
+      "id": "revocation",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können Ihren Vorsorgeauftrag jederzeit widerrufen, in einer der beiden Formen, die für die Errichtung gelten, oder indem Sie die Urkunde vernichten. Erstellen Sie ein neues Dokument, ohne das alte ausdrücklich aufzuheben, tritt das neue an dessen Stelle, ausser es ist zweifellos nur eine Ergänzung. Für die Patientenverfügung gilt sinngemäss dieselbe Regel: Auch sie können Sie jederzeit ändern oder widerrufen."
+      },
+      "sources": [
+        "zgb-362",
+        "zgb-371"
+      ]
+    },
+    {
+      "id": "create-document",
+      "kind": "step",
+      "text": {
+        "de": "So gehen Sie vor: Entwerfen Sie den Text, umschreiben Sie die Aufgaben oder medizinischen Wünsche klar, und besprechen Sie den Entwurf mit der vorgesehenen Person. Nutzen Sie eine anerkannte Vorlage, etwa von einer kantonalen Behörde, einer Fachorganisation oder einer Notarin bzw. einem Notar, statt bei null zu beginnen. Schreiben, datieren und unterzeichnen Sie den Vorsorgeauftrag danach von Hand, oder lassen Sie ihn öffentlich beurkunden; die Patientenverfügung genügt getippt, datiert und unterschrieben. Bewahren Sie das Original griffbereit auf, und sagen Sie Familie und Vertrauenspersonen, wo es liegt."
+      },
+      "when": {
+        "existing": [
+          "no",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "keep-current",
+      "kind": "step",
+      "text": {
+        "de": "Prüfen Sie Ihr bestehendes Dokument periodisch, etwa alle zwei bis drei Jahre oder nach wichtigen Ereignissen wie Heirat, Trennung, einem Umzug oder einer neuen Diagnose, und datieren Sie eine geänderte Fassung neu. Informieren Sie die beauftragten Personen, ob sie die Aufgabe weiterhin übernehmen wollen, und Ihre Familie, dass die Dokumente bestehen und wo sie liegen."
+      },
+      "when": {
+        "existing": [
+          "yes",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "relative-incapacitated",
+      "kind": "escalate",
+      "text": {
+        "de": "Ist eine Ihnen nahestehende Person bereits urteilsunfähig geworden, kann sie selbst keinen gültigen Vorsorgeauftrag und keine Patientenverfügung mehr errichten; dafür wäre Handlungs- beziehungsweise Urteilsfähigkeit im Zeitpunkt der Errichtung nötig gewesen. Prüfen Sie zuerst, ob bereits ein Dokument besteht, etwa über das Zivilstandsamt oder einen Vermerk auf der Versichertenkarte. Liegt ein gültiger Vorsorgeauftrag vor, muss die KESB dessen Wirksamkeit feststellen. Fehlt ein Dokument, kann sich jede nahestehende Person schriftlich an die KESB wenden; diese prüft von Amtes wegen, ob eine Beistandschaft oder eine andere Schutzmassnahme nötig ist. Holen Sie in dieser Situation persönliche Beratung ein."
+      },
+      "when": {
+        "situation": [
+          "relative"
+        ]
+      },
+      "sources": [
+        "zgb-360",
+        "zgb-370",
+        "zgb-363",
+        "zgb-388"
+      ]
+    },
+    {
+      "id": "escalate-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung ein, wenn erhebliches Vermögen oder Liegenschaften im Spiel sind, Sie ein Unternehmen führen oder daran beteiligt sind, es Konflikte in der Familie oder mit der vorgesehenen Vertrauensperson gibt, Vermögen oder Angehörige im Ausland betroffen sind, oder eine nahestehende Person bereits urteilsunfähig geworden ist. Auch wenn Sie unsicher sind, wie Sie Aufgaben oder Weisungen genau formulieren sollen, hilft eine Fachperson weiter."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Erwachsenenschutzbehörde (KESB) Ihres Wohnkantons informiert über Vorsorgeauftrag und Patientenverfügung. Pro Senectute berät ältere Menschen und ihre Angehörigen zur persönlichen Vorsorge und bietet Musterdokumente an. Viele Kantone und Gemeinden führen Beratungsstellen oder Informationsveranstaltungen, und Notarinnen und Notare informieren über die öffentliche Beurkundung."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-13": {
+      "type": "statute",
+      "sr": "210",
+      "article": "13",
+      "label": "ZGB · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_13",
+      "sha256": "88ecfe6a57d54c6d9010c1724386cdf5af10d622d6fb7c2d2ef84097ce583ff6"
+    },
+    "zgb-16": {
+      "type": "statute",
+      "sr": "210",
+      "article": "16",
+      "label": "ZGB · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_16",
+      "sha256": "e634b9184703ec5c66e15d2545fadb2e1f4689718dfe430a3a580b843669102c"
+    },
+    "zgb-360": {
+      "type": "statute",
+      "sr": "210",
+      "article": "360",
+      "label": "ZGB · Art. 360",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_360",
+      "sha256": "908b0fe8129c17310bfa4618784ebf8da2fbd43d97a6087f66d8dda57d1fe152"
+    },
+    "zgb-361": {
+      "type": "statute",
+      "sr": "210",
+      "article": "361",
+      "label": "ZGB · Art. 361",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_361",
+      "sha256": "252c2dffbe1287ac06abb75a4b2c76c23f13a33b0642e2a5d0d45a6cd1ef6723"
+    },
+    "zgb-362": {
+      "type": "statute",
+      "sr": "210",
+      "article": "362",
+      "label": "ZGB · Art. 362",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_362",
+      "sha256": "c45197d6ae70f00758260ccb5137484fefce88bbfa8d600cf2e38b2585aa5af1"
+    },
+    "zgb-363": {
+      "type": "statute",
+      "sr": "210",
+      "article": "363",
+      "label": "ZGB · Art. 363",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_363",
+      "sha256": "77b8e494f96dd9bc74fbbe600462756f56c722177caa146ba70dac0557141c49"
+    },
+    "zgb-364": {
+      "type": "statute",
+      "sr": "210",
+      "article": "364",
+      "label": "ZGB · Art. 364",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_364",
+      "sha256": "3220294cce746371b74b16eed77c5273152c1970251cb21533361f94742e9dec"
+    },
+    "zgb-365": {
+      "type": "statute",
+      "sr": "210",
+      "article": "365",
+      "label": "ZGB · Art. 365",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_365",
+      "sha256": "e4505ef275dc39ce68f4f6ae0171682a671963bacc13ced8d5c1048efd8644a4"
+    },
+    "zgb-366": {
+      "type": "statute",
+      "sr": "210",
+      "article": "366",
+      "label": "ZGB · Art. 366",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_366",
+      "sha256": "c0fec3c17cb87f7f035f8bc540a12fff78ab8909022b497f2efbd6a7737f4bad"
+    },
+    "zgb-367": {
+      "type": "statute",
+      "sr": "210",
+      "article": "367",
+      "label": "ZGB · Art. 367",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_367",
+      "sha256": "ded36a9ae7ba2521c73393bb2853e2a6aa0579a5f04b3749054f40d697fb72df"
+    },
+    "zgb-368": {
+      "type": "statute",
+      "sr": "210",
+      "article": "368",
+      "label": "ZGB · Art. 368",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_368",
+      "sha256": "c8719ff98a1dbb7059396c0bfa70951eec2c3793fd210572a6775df78b9f9836"
+    },
+    "zgb-369": {
+      "type": "statute",
+      "sr": "210",
+      "article": "369",
+      "label": "ZGB · Art. 369",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_369",
+      "sha256": "41b8cc6c8de87da180938e999a442933ad3aed75175a6e98448fee5a367fcc6c"
+    },
+    "zgb-370": {
+      "type": "statute",
+      "sr": "210",
+      "article": "370",
+      "label": "ZGB · Art. 370",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_370",
+      "sha256": "b9cde55053682fd94989771fd409e6a5f36633e847d2bce7fe1684a4c5c530f3"
+    },
+    "zgb-371": {
+      "type": "statute",
+      "sr": "210",
+      "article": "371",
+      "label": "ZGB · Art. 371",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_371",
+      "sha256": "ab50b0cceac3e02f79962a5d865f1347f7eb003c495dee5c9535d4b9515b73d8"
+    },
+    "zgb-372": {
+      "type": "statute",
+      "sr": "210",
+      "article": "372",
+      "label": "ZGB · Art. 372",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_372",
+      "sha256": "a296b3e029583b5413386bdb317b1b0f5e0344b09589204f7f082c769afc8140"
+    },
+    "zgb-373": {
+      "type": "statute",
+      "sr": "210",
+      "article": "373",
+      "label": "ZGB · Art. 373",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_373",
+      "sha256": "e1ef8c291d4b8e6bb3c21bdf585a7e6af52b16de96e266dc1603cc8aaa515a97"
+    },
+    "zgb-374": {
+      "type": "statute",
+      "sr": "210",
+      "article": "374",
+      "label": "ZGB · Art. 374",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_374",
+      "sha256": "8afd66c68d0da3f19eed456557cfcf8a154e69d2f8cda4a5623d36c45fb27781"
+    },
+    "zgb-375": {
+      "type": "statute",
+      "sr": "210",
+      "article": "375",
+      "label": "ZGB · Art. 375",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_375",
+      "sha256": "07a197ba1c189ffab7a23e88c0ad34f082c8b1a776cf89be5fb5aa68db50c562"
+    },
+    "zgb-376": {
+      "type": "statute",
+      "sr": "210",
+      "article": "376",
+      "label": "ZGB · Art. 376",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_376",
+      "sha256": "f073a0e2aefd24977a9eebdef8ea2e66cc4338b9bcc5f03e1b846144713af53f"
+    },
+    "zgb-377": {
+      "type": "statute",
+      "sr": "210",
+      "article": "377",
+      "label": "ZGB · Art. 377",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_377",
+      "sha256": "7800848ece9ed6cf8f4a3f4164836763ce3df49ed5c67ac779fc5a1a0cd0a2e0"
+    },
+    "zgb-378": {
+      "type": "statute",
+      "sr": "210",
+      "article": "378",
+      "label": "ZGB · Art. 378",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_378",
+      "sha256": "3389fe1417c0963eeff706cf0299b728f2d7bb1031cf279448aebf3f57a29a49"
+    },
+    "zgb-379": {
+      "type": "statute",
+      "sr": "210",
+      "article": "379",
+      "label": "ZGB · Art. 379",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_379",
+      "sha256": "5d49239a08eaf10db4244d740834ac753f5531f723bc1c73a1d1ab46dbfa785d"
+    },
+    "zgb-388": {
+      "type": "statute",
+      "sr": "210",
+      "article": "388",
+      "label": "ZGB · Art. 388",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_388",
+      "sha256": "e4ebd3b76ccf7b33995c98afec0965b6ac88244e1c01c205363b14908d49c3af"
+    },
+    "bger-5a-336-2024": {
+      "type": "decision",
+      "decision_id": "bger_5A_336_2024",
+      "citation": "BGer 5A_336/2024 vom 17. Januar 2025",
+      "e": "3.5.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_336_2024#e-3-5-4"
+    },
+    "bger-5a-624-2024": {
+      "type": "decision",
+      "decision_id": "bger_5A_624_2024",
+      "citation": "BGer 5A_624/2024 vom 27. August 2025",
+      "e": "3.2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_624_2024#e-3-2-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Patientenverfügung in der Schweiz"
+      },
+      "url": "https://www.ch.ch/de/gesundheit/patientenverfugung/"
+    },
+    {
+      "label": {
+        "de": "Kanton Bern, KESB: Vorsorgeauftrag und Patientenverfügung"
+      },
+      "url": "https://www.kesb.dij.be.ch/de/start/Erwachsene/vorsorgeauftrag-und-patientenverfuegung.html"
+    },
+    {
+      "label": {
+        "de": "Pro Senectute: Ihr Vorsorgeauftrag"
+      },
+      "url": "https://www.prosenectute.ch/de/ratgeber/persoenliche-vorsorge/vorsorgeauftrag.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

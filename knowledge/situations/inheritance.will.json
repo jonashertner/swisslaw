@@ -1,0 +1,681 @@
+{
+  "schema": 1,
+  "id": "inheritance.will",
+  "domain": "inheritance",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ein Testament errichten"
+  },
+  "summary": {
+    "de": "Ab 18 Jahren und urteilsfähig dürfen Sie mit einem Testament selbst bestimmen, was nach Ihrem Tod mit Ihrem Vermögen geschieht. Am einfachsten ist das eigenhändige Testament: von Anfang bis Ende von Hand geschrieben, datiert und unterschrieben. Daneben gibt es das öffentliche Testament vor einer Notarin oder einem Notar und, nur in einer akuten Notlage, das mündliche Testament. Sie können Erbinnen und Erben einsetzen, Vermächtnisse aussetzen, eine Willensvollstreckerin oder einen Willensvollstrecker bestimmen und Bedingungen anfügen. Pflichtteile von Nachkommen sowie Ehegatten oder eingetragenen Partnerinnen und Partnern setzen dabei Grenzen. Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts."
+  },
+  "examples": {
+    "de": [
+      "Ich möchte ein Testament schreiben. Wie mache ich das richtig?",
+      "Muss ein Testament von einem Notar gemacht werden?",
+      "Was passiert, wenn ich kein Testament habe?",
+      "Chan ich mis Testament eifach vo Hand schriibe?",
+      "Kann ich meine Partnerin in meinem Testament bedenken, obwohl wir nicht verheiratet sind?",
+      "Wie kann ich verhindern, dass mein Testament später für ungültig erklärt wird?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Errichtung eines Testaments durch eine urteilsfähige, volljährige Person: die zulässigen Formen (eigenhändig, öffentlich, mündlich in Notlagen), die wichtigsten möglichen Inhalte (Erbeinsetzung, Vermächtnis, Willensvollstreckung, Bedingungen), die Grenze der Pflichtteile, die Aufbewahrung, das Widerrufen und Ändern sowie die Gründe und Fristen für eine Ungültigkeitsklage. Dazu ein kurzer Überblick über die gesetzliche Erbfolge ohne Testament."
+    },
+    "excludes": {
+      "de": "Der Erbvertrag im Einzelnen, die Berechnung und Herabsetzung von Pflichtteilen, die Erbteilung nach dem Tod, die Ausschlagung einer Erbschaft, das Konkubinat im Allgemeinen sowie internationale Erbfälle mit Auslandbezug. Diese Themen sind oder werden in eigenen Leitfäden behandelt."
+    }
+  },
+  "facts": [
+    {
+      "key": "status",
+      "question": {
+        "de": "Wie leben Sie zurzeit?"
+      },
+      "options": [
+        {
+          "value": "married-registered",
+          "label": {
+            "de": "Verheiratet oder in eingetragener Partnerschaft"
+          }
+        },
+        {
+          "value": "unmarried-partner",
+          "label": {
+            "de": "Ich habe eine Partnerin oder einen Partner, wir sind aber nicht verheiratet"
+          }
+        },
+        {
+          "value": "single",
+          "label": {
+            "de": "Ledig, geschieden oder verwitwet, ohne feste Partnerschaft"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children",
+      "question": {
+        "de": "Haben Sie Kinder, auch aus einer früheren Beziehung?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie mit Ihrem Testament vor allem erreichen?"
+      },
+      "options": [
+        {
+          "value": "benefit-partner",
+          "label": {
+            "de": "Meine Partnerin oder meinen Partner begünstigen"
+          }
+        },
+        {
+          "value": "favor-one",
+          "label": {
+            "de": "Ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen"
+          }
+        },
+        {
+          "value": "charity",
+          "label": {
+            "de": "Einer gemeinnützigen Organisation etwas hinterlassen"
+          }
+        },
+        {
+          "value": "clarity",
+          "label": {
+            "de": "Einfach dafür sorgen, dass alles klar geregelt ist"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich noch nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "who-can-make-a-will",
+      "kind": "rule",
+      "text": {
+        "de": "Ein Testament dürfen Sie errichten, wenn Sie mindestens 18 Jahre alt und urteilsfähig sind. Urteilsfähig heisst: Sie können erkennen, worum es geht, und sich danach richten. Das trifft auf die meisten Erwachsenen zu, auch bei einer Krankheit oder im höheren Alter, solange sie noch verstehen und entscheiden können. Ein Testament, das vor dem 18. Geburtstag oder ohne Urteilsfähigkeit errichtet wurde, kann durch Klage angefochten werden."
+      },
+      "sources": [
+        "zgb-467"
+      ]
+    },
+    {
+      "id": "capacity-in-doubt",
+      "kind": "warning",
+      "text": {
+        "de": "Bestehen Zweifel an der Urteilsfähigkeit, etwa wegen einer beginnenden Demenz oder einer schweren Krankheit, verlangen Gerichte für ein einfaches Testament weniger als für eine komplizierte Verfügung. Wer nur wenige, klare Anordnungen trifft, gilt eher als dafür urteilsfähig als jemand mit einer verwickelten Regelung. Bestehen dennoch Zweifel, lassen Sie sich die Urteilsfähigkeit im Zeitpunkt der Unterschrift von der Hausärztin oder dem Hausarzt schriftlich bestätigen. Bei einem öffentlichen Testament hilft es zusätzlich, wenn eine Ärztin, ein Arzt oder eine Pflegefachperson bei der Beurkundung dabei ist und ihre Wahrnehmung der Urteilsfähigkeit festhält."
+      },
+      "sources": [
+        "zgb-467",
+        "bger-5c193-2004",
+        "bger-5a-12-2009"
+      ]
+    },
+    {
+      "id": "handwritten-will",
+      "kind": "rule",
+      "text": {
+        "de": "Das eigenhändige Testament ist die einfachste Form: Sie schreiben es vollständig von Anfang bis Ende mit der Hand, geben Jahr, Monat und Tag der Errichtung an und unterschreiben es. Ein Computerausdruck, ein maschinengeschriebener Text oder ein von einer anderen Person geschriebener Text erfüllen die Form nicht, selbst wenn Sie darunter unterschreiben. Fehlt die vorgeschriebene Form, kann das Testament durch Klage für ungültig erklärt werden."
+      },
+      "sources": [
+        "zgb-505",
+        "zgb-520"
+      ]
+    },
+    {
+      "id": "date-defect",
+      "kind": "warning",
+      "text": {
+        "de": "Fehlt das Datum oder ist es falsch, ist das eigenhändige Testament deswegen nicht automatisch ungültig. Es wird nur dann für ungültig erklärt, wenn sich das nötige Datum auf keine andere Weise feststellen lässt und es für eine wichtige Frage gebraucht wird, etwa ob Sie damals urteilsfähig waren oder welches von mehreren Testamenten das spätere ist. Schreiben Sie das vollständige Datum trotzdem immer korrekt hin, um Streit von vornherein zu vermeiden."
+      },
+      "sources": [
+        "zgb-520a"
+      ]
+    },
+    {
+      "id": "public-will",
+      "kind": "rule",
+      "text": {
+        "de": "Beim öffentlichen Testament teilen Sie einer Notarin, einem Notar oder einer anderen dafür zuständigen Urkundsperson Ihren Willen mit. Diese Person verfasst die Urkunde oder lässt sie verfassen und gibt sie Ihnen zu lesen. Sie unterschreiben die Urkunde, die Urkundsperson datiert und unterschreibt sie ebenfalls. Danach erklären Sie unmittelbar vor zwei Zeuginnen oder Zeugen und der Urkundsperson, dass Sie die Urkunde gelesen haben und dass sie Ihren letzten Willen enthält. Die Zeuginnen und Zeugen bestätigen mit ihrer Unterschrift diese Erklärung und dass Sie nach ihrem Eindruck urteilsfähig waren; sie müssen den Inhalt der Urkunde nicht kennen."
+      },
+      "sources": [
+        "zgb-499",
+        "zgb-500",
+        "zgb-501"
+      ]
+    },
+    {
+      "id": "oral-will",
+      "kind": "rule",
+      "text": {
+        "de": "Ein mündliches Testament ist nur in einer akuten Notlage gültig, etwa bei naher Todesgefahr, einer Verkehrssperre, einer Epidemie oder Kriegsereignissen, wenn Ihnen keine andere Form mehr möglich ist. Sie erklären dazu Ihren letzten Willen vor zwei Zeuginnen oder Zeugen und beauftragen sie, die nötige Beurkundung zu veranlassen. Eine der beiden Personen muss die Erklärung sofort schriftlich festhalten und die Urkunde unverzüglich bei einem Gericht einreichen, oder beide geben sie dort zu Protokoll. Sobald Ihnen wieder eine andere Form möglich ist, verliert das mündliche Testament nach 14 Tagen seine Gültigkeit."
+      },
+      "sources": [
+        "zgb-506",
+        "zgb-507",
+        "zgb-508"
+      ]
+    },
+    {
+      "id": "erbvertrag-contrast",
+      "kind": "rule",
+      "text": {
+        "de": "Ein Erbvertrag unterscheidet sich vom Testament: Darin vereinbaren Sie mit einer anderen Person gemeinsam etwas über Ihren Nachlass, zum Beispiel einen Erbverzicht. Ein Erbvertrag ist immer nur in der Form des öffentlichen Testaments gültig, also nie eigenhändig oder mündlich. Sie und die Vertragspartei erklären gleichzeitig der Urkundsperson Ihren Willen und unterschreiben die Urkunde vor ihr und den zwei Zeuginnen oder Zeugen."
+      },
+      "sources": [
+        "zgb-512"
+      ]
+    },
+    {
+      "id": "content-of-will",
+      "kind": "rule",
+      "text": {
+        "de": "Innerhalb der Pflichtteile können Sie in Ihrem Testament frei bestimmen. Sie können eine oder mehrere Personen als Erbin oder Erbe für die ganze Erbschaft oder einen Bruchteil einsetzen. Sie können auch, ohne jemanden als Erbe einzusetzen, ein Vermächtnis zuwenden: einen bestimmten Gegenstand, einen Geldbetrag oder ein Nutzniessungsrecht. Ihren Anordnungen dürfen Sie Bedingungen oder Auflagen anfügen, deren Erfüllung jede Person mit einem Interesse daran verlangen kann; eine unsittliche oder rechtswidrige Bedingung oder Auflage macht die Anordnung ungültig, mit der sie verbunden ist; ist sie für andere bloss lästig oder unsinnig, gilt sie als nicht vorhanden. Was Sie nicht ausdrücklich regeln, fällt an Ihre gesetzlichen Erben."
+      },
+      "sources": [
+        "zgb-481",
+        "zgb-483",
+        "zgb-484",
+        "zgb-482"
+      ]
+    },
+    {
+      "id": "executor",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können im Testament eine oder mehrere handlungsfähige Personen als Willensvollstreckerin oder Willensvollstrecker einsetzen. Diese Person wird von Amtes wegen benachrichtigt und muss sich innert 14 Tagen zur Annahme äussern; schweigt sie, gilt das als Annahme. Sie hat Anspruch auf eine angemessene Vergütung. Die Willensvollstreckerin oder der Willensvollstrecker verwaltet die Erbschaft, bezahlt die Schulden, richtet die Vermächtnisse aus und führt die Teilung nach Ihren Anordnungen oder nach Gesetz durch."
+      },
+      "sources": [
+        "zgb-517",
+        "zgb-518"
+      ]
+    },
+    {
+      "id": "compulsory-share-limit",
+      "kind": "warning",
+      "text": {
+        "de": "Ganz frei sind Sie nicht: Hinterlassen Sie Nachkommen, einen Ehegatten, eine eingetragene Partnerin oder einen eingetragenen Partner, steht diesen von Gesetzes wegen ein Pflichtteil zu, also die Hälfte ihres gesetzlichen Erbanspruchs. Darüber dürfen Sie nicht frei verfügen. Eltern haben seit der Erbrechtsreform von 2023 keinen Pflichtteil mehr. Haben Sie keine der pflichtteilsgeschützten Personen, können Sie über Ihr ganzes Vermögen frei verfügen. Wie der Pflichtteil berechnet und durchgesetzt wird, erklärt der eigene Leitfaden zum Pflichtteil."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-471"
+      ]
+    },
+    {
+      "id": "intestate-overview",
+      "kind": "rule",
+      "text": {
+        "de": "Ohne Testament gilt die gesetzliche Erbfolge: Zuerst erben Ihre Nachkommen, die Kinder zu gleichen Teilen; ist ein Kind vorverstorben, treten seine eigenen Nachkommen an seine Stelle. Haben Sie keine Nachkommen, erben Ihre Eltern und, falls ein Elternteil vorverstorben ist, dessen Nachkommen. Fehlen auch diese, erben Ihre Grosseltern und deren Nachkommen. Weiter geht die gesetzliche Erbfolge nicht. Ein überlebender Ehegatte oder eine überlebende eingetragene Partnerin oder Partner erhält daneben die Hälfte der Erbschaft zusammen mit Nachkommen, drei Viertel zusammen mit dem elterlichen Stamm, und alles, wenn keine dieser Erbinnen und Erben vorhanden sind."
+      },
+      "sources": [
+        "zgb-457",
+        "zgb-458",
+        "zgb-459",
+        "zgb-460",
+        "zgb-462"
+      ]
+    },
+    {
+      "id": "unmarried-partner-no-inheritance",
+      "kind": "warning",
+      "when": {
+        "status": [
+          "unmarried-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts: Das Gesetz sieht ein Erbrecht nur für Verwandte sowie für Ehegatten und eingetragene Partnerinnen und Partner vor, gleich wie lange und wie eng die Beziehung gedauert hat. Wollen Sie Ihre Partnerin oder Ihren Partner begünstigen, brauchen Sie zwingend ein Testament oder einen Erbvertrag, und zwar innerhalb der Pflichtteile Ihrer übrigen gesetzlichen Erben."
+      },
+      "sources": [
+        "zgb-457",
+        "zgb-462"
+      ]
+    },
+    {
+      "id": "no-descendants-note",
+      "kind": "rule",
+      "when": {
+        "children": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie keine Kinder und Enkel, schränken Nachkommen Ihre Freiheit nicht ein. Sind Sie zudem weder verheiratet noch in eingetragener Partnerschaft, können Sie über Ihr ganzes Vermögen frei verfügen. Errichten Sie kein Testament, erben Ihre Eltern; an die Stelle eines verstorbenen Elternteils treten dessen Nachkommen, also etwa Ihre Geschwister, Nichten und Neffen. Erst wenn es im Stamm der Eltern niemanden mehr gibt, kommen die Grosseltern und deren Nachkommen zum Zug. Eine unverheiratete Partnerin, ein unverheirateter Partner oder Freunde erben ohne Testament nie."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-458",
+        "zgb-459"
+      ]
+    },
+    {
+      "id": "safekeeping",
+      "kind": "rule",
+      "text": {
+        "de": "Ein eigenhändiges Testament dürfen Sie zu Hause aufbewahren, sicherer ist aber die Hinterlegung bei einer kantonalen Amtsstelle, offen oder verschlossen; jeder Kanton muss eine solche Stelle anbieten. Ein öffentliches Testament wird von der Urkundsperson im Original oder in Abschrift selbst aufbewahrt oder ebenfalls einer Amtsstelle übergeben. So ist eher sichergestellt, dass Ihr Testament nach Ihrem Tod auch gefunden wird."
+      },
+      "sources": [
+        "zgb-505",
+        "zgb-504"
+      ]
+    },
+    {
+      "id": "duty-to-hand-in",
+      "kind": "rule",
+      "text": {
+        "de": "Wer nach einem Todesfall ein Testament findet, muss es unverzüglich der zuständigen Behörde einliefern, auch wenn es für ungültig gehalten wird. Das gilt für die Urkundsperson, bei der es hinterlegt oder protokolliert ist, und für jede Person, die es aufbewahrt hat oder unter den Sachen der verstorbenen Person gefunden hat, sobald sie vom Tod erfährt; wer das unterlässt, haftet dafür persönlich."
+      },
+      "sources": [
+        "zgb-556"
+      ]
+    },
+    {
+      "id": "revocation",
+      "kind": "rule",
+      "text": {
+        "de": "Sie können Ihr Testament jederzeit ganz oder teilweise widerrufen, in jeder der zulässigen Formen, unabhängig davon, in welcher Form Sie es ursprünglich errichtet haben. Ein Widerruf liegt auch vor, wenn Sie die Urkunde vernichten; wird sie durch Zufall oder durch das Verschulden einer anderen Person vernichtet, verliert sie ebenfalls ihre Gültigkeit, ausser ihr Inhalt lässt sich genau und vollständig nachweisen. Errichten Sie ein neues Testament, ohne das frühere ausdrücklich aufzuheben, tritt es an dessen Stelle, soweit es ihm widerspricht; eine neue Verfügung über eine bestimmte Sache hebt eine frühere, damit unvereinbare Verfügung über dieselbe Sache auf."
+      },
+      "sources": [
+        "zgb-509",
+        "zgb-510",
+        "zgb-511"
+      ]
+    },
+    {
+      "id": "invalidity",
+      "kind": "warning",
+      "text": {
+        "de": "Ein Testament kann durch Klage für ungültig erklärt werden: wenn Sie es ohne Urteilsfähigkeit errichtet haben, wenn Ihr Wille mangelhaft war, etwa durch Täuschung oder Drohung, wenn Inhalt oder eine Bedingung unsittlich oder rechtswidrig ist, oder wenn ein Formfehler vorliegt. Liegt der Formfehler nur darin, dass eine bedachte Person oder ihre Angehörigen bei der Errichtung mitgewirkt haben, wird nur diese einzelne Zuwendung ungültig, nicht das ganze Testament. Klagen kann jede Person, die als Erbin oder Bedachte ein Interesse daran hat. Die Klage verjährt innert einem Jahr, seit die klagende Person vom Testament und vom Ungültigkeitsgrund erfahren hat, in jedem Fall innert zehn Jahren seit der Testamentseröffnung; gegenüber einer bösgläubigen Person bei Urteilsunfähigkeit, Rechtswidrigkeit oder Unsittlichkeit erst nach 30 Jahren. Wird aus einem ungültigen Testament etwas verlangt, kann die Ungültigkeit als Einrede jederzeit geltend gemacht werden."
+      },
+      "sources": [
+        "zgb-519",
+        "zgb-520",
+        "zgb-521"
+      ]
+    },
+    {
+      "id": "favor-one-note",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "favor-one"
+        ]
+      },
+      "text": {
+        "de": "Möchten Sie ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen, dürfen Sie das nur innerhalb der Pflichtteile Ihrer übrigen pflichtteilsgeschützten Erben tun. Verletzen Sie deren Pflichtteil, können diese nach Ihrem Tod eine Herabsetzung verlangen. Wie hoch die Pflichtteile ausfallen und wie eine Herabsetzung funktioniert, erklärt der eigene Leitfaden zum Pflichtteil."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-471"
+      ]
+    },
+    {
+      "id": "charity-note",
+      "kind": "step",
+      "when": {
+        "goal": [
+          "charity"
+        ]
+      },
+      "text": {
+        "de": "Möchten Sie einer gemeinnützigen Organisation etwas hinterlassen, nennen Sie sie eindeutig mit vollem Namen und Sitz und legen Sie fest, ob es sich um einen festen Betrag, einen bestimmten Gegenstand oder einen Anteil an der Erbschaft handeln soll. Erkundigen Sie sich vorher bei der Organisation, ob und wie sie Ihre Zuwendung entgegennehmen kann. Eine Willensvollstreckerin oder ein Willensvollstrecker kann dafür sorgen, dass Ihr Wille tatsächlich umgesetzt wird."
+      }
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Ein eigenhändiges Testament kostet Sie nichts ausser der Zeit zum Schreiben. Für ein öffentliches Testament verlangen Notarinnen, Notare oder die zuständige Urkundsperson ein Honorar nach kantonalem Tarif; dieser Tarif ist von Kanton zu Kanton unterschiedlich. Auch für die Hinterlegung bei einer kantonalen Amtsstelle kann eine Gebühr anfallen. Erkundigen Sie sich vorher nach den Kosten."
+      },
+      "sources": [
+        "zgb-499",
+        "zgb-504"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung bei einer Notarin, einem Notar, einer Anwältin oder einem Anwalt, wenn Ihr Nachlass gross oder kompliziert ist, wenn ein Unternehmen oder Grundeigentum dazugehört, wenn Sie Vermögen im Ausland haben oder eine ausländische Staatsangehörigkeit besitzen (dann können fremde Erbrechtsregeln gelten), wenn Sie in einer Patchworkfamilie leben, oder wenn Sie jemanden enterben möchten. In diesen Fällen lohnt sich die Beratung, bevor Sie etwas Falsches aufschreiben."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an. Notariate führen oft eine kostenlose Erstberatung durch oder informieren an offenen Tagen über das Testament. Pro Senectute berät ältere Menschen zu Testament und Nachlass. Bestehen Zweifel an der Urteilsfähigkeit oder ein Schutzbedarf, kann die Erwachsenenschutzbehörde (KESB) Auskunft geben."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-467": {
+      "type": "statute",
+      "sr": "210",
+      "article": "467",
+      "label": "ZGB · Art. 467",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_467",
+      "sha256": "4adc8b33df78b508f9171142e2745797473ead8be8256d898236a94fb084661d"
+    },
+    "zgb-505": {
+      "type": "statute",
+      "sr": "210",
+      "article": "505",
+      "label": "ZGB · Art. 505",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_505",
+      "sha256": "d3815fe290f36f765bec53eec04d91a8a3f8266715d51d2dcd0969065ddb452b"
+    },
+    "zgb-520a": {
+      "type": "statute",
+      "sr": "210",
+      "article": "520a",
+      "label": "ZGB · Art. 520a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_520a",
+      "sha256": "aeceb94fe36cfa82111a4a9db4c6e68df7372a3c4287ba8b3a5c0bcb11f07700"
+    },
+    "zgb-499": {
+      "type": "statute",
+      "sr": "210",
+      "article": "499",
+      "label": "ZGB · Art. 499",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_499",
+      "sha256": "d7d1743c5e92eea24f4d53f4f8fdc66c7f087e4d4d7f3aa963ec7145d210a403"
+    },
+    "zgb-500": {
+      "type": "statute",
+      "sr": "210",
+      "article": "500",
+      "label": "ZGB · Art. 500",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_500",
+      "sha256": "8ff0de0e8f622916b8ab431bc70a86c1736203ffd7413ccee549e0cf8be665a2"
+    },
+    "zgb-501": {
+      "type": "statute",
+      "sr": "210",
+      "article": "501",
+      "label": "ZGB · Art. 501",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_501",
+      "sha256": "2d4d6d745ae99b20e02a7feaafbc85e9c9859d73e690911ac2746f3ec066224e"
+    },
+    "zgb-506": {
+      "type": "statute",
+      "sr": "210",
+      "article": "506",
+      "label": "ZGB · Art. 506",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_506",
+      "sha256": "73a34c38bf3c666486ebf8600342cfb9d5757aa3d78410faf6a4e8f0d2c3da39"
+    },
+    "zgb-507": {
+      "type": "statute",
+      "sr": "210",
+      "article": "507",
+      "label": "ZGB · Art. 507",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_507",
+      "sha256": "28a836570b6022b50f34733c4897b9374f112243e32efe87eb1acfb74c7f273f"
+    },
+    "zgb-508": {
+      "type": "statute",
+      "sr": "210",
+      "article": "508",
+      "label": "ZGB · Art. 508",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_508",
+      "sha256": "18bc397d3c20d7f25e0ce9cdfd3dcac76bcf2c619fe73e828df97b84f3ee929e"
+    },
+    "zgb-512": {
+      "type": "statute",
+      "sr": "210",
+      "article": "512",
+      "label": "ZGB · Art. 512",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_512",
+      "sha256": "81cd3a1f8b2a633e8cff5a9b945742d7429a21e9e1ce93eeb5bba32c8054e8f7"
+    },
+    "zgb-481": {
+      "type": "statute",
+      "sr": "210",
+      "article": "481",
+      "label": "ZGB · Art. 481",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_481",
+      "sha256": "102f106a52b8e65c38e3d5cdba3fabe268e00597ddb1807459fa268d5dc242b3"
+    },
+    "zgb-483": {
+      "type": "statute",
+      "sr": "210",
+      "article": "483",
+      "label": "ZGB · Art. 483",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_483",
+      "sha256": "59dbcf3088298c9baf8d8be1b992f88793b29fbe2ad61bd4515e2d5f28ac597a"
+    },
+    "zgb-484": {
+      "type": "statute",
+      "sr": "210",
+      "article": "484",
+      "label": "ZGB · Art. 484",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_484",
+      "sha256": "5e6aaa56dd9993fc48cef9f75bf2ddd02491e745f93cd2ced526be82a1217c5c"
+    },
+    "zgb-482": {
+      "type": "statute",
+      "sr": "210",
+      "article": "482",
+      "label": "ZGB · Art. 482",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_482",
+      "sha256": "f0c9382481fdc4367a735a01debc080011acf16ac59119c3ec06bcddbc0463de"
+    },
+    "zgb-517": {
+      "type": "statute",
+      "sr": "210",
+      "article": "517",
+      "label": "ZGB · Art. 517",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_517",
+      "sha256": "915af25c557a0f06202ef5249d7659116daa5146369f512cedda50ba2d101e84"
+    },
+    "zgb-518": {
+      "type": "statute",
+      "sr": "210",
+      "article": "518",
+      "label": "ZGB · Art. 518",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_518",
+      "sha256": "9f7dfd96234ade7667c0042376652bdc65de633b970ed9160d8cf3a3137d2808"
+    },
+    "zgb-470": {
+      "type": "statute",
+      "sr": "210",
+      "article": "470",
+      "label": "ZGB · Art. 470",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_470",
+      "sha256": "a871d8f359e1be2a1fc374ce6e4d723b5b55a8fa995e48cc24ddd687844519e3"
+    },
+    "zgb-471": {
+      "type": "statute",
+      "sr": "210",
+      "article": "471",
+      "label": "ZGB · Art. 471",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_471",
+      "sha256": "b30bfa618cef1f3dfb5c22a89917f6ff76bbe4b50787b30427f4e067e93a9be1"
+    },
+    "zgb-457": {
+      "type": "statute",
+      "sr": "210",
+      "article": "457",
+      "label": "ZGB · Art. 457",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_457",
+      "sha256": "bea064f079499dded13655dbdfb62aedb3f4a8c7cd4a4c67a1423d23276a84fb"
+    },
+    "zgb-458": {
+      "type": "statute",
+      "sr": "210",
+      "article": "458",
+      "label": "ZGB · Art. 458",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_458",
+      "sha256": "1933b9a395d369c0b983e610d06ff021699abb6420167e6ac9b4aa884accd218"
+    },
+    "zgb-459": {
+      "type": "statute",
+      "sr": "210",
+      "article": "459",
+      "label": "ZGB · Art. 459",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_459",
+      "sha256": "5490da19decb64691c57f8d0855e4b670c027e5193e26b4d927f8d19e2da6bf7"
+    },
+    "zgb-460": {
+      "type": "statute",
+      "sr": "210",
+      "article": "460",
+      "label": "ZGB · Art. 460",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_460",
+      "sha256": "ffae877e948691e1afe8c7c75d934dd45180a5b87d6f399c2f95333c307fec51"
+    },
+    "zgb-462": {
+      "type": "statute",
+      "sr": "210",
+      "article": "462",
+      "label": "ZGB · Art. 462",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_462",
+      "sha256": "c76fdaa75fc87bd423868794ac1732794af4c485a6311f2dcaac17036d831f7e"
+    },
+    "zgb-504": {
+      "type": "statute",
+      "sr": "210",
+      "article": "504",
+      "label": "ZGB · Art. 504",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_504",
+      "sha256": "4d57216d539c8e8db41b7857a1d9484152f33aeb834efe583460e02a200ed877"
+    },
+    "zgb-556": {
+      "type": "statute",
+      "sr": "210",
+      "article": "556",
+      "label": "ZGB · Art. 556",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_556",
+      "sha256": "93ebee7e62d34fca5a705c3839d3f8370a04d9089b13dfe8901fd57be84b7cc7"
+    },
+    "zgb-509": {
+      "type": "statute",
+      "sr": "210",
+      "article": "509",
+      "label": "ZGB · Art. 509",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_509",
+      "sha256": "58c364c756166522221c2f4a6fcdf6a0f7ff18f2bda52c5b4db4556bd1023851"
+    },
+    "zgb-510": {
+      "type": "statute",
+      "sr": "210",
+      "article": "510",
+      "label": "ZGB · Art. 510",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_510",
+      "sha256": "1136817ff9ae6de8ec87c79a079f468deb3085d010038115bea0922b02e9b8e0"
+    },
+    "zgb-511": {
+      "type": "statute",
+      "sr": "210",
+      "article": "511",
+      "label": "ZGB · Art. 511",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_511",
+      "sha256": "c4e517001a6bcefeabafa19251510b14e21e2d2648cb4de644532c224ef43c60"
+    },
+    "zgb-519": {
+      "type": "statute",
+      "sr": "210",
+      "article": "519",
+      "label": "ZGB · Art. 519",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_519",
+      "sha256": "9480360afda983946c35f3bedebdaaef1f18626e9a083af318c58ffe2a8fed2c"
+    },
+    "zgb-520": {
+      "type": "statute",
+      "sr": "210",
+      "article": "520",
+      "label": "ZGB · Art. 520",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_520",
+      "sha256": "49993c7621216889e8aeab6f37f07e3c5bff64a9f9b044541bca807e94563f1b"
+    },
+    "zgb-521": {
+      "type": "statute",
+      "sr": "210",
+      "article": "521",
+      "label": "ZGB · Art. 521",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_521",
+      "sha256": "b257c22540fa9e32dd9dc0101ef4ffa52a9fb0a594e886fcc43e6e5133eed4e8"
+    },
+    "bger-5c193-2004": {
+      "type": "decision",
+      "decision_id": "bger_5C.193_2004",
+      "citation": "BGer 5C.193/2004 vom 17. Januar 2005",
+      "e": "2.3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5C.193_2004#e-2-3-1"
+    },
+    "bger-5a-12-2009": {
+      "type": "decision",
+      "decision_id": "bger_5A_12_2009",
+      "citation": "BGer 5A_12/2009 vom 25. März 2009",
+      "e": "7.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_12_2009#e-7-1"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Testament und Erbvertrag"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/testament-und-erbvertrag/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Wer erbt wie viel"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/wer-wie-viel-erbt/"
+    },
+    {
+      "label": {
+        "de": "Pro Senectute: Testament und Erbschaften"
+      },
+      "url": "https://www.prosenectute.ch/de/ratgeber/persoenliche-vorsorge/testament-erbschaft.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
