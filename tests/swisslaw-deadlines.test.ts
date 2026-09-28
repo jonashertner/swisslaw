@@ -26,7 +26,7 @@ test('Betreibungsferien windows (SchKG 56)', () => {
 
 test('rules validate; unsigned rules and unknown input are refused', () => {
   assert.ok(DEADLINE_RULES.size >= 7);
-  assert.throws(() => computeDeadline('schkg_74_rechtsvorschlag', personal('2026-10-05'), 'ZH'), RuleNotSigned);
+  for (const r of DEADLINE_RULES.values()) if (r.status !== 'signed') assert.throws(() => computeDeadline(r.id, r.receipt_doctrine === 'event' ? { method: 'event', date: '2026-10-05' } : personal('2026-10-05'), 'ZH'), RuleNotSigned);
   assert.throws(() => run('stpo_354_einsprache_strafbefehl', personal('2026-10-05'), 'XX'), /UNKNOWN_CANTON/);
   assert.throws(() => run('stpo_354_einsprache_strafbefehl', personal('2026-02-30')), /INVALID_DATE/);
   assert.throws(() => run('or_270_anfechtung_anfangsmietzins', personal('2026-10-01')), /EVENT_REQUIRED/);

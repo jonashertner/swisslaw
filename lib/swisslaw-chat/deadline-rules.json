@@ -1,5 +1,5 @@
 {
- "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. Every rule is draft until a lawyer signs it off.",
+ "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. All rules signed off by Jonas Hertner on 2026-09-28; the BG über die Zustellung von Sendungen an Wochenenden und Feiertagen (BBl 2025 2891) was not in force on that date.",
  "rules": [
   {
    "id": "schkg_74_rechtsvorschlag",
@@ -39,9 +39,9 @@
     }
    ],
    "how_to_meet": "Sofort gegenüber der überbringenden Person oder innert der Frist mündlich oder schriftlich beim Betreibungsamt. Schriftlich: Übergabe an die Schweizerische Post spätestens am letzten Tag.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "stpo_354_einsprache_strafbefehl",
@@ -75,9 +75,9 @@
     }
    ],
    "how_to_meet": "Schriftlich bei der Staatsanwaltschaft bzw. der im Strafbefehl genannten Behörde; keine Begründung nötig. Übergabe an die Schweizerische Post spätestens am letzten Tag.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "or_273_anfechtung_kuendigung",
@@ -120,9 +120,9 @@
     "BGE 137 III 208 E. 3.1.2"
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Postaufgabe spätestens am letzten Tag; Frist des materiellen Rechts, daher sicherheitshalber früher handeln.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "or_273_erstreckung_unbefristet",
@@ -138,7 +138,7 @@
      "law": "OR",
      "sr": "220",
      "article": "273",
-     "paragraph": "2",
+     "paragraph": "2 lit. a",
      "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273"
     },
     {
@@ -158,9 +158,9 @@
     "BGE 143 III 15 E. 4.1"
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "or_270b_anfechtung_mietzinserhoehung",
@@ -187,13 +187,14 @@
     }
    ],
    "case_law": [
+    "BGE 107 II 189 E. 2",
     "BGE 140 III 244 E. 5.2",
     "BGE 143 III 15 E. 4.1"
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "or_270_anfechtung_anfangsmietzins",
@@ -219,10 +220,13 @@
      "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
     }
    ],
-   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Voraussetzungen nach OR 270 Abs. 1 lit. a/b (Notlage, Marktlage oder erhebliche Erhöhung) durch Anwalt prüfen.",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "case_law": [
+    "BGE 121 III 56 E. 2"
+   ],
+   "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Voraussetzungen nach OR 270 Abs. 1 lit. a/b (Notlage, Marktlage oder erhebliche Erhöhung) durch Anwalt prüfen. Erhält der Mieter das amtliche Formular erst nach der Übernahme, aber innert 30 Tagen danach, läuft die Frist 30 Tage ab Empfang des Formulars (BGE 121 III 56 E. 2).",
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   },
   {
    "id": "or_336b_klage_missbraeuchliche_kuendigung",
@@ -248,10 +252,13 @@
      "source_url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_78"
     }
    ],
-   "how_to_meet": "Klage anhängig machen, d.h. Schlichtungsgesuch einreichen (ZPO 62 Abs. 1). Voraussetzung: schriftliche Einsprache beim Arbeitgeber bis zum Ende der Kündigungsfrist (OR 336b Abs. 1).",
-   "status": "draft",
-   "signed_by": null,
-   "signed_at": null
+   "case_law": [
+    "BGE 136 III 96 E. 2.3"
+   ],
+   "how_to_meet": "Klage anhängig machen, d.h. Schlichtungsgesuch einreichen (ZPO 62 Abs. 1); Postaufgabe am letzten Tag genügt. Voraussetzung: schriftliche Einsprache, die dem Arbeitgeber spätestens am letzten Tag der Kündigungsfrist zugeht, nicht bloss an diesem Tag abgeschickt wird (OR 336b Abs. 1; BGE 136 III 96 E. 2.3). Bei fristloser Entlassung endet das Arbeitsverhältnis mit dem Empfang der Kündigung; ab dann laufen die 180 Tage.",
+   "status": "signed",
+   "signed_by": "Jonas Hertner",
+   "signed_at": "2026-09-28"
   }
  ]
 }
