@@ -8,12 +8,14 @@
   "title": {
     "de": "Eine Behörde hat gegen mich entschieden. Wie wehre ich mich?",
     "fr": "Une autorité a rendu une décision contre moi. Comment me défendre ?",
-    "it": "Un'autorità ha deciso contro di me. Come mi difendo?"
+    "it": "Un'autorità ha deciso contro di me. Come mi difendo?",
+    "en": "A public authority has ruled against me. How do I challenge it?"
   },
   "summary": {
     "de": "Eine Verfügung muss Ihnen sagen, mit welchem Rechtsmittel, bei welcher Stelle und innert welcher Frist Sie sich wehren können. Bei Bundesbehörden gilt in der Regel eine Beschwerdefrist von 30 Tagen. Die meisten alltäglichen Entscheide stammen aber von Kantonen oder Gemeinden, die ihr eigenes Verfahrensrecht haben; massgebend ist dort, was auf Ihrem Entscheid steht.",
     "fr": "Une décision doit vous indiquer par quel moyen de droit, auprès de quelle instance et dans quel délai vous pouvez vous défendre. Auprès des autorités fédérales, le délai de recours est en général de 30 jours. Mais la plupart des décisions du quotidien proviennent des cantons ou des communes, qui ont leur propre droit de procédure ; ce qui figure sur votre décision fait alors foi.",
-    "it": "Una decisione deve indicarle con quale rimedio giuridico, presso quale autorità e entro quale termine può opporsi. Per le autorità federali vale di regola un termine di ricorso di 30 giorni. La maggior parte delle decisioni quotidiane proviene però da Cantoni o Comuni, che hanno un proprio diritto procedurale; in tal caso fa fede quanto indicato sulla sua decisione."
+    "it": "Una decisione deve indicarle con quale rimedio giuridico, presso quale autorità e entro quale termine può opporsi. Per le autorità federali vale di regola un termine di ricorso di 30 giorni. La maggior parte delle decisioni quotidiane proviene però da Cantoni o Comuni, che hanno un proprio diritto procedurale; in tal caso fa fede quanto indicato sulla sua decisione.",
+    "en": "A ruling (Verfügung / décision) must tell you which legal remedy you can use, which body to address it to, and within what time limit. For federal authorities, the appeal period is usually 30 days. However, most everyday decisions come from cantons or municipalities, which have their own procedural law; there, what matters is what is written on your decision."
   },
   "examples": {
     "de": [
@@ -39,18 +41,28 @@
       "Sulla mia decisione non c'è l'indicazione dei rimedi giuridici, è valido lo stesso?",
       "Un ufficio ha deciso contro di me, cosa faccio adesso?",
       "Quanto tempo ho per presentare ricorso contro una decisione della Confederazione?"
+    ],
+    "en": [
+      "A public authority has ruled against me, how do I challenge it?",
+      "I received a negative decision from a public authority, what now?",
+      "What is a ruling and how do I challenge it?",
+      "My decision has no instructions on legal remedies, is that valid?",
+      "An authority decided against me, what can I do?",
+      "How long do I have to appeal against a federal decision?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Verfügungen von Behörden, also formelle Entscheide über Rechte oder Pflichten einer Person, sowohl von Bundesbehörden als auch von kantonalen und kommunalen Behörden.",
       "fr": "Les décisions rendues par des autorités, c’est-à-dire les décisions formelles sur les droits ou obligations d’une personne, qu’elles émanent d’autorités fédérales ou d’autorités cantonales et communales.",
-      "it": "Le decisioni delle autorità, ossia i provvedimenti formali su diritti o obblighi di una persona, sia delle autorità federali sia delle autorità cantonali e comunali."
+      "it": "Le decisioni delle autorità, ossia i provvedimenti formali su diritti o obblighi di una persona, sia delle autorità federali sia delle autorità cantonali e comunali.",
+      "en": "Rulings by public authorities, that is, formal decisions about a person's rights or obligations, issued by federal authorities as well as by cantonal and municipal authorities."
     },
     "excludes": {
       "de": "Gerichtsurteile in Zivil- oder Strafsachen, Strafbefehle und Ordnungsbussen sowie Entscheide privater Unternehmen. Dafür gibt es eigene Anleitungen oder andere Regeln.",
       "fr": "Les jugements civils ou pénaux, les ordonnances pénales et les amendes d’ordre, ainsi que les décisions d’entreprises privées. Il existe pour cela d’autres guides ou d’autres règles.",
-      "it": "Le sentenze giudiziarie in materia civile o penale, i decreti d'accusa e le multe disciplinari, nonché le decisioni di imprese private. Per questi casi esistono guide proprie o regole diverse."
+      "it": "Le sentenze giudiziarie in materia civile o penale, i decreti d'accusa e le multe disciplinari, nonché le decisioni di imprese private. Per questi casi esistono guide proprie o regole diverse.",
+      "en": "Court judgments in civil or criminal matters, summary penalty orders and fixed penalties, and decisions by private companies. Separate guides or other rules apply to these."
     }
   },
   "facts": [
@@ -59,7 +71,8 @@
       "question": {
         "de": "Welche Behörde hat entschieden?",
         "fr": "Quelle autorité a rendu la décision ?",
-        "it": "Quale autorità ha deciso?"
+        "it": "Quale autorità ha deciso?",
+        "en": "Which authority made the decision?"
       },
       "options": [
         {
@@ -67,7 +80,8 @@
           "label": {
             "de": "Eine Bundesbehörde, zum Beispiel ein Bundesamt",
             "fr": "Une autorité fédérale, par exemple un office fédéral",
-            "it": "Un'autorità federale, per esempio un ufficio federale"
+            "it": "Un'autorità federale, per esempio un ufficio federale",
+            "en": "A federal authority, for example a federal office"
           }
         },
         {
@@ -75,7 +89,8 @@
           "label": {
             "de": "Eine kantonale oder kommunale Behörde, zum Beispiel eine Gemeinde oder ein kantonales Amt",
             "fr": "Une autorité cantonale ou communale, par exemple une commune ou un service cantonal",
-            "it": "Un'autorità cantonale o comunale, per esempio un Comune o un servizio cantonale"
+            "it": "Un'autorità cantonale o comunale, per esempio un Comune o un servizio cantonale",
+            "en": "A cantonal or municipal authority, for example a municipality or a cantonal office"
           }
         },
         {
@@ -83,7 +98,8 @@
           "label": {
             "de": "Ich weiss es nicht sicher",
             "fr": "Je n’en ai pas la certitude",
-            "it": "Non lo so con sicurezza"
+            "it": "Non lo so con sicurezza",
+            "en": "I'm not sure"
           }
         }
       ]
@@ -93,12 +109,14 @@
       "question": {
         "de": "Steht auf dem Entscheid, wie und innert welcher Frist Sie sich wehren können?",
         "fr": "La décision indique-t-elle comment et dans quel délai vous pouvez vous défendre ?",
-        "it": "Sulla decisione è indicato come e entro quale termine può opporsi?"
+        "it": "Sulla decisione è indicato come e entro quale termine può opporsi?",
+        "en": "Does the decision state how and within what time limit you can challenge it?"
       },
       "help": {
         "de": "Diese Angabe heisst Rechtsmittelbelehrung und steht meist am Ende des Schreibens.",
         "fr": "Cette indication s’appelle l’indication des voies de droit et figure en général à la fin du courrier.",
-        "it": "Questa indicazione si chiama indicazione dei rimedi giuridici e si trova di solito alla fine dello scritto."
+        "it": "Questa indicazione si chiama indicazione dei rimedi giuridici e si trova di solito alla fine dello scritto.",
+        "en": "This information is called instructions on legal remedies (Rechtsmittelbelehrung / indication des voies de droit) and is usually at the end of the letter."
       },
       "options": [
         {
@@ -106,7 +124,8 @@
           "label": {
             "de": "Ja, das steht klar drauf",
             "fr": "Oui, c’est indiqué clairement",
-            "it": "Sì, è indicato chiaramente"
+            "it": "Sì, è indicato chiaramente",
+            "en": "Yes, it's clearly stated"
           }
         },
         {
@@ -114,7 +133,8 @@
           "label": {
             "de": "Nein, es steht nichts dazu",
             "fr": "Non, rien n’est indiqué à ce sujet",
-            "it": "No, non c'è nessuna indicazione"
+            "it": "No, non c'è nessuna indicazione",
+            "en": "No, there's nothing about it"
           }
         },
         {
@@ -122,7 +142,8 @@
           "label": {
             "de": "Es steht etwas, aber es ist unklar oder wirkt falsch",
             "fr": "Quelque chose est indiqué, mais c’est peu clair ou semble erroné",
-            "it": "C'è qualcosa scritto, ma è poco chiaro o sembra sbagliato"
+            "it": "C'è qualcosa scritto, ma è poco chiaro o sembra sbagliato",
+            "en": "Something is stated, but it's unclear or seems wrong"
           }
         },
         {
@@ -130,7 +151,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -140,7 +162,8 @@
       "question": {
         "de": "Wie viel Zeit bleibt Ihnen noch, wenn Sie eine Frist auf dem Entscheid sehen?",
         "fr": "Combien de temps vous reste-t-il si vous voyez un délai sur la décision ?",
-        "it": "Quanto tempo le resta, se vede un termine indicato sulla decisione?"
+        "it": "Quanto tempo le resta, se vede un termine indicato sulla decisione?",
+        "en": "If you can see a deadline on the decision, how much time do you have left?"
       },
       "options": [
         {
@@ -148,7 +171,8 @@
           "label": {
             "de": "Noch mehr als eine Woche",
             "fr": "Encore plus d’une semaine",
-            "it": "Ancora più di una settimana"
+            "it": "Ancora più di una settimana",
+            "en": "More than a week"
           }
         },
         {
@@ -156,7 +180,8 @@
           "label": {
             "de": "Weniger als eine Woche",
             "fr": "Moins d’une semaine",
-            "it": "Meno di una settimana"
+            "it": "Meno di una settimana",
+            "en": "Less than a week"
           }
         },
         {
@@ -164,7 +189,8 @@
           "label": {
             "de": "Die Frist ist schon abgelaufen",
             "fr": "Le délai est déjà échu",
-            "it": "Il termine è già scaduto"
+            "it": "Il termine è già scaduto",
+            "en": "The deadline has already passed"
           }
         },
         {
@@ -172,7 +198,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -185,7 +212,8 @@
       "text": {
         "de": "Eine Verfügung ist ein formeller Entscheid einer Behörde in einem Einzelfall, der auf öffentlichem Recht beruht und Rechte oder Pflichten begründet, ändert, aufhebt oder feststellt, oder ein entsprechendes Gesuch abweist. Nur gegen eine Verfügung gibt es ein ordentliches Rechtsmittel.",
         "fr": "Une décision est un acte formel rendu par une autorité dans un cas d’espèce, fondé sur le droit public, qui crée, modifie, annule ou constate des droits ou obligations, ou qui rejette une demande correspondante. Seule une décision ouvre un moyen de droit ordinaire.",
-        "it": "Una decisione è un provvedimento formale di un'autorità in un caso concreto, fondato sul diritto pubblico, che costituisce, modifica, revoca o accerta diritti o obblighi, oppure respinge una domanda in tal senso. Solo contro una decisione esiste un rimedio giuridico ordinario."
+        "it": "Una decisione è un provvedimento formale di un'autorità in un caso concreto, fondato sul diritto pubblico, che costituisce, modifica, revoca o accerta diritti o obblighi, oppure respinge una domanda in tal senso. Solo contro una decisione esiste un rimedio giuridico ordinario.",
+        "en": "A ruling is a formal decision made by an authority in an individual case, based on public law, that establishes, amends, annuls or finds the existence of rights or obligations, or that rejects a corresponding application. Only against a ruling is there an ordinary legal remedy."
       },
       "sources": [
         "vwvg-5"
@@ -197,7 +225,8 @@
       "text": {
         "de": "Lesen Sie die Rechtsmittelbelehrung auf Ihrem Entscheid genau: Sie nennt das zulässige Rechtsmittel, die Stelle, bei der Sie es einreichen müssen, und die Frist. Diese Angaben sind für Ihren Fall massgebend, auch wenn sie von dem abweichen, was allgemein üblich ist.",
         "fr": "Lisez attentivement l’indication des voies de droit figurant sur votre décision : elle mentionne le moyen de droit admissible, l’instance auprès de laquelle vous devez le déposer, ainsi que le délai. Ces indications font foi pour votre cas, même si elles s’écartent de ce qui est habituel en général.",
-        "it": "Legga attentamente l'indicazione dei rimedi giuridici sulla sua decisione: indica il rimedio giuridico ammissibile, l'autorità presso cui deve presentarlo e il termine. Queste indicazioni sono determinanti per il suo caso, anche se si scostano da quanto generalmente usuale."
+        "it": "Legga attentamente l'indicazione dei rimedi giuridici sulla sua decisione: indica il rimedio giuridico ammissibile, l'autorità presso cui deve presentarlo e il termine. Queste indicazioni sono determinanti per il suo caso, anche se si scostano da quanto generalmente usuale.",
+        "en": "Read the instructions on legal remedies on your decision carefully: they name the permissible legal remedy, the body you must file it with, and the time limit. This information is decisive for your case, even if it differs from what is generally usual."
       },
       "sources": [
         "vwvg-35"
@@ -215,7 +244,8 @@
       "text": {
         "de": "Die meisten alltäglichen Entscheide, etwa von einer Gemeinde, einer kantonalen Steuer-, Sozial- oder Baubehörde, unterstehen nicht dem Verfahrensrecht des Bundes, sondern dem Verfahrensrecht des jeweiligen Kantons. Jeder Kanton regelt Fristen und Rechtsmittel etwas anders. Halten Sie sich deshalb an die Rechtsmittelbelehrung auf Ihrem eigenen Entscheid und ziehen Sie im Zweifel die kantonale Gesetzgebung oder eine Beratungsstelle bei.",
         "fr": "La plupart des décisions du quotidien, par exemple celles d’une commune ou d’une autorité fiscale, sociale ou de la construction cantonale, ne relèvent pas du droit de procédure fédéral, mais du droit de procédure du canton concerné. Chaque canton règle les délais et les moyens de droit un peu différemment. Fiez-vous donc à l’indication des voies de droit figurant sur votre propre décision et consultez, en cas de doute, la législation cantonale ou un service de conseil.",
-        "it": "La maggior parte delle decisioni quotidiane, per esempio di un Comune, di un'autorità cantonale fiscale, sociale o edilizia, non sottostà al diritto procedurale della Confederazione, bensì al diritto procedurale del rispettivo Cantone. Ogni Cantone disciplina termini e rimedi giuridici in modo leggermente diverso. Si attenga quindi all'indicazione dei rimedi giuridici sulla sua decisione e, in caso di dubbio, consulti la legislazione cantonale o un servizio di consulenza."
+        "it": "La maggior parte delle decisioni quotidiane, per esempio di un Comune, di un'autorità cantonale fiscale, sociale o edilizia, non sottostà al diritto procedurale della Confederazione, bensì al diritto procedurale del rispettivo Cantone. Ogni Cantone disciplina termini e rimedi giuridici in modo leggermente diverso. Si attenga quindi all'indicazione dei rimedi giuridici sulla sua decisione e, in caso di dubbio, consulti la legislazione cantonale o un servizio di consulenza.",
+        "en": "Most everyday decisions, for example from a municipality, or a cantonal tax, social welfare or building authority, are not governed by federal procedural law but by the procedural law of the relevant canton. Each canton regulates time limits and legal remedies somewhat differently. So follow the instructions on legal remedies on your own decision, and if in doubt consult the cantonal legislation or an advice centre."
       },
       "sources": [
         "vwvg-5"
@@ -233,7 +263,8 @@
       "text": {
         "de": "Richtet sich Ihr Fall nach dem Verfahrensrecht des Bundes, beträgt die Beschwerdefrist in der Regel 30 Tage ab Eröffnung der Verfügung. Die Beschwerde muss Ihre Anträge, deren Begründung mit Angabe der Beweismittel und Ihre Unterschrift enthalten; legen Sie eine Kopie der angefochtenen Verfügung bei.",
         "fr": "Si votre cas relève du droit de procédure fédéral, le délai de recours est en général de 30 jours à compter de la notification de la décision. Le recours doit contenir vos conclusions, leur motivation avec l’indication des moyens de preuve, ainsi que votre signature ; joignez une copie de la décision attaquée.",
-        "it": "Se il suo caso è retto dal diritto procedurale della Confederazione, il termine di ricorso è di regola di 30 giorni dalla notificazione della decisione. Il ricorso deve contenere le sue conclusioni, la relativa motivazione con l'indicazione dei mezzi di prova e la sua firma; alleghi una copia della decisione impugnata."
+        "it": "Se il suo caso è retto dal diritto procedurale della Confederazione, il termine di ricorso è di regola di 30 giorni dalla notificazione della decisione. Il ricorso deve contenere le sue conclusioni, la relativa motivazione con l'indicazione dei mezzi di prova e la sua firma; alleghi una copia della decisione impugnata.",
+        "en": "If your case is governed by federal procedural law, the appeal (Beschwerde / recours) period is usually 30 days from notification of the ruling. The appeal must contain your requests, the grounds for them with details of the evidence, and your signature; attach a copy of the contested ruling."
       },
       "sources": [
         "vwvg-50",
@@ -252,7 +283,8 @@
       "text": {
         "de": "Bei vielen Fristen des Bundesverfahrensrechts gelten Gerichtsferien: Solche nach Tagen bestimmten Fristen stehen still vom siebten Tag vor Ostern bis zum siebten Tag nach Ostern, vom 15. Juli bis 15. August, und vom 18. Dezember bis 2. Januar. Ob das für Ihre Frist gilt, sagt Ihnen die Rechtsmittelbelehrung oder die zuständige Behörde.",
         "fr": "Pour de nombreux délais du droit de procédure fédéral, des féries judiciaires s’appliquent : les délais fixés en jours ne courent pas du septième jour avant Pâques au septième jour après Pâques, du 15 juillet au 15 août, ni du 18 décembre au 2 janvier. L’indication des voies de droit ou l’autorité compétente vous dira si cela s’applique à votre délai.",
-        "it": "Per molti termini del diritto procedurale federale valgono le ferie giudiziarie: i termini fissati in giorni non decorrono dal settimo giorno precedente Pasqua al settimo giorno successivo a Pasqua incluso, dal 15 luglio al 15 agosto incluso, e dal 18 dicembre al 2 gennaio incluso. Se ciò vale per il suo termine, glielo indica l'indicazione dei rimedi giuridici o l'autorità competente."
+        "it": "Per molti termini del diritto procedurale federale valgono le ferie giudiziarie: i termini fissati in giorni non decorrono dal settimo giorno precedente Pasqua al settimo giorno successivo a Pasqua incluso, dal 15 luglio al 15 agosto incluso, e dal 18 dicembre al 2 gennaio incluso. Se ciò vale per il suo termine, glielo indica l'indicazione dei rimedi giuridici o l'autorità competente.",
+        "en": "Many time limits under federal procedural law are subject to legal holidays: time limits set in days do not run from the seventh day before Easter to the seventh day after Easter, from 15 July to 15 August, and from 18 December to 2 January. The instructions on legal remedies or the competent authority will tell you whether this applies to your time limit."
       },
       "sources": [
         "vwvg-22a"
@@ -271,7 +303,8 @@
       "text": {
         "de": "Fehlt die Rechtsmittelbelehrung, ist sie unvollständig oder falsch, darf Ihnen daraus kein Nachteil entstehen. Das schützt Sie aber nur, wenn Sie sich nicht bewusst waren, dass die Angabe falsch ist, und innert vernünftiger Zeit reagieren. Verlassen Sie sich nicht darauf: Reichen Sie Ihr Rechtsmittel so rasch wie möglich ein und lassen Sie prüfen, welche Frist tatsächlich gilt.",
         "fr": "Si l’indication des voies de droit fait défaut, est incomplète ou erronée, cela ne doit entraîner aucun préjudice pour vous. Cela ne vous protège toutefois que si vous n’aviez pas conscience de l’inexactitude de l’indication et que vous réagissez dans un délai raisonnable. Ne vous y fiez pas : déposez votre moyen de droit le plus vite possible et faites vérifier quel délai s’applique réellement.",
-        "it": "Se l'indicazione dei rimedi giuridici manca, è incompleta o errata, ciò non le deve arrecare pregiudizio. Questa protezione vale però solo se lei non era consapevole che l'indicazione era sbagliata, e se reagisce entro un termine ragionevole. Non faccia affidamento su questo: presenti il suo rimedio giuridico il più presto possibile e faccia verificare quale termine si applica realmente."
+        "it": "Se l'indicazione dei rimedi giuridici manca, è incompleta o errata, ciò non le deve arrecare pregiudizio. Questa protezione vale però solo se lei non era consapevole che l'indicazione era sbagliata, e se reagisce entro un termine ragionevole. Non faccia affidamento su questo: presenti il suo rimedio giuridico il più presto possibile e faccia verificare quale termine si applica realmente.",
+        "en": "If the instructions on legal remedies are missing, incomplete or incorrect, this must not work to your disadvantage. However, this only protects you if you were not aware that the information was incorrect, and you react within a reasonable time. Do not rely on this: file your legal remedy as quickly as possible and have it checked which time limit actually applies."
       },
       "sources": [
         "vwvg-38",
@@ -290,7 +323,8 @@
       "text": {
         "de": "Läuft Ihre Frist bald ab oder ist sie bereits abgelaufen, holen Sie sich sofort Rat. Auch nach Ablauf einer Frist gibt es in Ausnahmefällen Möglichkeiten, etwa bei einer nachgewiesenen Verhinderung; das muss aber rasch und im Einzelfall geprüft werden.",
         "fr": "Si votre délai arrive bientôt à échéance ou s’il est déjà échu, demandez immédiatement conseil. Même après l’expiration d’un délai, il existe dans des cas exceptionnels des possibilités, par exemple en cas d’empêchement prouvé ; cela doit toutefois être examiné rapidement et au cas par cas.",
-        "it": "Se il suo termine sta per scadere o è già scaduto, si faccia consigliare subito. Anche dopo la scadenza di un termine esistono, in casi eccezionali, delle possibilità, per esempio in caso di un impedimento comprovato; questo va però verificato rapidamente e caso per caso."
+        "it": "Se il suo termine sta per scadere o è già scaduto, si faccia consigliare subito. Anche dopo la scadenza di un termine esistono, in casi eccezionali, delle possibilità, per esempio in caso di un impedimento comprovato; questo va però verificato rapidamente e caso per caso.",
+        "en": "If your time limit is about to expire, or has already expired, get advice immediately. Even after a time limit has expired there are, in exceptional cases, options, for example where a proven impediment prevented you from acting; but this must be checked quickly and on a case-by-case basis."
       }
     },
     {
@@ -299,7 +333,8 @@
       "text": {
         "de": "Holen Sie sich Beratung, wenn Sie unsicher sind, welches Verfahrensrecht gilt, wenn die Rechtsmittelbelehrung fehlt oder unklar ist, oder wenn viel auf dem Spiel steht.",
         "fr": "Demandez conseil si vous n’avez pas la certitude du droit de procédure applicable, si l’indication des voies de droit fait défaut ou est peu claire, ou si beaucoup est en jeu.",
-        "it": "Si faccia consigliare se non è sicuro quale diritto procedurale si applichi, se l'indicazione dei rimedi giuridici manca o non è chiara, oppure se è in gioco molto."
+        "it": "Si faccia consigliare se non è sicuro quale diritto procedurale si applichi, se l'indicazione dei rimedi giuridici manca o non è chiara, oppure se è in gioco molto.",
+        "en": "Get advice if you are unsure which procedural law applies, if the instructions on legal remedies are missing or unclear, or if a lot is at stake."
       }
     },
     {
@@ -308,7 +343,8 @@
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Die Behörde, die entschieden hat, erklärt Ihnen auf Anfrage das Verfahren und die Rechtsmittelfrist. Viele Kantone und Anwaltsverbände bieten eine erste, unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à faible coût : l’autorité qui a rendu la décision vous explique, sur demande, la procédure et le délai de recours. De nombreux cantons et associations d’avocats offrent une première consultation juridique gratuite.",
-        "it": "Aiuto gratuito o a basso costo: l'autorità che ha deciso le spiega, su richiesta, la procedura e il termine di ricorso. Molti Cantoni e ordini degli avvocati offrono una prima consulenza giuridica gratuita."
+        "it": "Aiuto gratuito o a basso costo: l'autorità che ha deciso le spiega, su richiesta, la procedura e il termine di ricorso. Molti Cantoni e ordini degli avvocati offrono una prima consulenza giuridica gratuita.",
+        "en": "Free or low-cost help: the authority that made the decision will explain the procedure and the time limit for a legal remedy on request. Many cantons and bar associations offer an initial, free legal consultation."
       }
     }
   ],

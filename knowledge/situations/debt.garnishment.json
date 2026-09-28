@@ -8,12 +8,14 @@
   "title": {
     "de": "Mein Lohn wird gepfändet. Wie viel muss mir bleiben?",
     "fr": "Mon salaire est saisi. Combien doit-il me rester ?",
-    "it": "Il mio salario viene pignorato. Quanto deve rimanermi?"
+    "it": "Il mio salario viene pignorato. Quanto deve rimanermi?",
+    "en": "My wages are being distrained. How much must I be left with?"
   },
   "summary": {
     "de": "Das Betreibungsamt darf nur den Teil Ihres Lohns pfänden, der über das hinausgeht, was Sie und Ihre Familie zum Leben brauchen (Existenzminimum). Ändert sich Ihre Situation, müssen Sie das dem Amt melden. Eine Lohnpfändung dauert höchstens ein Jahr.",
     "fr": "L’office des poursuites ne peut saisir que la part de votre salaire qui dépasse ce dont vous et votre famille avez besoin pour vivre (minimum vital). Si votre situation change, vous devez le signaler à l’office. Une saisie de salaire dure un an au maximum.",
-    "it": "L’ufficio d’esecuzione può pignorare solo la parte del suo salario che supera quanto necessario per il sostentamento suo e della sua famiglia (minimo vitale). Se la sua situazione cambia, deve comunicarlo all’ufficio. Un pignoramento del salario dura al massimo un anno."
+    "it": "L’ufficio d’esecuzione può pignorare solo la parte del suo salario che supera quanto necessario per il sostentamento suo e della sua famiglia (minimo vitale). Se la sua situazione cambia, deve comunicarlo all’ufficio. Un pignoramento del salario dura al massimo un anno.",
+    "en": "The debt enforcement office may only distrain the part of your wages that goes beyond what you and your family need to live on (subsistence minimum). If your situation changes, you must report this to the office. A distraint of wages lasts one year at most."
   },
   "examples": {
     "de": [
@@ -39,18 +41,28 @@
       "Devo comunicare all’ufficio d’esecuzione se il mio affitto aumenta?",
       "Il mio salario viene pignorato, quanto deve rimanermi ogni mese?",
       "Posso impugnare l’atto di pignoramento?"
+    ],
+    "en": [
+      "My wages are being distrained, how much must I be left with?",
+      "What is the subsistence minimum in a wage distraint?",
+      "How long can a wage distraint last?",
+      "Do I have to tell the debt enforcement office if my rent goes up?",
+      "My wages are being garnished, how much do I get to keep?",
+      "Can I challenge the distraint order?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Die Pfändung von Lohn, Rente oder ähnlichen wiederkehrenden Leistungen durch das Betreibungsamt.",
       "fr": "La saisie du salaire, d’une rente ou de prestations périodiques similaires par l’office des poursuites.",
-      "it": "Il pignoramento di salario, rendita o prestazioni periodiche simili da parte dell’ufficio d’esecuzione."
+      "it": "Il pignoramento di salario, rendita o prestazioni periodiche simili da parte dell’ufficio d’esecuzione.",
+      "en": "Distraint of wages, pension or similar recurring payments by the debt enforcement office (Betreibungsamt / office des poursuites)."
     },
     "excludes": {
       "de": "Die Pfändung von Gegenständen oder anderem Vermögen, das Konkursverfahren, sowie Lohnabzüge des Arbeitgebers ausserhalb einer Betreibung (z. B. Quellensteuer).",
       "fr": "La saisie d’objets ou d’autres biens, la procédure de faillite, ainsi que les retenues salariales de l’employeur en dehors d’une poursuite (p. ex. l’impôt à la source).",
-      "it": "Il pignoramento di oggetti o di altri beni, la procedura di fallimento, nonché le trattenute salariali del datore di lavoro al di fuori di un’esecuzione (ad es. l’imposta alla fonte)."
+      "it": "Il pignoramento di oggetti o di altri beni, la procedura di fallimento, nonché le trattenute salariali del datore di lavoro al di fuori di un’esecuzione (ad es. l’imposta alla fonte).",
+      "en": "Distraint of objects or other assets, bankruptcy proceedings, and deductions made by the employer from wages outside debt enforcement proceedings (e.g. withholding tax)."
     }
   },
   "facts": [
@@ -59,7 +71,8 @@
       "question": {
         "de": "Läuft Ihre aktuelle Lohnpfändung schon fast ein Jahr?",
         "fr": "Votre saisie de salaire actuelle dure-t-elle déjà depuis presque un an ?",
-        "it": "Il suo attuale pignoramento del salario dura già da quasi un anno?"
+        "it": "Il suo attuale pignoramento del salario dura già da quasi un anno?",
+        "en": "Has your current wage distraint already been running for almost a year?"
       },
       "options": [
         {
@@ -67,7 +80,8 @@
           "label": {
             "de": "Ja, oder ich bin mir nicht sicher, wie lange sie schon läuft",
             "fr": "Oui, ou je n’ai pas de certitude sur sa durée",
-            "it": "Sì, oppure non sono sicuro da quanto tempo dura"
+            "it": "Sì, oppure non sono sicuro da quanto tempo dura",
+            "en": "Yes, or I'm not sure how long it has been running"
           }
         },
         {
@@ -75,7 +89,8 @@
           "label": {
             "de": "Nein, sie hat erst vor Kurzem begonnen",
             "fr": "Non, elle a commencé récemment",
-            "it": "No, è iniziato da poco"
+            "it": "No, è iniziato da poco",
+            "en": "No, it only started recently"
           }
         },
         {
@@ -83,7 +98,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -93,7 +109,8 @@
       "question": {
         "de": "Hat sich seit der Pfändung etwas an Ihrer Situation geändert, zum Beispiel Miete, Krankenkassenprämie, Familiensituation oder Einkommen?",
         "fr": "Votre situation a-t-elle changé depuis la saisie, par exemple votre loyer, votre prime d’assurance-maladie, votre situation familiale ou vos revenus ?",
-        "it": "Dalla data del pignoramento è cambiato qualcosa nella sua situazione, ad esempio l’affitto, il premio della cassa malati, la situazione familiare o il reddito?"
+        "it": "Dalla data del pignoramento è cambiato qualcosa nella sua situazione, ad esempio l’affitto, il premio della cassa malati, la situazione familiare o il reddito?",
+        "en": "Has anything about your situation changed since the distraint, for example your rent, health insurance premium, family situation or income?"
       },
       "options": [
         {
@@ -101,7 +118,8 @@
           "label": {
             "de": "Ja",
             "fr": "Oui",
-            "it": "Sì"
+            "it": "Sì",
+            "en": "Yes"
           }
         },
         {
@@ -109,7 +127,8 @@
           "label": {
             "de": "Nein",
             "fr": "Non",
-            "it": "No"
+            "it": "No",
+            "en": "No"
           }
         },
         {
@@ -117,7 +136,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -127,7 +147,8 @@
       "question": {
         "de": "Kennen Sie den vom Amt berechneten Betrag, der Ihnen monatlich bleiben muss?",
         "fr": "Connaissez-vous le montant calculé par l’office, qui doit vous rester chaque mois ?",
-        "it": "Conosce l’importo calcolato dall’ufficio che deve rimanerle ogni mese?"
+        "it": "Conosce l’importo calcolato dall’ufficio che deve rimanerle ogni mese?",
+        "en": "Do you know the amount, calculated by the office, that you must be left with each month?"
       },
       "options": [
         {
@@ -135,7 +156,8 @@
           "label": {
             "de": "Ja",
             "fr": "Oui",
-            "it": "Sì"
+            "it": "Sì",
+            "en": "Yes"
           }
         },
         {
@@ -143,7 +165,8 @@
           "label": {
             "de": "Nein",
             "fr": "Non",
-            "it": "No"
+            "it": "No",
+            "en": "No"
           }
         },
         {
@@ -151,7 +174,8 @@
           "label": {
             "de": "Ich bin nicht sicher",
             "fr": "Je n’en ai pas la certitude",
-            "it": "Non ne sono sicuro"
+            "it": "Non ne sono sicuro",
+            "en": "I'm not sure"
           }
         }
       ]
@@ -161,7 +185,8 @@
       "question": {
         "de": "Sind Sie mit der berechneten Pfändungssumme nicht einverstanden?",
         "fr": "Êtes-vous en désaccord avec le montant de saisie calculé ?",
-        "it": "Non è d’accordo con l’importo di pignoramento calcolato?"
+        "it": "Non è d’accordo con l’importo di pignoramento calcolato?",
+        "en": "Do you disagree with the calculated distraint amount?"
       },
       "options": [
         {
@@ -169,7 +194,8 @@
           "label": {
             "de": "Ja",
             "fr": "Oui",
-            "it": "Sì"
+            "it": "Sì",
+            "en": "Yes"
           }
         },
         {
@@ -177,7 +203,8 @@
           "label": {
             "de": "Nein",
             "fr": "Non",
-            "it": "No"
+            "it": "No",
+            "en": "No"
           }
         },
         {
@@ -185,7 +212,8 @@
           "label": {
             "de": "Ich bin mir nicht sicher",
             "fr": "Je n’en ai pas la certitude",
-            "it": "Non ne sono sicuro"
+            "it": "Non ne sono sicuro",
+            "en": "I'm not sure"
           }
         }
       ]
@@ -198,7 +226,8 @@
       "text": {
         "de": "Das Betreibungsamt darf nur den Teil Ihres Erwerbseinkommens, Ihrer Rente oder ähnlicher wiederkehrender Leistungen pfänden, der über das hinausgeht, was Sie und Ihre Familie unbedingt zum Leben brauchen (Existenzminimum). Wie hoch dieser Betrag ist, legt das Amt nach den Richtlinien Ihres Kantons fest; er hängt unter anderem von Ihrer Wohnsituation, Ihren Krankenkassenprämien und Ihrer Familiengrösse ab.",
         "fr": "L’office des poursuites ne peut saisir que la part de votre revenu du travail, de votre rente ou de prestations périodiques similaires qui dépasse ce dont vous et votre famille avez absolument besoin pour vivre (minimum vital). L’office fixe le montant de ce minimum selon les directives de votre canton ; il dépend notamment de votre situation de logement, de vos primes d’assurance-maladie et de la taille de votre famille.",
-        "it": "L’ufficio d’esecuzione può pignorare solo la parte del suo reddito da lavoro, della sua rendita o di prestazioni periodiche simili che supera quanto assolutamente necessario per il sostentamento suo e della sua famiglia (minimo vitale). L’ufficio stabilisce l’entità di questo importo secondo le direttive del suo Cantone; esso dipende, tra l’altro, dalla sua situazione abitativa, dai suoi premi della cassa malati e dalla grandezza della sua famiglia."
+        "it": "L’ufficio d’esecuzione può pignorare solo la parte del suo reddito da lavoro, della sua rendita o di prestazioni periodiche simili che supera quanto assolutamente necessario per il sostentamento suo e della sua famiglia (minimo vitale). L’ufficio stabilisce l’entità di questo importo secondo le direttive del suo Cantone; esso dipende, tra l’altro, dalla sua situazione abitativa, dai suoi premi della cassa malati e dalla grandezza della sua famiglia.",
+        "en": "The debt enforcement office may only distrain the part of your earned income, pension or similar recurring payments that goes beyond what you and your family absolutely need to live on (subsistence minimum). The office sets the amount according to your canton's guidelines; it depends, among other things, on your housing situation, your health insurance premiums and the size of your family."
       },
       "sources": [
         "schkg-93"
@@ -216,7 +245,8 @@
       "text": {
         "de": "Läuft Ihre Pfändung schon fast ein Jahr, endet sie automatisch nach zwölf Monaten seit dem Pfändungsvollzug. Nehmen mehrere Gläubiger an der Pfändung teil, zählt die erste Pfändung der betreffenden Gläubigergruppe. Will der Gläubiger danach weiter vorgehen, muss er eine neue Pfändung verlangen, und das Amt prüft Ihre Situation dabei neu.",
         "fr": "Si votre saisie dure déjà depuis presque un an, elle prend automatiquement fin douze mois après l’exécution de la saisie. Si plusieurs créanciers participent à la saisie, c’est la première saisie de la série de créanciers concernée qui compte. Si le créancier veut ensuite continuer, il doit demander une nouvelle saisie, et l’office réexamine alors votre situation.",
-        "it": "Se il suo pignoramento dura già da quasi un anno, esso termina automaticamente dopo dodici mesi dall’esecuzione del pignoramento. Se più creditori partecipano al pignoramento, fa fede il primo pignoramento del relativo gruppo di creditori. Se il creditore vuole proseguire dopo questo termine, deve chiedere un nuovo pignoramento, e l’ufficio riesamina in tale occasione la sua situazione."
+        "it": "Se il suo pignoramento dura già da quasi un anno, esso termina automaticamente dopo dodici mesi dall’esecuzione del pignoramento. Se più creditori partecipano al pignoramento, fa fede il primo pignoramento del relativo gruppo di creditori. Se il creditore vuole proseguire dopo questo termine, deve chiedere un nuovo pignoramento, e l’ufficio riesamina in tale occasione la sua situazione.",
+        "en": "If your distraint has already been running for almost a year, it ends automatically twelve months after the distraint was carried out. If several creditors take part in the distraint, the first distraint of the relevant group of creditors counts. If the creditor wants to proceed further after that, they must request a new distraint, and the office reassesses your situation at that point."
       },
       "sources": [
         "schkg-93"
@@ -234,7 +264,8 @@
       "text": {
         "de": "Ändert sich Ihre Situation während der Pfändung, zum Beispiel weil die Miete oder die Krankenkassenprämie steigt, Sie weniger verdienen oder sich Ihre Familiensituation ändert, melden Sie dies sofort dem Betreibungsamt. Erfährt das Amt von einer solchen Änderung, passt es die Pfändung den neuen Verhältnissen an.",
         "fr": "Si votre situation change pendant la saisie, par exemple parce que le loyer ou la prime d’assurance-maladie augmente, que vous gagnez moins ou que votre situation familiale change, signalez-le immédiatement à l’office des poursuites. Si l’office a connaissance d’un tel changement, il adapte la saisie aux nouvelles circonstances.",
-        "it": "Se la sua situazione cambia durante il pignoramento, ad esempio perché l’affitto o il premio della cassa malati aumentano, lei guadagna meno o la sua situazione familiare cambia, lo comunichi subito all’ufficio d’esecuzione. Se l’ufficio viene a conoscenza di un tale cambiamento, adegua il pignoramento alle nuove circostanze."
+        "it": "Se la sua situazione cambia durante il pignoramento, ad esempio perché l’affitto o il premio della cassa malati aumentano, lei guadagna meno o la sua situazione familiare cambia, lo comunichi subito all’ufficio d’esecuzione. Se l’ufficio viene a conoscenza di un tale cambiamento, adegua il pignoramento alle nuove circostanze.",
+        "en": "If your situation changes during the distraint, for example because your rent or health insurance premium goes up, you earn less, or your family situation changes, report this to the debt enforcement office immediately. If the office learns of such a change, it adjusts the distraint to the new circumstances."
       },
       "sources": [
         "schkg-93"
@@ -246,7 +277,8 @@
       "text": {
         "de": "Auf Ihren Antrag kann das Amt Ihren Arbeitgeber anweisen, während der Pfändung zusätzlich den Betrag für Ihre laufenden Krankenkassenprämien und Kostenbeteiligungen direkt an das Amt zu überweisen, soweit diese zu Ihrem Existenzminimum gehören. Das Amt begleicht die Prämien damit direkt bei der Krankenkasse.",
         "fr": "Sur votre demande, l’office peut charger votre employeur de verser en plus, pendant la saisie, le montant de vos primes d’assurance-maladie courantes et de vos participations aux coûts directement à l’office, dans la mesure où elles font partie de votre minimum vital. L’office règle ainsi les primes directement auprès de la caisse-maladie.",
-        "it": "Su sua richiesta, l’ufficio può ingiungere al suo datore di lavoro di versare direttamente all’ufficio, per la durata del pignoramento, anche l’importo per i suoi premi correnti della cassa malati e le sue partecipazioni ai costi, nella misura in cui rientrano nel suo minimo vitale. L’ufficio paga quindi i premi direttamente alla cassa malati."
+        "it": "Su sua richiesta, l’ufficio può ingiungere al suo datore di lavoro di versare direttamente all’ufficio, per la durata del pignoramento, anche l’importo per i suoi premi correnti della cassa malati e le sue partecipazioni ai costi, nella misura in cui rientrano nel suo minimo vitale. L’ufficio paga quindi i premi direttamente alla cassa malati.",
+        "en": "At your request, the office can instruct your employer to also transfer, during the distraint, the amount for your current health insurance premiums and cost-sharing payments directly to the office, to the extent that these form part of your subsistence minimum. The office then settles the premiums directly with the health insurer."
       },
       "sources": [
         "schkg-93"
@@ -258,7 +290,8 @@
       "text": {
         "de": "Unabhängig von Ihrem Einkommen sind bestimmte Vermögenswerte immer unpfändbar: persönliche Gegenstände, die Sie unbedingt brauchen, wie notwendige Kleidung oder Hausrat, die Werkzeuge und Bücher für Ihren Beruf, Nahrungsmittel für die zwei folgenden Monate, Haustiere, die nicht dem Erwerb dienen, sowie bestimmte Sozialversicherungsleistungen wie AHV- und IV-Renten, Ergänzungsleistungen und Ansprüche aus der beruflichen Vorsorge vor deren Fälligkeit.",
         "fr": "Indépendamment de votre revenu, certains biens sont toujours insaisissables : les objets personnels dont vous avez absolument besoin, comme les vêtements ou le mobilier de ménage nécessaires, les outils et les livres nécessaires à votre profession, les denrées alimentaires pour les deux mois suivants, les animaux domestiques qui ne servent pas à un but lucratif, ainsi que certaines prestations des assurances sociales telles que les rentes AVS et AI, les prestations complémentaires et les prétentions de la prévoyance professionnelle avant leur échéance.",
-        "it": "Indipendentemente dal suo reddito, determinati valori patrimoniali sono sempre impignorabili: gli oggetti personali di cui lei ha assolutamente bisogno, come il vestiario e le suppellettili necessarie, gli utensili e i libri per la sua professione, le derrate alimentari per i due mesi seguenti, gli animali domestici che non servono a fini di reddito, nonché determinate prestazioni delle assicurazioni sociali come le rendite AVS e AI, le prestazioni complementari e le pretese derivanti dalla previdenza professionale prima della loro esigibilità."
+        "it": "Indipendentemente dal suo reddito, determinati valori patrimoniali sono sempre impignorabili: gli oggetti personali di cui lei ha assolutamente bisogno, come il vestiario e le suppellettili necessarie, gli utensili e i libri per la sua professione, le derrate alimentari per i due mesi seguenti, gli animali domestici che non servono a fini di reddito, nonché determinate prestazioni delle assicurazioni sociali come le rendite AVS e AI, le prestazioni complementari e le pretese derivanti dalla previdenza professionale prima della loro esigibilità.",
+        "en": "Regardless of your income, certain assets are always exempt from distraint: personal items that you absolutely need, such as necessary clothing or household effects, the tools and books needed for your profession, food for the following two months, pets that are not kept for profit, and certain social insurance benefits such as OASI and invalidity insurance pensions, supplementary benefits, and occupational pension claims before they fall due."
       },
       "sources": [
         "schkg-92"
@@ -276,7 +309,8 @@
       "text": {
         "de": "Kennen Sie den berechneten Betrag nicht, verlangen Sie beim Betreibungsamt die Pfändungsurkunde oder -verfügung. Darin steht, wie viel Ihnen monatlich bleibt und wie sich der Betrag zusammensetzt. Das Amt berechnet diesen Betrag nach den Existenzminimum-Richtlinien Ihres Kantons, nicht nach einem schweizweit einheitlichen Tarif.",
         "fr": "Si vous ne connaissez pas le montant calculé, demandez à l’office des poursuites le procès-verbal ou la décision de saisie. Ce document indique le montant qui doit vous rester chaque mois et comment il se compose. L’office calcule ce montant selon les directives sur le minimum vital de votre canton, et non selon un barème uniforme à l’échelle suisse.",
-        "it": "Se non conosce l’importo calcolato, chieda all’ufficio d’esecuzione l’atto di pignoramento. In esso è indicato quanto le rimane ogni mese e come si compone l’importo. L’ufficio calcola questo importo secondo le direttive sul minimo vitale del suo Cantone, non secondo una tariffa uniforme a livello svizzero."
+        "it": "Se non conosce l’importo calcolato, chieda all’ufficio d’esecuzione l’atto di pignoramento. In esso è indicato quanto le rimane ogni mese e come si compone l’importo. L’ufficio calcola questo importo secondo le direttive sul minimo vitale del suo Cantone, non secondo una tariffa uniforme a livello svizzero.",
+        "en": "If you do not know the calculated amount, ask the debt enforcement office for the distraint certificate or order. This states how much you are left with each month and how the amount is made up. The office calculates this amount according to your canton's subsistence-minimum guidelines, not according to a single nationwide scale."
       }
     },
     {
@@ -291,7 +325,8 @@
       "text": {
         "de": "Sind Sie mit der Pfändungsverfügung nicht einverstanden, können Sie dagegen innert 10 Tagen, nachdem Sie davon Kenntnis erhalten haben, bei der Aufsichtsbehörde für Schuldbetreibung und Konkurs Beschwerde erheben, zum Beispiel wegen Gesetzesverletzung oder weil die Berechnung unangemessen ist. Das Betreibungsamt sagt Ihnen, welche Behörde in Ihrem Kanton dafür zuständig ist.",
         "fr": "Si vous n’êtes pas d’accord avec la décision de saisie, vous pouvez, dans les 10 jours dès que vous en avez eu connaissance, porter plainte auprès de l’autorité de surveillance en matière de poursuite pour dettes et de faillite, par exemple pour violation de la loi ou parce que le calcul n’est pas approprié. L’office des poursuites vous indique quelle autorité est compétente dans votre canton.",
-        "it": "Se non è d’accordo con l’atto di pignoramento, può presentare ricorso entro 10 giorni da quando ne ha avuto conoscenza presso l’autorità di vigilanza in materia di esecuzione e fallimenti, ad esempio per violazione della legge o perché il calcolo è inadeguato. L’ufficio d’esecuzione le indica quale autorità è competente in materia nel suo Cantone."
+        "it": "Se non è d’accordo con l’atto di pignoramento, può presentare ricorso entro 10 giorni da quando ne ha avuto conoscenza presso l’autorità di vigilanza in materia di esecuzione e fallimenti, ad esempio per violazione della legge o perché il calcolo è inadeguato. L’ufficio d’esecuzione le indica quale autorità è competente in materia nel suo Cantone.",
+        "en": "If you disagree with the distraint order, you can appeal against it to the supervisory authority for debt enforcement and bankruptcy (Aufsichtsbehörde für Schuldbetreibung und Konkurs / autorité de surveillance) within 10 days of learning of it, for example because it infringes the law or because the calculation is unreasonable. The debt enforcement office will tell you which authority is responsible for this in your canton."
       },
       "sources": [
         "schkg-17"
@@ -303,7 +338,8 @@
       "text": {
         "de": "Holen Sie persönliche Beratung, wenn Ihr Existenzminimum so tief berechnet wurde, dass Sie sich das Nötigste nicht mehr leisten können, wenn mehrere Pfändungen gleichzeitig laufen, oder wenn Sie eine Beschwerdefrist knapp einhalten müssen.",
         "fr": "Demandez un conseil personnalisé si votre minimum vital a été calculé si bas que vous ne pouvez plus vous permettre le nécessaire, si plusieurs saisies sont en cours en même temps, ou si vous devez respecter de justesse un délai de plainte.",
-        "it": "Si faccia consigliare da un professionista se il suo minimo vitale è stato calcolato così basso che non può più permettersi lo stretto necessario, se sono in corso più pignoramenti contemporaneamente, oppure se deve rispettare un termine di ricorso ormai vicino alla scadenza."
+        "it": "Si faccia consigliare da un professionista se il suo minimo vitale è stato calcolato così basso che non può più permettersi lo stretto necessario, se sono in corso più pignoramenti contemporaneamente, oppure se deve rispettare un termine di ricorso ormai vicino alla scadenza.",
+        "en": "Get personal advice if your subsistence minimum has been calculated so low that you can no longer afford the essentials, if several distraints are running at the same time, or if you must meet an appeal deadline that is running out."
       }
     },
     {
@@ -312,7 +348,8 @@
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Das Betreibungsamt informiert über das Verfahren und die Berechnung, berät aber nicht rechtlich. Kantonale und private Schuldenberatungsstellen helfen kostenlos oder günstig beim Haushaltsbudget und bei Verhandlungen mit Gläubigern. Konsumentenorganisationen bieten allgemeine Auskünfte.",
         "fr": "Aide gratuite ou à faible coût : l’office des poursuites renseigne sur la procédure et le calcul, mais ne fournit pas de conseil juridique. Des services cantonaux et privés de désendettement aident gratuitement ou à faible coût pour le budget du ménage et les négociations avec les créanciers. Des organisations de consommateurs offrent des renseignements généraux.",
-        "it": "Aiuto gratuito o a basso costo: l’ufficio d’esecuzione informa sulla procedura e sul calcolo, ma non fornisce consulenza legale. Servizi cantonali e privati di consulenza in materia di debiti aiutano gratuitamente o a basso costo con il budget familiare e nelle trattative con i creditori. Le organizzazioni dei consumatori offrono informazioni generali."
+        "it": "Aiuto gratuito o a basso costo: l’ufficio d’esecuzione informa sulla procedura e sul calcolo, ma non fornisce consulenza legale. Servizi cantonali e privati di consulenza in materia di debiti aiutano gratuitamente o a basso costo con il budget familiare e nelle trattative con i creditori. Le organizzazioni dei consumatori offrono informazioni generali.",
+        "en": "Free or low-cost help: the debt enforcement office can tell you about the procedure and the calculation, but does not give legal advice. Cantonal and private debt counselling services help free of charge or cheaply with household budgeting and negotiations with creditors. Consumer organisations provide general information."
       }
     }
   ],
@@ -347,7 +384,8 @@
       "label": {
         "de": "ch.ch: Betreibungen",
         "fr": "ch.ch : Poursuites",
-        "it": "ch.ch: Esecuzioni"
+        "it": "ch.ch: Esecuzioni",
+        "en": "ch.ch: Debt enforcement"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }

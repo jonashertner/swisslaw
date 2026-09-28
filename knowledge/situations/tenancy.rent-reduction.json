@@ -8,12 +8,14 @@
   "title": {
     "de": "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?",
     "fr": "Le taux hypothécaire de référence a baissé. Puis-je demander une diminution du loyer ?",
-    "it": "Il tasso d'interesse di riferimento è sceso. Posso chiedere una riduzione della pigione?"
+    "it": "Il tasso d'interesse di riferimento è sceso. Posso chiedere una riduzione della pigione?",
+    "en": "The reference interest rate has fallen. Can I ask for a rent reduction?"
   },
   "summary": {
     "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie gilt ab dem nächsten Kündigungstermin und nur für die Zukunft. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Lehnt er ab oder antwortet er nicht innert 30 Tagen, können Sie danach innert 30 Tagen die Schlichtungsbehörde anrufen. Das Verfahren dort ist kostenlos.",
     "fr": "Si le taux hypothécaire de référence a baissé ou si les coûts du bailleur ont diminué d'une autre manière, vous pouvez demander une diminution du loyer. Elle vaut dès le prochain terme de congé et seulement pour l'avenir. Vous devez d'abord vous adresser par écrit au bailleur. S'il refuse ou ne répond pas dans les 30 jours, vous disposez ensuite de 30 jours pour saisir l'autorité de conciliation. La procédure y est gratuite.",
-    "it": "Se il tasso d'interesse di riferimento ipotecario è sceso, o se i costi del locatore sono comunque diminuiti, Lei può chiedere una riduzione della pigione. Essa vale a partire dalla prossima scadenza di disdetta e solo per il futuro. Deve prima rivolgersi per scritto al locatore. Se questi rifiuta o non risponde entro 30 giorni, Lei può poi, entro 30 giorni, adire l'autorità di conciliazione. La procedura è gratuita."
+    "it": "Se il tasso d'interesse di riferimento ipotecario è sceso, o se i costi del locatore sono comunque diminuiti, Lei può chiedere una riduzione della pigione. Essa vale a partire dalla prossima scadenza di disdetta e solo per il futuro. Deve prima rivolgersi per scritto al locatore. Se questi rifiuta o non risponde entro 30 giorni, Lei può poi, entro 30 giorni, adire l'autorità di conciliazione. La procedura è gratuita.",
+    "en": "If the mortgage reference interest rate has fallen, or the landlord's costs have otherwise gone down, you can ask for a reduction of the rent. It applies from the next termination date and only for the future. You must first ask the landlord in writing. If he refuses, or does not answer within 30 days, you can then approach the conciliation authority (Schlichtungsbehörde / autorité de conciliation) within a further 30 days. Proceedings there are free of charge."
   },
   "examples": {
     "de": [
@@ -39,18 +41,28 @@
       "Con i tassi ipotecari scesi, posso ottenere una pigione più bassa?",
       "Devo prima scrivere al locatore prima di andare dall'autorità di conciliazione?",
       "Il locatore non risponde alla mia richiesta di pigione più bassa, cosa faccio adesso?"
+    ],
+    "en": [
+      "The reference interest rate has fallen. Can I ask for a rent reduction?",
+      "Can I get my rent lowered because mortgage rates have dropped?",
+      "How do I apply for a rent reduction?",
+      "Can I ask for a lower rent now that mortgage rates have come down?",
+      "Do I have to write to the landlord first before I go to the conciliation authority?",
+      "The landlord isn't responding to my request for a lower rent, what now?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Das Herabsetzungsbegehren des Mieters während eines laufenden Wohnungsmietverhältnisses in der Schweiz, insbesondere wegen eines gesunkenen Referenzzinssatzes oder anderer gesunkener Kosten des Vermieters.",
       "fr": "La demande de diminution du locataire pendant un bail de logement en cours en Suisse, notamment en raison d'une baisse du taux hypothécaire de référence ou d'autres coûts réduits du bailleur.",
-      "it": "La domanda di riduzione del conduttore durante un rapporto di locazione di un appartamento già in corso in Svizzera, in particolare per un tasso d'interesse di riferimento sceso o per altri costi del locatore diminuiti."
+      "it": "La domanda di riduzione del conduttore durante un rapporto di locazione di un appartamento già in corso in Svizzera, in particolare per un tasso d'interesse di riferimento sceso o per altri costi del locatore diminuiti.",
+      "en": "The tenant's request for a reduction during an ongoing residential tenancy in Switzerland, in particular because of a fall in the reference interest rate or another fall in the landlord's costs."
     },
     "excludes": {
       "de": "Den Mietzins bei Abschluss eines neuen Mietvertrags (Anfangsmietzins), Geschäftsräume und andere besondere Mietverhältnisse; die Anfechtung einer Mietzinserhöhung, die gleichzeitig mit einem eigenen Herabsetzungsbegehren erfolgt.",
       "fr": "Le loyer fixé à la conclusion d'un nouveau bail (loyer initial), les locaux commerciaux et les autres baux particuliers ; la contestation d'une majoration de loyer accompagnée simultanément d'une demande de diminution propre.",
-      "it": "La pigione fissata alla conclusione di un nuovo contratto di locazione (pigione iniziale), i locali commerciali e altri rapporti di locazione particolari; la contestazione di un aumento della pigione avvenuta contemporaneamente a una propria domanda di riduzione."
+      "it": "La pigione fissata alla conclusione di un nuovo contratto di locazione (pigione iniziale), i locali commerciali e altri rapporti di locazione particolari; la contestazione di un aumento della pigione avvenuta contemporaneamente a una propria domanda di riduzione.",
+      "en": "The rent set when a new lease is concluded (the initial rent), commercial premises and other special types of tenancy; challenging a rent increase made at the same time as your own request for a reduction."
     }
   },
   "facts": [
@@ -59,7 +71,8 @@
       "question": {
         "de": "Warum, denken Sie, sollte Ihr Mietzins jetzt gesenkt werden?",
         "fr": "Pourquoi pensez-vous que votre loyer devrait être diminué maintenant ?",
-        "it": "Perché pensa che la Sua pigione debba ora essere ridotta?"
+        "it": "Perché pensa che la Sua pigione debba ora essere ridotta?",
+        "en": "Why do you think your rent should be reduced now?"
       },
       "options": [
         {
@@ -67,7 +80,8 @@
           "label": {
             "de": "Der hypothekarische Referenzzinssatz ist gesunken",
             "fr": "Le taux hypothécaire de référence a baissé",
-            "it": "Il tasso d'interesse di riferimento ipotecario è sceso"
+            "it": "Il tasso d'interesse di riferimento ipotecario è sceso",
+            "en": "The mortgage reference interest rate has fallen"
           }
         },
         {
@@ -75,7 +89,8 @@
           "label": {
             "de": "Aus einem anderen Grund, zum Beispiel tiefere Kosten des Vermieters",
             "fr": "Pour un autre motif, par exemple des coûts réduits du bailleur",
-            "it": "Per un altro motivo, per esempio costi più bassi del locatore"
+            "it": "Per un altro motivo, per esempio costi più bassi del locatore",
+            "en": "For another reason, for example lower costs for the landlord"
           }
         },
         {
@@ -83,7 +98,8 @@
           "label": {
             "de": "Ich bin nicht sicher",
             "fr": "Je n'en ai pas la certitude",
-            "it": "Non ne sono certo"
+            "it": "Non ne sono certo",
+            "en": "I'm not sure"
           }
         }
       ]
@@ -93,7 +109,8 @@
       "question": {
         "de": "Haben Sie den Vermieter schon schriftlich um eine Mietzinssenkung gebeten?",
         "fr": "Avez-vous déjà demandé par écrit une diminution de loyer au bailleur ?",
-        "it": "Ha già chiesto per scritto al locatore una riduzione della pigione?"
+        "it": "Ha già chiesto per scritto al locatore una riduzione della pigione?",
+        "en": "Have you already asked the landlord in writing for a rent reduction?"
       },
       "options": [
         {
@@ -101,7 +118,8 @@
           "label": {
             "de": "Ja",
             "fr": "Oui",
-            "it": "Sì"
+            "it": "Sì",
+            "en": "Yes"
           }
         },
         {
@@ -109,7 +127,8 @@
           "label": {
             "de": "Nein, noch nicht",
             "fr": "Non, pas encore",
-            "it": "No, non ancora"
+            "it": "No, non ancora",
+            "en": "No, not yet"
           }
         },
         {
@@ -117,7 +136,8 @@
           "label": {
             "de": "Ich weiss es nicht mehr genau",
             "fr": "Je ne m'en souviens plus exactement",
-            "it": "Non lo ricordo con precisione"
+            "it": "Non lo ricordo con precisione",
+            "en": "I can't quite remember"
           }
         }
       ]
@@ -127,7 +147,8 @@
       "question": {
         "de": "Wie hat der Vermieter auf Ihr Begehren reagiert?",
         "fr": "Comment le bailleur a-t-il réagi à votre demande ?",
-        "it": "Come ha reagito il locatore alla Sua richiesta?"
+        "it": "Come ha reagito il locatore alla Sua richiesta?",
+        "en": "How did the landlord respond to your request?"
       },
       "options": [
         {
@@ -135,7 +156,8 @@
           "label": {
             "de": "Er hat die Senkung ganz oder teilweise akzeptiert",
             "fr": "Il a accepté la diminution en tout ou en partie",
-            "it": "Ha accettato la riduzione, del tutto o in parte"
+            "it": "Ha accettato la riduzione, del tutto o in parte",
+            "en": "He accepted the reduction in full or in part"
           }
         },
         {
@@ -143,7 +165,8 @@
           "label": {
             "de": "Er hat abgelehnt",
             "fr": "Il a refusé",
-            "it": "Ha rifiutato"
+            "it": "Ha rifiutato",
+            "en": "He refused"
           }
         },
         {
@@ -151,7 +174,8 @@
           "label": {
             "de": "Er hat sich nicht innert 30 Tagen gemeldet",
             "fr": "Il ne s'est pas manifesté dans les 30 jours",
-            "it": "Non si è fatto vivo entro 30 giorni"
+            "it": "Non si è fatto vivo entro 30 giorni",
+            "en": "He did not respond within 30 days"
           }
         },
         {
@@ -159,7 +183,8 @@
           "label": {
             "de": "Ich weiss es noch nicht oder habe noch kein Begehren gestellt",
             "fr": "Je ne sais pas encore ou je n'ai pas encore fait de demande",
-            "it": "Non lo so ancora o non ho ancora presentato una richiesta"
+            "it": "Non lo so ancora o non ho ancora presentato una richiesta",
+            "en": "I don't know yet, or I haven't made a request yet"
           }
         }
       ]
@@ -178,7 +203,8 @@
       "text": {
         "de": "So gehen Sie vor: Schreiben Sie dem Vermieter einen Brief und verlangen Sie darin die Senkung Ihres Mietzinses. Das Gesuch geht zuerst an den Vermieter, nicht an die Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und den Termin, ab dem die tiefere Miete gelten soll. Bewahren Sie eine Kopie und den Versandnachweis auf.",
         "fr": "Comment procéder : écrivez une lettre au bailleur et demandez-y la diminution de votre loyer. La demande va d'abord au bailleur, pas à l'autorité de conciliation. Indiquez le motif, par exemple la baisse du taux hypothécaire de référence, et le terme à partir duquel le loyer plus bas doit s'appliquer. Conservez une copie et la preuve d'envoi.",
-        "it": "Come procedere: scriva una lettera al locatore e chieda in essa la riduzione della Sua pigione. La richiesta va prima al locatore, non all'autorità di conciliazione. Indichi il motivo, per esempio il tasso d'interesse di riferimento sceso, e la scadenza a partire dalla quale dovrebbe valere la pigione più bassa. Conservi una copia e la prova di spedizione."
+        "it": "Come procedere: scriva una lettera al locatore e chieda in essa la riduzione della Sua pigione. La richiesta va prima al locatore, non all'autorità di conciliazione. Indichi il motivo, per esempio il tasso d'interesse di riferimento sceso, e la scadenza a partire dalla quale dovrebbe valere la pigione più bassa. Conservi una copia e la prova di spedizione.",
+        "en": "Here is how to proceed: write the landlord a letter and ask for your rent to be reduced. The request goes to the landlord first, not to the conciliation authority. State the reason, for example the fall in the reference interest rate, and the date from which the lower rent should apply. Keep a copy and proof of postage."
       },
       "sources": [
         "or-270a",
@@ -191,7 +217,8 @@
       "text": {
         "de": "Die Senkung gilt erst ab dem nächsten Termin, auf den Sie den Mietvertrag kündigen könnten. Ihr Brief muss beim Vermieter deshalb eintreffen, bevor die Kündigungsfrist für diesen Termin beginnt. Beträgt Ihre Kündigungsfrist zum Beispiel drei Monate und ist der 30. September ein Kündigungstermin, muss der Brief spätestens Ende Juni beim Vermieter sein. Trifft er später ein, gilt die Senkung erst auf den folgenden Termin. Für vergangene Monate erhalten Sie kein Geld zurück, auch wenn der Referenzzinssatz schon länger gesunken ist. Warten Sie deshalb nicht.",
         "fr": "La diminution ne vaut qu'à partir du prochain terme pour lequel vous pourriez résilier le bail. Votre lettre doit donc parvenir au bailleur avant le début du délai de congé pour ce terme. Si votre délai de congé est par exemple de trois mois et que le 30 septembre est un terme de congé, la lettre doit être chez le bailleur au plus tard fin juin. Si elle arrive plus tard, la diminution ne vaut que pour le terme suivant. Pour les mois passés, vous ne récupérez pas d'argent, même si le taux de référence a baissé depuis longtemps. N'attendez donc pas.",
-        "it": "La riduzione vale solo a partire dalla prossima scadenza alla quale potrebbe disdire il contratto di locazione. La Sua lettera deve quindi pervenire al locatore prima che inizi il termine di preavviso per quella scadenza. Se per esempio il Suo termine di preavviso è di tre mesi e il 30 settembre è una scadenza di disdetta, la lettera deve essere presso il locatore al più tardi entro fine giugno. Se arriva più tardi, la riduzione vale solo per la scadenza successiva. Per i mesi passati non ottiene alcun rimborso, anche se il tasso d'interesse di riferimento è sceso da più tempo. Non aspetti quindi."
+        "it": "La riduzione vale solo a partire dalla prossima scadenza alla quale potrebbe disdire il contratto di locazione. La Sua lettera deve quindi pervenire al locatore prima che inizi il termine di preavviso per quella scadenza. Se per esempio il Suo termine di preavviso è di tre mesi e il 30 settembre è una scadenza di disdetta, la lettera deve essere presso il locatore al più tardi entro fine giugno. Se arriva più tardi, la riduzione vale solo per la scadenza successiva. Per i mesi passati non ottiene alcun rimborso, anche se il tasso d'interesse di riferimento è sceso da più tempo. Non aspetti quindi.",
+        "en": "The reduction only takes effect from the next date on which you could give notice on the lease. Your letter must therefore reach the landlord before the notice period for that date begins. For example, if your notice period is three months and 30 September is a termination date, the letter must reach the landlord by the end of June at the latest. If it arrives later, the reduction only takes effect on the following date. You do not get money back for past months, even if the reference interest rate has been lower for some time. So do not wait."
       },
       "sources": [
         "or-270a",
@@ -210,7 +237,8 @@
       "text": {
         "de": "Das Gesuch an den Vermieter ist Pflicht. Gehen Sie ohne dieses Gesuch direkt zur Schlichtungsbehörde, tritt sie in der Regel nicht darauf ein. Eine Ausnahme gilt, wenn der Vermieter schon klar erklärt hat, er werde den Mietzins nicht senken. Ein allgemeiner Streit mit dem Vermieter genügt dafür nicht. Im Zweifel schreiben Sie ihm zuerst.",
         "fr": "La demande adressée au bailleur est obligatoire. Si vous allez directement à l'autorité de conciliation sans cette demande, elle n'entre en général pas en matière. Une exception vaut lorsque le bailleur a déjà clairement déclaré qu'il ne diminuerait pas le loyer. Un désaccord général avec le bailleur ne suffit pas pour cela. En cas de doute, écrivez-lui d'abord.",
-        "it": "La richiesta al locatore è obbligatoria. Se si rivolge direttamente all'autorità di conciliazione senza questa richiesta, essa di regola non entra nel merito. Un'eccezione vale se il locatore ha già dichiarato chiaramente che non ridurrà la pigione. Un contrasto generico con il locatore non basta a questo scopo. Nel dubbio, gli scriva prima."
+        "it": "La richiesta al locatore è obbligatoria. Se si rivolge direttamente all'autorità di conciliazione senza questa richiesta, essa di regola non entra nel merito. Un'eccezione vale se il locatore ha già dichiarato chiaramente che non ridurrà la pigione. Un contrasto generico con il locatore non basta a questo scopo. Nel dubbio, gli scriva prima.",
+        "en": "The request to the landlord is compulsory. If you go straight to the conciliation authority without making this request, it will generally not deal with your case. An exception applies if the landlord has already clearly stated that he will not reduce the rent. A general dispute with the landlord is not enough for this. When in doubt, write to him first."
       },
       "sources": [
         "bge-132-iii-702"
@@ -222,7 +250,8 @@
       "text": {
         "de": "Der Vermieter muss innert 30 Tagen nach Ihrem schriftlichen Begehren Stellung nehmen. Lehnt er ganz oder teilweise ab, oder antwortet er innert dieser 30 Tage gar nicht, können Sie danach innert weiterer 30 Tage die Schlichtungsbehörde für Mietsachen anrufen. Warten Sie nicht zu lange: Notieren Sie sich das Datum Ihres Begehrens und rechnen Sie die beiden Fristen von je 30 Tagen nach.",
         "fr": "Le bailleur doit prendre position dans les 30 jours qui suivent votre demande écrite. S'il refuse en tout ou en partie, ou s'il ne répond pas du tout dans ces 30 jours, vous pouvez ensuite saisir l'autorité de conciliation en matière de baux dans un délai supplémentaire de 30 jours. N'attendez pas trop longtemps : notez la date de votre demande et calculez les deux délais de 30 jours chacun.",
-        "it": "Il locatore deve pronunciarsi entro 30 giorni dalla Sua richiesta scritta. Se rifiuta, del tutto o in parte, o se non risponde affatto entro questi 30 giorni, Lei può poi, entro altri 30 giorni, adire l'autorità di conciliazione in materia di locazione. Non aspetti troppo a lungo: annoti la data della Sua richiesta e calcoli i due termini di 30 giorni ciascuno."
+        "it": "Il locatore deve pronunciarsi entro 30 giorni dalla Sua richiesta scritta. Se rifiuta, del tutto o in parte, o se non risponde affatto entro questi 30 giorni, Lei può poi, entro altri 30 giorni, adire l'autorità di conciliazione in materia di locazione. Non aspetti troppo a lungo: annoti la data della Sua richiesta e calcoli i due termini di 30 giorni ciascuno.",
+        "en": "The landlord must respond within 30 days of your written request. If he refuses in full or in part, or does not respond at all within these 30 days, you can then approach the conciliation authority for tenancy matters within a further 30 days. Do not wait too long: note the date of your request and calculate both 30-day periods."
       },
       "sources": [
         "or-270a"
@@ -240,7 +269,8 @@
       "text": {
         "de": "Hat der Vermieter zugestimmt, lassen Sie sich die neue Miete und das Datum schriftlich bestätigen. Prüfen Sie, ob die Senkung der Änderung des Referenzzinssatzes entspricht. Bietet er weniger an, als Sie verlangt haben, gilt das als teilweise Ablehnung: Sie können dann innert 30 Tagen die Schlichtungsbehörde anrufen. Nehmen Sie eine zu kleine Senkung bloss stillschweigend hin, verzichten Sie damit nicht auf den Rest. Unterschreiben Sie aber eine Vereinbarung über die neue Miete, sind Sie daran in der Regel gebunden.",
         "fr": "Si le bailleur a accepté, faites-vous confirmer par écrit le nouveau loyer et la date. Vérifiez si la diminution correspond à la variation du taux de référence. S'il propose moins que ce que vous avez demandé, cela vaut comme refus partiel : vous disposez alors de 30 jours pour saisir l'autorité de conciliation. Si vous acceptez tacitement une diminution trop faible, vous ne renoncez pas pour autant au reste. Mais si vous signez un accord sur le nouveau loyer, cela vous engage en règle générale.",
-        "it": "Se il locatore ha acconsentito, si faccia confermare per scritto la nuova pigione e la data. Verifichi se la riduzione corrisponde alla variazione del tasso d'interesse di riferimento. Se offre meno di quanto Lei ha chiesto, questo vale come rifiuto parziale: Lei può allora, entro 30 giorni, adire l'autorità di conciliazione. Se accetta tacitamente una riduzione troppo piccola, non rinuncia per questo al resto. Se però firma un accordo sulla nuova pigione, ne è di regola vincolato."
+        "it": "Se il locatore ha acconsentito, si faccia confermare per scritto la nuova pigione e la data. Verifichi se la riduzione corrisponde alla variazione del tasso d'interesse di riferimento. Se offre meno di quanto Lei ha chiesto, questo vale come rifiuto parziale: Lei può allora, entro 30 giorni, adire l'autorità di conciliazione. Se accetta tacitamente una riduzione troppo piccola, non rinuncia per questo al resto. Se però firma un accordo sulla nuova pigione, ne è di regola vincolato.",
+        "en": "If the landlord has agreed, get the new rent and the date confirmed in writing. Check that the reduction matches the change in the reference interest rate. If he offers less than you asked for, this counts as a partial refusal: you can then approach the conciliation authority within 30 days. If you simply accept too small a reduction without comment, you do not thereby give up the rest. But if you sign an agreement on the new rent, you are generally bound by it."
       },
       "sources": [
         "or-270a",
@@ -259,7 +289,8 @@
       "text": {
         "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Massgebend ist, welcher Satz Ihrer heutigen Miete zugrunde liegt. Das steht meist im Mietvertrag oder in der letzten Mitteilung über eine Mietzinsänderung. Nur was sich seither verändert hat, zählt. Liegt der Satz unter 5 Prozent, wie seit vielen Jahren, entspricht jeder Viertelprozentpunkt weniger einer Senkung um knapp 3 Prozent der Nettomiete. Ist der Satz um einen halben Prozentpunkt gesunken, sind es also rund 5,7 Prozent.",
         "fr": "Le taux hypothécaire de référence est une valeur moyenne officielle des taux hypothécaires en Suisse. La Confédération le publie chaque trimestre. Ce qui compte, c'est le taux sur lequel se fonde votre loyer actuel. Cela figure en général dans le bail ou dans le dernier avis de modification de loyer. Seul ce qui a changé depuis lors compte. Si le taux est inférieur à 5 pour cent, comme depuis de nombreuses années, chaque quart de point de moins correspond à une diminution d'environ 3 pour cent du loyer net. Si le taux a baissé d'un demi-point, cela représente donc environ 5,7 pour cent.",
-        "it": "Il tasso d'interesse di riferimento ipotecario è un valore medio ufficiale dei tassi ipotecari in Svizzera. La Confederazione lo pubblica ogni trimestre. Determinante è quale tasso sta alla base della Sua pigione attuale. Ciò risulta di solito dal contratto di locazione o dall'ultima notifica di una modifica della pigione. Conta solo ciò che è cambiato da allora. Se il tasso è inferiore al 5 per cento, come da molti anni, ogni quarto di punto percentuale in meno corrisponde a una riduzione di poco meno del 3 per cento della pigione netta. Se il tasso è sceso di mezzo punto percentuale, si tratta quindi di circa il 5,7 per cento."
+        "it": "Il tasso d'interesse di riferimento ipotecario è un valore medio ufficiale dei tassi ipotecari in Svizzera. La Confederazione lo pubblica ogni trimestre. Determinante è quale tasso sta alla base della Sua pigione attuale. Ciò risulta di solito dal contratto di locazione o dall'ultima notifica di una modifica della pigione. Conta solo ciò che è cambiato da allora. Se il tasso è inferiore al 5 per cento, come da molti anni, ogni quarto di punto percentuale in meno corrisponde a una riduzione di poco meno del 3 per cento della pigione netta. Se il tasso è sceso di mezzo punto percentuale, si tratta quindi di circa il 5,7 per cento.",
+        "en": "The mortgage reference interest rate is an official average of mortgage interest rates in Switzerland. The Confederation publishes it every quarter. What matters is the rate underlying your current rent. This is usually stated in the lease or in the last notice of a rent change. Only what has changed since then counts. If the rate is below 5 percent, as it has been for many years, each quarter-point drop corresponds to a reduction of just under 3 percent of the net rent. If the rate has fallen by half a percentage point, this comes to around 5.7 percent."
       },
       "sources": [
         "vmwg-12a",
@@ -279,7 +310,8 @@
       "text": {
         "de": "Auch andere Kostensenkungen des Vermieters können eine Herabsetzung rechtfertigen, wenn sie dazu führen, dass er einen übersetzten, das heisst missbräuchlich hohen, Ertrag aus der Wohnung erzielt. Ein Beispiel ist eine deutlich günstigere Refinanzierung der Liegenschaft. Nennen Sie dem Vermieter im Begehren, worauf Sie sich stützen.",
         "fr": "D'autres baisses de coûts du bailleur peuvent aussi justifier une diminution, si elles font qu'il obtient un rendement excessif, c'est-à-dire abusivement élevé, du logement. Un exemple est un refinancement nettement plus avantageux de l'immeuble. Indiquez au bailleur, dans votre demande, sur quoi vous vous fondez.",
-        "it": "Anche altre diminuzioni dei costi del locatore possono giustificare una riduzione, se fanno sì che egli ottenga un reddito sproporzionato, cioè abusivamente elevato, dall'appartamento. Un esempio è un rifinanziamento nettamente più conveniente dell'immobile. Indichi al locatore, nella Sua richiesta, su cosa si basa."
+        "it": "Anche altre diminuzioni dei costi del locatore possono giustificare una riduzione, se fanno sì che egli ottenga un reddito sproporzionato, cioè abusivamente elevato, dall'appartamento. Un esempio è un rifinanziamento nettamente più conveniente dell'immobile. Indichi al locatore, nella Sua richiesta, su cosa si basa.",
+        "en": "Other falls in the landlord's costs can also justify a reduction if they mean he is earning an excessive, that is abusive, return from the flat. One example is significantly cheaper refinancing of the property. Tell the landlord in your request what you are relying on."
       },
       "sources": [
         "or-270a"
@@ -291,7 +323,8 @@
       "text": {
         "de": "Der Vermieter muss nicht in jedem Fall voll senken. Er darf die Einsparung mit Kosten verrechnen, die seit der letzten Festlegung Ihrer Miete gestiegen sind. Dazu gehören die allgemeine Teuerung, von der er 40 Prozent weitergeben darf, und höhere Unterhalts- und Betriebskosten. Er kann auch geltend machen, Ihre Miete bringe ihm trotz der Änderung keinen übersetzten Ertrag oder sie liege im Rahmen der Mieten im Quartier. Das muss er dann belegen. Verlangen Sie in diesem Fall eine nachvollziehbare Berechnung.",
         "fr": "Le bailleur n'est pas tenu de diminuer intégralement dans tous les cas. Il peut compenser l'économie avec des coûts qui ont augmenté depuis la dernière fixation de votre loyer. En font partie le renchérissement général, dont il peut répercuter 40 pour cent, et des frais d'entretien et d'exploitation plus élevés. Il peut aussi faire valoir que votre loyer ne lui procure malgré la variation aucun rendement excessif ou qu'il se situe dans le cadre des loyers du quartier. Il doit alors le prouver. Exigez dans ce cas un calcul compréhensible.",
-        "it": "Il locatore non deve ridurre integralmente in ogni caso. Può compensare il risparmio con costi aumentati dall'ultima fissazione della Sua pigione. Ne fanno parte il rincaro generale, di cui può trasmettere il 40 per cento, e maggiori costi di manutenzione e di esercizio. Può anche far valere che la Sua pigione, nonostante la modifica, non gli procura un reddito sproporzionato o che rientra nell'ambito delle pigioni del quartiere. Questo deve poi comprovarlo. In tal caso, esiga un calcolo comprensibile."
+        "it": "Il locatore non deve ridurre integralmente in ogni caso. Può compensare il risparmio con costi aumentati dall'ultima fissazione della Sua pigione. Ne fanno parte il rincaro generale, di cui può trasmettere il 40 per cento, e maggiori costi di manutenzione e di esercizio. Può anche far valere che la Sua pigione, nonostante la modifica, non gli procura un reddito sproporzionato o che rientra nell'ambito delle pigioni del quartiere. Questo deve poi comprovarlo. In tal caso, esiga un calcolo comprensibile.",
+        "en": "The landlord does not have to reduce the rent in full in every case. He may offset the saving against costs that have risen since your rent was last set. These include general inflation, of which he may pass on 40 percent, and higher maintenance and operating costs. He can also argue that your rent, despite the change, still does not bring him an excessive return, or that it lies within the range of rents in the neighbourhood. He must then prove this. In that case, ask for a comprehensible calculation."
       },
       "sources": [
         "or-269a",
@@ -306,7 +339,8 @@
       "text": {
         "de": "Steht in Ihrem Vertrag, der Mietzins werde nicht an den Referenzzinssatz angepasst, gilt diese Klausel nicht. Der Schutz vor missbräuchlichen Mietzinsen lässt sich vertraglich nicht wegbedingen. Sie können die Senkung trotzdem verlangen.",
         "fr": "Si votre contrat indique que le loyer ne sera pas adapté au taux de référence, cette clause ne vaut pas. La protection contre les loyers abusifs ne peut pas être supprimée par contrat. Vous pouvez malgré tout demander la diminution.",
-        "it": "Se nel Suo contratto è scritto che la pigione non sarà adeguata al tasso d'interesse di riferimento, questa clausola non vale. La protezione contro le pigioni abusive non può essere esclusa per contratto. Può comunque chiedere la riduzione."
+        "it": "Se nel Suo contratto è scritto che la pigione non sarà adeguata al tasso d'interesse di riferimento, questa clausola non vale. La protezione contro le pigioni abusive non può essere esclusa per contratto. Può comunque chiedere la riduzione.",
+        "en": "If your lease states that the rent will not be adjusted to the reference interest rate, this clause does not apply. Protection against abusive rents cannot be excluded by contract. You can still ask for the reduction."
       },
       "sources": [
         "bge-133-iii-61"
@@ -325,7 +359,8 @@
       "text": {
         "de": "Haben mehrere Personen den Mietvertrag unterschrieben, stellen Sie das Gesuch am besten gemeinsam. Will jemand nicht mitmachen, können Sie auch allein zur Schlichtungsbehörde gehen. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei.",
         "fr": "Si plusieurs personnes ont signé le bail, le mieux est de déposer la demande ensemble. Si l'une d'elles ne veut pas participer, vous pouvez tout de même saisir l'autorité de conciliation sans elle. Indiquez alors cette personne dans la requête, à côté du bailleur, comme partie adverse.",
-        "it": "Se più persone hanno firmato il contratto di locazione, è meglio presentare la richiesta insieme. Se qualcuno non vuole partecipare, può rivolgersi da solo all'autorità di conciliazione. Indichi allora questa persona nell'istanza, accanto al locatore, come controparte."
+        "it": "Se più persone hanno firmato il contratto di locazione, è meglio presentare la richiesta insieme. Se qualcuno non vuole partecipare, può rivolgersi da solo all'autorità di conciliazione. Indichi allora questa persona nell'istanza, accanto al locatore, come controparte.",
+        "en": "If several people signed the lease, it is best to make the request together. If someone does not want to join in, you can still go to the conciliation authority alone. In that case, name that person in the application as an opposing party alongside the landlord."
       },
       "sources": [
         "bge-146-iii-346"
@@ -344,7 +379,8 @@
       "text": {
         "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg.",
         "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif.",
-        "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia o da una consulente. Se non compare, la Sua istanza è considerata ritirata. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo."
+        "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia o da una consulente. Se non compare, la Sua istanza è considerata ritirata. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo.",
+        "en": "Attend the conciliation hearing in person. You may bring someone you trust or an adviser. If you do not appear, your application is deemed withdrawn. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence."
       },
       "sources": [
         "zpo-204",
@@ -357,7 +393,8 @@
       "text": {
         "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie eine Senkung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während des Verfahrens oder innert drei Jahren danach, wenn der Vermieter im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen.",
         "fr": "Le bailleur ne peut pas vous résilier le bail parce que vous demandez une diminution. Un tel congé est contestable. Est aussi contestable un congé donné pendant la procédure ou dans les trois ans qui suivent, si le bailleur y a succombé dans une large mesure, a cédé ou s'est entendu avec vous. Cette protection ne s'applique pas à tous les congés, par exemple pas en cas de retard de paiement. Contre un congé, vous devez déposer votre propre contestation au plus tard 30 jours après l'avoir reçu.",
-        "it": "Il locatore non può disdirLe il contratto perché Lei chiede una riduzione. Una simile disdetta è contestabile. È contestabile anche una disdetta data durante la procedura o entro tre anni dopo, se il locatore vi è risultato ampiamente soccombente, ha ceduto o si è accordato con Lei. Questa protezione non vale per tutte le disdette, per esempio non per la mora nel pagamento. Contro una disdetta deve presentare una propria contestazione entro 30 giorni dalla ricezione."
+        "it": "Il locatore non può disdirLe il contratto perché Lei chiede una riduzione. Una simile disdetta è contestabile. È contestabile anche una disdetta data durante la procedura o entro tre anni dopo, se il locatore vi è risultato ampiamente soccombente, ha ceduto o si è accordato con Lei. Questa protezione non vale per tutte le disdette, per esempio non per la mora nel pagamento. Contro una disdetta deve presentare una propria contestazione entro 30 giorni dalla ricezione.",
+        "en": "The landlord may not give you notice of termination because you ask for a reduction. Such a notice can be challenged. A notice given during the proceedings, or within three years afterwards, can also be challenged if the landlord was largely unsuccessful in the proceedings, gave way, or reached a settlement with you. This protection does not apply to every notice of termination, for example not for arrears. Against a notice of termination you must file your own challenge within 30 days of receiving it."
       },
       "sources": [
         "or-271a",
@@ -370,7 +407,8 @@
       "text": {
         "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen.",
         "fr": "La procédure de conciliation en matière de baux est gratuite : aucun frais judiciaire n'est perçu. Mais il n'y a pas non plus d'indemnité pour les frais d'avocat. Si vous faites appel à une avocate ou un avocat, vous supportez en principe vous-même ces frais dans cette procédure. Si une procédure judiciaire suit, des frais judiciaires et une indemnité à la partie adverse peuvent être dus. Si vous manquez de moyens et que votre position n'est pas dénuée de chances de succès, vous pouvez demander l'assistance judiciaire.",
-        "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio."
+        "it": "La procedura di conciliazione in materia di locazione è gratuita: non vengono riscosse spese giudiziarie. Non c'è però nemmeno un'indennità per le spese legali. Se incarica un'avvocata o un avvocato, in questa procedura ne sopporta di norma i costi Lei stesso. Se in seguito si arriva a un procedimento giudiziario, possono sorgere spese giudiziarie e un'indennità a favore della controparte. Se non dispone dei mezzi necessari e la Sua posizione non appare priva di probabilità di successo, può chiedere il gratuito patrocinio.",
+        "en": "Conciliation proceedings in tenancy matters are free of charge: no court costs are charged. However, there is also no compensation for lawyers' costs. If you instruct a lawyer, you generally bear these costs yourself in these proceedings. If court proceedings follow afterwards, court costs and compensation to the other side may be payable. If you lack the means and your position is not hopeless, you can apply for legal aid."
       },
       "sources": [
         "zpo-113",
@@ -390,7 +428,8 @@
       "text": {
         "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Macht die Behörde keinen Vorschlag, erhalten Sie die Klagebewilligung. Wollen Sie an der Senkung festhalten, müssen Sie innert 30 Tagen beim Gericht klagen. Lassen Sie sich spätestens jetzt beraten.",
         "fr": "Si vous ne trouvez pas d'accord à l'audience de conciliation, deux voies s'ouvrent. L'autorité peut faire une proposition de décision. Elle devient contraignante si personne ne la refuse dans les 20 jours qui suivent sa notification écrite. Qui la refuse reçoit l'autorisation de procéder et doit porter action au tribunal dans les 30 jours, sinon la proposition est réputée acceptée. Si l'autorité ne fait pas de proposition, vous recevez l'autorisation de procéder. Si vous voulez maintenir la diminution, vous devez agir en justice dans les 30 jours. Faites-vous conseiller au plus tard à ce stade.",
-        "it": "Se all'udienza di conciliazione non si trova un accordo, ci sono due vie. L'autorità può sottoporre alle parti una proposta di decisione. Essa diventa vincolante se nessuno la rifiuta entro 20 giorni dalla comunicazione scritta. Chi la rifiuta riceve l'autorizzazione ad agire e deve promuovere causa al tribunale entro 30 giorni, altrimenti la proposta è considerata accettata. Se l'autorità non fa alcuna proposta, è Lei a ricevere l'autorizzazione ad agire. Se vuole mantenere la riduzione, deve promuovere causa al tribunale entro 30 giorni. Si faccia consigliare al più tardi a questo punto."
+        "it": "Se all'udienza di conciliazione non si trova un accordo, ci sono due vie. L'autorità può sottoporre alle parti una proposta di decisione. Essa diventa vincolante se nessuno la rifiuta entro 20 giorni dalla comunicazione scritta. Chi la rifiuta riceve l'autorizzazione ad agire e deve promuovere causa al tribunale entro 30 giorni, altrimenti la proposta è considerata accettata. Se l'autorità non fa alcuna proposta, è Lei a ricevere l'autorizzazione ad agire. Se vuole mantenere la riduzione, deve promuovere causa al tribunale entro 30 giorni. Si faccia consigliare al più tardi a questo punto.",
+        "en": "If you do not reach agreement at the conciliation hearing, there are two paths. The authority may submit a proposed judgment to the parties. It becomes binding if no one rejects it within 20 days of written notification. Anyone who rejects it receives an authorisation to proceed and must bring an action in court within 30 days, otherwise the proposal is deemed accepted. If the authority does not make a proposal, you receive the authorisation to proceed. If you want to maintain the reduction, you must bring an action in court within 30 days. Get advice at the latest at this point."
       },
       "sources": [
         "zpo-209",
@@ -404,7 +443,8 @@
       "text": {
         "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der Senkung nicht selbst berechnen können, wenn der Vermieter Kostensteigerungen oder eine Ertragsrechnung entgegenhält, wenn Ihnen im Zusammenhang mit dem Gesuch gekündigt wird, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, oder wenn eine der 30-Tage-Fristen in wenigen Tagen abläuft.",
         "fr": "Demandez une consultation personnelle si vous ne pouvez pas calculer vous-même le montant exact de la diminution, si le bailleur oppose des hausses de coûts ou un calcul de rendement, si un congé vous est donné en lien avec la demande, si vous avez reçu une proposition de décision ou une autorisation de procéder, ou si l'un des délais de 30 jours expire dans quelques jours.",
-        "it": "Chieda una consulenza personale se non riesce a calcolare Lei stesso l'esatta entità della riduzione, se il locatore oppone costi aumentati o un calcolo del reddito, se Le viene disdetto il contratto in relazione alla richiesta, se ha ricevuto una proposta di decisione o un'autorizzazione ad agire, oppure se uno dei termini di 30 giorni scade tra pochi giorni."
+        "it": "Chieda una consulenza personale se non riesce a calcolare Lei stesso l'esatta entità della riduzione, se il locatore oppone costi aumentati o un calcolo del reddito, se Le viene disdetto il contratto in relazione alla richiesta, se ha ricevuto una proposta di decisione o un'autorizzazione ad agire, oppure se uno dei termini di 30 giorni scade tra pochi giorni.",
+        "en": "Get personal advice if you cannot work out the exact size of the reduction yourself, if the landlord raises increased costs or a return calculation against you, if you are given notice of termination in connection with your request, if you have received a proposed judgment or an authorisation to proceed, or if one of the 30-day deadlines expires in a few days."
       }
     },
     {
@@ -413,7 +453,8 @@
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde für Mietsachen informiert über das Verfahren. Mieterinnen- und Mieterverbände beraten ihre Mitglieder und helfen oft auch bei der Berechnung. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à coût modique : l'autorité de conciliation en matière de baux renseigne sur la procédure. Les associations de locataires conseillent leurs membres et aident souvent aussi au calcul. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite.",
-        "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri e aiutano spesso anche nel calcolo. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita."
+        "it": "Aiuto gratuito o a basso costo: l'autorità di conciliazione in materia di locazione informa sulla procedura. Le associazioni degli inquilini consigliano i propri membri e aiutano spesso anche nel calcolo. Molti Cantoni e ordini degli avvocati offrono una consulenza giuridica gratuita.",
+        "en": "Free or low-cost help: the conciliation authority for tenancy matters provides information about the procedure. Tenants' associations advise their members and often help with the calculation too. Many cantons and bar associations offer free legal information."
       }
     }
   ],
@@ -585,7 +626,8 @@
       "label": {
         "de": "Bundesamt für Wohnungswesen: Referenzzinssatz",
         "fr": "Office fédéral du logement : taux hypothécaire de référence",
-        "it": "Ufficio federale delle abitazioni: tasso d'interesse di riferimento"
+        "it": "Ufficio federale delle abitazioni: tasso d'interesse di riferimento",
+        "en": "Federal Office for Housing: Reference interest rate"
       },
       "url": "https://www.bwo.admin.ch/de/referenzzinssatz"
     },
@@ -593,7 +635,8 @@
       "label": {
         "de": "ch.ch: Wohnen, Mietzins und Mängel",
         "fr": "ch.ch : logement, loyer et défauts",
-        "it": "ch.ch: Abitare, pigione e difetti"
+        "it": "ch.ch: Abitare, pigione e difetti",
+        "en": "ch.ch: Housing, rent and defects"
       },
       "url": "https://www.ch.ch/de/wohnen/miete/larm--mangel--mietzins/"
     }

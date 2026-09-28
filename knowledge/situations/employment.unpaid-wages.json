@@ -8,12 +8,14 @@
   "title": {
     "de": "Mein Arbeitgeber zahlt den Lohn nicht",
     "fr": "Mon employeur ne paie pas mon salaire",
-    "it": "Il mio datore di lavoro non paga il salario"
+    "it": "Il mio datore di lavoro non paga il salario",
+    "en": "My employer is not paying my salary"
   },
   "summary": {
     "de": "Ihr Lohn ist grundsätzlich am Ende jedes Monats fällig, bei Beendigung des Arbeitsverhältnisses sofort. Fordern Sie schriftlich zur Zahlung auf. Bei Zahlungsunfähigkeit des Arbeitgebers können Sie fristlos kündigen und allenfalls Insolvenzentschädigung beziehen. Das Schlichtungsverfahren ist bis 30 000 Franken kostenlos.",
     "fr": "En principe, votre salaire est exigible à la fin de chaque mois, et immédiatement à la fin des rapports de travail. Mettez votre employeur en demeure de payer par écrit. En cas d’insolvabilité de l’employeur, vous pouvez résilier le contrat avec effet immédiat et, le cas échéant, percevoir une indemnité en cas d’insolvabilité. La procédure de conciliation est gratuite jusqu’à 30 000 francs.",
-    "it": "Il suo salario è di norma esigibile alla fine di ogni mese, e subito in caso di fine del rapporto di lavoro. Diffidi per scritto il suo datore di lavoro al pagamento. In caso d’insolvenza del datore di lavoro, lei può risolvere immediatamente il rapporto di lavoro ed eventualmente percepire l’indennità per insolvenza. La procedura di conciliazione è gratuita fino a 30 000 franchi."
+    "it": "Il suo salario è di norma esigibile alla fine di ogni mese, e subito in caso di fine del rapporto di lavoro. Diffidi per scritto il suo datore di lavoro al pagamento. In caso d’insolvenza del datore di lavoro, lei può risolvere immediatamente il rapporto di lavoro ed eventualmente percepire l’indennità per insolvenza. La procedura di conciliazione è gratuita fino a 30 000 franchi.",
+    "en": "In principle, your salary is due at the end of each month, and immediately if the employment relationship ends. Demand payment in writing. If your employer becomes insolvent, you can terminate the employment relationship with immediate effect and may be able to claim insolvency compensation. Conciliation proceedings are free of charge up to CHF 30,000."
   },
   "examples": {
     "de": [
@@ -39,18 +41,28 @@
       "Il mio capo non paga il salario, cosa posso fare?",
       "Per quanto tempo posso ancora reclamare il salario arretrato?",
       "Il mio datore di lavoro sta per fallire, riceverò comunque il mio salario?"
+    ],
+    "en": [
+      "My employer is not paying my salary, what can I do?",
+      "I haven't been paid for two months",
+      "Can I quit if my boss doesn't pay me?",
+      "My employer never pays on time, what can I do?",
+      "How long can I still claim unpaid salary?",
+      "My employer is facing bankruptcy, will I still get my salary?"
     ]
   },
   "scope": {
     "covers": {
       "de": "Nicht oder verspätet ausbezahlter Lohn bei privatrechtlichen Arbeitsverhältnissen in der Schweiz, einschliesslich Zahlungsunfähigkeit des Arbeitgebers.",
       "fr": "Le salaire non versé ou versé en retard dans les rapports de travail de droit privé en Suisse, y compris en cas d’insolvabilité de l’employeur.",
-      "it": "Il salario non versato o versato in ritardo nei rapporti di lavoro di diritto privato in Svizzera, compresa l’insolvenza del datore di lavoro."
+      "it": "Il salario non versato o versato in ritardo nei rapporti di lavoro di diritto privato in Svizzera, compresa l’insolvenza del datore di lavoro.",
+      "en": "Salary that is unpaid or paid late under private-law employment relationships in Switzerland, including where the employer is insolvent."
     },
     "excludes": {
       "de": "Öffentlich-rechtliche Anstellungsverhältnisse, Streitigkeiten über die Lohnhöhe selbst (z. B. Diskriminierung) und bereits laufende Konkurs- oder Betreibungsverfahren, die eine eigene Fachberatung erfordern.",
       "fr": "Les rapports de travail de droit public, les litiges portant sur le montant du salaire lui-même (p. ex. discrimination) et les procédures de faillite ou de poursuite déjà en cours, qui nécessitent un conseil spécialisé propre.",
-      "it": "I rapporti d’impiego di diritto pubblico, le controversie sull’ammontare stesso del salario (ad es. discriminazione) e le procedure di fallimento o di esecuzione già in corso, che richiedono una consulenza specialistica propria."
+      "it": "I rapporti d’impiego di diritto pubblico, le controversie sull’ammontare stesso del salario (ad es. discriminazione) e le procedure di fallimento o di esecuzione già in corso, che richiedono una consulenza specialistica propria.",
+      "en": "Public-law employment relationships, disputes about the amount of salary itself (e.g. discrimination), and bankruptcy or debt enforcement proceedings that are already under way and require their own specialist advice."
     }
   },
   "facts": [
@@ -59,7 +71,8 @@
       "question": {
         "de": "Arbeiten Sie für einen privaten Arbeitgeber oder für den Staat?",
         "fr": "Travaillez-vous pour un employeur privé ou pour l’État ?",
-        "it": "Lavora per un datore di lavoro privato o per lo Stato?"
+        "it": "Lavora per un datore di lavoro privato o per lo Stato?",
+        "en": "Do you work for a private employer or for the state?"
       },
       "options": [
         {
@@ -67,7 +80,8 @@
           "label": {
             "de": "Privater Arbeitgeber (Firma, Verein, Privatperson)",
             "fr": "Employeur privé (entreprise, association, particulier)",
-            "it": "Datore di lavoro privato (azienda, associazione, privato)"
+            "it": "Datore di lavoro privato (azienda, associazione, privato)",
+            "en": "Private employer (company, association, private individual)"
           }
         },
         {
@@ -75,7 +89,8 @@
           "label": {
             "de": "Bund, Kanton, Gemeinde oder eine andere öffentliche Stelle",
             "fr": "Confédération, canton, commune ou autre entité publique",
-            "it": "Confederazione, Cantone, Comune o un altro ente pubblico"
+            "it": "Confederazione, Cantone, Comune o un altro ente pubblico",
+            "en": "The Confederation, a canton, a commune or another public body"
           }
         },
         {
@@ -83,7 +98,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -93,7 +109,8 @@
       "question": {
         "de": "Läuft Ihr Arbeitsverhältnis noch, oder ist es bereits beendet?",
         "fr": "Vos rapports de travail sont-ils encore en cours, ou déjà terminés ?",
-        "it": "Il suo rapporto di lavoro è ancora in corso, o è già terminato?"
+        "it": "Il suo rapporto di lavoro è ancora in corso, o è già terminato?",
+        "en": "Is your employment relationship still ongoing, or has it already ended?"
       },
       "options": [
         {
@@ -101,7 +118,8 @@
           "label": {
             "de": "Es läuft noch",
             "fr": "Ils sont encore en cours",
-            "it": "È ancora in corso"
+            "it": "È ancora in corso",
+            "en": "It is still ongoing"
           }
         },
         {
@@ -109,7 +127,8 @@
           "label": {
             "de": "Es ist beendet",
             "fr": "Ils sont terminés",
-            "it": "È terminato"
+            "it": "È terminato",
+            "en": "It has ended"
           }
         },
         {
@@ -117,7 +136,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -127,7 +147,8 @@
       "question": {
         "de": "Wie schätzen Sie die Lage Ihres Arbeitgebers ein?",
         "fr": "Comment évaluez-vous la situation de votre employeur ?",
-        "it": "Come valuta la situazione del suo datore di lavoro?"
+        "it": "Come valuta la situazione del suo datore di lavoro?",
+        "en": "How would you assess your employer's situation?"
       },
       "options": [
         {
@@ -135,7 +156,8 @@
           "label": {
             "de": "Er kann oder will offensichtlich nicht zahlen (Zahlungsunfähigkeit, Konkursandrohung)",
             "fr": "Il ne peut ou ne veut manifestement pas payer (insolvabilité, commination de faillite)",
-            "it": "Evidentemente non può o non vuole pagare (insolvenza, comminatoria di fallimento)"
+            "it": "Evidentemente non può o non vuole pagare (insolvenza, comminatoria di fallimento)",
+            "en": "They clearly cannot or will not pay (insolvency, notice of impending bankruptcy)"
           }
         },
         {
@@ -143,7 +165,8 @@
           "label": {
             "de": "Er zahlt einfach verspätet, ohne erkennbaren Grund",
             "fr": "Il paie simplement en retard, sans raison apparente",
-            "it": "Paga semplicemente in ritardo, senza un motivo riconoscibile"
+            "it": "Paga semplicemente in ritardo, senza un motivo riconoscibile",
+            "en": "They simply pay late, for no obvious reason"
           }
         },
         {
@@ -151,7 +174,8 @@
           "label": {
             "de": "Ich weiss es nicht",
             "fr": "Je ne sais pas",
-            "it": "Non lo so"
+            "it": "Non lo so",
+            "en": "I don't know"
           }
         }
       ]
@@ -161,7 +185,8 @@
       "question": {
         "de": "Haben Sie Ihren Arbeitgeber schon schriftlich zur Zahlung aufgefordert?",
         "fr": "Avez-vous déjà mis votre employeur en demeure de payer par écrit ?",
-        "it": "Ha già diffidato per scritto il suo datore di lavoro al pagamento?"
+        "it": "Ha già diffidato per scritto il suo datore di lavoro al pagamento?",
+        "en": "Have you already asked your employer in writing to pay?"
       },
       "options": [
         {
@@ -169,7 +194,8 @@
           "label": {
             "de": "Ja",
             "fr": "Oui",
-            "it": "Sì"
+            "it": "Sì",
+            "en": "Yes"
           }
         },
         {
@@ -177,7 +203,8 @@
           "label": {
             "de": "Nein, noch nicht",
             "fr": "Non, pas encore",
-            "it": "No, non ancora"
+            "it": "No, non ancora",
+            "en": "No, not yet"
           }
         },
         {
@@ -185,7 +212,8 @@
           "label": {
             "de": "Ich bin nicht sicher",
             "fr": "Je n’en ai pas la certitude",
-            "it": "Non ne sono sicuro"
+            "it": "Non ne sono sicuro",
+            "en": "I'm not sure"
           }
         }
       ]
@@ -198,7 +226,8 @@
       "text": {
         "de": "Arbeiten Sie für den Bund, einen Kanton, eine Gemeinde oder eine andere öffentliche Stelle, gilt meist öffentliches Personalrecht und nicht das Obligationenrecht. Diese Anleitung deckt das nicht ab. Wenden Sie sich an den Rechtsdienst Ihrer Verwaltung, an Ihren Personalverband oder an eine Beratungsstelle.",
         "fr": "Si vous travaillez pour la Confédération, un canton, une commune ou une autre entité publique, c’est généralement le droit public de la fonction publique qui s’applique, et non le Code des obligations. Ce guide ne couvre pas cette situation. Adressez-vous au service juridique de votre administration, à votre association du personnel ou à un service de consultation.",
-        "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, si applica di regola il diritto pubblico del personale e non il Codice delle obbligazioni. Questa guida non copre questo caso. Si rivolga al servizio giuridico della sua amministrazione, alla sua associazione del personale o a un servizio di consulenza."
+        "it": "Se lavora per la Confederazione, un Cantone, un Comune o un altro ente pubblico, si applica di regola il diritto pubblico del personale e non il Codice delle obbligazioni. Questa guida non copre questo caso. Si rivolga al servizio giuridico della sua amministrazione, alla sua associazione del personale o a un servizio di consulenza.",
+        "en": "If you work for the Confederation, a canton, a commune or another public body, public-service law usually applies, not the Code of Obligations. This guide does not cover that. Contact your administration's legal service, your staff association or an advice centre."
       },
       "when": {
         "employer_type": [
@@ -212,7 +241,8 @@
       "text": {
         "de": "Ihr Arbeitgeber muss Ihnen den Lohn zahlen, der vereinbart, üblich oder durch Normalarbeitsvertrag oder Gesamtarbeitsvertrag bestimmt ist.",
         "fr": "Votre employeur doit vous verser le salaire convenu, usuel, ou fixé par un contrat-type de travail ou une convention collective.",
-        "it": "Il suo datore di lavoro deve pagarle il salario convenuto, usuale, oppure determinato da un contratto normale di lavoro o da un contratto collettivo di lavoro."
+        "it": "Il suo datore di lavoro deve pagarle il salario convenuto, usuale, oppure determinato da un contratto normale di lavoro o da un contratto collettivo di lavoro.",
+        "en": "Your employer must pay you the salary that has been agreed, that is customary, or that is set by a standard employment contract or collective employment contract."
       },
       "sources": [
         "or-322"
@@ -224,7 +254,8 @@
       "text": {
         "de": "Ohne andere Abrede, Üblichkeit, Normalarbeitsvertrag oder Gesamtarbeitsvertrag ist der Lohn am Ende jedes Monats auszuzahlen.",
         "fr": "Sauf accord contraire, usage, contrat-type de travail ou convention collective, le salaire est payé à la fin de chaque mois.",
-        "it": "Senza altro accordo, usanza, contratto normale di lavoro o contratto collettivo di lavoro, il salario va pagato alla fine di ogni mese."
+        "it": "Senza altro accordo, usanza, contratto normale di lavoro o contratto collettivo di lavoro, il salario va pagato alla fine di ogni mese.",
+        "en": "Unless otherwise agreed, customary, or provided by a standard employment contract or collective employment contract, salary is payable at the end of each month."
       },
       "sources": [
         "or-323"
@@ -236,7 +267,8 @@
       "text": {
         "de": "Fordern Sie Ihren Arbeitgeber schriftlich und mit Datum zur Zahlung auf, mit einer klaren Frist (zum Beispiel zehn Tage). Bewahren Sie eine Kopie auf. Das schafft eine klare Grundlage für weitere Schritte.",
         "fr": "Mettez votre employeur en demeure de payer, par écrit et daté, en fixant un délai clair (par exemple dix jours). Conservez-en une copie. Cela crée une base claire pour la suite.",
-        "it": "Diffidi il suo datore di lavoro per scritto e con data al pagamento, fissando un termine chiaro (ad esempio dieci giorni). Conservi una copia. Questo crea una base chiara per gli ulteriori passi."
+        "it": "Diffidi il suo datore di lavoro per scritto e con data al pagamento, fissando un termine chiaro (ad esempio dieci giorni). Conservi una copia. Questo crea una base chiara per gli ulteriori passi.",
+        "en": "Demand payment from your employer in writing and with a date, setting a clear deadline (for example ten days). Keep a copy. This creates a clear basis for further steps."
       },
       "when": {
         "written_reminder_sent": [
@@ -251,7 +283,8 @@
       "text": {
         "de": "Ist das Arbeitsverhältnis bereits beendet, werden mit der Beendigung sämtliche Forderungen daraus sofort fällig, also der gesamte ausstehende Lohn auf einmal.",
         "fr": "Si les rapports de travail sont déjà terminés, toutes les créances qui en découlent deviennent immédiatement exigibles dès la fin des rapports, donc tout le salaire dû en une fois.",
-        "it": "Se il rapporto di lavoro è già terminato, con la sua fine tutti i crediti che ne derivano diventano immediatamente esigibili, quindi l’intero salario arretrato in una sola volta."
+        "it": "Se il rapporto di lavoro è già terminato, con la sua fine tutti i crediti che ne derivano diventano immediatamente esigibili, quindi l’intero salario arretrato in una sola volta.",
+        "en": "If the employment relationship has already ended, all claims arising from it fall due immediately on termination, meaning that all outstanding salary is due at once."
       },
       "when": {
         "employment_status": [
@@ -268,7 +301,8 @@
       "text": {
         "de": "Wird Ihr Arbeitgeber zahlungsunfähig, können Sie das Arbeitsverhältnis Ihrerseits fristlos auflösen, ausser Ihnen wird innert angemessener Frist für Ihre Lohnforderungen Sicherheit geleistet.",
         "fr": "Si votre employeur devient insolvable, vous pouvez de votre côté résilier le contrat avec effet immédiat, à moins que des sûretés ne vous soient fournies dans un délai convenable pour garantir vos créances de salaire.",
-        "it": "Se il suo datore di lavoro diventa insolvente, lei può da parte sua risolvere immediatamente il rapporto di lavoro, a meno che entro un termine adeguato non le vengano fornite garanzie per i suoi crediti salariali."
+        "it": "Se il suo datore di lavoro diventa insolvente, lei può da parte sua risolvere immediatamente il rapporto di lavoro, a meno che entro un termine adeguato non le vengano fornite garanzie per i suoi crediti salariali.",
+        "en": "If your employer becomes insolvent, you may for your part terminate the employment relationship with immediate effect, unless you are given security for your salary claims within a reasonable period."
       },
       "when": {
         "employer_situation": [
@@ -285,7 +319,8 @@
       "text": {
         "de": "Befindet sich Ihr Arbeitgeber im Konkurs, oder blieb eine Pfändung wegen Ihrer Lohnforderung erfolglos, kann Ihnen die Arbeitslosenversicherung eine Insolvenzentschädigung für höchstens die letzten vier Monate des Arbeitsverhältnisses auszahlen. Sie müssen Ihren Anspruch aber innert 60 Tagen nach der Veröffentlichung des Konkurses im Schweizerischen Handelsamtsblatt (oder nach dem Pfändungsvollzug) bei der zuständigen öffentlichen Kasse anmelden; danach erlischt der Anspruch.",
         "fr": "Si votre employeur est en faillite, ou si une saisie engagée pour votre créance de salaire est restée infructueuse, l’assurance-chômage peut vous verser une indemnité en cas d’insolvabilité pour les quatre derniers mois au maximum des rapports de travail. Vous devez toutefois présenter votre demande dans les 60 jours suivant la publication de la faillite dans la Feuille officielle suisse du commerce (ou suivant l’exécution de la saisie) auprès de la caisse publique compétente ; passé ce délai, le droit s’éteint.",
-        "it": "Se il suo datore di lavoro si trova in fallimento, oppure se un pignoramento per il suo credito salariale è rimasto infruttuoso, l’assicurazione contro la disoccupazione può versarle un’indennità per insolvenza per al massimo gli ultimi quattro mesi del rapporto di lavoro. Deve però far valere la sua pretesa entro 60 giorni dalla pubblicazione del fallimento nel Foglio ufficiale svizzero di commercio (o dall’esecuzione del pignoramento) presso la cassa pubblica competente; in seguito la pretesa si estingue."
+        "it": "Se il suo datore di lavoro si trova in fallimento, oppure se un pignoramento per il suo credito salariale è rimasto infruttuoso, l’assicurazione contro la disoccupazione può versarle un’indennità per insolvenza per al massimo gli ultimi quattro mesi del rapporto di lavoro. Deve però far valere la sua pretesa entro 60 giorni dalla pubblicazione del fallimento nel Foglio ufficiale svizzero di commercio (o dall’esecuzione del pignoramento) presso la cassa pubblica competente; in seguito la pretesa si estingue.",
+        "en": "If your employer is in bankruptcy, or if a distraint for your salary claim was unsuccessful, the unemployment insurance fund may pay you insolvency compensation for not more than the last four months of the employment relationship. However, you must register your claim with the competent unemployment insurance fund within 60 days of the bankruptcy being published in the Swiss Official Gazette of Commerce (Schweizerisches Handelsamtsblatt / Feuille officielle suisse du commerce) (or after the distraint has been carried out); after that the claim lapses."
       },
       "when": {
         "employer_situation": [
@@ -304,7 +339,8 @@
       "text": {
         "de": "Lohnforderungen verjähren fünf Jahre nach ihrer Fälligkeit. Warten Sie deshalb nicht zu lange mit der Geltendmachung.",
         "fr": "Les créances de salaire se prescrivent par cinq ans à compter de leur exigibilité. N’attendez donc pas trop longtemps pour les faire valoir.",
-        "it": "I crediti salariali si prescrivono in cinque anni dalla loro esigibilità. Non aspetti quindi troppo a farli valere."
+        "it": "I crediti salariali si prescrivono in cinque anni dalla loro esigibilità. Non aspetti quindi troppo a farli valere.",
+        "en": "Salary claims become time-barred five years after they fall due. So do not wait too long to assert them."
       },
       "sources": [
         "or-128"
@@ -316,7 +352,8 @@
       "text": {
         "de": "Reagiert Ihr Arbeitgeber nicht, können Sie beim Betreibungsamt an seinem Wohnsitz oder Sitz ein Betreibungsbegehren für den ausstehenden Lohn stellen. Das eröffnet ein Betreibungsverfahren, unabhängig von einem Gerichtsverfahren.",
         "fr": "Si votre employeur ne réagit pas, vous pouvez déposer une réquisition de poursuite pour le salaire dû auprès de l’office des poursuites de son domicile ou de son siège. Cela ouvre une procédure de poursuite, indépendante d’une procédure judiciaire.",
-        "it": "Se il suo datore di lavoro non reagisce, può presentare presso l’ufficio d’esecuzione del suo domicilio o della sua sede una domanda d’esecuzione per il salario arretrato. Questo apre una procedura esecutiva, indipendente da un procedimento giudiziario."
+        "it": "Se il suo datore di lavoro non reagisce, può presentare presso l’ufficio d’esecuzione del suo domicilio o della sua sede una domanda d’esecuzione per il salario arretrato. Questo apre una procedura esecutiva, indipendente da un procedimento giudiziario.",
+        "en": "If your employer does not respond, you can file a request for debt enforcement for the outstanding salary with the debt enforcement office (Betreibungsamt / office des poursuites) at their domicile or registered office. This opens debt enforcement proceedings, independently of any court proceedings."
       }
     },
     {
@@ -325,7 +362,8 @@
       "text": {
         "de": "Arbeitsrechtliche Streitigkeiten bis zu einem Streitwert von 30 000 Franken sind im Schlichtungsverfahren kostenlos und laufen vor Gericht im einfacheren, schnelleren vereinfachten Verfahren. Für die Kosten einer eigenen Anwältin oder eines eigenen Anwalts gibt es im Schlichtungsverfahren grundsätzlich keine Entschädigung.",
         "fr": "Les litiges de droit du travail jusqu’à une valeur litigieuse de 30 000 francs sont gratuits en procédure de conciliation et se déroulent devant le tribunal selon la procédure simplifiée, plus simple et plus rapide. En principe, la procédure de conciliation ne donne droit à aucune indemnisation pour les frais d’une avocate ou d’un avocat que vous mandatez vous-même.",
-        "it": "Le controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi sono gratuite nella procedura di conciliazione e si svolgono davanti al giudice secondo la procedura semplificata, più semplice e rapida. Per le spese della propria assistenza legale, nella procedura di conciliazione, in linea di principio, non è prevista alcuna indennità."
+        "it": "Le controversie di diritto del lavoro fino a un valore litigioso di 30 000 franchi sono gratuite nella procedura di conciliazione e si svolgono davanti al giudice secondo la procedura semplificata, più semplice e rapida. Per le spese della propria assistenza legale, nella procedura di conciliazione, in linea di principio, non è prevista alcuna indennità.",
+        "en": "Employment disputes up to a value in dispute of CHF 30,000 are free of charge in conciliation proceedings and are dealt with in court under the simpler, faster simplified procedure. As a rule, there is no compensation in conciliation proceedings for the cost of your own lawyer."
       },
       "sources": [
         "zpo-113",
@@ -338,7 +376,8 @@
       "text": {
         "de": "Holen Sie rasch persönliche Beratung, wenn Ihr Arbeitgeber die Zahlung dauerhaft verweigert, wenn ein Konkurs droht oder bereits läuft, oder wenn es um grosse Summen geht.",
         "fr": "Demandez rapidement un conseil personnalisé si votre employeur refuse durablement de payer, si une faillite menace ou est déjà en cours, ou si des sommes importantes sont en jeu.",
-        "it": "Si faccia consigliare rapidamente da un professionista se il suo datore di lavoro rifiuta durevolmente il pagamento, se un fallimento è imminente o già in corso, oppure se si tratta di importi elevati."
+        "it": "Si faccia consigliare rapidamente da un professionista se il suo datore di lavoro rifiuta durevolmente il pagamento, se un fallimento è imminente o già in corso, oppure se si tratta di importi elevati.",
+        "en": "Get personal advice quickly if your employer persistently refuses to pay, if bankruptcy is imminent or already under way, or if large sums are involved."
       }
     },
     {
@@ -347,7 +386,8 @@
       "text": {
         "de": "Kostenlose oder günstige Hilfe: Die kantonale Schlichtungsbehörde für arbeitsrechtliche Streitigkeiten informiert über das Verfahren. Gewerkschaften beraten ihre Mitglieder. Das Betreibungsamt erklärt das Betreibungsverfahren; viele Kantone bieten zudem eine unentgeltliche Rechtsauskunft an.",
         "fr": "Aide gratuite ou à faible coût : l’autorité cantonale de conciliation en matière de droit du travail renseigne sur la procédure. Les syndicats conseillent leurs membres. L’office des poursuites explique la procédure de poursuite ; de nombreux cantons proposent en outre une consultation juridique gratuite.",
-        "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. L’ufficio d’esecuzione spiega la procedura esecutiva; molti Cantoni offrono inoltre una consulenza giuridica gratuita."
+        "it": "Aiuto gratuito o a basso costo: l’autorità cantonale di conciliazione per le controversie di diritto del lavoro informa sulla procedura. I sindacati consigliano i propri membri. L’ufficio d’esecuzione spiega la procedura esecutiva; molti Cantoni offrono inoltre una consulenza giuridica gratuita.",
+        "en": "Free or low-cost help: the cantonal conciliation authority for employment disputes (Schlichtungsbehörde / autorité de conciliation) can tell you about the procedure. Trade unions advise their members. The debt enforcement office explains the debt enforcement procedure; many cantons also offer free legal advice."
       }
     }
   ],
@@ -438,7 +478,8 @@
       "label": {
         "de": "ch.ch: Probleme am Arbeitsplatz",
         "fr": "ch.ch : Problèmes sur le lieu de travail",
-        "it": "ch.ch: Problemi sul posto di lavoro"
+        "it": "ch.ch: Problemi sul posto di lavoro",
+        "en": "ch.ch: Problems in the workplace"
       },
       "url": "https://www.ch.ch/de/arbeit/probleme-am-arbeitsplatz/"
     },
@@ -446,7 +487,8 @@
       "label": {
         "de": "ch.ch: Betreibung – Zahlungsbefehl, Rechtsvorschlag, Pfändung",
         "fr": "ch.ch : Poursuite – commandement de payer, opposition, saisie",
-        "it": "ch.ch: Esecuzione – Precetto esecutivo, opposizione, pignoramento"
+        "it": "ch.ch: Esecuzione – Precetto esecutivo, opposizione, pignoramento",
+        "en": "ch.ch: Debt enforcement – summons for payment, objection, distraint"
       },
       "url": "https://www.ch.ch/de/steuern-und-finanzen/schulden--betreibungen-und-konkurs/betreibungen/"
     }
