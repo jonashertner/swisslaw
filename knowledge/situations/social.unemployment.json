@@ -628,7 +628,7 @@
     },
     {
       "id": "objection",
-      "kind": "rule",
+      "kind": "deadline",
       "when": {
         "suspension": [
           "fault",
@@ -654,6 +654,9 @@
         "atsv-10",
         "atsg-38",
         "atsg-39"
+      ],
+      "deadline_rules": [
+        "atsg_52_einsprache"
       ]
     },
     {
@@ -716,7 +719,7 @@
     },
     {
       "id": "appeal",
-      "kind": "rule",
+      "kind": "deadline",
       "when": {
         "suspension": [
           "fault",
@@ -742,6 +745,9 @@
         "atsg-58",
         "atsg-60",
         "atsg-61"
+      ],
+      "deadline_rules": [
+        "atsg_60_beschwerde"
       ]
     },
     {

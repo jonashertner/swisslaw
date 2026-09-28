@@ -15,7 +15,9 @@ type Doctrine = 'procedural_fiction' | 'relative_receipt' | 'absolute_receipt' |
 type LegalBasis = { law: string; sr?: string; article: string; paragraph?: string; source_url: string };
 export type DeadlineRule = {
   id: string; title_de: string; domain: string; duration_days: number; receipt_doctrine: Doctrine;
-  standstill: 'none'; schkg_63_extension: boolean; calendar: string; legal_basis: LegalBasis[];
+  standstill: 'none' | 'federal'; schkg_63_extension: boolean; calendar: string; legal_basis: LegalBasis[];
+  /** Ordinary or A-Post Plus mail is a valid way to serve (ATSG: BGer 8C_665/2022 E. 4.5). */
+  ordinary_mail_valid?: boolean;
   case_law?: string[]; how_to_meet: string; status: 'draft' | 'signed'; signed_by: string | null; signed_at: string | null;
 };
 export type DeadlineResult = {
@@ -25,8 +27,8 @@ export type DeadlineResult = {
   notes: NoteCode[];
   legalBasis: string[]; needsLawyer: boolean; daysLeft: number | null; urgent: boolean; expired: boolean;
 };
-export type NoteCode = 'absolute_receipt' | 'zb_collected' | 'zb_no_service' | 'ordinary_service_doubt' | 'notice_unknown_estimate' | 'fiction_assumed' | 'relative_deemed' | 'notice_unknown_collected' | 'served_in_ferien' | 'served_sunday' | 'served_holiday' | 'expired';
-export type LaterCode = 'next_day_receipt' | 'candidate_holidays' | 'both' | 'closed_time' | 'closed_time_candidate';
+export type NoteCode = 'absolute_receipt' | 'zb_collected' | 'zb_no_service' | 'ordinary_service_doubt' | 'notice_unknown_estimate' | 'fiction_assumed' | 'relative_deemed' | 'notice_unknown_collected' | 'served_in_ferien' | 'served_sunday' | 'served_holiday' | 'standstill' | 'letterbox_day' | 'expired';
+export type LaterCode = 'next_day_receipt' | 'candidate_holidays' | 'both' | 'closed_time' | 'closed_time_candidate' | 'after_standstill';
 export class RuleNotSigned extends Error {}
 
 const DOCTRINES = new Set(['procedural_fiction', 'relative_receipt', 'absolute_receipt', 'personal_service', 'event']);
@@ -113,12 +115,20 @@ function ferienContaining(day: number): [number, number] | null {
   return windows.find(([s, t]) => s <= day && day <= t) ?? null;
 }
 
+// ATSG 38 Abs. 4 (= VwVG 22a Abs. 1, BGG 46 Abs. 1): deadlines in days stand still from the 7th day
+// before to the 7th day after Easter Sunday (BGE 139 V 490 E. 2.2), 15 July to 15 August and 18 December to 2 January.
+function standstillContaining(day: number): [number, number] | null {
+  const y = yearOf(day); const e = toDay(easterSunday(y));
+  const windows: [number, number][] = [[ymd(y - 1, 12, 18), ymd(y, 1, 2)], [e - 7, e + 7], [ymd(y, 7, 15), ymd(y, 8, 15)], [ymd(y, 12, 18), ymd(y + 1, 1, 2)]];
+  return windows.find(([s, t]) => s <= day && day <= t) ?? null;
+}
+
 // --- rules -----------------------------------------------------------------
 export function validateRule(r: DeadlineRule): void {
   const required = ['id', 'title_de', 'duration_days', 'receipt_doctrine', 'standstill', 'schkg_63_extension', 'calendar', 'legal_basis', 'status'] as const;
   for (const k of required) if (r[k] === undefined) throw new Error(`INVALID_RULE ${r.id}: missing ${k}`);
   if (!DOCTRINES.has(r.receipt_doctrine)) throw new Error(`INVALID_RULE ${r.id}: receipt_doctrine`);
-  if (r.standstill !== 'none') throw new Error(`INVALID_RULE ${r.id}: standstill ${r.standstill} not implemented`);
+  if (r.standstill !== 'none' && r.standstill !== 'federal') throw new Error(`INVALID_RULE ${r.id}: standstill ${r.standstill} not implemented`);
   if (!Number.isInteger(r.duration_days) || r.duration_days <= 0) throw new Error(`INVALID_RULE ${r.id}: duration_days`);
   for (const lb of r.legal_basis) if (!lb.law || !lb.article || !lb.source_url) throw new Error(`INVALID_RULE ${r.id}: legal_basis`);
   if (r.status === 'signed' && !(r.signed_by && r.signed_at)) throw new Error(`INVALID_RULE ${r.id}: signed without signer`);
@@ -158,7 +168,8 @@ function receipts(rule: DeadlineRule, d: Delivery, res: DeadlineResult): Receipt
   }
   if (d.method === 'ordinary') {
     if (!d.date) throw new Error('DATE_REQUIRED');
-    if (doctrine === 'procedural_fiction') {
+    if (rule.ordinary_mail_valid) res.notes.push('letterbox_day');
+    else if (doctrine === 'procedural_fiction') {
       res.warnings.push('Decision received by ordinary mail: proper service is in doubt; lawyer to check.'); res.notes.push('ordinary_service_doubt');
       res.needsLawyer = true;
     }
@@ -212,9 +223,16 @@ function schkg63(end: number, rawEnd: number, hol: Set<number>, trace: string[])
 // Saturdays are not closed.
 const isClosed = (day: number, hol: Set<number>) => isSunday(day) || hol.has(day) || ferienContaining(day) !== null;
 function firstOpenDay(day: number, hol: Set<number>): number { do day += 1; while (isClosed(day, hol)); return day; }
+// Service during a standstill is valid; counting starts on the first day after it (BGE 131 V 305 E. 4).
+function countDays(rule: DeadlineRule, receipt: number): number {
+  if (rule.standstill === 'none') return receipt + rule.duration_days;
+  let day = receipt, counted = 0;
+  while (counted < rule.duration_days) { day += 1; if (!standstillContaining(day)) counted += 1; }
+  return day;
+}
 function endDay(rule: DeadlineRule, receipt: number, hol: Set<number>, trace: string[]): number {
-  const rawEnd = receipt + rule.duration_days;
-  trace.push(`receipt ${toIso(receipt)} + ${rule.duration_days} days = ${toIso(rawEnd)} (counting starts the next day)`);
+  const rawEnd = countDays(rule, receipt);
+  trace.push(`receipt ${toIso(receipt)} + ${rule.duration_days} days = ${toIso(rawEnd)} (counting starts the next day${rawEnd !== receipt + rule.duration_days ? ', standstill days not counted' : ''})`);
   let end = rollForward(rawEnd, hol);
   if (end !== rawEnd) trace.push(`${toIso(rawEnd)} is a Saturday, Sunday or holiday: moves to ${toIso(end)}`);
   if (rule.schkg_63_extension) end = schkg63(end, rawEnd, hol, trace);
@@ -255,6 +273,7 @@ export function computeDeadline(ruleId: string, delivery: Delivery, canton: stri
   }
   const binding = endDay(rule, receipt, certain, res.trace);
   res.bindingDue = toIso(binding);
+  if (rule.standstill === 'federal' && countDays(rule, receipt) !== receipt + rule.duration_days) res.notes.push('standstill');
   const later = new Map<number, { reason: string; code: LaterCode }>();
   for (const [r, why, code] of rs) {
     for (const [hol, label] of [[certain, null], [broad, "if the canton's candidate holidays apply"]] as const) {
@@ -265,6 +284,12 @@ export function computeDeadline(ruleId: string, delivery: Delivery, canton: stri
         code: code === 'closed_time' && label ? 'closed_time_candidate' : code ?? (nextDay && label ? 'both' : nextDay ? 'next_day_receipt' : 'candidate_holidays'),
       });
     }
+  }
+  // A last day moved by ATSG 38 Abs. 3 onto a standstill day may instead run on after the standstill.
+  const paused = rule.standstill === 'federal' ? standstillContaining(binding) : null;
+  if (paused) {
+    const after = rollForward(paused[1] + 1, certain);
+    if (!later.has(after)) later.set(after, { reason: 'the last day moved into the standstill; it may run on after it', code: 'after_standstill' });
   }
   res.couldBeLater = [...later].sort((a, b) => a[0] - b[0]).map(([day, v]) => ({ date: toIso(day), ...v }));
   if (options.today) {

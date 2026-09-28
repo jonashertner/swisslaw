@@ -1,5 +1,5 @@
 {
- "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. All rules signed off by Jonas Hertner on 2026-09-28; the BG über die Zustellung von Sendungen an Wochenenden und Feiertagen (BBl 2025 2891) was not in force on that date.",
+ "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. The first seven rules were signed off by Jonas Hertner on 2026-09-28; the ATSG rules (texts checked 2026-09-28) are drafts awaiting sign-off; the BG über die Zustellung von Sendungen an Wochenenden und Feiertagen (BBl 2025 2891) was not in force on that date.",
  "rules": [
   {
    "id": "schkg_74_rechtsvorschlag",
@@ -259,6 +259,100 @@
    "status": "signed",
    "signed_by": "Jonas Hertner",
    "signed_at": "2026-09-28"
+  },
+  {
+   "id": "atsg_52_einsprache",
+   "title_de": "Einsprache gegen eine Verfügung eines Sozialversicherers",
+   "domain": "atsg",
+   "duration_days": 30,
+   "receipt_doctrine": "procedural_fiction",
+   "standstill": "federal",
+   "schkg_63_extension": false,
+   "ordinary_mail_valid": true,
+   "calendar": "Kanton, in dem die Partei oder ihre Vertretung Wohnsitz oder Sitz hat (ATSG 38 Abs. 3)",
+   "legal_basis": [
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "52",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_52"
+    },
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "38",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38"
+    },
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "39",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39"
+    },
+    {
+     "law": "ATSV",
+     "sr": "830.11",
+     "article": "10",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/569/de#art_10"
+    }
+   ],
+   "case_law": [
+    "BGE 131 V 305 E. 4",
+    "BGE 139 V 490 E. 2.2",
+    "BGE 134 V 49 E. 4",
+    "BGer 8C_665/2022 vom 15. Dezember 2022, E. 4.5",
+    "BGer 8C_198/2015 vom 30. April 2015, E. 3.2",
+    "BGE 142 V 152 E. 4.6"
+   ],
+   "how_to_meet": "Bei der Stelle, die verfügt hat: schriftlich mit Unterschrift, spätestens am letzten Tag eingereicht oder der Schweizerischen Post übergeben; ausser bei der Arbeitslosenversicherung auch mündlich bei persönlicher Vorsprache (ATSV 10). Eine gewöhnliche E-Mail wahrt die Frist nicht.",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
+  },
+  {
+   "id": "atsg_60_beschwerde",
+   "title_de": "Beschwerde an das kantonale Versicherungsgericht",
+   "domain": "atsg",
+   "duration_days": 30,
+   "receipt_doctrine": "procedural_fiction",
+   "standstill": "federal",
+   "schkg_63_extension": false,
+   "ordinary_mail_valid": true,
+   "calendar": "Kanton, in dem die Partei oder ihre Vertretung Wohnsitz oder Sitz hat (ATSG 38 Abs. 3)",
+   "legal_basis": [
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "60",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_60"
+    },
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "38",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38"
+    },
+    {
+     "law": "ATSG",
+     "sr": "830.1",
+     "article": "39",
+     "paragraph": "1",
+     "source_url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39"
+    }
+   ],
+   "case_law": [
+    "BGE 131 V 305 E. 4",
+    "BGE 139 V 490 E. 2.2",
+    "BGE 134 V 49 E. 4",
+    "BGer 8C_665/2022 vom 15. Dezember 2022, E. 4.5",
+    "BGer 8C_198/2015 vom 30. April 2015, E. 3.2"
+   ],
+   "how_to_meet": "Schriftlich beim kantonalen Versicherungsgericht, das in der Rechtsmittelbelehrung genannt ist; spätestens am letzten Tag dem Gericht eingereicht oder der Schweizerischen Post übergeben (ATSG 60 Abs. 2 i.V.m. 39 Abs. 1).",
+   "status": "draft",
+   "signed_by": null,
+   "signed_at": null
   }
  ]
 }
