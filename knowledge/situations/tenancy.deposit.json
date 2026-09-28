@@ -3,7 +3,7 @@
   "id": "tenancy.deposit",
   "domain": "tenancy",
   "version": "2026-09-28",
-  "status": "draft",
+  "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Wie bekomme ich meine Mietkaution zurück?"
@@ -292,8 +292,10 @@
   "review": {
     "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
     "prepared_at": "2026-09-28",
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "languages_reviewed": []
+    "reviewed_by": "Jonas Hertner",
+    "reviewed_at": "2026-09-28",
+    "languages_reviewed": [
+      "de"
+    ]
   }
 }

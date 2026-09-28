@@ -3,7 +3,7 @@
   "id": "admin.decision-appeal",
   "domain": "admin",
   "version": "2026-09-28",
-  "status": "draft",
+  "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Eine Behörde hat gegen mich entschieden. Wie wehre ich mich?"
@@ -294,8 +294,10 @@
   "review": {
     "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
     "prepared_at": "2026-09-28",
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "languages_reviewed": []
+    "reviewed_by": "Jonas Hertner",
+    "reviewed_at": "2026-09-28",
+    "languages_reviewed": [
+      "de"
+    ]
   }
 }
