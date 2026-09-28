@@ -240,8 +240,8 @@ write('llms.txt', [
 write('llms-full.txt', situations.map(s => markdown(s, 'de')).join('\n\n'));
 
 // --- headers ----------------------------------------------------------------------------
-// static.cloudflareinsights.com: Cloudflare Web Analytics beacon, injected by Pages; it reports to /cdn-cgi/rum on this origin.
-const csp = `default-src 'none'; script-src 'self' '${rootScriptHash}' https://static.cloudflareinsights.com; style-src '${cssHash}'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
+// Cloudflare Web Analytics: Pages injects the beacon from static.cloudflareinsights.com; it reports to cloudflareinsights.com/cdn-cgi/rum.
+const csp = `default-src 'none'; script-src 'self' '${rootScriptHash}' https://static.cloudflareinsights.com; style-src '${cssHash}'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
 write('_csp.json', JSON.stringify({ csp }));
 write('_headers', [
   '/*', '  Referrer-Policy: no-referrer', '  X-Content-Type-Options: nosniff', '  X-Frame-Options: DENY', '  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()', `  Content-Security-Policy: ${csp}`,
