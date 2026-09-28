@@ -265,9 +265,6 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
         <Txt value={s.title} ctx={ctx} as="h1" />
         <Txt value={s.summary} ctx={ctx} as="p" className="doc-lead" />
         {s.status !== 'public' && <p className="doc-meta">{t(ctx, 'draftShort')}</p>}
-        {s.status === 'public' && s.review.reviewed_by && s.review.reviewed_at && (
-          <p className="doc-meta">{t(ctx, 'reviewedBy', { who: s.review.reviewed_by, date: formatDate(s.review.reviewed_at, ctx.lang, false) })}</p>
-        )}
         {ctx.lang !== 'de' && !s.title[ctx.lang] && <p className="doc-meta">{t(ctx, 'untranslated')}</p>}
         {unreviewedTranslation(s, ctx.lang) && <p className="doc-meta">{t(ctx, 'unreviewedTranslation')}</p>}
       </header>
