@@ -66,8 +66,12 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .entries a:hover .entry-title{text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:var(--hair-2);text-underline-offset:.22em}
 .entry-due{flex:none;font:400 .875rem/1.4 var(--sans);color:var(--ink-3);font-variant-numeric:tabular-nums;text-align:right;max-width:12rem}
 .none{font:400 1.0625rem/1.6 var(--serif);color:var(--ink-2);padding-top:6px;max-width:var(--measure)}
-.preparing{padding:22px 0 clamp(64px,9vw,120px);border-top:1px solid var(--hair);font-size:.875rem;color:var(--ink-3)}
-@media (min-width:760px){.preparing{padding-left:calc(var(--label) + 32px)}}
+.coverage-body{display:grid;gap:10px;max-width:var(--measure)}
+.coverage-lead,.coverage-none{font:400 1.0625rem/1.6 var(--serif);color:var(--ink-2)}
+.coverage-body h3{margin-top:18px;font:600 .8125rem/1.4 var(--sans);color:var(--ink-2)}
+.coverage-list{margin:0;display:grid;gap:10px;font-size:.9375rem;line-height:1.55}
+.coverage-list dt{font-weight:600;color:var(--ink-2)}
+.coverage-list dd{margin:0;color:var(--ink-3)}
 
 /* About */
 .about{padding:clamp(56px,10vw,120px) 0 40px;max-width:var(--measure)}
