@@ -269,6 +269,7 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
         {unreviewedTranslation(s, ctx.lang) && <p className="doc-meta">{t(ctx, 'unreviewedTranslation')}</p>}
       </header>
 
+      <section className="print-answers" data-print-answers aria-hidden="true" />
       <div className="doc-grid">
         <form className="inputs" id="answers" aria-labelledby="in-h" hidden>
           <div className="inputs-head">
@@ -367,6 +368,10 @@ export function Layout({ ctx, children, alt }: { ctx: Ctx; children: ReactNode; 
       <a className="skip" href="#main">{t(ctx, 'skip')}</a>
       <Top ctx={ctx} alt={alt} />
       <main id="main" tabIndex={-1}>{children}</main>
+      <aside className="print-note" aria-hidden="true">
+        <p>{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
+        <p data-printed={SITE_TEXT.printedFrom[ctx.lang]}>{`https://swisslaw.io${alt(ctx.lang)}`}</p>
+      </aside>
       <Foot ctx={ctx} />
     </>
   );

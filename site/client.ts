@@ -16,8 +16,11 @@ const el = (tag: string, cls?: string, text?: string) => { const e = document.cr
 function fmt(iso: string, weekday = true): string {
   const [y, m, d] = iso.split('-').map(Number);
   const opts: Intl.DateTimeFormatOptions = { ...(weekday ? { weekday: 'long' } : {}), day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' };
-  try { return new Intl.DateTimeFormat(data.locale, opts).format(new Date(Date.UTC(y, m - 1, d))); }
-  catch { return new Intl.DateTimeFormat('de-CH', opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  let out: string;
+  try { out = new Intl.DateTimeFormat(data.locale, opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  catch { out = new Intl.DateTimeFormat('de-CH', opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  // Keep day, month and year on one line; only the weekday may wrap.
+  return out.replace(/\d+\.?(?: [\p{L}’']+)+ \d{4}/u, s => s.replace(/ /g, '\u00a0'));
 }
 function today(): string { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
 
@@ -109,7 +112,9 @@ function initSituation() {
     how.append(ol, el('p', undefined, `${tx('basis')}: ${r.legalBasis.join(', ')}`));
     if (r.ruleStatus !== 'signed') how.append(el('p', undefined, tx('calcDraft')));
     how.append(el('p', undefined, tx('calcAdvice')));
-    due.append(how);
+    // Chrome paginates a <details> element badly: print a plain copy instead.
+    const flat = el('div', 'due-how-print'); flat.append(el('p', 'due-how-title', tx('howCalculated')), ...[...how.children].slice(1).map(n => n.cloneNode(true)));
+    due.append(how, flat);
   }
 
   form.addEventListener('change', update);
@@ -153,6 +158,40 @@ function initSubmit() {
   });
 }
 
+// --- print: a file name that says what and when, the answers as a summary, the address to reopen them
+function initPrint() {
+  const title = document.title;
+  addEventListener('beforeprint', () => {
+    // Browsers name the PDF after the title: drop characters that file systems reject, add the date.
+    document.title = `${title.replace(/\s*:\s*/g, ' – ').replace(/[?*"<>|\\/]+/g, '').replace(/\s+/g, ' ').trim()} – ${today()}`;
+    const printed = $<HTMLElement>('[data-printed]');
+    if (printed?.dataset.printed) printed.textContent = `${printed.dataset.printed.replace('{date}', fmt(today(), false))} ${location.href}`;
+    const box = $<HTMLElement>('[data-print-answers]'); const form = $<HTMLFormElement>('#answers');
+    if (!box || !form) return;
+    const rows: [string, string][] = [];
+    for (const fs of $$<HTMLFieldSetElement>('fieldset.q', form)) {
+      if (fs.hidden) continue;
+      const question = $('legend', fs)?.textContent?.trim() ?? '';
+      if (fs.matches('.q-deadline')) {
+        const fields = $$<HTMLLabelElement>('label.field', fs).filter(l => !l.hidden && $<HTMLInputElement | HTMLSelectElement>('input, select', l)?.value);
+        if (!fields.some(l => $('input[type=date]', l))) continue;
+        const method = $('.seg-opt input:checked + span', fs)?.textContent;
+        if (method) rows.push([question, method]);
+        for (const l of fields) { const c = $<HTMLInputElement | HTMLSelectElement>('input, select', l)!; rows.push([$('span', l)?.textContent ?? '', c.type === 'date' ? fmt(c.value, false) : c.value]); }
+      } else {
+        const checked = $<HTMLInputElement>('input:checked', fs);
+        if (checked && checked.value !== 'unknown') rows.push([question, checked.closest('label')?.textContent?.trim() ?? '']);
+      }
+    }
+    box.replaceChildren();
+    if (!rows.length) return;
+    const dl = el('dl'); for (const [q, a] of rows) dl.append(el('dt', undefined, q), el('dd', undefined, a));
+    box.append(el('h2', 'row-label', $('#in-h')?.textContent ?? ''), dl);
+  });
+  addEventListener('afterprint', () => { document.title = title; });
+}
+
 initSearch();
 initSubmit();
 initSituation();
+initPrint();

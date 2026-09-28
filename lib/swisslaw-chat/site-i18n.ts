@@ -58,6 +58,7 @@ export const SITE_TEXT = {
   copyLink: e('Link kopieren', 'Copier le lien', 'Copia link', 'Copiar la colliaziun', 'Copy link'),
   copied: e('Link kopiert. Er enthält Ihre Antworten, aber keine Daten.', 'Lien copié. Il contient vos réponses, sans dates.', 'Link copiato. Contiene le sue risposte, senza date.', 'Colliaziun copiada. Ella cuntegna Vossas respostas, dentant naginas datas.', 'Link copied. It contains your answers but no dates.'),
   print: e('Drucken', 'Imprimer', 'Stampa', 'Stampar', 'Print'),
+  printedFrom: e('Ausgedruckt am {date} von', 'Imprimé le {date} depuis', 'Stampato il {date} da', 'Stampà ils {date} da', 'Printed on {date} from'),
   covers: e('Diese Anleitung gilt für', 'Ce guide concerne', 'Questa guida vale per', 'Quest guid vala per', 'This guide covers'),
   excludes: e('Nicht abgedeckt', 'Non couvert', 'Non coperto', 'Betg cuvert', 'Not covered'),
   // deadline calculator
@@ -135,7 +136,7 @@ export const SITE_TEXT = {
   dd_collected: e('Abgeholt am (falls schon abgeholt)', 'Retiré le (si déjà retiré)', 'Ritirato il (se già ritirato)', 'Prendì giu ils (sche gia prendì giu)', 'Collected on (if already collected)'),
   cantonOptional: e('Kanton', 'Canton', 'Cantone', 'Chantun', 'Canton'),
   cantonHint: e('Kantonale Feiertage können die Frist verlängern. Wählen Sie Ihren Kanton.', 'Les jours fériés cantonaux peuvent prolonger le délai. Choisissez votre canton.', 'I giorni festivi cantonali possono prolungare il termine. Scelga il suo cantone.', 'Firads chantunals pon prolungar il termin. Tschernì Voss chantun.', 'Cantonal public holidays can extend the deadline. Choose your canton.'),
-  enterDate: e('Geben Sie links das Datum ein, dann berechnen wir den letzten Tag.', 'Indiquez la date, nous calculons le dernier jour.', 'Indichi la data, calcoliamo l’ultimo giorno.', 'Endatai la data, nus calculain l’ultim di.', 'Enter the date and we work out the last day.'),
+  enterDate: e('Geben Sie das Datum ein, dann berechnen wir den letzten Tag.', 'Indiquez la date, nous calculons le dernier jour.', 'Indichi la data, calcoliamo l’ultimo giorno.', 'Endatai la data, nus calculain l’ultim di.', 'Enter the date and we work out the last day.'),
   actUntil: e('Handeln Sie bis', 'Agissez jusqu’au', 'Agisca entro il', 'Agì fin ils', 'Act by'),
   lbl_deadline: e('Frist', 'Délai', 'Termine', 'Termin', 'Deadline'),
   lbl_warning: e('Achtung', 'Attention', 'Attenzione', 'Attenziun', 'Watch out'),
