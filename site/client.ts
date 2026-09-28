@@ -16,8 +16,11 @@ const el = (tag: string, cls?: string, text?: string) => { const e = document.cr
 function fmt(iso: string, weekday = true): string {
   const [y, m, d] = iso.split('-').map(Number);
   const opts: Intl.DateTimeFormatOptions = { ...(weekday ? { weekday: 'long' } : {}), day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' };
-  try { return new Intl.DateTimeFormat(data.locale, opts).format(new Date(Date.UTC(y, m - 1, d))); }
-  catch { return new Intl.DateTimeFormat('de-CH', opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  let out: string;
+  try { out = new Intl.DateTimeFormat(data.locale, opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  catch { out = new Intl.DateTimeFormat('de-CH', opts).format(new Date(Date.UTC(y, m - 1, d))); }
+  // Keep day, month and year on one line; only the weekday may wrap.
+  return out.replace(/\d+\.?(?: [\p{L}’']+)+ \d{4}/u, s => s.replace(/ /g, '\u00a0'));
 }
 function today(): string { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
 
