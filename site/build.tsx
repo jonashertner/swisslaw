@@ -10,7 +10,7 @@ import type { ReactElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { build as esbuild } from 'esbuild';
 import { localText, SituationSchema, validateSituation, type KnowledgeLanguage, type Situation } from '../lib/swisslaw-chat/knowledge';
-import { AREAS, byImportance, LETTERS, visibleInChannel, type AreaId } from '../lib/swisslaw-chat/site';
+import { AREAS, byImportance, LETTERS, sourceLabel, sourceUrl, visibleInChannel, withPublishedLanguages, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, FULL_DATE_LOCALE, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
 import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, TopicsBody, type Ctx } from './templates';
@@ -30,7 +30,7 @@ const all: Situation[] = readdirSync(dir).filter(f => f.endsWith('.json')).sort(
   if (problems.length) throw new Error(`${f}: ${problems.join('; ')}`);
   return SituationSchema.parse(raw);
 });
-const situations = all.filter(s => visibleInChannel(s, CHANNEL)).sort(byImportance);
+const situations = all.filter(s => visibleInChannel(s, CHANNEL)).map(s => withPublishedLanguages(s, CHANNEL)).sort(byImportance);
 const inArea = (a: AreaId) => situations.filter(s => s.domain === a).sort(byImportance);
 const areasWithContent = AREAS.filter(a => inArea(a).length);
 
@@ -135,8 +135,8 @@ for (const lang of LANGS) {
     const contentLang = s.title[lang] ? lang : 'de';
     const hasDeadline = s.blocks.some(b => b.deadline_rules?.some(r => DEADLINE_RULES.has(r)));
     const citation = Object.values(s.sources).map(r => r.type === 'statute'
-      ? { '@type': 'Legislation', name: r.label, legislationIdentifier: `SR ${r.sr} Art. ${r.article}`, url: r.url, legislationJurisdiction: 'CH' }
-      : { '@type': 'CreativeWork', name: `${r.citation}${r.e ? `, E. ${r.e}` : ''}`, url: r.url });
+      ? { '@type': 'Legislation', name: sourceLabel(r, lang), legislationIdentifier: `SR ${r.sr} Art. ${r.article}`, url: sourceUrl(r, lang), legislationJurisdiction: 'CH' }
+      : { '@type': 'CreativeWork', name: sourceLabel(r, lang), url: r.url });
     emit({ lang, path: paths.situation(lang, s.id), alt: l => paths.situation(l, s.id), contentLang,
       canonical: paths.situation(contentLang, s.id),
       title: title(localText(s.title, lang).text), description: localText(s.summary, lang).text.slice(0, 300),
@@ -154,7 +154,7 @@ for (const lang of LANGS) {
   emit({ lang, path: paths.thanks(lang), alt: l => paths.thanks(l), title: title(st('submitThanks', lang)), description: st('submitThanks', lang),
     body: <ThanksBody ctx={{ lang, review: REVIEW }} /> });
   emit({ lang, path: paths.topics(lang), alt: l => paths.topics(l), title: title(st('coverageTitle', lang)), description: st('coverageTitle', lang),
-    body: <TopicsBody ctx={{ lang, review: REVIEW }} live={all.filter(s => s.status === 'public').sort(byImportance)} />,
+    body: <TopicsBody ctx={{ lang, review: REVIEW }} live={all.filter(s => s.status === 'public').map(s => withPublishedLanguages(s, CHANNEL)).sort(byImportance)} />,
     jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: st('coverageTitle', lang), url: `${ORIGIN}${paths.topics(lang)}`, isPartOf: siteLd, inLanguage: lang } });
   emit({ lang, path: paths.about(lang), alt: l => paths.about(l), title: title(st('aboutTitle', lang)), description: st('aboutBody', lang).slice(0, 300),
     body: <AboutBody ctx={{ lang, review: REVIEW }} />, jsonld: { '@context': 'https://schema.org', '@type': 'AboutPage', name: st('aboutTitle', lang), url: `${ORIGIN}${paths.about(lang)}`, isPartOf: siteLd } });

@@ -1,12 +1,62 @@
 // Site model: life areas, the letter board, search and shareable fact state.
 // Pure functions only (tested under Node); the Vite-specific loading lives in site-data.ts.
-import type { KnowledgeLanguage, Situation, SituationFacts } from './knowledge';
+import { KNOWLEDGE_LANGUAGES, type KnowledgeLanguage, type Situation, type SituationFacts } from './knowledge';
 
 export type Channel = 'public' | 'review';
 /** Public builds show only reviewed situations; the access-restricted review build shows drafts too. */
 export function visibleInChannel(s: Situation, channel: Channel): boolean {
   if (s.status === 'withdrawn') return false;
   return channel === 'review' ? true : s.status === 'public';
+}
+
+/** Public builds carry only reviewed languages; unreviewed translations stay on the review site. */
+export function withPublishedLanguages(s: Situation, channel: Channel): Situation {
+  if (channel === 'review') return s;
+  const keep = new Set<string>(['de', ...s.review.languages_reviewed]);
+  const isLangMap = (o: Record<string, unknown>) => 'de' in o && Object.keys(o).every(k => (KNOWLEDGE_LANGUAGES as readonly string[]).includes(k));
+  const strip = (v: unknown): unknown => {
+    if (Array.isArray(v)) return v.map(strip);
+    if (!v || typeof v !== 'object') return v;
+    const o = v as Record<string, unknown>;
+    return Object.fromEntries(Object.entries(o).filter(([k]) => !isLangMap(o) || keep.has(k)).map(([k, x]) => [k, strip(x)]));
+  };
+  return strip(s) as Situation;
+}
+/** True where a page shows a translation that no reviewer has checked yet (review site only). */
+export function unreviewedTranslation(s: Situation, language: KnowledgeLanguage): boolean {
+  return language !== 'de' && !!s.title[language] && !s.review.languages_reviewed.includes(language);
+}
+
+// --- sources in the reader's language ---------------------------------------------
+// Official Fedlex abbreviations. Romansh and English readers get the German text and abbreviations.
+const LAW_ABBR: Record<string, { fr: string; it: string }> = {
+  OR: { fr: 'CO', it: 'CO' }, ZPO: { fr: 'CPC', it: 'CPC' }, SchKG: { fr: 'LP', it: 'LEF' }, StPO: { fr: 'CPP', it: 'CPP' },
+  VwVG: { fr: 'PA', it: 'PA' }, DSG: { fr: 'LPD', it: 'LPD' }, DSV: { fr: 'OPDo', it: 'OPDa' }, AVIG: { fr: 'LACI', it: 'LADI' },
+  DBG: { fr: 'LIFD', it: 'LIFD' }, StHG: { fr: 'LHID', it: 'LAID' }, SVG: { fr: 'LCR', it: 'LCStr' }, OBG: { fr: 'LAO', it: 'LMD' },
+  VMWG: { fr: 'OBLF', it: 'OLAL' },
+};
+const MONTHS_DE = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+const MONTHS = {
+  fr: ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+  it: ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre'],
+};
+type Source = Situation['sources'][string];
+export function sourceLabel(r: Source, language: KnowledgeLanguage): string {
+  if (language !== 'fr' && language !== 'it') return r.type === 'statute' ? r.label : `${r.citation}${r.e ? `, E. ${r.e}` : ''}`;
+  if (r.type === 'statute') {
+    const m = /^(\S+) · Art\. (.+)$/.exec(r.label);
+    const abbr = m && LAW_ABBR[m[1]]?.[language];
+    return abbr ? `${abbr} · art. ${m[2]}` : r.label;
+  }
+  let c = r.citation.replace(/^BGE /, language === 'fr' ? 'ATF ' : 'DTF ');
+  const d = /^BGer (\S+) vom (\d{1,2})\. (\p{L}+) (\d{4})$/u.exec(r.citation);
+  const month = d ? MONTHS_DE.indexOf(d[3]) : -1;
+  if (d && month >= 0) c = `TF ${d[1]} ${language === 'fr' ? 'du' : 'del'} ${language === 'fr' && d[2] === '1' ? '1er' : d[2]} ${MONTHS[language][month]} ${d[4]}`;
+  return `${c}${r.e ? `, consid. ${r.e}` : ''}`;
+}
+/** Fedlex publishes every federal act in German, French and Italian. */
+export function sourceUrl(r: Source, language: KnowledgeLanguage): string {
+  return r.type === 'statute' && (language === 'fr' || language === 'it') ? r.url.replace(/\/de(#|$)/, `/${language}$1`) : r.url;
 }
 
 export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'admin', 'data', 'family', 'inheritance', 'social'] as const;
