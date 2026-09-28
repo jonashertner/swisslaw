@@ -601,7 +601,11 @@
     "reviewed_by": "Jonas Hertner",
     "reviewed_at": "2026-09-28",
     "languages_reviewed": [
-      "de"
+      "de",
+      "fr",
+      "it",
+      "en",
+      "rm"
     ]
   }
 }
