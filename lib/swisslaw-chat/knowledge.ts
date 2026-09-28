@@ -4,8 +4,8 @@
 import { z } from 'zod';
 import { DEADLINE_RULES } from './deadlines';
 
-export const KNOWLEDGE_LANGUAGES = ['de', 'fr', 'it', 'rm', 'en'] as const;
-export type KnowledgeLanguage = typeof KNOWLEDGE_LANGUAGES[number];
+import { KNOWLEDGE_LANGUAGES, type KnowledgeLanguage } from './languages';
+export { KNOWLEDGE_LANGUAGES, type KnowledgeLanguage } from './languages';
 
 const text = z.string().trim().min(1).max(1600);
 // German is the master text; other languages are added after translation and review.

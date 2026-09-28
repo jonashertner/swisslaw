@@ -61,3 +61,18 @@ test('search engines get one URL per text: sitemap lists canonical pages, hrefla
   }
   assert.match(readFileSync(join(pub, 'de/thanks/index.html'), 'utf8'), /<meta name="robots" content="noindex">/);
 });
+
+test('language models get every guide as Markdown with its conditions, and shared links carry an image', () => {
+  const llms = readFileSync(join(pub, 'llms.txt'), 'utf8');
+  for (const s of JSON.parse(readFileSync(join(pub, 'data/index.json'), 'utf8')).situations as { url: Record<string, string>; languages: string[] }[]) {
+    for (const l of s.languages) {
+      const path = new URL(s.url[l]).pathname;
+      assert.match(readFileSync(join(pub, path, 'index.html'), 'utf8'), new RegExp(`<link rel="alternate" type="text/markdown" href="https://swisslaw.io${path}index.md"`));
+      assert.match(readFileSync(join(pub, path, 'index.md'), 'utf8'), /^# .+\n/);
+      assert.ok(llms.includes(`${s.url[l]}index.md`), `${s.url[l]} missing from llms.txt`);
+    }
+  }
+  assert.ok(existsSync(join(pub, 'og.png')) && existsSync(join(pub, 'llms-full.txt')));
+  assert.match(readFileSync(join(pub, 'de/index.html'), 'utf8'), /<meta property="og:image" content="https:\/\/swisslaw\.io\/og\.png">/);
+  for (const f of html(pub)) assert.doesNotMatch(readFileSync(f, 'utf8'), /Geprüft von|reviewedBy/, f);
+});

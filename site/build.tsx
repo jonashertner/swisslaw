@@ -1,7 +1,7 @@
 // Static build of swisslaw.io: every page as finished HTML, plus machine-readable files.
 //   VITE_CHANNEL=review  drafts included, noindex everywhere (review environment)
 //   default (public)     reviewed situations only, indexable
-// Output: dist/ (pages, /fonts, /assets, /data, sitemap.xml, robots.txt, llms.txt, _headers, _csp.json)
+// Output: dist/ (pages, index.md per guide, /fonts, /assets, /data, sitemap.xml, robots.txt, llms.txt, llms-full.txt, _headers, _csp.json)
 import { createHash } from 'node:crypto';
 import { copyFileSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -10,9 +10,10 @@ import type { ReactElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { build as esbuild } from 'esbuild';
 import { localText, SituationSchema, validateSituation, type KnowledgeLanguage, type Situation } from '../lib/swisslaw-chat/knowledge';
-import { AREAS, byImportance, LETTERS, sourceLabel, sourceUrl, visibleInChannel, withPublishedLanguages, type AreaId } from '../lib/swisslaw-chat/site';
+import { AREAS, BLOCK_ORDER, byImportance, LETTERS, sourceLabel, sourceUrl, visibleInChannel, withPublishedLanguages, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, FULL_DATE_LOCALE, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
+import { formatDate } from './format';
 import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, TopicsBody, type Ctx } from './templates';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -21,6 +22,7 @@ const ORIGIN = 'https://swisslaw.io';
 const REVIEW = process.env.VITE_CHANNEL === 'review';
 const CHANNEL = REVIEW ? 'review' : 'public';
 const LICENSE_URL = 'https://creativecommons.org/licenses/by/4.0/';
+const OG_IMAGE = `${ORIGIN}/og.png`;
 
 // --- knowledge --------------------------------------------------------------------
 const dir = join(ROOT, 'knowledge/situations');
@@ -47,6 +49,7 @@ copyFileSync(join(ROOT, 'node_modules/@fontsource-variable/source-sans-3/files/s
 copyFileSync(join(ROOT, 'node_modules/@fontsource-variable/source-serif-4/LICENSE'), join(OUT, 'fonts/LICENSE-source-serif-4.txt'));
 copyFileSync(join(ROOT, 'node_modules/@fontsource-variable/source-sans-3/LICENSE'), join(OUT, 'fonts/LICENSE-source-sans-3.txt'));
 copyFileSync(join(ROOT, 'site/favicon.svg'), join(OUT, 'favicon.svg'));
+copyFileSync(join(ROOT, 'site/og.png'), join(OUT, 'og.png'));
 
 const bundle = await esbuild({ entryPoints: [join(ROOT, 'site/client.ts')], bundle: true, minify: true, format: 'esm', target: 'es2020', write: false, legalComments: 'none', alias: { '@': ROOT } });
 const js = bundle.outputFiles[0].contents;
@@ -65,7 +68,7 @@ const rootScriptHash = `sha256-${createHash('sha256').update(ROOT_SCRIPT).digest
 // langs: the languages the page's content exists in (hreflang, sitemap); lastmod: when that content last changed.
 type PageSpec = { lang: KnowledgeLanguage; path: string; alt: (l: KnowledgeLanguage) => string; title: string; description: string; body: ReactElement;
   jsonld?: unknown; data?: Record<string, unknown>; script?: boolean; canonical?: string; contentLang?: KnowledgeLanguage; rootScript?: boolean;
-  langs?: readonly KnowledgeLanguage[]; lastmod?: string; noindex?: boolean; article?: boolean };
+  langs?: readonly KnowledgeLanguage[]; lastmod?: string; noindex?: boolean; article?: boolean; markdown?: string };
 const pages: { path: string; alts: Record<string, string>; langs: readonly KnowledgeLanguage[]; lastmod?: string; indexable: boolean }[] = [];
 // Search results show about 155 characters; longer descriptions are cut at a word boundary.
 const snippet = (s: string, max = 158) => s.length <= max ? s : `${s.slice(0, s.lastIndexOf(' ', max - 1)).replace(/[\s,;:–-]+$/, '')}…`;
@@ -91,8 +94,10 @@ function page(p: PageSpec): string {
     '<meta name="theme-color" content="#FCFCFA" media="(prefers-color-scheme: light)">',
     '<meta name="theme-color" content="#0F0F10" media="(prefers-color-scheme: dark)">',
     `<meta property="og:site_name" content="swisslaw.io"><meta property="og:title" content="${esc(p.title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:type" content="${p.article ? 'article' : 'website'}"><meta property="og:url" content="${ORIGIN}${canonical}"><meta property="og:locale" content="${FULL_DATE_LOCALE[p.contentLang ?? p.lang].replace('-', '_')}">`,
+    `<meta property="og:image" content="${OG_IMAGE}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="swisslaw.io – ${esc(st('intro', p.lang))}">`,
     p.article && p.lastmod ? `<meta property="article:modified_time" content="${p.lastmod}">` : '',
-    '<meta name="twitter:card" content="summary">',
+    '<meta name="twitter:card" content="summary_large_image">',
+    p.markdown ? `<link rel="alternate" type="text/markdown" href="${ORIGIN}${p.markdown}" title="Markdown">` : '',
     `<link rel="alternate" type="application/json" href="/data/index.json" title="swisslaw.io open data">`,
     `<style>${css}</style>`,
     p.rootScript ? `<script>${ROOT_SCRIPT}</script>` : '',
@@ -111,7 +116,9 @@ const newest = (items: Situation[]) => items.map(s => s.version).sort().at(-1);
 // Raw templates: the client fills {n}, {date} and {reason} itself.
 const clientText = (lang: KnowledgeLanguage) => Object.fromEntries(CLIENT_KEYS.map(k => [k, SITE_TEXT[k][lang] || SITE_TEXT[k].de]));
 const siteLd = { '@type': 'WebSite', name: 'swisslaw.io', url: ORIGIN, description: 'Free guidance on everyday Swiss law, to improve access to justice.', isBasedOn: { '@type': 'Dataset', name: 'OpenCaseLaw', url: 'https://opencaselaw.ch' } };
-const publisher = { '@type': 'Organization', name: 'swisslaw.io', url: ORIGIN };
+const publisher = { '@type': 'Organization', name: 'swisslaw.io', url: ORIGIN, logo: `${ORIGIN}/favicon.svg`, sameAs: ['https://github.com/jonashertner/swisslaw', 'https://opencaselaw.ch'] };
+// A guide not yet published in `lang` is served in German, so its canonical address is the German one.
+const canonicalPath = (s: Situation, lang: KnowledgeLanguage) => paths.situation(s.title[lang] ? lang : 'de', s.id);
 const dueLabel = new Map(LETTERS.map(l => [l.situation, l.id]));
 
 // --- pages --------------------------------------------------------------------------
@@ -127,7 +134,7 @@ for (const lang of LANGS) {
         title: { de: s.title.de, ...(s.title[lang] ? { [lang]: s.title[lang] } : {}) }, summary: { de: s.summary.de, ...(s.summary[lang] ? { [lang]: s.summary[lang] } : {}) }, examples: s.examples })) },
     jsonld: { '@context': 'https://schema.org', '@graph': [
       { ...siteLd, inLanguage: lang, potentialAction: { '@type': 'SearchAction', target: `${ORIGIN}${paths.home(lang)}?q={q}`, 'query-input': 'required name=q' } },
-      { '@type': 'ItemList', name: st('intro', lang), itemListElement: situations.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: `${ORIGIN}${paths.situation(lang, s.id)}`, name: localText(s.title, lang).text })) },
+      { '@type': 'ItemList', name: st('intro', lang), itemListElement: situations.map((s, i) => ({ '@type': 'ListItem', position: i + 1, url: `${ORIGIN}${canonicalPath(s, lang)}`, name: localText(s.title, lang).text })) },
     ] },
   });
   emit(indexSpec(paths.home(lang)));
@@ -137,7 +144,7 @@ for (const lang of LANGS) {
     emit({ lang, path: paths.area(lang, area), alt: l => paths.area(l, area), lastmod: newest(inArea(area)), title: title(AREA_TEXT[area][lang]), description: `${AREA_TEXT[area][lang]}: ${inArea(area).map(s => localText(s.title, lang).text).join(' · ')}`.slice(0, 300),
       body: <AreaBody ctx={{ lang, review: REVIEW }} area={area} items={inArea(area)} />,
       jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: AREA_TEXT[area][lang], url: `${ORIGIN}${paths.area(lang, area)}`, isPartOf: siteLd, inLanguage: lang,
-        hasPart: inArea(area).map(s => ({ '@type': 'Article', headline: localText(s.title, lang).text, url: `${ORIGIN}${paths.situation(lang, s.id)}` })) } });
+        hasPart: inArea(area).map(s => ({ '@type': 'Article', headline: localText(s.title, lang).text, url: `${ORIGIN}${canonicalPath(s, lang)}` })) } });
   }
 
   for (const s of situations) {
@@ -152,15 +159,15 @@ for (const lang of LANGS) {
       { '@type': 'ListItem', position: 2, name: AREA_TEXT[s.domain as AreaId]?.[lang] ?? s.domain, item: `${ORIGIN}${paths.area(lang, s.domain)}` },
       { '@type': 'ListItem', position: 3, name: headline } ] };
     emit({ lang, path: paths.situation(lang, s.id), alt: l => paths.situation(l, s.id), contentLang,
-      canonical: paths.situation(contentLang, s.id), langs: LANGS.filter(l => l === 'de' || s.title[l]), lastmod: s.version, article: true,
+      canonical: paths.situation(contentLang, s.id), markdown: `${paths.situation(contentLang, s.id)}index.md`, langs: LANGS.filter(l => l === 'de' || s.title[l]), lastmod: s.version, article: true,
       title: title(localText(s.title, lang).text), description: localText(s.summary, lang).text.slice(0, 300),
       body: <SituationBody ctx={{ lang, review: REVIEW }} s={s} />,
       script: true,
       data: { lang, channel: CHANNEL, locale: FULL_DATE_LOCALE[lang], text: hasDeadline ? clientText(lang) : { copied: SITE_TEXT.copied[lang] } },
       jsonld: { '@context': 'https://schema.org', '@graph': [crumbs, { '@type': 'Article', headline, description: localText(s.summary, lang).text,
-        inLanguage: contentLang, url: `${ORIGIN}${paths.situation(contentLang, s.id)}`, dateModified: s.version, datePublished: s.review.prepared_at,
+        inLanguage: contentLang, url: `${ORIGIN}${paths.situation(contentLang, s.id)}`, image: OG_IMAGE, dateModified: s.version, datePublished: s.review.prepared_at,
         isAccessibleForFree: true, license: LICENSE_URL, author: publisher, publisher, isPartOf: siteLd, about: { '@type': 'Thing', name: AREA_TEXT[s.domain]?.[lang] },
-        citation, ...(s.status === 'public' && s.review.reviewed_by ? { reviewedBy: { '@type': 'Person', name: s.review.reviewed_by }, lastReviewed: s.review.reviewed_at } : {}),
+        citation,
         mainEntityOfPage: `${ORIGIN}${paths.situation(contentLang, s.id)}`, identifier: s.id,
         encoding: { '@type': 'MediaObject', encodingFormat: 'application/json', contentUrl: `${ORIGIN}/data/situations/${s.id}.json` } }] } });
   }
@@ -195,7 +202,42 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
   `<url><loc>${ORIGIN}${p.path}</loc>${p.lastmod ? `<lastmod>${p.lastmod}</lastmod>` : ''}${[...p.langs.map(l => [l, p.alts[l]]), ['x-default', p.alts.de]].map(([l, href]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${ORIGIN}${href}"/>`).join('')}</url>`).join('\n')}\n</urlset>\n`;
 write('sitemap.xml', sitemap);
 write('robots.txt', REVIEW ? 'User-agent: *\nDisallow: /\n' : `User-agent: *\nAllow: /\n\nSitemap: ${ORIGIN}/sitemap.xml\n`);
-write('llms.txt', `# swisslaw.io\n\n> Free guidance on everyday Swiss law for residents, to improve access to justice: what applies, what to do, by when. Powered by OpenCaseLaw (https://opencaselaw.ch), the open collection of Swiss law and case law. German master text; French, Italian, Romansh and English interfaces. Every rule cites official sources (Fedlex, Federal Supreme Court via OpenCaseLaw). Guidance is reviewed by a Swiss lawyer before publication. Content licence: CC BY 4.0.\n\n## Open data\n\n- [Index of all situations](${ORIGIN}/data/index.json): ids, titles, status, versions, URLs\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting regime\n- Each situation as JSON: ${ORIGIN}/data/situations/<id>.json\n\n## Situations\n\n${situations.map(s => `- [${s.title.de}](${ORIGIN}${paths.situation('de', s.id)}): ${s.summary.de}`).join('\n')}\n\n## Notes for machines\n\n- Cite the situation URL and version. Quote statutes only from the official sources linked in each situation.\n- This is general legal information, not individual advice. Deadlines depend on the facts; see the deadline rules.\n`);
+// Markdown per guide and language: the same content as the page, all branches visible, each with its condition.
+function markdown(s: Situation, lang: KnowledgeLanguage): string {
+  const L = (t: Situation['title']) => localText(t, lang).text;
+  const facts = new Map(s.facts.map(f => [f.key, f]));
+  const cond = (when?: Record<string, string[]>) => when ? `\n\n*${st('mdWhen', lang)}: ${Object.entries(when).map(([k, vs]) => {
+    const f = facts.get(k)!; return `${L(f.question)} → ${vs.map(v => L(f.options.find(o => o.value === v)!.label)).join(' / ')}`; }).join('; ')}*` : '';
+  const link = (k: string) => `[${sourceLabel(s.sources[k], lang)}](${sourceUrl(s.sources[k], lang)})`;
+  const refs = (keys?: string[]) => keys?.length ? `\n\n${st('lbl_sources', lang)}: ${keys.map(link).join(', ')}` : '';
+  const out = [`# ${L(s.title)}`, L(s.summary), `${st('covers', lang)}: ${L(s.scope.covers)}`, `${st('excludes', lang)}: ${L(s.scope.excludes)}`];
+  if (s.facts.length) out.push(`## ${st('yourAnswers', lang)}`, s.facts.map(f => `- ${L(f.question)} (${f.options.map(o => L(o.label)).join(' / ')})`).join('\n'));
+  for (const kind of BLOCK_ORDER) {
+    const list = s.blocks.filter(b => b.kind === kind);
+    if (!list.length) continue;
+    out.push(`## ${st(`lbl_${kind}` as SiteKey, lang)}`, ...list.map((b, i) => `${kind === 'step' ? `**${i + 1}.** ` : ''}${L(b.text)}${cond(b.when)}${refs(b.sources)}`));
+  }
+  out.push(`## ${st('lbl_sources', lang)}`, Object.keys(s.sources).map(k => `- ${link(k)}`).join('\n'));
+  if (s.official_links.length) out.push(`## ${st('officialInfo', lang)}`, s.official_links.map(l => `- [${L(l.label)}](${l.url})`).join('\n'));
+  out.push('---', `${st('checkedAsOf', lang, { date: formatDate(s.version, lang, false) })} ${st('footerNotAdvice', lang)}`,
+    `${ORIGIN}${paths.situation(lang, s.id)} · swisslaw.io, ${s.id}, ${s.version} · CC BY 4.0`);
+  return `${out.join('\n\n')}\n`;
+}
+const published = (s: Situation) => LANGS.filter(l => l === 'de' || s.title[l]);
+for (const s of situations) for (const l of published(s)) write(`${paths.situation(l, s.id)}index.md`, markdown(s, l));
+
+const LANG_LABEL: Record<KnowledgeLanguage, string> = { de: 'German', fr: 'French', it: 'Italian', rm: 'Romansh', en: 'English' };
+const guideLine = (s: Situation, l: KnowledgeLanguage) => `- [${localText(s.title, l).text}](${ORIGIN}${paths.situation(l, s.id)}index.md): ${localText(s.summary, l).text}`;
+write('llms.txt', [
+  '# swisslaw.io',
+  `> Free, plain-language guidance on everyday Swiss law: what applies, what to do, and by when. ${situations.length} guides in ${areasWithContent.length} areas (${areasWithContent.map(a => AREA_TEXT[a].en.toLowerCase()).join(', ')}), in German, French, Italian, Romansh and English. Every rule cites its official source: federal law on Fedlex and court decisions verified in OpenCaseLaw (https://opencaselaw.ch). Guides are reviewed before publication. Licence: CC BY 4.0.`,
+  'Each guide asks a few questions about the reader\'s situation and shows only the parts that apply. The Markdown versions linked below contain every part, each with the condition under which it applies. General legal information, not individual advice.',
+  ...areasWithContent.map(a => `## ${AREA_TEXT[a].en}\n\n${inArea(a).map(s => guideLine(s, 'de')).join('\n')}`),
+  `## Other languages\n\n${(['fr', 'it', 'en', 'rm'] as const).map(l => `### ${LANG_LABEL[l]}\n\n${situations.filter(s => s.title[l]).map(s => guideLine(s, l)).join('\n')}`).join('\n\n')}`,
+  `## Open data\n\n- [All guides in full, German](${ORIGIN}/llms-full.txt)\n- [Index of all guides](${ORIGIN}/data/index.json): ids, titles, languages, versions, addresses\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting rules\n- Each guide as JSON: ${ORIGIN}/data/situations/<id>.json`,
+  '## Notes for machines\n\n- Cite the guide\'s URL and version. Quote statutes only from the official sources linked in each guide.\n- Deadlines depend on the facts, such as the date and manner of receipt; the website calculates them from the deadline rules.',
+].join('\n\n') + '\n');
+write('llms-full.txt', situations.map(s => markdown(s, 'de')).join('\n\n'));
 
 // --- headers ----------------------------------------------------------------------------
 const csp = `default-src 'none'; script-src 'self' '${rootScriptHash}'; style-src '${cssHash}'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'`;
@@ -205,7 +247,9 @@ write('_headers', [
   ...(REVIEW ? ['  X-Robots-Tag: noindex, nofollow'] : []),
   '/assets/*', '  Cache-Control: public, max-age=31536000, immutable',
   '/fonts/*', '  Cache-Control: public, max-age=31536000, immutable',
-  '/data/*', '  Access-Control-Allow-Origin: *', '',
+  '/data/*', '  Access-Control-Allow-Origin: *',
+  '/:lang/:area/:slug/index.md', '  Content-Type: text/markdown; charset=utf-8', '  Access-Control-Allow-Origin: *',
+  '/llms-full.txt', '  Access-Control-Allow-Origin: *', '',
 ].join('\n'));
 
 const total = pages.length;

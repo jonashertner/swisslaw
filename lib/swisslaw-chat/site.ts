@@ -1,6 +1,7 @@
 // Site model: life areas, the letter board, search and shareable fact state.
 // Pure functions only (tested under Node); the Vite-specific loading lives in site-data.ts.
-import { KNOWLEDGE_LANGUAGES, type KnowledgeLanguage, type Situation, type SituationFacts } from './knowledge';
+import { KNOWLEDGE_LANGUAGES, type KnowledgeLanguage } from './languages';
+import type { Situation, SituationFacts } from './knowledge';
 
 export type Channel = 'public' | 'review';
 /** Public builds show only reviewed situations; the access-restricted review build shows drafts too. */
