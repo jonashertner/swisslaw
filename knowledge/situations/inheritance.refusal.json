@@ -1,0 +1,525 @@
+{
+  "schema": 1,
+  "id": "inheritance.refusal",
+  "domain": "inheritance",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Eine Erbschaft ausschlagen"
+  },
+  "summary": {
+    "de": "Wenn eine nahestehende Person gestorben ist und die Erbschaft überschuldet sein könnte, können Sie als Erbin oder Erbe die Erbschaft ausschlagen. Dieser Leitfaden erklärt Ihr Recht dazu, die Frist, das Vorgehen bei der zuständigen Behörde und worauf Sie unbedingt achten müssen, damit Sie dieses Recht nicht verlieren."
+  },
+  "examples": {
+    "de": [
+      "Mein Vater ist gestorben und hatte wohl nur Schulden – muss ich das erben?",
+      "Kann ich die Erbschaft meiner Tante ausschlagen, wenn ich nicht weiss, was sie hinterlassen hat?",
+      "Wie lange habe ich Zeit, um eine Erbschaft auszuschlagen?",
+      "Darf ich schon etwas aus der Wohnung meiner verstorbenen Mutter holen, bevor ich mich entscheide?",
+      "Was passiert mit meinen Kindern, wenn ich die Erbschaft ausschlage?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Das Recht, eine Ihnen zugefallene Erbschaft als gesetzliche oder im Testament bzw. Erbvertrag eingesetzte Erbin oder Erbe auszuschlagen: die 3-Monats-Frist und ihr Beginn, das Vorgehen bei der zuständigen Behörde, was als verbotene Einmischung gilt, was mit Ihrem Anteil geschieht, was bei minderjährigen Kindern zu beachten ist, und was mit Lebensversicherung, AHV-Rente und Pensionskasse passiert."
+    },
+    "excludes": {
+      "de": "Nicht im Detail behandelt: das öffentliche Inventar und die amtliche Liquidation einer überschuldeten Erbschaft (dazu gibt es einen eigenen Leitfaden zu Nachlassschulden), das Verfassen eines Testaments, Pflichtteile, Erbschaftssteuern sowie besondere Fragen bei Geschäftsnachfolge oder Erbschaften mit Auslandsbezug."
+    }
+  },
+  "facts": [
+    {
+      "key": "relationship",
+      "question": {
+        "de": "In welchem Verhältnis standen Sie zur verstorbenen Person?"
+      },
+      "options": [
+        {
+          "value": "child",
+          "label": {
+            "de": "Kind der verstorbenen Person"
+          }
+        },
+        {
+          "value": "spouse-partner",
+          "label": {
+            "de": "Ehepartner/in oder eingetragene/r Partner/in"
+          }
+        },
+        {
+          "value": "other-relative",
+          "label": {
+            "de": "andere Verwandtschaft (z. B. Geschwister, Eltern, Nichte/Neffe)"
+          }
+        },
+        {
+          "value": "will-named",
+          "label": {
+            "de": "im Testament oder Erbvertrag als Erbin/Erbe eingesetzt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht / spielt hier keine Rolle"
+          }
+        }
+      ]
+    },
+    {
+      "key": "time_since_death",
+      "question": {
+        "de": "Wie lange ist der Tod her, beziehungsweise wie lange wissen Sie schon davon?"
+      },
+      "options": [
+        {
+          "value": "under-1-month",
+          "label": {
+            "de": "Weniger als 1 Monat"
+          }
+        },
+        {
+          "value": "one-to-3-months",
+          "label": {
+            "de": "1 bis 3 Monate"
+          }
+        },
+        {
+          "value": "over-3-months",
+          "label": {
+            "de": "Mehr als 3 Monate"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "handled_estate_assets",
+      "question": {
+        "de": "Haben Sie bereits Geld oder Gegenstände aus dem Nachlass genommen, verkauft, damit Schulden bezahlt oder sich sonst wie eine Erbin oder ein Erbe verhalten?"
+      },
+      "help": {
+        "de": "Gemeint ist mehr als nur das Nötigste zur Sicherung. Die Wohnung abschliessen oder die Post nachsenden lassen zählt nicht dazu."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht / bin mir nicht sicher"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children_would_inherit",
+      "question": {
+        "de": "Falls Sie ausschlagen würden: Haben Sie eigene Kinder, die dann an Ihre Stelle als Erbin oder Erbe treten würden?"
+      },
+      "options": [
+        {
+          "value": "yes-adult",
+          "label": {
+            "de": "Ja, sie sind volljährig"
+          }
+        },
+        {
+          "value": "yes-minor",
+          "label": {
+            "de": "Ja, mindestens eines ist minderjährig"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "estate_has_business_or_property",
+      "question": {
+        "de": "Gehören ein Geschäft/eine Firma oder eine Liegenschaft (Haus, Wohnung, Grundstück) zum Nachlass?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "right-to-refuse",
+      "kind": "rule",
+      "text": {
+        "de": "Als gesetzliche Erbin, gesetzlicher Erbe oder als im Testament oder Erbvertrag eingesetzte Person haben Sie das Recht, eine Erbschaft, die Ihnen zufällt, auszuschlagen. Ausschlagen bedeutet: Sie verzichten vollständig auf das Erbe – sowohl auf das Vermögen als auch auf die Schulden der verstorbenen Person. Es ist freiwillig; ohne Ihr Zutun gilt die Erbschaft nach Ablauf der Frist grundsätzlich als angenommen."
+      },
+      "sources": [
+        "zgb-566"
+      ]
+    },
+    {
+      "id": "presumed-refusal-insolvency",
+      "kind": "rule",
+      "text": {
+        "de": "War die Zahlungsunfähigkeit der verstorbenen Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig, gilt die Ausschlagung von Gesetzes wegen als vermutet. Ob diese Voraussetzung erfüllt ist, lässt sich oft nicht sicher sagen; erklären Sie die Ausschlagung deshalb sicherheitshalber trotzdem ausdrücklich und fristgerecht. Vorsicht: Diese Vermutung schützt Sie nicht, wenn Sie sich trotzdem in die Erbschaft einmischen (siehe unten) – dann gilt die Erbschaft als angenommen."
+      },
+      "sources": [
+        "zgb-566"
+      ]
+    },
+    {
+      "id": "three-month-deadline",
+      "kind": "warning",
+      "text": {
+        "de": "Für die Ausschlagung haben Sie 3 Monate Zeit. Der Fristbeginn ist unterschiedlich: Als gesetzliche Erbin oder gesetzlicher Erbe beginnt die Frist, sobald Sie vom Tod erfahren haben. Als im Testament oder Erbvertrag eingesetzte Person beginnt sie erst, wenn Ihnen die Behörde die letztwillige Verfügung amtlich mitgeteilt hat. Wurde zur Sicherung ein amtliches Inventar aufgenommen, beginnt die Frist für alle Erbinnen und Erben erst, sobald die Behörde dessen Abschluss mitgeteilt hat. Verpassen Sie die Frist, gilt die Erbschaft als angenommen."
+      },
+      "sources": [
+        "zgb-567",
+        "zgb-568"
+      ]
+    },
+    {
+      "id": "deadline-extension",
+      "kind": "warning",
+      "text": {
+        "de": "Reicht die Zeit nicht, können Sie bei der zuständigen Behörde aus wichtigen Gründen eine Fristverlängerung oder eine neue Frist beantragen – zum Beispiel, wenn Sie sich noch keinen Überblick über Vermögen und Schulden verschaffen konnten. Stellen Sie dieses Gesuch rechtzeitig vor Ablauf der ursprünglichen Frist bei der Behörde am letzten Wohnsitz der verstorbenen Person."
+      },
+      "sources": [
+        "zgb-576"
+      ]
+    },
+    {
+      "id": "how-to-refuse",
+      "kind": "step",
+      "text": {
+        "de": "So schlagen Sie aus: Erkundigen Sie sich bei der Gemeinde oder online, welche Behörde am letzten Wohnsitz der verstorbenen Person für Erbschaften zuständig ist (je nach Kanton z. B. Bezirksgericht, Erbschaftsamt oder Notariat). Erklären Sie dort mündlich oder schriftlich, dass Sie die Erbschaft ausschlagen. Die Erklärung muss vorbehaltlos und ohne Bedingungen erfolgen – ein Teilausschlag oder eine Ausschlagung unter Vorbehalt ist nicht möglich. Die Behörde hält Ihre Ausschlagung in einem Protokoll fest. Lassen Sie sich eine schriftliche Bestätigung oder eine Kopie des Protokolleintrags geben und bewahren Sie diese auf."
+      },
+      "sources": [
+        "zgb-570"
+      ]
+    },
+    {
+      "id": "intermeddling-warning",
+      "kind": "warning",
+      "text": {
+        "de": "Wichtig: Wenn Sie sich vor Ablauf der Frist in die Erbschaft einmischen, verlieren Sie das Recht, sie auszuschlagen – auch wenn die Frist noch läuft, und auch wenn eigentlich eine Ausschlagung vermutet würde. Erlaubt ist die blosse Verwaltung: Dinge, die nötig sind, damit nichts verloren geht oder verdirbt, zum Beispiel die Wohnung sichern, die Post nachsenden lassen, dringende Reparaturen veranlassen oder verderbliche Werte rechtzeitig verkaufen. Nicht erlaubt ist, was darüber hinausgeht: Geld oder Gegenstände aus dem Nachlass an sich nehmen, verkaufen oder für sich verwenden, Vermögenswerte verstecken oder sich sonst endgültig wie eine Erbin oder ein Erbe verhalten. Besondere Vorsicht gilt beim Bezahlen von Schulden der verstorbenen Person: Schon das kann als Einmischung gelten. Wo die Grenze liegt, entscheidet sich im Einzelfall; allein das Beantragen eines Erbscheins reicht für sich genommen nicht aus, um das Ausschlagungsrecht zu verlieren. Im Zweifel: Fassen Sie nichts aus dem Nachlass an und lassen Sie sich beraten, bevor Sie handeln."
+      },
+      "sources": [
+        "zgb-571",
+        "bge-133-iii-1"
+      ]
+    },
+    {
+      "id": "effects-of-refusal",
+      "kind": "rule",
+      "text": {
+        "de": "Schlagen Sie aus und gibt es keine letztwillige Verfügung, geht Ihr Anteil so weiter, wie wenn Sie den Erbfall nicht erlebt hätten – meist erben dann Ihre eigenen Kinder an Ihrer Stelle; haben Sie keine, geht Ihr Anteil an die übrigen gesetzlichen Erbinnen und Erben. Gibt es ein Testament oder einen Erbvertrag und schlägt eine darin eingesetzte Person aus, geht ihr Anteil an die nächsten gesetzlichen Erbinnen und Erben der verstorbenen Person, sofern aus dem Testament kein anderer Wille hervorgeht. Diese Personen erben dann selbst und müssen unter Umständen ebenfalls innert eigener Frist entscheiden, ob sie annehmen oder ausschlagen wollen."
+      },
+      "sources": [
+        "zgb-572"
+      ]
+    },
+    {
+      "id": "minors-must-refuse-too",
+      "kind": "warning",
+      "text": {
+        "de": "Minderjährige Kinder können eine Erbschaft nicht selbst ausschlagen – das übernimmt für sie die gesetzliche Vertretung, in der Regel die Eltern. Besteht dabei ein Interessenkonflikt (zum Beispiel, weil ein Elternteil selbst zur gleichen Erbengemeinschaft gehört), entfällt die Vertretungsbefugnis der Eltern in dieser Sache von Gesetzes wegen, auch wenn noch keine Beiständin oder kein Beistand ernannt wurde. Die Kindes- und Erwachsenenschutzbehörde (KESB) wird dann tätig. Werden durch eine Ausschlagung minderjährige Kinder zu Erbinnen oder Erben, klären Sie frühzeitig mit der KESB Ihres Wohnortes ab, wer für sie handeln kann und ob eine behördliche Zustimmung nötig ist – die Frist läuft weiter."
+      },
+      "sources": [
+        "zgb-306",
+        "zh-lf240049"
+      ],
+      "when": {
+        "children_would_inherit": [
+          "yes-minor",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "all-refuse-bankruptcy-liquidation",
+      "kind": "rule",
+      "text": {
+        "de": "Schlagen alle nächsten gesetzlichen Erbinnen und Erben die Erbschaft aus, übernimmt das Konkursamt die Liquidation: Es begleicht die Schulden aus dem Nachlassvermögen. Bleibt danach etwas übrig, erhalten es die Personen, die eigentlich erben würden – so, wie wenn niemand ausgeschlagen hätte."
+      },
+      "sources": [
+        "zgb-573"
+      ]
+    },
+    {
+      "id": "creditor-challenge",
+      "kind": "rule",
+      "text": {
+        "de": "Schlägt eine überschuldete Person die Erbschaft nur aus, um sie vor ihren eigenen Gläubigern in Sicherheit zu bringen, können diese Gläubiger oder die Konkursverwaltung die Ausschlagung innert 6 Monaten anfechten, wenn ihre Forderungen sonst nicht sichergestellt sind."
+      },
+      "sources": [
+        "zgb-578"
+      ]
+    },
+    {
+      "id": "insurance-and-pensions-outside-estate",
+      "kind": "rule",
+      "text": {
+        "de": "Eine Lebensversicherung mit einer begünstigten Person fällt dieser Person direkt zu – auch wenn sie die Erbschaft ausschlägt –, sofern begünstigt der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner, erbberechtigte Nachkommen, Eltern, Grosseltern oder Geschwister sind. Ebenso sind die Witwen- oder Witwerrente der AHV und die Hinterlassenenleistungen der Pensionskasse ein eigener gesetzlicher Anspruch der hinterbliebenen Person: Die Voraussetzungen dafür (z. B. eigene Kinder oder Ehedauer) betreffen nur sie selbst und nicht die Erbschaft. Eine Ausschlagung ändert daran nichts."
+      },
+      "sources": [
+        "vvg-85",
+        "ahvg-23",
+        "bvg-19"
+      ]
+    },
+    {
+      "id": "debt-enforcement-standstill",
+      "kind": "rule",
+      "text": {
+        "de": "Für Schulden der verstorbenen Person ruht die Betreibung: während der zwei Wochen nach dem Tod und während der ganzen Überlegungsfrist für Annahme oder Ausschlagung der Erbschaft. Gläubiger können in dieser Zeit also nicht weiter gegen den Nachlass vorgehen. Eine Betreibung, die schon zu Lebzeiten eingeleitet wurde, kann danach gegen die Erbschaft fortgesetzt werden, gegen die Erbinnen und Erben selbst nur in besonderen Fällen, etwa bei einer Betreibung auf Pfandverwertung."
+      },
+      "sources": [
+        "schkg-59"
+      ]
+    },
+    {
+      "id": "escalate-time-critical",
+      "kind": "escalate",
+      "when": {
+        "time_since_death": [
+          "one-to-3-months",
+          "over-3-months",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn die 3-Monats-Frist knapp wird oder schon abgelaufen sein könnte, warten Sie nicht: Wenden Sie sich sofort an die zuständige Behörde an Ihrem Wohnort oder an eine Rechtsberatung, um zu klären, ob die Frist noch läuft, ob ein amtliches Inventar sie neu auslöst oder ob eine Fristverlängerung aus wichtigen Gründen möglich ist."
+      }
+    },
+    {
+      "id": "escalate-intermeddling-doubt",
+      "kind": "escalate",
+      "when": {
+        "handled_estate_assets": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie bereits etwas aus dem Nachlass genommen, verkauft, bezahlt oder sonst gehandelt, oder sind Sie sich nicht sicher, ob das als Einmischung gilt? Holen Sie sich jetzt Rat, bevor Sie weiterhandeln oder eine Ausschlagung erklären – ist das Ausschlagungsrecht einmal durch Einmischung verwirkt, lässt sich das nicht mehr rückgängig machen."
+      }
+    },
+    {
+      "id": "escalate-business-or-property",
+      "kind": "escalate",
+      "when": {
+        "estate_has_business_or_property": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gehört ein Geschäft, eine Firma oder eine Liegenschaft zum Nachlass? Solche Vermögenswerte sind oft schwierig zu verwalten, ohne sich schon einzumischen, und die Entscheidung hat weitreichende Folgen. Lassen Sie sich in diesem Fall persönlich beraten."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Beratung kostet nicht immer etwas: Viele Gemeinden und Kantone bieten kostenlose oder günstige Rechtsauskünfte an, ebenso die Notariate mit öffentlichen Beratungstagen. Für ältere Menschen berät Pro Senectute kostenlos, unter anderem zu Erbschaftsfragen. Geht es um minderjährige Kinder oder um Erwachsene unter Beistandschaft, ist die Kindes- und Erwachsenenschutzbehörde (KESB) Ihres Wohnortes die richtige Anlaufstelle."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-566": {
+      "type": "statute",
+      "sr": "210",
+      "article": "566",
+      "label": "ZGB · Art. 566",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_566",
+      "sha256": "2d827406f761279f7b5d5cc5c58fdd2a19e223046468bf138cd3af4ed8477122"
+    },
+    "zgb-567": {
+      "type": "statute",
+      "sr": "210",
+      "article": "567",
+      "label": "ZGB · Art. 567",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_567",
+      "sha256": "9fd5a5a701aa9b5bcd5b3fed40e382c181ef92a3fe21ec946b20240187f69b9a"
+    },
+    "zgb-568": {
+      "type": "statute",
+      "sr": "210",
+      "article": "568",
+      "label": "ZGB · Art. 568",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_568",
+      "sha256": "400cb510703a3fbb06df7fcf24b8a44051e1ec38efacddbd86bfcdc224601d78"
+    },
+    "zgb-570": {
+      "type": "statute",
+      "sr": "210",
+      "article": "570",
+      "label": "ZGB · Art. 570",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_570",
+      "sha256": "a5defd5a031fc142b3461f344987a96a3a364105b7d1a8d53e68fed9ec73f153"
+    },
+    "zgb-571": {
+      "type": "statute",
+      "sr": "210",
+      "article": "571",
+      "label": "ZGB · Art. 571",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_571",
+      "sha256": "ecac1fe104b56866e924b29fa082335fa721343ff78cc9e82993efe6a70094bd"
+    },
+    "zgb-572": {
+      "type": "statute",
+      "sr": "210",
+      "article": "572",
+      "label": "ZGB · Art. 572",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_572",
+      "sha256": "102a6f258e746fe2b02291a1fa29c5d69fa8bd51800020cee9af24a8f738a6e7"
+    },
+    "zgb-573": {
+      "type": "statute",
+      "sr": "210",
+      "article": "573",
+      "label": "ZGB · Art. 573",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_573",
+      "sha256": "bda0b9b0b8d04f04b21112bdb7f1a05e1569f1d295cd9da18347acac10a2763d"
+    },
+    "zgb-576": {
+      "type": "statute",
+      "sr": "210",
+      "article": "576",
+      "label": "ZGB · Art. 576",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_576",
+      "sha256": "265a301075805e30d4aa9efcb932fc16cf174cbe4b0f48801eaf1cbbed6d60dc"
+    },
+    "zgb-578": {
+      "type": "statute",
+      "sr": "210",
+      "article": "578",
+      "label": "ZGB · Art. 578",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_578",
+      "sha256": "3d2a5dc2ff7142463f80e02a6cabe33f4d10566c2287c0a42fa602b4609a4b17"
+    },
+    "zgb-306": {
+      "type": "statute",
+      "sr": "210",
+      "article": "306",
+      "label": "ZGB · Art. 306",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_306",
+      "sha256": "d67bf3db6b8a25c40e7fae661ed0217ada03ac41c2ab9ca0d9ac921617987c67"
+    },
+    "schkg-59": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "59",
+      "label": "SchKG · Art. 59",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_59",
+      "sha256": "18d5f69eabf490c35ea8e4f5bdc35df57d7c7c3c470c51f57772cf4147d9565c"
+    },
+    "vvg-85": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "85",
+      "label": "VVG · Art. 85",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_85",
+      "sha256": "bac55b2fe19df274cd12bec53a42964187e85262fbcaeb07348a6ac9203b2cc1"
+    },
+    "ahvg-23": {
+      "type": "statute",
+      "sr": "831.10",
+      "article": "23",
+      "label": "AHVG · Art. 23",
+      "url": "https://www.fedlex.admin.ch/eli/cc/63/837_843_843/de#art_23",
+      "sha256": "c9815970922c5372614f6c14aff98291c4bf0b806e91f151933d4adc2f2d107a"
+    },
+    "bvg-19": {
+      "type": "statute",
+      "sr": "831.40",
+      "article": "19",
+      "label": "BVG · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/797_797_797/de#art_19",
+      "sha256": "440ec5484a4769f3768cf86326d9f67ddd288cb18cb72d43b410d985ea2f6f7a"
+    },
+    "bge-133-iii-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_133_III_1",
+      "citation": "BGE 133 III 1",
+      "e": "3.3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_133_III_1#e-3-3-1"
+    },
+    "zh-lf240049": {
+      "type": "decision",
+      "decision_id": "zh_obergericht_LF240049",
+      "citation": "Obergericht ZH LF240049 vom 27. Juni 2024",
+      "e": "1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/zh_obergericht_LF240049#e-1-2"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Zuständigkeit und Ablauf der Ausschlagung – Gerichte Kanton Zürich (Beispiel)"
+      },
+      "url": "https://www.gerichte-zh.ch/de/themen/erbschaft/erbgangssicherung/ausschlagung"
+    },
+    {
+      "label": {
+        "de": "Erbschaftsausschlagung – Amtsnotariate Kanton St. Gallen (Beispiel)"
+      },
+      "url": "https://www.sg.ch/recht/handelsregister-notariate/amtsnotariate/erben/erbschaftsausschlagung.html"
+    },
+    {
+      "label": {
+        "de": "Pro Senectute – kostenlose Beratung"
+      },
+      "url": "https://www.prosenectute.ch/de/dienstleistungen/beratung.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

@@ -1,0 +1,685 @@
+{
+  "schema": 1,
+  "id": "inheritance.debts",
+  "domain": "inheritance",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Schulden der verstorbenen Person"
+  },
+  "summary": {
+    "de": "Stirbt eine Ihnen nahestehende Person, erben Sie nicht nur deren Vermögen, sondern automatisch auch deren Schulden – diese werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch und mit Ihrem ganzen eigenen Vermögen. Sie können das vermeiden: durch Ausschlagung innert drei Monaten, durch ein öffentliches Inventar, das Ihre Haftung auf die dort verzeichneten Schulden beschränkt, oder durch amtliche Liquidation, bei der Sie gar nicht persönlich haften. Verschaffen Sie sich zuerst einen Überblick über Vermögen und Schulden, und mischen Sie sich bis zu Ihrem Entscheid nicht in die Erbschaft ein. Für all diese Schritte laufen kurze Fristen."
+  },
+  "examples": {
+    "de": [
+      "Meine Mutter ist gestorben. Muss ich jetzt ihre Schulden bezahlen?",
+      "Wie finde ich heraus, ob der Nachlass überschuldet ist?",
+      "Was ist ein öffentliches Inventar und wozu brauche ich es?",
+      "Mein Vater hatte Schulden bei der Bank. Haften wir Kinder jetzt dafür?",
+      "Muss ich als Ehefrau für die Schulden meines verstorbenen Mannes aufkommen?",
+      "Chan ich s'Erbe usschlah, wenn ich nid weiss, öb Schulde da sind?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die Haftung der Erbinnen und Erben für die Schulden einer verstorbenen Person: was mit dem Tod automatisch übergeht, wie Sie herausfinden, ob eine Erbschaft überschuldet ist, das öffentliche Inventar, die amtliche Liquidation, die Ausschlagung als Option sowie der Vollstreckungsschutz in den ersten Wochen nach dem Tod."
+    },
+    "excludes": {
+      "de": "Wie Sie eine Erbschaft im Einzelnen ausschlagen – Form, Frist im Detail, Einmischung und die Folgen für Ihre eigenen Kinder – behandelt der eigene Leitfaden zur Erbausschlagung. Nicht behandelt werden die Berechnung von Pflichtteilen, die Teilung der Erbschaft unter den Erbinnen und Erben, das internationale Erbrecht sowie die Erbschafts- und Schenkungssteuer."
+    }
+  },
+  "facts": [
+    {
+      "key": "relationship",
+      "question": {
+        "de": "In welchem Verhältnis stehen Sie zur verstorbenen Person?"
+      },
+      "options": [
+        {
+          "value": "spouse-partner",
+          "label": {
+            "de": "Ehepartner/in oder eingetragene Partnerin/eingetragener Partner"
+          }
+        },
+        {
+          "value": "child",
+          "label": {
+            "de": "Kind der verstorbenen Person"
+          }
+        },
+        {
+          "value": "other-relative",
+          "label": {
+            "de": "Andere/r Verwandte/r"
+          }
+        },
+        {
+          "value": "will-named",
+          "label": {
+            "de": "Im Testament als Erbin oder Erbe eingesetzt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "debts_known",
+      "question": {
+        "de": "Wissen Sie, ob der Nachlass Schulden hat?"
+      },
+      "options": [
+        {
+          "value": "more-debts",
+          "label": {
+            "de": "Es gibt eindeutig mehr Schulden als Vermögen"
+          }
+        },
+        {
+          "value": "unclear",
+          "label": {
+            "de": "Unklar, auch nach Prüfung nicht sicher"
+          }
+        },
+        {
+          "value": "probably-none",
+          "label": {
+            "de": "Vermutlich keine oder nur wenig Schulden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "months_since_death",
+      "question": {
+        "de": "Wie lange ist der Todesfall her?"
+      },
+      "options": [
+        {
+          "value": "under-1-month",
+          "label": {
+            "de": "Weniger als 1 Monat"
+          }
+        },
+        {
+          "value": "one-to-3-months",
+          "label": {
+            "de": "1 bis 3 Monate"
+          }
+        },
+        {
+          "value": "over-3-months",
+          "label": {
+            "de": "Mehr als 3 Monate"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "already_acted",
+      "question": {
+        "de": "Haben Sie bereits etwas aus dem Nachlass genommen oder für ihn bezahlt?"
+      },
+      "help": {
+        "de": "Zum Beispiel Geld vom Konto der verstorbenen Person bezogen, Rechnungen beglichen, die über dringende Verwaltung hinausgehen, oder Gegenstände mitgenommen."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht genau"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "universal-succession",
+      "kind": "rule",
+      "text": {
+        "de": "Stirbt ein Mensch, geht sein gesamtes Vermögen von Gesetzes wegen auf die Erbinnen und Erben über – automatisch und als Ganzes, ohne dass Sie etwas dafür tun müssen. Das gilt nicht nur für Guthaben, Grundstücke und Gegenstände, sondern auch für die Schulden der verstorbenen Person: Sie werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch: Jede Gläubigerin und jeder Gläubiger kann die ganze Schuld von einer einzigen Person unter Ihnen verlangen, auch wenn diese Person nur einen kleinen Erbteil hat. Sie haften dabei mit Ihrem gesamten eigenen Vermögen, nicht nur mit dem, was Sie geerbt haben. Das lässt sich nur vermeiden, wenn Sie ausschlagen, die Erbschaft unter öffentlichem Inventar annehmen oder die amtliche Liquidation verlangen."
+      },
+      "sources": [
+        "zgb-560",
+        "zgb-603",
+        "bge-131-iii-49"
+      ]
+    },
+    {
+      "id": "spouse-not-automatic",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "spouse-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Waren Sie mit der verstorbenen Person verheiratet oder durch eine eingetragene Partnerschaft verbunden, haften Sie nicht schon deshalb für deren Schulden. Massgebend ist allein, ob Sie Erbin oder Erbe sind. Eine Ausnahme betrifft laufende Bedürfnisse der Familie: Hat Ihr Ehepartner oder Ihre Ehepartnerin zu Lebzeiten die eheliche Gemeinschaft für solche laufenden Bedürfnisse vertreten und dabei eine Schuld eingegangen, können Sie dafür bereits als Ehepartnerin oder Ehepartner persönlich und solidarisch mitverpflichtet sein – unabhängig von einer Erbschaft. Für alle anderen Schulden der verstorbenen Person gilt: Sie haften nur, wenn und weil Sie erben."
+      },
+      "sources": [
+        "zgb-166",
+        "zgb-603"
+      ]
+    },
+    {
+      "id": "outside-the-estate",
+      "kind": "rule",
+      "text": {
+        "de": "Nicht alles, was bei Ihrer Familie ankommt, gehört zum Nachlass, für den Sie haften. Eine Lebensversicherung, bei der die verstorbene Person ausdrücklich eine begünstigte Person bezeichnet hat, begründet für diese ein eigenes Recht auf die Versicherungsleistung; der Anspruch gehört nicht zur Erbschaft. Ist die begünstigte Person der Ehegatte, die eingetragene Partnerin, der eingetragene Partner oder ein Nachkomme, ist dieser Anspruch zudem vor dem Zugriff der Gläubigerinnen und Gläubiger der verstorbenen Person geschützt. Hinterlassenenleistungen der Pensionskasse gehen nach einer eigenen, reglementarischen Begünstigtenordnung an bestimmte Personen und folgen nicht den Erbregeln."
+      },
+      "sources": [
+        "vvg-76",
+        "vvg-78",
+        "vvg-80",
+        "bvg-20a"
+      ]
+    },
+    {
+      "id": "finding-out",
+      "kind": "step",
+      "text": {
+        "de": "Verschaffen Sie sich zuerst einen Überblick, bevor Sie entscheiden. Sichten Sie die Post der verstorbenen Person, insbesondere Rechnungen, Mahnungen und Schreiben von Betreibungsämtern. Fragen Sie bei ihrer Bank oder ihren Banken Kontoauszüge und den Vermögensstand an. Das zuständige Steueramt kann Auskunft über die letzten Steuerveranlagungen geben. Beim Betreibungsamt am letzten Wohnsitz der verstorbenen Person können Sie als Erbin oder Erbe einen Betreibungsregisterauszug der verstorbenen Person verlangen; mehrere offene Betreibungen oder Verlustscheine sind ein klares Warnzeichen für eine überschuldete Erbschaft. Bleiben Zweifel, verlangen Sie fristgerecht ein öffentliches Inventar, statt sich vorschnell festzulegen."
+      }
+    },
+    {
+      "id": "dont-intermeddle",
+      "kind": "warning",
+      "text": {
+        "de": "Solange Sie sich nicht entschieden haben, mischen Sie sich nicht in die Erbschaft ein. Wer sich in die Angelegenheiten der Erbschaft einmischt, Handlungen vornimmt, die über die blosse Verwaltung und die Weiterführung der laufenden Geschäfte hinausgehen, oder Erbschaftssachen an sich nimmt oder verheimlicht, verliert das Recht, die Erbschaft später auszuschlagen. Handlungen, die für die blosse Verwaltung nötig sind, etwa die Wohnung abschliessen oder die Post sichten, schaden nicht. Wo die Grenze liegt, entscheidet sich im Einzelfall; bezahlen Sie Schulden der verstorbenen Person im Zweifel erst, wenn Sie sich entschieden haben. Auch das blosse Einholen einer Erbenbescheinigung gilt für sich allein nicht als Einmischung. Vorsicht ist geboten bei Klagen, der Verwertung von Nachlassgegenständen oder der Mitnahme von Wertsachen für sich selbst."
+      },
+      "sources": [
+        "zgb-571",
+        "bge-133-iii-1"
+      ]
+    },
+    {
+      "id": "acted-already",
+      "kind": "warning",
+      "when": {
+        "already_acted": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie bereits Geld vom Konto der verstorbenen Person bezogen, Rechnungen für die Erbschaft bezahlt, die über dringende Verwaltung hinausgehen, oder Gegenstände der Erbschaft für sich behalten, kann das als Einmischung gelten. Dann können Sie nicht mehr ausschlagen und haften vorbehaltlos für die Schulden der Erbschaft. Ob eine bestimmte Handlung noch als blosse Verwaltung durchgeht, hängt vom Einzelfall ab. Lassen Sie das im Zweifel rasch prüfen, bevor Sie weitere Schritte unternehmen."
+      },
+      "sources": [
+        "zgb-571"
+      ]
+    },
+    {
+      "id": "refusal-deadline",
+      "kind": "warning",
+      "text": {
+        "de": "Sie können die Erbschaft ausschlagen. Dafür haben Sie drei Monate Zeit. Die Frist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald Sie vom Tod erfahren haben, und für im Testament eingesetzte Personen, sobald Ihnen die amtliche Mitteilung der letztwilligen Verfügung zugegangen ist. War die verstorbene Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig zahlungsunfähig, wird Ihre Ausschlagung von Gesetzes wegen vermutet. Wie Sie ausschlagen, welche Form das braucht und was eine Ausschlagung für Ihre eigenen Kinder bedeutet, erklärt der Leitfaden zur Erbausschlagung."
+      },
+      "sources": [
+        "zgb-566",
+        "zgb-567"
+      ]
+    },
+    {
+      "id": "late-warning",
+      "kind": "warning",
+      "when": {
+        "months_since_death": [
+          "over-3-months"
+        ]
+      },
+      "text": {
+        "de": "Sind seit dem Tod bereits mehr als drei Monate vergangen und wussten Sie schon damals davon, ist die Frist zur Ausschlagung in der Regel bereits abgelaufen. Ohne rechtzeitige Ausschlagung gilt die Erbschaft grundsätzlich als vorbehaltlos angenommen, und Sie haften wie jede Erbin oder jeder Erbe für deren Schulden. Nur aus wichtigen Gründen kann Ihnen die zuständige Behörde noch eine neue Frist ansetzen oder die Frist verlängern. Prüfen Sie das umgehend und holen Sie rasch Rat, statt weiter zuzuwarten."
+      },
+      "sources": [
+        "zgb-567",
+        "zgb-571",
+        "zgb-576"
+      ]
+    },
+    {
+      "id": "refusal-recent-gifts",
+      "kind": "rule",
+      "when": {
+        "debts_known": [
+          "more-debts",
+          "unclear",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch wer ausschlägt, kann in einem Punkt trotzdem haften: Haben Sie von der verstorbenen, zahlungsunfähigen Person innerhalb der letzten fünf Jahre vor ihrem Tod Vermögenswerte erhalten, die bei einer Erbteilung zur Ausgleichung gebracht werden müssten, haften Sie den Gläubigerinnen und Gläubigern in diesem Umfang trotz Ausschlagung. Ausgenommen sind die landesübliche Ausstattung bei einer Heirat sowie Erziehungs- und Ausbildungskosten. Waren Sie beim Empfang gutgläubig, haften Sie nur, soweit Sie noch bereichert sind."
+      },
+      "sources": [
+        "zgb-579"
+      ]
+    },
+    {
+      "id": "public-inventory-request",
+      "kind": "rule",
+      "text": {
+        "de": "Statt auszuschlagen, können Sie ein öffentliches Inventar verlangen. Dazu berechtigt ist jede Person, die auch zur Ausschlagung berechtigt wäre. Sie stellen das Begehren bei der zuständigen Behörde in der gleichen Form wie eine Ausschlagung. Stellt eine Erbin oder ein Erbe das Begehren, gilt es auch für die übrigen; Sie müssen es also nicht gemeinsam stellen. Das öffentliche Inventar gibt Ihnen zunächst mehr Zeit und Informationen; es ist noch keine Annahme der Erbschaft."
+      },
+      "sources": [
+        "zgb-580"
+      ]
+    },
+    {
+      "id": "public-inventory-deadline",
+      "kind": "warning",
+      "text": {
+        "de": "Das öffentliche Inventar müssen Sie innert eines Monats verlangen, also deutlich früher, als die dreimonatige Frist für die Ausschlagung abläuft. Die Monatsfrist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald sie vom Tod erfahren haben, auch wenn ein Testament sie auf den Pflichtteil setzt. Verpassen Sie diese Frist, können Sie kein öffentliches Inventar mehr verlangen; ausschlagen können Sie aber weiterhin, solange die drei Monate laufen. Sind Sie unsicher, ob die Erbschaft überschuldet ist, handeln Sie deshalb in den ersten Wochen."
+      },
+      "sources": [
+        "zgb-580",
+        "zgb-567",
+        "bge-138-iii-545"
+      ]
+    },
+    {
+      "id": "public-inventory-process",
+      "kind": "rule",
+      "text": {
+        "de": "Die zuständige Behörde erstellt nach kantonalem Recht ein Verzeichnis aller Vermögenswerte und Schulden der Erbschaft mit Schätzung. Wer über die Vermögensverhältnisse der verstorbenen Person Auskunft geben kann, muss der Behörde alle verlangten Angaben machen; auch Sie als Erbin oder Erbe müssen ihr die Ihnen bekannten Schulden mitteilen. Mit der Inventaraufnahme ruft die Behörde öffentlich die Gläubigerinnen und Gläubiger sowie die Schuldnerinnen und Schuldner der verstorbenen Person auf, ihre Forderungen und Schulden innert mindestens einem Monat anzumelden; die Gläubigerinnen und Gläubiger werden dabei auf die Folgen einer versäumten Anmeldung hingewiesen. Schulden und Guthaben, die aus öffentlichen Büchern oder aus den Papieren der verstorbenen Person ersichtlich sind, nimmt die Behörde von sich aus ins Inventar auf. Nach Ablauf der Anmeldefrist wird das Inventar abgeschlossen und liegt danach während mindestens einem weiteren Monat zur Einsicht auf."
+      },
+      "sources": [
+        "zgb-581",
+        "zgb-582",
+        "zgb-583",
+        "zgb-584"
+      ]
+    },
+    {
+      "id": "public-inventory-cost",
+      "kind": "cost",
+      "text": {
+        "de": "Die Kosten des öffentlichen Inventars trägt in erster Linie die Erbschaft. Reicht deren Vermögen dafür nicht aus, tragen sie die Erbinnen und Erben, die das Inventar verlangt haben."
+      },
+      "sources": [
+        "zgb-584"
+      ]
+    },
+    {
+      "id": "inventory-choice",
+      "kind": "rule",
+      "text": {
+        "de": "Nach Abschluss des Inventars werden Sie aufgefordert, sich innert einem weiteren Monat zu erklären: Sie können ausschlagen, die amtliche Liquidation verlangen, die Erbschaft unter öffentlichem Inventar annehmen oder sie vorbehaltlos annehmen. Aus wichtigen Gründen, etwa zur Einholung von Schätzungen oder zur Erledigung streitiger Ansprüche, kann Ihnen die Behörde eine weitere Frist einräumen. Geben Sie innerhalb der Frist keine Erklärung ab, gilt die Erbschaft als unter öffentlichem Inventar angenommen."
+      },
+      "sources": [
+        "zgb-587",
+        "zgb-588"
+      ]
+    },
+    {
+      "id": "inventory-effect",
+      "kind": "rule",
+      "text": {
+        "de": "Nehmen Sie die Erbschaft unter öffentlichem Inventar an, gehen nur die im Inventar verzeichneten Schulden auf Sie über; dafür haften Sie sowohl mit der Erbschaft als auch mit Ihrem eigenen Vermögen. Für Schulden, die eine Gläubigerin oder ein Gläubiger nicht angemeldet hat, haften Sie danach weder persönlich noch mit der Erbschaft – ausser die Gläubigerin oder der Gläubiger trifft daran keine Schuld, oder die Forderung wurde trotz Anmeldung nicht aufgenommen; dann haften Sie noch, soweit Sie aus der Erbschaft bereichert sind. Durch ein Pfandrecht an Nachlassgegenständen gesicherte Forderungen können in jedem Fall geltend gemacht werden."
+      },
+      "sources": [
+        "zgb-589",
+        "zgb-590"
+      ]
+    },
+    {
+      "id": "official-liquidation",
+      "kind": "rule",
+      "text": {
+        "de": "Statt auszuschlagen oder unter öffentlichem Inventar anzunehmen, kann jede Erbin und jeder Erbe die amtliche Liquidation verlangen. Solange auch nur eine Miterbin oder ein Miterbe die Erbschaft annimmt, kann diesem Begehren nicht mehr stattgegeben werden. Bei amtlicher Liquidation werden Sie für die Schulden der Erbschaft nicht haftbar; es haftet nur der Nachlass selbst."
+      },
+      "sources": [
+        "zgb-593"
+      ]
+    },
+    {
+      "id": "liquidation-by-creditors",
+      "kind": "rule",
+      "when": {
+        "debts_known": [
+          "more-debts",
+          "unclear",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch Gläubigerinnen und Gläubiger der verstorbenen Person können die amtliche Liquidation verlangen, wenn sie begründet befürchten müssen, nicht bezahlt zu werden, und auf ihr Begehren hin weder befriedigt noch sichergestellt werden. Sie müssen dies innert drei Monaten seit dem Tod oder seit der Eröffnung der letztwilligen Verfügung tun."
+      },
+      "sources": [
+        "zgb-594"
+      ]
+    },
+    {
+      "id": "liquidation-process",
+      "kind": "rule",
+      "text": {
+        "de": "Die amtliche Liquidation führt die zuständige Behörde oder eine von ihr beauftragte Liquidatorin oder ein Liquidator durch, unter Aufsicht der Behörde. Sie beginnt mit einem Inventar samt Rechnungsruf wie beim öffentlichen Inventar. Laufende Geschäfte werden beendet, Forderungen der verstorbenen Person eingezogen, ihre Verpflichtungen erfüllt und ihr Vermögen zu Geld gemacht; Grundstücke werden öffentlich versteigert, ausser alle Erbinnen und Erben stimmen einem freihändigen Verkauf zu. Was für die Liquidation nicht gebraucht wird, kann Ihnen schon während des Verfahrens ganz oder teilweise ausgehändigt werden. Stellt sich heraus, dass die Erbschaft überschuldet ist, wird sie stattdessen durch das Konkursamt nach den Regeln des Konkursrechts liquidiert."
+      },
+      "sources": [
+        "zgb-595",
+        "zgb-596",
+        "zgb-597"
+      ]
+    },
+    {
+      "id": "enforcement-standstill",
+      "kind": "warning",
+      "text": {
+        "de": "Für Schulden der verstorbenen Person darf während der ersten zwei Wochen nach dem Tod nicht gegen die Erbschaft oder gegen Sie als Erbin oder Erben betrieben werden; dieser Rechtsstillstand dauert zusätzlich während der ganzen Zeit, die Ihnen für die Ausschlagung oder Annahme eingeräumt ist. Eine bereits zu Lebzeiten der verstorbenen Person eingeleitete Betreibung kann danach gegen die Erbschaft als solche fortgesetzt werden; sie erfasst dann nur das Nachlassvermögen, nicht Ihr eigenes. Ist die Ausschlagungsfrist abgelaufen, können Gläubigerinnen und Gläubiger auch gegen Sie persönlich betreiben; haben Sie unter öffentlichem Inventar angenommen, nur für die im Inventar verzeichneten Schulden."
+      },
+      "sources": [
+        "schkg-59",
+        "bge-116-iii-4"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung ein, wenn die Vermögensverhältnisse gross, unklar oder streitig sind, wenn die verstorbene Person ein Geschäft oder eine Einzelfirma betrieben hat, wenn Grundstücke im In- oder Ausland zum Nachlass gehören, wenn die verstorbene Person Bürgschaften oder Garantien eingegangen ist, wenn Miterbinnen oder Miterben im Ausland wohnen, oder wenn Sie unsicher sind, ob eine Frist bereits läuft oder schon abgelaufen ist. Wegen der kurzen Fristen sollten Sie damit nicht zuwarten."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an, oft über die Gerichte oder die Anwaltsverbände. Notariate führen regelmässig öffentliche Informationstage zu Erbschaftsfragen durch. Pro Senectute berät ältere Menschen und ihre Angehörigen auch zu Erbschaftsfragen. Sind minderjährige Kinder Erbinnen oder Erben, kann die Kindes- und Erwachsenenschutzbehörde (KESB) beigezogen werden, um deren Interessen in der Erbschaft zu wahren."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-560": {
+      "type": "statute",
+      "sr": "210",
+      "article": "560",
+      "label": "ZGB · Art. 560",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_560",
+      "sha256": "88b2a165155534f43c17425cfa7f895b6944f7b58af0b8cb21bcd27312ed3a93"
+    },
+    "zgb-603": {
+      "type": "statute",
+      "sr": "210",
+      "article": "603",
+      "label": "ZGB · Art. 603",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_603",
+      "sha256": "e6ec3284bab40583bd5ce1831e64486b6f4a7b0ad6257c827426f7532f914c4d"
+    },
+    "zgb-166": {
+      "type": "statute",
+      "sr": "210",
+      "article": "166",
+      "label": "ZGB · Art. 166",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_166",
+      "sha256": "3ce3def8080b4500c8d55a803eecd099b89f7cfffec14b5e9f11f80a3e002048"
+    },
+    "zgb-566": {
+      "type": "statute",
+      "sr": "210",
+      "article": "566",
+      "label": "ZGB · Art. 566",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_566",
+      "sha256": "2d827406f761279f7b5d5cc5c58fdd2a19e223046468bf138cd3af4ed8477122"
+    },
+    "zgb-567": {
+      "type": "statute",
+      "sr": "210",
+      "article": "567",
+      "label": "ZGB · Art. 567",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_567",
+      "sha256": "9fd5a5a701aa9b5bcd5b3fed40e382c181ef92a3fe21ec946b20240187f69b9a"
+    },
+    "zgb-571": {
+      "type": "statute",
+      "sr": "210",
+      "article": "571",
+      "label": "ZGB · Art. 571",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_571",
+      "sha256": "ecac1fe104b56866e924b29fa082335fa721343ff78cc9e82993efe6a70094bd"
+    },
+    "zgb-576": {
+      "type": "statute",
+      "sr": "210",
+      "article": "576",
+      "label": "ZGB · Art. 576",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_576",
+      "sha256": "265a301075805e30d4aa9efcb932fc16cf174cbe4b0f48801eaf1cbbed6d60dc"
+    },
+    "zgb-579": {
+      "type": "statute",
+      "sr": "210",
+      "article": "579",
+      "label": "ZGB · Art. 579",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_579",
+      "sha256": "e2f34936060904edae896237b994131ac4a8cccb656f8793ae35e55e19215cd4"
+    },
+    "zgb-580": {
+      "type": "statute",
+      "sr": "210",
+      "article": "580",
+      "label": "ZGB · Art. 580",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_580",
+      "sha256": "27d7fc509f6a229df4f3db0547f225a330cca8d193328463d365a507d4e3bc5a"
+    },
+    "zgb-581": {
+      "type": "statute",
+      "sr": "210",
+      "article": "581",
+      "label": "ZGB · Art. 581",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_581",
+      "sha256": "4ca4c33c6a3fbb8b723d050a87a91f5dd71ccdd773b765c688a1fec5d92d303a"
+    },
+    "zgb-582": {
+      "type": "statute",
+      "sr": "210",
+      "article": "582",
+      "label": "ZGB · Art. 582",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_582",
+      "sha256": "0e4f1a6df9d227823378ef8824817a1ae203eecf3240983e6831f9545c35371f"
+    },
+    "zgb-583": {
+      "type": "statute",
+      "sr": "210",
+      "article": "583",
+      "label": "ZGB · Art. 583",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_583",
+      "sha256": "6da239619e49242a2fd5781b9dcd33597e6d73f8097834ae625acfcb065d057a"
+    },
+    "zgb-584": {
+      "type": "statute",
+      "sr": "210",
+      "article": "584",
+      "label": "ZGB · Art. 584",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_584",
+      "sha256": "fc49d2de149eec72f2f60de15d123ff53aa6a7fde0d8ffd5a264fec9f0cb9059"
+    },
+    "zgb-587": {
+      "type": "statute",
+      "sr": "210",
+      "article": "587",
+      "label": "ZGB · Art. 587",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_587",
+      "sha256": "0318ca69fd0181c7a03965044f65f15b1bc06fbaca4e2cc002ef76f6e82a9f7c"
+    },
+    "zgb-588": {
+      "type": "statute",
+      "sr": "210",
+      "article": "588",
+      "label": "ZGB · Art. 588",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_588",
+      "sha256": "b400f9c7c0464ff62137e4da2ed183c5d7a000aa7d7c724d97183c9f92acdad1"
+    },
+    "zgb-589": {
+      "type": "statute",
+      "sr": "210",
+      "article": "589",
+      "label": "ZGB · Art. 589",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_589",
+      "sha256": "45c6335385aa0124161907e37610a563d274923c9a6b35f289f082d33e056c7f"
+    },
+    "zgb-590": {
+      "type": "statute",
+      "sr": "210",
+      "article": "590",
+      "label": "ZGB · Art. 590",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_590",
+      "sha256": "85ad79529f524d18c96097ab1ce330083077ae089c8ca45b4525852d59dd0a77"
+    },
+    "zgb-593": {
+      "type": "statute",
+      "sr": "210",
+      "article": "593",
+      "label": "ZGB · Art. 593",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_593",
+      "sha256": "0b7928f2a86144ab8292d074966c1ccbbb0775c96f62b7c5fcf1bb3dcc7ee4d0"
+    },
+    "zgb-594": {
+      "type": "statute",
+      "sr": "210",
+      "article": "594",
+      "label": "ZGB · Art. 594",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_594",
+      "sha256": "412c7f2f30d104e4a2a9750534c14f8dc0b05d08c0b1a80d8a9abeaab0b990dc"
+    },
+    "zgb-595": {
+      "type": "statute",
+      "sr": "210",
+      "article": "595",
+      "label": "ZGB · Art. 595",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_595",
+      "sha256": "4ab86f275077e19be409e0d900f3f09273c4f96094d2d5cbee38cd91f04da306"
+    },
+    "zgb-596": {
+      "type": "statute",
+      "sr": "210",
+      "article": "596",
+      "label": "ZGB · Art. 596",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_596",
+      "sha256": "87bdf3fc6662a9bd8773294b6536688861ab3241cb16fb1eecdfc2f8ddc77250"
+    },
+    "zgb-597": {
+      "type": "statute",
+      "sr": "210",
+      "article": "597",
+      "label": "ZGB · Art. 597",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_597",
+      "sha256": "3b3ebf5031a883379f6282dbb2177c7cdc11975b53a5caf48f9e24745fe4a196"
+    },
+    "schkg-59": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "59",
+      "label": "SchKG · Art. 59",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_59",
+      "sha256": "18d5f69eabf490c35ea8e4f5bdc35df57d7c7c3c470c51f57772cf4147d9565c"
+    },
+    "vvg-76": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "76",
+      "label": "VVG · Art. 76",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_76",
+      "sha256": "5499f9fe8aa02a752cfcfc4824672258c6e33b59d9aa1b2495ef8de717294430"
+    },
+    "vvg-78": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "78",
+      "label": "VVG · Art. 78",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_78",
+      "sha256": "823a5dd156a32ea2f8cac98b83145d7c6daf0c7cd7679ad04f8e63cde4924622"
+    },
+    "vvg-80": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "80",
+      "label": "VVG · Art. 80",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_80",
+      "sha256": "972d10fd91768faa58746269ebf5e9cc9549cf36d590aec4fd11ad90d6444b93"
+    },
+    "bvg-20a": {
+      "type": "statute",
+      "sr": "831.40",
+      "article": "20a",
+      "label": "BVG · Art. 20a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1983/797_797_797/de#art_20a",
+      "sha256": "05bf5ec9233bc3fc9b04606eeb7763b0942bf382f1263d9de5b2a9165b0a8325"
+    },
+    "bge-131-iii-49": {
+      "type": "decision",
+      "decision_id": "bge_BGE_131_III_49",
+      "citation": "BGE 131 III 49",
+      "e": "2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_131_III_49#e-2-2"
+    },
+    "bge-133-iii-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_133_III_1",
+      "citation": "BGE 133 III 1",
+      "e": "3.3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_133_III_1#e-3-3-1"
+    },
+    "bge-116-iii-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_116_III_4",
+      "citation": "BGE 116 III 4",
+      "e": "2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_116_III_4#e-2"
+    },
+    "bge-138-iii-545": {
+      "type": "decision",
+      "decision_id": "bge_BGE_138_III_545",
+      "citation": "BGE 138 III 545",
+      "e": "2.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_138_III_545#e-2-4"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Ein Erbe annehmen oder ausschlagen"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/erbe-ausschlagen/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Todesfall – Checkliste"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/todesfall/todesfall-checkliste/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

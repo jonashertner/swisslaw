@@ -1,0 +1,788 @@
+{
+  "schema": 1,
+  "id": "inheritance.compulsory-shares",
+  "domain": "inheritance",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Pflichtteile: Was nahen Angehörigen zusteht"
+  },
+  "summary": {
+    "de": "Pflichtteile schützen nahe Angehörige davor, durch ein Testament oder einen Erbvertrag völlig leer auszugehen. Seit dem 1. Januar 2023 haben nur noch Nachkommen sowie der überlebende Ehegatte oder die eingetragene Partnerin beziehungsweise der eingetragene Partner einen Pflichtteil; Eltern, Geschwister und andere Verwandte haben keinen mehr. Der Pflichtteil beträgt die Hälfte des gesetzlichen Erbanspruchs, der Rest ist frei verfügbar. Wurden Sie übergangen oder erhalten Sie zu wenig, können Sie mit der Herabsetzungsklage Ihren Pflichtteil durchsetzen - dafür gelten kurze Fristen. Planen Sie Ihren eigenen Nachlass, zeigt dieser Leitfaden, wie viel Sie frei verteilen können und welche Möglichkeiten wie die Enterbung oder die Nutzniessung für den Ehegatten bestehen."
+  },
+  "examples": {
+    "de": [
+      "Meine Mutter ist gestorben und hat fast alles meiner Schwester vermacht. Was steht mir zu?",
+      "Kann mein Vater mich im Testament komplett übergehen?",
+      "Wie viel darf ich meiner Frau und meinen Kindern per Testament wegnehmen?",
+      "Mis Vater het churz vor sim Tod na Schänkige gmacht. Zellt das für min Pflichtteil?",
+      "Ich will meinem Konkubinatspartner möglichst viel vererben. Geht das?",
+      "Wie lang han ich Zeit, öppis gäge es Testament z'mache?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Den Pflichtteil von Nachkommen sowie von Ehegatten und eingetragenen Partnerinnen und Partnern nach dem seit 1. Januar 2023 geltenden Erbrecht: wie hoch er ist, was frei verfügbar bleibt, wann die Ehepartnerin oder der Ehepartner ihn verliert, die Nutzniessung als Alternative, welche Lebzeit-Zuwendungen mitzählen, wie Sie ihn mit der Herabsetzungsklage durchsetzen und innert welcher Fristen, sowie die Enterbung und der Verzicht auf den Pflichtteil."
+    },
+    "excludes": {
+      "de": "Die detaillierte Berechnung eines konkreten Nachlasses, die gesetzliche Erbfolge im Einzelnen, die Erbschaftssteuer, internationale Erbfälle mit Auslandbezug sowie Todesfälle vor dem 1. Januar 2023, für die teilweise noch das damals geltende Recht gilt."
+    }
+  },
+  "facts": [
+    {
+      "key": "perspective",
+      "question": {
+        "de": "Worum geht es bei Ihnen?"
+      },
+      "options": [
+        {
+          "value": "heir",
+          "label": {
+            "de": "Ich bin Erbin oder Erbe und wurde übergangen oder erhalte zu wenig"
+          }
+        },
+        {
+          "value": "planning",
+          "label": {
+            "de": "Ich plane mein eigenes Testament oder meinen Nachlass"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich noch nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "relationship",
+      "question": {
+        "de": "In welchem Verhältnis stehen oder standen Sie zur Erblasserin oder zum Erblasser?"
+      },
+      "options": [
+        {
+          "value": "child-grandchild",
+          "label": {
+            "de": "Kind oder Enkelkind"
+          }
+        },
+        {
+          "value": "spouse-partner",
+          "label": {
+            "de": "Ehepartnerin, Ehepartner oder eingetragene Partnerin beziehungsweise eingetragener Partner"
+          }
+        },
+        {
+          "value": "parent",
+          "label": {
+            "de": "Elternteil"
+          }
+        },
+        {
+          "value": "sibling-other",
+          "label": {
+            "de": "Geschwister oder andere verwandte Person"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht oder trifft nicht zu"
+          }
+        }
+      ]
+    },
+    {
+      "key": "death_date",
+      "question": {
+        "de": "Wann ist die Erblasserin oder der Erblasser gestorben, beziehungsweise planen Sie für die Zukunft?"
+      },
+      "help": {
+        "de": "Am 1. Januar 2023 ist ein revidiertes Erbrecht in Kraft getreten. Für Todesfälle davor gilt teilweise noch das frühere Recht."
+      },
+      "options": [
+        {
+          "value": "before-2023",
+          "label": {
+            "de": "Vor dem 1. Januar 2023"
+          }
+        },
+        {
+          "value": "since-2023",
+          "label": {
+            "de": "Am oder nach dem 1. Januar 2023, oder der Todesfall ist noch nicht eingetreten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "divorcing",
+      "question": {
+        "de": "War beim Tod ein Scheidungsverfahren oder ein Verfahren zur Auflösung der eingetragenen Partnerschaft hängig?"
+      },
+      "help": {
+        "de": "Gemeint ist ein Verfahren, das beim Tod noch nicht rechtskräftig abgeschlossen war."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht oder trifft nicht zu"
+          }
+        }
+      ]
+    },
+    {
+      "key": "will_exists",
+      "question": {
+        "de": "Gibt es ein Testament oder einen Erbvertrag?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, soweit ich weiss"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "learned_when",
+      "question": {
+        "de": "Seit wann kennen Sie Tatsachen, die auf eine Verletzung Ihres Pflichtteils hindeuten?"
+      },
+      "help": {
+        "de": "Gemeint ist der Zeitpunkt, an dem Sie erstmals Anhaltspunkte hatten, nicht erst, wenn alles sicher feststeht."
+      },
+      "options": [
+        {
+          "value": "recent",
+          "label": {
+            "de": "Vor weniger als einem Jahr"
+          }
+        },
+        {
+          "value": "over-a-year",
+          "label": {
+            "de": "Vor mehr als einem Jahr"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht oder trifft nicht zu"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "pre-2023-pointer",
+      "kind": "escalate",
+      "when": {
+        "death_date": [
+          "before-2023"
+        ]
+      },
+      "text": {
+        "de": "Ist die Erblasserin oder der Erblasser vor dem 1. Januar 2023 gestorben, richtet sich der Pflichtteil noch nach dem damals geltenden Recht. Dieser Leitfaden beschreibt nur das seit dem 1. Januar 2023 geltende Recht und passt für einen solchen Todesfall nicht ohne Weiteres. Lassen Sie sich für einen Todesfall vor diesem Datum persönlich beraten."
+      }
+    },
+    {
+      "id": "compulsory-shares-basic",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ihr Pflichtteil ist der Teil des Nachlasses, den Ihnen die Erblasserin oder der Erblasser nicht durch Testament oder Erbvertrag entziehen kann. Einen Pflichtteil haben heute nur noch Nachkommen, also Kinder und Enkelkinder, sowie die überlebende Ehepartnerin oder der überlebende Ehepartner beziehungsweise die überlebende eingetragene Partnerin oder der überlebende eingetragene Partner. Er beträgt für jede dieser Personen die Hälfte dessen, was sie ohne Testament gesetzlich erben würde. Eltern haben seit dem 1. Januar 2023 keinen Pflichtteil mehr; Geschwister, Konkubinatspartnerinnen und -partner sowie weitere Verwandte haben ebenfalls keinen."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-471"
+      ]
+    },
+    {
+      "id": "no-share-parents-siblings",
+      "kind": "warning",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "relationship": [
+          "parent",
+          "sibling-other",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie Elternteil, Geschwister oder eine andere verwandte Person der Erblasserin oder des Erblassers, haben Sie nach geltendem Recht keinen Pflichtteil. Die Erblasserin oder der Erblasser kann Sie durch Testament oder Erbvertrag vollständig übergehen, auch ohne jeden Grund. Von Gesetzes wegen erben Sie nur, wenn die verstorbene Person keine Nachkommen hinterlässt, und nur soweit kein Testament oder Erbvertrag etwas anderes bestimmt. Neben einer überlebenden Ehepartnerin oder einem überlebenden Ehepartner erhält der Stamm der Eltern einen Viertel des Nachlasses."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-458",
+        "zgb-462"
+      ]
+    },
+    {
+      "id": "how-much-example",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "relationship": [
+          "child-grandchild",
+          "spouse-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ein Beispiel: Ein verheirateter Erblasser hinterlässt seine Ehefrau und zwei Kinder, ohne dass ein Testament etwas anderes bestimmt. Mit seinem Tod wird zuerst das eheliche Vermögen nach dem Güterrecht aufgeteilt; nur sein Anteil daran bildet den Nachlass. Gesetzlich erhält die Ehefrau die Hälfte des Nachlasses, die zwei Kinder zusammen die andere Hälfte, also ein Viertel pro Kind. Der Pflichtteil ist die Hälfte davon: Die Ehefrau hat Anspruch auf mindestens ein Viertel des Nachlasses, jedes Kind auf mindestens ein Achtel. Zusammen ergibt das die Hälfte des Nachlasses. Über die andere Hälfte, den frei verfügbaren Teil, kann der Erblasser durch Testament oder Erbvertrag frei verfügen, zum Beispiel zugunsten eines Kindes, einer weiteren Person oder einer Organisation."
+      },
+      "sources": [
+        "zgb-457",
+        "zgb-462",
+        "zgb-471",
+        "zgb-204"
+      ]
+    },
+    {
+      "id": "freely-disposable-part",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Was nicht durch Pflichtteile gebunden ist, ist der frei verfügbare Teil. Darüber können Sie durch Testament oder Erbvertrag frei verfügen, etwa zugunsten einzelner Erben, einer nicht verwandten Person oder einer gemeinnützigen Organisation. Hinterlassen Sie weder Nachkommen noch eine Ehepartnerin beziehungsweise einen Ehepartner oder eine eingetragene Partnerin beziehungsweise einen eingetragenen Partner, können Sie über Ihr ganzes Vermögen frei verfügen. Berechnet wird der frei verfügbare Teil anhand des Vermögens im Zeitpunkt des Todes, nach Abzug der Schulden, der Bestattungskosten, der Kosten für Siegelung und Inventar sowie des Unterhalts für Hausgenossinnen und Hausgenossen während eines Monats."
+      },
+      "sources": [
+        "zgb-470",
+        "zgb-474"
+      ]
+    },
+    {
+      "id": "divorce-pending-loss",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "relationship": [
+          "spouse-partner",
+          "unknown"
+        ],
+        "divorcing": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "War beim Tod ein Scheidungsverfahren hängig, verliert die überlebende Ehepartnerin oder der überlebende Ehepartner den Pflichtteil, wenn das Verfahren auf gemeinsames Begehren eingeleitet oder so fortgeführt wurde, oder wenn die Ehegatten zu diesem Zeitpunkt bereits mindestens zwei Jahre getrennt gelebt haben. In diesem Fall gelten die Pflichtteile der übrigen Erben, wie wenn die Erblasserin oder der Erblasser nicht verheiratet gewesen wäre. Für ein Verfahren zur Auflösung einer eingetragenen Partnerschaft gilt dasselbe sinngemäss. Das gilt unabhängig davon, ob das Testament dazu etwas sagt."
+      },
+      "sources": [
+        "zgb-472"
+      ]
+    },
+    {
+      "id": "usufruct-option",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "relationship": [
+          "spouse-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Erblasserin oder der Erblasser kann der überlebenden Ehepartnerin oder dem überlebenden Ehepartner beziehungsweise der überlebenden eingetragenen Partnerin oder dem überlebenden eingetragenen Partner durch Testament oder Erbvertrag statt eines Erbteils die Nutzniessung am ganzen Anteil zuwenden, der den gemeinsamen Nachkommen zufällt. Das gibt der überlebenden Person ein Nutzungsrecht am ganzen Nachlassanteil der Kinder, ohne dass dieser sofort ausbezahlt werden muss. Daneben beträgt der frei verfügbare Teil die Hälfte des Nachlasses. Heiratet die überlebende Person wieder oder geht sie eine neue eingetragene Partnerschaft ein, entfällt die Nutzniessung auf jenem Teil, der sonst über den Pflichtteil der Nachkommen hinausginge."
+      },
+      "sources": [
+        "zgb-473"
+      ]
+    },
+    {
+      "id": "lifetime-gifts-counted",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für den Pflichtteil zählen nicht nur Vermögen und Verfügungen von Todes wegen. Bestimmte Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat, werden ebenfalls berücksichtigt: Schenkungen der letzten fünf Jahre vor dem Tod, Schenkungen, die jederzeit frei widerrufen werden konnten, Heiratsgut, Ausstattungen, Erbabfindungen sowie Vermögensübertragungen, die erkennbar nur dazu dienten, die Verfügungsfreiheit zu umgehen. Solche Zuwendungen können wie eine testamentarische Verfügung herabgesetzt werden, wenn sie Ihren Pflichtteil verletzen. Übliche Gelegenheitsgeschenke zählen nicht dazu. Ob eine bestimmte Zuwendung mitzählt, hängt stark vom Einzelfall ab; dokumentieren Sie deshalb, was Sie darüber wissen."
+      },
+      "sources": [
+        "zgb-475",
+        "zgb-527"
+      ]
+    },
+    {
+      "id": "no-will-intestate",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "will_exists": [
+          "no"
+        ]
+      },
+      "text": {
+        "de": "Gibt es kein Testament und keinen Erbvertrag, gilt die gesetzliche Erbfolge, und Ihr Pflichtteil ist damit bereits durch das Gesetz gesichert. Eine Pflichtteilsverletzung kommt dann vor allem durch Lebzeit-Zuwendungen an andere Personen in Frage, etwa grosse Schenkungen. Prüfen Sie in diesem Fall in erster Linie, ob die Erblasserin oder der Erblasser vor dem Tod solche Zuwendungen gemacht hat."
+      },
+      "sources": [
+        "zgb-457",
+        "zgb-475",
+        "zgb-527"
+      ]
+    },
+    {
+      "id": "reduction-action",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Erhalten Sie wertmässig weniger als Ihren Pflichtteil, können Sie mit der Herabsetzungsklage verlangen, dass gesetzliche Erbteile, testamentarische Zuwendungen und die genannten Lebzeit-Zuwendungen so weit herabgesetzt werden, bis Ihr Pflichtteil hergestellt ist. Die Klage richtet sich gegen die Personen, die zu viel erhalten haben. Wurden mehrere pflichtteilsberechtigte Erben von Todes wegen begünstigt, wird unter ihnen im Verhältnis dessen herabgesetzt, was sie über ihren eigenen Pflichtteil hinaus erhalten haben. Den Herabsetzungsanspruch können Sie auch einredeweise geltend machen, also zur Abwehr, wenn Sie selbst auf Herausgabe verklagt werden; das ist zeitlich nicht befristet."
+      },
+      "sources": [
+        "zgb-522",
+        "zgb-523",
+        "zgb-533"
+      ]
+    },
+    {
+      "id": "reduction-deadline",
+      "kind": "warning",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "perspective": [
+          "heir",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wichtigste Frist: Die Herabsetzungsklage verjährt innert einem Jahr, nachdem Sie von der Verletzung Ihres Pflichtteils Kenntnis erhalten haben. Dafür genügt es, dass Sie die Tatsachen kennen, die einen Erfolg der Klage möglich erscheinen lassen; völlige Gewissheit ist nicht nötig, die Frist läuft trotzdem bereits. In jedem Fall verjährt die Klage spätestens zehn Jahre nach der Eröffnung des Testaments oder Erbvertrags, bei Lebzeit-Zuwendungen zehn Jahre nach dem Tod der Erblasserin oder des Erblassers. Warten Sie deshalb nicht, bis alle Zahlen feststehen: Sobald Sie eine Verletzung Ihres Pflichtteils vermuten können, sollten Sie handeln oder zumindest die Frist rechtzeitig wahren."
+      },
+      "sources": [
+        "zgb-533",
+        "bge-121-iii-249"
+      ]
+    },
+    {
+      "id": "deadline-urgent",
+      "kind": "escalate",
+      "when": {
+        "learned_when": [
+          "over-a-year"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie schon vor mehr als einem Jahr von der möglichen Verletzung Ihres Pflichtteils erfahren, könnte die einjährige Frist für die Herabsetzungsklage bereits abgelaufen sein. Prüfen Sie umgehend mit rechtlichem Rat, wann genau die Frist zu laufen begann und ob sie noch offen ist, oder ob wenigstens die absolute Frist von zehn Jahren noch läuft. Je länger Sie warten, desto schwieriger wird es, Ihren Anspruch noch durchzusetzen."
+      }
+    },
+    {
+      "id": "disinheritance",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ],
+        "relationship": [
+          "child-grandchild",
+          "spouse-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Erblasserin oder der Erblasser kann Ihnen den Pflichtteil durch Testament oder Erbvertrag ausdrücklich entziehen (Enterbung), aber nur aus engen Gründen: wenn Sie gegen die Erblasserin oder den Erblasser oder eine dieser Person nahestehende Person eine schwere Straftat begangen haben, oder wenn Sie Ihre familienrechtlichen Pflichten gegenüber der Erblasserin oder dem Erblasser oder deren Angehörigen schwer verletzt haben. Die Enterbung ist nur gültig, wenn der Grund im Testament genannt wird. Bestreiten Sie die Enterbung als unrichtig, muss die Person, die davon profitiert, den Enterbungsgrund beweisen. Gelingt der Beweis nicht oder fehlt die Begründung, bleibt Ihnen Ihr Pflichtteil."
+      },
+      "sources": [
+        "zgb-477",
+        "zgb-479"
+      ]
+    },
+    {
+      "id": "waiver-only-by-contract",
+      "kind": "rule",
+      "when": {
+        "death_date": [
+          "since-2023",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Im Voraus auf Ihren Pflichtteil verzichten können Sie nur durch einen Erbvertrag mit der Erblasserin oder dem Erblasser, etwa einen Erbverzichtvertrag. Ein einseitiges Testament oder eine formlose Abmachung genügt nicht. Ein solcher Erbvertrag muss in der Form einer öffentlichen letztwilligen Verfügung errichtet werden: Sie erklären Ihren Willen gemeinsam gegenüber einer Urkundsperson und unterschreiben die Urkunde vor dieser und zwei Zeuginnen oder Zeugen. Ohne einen solchen Vertrag bleibt Ihr Pflichtteil bestehen, auch wenn Sie mündlich darauf verzichtet haben oder ein Testament ihn für aufgehoben erklärt."
+      },
+      "sources": [
+        "zgb-495",
+        "zgb-512"
+      ]
+    },
+    {
+      "id": "planning-what-to-consider",
+      "kind": "step",
+      "when": {
+        "perspective": [
+          "planning",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Planen Sie Ihren Nachlass, halten Sie zuerst fest, wer einen Pflichtteil hat: Nachkommen sowie Ihre Ehepartnerin, Ihr Ehepartner oder Ihre eingetragene Partnerin beziehungsweise Ihr eingetragener Partner. Berechnen Sie deren Pflichtteile und damit den frei verfügbaren Teil, bevor Sie testamentarisch verfügen. Wollen Sie jemanden stärker begünstigen, als es der frei verfügbare Teil erlaubt, prüfen Sie eine Nutzniessungslösung für die Ehepartnerin oder den Ehepartner, eine Enterbung aus engem Grund, oder einen Erbvertrag mit den Betroffenen. Dokumentieren Sie grössere Schenkungen zu Lebzeiten schriftlich, weil diese später angerechnet oder herabgesetzt werden können. Lassen Sie ein Testament oder einen Erbvertrag von einer Fachperson prüfen oder öffentlich beurkunden."
+      }
+    },
+    {
+      "id": "heir-what-to-do",
+      "kind": "step",
+      "when": {
+        "perspective": [
+          "heir",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Vermuten Sie, dass Ihr Pflichtteil verletzt wurde: Verschaffen Sie sich eine Kopie des Testaments oder Erbvertrags und, falls nötig, des Erbenscheins. Notieren Sie das Datum, an dem Sie erstmals davon oder von der möglichen Verletzung erfuhren; es ist für die Frist entscheidend. Berechnen Sie überschlagsmässig, was Ihnen als Pflichtteil zustehen würde. Sammeln Sie Belege zu grösseren Schenkungen oder Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat. Versuchen Sie zunächst eine Einigung mit den begünstigten Erben; gelingt das nicht, müssen Sie die Herabsetzungsklage rechtzeitig einreichen."
+      }
+    },
+    {
+      "id": "procedure",
+      "kind": "rule",
+      "text": {
+        "de": "Für die Herabsetzungsklage ist das Gericht am letzten Wohnsitz der Erblasserin oder des Erblassers zuständig. Bevor Sie klagen können, müssen Sie in der Regel zuerst ein Schlichtungsverfahren bei der Schlichtungsbehörde durchführen; erst wenn dieses erfolglos bleibt, erhalten Sie die Klagebewilligung fürs Gericht. Reichen Sie das Schlichtungsgesuch rechtzeitig ein, spätestens vor Ablauf der Frist für die Herabsetzungsklage. Das eigentliche Verfahren ist in der Regel ein ordentliches Gerichtsverfahren; wie lange es dauert, hängt vom Kanton und von der Komplexität des Falls ab."
+      },
+      "sources": [
+        "zpo-197",
+        "zpo-28"
+      ]
+    },
+    {
+      "id": "escalate-disputes",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Rechtsberatung, wenn ein Streit über das Testament oder über Schenkungen zu Lebzeiten droht, wenn ein Unternehmen, eine Liegenschaft oder grössere Vermögenswerte zum Nachlass gehören, wenn die Erblasserin oder der Erblasser oder Erbinnen und Erben im Ausland wohnten oder wohnen, wenn eine Enterbung im Raum steht, oder wenn die Fristen bald ablaufen. Bei internationalen Erbfällen entscheidet oft ausländisches statt schweizerisches Recht; lassen Sie das frühzeitig abklären."
+      }
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Für die Herabsetzungsklage erhebt das Gericht Gerichtskosten nach kantonalem Tarif; meist müssen Sie einen Kostenvorschuss leisten. Das Schlichtungsverfahren ist in der Regel deutlich günstiger; kostenlos ist es in Erbsachen nicht. Wer im Prozess unterliegt, trägt in der Regel die Gerichtskosten und entschädigt die Gegenpartei für deren Anwaltskosten. Fehlen Ihnen die nötigen Mittel und ist Ihr Anliegen nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen; dann entfallen Kostenvorschuss und Gerichtskosten, und nötigenfalls wird Ihnen eine unentgeltliche Rechtsvertretung bestellt. Verlieren Sie den Prozess, müssen Sie die Gegenpartei trotzdem entschädigen."
+      },
+      "sources": [
+        "zpo-95",
+        "zpo-98",
+        "zpo-107",
+        "zpo-117",
+        "zpo-118",
+        "zpo-113"
+      ]
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Beratungsstellen für Rechtsauskünfte informieren über Pflichtteil und Erbrecht. Notariate bieten oft eine erste, teils kostenlose Auskunft oder spezielle Informationstage zu Testament und Erbvertrag an. Pro Senectute berät ältere Menschen und ihre Angehörigen zu Nachlassplanung und Testament und bietet einen Testament-Rechner an. Viele Anwaltsverbände vermitteln eine erste kostenlose oder günstige Rechtsauskunft."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-457": {
+      "type": "statute",
+      "sr": "210",
+      "article": "457",
+      "label": "ZGB · Art. 457",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_457",
+      "sha256": "bea064f079499dded13655dbdfb62aedb3f4a8c7cd4a4c67a1423d23276a84fb"
+    },
+    "zgb-462": {
+      "type": "statute",
+      "sr": "210",
+      "article": "462",
+      "label": "ZGB · Art. 462",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_462",
+      "sha256": "c76fdaa75fc87bd423868794ac1732794af4c485a6311f2dcaac17036d831f7e"
+    },
+    "zgb-470": {
+      "type": "statute",
+      "sr": "210",
+      "article": "470",
+      "label": "ZGB · Art. 470",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_470",
+      "sha256": "a871d8f359e1be2a1fc374ce6e4d723b5b55a8fa995e48cc24ddd687844519e3"
+    },
+    "zgb-471": {
+      "type": "statute",
+      "sr": "210",
+      "article": "471",
+      "label": "ZGB · Art. 471",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_471",
+      "sha256": "b30bfa618cef1f3dfb5c22a89917f6ff76bbe4b50787b30427f4e067e93a9be1"
+    },
+    "zgb-472": {
+      "type": "statute",
+      "sr": "210",
+      "article": "472",
+      "label": "ZGB · Art. 472",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_472",
+      "sha256": "54aadad1e5fe37ffdb51c8be5588ca15338bb0600f1c3a27d3cd69346dc6485a"
+    },
+    "zgb-473": {
+      "type": "statute",
+      "sr": "210",
+      "article": "473",
+      "label": "ZGB · Art. 473",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_473",
+      "sha256": "5c8361f725345917332d49a5123eab547597b61a2598716420c72d8677af99b0"
+    },
+    "zgb-474": {
+      "type": "statute",
+      "sr": "210",
+      "article": "474",
+      "label": "ZGB · Art. 474",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_474",
+      "sha256": "ee0827fc73b89f1cd92ae565dcef7d04a95ac9b2cb6c8e4ecf638191f29c2982"
+    },
+    "zgb-475": {
+      "type": "statute",
+      "sr": "210",
+      "article": "475",
+      "label": "ZGB · Art. 475",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_475",
+      "sha256": "24ac4bf3a0f6932c41f7e18dcd8d567b4c653c89830aa496238bf98627cbe4e2"
+    },
+    "zgb-477": {
+      "type": "statute",
+      "sr": "210",
+      "article": "477",
+      "label": "ZGB · Art. 477",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_477",
+      "sha256": "80c1fa20231392c8e9f0fb4b67d4b33a19f64deb51d967e0cc18d9b742be89da"
+    },
+    "zgb-479": {
+      "type": "statute",
+      "sr": "210",
+      "article": "479",
+      "label": "ZGB · Art. 479",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_479",
+      "sha256": "fa098bf2a391f5518dbac3c50cc43ce0002ca094d177e48b19d927b7710edf6d"
+    },
+    "zgb-495": {
+      "type": "statute",
+      "sr": "210",
+      "article": "495",
+      "label": "ZGB · Art. 495",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_495",
+      "sha256": "8b592ce8bd9c922ff159ce120f222006d3290e998b3db2fff03cbd7714abd0b6"
+    },
+    "zgb-512": {
+      "type": "statute",
+      "sr": "210",
+      "article": "512",
+      "label": "ZGB · Art. 512",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_512",
+      "sha256": "81cd3a1f8b2a633e8cff5a9b945742d7429a21e9e1ce93eeb5bba32c8054e8f7"
+    },
+    "zgb-522": {
+      "type": "statute",
+      "sr": "210",
+      "article": "522",
+      "label": "ZGB · Art. 522",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_522",
+      "sha256": "2e079b7e7336a63b2c08384a8c7dce277ce4adf198a663fd7e2bcbd10f12f2e5"
+    },
+    "zgb-523": {
+      "type": "statute",
+      "sr": "210",
+      "article": "523",
+      "label": "ZGB · Art. 523",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_523",
+      "sha256": "a4f3adf4d62b5168652c1090e4ca5d0d8be321f1c3b1905cf00e2e195b39ad40"
+    },
+    "zgb-527": {
+      "type": "statute",
+      "sr": "210",
+      "article": "527",
+      "label": "ZGB · Art. 527",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_527",
+      "sha256": "e780ba69f9eb4e511c175ee09c3907c83626a68c5833adc019fb91fb206018fc"
+    },
+    "zgb-533": {
+      "type": "statute",
+      "sr": "210",
+      "article": "533",
+      "label": "ZGB · Art. 533",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_533",
+      "sha256": "6cd5d32badba49486ac091f9cb11ad4d0762b72738aaf31bfb522c26f723061d"
+    },
+    "zpo-28": {
+      "type": "statute",
+      "sr": "272",
+      "article": "28",
+      "label": "ZPO · Art. 28",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_28",
+      "sha256": "64ae4f50c1b3f39c811cb484bb37d7d5bf1735bc12638f088fbf03c2d928e679"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-98": {
+      "type": "statute",
+      "sr": "272",
+      "article": "98",
+      "label": "ZPO · Art. 98",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_98",
+      "sha256": "014dce33d0b328656f07556ff7b40ddcce37bc03a9d3203c6e1ffbecb033428a"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-118": {
+      "type": "statute",
+      "sr": "272",
+      "article": "118",
+      "label": "ZPO · Art. 118",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_118",
+      "sha256": "57a8d1e56776ed20bbadaca565061ad61cd00d26966d007c619f329a9a784977"
+    },
+    "zpo-197": {
+      "type": "statute",
+      "sr": "272",
+      "article": "197",
+      "label": "ZPO · Art. 197",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_197",
+      "sha256": "562350ba8a04d5223adf8117dfe64d143060270395dd9c154bfd6956559133e5"
+    },
+    "bge-121-iii-249": {
+      "type": "decision",
+      "decision_id": "bge_BGE_121_III_249",
+      "citation": "BGE 121 III 249",
+      "e": "2a",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_121_III_249#e-2a"
+    },
+    "zgb-204": {
+      "type": "statute",
+      "sr": "210",
+      "article": "204",
+      "label": "ZGB · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_204",
+      "sha256": "82df472267dea27055fe25fba8c41c5bfc9b68b1454f94bcea3cc8b79a2907fe"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zgb-458": {
+      "type": "statute",
+      "sr": "210",
+      "article": "458",
+      "label": "ZGB · Art. 458",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_458",
+      "sha256": "1933b9a395d369c0b983e610d06ff021699abb6420167e6ac9b4aa884accd218"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "ch.ch: Wer wie viel erbt (Erbfolge und Pflichtteil)"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/wer-wie-viel-erbt/"
+    },
+    {
+      "label": {
+        "de": "ch.ch: Testament, Erbvertrag und Schenkung"
+      },
+      "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/testament-und-erbvertrag/"
+    },
+    {
+      "label": {
+        "de": "Pro Senectute: Testament-Rechner (Pflichtteil berechnen)"
+      },
+      "url": "https://www.prosenectute.ch/de/dienstleistungen/orientierungshilfen/testament-rechner.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

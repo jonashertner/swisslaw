@@ -1,5 +1,5 @@
 // What swisslaw.io intends to cover, in the order of knowledge/COVERAGE.md. Topic names only; legal content lives in knowledge/.
-// A wave-1 or wave-2 topic counts as live once its situation is public. Romansh (rm) is a first translation and needs review by a native speaker.
+// A topic in waves 1 to 3 counts as live once its situation is public. Romansh (rm) is a first translation and needs review by a native speaker.
 import type { KnowledgeLanguage } from './knowledge';
 
 type Entry = Record<KnowledgeLanguage, string>;
@@ -63,15 +63,19 @@ export const WAVE_2: readonly CoverageGroup[] = [
   ] },
 ];
 
-/** Wave 3: planned, not yet drafted. */
-export const LATER: readonly CoverageGroup[] = [
+/** Wave 3: topics with a situation file, drafted for review. */
+export const WAVE_3: readonly CoverageGroup[] = [
   { area: 'inheritance', topics: [
-    { title: e('Testament errichten', 'Rédiger un testament', 'Redigere un testamento', 'Far in testament', 'Making a will') },
-    { title: e('Pflichtteile', 'Réserves héréditaires', 'Porzioni legittime', 'Parts obligatoricas', 'Compulsory shares') },
-    { title: e('Erbschaft ausschlagen', 'Répudier une succession', 'Rinunciare all’eredità', 'Refusar l’ierta', 'Refusing an inheritance') },
-    { title: e('Schulden der verstorbenen Person', 'Dettes de la personne décédée', 'Debiti della persona defunta', 'Debits da la persuna morta', 'Debts of the deceased') },
-    { title: e('Vorsorgeauftrag', 'Mandat pour cause d’inaptitude', 'Mandato precauzionale', 'Mandat da precauziun', 'Advance care directive') },
+    { id: 'inheritance.will', title: e('Testament errichten', 'Rédiger un testament', 'Redigere un testamento', 'Far in testament', 'Making a will') },
+    { id: 'inheritance.compulsory-shares', title: e('Pflichtteile', 'Réserves héréditaires', 'Porzioni legittime', 'Parts obligatoricas', 'Compulsory shares') },
+    { id: 'inheritance.refusal', title: e('Erbschaft ausschlagen', 'Répudier une succession', 'Rinunciare all’eredità', 'Refusar l’ierta', 'Refusing an inheritance') },
+    { id: 'inheritance.debts', title: e('Schulden der verstorbenen Person', 'Dettes de la personne décédée', 'Debiti della persona defunta', 'Debits da la persuna morta', 'Debts of the deceased') },
+    { id: 'inheritance.power-of-attorney', title: e('Vorsorgeauftrag und Patientenverfügung', 'Mandat pour cause d’inaptitude et directives anticipées', 'Mandato precauzionale e direttive del paziente', 'Mandat da precauziun', 'Power of attorney and advance directive') },
   ] },
+];
+
+/** Wave 3 continued and the long tail: planned, not yet drafted. */
+export const LATER: readonly CoverageGroup[] = [
   { area: 'health', label: e('Krankenversicherung', 'Assurance maladie', 'Assicurazione malattie', 'Assicuranza da malsogna', 'Health insurance'), topics: [
     { title: e('Die Kasse zahlt eine Rechnung nicht', 'La caisse refuse de payer une facture', 'La cassa non paga una fattura', 'La cassa na paja betg in quint', 'The insurer refuses to pay a bill') },
     { title: e('Die Kasse wechseln: Fristen', 'Changer de caisse : les délais', 'Cambiare cassa: i termini', 'Midar la cassa: ils termins', 'Changing insurer: deadlines') },
