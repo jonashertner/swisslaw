@@ -1,6 +1,6 @@
 # swisslaw.io
 
-Free, plain-language guidance on everyday Swiss law: what applies, what you can do and by when. Five languages (DE, FR, IT, RM, EN), no account, no tracking, no model downloads.
+Free, plain-language guidance on everyday Swiss law: what applies, what you can do and by when. Five languages (DE, FR, IT, RM, EN), no account, no cookies, no model downloads.
 
 - **The site** is static HTML generated from the knowledge base (`site/build.tsx`): every page works without JavaScript. One small script (`site/client.ts`, ~8 KB compressed) adds instant search, answers that tailor the guidance, and the deadline calculator.
 - **The knowledge base** (`knowledge/`, CC BY 4.0) holds one reviewed legal situation per file, with verified sources. It is published as open data under `/data/` together with the deadline rules. See `knowledge/README.md`.
@@ -73,7 +73,7 @@ The interface offers German, French, Italian, Romansh and English. Translations 
 
 The application holds the conversation in the current tab. **Start again** clears its conversation state and terminates workers; public model files may remain cached. **Data on this device → Remove cached models** removes the configured model files for this site, including partial downloads. It does not remove copied answers, other browser data or searches already sent. This is not secure erasure of all device traces.
 
-Model hosts receive download requests and connection information. OpenCaseLaw receives public legal terms, public source identifiers and connection information; Swisslaw calls its no-retention endpoint (`/mcp-edu`), where search terms are not stored beyond technical server logs; OpenCaseLaw's search may still use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
+Cloudflare Web Analytics counts page views, without cookies or local storage. Model hosts receive download requests and connection information. OpenCaseLaw receives public legal terms, public source identifiers and connection information; Swisslaw calls its no-retention endpoint (`/mcp-edu`), where search terms are not stored beyond technical server logs; OpenCaseLaw's search may still use an external AI provider. Read its [privacy information](https://opencaselaw.ch/datenschutz/). Opening a source visits that website; copying an answer uses your clipboard.
 
 Requested article sets can reveal the legal issue and some guided choices even though the full answers are not transmitted. Automatic queries contain only canonical words from the shipped legal vocabulary. This limits direct identifier leakage; it is **not guaranteed anonymisation**, and the vocabulary can miss an intended topic. Neither private questions nor fact choices are sent to the research worker.
 
