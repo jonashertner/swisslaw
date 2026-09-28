@@ -35,6 +35,7 @@ export const SITE_TEXT = {
   footerOpen: e('Die Anleitungen sind offene Daten (CC BY 4.0).', 'Les guides sont des données ouvertes (CC BY 4.0).', 'Le guide sono dati aperti (CC BY 4.0).', 'Ils guids èn datas avertas (CC BY 4.0).', 'The guides are open data (CC BY 4.0).'),
   mission: e('Für einen besseren Zugang zum Recht.', 'Pour un meilleur accès à la justice.', 'Per un migliore accesso alla giustizia.', 'Per in meglier access a la giustia.', 'For better access to justice.'),
   poweredBy: e('Basiert auf', 'Basé sur', 'Basato su', 'Sa basa sin', 'Powered by'),
+  sponsoredBy: e('Unterstützt von', 'Soutenu par', 'Sostenuto da', 'Sustegnì da', 'Sponsored by'),
   footerNotAdvice: e('Allgemeine Rechtsinformation. Sie ersetzt keine Beratung im Einzelfall.', 'Information juridique générale. Elle ne remplace pas un conseil individuel.', 'Informazione giuridica generale. Non sostituisce una consulenza individuale.', 'Infurmaziun giuridica generala. Ella na remplazza betg in cussegl individual.', 'General legal information. It does not replace individual advice.'),
   backTo: e('Zurück zu {x}', 'Retour à {x}', 'Torna a {x}', 'Enavos tar {x}', 'Back to {x}'),
   home: e('Start', 'Accueil', 'Inizio', 'Entschatta', 'Home'),
