@@ -9,7 +9,7 @@
     "de": "In meiner Wohnung ist etwas kaputt und der Vermieter macht nichts"
   },
   "summary": {
-    "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Je nach Mangel können Sie die Miete kürzen, Schadenersatz verlangen oder unter strengen Voraussetzungen die Miete bei einer amtlichen Stelle hinterlegen. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
+    "de": "Der Vermieter muss die Wohnung in einem brauchbaren Zustand halten und Mängel beheben, sobald er davon weiss. Melden Sie den Mangel schriftlich und setzen Sie eine angemessene Frist. Ab dem Zeitpunkt, an dem der Vermieter vom Mangel weiss, können Sie eine Herabsetzung der Miete verlangen, auch rückwirkend. Kürzen Sie die Miete aber nicht einfach selbst. Hinterlegen können Sie die Miete nur unter strengen Formvorschriften. Das Verfahren bei der Schlichtungsbehörde ist kostenlos."
   },
   "examples": {
     "de": [
@@ -160,17 +160,18 @@
         ]
       },
       "text": {
-        "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, muss der Mieter nach Ortsgebrauch selbst und auf eigene Kosten beheben. Ein Beispiel ist ein verstopfter Abfluss oder eine leere Batterie im Rauchmelder. Melden Sie sich beim Vermieter, wenn Sie unsicher sind, ob ein Mangel noch in diese Kategorie fällt."
+        "de": "Kleine Reinigungen und Ausbesserungen, die zum gewöhnlichen Unterhalt gehören, erledigen Sie selbst und auf eigene Kosten. Gemeint sind Arbeiten, für die es keine Fachperson braucht oder die wenig kosten, zum Beispiel eine Glühbirne oder einen Duschschlauch ersetzen oder einen verstopften Abfluss freimachen. Alles, was darüber hinausgeht, muss der Vermieter beheben. Eine Klausel im Mietvertrag, nach der Sie grössere Reparaturen ganz oder teilweise selbst bezahlen, gilt bei einer Wohnung nicht. Fragen Sie beim Vermieter nach, wenn Sie unsicher sind."
       },
       "sources": [
-        "or-259"
+        "or-259",
+        "or-256"
       ]
     },
     {
       "id": "landlord-duty",
       "kind": "rule",
       "text": {
-        "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden."
+        "de": "Der Vermieter muss die Wohnung in einem Zustand übergeben und erhalten, der den vereinbarten Gebrauch ermöglicht. Sobald er von einem Mangel weiss, muss er ihn beheben, auch wenn er ihn nicht verursacht hat. Diese Pflicht kann in einem Mietvertrag für Wohn- oder Geschäftsräume nicht zu Ihren Ungunsten wegbedungen werden."
       },
       "sources": [
         "or-256"
@@ -190,10 +191,27 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Melden Sie den Mangel schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief, und beschreiben Sie ihn genau. Setzen Sie dem Vermieter eine angemessene Frist zur Behebung. Machen Sie Fotos und bewahren Sie alle Nachrichten auf."
+        "de": "So gehen Sie vor: Melden Sie den Mangel sofort schriftlich, zum Beispiel per E-Mail oder eingeschriebenem Brief. Beschreiben Sie, was nicht funktioniert, seit wann, und wie es Sie im Alltag einschränkt. Verlangen Sie die Behebung und setzen Sie eine Frist, die zur Dringlichkeit passt: Fällt im Winter die Heizung aus, sind es wenige Tage, bei weniger dringenden Mängeln einige Wochen. Machen Sie Fotos oder Videos mit Datum und bewahren Sie alle Nachrichten auf. Im Streitfall müssen Sie den Mangel belegen. Behauptet der Vermieter, Sie hätten ihn selbst verursacht, muss er das beweisen."
       },
       "sources": [
-        "or-256"
+        "or-256",
+        "or-259b"
+      ]
+    },
+    {
+      "id": "access",
+      "kind": "rule",
+      "when": {
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Lassen Sie den Vermieter und die Handwerker für die Reparatur in die Wohnung. Arbeiten, die zur Behebung des Mangels nötig sind, müssen Sie dulden. Der Vermieter muss sie rechtzeitig ankündigen und bei der Ausführung auf Sie Rücksicht nehmen. Ihre Ansprüche auf Herabsetzung der Miete und auf Schadenersatz bleiben bestehen."
+      },
+      "sources": [
+        "or-257h"
       ]
     },
     {
@@ -206,7 +224,7 @@
         ]
       },
       "text": {
-        "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen."
+        "de": "Bei einem Mangel, den Sie nicht selbst verschuldet haben und nicht selbst beheben müssen, können Sie vom Vermieter verlangen, dass er den Mangel behebt, den Mietzins verhältnismässig herabsetzt, Ihnen den entstandenen Schaden ersetzt, oder einen Rechtsstreit mit einer beteiligten Drittperson übernimmt. Bei einer Wohnung oder einem Haus können Sie zudem unter bestimmten Voraussetzungen den Mietzins hinterlegen. Diese Rechte schliessen sich nicht aus. Sie können zum Beispiel die Behebung verlangen und für die Zeit bis dahin eine Herabsetzung der Miete."
       },
       "sources": [
         "or-259a"
@@ -223,10 +241,105 @@
         ]
       },
       "text": {
-        "de": "Wird der vertragsgemässe Gebrauch der Wohnung durch den Mangel beeinträchtigt, können Sie vom Vermieter eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Wie hoch die Herabsetzung im Einzelfall ausfällt, hängt vom Ausmass der Beeinträchtigung ab."
+        "de": "Beeinträchtigt der Mangel den vertragsgemässen Gebrauch der Wohnung, können Sie eine verhältnismässige Herabsetzung des Mietzinses verlangen. Sie gilt ab dem Zeitpunkt, an dem der Vermieter vom Mangel erfahren hat, bis der Mangel behoben ist. Es spielt keine Rolle, ob er es von Ihnen, vom Hauswart oder auf anderem Weg erfahren hat. Ein Verschulden des Vermieters ist nicht nötig."
       },
       "sources": [
         "or-259d"
+      ]
+    },
+    {
+      "id": "reduction-amount",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "reduction",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wie viel? Verglichen wird der Wert der Wohnung mit dem Mangel mit ihrem Wert ohne Mangel. Um diesen Anteil sinkt die Miete. Oft lässt sich das nicht genau berechnen. Die Gerichte schätzen die Herabsetzung dann nach der Lebenserfahrung und nach vergleichbaren Fällen. Schmälert ein kleiner Mangel den Gebrauch um weniger als etwa 5 Prozent, gibt es in der Regel keine Herabsetzung. Anders ist es, wenn er lange andauert, obwohl der Vermieter davon weiss."
+      },
+      "sources": [
+        "or-259d",
+        "bge-130-iii-504",
+        "bger-4c-97-2003"
+      ]
+    },
+    {
+      "id": "reduction-how",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "reduction",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Kürzen Sie die Miete nicht einfach selbst. Ist Ihr Abzug zu hoch oder nicht berechtigt, sind Sie mit der Differenz im Zahlungsrückstand, und der Vermieter kann Ihnen deswegen kündigen. Sicherer ist dieser Weg: Verlangen Sie die Herabsetzung schriftlich, zahlen Sie die Miete weiter voll und fordern Sie den zu viel bezahlten Betrag zurück, wenn nötig über die Schlichtungsbehörde. Solange der Vermieter den Mangel nicht behebt, können Sie ausserdem die Miete hinterlegen."
+      },
+      "sources": [
+        "or-259d",
+        "or-259g"
+      ]
+    },
+    {
+      "id": "past-months",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "reduction",
+          "both",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Herabsetzung können Sie auch noch verlangen, wenn der Mangel inzwischen behoben ist oder Sie schon ausgezogen sind. Zu viel bezahlte Miete können Sie während fünf Jahren zurückfordern. Das gilt aber nicht ohne Weiteres für eine Zeit, in der Sie den Mangel nie beanstandet und die Miete ohne Vorbehalt gezahlt haben. Dann darf der Vermieter annehmen, Sie seien damit einverstanden gewesen. Beanstanden Sie einen störenden Mangel deshalb früh und schriftlich."
+      },
+      "sources": [
+        "or-259d",
+        "or-128",
+        "bge-142-iii-557",
+        "bge-130-iii-504-limitation"
+      ]
+    },
+    {
+      "id": "damages",
+      "kind": "rule",
+      "when": {
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat Ihnen der Mangel zusätzliche Kosten verursacht, zum Beispiel für eine Ersatzunterkunft, für Arztbesuche oder für den Strom von Trocknungsgeräten, muss der Vermieter diese ersetzen, wenn er nicht beweisen kann, dass ihn kein Verschulden trifft. Bewahren Sie alle Belege auf. Dieser Anspruch kommt zur Herabsetzung der Miete hinzu."
+      },
+      "sources": [
+        "or-259e"
+      ]
+    },
+    {
+      "id": "landlord-inactive",
+      "kind": "rule",
+      "when": {
+        "landlord_action": [
+          "nothing",
+          "promised",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Behebt der Vermieter einen Mangel, von dem er weiss, nicht innert angemessener Frist, haben Sie weitere Möglichkeiten. Ist die Wohnung wegen des Mangels nicht mehr bewohnbar oder nur noch stark eingeschränkt nutzbar, können Sie fristlos kündigen, und zwar schriftlich. Ist der Mangel weniger gravierend, dürfen Sie ihn auf Kosten des Vermieters von einer Fachperson beheben lassen. Beide Schritte sind riskant: Fehlen die Voraussetzungen, ist die Kündigung unwirksam oder Sie bleiben auf den Kosten sitzen. Lassen Sie sich vorher beraten."
+      },
+      "sources": [
+        "or-259b",
+        "or-266l"
       ]
     },
     {
@@ -244,10 +357,13 @@
         ]
       },
       "text": {
-        "de": "Reagiert der Vermieter trotz schriftlicher Mahnung nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten amtlichen Stelle hinterlegen. Läuft diese Frist ungenutzt ab, kündigen Sie die Hinterlegung dem Vermieter ebenfalls schriftlich an und zahlen die Miete an die amtliche Stelle statt an den Vermieter. Solange die Miete dort liegt, gilt sie als bezahlt."
+        "de": "Reagiert der Vermieter nicht, können Sie ihm schriftlich eine angemessene Frist zur Behebung setzen und androhen, dass Sie künftige Mietzinse bei der vom Kanton bezeichneten Stelle hinterlegen. Welche Stelle das ist, erfahren Sie bei der Schlichtungsbehörde. Hält der Vermieter die Frist für zu kurz, muss er Ihnen das sagen. Läuft die Frist ungenutzt ab, kündigen Sie ihm die Hinterlegung schriftlich an und zahlen die Miete an diese Stelle statt an ihn. Sie dürfen die ganze Miete hinterlegen, auch die fest vereinbarten Nebenkosten, unabhängig davon, wie schwer der Mangel ist. Die hinterlegte Miete gilt als bezahlt. Die Hinterlegung dient dazu, die Behebung durchzusetzen. Sie ist deshalb nur möglich, solange der Mangel besteht und Sie seine Behebung verlangen."
       },
       "sources": [
-        "or-259g"
+        "or-259g",
+        "bge-124-iii-201",
+        "bger-4a-565-2009",
+        "bge-142-iii-557-deposit"
       ]
     },
     {
@@ -265,28 +381,94 @@
         ]
       },
       "text": {
-        "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Zudem müssen Sie Ihre Ansprüche innert 30 Tagen seit Fälligkeit des ersten hinterlegten Mietzinses bei der Schlichtungsbehörde geltend machen. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung."
+        "de": "Die Hinterlegung ist nur gültig, wenn Sie beide Schritte schriftlich machen, in der richtigen Reihenfolge: zuerst die Fristsetzung mit Androhung, dann erst, nach ungenutztem Ablauf der Frist, die Ankündigung der Hinterlegung. Hinterlegen dürfen Sie nur Mieten, die noch nicht fällig sind. Eine bereits fällige Miete gilt durch die Hinterlegung nicht als bezahlt, und Sie riskieren eine Kündigung wegen Zahlungsrückstand. Zudem müssen Sie sich mit Ihren Ansprüchen innert 30 Tagen an die Schlichtungsbehörde wenden. Die Frist beginnt, sobald die erste hinterlegte Miete fällig wird. Tun Sie das nicht rechtzeitig, fällt das hinterlegte Geld dem Vermieter zu. Wegen dieser strengen Formvorschriften lohnt sich vor einer Hinterlegung eine persönliche Beratung."
       },
       "sources": [
         "or-259g",
-        "or-259h"
+        "or-259h",
+        "bge-147-iii-218"
+      ]
+    },
+    {
+      "id": "deposit-good-faith",
+      "kind": "rule",
+      "when": {
+        "landlord_action": [
+          "nothing",
+          "promised",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Stellt sich später heraus, dass kein Mangel bestand, den der Vermieter hätte beheben müssen, schützt Sie die Hinterlegung trotzdem, wenn Sie in guten Treuen davon ausgegangen sind. Die Miete gilt dann als bezahlt, und eine Kündigung wegen Zahlungsrückstand ist ungültig. Hinterlegen Sie aber nie, nur um Druck zu machen, wenn Sie selbst nicht an einen Mangel glauben."
+      },
+      "sources": [
+        "or-259g",
+        "bge-125-iii-120"
+      ]
+    },
+    {
+      "id": "protection",
+      "kind": "rule",
+      "when": {
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie in guten Treuen die Behebung eines Mangels oder eine Herabsetzung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während eines Verfahrens vor der Schlichtungsbehörde oder dem Gericht oder innert drei Jahren danach, wenn der Vermieter zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+      },
+      "sources": [
+        "or-271a",
+        "or-273"
+      ]
+    },
+    {
+      "id": "conciliation",
+      "kind": "escalate",
+      "when": {
+        "landlord_action": [
+          "nothing",
+          "promised",
+          "unknown"
+        ],
+        "severity": [
+          "serious",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Einigen Sie sich nicht, können Sie Ihre Ansprüche bei der Schlichtungsbehörde am Ort der Wohnung geltend machen, zum Beispiel die Behebung, die Herabsetzung und die Rückzahlung zu viel bezahlter Miete. Gehen Sie persönlich zur Verhandlung. Sie dürfen eine Vertrauensperson mitnehmen. Bleiben Sie als gesuchstellende Partei fern, gilt Ihr Gesuch als zurückgezogen. Kommt keine Einigung zustande, macht die Behörde entweder einen Urteilsvorschlag, der verbindlich wird, wenn ihn niemand innert 20 Tagen ablehnt, oder sie stellt eine Klagebewilligung aus. Für die Klage beim Gericht haben Sie dann in Mietsachen 30 Tage Zeit. Lesen Sie die Belehrung auf dem Schreiben genau."
+      },
+      "sources": [
+        "zpo-204",
+        "zpo-206",
+        "zpo-209",
+        "zpo-210",
+        "zpo-211"
       ]
     },
     {
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
       },
       "sources": [
-        "zpo-113"
+        "zpo-113",
+        "zpo-117"
       ]
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, oder wenn Sie unsicher sind, wie hoch eine angemessene Mietzinsreduktion wäre."
+        "de": "Holen Sie persönliche Beratung, bevor Sie Mietzins hinterlegen, fristlos kündigen oder einen Mangel selbst beheben lassen. Ebenso bei Gesundheitsrisiken wie Schimmel, wenn der Vermieter mit einer Kündigung droht, wenn Sie unsicher sind, wie hoch eine angemessene Herabsetzung wäre, oder wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben."
       }
     },
     {
@@ -353,6 +535,173 @@
       "label": "ZPO · Art. 113",
       "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
       "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "or-266l": {
+      "type": "statute",
+      "sr": "220",
+      "article": "266l",
+      "label": "OR · Art. 266l",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_266l",
+      "sha256": "8e4ae0d6e2cc15d9e828e13f6040b2b923a8e406cb781f657b120bb0ff567261"
+    },
+    "or-271a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "271a",
+      "label": "OR · Art. 271a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_271a",
+      "sha256": "6a385a4470743475823357e1020d0fbd6b5d918e80235f617d9f6c6c73fa0043"
+    },
+    "or-273": {
+      "type": "statute",
+      "sr": "220",
+      "article": "273",
+      "label": "OR · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273",
+      "sha256": "df7e8a1e60f7f39c9475231a620b6c76b578db8fd5b0863ca828371adb7af738"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-204": {
+      "type": "statute",
+      "sr": "272",
+      "article": "204",
+      "label": "ZPO · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_204",
+      "sha256": "1dfd0c6a3cfb29def0a71b04ab92554858cdac71e95eb5c0c7a6600dd8046cf4"
+    },
+    "zpo-206": {
+      "type": "statute",
+      "sr": "272",
+      "article": "206",
+      "label": "ZPO · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_206",
+      "sha256": "e2c4b2bb107d7ae551013d688d497a41db13f53abad4e68e53271e45f99de4bb"
+    },
+    "zpo-209": {
+      "type": "statute",
+      "sr": "272",
+      "article": "209",
+      "label": "ZPO · Art. 209",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_209",
+      "sha256": "abcfa5dffdd2c53370914c798a1a2b623b3652c025b875cb75678b07125fba13"
+    },
+    "zpo-210": {
+      "type": "statute",
+      "sr": "272",
+      "article": "210",
+      "label": "ZPO · Art. 210",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_210",
+      "sha256": "584d47587412193ec3ebcde43f6f8c454992333ac51d2676fdf966eeaa0c0561"
+    },
+    "zpo-211": {
+      "type": "statute",
+      "sr": "272",
+      "article": "211",
+      "label": "ZPO · Art. 211",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_211",
+      "sha256": "68a788bc1bd152cdc5012969379926caff8195305064632d48b05b5b43710914"
+    },
+    "or-128": {
+      "type": "statute",
+      "sr": "220",
+      "article": "128",
+      "label": "OR · Art. 128",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_128",
+      "sha256": "2a2eba5be5db4c532004f8c564d07c745913b084706e38c2fab2968b9f517996"
+    },
+    "or-259b": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259b",
+      "label": "OR · Art. 259b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259b",
+      "sha256": "1fcd213fc088f4f17a14d7e04bf0a49b908ccd6d9d01549fea908c4ab6acaee3"
+    },
+    "or-259e": {
+      "type": "statute",
+      "sr": "220",
+      "article": "259e",
+      "label": "OR · Art. 259e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_259e",
+      "sha256": "49a239c7152da2124bc53f366e87d0be01c5dfc2f8cf5e600e960613e0b2f358"
+    },
+    "or-257h": {
+      "type": "statute",
+      "sr": "220",
+      "article": "257h",
+      "label": "OR · Art. 257h",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_257h",
+      "sha256": "25ec78b6024e738b9882a67a9c9b013556a15dcce38d31f579e02d040a6acd65"
+    },
+    "bge-130-iii-504": {
+      "type": "decision",
+      "decision_id": "bge_BGE_130_III_504",
+      "citation": "BGE 130 III 504",
+      "e": "4.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_130_III_504#e-4-1"
+    },
+    "bge-130-iii-504-limitation": {
+      "type": "decision",
+      "decision_id": "bge_BGE_130_III_504",
+      "citation": "BGE 130 III 504",
+      "e": "8",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_130_III_504#e-8"
+    },
+    "bger-4c-97-2003": {
+      "type": "decision",
+      "decision_id": "bger_4C.97_2003",
+      "citation": "BGer 4C.97/2003 vom 28. Oktober 2003",
+      "e": "3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4C.97_2003#e-3-3"
+    },
+    "bge-142-iii-557": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_557",
+      "citation": "BGE 142 III 557",
+      "e": "8.3.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_557#e-8-3-4"
+    },
+    "bge-142-iii-557-deposit": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_557",
+      "citation": "BGE 142 III 557",
+      "e": "8.3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_557#e-8-3-3"
+    },
+    "bge-124-iii-201": {
+      "type": "decision",
+      "decision_id": "bge_BGE_124_III_201",
+      "citation": "BGE 124 III 201",
+      "e": "2d",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_124_III_201#e-2d"
+    },
+    "bge-147-iii-218": {
+      "type": "decision",
+      "decision_id": "bge_BGE_147_III_218",
+      "citation": "BGE 147 III 218",
+      "e": "3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_147_III_218#e-3-3"
+    },
+    "bge-125-iii-120": {
+      "type": "decision",
+      "decision_id": "bge_BGE_125_III_120",
+      "citation": "BGE 125 III 120",
+      "e": "2b",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_125_III_120#e-2b"
+    },
+    "bger-4a-565-2009": {
+      "type": "decision",
+      "decision_id": "bger_4A_565_2009",
+      "citation": "BGer 4A_565/2009 vom 21. Januar 2010",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_565_2009#e-4-2"
     }
   },
   "official_links": [
