@@ -47,7 +47,7 @@ export const WAVE_1: readonly CoverageGroup[] = [
   ] },
 ];
 
-/** Wave 2: every topic has a situation file, drafted for review. */
+/** Wave 2: every topic has a situation file. */
 export const WAVE_2: readonly CoverageGroup[] = [
   { area: 'family', topics: [
     { id: 'family.separation', title: e('Trennung', 'Séparation', 'Separazione', 'Separaziun', 'Separation') },
