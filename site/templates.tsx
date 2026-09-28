@@ -21,6 +21,7 @@ export const paths = {
   area: (l: KnowledgeLanguage, a: string) => `/${l}/${a}/`,
   situation: (l: KnowledgeLanguage, id: string) => { const [a, ...rest] = id.split('.'); return `/${l}/${a}/${rest.join('.')}/`; },
   about: (l: KnowledgeLanguage) => `/${l}/about/`,
+  topics: (l: KnowledgeLanguage) => `/${l}/topics/`,
   thanks: (l: KnowledgeLanguage) => `/${l}/thanks/`,
 };
 const DEADLINE_LABEL = new Map(LETTERS.map(l => [l.situation, l.id]));
@@ -34,7 +35,11 @@ function Txt({ value, ctx, as: Tag = 'span', className }: { value: LText; ctx: C
 export function Top({ ctx, alt }: { ctx: Ctx; alt: (l: KnowledgeLanguage) => string }) {
   return (
     <header className="top">
-      <a href={paths.home(ctx.lang)} className="mark">swisslaw.io</a>
+      <a href={paths.home(ctx.lang)} className="mark">swisslaw<span>.io</span></a>
+      <nav className="primary" aria-label="swisslaw.io">
+        <a href={paths.topics(ctx.lang)}>{t(ctx, 'navTopics')}</a>
+        <a href={paths.about(ctx.lang)}>{t(ctx, 'navAbout')}</a>
+      </nav>
       <nav className="langs" aria-label={LANG_LABEL[ctx.lang]}>
         <ul>
           {LANGS.map(l => (
@@ -51,15 +56,18 @@ export function Top({ ctx, alt }: { ctx: Ctx; alt: (l: KnowledgeLanguage) => str
 export function Foot({ ctx }: { ctx: Ctx }) {
   return (
     <footer className="foot">
-      <nav aria-label="swisslaw.io">
-        <a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a>
-        <a href={paths.about(ctx.lang)}>{t(ctx, 'navAbout')}</a>
-        <a href="/data/">{t(ctx, 'openData')}</a>
-        <a href={REPO}>GitHub</a>
-      </nav>
-      <p>{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
-      <p>{t(ctx, 'mission')} {t(ctx, 'poweredBy')} <a href={OCL}>OpenCaseLaw</a>.</p>
-      <p><a href={`${REPO}/issues/new/choose`}>{t(ctx, 'contribute')}</a></p>
+      <div className="foot-brand">
+        <a href={paths.home(ctx.lang)} className="mark">swisslaw<span>.io</span></a>
+        <p>{t(ctx, 'mission')} {t(ctx, 'poweredBy')} <a href={OCL}>OpenCaseLaw</a>.</p>
+      </div>
+      <ul className="foot-links">
+        <li><a href={paths.topics(ctx.lang)}>{t(ctx, 'navTopics')}</a></li>
+        <li><a href={paths.about(ctx.lang)}>{t(ctx, 'navAbout')}</a></li>
+        <li><a href="/data/">{t(ctx, 'openData')}</a></li>
+        <li><a href={REPO}>GitHub</a></li>
+        <li><a href={`${REPO}/issues/new/choose`}>{t(ctx, 'contribute')}</a></li>
+      </ul>
+      <p className="foot-fine">{t(ctx, 'footerNotAdvice')} {t(ctx, 'footerOpen')}</p>
     </footer>
   );
 }
@@ -77,28 +85,49 @@ function Entry({ s, ctx }: { s: Situation; ctx: Ctx }) {
   );
 }
 
-export function IndexBody({ ctx, groups, live }: { ctx: Ctx; groups: { area: AreaId; items: Situation[] }[]; live: Situation[] }) {
+// Short lay wording from the situation's own examples, used as search suggestions.
+function exampleQuery(s: Situation, lang: KnowledgeLanguage): { text: string; lang: KnowledgeLanguage } {
+  const list = s.examples[lang]?.length ? s.examples[lang]! : s.examples.de;
+  const l = s.examples[lang]?.length ? lang : 'de';
+  return { text: list[0], lang: l };
+}
+
+export function IndexBody({ ctx, groups, examples }: { ctx: Ctx; groups: { area: AreaId; items: Situation[] }[]; examples: Situation[] }) {
   return (
     <>
-      <section className="lead-in">
-        <h1 className="intro">{t(ctx, 'intro')}</h1>
+      <section className="hero">
+        <h1 className="hero-title">{t(ctx, 'intro')}</h1>
+        <p className="hero-sub">{t(ctx, 'heroSub')}</p>
         <form className="search" role="search" action={paths.home(ctx.lang)} data-search hidden>
           <label htmlFor="q" className="visually-hidden">{t(ctx, 'searchLabel')}</label>
-          <input id="q" name="q" type="search" placeholder={t(ctx, 'searchLabel')} autoComplete="off" spellCheck />
+          <div className="search-box">
+            <svg className="search-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="m15.5 15.5 5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+            <input id="q" name="q" type="search" placeholder={t(ctx, 'searchLabel')} autoComplete="off" spellCheck enterKeyHint="search" />
+          </div>
+          {examples.length > 0 && (
+            <div className="try">
+              <span className="try-label">{t(ctx, 'tryExamples')}</span>
+              <ul>{examples.map(s => { const q = exampleQuery(s, ctx.lang); return (
+                <li key={s.id}><button type="button" className="chip" data-q={q.text} lang={q.lang !== ctx.lang ? q.lang : undefined}>{q.text}</button></li>
+              ); })}</ul>
+            </div>
+          )}
         </form>
       </section>
-      <section className="group" id="results" aria-live="polite" hidden>
-        <h2 className="group-name">{t(ctx, 'searchResults')}</h2>
-        <div className="group-body"><ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href="#submit">{t(ctx, 'submitTitle')}</a></p></div>
+      <section className="results" id="results" aria-live="polite" hidden>
+        <h2 className="section-label">{t(ctx, 'searchResults')}</h2>
+        <ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href="#submit">{t(ctx, 'submitTitle')}</a></p>
       </section>
       <div id="index">
-        {groups.map(g => (
-          <section key={g.area} className="group" aria-labelledby={`g-${g.area}`}>
-            <h2 id={`g-${g.area}`} className="group-name"><a href={paths.area(ctx.lang, g.area)}>{AREA_TEXT[g.area][ctx.lang]}</a></h2>
-            <ul className="entries">{g.items.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
-          </section>
-        ))}
-        <CoverageSection ctx={ctx} live={live} />
+        <div className="areas">
+          {groups.map(g => (
+            <section key={g.area} className="area" aria-labelledby={`g-${g.area}`}>
+              <h2 id={`g-${g.area}`} className="area-name"><a href={paths.area(ctx.lang, g.area)}>{AREA_TEXT[g.area][ctx.lang]}</a></h2>
+              <ul className="entries">{g.items.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
+            </section>
+          ))}
+        </div>
+        <p className="index-more"><a href={paths.topics(ctx.lang)}>{t(ctx, 'allTopics')}</a></p>
       </div>
       <SubmitSection ctx={ctx} />
     </>
@@ -106,38 +135,54 @@ export function IndexBody({ ctx, groups, live }: { ctx: Ctx; groups: { area: Are
 }
 
 // Live means public. Topic names only, never draft text.
-function CoverageSection({ ctx, live }: { ctx: Ctx; live: Situation[] }) {
+export function TopicsBody({ ctx, live }: { ctx: Ctx; live: Situation[] }) {
   const liveIds = new Set(live.map(s => s.id));
   const next = WAVE_1.map(g => ({ ...g, topics: g.topics.filter(x => !liveIds.has(x.id!)) })).filter(g => g.topics.length);
-  const list = (groups: CoverageGroup[]) => (
-    <dl className="coverage-list">
+  const liveGroups = WAVE_1.map(g => ({ area: g.area, items: live.filter(s => g.topics.some(x => x.id === s.id)) })).filter(g => g.items.length);
+  const cards = (groups: readonly CoverageGroup[]) => (
+    <div className="topic-grid">
       {groups.map(g => (
-        <div key={g.area}>
-          <dt>{(g.label ?? AREA_TEXT[g.area])[ctx.lang]}</dt>
-          <dd>{g.topics.map(x => x.title[ctx.lang]).join(' · ')}</dd>
-        </div>
+        <section key={g.area} className="topic-card">
+          <h3>{(g.label ?? AREA_TEXT[g.area])[ctx.lang]}</h3>
+          <ul>{g.topics.map(x => <li key={x.id ?? x.title.de}>{x.title[ctx.lang]}</li>)}</ul>
+        </section>
       ))}
-    </dl>
+    </div>
   );
   return (
-    <section className="group coverage" id="coverage" aria-labelledby="coverage-h">
-      <h2 id="coverage-h" className="group-name">{t(ctx, 'coverageTitle')}</h2>
-      <div className="coverage-body">
-        <p className="coverage-lead">{t(ctx, 'coverageLead')}</p>
-        <h3>{t(ctx, 'coverageLive')}</h3>
-        {live.length ? <ul className="entries">{live.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul> : <p className="coverage-none">{t(ctx, 'coverageLiveNone')}</p>}
-        {next.length > 0 && <><h3>{t(ctx, 'coverageNext')}</h3>{list(next)}</>}
-        <h3>{t(ctx, 'coveragePlanned')}</h3>
-        {list([...LATER])}
-      </div>
-    </section>
+    <div className="topics">
+      <header className="page-head"><h1 className="page-title">{t(ctx, 'coverageTitle')}</h1></header>
+      <section className="topics-part" aria-labelledby="t-live">
+        <h2 id="t-live" className="section-label">{t(ctx, 'coverageLive')} <span className="count">{live.length}</span></h2>
+        {liveGroups.length ? (
+          <div className="areas">
+            {liveGroups.map(g => (
+              <section key={g.area} className="area">
+                <h3 className="area-name"><a href={paths.area(ctx.lang, g.area)}>{AREA_TEXT[g.area][ctx.lang]}</a></h3>
+                <ul className="entries">{g.items.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
+              </section>
+            ))}
+          </div>
+        ) : <p className="none">{t(ctx, 'coverageLiveNone')}</p>}
+      </section>
+      {next.length > 0 && (
+        <section className="topics-part" aria-labelledby="t-next">
+          <h2 id="t-next" className="section-label">{t(ctx, 'coverageNext')} <span className="count">{next.reduce((n, g) => n + g.topics.length, 0)}</span></h2>
+          {cards(next)}
+        </section>
+      )}
+      <section className="topics-part" aria-labelledby="t-later">
+        <h2 id="t-later" className="section-label">{t(ctx, 'coveragePlanned')} <span className="count">{LATER.reduce((n, g) => n + g.topics.length, 0)}</span></h2>
+        {cards(LATER)}
+      </section>
+    </div>
   );
 }
 
 export function SubmitSection({ ctx }: { ctx: Ctx }) {
   return (
-    <section className="group submit" id="submit" aria-labelledby="submit-h">
-      <h2 id="submit-h" className="group-name">{t(ctx, 'submitTitle')}</h2>
+    <section className="submit" id="submit" aria-labelledby="submit-h">
+      <h2 id="submit-h" className="submit-title">{t(ctx, 'submitTitle')}</h2>
       <form className="submit-form" method="post" action="/api/questions" data-submit>
         <p className="submit-lead">{t(ctx, 'submitLead')}</p>
         <input type="hidden" name="lang" value={ctx.lang} />
@@ -168,7 +213,7 @@ export function SubmitSection({ ctx }: { ctx: Ctx }) {
 export function ThanksBody({ ctx }: { ctx: Ctx }) {
   return (
     <section className="about">
-      <h1>{t(ctx, 'submitThanks')}</h1>
+      <h1 className="page-title">{t(ctx, 'submitThanks')}</h1>
       <p><a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a></p>
     </section>
   );
@@ -178,11 +223,8 @@ export function AreaBody({ ctx, area, items }: { ctx: Ctx; area: AreaId; items: 
   return (
     <>
       <nav className="crumbs" aria-label={t(ctx, 'overview')}><a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a></nav>
-      <section className="lead-in lead-in-area"><h1>{AREA_TEXT[area][ctx.lang]}</h1></section>
-      <section className="group" aria-labelledby="area-list">
-        <h2 id="area-list" className="group-name visually-hidden">{AREA_TEXT[area][ctx.lang]}</h2>
-        <ul className="entries">{[...items].sort(byImportance).map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
-      </section>
+      <header className="page-head"><h1 className="page-title">{AREA_TEXT[area][ctx.lang]}</h1></header>
+      <ul className="entries entries-page">{[...items].sort(byImportance).map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
     </>
   );
 }
@@ -190,7 +232,7 @@ export function AreaBody({ ctx, area, items }: { ctx: Ctx; area: AreaId; items: 
 export function AboutBody({ ctx }: { ctx: Ctx }) {
   return (
     <section className="about">
-      <h1>{t(ctx, 'aboutTitle')}</h1>
+      <h1 className="page-title">{t(ctx, 'aboutTitle')}</h1>
       {(['aboutBody', 'how1', 'how2', 'how3'] as const).map(k => <p key={k}>{t(ctx, k)}</p>)}
       <p>{(SITE_TEXT.aboutSources[ctx.lang] || SITE_TEXT.aboutSources.de).split('{ocl}').flatMap((part, i) => i ? [<a key={i} href={OCL}>OpenCaseLaw</a>, part] : [part])}</p>
     </section>

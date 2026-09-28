@@ -13,7 +13,7 @@ import { localText, SituationSchema, validateSituation, type KnowledgeLanguage, 
 import { AREAS, byImportance, LETTERS, visibleInChannel, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, FULL_DATE_LOCALE, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
-import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, type Ctx } from './templates';
+import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, TopicsBody, type Ctx } from './templates';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const OUT = process.env.SITE_OUT ?? join(ROOT, 'dist');
@@ -83,8 +83,8 @@ function page(p: PageSpec): string {
     '<link rel="preload" href="/fonts/source-serif-4-latin-wght.woff2" as="font" type="font/woff2" crossorigin>',
     '<link rel="preload" href="/fonts/source-sans-3-latin-wght.woff2" as="font" type="font/woff2" crossorigin>',
     '<link rel="icon" href="/favicon.svg" type="image/svg+xml">',
-    '<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">',
-    '<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">',
+    '<meta name="theme-color" content="#FCFCFA" media="(prefers-color-scheme: light)">',
+    '<meta name="theme-color" content="#0F0F10" media="(prefers-color-scheme: dark)">',
     `<meta property="og:title" content="${esc(p.title)}"><meta property="og:description" content="${esc(p.description)}"><meta property="og:type" content="website"><meta property="og:url" content="${ORIGIN}${canonical}"><meta property="og:locale" content="${FULL_DATE_LOCALE[p.lang].replace('-', '_')}">`,
     `<link rel="alternate" type="application/json" href="/data/index.json" title="swisslaw.io open data">`,
     `<style>${css}</style>`,
@@ -111,7 +111,7 @@ for (const lang of LANGS) {
   const indexSpec = (path: string, rootScript = false): PageSpec => ({
     lang, path, alt: l => paths.home(l), canonical: paths.home(lang), rootScript,
     title: `swisslaw.io – ${st('intro', lang).split('.')[0]}`, description: st('intro', lang),
-    body: <IndexBody ctx={{ lang, review: REVIEW }} groups={areasWithContent.map(area => ({ area, items: inArea(area) }))} live={all.filter(s => s.status === 'public')} />,
+    body: <IndexBody ctx={{ lang, review: REVIEW }} groups={areasWithContent.map(area => ({ area, items: inArea(area) }))} examples={situations.slice(0, 3)} />,
     script: true,
     data: { lang, channel: CHANNEL, locale: FULL_DATE_LOCALE[lang], text: clientText(lang),
       search: situations.map(s => ({ id: s.id, url: paths.situation(lang, s.id), due: dueLabel.get(s.id) ? LETTER_TEXT[dueLabel.get(s.id)!].deadline[lang] : undefined,
@@ -153,11 +153,14 @@ for (const lang of LANGS) {
 
   emit({ lang, path: paths.thanks(lang), alt: l => paths.thanks(l), title: title(st('submitThanks', lang)), description: st('submitThanks', lang),
     body: <ThanksBody ctx={{ lang, review: REVIEW }} /> });
+  emit({ lang, path: paths.topics(lang), alt: l => paths.topics(l), title: title(st('coverageTitle', lang)), description: st('coverageTitle', lang),
+    body: <TopicsBody ctx={{ lang, review: REVIEW }} live={all.filter(s => s.status === 'public').sort(byImportance)} />,
+    jsonld: { '@context': 'https://schema.org', '@type': 'CollectionPage', name: st('coverageTitle', lang), url: `${ORIGIN}${paths.topics(lang)}`, isPartOf: siteLd, inLanguage: lang } });
   emit({ lang, path: paths.about(lang), alt: l => paths.about(l), title: title(st('aboutTitle', lang)), description: st('aboutBody', lang).slice(0, 300),
     body: <AboutBody ctx={{ lang, review: REVIEW }} />, jsonld: { '@context': 'https://schema.org', '@type': 'AboutPage', name: st('aboutTitle', lang), url: `${ORIGIN}${paths.about(lang)}`, isPartOf: siteLd } });
 }
 write('404.html', page({ lang: 'de', path: '/404.html', alt: l => paths.home(l), title: 'swisslaw.io', description: st('intro', 'de'),
-  body: <section className="lead-in"><h1 className="intro">Diese Seite gibt es nicht. <a href="/de/">Zur Übersicht</a></h1></section> }));
+  body: <section className="about"><h1 className="page-title">Diese Seite gibt es nicht.</h1><p><a href="/de/">Zur Übersicht</a></p></section> }));
 
 // --- machine-readable files ------------------------------------------------------------
 const index = situations.map(s => ({ id: s.id, domain: s.domain, status: s.status, version: s.version, title: s.title, summary: s.summary,
@@ -168,7 +171,7 @@ write('data/deadline-rules.json', readFileSync(join(ROOT, 'lib/swisslaw-chat/dea
 write('data/deadline-holidays.json', readFileSync(join(ROOT, 'lib/swisslaw-chat/deadline-holidays.json')));
 write('data/LICENSE.txt', readFileSync(join(ROOT, 'knowledge/LICENSE')));
 write('data/index.html', page({ lang: 'de', path: '/data/', alt: () => '/data/', title: 'Offene Daten – swisslaw.io', description: 'Die Wissensbasis von swisslaw.io als offene Daten (CC BY 4.0).',
-  body: <section className="about"><h1>Offene Daten</h1>
+  body: <section className="about"><h1 className="page-title">Offene Daten</h1>
     <p>Die Wissensbasis von swisslaw.io steht unter CC BY 4.0. Nennen Sie «swisslaw.io», die Situation und ihre Version.</p>
     <p><a href="/data/index.json">index.json</a>: alle Situationen mit Titel, Status, Version und Adressen.</p>
     <p><a href="/data/deadline-rules.json">deadline-rules.json</a> und <a href="/data/deadline-holidays.json">deadline-holidays.json</a>: die Fristregeln mit Rechtsgrundlagen.</p>
