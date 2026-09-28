@@ -19,7 +19,7 @@ const StatuteSource = z.object({
 }).strict();
 const DecisionSource = z.object({
   type: z.literal('decision'), decision_id: z.string().min(3).max(80), citation: z.string().min(3).max(60),
-  e: z.string().regex(/^[0-9]+(\.[0-9a-z]+)*$/).optional(), url: httpsUrl,
+  e: z.string().regex(/^[0-9]+[a-z]?(\.[0-9a-z]+)*$/).optional(), url: httpsUrl,
 }).strict();
 const Source = z.discriminatedUnion('type', [StatuteSource, DecisionSource]);
 
