@@ -111,7 +111,7 @@ for (const lang of LANGS) {
   const indexSpec = (path: string, rootScript = false): PageSpec => ({
     lang, path, alt: l => paths.home(l), canonical: paths.home(lang), rootScript,
     title: `swisslaw.io – ${st('intro', lang).split('.')[0]}`, description: st('intro', lang),
-    body: <IndexBody ctx={{ lang, review: REVIEW }} groups={areasWithContent.map(area => ({ area, items: inArea(area) }))} preparing={AREAS.filter(a => !inArea(a).length)} />,
+    body: <IndexBody ctx={{ lang, review: REVIEW }} groups={areasWithContent.map(area => ({ area, items: inArea(area) }))} live={all.filter(s => s.status === 'public')} />,
     script: true,
     data: { lang, channel: CHANNEL, locale: FULL_DATE_LOCALE[lang], text: clientText(lang),
       search: situations.map(s => ({ id: s.id, url: paths.situation(lang, s.id), due: dueLabel.get(s.id) ? LETTER_TEXT[dueLabel.get(s.id)!].deadline[lang] : undefined,

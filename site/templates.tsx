@@ -4,6 +4,7 @@ import { applicableBlocks, localText, type KnowledgeLanguage, type Situation } f
 import { BLOCK_ORDER, byImportance, LETTERS, type AreaId } from '../lib/swisslaw-chat/site';
 import { AREA_TEXT, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { CANTONS, DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
+import { LATER, WAVE_1, type CoverageGroup } from '../lib/swisslaw-chat/coverage';
 import { formatDate } from './format';
 
 export const REPO = 'https://github.com/jonashertner/swisslaw';
@@ -76,7 +77,7 @@ function Entry({ s, ctx }: { s: Situation; ctx: Ctx }) {
   );
 }
 
-export function IndexBody({ ctx, groups, preparing }: { ctx: Ctx; groups: { area: AreaId; items: Situation[] }[]; preparing: AreaId[] }) {
+export function IndexBody({ ctx, groups, live }: { ctx: Ctx; groups: { area: AreaId; items: Situation[] }[]; live: Situation[] }) {
   return (
     <>
       <section className="lead-in">
@@ -97,10 +98,39 @@ export function IndexBody({ ctx, groups, preparing }: { ctx: Ctx; groups: { area
             <ul className="entries">{g.items.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
           </section>
         ))}
-        {preparing.length > 0 && <p className="preparing">{t(ctx, 'preparing', { x: preparing.map(a => AREA_TEXT[a][ctx.lang]).join(', ') })}</p>}
+        <CoverageSection ctx={ctx} live={live} />
       </div>
       <SubmitSection ctx={ctx} />
     </>
+  );
+}
+
+// Live means public. Topic names only, never draft text.
+function CoverageSection({ ctx, live }: { ctx: Ctx; live: Situation[] }) {
+  const liveIds = new Set(live.map(s => s.id));
+  const next = WAVE_1.map(g => ({ ...g, topics: g.topics.filter(x => !liveIds.has(x.id!)) })).filter(g => g.topics.length);
+  const list = (groups: CoverageGroup[]) => (
+    <dl className="coverage-list">
+      {groups.map(g => (
+        <div key={g.area}>
+          <dt>{(g.label ?? AREA_TEXT[g.area])[ctx.lang]}</dt>
+          <dd>{g.topics.map(x => x.title[ctx.lang]).join(' · ')}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+  return (
+    <section className="group coverage" id="coverage" aria-labelledby="coverage-h">
+      <h2 id="coverage-h" className="group-name">{t(ctx, 'coverageTitle')}</h2>
+      <div className="coverage-body">
+        <p className="coverage-lead">{t(ctx, 'coverageLead')}</p>
+        <h3>{t(ctx, 'coverageLive')}</h3>
+        {live.length ? <ul className="entries">{live.map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul> : <p className="coverage-none">{t(ctx, 'coverageLiveNone')}</p>}
+        {next.length > 0 && <><h3>{t(ctx, 'coverageNext')}</h3>{list(next)}</>}
+        <h3>{t(ctx, 'coveragePlanned')}</h3>
+        {list([...LATER])}
+      </div>
+    </section>
   );
 }
 
