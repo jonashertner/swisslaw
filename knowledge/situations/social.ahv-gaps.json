@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Habe ich Lücken in der AHV, und kann ich sie schliessen?"
+    "de": "Habe ich Lücken in der AHV, und kann ich sie schliessen?",
+    "fr": "Ai-je des lacunes de cotisations à l’AVS, et puis-je les combler ?",
+    "it": "Ho lacune nell'AVS, e posso colmarle?",
+    "rm": "Hai jau lacunas en l'AVS, e poss jau serrar ellas?",
+    "en": "Do I have gaps in my OASI record, and can I close them?"
   },
   "summary": {
-    "de": "Jedes fehlende Beitragsjahr kürzt Ihre AHV-Rente lebenslang um etwa 2,3 Prozent. Einen kostenlosen Auszug Ihres AHV-Kontos erhalten Sie bei der Ausgleichskasse. Fehlende Beiträge können Sie nur für die letzten fünf Jahre nachzahlen. Auch ohne Erwerbseinkommen müssen Sie ab 20 Beiträge zahlen, ausser Ihr Ehegatte deckt sie. Erziehungs- und Betreuungsgutschriften können Jahre füllen, Betreuungsgutschriften müssen Sie aber jedes Jahr anmelden."
+    "de": "Jedes fehlende Beitragsjahr kürzt Ihre AHV-Rente lebenslang um etwa 2,3 Prozent. Einen kostenlosen Auszug Ihres AHV-Kontos erhalten Sie bei der Ausgleichskasse. Fehlende Beiträge können Sie nur für die letzten fünf Jahre nachzahlen. Auch ohne Erwerbseinkommen müssen Sie ab 20 Beiträge zahlen, ausser Ihr Ehegatte deckt sie. Erziehungs- und Betreuungsgutschriften können Jahre füllen, Betreuungsgutschriften müssen Sie aber jedes Jahr anmelden.",
+    "fr": "Chaque année de cotisations manquante réduit votre rente AVS à vie d’environ 2,3 pour cent. Vous obtenez gratuitement un extrait de votre compte AVS auprès de la caisse de compensation. Vous ne pouvez rattraper des cotisations manquantes que pour les cinq dernières années. Même sans revenu d’une activité lucrative, vous devez payer des cotisations dès 20 ans, sauf si votre conjoint les couvre. Les bonifications pour tâches éducatives et pour tâches d’assistance peuvent combler des années, mais les bonifications pour tâches d’assistance doivent être demandées chaque année.",
+    "it": "Ogni anno di contribuzione mancante riduce la sua rendita AVS a vita di circa il 2,3 per cento. Un estratto gratuito del suo conto AVS lo ottiene presso la cassa di compensazione. I contributi mancanti può versarli retroattivamente solo per gli ultimi cinque anni. Anche senza reddito da attività lucrativa deve pagare contributi dai 20 anni, a meno che il suo coniuge non li copra. Gli accrediti per compiti educativi e assistenziali possono colmare degli anni, ma gli accrediti per compiti assistenziali deve richiederli ogni anno.",
+    "rm": "Mintga onn da contribuziun mancant reducescha Vossa renta AVS per la vita entira per var 2,3 pertschient. In extract gratuit da Voss conto AVS survegnis Vus tar la cassa da cumpensaziun. Contribuziuns mancantas pudais Vus pajar posteriorment mo per ils davos tschintg onns. Er senza entrada lucrativa stuais Vus, dapi 20 onns, pajar contribuziuns, ordaifer che Voss conjugie las cuvra. Credits d'educaziun e d'assistenza pon emplenir onns, credits d'assistenza stuais Vus dentant annunziar mintga onn.",
+    "en": "Every missing contribution year permanently reduces your OASI pension by around 2.3 percent. You can get a free extract of your OASI account from the compensation office. You can only make up missing contributions for the last five years. Even without earned income, you must pay contributions from age 20, unless your spouse's contributions cover you. Child-raising and care credits can fill years, but you must apply for care credits every year."
   },
   "examples": {
     "de": [
@@ -19,60 +27,132 @@
       "Ich bin mit 60 in Frühpension gegangen, muss ich noch AHV-Beiträge zahlen?",
       "Ha ich Lücke i dr AHV, und chan ich die no nachezahle?",
       "Ich pflege meine Mutter, bekomme ich dafür etwas an die AHV angerechnet?"
+    ],
+    "fr": [
+      "Ai-je des lacunes de cotisations à l’AVS, et puis-je les combler ?",
+      "Comment savoir s’il me manque des années de cotisations à l’AVS ?",
+      "Je n’ai pas payé de cotisations AVS pendant mes études, puis-je le rattraper ?",
+      "J’ai pris une retraite anticipée à 60 ans, dois-je encore payer des cotisations AVS ?",
+      "Ai-je des trous dans mon AVS, et est-ce que je peux encore les rattraper ?",
+      "Je m’occupe de ma mère, est-ce que cela compte pour quelque chose à l’AVS ?"
+    ],
+    "it": [
+      "Ho lacune nell'AVS, e posso colmarle?",
+      "Come faccio a sapere se mi mancano anni di contribuzione AVS?",
+      "Durante gli studi non ho pagato l'AVS, posso recuperare?",
+      "Sono andato in pensionamento anticipato a 60 anni, devo ancora pagare contributi AVS?",
+      "Ho lacune nell'AVS, posso ancora pagarle retroattivamente?",
+      "Assisto mia madre, mi viene riconosciuto qualcosa per l'AVS?"
+    ],
+    "rm": [
+      "Hai jau lacunas en l'AVS, e poss jau serrar ellas?",
+      "Co chat jau ora, sch'a mai mancan onns da contribuziun da l'AVS?",
+      "Jau n'hai betg pajà AVS durant ils stedis, poss jau quai rattrapar?",
+      "Jau sun ì en pensiun anticipada cun 60 onns, stoss jau anc pajar contribuziuns AVS?",
+      "Hai jau lacunas en l'AVS, e poss jau anc pajar ellas posteriorment?",
+      "Jau chüra mia mumma, survegn jau insatge quintà per quai a l'AVS?"
+    ],
+    "en": [
+      "Do I have gaps in my OASI record, and can I close them?",
+      "How do I find out whether I'm missing any OASI contribution years?",
+      "I didn't pay into the OASI during my studies, can I still make that up?",
+      "I took early retirement at 60, do I still have to pay OASI contributions?",
+      "Do I have gaps in my AHV, and can I still pay them off?",
+      "I'm caring for my mother, does that count towards my OASI?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Lücken in den Beiträgen an die AHV für Personen, die in der Schweiz wohnen oder arbeiten: wie Sie sie erkennen, wann Sie nachzahlen können, die Beitragspflicht ohne Erwerbseinkommen sowie Erziehungs- und Betreuungsgutschriften. Jahre im Ausland werden nur im Überblick behandelt."
+      "de": "Lücken in den Beiträgen an die AHV für Personen, die in der Schweiz wohnen oder arbeiten: wie Sie sie erkennen, wann Sie nachzahlen können, die Beitragspflicht ohne Erwerbseinkommen sowie Erziehungs- und Betreuungsgutschriften. Jahre im Ausland werden nur im Überblick behandelt.",
+      "fr": "Les lacunes dans les cotisations à l’AVS pour les personnes domiciliées ou travaillant en Suisse : comment les reconnaître, quand un rattrapage est possible, l’obligation de cotiser sans revenu d’une activité lucrative, ainsi que les bonifications pour tâches éducatives et pour tâches d’assistance. Les années passées à l’étranger ne sont traitées qu’en aperçu.",
+      "it": "Le lacune nei contributi all'AVS per le persone che risiedono o lavorano in Svizzera: come riconoscerle, quando si possono pagare retroattivamente, l'obbligo contributivo senza reddito da attività lucrativa, nonché gli accrediti per compiti educativi e assistenziali. Gli anni all'estero sono trattati solo in sintesi.",
+      "rm": "Lacunas en las contribuziuns a l'AVS per persunas, che abitan u lavuran en Svizra: co ch'Vus las recognoschais, cura ch'Vus pudais pajar posteriorment, l'obligaziun da contribuziun senza entrada lucrativa sco er credits d'educaziun e d'assistenza. Onns a l'exteriur vegnan tractads mo en survista.",
+      "en": "Gaps in OASI contributions for people who live or work in Switzerland: how to spot them, when you can still pay them, the duty to contribute without earned income, and child-raising and care credits. Years spent abroad are covered only in outline."
     },
     "excludes": {
-      "de": "Die Berechnung der Rentenhöhe im Einzelnen, der Vorbezug und Aufschub der Rente, die berufliche Vorsorge (Pensionskasse) und die dritte Säule, Beitragsfragen von Selbständigerwerbenden und Arbeitgebern sowie Renten nach einem Sozialversicherungsabkommen im Einzelnen."
+      "de": "Die Berechnung der Rentenhöhe im Einzelnen, der Vorbezug und Aufschub der Rente, die berufliche Vorsorge (Pensionskasse) und die dritte Säule, Beitragsfragen von Selbständigerwerbenden und Arbeitgebern sowie Renten nach einem Sozialversicherungsabkommen im Einzelnen.",
+      "fr": "Le calcul détaillé du montant de la rente, l’anticipation et l’ajournement de la rente, la prévoyance professionnelle (caisse de pension) et le troisième pilier, les questions de cotisations des indépendants et des employeurs, ainsi que les rentes découlant d’une convention de sécurité sociale en détail.",
+      "it": "Il calcolo dettagliato dell'importo della rendita, la riscossione anticipata e il rinvio della rendita, la previdenza professionale (cassa pensioni) e il terzo pilastro, le questioni contributive di persone con attività lucrativa indipendente e di datori di lavoro, nonché le rendite secondo una convenzione di sicurezza sociale nel dettaglio.",
+      "rm": "Il calcul da l'autezza da la renta en detagl, l'antizipaziun e l'aplazzament da la renta, la prevenziun professionala (cassa da pensiun) e la terza colonna, dumondas da contribuziun da persunas che exercitan in'activitad independenta e da patruns sco er rentas tenor in acord da segirezza sociala en detagl.",
+      "en": "The detailed calculation of the pension amount, drawing the pension early or deferring it, occupational pensions (pension fund) and the third pillar, contribution questions for self-employed people and employers, and pensions under a social security agreement in detail."
     }
   },
   "facts": [
     {
       "key": "reason",
       "question": {
-        "de": "Warum könnte bei Ihnen ein Beitragsjahr fehlen?"
+        "de": "Warum könnte bei Ihnen ein Beitragsjahr fehlen?",
+        "fr": "Pourquoi une année de cotisations pourrait-elle vous manquer ?",
+        "it": "Perché potrebbe mancarle un anno di contribuzione?",
+        "rm": "Pertge pudess a Vus mancar in onn da contribuziun?",
+        "en": "Why might a contribution year be missing for you?"
       },
       "help": {
-        "de": "Wählen Sie den Grund, der am ehesten zutrifft. Sie können die Frage auch offen lassen."
+        "de": "Wählen Sie den Grund, der am ehesten zutrifft. Sie können die Frage auch offen lassen.",
+        "fr": "Choisissez le motif qui correspond le mieux. Vous pouvez aussi laisser la question ouverte.",
+        "it": "Scelga il motivo più probabile. Può anche lasciare la domanda aperta.",
+        "rm": "Tschernai il motiv, che correspunda il meglier. Vus pudais era laschar avert la dumonda.",
+        "en": "Choose the reason that fits best. You can also leave the question open."
       },
       "options": [
         {
           "value": "studies",
           "label": {
-            "de": "Ich war in Ausbildung oder im Studium"
+            "de": "Ich war in Ausbildung oder im Studium",
+            "fr": "J’étais en formation ou aux études",
+            "it": "Ero in formazione o agli studi",
+            "rm": "Jau era en scolaziun u en stedis",
+            "en": "I was in education or studying"
           }
         },
         {
           "value": "early-retirement",
           "label": {
-            "de": "Ich habe vor dem Rentenalter aufgehört zu arbeiten"
+            "de": "Ich habe vor dem Rentenalter aufgehört zu arbeiten",
+            "fr": "J’ai cessé de travailler avant l’âge de référence",
+            "it": "Ho smesso di lavorare prima dell'età di riferimento",
+            "rm": "Jau hai chalà da lavurar avant la vegliadetgna da renta",
+            "en": "I stopped working before the reference age"
           }
         },
         {
           "value": "no-earnings-married",
           "label": {
-            "de": "Ich war verheiratet und hatte kein eigenes Erwerbseinkommen"
+            "de": "Ich war verheiratet und hatte kein eigenes Erwerbseinkommen",
+            "fr": "J’étais marié et je n’avais pas de revenu propre d’une activité lucrative",
+            "it": "Ero sposato e non avevo un reddito da attività lucrativa proprio",
+            "rm": "Jau era maridà e n'avevi nagina atgna entrada lucrativa",
+            "en": "I was married and had no earned income of my own"
           }
         },
         {
           "value": "abroad",
           "label": {
-            "de": "Ich habe im Ausland gelebt oder gearbeitet"
+            "de": "Ich habe im Ausland gelebt oder gearbeitet",
+            "fr": "J’ai vécu ou travaillé à l’étranger",
+            "it": "Ho vissuto o lavorato all'estero",
+            "rm": "Jau hai vivì u lavurà a l'exteriur",
+            "en": "I lived or worked abroad"
           }
         },
         {
           "value": "other-break",
           "label": {
-            "de": "Aus einem anderen Grund, etwa einer Pause zwischen zwei Stellen"
+            "de": "Aus einem anderen Grund, etwa einer Pause zwischen zwei Stellen",
+            "fr": "Pour un autre motif, par exemple une pause entre deux emplois",
+            "it": "Per un altro motivo, per esempio una pausa tra due impieghi",
+            "rm": "Pervia d'in auter motiv, per exempel ina pausa tranter duas plazzas",
+            "en": "For another reason, for example a break between two jobs"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht oder weiss nicht, ob überhaupt eine Lücke besteht"
+            "de": "Ich weiss es nicht oder weiss nicht, ob überhaupt eine Lücke besteht",
+            "fr": "Je ne sais pas, ou je ne sais pas s’il y a une lacune",
+            "it": "Non lo so, o non so se esiste davvero una lacuna",
+            "rm": "Jau na sai betg u na sai betg, sche i dat propi ina lacuna",
+            "en": "I don't know, or I don't know whether there is a gap at all"
           }
         }
       ]
@@ -80,28 +160,48 @@
     {
       "key": "gap_age",
       "question": {
-        "de": "Wie lange ist das fehlende Jahr her?"
+        "de": "Wie lange ist das fehlende Jahr her?",
+        "fr": "Depuis combien de temps l’année manquante date-t-elle ?",
+        "it": "Da quanto tempo risale l'anno mancante?",
+        "rm": "Quant ditg è passà dapi l'onn mancant?",
+        "en": "How long ago is the missing year?"
       },
       "help": {
-        "de": "Gezählt wird ab dem Ende des betreffenden Kalenderjahres."
+        "de": "Gezählt wird ab dem Ende des betreffenden Kalenderjahres.",
+        "fr": "Le décompte se fait à partir de la fin de l’année civile concernée.",
+        "it": "Si conta dalla fine dell'anno civile in questione.",
+        "rm": "Vegn contà dapi la fin da l'onn da chalender respectiv.",
+        "en": "This is counted from the end of the calendar year in question."
       },
       "options": [
         {
           "value": "within-5",
           "label": {
-            "de": "Das Jahr ist vor höchstens fünf Jahren zu Ende gegangen"
+            "de": "Das Jahr ist vor höchstens fünf Jahren zu Ende gegangen",
+            "fr": "Cette année s’est terminée il y a cinq ans au plus",
+            "it": "L'anno è terminato al massimo cinque anni fa",
+            "rm": "L'onn è finì avant maximalmain tschintg onns",
+            "en": "The year ended at most five years ago"
           }
         },
         {
           "value": "older",
           "label": {
-            "de": "Es liegt länger zurück"
+            "de": "Es liegt länger zurück",
+            "fr": "Cela remonte à plus longtemps",
+            "it": "Risale a più tempo fa",
+            "rm": "I sta pli ditg indre",
+            "en": "It is further back than that"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -109,25 +209,41 @@
     {
       "key": "married",
       "question": {
-        "de": "Waren Sie im fehlenden Jahr verheiratet oder in eingetragener Partnerschaft?"
+        "de": "Waren Sie im fehlenden Jahr verheiratet oder in eingetragener Partnerschaft?",
+        "fr": "Étiez-vous marié ou en partenariat enregistré durant l’année manquante ?",
+        "it": "Era sposato o in unione domestica registrata nell'anno mancante?",
+        "rm": "Eras Vus, en l'onn mancant, maridads u en ina partenariat registrà?",
+        "en": "Were you married or in a registered partnership in the missing year?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -135,25 +251,41 @@
     {
       "key": "children",
       "question": {
-        "de": "Hatten Sie in dieser Zeit ein Kind unter 16 Jahren, für das Sie sorgten?"
+        "de": "Hatten Sie in dieser Zeit ein Kind unter 16 Jahren, für das Sie sorgten?",
+        "fr": "Aviez-vous, durant cette période, un enfant de moins de 16 ans dont vous vous occupiez ?",
+        "it": "Aveva in quel periodo un figlio sotto i 16 anni di cui si occupava?",
+        "rm": "Avevas Vus, en quest temp, in uffant sut 16 onns, per il qual Vus procuravas?",
+        "en": "Did you have a child under 16 during that time for whom you cared?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -161,28 +293,48 @@
     {
       "key": "caring",
       "question": {
-        "de": "Betreuen oder betreuten Sie eine nahestehende Person, die eine Hilflosenentschädigung erhält oder erhalten könnte?"
+        "de": "Betreuen oder betreuten Sie eine nahestehende Person, die eine Hilflosenentschädigung erhält oder erhalten könnte?",
+        "fr": "Vous occupez-vous, ou vous êtes-vous occupé, d’un proche qui touche ou pourrait toucher une allocation pour impotent ?",
+        "it": "Assiste o ha assistito una persona a lei vicina che riceve o potrebbe ricevere un assegno per grandi invalidi?",
+        "rm": "Assistais u avevas Vus assistì ina persuna en Vossa vischinanza, che survegn u pudess survegnir in'indemnisaziun d'impotenza?",
+        "en": "Do you, or did you, care for a person close to you who receives, or could receive, a helplessness allowance?"
       },
       "help": {
-        "de": "Die Hilflosenentschädigung ist eine Leistung der AHV, IV, Unfall- oder Militärversicherung für Menschen, die im Alltag dauernd auf Hilfe angewiesen sind."
+        "de": "Die Hilflosenentschädigung ist eine Leistung der AHV, IV, Unfall- oder Militärversicherung für Menschen, die im Alltag dauernd auf Hilfe angewiesen sind.",
+        "fr": "Les personnes qui ont durablement besoin de l’aide d’autrui au quotidien peuvent recevoir une allocation pour impotent. Elle est versée par l’AVS ou l’AI, par l’assurance-accidents ou par l’assurance militaire.",
+        "it": "Chi dipende in modo durevole dall'aiuto di altri nella vita quotidiana può ricevere un assegno per grandi invalidi. Lo versano l'AVS o l'AI, l'assicurazione contro gli infortuni o l'assicurazione militare.",
+        "rm": "L'indemnisaziun d'impotenza è ina prestaziun da l'AVS, da l'AI, da l'assicuranza cunter accidents u militara per persunas, che dependan permanentamain d'agid en la vita da mintgadi.",
+        "en": "The helplessness allowance is a benefit of the OASI, DI, accident or military insurance for people who permanently need help with everyday life."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -190,31 +342,51 @@
     {
       "key": "age",
       "question": {
-        "de": "Wie alt sind Sie?"
+        "de": "Wie alt sind Sie?",
+        "fr": "Quel âge avez-vous ?",
+        "it": "Quanti anni ha?",
+        "rm": "Quants onns avais Vus?",
+        "en": "How old are you?"
       },
       "options": [
         {
           "value": "under-25",
           "label": {
-            "de": "Unter 25 Jahre"
+            "de": "Unter 25 Jahre",
+            "fr": "Moins de 25 ans",
+            "it": "Meno di 25 anni",
+            "rm": "Sut 25 onns",
+            "en": "Under 25"
           }
         },
         {
           "value": "working-age",
           "label": {
-            "de": "Zwischen 25 Jahren und etwa fünf Jahre vor dem Rentenalter"
+            "de": "Zwischen 25 Jahren und etwa fünf Jahre vor dem Rentenalter",
+            "fr": "Entre 25 ans et environ cinq ans avant l’âge de référence",
+            "it": "Tra i 25 anni e circa cinque anni prima dell'età di riferimento",
+            "rm": "Tranter 25 onns e var tschintg onns avant la vegliadetgna da renta",
+            "en": "Between 25 and about five years before the reference age"
           }
         },
         {
           "value": "near-or-past-reference",
           "label": {
-            "de": "Kurz vor oder schon im Rentenalter"
+            "de": "Kurz vor oder schon im Rentenalter",
+            "fr": "Peu avant l’âge de référence ou déjà à cet âge",
+            "it": "Poco prima o già all'età di riferimento",
+            "rm": "Curt avant u gia en la vegliadetgna da renta",
+            "en": "Shortly before, or already at, the reference age"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich möchte das nicht angeben"
+            "de": "Ich möchte das nicht angeben",
+            "fr": "Je préfère ne pas répondre",
+            "it": "Preferisco non indicarlo",
+            "rm": "Jau na vi betg indicar quai",
+            "en": "I would rather not say"
           }
         }
       ]
@@ -225,7 +397,11 @@
       "id": "why-gaps",
       "kind": "rule",
       "text": {
-        "de": "Eine ungekürzte AHV-Altersrente, die Vollrente, erhalten Sie nur, wenn Sie gleich viele volle Beitragsjahre haben wie die übrigen Versicherten Ihres Jahrgangs. Bei einem Rentenalter von 65 sind das 44 Jahre. Fehlen Ihnen Jahre, bekommen Sie lebenslang nur eine Teilrente. Sie wird nach dem Verhältnis Ihrer Beitragsjahre zu den Jahren Ihres Jahrgangs abgestuft. Bei 44 Jahren kostet jedes fehlende Jahr etwa 2,3 Prozent der Rente. Ein Jahr zählt voll, wenn Sie mehr als elf Monate versichert waren und dabei mindestens den Mindestbeitrag bezahlt haben. Es zählt auch dann, wenn für dieses Jahr Beiträge Ihres Ehegatten, Erziehungsgutschriften oder Betreuungsgutschriften angerechnet werden."
+        "de": "Eine ungekürzte AHV-Altersrente, die Vollrente, erhalten Sie nur, wenn Sie gleich viele volle Beitragsjahre haben wie die übrigen Versicherten Ihres Jahrgangs. Bei einem Rentenalter von 65 sind das 44 Jahre. Fehlen Ihnen Jahre, bekommen Sie lebenslang nur eine Teilrente. Sie wird nach dem Verhältnis Ihrer Beitragsjahre zu den Jahren Ihres Jahrgangs abgestuft. Bei 44 Jahren kostet jedes fehlende Jahr etwa 2,3 Prozent der Rente. Ein Jahr zählt voll, wenn Sie mehr als elf Monate versichert waren und dabei mindestens den Mindestbeitrag bezahlt haben. Es zählt auch dann, wenn für dieses Jahr Beiträge Ihres Ehegatten, Erziehungsgutschriften oder Betreuungsgutschriften angerechnet werden.",
+        "fr": "Vous n’obtenez une rente de vieillesse AVS non réduite, la rente complète, que si vous avez autant d’années de cotisations entières que les autres assurés de votre génération. Pour un âge de référence de 65 ans, ce sont 44 années. S’il vous manque des années, vous ne touchez à vie qu’une rente partielle. Elle est échelonnée selon le rapport entre vos années de cotisations et les années de votre génération. Pour 44 années, chaque année manquante coûte environ 2,3 pour cent de la rente. Une année compte entièrement si vous avez été assuré plus de onze mois et avez payé au moins la cotisation minimale pendant cette période. Elle compte aussi lorsque, pour cette année, sont prises en compte des cotisations de votre conjoint, des bonifications pour tâches éducatives ou des bonifications pour tâches d’assistance.",
+        "it": "Una rendita di vecchiaia AVS non ridotta, la rendita intera, la riceve solo se ha lo stesso numero di anni di contribuzione interi degli altri assicurati della sua classe d'età. Con un'età di riferimento di 65 anni sono 44 anni. Se le mancano degli anni, riceve a vita solo una rendita parziale. Viene graduata secondo il rapporto tra i suoi anni di contribuzione e gli anni della sua classe d'età. Con 44 anni, ogni anno mancante costa circa il 2,3 per cento della rendita. Un anno conta per intero se è stato assicurato per più di undici mesi e ha versato almeno il contributo minimo. Conta anche se per quell'anno vengono computati contributi del suo coniuge, accrediti per compiti educativi o accrediti per compiti assistenziali.",
+        "rm": "Ina renta da vegliadetgna AVS betg reducida, la renta entira, survegnis Vus mo, sche Vus avais tants onns entirs da contribuziun sco ils auters assicurads da Voss annada. Tar ina vegliadetgna da renta da 65 onns èn quai 44 onns. Mancan a Vus onns, survegnis Vus per la vita entira mo ina renta parziala. Ella vegn graduada tenor la proporziun tranter Vossas onns da contribuziun e ils onns da Voss annada. Tar 44 onns custa mintga onn mancant var 2,3 pertschient da la renta. In onn conta entir, sch'Vus eras assicurads dapli che indesch mais e pajà en quest temp almain la contribuziun minimala. El conta era, sche per quest onn vegnan quintadas contribuziuns da Voss conjugie, credits d'educaziun u credits d'assistenza.",
+        "en": "You only receive an unreduced OASI old-age pension, the full pension, if you have as many full contribution years as the other insured people of your age group. At a reference age of 65, that is 44 years. If you are missing years, you permanently receive only a partial pension. It is scaled down in proportion to your contribution years against the years of your age group. With 44 years, every missing year costs about 2.3 percent of the pension. A year counts in full if you were insured for more than eleven months and paid at least the minimum contribution during that time. It also counts if, for that year, contributions from your spouse, child-raising credits or care credits are credited to you."
       },
       "sources": [
         "ahvg-29",
@@ -239,7 +415,11 @@
       "id": "check-account",
       "kind": "step",
       "text": {
-        "de": "So prüfen Sie, ob Sie Lücken haben: Die Ausgleichskassen führen für Sie ein individuelles Konto, in dem Ihre Einkommen und Beitragszeiten eingetragen sind. Sie haben das Recht, bei jeder Ausgleichskasse, die ein solches Konto für Sie führt, einen Auszug zu verlangen. Der Auszug ist kostenlos. Sie können auch bei einer einzigen Ausgleichskasse die Auszüge aus all Ihren Konten zusammen bestellen, am einfachsten online über die Informationsstelle AHV/IV. Wohnen Sie im Ausland, richten Sie Ihr Gesuch an die Schweizerische Ausgleichskasse. Gehen Sie im Auszug jedes Jahr ab dem Jahr nach Ihrem 20. Geburtstag durch. Fehlt ein Jahr ganz oder sind nur einzelne Monate eingetragen, kann eine Lücke bestehen."
+        "de": "So prüfen Sie, ob Sie Lücken haben: Die Ausgleichskassen führen für Sie ein individuelles Konto, in dem Ihre Einkommen und Beitragszeiten eingetragen sind. Sie haben das Recht, bei jeder Ausgleichskasse, die ein solches Konto für Sie führt, einen Auszug zu verlangen. Der Auszug ist kostenlos. Sie können auch bei einer einzigen Ausgleichskasse die Auszüge aus all Ihren Konten zusammen bestellen, am einfachsten online über die Informationsstelle AHV/IV. Wohnen Sie im Ausland, richten Sie Ihr Gesuch an die Schweizerische Ausgleichskasse. Gehen Sie im Auszug jedes Jahr ab dem Jahr nach Ihrem 20. Geburtstag durch. Fehlt ein Jahr ganz oder sind nur einzelne Monate eingetragen, kann eine Lücke bestehen.",
+        "fr": "Voici comment vérifier si vous avez des lacunes : les caisses de compensation tiennent pour vous un compte individuel, dans lequel sont inscrits vos revenus et vos périodes de cotisations. Vous avez le droit de demander un extrait auprès de chaque caisse de compensation qui tient un tel compte pour vous. L’extrait est gratuit. Vous pouvez aussi commander auprès d’une seule caisse de compensation les extraits de tous vos comptes réunis, le plus simplement en ligne par l’intermédiaire du Centre d’information AVS/AI. Si vous habitez à l’étranger, adressez votre demande à la Caisse suisse de compensation. Parcourez l’extrait année par année à partir de l’année suivant votre 20e anniversaire. S’il manque une année entière ou si seuls quelques mois sont inscrits, une lacune est possible.",
+        "it": "Ecco come verificare se ha lacune: le casse di compensazione tengono per lei un conto individuale, in cui sono registrati i suoi redditi e periodi di contribuzione. Ha il diritto di chiedere un estratto presso ogni cassa di compensazione che tiene un tale conto per lei. L'estratto è gratuito. Può anche ordinare presso un'unica cassa di compensazione gli estratti di tutti i suoi conti insieme, più semplicemente online tramite il Centro d'informazione AVS/AI. Se risiede all'estero, rivolga la sua domanda alla Cassa svizzera di compensazione. Nell'estratto, ripercorra ogni anno a partire dall'anno successivo al suo 20° compleanno. Se manca un anno intero o sono registrati solo singoli mesi, può esserci una lacuna.",
+        "rm": "Uschia examinais Vus, sch'Vus avais lacunas: Las cassas da cumpensaziun maneschan per Vus in conto individual, en il qual Vossas entradas e temps da contribuziun èn inscrits. Vus avais il dretg da pretender, tar mintga cassa da cumpensaziun che manescha in tal conto per Vus, in extract. L'extract è gratuit. Vus pudais era commandar tar ina singula cassa da cumpensaziun ils extracts da tut Vossas contos ensemen, il pli simpel online via l'Infurmaziun AVS/AI. Abitais Vus a l'exteriur, drizzai Voss dumonda a la Cassa Svizra da Cumpensaziun. Ludai en l'extract mintga onn dapi l'onn suenter Voss 20avel anniversari. Manca in onn entiramain u èn inscrits mo tschertas mais, po existar ina lacuna.",
+        "en": "Here is how to check whether you have gaps: the compensation offices keep an individual account for you, in which your income and contribution periods are recorded. You have the right to request an extract from every compensation office that keeps such an account for you. The extract is free of charge. You can also order the extracts from all your accounts together from a single compensation office, most easily online through the Information Centre OASI/DI. If you live abroad, address your request to the Swiss Compensation Office. Go through the extract for every year from the year after your 20th birthday onwards. If a year is missing entirely, or only individual months are recorded, there may be a gap."
       },
       "sources": [
         "ahvg-30ter",
@@ -250,7 +430,11 @@
       "id": "correction-deadline",
       "kind": "warning",
       "text": {
-        "de": "Stimmt etwas im Auszug nicht, etwa ein Lohn oder ein Arbeitgeber fehlt, müssen Sie handeln: Sie können innert 30 Tagen seit Zustellung des Auszugs bei der Ausgleichskasse schriftlich eine Berichtigung verlangen. Legen Sie Belege bei, zum Beispiel Lohnausweise oder Lohnabrechnungen mit AHV-Abzug. Die Ausgleichskasse entscheidet darüber mit einer Verfügung. Verpassen Sie diese Frist, wird es später schwierig: Bei der Rentenberechnung wird ein Eintrag nur noch korrigiert, wenn der Fehler offensichtlich ist oder Sie ihn vollständig beweisen können. Bewahren Sie deshalb Lohnausweise auf."
+        "de": "Stimmt etwas im Auszug nicht, etwa ein Lohn oder ein Arbeitgeber fehlt, müssen Sie handeln: Sie können innert 30 Tagen seit Zustellung des Auszugs bei der Ausgleichskasse schriftlich eine Berichtigung verlangen. Legen Sie Belege bei, zum Beispiel Lohnausweise oder Lohnabrechnungen mit AHV-Abzug. Die Ausgleichskasse entscheidet darüber mit einer Verfügung. Verpassen Sie diese Frist, wird es später schwierig: Bei der Rentenberechnung wird ein Eintrag nur noch korrigiert, wenn der Fehler offensichtlich ist oder Sie ihn vollständig beweisen können. Bewahren Sie deshalb Lohnausweise auf.",
+        "fr": "Si quelque chose ne va pas dans l’extrait, par exemple si un salaire ou un employeur manque, vous devez agir : vous pouvez demander par écrit une rectification à la caisse de compensation dans les 30 jours suivant la notification de l’extrait. Joignez des pièces justificatives, par exemple des certificats de salaire ou des décomptes de salaire avec déduction AVS. La caisse de compensation statue par décision. Si vous laissez passer ce délai, la situation devient ensuite difficile : lors du calcul de la rente, une inscription n’est corrigée que si l’erreur est manifeste ou si vous pouvez la prouver entièrement. Conservez donc vos certificats de salaire.",
+        "it": "Se qualcosa nell'estratto non è corretto, per esempio manca un salario o un datore di lavoro, deve agire: può chiedere per scritto alla cassa di compensazione una rettifica entro 30 giorni dalla notificazione dell'estratto. Alleghi le prove, per esempio certificati di salario o conteggi salariali con la trattenuta AVS. La cassa di compensazione decide con una decisione. Se lascia scadere questo termine, in seguito diventa difficile: nel calcolo della rendita, una registrazione viene corretta solo se l'errore è manifesto o se lei può provarlo in modo completo. Conservi quindi i certificati di salario.",
+        "rm": "Na correspunda insatge en l'extract, per exempel manca in salari u in patrun, stuais Vus agir: Vus pudais pretender, entaifer 30 dis dapi la consegna da l'extract, per scrit ina rectificaziun tar la cassa da cumpensaziun. Agiuntai cumprovas, per exempel certificats da salari u decunts da salari cun deducziun AVS. La cassa da cumpensaziun decida davart quai cun ina decisiun. Manglais Vus questa termin, daventa quai pli tard difficil: Tar il calcul da la renta vegn in'endataziun correcta mo anc, sche l'sbagl è evident u sch'Vus al pudais cumprovar cumplettamain. Conservai percunquai certificats da salari.",
+        "en": "If something in the extract is wrong, for example a salary or an employer is missing, you must act: you can request a correction in writing from the compensation office within 30 days of the extract being sent to you. Enclose evidence, for example salary statements or payslips showing OASI deductions. The compensation office decides on this by ruling. If you miss this time limit, it becomes difficult later: when the pension is calculated, an entry is only corrected if the error is obvious or you can prove it in full. So keep your salary statements."
       },
       "sources": [
         "ahvv-141"
@@ -260,7 +444,11 @@
       "id": "five-year-limit",
       "kind": "warning",
       "text": {
-        "de": "Fehlende Beiträge können Sie grundsätzlich nur für die letzten fünf Jahre nachzahlen. Setzt die Ausgleichskasse die Beiträge für ein Jahr nicht innert fünf Jahren nach Ende dieses Kalenderjahres mit einer Verfügung fest, kann sie diese nicht mehr verlangen, und Sie können sie auch freiwillig nicht mehr einzahlen. Die Frist steht nie still und lässt sich nicht unterbrechen. Nur eine Verfügung der Kasse vor Fristablauf sichert die Beiträge. Ein Brief oder eine Anfrage von Ihnen genügt nicht. Einen freiwilligen Einkauf in die AHV, wie es ihn in der Pensionskasse gibt, kennt das Gesetz nicht. Eine Ausnahme gilt für Beiträge, die nach der Steuerveranlagung berechnet werden, also bei Selbständigerwerbenden, bei Nichterwerbstätigen, die nach Vermögen und Renteneinkommen zahlen, und bei Angestellten eines Arbeitgebers, der selbst keine Beiträge schuldet. Dort endet die Frist erst ein Jahr nach Ende des Kalenderjahres, in dem die massgebende Steuerveranlagung rechtskräftig wurde. Für Studierende und andere, die nur den Mindestbeitrag schulden, gilt diese Ausnahme nach dem Gesetzeswortlaut nicht. Das Bundesgericht hat nicht bezahlte Studienjahre nach Ablauf der fünf Jahre als verloren behandelt. Sie müssen nicht regelmässig einen Kontoauszug verlangen. Wissen Sie aber, dass Sie für ein Jahr nichts bezahlt haben, fragen Sie rechtzeitig bei der Ausgleichskasse nach."
+        "de": "Fehlende Beiträge können Sie grundsätzlich nur für die letzten fünf Jahre nachzahlen. Setzt die Ausgleichskasse die Beiträge für ein Jahr nicht innert fünf Jahren nach Ende dieses Kalenderjahres mit einer Verfügung fest, kann sie diese nicht mehr verlangen, und Sie können sie auch freiwillig nicht mehr einzahlen. Die Frist steht nie still und lässt sich nicht unterbrechen. Nur eine Verfügung der Kasse vor Fristablauf sichert die Beiträge. Ein Brief oder eine Anfrage von Ihnen genügt nicht. Einen freiwilligen Einkauf in die AHV, wie es ihn in der Pensionskasse gibt, kennt das Gesetz nicht. Eine Ausnahme gilt für Beiträge, die nach der Steuerveranlagung berechnet werden, also bei Selbständigerwerbenden, bei Nichterwerbstätigen, die nach Vermögen und Renteneinkommen zahlen, und bei Angestellten eines Arbeitgebers, der selbst keine Beiträge schuldet. Dort endet die Frist erst ein Jahr nach Ende des Kalenderjahres, in dem die massgebende Steuerveranlagung rechtskräftig wurde. Für Studierende und andere, die nur den Mindestbeitrag schulden, gilt diese Ausnahme nach dem Gesetzeswortlaut nicht. Das Bundesgericht hat nicht bezahlte Studienjahre nach Ablauf der fünf Jahre als verloren behandelt. Sie müssen nicht regelmässig einen Kontoauszug verlangen. Wissen Sie aber, dass Sie für ein Jahr nichts bezahlt haben, fragen Sie rechtzeitig bei der Ausgleichskasse nach.",
+        "fr": "Vous ne pouvez en principe rattraper des cotisations manquantes que pour les cinq dernières années. Si la caisse de compensation ne fixe pas par décision les cotisations d’une année dans les cinq ans suivant la fin de cette année civile, elle ne peut plus les exiger, et vous ne pouvez plus non plus les verser volontairement. Le délai ne s’arrête jamais et ne peut pas être interrompu. Seule une décision de la caisse avant l’échéance du délai garantit les cotisations. Une lettre ou une simple demande de votre part ne suffit pas. Un rachat volontaire dans l’AVS, comme il en existe dans la caisse de pension, n’est pas prévu par la loi. Une exception s’applique aux cotisations calculées après la taxation fiscale, c’est-à-dire pour les indépendants, pour les personnes sans activité lucrative qui paient selon leur fortune et leur revenu sous forme de rente, et pour les salariés d’un employeur qui ne doit lui-même aucune cotisation. Dans ces cas, le délai est plus long : il court jusqu’à la fin de l’année civile qui suit celle où la taxation fiscale déterminante est devenue définitive. Pour les étudiants et les autres personnes qui ne doivent que la cotisation minimale, cette exception ne s’applique pas selon le texte de la loi. Le Tribunal fédéral a considéré comme perdues des années d’études non payées après l’écoulement des cinq ans. Vous n’avez pas besoin de demander régulièrement un extrait de compte. Mais si vous savez que vous n’avez rien payé pour une année, renseignez-vous à temps auprès de la caisse de compensation.",
+        "it": "I contributi mancanti può di principio pagarli retroattivamente solo per gli ultimi cinque anni. Se la cassa di compensazione non fissa con una decisione i contributi per un anno entro cinque anni dalla fine di quell'anno civile, non può più esigerli, e nemmeno lei può più versarli volontariamente. Il termine non si arresta mai e non può essere interrotto. Solo una decisione della cassa prima della scadenza del termine assicura i contributi. Una lettera o una richiesta da parte sua non bastano. Un riscatto volontario nell'AVS, come esiste nella cassa pensioni, la legge non lo conosce. Un'eccezione vale per i contributi calcolati in base alla tassazione fiscale, quindi per le persone con attività lucrativa indipendente, per le persone senza attività lucrativa che pagano in base al patrimonio e al reddito sotto forma di rendita, e per i dipendenti di un datore di lavoro che non deve esso stesso contributi. In questi casi il termine è più lungo: scade alla fine dell'anno civile successivo a quello in cui la tassazione determinante è passata in giudicato. Per gli studenti e altre persone che devono solo il contributo minimo, questa eccezione non si applica secondo il testo di legge. Il Tribunale federale ha trattato come persi gli anni di studio non pagati dopo la scadenza dei cinque anni. Non deve chiedere regolarmente un estratto conto. Ma se sa di non aver pagato nulla per un anno, si informi tempestivamente presso la cassa di compensazione.",
+        "rm": "Contribuziuns mancantas pudais Vus per principi pajar posteriorment mo per ils davos tschintg onns. Na fixescha la cassa da cumpensaziun las contribuziuns per in onn entaifer tschintg onns suenter la fin da quest onn da chalender cun ina decisiun, na po ella pli pretender ellas, e Vus na pudais era pli betg pajar ellas voluntariamain. La termin na sta mai silenziusa e na sa lascha betg interrumper. Mo ina decisiun da la cassa avant la scadenza da la termin segira las contribuziuns. Ina brev u ina damonda da Vossa vart na basta betg. In access voluntar en l'AVS, sco ch'i dat en la cassa da pensiun, na enconuscha la lescha betg. In'excepziun vala per contribuziuns, che vegnan calculadas tenor la taxaziun fiscala, dunca tar persunas che exercitan in'activitad independenta, tar persunas senza activitad lucrativa, che pajan tenor facultad ed entrada da renta, e tar persunas occupadas d'in patrun, che n'è el sez debitur da naginas contribuziuns. Là finescha la termin mo in onn suenter la fin da l'onn da chalender, en il qual la taxaziun fiscala decisiva è vegnida legalmain valaivla. Per students ed autras persunas, che debitan mo la contribuziun minimala, na vala questa excepziun betg tenor il text da la lescha. Il Tribunal federal ha tractà onns da stedi betg pajads, suenter la scadenza dals tschintg onns, sco pers. Vus na stuais betg pretender regularmain in extract dal conto. Savais Vus dentant che Vus n'avais nagut pajà per in onn, damondai a temp tar la cassa da cumpensaziun.",
+        "en": "You can generally only make up missing contributions for the last five years. If the compensation office does not set the contributions for a year by ruling within five years of the end of that calendar year, it can no longer demand them, and you can no longer pay them in voluntarily either. This time limit never stands still and cannot be interrupted. Only a ruling by the office before the time limit expires secures the contributions. A letter or an enquiry from you is not enough. The law does not have a voluntary buy-in to the OASI, of the kind that exists in the pension fund. An exception applies to contributions calculated after the tax assessment, that is, for self-employed people, for people not in gainful employment who pay according to wealth and pension income, and for employees of an employer who does not itself owe contributions. There, the time limit only ends one year after the end of the calendar year in which the relevant tax assessment became final. For students and others who only owe the minimum contribution, this exception does not apply under the wording of the law. The Federal Supreme Court has treated unpaid years of study as lost once the five years have passed. You do not need to request an account extract regularly. But if you know that you have not paid for a year, ask the compensation office in good time."
       },
       "sources": [
         "ahvg-16",
@@ -281,7 +469,11 @@
         ]
       },
       "text": {
-        "de": "Liegt das fehlende Jahr höchstens fünf Jahre zurück, melden Sie sich sofort bei der Ausgleichskasse, damit sie die Beiträge noch rechtzeitig mit Verfügung festsetzt. Nichterwerbstätige gehören in der Regel zur kantonalen Ausgleichskasse und müssen sich dort selbst melden, wenn sie noch bei keiner Kasse erfasst sind. Waren Sie in dieser Zeit angestellt oder selbständig, wenden Sie sich an die Kasse Ihres damaligen Arbeitgebers oder Ihres Betriebs. Die Kasse ist verpflichtet, nicht bezahlte Beiträge nachzufordern, solange die Frist läuft. Sie stellt Ihnen eine Rechnung, die innert 30 Tagen zu bezahlen ist. Auf nachgeforderten Beiträgen kommen Verzugszinsen hinzu."
+        "de": "Liegt das fehlende Jahr höchstens fünf Jahre zurück, melden Sie sich sofort bei der Ausgleichskasse, damit sie die Beiträge noch rechtzeitig mit Verfügung festsetzt. Nichterwerbstätige gehören in der Regel zur kantonalen Ausgleichskasse und müssen sich dort selbst melden, wenn sie noch bei keiner Kasse erfasst sind. Waren Sie in dieser Zeit angestellt oder selbständig, wenden Sie sich an die Kasse Ihres damaligen Arbeitgebers oder Ihres Betriebs. Die Kasse ist verpflichtet, nicht bezahlte Beiträge nachzufordern, solange die Frist läuft. Sie stellt Ihnen eine Rechnung, die innert 30 Tagen zu bezahlen ist. Auf nachgeforderten Beiträgen kommen Verzugszinsen hinzu.",
+        "fr": "Si l’année manquante remonte à cinq ans au plus, annoncez-vous immédiatement à la caisse de compensation, afin qu’elle fixe encore à temps les cotisations par décision. Les personnes sans activité lucrative relèvent en règle générale de la caisse de compensation cantonale et doivent s’y annoncer elles-mêmes si elles ne sont encore affiliées à aucune caisse. Si vous étiez employé ou indépendant durant cette période, adressez-vous à la caisse de votre employeur ou de votre entreprise de l’époque. La caisse est tenue de réclamer les cotisations non payées tant que le délai court. Elle vous adresse une facture à payer dans les 30 jours. Des intérêts moratoires s’ajoutent aux cotisations réclamées après coup.",
+        "it": "Se l'anno mancante risale al massimo a cinque anni fa, si annunci subito alla cassa di compensazione, affinché fissi tempestivamente i contributi con una decisione. Le persone senza attività lucrativa appartengono di regola alla cassa cantonale di compensazione e devono annunciarsi lì stesse, se non sono ancora registrate presso nessuna cassa. Se in quel periodo era impiegato o indipendente, si rivolga alla cassa del suo allora datore di lavoro o della sua azienda. La cassa è tenuta a richiedere i contributi non pagati finché il termine è aperto. Le invia una fattura, da pagare entro 30 giorni. Sui contributi richiesti retroattivamente si aggiungono interessi di mora.",
+        "rm": "Sta l'onn mancant maximalmain tschintg onns indre, annunziai Vus immediat tar la cassa da cumpensaziun, per ch'ella fixeschia anc a temp las contribuziuns cun ina decisiun. Persunas senza activitad lucrativa appartegnan per regla a la cassa da cumpensaziun chantunala e ston sa annunziar là sezzas, sch'ellas na sun anc registradas tar nagina cassa. Eras Vus en quest temp occupads u independents, drizzai Vus a la cassa da Voss anteriur patrun u da Voss manaschi. La cassa è obligada da pretender posteriorment contribuziuns betg pajadas, uschè ditg che la termin currunta. Ella emetta a Vus ina quinta, che sto vegnir pajada entaifer 30 dis. Sin contribuziuns pretendidas posteriorment vegnan agiuntads tschains da retard.",
+        "en": "If the missing year is at most five years ago, contact the compensation office immediately, so that it can still set the contributions by ruling in time. People not in gainful employment generally belong to the cantonal compensation office and must report themselves there if they are not yet registered with any office. If you were employed or self-employed during that time, contact the office of your employer or your business at the time. The office is obliged to demand unpaid contributions as long as the time limit is running. It will send you an invoice, payable within 30 days. Default interest is added to contributions demanded later."
       },
       "sources": [
         "ahvg-64",
@@ -298,7 +490,11 @@
         ]
       },
       "text": {
-        "de": "Liegt das fehlende Jahr mehr als fünf Jahre zurück, können Sie dafür nichts mehr nachzahlen. Die Lücke lässt sich dann nur noch auf anderen Wegen verkleinern: Beitragszeiten aus der Zeit vor dem 20. Geburtstag werden angerechnet, Erziehungs- oder Betreuungsgutschriften können ein Jahr füllen, und unter bestimmten Voraussetzungen zählen Beiträge, die Sie nach dem Rentenalter einzahlen. Klären Sie bei der Ausgleichskasse, welche dieser Möglichkeiten in Ihrem Fall greift."
+        "de": "Liegt das fehlende Jahr mehr als fünf Jahre zurück, können Sie dafür nichts mehr nachzahlen. Die Lücke lässt sich dann nur noch auf anderen Wegen verkleinern: Beitragszeiten aus der Zeit vor dem 20. Geburtstag werden angerechnet, Erziehungs- oder Betreuungsgutschriften können ein Jahr füllen, und unter bestimmten Voraussetzungen zählen Beiträge, die Sie nach dem Rentenalter einzahlen. Klären Sie bei der Ausgleichskasse, welche dieser Möglichkeiten in Ihrem Fall greift.",
+        "fr": "Si l’année manquante remonte à plus de cinq ans, vous ne pouvez plus rien rattraper pour elle. La lacune ne peut alors plus être réduite que par d’autres voies : les périodes de cotisations antérieures au 20e anniversaire sont prises en compte, les bonifications pour tâches éducatives ou d’assistance peuvent combler une année, et, à certaines conditions, les cotisations que vous versez après l’âge de référence comptent. Renseignez-vous auprès de la caisse de compensation pour savoir laquelle de ces possibilités s’applique à votre cas.",
+        "it": "Se l'anno mancante risale a più di cinque anni fa, non può più pagare nulla retroattivamente per quell'anno. La lacuna si può allora ridurre solo in altri modi: vengono computati periodi di contribuzione precedenti il 20° compleanno, gli accrediti per compiti educativi o assistenziali possono colmare un anno, e a determinate condizioni contano i contributi che versa dopo l'età di riferimento. Chiarisca con la cassa di compensazione quale di queste possibilità si applica al suo caso.",
+        "rm": "Sta l'onn mancant dapli che tschintg onns indre, na pudais Vus per quai pli nagut pajar posteriorment. La lacuna sa lascha lura pitschnar mo anc sin autras vias: Temps da contribuziun dapi il temp avant Voss 20avel anniversari vegnan quintads, credits d'educaziun u d'assistenza pon emplenir in onn, e sut tschertas premissas contan contribuziuns, che Vus pajais suenter la vegliadetgna da renta. Sclerezvi tar la cassa da cumpensaziun, tge da questas pussaivladads che vala en Voss cas.",
+        "en": "If the missing year is more than five years ago, you can no longer pay anything to make it up. The gap can then only be reduced in other ways: contribution periods from before your 20th birthday are credited, child-raising or care credits can fill a year, and under certain conditions, contributions you pay after the reference age count. Check with the compensation office which of these options applies in your case."
       },
       "sources": [
         "ahvg-16",
@@ -310,7 +506,11 @@
       "id": "non-employed-duty",
       "kind": "rule",
       "text": {
-        "de": "Wer in der Schweiz wohnt, ist bei der AHV versichert und muss Beiträge zahlen, auch ohne Erwerbseinkommen. Für Nichterwerbstätige beginnt diese Pflicht am 1. Januar nach dem 20. Geburtstag und endet mit dem Monat, in dem sie das Rentenalter erreichen. Die Höhe hängt von Ihrem Vermögen und vom Renteneinkommen ab, zum Beispiel einer Pension oder regelmässigen Unterstützung. Das Renteneinkommen wird dafür mit 20 multipliziert und zum Vermögen gezählt. Zahlen Sie nirgends Beiträge, müssen Sie sich selbst bei der kantonalen Ausgleichskasse melden. Das gilt auch, wenn Sie nur wenig verdienen: Bleiben Ihre Beiträge aus Erwerbstätigkeit unter dem Mindestbeitrag, gelten Sie als nichterwerbstätig."
+        "de": "Wer in der Schweiz wohnt, ist bei der AHV versichert und muss Beiträge zahlen, auch ohne Erwerbseinkommen. Für Nichterwerbstätige beginnt diese Pflicht am 1. Januar nach dem 20. Geburtstag und endet mit dem Monat, in dem sie das Rentenalter erreichen. Die Höhe hängt von Ihrem Vermögen und vom Renteneinkommen ab, zum Beispiel einer Pension oder regelmässigen Unterstützung. Das Renteneinkommen wird dafür mit 20 multipliziert und zum Vermögen gezählt. Zahlen Sie nirgends Beiträge, müssen Sie sich selbst bei der kantonalen Ausgleichskasse melden. Das gilt auch, wenn Sie nur wenig verdienen: Bleiben Ihre Beiträge aus Erwerbstätigkeit unter dem Mindestbeitrag, gelten Sie als nichterwerbstätig.",
+        "fr": "Quiconque habite en Suisse est assuré à l’AVS et doit payer des cotisations, même sans revenu d’une activité lucrative. Pour les personnes sans activité lucrative, cette obligation commence le 1er janvier suivant le 20e anniversaire et se termine à la fin du mois où elles atteignent l’âge de référence. Le montant dépend de votre fortune et de votre revenu sous forme de rente, par exemple une pension ou un soutien régulier. Le revenu sous forme de rente est pour cela multiplié par 20 et ajouté à la fortune. Si vous ne payez de cotisations nulle part, vous devez vous annoncer vous-même à la caisse de compensation cantonale. Cela vaut aussi si vous ne gagnez que peu : si vos cotisations tirées d’une activité lucrative restent en dessous de la cotisation minimale, vous êtes considéré comme sans activité lucrative.",
+        "it": "Chi risiede in Svizzera è assicurato all'AVS e deve pagare contributi, anche senza reddito da attività lucrativa. Per le persone senza attività lucrativa questo obbligo inizia il 1° gennaio successivo al 20° compleanno e termina con il mese in cui raggiungono l'età di riferimento. L'importo dipende dal suo patrimonio e dal reddito sotto forma di rendita, per esempio una pensione o un sostegno regolare. Il reddito sotto forma di rendita viene per questo moltiplicato per 20 e sommato al patrimonio. Se non paga contributi da nessuna parte, deve annunciarsi lei stesso presso la cassa cantonale di compensazione. Questo vale anche se guadagna poco: se i suoi contributi da attività lucrativa restano sotto il contributo minimo, è considerato senza attività lucrativa.",
+        "rm": "Tgi che abita en Svizra, è assicurà tar l'AVS e sto pajar contribuziuns, era senza entrada lucrativa. Per persunas senza activitad lucrativa cumenza questa obligaziun il 1. da schaner suenter il 20avel anniversari e finescha cun il mais, en il qual ellas cuntanschan la vegliadetgna da renta. L'autezza dependa da Vossa facultad e da l'entrada da renta, per exempel ina pensiun u in sustegn regular. L'entrada da renta vegn per quai multiplitgada cun 20 e quintada a la facultad. Na pajais Vus naingiuros contribuziuns, stuais Vus annunziar Vus sez tar la cassa da cumpensaziun chantunala. Quai vala era, sch'Vus gudagnais mo pauc: Restan Vossas contribuziuns da l'activitad lucrativa sut la contribuziun minimala, valais Vus sco persuna senza activitad lucrativa.",
+        "en": "Anyone who lives in Switzerland is insured with the OASI and must pay contributions, even without earned income. For people not in gainful employment, this duty begins on 1 January after their 20th birthday and ends with the month in which they reach the reference age. The amount depends on your wealth and your pension income, for example a pension or regular support. For this purpose, the pension income is multiplied by 20 and added to the wealth. If you pay contributions nowhere, you must report yourself to the cantonal compensation office. This also applies if you earn only a little: if your contributions from gainful employment stay below the minimum contribution, you count as not in gainful employment."
       },
       "sources": [
         "ahvg-1a",
@@ -330,7 +530,11 @@
         ]
       },
       "text": {
-        "de": "Studierende und Personen in Ausbildung ohne Erwerbseinkommen bezahlen ab dem 1. Januar nach dem 20. Geburtstag jährlich den Mindestbeitrag, bis zum 31. Dezember des Jahres, in dem sie 25 werden. Danach werden die Beiträge nach Vermögen und Renteneinkommen berechnet. Haben Sie neben dem Studium gearbeitet und wurde vom Lohn AHV abgezogen, können Sie verlangen, dass diese Beiträge an die Beiträge als Nichterwerbstätige angerechnet werden. Dafür brauchen Sie Belege, etwa Lohnausweise. Viele Lücken entstehen gerade in den Studienjahren, weil sich niemand bei der Ausgleichskasse meldet."
+        "de": "Studierende und Personen in Ausbildung ohne Erwerbseinkommen bezahlen ab dem 1. Januar nach dem 20. Geburtstag jährlich den Mindestbeitrag, bis zum 31. Dezember des Jahres, in dem sie 25 werden. Danach werden die Beiträge nach Vermögen und Renteneinkommen berechnet. Haben Sie neben dem Studium gearbeitet und wurde vom Lohn AHV abgezogen, können Sie verlangen, dass diese Beiträge an die Beiträge als Nichterwerbstätige angerechnet werden. Dafür brauchen Sie Belege, etwa Lohnausweise. Viele Lücken entstehen gerade in den Studienjahren, weil sich niemand bei der Ausgleichskasse meldet.",
+        "fr": "Les étudiants et les personnes en formation sans revenu d’une activité lucrative paient chaque année la cotisation minimale, à partir du 1er janvier qui suit leurs 20 ans et jusqu’au 31 décembre de l’année de leurs 25 ans. Ensuite, les cotisations sont calculées selon la fortune et le revenu sous forme de rente. Si vous avez travaillé à côté de vos études et que des cotisations AVS ont été déduites de votre salaire, vous pouvez demander que ces cotisations soient imputées sur les cotisations dues comme personne sans activité lucrative. Vous avez besoin pour cela de pièces justificatives, par exemple des certificats de salaire. De nombreuses lacunes apparaissent justement pendant les années d’études, parce que personne ne s’annonce à la caisse de compensation.",
+        "it": "Gli studenti e le persone in formazione senza reddito da attività lucrativa pagano ogni anno il contributo minimo, a partire dal 1° gennaio che segue il 20° compleanno e fino al 31 dicembre dell'anno del loro 25° compleanno. In seguito i contributi vengono calcolati in base al patrimonio e al reddito sotto forma di rendita. Se ha lavorato accanto agli studi e sono stati dedotti dal salario contributi AVS, può chiedere che questi contributi vengano computati sui contributi dovuti come persona senza attività lucrativa. Per questo servono prove, per esempio certificati di salario. Molte lacune sorgono proprio negli anni di studio, perché nessuno si annuncia alla cassa di compensazione.",
+        "rm": "Students e persunas en scolaziun senza entrada lucrativa pajan dapi il 1. da schaner suenter il 20avel anniversari mintg'onn la contribuziun minimala, fin ils 31 da december da l'onn, en il qual ellas cuntanschan 25 onns. Suenter vegnan las contribuziuns calculadas tenor facultad ed entrada da renta. Avais Vus lavurà ultra dals stedis e vegniva l'AVS deducida dal salari, pudais Vus pretender, che questas contribuziuns vegnian quintadas a las contribuziuns sco persuna senza activitad lucrativa. Per quai dovrais Vus cumprovas, per exempel certificats da salari. Bleras lacunas naschan gist en ils onns da stedi, perquai che nagin s'annunzia tar la cassa da cumpensaziun.",
+        "en": "Students and people in education without earned income pay the minimum contribution each year from 1 January after their 20th birthday, until 31 December of the year in which they turn 25. After that, contributions are calculated according to wealth and pension income. If you worked alongside your studies and OASI was deducted from your salary, you can request that these contributions be credited against your contributions as a person not in gainful employment. You need evidence for this, for example salary statements. Many gaps arise precisely during the years of study, because no one reports to the compensation office."
       },
       "sources": [
         "ahvg-10",
@@ -347,7 +551,11 @@
         ]
       },
       "text": {
-        "de": "Hören Sie vor dem Rentenalter auf zu arbeiten, bleiben Sie bis zum Rentenalter beitragspflichtig, nun als Nichterwerbstätige oder Nichterwerbstätiger. Die Beiträge richten sich nach Ihrem Vermögen und Ihrem Renteneinkommen, etwa einer Pensionskassenrente. Arbeiten Sie noch Teilzeit, genügt das nicht in jedem Fall: Sind Sie nicht dauernd voll erwerbstätig und erreichen die Beiträge aus der Arbeit, zusammen mit dem Anteil des Arbeitgebers, nicht die Hälfte dessen, was Sie als Nichterwerbstätige schulden würden, zahlen Sie wie Nichterwerbstätige. Die bereits bezahlten Beiträge aus der Arbeit werden dabei angerechnet. Wer mit Erreichen einer bestimmten Altersgrenze die Arbeit aufgibt, bleibt meist bei der bisherigen Ausgleichskasse, sonst ist die kantonale Ausgleichskasse zuständig. Melden Sie sich dort, sobald Sie Ihre Erwerbstätigkeit aufgeben oder reduzieren."
+        "de": "Hören Sie vor dem Rentenalter auf zu arbeiten, bleiben Sie bis zum Rentenalter beitragspflichtig, nun als Nichterwerbstätige oder Nichterwerbstätiger. Die Beiträge richten sich nach Ihrem Vermögen und Ihrem Renteneinkommen, etwa einer Pensionskassenrente. Arbeiten Sie noch Teilzeit, genügt das nicht in jedem Fall: Sind Sie nicht dauernd voll erwerbstätig und erreichen die Beiträge aus der Arbeit, zusammen mit dem Anteil des Arbeitgebers, nicht die Hälfte dessen, was Sie als Nichterwerbstätige schulden würden, zahlen Sie wie Nichterwerbstätige. Die bereits bezahlten Beiträge aus der Arbeit werden dabei angerechnet. Wer mit Erreichen einer bestimmten Altersgrenze die Arbeit aufgibt, bleibt meist bei der bisherigen Ausgleichskasse, sonst ist die kantonale Ausgleichskasse zuständig. Melden Sie sich dort, sobald Sie Ihre Erwerbstätigkeit aufgeben oder reduzieren.",
+        "fr": "Si vous cessez de travailler avant l’âge de référence, vous restez tenu de cotiser jusqu’à cet âge, désormais comme personne sans activité lucrative. Les cotisations dépendent de votre fortune et de votre revenu sous forme de rente, par exemple une rente de caisse de pension. Si vous travaillez encore à temps partiel, cela ne suffit pas dans tous les cas : si vous ne travaillez pas à plein temps de façon durable et que les cotisations tirées du travail, part de l’employeur comprise, n’atteignent pas la moitié de ce que vous devriez payer comme personne sans activité lucrative, vous payez comme une personne sans activité lucrative. Les cotisations déjà payées sur le travail sont alors imputées. Quiconque abandonne le travail en atteignant une limite d’âge déterminée reste en général affilié à la caisse de compensation précédente ; sinon, c’est la caisse de compensation cantonale qui est compétente. Annoncez-vous-y dès que vous cessez ou réduisez votre activité lucrative.",
+        "it": "Se smette di lavorare prima dell'età di riferimento, resta soggetto all'obbligo contributivo fino all'età di riferimento, ora come persona senza attività lucrativa. I contributi si basano sul suo patrimonio e sul suo reddito sotto forma di rendita, per esempio una rendita della cassa pensioni. Se lavora ancora a tempo parziale, questo non basta in ogni caso: se non è costantemente occupato a tempo pieno e i contributi dal lavoro, insieme alla quota del datore di lavoro, non raggiungono la metà di quanto dovrebbe come persona senza attività lucrativa, paga come le persone senza attività lucrativa. I contributi già pagati dal lavoro vengono in questo caso computati. Chi smette di lavorare al raggiungimento di una determinata età limite resta di regola presso la cassa di compensazione finora competente, altrimenti è competente la cassa cantonale di compensazione. Si annunci lì non appena cessa o riduce la sua attività lucrativa.",
+        "rm": "Chalais Vus da lavurar avant la vegliadetgna da renta, restais Vus obligads a contribuziun fin la vegliadetgna da renta, ussa sco persuna senza activitad lucrativa. Las contribuziuns sa drizzan tenor Vossa facultad e Vossa entrada da renta, per exempel ina renta da la cassa da pensiun. Lavurais Vus anc a temp parzial, na basta quai betg en mintga cas: Sche Vus n'essas betg permanentamain entiramain occupads e las contribuziuns da la lavur, ensemen cun la part dal patrun, na cuntanschan betg la mesadad da quai che Vus duessas sco persuna senza activitad lucrativa, pajais Vus sco persuna senza activitad lucrativa. Las contribuziuns da la lavur gia pajadas vegnan quintadas qua tar. Tgi che banduna la lavur cun cuntanscher in tschert limit d'atgna, resta il pli savens tar la cassa da cumpensaziun anteriura, autramain è la cassa da cumpensaziun chantunala cumpetenta. Annunziai Vus là, uschespert ch'Vus bandunais u reducis Vossa activitad lucrativa.",
+        "en": "If you stop working before the reference age, you remain liable to contribute until the reference age, now as a person not in gainful employment. The contributions are based on your wealth and your pension income, for example a pension fund pension. Working part-time is not always enough: if you are not permanently in full-time gainful employment, and the contributions from your work, together with your employer's share, do not reach half of what you would owe as a person not in gainful employment, you pay as if not in gainful employment. The contributions already paid from your work are credited against this. Anyone who gives up work on reaching a certain age limit usually stays with their previous compensation office; otherwise the cantonal compensation office is responsible. Report there as soon as you give up or reduce your gainful employment."
       },
       "sources": [
         "ahvg-3",
@@ -368,7 +576,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie verheiratet und haben kein eigenes Erwerbseinkommen, gelten Ihre Beiträge als bezahlt, wenn Ihr Ehegatte mindestens den doppelten Mindestbeitrag bezahlt hat. Das gilt auch im Jahr der Heirat oder Scheidung und wenn Ihr Ehegatte bereits eine Altersrente bezieht oder sie aufschiebt. Eingetragene Partnerschaften sind der Ehe gleichgestellt. Erreicht Ihr Ehegatte den doppelten Mindestbeitrag nicht, müssen Sie sich selbst bei der Ausgleichskasse melden und Beiträge nach dem halben ehelichen Vermögen und Renteneinkommen zahlen. Vorsicht bei einem Ehegatten, der im Ausland arbeitet: Seine Beiträge an ein ausländisches Sozialversicherungssystem zählen dafür nicht. Das Bundesgericht hat dies für einen in Frankreich versicherten Ehegatten entschieden, auch unter den Koordinationsregeln mit der EU. Wohnen Sie in der Schweiz, müssen Sie dann selbst Beiträge zahlen."
+        "de": "Sind Sie verheiratet und haben kein eigenes Erwerbseinkommen, gelten Ihre Beiträge als bezahlt, wenn Ihr Ehegatte mindestens den doppelten Mindestbeitrag bezahlt hat. Das gilt auch im Jahr der Heirat oder Scheidung und wenn Ihr Ehegatte bereits eine Altersrente bezieht oder sie aufschiebt. Eingetragene Partnerschaften sind der Ehe gleichgestellt. Erreicht Ihr Ehegatte den doppelten Mindestbeitrag nicht, müssen Sie sich selbst bei der Ausgleichskasse melden und Beiträge nach dem halben ehelichen Vermögen und Renteneinkommen zahlen. Vorsicht bei einem Ehegatten, der im Ausland arbeitet: Seine Beiträge an ein ausländisches Sozialversicherungssystem zählen dafür nicht. Das Bundesgericht hat dies für einen in Frankreich versicherten Ehegatten entschieden, auch unter den Koordinationsregeln mit der EU. Wohnen Sie in der Schweiz, müssen Sie dann selbst Beiträge zahlen.",
+        "fr": "Si vous êtes marié et n’avez pas de revenu propre d’une activité lucrative, vos cotisations sont réputées payées si votre conjoint a payé au moins le double de la cotisation minimale. Cela vaut aussi pour l’année du mariage ou du divorce, et lorsque votre conjoint touche déjà une rente de vieillesse ou l’ajourne. Les partenariats enregistrés sont assimilés au mariage. Si votre conjoint n’atteint pas le double de la cotisation minimale, vous devez vous annoncer vous-même à la caisse de compensation et payer des cotisations sur la moitié de la fortune et du revenu sous forme de rente du couple. Prudence avec un conjoint qui travaille à l’étranger : ses cotisations à un système de sécurité sociale étranger ne comptent pas pour cela. Le Tribunal fédéral en a jugé ainsi pour un conjoint assuré en France, même sous les règles de coordination avec l’UE. Si vous habitez en Suisse, vous devez alors payer vous-même des cotisations.",
+        "it": "Se è sposato e non ha un reddito da attività lucrativa proprio, i suoi contributi sono considerati pagati se il suo coniuge ha versato almeno il doppio del contributo minimo. Questo vale anche nell'anno del matrimonio o del divorzio e se il suo coniuge percepisce già una rendita di vecchiaia o la rinvia. Le unioni domestiche registrate sono equiparate al matrimonio. Se il suo coniuge non raggiunge il doppio del contributo minimo, deve annunciarsi lei stesso presso la cassa di compensazione e pagare contributi in base alla metà del patrimonio e del reddito sotto forma di rendita coniugali. Attenzione con un coniuge che lavora all'estero: i suoi contributi a un sistema di sicurezza sociale estero non contano a questo fine. Il Tribunale federale lo ha deciso per un coniuge assicurato in Francia, anche secondo le regole di coordinamento con l'UE. Se risiede in Svizzera, deve allora pagare contributi lei stesso.",
+        "rm": "Essas Vus maridads e n'avais nagina atgna entrada lucrativa, valan Vossas contribuziuns sco pajadas, sche Voss conjugie ha pajà almain la duplia contribuziun minimala. Quai vala era en l'onn da la maridaglia u dal divorzi e sche Voss conjugie retira gia ina renta da vegliadetgna u l'aplazza. Partenariats registrads èn equiparads a la maridaglia. Na cuntanscha Voss conjugie betg la duplia contribuziun minimala, stuais Vus annunziar Vus sez tar la cassa da cumpensaziun e pajar contribuziuns tenor la mesadad da la facultad ed entrada da renta conjugala. Attenziun tar in conjugie, che lavura a l'exteriur: Sias contribuziuns ad in sistem estrangier da segirezza sociala na contan qua betg. Il Tribunal federal ha decidì quai per in conjugie assicurà en Frantscha, era sut las reglas da coordinaziun cun l'UE. Abitais Vus en Svizra, stuais Vus lura pajar contribuziuns sez.",
+        "en": "If you are married and have no earned income of your own, your contributions count as paid if your spouse has paid at least twice the minimum contribution. This also applies in the year of marriage or divorce, and if your spouse is already drawing an old-age pension or deferring it. Registered partnerships are treated the same as marriage. If your spouse does not reach twice the minimum contribution, you must report yourself to the compensation office and pay contributions based on half the marital wealth and pension income. Be careful with a spouse who works abroad: their contributions to a foreign social security system do not count for this. The Federal Supreme Court decided this for a spouse insured in France, even under the coordination rules with the EU. If you live in Switzerland, you must then pay contributions yourself."
       },
       "sources": [
         "ahvg-3",
@@ -387,7 +599,11 @@
         ]
       },
       "text": {
-        "de": "Für jedes Jahr, in dem Sie die elterliche Sorge für ein Kind unter 16 Jahren hatten, wird Ihnen eine Erziehungsgutschrift angerechnet. Ein solches Jahr zählt als Beitragsjahr, auch wenn Sie keine Beiträge bezahlt haben. Die Gutschrift erhöht zudem das Einkommen, nach dem Ihre Rente berechnet wird. Verheirateten wird die Gutschrift während der Ehe je zur Hälfte angerechnet. Haben nicht verheiratete oder geschiedene Eltern die gemeinsame elterliche Sorge, entscheidet das Gericht oder die Kindesschutzbehörde über die Anrechnung, oder die Eltern regeln sie gemeinsam schriftlich. Bis dies geregelt ist, erhält die Mutter die ganze Gutschrift. Für Jahre, in denen Sie nicht in der Schweiz wohnten und nicht versichert waren, gibt es keine Erziehungsgutschrift."
+        "de": "Für jedes Jahr, in dem Sie die elterliche Sorge für ein Kind unter 16 Jahren hatten, wird Ihnen eine Erziehungsgutschrift angerechnet. Ein solches Jahr zählt als Beitragsjahr, auch wenn Sie keine Beiträge bezahlt haben. Die Gutschrift erhöht zudem das Einkommen, nach dem Ihre Rente berechnet wird. Verheirateten wird die Gutschrift während der Ehe je zur Hälfte angerechnet. Haben nicht verheiratete oder geschiedene Eltern die gemeinsame elterliche Sorge, entscheidet das Gericht oder die Kindesschutzbehörde über die Anrechnung, oder die Eltern regeln sie gemeinsam schriftlich. Bis dies geregelt ist, erhält die Mutter die ganze Gutschrift. Für Jahre, in denen Sie nicht in der Schweiz wohnten und nicht versichert waren, gibt es keine Erziehungsgutschrift.",
+        "fr": "Pour chaque année durant laquelle vous avez exercé l’autorité parentale sur un enfant de moins de 16 ans, une bonification pour tâches éducatives vous est attribuée. Une telle année compte comme année de cotisations, même si vous n’avez payé aucune cotisation. La bonification augmente en outre le revenu sur la base duquel votre rente est calculée. Pour les personnes mariées, la bonification acquise pendant les années civiles de mariage est partagée à parts égales entre les deux époux. Si des parents non mariés ou divorcés exercent l’autorité parentale en commun, le tribunal ou l’autorité de protection de l’enfant statue sur l’attribution, ou les parents la règlent ensemble par écrit. Tant que cela n’est pas réglé, la mère reçoit la bonification entière. Pour les années où vous n’étiez pas domicilié en Suisse et n’étiez pas assuré, il n’y a pas de bonification pour tâches éducatives.",
+        "it": "Per ogni anno in cui ha avuto l'autorità parentale su un figlio sotto i 16 anni, le viene computato un accredito per compiti educativi. Un tale anno conta come anno di contribuzione, anche se non ha pagato contributi. L'accredito aumenta inoltre il reddito in base al quale viene calcolata la sua rendita. Alle persone sposate l'accredito viene computato per metà a testa durante il matrimonio. Se genitori non sposati o divorziati hanno l'autorità parentale congiunta, decide il tribunale o l'autorità di protezione dei minori sull'attribuzione, oppure i genitori la regolano insieme per scritto. Finché ciò non è regolato, la madre riceve l'intero accredito. Per gli anni in cui non risiedeva in Svizzera e non era assicurato non c'è accredito per compiti educativi.",
+        "rm": "Per mintga onn, en il qual Vus avevas l'autoritad genitorala per in uffant sut 16 onns, vegn a Vus quintà in credit d'educaziun. In tal onn conta sco onn da contribuziun, era sch'Vus n'avais pajà naginas contribuziuns. Il credit augmenta ultra da quai l'entrada, tenor la quala Vossa renta vegn calculada. Tar persunas maridadas vegn il credit, durant la maridaglia, quintà mintgamai per la mesadad. Han genitors betg maridads u divorziads l'autoritad genitorala cuminaivla, decida la dretgira u l'autoritad da protecziun dals uffants davart la quintaziun, u ils genitors la reglan cuminaivlamain per scrit. Fin che quai è reglà, survegn la mamma il credit entir. Per onns, en ils quals Vus n'abitavas betg en Svizra e n'eras betg assicurads, na dat i nagin credit d'educaziun.",
+        "en": "For every year in which you had parental care for a child under 16, a child-raising credit is credited to you. Such a year counts as a contribution year, even if you paid no contributions. The credit also increases the income on which your pension is calculated. For married people, the credit is credited half each during the marriage. If unmarried or divorced parents have joint parental care, the court or the child protection authority decides on the allocation, or the parents settle it jointly in writing. Until this is settled, the mother receives the whole credit. There is no child-raising credit for years in which you did not live in Switzerland and were not insured."
       },
       "sources": [
         "ahvg-29sexies",
@@ -407,7 +623,11 @@
         ]
       },
       "text": {
-        "de": "Betreuen Sie Verwandte in auf- oder absteigender Linie, also etwa Eltern, Grosseltern, Kinder oder Enkelkinder, oder Geschwister, können Sie eine Betreuungsgutschrift erhalten. Gleichgestellt sind Ihr Ehegatte, Ihre Schwiegereltern, Ihre Stiefkinder sowie eine Lebenspartnerin oder ein Lebenspartner, mit der oder dem Sie seit mindestens fünf Jahren ohne Unterbruch einen gemeinsamen Haushalt führen. Die betreute Person muss einen anerkannten Anspruch auf eine Hilflosenentschädigung der AHV, IV, obligatorischen Unfallversicherung oder Militärversicherung haben. Nach der Rechtsprechung muss die Entschädigung nicht tatsächlich ausbezahlt werden. Sie müssen die Person leicht erreichen können, das heisst höchstens 30 Kilometer entfernt wohnen oder innert einer Stunde bei ihr sein. Lebt die Person in einem Heim, gibt es die Gutschrift nach der Rechtsprechung in der Regel nicht. Bei leichter Hilflosigkeit entfällt zudem die Hilflosenentschädigung der AHV während eines Heimaufenthalts. Teilen sich mehrere Personen die Betreuung, wird die Gutschrift unter ihnen aufgeteilt. Für Jahre mit einer Erziehungsgutschrift gibt es keine Betreuungsgutschrift."
+        "de": "Betreuen Sie Verwandte in auf- oder absteigender Linie, also etwa Eltern, Grosseltern, Kinder oder Enkelkinder, oder Geschwister, können Sie eine Betreuungsgutschrift erhalten. Gleichgestellt sind Ihr Ehegatte, Ihre Schwiegereltern, Ihre Stiefkinder sowie eine Lebenspartnerin oder ein Lebenspartner, mit der oder dem Sie seit mindestens fünf Jahren ohne Unterbruch einen gemeinsamen Haushalt führen. Die betreute Person muss einen anerkannten Anspruch auf eine Hilflosenentschädigung der AHV, IV, obligatorischen Unfallversicherung oder Militärversicherung haben. Nach der Rechtsprechung muss die Entschädigung nicht tatsächlich ausbezahlt werden. Sie müssen die Person leicht erreichen können, das heisst höchstens 30 Kilometer entfernt wohnen oder innert einer Stunde bei ihr sein. Lebt die Person in einem Heim, gibt es die Gutschrift nach der Rechtsprechung in der Regel nicht. Bei leichter Hilflosigkeit entfällt zudem die Hilflosenentschädigung der AHV während eines Heimaufenthalts. Teilen sich mehrere Personen die Betreuung, wird die Gutschrift unter ihnen aufgeteilt. Für Jahre mit einer Erziehungsgutschrift gibt es keine Betreuungsgutschrift.",
+        "fr": "Si vous vous occupez de parents en ligne ascendante ou descendante, c’est-à-dire par exemple des parents, grands-parents, enfants ou petits-enfants, ou de frères et sœurs, vous pouvez obtenir une bonification pour tâches d’assistance. Sont assimilés à ces proches votre conjoint, vos beaux-parents, vos enfants d’un autre lit ainsi qu’une partenaire ou un partenaire avec qui vous faites ménage commun depuis au moins cinq ans sans interruption. La personne prise en charge doit avoir un droit reconnu à une allocation pour impotent, versée par l’AVS ou l’AI, par l’assurance-accidents obligatoire ou par l’assurance militaire. Selon la jurisprudence, l’allocation ne doit pas être effectivement versée. Vous devez pouvoir atteindre facilement cette personne, c’est-à-dire habiter au maximum à 30 kilomètres ou pouvoir être auprès d’elle en une heure. Si la personne vit dans un home, la bonification n’est en règle générale pas accordée selon la jurisprudence. En cas d’impotence légère, l’allocation pour impotent de l’AVS cesse d’ailleurs pendant un séjour en home. Si plusieurs personnes se partagent la prise en charge, la bonification est répartie entre elles. Pour les années avec une bonification pour tâches éducatives, il n’y a pas de bonification pour tâches d’assistance.",
+        "it": "Se assiste parenti in linea ascendente o discendente, quindi per esempio genitori, nonni, figli o nipoti, o fratelli e sorelle, può ricevere un accredito per compiti assistenziali. Sono equiparati il suo coniuge, i suoi suoceri, i suoi figliastri, nonché una partner o un partner con cui conduce da almeno cinque anni ininterrottamente un'economia domestica comune. La persona assistita deve avere un diritto riconosciuto a un assegno per grandi invalidi, versato dall'AVS o dall'AI, dall'assicurazione infortuni obbligatoria o dall'assicurazione militare. Secondo la giurisprudenza, l'indennità non deve essere effettivamente versata. Deve poter raggiungere facilmente la persona, cioè risiedere al massimo a 30 chilometri di distanza o poterla raggiungere entro un'ora. Se la persona vive in un istituto, secondo la giurisprudenza di regola non c'è l'accredito. In caso di grande invalidità lieve, durante un soggiorno in istituto viene inoltre a mancare l'assegno per grandi invalidi dell'AVS. Se più persone si dividono l'assistenza, l'accredito viene ripartito tra loro. Per gli anni con un accredito per compiti educativi non c'è accredito per compiti assistenziali.",
+        "rm": "Assistais Vus parents en lingia ascendenta u descendenta, dunca per exempel genitors, tats e tattas, uffants u nevos e nevodas, u fragliuns, pudais Vus survegnir in credit d'assistenza. Equiparads èn Voss conjugie, Voss sogers, Voss uffants da conjugie sco er ina partenaria da vita u in partenari da vita, cun la quala u il qual Vus manegiais dapi almain tschintg onns senza interrupziun in chasau cuminaivel. La persuna assistida sto avair in dretg renconoschì ad in'indemnisaziun d'impotenza da l'AVS, da l'AI, da l'assicuranza obligatorica cunter accidents u militara. Tenor la giurisprudenza n'ha l'indemnisaziun betg da vegnir propi pajada ora. Vus stuais pudair cuntanscher facilmain la persuna, quai vul dir abitar maximalmain 30 kilometers distant u esser tar ella entaifer in'ura. Abita la persuna en in domicil, na dat i il credit tenor la giurisprudenza per regla betg. Tar impotenza leva croda ultra da quai davent l'indemnisaziun d'impotenza da l'AVS durant ina stanza en il domicil. Sa partin pliras persunas l'assistenza, vegn il credit repartì tranter ellas. Per onns cun in credit d'educaziun na dat i nagin credit d'assistenza.",
+        "en": "If you care for relatives in the ascending or descending line, that is, for example, parents, grandparents, children or grandchildren, or siblings, you can receive a care credit. Your spouse, your parents-in-law, your stepchildren, and a partner with whom you have run a joint household without interruption for at least five years are treated the same. The person cared for must have a recognised entitlement to a helplessness allowance from the OASI, DI, compulsory accident insurance or military insurance. Under case law, the allowance need not actually be paid out. You must be able to reach the person easily, meaning you live at most 30 kilometres away or can be with them within an hour. If the person lives in a home, case law generally does not grant the credit. In cases of mild helplessness, the OASI helplessness allowance is also not paid during a stay in a home. If several people share the care, the credit is divided between them. There is no care credit for years with a child-raising credit."
       },
       "sources": [
         "ahvg-29septies",
@@ -428,7 +648,11 @@
         ]
       },
       "text": {
-        "de": "Die Betreuungsgutschrift kommt nicht von selbst. Sie müssen sie jedes Jahr schriftlich anmelden, bei der kantonalen Ausgleichskasse am Wohnort der betreuten Person. Unterschreiben müssen Sie und die betreute Person oder ihre gesetzliche Vertretung. Betreuen mehrere Personen, reichen sie die Anmeldung gemeinsam ein. Melden Sie ein Jahr nicht innert fünf Jahren nach dessen Ende an, wird die Gutschrift für dieses Jahr nicht mehr eingetragen."
+        "de": "Die Betreuungsgutschrift kommt nicht von selbst. Sie müssen sie jedes Jahr schriftlich anmelden, bei der kantonalen Ausgleichskasse am Wohnort der betreuten Person. Unterschreiben müssen Sie und die betreute Person oder ihre gesetzliche Vertretung. Betreuen mehrere Personen, reichen sie die Anmeldung gemeinsam ein. Melden Sie ein Jahr nicht innert fünf Jahren nach dessen Ende an, wird die Gutschrift für dieses Jahr nicht mehr eingetragen.",
+        "fr": "La bonification pour tâches d’assistance n’est pas accordée automatiquement. Vous devez la demander par écrit chaque année, auprès de la caisse de compensation cantonale du domicile de la personne prise en charge. Vous devez signer, ainsi que la personne prise en charge ou son représentant légal. Si plusieurs personnes assurent la prise en charge, elles déposent la demande ensemble. Si vous ne demandez pas une année dans les cinq ans suivant sa fin, la bonification pour cette année n’est plus inscrite.",
+        "it": "L'accredito per compiti assistenziali non viene attribuito automaticamente. Deve richiederlo per scritto ogni anno, presso la cassa cantonale di compensazione del luogo di domicilio della persona assistita. Devono firmare lei e la persona assistita o la sua rappresentanza legale. Se più persone assistono, presentano la richiesta insieme. Se non richiede un anno entro cinque anni dalla sua fine, l'accredito per quell'anno non viene più registrato.",
+        "rm": "Il credit d'assistenza na vegn betg da sasez. Vus stuais annunziar el mintg'onn per scrit, tar la cassa da cumpensaziun chantunala al lieu da domicil da la persuna assistida. Suttascriver ston Vus e la persuna assistida u sia represchentanza legala. Assistan pliras persunas, inoltreschan ellas l'annunzia ensemen. Annunziais Vus in onn betg entaifer tschintg onns suenter sia fin, na vegn il credit betg pli inscrit per quest onn.",
+        "en": "The care credit does not come automatically. You must apply for it in writing every year, at the cantonal compensation office of the place where the person cared for lives. You and the person cared for, or their legal representative, must sign. If several people provide the care, they submit the application together. If you do not apply for a year within five years of its end, the credit is no longer entered for that year."
       },
       "sources": [
         "ahvg-29septies",
@@ -439,7 +663,11 @@
       "id": "youth-years",
       "kind": "rule",
       "text": {
-        "de": "Wer schon vor dem 20. Geburtstag gearbeitet und Beiträge bezahlt hat, hat oft sogenannte Jugendjahre. Die Beitragspflicht für Erwerbstätige beginnt am 1. Januar nach dem 17. Geburtstag. Diese frühen Beitragszeiten zählen nicht als gewöhnliche Beitragsjahre, sie werden aber verwendet, um spätere Lücken aufzufüllen. Die Ausgleichskasse berücksichtigt sie bei der Rentenberechnung von sich aus."
+        "de": "Wer schon vor dem 20. Geburtstag gearbeitet und Beiträge bezahlt hat, hat oft sogenannte Jugendjahre. Die Beitragspflicht für Erwerbstätige beginnt am 1. Januar nach dem 17. Geburtstag. Diese frühen Beitragszeiten zählen nicht als gewöhnliche Beitragsjahre, sie werden aber verwendet, um spätere Lücken aufzufüllen. Die Ausgleichskasse berücksichtigt sie bei der Rentenberechnung von sich aus.",
+        "fr": "Quiconque a déjà travaillé et payé des cotisations avant son 20e anniversaire dispose souvent de ce qu’on appelle des années de jeunesse. L’obligation de cotiser des personnes exerçant une activité lucrative commence le 1er janvier suivant le 17e anniversaire. Ces cotisations précoces ne comptent pas comme années de cotisations ordinaires, mais elles servent à combler des lacunes ultérieures. La caisse de compensation en tient compte d’office lors du calcul de la rente.",
+        "it": "Chi ha già lavorato e pagato contributi prima del 20° compleanno ha spesso i cosiddetti anni giovanili. L'obbligo contributivo per le persone che esercitano un'attività lucrativa inizia il 1° gennaio successivo al 17° compleanno. Questi periodi di contribuzione precoci non contano come anni di contribuzione ordinari, ma vengono usati per colmare lacune successive. La cassa di compensazione li considera d'ufficio nel calcolo della rendita.",
+        "rm": "Tgi che ha lavurà e pajà contribuziuns gia avant il 20avel anniversari, ha savens uschenumnads onns giuvenils. L'obligaziun da contribuziun per persunas cun activitad lucrativa cumenza il 1. da schaner suenter il 17avel anniversari. Quests temps da contribuziun baud na contan betg sco onns da contribuziun usitads, ellas vegnan dentant utilisadas per emplenir lacunas pli tardivas. La cassa da cumpensaziun las resguarda da sasezza tar il calcul da la renta.",
+        "en": "Anyone who already worked and paid contributions before their 20th birthday often has so-called youth years. The duty to contribute for people in gainful employment begins on 1 January after the 17th birthday. These early contribution periods do not count as ordinary contribution years, but they are used to fill later gaps. The compensation office takes them into account of its own motion when calculating the pension."
       },
       "sources": [
         "ahvg-3",
@@ -456,7 +684,11 @@
         ]
       },
       "text": {
-        "de": "Arbeiten Sie nach Erreichen des Rentenalters weiter, können Sie damit Lücken schliessen, und zwar mit Beiträgen aus den ersten fünf Jahren nach dem Rentenalter. Voraussetzung ist, dass Ihr Einkommen in dieser Zeit mindestens 40 Prozent Ihres früheren durchschnittlichen Erwerbseinkommens erreicht und die Beiträge daraus mindestens dem jährlichen Mindestbeitrag entsprechen. Die neue Berechnung der Rente müssen Sie bei der Ausgleichskasse verlangen, und zwar nur einmal."
+        "de": "Arbeiten Sie nach Erreichen des Rentenalters weiter, können Sie damit Lücken schliessen, und zwar mit Beiträgen aus den ersten fünf Jahren nach dem Rentenalter. Voraussetzung ist, dass Ihr Einkommen in dieser Zeit mindestens 40 Prozent Ihres früheren durchschnittlichen Erwerbseinkommens erreicht und die Beiträge daraus mindestens dem jährlichen Mindestbeitrag entsprechen. Die neue Berechnung der Rente müssen Sie bei der Ausgleichskasse verlangen, und zwar nur einmal.",
+        "fr": "Si vous continuez à travailler après avoir atteint l’âge de référence, vous pouvez ainsi combler des lacunes, et ce avec les cotisations des cinq premières années suivant l’âge de référence. Il faut pour cela que votre revenu atteigne durant cette période au moins 40 pour cent de votre revenu moyen antérieur d’une activité lucrative et que les cotisations qui en découlent correspondent au moins à la cotisation minimale annuelle. Vous devez demander le nouveau calcul de la rente à la caisse de compensation, et cela une seule fois.",
+        "it": "Se continua a lavorare dopo aver raggiunto l'età di riferimento, può così colmare lacune, con i contributi dei primi cinque anni dopo l'età di riferimento. Condizione è che il suo reddito in questo periodo raggiunga almeno il 40 per cento del suo precedente reddito medio da attività lucrativa e che i contributi da esso derivanti corrispondano almeno al contributo minimo annuo. Deve chiedere il nuovo calcolo della rendita alla cassa di compensazione, e solo una volta.",
+        "rm": "Lavurais Vus vinavant suenter avair cuntanschì la vegliadetgna da renta, pudais Vus serrar lacunas cun quai, e quai cun contribuziuns dals emprims tschintg onns suenter la vegliadetgna da renta. Premissa è ch'Vossa entrada, en quest temp, cuntanschia almain 40 pertschient da Vossa anteriura entrada lucrativa media, e ch'las contribuziuns da quai correspundan almain a la contribuziun minimala annuala. Il nov calcul da la renta stuais Vus pretender tar la cassa da cumpensaziun, e quai mo ina giada.",
+        "en": "If you keep working after reaching the reference age, you can use this to close gaps, using contributions from the first five years after the reference age. This requires that your income during this time reaches at least 40 percent of your previous average earned income, and that the resulting contributions are at least equal to the annual minimum contribution. You must request the new calculation of the pension from the compensation office, and only once."
       },
       "sources": [
         "ahvg-29bis"
@@ -472,7 +704,11 @@
         ]
       },
       "text": {
-        "de": "Während Sie im Ausland wohnen und dort arbeiten, sind Sie in der Regel nicht bei der AHV versichert. Das führt zu einer Lücke in der Schweizer Rente. Mit den EU- und EFTA-Staaten und vielen anderen Ländern hat die Schweiz Sozialversicherungsabkommen. Danach erhalten Sie meist aus jedem Land eine eigene Rente für die dort versicherte Zeit, die Schweizer Lücke bleibt aber bestehen. Wer ausserhalb der EU und EFTA lebt und vorher mindestens fünf Jahre ununterbrochen obligatorisch versichert war, kann sich als Schweizer oder EU- beziehungsweise EFTA-Bürgerin oder -Bürger freiwillig weiterversichern. Der Beitritt muss innert eines Jahres nach dem Ausscheiden aus der obligatorischen Versicherung erklärt werden, später ist er nicht mehr möglich. Lassen Sie sich vor einem Wegzug oder bei Jahren im Ausland beraten."
+        "de": "Während Sie im Ausland wohnen und dort arbeiten, sind Sie in der Regel nicht bei der AHV versichert. Das führt zu einer Lücke in der Schweizer Rente. Mit den EU- und EFTA-Staaten und vielen anderen Ländern hat die Schweiz Sozialversicherungsabkommen. Danach erhalten Sie meist aus jedem Land eine eigene Rente für die dort versicherte Zeit, die Schweizer Lücke bleibt aber bestehen. Wer ausserhalb der EU und EFTA lebt und vorher mindestens fünf Jahre ununterbrochen obligatorisch versichert war, kann sich als Schweizer oder EU- beziehungsweise EFTA-Bürgerin oder -Bürger freiwillig weiterversichern. Der Beitritt muss innert eines Jahres nach dem Ausscheiden aus der obligatorischen Versicherung erklärt werden, später ist er nicht mehr möglich. Lassen Sie sich vor einem Wegzug oder bei Jahren im Ausland beraten.",
+        "fr": "Tant que vous habitez et travaillez à l’étranger, vous n’êtes en règle générale pas assuré à l’AVS. Cela crée une lacune dans la rente suisse. La Suisse a conclu des conventions de sécurité sociale avec les États de l’UE et de l’AELE ainsi qu’avec de nombreux autres pays. Selon ces conventions, vous recevez en général une rente propre de chaque pays pour la période qui y était assurée, mais la lacune suisse subsiste. Quiconque vit en dehors de l’UE et de l’AELE et était auparavant assuré obligatoirement sans interruption pendant cinq ans au moins peut, en tant que citoyenne ou citoyen suisse ou de l’UE, respectivement de l’AELE, s’assurer volontairement à titre facultatif. L’adhésion doit être déclarée dans un délai d’un an suivant la sortie de l’assurance obligatoire, plus tard elle n’est plus possible. Faites-vous conseiller avant un départ à l’étranger ou en cas d’années passées à l’étranger.",
+        "it": "Mentre risiede all'estero e vi lavora, di regola non è assicurato all'AVS. Questo porta a una lacuna nella rendita svizzera. Con gli Stati dell'UE e dell'AELS e con molti altri Paesi la Svizzera ha convenzioni di sicurezza sociale. Secondo queste, di regola riceve da ogni Paese una rendita propria per il periodo assicurato lì, ma la lacuna svizzera resta. Chi vive fuori dall'UE e dall'AELS ed era prima assicurato obbligatoriamente in modo ininterrotto per almeno cinque anni può, come cittadino svizzero o dell'UE o dell'AELS, assicurarsi facoltativamente in modo continuato. L'adesione deve essere dichiarata entro un anno dall'uscita dall'assicurazione obbligatoria, in seguito non è più possibile. Si faccia consigliare prima di trasferirsi all'estero o per gli anni trascorsi all'estero.",
+        "rm": "Durant che Vus abitais a l'exteriur e lavurais là, n'essas Vus per regla betg assicurads tar l'AVS. Quai maina ad ina lacuna en la renta svizra. Cun ils stadis da l'UE e da l'AELS e cun blers auters pajais ha la Svizra acords da segirezza sociala. Tenor quels survegnis Vus il pli savens dad mintga pajais ina atgna renta per il temp assicurà là, la lacuna svizra resta dentant. Tgi che abita ordaifer l'UE e l'AELS ed era avant almain tschintg onns senza interrupziun obligatoricamain assicurà, po sa vinavant assicurar voluntariamain sco Svizra u Svizzer u sco burgaisa u burgais da l'UE resp. da l'AELS. L'entrada sto vegnir declerada entaifer in onn suenter l'sortida da l'assicuranza obligatorica, pli tard n'è ella pli betg pussibla. Laschai Vus cusseglier avant ina partenza u tar onns a l'exteriur.",
+        "en": "While you live and work abroad, you are generally not insured with the OASI. This leads to a gap in your Swiss pension. Switzerland has social security agreements with the EU and EFTA states and with many other countries. Under these, you usually receive a separate pension from each country for the time insured there, but the Swiss gap remains. Anyone living outside the EU and EFTA who was previously continuously compulsorily insured for at least five years can, as a Swiss, EU or EFTA citizen, continue to insure themselves voluntarily. Joining must be declared within one year of leaving compulsory insurance; after that it is no longer possible. Get advice before moving abroad, or for years spent abroad."
       },
       "sources": [
         "ahvg-1a",
@@ -485,7 +721,11 @@
       "id": "objection",
       "kind": "rule",
       "text": {
-        "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei."
+        "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei.",
+        "fr": "Si vous n’êtes pas d’accord avec une décision de la caisse de compensation, par exemple concernant des bonifications refusées, une rectification de compte refusée ou le montant des cotisations, vous pouvez former opposition par écrit auprès de la caisse de compensation dans les 30 jours suivant la notification. Motivez brièvement ce qui est erroné et joignez des pièces justificatives.",
+        "it": "Se non è d'accordo con una decisione della cassa di compensazione, per esempio con accrediti rifiutati, una rettifica del conto negata o l'importo dei contributi, può fare opposizione per scritto alla cassa di compensazione entro 30 giorni dalla notificazione. Motivi brevemente cosa è sbagliato e alleghi le prove.",
+        "rm": "N'essas Vus betg d'accord cun ina decisiun da la cassa da cumpensaziun, per exempel cun credits refusads, in refusà rectificaziun dal conto u l'autezza da las contribuziuns, pudais Vus far, entaifer 30 dis dapi la consegna, per scrit opposiziun tar la cassa da cumpensaziun. Motivai curtamain, tge ch'è fauss, ed agiuntai cumprovas.",
+        "en": "If you disagree with a ruling of the compensation office, for example about refused credits, a refused account correction, or the level of contributions, you can raise a written objection with the compensation office within 30 days of it being sent to you. Briefly explain what is wrong and enclose evidence."
       },
       "sources": [
         "atsg-52"
@@ -495,7 +735,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Der Kontoauszug ist kostenlos. Die Einsprache gegen eine Verfügung der Ausgleichskasse kostet ebenfalls nichts. Nichterwerbstätige zahlen mindestens 530 Franken im Jahr für AHV, IV und EO zusammen, davon 435 Franken für die AHV. Mit mehr Vermögen oder Renteneinkommen wird es mehr, bis zu einem Höchstbetrag. Beiträge, die nachgefordert werden, kosten zusätzlich Verzugszinsen ab dem Beginn des Jahres nach dem Beitragsjahr. Die Beträge werden regelmässig angepasst und gelten hier für 2026. Die Ausgleichskasse berechnet Ihren genauen Beitrag."
+        "de": "Der Kontoauszug ist kostenlos. Die Einsprache gegen eine Verfügung der Ausgleichskasse kostet ebenfalls nichts. Nichterwerbstätige zahlen mindestens 530 Franken im Jahr für AHV, IV und EO zusammen, davon 435 Franken für die AHV. Mit mehr Vermögen oder Renteneinkommen wird es mehr, bis zu einem Höchstbetrag. Beiträge, die nachgefordert werden, kosten zusätzlich Verzugszinsen ab dem Beginn des Jahres nach dem Beitragsjahr. Die Beträge werden regelmässig angepasst und gelten hier für 2026. Die Ausgleichskasse berechnet Ihren genauen Beitrag.",
+        "fr": "L’extrait de compte est gratuit. L’opposition contre une décision de la caisse de compensation ne coûte elle non plus rien. Les personnes sans activité lucrative paient au moins 530 francs par an pour l’AVS, l’AI et les APG ensemble, dont 435 francs pour l’AVS. Avec davantage de fortune ou de revenu sous forme de rente, le montant augmente, jusqu’à un plafond. Les cotisations réclamées après coup sont en outre soumises à des intérêts moratoires dès le début de l’année suivant l’année de cotisations. Les montants sont adaptés régulièrement et valent ici pour 2026. La caisse de compensation calcule votre cotisation exacte.",
+        "it": "L'estratto conto è gratuito. Anche l'opposizione contro una decisione della cassa di compensazione non costa nulla. Le persone senza attività lucrativa pagano almeno 530 franchi all'anno per AVS, AI e IPG insieme, di cui 435 franchi per l'AVS. Con più patrimonio o reddito sotto forma di rendita l'importo aumenta, fino a un massimo. I contributi richiesti retroattivamente comportano inoltre interessi di mora dall'inizio dell'anno successivo all'anno di contribuzione. Gli importi vengono adeguati periodicamente e qui valgono per il 2026. La cassa di compensazione calcola il suo contributo esatto.",
+        "rm": "L'extract dal conto è gratuit. L'opposiziun cunter ina decisiun da la cassa da cumpensaziun na costa er nagut. Persunas senza activitad lucrativa pajan almain 530 francs per onn per AVS, AI ed IPG ensemen, da quai 435 francs per l'AVS. Cun pli facultad u entrada da renta daventa quai dapli, fin ad in import maximal. Contribuziuns, che vegnan pretendidas posteriorment, costan supplementarmain tschains da retard dapi l'entschatta da l'onn suenter l'onn da contribuziun. Ils imports vegnan adattads regularmain e valan qua per il 2026. La cassa da cumpensaziun calculescha Vossa contribuziun exacta.",
+        "en": "The account extract is free of charge. The objection against a ruling of the compensation office also costs nothing. People not in gainful employment pay at least 530 francs a year for OASI, DI and loss of earnings compensation together, of which 435 francs is for the OASI. With more wealth or pension income, it becomes more, up to a maximum amount. Contributions demanded later also carry default interest from the start of the year after the contribution year. The amounts are adjusted regularly and apply here for 2026. The compensation office calculates your exact contribution."
       },
       "sources": [
         "ahvv-141",
@@ -510,14 +754,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Sie Jahre im Ausland verbracht haben, wenn Ihr Ehegatte im Ausland arbeitet oder gearbeitet hat, wenn die Ausgleichskasse eine Berichtigung oder eine Gutschrift ablehnt, wenn Ihnen eine hohe Nachforderung mit Verzugszinsen droht, oder wenn Sie kurz vor der Pensionierung stehen und prüfen wollen, ob sich Lücken noch schliessen lassen."
+        "de": "Holen Sie persönliche Beratung, wenn Sie Jahre im Ausland verbracht haben, wenn Ihr Ehegatte im Ausland arbeitet oder gearbeitet hat, wenn die Ausgleichskasse eine Berichtigung oder eine Gutschrift ablehnt, wenn Ihnen eine hohe Nachforderung mit Verzugszinsen droht, oder wenn Sie kurz vor der Pensionierung stehen und prüfen wollen, ob sich Lücken noch schliessen lassen.",
+        "fr": "Demandez un conseil personnalisé si vous avez passé des années à l’étranger, si votre conjoint travaille ou a travaillé à l’étranger, si la caisse de compensation refuse une rectification ou une bonification, si une importante créance rétroactive avec intérêts moratoires vous menace, ou si vous êtes peu avant la retraite et voulez examiner si des lacunes peuvent encore être comblées.",
+        "it": "Si faccia consigliare personalmente se ha trascorso anni all'estero, se il suo coniuge lavora o ha lavorato all'estero, se la cassa di compensazione rifiuta una rettifica o un accredito, se rischia una richiesta retroattiva elevata con interessi di mora, oppure se è vicino al pensionamento e vuole verificare se le lacune si possono ancora colmare.",
+        "rm": "Procurai ina consulaziun persunala, sch'Vus avais passà onns a l'exteriur, sche Voss conjugie lavura u ha lavurà a l'exteriur, sche la cassa da cumpensaziun refusa ina rectificaziun u in credit, sche a Vus smanatscha ina auta pretensiun posteriura cun tschains da retard, u sch'Vus stais curt avant la pensionament e vulais examinar, sche lacunas sa laschan anc serrar.",
+        "en": "Get personal advice if you have spent years abroad, if your spouse works or has worked abroad, if the compensation office refuses a correction or a credit, if a large repayment with default interest is threatening, or if you are shortly before retirement and want to check whether gaps can still be closed."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonale Ausgleichskasse Ihres Wohnkantons gibt Auskunft zu Beiträgen, Lücken und Gutschriften. Die Informationsstelle AHV/IV stellt Merkblätter und die Online-Bestellung des Kontoauszugs zur Verfügung. Bei Fragen zu Jahren im Ausland ist die Schweizerische Ausgleichskasse zuständig. Pro Senectute und Sozialdienste der Gemeinden beraten ältere Menschen und betreuende Angehörige. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonale Ausgleichskasse Ihres Wohnkantons gibt Auskunft zu Beiträgen, Lücken und Gutschriften. Die Informationsstelle AHV/IV stellt Merkblätter und die Online-Bestellung des Kontoauszugs zur Verfügung. Bei Fragen zu Jahren im Ausland ist die Schweizerische Ausgleichskasse zuständig. Pro Senectute und Sozialdienste der Gemeinden beraten ältere Menschen und betreuende Angehörige. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an.",
+        "fr": "Aide gratuite ou à faible coût : la caisse de compensation cantonale de votre canton de domicile renseigne sur les cotisations, les lacunes et les bonifications. Le Centre d’information AVS/AI met à disposition des mémentos et la commande en ligne de l’extrait de compte. Pour les questions relatives aux années passées à l’étranger, la Caisse suisse de compensation est compétente. Pro Senectute et les services sociaux des communes conseillent les personnes âgées et les proches aidants. De nombreux cantons et associations d’avocats offrent une consultation juridique gratuite.",
+        "it": "Aiuto gratuito o a basso costo: la cassa cantonale di compensazione del suo Cantone di domicilio dà informazioni su contributi, lacune e accrediti. Il Centro d'informazione AVS/AI mette a disposizione promemoria e l'ordinazione online dell'estratto conto. Per domande sugli anni all'estero è competente la Cassa svizzera di compensazione. Pro Senectute e i servizi sociali dei Comuni consigliano le persone anziane e i familiari che assistono. Molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita.",
+        "rm": "Agid gratuit u avantagius: La cassa da cumpensaziun chantunala da Voss chantun da domicil infurmescha davart contribuziuns, lacunas e credits. L'Infurmaziun AVS/AI metta a disposiziun bulletins d'infurmaziun e la commanda online da l'extract dal conto. Tar dumondas davart onns a l'exteriur è la Cassa Svizra da Cumpensaziun cumpetenta. Pro Senectute e servetschs socials da las vischnancas cusseglieschan persunas pli veglias e commembers da la famiglia assistents. Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita.",
+        "en": "Free or low-cost help: the cantonal compensation office of the canton where you live gives information on contributions, gaps and credits. The Information Centre OASI/DI provides fact sheets and the online ordering of the account extract. For questions about years abroad, the Swiss Compensation Office is responsible. Pro Senectute and communal social services advise older people and caring relatives. Many cantons and bar associations offer free legal information."
       }
     }
   ],
@@ -846,37 +1098,61 @@
   "official_links": [
     {
       "label": {
-        "de": "Informationsstelle AHV/IV: Beitragslücken und Bestellung des Kontoauszugs"
+        "de": "Informationsstelle AHV/IV: Beitragslücken und Bestellung des Kontoauszugs",
+        "fr": "Centre d’information AVS/AI : lacunes de cotisations et commande de l’extrait de compte",
+        "it": "Centro d'informazione AVS/AI: lacune contributive e ordinazione dell'estratto conto",
+        "rm": "Infurmaziun AVS/AI: Lacunas da contribuziun e commanda da l'extract dal conto",
+        "en": "Information Centre OASI/DI: contribution gaps and ordering the account extract"
       },
       "url": "https://www.ahv-iv.ch/de/Sozialversicherungen/Alters-und-Hinterlassenenversicherung-AHV/Beitragsl%C3%BCcken"
     },
     {
       "label": {
-        "de": "Merkblatt 1.01: Auszug aus dem individuellen Konto"
+        "de": "Merkblatt 1.01: Auszug aus dem individuellen Konto",
+        "fr": "Mémento 1.01 : extrait du compte individuel",
+        "it": "Promemoria 1.01: estratto del conto individuale",
+        "rm": "Bulletin d'infurmaziun 1.01: Extract dal conto individual",
+        "en": "Fact sheet 1.01: extract from the individual account"
       },
       "url": "https://www.ahv-iv.ch/p/1.01.d"
     },
     {
       "label": {
-        "de": "Merkblatt 2.03: Beiträge der Nichterwerbstätigen"
+        "de": "Merkblatt 2.03: Beiträge der Nichterwerbstätigen",
+        "fr": "Mémento 2.03 : cotisations des personnes sans activité lucrative",
+        "it": "Promemoria 2.03: contributi delle persone senza attività lucrativa",
+        "rm": "Bulletin d'infurmaziun 2.03: Contribuziuns da persunas senza activitad lucrativa",
+        "en": "Fact sheet 2.03: contributions of people not in gainful employment"
       },
       "url": "https://www.ahv-iv.ch/p/2.03.d"
     },
     {
       "label": {
-        "de": "Merkblatt 1.03: Betreuungsgutschriften"
+        "de": "Merkblatt 1.03: Betreuungsgutschriften",
+        "fr": "Mémento 1.03 : bonifications pour tâches d’assistance",
+        "it": "Promemoria 1.03: accrediti per compiti assistenziali",
+        "rm": "Bulletin d'infurmaziun 1.03: Credits d'assistenza",
+        "en": "Fact sheet 1.03: care credits"
       },
       "url": "https://www.ahv-iv.ch/p/1.03.d"
     },
     {
       "label": {
-        "de": "Merkblatt 10.01: Arbeiten im Ausland"
+        "de": "Merkblatt 10.01: Arbeiten im Ausland",
+        "fr": "Mémento 10.01 : travailler à l’étranger",
+        "it": "Promemoria 10.01: lavorare all'estero",
+        "rm": "Bulletin d'infurmaziun 10.01: Lavurar a l'exteriur",
+        "en": "Fact sheet 10.01: working abroad"
       },
       "url": "https://www.ahv-iv.ch/p/10.01.d"
     },
     {
       "label": {
-        "de": "Adressen der Ausgleichskassen"
+        "de": "Adressen der Ausgleichskassen",
+        "fr": "Adresses des caisses de compensation",
+        "it": "Indirizzi delle casse di compensazione",
+        "rm": "Adressas da las cassas da cumpensaziun",
+        "en": "Addresses of the compensation offices"
       },
       "url": "https://www.ahv-iv.ch/de/Kontakte"
     }

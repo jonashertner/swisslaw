@@ -47,7 +47,7 @@ export const WAVE_1: readonly CoverageGroup[] = [
   ] },
 ];
 
-/** Wave 2: every topic has a situation file, drafted for review. */
+/** Wave 2: every topic has a situation file. */
 export const WAVE_2: readonly CoverageGroup[] = [
   { area: 'family', topics: [
     { id: 'family.separation', title: e('Trennung', 'Séparation', 'Separazione', 'Separaziun', 'Separation') },
@@ -57,9 +57,9 @@ export const WAVE_2: readonly CoverageGroup[] = [
   ] },
   { area: 'social', topics: [
     { id: 'social.unemployment', title: e('Arbeitslos melden und Einstelltage', 'S’inscrire au chômage et jours de suspension', 'Iscriversi alla disoccupazione e giorni di sospensione', 'S’annunziar sco dischoccupà e dis da suspensiun', 'Registering as unemployed and benefit suspensions') },
-    { id: 'social.invalidity-application', title: e('Anmeldung bei der IV', 'Demande à l’AI', 'Richiesta all’AI', 'Annunzia tar l’AI', 'Invalidity insurance application') },
+    { id: 'social.invalidity-application', title: e('Anmeldung bei der IV', 'Demande à l’AI', 'Richiesta all’AI', 'Annunzia tar l’AI', 'Registering with disability insurance (DI)') },
     { id: 'social.work-accident', title: e('Unfall bei der Arbeit', 'Accident professionnel', 'Infortunio professionale', 'Accident a la lavur', 'Accident at work') },
-    { id: 'social.ahv-gaps', title: e('Beitragslücken in der AHV', 'Lacunes de cotisation AVS', 'Lacune contributive AVS', 'Mancanzas da contribuziun a l’AVS', 'Gaps in AHV contributions') },
+    { id: 'social.ahv-gaps', title: e('Beitragslücken in der AHV', 'Lacunes de cotisation AVS', 'Lacune contributive AVS', 'Mancanzas da contribuziun a l’AVS', 'Gaps in OASI contributions') },
   ] },
 ];
 

@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich werde arbeitslos. Was muss ich tun, und was sind Einstelltage?"
+    "de": "Ich werde arbeitslos. Was muss ich tun, und was sind Einstelltage?",
+    "fr": "Je me retrouve au chômage. Que dois-je faire, et que sont les jours de suspension ?",
+    "it": "Perdo il lavoro. Cosa devo fare, e cosa sono i giorni di sospensione?",
+    "rm": "Jau vegn senza lavur. Tge stoss jau far, e tge èn dis da suspensiun?",
+    "en": "I am becoming unemployed. What do I need to do, and what are suspension days?"
   },
   "summary": {
-    "de": "Melden Sie sich früh beim RAV an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung wollen. Suchen Sie schon während der Kündigungsfrist eine Stelle und sammeln Sie die Belege. Verletzen Sie Ihre Pflichten, zum Beispiel mit zu wenigen Bewerbungen oder einem verpassten Termin, oder sind Sie selbst schuld an der Arbeitslosigkeit, erhalten Sie für einige Tage kein Geld (Einstelltage). Dagegen können Sie innert 30 Tagen kostenlos Einsprache erheben."
+    "de": "Melden Sie sich früh beim RAV an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung wollen. Suchen Sie schon während der Kündigungsfrist eine Stelle und sammeln Sie die Belege. Verletzen Sie Ihre Pflichten, zum Beispiel mit zu wenigen Bewerbungen oder einem verpassten Termin, oder sind Sie selbst schuld an der Arbeitslosigkeit, erhalten Sie für einige Tage kein Geld (Einstelltage). Dagegen können Sie innert 30 Tagen kostenlos Einsprache erheben.",
+    "fr": "Inscrivez-vous tôt à l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous voulez une indemnité de chômage. Cherchez déjà un emploi pendant le délai de congé et rassemblez les preuves. Si vous manquez à vos obligations, par exemple avec trop peu de candidatures ou un rendez-vous manqué, ou si vous êtes vous-même responsable du chômage, vous ne touchez pas d’argent pendant quelques jours (jours de suspension). Vous pouvez former opposition contre cela gratuitement dans les 30 jours.",
+    "it": "Si annunci presto all'URC, al più tardi il primo giorno per cui vuole l'indennità di disoccupazione. Cerchi un impiego già durante il termine di disdetta e raccolga le prove. Se viola i suoi obblighi, per esempio con troppo poche candidature o un appuntamento mancato, oppure se è lei stesso responsabile della disoccupazione, per alcuni giorni non riceve denaro (giorni di sospensione). Contro questo può fare opposizione gratuitamente entro 30 giorni.",
+    "rm": "Annunziai Vus baud tar il RAV, al pli tard il emprim di, per il qual Vus vulais indemnisaziun da disoccupaziun. Tschertgai gia durant il termin da disditga ina plazza e cumbinai las cumprovas. Sche Vus violais Vossas obligaziuns, per exempel cun memia paucas annunzias u in termin manglà, u sche Vus essas Vus sez culpabels a la disoccupaziun, na survegnis Vus per intgins dis nagin daner (dis da suspensiun). Cunter quai pudais Vus far opposiziun gratuitamain entaifer 30 dis.",
+    "en": "Register early with the regional employment centre (RAV), at the latest on the first day for which you want unemployment benefit. Look for a job already during your notice period and keep the evidence. If you breach your duties, for example with too few job applications or a missed appointment, or if you are yourself at fault for your unemployment, you will not receive money for a number of days (suspension days). You can object to this free of charge within 30 days."
   },
   "examples": {
     "de": [
@@ -19,45 +27,105 @@
       "Wenn ich selbst kündige, bekomme ich dann Arbeitslosengeld?",
       "Ich bi arbeitslos worde, was muess ich jetzt mache?",
       "Die Arbeitslosenkasse sagt, ich sei selber schuld an meiner Kündigung. Stimmt das?"
+    ],
+    "fr": [
+      "On m’a licencié, quand dois-je m’annoncer à l’ORP ?",
+      "J’ai reçu des jours de suspension parce que je n’avais pas assez postulé. Puis-je contester ?",
+      "J’ai raté un rendez-vous à l’ORP, qu’est-ce qui va se passer maintenant ?",
+      "Si je démissionne moi-même, ai-je quand même droit au chômage ?",
+      "Je viens de me retrouver sans emploi, qu’est-ce que je dois faire maintenant ?",
+      "La caisse de chômage dit que je suis responsable de mon licenciement. C’est vrai ?"
+    ],
+    "it": [
+      "Mi hanno licenziato, quando devo annunciarmi all'URC?",
+      "Ho ricevuto giorni di sospensione perché avevo troppo poche candidature. Posso oppormi?",
+      "Ho perso un appuntamento all'URC, cosa succede adesso?",
+      "Se do le dimissioni, ho comunque diritto all'indennità di disoccupazione?",
+      "Ho perso il lavoro, cosa devo fare adesso?",
+      "La cassa di disoccupazione dice che sono io il responsabile del mio licenziamento. È vero?"
+    ],
+    "rm": [
+      "Ins m'ha dà la disditga, cura stoss jau m'annunziar tar il RAV?",
+      "Jau hai survegnì dis da suspensiun, perquai ch'jau hai fatg memia paucas annunzias. Poss jau ma defender?",
+      "Jau hai manglà in termin tar il RAV, tge succeda ussa?",
+      "Sch'jau dun jau sez la disditga, survegn jau lura daner da disoccupaziun?",
+      "Jau sun senza lavur ussa, tge dastg jau far?",
+      "La cassa da disoccupaziun di che jau sajel sez culpabel da mia disditga. Es quai vaira?"
+    ],
+    "en": [
+      "I've been given notice, when do I need to register with the RAV?",
+      "I got suspension days because I hadn't sent enough job applications. Can I challenge that?",
+      "I missed an appointment at the RAV, what happens now?",
+      "If I hand in my own notice, will I still get unemployment benefit?",
+      "I just lost my job, what do I need to do now?",
+      "The unemployment fund says my dismissal is my own fault. Is that right?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Anmeldung bei der Arbeitslosenversicherung, die Grundvoraussetzungen für Arbeitslosenentschädigung, die Pflicht zur Stellensuche und die Einstellung in der Anspruchsberechtigung (Einstelltage) mit den häufigsten Gründen, sowie Einsprache und Beschwerde gegen eine Einstellung."
+      "de": "Die Anmeldung bei der Arbeitslosenversicherung, die Grundvoraussetzungen für Arbeitslosenentschädigung, die Pflicht zur Stellensuche und die Einstellung in der Anspruchsberechtigung (Einstelltage) mit den häufigsten Gründen, sowie Einsprache und Beschwerde gegen eine Einstellung.",
+      "fr": "L’inscription à l’assurance-chômage, les conditions de base du droit à l’indemnité de chômage, l’obligation de rechercher un emploi et la suspension du droit à l’indemnité (jours de suspension) avec ses motifs les plus fréquents, ainsi que l’opposition et le recours contre une suspension.",
+      "it": "L'annuncio all'assicurazione contro la disoccupazione, i presupposti fondamentali per l'indennità di disoccupazione, l'obbligo di cercare un impiego e la sospensione del diritto all'indennità (giorni di sospensione) con i motivi più frequenti, nonché l'opposizione e il ricorso contro una sospensione.",
+      "rm": "L'annunzia tar l'assicuranza da disoccupaziun (AD), las premissas fundamentalas per l'indemnisaziun da disoccupaziun, l'obligaziun da tschertgar lavur e la suspensiun dal dretg a l'indemnisaziun (dis da suspensiun) cun ils motivs ils pli frequents, sco er opposiziun e recurs cunter ina suspensiun.",
+      "en": "Registering with the unemployment insurance, the basic requirements for unemployment benefit, the duty to look for work, and the suspension of entitlement to benefit (suspension days) with its most common grounds, as well as objecting to and appealing against a suspension."
     },
     "excludes": {
-      "de": "Die Berechnung und Höhe der Taggelder, Kurzarbeits-, Schlechtwetter- und Insolvenzentschädigung, arbeitsmarktliche Massnahmen im Einzelnen, Selbständigerwerbende, Grenzgängerinnen und Grenzgänger sowie die Rückforderung zu viel bezahlter Leistungen. Streitigkeiten mit dem Arbeitgeber über die Kündigung selbst behandeln die arbeitsrechtlichen Anleitungen."
+      "de": "Die Berechnung und Höhe der Taggelder, Kurzarbeits-, Schlechtwetter- und Insolvenzentschädigung, arbeitsmarktliche Massnahmen im Einzelnen, Selbständigerwerbende, Grenzgängerinnen und Grenzgänger sowie die Rückforderung zu viel bezahlter Leistungen. Streitigkeiten mit dem Arbeitgeber über die Kündigung selbst behandeln die arbeitsrechtlichen Anleitungen.",
+      "fr": "Le calcul et le montant des indemnités journalières, l’indemnité en cas de réduction de l’horaire de travail, l’indemnité en cas d’intempéries et l’indemnité en cas d’insolvabilité, les mesures relatives au marché du travail en détail, les indépendants, les frontalières et frontaliers, ainsi que la restitution de prestations touchées en trop. Les litiges avec l’employeur portant sur le licenciement lui-même sont traités par les guides de droit du travail.",
+      "it": "Il calcolo e l'importo delle indennità giornaliere, l'indennità per lavoro ridotto, per intemperie e per insolvenza, i singoli provvedimenti attinenti al mercato del lavoro, le persone con attività lucrativa indipendente, le persone frontaliere, nonché la restituzione di prestazioni percepite in eccesso. Le controversie con il datore di lavoro sulla disdetta in sé sono trattate nelle guide di diritto del lavoro.",
+      "rm": "Il calcul e l'autezza da las diarias, l'indemnisaziun per lavur curta, per mal temp e per insolvenza, las mesiras dal martgà da lavur en detagl, persunas che exercitan in'activitad independenta, fronterais sco er la restituziun da prestaziuns pajadas memia autas. Dispitas cun il patrun davart la disditga sez vegnan tractadas dals manuals da dretg da lavur.",
+      "en": "The calculation and amount of the daily allowances, short-time work, bad-weather and insolvency compensation, individual labour-market measures, self-employed people, cross-border commuters, and the reclaiming of benefits paid in excess. Disputes with the employer about the notice of termination itself are covered by the employment-law guides."
     }
   },
   "facts": [
     {
       "key": "stage",
       "question": {
-        "de": "Wo stehen Sie gerade?"
+        "de": "Wo stehen Sie gerade?",
+        "fr": "Où en êtes-vous actuellement ?",
+        "it": "A che punto si trova?",
+        "rm": "Nua stais Vus gist?",
+        "en": "Where do you currently stand?"
       },
       "options": [
         {
           "value": "notice-period",
           "label": {
-            "de": "Mir wurde gekündigt oder mein Vertrag läuft aus, ich arbeite aber noch"
+            "de": "Mir wurde gekündigt oder mein Vertrag läuft aus, ich arbeite aber noch",
+            "fr": "On m’a licencié ou mon contrat arrive à échéance, mais je travaille encore",
+            "it": "Mi è stata data la disdetta o il mio contratto sta per scadere, ma lavoro ancora",
+            "rm": "Ins m'ha dà la disditga u miu contract scada, ma jau lavur anc",
+            "en": "I have been given notice, or my contract is ending, but I am still working"
           }
         },
         {
           "value": "not-registered",
           "label": {
-            "de": "Ich bin schon ohne Arbeit, aber noch nicht beim RAV angemeldet"
+            "de": "Ich bin schon ohne Arbeit, aber noch nicht beim RAV angemeldet",
+            "fr": "Je suis déjà sans emploi, mais pas encore inscrit à l’ORP",
+            "it": "Sono già senza lavoro, ma non ancora annunciato all'URC",
+            "rm": "Jau sun gia senza lavur, ma anc betg annunzià tar il RAV",
+            "en": "I am already without work, but not yet registered with the RAV"
           }
         },
         {
           "value": "registered",
           "label": {
-            "de": "Ich bin beim RAV angemeldet"
+            "de": "Ich bin beim RAV angemeldet",
+            "fr": "Je suis inscrit à l’ORP",
+            "it": "Sono annunciato all'URC",
+            "rm": "Jau sun annunzià tar il RAV",
+            "en": "I am registered with the RAV"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -65,37 +133,61 @@
     {
       "key": "how_ended",
       "question": {
-        "de": "Wie endet oder endete Ihre letzte Stelle?"
+        "de": "Wie endet oder endete Ihre letzte Stelle?",
+        "fr": "Comment votre dernier emploi se termine-t-il ou s’est-il terminé ?",
+        "it": "Come termina o è terminato il suo ultimo impiego?",
+        "rm": "Co finescha u ha finì Vossa davosa plazza?",
+        "en": "How does or did your last job end?"
       },
       "options": [
         {
           "value": "employer",
           "label": {
-            "de": "Der Arbeitgeber hat gekündigt"
+            "de": "Der Arbeitgeber hat gekündigt",
+            "fr": "L’employeur a résilié le contrat",
+            "it": "Il datore di lavoro ha dato la disdetta",
+            "rm": "Il patrun ha dà la disditga",
+            "en": "The employer gave notice"
           }
         },
         {
           "value": "own-notice",
           "label": {
-            "de": "Ich habe selbst gekündigt"
+            "de": "Ich habe selbst gekündigt",
+            "fr": "J’ai résilié moi-même",
+            "it": "Ho dato io stesso la disdetta",
+            "rm": "Jau hai dà jau sez la disditga",
+            "en": "I gave notice myself"
           }
         },
         {
           "value": "agreement",
           "label": {
-            "de": "Wir haben uns auf eine Auflösung geeinigt"
+            "de": "Wir haben uns auf eine Auflösung geeinigt",
+            "fr": "Nous nous sommes mis d’accord sur une résiliation",
+            "it": "Ci siamo accordati su una risoluzione consensuale",
+            "rm": "Nus ans essan cunvegnids sin ina dissoluziun",
+            "en": "We agreed on a mutual termination"
           }
         },
         {
           "value": "fixed-term",
           "label": {
-            "de": "Der befristete Vertrag ist ausgelaufen"
+            "de": "Der befristete Vertrag ist ausgelaufen",
+            "fr": "Le contrat de durée déterminée est arrivé à échéance",
+            "it": "Il contratto a tempo determinato è scaduto",
+            "rm": "Il contract temporar è scadì",
+            "en": "The fixed-term contract expired"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -103,28 +195,48 @@
     {
       "key": "contributions",
       "question": {
-        "de": "Haben Sie in den letzten zwei Jahren insgesamt mindestens zwölf Monate als Angestellte oder Angestellter gearbeitet?"
+        "de": "Haben Sie in den letzten zwei Jahren insgesamt mindestens zwölf Monate als Angestellte oder Angestellter gearbeitet?",
+        "fr": "Avez-vous travaillé au total au moins douze mois comme salarié ou salariée au cours des deux dernières années ?",
+        "it": "Negli ultimi due anni ha lavorato in totale almeno dodici mesi come dipendente?",
+        "rm": "Avais Vus lavurà en ils davos dus onns endretg almain dudesch mais sco persuna occupada?",
+        "en": "Have you worked as an employee for at least twelve months in total over the last two years?"
       },
       "help": {
-        "de": "Gemeint ist eine Anstellung, bei der vom Lohn Beiträge an die Arbeitslosenversicherung abgezogen wurden. Mehrere Stellen werden zusammengezählt."
+        "de": "Gemeint ist eine Anstellung, bei der vom Lohn Beiträge an die Arbeitslosenversicherung abgezogen wurden. Mehrere Stellen werden zusammengezählt.",
+        "fr": "Il s’agit d’un emploi pour lequel des cotisations à l’assurance-chômage ont été déduites du salaire. Plusieurs emplois sont additionnés.",
+        "it": "S'intende un impiego per cui sono stati dedotti dal salario contributi all'assicurazione contro la disoccupazione. Più impieghi vengono sommati.",
+        "rm": "Vegn manegià in'occupaziun, en la quala contribuziuns a l'assicuranza da disoccupaziun vegnivan deducidas dal salari. Pliras plazzas vegnan contadas ensemen.",
+        "en": "This means employment where contributions to the unemployment insurance were deducted from your salary. Several jobs are added together."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -132,43 +244,71 @@
     {
       "key": "suspension",
       "question": {
-        "de": "Haben Sie eine Verfügung über Einstelltage erhalten? Wenn ja, weshalb?"
+        "de": "Haben Sie eine Verfügung über Einstelltage erhalten? Wenn ja, weshalb?",
+        "fr": "Avez-vous reçu une décision concernant des jours de suspension ? Si oui, pourquoi ?",
+        "it": "Ha ricevuto una decisione su giorni di sospensione? Se sì, per quale motivo?",
+        "rm": "Avais Vus survegnì ina decisiun davart dis da suspensiun? Sche gea, pertge?",
+        "en": "Have you received a ruling on suspension days? If so, why?"
       },
       "options": [
         {
           "value": "none",
           "label": {
-            "de": "Nein, keine Einstelltage"
+            "de": "Nein, keine Einstelltage",
+            "fr": "Non, pas de jours de suspension",
+            "it": "No, nessun giorno di sospensione",
+            "rm": "Na, nagins dis da suspensiun",
+            "en": "No, no suspension days"
           }
         },
         {
           "value": "fault",
           "label": {
-            "de": "Ja, weil ich selbst schuld an der Arbeitslosigkeit sein soll"
+            "de": "Ja, weil ich selbst schuld an der Arbeitslosigkeit sein soll",
+            "fr": "Oui, parce que je serais moi-même responsable du chômage",
+            "it": "Sì, perché sarei io il responsabile della disoccupazione",
+            "rm": "Gea, perquai ch'jau duessa esser sez culpabel a la disoccupaziun",
+            "en": "Yes, because I am said to be myself at fault for my unemployment"
           }
         },
         {
           "value": "job-search",
           "label": {
-            "de": "Ja, wegen zu wenigen oder ungenügenden Bewerbungen"
+            "de": "Ja, wegen zu wenigen oder ungenügenden Bewerbungen",
+            "fr": "Oui, à cause de candidatures trop peu nombreuses ou insuffisantes",
+            "it": "Sì, per candidature troppo poche o insufficienti",
+            "rm": "Gea, pervia da memia paucas u insuffizientas annunzias",
+            "en": "Yes, because of too few or insufficient job applications"
           }
         },
         {
           "value": "appointment",
           "label": {
-            "de": "Ja, wegen eines verpassten Termins oder einer nicht befolgten Weisung"
+            "de": "Ja, wegen eines verpassten Termins oder einer nicht befolgten Weisung",
+            "fr": "Oui, à cause d’un rendez-vous manqué ou d’une instruction non suivie",
+            "it": "Sì, per un appuntamento mancato o un'istruzione non rispettata",
+            "rm": "Gea, pervia d'in termin manglà u d'ina directiva betg suandada",
+            "en": "Yes, because of a missed appointment or an instruction I did not follow"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Ja, aus einem anderen Grund"
+            "de": "Ja, aus einem anderen Grund",
+            "fr": "Oui, pour un autre motif",
+            "it": "Sì, per un altro motivo",
+            "rm": "Gea, pervia d'in auter motiv",
+            "en": "Yes, for another reason"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -176,28 +316,48 @@
     {
       "key": "procedure",
       "question": {
-        "de": "Welches Schreiben haben Sie zuletzt zu den Einstelltagen erhalten?"
+        "de": "Welches Schreiben haben Sie zuletzt zu den Einstelltagen erhalten?",
+        "fr": "Quel courrier avez-vous reçu en dernier au sujet des jours de suspension ?",
+        "it": "Quale lettera ha ricevuto per ultima riguardo ai giorni di sospensione?",
+        "rm": "Tge brev avais Vus ricevì l'ultima giada davart ils dis da suspensiun?",
+        "en": "What was the last letter you received about the suspension days?"
       },
       "help": {
-        "de": "Der Titel und die Rechtsmittelbelehrung am Schluss des Schreibens sagen, ob es eine Verfügung oder ein Einspracheentscheid ist."
+        "de": "Der Titel und die Rechtsmittelbelehrung am Schluss des Schreibens sagen, ob es eine Verfügung oder ein Einspracheentscheid ist.",
+        "fr": "Le titre et l’indication des voies de droit à la fin du courrier indiquent s’il s’agit d’une décision ou d’une décision sur opposition.",
+        "it": "Il titolo e l'indicazione dei rimedi giuridici alla fine della lettera dicono se si tratta di una decisione o di una decisione su opposizione.",
+        "rm": "Il titel e l'indicaziun dals meds legals a la fin da la brev disan, sche sa tracta d'ina decisiun u d'ina decisiun sin opposiziun.",
+        "en": "The heading and the instructions on legal remedies at the end of the letter say whether it is a ruling or an objection decision."
       },
       "options": [
         {
           "value": "decision",
           "label": {
-            "de": "Eine Verfügung (erster Entscheid)"
+            "de": "Eine Verfügung (erster Entscheid)",
+            "fr": "Une décision (premier prononcé)",
+            "it": "Una decisione (la prima decisione)",
+            "rm": "Ina decisiun (emprima decisiun)",
+            "en": "A ruling (first decision)"
           }
         },
         {
           "value": "objection-decided",
           "label": {
-            "de": "Einen Einspracheentscheid (ich habe schon Einsprache erhoben)"
+            "de": "Einen Einspracheentscheid (ich habe schon Einsprache erhoben)",
+            "fr": "Une décision sur opposition (j’ai déjà formé opposition)",
+            "it": "Una decisione su opposizione (ho già fatto opposizione)",
+            "rm": "Ina decisiun sin opposiziun (jau hai gia fatg opposiziun)",
+            "en": "An objection decision (I have already filed an objection)"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -215,7 +375,11 @@
         ]
       },
       "text": {
-        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Sie können sich online über die offizielle Plattform der Arbeitslosenversicherung oder direkt bei der zuständigen Stelle Ihrer Wohngemeinde anmelden. Halten Sie Ihre AHV-Nummer bereit. Das Datum der Anmeldung wird Ihnen schriftlich bestätigt. Sie können sich schon während der Kündigungsfrist anmelden."
+        "de": "Melden Sie sich möglichst frühzeitig persönlich beim Regionalen Arbeitsvermittlungszentrum (RAV) an, spätestens am ersten Tag, für den Sie Arbeitslosenentschädigung beanspruchen. Sie können sich online über die offizielle Plattform der Arbeitslosenversicherung oder direkt bei der zuständigen Stelle Ihrer Wohngemeinde anmelden. Halten Sie Ihre AHV-Nummer bereit. Das Datum der Anmeldung wird Ihnen schriftlich bestätigt. Sie können sich schon während der Kündigungsfrist anmelden.",
+        "fr": "Inscrivez-vous en personne le plus tôt possible auprès de l’office régional de placement (ORP), au plus tard le premier jour pour lequel vous demandez une indemnité de chômage. Vous pouvez vous inscrire en ligne sur la plateforme officielle de l’assurance-chômage ou directement auprès du service compétent de votre commune de domicile. Tenez votre numéro AVS à disposition. La date de l’inscription vous est confirmée par écrit. Vous pouvez vous inscrire déjà pendant le délai de congé.",
+        "it": "Si annunci personalmente il più presto possibile all'ufficio regionale di collocamento (URC), al più tardi il primo giorno per cui pretende l'indennità di disoccupazione. Può annunciarsi online tramite la piattaforma ufficiale dell'assicurazione contro la disoccupazione, oppure direttamente presso il servizio competente del suo Comune di domicilio. Tenga pronto il suo numero AVS. La data dell'annuncio le viene confermata per scritto. Può annunciarsi già durante il termine di disdetta.",
+        "rm": "Annunziai Vus persunalmain uschè baud sco pussibel tar l'Uffizi regiunal da collocament (RAV), al pli tard il emprim di, per il qual Vus pretendais indemnisaziun da disoccupaziun. Vus pudais Vus annunziar online via la plattaforma uffiziala da l'assicuranza da disoccupaziun u directamain tar il post cumpetent da Vossa vischnanca da domicil. Tegnei pront Voss numer AVS. La data da l'annunzia Vus vegn confirmada per scrit. Vus pudais Vus annunziar gia durant il termin da disditga.",
+        "en": "Register in person with the regional employment centre (RAV) as early as possible, at the latest on the first day for which you claim unemployment benefit. You can register online through the official platform of the unemployment insurance, or directly with the responsible office in your home commune. Have your OASI number ready. The date of your registration will be confirmed to you in writing. You can already register during your notice period."
       },
       "sources": [
         "avig-17",
@@ -232,7 +396,11 @@
         ]
       },
       "text": {
-        "de": "Als arbeitslos gelten Sie für die Versicherung erst ab dem Tag, an dem Sie sich zur Arbeitsvermittlung angemeldet haben. Für Tage davor erhalten Sie in der Regel kein Geld, auch wenn Sie schon ohne Stelle waren. Warten Sie deshalb nicht."
+        "de": "Als arbeitslos gelten Sie für die Versicherung erst ab dem Tag, an dem Sie sich zur Arbeitsvermittlung angemeldet haben. Für Tage davor erhalten Sie in der Regel kein Geld, auch wenn Sie schon ohne Stelle waren. Warten Sie deshalb nicht.",
+        "fr": "Pour l’assurance, vous n’êtes considéré comme au chômage qu’à partir du jour où vous vous êtes inscrit au service de placement. Pour les jours précédents, vous ne recevez en règle générale pas d’argent, même si vous étiez déjà sans emploi. N’attendez donc pas.",
+        "it": "Per l'assicurazione lei è considerato disoccupato solo a partire dal giorno in cui si è annunciato per il collocamento. Per i giorni precedenti di regola non riceve denaro, anche se era già senza impiego. Non aspetti quindi.",
+        "rm": "Sco senza lavur valais Vus per l'assicuranza mo dapi il di, en il qual Vus Vus avais annunzià per il collocament da lavur. Per ils dis avant na survegnis Vus per regla nagin daner, era sche Vus eras gia senza plazza. Spetgai percunquai betg.",
+        "en": "For the insurance, you only count as unemployed from the day on which you registered for job placement. For days before that, you generally receive no money, even if you were already without a job. So do not wait."
       },
       "sources": [
         "avig-10",
@@ -243,7 +411,11 @@
       "id": "conditions",
       "kind": "rule",
       "text": {
-        "de": "Arbeitslosenentschädigung erhalten Sie unter anderem nur, wenn Sie ganz oder teilweise arbeitslos sind, in der Schweiz wohnen, das Rentenalter noch nicht erreicht haben, die Beitragszeit erfüllt haben, eine zumutbare Stelle annehmen könnten und wollen (vermittlungsfähig) und die Kontrollvorschriften einhalten. Die Beitragszeit erfüllen Sie in der Regel, wenn Sie in den zwei Jahren vor Beginn des Anspruchs während mindestens zwölf Monaten eine Stelle hatten, auf deren Lohn Beiträge bezahlt wurden. Das Geld fliesst erst nach einigen Wartetagen, meist fünf, bei höherem Verdienst und ohne Kinder mehr."
+        "de": "Arbeitslosenentschädigung erhalten Sie unter anderem nur, wenn Sie ganz oder teilweise arbeitslos sind, in der Schweiz wohnen, das Rentenalter noch nicht erreicht haben, die Beitragszeit erfüllt haben, eine zumutbare Stelle annehmen könnten und wollen (vermittlungsfähig) und die Kontrollvorschriften einhalten. Die Beitragszeit erfüllen Sie in der Regel, wenn Sie in den zwei Jahren vor Beginn des Anspruchs während mindestens zwölf Monaten eine Stelle hatten, auf deren Lohn Beiträge bezahlt wurden. Das Geld fliesst erst nach einigen Wartetagen, meist fünf, bei höherem Verdienst und ohne Kinder mehr.",
+        "fr": "Vous n’avez droit à l’indemnité de chômage, entre autres, que si vous êtes sans emploi totalement ou partiellement, si vous habitez en Suisse, si vous n’avez pas encore atteint l’âge de référence, si vous avez accompli la période de cotisation, si vous pourriez et voudriez accepter un emploi convenable (apte au placement) et si vous respectez les prescriptions de contrôle. Vous accomplissez en règle générale la période de cotisation si, au cours des deux années précédant le début du droit, vous avez exercé un emploi pendant douze mois au moins, sur le salaire duquel des cotisations ont été payées. L’argent n’est versé qu’après quelques jours d’attente, en général cinq, davantage en cas de revenu plus élevé et sans enfants.",
+        "it": "Riceve l'indennità di disoccupazione, tra l'altro, solo se è disoccupato in tutto o in parte, risiede in Svizzera, non ha ancora raggiunto l'età di riferimento, ha adempiuto il periodo di contribuzione, può e vuole accettare un impiego adeguato (idoneità al collocamento) e rispetta le prescrizioni di controllo. Di regola adempie il periodo di contribuzione se, nei due anni precedenti l'inizio del diritto, ha avuto per almeno dodici mesi un impiego sul cui salario sono stati pagati contributi. Il denaro viene versato solo dopo alcuni giorni di attesa, di norma cinque, di più con un guadagno più alto e senza figli.",
+        "rm": "Indemnisaziun da disoccupaziun survegnis Vus tranter auter mo, sche Vus essas entiramain u parzialmain senza lavur, abitais en Svizra, n'avais anc betg cuntanschì la vegliadetgna da renta, avais ademplì il temp da contribuziun, pudessas e vulessas acceptar ina plazza raschunaivla (abils per il collocament) e suandais las prescripziuns da controlla. Il temp da contribuziun ademplis Vus per regla, sche Vus avevas en ils dus onns avant l'entschatta dal dretg durant almain dudesch mais ina plazza, sin il salari da la quala contribuziuns vegnivan pajadas. Il daner vegn pajà mo suenter intgins dis d'spetga, il pli savens tschintg, tar in gudogn pli aut e senza uffants dapli.",
+        "en": "You receive unemployment benefit only if, among other things, you are wholly or partly unemployed, live in Switzerland, have not yet reached the reference age, have completed the contribution period, are able and willing to take on reasonable work (capable of placement), and comply with the monitoring requirements. You generally complete the contribution period if, in the two years before your claim begins, you held a job for at least twelve months on whose salary contributions were paid. The money is paid out only after a number of waiting days, usually five, more if your earnings are higher and you have no children."
       },
       "sources": [
         "avig-8",
@@ -263,7 +435,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie in den letzten zwei Jahren weniger als zwölf Monate Beiträge bezahlt, besteht in der Regel kein Anspruch. Mitgezählt werden aber zum Beispiel Militär-, Zivil- und Schutzdienst sowie Zeiten, in denen Sie zwar angestellt waren, wegen Krankheit oder Unfall aber keinen Lohn erhielten. Von der Beitragszeit befreit sein kann, wer sie wegen einer Ausbildung, wegen Krankheit, Unfall oder Mutterschaft nicht erfüllen konnte oder wer wegen einer Trennung oder Scheidung eine Stelle suchen muss. Melden Sie sich trotzdem an und lassen Sie Ihren Anspruch von der Arbeitslosenkasse prüfen."
+        "de": "Haben Sie in den letzten zwei Jahren weniger als zwölf Monate Beiträge bezahlt, besteht in der Regel kein Anspruch. Mitgezählt werden aber zum Beispiel Militär-, Zivil- und Schutzdienst sowie Zeiten, in denen Sie zwar angestellt waren, wegen Krankheit oder Unfall aber keinen Lohn erhielten. Von der Beitragszeit befreit sein kann, wer sie wegen einer Ausbildung, wegen Krankheit, Unfall oder Mutterschaft nicht erfüllen konnte oder wer wegen einer Trennung oder Scheidung eine Stelle suchen muss. Melden Sie sich trotzdem an und lassen Sie Ihren Anspruch von der Arbeitslosenkasse prüfen.",
+        "fr": "Si vous avez payé des cotisations pendant moins de douze mois au cours des deux dernières années, vous n’avez en règle générale aucun droit. Sont toutefois comptés, par exemple, le service militaire, le service civil et la protection civile, ainsi que les périodes où vous étiez employé mais ne receviez pas de salaire en raison d’une maladie ou d’un accident. Peut être libéré de la période de cotisation quiconque n’a pas pu l’accomplir en raison d’une formation, d’une maladie, d’un accident ou d’une maternité, ou qui doit chercher un emploi en raison d’une séparation ou d’un divorce. Inscrivez-vous tout de même et faites examiner votre droit par la caisse de chômage.",
+        "it": "Se negli ultimi due anni ha pagato contributi per meno di dodici mesi, di regola non ha diritto all'indennità. Vengono tuttavia computati, per esempio, il servizio militare, civile e di protezione civile, nonché i periodi in cui era sì impiegato ma non ha ricevuto salario per malattia o infortunio. Può essere esonerato dal periodo di contribuzione chi non ha potuto adempierlo a causa di una formazione, di una malattia, di un infortunio o di una maternità, oppure chi deve cercare un impiego a causa di una separazione o di un divorzio. Si annunci comunque e faccia verificare il suo diritto dalla cassa di disoccupazione.",
+        "rm": "Avais Vus en ils davos dus onns pajà damain che dudesch mais contribuziuns, n'exista per regla nagin dretg. Contadas vegnan dentant per exempel il servetsch militar, civil e da protecziun sco er temps, en ils quals Vus eras bain occupads, ma na survegnivas nagin salari pervia da malsogna u accident. Liberà dal temp da contribuziun po esser, tgi che n'ha betg pudì ademplir el pervia d'ina scolaziun, malsogna, accident u maternitad, u tgi che sto tschertgar ina plazza pervia d'ina separaziun u divorzi. Annunziai Vus tuttina e laschai examinar Voss dretg da la cassa da disoccupaziun.",
+        "en": "If you have paid contributions for less than twelve months in the last two years, you generally have no entitlement. However, periods such as military, civilian or civil protection service are also counted, as are periods when you were employed but received no salary because of illness or an accident. You may be exempt from the contribution period if you could not complete it because of education or training, illness, an accident or maternity, or if you have to look for work because of a separation or divorce. Register anyway and have your entitlement checked by the unemployment insurance fund."
       },
       "sources": [
         "avig-13",
@@ -274,7 +450,11 @@
       "id": "claim-with-fund",
       "kind": "rule",
       "text": {
-        "de": "Neben der Anmeldung beim RAV müssen Sie Ihren Anspruch bei einer Arbeitslosenkasse geltend machen. Sie wählen die Kasse selbst, dürfen sie danach aber während der zweijährigen Bezugsperiode grundsätzlich nicht mehr wechseln. Die Kasse braucht eine Arbeitsbescheinigung Ihres letzten Arbeitgebers; dieser muss sie Ihnen ausstellen. Reichen Sie die Unterlagen für jeden Monat rasch ein: Der Anspruch für einen Monat erlischt, wenn Sie ihn nicht innert drei Monaten nach dessen Ende geltend machen."
+        "de": "Neben der Anmeldung beim RAV müssen Sie Ihren Anspruch bei einer Arbeitslosenkasse geltend machen. Sie wählen die Kasse selbst, dürfen sie danach aber während der zweijährigen Bezugsperiode grundsätzlich nicht mehr wechseln. Die Kasse braucht eine Arbeitsbescheinigung Ihres letzten Arbeitgebers; dieser muss sie Ihnen ausstellen. Reichen Sie die Unterlagen für jeden Monat rasch ein: Der Anspruch für einen Monat erlischt, wenn Sie ihn nicht innert drei Monaten nach dessen Ende geltend machen.",
+        "fr": "Outre l’inscription à l’ORP, vous devez faire valoir votre droit auprès d’une caisse de chômage. Vous choisissez vous-même la caisse, mais vous ne pouvez plus en changer en principe pendant le délai-cadre d’indemnisation de deux ans. La caisse a besoin d’une attestation de travail de votre dernier employeur ; celui-ci doit vous la délivrer. Déposez rapidement les documents pour chaque mois : le droit pour un mois s’éteint si vous ne le faites pas valoir dans les trois mois suivant la fin de ce mois.",
+        "it": "Oltre all'annuncio all'URC, deve far valere il suo diritto presso una cassa di disoccupazione. Sceglie lei stesso la cassa, ma in seguito, durante il periodo biennale di riscossione, di principio non può più cambiarla. La cassa ha bisogno di un attestato di lavoro del suo ultimo datore di lavoro; questi deve rilasciarglielo. Presenti rapidamente i documenti per ogni mese: il diritto per un mese si estingue se non lo fa valere entro tre mesi dalla fine dello stesso.",
+        "rm": "Ultra da l'annunzia tar il RAV stuais Vus far valair Voss dretg tar ina cassa da disoccupaziun. Vus tschernis la cassa sez, na dastgais dentant, suenter, durant la perioda da referenza da dus onns, per principi pli betg midar. La cassa dovra in'attestaziun da lavur da Voss davos patrun; quel sto deliverar Vus ella. Inoltrai ils documents per mintga mais svelt: Il dretg per in mais scada, sch'Vus na al fetschais betg valair entaifer trais mais suenter sia fin.",
+        "en": "In addition to registering with the RAV, you must claim your entitlement with an unemployment insurance fund. You choose the fund yourself, but as a rule you may not change it afterwards during the two-year benefit period. The fund needs a certificate of employment from your last employer; the employer must issue this to you. Submit the documents for each month promptly: your entitlement for a month lapses if you do not claim it within three months of the end of that month."
       },
       "sources": [
         "avig-20",
@@ -292,7 +472,11 @@
         ]
       },
       "text": {
-        "de": "Sie müssen alles Zumutbare tun, um Arbeitslosigkeit zu vermeiden oder zu verkürzen. Deshalb müssen Sie sich schon ab der Kündigung und während der ganzen Kündigungsfrist von sich aus intensiv um eine neue Stelle bemühen, nicht erst ab der Anmeldung beim RAV. Dass Sie das nicht gewusst haben, entschuldigt Sie nicht. Bei der Anmeldung müssen Sie die Belege für Ihre Bewerbungen aus dieser Zeit vorlegen. Fehlen sie, drohen Einstelltage."
+        "de": "Sie müssen alles Zumutbare tun, um Arbeitslosigkeit zu vermeiden oder zu verkürzen. Deshalb müssen Sie sich schon ab der Kündigung und während der ganzen Kündigungsfrist von sich aus intensiv um eine neue Stelle bemühen, nicht erst ab der Anmeldung beim RAV. Dass Sie das nicht gewusst haben, entschuldigt Sie nicht. Bei der Anmeldung müssen Sie die Belege für Ihre Bewerbungen aus dieser Zeit vorlegen. Fehlen sie, drohen Einstelltage.",
+        "fr": "Vous devez entreprendre tout ce qui peut raisonnablement être exigé de vous pour éviter le chômage ou en réduire la durée. Vous devez donc chercher activement et intensivement un nouvel emploi de vous-même dès le licenciement et pendant tout le délai de congé, et non seulement à partir de l’inscription à l’ORP. Le fait que vous ne le saviez pas ne vous excuse pas. Lors de l’inscription, vous devez présenter les preuves de vos candidatures pour cette période. Si elles manquent, des jours de suspension menacent.",
+        "it": "Deve fare tutto ciò che si può ragionevolmente pretendere per evitare o abbreviare la disoccupazione. Deve quindi impegnarsi intensamente e di propria iniziativa per trovare un nuovo impiego già a partire dalla disdetta e per tutto il termine di disdetta, non solo dall'annuncio all'URC. Il fatto di non averlo saputo non la scusa. Al momento dell'annuncio deve presentare le prove delle sue candidature di questo periodo. Se mancano, rischia giorni di sospensione.",
+        "rm": "Vus stuais far tut il raschunaivel per evitar u accurtar la disoccupaziun. Percunquai stuais Vus, gia dapi la disditga e durant tut il termin da disditga, sforzar Vus da Voss agen intent intensivamain per ina nova plazza, betg mo dapi l'annunzia tar il RAV. Ch'Vus n'hajas betg savì quai na Vus scusa betg. A l'annunzia stuais Vus preschentar las cumprovas da Vossas annunzias da questa perioda. Mancan ellas, smanatschan dis da suspensiun.",
+        "en": "You must do everything that can reasonably be expected of you to avoid or shorten unemployment. This means you must make intensive efforts of your own accord to find a new job already from the moment notice is given and throughout the whole notice period, not only from when you register with the RAV. Not having known this does not excuse you. When you register, you must provide the evidence of your job applications from this period. If it is missing, you risk suspension days."
       },
       "sources": [
         "avig-17",
@@ -304,7 +488,11 @@
       "id": "job-search-proof",
       "kind": "step",
       "text": {
-        "de": "Bewerben Sie sich gezielt, in der Regel mit einer richtigen Bewerbung, nötigenfalls auch ausserhalb Ihres bisherigen Berufs. Es zählt nicht nur die Qualität, sondern auch die Anzahl: In der Praxis gelten durchschnittlich zehn bis zwölf Bewerbungen pro Monat in der Regel als genügend, massgebend sind aber Ihre Umstände und die Vorgaben Ihres RAV. Bewahren Sie Inserate, Bewerbungen und Antworten auf. Reichen Sie den Nachweis für jeden Monat spätestens am fünften Tag des Folgemonats ein (fällt dieser Tag nicht auf einen Werktag, am nächsten Werktag). Später eingereichte Bemühungen werden ohne entschuldbaren Grund nicht mehr berücksichtigt."
+        "de": "Bewerben Sie sich gezielt, in der Regel mit einer richtigen Bewerbung, nötigenfalls auch ausserhalb Ihres bisherigen Berufs. Es zählt nicht nur die Qualität, sondern auch die Anzahl: In der Praxis gelten durchschnittlich zehn bis zwölf Bewerbungen pro Monat in der Regel als genügend, massgebend sind aber Ihre Umstände und die Vorgaben Ihres RAV. Bewahren Sie Inserate, Bewerbungen und Antworten auf. Reichen Sie den Nachweis für jeden Monat spätestens am fünften Tag des Folgemonats ein (fällt dieser Tag nicht auf einen Werktag, am nächsten Werktag). Später eingereichte Bemühungen werden ohne entschuldbaren Grund nicht mehr berücksichtigt.",
+        "fr": "Postulez de manière ciblée, en règle générale avec une véritable candidature, au besoin aussi en dehors de votre profession habituelle. Ce n’est pas seulement la qualité qui compte, mais aussi le nombre : dans la pratique, dix à douze candidatures par mois en moyenne sont en général considérées comme suffisantes, mais ce sont votre situation et les exigences de votre ORP qui font foi. Conservez les annonces, vos candidatures et les réponses. Déposez la preuve de vos recherches pour chaque mois au plus tard le cinquième jour du mois suivant (si ce jour ne tombe pas sur un jour ouvrable, le jour ouvrable suivant). Des recherches déposées plus tard ne sont, sans motif excusable, plus prises en compte.",
+        "it": "Si candidi in modo mirato, di regola con una candidatura vera e propria, se necessario anche al di fuori della sua professione precedente. Non conta solo la qualità, ma anche il numero: nella prassi, in media da dieci a dodici candidature al mese sono di regola considerate sufficienti, ma determinanti sono le sue circostanze e le direttive del suo URC. Conservi annunci, candidature e risposte. Presenti la prova per ogni mese al più tardi il quinto giorno del mese successivo (se questo giorno non cade in un giorno lavorativo, il giorno lavorativo seguente). Le ricerche presentate più tardi, senza motivo scusabile, non vengono più prese in considerazione.",
+        "rm": "Annunziai Vus a moda mirada, per regla cun ina annunzia vaira, sche necessari era ordaifer Voss anteriur mansteri. Na conta betg mo la qualitad, mabain era il dumber: en la pratica valan en media diesch fin dudesch annunzias per mais per regla sco suffizientas, decisivas èn dentant Vossas circumstanzas e las directivas da Voss RAV. Conservai inserats, annunzias e rispostas. Inoltrai la cumprova per mintga mais al pli tard il tschintgavel di dal mais suandant (sche quest di na croda betg sin in di da lavur, il proxim di da lavur). Sforzs inoltrads pli tard na vegnan pli resguardads senza motiv da scusa.",
+        "en": "Apply in a targeted way, as a rule with a proper application, and if necessary also outside your previous occupation. Not only quality counts, but also quantity: in practice, an average of ten to twelve applications a month is generally regarded as sufficient, but what matters is your own circumstances and the requirements of your RAV. Keep job advertisements, applications and replies. Submit the evidence for each month at the latest on the fifth day of the following month (if that day is not a working day, on the next working day). Efforts submitted later are no longer taken into account unless you have an excusable reason."
       },
       "sources": [
         "avig-17",
@@ -322,7 +510,11 @@
         ]
       },
       "text": {
-        "de": "Das RAV führt mit Ihnen mindestens alle zwei Monate ein Beratungs- und Kontrollgespräch. Sie müssen an diesen Gesprächen teilnehmen, den Weisungen des RAV folgen und innerhalb eines Arbeitstages erreichbar sein. Können Sie einen Termin wegen eines zwingenden Ereignisses, etwa eines Vorstellungsgesprächs, nicht wahrnehmen, bitten Sie vorher um eine Verschiebung und legen Sie einen Nachweis bei. Wer einen Termin ohne entschuldbaren Grund verpasst, wird in der Regel eingestellt."
+        "de": "Das RAV führt mit Ihnen mindestens alle zwei Monate ein Beratungs- und Kontrollgespräch. Sie müssen an diesen Gesprächen teilnehmen, den Weisungen des RAV folgen und innerhalb eines Arbeitstages erreichbar sein. Können Sie einen Termin wegen eines zwingenden Ereignisses, etwa eines Vorstellungsgesprächs, nicht wahrnehmen, bitten Sie vorher um eine Verschiebung und legen Sie einen Nachweis bei. Wer einen Termin ohne entschuldbaren Grund verpasst, wird in der Regel eingestellt.",
+        "fr": "L’ORP mène avec vous un entretien de conseil et de contrôle au moins tous les deux mois. Vous devez participer à ces entretiens, suivre les instructions de l’ORP et être joignable dans un délai d’un jour ouvrable. Si un événement contraignant, par exemple un entretien d’embauche, vous empêche de vous rendre à un rendez-vous, demandez au préalable un report et joignez une pièce justificative. Quiconque manque un rendez-vous sans motif excusable est en règle générale frappé d’une suspension.",
+        "it": "L'URC conduce con lei almeno ogni due mesi un colloquio di consulenza e controllo. Deve partecipare a questi colloqui, seguire le istruzioni dell'URC ed essere raggiungibile entro un giorno lavorativo. Se non può presentarsi a un appuntamento per un evento impellente, per esempio un colloquio di lavoro, chieda prima un rinvio e alleghi una prova. Chi manca un appuntamento senza motivo scusabile viene di regola sospeso.",
+        "rm": "Il RAV maina cun Vus almain mintga dus mais in discurs da cussegliaziun e da controlla. Vus stuais participar a quests discurs, suandar las directivas dal RAV ed esser cuntanschibels entaifer in di da lavur. Sche Vus na pudais betg tegnair in termin pervia d'in eveniment fermant, per exempel in colloqui d'annunzia, damondai ordavant in spustament e agiuntai ina cumprova. Tgi che mancla in termin senza motiv da scusa, vegn per regla suspendì.",
+        "en": "The RAV holds a counselling and monitoring interview with you at least every two months. You must attend these interviews, follow the RAV's instructions, and be reachable within one working day. If you cannot attend an appointment because of a compelling event, for example a job interview, ask beforehand for it to be postponed and provide evidence. Anyone who misses an appointment without an excusable reason will as a rule receive suspension days."
       },
       "sources": [
         "avig-17",
@@ -341,7 +533,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie ein Beratungs- und Kontrollgespräch beim RAV unentschuldigt verpasst, ist das nach der Rechtsprechung ausnahmsweise kein Grund für Einstelltage, wenn Sie in den zwölf Monaten vor dem verpassten Gespräch alle Ihre Pflichten als arbeitslose Person korrekt erfüllt und sich danach von sich aus entschuldigt haben. Die Ausnahme entfällt, wenn Sie sich in diesen zwölf Monaten schon einmal so verhalten haben, dass dies selbst Einstelltage hätte rechtfertigen können, auch wenn es damals keine Sanktion gab. Entschuldigen Sie sich deshalb sofort schriftlich beim RAV."
+        "de": "Haben Sie ein Beratungs- und Kontrollgespräch beim RAV unentschuldigt verpasst, ist das nach der Rechtsprechung ausnahmsweise kein Grund für Einstelltage, wenn Sie in den zwölf Monaten vor dem verpassten Gespräch alle Ihre Pflichten als arbeitslose Person korrekt erfüllt und sich danach von sich aus entschuldigt haben. Die Ausnahme entfällt, wenn Sie sich in diesen zwölf Monaten schon einmal so verhalten haben, dass dies selbst Einstelltage hätte rechtfertigen können, auch wenn es damals keine Sanktion gab. Entschuldigen Sie sich deshalb sofort schriftlich beim RAV.",
+        "fr": "Si vous avez manqué sans excuse un entretien de conseil et de contrôle à l’ORP, cela n’est, selon la jurisprudence, exceptionnellement pas un motif de jours de suspension si vous avez correctement rempli toutes vos obligations de personne au chômage durant les douze mois précédant l’entretien manqué et que vous vous êtes excusé de vous-même par la suite. L’exception ne s’applique plus si vous vous êtes déjà comporté, au cours de ces douze mois, d’une manière qui aurait elle-même pu justifier des jours de suspension, même si cela n’a alors donné lieu à aucune sanction. Excusez-vous donc immédiatement par écrit auprès de l’ORP.",
+        "it": "Se ha mancato senza scusa un colloquio di consulenza e controllo all'URC, secondo la giurisprudenza ciò non costituisce eccezionalmente un motivo di giorni di sospensione se, nei dodici mesi precedenti il colloquio mancato, ha adempiuto correttamente tutti i suoi obblighi di persona disoccupata e si è scusato in seguito di propria iniziativa. L'eccezione decade se in questi dodici mesi si è già comportato in un modo che avrebbe potuto giustificare esso stesso giorni di sospensione, anche se allora non vi fu alcuna sanzione. Si scusi quindi subito per scritto presso l'URC.",
+        "rm": "Avais Vus manglà senza scusa in discurs da cussegliaziun e da controlla tar il RAV, n'è quai tenor la giurisprudenza excepziunalmain nagin motiv per dis da suspensiun, sche Vus avevas en ils dudesch mais avant il discurs manglà ademplì correctamain tut Vossas obligaziuns sco persuna senza lavur e Vus avevas, suenter, excusà Vus da Voss agen intent. L'excepziun na vala betg pli, sche Vus Vus avevas gia ina giada, en quests dudesch mais, cumportà uschia ch'quai avess pudì giustifitgar dad etschasez dis da suspensiun, era sche na dava lura naginas sancziuns. Excusai Vus percunquai immediat per scrit tar il RAV.",
+        "en": "If you missed a counselling and monitoring interview at the RAV without excuse, case law treats this as an exception that is not, in itself, a ground for suspension days, provided that in the twelve months before the missed interview you correctly fulfilled all your duties as an unemployed person and afterwards excused yourself of your own accord. This exception does not apply if, within those twelve months, you have already behaved in a way that could itself have justified suspension days, even if no sanction was imposed at the time. So excuse yourself to the RAV immediately, in writing."
       },
       "sources": [
         "bger-8c-202-2025-3",
@@ -353,7 +549,11 @@
       "id": "suspension-grounds",
       "kind": "rule",
       "text": {
-        "de": "Einstelltage (Einstellung in der Anspruchsberechtigung) sind Tage, für die Sie trotz Arbeitslosigkeit kein Taggeld erhalten. Die häufigsten Gründe sind: Sie sind durch eigenes Verschulden arbeitslos geworden, Sie haben sich nicht genügend um zumutbare Arbeit bemüht, Sie haben Kontrollvorschriften oder Weisungen nicht befolgt (zum Beispiel einen Termin verpasst oder eine zumutbare Stelle abgelehnt), oder Sie haben falsche oder unvollständige Angaben gemacht. Die Einstelltage werden von der Höchstzahl Ihrer Taggelder abgezogen. Je nach Grund entscheidet das RAV beziehungsweise das kantonale Amt oder die Arbeitslosenkasse."
+        "de": "Einstelltage (Einstellung in der Anspruchsberechtigung) sind Tage, für die Sie trotz Arbeitslosigkeit kein Taggeld erhalten. Die häufigsten Gründe sind: Sie sind durch eigenes Verschulden arbeitslos geworden, Sie haben sich nicht genügend um zumutbare Arbeit bemüht, Sie haben Kontrollvorschriften oder Weisungen nicht befolgt (zum Beispiel einen Termin verpasst oder eine zumutbare Stelle abgelehnt), oder Sie haben falsche oder unvollständige Angaben gemacht. Die Einstelltage werden von der Höchstzahl Ihrer Taggelder abgezogen. Je nach Grund entscheidet das RAV beziehungsweise das kantonale Amt oder die Arbeitslosenkasse.",
+        "fr": "Les jours de suspension (suspension du droit à l’indemnité) sont des jours pour lesquels vous ne touchez pas d’indemnité journalière malgré le chômage. Les motifs les plus fréquents sont : vous êtes devenu chômeur par votre propre faute, vous ne vous êtes pas suffisamment efforcé de trouver un travail convenable, vous n’avez pas respecté les prescriptions de contrôle ou les instructions (par exemple manqué un rendez-vous ou refusé un emploi convenable), ou vous avez fourni des indications fausses ou incomplètes. Les jours de suspension sont déduits du nombre maximum de vos indemnités journalières. Selon le motif, c’est l’ORP, respectivement l’autorité cantonale, ou la caisse de chômage qui décide.",
+        "it": "I giorni di sospensione (sospensione del diritto all'indennità) sono giorni per cui, nonostante la disoccupazione, non riceve indennità giornaliera. I motivi più frequenti sono: è diventato disoccupato per colpa propria, non si è impegnato a sufficienza per trovare un lavoro adeguato, non ha rispettato le prescrizioni di controllo o le istruzioni (per esempio ha mancato un appuntamento o rifiutato un impiego adeguato), oppure ha fornito indicazioni false o incomplete. I giorni di sospensione vengono dedotti dal numero massimo delle sue indennità giornaliere. A seconda del motivo, decide l'URC, rispettivamente l'ufficio cantonale o la cassa di disoccupazione.",
+        "rm": "Dis da suspensiun (suspensiun dal dretg a l'indemnisaziun) èn dis, per ils quals Vus na survegnis, malgrà la disoccupaziun, nagina diaria. Ils motivs ils pli frequents èn: Vus essas daventads senza lavur tras atgna culpa, Vus na Vus essas betg sforzads suffizientamain per lavur raschunaivla, Vus n'avais betg suandà prescripziuns da controlla u directivas (per exempel manglà in termin u refusà ina plazza raschunaivla), u Vus avais dà indicaziuns faussas u incumpletas. Ils dis da suspensiun vegnan deducids dal dumber maximal da Vossas diarias. Tenor il motiv decida il RAV, resp. l'uffizi chantunal u la cassa da disoccupaziun.",
+        "en": "Suspension days (suspension of entitlement to benefit) are days for which you receive no daily allowance despite being unemployed. The most common grounds are: you became unemployed through your own fault, you did not make sufficient efforts to find reasonable work, you did not comply with monitoring requirements or instructions (for example, you missed an appointment or turned down a reasonable job), or you gave false or incomplete information. The suspension days are deducted from the maximum number of daily allowances to which you are entitled. Depending on the ground, the decision is made by the RAV, the cantonal office, or the unemployment insurance fund."
       },
       "sources": [
         "avig-30"
@@ -363,7 +563,11 @@
       "id": "suspension-length",
       "kind": "rule",
       "text": {
-        "de": "Wie viele Einstelltage es gibt, hängt davon ab, wie schwer Ihr Verschulden wiegt: 1 bis 15 Tage bei leichtem, 16 bis 30 Tage bei mittelschwerem und 31 bis 60 Tage bei schwerem Verschulden. Pro Grund sind es höchstens 60 Tage. Die Einstelltage werden von der Höchstzahl der Taggelder abgezogen, auf die Sie Anspruch haben. Als schwer gilt es in der Regel, wenn Sie ohne entschuldbaren Grund eine zumutbare Stelle aufgeben, ohne eine neue zugesichert zu haben, oder eine zumutbare Arbeit ablehnen. Werden Sie wiederholt eingestellt, wird die Dauer verlängert; dabei zählen die Einstellungen der letzten zwei Jahre. Die Einstelltage laufen ab dem Tag nach dem Ende der Stelle oder nach dem Fehlverhalten. Werden sie nicht innert sechs Monaten vollzogen, fallen sie weg."
+        "de": "Wie viele Einstelltage es gibt, hängt davon ab, wie schwer Ihr Verschulden wiegt: 1 bis 15 Tage bei leichtem, 16 bis 30 Tage bei mittelschwerem und 31 bis 60 Tage bei schwerem Verschulden. Pro Grund sind es höchstens 60 Tage. Die Einstelltage werden von der Höchstzahl der Taggelder abgezogen, auf die Sie Anspruch haben. Als schwer gilt es in der Regel, wenn Sie ohne entschuldbaren Grund eine zumutbare Stelle aufgeben, ohne eine neue zugesichert zu haben, oder eine zumutbare Arbeit ablehnen. Werden Sie wiederholt eingestellt, wird die Dauer verlängert; dabei zählen die Einstellungen der letzten zwei Jahre. Die Einstelltage laufen ab dem Tag nach dem Ende der Stelle oder nach dem Fehlverhalten. Werden sie nicht innert sechs Monaten vollzogen, fallen sie weg.",
+        "fr": "Le nombre de jours de suspension dépend de la gravité de votre faute : 1 à 15 jours en cas de faute légère, 16 à 30 jours en cas de faute moyenne et 31 à 60 jours en cas de faute grave. Par motif, il y a au maximum 60 jours. Les jours de suspension sont déduits du nombre maximum d’indemnités journalières auquel vous avez droit. Est en règle générale considéré comme grave le fait d’abandonner sans motif excusable un emploi convenable sans qu’un nouveau vous ait été assuré, ou de refuser un travail convenable. En cas de suspensions répétées, la durée est prolongée ; les suspensions des deux dernières années sont alors prises en compte. Les jours de suspension courent à partir du jour suivant la fin de l’emploi ou le comportement fautif. S’ils ne sont pas exécutés dans les six mois, ils sont caducs.",
+        "it": "Il numero dei giorni di sospensione dipende dalla gravità della sua colpa: da 1 a 15 giorni per colpa lieve, da 16 a 30 giorni per colpa media e da 31 a 60 giorni per colpa grave. Per ogni motivo sono al massimo 60 giorni. I giorni di sospensione vengono dedotti dal numero massimo delle indennità giornaliere a cui ha diritto. Di regola è considerata grave la colpa di chi, senza motivo scusabile, lascia un impiego adeguato senza essersene assicurato uno nuovo, oppure rifiuta un lavoro adeguato. Se viene sospeso ripetutamente, la durata viene prolungata; contano le sospensioni degli ultimi due anni. I giorni di sospensione decorrono dal giorno successivo alla fine dell'impiego o al comportamento scorretto. Se non vengono eseguiti entro sei mesi, decadono.",
+        "rm": "Quantas dis da suspensiun ch'i dat, dependa da quant grav che Voss culpa è: 1 fin 15 dis tar culpa leva, 16 fin 30 dis tar culpa mesaunmain grava e 31 fin 60 dis tar culpa grava. Per mintga motiv sun ellas maximalmain 60 dis. Ils dis da suspensiun vegnan deducids dal dumber maximal da las diarias, a las qualas Vus avais dretg. Sco grav vala per regla, sch'Vus bandunais senza motiv da scusa ina plazza raschunaivla, senza avair segirà ina nova, u refusais ina lavur raschunaivla. Vegnis Vus repetidamain suspendids, la durada vegn allungada; qua contan las suspensiuns dals davos dus onns. Ils dis da suspensiun currunt dapi il di suenter la fin da la plazza u suenter il cumportament sbaglià. Sch'ellas na vegnan betg exequidas entaifer sis mais, croden ellas davent.",
+        "en": "How many suspension days you get depends on how serious your fault is: 1 to 15 days for minor fault, 16 to 30 days for medium fault, and 31 to 60 days for serious fault. There are at most 60 days per ground. The suspension days are deducted from the maximum number of daily allowances to which you are entitled. Fault generally counts as serious if, without an excusable reason, you give up a reasonable job without having secured a new one, or you turn down reasonable work. If you are given suspension days repeatedly, the length is increased; suspensions from the last two years are counted for this. The suspension days start running from the day after the job ended or after the misconduct. If they are not served within six months, they lapse."
       },
       "sources": [
         "avig-30",
@@ -381,7 +585,11 @@
         ]
       },
       "text": {
-        "de": "Kündigen Sie selbst, ohne dass Ihnen eine neue Stelle zugesichert ist, gelten Sie als selbst schuld an der Arbeitslosigkeit, ausser es war Ihnen nicht zumutbar, an der Stelle zu bleiben. Dann drohen viele Einstelltage. Das Gleiche kann gelten, wenn Sie einer vorzeitigen Auflösung zustimmen und damit auf die Weiterarbeit bis zum Ende der Kündigungsfrist verzichten, oder wenn Sie zulasten der Versicherung auf Lohn oder eine Entschädigung verzichten. Unterschreiben Sie eine Auflösungsvereinbarung oder kündigen Sie erst, nachdem Sie sich beraten lassen haben. War das Bleiben unzumutbar, etwa aus gesundheitlichen Gründen, sichern Sie Belege wie ein Arztzeugnis."
+        "de": "Kündigen Sie selbst, ohne dass Ihnen eine neue Stelle zugesichert ist, gelten Sie als selbst schuld an der Arbeitslosigkeit, ausser es war Ihnen nicht zumutbar, an der Stelle zu bleiben. Dann drohen viele Einstelltage. Das Gleiche kann gelten, wenn Sie einer vorzeitigen Auflösung zustimmen und damit auf die Weiterarbeit bis zum Ende der Kündigungsfrist verzichten, oder wenn Sie zulasten der Versicherung auf Lohn oder eine Entschädigung verzichten. Unterschreiben Sie eine Auflösungsvereinbarung oder kündigen Sie erst, nachdem Sie sich beraten lassen haben. War das Bleiben unzumutbar, etwa aus gesundheitlichen Gründen, sichern Sie Belege wie ein Arztzeugnis.",
+        "fr": "Si vous résiliez vous-même votre contrat sans qu’un nouvel emploi vous soit assuré, vous êtes considéré comme responsable de votre chômage, sauf s’il ne pouvait raisonnablement être exigé de vous que vous restiez à ce poste. De nombreux jours de suspension menacent alors. Il peut en aller de même si vous acceptez une résiliation anticipée et renoncez ainsi à travailler jusqu’à la fin du délai de congé, ou si vous renoncez, au détriment de l’assurance, à un salaire ou à une indemnité. Signez une convention de résiliation ou ne démissionnez qu’après avoir demandé conseil. Si rester était inexigible, par exemple pour des raisons de santé, sécurisez des preuves comme un certificat médical.",
+        "it": "Se dà lei stesso la disdetta, senza che le sia stato assicurato un nuovo impiego, è considerato responsabile della disoccupazione, a meno che non le fosse ragionevolmente esigibile restare nell'impiego. In tal caso rischia molti giorni di sospensione. Lo stesso può valere se acconsente a una risoluzione anticipata, rinunciando così a continuare a lavorare fino alla fine del termine di disdetta, oppure se rinuncia a salario o a un'indennità a scapito dell'assicurazione. Firmi un accordo di risoluzione o dia la disdetta solo dopo essersi fatto consigliare. Se restare non le era ragionevolmente esigibile, per esempio per motivi di salute, si procuri prove come un certificato medico.",
+        "rm": "Sche Vus dais Vus sez la disditga, senza ch'ina nova plazza è Vus segirada, valais Vus sco culpabels sez a la disoccupaziun, ordaifer ch'i na Vus era betg raschunaivel da restar en la plazza. Lura smanatschan blers dis da suspensiun. Il medem po valair, sche Vus consentis a ina dissoluziun anticipada e Vus renunziais uschia a la vinavant lavur fin la fin dal termin da disditga, u sche Vus renunziais, a donn da l'assicuranza, a salari u ad ina indemnisaziun. Suttascrivai ina cunvegna da dissoluziun u dai la disditga mo suenter Vus avair laschà cusseglier. Era sche il restar era betg raschunaivel, per exempel pervia da motivs da sanadad, segirai cumprovas sco in attest dal medi.",
+        "en": "If you give notice yourself without having a new job secured, you count as yourself at fault for your unemployment, unless it was not reasonable for you to remain in the job. In that case, you risk a large number of suspension days. The same can apply if you agree to an early termination and thereby give up continuing to work until the end of the notice period, or if you waive salary or compensation at the expense of the insurance. Sign a termination agreement, or give notice yourself, only after getting advice. If staying was not reasonable, for example for health reasons, secure evidence such as a medical certificate."
       },
       "sources": [
         "aviv-44",
@@ -406,7 +614,11 @@
         ]
       },
       "text": {
-        "de": "Auch wenn der Arbeitgeber kündigt, kann die Versicherung Sie als selbst schuld ansehen, wenn Sie ihm mit Ihrem Verhalten Anlass zur Kündigung gegeben haben, etwa durch Verletzung Ihrer Pflichten aus dem Arbeitsvertrag. Dafür braucht es keinen Grund für eine fristlose Entlassung. Ihr Fehlverhalten muss aber klar feststehen. Bestreiten Sie die Vorwürfe, genügen die Behauptungen des Arbeitgebers allein nicht, wenn keine weiteren Beweise oder Hinweise sie stützen. Äussern Sie sich deshalb gegenüber der Kasse zu den Vorwürfen und legen Sie Ihre Belege vor."
+        "de": "Auch wenn der Arbeitgeber kündigt, kann die Versicherung Sie als selbst schuld ansehen, wenn Sie ihm mit Ihrem Verhalten Anlass zur Kündigung gegeben haben, etwa durch Verletzung Ihrer Pflichten aus dem Arbeitsvertrag. Dafür braucht es keinen Grund für eine fristlose Entlassung. Ihr Fehlverhalten muss aber klar feststehen. Bestreiten Sie die Vorwürfe, genügen die Behauptungen des Arbeitgebers allein nicht, wenn keine weiteren Beweise oder Hinweise sie stützen. Äussern Sie sich deshalb gegenüber der Kasse zu den Vorwürfen und legen Sie Ihre Belege vor.",
+        "fr": "Même si c’est l’employeur qui résilie le contrat, l’assurance peut vous considérer comme responsable si, par votre comportement, vous lui avez donné un motif de licenciement, par exemple en violant vos obligations découlant du contrat de travail. Il n’est pas nécessaire pour cela qu’il y ait un motif de licenciement immédiat. Mais votre comportement fautif doit être clairement établi. Si vous contestez les reproches, les seules affirmations de l’employeur ne suffisent pas, faute d’autres preuves ou indices qui les appuient. Exprimez-vous donc auprès de la caisse sur les reproches et présentez vos preuves.",
+        "it": "Anche se è il datore di lavoro a dare la disdetta, l'assicurazione può considerarla responsabile se con il suo comportamento gli ha dato motivo di licenziarla, per esempio violando i suoi obblighi contrattuali. Per questo non serve un motivo per un licenziamento immediato. Il suo comportamento scorretto deve però essere chiaramente accertato. Se contesta gli addebiti, le sole affermazioni del datore di lavoro non bastano, se non sono sostenute da ulteriori prove o indizi. Si esprima quindi presso la cassa sugli addebiti e presenti le sue prove.",
+        "rm": "Er sche il patrun dat la disditga, po l'assicuranza tegnair Vus sez culpabels, sche Vus al avais dà motiv a la disditga cun Voss cumportament, per exempel tras violaziun da Vossas obligaziuns dal contract da lavur. Per quai na dovra i nagin motiv per in licenziament immediat. Voss cumportament sbaglià sto dentant esser cler cumprovà. Contestai Vus ils reproschs, na bastan las affirmaziuns dal patrun suletas betg, sche naginas ulteriuras cumprovas u indizis las sustegnan. Exprimai Vus percunquai vers la cassa davart ils reproschs e preschentai Vossas cumprovas.",
+        "en": "Even if the employer gives notice, the insurance can regard you as yourself at fault if your conduct gave the employer reason to dismiss you, for example by breaching your duties under the employment contract. A ground for summary dismissal is not required for this. However, your misconduct must be clearly established. If you dispute the allegations, the employer's assertions alone are not enough unless further evidence or indications support them. So respond to the fund about the allegations and submit your evidence."
       },
       "sources": [
         "avig-30",
@@ -431,7 +643,11 @@
         ]
       },
       "text": {
-        "de": "Gegen eine Verfügung über Einstelltage können Sie innert 30 Tagen Einsprache erheben, grundsätzlich bei der Stelle, die entschieden hat; massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Bei der Arbeitslosenversicherung muss die Einsprache schriftlich sein und Ihre Unterschrift tragen. Sie muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag der Post übergeben."
+        "de": "Gegen eine Verfügung über Einstelltage können Sie innert 30 Tagen Einsprache erheben, grundsätzlich bei der Stelle, die entschieden hat; massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Bei der Arbeitslosenversicherung muss die Einsprache schriftlich sein und Ihre Unterschrift tragen. Sie muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag der Post übergeben.",
+        "fr": "Vous pouvez former opposition contre une décision relative à des jours de suspension dans les 30 jours, en principe auprès du service qui a statué ; l’indication des voies de droit à la fin de la décision fait foi. Le délai commence à courir le jour suivant la notification. Si le dernier jour tombe un samedi, un dimanche ou un jour férié, il se termine le jour ouvrable suivant. Dans l’assurance-chômage, l’opposition doit être écrite et porter votre signature. Elle doit indiquer ce que vous demandez et le motiver brièvement. Elle est déposée à temps si vous la remettez à la poste au plus tard le dernier jour du délai.",
+        "it": "Contro una decisione sui giorni di sospensione può fare opposizione entro 30 giorni, di principio presso il servizio che ha deciso; determinante è l'indicazione dei rimedi giuridici alla fine della decisione. Il termine inizia il giorno dopo la notificazione. Se l'ultimo giorno cade di sabato, domenica o in un giorno festivo, il termine scade il giorno lavorativo seguente. Nell'assicurazione contro la disoccupazione l'opposizione deve essere scritta e portare la sua firma. Deve dire cosa chiede e motivare brevemente perché. È tempestiva se la consegna alla posta al più tardi l'ultimo giorno.",
+        "rm": "Cunter ina decisiun davart dis da suspensiun pudais Vus far opposiziun entaifer 30 dis, per principi tar il post ch'ha decidì; decisiva è l'indicaziun dals meds legals a la fin da la decisiun. La termin cumenza il di suenter la consegna. Croda l'ultim di sin in sonda, dumengia u di da festa, finescha ella il proxim di da lavur. Tar l'assicuranza da disoccupaziun sto l'opposiziun esser per scrit e purtar Vossa suttascripziun. Ella sto dir, tge che Vus pretendais, e curt motivar pertge. Ella è a temp, sche Vus la consegnais al pli tard l'ultim di a la posta.",
+        "en": "You can object to a ruling on suspension days within 30 days, in principle with the body that made the decision; what is decisive is the instructions on legal remedies at the end of the ruling. The time limit begins on the day after service. If the last day falls on a Saturday, Sunday or public holiday, it ends on the next working day. In unemployment insurance, the objection must be in writing and bear your signature. It must say what you are asking for and briefly explain why. It is filed in time if you hand it to the post office at the latest on the last day."
       },
       "sources": [
         "atsg-52",
@@ -457,7 +673,11 @@
         ]
       },
       "text": {
-        "de": "Eine Einsprache per gewöhnlicher E-Mail erfüllt die vorgeschriebene Schriftform nicht, weil die Unterschrift fehlt. Sie wahrt die Einsprachefrist nicht, und Sie haben keinen Anspruch darauf, den Mangel nachträglich in einer zusätzlichen Frist zu beheben. Solange die Einsprachefrist noch läuft, können Sie aber eine unterschriebene Einsprache einreichen. Schicken Sie deshalb einen unterschriebenen Brief, am besten eingeschrieben, und behalten Sie eine Kopie."
+        "de": "Eine Einsprache per gewöhnlicher E-Mail erfüllt die vorgeschriebene Schriftform nicht, weil die Unterschrift fehlt. Sie wahrt die Einsprachefrist nicht, und Sie haben keinen Anspruch darauf, den Mangel nachträglich in einer zusätzlichen Frist zu beheben. Solange die Einsprachefrist noch läuft, können Sie aber eine unterschriebene Einsprache einreichen. Schicken Sie deshalb einen unterschriebenen Brief, am besten eingeschrieben, und behalten Sie eine Kopie.",
+        "fr": "Une opposition par simple courriel ne remplit pas la forme écrite prescrite, car la signature fait défaut. Elle ne sauvegarde pas le délai d’opposition, et vous n’avez pas droit à un délai supplémentaire pour réparer ce vice après coup. Tant que le délai d’opposition court encore, vous pouvez toutefois déposer une opposition signée. Envoyez donc une lettre signée, de préférence recommandée, et conservez-en une copie.",
+        "it": "Un'opposizione per e-mail ordinaria non soddisfa la forma scritta prescritta, perché manca la firma. Non salvaguarda il termine di opposizione, e non ha diritto a sanare in seguito il vizio entro un termine supplementare. Finché il termine di opposizione è ancora aperto, può però presentare un'opposizione firmata. Invii quindi una lettera firmata, meglio se raccomandata, e conservi una copia.",
+        "rm": "In'opposiziun per e-mail ordinaria n'ademplia betg la furma scritta prescritta, perquai che la suttascripziun manca. Ella na salvegua betg la termin d'opposiziun, e Vus n'avais nagin dretg da correger il defect pli tard en in'ulteriura termin. Uschè ditg che la termin d'opposiziun currunta, pudais Vus dentant inoltrar in'opposiziun suttascritta. Tramettai percunquai ina brev suttascritta, il meglier per pievel racumandà, e conservai ina copia.",
+        "en": "An objection sent by ordinary email does not meet the required written form, because the signature is missing. It does not preserve the objection time limit, and you have no right to correct the defect afterwards within an additional time limit. However, as long as the objection time limit is still running, you can still file a signed objection. So send a signed letter, ideally registered, and keep a copy."
       },
       "sources": [
         "atsg-52",
@@ -482,7 +702,11 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Schreiben Sie, welche Verfügung Sie anfechten (Datum), was Sie verlangen, zum Beispiel keine oder weniger Einstelltage, und warum. Legen Sie Belege bei, etwa Kopien Ihrer Bewerbungen, ein Arztzeugnis, Ihre Entschuldigung an das RAV oder Unterlagen, die die Vorwürfe des Arbeitgebers widerlegen. Die 30-tägige Frist steht im Gesetz und kann nicht verlängert werden. Warten Sie deshalb nicht auf fehlende Unterlagen, sondern reichen Sie die Einsprache rechtzeitig ein. Unterschreiben Sie den Brief."
+        "de": "So gehen Sie vor: Schreiben Sie, welche Verfügung Sie anfechten (Datum), was Sie verlangen, zum Beispiel keine oder weniger Einstelltage, und warum. Legen Sie Belege bei, etwa Kopien Ihrer Bewerbungen, ein Arztzeugnis, Ihre Entschuldigung an das RAV oder Unterlagen, die die Vorwürfe des Arbeitgebers widerlegen. Die 30-tägige Frist steht im Gesetz und kann nicht verlängert werden. Warten Sie deshalb nicht auf fehlende Unterlagen, sondern reichen Sie die Einsprache rechtzeitig ein. Unterschreiben Sie den Brief.",
+        "fr": "Voici comment procéder : indiquez par écrit quelle décision vous contestez (date), ce que vous demandez, par exemple pas de jours de suspension ou moins de jours, et pourquoi. Joignez des preuves, par exemple des copies de vos candidatures, un certificat médical, vos excuses adressées à l’ORP ou des documents réfutant les reproches de l’employeur. Le délai de 30 jours est fixé par la loi et ne peut pas être prolongé. N’attendez donc pas des documents manquants, mais déposez l’opposition à temps. Signez la lettre.",
+        "it": "Proceda così: scriva quale decisione impugna (data), cosa chiede, per esempio nessun giorno di sospensione o meno giorni, e perché. Alleghi prove, per esempio copie delle sue candidature, un certificato medico, la sua scusa all'URC o documenti che confutano gli addebiti del datore di lavoro. Il termine di 30 giorni è fissato dalla legge e non può essere prorogato. Non aspetti quindi documenti mancanti, ma presenti l'opposizione in tempo utile. Firmi la lettera.",
+        "rm": "Uschia procedais Vus: scrivai, tge decisiun ch'Vus contestais (data), tge che Vus pretendais, per exempel naginas u damain dis da suspensiun, e pertge. Agiuntai cumprovas, per exempel copias da Vossas annunzias, in attest dal medi, Vossa excusa al RAV u documents che refutan ils reproschs dal patrun. La termin da 30 dis stat en la lescha e na po betg vegnir prolungada. Spetgai percunquai betg per documents mancants, mabain inoltrai l'opposiziun a temp. Suttascrivai la brev.",
+        "en": "Here is how to proceed: state which ruling you are challenging (date), what you are asking for, for example no suspension days or fewer of them, and why. Enclose evidence, such as copies of your job applications, a medical certificate, your excuse letter to the RAV, or documents that disprove the employer's allegations. The 30-day time limit is set by law and cannot be extended. So do not wait for missing documents; file the objection in time. Sign the letter."
       },
       "sources": [
         "atsg-52",
@@ -507,7 +731,11 @@
         ]
       },
       "text": {
-        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen; wie es heisst und wo es ist, steht in der Rechtsmittelbelehrung und auf der Website Ihres Kantons. Die Beschwerde muss kurz den Sachverhalt schildern, ein Begehren enthalten und begründet sein. Fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an die Begehren gebunden."
+        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen; wie es heisst und wo es ist, steht in der Rechtsmittelbelehrung und auf der Website Ihres Kantons. Die Beschwerde muss kurz den Sachverhalt schildern, ein Begehren enthalten und begründet sein. Fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an die Begehren gebunden.",
+        "fr": "Vous pouvez former recours contre la décision sur opposition dans les 30 jours suivant sa notification auprès du tribunal cantonal des assurances. Est compétent le tribunal du canton dans lequel vous habitez au moment du dépôt du recours ; son nom et son adresse figurent dans l’indication des voies de droit et sur le site internet de votre canton. Le recours doit exposer brièvement les faits, contenir des conclusions et être motivé. S’il manque quelque chose, le tribunal vous impartit un délai pour compléter votre recours. Le tribunal établit lui-même les faits et n’est pas lié par les conclusions des parties.",
+        "it": "Contro la decisione su opposizione può presentare ricorso al tribunale cantonale delle assicurazioni entro 30 giorni dalla notificazione. È competente il tribunale del Cantone in cui risiede al momento della presentazione del ricorso; come si chiama e dove si trova è indicato nell'indicazione dei rimedi giuridici e sul sito del suo Cantone. Il ricorso deve esporre brevemente i fatti, contenere una conclusione ed essere motivato. Se manca qualcosa, il tribunale le fissa un termine per sanare il vizio. Il tribunale accerta i fatti da sé e non è vincolato alle conclusioni.",
+        "rm": "Cunter la decisiun sin opposiziun pudais Vus far recurs entaifer 30 dis suenter la consegna tar la dretgira chantunala d'assicuranza. Cumpetenta è la dretgira dal chantun, en il qual Vus abitais a l'inoltraziun dal recurs; co ch'ella sa clama e nua ch'ella è, stat en l'indicaziun dals meds legals e sin la website da Voss chantun. Il recurs sto descriver curtamain il fatgstand, cuntegnair ina dumonda ed esser motivà. Manca insatge, fixescha la dretgira a Vus ina termin per la meglieraziun. La dretgira sclerescha il fatgstand sezza e n'è betg liada a las dumondas.",
+        "en": "You can appeal against the objection decision to the cantonal insurance court within 30 days of service. The competent court is that of the canton where you live when you file the appeal; its name and location are given in the instructions on legal remedies and on your canton's website. The appeal must briefly describe the facts, contain a request, and be reasoned. If something is missing, the court will give you a time limit to correct it. The court establishes the facts itself and is not bound by your requests."
       },
       "sources": [
         "atsg-56",
@@ -520,7 +748,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Die Einsprache ist kostenlos. Eine Entschädigung für eine Anwältin oder einen Anwalt gibt es dafür in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei der Arbeitslosenversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, erhalten Sie Ihre Parteikosten ersetzt. Wo es die Verhältnisse rechtfertigen, bewilligt das Gericht eine unentgeltliche Rechtsvertretung."
+        "de": "Die Einsprache ist kostenlos. Eine Entschädigung für eine Anwältin oder einen Anwalt gibt es dafür in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei der Arbeitslosenversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, erhalten Sie Ihre Parteikosten ersetzt. Wo es die Verhältnisse rechtfertigen, bewilligt das Gericht eine unentgeltliche Rechtsvertretung.",
+        "fr": "L’opposition est gratuite. Une indemnisation pour une avocate ou un avocat n’est en règle générale pas prévue pour cette procédure. La procédure devant le tribunal cantonal des assurances est elle aussi en principe gratuite pour les litiges relevant de l’assurance-chômage. Seule une personne qui agit de manière téméraire ou légère peut se voir imposer des frais judiciaires. Si vous gagnez devant le tribunal, vos dépens vous sont remboursés. Lorsque les circonstances le justifient, le tribunal accorde l’assistance judiciaire gratuite.",
+        "it": "L'opposizione è gratuita. Di regola non è prevista alcuna indennità per un'avvocata o un avvocato. Anche la procedura davanti al tribunale cantonale delle assicurazioni è di principio gratuita nell'assicurazione contro la disoccupazione. Solo chi agisce in modo temerario o leggero può vedersi addossate spese giudiziarie. Se vince in tribunale, le vengono rimborsate le sue spese ripetibili. Dove le circostanze lo giustificano, il tribunale concede il gratuito patrocinio.",
+        "rm": "L'opposiziun è gratuita. In'indemnisaziun per in'advocata u in advocat na dat i per regla betg. Er la procedura avant la dretgira chantunala d'assicuranza è, tar l'assicuranza da disoccupaziun, per principi gratuita. Mo tgi che sa cumporta a mala fai u a la leviera po survegnir custs giudizials. Vegnis Vus victorius avant dretgira, survegnis Vus Vossas expensas da part restituidas. Nua che las circumstanzas al giustifitgeschan, permetta la dretgira ina represchentanza giudiziala gratuita.",
+        "en": "The objection is free of charge. As a rule, there is no compensation for a lawyer for it. Proceedings before the cantonal insurance court are also, in principle, free of charge for unemployment insurance matters. Only someone who acts wantonly or recklessly can be ordered to pay court costs. If you win in court, you are reimbursed your party costs. Where the circumstances justify it, the court grants free legal representation."
       },
       "sources": [
         "atsg-52",
@@ -531,14 +763,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, bevor Sie selbst kündigen oder eine Auflösungsvereinbarung unterschreiben, wenn Ihnen viele Einstelltage wegen selbstverschuldeter Arbeitslosigkeit drohen, wenn Ihnen die Kasse die Beitragszeit oder die Vermittlungsfähigkeit abspricht, wenn Sie zu viel bezahlte Leistungen zurückzahlen sollen, wenn Sie einen Einspracheentscheid an das Gericht weiterziehen wollen oder wenn die Frist in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, bevor Sie selbst kündigen oder eine Auflösungsvereinbarung unterschreiben, wenn Ihnen viele Einstelltage wegen selbstverschuldeter Arbeitslosigkeit drohen, wenn Ihnen die Kasse die Beitragszeit oder die Vermittlungsfähigkeit abspricht, wenn Sie zu viel bezahlte Leistungen zurückzahlen sollen, wenn Sie einen Einspracheentscheid an das Gericht weiterziehen wollen oder wenn die Frist in wenigen Tagen abläuft.",
+        "fr": "Demandez un conseil personnalisé avant de résilier vous-même votre contrat ou de signer une convention de résiliation si de nombreux jours de suspension pour chômage fautif vous menacent, si la caisse vous conteste la période de cotisation ou l’aptitude au placement, si vous devez restituer des prestations touchées en trop, si vous voulez porter une décision sur opposition devant le tribunal, ou si le délai expire dans quelques jours.",
+        "it": "Si faccia consigliare personalmente prima di dare lei stesso la disdetta o firmare un accordo di risoluzione, se rischia molti giorni di sospensione per disoccupazione colposa, se la cassa le nega il periodo di contribuzione o l'idoneità al collocamento, se deve restituire prestazioni percepite in eccesso, se vuole impugnare in tribunale una decisione su opposizione, oppure se il termine scade tra pochi giorni.",
+        "rm": "Procurai ina consulaziun persunala, avant che Vus dais Vus sez la disditga u suttascrivais ina cunvegna da dissoluziun, sche blers dis da suspensiun pervia da disoccupaziun autoculpabla Vus smanatschan, sche la cassa Vus contesta il temp da contribuziun u l'abilitad da collocament, sche Vus stuais restituir prestaziuns pajadas memia autas, sche Vus vulais approcurar ina decisiun sin opposiziun tar la dretgira, u sche la termin scada en pauc dis.",
+        "en": "Get personal advice before you give notice yourself or sign a termination agreement, if you risk many suspension days for unemployment that is your own fault, if the fund disputes that you have completed the contribution period or that you are capable of placement, if you are asked to repay benefits paid in excess, if you want to take an objection decision to court, or if the time limit runs out in a few days."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Das RAV und Ihre Arbeitslosenkasse müssen Sie über Ihre Rechte und Pflichten aufklären und beraten, grundsätzlich kostenlos. Gewerkschaften und Arbeitslosenkomitees beraten ebenfalls, Gewerkschaften ihre Mitglieder auch im Streit mit der Kasse. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Die Angebote und Zuständigkeiten unterscheiden sich von Kanton zu Kanton; die Website Ihres Kantons nennt die zuständigen Stellen."
+        "de": "Kostenlose oder günstige Hilfe: Das RAV und Ihre Arbeitslosenkasse müssen Sie über Ihre Rechte und Pflichten aufklären und beraten, grundsätzlich kostenlos. Gewerkschaften und Arbeitslosenkomitees beraten ebenfalls, Gewerkschaften ihre Mitglieder auch im Streit mit der Kasse. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Die Angebote und Zuständigkeiten unterscheiden sich von Kanton zu Kanton; die Website Ihres Kantons nennt die zuständigen Stellen.",
+        "fr": "Aide gratuite ou à faible coût : l’ORP et votre caisse de chômage doivent vous informer et vous conseiller sur vos droits et obligations, en principe gratuitement. Les syndicats et les comités de chômeurs conseillent également, les syndicats aussi leurs membres en cas de litige avec la caisse. De nombreux cantons et associations d’avocats offrent une consultation juridique gratuite. Les offres et compétences varient d’un canton à l’autre ; le site internet de votre canton indique les services compétents.",
+        "it": "Aiuto gratuito o a basso costo: l'URC e la sua cassa di disoccupazione devono informarla e consigliarla sui suoi diritti e obblighi, di principio gratuitamente. Anche i sindacati e i comitati dei disoccupati offrono consulenza; i sindacati assistono i propri membri anche nelle controversie con la cassa. Molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita. Le offerte e le competenze variano da Cantone a Cantone; il sito del suo Cantone indica i servizi competenti.",
+        "rm": "Agid gratuit u avantagius: Il RAV e Vossa cassa da disoccupaziun ston infurmar e cusseglier Vus davart Vossas dretgs ed obligaziuns, per principi gratuitamain. Sindicats e comitads da persunas senza lavur cusseglieschan er, sindicats lur commembers era en dispita cun la cassa. Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita. Las offertas e cumpetenzas sa distinguan da chantun a chantun; la website da Voss chantun numna ils posts cumpetents.",
+        "en": "Free or low-cost help: the RAV and your unemployment insurance fund must inform and advise you about your rights and duties, in principle free of charge. Trade unions and unemployed persons' committees also give advice, trade unions also to their members in disputes with the fund. Many cantons and bar associations offer free legal information. The services and responsibilities differ from canton to canton; your canton's website names the competent bodies."
       },
       "sources": [
         "atsg-27"
@@ -821,13 +1061,21 @@
   "official_links": [
     {
       "label": {
-        "de": "arbeit.swiss: Erste Schritte nach Kündigung oder bei drohender Arbeitslosigkeit"
+        "de": "arbeit.swiss: Erste Schritte nach Kündigung oder bei drohender Arbeitslosigkeit",
+        "fr": "arbeit.swiss : premières démarches après un licenciement ou en cas de chômage imminent",
+        "it": "arbeit.swiss: Primi passi dopo la disdetta o in caso di disoccupazione imminente",
+        "rm": "arbeit.swiss: Emprims pass suenter la disditga u en cas da smanatschada disoccupaziun",
+        "en": "arbeit.swiss: First steps after dismissal or if you risk losing your job"
       },
       "url": "https://www.arbeit.swiss/secoalv/de/home/menue/stellensuchende/arbeitslos-was-tun-.html"
     },
     {
       "label": {
-        "de": "ch.ch: Arbeitslosigkeit in der Schweiz"
+        "de": "ch.ch: Arbeitslosigkeit in der Schweiz",
+        "fr": "ch.ch : le chômage en Suisse",
+        "it": "ch.ch: La disoccupazione in Svizzera",
+        "rm": "ch.ch: Disoccupaziun en Svizra",
+        "en": "ch.ch: Unemployment in Switzerland"
       },
       "url": "https://www.ch.ch/de/versicherungen/arbeitslosenversicherung/"
     }

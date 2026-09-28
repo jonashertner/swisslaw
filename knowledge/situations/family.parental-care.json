@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Sorgerecht und Besuchsrecht: Was gilt für unser Kind?"
+    "de": "Sorgerecht und Besuchsrecht: Was gilt für unser Kind?",
+    "fr": "Autorité parentale et droit de visite : quelles règles pour notre enfant ?",
+    "it": "Autorità parentale e diritto di visita: cosa vale per nostro figlio?",
+    "rm": "Tgira genituriala e dretg da visita: tge vala per noss uffant?",
+    "en": "Parental responsibility and contact: what applies to our child?"
   },
   "summary": {
-    "de": "Die gemeinsame elterliche Sorge ist die Regel, auch nach einer Trennung oder Scheidung und auch für nicht verheiratete Eltern, die eine gemeinsame Erklärung abgeben. Wer das Kind betreut, wie oft der andere Elternteil es sieht und ob es umziehen darf, richtet sich nach dem Wohl des Kindes. Zuständig ist bei verheirateten Eltern in einem Eheschutz- oder Scheidungsverfahren das Gericht, sonst meist die KESB. Für Rechtsmittel gilt meist eine Frist von 30 Tagen, bei vorsorglichen Massnahmen oft nur von 10 Tagen."
+    "de": "Die gemeinsame elterliche Sorge ist die Regel, auch nach einer Trennung oder Scheidung und auch für nicht verheiratete Eltern, die eine gemeinsame Erklärung abgeben. Wer das Kind betreut, wie oft der andere Elternteil es sieht und ob es umziehen darf, richtet sich nach dem Wohl des Kindes. Zuständig ist bei verheirateten Eltern in einem Eheschutz- oder Scheidungsverfahren das Gericht, sonst meist die KESB. Für Rechtsmittel gilt meist eine Frist von 30 Tagen, bei vorsorglichen Massnahmen oft nur von 10 Tagen.",
+    "fr": "L'autorité parentale conjointe est la règle, aussi après une séparation ou un divorce et aussi pour les parents non mariés qui font une déclaration commune. Qui prend en charge l'enfant, à quelle fréquence l'autre parent le voit et s'il peut déménager se détermine selon le bien de l'enfant. Chez les parents mariés, dans une procédure de protection de l'union conjugale ou de divorce, c'est le tribunal qui est compétent, sinon en général l'APEA. Pour les moyens de droit, un délai de 30 jours s'applique en général, et souvent seulement de 10 jours pour les mesures provisionnelles.",
+    "it": "L'autorità parentale congiunta è la regola, anche dopo una separazione o un divorzio e anche per i genitori non sposati che rilasciano una dichiarazione comune. Chi si occupa del figlio, quanto spesso lo vede l'altro genitore e se può trasferirsi dipende dal bene del figlio. Per i genitori sposati, in una procedura di protezione dell'unione coniugale o di divorzio, è competente il giudice, altrimenti di regola l'APMA. Per i rimedi giuridici vale di regola un termine di 30 giorni, per i provvedimenti cautelari spesso solo di 10 giorni.",
+    "rm": "La tgira genituriala cuminaivla è la regla, era suenter ina separaziun u in divorzi ed era per geniturs betg maridads che fan ina decleraziun cuminaivla. Tgi che tgira l'uffant, quant savens ch'il auter genitur al vesa e sch'el dastga trasferir domicil, sa drizza tenor il bainstar da l'uffant. Cumpetenta è tar geniturs maridads en ina procedura da protecziun da la cuminanza conjugala u da divorzi la dretgira, autramain il pli savens la KESB. Per meds legals vala il pli savens in termin da 30 dis, tar mesiras provisionalas savens mo da 10 dis.",
+    "en": "Joint parental responsibility is the rule, including after a separation or divorce, and also for unmarried parents who make a joint declaration. Who looks after the child, how often the other parent sees them, and whether they may move, is decided according to the best interests of the child. For married parents in proceedings on protective measures for the marital union or divorce proceedings, the court has jurisdiction; otherwise it is usually the KESB. A legal remedy usually has a deadline of 30 days, and often only 10 days for provisional measures."
   },
   "examples": {
     "de": [
@@ -19,51 +27,115 @@
       "De Vater laht mi d Chind nöd gseh, was chan ich mache?",
       "Ich möchte die Kinder zur Hälfte betreuen. Habe ich Anspruch auf alternierende Obhut?",
       "Mein Sohn ist 13 und will nicht mehr zu seinem Vater. Muss er gehen?"
+    ],
+    "fr": [
+      "Nous nous séparons. Qui obtient l'autorité parentale sur notre fille ?",
+      "Nous ne sommes pas mariés. Comment obtenir l'autorité parentale conjointe ?",
+      "Mon ex-femme a-t-elle le droit de déménager en Allemagne avec les enfants ?",
+      "Le père ne me laisse pas voir les enfants, que puis-je faire ?",
+      "Je voudrais prendre en charge les enfants pour moitié. Ai-je droit à la garde alternée ?",
+      "Mon fils a 13 ans et ne veut plus aller chez son père. Doit-il y aller quand même ?"
+    ],
+    "it": [
+      "Ci separiamo. Chi ottiene l'autorità parentale su nostra figlia?",
+      "Non siamo sposati. Come otteniamo l'autorità parentale congiunta?",
+      "La mia ex moglie può trasferirsi in Germania con i figli?",
+      "Il padre non mi lascia vedere i figli, cosa posso fare?",
+      "Vorrei occuparmi dei figli per metà del tempo. Ho diritto alla custodia alternata?",
+      "Mio figlio ha 13 anni e non vuole più andare da suo padre. È obbligato ad andarci?"
+    ],
+    "rm": [
+      "Nus ans separain. Tgi survegn la tgira genituriala per nossa figlia?",
+      "Nus na essan betg maridads. Co survegnin nus la tgira genituriala cuminaivla?",
+      "Dastga mia ex-dunna traslochar cun ils uffants en Germania?",
+      "Il bab na lai betg che jau vesa ils uffants, tge poss jau far?",
+      "Jau vuless tgirar ils uffants a la mesadad. Hai jau dretg a la surveglianza alternada?",
+      "Mes fegl ha 13 onns e na vul betg pli ir tar ses bab. Sto el ir?"
+    ],
+    "en": [
+      "We're separating. Who gets parental responsibility for our daughter?",
+      "We're not married. How do we get joint parental responsibility?",
+      "Can my ex-wife move to Germany with the children?",
+      "The father won't let me see the kids, what can I do?",
+      "I want to look after the children half the time. Am I entitled to alternating care?",
+      "My son is 13 and doesn't want to see his father any more. Does he have to go?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Elterliche Sorge, Obhut und Betreuung, alternierende Obhut, Besuchsrecht (persönlicher Verkehr), Umzug mit dem Kind im In- und Ausland, Anhörung und Vertretung des Kindes sowie die Zuständigkeit von Gericht und KESB, für verheiratete, getrennte, geschiedene und nicht verheiratete Eltern in der Schweiz."
+      "de": "Elterliche Sorge, Obhut und Betreuung, alternierende Obhut, Besuchsrecht (persönlicher Verkehr), Umzug mit dem Kind im In- und Ausland, Anhörung und Vertretung des Kindes sowie die Zuständigkeit von Gericht und KESB, für verheiratete, getrennte, geschiedene und nicht verheiratete Eltern in der Schweiz.",
+      "fr": "L'autorité parentale, la garde et la prise en charge, la garde alternée, le droit de visite (relations personnelles), le déménagement avec l'enfant en Suisse et à l'étranger, l'audition et la représentation de l'enfant, ainsi que la compétence du tribunal et de l'APEA, pour des parents mariés, séparés, divorcés et non mariés en Suisse.",
+      "it": "Autorità parentale, custodia e cura, custodia alternata, diritto di visita (relazioni personali), trasloco con il figlio in Svizzera e all'estero, audizione e rappresentanza del figlio, nonché la competenza del giudice e dell'APMA, per genitori sposati, separati, divorziati e non sposati in Svizzera.",
+      "rm": "Tgira genituriala, surveglianza e tgira, surveglianza alternada, dretg da visita (relaziun persunala), trasferiment da domicil cun l'uffant en Svizra ed a l'exteriur, udida e represchentanza da l'uffant sco er la cumpetenza da dretgira e KESB, per geniturs maridads, separads, divorziads e betg maridads en la Svizra.",
+      "en": "Parental responsibility, day-to-day care and care arrangements, alternating care, contact (persönlicher Verkehr), moving with the child within Switzerland and abroad, hearing and representing the child, and the jurisdiction of the court and the KESB, for married, separated, divorced and unmarried parents in Switzerland."
     },
     "excludes": {
-      "de": "Die Höhe des Kindesunterhalts, die Anerkennung oder Anfechtung der Vaterschaft, Kindesschutzmassnahmen wie die Unterbringung ausserhalb der Familie oder den Entzug der elterlichen Sorge, das Besuchsrecht von Grosseltern und anderen Dritten, Adoption sowie Fragen der internationalen Zuständigkeit im Einzelnen."
+      "de": "Die Höhe des Kindesunterhalts, die Anerkennung oder Anfechtung der Vaterschaft, Kindesschutzmassnahmen wie die Unterbringung ausserhalb der Familie oder den Entzug der elterlichen Sorge, das Besuchsrecht von Grosseltern und anderen Dritten, Adoption sowie Fragen der internationalen Zuständigkeit im Einzelnen.",
+      "fr": "Le montant de l'entretien de l'enfant, la reconnaissance ou la contestation de la paternité, les mesures de protection de l'enfant telles que le placement hors de la famille ou le retrait de l'autorité parentale, le droit aux relations personnelles des grands-parents et d'autres tiers, l'adoption, ainsi que les questions de compétence internationale en détail.",
+      "it": "L'importo del mantenimento del figlio, il riconoscimento o la contestazione della paternità, le misure di protezione del figlio come il collocamento fuori dalla famiglia o la privazione dell'autorità parentale, il diritto di visita di nonni e altri terzi, l'adozione, nonché le questioni di competenza internazionale nel dettaglio.",
+      "rm": "L'autezza dal mantegniment da l'uffant, la renconoschientscha u la contestaziun da la paternitad, mesiras da protecziun da l'uffant sco l'alloschament ordaifer la famiglia u la retratga da la tgira genituriala, il dretg da visita da nonnas e nonns e d'autras terzas persunas, adopziun sco er dumondas da la cumpetenza internaziunala en detagl.",
+      "en": "The amount of child maintenance, the recognition or contestation of paternity, child protection measures such as placement outside the family or the withdrawal of parental responsibility, the contact rights of grandparents and other third parties, adoption, and detailed questions of international jurisdiction."
     }
   },
   "facts": [
     {
       "key": "relationship",
       "question": {
-        "de": "Wie ist Ihre Beziehung zum anderen Elternteil?"
+        "de": "Wie ist Ihre Beziehung zum anderen Elternteil?",
+        "fr": "Quelle est votre relation avec l'autre parent ?",
+        "it": "Qual è il suo rapporto con l'altro genitore?",
+        "rm": "Co è Vossa relaziun cun l'auter genitur?",
+        "en": "What is your relationship with the other parent?"
       },
       "options": [
         {
           "value": "married",
           "label": {
-            "de": "Wir sind verheiratet und leben zusammen"
+            "de": "Wir sind verheiratet und leben zusammen",
+            "fr": "Nous sommes mariés et vivons ensemble",
+            "it": "Siamo sposati e viviamo insieme",
+            "rm": "Nus essan maridads e vivain ensemen",
+            "en": "We are married and live together"
           }
         },
         {
           "value": "separated",
           "label": {
-            "de": "Wir sind verheiratet, leben aber getrennt oder sind im Scheidungsverfahren"
+            "de": "Wir sind verheiratet, leben aber getrennt oder sind im Scheidungsverfahren",
+            "fr": "Nous sommes mariés, mais vivons séparés ou sommes en procédure de divorce",
+            "it": "Siamo sposati, ma viviamo separati o siamo in procedura di divorzio",
+            "rm": "Nus essan maridads, vivain dentant separads u essan en la procedura da divorzi",
+            "en": "We are married, but live apart or are in divorce proceedings"
           }
         },
         {
           "value": "divorced",
           "label": {
-            "de": "Wir sind geschieden"
+            "de": "Wir sind geschieden",
+            "fr": "Nous sommes divorcés",
+            "it": "Siamo divorziati",
+            "rm": "Nus essan divorziads",
+            "en": "We are divorced"
           }
         },
         {
           "value": "unmarried",
           "label": {
-            "de": "Wir sind nicht miteinander verheiratet"
+            "de": "Wir sind nicht miteinander verheiratet",
+            "fr": "Nous ne sommes pas mariés ensemble",
+            "it": "Non siamo sposati tra noi",
+            "rm": "Nus na essan betg maridads in cun l'auter",
+            "en": "We are not married to each other"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -71,34 +143,58 @@
     {
       "key": "custody",
       "question": {
-        "de": "Wer hat heute die elterliche Sorge für das Kind?"
+        "de": "Wer hat heute die elterliche Sorge für das Kind?",
+        "fr": "Qui a aujourd'hui l'autorité parentale sur l'enfant ?",
+        "it": "Chi ha oggi l'autorità parentale sul figlio?",
+        "rm": "Tgi ha oz la tgira genituriala per l'uffant?",
+        "en": "Who currently has parental responsibility for the child?"
       },
       "help": {
-        "de": "Die elterliche Sorge ist das Recht und die Pflicht, die wichtigen Entscheidungen für das Kind zu treffen. Sie steht in der Scheidungs- oder Trennungsvereinbarung, im Urteil oder in der Erklärung beim Zivilstandsamt oder bei der KESB."
+        "de": "Die elterliche Sorge ist das Recht und die Pflicht, die wichtigen Entscheidungen für das Kind zu treffen. Sie steht in der Scheidungs- oder Trennungsvereinbarung, im Urteil oder in der Erklärung beim Zivilstandsamt oder bei der KESB.",
+        "fr": "L'autorité parentale est le droit et le devoir de prendre les décisions importantes pour l'enfant. Elle figure dans la convention de divorce ou de séparation, dans le jugement ou dans la déclaration faite à l'office de l'état civil ou à l'APEA.",
+        "it": "L'autorità parentale è il diritto e il dovere di prendere le decisioni importanti per il figlio. Risulta dalla convenzione di divorzio o di separazione, dalla sentenza o dalla dichiarazione presso l'ufficio dello stato civile o l'APMA.",
+        "rm": "La tgira genituriala è il dretg e l'obligaziun da prender las decisiuns impurtantas per l'uffant. Ella stat en la cunvegna da divorzi u da separaziun, en la sentenzia u en la decleraziun tar l'uffizi da stadi civil u tar la KESB.",
+        "en": "Parental responsibility is the right and duty to make the important decisions for the child. It is set out in the divorce or separation agreement, in the judgment, or in the declaration made to the civil registry office or the KESB."
       },
       "options": [
         {
           "value": "joint",
           "label": {
-            "de": "Wir beide gemeinsam"
+            "de": "Wir beide gemeinsam",
+            "fr": "Nous deux ensemble",
+            "it": "Noi due insieme",
+            "rm": "Nus tuts dus ensemen",
+            "en": "Both of us jointly"
           }
         },
         {
           "value": "sole-me",
           "label": {
-            "de": "Ich allein"
+            "de": "Ich allein",
+            "fr": "Moi seulement",
+            "it": "Soltanto io",
+            "rm": "Jau sulet",
+            "en": "Me alone"
           }
         },
         {
           "value": "sole-other",
           "label": {
-            "de": "Der andere Elternteil allein"
+            "de": "Der andere Elternteil allein",
+            "fr": "L'autre parent seul",
+            "it": "Soltanto l'altro genitore",
+            "rm": "L'auter genitur sulet",
+            "en": "The other parent alone"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -106,37 +202,61 @@
     {
       "key": "topic",
       "question": {
-        "de": "Worum geht es Ihnen vor allem?"
+        "de": "Worum geht es Ihnen vor allem?",
+        "fr": "De quoi s'agit-il surtout pour vous ?",
+        "it": "Di cosa si tratta principalmente nel suo caso?",
+        "rm": "Da tge sa tracta surtut per Vus?",
+        "en": "What is your main concern?"
       },
       "options": [
         {
           "value": "custody",
           "label": {
-            "de": "Wer die elterliche Sorge hat oder bekommt"
+            "de": "Wer die elterliche Sorge hat oder bekommt",
+            "fr": "Qui a ou obtient l'autorité parentale",
+            "it": "Chi ha o ottiene l'autorità parentale",
+            "rm": "Tgi ch'ha u survegn la tgira genituriala",
+            "en": "Who has or gets parental responsibility"
           }
         },
         {
           "value": "care",
           "label": {
-            "de": "Bei wem das Kind wohnt und wer es wie viel betreut"
+            "de": "Bei wem das Kind wohnt und wer es wie viel betreut",
+            "fr": "Chez qui vit l'enfant et qui le prend en charge, et dans quelle mesure",
+            "it": "Presso chi vive il figlio e chi se ne occupa e quanto",
+            "rm": "Tar tgi ch'il uffant vive e tgi che al tgira quant",
+            "en": "Who the child lives with and who looks after them, and how much"
           }
         },
         {
           "value": "contact",
           "label": {
-            "de": "Das Besuchsrecht"
+            "de": "Das Besuchsrecht",
+            "fr": "Le droit de visite",
+            "it": "Il diritto di visita",
+            "rm": "Il dretg da visita",
+            "en": "Contact"
           }
         },
         {
           "value": "move",
           "label": {
-            "de": "Einen Umzug mit dem Kind"
+            "de": "Einen Umzug mit dem Kind",
+            "fr": "Un déménagement avec l'enfant",
+            "it": "Un trasloco con il figlio",
+            "rm": "In trasferiment da domicil cun l'uffant",
+            "en": "A move with the child"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht oder es geht um mehreres"
+            "de": "Ich weiss es nicht oder es geht um mehreres",
+            "fr": "Je ne sais pas, ou il s'agit de plusieurs points",
+            "it": "Non lo so, oppure si tratta di più aspetti",
+            "rm": "Jau na sai betg u sa tracta da pliras chaussas",
+            "en": "I don't know, or it's about several things"
           }
         }
       ]
@@ -144,31 +264,51 @@
     {
       "key": "move_where",
       "question": {
-        "de": "Wohin soll das Kind umziehen?"
+        "de": "Wohin soll das Kind umziehen?",
+        "fr": "Où l'enfant doit-il déménager ?",
+        "it": "Dove dovrebbe trasferirsi il figlio?",
+        "rm": "Nua duess l'uffant traslochar?",
+        "en": "Where is the child to move to?"
       },
       "options": [
         {
           "value": "abroad",
           "label": {
-            "de": "Ins Ausland"
+            "de": "Ins Ausland",
+            "fr": "À l'étranger",
+            "it": "All'estero",
+            "rm": "A l'exteriur",
+            "en": "Abroad"
           }
         },
         {
           "value": "switzerland",
           "label": {
-            "de": "Innerhalb der Schweiz"
+            "de": "Innerhalb der Schweiz",
+            "fr": "À l'intérieur de la Suisse",
+            "it": "All'interno della Svizzera",
+            "rm": "Entaifer la Svizra",
+            "en": "Within Switzerland"
           }
         },
         {
           "value": "no-move",
           "label": {
-            "de": "Es ist kein Umzug geplant"
+            "de": "Es ist kein Umzug geplant",
+            "fr": "Aucun déménagement n'est prévu",
+            "it": "Non è previsto alcun trasloco",
+            "rm": "Nagin trasferiment n'è planisà",
+            "en": "No move is planned"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -176,43 +316,71 @@
     {
       "key": "contact_problem",
       "question": {
-        "de": "Gibt es ein Problem mit dem Besuchsrecht?"
+        "de": "Gibt es ein Problem mit dem Besuchsrecht?",
+        "fr": "Y a-t-il un problème avec le droit de visite ?",
+        "it": "C'è un problema con il diritto di visita?",
+        "rm": "Datti in problem cun il dretg da visita?",
+        "en": "Is there a problem with contact?"
       },
       "options": [
         {
           "value": "no-rule",
           "label": {
-            "de": "Es gibt noch keine Regelung"
+            "de": "Es gibt noch keine Regelung",
+            "fr": "Il n'y a pas encore de réglementation",
+            "it": "Non esiste ancora una regolamentazione",
+            "rm": "Na datti anc nagina reglaziun",
+            "en": "There is no arrangement yet"
           }
         },
         {
           "value": "blocked",
           "label": {
-            "de": "Der andere Elternteil verhindert die Besuche"
+            "de": "Der andere Elternteil verhindert die Besuche",
+            "fr": "L'autre parent empêche les visites",
+            "it": "L'altro genitore impedisce le visite",
+            "rm": "L'auter genitur impedescha las visitas",
+            "en": "The other parent is preventing the visits"
           }
         },
         {
           "value": "child-refuses",
           "label": {
-            "de": "Das Kind will nicht mehr zum anderen Elternteil"
+            "de": "Das Kind will nicht mehr zum anderen Elternteil",
+            "fr": "L'enfant ne veut plus aller chez l'autre parent",
+            "it": "Il figlio non vuole più andare dall'altro genitore",
+            "rm": "L'uffant na vul betg pli ir tar l'auter genitur",
+            "en": "The child no longer wants to see the other parent"
           }
         },
         {
           "value": "safety",
           "label": {
-            "de": "Ich mache mir Sorgen um die Sicherheit des Kindes bei den Besuchen"
+            "de": "Ich mache mir Sorgen um die Sicherheit des Kindes bei den Besuchen",
+            "fr": "Je m'inquiète pour la sécurité de l'enfant pendant les visites",
+            "it": "Mi preoccupo per la sicurezza del figlio durante le visite",
+            "rm": "Jau hai fastidis per la segirezza da l'uffant durant las visitas",
+            "en": "I'm worried about the child's safety during the visits"
           }
         },
         {
           "value": "none",
           "label": {
-            "de": "Nein, kein besonderes Problem"
+            "de": "Nein, kein besonderes Problem",
+            "fr": "Non, pas de problème particulier",
+            "it": "No, nessun problema particolare",
+            "rm": "Na, nagin problem spezial",
+            "en": "No, no particular problem"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -220,31 +388,51 @@
     {
       "key": "child_age",
       "question": {
-        "de": "Wie alt ist das Kind?"
+        "de": "Wie alt ist das Kind?",
+        "fr": "Quel âge a l'enfant ?",
+        "it": "Quanti anni ha il figlio?",
+        "rm": "Quant vegl è l'uffant?",
+        "en": "How old is the child?"
       },
       "options": [
         {
           "value": "under-6",
           "label": {
-            "de": "Jünger als 6 Jahre"
+            "de": "Jünger als 6 Jahre",
+            "fr": "Moins de 6 ans",
+            "it": "Meno di 6 anni",
+            "rm": "Pli giuven che 6 onns",
+            "en": "Younger than 6"
           }
         },
         {
           "value": "age-6-11",
           "label": {
-            "de": "6 bis 11 Jahre"
+            "de": "6 bis 11 Jahre",
+            "fr": "6 à 11 ans",
+            "it": "Da 6 a 11 anni",
+            "rm": "6 fin 11 onns",
+            "en": "6 to 11"
           }
         },
         {
           "value": "age-12-plus",
           "label": {
-            "de": "12 Jahre oder älter"
+            "de": "12 Jahre oder älter",
+            "fr": "12 ans ou plus",
+            "it": "12 anni o più",
+            "rm": "12 onns u pli vegl",
+            "en": "12 or older"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -252,25 +440,41 @@
     {
       "key": "agreement",
       "question": {
-        "de": "Sind Sie sich mit dem anderen Elternteil einig?"
+        "de": "Sind Sie sich mit dem anderen Elternteil einig?",
+        "fr": "Êtes-vous d'accord avec l'autre parent ?",
+        "it": "È d'accordo con l'altro genitore?",
+        "rm": "Essas Vus d'accord cun l'auter genitur?",
+        "en": "Do you agree with the other parent?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, wir wollen es nur richtig festhalten"
+            "de": "Ja, wir wollen es nur richtig festhalten",
+            "fr": "Oui, nous voulons seulement le consigner correctement",
+            "it": "Sì, vogliamo solo metterlo per iscritto correttamente",
+            "rm": "Gea, nus vulain mo notar quai correctamain",
+            "en": "Yes, we just want to record it properly"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, wir sind uns nicht einig"
+            "de": "Nein, wir sind uns nicht einig",
+            "fr": "Non, nous ne sommes pas d'accord",
+            "it": "No, non siamo d'accordo",
+            "rm": "Na, nus na essan betg d'accord",
+            "en": "No, we don't agree"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -281,7 +485,11 @@
       "id": "child-welfare",
       "kind": "rule",
       "text": {
-        "de": "Bei allen Fragen zu Sorgerecht, Betreuung, Besuchsrecht und Umzug entscheidet das Wohl des Kindes. Was sich die Eltern wünschen, tritt dahinter zurück. Gericht und KESB prüfen deshalb auch eine Lösung, auf die Sie sich geeinigt haben, darauf, ob sie für das Kind gut ist."
+        "de": "Bei allen Fragen zu Sorgerecht, Betreuung, Besuchsrecht und Umzug entscheidet das Wohl des Kindes. Was sich die Eltern wünschen, tritt dahinter zurück. Gericht und KESB prüfen deshalb auch eine Lösung, auf die Sie sich geeinigt haben, darauf, ob sie für das Kind gut ist.",
+        "fr": "Pour toutes les questions relatives à l'autorité parentale, à la prise en charge, au droit de visite et au déménagement, c'est le bien de l'enfant qui est déterminant. Ce que souhaitent les parents passe au second plan. Le tribunal et l'APEA examinent donc aussi une solution sur laquelle vous vous êtes entendus, pour vérifier si elle est bonne pour l'enfant.",
+        "it": "In tutte le questioni di autorità parentale, cura, diritto di visita e trasloco decide il bene del figlio. Ciò che desiderano i genitori passa in secondo piano. Il giudice e l'APMA esaminano quindi anche una soluzione su cui vi siete accordati, per verificare se è positiva per il figlio.",
+        "rm": "Tar tut las dumondas da tgira genituriala, tgira, dretg da visita e trasferiment da domicil decida il bainstar da l'uffant. Quai ch'ils geniturs giavischan retira sasez detras. Dretgira e KESB examineschan percunquai er ina soluziun, sin la quala Vus As essas metids d'accord, per savair sch'ella è buna per l'uffant.",
+        "en": "In all questions of parental responsibility, care, contact and moving, the best interests of the child decide. What the parents want takes second place to this. The court and the KESB therefore also examine a solution you have agreed on, to check whether it is good for the child."
       },
       "sources": [
         "zgb-296",
@@ -299,7 +507,11 @@
         ]
       },
       "text": {
-        "de": "Die gemeinsame elterliche Sorge ist die Regel, egal ob die Eltern verheiratet, getrennt, geschieden oder nie verheiratet waren. Eine Trennung oder Scheidung ändert daran nichts von selbst. Das Gericht oder die KESB gibt die Sorge nur dann einem Elternteil allein, wenn das für das Wohl des Kindes nötig ist. Das ist eine eng begrenzte Ausnahme. Gewöhnliche Streitigkeiten, wie sie bei einer Trennung vorkommen, genügen nicht. Es braucht einen schweren und andauernden Konflikt oder eine dauerhafte Unfähigkeit, miteinander zu reden, die dem Kind schadet, und die Alleinsorge muss die Lage für das Kind verbessern. Oft reicht es auch, wenn das Gericht oder die KESB nur über eine einzelne Streitfrage entscheidet, etwa die Schule."
+        "de": "Die gemeinsame elterliche Sorge ist die Regel, egal ob die Eltern verheiratet, getrennt, geschieden oder nie verheiratet waren. Eine Trennung oder Scheidung ändert daran nichts von selbst. Das Gericht oder die KESB gibt die Sorge nur dann einem Elternteil allein, wenn das für das Wohl des Kindes nötig ist. Das ist eine eng begrenzte Ausnahme. Gewöhnliche Streitigkeiten, wie sie bei einer Trennung vorkommen, genügen nicht. Es braucht einen schweren und andauernden Konflikt oder eine dauerhafte Unfähigkeit, miteinander zu reden, die dem Kind schadet, und die Alleinsorge muss die Lage für das Kind verbessern. Oft reicht es auch, wenn das Gericht oder die KESB nur über eine einzelne Streitfrage entscheidet, etwa die Schule.",
+        "fr": "L'autorité parentale conjointe est la règle, que les parents soient mariés, séparés, divorcés ou n'aient jamais été mariés. Une séparation ou un divorce n'y change rien en soi. Le tribunal ou l'APEA n'attribue l'autorité parentale à un seul parent que si cela est nécessaire pour le bien de l'enfant. Il s'agit d'une exception étroitement limitée. Les désaccords ordinaires, tels qu'ils surviennent lors d'une séparation, ne suffisent pas. Il faut un conflit grave et durable, ou une incapacité durable à communiquer, qui nuit à l'enfant, et l'autorité parentale exclusive doit améliorer la situation de l'enfant. Il suffit souvent aussi que le tribunal ou l'APEA statue uniquement sur une question litigieuse précise, par exemple l'école.",
+        "it": "L'autorità parentale congiunta è la regola, indipendentemente dal fatto che i genitori siano sposati, separati, divorziati o non siano mai stati sposati. Una separazione o un divorzio non cambia nulla di per sé. Il giudice o l'APMA attribuisce l'autorità parentale a un solo genitore solo se ciò è necessario per il bene del figlio. Si tratta di un'eccezione strettamente limitata. I comuni contrasti che si presentano in una separazione non bastano. Occorre un conflitto grave e persistente, o un'incapacità duratura di comunicare tra loro che danneggia il figlio, e l'autorità parentale esclusiva deve migliorare la situazione per il figlio. Spesso è anche sufficiente che il giudice o l'APMA decida solo su una singola questione controversa, per esempio la scuola.",
+        "rm": "La tgira genituriala cuminaivla è la regla, independentamain sch'ils geniturs èn maridads, separads, divorziads u n'èn mai stads maridads. Ina separaziun u in divorzi na muda per sasez nagut a quai. La dretgira u la KESB dat la tgira ad in genitur sulet mo lura, sch'igl è necessari per il bainstar da l'uffant. Quai è in'excepziun strettamain limitada. Cuntraversias usitadas, sco ch'ellas vegnan tar ina separaziun, na bastan betg. I dovra in conflict greiv e persistent u in'incapacitad durabla da discurrer in cun l'auter, che donnegia a l'uffant, e la tgira exclusiva sto meglierar la situaziun per l'uffant. Savens basta er, sche la dretgira u la KESB decida mo davart ina singula dumonda litigiusa, per exempel la scola.",
+        "en": "Joint parental responsibility is the rule, whatever the parents' situation: married, separated, divorced or never married. A separation or divorce does not change this by itself. The court or the KESB gives responsibility to one parent alone only if this is necessary for the best interests of the child. This is a narrowly limited exception. Ordinary disputes of the kind that occur in a separation are not enough. There must be a serious and lasting conflict, or a lasting inability to talk to each other, that harms the child, and sole responsibility must improve the situation for the child. It is often enough for the court or the KESB to decide only a single disputed question, for example schooling."
       },
       "sources": [
         "zgb-296",
@@ -320,7 +532,11 @@
         ]
       },
       "text": {
-        "de": "Gemeinsame Sorge heisst: Wichtige Entscheidungen treffen Sie zusammen, zum Beispiel über Schule und Ausbildung, Religion, grössere medizinische Eingriffe oder einen Umzug des Kindes. Der Elternteil, bei dem das Kind gerade ist, darf allein entscheiden, wenn es um den Alltag geht, wenn es dringend ist oder wenn der andere Elternteil mit vernünftigem Aufwand nicht erreichbar ist."
+        "de": "Gemeinsame Sorge heisst: Wichtige Entscheidungen treffen Sie zusammen, zum Beispiel über Schule und Ausbildung, Religion, grössere medizinische Eingriffe oder einen Umzug des Kindes. Der Elternteil, bei dem das Kind gerade ist, darf allein entscheiden, wenn es um den Alltag geht, wenn es dringend ist oder wenn der andere Elternteil mit vernünftigem Aufwand nicht erreichbar ist.",
+        "fr": "L'autorité parentale conjointe signifie : vous prenez ensemble les décisions importantes, par exemple sur l'école et la formation, la religion, des interventions médicales importantes ou un déménagement de l'enfant. Le parent chez qui se trouve l'enfant à ce moment-là peut décider seul lorsqu'il s'agit du quotidien, lorsque c'est urgent, ou lorsque l'autre parent ne peut être joint moyennant un effort raisonnable.",
+        "it": "Autorità parentale congiunta significa: le decisioni importanti le prendete insieme, per esempio su scuola e formazione, religione, interventi medici rilevanti o un trasloco del figlio. Il genitore presso cui si trova il figlio in quel momento può decidere da solo se si tratta di affari quotidiani, se la questione è urgente, o se l'altro genitore non è raggiungibile con un impegno ragionevole.",
+        "rm": "Tgira cuminaivla vul dir: Vus prendais decisiuns impurtantas ensemen, per exempel davart scola e fromaziun, religiun, intervenziuns medicinalas pli grondas u in trasferiment da domicil da l'uffant. Il genitur, tar il qual ch'il uffant è gist, dastga decider sulet, sche sa tracta dal mintgadi, sch'igl è urgent u sche l'auter genitur n'è betg cuntanschibel cun in effort raschunaivel.",
+        "en": "Joint responsibility means: you make important decisions together, for example about school and training, religion, major medical procedures or a move by the child. The parent the child is currently with may decide alone on everyday matters, in urgent cases, or if the other parent cannot be reached with reasonable effort."
       },
       "sources": [
         "zgb-301",
@@ -337,7 +553,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie nicht verheiratet, entsteht die gemeinsame Sorge nicht automatisch. Sie geben dazu zusammen eine Erklärung ab: beim Zivilstandsamt, wenn der Vater das Kind anerkennt, oder später bei der KESB am Wohnsitz des Kindes. Darin bestätigen Sie, dass Sie gemeinsam Verantwortung übernehmen wollen und sich über Betreuung, Kontakt und Unterhalt des Kindes verständigt haben. Solange diese Erklärung fehlt, hat die Mutter die elterliche Sorge allein. Vorher können Sie sich von der KESB beraten lassen."
+        "de": "Sind Sie nicht verheiratet, entsteht die gemeinsame Sorge nicht automatisch. Sie geben dazu zusammen eine Erklärung ab: beim Zivilstandsamt, wenn der Vater das Kind anerkennt, oder später bei der KESB am Wohnsitz des Kindes. Darin bestätigen Sie, dass Sie gemeinsam Verantwortung übernehmen wollen und sich über Betreuung, Kontakt und Unterhalt des Kindes verständigt haben. Solange diese Erklärung fehlt, hat die Mutter die elterliche Sorge allein. Vorher können Sie sich von der KESB beraten lassen.",
+        "fr": "Si vous n'êtes pas mariés, l'autorité parentale conjointe ne naît pas automatiquement. Vous faites pour cela ensemble une déclaration : à l'office de l'état civil, lorsque le père reconnaît l'enfant, ou plus tard auprès de l'APEA du domicile de l'enfant. Vous y confirmez que vous voulez assumer conjointement la responsabilité et que vous vous êtes entendus sur la prise en charge, le contact et l'entretien de l'enfant. Tant que cette déclaration fait défaut, la mère a seule l'autorité parentale. Auparavant, vous pouvez vous faire conseiller par l'APEA.",
+        "it": "Se non siete sposati, l'autorità parentale congiunta non nasce automaticamente. A tal fine rilasciate insieme una dichiarazione: presso l'ufficio dello stato civile, quando il padre riconosce il figlio, oppure più tardi presso l'APMA del domicilio del figlio. In essa confermate di voler assumere congiuntamente la responsabilità e di esservi accordati su cura, contatto e mantenimento del figlio. Finché manca questa dichiarazione, l'autorità parentale spetta soltanto alla madre. Prima di allora potete farvi consigliare dall'APMA.",
+        "rm": "Sche Vus n'essas betg maridads, resulta la tgira cuminaivla betg automaticamain. Vus fais per quai ensemen ina decleraziun: tar l'uffizi da stadi civil, cur ch'il bab renconuscha l'uffant, u pli tard tar la KESB dal domicil da l'uffant. En quella confermais Vus che Vus vulais surpigliar responsabladad ensemen e ch'Vus As essas entendids davart tgira, contact e mantegniment da l'uffant. Uschè ditg che questa decleraziun manca, ha la mamma la tgira genituriala sula. Avant pudais Vus laschar cussegliar da la KESB.",
+        "en": "If you are not married, joint responsibility does not arise automatically. You make a joint declaration on this: at the civil registry office, when the father acknowledges the child, or later at the KESB at the child's domicile. In it, you confirm that you want to take on responsibility jointly and that you have reached an understanding on the child's care, contact and maintenance. As long as this declaration is missing, the mother has sole parental responsibility. Beforehand, you can get advice from the KESB."
       },
       "sources": [
         "zgb-298a"
@@ -358,7 +578,11 @@
         ]
       },
       "text": {
-        "de": "Weigert sich ein Elternteil, die Erklärung abzugeben, kann sich der andere an die KESB am Wohnsitz des Kindes wenden. Die KESB ordnet die gemeinsame Sorge an, ausser das Wohl des Kindes verlangt, dass die Mutter die Sorge allein behält oder dass sie dem Vater allein übertragen wird. Sie regelt dabei auch die anderen strittigen Fragen wie Betreuung und Kontakt. Ist beim Gericht eine Klage auf Kindesunterhalt hängig, entscheidet das Gericht über alles zusammen."
+        "de": "Weigert sich ein Elternteil, die Erklärung abzugeben, kann sich der andere an die KESB am Wohnsitz des Kindes wenden. Die KESB ordnet die gemeinsame Sorge an, ausser das Wohl des Kindes verlangt, dass die Mutter die Sorge allein behält oder dass sie dem Vater allein übertragen wird. Sie regelt dabei auch die anderen strittigen Fragen wie Betreuung und Kontakt. Ist beim Gericht eine Klage auf Kindesunterhalt hängig, entscheidet das Gericht über alles zusammen.",
+        "fr": "Si un parent refuse de faire la déclaration, l'autre peut s'adresser à l'APEA du domicile de l'enfant. L'APEA ordonne l'autorité parentale conjointe, sauf si le bien de l'enfant exige que la mère garde seule l'autorité parentale ou qu'elle soit attribuée au père seul. Elle règle alors aussi les autres questions litigieuses, comme la prise en charge et le contact. Si une action en entretien de l'enfant est pendante devant le tribunal, celui-ci statue sur l'ensemble.",
+        "it": "Se un genitore rifiuta di rilasciare la dichiarazione, l'altro può rivolgersi all'APMA del domicilio del figlio. L'APMA ordina l'autorità parentale congiunta, a meno che il bene del figlio richieda che la madre mantenga l'autorità parentale da sola o che questa sia attribuita soltanto al padre. In tal caso regola anche le altre questioni controverse, come la cura e il contatto. Se davanti al giudice è pendente un'azione di mantenimento del figlio, il giudice decide su tutto congiuntamente.",
+        "rm": "Refusa in genitur da far la decleraziun, po l'auter As drizzar a la KESB dal domicil da l'uffant. La KESB ordinescha la tgira cuminaivla, ausser sche il bainstar da l'uffant pretenda che la mamma manteglia la tgira sula u ch'ella vegnia transferida al bab sulet. Ella regla en quest connex era las autras dumondas litigiusas sco tgira e contact. È tar la dretgira pendenta ina plant per il mantegniment da l'uffant, decida la dretgira davart tut ensemen.",
+        "en": "If a parent refuses to make the declaration, the other can turn to the KESB at the child's domicile. The KESB orders joint responsibility, unless the best interests of the child require the mother to keep sole responsibility, or for it to be given to the father alone. It also settles the other disputed questions, such as care and contact, at the same time. If a maintenance action for the child is pending before the court, the court decides on everything together."
       },
       "sources": [
         "zgb-298b"
@@ -374,7 +598,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie die elterliche Sorge nicht, sollen Sie trotzdem über besondere Ereignisse im Leben Ihres Kindes informiert und vor wichtigen Entscheidungen über seine Entwicklung angehört werden. Sie dürfen bei Lehrpersonen, Ärztinnen und Ärzten und anderen Betreuungspersonen selbst Auskunft über das Befinden und die Entwicklung des Kindes verlangen."
+        "de": "Haben Sie die elterliche Sorge nicht, sollen Sie trotzdem über besondere Ereignisse im Leben Ihres Kindes informiert und vor wichtigen Entscheidungen über seine Entwicklung angehört werden. Sie dürfen bei Lehrpersonen, Ärztinnen und Ärzten und anderen Betreuungspersonen selbst Auskunft über das Befinden und die Entwicklung des Kindes verlangen.",
+        "fr": "Si vous n'avez pas l'autorité parentale, vous devez néanmoins être informé des événements particuliers de la vie de votre enfant et entendu avant les décisions importantes concernant son développement. Vous pouvez demander vous-même à des enseignants, des médecins et d'autres personnes qui s'occupent de l'enfant des renseignements sur son état et son développement.",
+        "it": "Se non ha l'autorità parentale, deve comunque essere informato sugli eventi particolari nella vita di suo figlio ed essere sentito prima delle decisioni importanti sul suo sviluppo. Può chiedere personalmente informazioni sullo stato e sullo sviluppo del figlio a insegnanti, medici e altre persone che se ne occupano.",
+        "rm": "N'avais Vus betg la tgira genituriala, duais Vus tuttina vegnir infurmads davart eveniments spezials en la vita da Voss uffant ed udids avant decisiuns impurtantas davart sia svilup. Vus dastgais pretender Vus sez infurmaziuns tar persunas d'instrucziun, medgas e medis ed autras persunas da tgira davart il stadi e la svilup da l'uffant.",
+        "en": "If you do not have parental responsibility, you should still be informed about special events in your child's life and heard before important decisions about their development. You may request information yourself, from teachers, doctors and other carers, about the child's wellbeing and development."
       },
       "sources": [
         "zgb-275a"
@@ -390,7 +618,11 @@
         ]
       },
       "text": {
-        "de": "Die elterliche Sorge ist nicht dasselbe wie die Obhut. Die Obhut betrifft den Alltag: bei wem das Kind lebt und wer es täglich betreut. Leben die Eltern getrennt und einigen sie sich nicht, legt das Gericht oder die KESB fest, wer die Obhut hat und wie der Kontakt oder die Betreuungsanteile des anderen Elternteils aussehen. Dabei berücksichtigt es das Recht des Kindes, regelmässig mit beiden Eltern Kontakt zu haben."
+        "de": "Die elterliche Sorge ist nicht dasselbe wie die Obhut. Die Obhut betrifft den Alltag: bei wem das Kind lebt und wer es täglich betreut. Leben die Eltern getrennt und einigen sie sich nicht, legt das Gericht oder die KESB fest, wer die Obhut hat und wie der Kontakt oder die Betreuungsanteile des anderen Elternteils aussehen. Dabei berücksichtigt es das Recht des Kindes, regelmässig mit beiden Eltern Kontakt zu haben.",
+        "fr": "L'autorité parentale n'est pas la même chose que la garde. La garde concerne le quotidien : chez qui vit l'enfant et qui s'en occupe chaque jour. Si les parents vivent séparés et ne s'entendent pas, le tribunal ou l'APEA détermine qui a la garde et à quoi ressemblent le contact ou les parts de prise en charge de l'autre parent. Il tient compte à cet égard du droit de l'enfant d'entretenir régulièrement des relations personnelles avec ses deux parents.",
+        "it": "L'autorità parentale non è la stessa cosa della custodia. La custodia riguarda la vita quotidiana: presso chi vive il figlio e chi se ne occupa ogni giorno. Se i genitori vivono separati e non si accordano, il giudice o l'APMA stabilisce chi ha la custodia e come si presentano il contatto o le quote di cura dell'altro genitore. In questo contesto tiene conto del diritto del figlio ad avere regolarmente contatto con entrambi i genitori.",
+        "rm": "La tgira genituriala n'è betg il medem sco la surveglianza. La surveglianza pertutga il mintgadi: tar tgi ch'il uffant vive e tgi che al tgira mintgadi. Vivan ils geniturs separads e n'As metan els betg d'accord, fixescha la dretgira u la KESB tgi ch'ha la surveglianza e co ch'il contact u las quotas da tgira da l'auter genitur para. Ella resguarda en quest connex il dretg da l'uffant da avair regularmain contact cun tuts dus geniturs.",
+        "en": "Parental responsibility is not the same as day-to-day care. Day-to-day care concerns everyday life: who the child lives with and who looks after them daily. If the parents live apart and do not agree, the court or the KESB decides who has day-to-day care and what the contact or care shares of the other parent look like. In doing so, it takes into account the child's right to have regular contact with both parents."
       },
       "sources": [
         "zgb-298",
@@ -412,7 +644,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie die gemeinsame Sorge und verlangt ein Elternteil oder das Kind eine abwechselnde (alternierende) Betreuung, muss das Gericht oder die KESB diese Möglichkeit ernsthaft prüfen. Einen automatischen Anspruch darauf gibt es nicht. Entscheidend ist eine Einschätzung im Einzelfall, ob dieses Modell voraussichtlich dem Kind dient. Voraussetzung ist, dass beide Eltern erziehungsfähig sind. Wichtig sind ausserdem: ob die Eltern in Kinderfragen miteinander reden und zusammenarbeiten können, wie weit die beiden Wohnungen auseinanderliegen, wie das Kind bisher betreut wurde, ob die Eltern selbst betreuen können, das Alter des Kindes, seine Geschwister, sein Umfeld und sein eigener Wunsch. Dass ein Elternteil die alternierende Obhut ablehnt, schliesst sie für sich allein noch nicht aus."
+        "de": "Haben Sie die gemeinsame Sorge und verlangt ein Elternteil oder das Kind eine abwechselnde (alternierende) Betreuung, muss das Gericht oder die KESB diese Möglichkeit ernsthaft prüfen. Einen automatischen Anspruch darauf gibt es nicht. Entscheidend ist eine Einschätzung im Einzelfall, ob dieses Modell voraussichtlich dem Kind dient. Voraussetzung ist, dass beide Eltern erziehungsfähig sind. Wichtig sind ausserdem: ob die Eltern in Kinderfragen miteinander reden und zusammenarbeiten können, wie weit die beiden Wohnungen auseinanderliegen, wie das Kind bisher betreut wurde, ob die Eltern selbst betreuen können, das Alter des Kindes, seine Geschwister, sein Umfeld und sein eigener Wunsch. Dass ein Elternteil die alternierende Obhut ablehnt, schliesst sie für sich allein noch nicht aus.",
+        "fr": "Si vous avez l'autorité parentale conjointe et qu'un parent ou l'enfant demande une prise en charge alternée (garde alternée), le tribunal ou l'APEA doit examiner sérieusement cette possibilité. Il n'existe pas de droit automatique à ce modèle. Ce qui est déterminant, c'est une appréciation au cas par cas de la question de savoir si ce modèle sert vraisemblablement l'enfant. La condition est que les deux parents soient aptes à éduquer l'enfant. Sont en outre importants : la capacité des parents à communiquer et à collaborer sur les questions concernant l'enfant, la distance entre les deux logements, la manière dont l'enfant a été pris en charge jusqu'ici, la capacité des parents à s'en occuper eux-mêmes, l'âge de l'enfant, sa fratrie, son environnement et son propre souhait. Le fait qu'un parent refuse la garde alternée ne l'exclut pas encore à lui seul.",
+        "it": "Se avete l'autorità parentale congiunta e un genitore o il figlio chiede una cura alternata (alternante), il giudice o l'APMA deve esaminare seriamente questa possibilità. Non esiste un diritto automatico a tale riguardo. Determinante è una valutazione nel caso concreto, su se questo modello sia presumibilmente nell'interesse del figlio. Presupposto è che entrambi i genitori siano capaci di educare. Importano inoltre: se i genitori riescono a comunicare e collaborare tra loro nelle questioni riguardanti i figli, quanto distino le due abitazioni, come il figlio è stato finora accudito, se i genitori possono occuparsene personalmente, l'età del figlio, i suoi fratelli e sorelle, il suo ambiente e il suo stesso desiderio. Il fatto che un genitore rifiuti la custodia alternata non la esclude di per sé sola.",
+        "rm": "Avais Vus la tgira cuminaivla e pretenda in genitur u l'uffant ina tgira alternanta (alternada), sto la dretgira u la KESB examinar seriusamain questa pussaivladad. In dretg automatic a quai na datti betg. Determinant è in'appreziaziun dal cas singul, sch'quest model servia probablamain a l'uffant. Premissa è che tuts dus geniturs èn abels d'educar. Impurtants èn ultra da quai: sch'ils geniturs pon discurrer e collavurar en dumondas dals uffants, quant lontan che las duas abitaziuns èn ina da l'autra, co l'uffant è vegnì tgirà enfin qua, sch'ils geniturs pon tgirar sez, l'età da l'uffant, ses fragliuns, ses ambient e ses agen giavisch. Ch'in genitur refusa la surveglianza alternada, na la exclude betg gia sulet per sasez.",
+        "en": "If you have joint responsibility and a parent or the child asks for alternating care, the court or the KESB must seriously examine this option. There is no automatic entitlement to it. What matters is an assessment in the individual case of whether this arrangement is likely to serve the child. It requires both parents to be fit to raise the child. Also important are: whether the parents can talk to each other and cooperate on matters concerning the child, how far apart the two homes are, how the child has been looked after so far, whether the parents can provide the care themselves, the child's age, their siblings, their surroundings and their own wishes. The fact that one parent objects to alternating care does not, by itself, rule it out."
       },
       "sources": [
         "zgb-298",
@@ -431,7 +667,11 @@
         ]
       },
       "text": {
-        "de": "Der Elternteil, der die Sorge oder die Obhut nicht hat, und das Kind haben gegenseitig ein Recht auf angemessenen persönlichen Kontakt. Dazu gehören Besuche, Wochenenden und Ferien, aber auch Telefon oder Videoanrufe. Beide Eltern müssen alles vermeiden, was die Beziehung des Kindes zum anderen Elternteil stört oder dessen Erziehung erschwert. Sie können verlangen, dass Ihr Besuchsrecht verbindlich geregelt wird."
+        "de": "Der Elternteil, der die Sorge oder die Obhut nicht hat, und das Kind haben gegenseitig ein Recht auf angemessenen persönlichen Kontakt. Dazu gehören Besuche, Wochenenden und Ferien, aber auch Telefon oder Videoanrufe. Beide Eltern müssen alles vermeiden, was die Beziehung des Kindes zum anderen Elternteil stört oder dessen Erziehung erschwert. Sie können verlangen, dass Ihr Besuchsrecht verbindlich geregelt wird.",
+        "fr": "Le parent qui n'a pas l'autorité parentale ou la garde et l'enfant ont réciproquement le droit à des relations personnelles appropriées. Cela comprend les visites, les week-ends et les vacances, mais aussi les appels téléphoniques ou vidéo. Les deux parents doivent éviter tout ce qui perturbe la relation de l'enfant avec l'autre parent ou complique son éducation. Vous pouvez demander que votre droit de visite soit réglé de manière contraignante.",
+        "it": "Il genitore che non ha l'autorità parentale o la custodia, e il figlio, hanno reciprocamente diritto a un adeguato contatto personale. Ne fanno parte visite, fine settimana e vacanze, ma anche telefonate o videochiamate. Entrambi i genitori devono evitare tutto ciò che disturba la relazione del figlio con l'altro genitore o ne ostacola l'educazione. Può chiedere che il suo diritto di visita sia regolato in modo vincolante.",
+        "rm": "Il genitur che n'ha betg la tgira u la surveglianza, e l'uffant han vicendaivlamain il dretg ad in contact persunal adequat. A quai tutgan visitas, fins d'emna e vacanzas, dentant er telefon u videotelefonadas. Tuts dus geniturs ston evitar tut quai che disturba la relaziun da l'uffant cun l'auter genitur u ch'aggrava sia educaziun. Vus pudais pretender che Voss dretg da visita vegnia reglà obligatoricamain.",
+        "en": "The parent who does not have responsibility or day-to-day care, and the child, each have a mutual right to reasonable personal contact. This includes visits, weekends and holidays, but also phone or video calls. Both parents must avoid anything that disrupts the child's relationship with the other parent or makes their upbringing more difficult. You can ask for your contact to be set out in a binding arrangement."
       },
       "sources": [
         "zgb-273",
@@ -448,7 +688,11 @@
         ]
       },
       "text": {
-        "de": "Das Besuchsrecht darf nicht schon deshalb eingeschränkt werden, weil die Eltern zerstritten sind. Eine Einschränkung ist nur gerechtfertigt, wenn konkrete Umstände zeigen, dass der übliche Kontakt das Wohl des Kindes gefährden würde. Ganz verweigert oder entzogen werden kann das Besuchsrecht nur als letztes Mittel, etwa wenn das Kind gefährdet ist, wenn der Elternteil sein Recht missbraucht oder wenn er sich nicht ernsthaft um das Kind gekümmert hat. Auch begleitete Besuche, bei denen eine Fachperson dabei ist, setzen konkrete Anhaltspunkte für eine Gefährdung voraus. Eine bloss abstrakte Befürchtung reicht nicht. Mildere Lösungen gehen vor."
+        "de": "Das Besuchsrecht darf nicht schon deshalb eingeschränkt werden, weil die Eltern zerstritten sind. Eine Einschränkung ist nur gerechtfertigt, wenn konkrete Umstände zeigen, dass der übliche Kontakt das Wohl des Kindes gefährden würde. Ganz verweigert oder entzogen werden kann das Besuchsrecht nur als letztes Mittel, etwa wenn das Kind gefährdet ist, wenn der Elternteil sein Recht missbraucht oder wenn er sich nicht ernsthaft um das Kind gekümmert hat. Auch begleitete Besuche, bei denen eine Fachperson dabei ist, setzen konkrete Anhaltspunkte für eine Gefährdung voraus. Eine bloss abstrakte Befürchtung reicht nicht. Mildere Lösungen gehen vor.",
+        "fr": "Le droit de visite ne peut pas être restreint pour le seul motif que les parents sont en conflit. Une restriction n'est justifiée que si des circonstances concrètes montrent que le contact habituel mettrait en danger le bien de l'enfant. Le droit de visite ne peut être totalement refusé ou retiré qu'en dernier recours, par exemple si l'enfant est en danger, si le parent abuse de son droit, ou s'il ne s'est pas sérieusement occupé de l'enfant. Même des visites accompagnées, en présence d'une personne spécialisée, supposent des indices concrets d'une mise en danger. Une simple crainte abstraite ne suffit pas. Les solutions plus modérées priment.",
+        "it": "Il diritto di visita non può essere limitato per il solo fatto che i genitori sono in conflitto. Una limitazione è giustificata solo se circostanze concrete mostrano che il contatto abituale metterebbe in pericolo il bene del figlio. Il diritto di visita può essere del tutto negato o revocato solo come ultima risorsa, per esempio se il figlio è in pericolo, se il genitore abusa del proprio diritto o se non si è seriamente occupato del figlio. Anche le visite accompagnate, alle quali partecipa una persona esperta, presuppongono indizi concreti di un pericolo. Un semplice timore astratto non basta. Le soluzioni più moderate hanno la precedenza.",
+        "rm": "Il dretg da visita na dastga betg vegnir restrenschì gia mo perquai ch'ils geniturs èn en conflict. Ina restricziun è giustifitgada mo, sche circumstanzas concretas mussan ch'il contact usità periclitass il bainstar da l'uffant. Il dretg da visita po vegnir entiramain refusà u retratg mo sco ultima resursa, per exempel sche l'uffant è periclità, sche il genitur abusa da ses dretg u sch'el n'ha betg s'occupà seriusamain da l'uffant. Er visitas accumpagnadas, tar las qualas ina persuna spezialisada è preschenta, premettan indizis concrets per ina periclitaziun. Ina simpla suspecha astracta na basta betg. Soluziuns pli mitas han la priorità.",
+        "en": "Contact may not be restricted merely because the parents are in conflict with each other. A restriction is only justified if concrete circumstances show that the usual contact would endanger the best interests of the child. Contact can only be fully refused or withdrawn as a last resort, for example if the child is at risk, if the parent abuses their right, or if they have not seriously looked after the child. Even supervised visits, where a specialist is present, require concrete indications of a risk. A merely abstract fear is not enough. Milder solutions take priority."
       },
       "sources": [
         "zgb-274",
@@ -465,7 +709,11 @@
         ]
       },
       "text": {
-        "de": "Gibt es noch keine Regelung durch Gericht oder KESB, kann der Kontakt nicht gegen den Willen des Elternteils durchgesetzt werden, der die Sorge oder Obhut hat. Beantragen Sie deshalb eine Regelung: bei der KESB am Wohnsitz des Kindes oder, wenn ein Eheschutz- oder Scheidungsverfahren läuft, beim Gericht."
+        "de": "Gibt es noch keine Regelung durch Gericht oder KESB, kann der Kontakt nicht gegen den Willen des Elternteils durchgesetzt werden, der die Sorge oder Obhut hat. Beantragen Sie deshalb eine Regelung: bei der KESB am Wohnsitz des Kindes oder, wenn ein Eheschutz- oder Scheidungsverfahren läuft, beim Gericht.",
+        "fr": "S'il n'existe encore aucune réglementation du tribunal ou de l'APEA, le contact ne peut pas être imposé contre la volonté du parent qui a l'autorité parentale ou la garde. Demandez donc une réglementation : auprès de l'APEA du domicile de l'enfant ou, si une procédure de protection de l'union conjugale ou de divorce est en cours, auprès du tribunal.",
+        "it": "Se non esiste ancora una regolamentazione da parte del giudice o dell'APMA, il contatto non può essere imposto contro la volontà del genitore che ha l'autorità parentale o la custodia. Chieda quindi una regolamentazione: all'APMA del domicilio del figlio oppure, se è in corso una procedura di protezione dell'unione coniugale o di divorzio, al giudice.",
+        "rm": "Na datti anc nagina reglaziun tras dretgira u KESB, na po il contact betg vegnir applitgà cunter la voluntad dal genitur che ha la tgira u la surveglianza. Pretendai percunquai ina reglaziun: tar la KESB dal domicil da l'uffant u, sche curra ina procedura da protecziun da la cuminanza conjugala u da divorzi, tar la dretgira.",
+        "en": "If there is no arrangement yet from the court or the KESB, contact cannot be enforced against the will of the parent who has responsibility or day-to-day care. So apply for an arrangement: at the KESB at the child's domicile, or, if proceedings on protective measures for the marital union or divorce proceedings are under way, at the court."
       },
       "sources": [
         "zgb-275",
@@ -481,7 +729,11 @@
         ]
       },
       "text": {
-        "de": "Verhindert der andere Elternteil die geregelten Besuche, halten Sie die ausgefallenen Termine schriftlich fest und wenden Sie sich an die KESB. Sie kann die Eltern ermahnen und ihnen Weisungen erteilen. Holen Sie das Kind nicht eigenmächtig. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt bestimmen darf, oder es nach einem Besuch nicht zurückbringt, kann sich strafbar machen."
+        "de": "Verhindert der andere Elternteil die geregelten Besuche, halten Sie die ausgefallenen Termine schriftlich fest und wenden Sie sich an die KESB. Sie kann die Eltern ermahnen und ihnen Weisungen erteilen. Holen Sie das Kind nicht eigenmächtig. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt bestimmen darf, oder es nach einem Besuch nicht zurückbringt, kann sich strafbar machen.",
+        "fr": "Si l'autre parent empêche les visites convenues, consignez par écrit les rendez-vous manqués et adressez-vous à l'APEA. Elle peut rappeler les parents à leurs devoirs et leur donner des instructions. N'allez pas chercher l'enfant de votre propre chef. Quiconque soustrait un enfant au parent habilité à déterminer son lieu de résidence, ou ne le ramène pas après une visite, peut se rendre punissable.",
+        "it": "Se l'altro genitore impedisce le visite regolate, documenti per iscritto gli appuntamenti mancati e si rivolga all'APMA. Essa può ammonire i genitori e impartire loro istruzioni. Non vada a prendere il figlio di propria iniziativa. Chi sottrae un figlio al genitore che ha il diritto di determinarne il luogo di dimora, o non lo riporta dopo una visita, può rendersi punibile.",
+        "rm": "Impedescha l'auter genitur las visitas reglads, notai per scrit ils termins mancads e As drizzai a la KESB. Ella po admonir ils geniturs e dar ad els instrucziuns. Na prendai betg l'uffant sin agen maun. Tgi che prenda in uffant al genitur che dastga determinar davart ses lieu da dimora, u che na al renda betg enavos suenter ina visita, po sa rendair culpabel.",
+        "en": "If the other parent prevents the arranged visits, record the missed appointments in writing and contact the KESB. It can warn the parents and give them instructions. Do not fetch the child on your own initiative. Anyone who removes a child from the parent entitled to decide where they stay, or who does not bring them back after a visit, can be committing a criminal offence."
       },
       "sources": [
         "zgb-273",
@@ -498,7 +750,11 @@
         ]
       },
       "text": {
-        "de": "Der Wille des Kindes zählt, aber das Kind entscheidet nicht allein, ob Kontakt stattfindet. Wie viel Gewicht seine Meinung hat, hängt vom Alter ab, davon, wie beständig es sie äussert, und ob es sie selbst gebildet hat. Ab etwa 12 Jahren gehen die Gerichte in der Regel davon aus, dass ein Kind sich dazu eine eigene Meinung bilden kann. Lehnt das Kind den Kontakt ab, wird geprüft, warum. Lehnt ein urteilsfähiges Kind den Kontakt wegen eigener Erfahrungen entschieden ab, wird er nicht erzwungen. Eine ablehnende Haltung allein bedeutet aber noch nicht, dass das Kind durch die Besuche gefährdet ist."
+        "de": "Der Wille des Kindes zählt, aber das Kind entscheidet nicht allein, ob Kontakt stattfindet. Wie viel Gewicht seine Meinung hat, hängt vom Alter ab, davon, wie beständig es sie äussert, und ob es sie selbst gebildet hat. Ab etwa 12 Jahren gehen die Gerichte in der Regel davon aus, dass ein Kind sich dazu eine eigene Meinung bilden kann. Lehnt das Kind den Kontakt ab, wird geprüft, warum. Lehnt ein urteilsfähiges Kind den Kontakt wegen eigener Erfahrungen entschieden ab, wird er nicht erzwungen. Eine ablehnende Haltung allein bedeutet aber noch nicht, dass das Kind durch die Besuche gefährdet ist.",
+        "fr": "La volonté de l'enfant compte, mais l'enfant ne décide pas seul si le contact a lieu. Le poids de son avis dépend de son âge, de la constance avec laquelle il l'exprime, et du fait qu'il se le soit forgé lui-même. À partir d'environ 12 ans, les tribunaux partent en règle générale du principe qu'un enfant peut se forger sa propre opinion à ce sujet. Si l'enfant refuse le contact, on examine pourquoi. Si un enfant capable de discernement refuse résolument le contact en raison de ses propres expériences, il n'est pas imposé. Une attitude de refus ne signifie toutefois pas encore, à elle seule, que l'enfant est mis en danger par les visites.",
+        "it": "La volontà del figlio conta, ma il figlio non decide da solo se il contatto abbia luogo. Il peso della sua opinione dipende dall'età, da quanto costantemente la esprime e dal fatto che se la sia formata da sé. A partire da circa 12 anni, i giudici presumono di regola che un figlio sia in grado di formarsi un'opinione propria al riguardo. Se il figlio rifiuta il contatto, si esamina perché. Se un figlio capace di discernimento rifiuta decisamente il contatto a causa di esperienze proprie, esso non viene imposto con la forza. Un atteggiamento di rifiuto da solo non significa però ancora che il figlio sia messo in pericolo dalle visite.",
+        "rm": "La voluntad da l'uffant conta, ma l'uffant na decida betg sulet, sch'in contact ha lieu. Quant pais ch'sia opiniun ha, dependa da l'età, da co constantamain ch'el la exprima e sch'el sa l'ha furmada sez. A partir d'circa 12 onns partan las dretgiras per regla dal fatg ch'in uffant sa po furmar sia atgna opiniun. Refusa l'uffant il contact, vegn examinà pertge. Refusa in uffant capabel da giudicar il contact decididamain pervia da sias atgnas experientschas, na vegn el betg sfurzà. Ina posiziun refusanta na signifitga dentant anc betg per sasez ch'l'uffant saja periclità tras las visitas.",
+        "en": "The child's wishes count, but the child does not decide alone whether contact takes place. How much weight their opinion carries depends on their age, on how consistently they express it, and on whether they formed it themselves. From around age 12, the courts generally assume that a child can form their own opinion on this. If the child refuses contact, the reason is examined. If a child capable of judgement firmly refuses contact because of their own experiences, it is not enforced. However, a refusing attitude alone does not yet mean that the child is endangered by the visits."
       },
       "sources": [
         "bger-5a-670-2023",
@@ -514,7 +770,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie konkrete Hinweise auf Gewalt, Missbrauch oder eine andere Gefahr für das Kind, wenden Sie sich sofort an die KESB. Sie kann den Kontakt einschränken, begleitete Besuche anordnen oder ihn aussetzen. In einer akuten Notlage rufen Sie die Polizei (117). Lassen Sie sich in dieser Lage rasch beraten, zum Beispiel bei einer Opferberatungsstelle."
+        "de": "Haben Sie konkrete Hinweise auf Gewalt, Missbrauch oder eine andere Gefahr für das Kind, wenden Sie sich sofort an die KESB. Sie kann den Kontakt einschränken, begleitete Besuche anordnen oder ihn aussetzen. In einer akuten Notlage rufen Sie die Polizei (117). Lassen Sie sich in dieser Lage rasch beraten, zum Beispiel bei einer Opferberatungsstelle.",
+        "fr": "Si vous avez des indices concrets de violence, d'abus ou d'un autre danger pour l'enfant, adressez-vous immédiatement à l'APEA. Elle peut restreindre le contact, ordonner des visites accompagnées ou le suspendre. En cas de détresse aiguë, appelez la police (117). Faites-vous rapidement conseiller dans cette situation, par exemple auprès d'un centre de consultation LAVI.",
+        "it": "Se ha indizi concreti di violenza, abuso o un altro pericolo per il figlio, si rivolga immediatamente all'APMA. Essa può limitare il contatto, ordinare visite accompagnate o sospenderlo. In una situazione di emergenza acuta chiami la polizia (117). In questa situazione si faccia consigliare rapidamente, per esempio presso un consultorio per l'aiuto alle vittime.",
+        "rm": "Avais Vus indizis concrets da violenza, abus u in'autra periclitaziun per l'uffant, As drizzai immediat a la KESB. Ella po restrenscher il contact, ordinar visitas accumpagnadas u sospender el. En ina situaziun d'urgenza acuta telefonai a la polizia (117). Laschai Vus cussegliar svelt en questa situaziun, per exempel tar ina posta da consulaziun per victimas.",
+        "en": "If you have concrete indications of violence, abuse or another danger to the child, contact the KESB immediately. It can restrict contact, order supervised visits or suspend it. In an acute emergency, call the police (117). Get advice quickly in this situation, for example from a victim support centre."
       },
       "sources": [
         "zgb-274",
@@ -531,7 +791,11 @@
         ]
       },
       "text": {
-        "de": "Die elterliche Sorge umfasst das Recht, zu bestimmen, wo das Kind wohnt. Bei gemeinsamer Sorge braucht ein Elternteil, der mit dem Kind umziehen will, die Zustimmung des anderen oder einen Entscheid des Gerichts oder der KESB, wenn das Kind ins Ausland ziehen soll oder wenn der Umzug die Betreuung oder den Kontakt durch den anderen Elternteil erheblich erschwert. Hat ein Elternteil die Sorge allein, darf er selbst entscheiden, muss den anderen aber rechtzeitig informieren. Das gilt auch, wenn ein Elternteil nur seinen eigenen Wohnsitz verlegt."
+        "de": "Die elterliche Sorge umfasst das Recht, zu bestimmen, wo das Kind wohnt. Bei gemeinsamer Sorge braucht ein Elternteil, der mit dem Kind umziehen will, die Zustimmung des anderen oder einen Entscheid des Gerichts oder der KESB, wenn das Kind ins Ausland ziehen soll oder wenn der Umzug die Betreuung oder den Kontakt durch den anderen Elternteil erheblich erschwert. Hat ein Elternteil die Sorge allein, darf er selbst entscheiden, muss den anderen aber rechtzeitig informieren. Das gilt auch, wenn ein Elternteil nur seinen eigenen Wohnsitz verlegt.",
+        "fr": "L'autorité parentale comprend le droit de déterminer le lieu de résidence de l'enfant. En cas d'autorité parentale conjointe, un parent qui veut déménager avec l'enfant a besoin de l'accord de l'autre, ou d'une décision du tribunal ou de l'APEA, si l'enfant doit déménager à l'étranger ou si le déménagement complique sensiblement la prise en charge ou le contact par l'autre parent. Si un parent a seul l'autorité parentale, il peut décider lui-même, mais doit informer l'autre en temps utile. Cela vaut aussi lorsqu'un parent transfère seulement son propre domicile.",
+        "it": "L'autorità parentale comprende il diritto di determinare dove vive il figlio. In caso di autorità parentale congiunta, il genitore che vuole trasferirsi con il figlio necessita del consenso dell'altro o di una decisione del giudice o dell'APMA, se il figlio deve trasferirsi all'estero o se il trasloco rende notevolmente più difficile la cura o il contatto da parte dell'altro genitore. Se un genitore ha l'autorità parentale esclusiva, può decidere da solo, ma deve informare tempestivamente l'altro. Questo vale anche se un genitore trasferisce soltanto il proprio domicilio.",
+        "rm": "La tgira genituriala cumpiglia il dretg da determinar, nua ch'il uffant vive. Tar tgira cuminaivla dovra in genitur che vul traslochar cun l'uffant il consentiment da l'auter u ina decisiun da la dretgira u da la KESB, sch'il uffant duess traslochar a l'exteriur u sch'il trasferiment aggreva considerablamain la tgira u il contact tras l'auter genitur. Ha in genitur la tgira sulet, dastga el decider sez, sto dentant infurmar l'auter a temp. Quai vala er, sch'in genitur transferescha mo ses agen domicil.",
+        "en": "Parental responsibility includes the right to decide where the child lives. Under joint responsibility, a parent who wants to move with the child needs the other's consent, or a decision of the court or the KESB, if the child is to move abroad or if the move considerably complicates care or contact by the other parent. If a parent has sole responsibility, they may decide themselves but must inform the other in good time. This also applies if a parent is only moving their own place of residence."
       },
       "sources": [
         "zgb-301a"
@@ -551,7 +815,11 @@
         ]
       },
       "text": {
-        "de": "Bei einem Umzug innerhalb der Schweiz kommt es vor allem darauf an, ob die bisherige Betreuung unverändert oder mit kleinen Anpassungen weitergehen kann. Bei alternierender Obhut kann schon eine kurze Distanz erheblich sein. Auch wenn der andere Elternteil das Kind regelmässig in die Krippe oder Schule bringt oder dort abholt, ist die Schwelle rasch erreicht."
+        "de": "Bei einem Umzug innerhalb der Schweiz kommt es vor allem darauf an, ob die bisherige Betreuung unverändert oder mit kleinen Anpassungen weitergehen kann. Bei alternierender Obhut kann schon eine kurze Distanz erheblich sein. Auch wenn der andere Elternteil das Kind regelmässig in die Krippe oder Schule bringt oder dort abholt, ist die Schwelle rasch erreicht.",
+        "fr": "En cas de déménagement à l'intérieur de la Suisse, ce qui compte surtout, c'est de savoir si la prise en charge actuelle peut se poursuivre sans changement ou avec de petits ajustements. En cas de garde alternée, une courte distance peut déjà être importante. Même lorsque l'autre parent amène ou va chercher régulièrement l'enfant à la crèche ou à l'école, le seuil est vite atteint.",
+        "it": "In caso di trasloco all'interno della Svizzera, conta soprattutto se la cura finora prestata possa proseguire invariata o con piccoli adeguamenti. In caso di custodia alternata, già una breve distanza può essere rilevante. Anche se l'altro genitore accompagna o va a prendere regolarmente il figlio all'asilo nido o a scuola, la soglia viene raggiunta rapidamente.",
+        "rm": "Tar in trasferiment entaifer la Svizra importa surtut, sche la tgira enfin qua po cuntinuar senza midada u cun pitschnas adattaziuns. Tar surveglianza alternada po gia ina curta distanza esser considerabla. Er sche l'auter genitur porta u fetscha l'uffant regularmain a la creche u a la scola, è la suglia svelt cuntanschida.",
+        "en": "For a move within Switzerland, what matters most is whether the existing care arrangement can continue unchanged or with small adjustments. With alternating care, even a short distance can be significant. The threshold is also reached quickly if the other parent regularly takes the child to, or collects them from, nursery or school."
       },
       "sources": [
         "zgb-301a",
@@ -576,7 +844,11 @@
         ]
       },
       "text": {
-        "de": "Gericht und KESB fragen nicht, ob es für das Kind besser wäre, wenn beide Eltern am bisherigen Ort blieben. Die Eltern dürfen grundsätzlich wegziehen, ihre Gründe werden in der Regel nicht geprüft. Entschieden wird, ob das Kind besser mit dem wegziehenden Elternteil geht oder beim anderen bleibt. Ausgangspunkt ist die bisherige Betreuung: Hat der wegziehende Elternteil das Kind bisher ganz oder überwiegend betreut, wird der Umzug meistens erlaubt. Haben beide etwa gleich viel betreut, entscheiden weitere Umstände wie Umfeld, Stabilität, Sprache, Schule, Gesundheit und die Meinung älterer Kinder. Zieht ein Elternteil ohne plausiblen Grund weg, nur um das Kind vom anderen zu entfremden, kann das dazu führen, dass das Kind beim anderen Elternteil bleibt."
+        "de": "Gericht und KESB fragen nicht, ob es für das Kind besser wäre, wenn beide Eltern am bisherigen Ort blieben. Die Eltern dürfen grundsätzlich wegziehen, ihre Gründe werden in der Regel nicht geprüft. Entschieden wird, ob das Kind besser mit dem wegziehenden Elternteil geht oder beim anderen bleibt. Ausgangspunkt ist die bisherige Betreuung: Hat der wegziehende Elternteil das Kind bisher ganz oder überwiegend betreut, wird der Umzug meistens erlaubt. Haben beide etwa gleich viel betreut, entscheiden weitere Umstände wie Umfeld, Stabilität, Sprache, Schule, Gesundheit und die Meinung älterer Kinder. Zieht ein Elternteil ohne plausiblen Grund weg, nur um das Kind vom anderen zu entfremden, kann das dazu führen, dass das Kind beim anderen Elternteil bleibt.",
+        "fr": "Le tribunal et l'APEA ne se demandent pas s'il serait préférable pour l'enfant que les deux parents restent au lieu actuel. Les parents peuvent en principe déménager, leurs motifs ne sont en règle générale pas examinés. Ce qui est décidé, c'est de savoir si l'enfant s'en sort mieux en partant avec le parent qui déménage ou en restant auprès de l'autre. Le point de départ est la prise en charge jusqu'ici : si le parent qui déménage a pris en charge l'enfant entièrement ou de manière prépondérante jusqu'ici, le déménagement est en général autorisé. Si les deux en ont assumé à peu près autant, d'autres circonstances sont décisives, comme l'environnement, la stabilité, la langue, l'école, la santé et l'avis des enfants plus âgés. Si un parent déménage sans motif plausible, uniquement pour éloigner l'enfant de l'autre, cela peut conduire à ce que l'enfant reste auprès de l'autre parent.",
+        "it": "Il giudice e l'APMA non si chiedono se per il figlio sarebbe meglio che entrambi i genitori restassero nel luogo finora abitato. I genitori possono in linea di principio trasferirsi altrove, e i loro motivi di regola non vengono esaminati. Si decide se sia meglio per il figlio seguire il genitore che si trasferisce o restare con l'altro. Il punto di partenza è la cura finora prestata: se il genitore che si trasferisce ha finora accudito il figlio interamente o prevalentemente, il trasloco viene di regola autorizzato. Se entrambi si sono occupati del figlio più o meno in eguale misura, decidono altre circostanze come l'ambiente, la stabilità, la lingua, la scuola, la salute e l'opinione dei figli più grandi. Se un genitore si trasferisce senza un motivo plausibile, solo per allontanare il figlio dall'altro, ciò può portare a far restare il figlio presso l'altro genitore.",
+        "rm": "Dretgira e KESB na dumondan betg, sch'igl fiss meglier per l'uffant, sche tuts dus geniturs restassan al lieu enfin qua. Ils geniturs dastgan per princip traslochar davent, lur motivs na vegnan per regla betg examinads. Decidì vegn, sch'il uffant va meglier cun il genitur che traslochescha davent u resta tar l'auter. Punct da partenza è la tgira enfin qua: ha il genitur che traslochescha davent tgirà l'uffant enfin qua entiramain u principalmain, vegn il trasferiment il pli savens permess. Han tuts dus tgirà bain il medem, decidan ulteriuras circumstanzas sco ambient, stabilitad, lingua, scola, sanadad e l'opiniun d'uffants pli vegls. Traslochescha in genitur davent senza motiv plausibel, mo per alienar l'uffant da l'auter, po quai manar tar il fatg ch'il uffant resta tar l'auter genitur.",
+        "en": "The court and the KESB do not ask whether it would be better for the child if both parents stayed in their current location. Parents may in principle move away; their reasons are generally not examined. What is decided is whether the child is better off going with the parent who is moving away or staying with the other. The starting point is the existing care arrangement: if the parent who is moving away has so far provided all or most of the care, the move is usually allowed. If both have provided roughly equal care, further circumstances decide, such as surroundings, stability, language, school, health, and the opinion of older children. If a parent moves away without a plausible reason, merely to alienate the child from the other parent, this can result in the child staying with the other parent."
       },
       "sources": [
         "zgb-301a",
@@ -602,7 +874,11 @@
         ]
       },
       "text": {
-        "de": "Ziehen Sie bei gemeinsamer Sorge nicht ohne Zustimmung des anderen Elternteils oder ohne Entscheid des Gerichts oder der KESB mit dem Kind ins Ausland. Ein solcher Wegzug gilt als widerrechtlich und kann ein Verfahren auf Rückführung des Kindes nach dem Haager Kindesentführungsübereinkommen auslösen. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt mitbestimmt, kann sich zudem strafbar machen. Planen Sie den Umzug früh und holen Sie die Zustimmung schriftlich ein."
+        "de": "Ziehen Sie bei gemeinsamer Sorge nicht ohne Zustimmung des anderen Elternteils oder ohne Entscheid des Gerichts oder der KESB mit dem Kind ins Ausland. Ein solcher Wegzug gilt als widerrechtlich und kann ein Verfahren auf Rückführung des Kindes nach dem Haager Kindesentführungsübereinkommen auslösen. Wer ein Kind dem Elternteil entzieht, der über seinen Aufenthalt mitbestimmt, kann sich zudem strafbar machen. Planen Sie den Umzug früh und holen Sie die Zustimmung schriftlich ein.",
+        "fr": "En cas d'autorité parentale conjointe, ne partez pas à l'étranger avec l'enfant sans l'accord de l'autre parent ou sans décision du tribunal ou de l'APEA. Un tel départ est considéré comme illicite et peut déclencher une procédure de retour de l'enfant fondée sur la Convention de La Haye sur l'enlèvement international d'enfants. Quiconque soustrait un enfant au parent qui a le droit de codéterminer son lieu de résidence peut en outre se rendre punissable. Planifiez le déménagement tôt et obtenez l'accord par écrit.",
+        "it": "In caso di autorità parentale congiunta, non si trasferisca all'estero con il figlio senza il consenso dell'altro genitore o senza una decisione del giudice o dell'APMA. Un simile trasferimento è considerato illecito e può dare avvio a una procedura di ritorno del figlio secondo la Convenzione dell'Aia sul rapimento internazionale di minori. Chi sottrae un figlio al genitore che concorre a determinarne il luogo di dimora può inoltre rendersi punibile. Pianifichi il trasloco per tempo e ottenga il consenso per scritto.",
+        "rm": "Tar tgira cuminaivla na traslochai betg cun l'uffant a l'exteriur senza il consentiment da l'auter genitur u senza ina decisiun da la dretgira u da la KESB. In tal partir vala sco illegal e po declanschar ina procedura da retorn da l'uffant tenor la Convenziun da Haia davart la sottraziun da uffants. Tgi che sottrai in uffant al genitur che decida cun davart ses lieu da dimora, po ultra da quai sa rendair culpabel. Planisai il trasferiment baud e procurai il consentiment per scrit.",
+        "en": "Under joint responsibility, do not move abroad with the child without the other parent's consent or a decision of the court or the KESB. Such a move is considered unlawful and can trigger proceedings for the child's return under the Hague Convention on Child Abduction. Anyone who removes a child from a parent who has a say in deciding where they stay can also be committing a criminal offence. Plan the move early and obtain consent in writing."
       },
       "sources": [
         "zgb-301a",
@@ -620,7 +896,11 @@
         ]
       },
       "text": {
-        "de": "Ein Umzug verlangt meist eine neue Regelung von Betreuung, Besuchsrecht und Unterhalt. Versuchen Sie zuerst, sich mit dem anderen Elternteil darüber zu einigen, und halten Sie die Einigung schriftlich fest. Gelingt das nicht, entscheidet das Gericht oder die KESB, in der Regel zusammen mit der Frage, ob der Umzug erlaubt wird."
+        "de": "Ein Umzug verlangt meist eine neue Regelung von Betreuung, Besuchsrecht und Unterhalt. Versuchen Sie zuerst, sich mit dem anderen Elternteil darüber zu einigen, und halten Sie die Einigung schriftlich fest. Gelingt das nicht, entscheidet das Gericht oder die KESB, in der Regel zusammen mit der Frage, ob der Umzug erlaubt wird.",
+        "fr": "Un déménagement exige en général une nouvelle réglementation de la prise en charge, du droit de visite et de l'entretien. Essayez d'abord de vous entendre à ce sujet avec l'autre parent, et consignez l'accord par écrit. Si cela n'aboutit pas, le tribunal ou l'APEA statue, en général en même temps que sur la question de savoir si le déménagement est autorisé.",
+        "it": "Un trasloco richiede di regola una nuova regolamentazione di cura, diritto di visita e mantenimento. Cerchi anzitutto di accordarsi al riguardo con l'altro genitore, e metta per iscritto l'accordo raggiunto. Se ciò non riesce, decide il giudice o l'APMA, di regola insieme alla questione se il trasloco sia autorizzato.",
+        "rm": "In trasferiment pretenda il pli savens ina nova reglaziun da tgira, dretg da visita e mantegniment. Empruvai empruma da As metter d'accord cun l'auter genitur davart quai, e notai l'entesa per scrit. Na reussescha quai betg, decida la dretgira u la KESB, per regla ensemen cun la dumonda, sch'il trasferiment vegn permess.",
+        "en": "A move usually calls for a new arrangement for care, contact and maintenance. First try to reach agreement with the other parent on this, and put the agreement in writing. If this does not succeed, the court or the KESB decides, usually together with the question of whether the move is allowed."
       },
       "sources": [
         "zgb-301a",
@@ -638,7 +918,11 @@
         ]
       },
       "text": {
-        "de": "Das Kind wird vom Gericht oder von der KESB oder von einer beauftragten Fachperson in geeigneter Form persönlich angehört, ausser sein Alter oder andere wichtige Gründe sprechen dagegen. Als Richtlinie ist eine Anhörung ab dem vollendeten sechsten Altersjahr möglich. Im Protokoll steht nur, was für den Entscheid wesentlich ist, und die Eltern werden darüber informiert. Vor Gericht findet die Anhörung nicht per Video statt. Ein urteilsfähiges Kind kann sich mit einer Beschwerde wehren, wenn es nicht angehört wird."
+        "de": "Das Kind wird vom Gericht oder von der KESB oder von einer beauftragten Fachperson in geeigneter Form persönlich angehört, ausser sein Alter oder andere wichtige Gründe sprechen dagegen. Als Richtlinie ist eine Anhörung ab dem vollendeten sechsten Altersjahr möglich. Im Protokoll steht nur, was für den Entscheid wesentlich ist, und die Eltern werden darüber informiert. Vor Gericht findet die Anhörung nicht per Video statt. Ein urteilsfähiges Kind kann sich mit einer Beschwerde wehren, wenn es nicht angehört wird.",
+        "fr": "L'enfant est entendu personnellement, sous une forme appropriée, par le tribunal, par l'APEA ou par une personne spécialisée mandatée, sauf si son âge ou d'autres motifs importants s'y opposent. À titre indicatif, une audition est possible dès l'âge de six ans révolus. Le procès-verbal ne contient que ce qui est essentiel pour la décision, et les parents en sont informés. Devant le tribunal, l'audition n'a pas lieu par vidéo. Un enfant capable de discernement peut se défendre par un recours s'il n'est pas entendu.",
+        "it": "Il figlio viene sentito personalmente dal giudice, dall'APMA o da una persona esperta incaricata, in forma adeguata, a meno che la sua età o altri motivi importanti non vi si oppongano. Come criterio orientativo, un'audizione è possibile a partire dal compimento del sesto anno di età. Nel verbale figura solo ciò che è rilevante per la decisione, e i genitori ne sono informati. Davanti al giudice l'audizione non si svolge per video. Un figlio capace di discernimento può difendersi con un reclamo se non viene sentito.",
+        "rm": "L'uffant vegn udì persunalmain en furma adequata da la dretgira, da la KESB u d'ina persuna spezialisada incumbensada, ausser che sia età u auters motivs impurtants sa drizzan cunter quai. Sco directiva è in'udida pussaivla a partir dal sisavel onn d'età cumplenì. En il protocol stat mo quai ch'è essenzial per la decisiun, ed ils geniturs vegnan infurmads da quai. Avant dretgira na ha l'udida betg lieu per video. In uffant capabel da giudicar po sa defender cun in recurs, sch'el na vegn betg udì.",
+        "en": "The child is heard in person, in an appropriate way, by the court, the KESB or a specialist instructed to do so, unless their age or other important reasons argue against it. As a guideline, a hearing is possible from the completed age of six. The record only contains what is material to the decision, and the parents are informed about it. Before a court, the hearing does not take place by video. A child capable of judgement can defend themselves with a complaint if they are not heard."
       },
       "sources": [
         "zpo-298",
@@ -655,7 +939,11 @@
         ]
       },
       "text": {
-        "de": "Auch ein jüngeres Kind kann angehört werden, wenn die Umstände es nahelegen, etwa wenn es kurz vor dem sechsten Geburtstag steht und seine älteren Geschwister angehört werden. Das Gericht oder die KESB entscheidet darüber."
+        "de": "Auch ein jüngeres Kind kann angehört werden, wenn die Umstände es nahelegen, etwa wenn es kurz vor dem sechsten Geburtstag steht und seine älteren Geschwister angehört werden. Das Gericht oder die KESB entscheidet darüber.",
+        "fr": "Un enfant plus jeune peut aussi être entendu si les circonstances le suggèrent, par exemple s'il est sur le point d'avoir six ans et que ses frères et sœurs plus âgés sont entendus. Le tribunal ou l'APEA en décide.",
+        "it": "Anche un figlio più piccolo può essere sentito se le circostanze lo suggeriscono, per esempio se è prossimo al sesto compleanno e i suoi fratelli o sorelle maggiori vengono sentiti. Decide al riguardo il giudice o l'APMA.",
+        "rm": "Er in uffant pli giuven po vegnir udì, sche las circumstanzas al sugerischan, per exempel sch'el stat curt avant il sisavel anniversari e ses fragliuns pli vegls vegnan udids. La dretgira u la KESB decida davart quai.",
+        "en": "A younger child, too, can be heard if the circumstances suggest it, for example if they are shortly before their sixth birthday and their older siblings are being heard. The court or the KESB decides on this."
       },
       "sources": [
         "zpo-298",
@@ -673,7 +961,11 @@
         ]
       },
       "text": {
-        "de": "Wenn nötig, erhält das Kind eine eigene Vertretung, eine in sozialen und rechtlichen Fragen erfahrene Person. Das wird vor allem geprüft, wenn die Eltern Unterschiedliches zur Sorge, zur Obhut, zu wichtigen Fragen des Kontakts oder zur Betreuung beantragen. Verlangt ein urteilsfähiges Kind vor Gericht eine Vertretung, muss sie angeordnet werden. Die Vertretung kann Anträge stellen und Rechtsmittel ergreifen."
+        "de": "Wenn nötig, erhält das Kind eine eigene Vertretung, eine in sozialen und rechtlichen Fragen erfahrene Person. Das wird vor allem geprüft, wenn die Eltern Unterschiedliches zur Sorge, zur Obhut, zu wichtigen Fragen des Kontakts oder zur Betreuung beantragen. Verlangt ein urteilsfähiges Kind vor Gericht eine Vertretung, muss sie angeordnet werden. Die Vertretung kann Anträge stellen und Rechtsmittel ergreifen.",
+        "fr": "Si nécessaire, l'enfant reçoit une représentation propre, une personne expérimentée dans les questions sociales et juridiques. Cela est examiné surtout lorsque les parents demandent des solutions différentes concernant l'autorité parentale, la garde, des questions importantes de contact ou la prise en charge. Si un enfant capable de discernement demande une représentation devant le tribunal, elle doit être ordonnée. Le représentant peut présenter des conclusions et exercer des moyens de droit.",
+        "it": "Se necessario, il figlio riceve una propria rappresentanza, una persona esperta in questioni sociali e giuridiche. Ciò viene esaminato soprattutto quando i genitori chiedono soluzioni diverse riguardo all'autorità parentale, alla custodia, a questioni importanti del contatto o alla cura. Se un figlio capace di discernimento chiede una rappresentanza davanti al giudice, essa deve essere ordinata. La rappresentanza può presentare richieste e interporre rimedi giuridici.",
+        "rm": "Sche necessari, survegn l'uffant sia atgna represchentanza, ina persuna experta en dumondas socialas e giuridicas. Quai vegn examinà surtut, sch'ils geniturs pretendan differentas chaussas davart tgira, surveglianza, dumondas impurtantas dal contact u tgira. Pretenda in uffant capabel da giudicar avant dretgira ina represchentanza, sto ella vegnir ordinada. La represchentanza po far dumondas e recurrer cun meds legals.",
+        "en": "If necessary, the child is given their own representative, a person experienced in social and legal matters. This is examined above all if the parents request different things on responsibility, day-to-day care, important questions of contact, or care arrangements. If a child capable of judgement asks for a representative before a court, one must be appointed. The representative can make requests and use legal remedies."
       },
       "sources": [
         "zpo-299",
@@ -689,7 +981,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie sich einig, halten Sie Ihre Regelung zu Sorge, Obhut, Betreuung, Kontakt und Unterhalt schriftlich fest und lassen Sie sie vom Gericht oder der KESB genehmigen. Nur eine genehmigte Regelung ist verbindlich und kann durchgesetzt werden. Das Gericht oder die KESB prüft, ob sie dem Wohl des Kindes entspricht."
+        "de": "Sind Sie sich einig, halten Sie Ihre Regelung zu Sorge, Obhut, Betreuung, Kontakt und Unterhalt schriftlich fest und lassen Sie sie vom Gericht oder der KESB genehmigen. Nur eine genehmigte Regelung ist verbindlich und kann durchgesetzt werden. Das Gericht oder die KESB prüft, ob sie dem Wohl des Kindes entspricht.",
+        "fr": "Si vous êtes d'accord, consignez par écrit votre réglementation sur l'autorité parentale, la garde, la prise en charge, le contact et l'entretien, et faites-la approuver par le tribunal ou par l'APEA. Seule une réglementation approuvée est contraignante et peut être exécutée. Le tribunal ou l'APEA examine si elle correspond au bien de l'enfant.",
+        "it": "Se siete d'accordo, mettete per scritto la vostra regolamentazione su autorità parentale, custodia, cura, contatto e mantenimento e fatela approvare dal giudice o dall'APMA. Solo una regolamentazione approvata è vincolante e può essere fatta valere. Il giudice o l'APMA esamina se essa corrisponde al bene del figlio.",
+        "rm": "Essas Vus d'accord, notai Vossa reglaziun davart tgira, surveglianza, tgira quotidiana, contact e mantegniment per scrit e laschai la approvar da la dretgira u da la KESB. Mo ina reglaziun approvada è obligatorica e po vegnir applitgada. La dretgira u la KESB examinescha, sch'ella correspunda al bainstar da l'uffant.",
+        "en": "If you agree, put your arrangement on responsibility, day-to-day care, care, contact and maintenance in writing and have it approved by the court or the KESB. Only an approved arrangement is binding and can be enforced. The court or the KESB checks whether it serves the best interests of the child."
       },
       "sources": [
         "zgb-133",
@@ -707,7 +1003,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie sich nicht einig, kann eine Mediation helfen, eine Lösung zu finden, mit der beide leben können. Gericht und KESB können die Eltern auffordern, eine Mediation zu versuchen. Eine Regelung, hinter der beide Eltern stehen, ist für das Kind meist besser als ein Entscheid gegen einen von Ihnen."
+        "de": "Sind Sie sich nicht einig, kann eine Mediation helfen, eine Lösung zu finden, mit der beide leben können. Gericht und KESB können die Eltern auffordern, eine Mediation zu versuchen. Eine Regelung, hinter der beide Eltern stehen, ist für das Kind meist besser als ein Entscheid gegen einen von Ihnen.",
+        "fr": "Si vous n'êtes pas d'accord, une médiation peut aider à trouver une solution avec laquelle les deux peuvent vivre. Le tribunal et l'APEA peuvent inviter les parents à essayer une médiation. Une réglementation soutenue par les deux parents est en général meilleure pour l'enfant qu'une décision prise contre l'un de vous.",
+        "it": "Se non siete d'accordo, una mediazione può aiutare a trovare una soluzione con cui entrambi possano convivere. Il giudice e l'APMA possono invitare i genitori a tentare una mediazione. Una regolamentazione sostenuta da entrambi i genitori è di regola migliore per il figlio di una decisione contro uno di voi.",
+        "rm": "Na essas Vus betg d'accord, po ina mediaziun gidar a chattar ina soluziun, cun la quala tuts dus pon viver. Dretgira e KESB pon pretender dals geniturs d'emprovar ina mediaziun. Ina reglaziun, davos la quala stattan tuts dus geniturs, è per l'uffant il pli savens meglra ch'ina decisiun cunter in da Vus.",
+        "en": "If you do not agree, mediation can help you find a solution you can both live with. The court and the KESB can invite the parents to try mediation. An arrangement that both parents stand behind is usually better for the child than a decision against one of you."
       },
       "sources": [
         "zpo-297",
@@ -725,7 +1025,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie verheiratet und leben getrennt oder läuft ein Scheidungsverfahren, regelt das Gericht im Eheschutz- oder Scheidungsverfahren die Kinderbelange: elterliche Sorge, Obhut, Kontakt oder Betreuungsanteile und Unterhalt. Es trifft auch nötige Schutzmassnahmen für das Kind. Die KESB bleibt zuständig, wenn sie schon vorher ein Verfahren begonnen hat oder wenn sofort gehandelt werden muss und das Gericht nicht rechtzeitig entscheiden kann."
+        "de": "Sind Sie verheiratet und leben getrennt oder läuft ein Scheidungsverfahren, regelt das Gericht im Eheschutz- oder Scheidungsverfahren die Kinderbelange: elterliche Sorge, Obhut, Kontakt oder Betreuungsanteile und Unterhalt. Es trifft auch nötige Schutzmassnahmen für das Kind. Die KESB bleibt zuständig, wenn sie schon vorher ein Verfahren begonnen hat oder wenn sofort gehandelt werden muss und das Gericht nicht rechtzeitig entscheiden kann.",
+        "fr": "Si vous êtes mariés et vivez séparés, ou si une procédure de divorce est en cours, le tribunal règle les questions concernant les enfants dans la procédure de protection de l'union conjugale ou de divorce : autorité parentale, garde, contact ou parts de prise en charge, et entretien. Il prend aussi les mesures de protection nécessaires pour l'enfant. L'APEA reste compétente si elle a déjà engagé une procédure auparavant, ou s'il faut agir immédiatement et que le tribunal ne peut pas statuer à temps.",
+        "it": "Se è sposato e vive separato, o se è in corso una procedura di divorzio, il giudice regola nella procedura di protezione dell'unione coniugale o di divorzio le questioni riguardanti i figli: autorità parentale, custodia, contatto o quote di cura e mantenimento. Adotta anche le necessarie misure di protezione per il figlio. L'APMA resta competente se ha già avviato in precedenza una procedura, oppure se occorre agire immediatamente e il giudice non può decidere in tempo.",
+        "rm": "Essas Vus maridads e vivais separads u curra ina procedura da divorzi, regla la dretgira en la procedura da protecziun da la cuminanza conjugala u da divorzi las dumondas dals uffants: tgira genituriala, surveglianza, contact u quotas da tgira e mantegniment. Ella prenda er las mesiras da protecziun necessarias per l'uffant. La KESB resta cumpetenta, sch'ella ha gia avant cumenzà ina procedura u sch'i sto vegnir agì immediat e la dretgira na po betg decider a temp.",
+        "en": "If you are married and living apart, or divorce proceedings are under way, the court settles the matters concerning the children in the proceedings on protective measures for the marital union or the divorce proceedings: parental responsibility, day-to-day care, contact or care shares, and maintenance. It also takes any necessary protective measures for the child. The KESB remains responsible if it has already started proceedings beforehand, or if immediate action is needed and the court cannot decide in time."
       },
       "sources": [
         "zgb-176",
@@ -744,7 +1048,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie geschieden und haben sich die Verhältnisse wesentlich verändert, kann die Regelung angepasst werden. Sind Sie sich einig, ist die KESB zuständig, um Sorge und Obhut neu zu regeln. Sonst entscheidet das Gericht, das für die Abänderung des Scheidungsurteils zuständig ist. Geht es nur um das Besuchsrecht oder die Betreuungsanteile und nicht auch um Sorge, Obhut oder Unterhalt, entscheidet die KESB."
+        "de": "Sind Sie geschieden und haben sich die Verhältnisse wesentlich verändert, kann die Regelung angepasst werden. Sind Sie sich einig, ist die KESB zuständig, um Sorge und Obhut neu zu regeln. Sonst entscheidet das Gericht, das für die Abänderung des Scheidungsurteils zuständig ist. Geht es nur um das Besuchsrecht oder die Betreuungsanteile und nicht auch um Sorge, Obhut oder Unterhalt, entscheidet die KESB.",
+        "fr": "Si vous êtes divorcés et que la situation a changé de manière importante, la réglementation peut être adaptée. Si vous êtes d'accord, l'APEA est compétente pour régler à nouveau l'autorité parentale et la garde. Sinon, c'est le tribunal compétent pour la modification du jugement de divorce qui statue. S'il s'agit seulement du droit de visite ou des parts de prise en charge, et non aussi de l'autorité parentale, de la garde ou de l'entretien, c'est l'APEA qui statue.",
+        "it": "Se è divorziato e le circostanze sono cambiate in modo rilevante, la regolamentazione può essere adeguata. Se siete d'accordo, è competente l'APMA per regolare di nuovo autorità parentale e custodia. Altrimenti decide il giudice competente per la modifica della sentenza di divorzio. Se si tratta solo del diritto di visita o delle quote di cura, e non anche di autorità parentale, custodia o mantenimento, decide l'APMA.",
+        "rm": "Essas Vus divorziads ed èn las circumstanzas sa midadas considerablamain, po la reglaziun vegnir adattada. Essas Vus d'accord, è la KESB cumpetenta per reglar da nov tgira e surveglianza. Autramain decida la dretgira ch'è cumpetenta per l'adattaziun da la sentenzia da divorzi. Sa tracta mo dal dretg da visita u da las quotas da tgira e betg er da tgira, surveglianza u mantegniment, decida la KESB.",
+        "en": "If you are divorced and circumstances have changed significantly, the arrangement can be adjusted. If you agree, the KESB has jurisdiction to settle responsibility and day-to-day care afresh. Otherwise, the court responsible for amending the divorce judgment decides. If it concerns only contact or care shares, and not also responsibility, day-to-day care or maintenance, the KESB decides."
       },
       "sources": [
         "zgb-134"
@@ -760,7 +1068,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie nicht verheiratet, ist für Sorge, Obhut, Besuchsrecht, Betreuungsanteile und Umzug die KESB am Wohnsitz des Kindes zuständig. Sie regelt diese Fragen neu, wenn sich die Verhältnisse wesentlich verändert haben. Ist aber auch der Kindesunterhalt strittig und wird dafür beim Gericht geklagt, entscheidet das Gericht über alle Kinderbelange."
+        "de": "Sind Sie nicht verheiratet, ist für Sorge, Obhut, Besuchsrecht, Betreuungsanteile und Umzug die KESB am Wohnsitz des Kindes zuständig. Sie regelt diese Fragen neu, wenn sich die Verhältnisse wesentlich verändert haben. Ist aber auch der Kindesunterhalt strittig und wird dafür beim Gericht geklagt, entscheidet das Gericht über alle Kinderbelange.",
+        "fr": "Si vous n'êtes pas mariés, l'APEA du domicile de l'enfant est compétente pour l'autorité parentale, la garde, le droit de visite, les parts de prise en charge et le déménagement. Elle règle à nouveau ces questions si la situation a changé de manière importante. Mais si l'entretien de l'enfant est aussi litigieux et qu'une action est intentée à ce sujet devant le tribunal, celui-ci statue sur toutes les questions concernant les enfants.",
+        "it": "Se non è sposato, per autorità parentale, custodia, diritto di visita, quote di cura e trasloco è competente l'APMA del domicilio del figlio. Essa regola nuovamente queste questioni se le circostanze sono cambiate in modo rilevante. Se però è controverso anche il mantenimento del figlio e per questo viene promossa un'azione davanti al giudice, il giudice decide su tutte le questioni riguardanti i figli.",
+        "rm": "Sche Vus n'essas betg maridads, è per tgira, surveglianza, dretg da visita, quotas da tgira e trasferiment da domicil cumpetenta la KESB dal domicil da l'uffant. Ella regla da nov questas dumondas, sche las circumstanzas èn sa midadas considerablamain. È dentant er il mantegniment da l'uffant litigius e vegn planidà per quai tar la dretgira, decida la dretgira davart tut las dumondas dals uffants.",
+        "en": "If you are not married, the KESB at the child's domicile has jurisdiction for responsibility, day-to-day care, contact, care shares and moving. It resolves these questions afresh if circumstances have changed significantly. However, if child maintenance is also disputed and an action is brought before the court for it, the court decides on all matters concerning the children."
       },
       "sources": [
         "zgb-298b",
@@ -772,7 +1084,11 @@
       "id": "appeal",
       "kind": "rule",
       "text": {
-        "de": "Gegen einen Endentscheid der KESB können Sie innert 30 Tagen, seit er Ihnen mitgeteilt wurde, schriftlich und begründet Beschwerde beim zuständigen kantonalen Gericht erheben. Gegen einen Endentscheid des Gerichts in Kinderbelangen beträgt die Frist für die Berufung in der Regel ebenfalls 30 Tage. Kürzer ist die Frist bei vorsorglichen Massnahmen, also bei Anordnungen, die nur für die Dauer des Verfahrens gelten: Gegen solche Entscheide der KESB müssen Sie innert 10 Tagen Beschwerde erheben, und auch bei vorsorglichen Massnahmen eines Gerichts kann die Frist nur 10 Tage betragen. Im summarischen Verfahren, zum Beispiel im Eheschutz, gibt es keine Gerichtsferien: Die Frist läuft auch über Ostern, im Sommer und über Weihnachten weiter. Lesen Sie deshalb sofort die Rechtsmittelbelehrung am Ende des Entscheids. Sie nennt die Frist und die Stelle, bei der Sie das Rechtsmittel einreichen. Die Frist läuft auch, wenn Sie noch keine Beratung haben."
+        "de": "Gegen einen Endentscheid der KESB können Sie innert 30 Tagen, seit er Ihnen mitgeteilt wurde, schriftlich und begründet Beschwerde beim zuständigen kantonalen Gericht erheben. Gegen einen Endentscheid des Gerichts in Kinderbelangen beträgt die Frist für die Berufung in der Regel ebenfalls 30 Tage. Kürzer ist die Frist bei vorsorglichen Massnahmen, also bei Anordnungen, die nur für die Dauer des Verfahrens gelten: Gegen solche Entscheide der KESB müssen Sie innert 10 Tagen Beschwerde erheben, und auch bei vorsorglichen Massnahmen eines Gerichts kann die Frist nur 10 Tage betragen. Im summarischen Verfahren, zum Beispiel im Eheschutz, gibt es keine Gerichtsferien: Die Frist läuft auch über Ostern, im Sommer und über Weihnachten weiter. Lesen Sie deshalb sofort die Rechtsmittelbelehrung am Ende des Entscheids. Sie nennt die Frist und die Stelle, bei der Sie das Rechtsmittel einreichen. Die Frist läuft auch, wenn Sie noch keine Beratung haben.",
+        "fr": "Contre une décision finale de l'APEA, vous pouvez déposer un recours écrit et motivé auprès du tribunal cantonal compétent dans les 30 jours suivant sa notification. Contre une décision finale du tribunal en matière d'enfants, le délai d'appel est en règle générale également de 30 jours. Le délai est plus court pour les mesures provisionnelles, c'est-à-dire pour les ordonnances qui ne valent que pour la durée de la procédure : contre de telles décisions de l'APEA, vous devez recourir dans les 10 jours, et le délai peut aussi n'être que de 10 jours pour des mesures provisionnelles d'un tribunal. Dans la procédure sommaire, par exemple en matière de protection de l'union conjugale, il n'y a pas de féries judiciaires : le délai court aussi pendant Pâques, en été et pendant Noël. Lisez donc immédiatement l'indication des voies de droit à la fin de la décision. Elle indique le délai et l'autorité auprès de laquelle déposer le moyen de droit. Le délai court même si vous n'avez pas encore de conseil juridique.",
+        "it": "Contro una decisione finale dell'APMA può interporre reclamo scritto e motivato al giudice cantonale competente entro 30 giorni da quando le è stata comunicata. Contro una decisione finale del giudice in materia di figli, il termine per l'appello è di regola parimenti di 30 giorni. Più breve è il termine per i provvedimenti cautelari, ossia per le disposizioni valide solo per la durata della procedura: contro simili decisioni dell'APMA deve interporre reclamo entro 10 giorni, e anche per i provvedimenti cautelari di un giudice il termine può essere solo di 10 giorni. Nella procedura sommaria, per esempio nella protezione dell'unione coniugale, non vi è sospensione dei termini: il termine decorre anche a Pasqua, in estate e a Natale. Legga quindi subito l'indicazione dei rimedi giuridici alla fine della decisione. Essa indica il termine e l'autorità presso cui presentare il rimedio giuridico. Il termine decorre anche se non ha ancora ricevuto una consulenza.",
+        "rm": "Cunter ina decisiun finala da la KESB pudais Vus far recurs per scrit e motivà a la dretgira chantunala cumpetenta entaifer 30 dis, dapi ch'ella As è vegnida communitgada. Cunter ina decisiun finala da la dretgira en dumondas dals uffants importa il termin per l'appellaziun per regla er 30 dis. Pli curt è il termin tar mesiras provisionalas, dunca tar disposiziuns che valan mo per la durada da la procedura: cunter talas decisiuns da la KESB stuais Vus far recurs entaifer 10 dis, ed er tar mesiras provisionalas d'ina dretgira po il termin importar mo 10 dis. En la procedura summarica, per exempel en la protecziun da la cuminanza conjugala, na datti naginas vacanzas da dretgira: il termin curra vinavant er sur Pasqua, en stad e sur Nadal. Legiai percunquai immediat l'indicaziun dals meds legals a la fin da la decisiun. Ella numna il termin e la posta, tar la quala Vus inoltrais il med legal. Il termin curra er, sche Vus n'avais anc nagina consulaziun.",
+        "en": "Against a final decision of the KESB, you can file a written and reasoned complaint (Beschwerde) with the competent cantonal court within 30 days of being notified of it. Against a final decision of the court on matters concerning children, the deadline for an appeal (Berufung) is usually also 30 days. The deadline is shorter for provisional measures, that is, orders that only apply for the duration of the proceedings: against such decisions of the KESB, you must file a complaint within 10 days, and the deadline for provisional measures of a court, too, can be only 10 days. In the summary procedure, for example in proceedings on protective measures for the marital union, there is no court recess: the deadline keeps running over Easter, in summer and over Christmas as well. So read the notice of legal remedies at the end of the decision immediately. It states the deadline and the body with which you must file the legal remedy. The deadline runs even if you do not yet have advice."
       },
       "sources": [
         "zgb-314",
@@ -788,7 +1104,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Welche Gebühren die KESB verlangt, bestimmt jeder Kanton selbst. Vor Gericht kann das Gericht die Kosten in familienrechtlichen Verfahren nach Ermessen verteilen und muss sie nicht einfach der unterliegenden Seite auferlegen. Hinzu kommen allenfalls Anwaltskosten. Fehlen Ihnen die Mittel und ist Ihr Anliegen nicht aussichtslos, haben Sie vor Gericht und vor Behörden wie der KESB Anspruch auf unentgeltliche Rechtspflege und, wenn es nötig ist, auf eine unentgeltliche Anwältin oder einen unentgeltlichen Anwalt."
+        "de": "Welche Gebühren die KESB verlangt, bestimmt jeder Kanton selbst. Vor Gericht kann das Gericht die Kosten in familienrechtlichen Verfahren nach Ermessen verteilen und muss sie nicht einfach der unterliegenden Seite auferlegen. Hinzu kommen allenfalls Anwaltskosten. Fehlen Ihnen die Mittel und ist Ihr Anliegen nicht aussichtslos, haben Sie vor Gericht und vor Behörden wie der KESB Anspruch auf unentgeltliche Rechtspflege und, wenn es nötig ist, auf eine unentgeltliche Anwältin oder einen unentgeltlichen Anwalt.",
+        "fr": "Chaque canton fixe lui-même les émoluments perçus par l'APEA. Devant le tribunal, celui-ci peut répartir les frais selon son appréciation dans les procédures de droit de la famille, et n'a pas à les mettre simplement à la charge de la partie qui succombe. S'y ajoutent le cas échéant des frais d'avocat. Si vous manquez de moyens et que votre cause n'est pas dénuée de chances de succès, vous avez droit, devant le tribunal et devant des autorités comme l'APEA, à l'assistance judiciaire et, si nécessaire, à une avocate ou un avocat d'office.",
+        "it": "Quali emolumenti riscuota l'APMA lo stabilisce ogni Cantone. Davanti al giudice, nelle procedure di diritto di famiglia, il giudice può ripartire le spese secondo il proprio apprezzamento e non deve semplicemente addossarle alla parte soccombente. A ciò si aggiungono eventualmente le spese legali. Se le mancano i mezzi e la sua richiesta non appare priva di probabilità di successo, ha diritto, davanti al giudice e davanti ad autorità come l'APMA, al gratuito patrocinio e, se necessario, a un'avvocata o un avvocato d'ufficio.",
+        "rm": "Tge taxas che la KESB pretenda, determinescha mintga chantun sez. Avant dretgira po la dretgira repartir ils custs en proceduras dal dretg da famiglia tenor appreziament e n'ha betg simplamain da chargiar els a la part che perda. Sur da quai vegnan eventualmain custs d'advocat. Sche a Vus mancan ils mezs e Voss dumonda n'è betg senza schanza, avais Vus avant dretgira ed avant autoritads sco la KESB dretg a la giurisdicziun gratuita e, sch'igl è necessari, ad in'advocata gratuita u in advocat gratuit.",
+        "en": "Which fees the KESB charges is decided by each canton itself. Before a court, in family law proceedings the court can allocate the costs at its discretion and does not simply have to impose them on the losing side. There may also be lawyer's costs. If you lack the means and your matter is not hopeless, you are entitled, before the court and before authorities such as the KESB, to legal aid and, if necessary, to a lawyer appointed under legal aid."
       },
       "sources": [
         "zpo-107",
@@ -800,14 +1120,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der andere Elternteil die Alleinsorge verlangt, wenn ein Umzug ins Ausland im Raum steht oder das Kind bereits ohne Zustimmung weggebracht wurde, wenn Besuche seit längerem verhindert werden, wenn Sie Gewalt befürchten oder wenn Sie einen Entscheid der KESB oder des Gerichts anfechten wollen. Beachten Sie die Rechtsmittelfrist."
+        "de": "Holen Sie persönliche Beratung, wenn der andere Elternteil die Alleinsorge verlangt, wenn ein Umzug ins Ausland im Raum steht oder das Kind bereits ohne Zustimmung weggebracht wurde, wenn Besuche seit längerem verhindert werden, wenn Sie Gewalt befürchten oder wenn Sie einen Entscheid der KESB oder des Gerichts anfechten wollen. Beachten Sie die Rechtsmittelfrist.",
+        "fr": "Demandez un conseil personnalisé si l'autre parent réclame l'autorité parentale exclusive, si un déménagement à l'étranger est envisagé ou que l'enfant a déjà été emmené sans accord, si les visites sont empêchées depuis longtemps, si vous craignez de la violence, ou si vous voulez contester une décision de l'APEA ou du tribunal. Respectez le délai de recours.",
+        "it": "Si faccia consigliare personalmente se l'altro genitore chiede l'autorità parentale esclusiva, se si prospetta un trasloco all'estero o il figlio è già stato portato via senza consenso, se le visite vengono impedite da tempo, se teme violenza, oppure se vuole impugnare una decisione dell'APMA o del giudice. Osservi il termine per il rimedio giuridico.",
+        "rm": "Retschertgai consulaziun persunala, sche l'auter genitur pretenda la tgira exclusiva, sche in trasferiment a l'exteriur è en discussiun u l'uffant è gia vegnì manà davent senza consentiment, sche visitas vegnan impedidas dapi pli lung temp, sche Vus temais violenza u sche Vus vulais contestar ina decisiun da la KESB u da la dretgira. Resguardai il termin per il med legal.",
+        "en": "Get personal advice if the other parent is asking for sole responsibility, if a move abroad is being considered or the child has already been taken away without consent, if visits have been prevented for some time, if you fear violence, or if you want to challenge a decision of the KESB or the court. Note the deadline for the legal remedy."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die KESB berät Eltern, zum Beispiel vor der Erklärung über die gemeinsame Sorge. Viele Gemeinden und Kantone haben Familien-, Erziehungs- oder Elternberatungsstellen und Mediationsangebote. Opferberatungsstellen helfen bei häuslicher Gewalt. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Welche Stellen es in Ihrem Kanton gibt, erfahren Sie bei der KESB oder auf der Website Ihres Kantons."
+        "de": "Kostenlose oder günstige Hilfe: Die KESB berät Eltern, zum Beispiel vor der Erklärung über die gemeinsame Sorge. Viele Gemeinden und Kantone haben Familien-, Erziehungs- oder Elternberatungsstellen und Mediationsangebote. Opferberatungsstellen helfen bei häuslicher Gewalt. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Welche Stellen es in Ihrem Kanton gibt, erfahren Sie bei der KESB oder auf der Website Ihres Kantons.",
+        "fr": "Aide gratuite ou à faible coût : l'APEA conseille les parents, par exemple avant la déclaration relative à l'autorité parentale conjointe. De nombreuses communes et cantons disposent de services de consultation familiale, éducative ou parentale et d'offres de médiation. Les centres de consultation LAVI aident en cas de violence domestique. De nombreux cantons et associations d'avocats offrent une consultation juridique gratuite. Vous apprendrez quels services existent dans votre canton auprès de l'APEA ou sur le site internet de votre canton.",
+        "it": "Aiuto gratuito o a basso costo: l'APMA consiglia i genitori, per esempio prima della dichiarazione sull'autorità parentale congiunta. Molti Comuni e Cantoni dispongono di consultori familiari, educativi o per genitori e di offerte di mediazione. I consultori per l'aiuto alle vittime aiutano in caso di violenza domestica. Molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita. Quali servizi esistano nel suo Cantone lo può sapere presso l'APMA o sul sito web del suo Cantone.",
+        "rm": "Agid gratuit u avantagius: La KESB cusseglia geniturs, per exempel avant la decleraziun davart la tgira cuminaivla. Blers vischnancas e chantuns han postas da consulaziun per famiglias, per educaziun u per geniturs sco er offertas da mediaziun. Postas da consulaziun per victimas gidan en cas da violenza domestica. Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita. Tge postas ch'existan en Voss chantun, savais Vus tar la KESB u sin il sit web da Voss chantun.",
+        "en": "Free or low-cost help: the KESB advises parents, for example before the declaration on joint responsibility. Many municipalities and cantons have family, parenting or parental counselling centres and mediation services. Victim support centres help with domestic violence. Many cantons and bar associations offer free legal information. You can find out what services exist in your canton from the KESB or on your canton's website."
       }
     }
   ],
@@ -1163,13 +1491,21 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Elterliche Sorge bei verheirateten und nicht verheirateten Paaren"
+        "de": "ch.ch: Elterliche Sorge bei verheirateten und nicht verheirateten Paaren",
+        "fr": "ch.ch : Autorité parentale pour les couples mariés et non mariés",
+        "it": "ch.ch: L'autorità parentale nelle coppie sposate e non sposate",
+        "rm": "ch.ch: Tgira genituriala tar coppias maridadas e betg maridadas",
+        "en": "ch.ch: Parental responsibility for married and unmarried couples"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/mutterschaft-und-vaterschaft/schwangerschaft-und-geburt/elterliche-sorge-nicht-verheiratete-eltern/"
     },
     {
       "label": {
-        "de": "ch.ch: Die Folgen einer Scheidung"
+        "de": "ch.ch: Die Folgen einer Scheidung",
+        "fr": "ch.ch : Les conséquences d'un divorce",
+        "it": "ch.ch: Le conseguenze di un divorzio",
+        "rm": "ch.ch: Las consequenzas d'in divorzi",
+        "en": "ch.ch: The consequences of a divorce"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/scheidung/folgen-einer-scheidung/"
     }

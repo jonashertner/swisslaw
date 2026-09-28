@@ -6,10 +6,18 @@
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich hatte einen Unfall. Was zahlt die Unfallversicherung?"
+    "de": "Ich hatte einen Unfall. Was zahlt die Unfallversicherung?",
+    "fr": "J’ai eu un accident. Que paie l’assurance-accidents ?",
+    "it": "Ho avuto un infortunio. Cosa paga l'assicurazione contro gli infortuni?",
+    "rm": "Jau hai avì in accident. Tge paja l'assicuranza cunter accidents?",
+    "en": "I had an accident. What does the accident insurance pay?"
   },
   "summary": {
-    "de": "Wer in der Schweiz angestellt ist, ist über den Arbeitgeber obligatorisch gegen Unfälle versichert: bei der Arbeit immer, in der Freizeit, wenn Sie bei diesem Arbeitgeber mindestens acht Stunden pro Woche arbeiten. Melden Sie den Unfall sofort dem Arbeitgeber. Die Unfallversicherung bezahlt die Heilbehandlung und ab dem dritten Tag nach dem Unfalltag ein Taggeld von 80 Prozent des versicherten Lohnes. Gegen einen Entscheid, mit dem Sie nicht einverstanden sind, können Sie innert 30 Tagen kostenlos Einsprache erheben."
+    "de": "Wer in der Schweiz angestellt ist, ist über den Arbeitgeber obligatorisch gegen Unfälle versichert: bei der Arbeit immer, in der Freizeit, wenn Sie bei diesem Arbeitgeber mindestens acht Stunden pro Woche arbeiten. Melden Sie den Unfall sofort dem Arbeitgeber. Die Unfallversicherung bezahlt die Heilbehandlung und ab dem dritten Tag nach dem Unfalltag ein Taggeld von 80 Prozent des versicherten Lohnes. Gegen einen Entscheid, mit dem Sie nicht einverstanden sind, können Sie innert 30 Tagen kostenlos Einsprache erheben.",
+    "fr": "Quiconque est employé en Suisse est assuré obligatoirement contre les accidents par l’intermédiaire de l’employeur : toujours au travail, et pendant les loisirs si vous travaillez au moins huit heures par semaine chez cet employeur. Annoncez l’accident immédiatement à votre employeur. L’assurance-accidents paie le traitement médical et, dès le troisième jour après le jour de l’accident, une indemnité journalière de 80 % du salaire assuré. Vous pouvez former opposition gratuitement dans les 30 jours contre une décision avec laquelle vous n’êtes pas d’accord.",
+    "it": "Chi è impiegato in Svizzera è obbligatoriamente assicurato contro gli infortuni tramite il datore di lavoro: sul lavoro sempre, nel tempo libero se lavora presso questo datore di lavoro almeno otto ore alla settimana. Annunci subito l'infortunio al datore di lavoro. L'assicurazione contro gli infortuni paga la cura medica e, a partire dal terzo giorno dopo il giorno dell'infortunio, un'indennità giornaliera dell'80 per cento del salario assicurato. Contro una decisione con cui non è d'accordo può fare opposizione gratuitamente entro 30 giorni.",
+    "rm": "Tgi che è occupà en Svizra, è tras il patrun obligatoriamain assicurà cunter accidents: en la lavur adina, en il temp liber, sch'Vus lavurais tar quest patrun almain otg uras per emna. Annunziai l'accident immediat al patrun. L'assicuranza cunter accidents paja il tractament medical e, dapi il terz di suenter il di da l'accident, ina diaria da 80 pertschient dal salari assicurà. Cunter ina decisiun, cun la quala Vus n'essas betg d'accord, pudais Vus far opposiziun gratuitamain entaifer 30 dis.",
+    "en": "If you are employed in Switzerland, you are compulsorily insured against accidents through your employer: always at work, and in your free time if you work at least eight hours a week for that employer. Report the accident to your employer immediately. The accident insurance pays for medical treatment and, from the third day after the day of the accident, a daily allowance of 80 percent of your insured earnings. You can object free of charge, within 30 days, to a decision you disagree with."
   },
   "examples": {
     "de": [
@@ -19,45 +27,105 @@
       "I bi bim Schaffe umkeit und cha nüm schaffe, wer zahlt mer de Lohn?",
       "Die Unfallversicherung kürzt mein Taggeld wegen grober Fahrlässigkeit",
       "Ich arbeite nur ein paar Stunden pro Woche. Bin ich in der Freizeit gegen Unfall versichert?"
+    ],
+    "fr": [
+      "J’ai eu un accident, que paie l’assurance-accidents ?",
+      "Je me suis blessé en faisant du sport pendant mes loisirs, suis-je assuré par l’intermédiaire de mon employeur ?",
+      "La Suva ne veut pas prendre en charge ma déchirure du ménisque, que puis-je faire ?",
+      "Je suis tombé au travail et je ne peux plus travailler, qui me paie mon salaire ?",
+      "L’assurance-accidents réduit mon indemnité journalière pour négligence grave",
+      "Je ne travaille que quelques heures par semaine. Suis-je assuré contre les accidents pendant mes loisirs ?"
+    ],
+    "it": [
+      "Ho avuto un infortunio. Cosa paga l'assicurazione contro gli infortuni?",
+      "Ho avuto un infortunio nel tempo libero facendo sport, sono assicurato tramite il datore di lavoro?",
+      "La Suva non vuole assumersi la mia lacerazione del menisco, cosa posso fare?",
+      "Sono caduto mentre lavoravo e non riesco più a lavorare, chi mi paga il salario?",
+      "L'assicurazione contro gli infortuni riduce la mia indennità giornaliera per colpa grave",
+      "Lavoro solo poche ore alla settimana. Sono assicurato contro gli infortuni nel tempo libero?"
+    ],
+    "rm": [
+      "Jau hai avì in accident. Tge paja l'assicuranza cunter accidents?",
+      "Jau hai avì in accident durant il sport en il temp liber, sun jau assicurà tras il patrun?",
+      "La Suva na vul betg surpigliar mia rupziun dal menisc, tge poss jau far?",
+      "Jau sun crudà tar la lavur e na poss betg pli lavurar, tgi paja mo il salari?",
+      "L'assicuranza cunter accidents reducescha mia diaria pervia da grava negligenza.",
+      "Jau lavur mo intginas uras per emna. Sun jau assicurà en il temp liber cunter accident?"
+    ],
+    "en": [
+      "I had an accident. What does the accident insurance pay?",
+      "I had an accident playing sport in my free time, am I insured through my employer?",
+      "Suva won't cover my torn meniscus, what can I do?",
+      "I fell over at work and can't work any more, who pays my wages?",
+      "The accident insurance is reducing my daily allowance because of gross negligence",
+      "I only work a few hours a week, am I insured against accidents in my free time?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Berufsunfälle und Nichtberufsunfälle von Arbeitnehmerinnen und Arbeitnehmern, die in der Schweiz beschäftigt sind, und die Leistungen der obligatorischen Unfallversicherung: Meldung, Heilbehandlung, Taggeld, Kürzungen, Einsprache und Beschwerde."
+      "de": "Berufsunfälle und Nichtberufsunfälle von Arbeitnehmerinnen und Arbeitnehmern, die in der Schweiz beschäftigt sind, und die Leistungen der obligatorischen Unfallversicherung: Meldung, Heilbehandlung, Taggeld, Kürzungen, Einsprache und Beschwerde.",
+      "fr": "Les accidents professionnels et non professionnels des travailleuses et travailleurs employés en Suisse, ainsi que les prestations de l’assurance-accidents obligatoire : annonce, traitement médical, indemnité journalière, réductions, opposition et recours.",
+      "it": "Gli infortuni professionali e non professionali di lavoratrici e lavoratori impiegati in Svizzera, e le prestazioni dell'assicurazione obbligatoria contro gli infortuni: annuncio, cura medica, indennità giornaliera, riduzioni, opposizione e ricorso.",
+      "rm": "Accidents professionals e betg professionals da lavurants, occupads en Svizra, e las prestaziuns da l'assicuranza obligatorica cunter accidents: annunzia, tractament medical, diaria, reducziuns, opposiziun e recurs.",
+      "en": "Occupational and non-occupational accidents suffered by employees working in Switzerland, and the benefits of the compulsory accident insurance: reporting, medical treatment, daily allowance, reductions, objection and appeal."
     },
     "excludes": {
-      "de": "Selbständigerwerbende, arbeitslose Personen, Berufskrankheiten, die genaue Berechnung von Invalidenrenten und Integritätsentschädigungen, Unfälle im Militärdienst sowie Haftpflichtansprüche gegen die Person, die den Unfall verursacht hat."
+      "de": "Selbständigerwerbende, arbeitslose Personen, Berufskrankheiten, die genaue Berechnung von Invalidenrenten und Integritätsentschädigungen, Unfälle im Militärdienst sowie Haftpflichtansprüche gegen die Person, die den Unfall verursacht hat.",
+      "fr": "Les indépendants, les personnes au chômage, les maladies professionnelles, le calcul précis des rentes d’invalidité et des indemnités pour atteinte à l’intégrité, les accidents survenus pendant le service militaire, ainsi que les prétentions en responsabilité civile contre la personne qui a causé l’accident.",
+      "it": "Le persone con attività lucrativa indipendente, le persone disoccupate, le malattie professionali, il calcolo esatto delle rendite d'invalidità e delle indennità per menomazione dell'integrità, gli infortuni durante il servizio militare, nonché le pretese di responsabilità civile contro la persona che ha causato l'infortunio.",
+      "rm": "Persunas che exercitan in'activitad independenta, persunas senza lavur, malsognas professionalas, il calcul exact da rentas d'invaliditad e d'indemnisaziuns d'integritad, accidents durant il servetsch militar sco er pretensiuns da responsabladad cunter la persuna, che ha chaschunà l'accident.",
+      "en": "Self-employed people, unemployed people, occupational diseases, the exact calculation of disability pensions and impairment benefits, accidents during military service, and liability claims against the person who caused the accident."
     }
   },
   "facts": [
     {
       "key": "accident_place",
       "question": {
-        "de": "Wo ist der Unfall passiert?"
+        "de": "Wo ist der Unfall passiert?",
+        "fr": "Où l’accident s’est-il produit ?",
+        "it": "Dove è successo l'infortunio?",
+        "rm": "Nua è succedì l'accident?",
+        "en": "Where did the accident happen?"
       },
       "options": [
         {
           "value": "work",
           "label": {
-            "de": "Bei der Arbeit oder in einer Pause auf dem Arbeitsgelände"
+            "de": "Bei der Arbeit oder in einer Pause auf dem Arbeitsgelände",
+            "fr": "Au travail ou pendant une pause sur le lieu de travail",
+            "it": "Sul lavoro o durante una pausa sul luogo di lavoro",
+            "rm": "Tar la lavur u en ina pausa sin il terrain da lavur",
+            "en": "At work or during a break on the work premises"
           }
         },
         {
           "value": "commute",
           "label": {
-            "de": "Auf dem Weg zur Arbeit oder nach Hause"
+            "de": "Auf dem Weg zur Arbeit oder nach Hause",
+            "fr": "Sur le trajet vers le travail ou vers le domicile",
+            "it": "Sul tragitto per recarsi al lavoro o per tornare a casa",
+            "rm": "Sin la via a la lavur u a chasa",
+            "en": "On the way to work or home"
           }
         },
         {
           "value": "leisure",
           "label": {
-            "de": "In der Freizeit, zum Beispiel beim Sport, im Haushalt oder im Verkehr"
+            "de": "In der Freizeit, zum Beispiel beim Sport, im Haushalt oder im Verkehr",
+            "fr": "Pendant les loisirs, par exemple en faisant du sport, dans le ménage ou dans la circulation",
+            "it": "Nel tempo libero, per esempio facendo sport, in casa o nel traffico",
+            "rm": "En il temp liber, per exempel en il sport, en il chasau u en il traffic",
+            "en": "In your free time, for example doing sport, in the household or in traffic"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -65,28 +133,48 @@
     {
       "key": "weekly_hours",
       "question": {
-        "de": "Wie viele Stunden pro Woche arbeiten Sie bei dem Arbeitgeber, bei dem Sie zur Zeit des Unfalls angestellt waren?"
+        "de": "Wie viele Stunden pro Woche arbeiten Sie bei dem Arbeitgeber, bei dem Sie zur Zeit des Unfalls angestellt waren?",
+        "fr": "Combien d’heures par semaine travaillez-vous chez l’employeur pour lequel vous étiez employé au moment de l’accident ?",
+        "it": "Quante ore alla settimana lavora presso il datore di lavoro presso cui era impiegato al momento dell'infortunio?",
+        "rm": "Quantas uras per emna lavurais Vus tar il patrun, tar il qual Vus eras occupads al mument da l'accident?",
+        "en": "How many hours a week do you work for the employer with whom you were employed at the time of the accident?"
       },
       "help": {
-        "de": "Massgebend ist die Arbeitszeit bei einem einzelnen Arbeitgeber. Stunden bei mehreren Arbeitgebern werden nicht zusammengezählt."
+        "de": "Massgebend ist die Arbeitszeit bei einem einzelnen Arbeitgeber. Stunden bei mehreren Arbeitgebern werden nicht zusammengezählt.",
+        "fr": "Est déterminant le temps de travail auprès d’un seul employeur. Les heures effectuées chez plusieurs employeurs ne sont pas additionnées.",
+        "it": "È determinante il tempo di lavoro presso un singolo datore di lavoro. Le ore presso più datori di lavoro non vengono sommate.",
+        "rm": "Decisiv è il temp da lavur tar in singul patrun. Uras tar pliras patruns na vegnan betg contadas ensemen.",
+        "en": "What counts is the working time for a single employer. Hours with several employers are not added together."
       },
       "options": [
         {
           "value": "eight-or-more",
           "label": {
-            "de": "Acht Stunden oder mehr"
+            "de": "Acht Stunden oder mehr",
+            "fr": "Huit heures ou plus",
+            "it": "Otto ore o più",
+            "rm": "Otg uras u dapli",
+            "en": "Eight hours or more"
           }
         },
         {
           "value": "under-eight",
           "label": {
-            "de": "Weniger als acht Stunden"
+            "de": "Weniger als acht Stunden",
+            "fr": "Moins de huit heures",
+            "it": "Meno di otto ore",
+            "rm": "Damain che otg uras",
+            "en": "Less than eight hours"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -94,25 +182,41 @@
     {
       "key": "employment",
       "question": {
-        "de": "Waren Sie zur Zeit des Unfalls noch angestellt?"
+        "de": "Waren Sie zur Zeit des Unfalls noch angestellt?",
+        "fr": "Étiez-vous encore employé au moment de l’accident ?",
+        "it": "Era ancora impiegato al momento dell'infortunio?",
+        "rm": "Eras Vus anc occupads al mument da l'accident?",
+        "en": "Were you still employed at the time of the accident?"
       },
       "options": [
         {
           "value": "employed",
           "label": {
-            "de": "Ja, ich war angestellt"
+            "de": "Ja, ich war angestellt",
+            "fr": "Oui, j’étais employé",
+            "it": "Sì, ero impiegato",
+            "rm": "Gea, jau era occupà",
+            "en": "Yes, I was employed"
           }
         },
         {
           "value": "recently-ended",
           "label": {
-            "de": "Meine Stelle hatte kurz vorher geendet"
+            "de": "Meine Stelle hatte kurz vorher geendet",
+            "fr": "Mon emploi avait pris fin peu avant",
+            "it": "Il mio impiego era terminato poco prima",
+            "rm": "Mia plazza aveva finì curt avant",
+            "en": "My job had ended shortly before"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -120,25 +224,41 @@
     {
       "key": "injury",
       "question": {
-        "de": "Wie ist es zur Verletzung gekommen?"
+        "de": "Wie ist es zur Verletzung gekommen?",
+        "fr": "Comment la blessure s’est-elle produite ?",
+        "it": "Come è avvenuta la lesione?",
+        "rm": "Co è vegnida la blessura?",
+        "en": "How did the injury happen?"
       },
       "options": [
         {
           "value": "clear-event",
           "label": {
-            "de": "Durch ein klares Ereignis, zum Beispiel einen Sturz, einen Schlag oder einen Zusammenstoss"
+            "de": "Durch ein klares Ereignis, zum Beispiel einen Sturz, einen Schlag oder einen Zusammenstoss",
+            "fr": "Par un événement clair, par exemple une chute, un coup ou une collision",
+            "it": "Tramite un evento chiaro, per esempio una caduta, un colpo o uno scontro",
+            "rm": "Tras in eveniment cler, per exempel ina cadutta, in cop u ina collisiun",
+            "en": "Through a clear event, for example a fall, a blow or a collision"
           }
         },
         {
           "value": "no-clear-event",
           "label": {
-            "de": "Ohne besonderes Ereignis, zum Beispiel ein Riss im Knie beim Aufstehen"
+            "de": "Ohne besonderes Ereignis, zum Beispiel ein Riss im Knie beim Aufstehen",
+            "fr": "Sans événement particulier, par exemple une déchirure au genou en se levant",
+            "it": "Senza un evento particolare, per esempio una lacerazione al ginocchio alzandosi",
+            "rm": "Senza eveniment spezial, per exempel ina rupziun en il schanuogl cur ch'Vus Vus auzais",
+            "en": "Without a particular event, for example a tear in the knee while getting up"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -146,37 +266,61 @@
     {
       "key": "stage",
       "question": {
-        "de": "Wo stehen Sie?"
+        "de": "Wo stehen Sie?",
+        "fr": "Où en êtes-vous ?",
+        "it": "A che punto si trova?",
+        "rm": "Nua stais Vus?",
+        "en": "Where do you stand?"
       },
       "options": [
         {
           "value": "just-happened",
           "label": {
-            "de": "Der Unfall ist gerade passiert, ich will wissen, was ich tun muss"
+            "de": "Der Unfall ist gerade passiert, ich will wissen, was ich tun muss",
+            "fr": "L’accident vient de se produire, je veux savoir ce que je dois faire",
+            "it": "L'infortunio è appena successo, voglio sapere cosa devo fare",
+            "rm": "L'accident è gist succedì, jau vi savair, tge ch'jau stoss far",
+            "en": "The accident has just happened, I want to know what I need to do"
           }
         },
         {
           "value": "informal-refusal",
           "label": {
-            "de": "Die Versicherung zahlt nicht oder nicht mehr, ich habe aber keine formelle Verfügung erhalten"
+            "de": "Die Versicherung zahlt nicht oder nicht mehr, ich habe aber keine formelle Verfügung erhalten",
+            "fr": "L’assurance ne paie pas ou plus, mais je n’ai reçu aucune décision formelle",
+            "it": "L'assicurazione non paga o non paga più, ma non ho ricevuto una decisione formale",
+            "rm": "L'assicuranza na paja betg u betg pli, jau n'hai dentant retschet nagina decisiun formala",
+            "en": "The insurance is not paying, or has stopped paying, but I have not received a formal ruling"
           }
         },
         {
           "value": "decision",
           "label": {
-            "de": "Ich habe eine Verfügung erhalten, mit der ich nicht einverstanden bin"
+            "de": "Ich habe eine Verfügung erhalten, mit der ich nicht einverstanden bin",
+            "fr": "J’ai reçu une décision avec laquelle je ne suis pas d’accord",
+            "it": "Ho ricevuto una decisione con cui non sono d'accordo",
+            "rm": "Jau hai retschet ina decisiun, cun la quala jau n'sun betg d'accord",
+            "en": "I have received a ruling I disagree with"
           }
         },
         {
           "value": "objection-decision",
           "label": {
-            "de": "Ich habe bereits Einsprache erhoben und einen Einspracheentscheid erhalten"
+            "de": "Ich habe bereits Einsprache erhoben und einen Einspracheentscheid erhalten",
+            "fr": "J’ai déjà formé opposition et reçu une décision sur opposition",
+            "it": "Ho già fatto opposizione e ho ricevuto una decisione su opposizione",
+            "rm": "Jau hai gia fatg opposiziun e retschet ina decisiun sin opposiziun",
+            "en": "I have already filed an objection and received an objection decision"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -184,25 +328,41 @@
     {
       "key": "reduction",
       "question": {
-        "de": "Wirft Ihnen die Versicherung vor, den Unfall durch grobe Fahrlässigkeit oder ein besonders gefährliches Verhalten selbst verursacht zu haben?"
+        "de": "Wirft Ihnen die Versicherung vor, den Unfall durch grobe Fahrlässigkeit oder ein besonders gefährliches Verhalten selbst verursacht zu haben?",
+        "fr": "L’assurance vous reproche-t-elle d’avoir causé vous-même l’accident par négligence grave ou par un comportement particulièrement dangereux ?",
+        "it": "L'assicurazione le rimprovera di aver causato lei stesso l'infortunio per colpa grave o per un comportamento particolarmente pericoloso?",
+        "rm": "Reproscha Vus l'assicuranza d'avair chaschunà Vus sez l'accident tras grava negligenza u in cumportament spezialmain privel?",
+        "en": "Does the insurance accuse you of having caused the accident yourself through gross negligence or particularly dangerous conduct?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "rm": "Gea",
+            "en": "Yes"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "rm": "Na",
+            "en": "No"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "rm": "Jau na sai betg",
+            "en": "I don't know"
           }
         }
       ]
@@ -213,7 +373,11 @@
       "id": "who-is-insured",
       "kind": "rule",
       "text": {
-        "de": "Wer in der Schweiz als Arbeitnehmerin oder Arbeitnehmer beschäftigt ist, ist von Gesetzes wegen gegen Unfälle versichert. Das gilt auch für Lernende, Praktikantinnen und Praktikanten sowie Personen in Heimarbeit. Ihr Arbeitgeber muss Sie bei einem Unfallversicherer anmelden. Gegen Berufsunfälle sind Sie immer versichert. Gegen Unfälle in der Freizeit (Nichtberufsunfälle) sind Sie nur versichert, wenn Sie bei einem einzelnen Arbeitgeber mindestens acht Stunden pro Woche arbeiten."
+        "de": "Wer in der Schweiz als Arbeitnehmerin oder Arbeitnehmer beschäftigt ist, ist von Gesetzes wegen gegen Unfälle versichert. Das gilt auch für Lernende, Praktikantinnen und Praktikanten sowie Personen in Heimarbeit. Ihr Arbeitgeber muss Sie bei einem Unfallversicherer anmelden. Gegen Berufsunfälle sind Sie immer versichert. Gegen Unfälle in der Freizeit (Nichtberufsunfälle) sind Sie nur versichert, wenn Sie bei einem einzelnen Arbeitgeber mindestens acht Stunden pro Woche arbeiten.",
+        "fr": "Quiconque est employé en Suisse comme travailleuse ou travailleur est assuré de par la loi contre les accidents. Cela vaut aussi pour les personnes en apprentissage, les stagiaires ainsi que les personnes travaillant à domicile. Votre employeur doit vous annoncer auprès d’un assureur-accidents. Vous êtes toujours assuré contre les accidents professionnels. Vous n’êtes assuré contre les accidents pendant les loisirs (accidents non professionnels) que si vous travaillez au moins huit heures par semaine chez un même employeur.",
+        "it": "Chi è impiegato in Svizzera come lavoratrice o lavoratore è assicurato per legge contro gli infortuni. Questo vale anche per apprendisti, praticanti e persone che lavorano a domicilio. Il suo datore di lavoro deve annunciarla presso un assicuratore infortuni. Contro gli infortuni professionali è sempre assicurato. Contro gli infortuni nel tempo libero (infortuni non professionali) è assicurato solo se lavora presso un singolo datore di lavoro almeno otto ore alla settimana.",
+        "rm": "Tgi che è occupà en Svizra sco lavurant, è tenor la lescha assicurà cunter accidents. Quai vala era per emprendists, praticantas e praticants sco er per persunas en lavur a chasa. Voss patrun sto annunziar Vus tar in assicurader d'accidents. Cunter accidents professionals essas Vus adina assicurads. Cunter accidents en il temp liber (accidents betg professionals) essas Vus mo assicurads, sch'Vus lavurais tar in singul patrun almain otg uras per emna.",
+        "en": "Anyone employed in Switzerland is insured against accidents by law. This also applies to apprentices, trainees, and people working from home. Your employer must register you with an accident insurer. You are always insured against occupational accidents. You are only insured against accidents in your free time (non-occupational accidents) if you work at least eight hours a week for a single employer."
       },
       "sources": [
         "uvg-1a",
@@ -233,7 +397,11 @@
         ]
       },
       "text": {
-        "de": "Ein Berufsunfall ist ein Unfall bei einer Arbeit, die Sie im Auftrag oder im Interesse des Arbeitgebers erledigen. Dazu zählen auch Unfälle während der Pausen sowie vor und nach der Arbeit, solange Sie sich erlaubterweise am Arbeitsort oder im Gefahrenbereich Ihrer Arbeit aufhalten. Ein Unfall auf dem Arbeitsweg gilt grundsätzlich als Nichtberufsunfall. Arbeiten Sie weniger als acht Stunden pro Woche bei diesem Arbeitgeber, gilt ein Unfall auf dem Arbeitsweg als Berufsunfall und ist deshalb versichert."
+        "de": "Ein Berufsunfall ist ein Unfall bei einer Arbeit, die Sie im Auftrag oder im Interesse des Arbeitgebers erledigen. Dazu zählen auch Unfälle während der Pausen sowie vor und nach der Arbeit, solange Sie sich erlaubterweise am Arbeitsort oder im Gefahrenbereich Ihrer Arbeit aufhalten. Ein Unfall auf dem Arbeitsweg gilt grundsätzlich als Nichtberufsunfall. Arbeiten Sie weniger als acht Stunden pro Woche bei diesem Arbeitgeber, gilt ein Unfall auf dem Arbeitsweg als Berufsunfall und ist deshalb versichert.",
+        "fr": "Un accident professionnel est un accident survenant lors d’un travail que vous effectuez sur mandat ou dans l’intérêt de l’employeur. En font aussi partie les accidents survenus pendant les pauses ainsi qu’avant et après le travail, tant que vous vous trouvez de manière autorisée sur le lieu de travail ou dans la zone de danger de votre activité. Un accident sur le trajet du travail est en principe considéré comme un accident non professionnel. Si vous travaillez moins de huit heures par semaine chez cet employeur, un accident sur le trajet du travail est considéré comme un accident professionnel et est donc assuré.",
+        "it": "Un infortunio professionale è un infortunio occorso durante un lavoro che lei svolge su incarico o nell'interesse del datore di lavoro. Ne fanno parte anche gli infortuni durante le pause nonché prima e dopo il lavoro, finché si trova legittimamente sul luogo di lavoro o nella zona di pericolo del suo lavoro. Un infortunio sul tragitto per recarsi al lavoro è considerato di principio infortunio non professionale. Se lavora presso questo datore di lavoro meno di otto ore alla settimana, un infortunio sul tragitto per recarsi al lavoro è considerato infortunio professionale ed è quindi assicurato.",
+        "rm": "In accident professional è in accident tar ina lavur, che Vus fetschais per incumbensa u en l'interess dal patrun. Qua tar contan er accidents durant las pausas sco er avant e suenter la lavur, uschè ditg ch'Vus Vus tegnais permessamain al lieu da lavur u en il sectur da privel da Vossa lavur. In accident sin la via da lavur vala per principi sco accident betg professional. Lavurais Vus damain che otg uras per emna tar quest patrun, vala in accident sin la via da lavur sco accident professional ed è percunquai assicurà.",
+        "en": "An occupational accident is an accident during work you carry out on the instructions of, or in the interests of, your employer. This also includes accidents during breaks, and before and after work, as long as you are lawfully at the workplace or in the danger zone of your work. An accident on the way to work generally counts as a non-occupational accident. If you work less than eight hours a week for that employer, an accident on the way to work counts as an occupational accident, and is therefore insured."
       },
       "sources": [
         "uvg-7",
@@ -255,7 +423,11 @@
         ]
       },
       "text": {
-        "de": "Arbeiten Sie bei Ihrem Arbeitgeber weniger als acht Stunden pro Woche, deckt seine Unfallversicherung einen Unfall in der Freizeit nicht. Dann übernimmt Ihre Krankenkasse die Behandlungskosten, allerdings mit Franchise und Selbstbehalt. Ein Taggeld der Unfallversicherung erhalten Sie in diesem Fall nicht. Ob und wie lange Ihr Arbeitgeber während Ihrer Arbeitsunfähigkeit den Lohn weiterzahlen muss, richtet sich nach den Regeln über die Lohnfortzahlung im Arbeitsrecht und nach Ihrem Arbeitsvertrag."
+        "de": "Arbeiten Sie bei Ihrem Arbeitgeber weniger als acht Stunden pro Woche, deckt seine Unfallversicherung einen Unfall in der Freizeit nicht. Dann übernimmt Ihre Krankenkasse die Behandlungskosten, allerdings mit Franchise und Selbstbehalt. Ein Taggeld der Unfallversicherung erhalten Sie in diesem Fall nicht. Ob und wie lange Ihr Arbeitgeber während Ihrer Arbeitsunfähigkeit den Lohn weiterzahlen muss, richtet sich nach den Regeln über die Lohnfortzahlung im Arbeitsrecht und nach Ihrem Arbeitsvertrag.",
+        "fr": "Si vous travaillez chez votre employeur moins de huit heures par semaine, son assurance-accidents ne couvre pas un accident survenu pendant les loisirs. C’est alors votre caisse-maladie qui prend en charge les frais de traitement, mais avec franchise et quote-part. Vous ne recevez dans ce cas aucune indemnité journalière de l’assurance-accidents. La question de savoir si et pendant combien de temps votre employeur doit continuer à verser le salaire pendant votre incapacité de travail se règle selon les dispositions sur le maintien du salaire en droit du travail et selon votre contrat de travail.",
+        "it": "Se lavora presso il suo datore di lavoro meno di otto ore alla settimana, la sua assicurazione contro gli infortuni non copre un infortunio nel tempo libero. In questo caso è la sua cassa malati ad assumersi le spese di cura, tuttavia con franchigia e aliquota percentuale. In questo caso non riceve un'indennità giornaliera dell'assicurazione contro gli infortuni. Se e per quanto tempo il suo datore di lavoro deve continuare a pagarle il salario durante la sua incapacità al lavoro dipende dalle norme sulla continuazione del pagamento del salario nel diritto del lavoro e dal suo contratto di lavoro.",
+        "rm": "Lavurais Vus tar Voss patrun damain che otg uras per emna, na cuvra sia assicuranza cunter accidents in accident en il temp liber betg. Lura surpiglia Vossa cassa da malsauns ils custs da tractament, dentant cun franchisa e participaziun als custs. Ina diaria da l'assicuranza cunter accidents na survegnis Vus en quest cas betg. Sche e quant lung Voss patrun sto vinavant pajar il salari durant Vossa incapacitad da lavurar, sa drizza tenor las reglas davart la cuntinuaziun dal pajament dal salari en il dretg da lavur e tenor Voss contract da lavur.",
+        "en": "If you work less than eight hours a week for your employer, that employer's accident insurance does not cover an accident in your free time. Your health insurer then covers the treatment costs, though with a deductible and a co-payment. You do not receive a daily allowance from the accident insurance in this case. Whether and for how long your employer must continue paying your salary during your incapacity for work is governed by the rules on continued payment of salary under employment law and by your employment contract."
       },
       "sources": [
         "uvv-13",
@@ -274,7 +446,11 @@
         ]
       },
       "text": {
-        "de": "Der Versicherungsschutz endet nicht am letzten Arbeitstag. Er dauert bis zum 31. Tag nach dem Tag, an dem Ihr Anspruch auf mindestens den halben Lohn aufgehört hat. Ihr bisheriger Versicherer muss Ihnen anbieten, die Deckung mit einer besonderen Vereinbarung um bis zu sechs Monate zu verlängern. Sind Sie bei der Arbeitslosenversicherung angemeldet und erfüllen Sie deren Voraussetzungen, sind Sie über diese gegen Unfälle versichert."
+        "de": "Der Versicherungsschutz endet nicht am letzten Arbeitstag. Er dauert bis zum 31. Tag nach dem Tag, an dem Ihr Anspruch auf mindestens den halben Lohn aufgehört hat. Ihr bisheriger Versicherer muss Ihnen anbieten, die Deckung mit einer besonderen Vereinbarung um bis zu sechs Monate zu verlängern. Sind Sie bei der Arbeitslosenversicherung angemeldet und erfüllen Sie deren Voraussetzungen, sind Sie über diese gegen Unfälle versichert.",
+        "fr": "La protection d’assurance ne prend pas fin le dernier jour de travail. Elle dure jusqu’au 31e jour après le jour où votre droit à au moins la moitié du salaire a cessé. Votre assureur précédent doit vous proposer de prolonger la couverture jusqu’à six mois par une convention spéciale. Si vous êtes inscrit à l’assurance-chômage et que vous en remplissez les conditions, vous êtes assuré contre les accidents par son intermédiaire.",
+        "it": "La protezione assicurativa non termina l'ultimo giorno di lavoro. Dura fino al 31° giorno dopo il giorno in cui è cessato il suo diritto ad almeno la metà del salario. Il suo assicuratore finora competente deve offrirle di prolungare la copertura con un accordo speciale fino a sei mesi. Se è annunciato all'assicurazione contro la disoccupazione e ne adempie le condizioni, è assicurato contro gli infortuni tramite quest'ultima.",
+        "rm": "La protecziun d'assicuranza na finescha betg cun l'ultim di da lavur. Ella dura fin il 31avel di suenter il di, en il qual Voss dretg ad almain la mesadad dal salari ha chalà. Voss assicurader anteriur sto porscher a Vus da prolungar la cuvertura cun ina cunvegna spezial fin a sis mais. Essas Vus annunziads tar l'assicuranza da disoccupaziun e ademplis Vus lur premissas, essas Vus assicurads tras questa cunter accidents.",
+        "en": "Insurance cover does not end on your last working day. It lasts until the 31st day after the day on which your entitlement to at least half your salary ended. Your previous insurer must offer you the option of extending cover, under a special agreement, by up to six months. If you are registered with the unemployment insurance and meet its requirements, you are insured against accidents through it."
       },
       "sources": [
         "uvg-3",
@@ -285,7 +461,11 @@
       "id": "what-is-an-accident",
       "kind": "rule",
       "text": {
-        "de": "Als Unfall gilt nur ein Ereignis, bei dem etwas von aussen plötzlich und ungewollt auf Ihren Körper einwirkt und Ihre körperliche, geistige oder psychische Gesundheit schädigt. Zudem muss dieser äussere Faktor ungewöhnlich sein: Er muss, objektiv betrachtet, über das hinausgehen, was im betreffenden Lebensbereich alltäglich und normal ist. Fehlt eines dieser Merkmale, handelt es sich rechtlich um eine Krankheit, und zuständig ist die Krankenkasse. Beschwerden, die sich schleichend durch Abnützung entwickeln, sind deshalb in der Regel kein Unfall."
+        "de": "Als Unfall gilt nur ein Ereignis, bei dem etwas von aussen plötzlich und ungewollt auf Ihren Körper einwirkt und Ihre körperliche, geistige oder psychische Gesundheit schädigt. Zudem muss dieser äussere Faktor ungewöhnlich sein: Er muss, objektiv betrachtet, über das hinausgehen, was im betreffenden Lebensbereich alltäglich und normal ist. Fehlt eines dieser Merkmale, handelt es sich rechtlich um eine Krankheit, und zuständig ist die Krankenkasse. Beschwerden, die sich schleichend durch Abnützung entwickeln, sind deshalb in der Regel kein Unfall.",
+        "fr": "N’est considéré comme accident qu’un événement dans lequel un facteur extérieur agit soudainement et involontairement sur votre corps et porte atteinte à votre santé physique, mentale ou psychique. Ce facteur extérieur doit en outre être inhabituel : il doit, objectivement, aller au-delà de ce qui est quotidien et normal dans le domaine de vie concerné. Si l’une de ces caractéristiques fait défaut, il s’agit juridiquement d’une maladie, et c’est la caisse-maladie qui est compétente. Les troubles qui se développent progressivement par usure ne sont donc en règle générale pas un accident.",
+        "it": "È considerato infortunio solo un evento in cui qualcosa dall'esterno agisce improvvisamente e involontariamente sul suo corpo e danneggia la sua salute fisica, mentale o psichica. Inoltre questo fattore esterno deve essere straordinario: deve, considerato oggettivamente, andare oltre ciò che è quotidiano e normale nell'ambito di vita in questione. Se manca una di queste caratteristiche, si tratta giuridicamente di una malattia, e competente è la cassa malati. I disturbi che si sviluppano lentamente per usura non sono quindi di regola un infortunio.",
+        "rm": "Sco accident vala mo in eveniment, tar il qual insatge agescha dad ordaifer, dad im moment e nunvulì sin Voss corp e donnegia Vossa sanadad corporala, spirituala u psichica. Ultra da quai sto quest factur extern esser nunusità: El sto, resguardà objectivamain, ir ultra da quai ch'è normal e da mintgadi en il sectur da vita respectiv. Manca ina da questas caracteristicas, sa tracta i giuridicamain d'ina malsogna, e cumpetenta è la cassa da malsauns. Plaints, che sa svilluppan a poc a poc tras usura, na sun percunquai per regla nagin accident.",
+        "en": "An accident is only an event in which something sudden and unintended acts on your body from outside and damages your physical, mental or psychological health. In addition, this external factor must be unusual: viewed objectively, it must go beyond what is everyday and normal in the relevant area of life. If one of these features is missing, it is legally an illness, and the health insurer is responsible. Complaints that develop gradually through wear and tear are therefore generally not an accident."
       },
       "sources": [
         "atsg-4",
@@ -303,7 +483,11 @@
         ]
       },
       "text": {
-        "de": "Für bestimmte Verletzungen zahlt die Unfallversicherung auch ohne ungewöhnliches Ereignis: Knochenbrüche, ausgerenkte Gelenke, Meniskusrisse, Muskelrisse, Muskelzerrungen, Sehnenrisse, Bandverletzungen und Verletzungen des Trommelfells. Sie muss nur dann nicht leisten, wenn die Verletzung vorwiegend auf Abnützung oder Krankheit zurückgeht. Das muss der Unfallversicherer nachweisen. Vorwiegend heisst: Abnützung oder Krankheit machen mehr als die Hälfte aller Ursachen aus. Schildern Sie deshalb genau, wann und bei welcher Bewegung die Beschwerden erstmals aufgetreten sind."
+        "de": "Für bestimmte Verletzungen zahlt die Unfallversicherung auch ohne ungewöhnliches Ereignis: Knochenbrüche, ausgerenkte Gelenke, Meniskusrisse, Muskelrisse, Muskelzerrungen, Sehnenrisse, Bandverletzungen und Verletzungen des Trommelfells. Sie muss nur dann nicht leisten, wenn die Verletzung vorwiegend auf Abnützung oder Krankheit zurückgeht. Das muss der Unfallversicherer nachweisen. Vorwiegend heisst: Abnützung oder Krankheit machen mehr als die Hälfte aller Ursachen aus. Schildern Sie deshalb genau, wann und bei welcher Bewegung die Beschwerden erstmals aufgetreten sind.",
+        "fr": "Pour certaines lésions, l’assurance-accidents verse ses prestations même en l’absence d’événement inhabituel : fractures, déboîtements d’articulations, déchirures du ménisque, déchirures de muscles, élongations de muscles, déchirures de tendons, lésions de ligaments et lésions du tympan. Elle ne doit refuser ses prestations que si la lésion est due de manière prépondérante à l’usure ou à une maladie. C’est à l’assureur-accidents de le prouver. Prépondérant signifie : l’usure ou la maladie représentent plus de la moitié de l’ensemble des causes. Décrivez donc précisément quand et lors de quel mouvement les troubles sont apparus pour la première fois.",
+        "it": "Per determinate lesioni l'assicurazione contro gli infortuni paga anche senza un evento straordinario: fratture, lussazioni di articolazioni, lacerazioni del menisco, lacerazioni muscolari, stiramenti muscolari, lacerazioni dei tendini, lesioni dei legamenti e lesioni del timpano. Non deve prestare solo se la lesione è riconducibile prevalentemente a usura o malattia. Questo deve essere provato dall'assicuratore contro gli infortuni. Prevalentemente significa: usura o malattia costituiscono più della metà di tutte le cause. Descriva quindi con precisione quando e con quale movimento sono comparsi per la prima volta i disturbi.",
+        "rm": "Per tscherts blessuras paja l'assicuranza cunter accidents era senza eveniment nunusità: rupziuns dal tetg, articulaziuns dislogadas, rupziuns dal menisc, rupziuns muscularas, stiramaints muscularas, rupziuns da tendins, blessuras dals ligaments e blessuras dal timpan. Ella sto prestar mo lura betg, sche la blessura va predominantamain sin usura u malsogna. Quai sto l'assicurader d'accidents cumprovar. Predominantamain munta: usura u malsogna fan ora dapli che la mesadad da tut las causas. Descrivai percunquai exactamain, cura ed a tge moviment che ils plaints èn cumparids l'emprima giada.",
+        "en": "For certain injuries, the accident insurance pays even without an unusual event: bone fractures, dislocated joints, torn menisci, torn muscles, muscle strains, torn tendons, ligament injuries and injuries to the eardrum. It only does not have to pay if the injury is predominantly due to wear and tear or illness. The accident insurer must prove this. Predominantly means: wear and tear or illness account for more than half of all the causes. So describe precisely when and during which movement the complaints first appeared."
       },
       "sources": [
         "uvg-6",
@@ -314,7 +498,11 @@
       "id": "causation",
       "kind": "rule",
       "text": {
-        "de": "Die Unfallversicherung leistet nur für Gesundheitsschäden, die auf den Unfall zurückgehen. Dafür braucht es zweierlei. Erstens muss der Unfall eine Ursache der Beschwerden sein. Er muss nicht die einzige Ursache sein; es genügt, dass die Beschwerden ohne den Unfall nicht oder nicht in dieser Form aufgetreten wären. Das muss überwiegend wahrscheinlich sein; dass ein Zusammenhang bloss möglich ist, genügt nicht. Zweitens muss ein Unfall dieser Art nach allgemeiner Lebenserfahrung und dem üblichen Gang der Dinge geeignet sein, einen solchen Schaden zu bewirken. Diese zweite Frage ist eine Rechtsfrage: Darüber entscheiden die Versicherung und im Streitfall das Gericht, nicht die Ärztin oder der Arzt. Bei klar nachweisbaren körperlichen Verletzungen ist sie meist unproblematisch. Bei psychischen Beschwerden und bei Schleudertraumen ist sie dagegen oft umstritten. Ein Arztbericht allein entscheidet sie deshalb nicht. Ist ein Gesundheitsschaden nur teilweise Folge des Unfalls, werden Heilbehandlung und Taggeld trotzdem nicht gekürzt. Renten und Integritätsentschädigungen können dagegen angemessen gekürzt werden. Frühere Gesundheitsschäden, die Ihre Erwerbsfähigkeit nicht vermindert hatten, zählen dabei nicht."
+        "de": "Die Unfallversicherung leistet nur für Gesundheitsschäden, die auf den Unfall zurückgehen. Dafür braucht es zweierlei. Erstens muss der Unfall eine Ursache der Beschwerden sein. Er muss nicht die einzige Ursache sein; es genügt, dass die Beschwerden ohne den Unfall nicht oder nicht in dieser Form aufgetreten wären. Das muss überwiegend wahrscheinlich sein; dass ein Zusammenhang bloss möglich ist, genügt nicht. Zweitens muss ein Unfall dieser Art nach allgemeiner Lebenserfahrung und dem üblichen Gang der Dinge geeignet sein, einen solchen Schaden zu bewirken. Diese zweite Frage ist eine Rechtsfrage: Darüber entscheiden die Versicherung und im Streitfall das Gericht, nicht die Ärztin oder der Arzt. Bei klar nachweisbaren körperlichen Verletzungen ist sie meist unproblematisch. Bei psychischen Beschwerden und bei Schleudertraumen ist sie dagegen oft umstritten. Ein Arztbericht allein entscheidet sie deshalb nicht. Ist ein Gesundheitsschaden nur teilweise Folge des Unfalls, werden Heilbehandlung und Taggeld trotzdem nicht gekürzt. Renten und Integritätsentschädigungen können dagegen angemessen gekürzt werden. Frühere Gesundheitsschäden, die Ihre Erwerbsfähigkeit nicht vermindert hatten, zählen dabei nicht.",
+        "fr": "L’assurance-accidents ne verse ses prestations que pour les atteintes à la santé qui découlent de l’accident. Il faut pour cela deux éléments. Premièrement, l’accident doit être une cause des troubles. Il ne doit pas en être la cause unique ; il suffit que les troubles ne seraient pas survenus, ou pas sous cette forme, sans l’accident. Cela doit être établi au degré de la vraisemblance prépondérante ; il ne suffit pas qu’un lien soit simplement possible. Deuxièmement, un accident de ce genre doit, selon l’expérience générale de la vie et le cours ordinaire des choses, être propre à causer un tel dommage. Cette seconde question est une question de droit : c’est l’assurance et, en cas de litige, le tribunal qui en décident, et non la médecin ou le médecin. Pour les lésions corporelles clairement démontrables, elle ne pose en général pas de problème. Pour les troubles psychiques et les traumatismes de type coup du lapin, elle est en revanche souvent contestée. Un rapport médical seul ne la tranche donc pas. Si une atteinte à la santé n’est que partiellement la conséquence de l’accident, le traitement médical et l’indemnité journalière ne sont pas réduits pour autant. Les rentes et les indemnités pour atteinte à l’intégrité peuvent en revanche être réduites de manière appropriée. Les atteintes à la santé antérieures qui n’avaient pas diminué votre capacité de gain ne sont pas prises en compte à cet égard.",
+        "it": "L'assicurazione contro gli infortuni presta solo per i danni alla salute riconducibili all'infortunio. Per questo servono due elementi. Primo, l'infortunio deve essere una causa dei disturbi. Non deve essere l'unica causa; basta che i disturbi non sarebbero comparsi, o non in questa forma, senza l'infortunio. Questo deve essere prevalentemente probabile; non basta che un nesso sia semplicemente possibile. Secondo, un infortunio di questo tipo deve, secondo l'esperienza generale della vita e il corso ordinario delle cose, essere idoneo a provocare un simile danno. Questa seconda questione è una questione di diritto: la decidono l'assicurazione e, in caso di controversia, il tribunale, non la medica o il medico. Nelle lesioni fisiche chiaramente dimostrabili è per lo più priva di problemi. Nei disturbi psichici e nei traumi da colpo di frusta è invece spesso controversa. Un referto medico da solo non la decide quindi. Se un danno alla salute è solo in parte conseguenza dell'infortunio, la cura medica e l'indennità giornaliera non vengono comunque ridotte. Le rendite e le indennità per menomazione dell'integrità possono invece essere ridotte in modo adeguato. I danni alla salute preesistenti che non avevano diminuito la sua capacità di guadagno non contano in questo caso.",
+        "rm": "L'assicuranza cunter accidents presta mo per donns da sanadad, che van sin l'accident. Per quai dovra i duas chaussas. Emprim sto l'accident esser ina causa dals plaints. El na sto betg esser l'unica causa; basta ch'ils plaints n'avessan betg cumparì senza l'accident, u betg en questa furma. Quai sto esser probabel predominantamain; ch'in connex è mo pussibel na basta betg. Segund sto in accident da quest gener, tenor l'experientscha generala da la vita ed il decuors usità da las chaussas, esser adattà per chaschunar in tal donn. Questa segunda dumonda è ina dumonda giuridica: Davart quai decida l'assicuranza e, en cas da dispita, la dretgira, betg la medida u il medi. Tar blessuras corporalas cler cumprovablas è ella il pli savens nunproblematica. Tar plaints psichics e tar traumas da la nuca è ella percunter savens contestada. In rapport medical sulet na decida percunquai betg. Sch'in donn da sanadad è mo parzialmain consequenza da l'accident, na vegnan tractament medical e diaria tuttina reducids betg. Rentas ed indemnisaziuns d'integritad pon percunter vegnir reducidas adequatamain. Donns da sanadad anteriurs, che n'avevan betg reducì Vossa abilitad da gudagnar, na contan qua betg.",
+        "en": "The accident insurance only pays for health damage that is due to the accident. Two things are needed for this. First, the accident must be a cause of the complaints. It need not be the only cause; it is enough that the complaints would not have occurred, or not in this form, without the accident. This must be predominantly probable; it is not enough that a connection is merely possible. Second, an accident of this kind must, according to general experience of life and the usual course of events, be capable of causing such damage. This second question is a question of law: it is decided by the insurance and, in a dispute, by the court, not by the doctor. For clearly provable physical injuries, it is usually unproblematic. For psychological complaints and for whiplash injuries, on the other hand, it is often disputed. A medical report alone does not decide it. If health damage is only partly a consequence of the accident, medical treatment and the daily allowance are nevertheless not reduced. Pensions and impairment benefits, on the other hand, can be reduced appropriately. Earlier health damage that had not reduced your earning capacity does not count for this."
       },
       "sources": [
         "bge-129-v-177",
@@ -333,7 +521,11 @@
         ]
       },
       "text": {
-        "de": "Melden Sie den Unfall unverzüglich Ihrem Arbeitgeber oder direkt dem Unfallversicherer, wenn Sie ärztliche Behandlung brauchen oder nicht arbeiten können. Das gilt auch für Unfälle in der Freizeit. Geben Sie an, wann, wo und wie es passiert ist, welche Folgen der Unfall hat, wer Sie behandelt und ob eine andere Person oder deren Versicherung betroffen ist. Der Arbeitgeber leitet die Meldung an den Versicherer weiter. Meist erhalten Sie einen Unfallschein, den Sie bei jeder ärztlichen Behandlung und in der Apotheke vorzeigen."
+        "de": "Melden Sie den Unfall unverzüglich Ihrem Arbeitgeber oder direkt dem Unfallversicherer, wenn Sie ärztliche Behandlung brauchen oder nicht arbeiten können. Das gilt auch für Unfälle in der Freizeit. Geben Sie an, wann, wo und wie es passiert ist, welche Folgen der Unfall hat, wer Sie behandelt und ob eine andere Person oder deren Versicherung betroffen ist. Der Arbeitgeber leitet die Meldung an den Versicherer weiter. Meist erhalten Sie einen Unfallschein, den Sie bei jeder ärztlichen Behandlung und in der Apotheke vorzeigen.",
+        "fr": "Annoncez l’accident sans délai à votre employeur ou directement à l’assureur-accidents si vous avez besoin d’un traitement médical ou si vous ne pouvez pas travailler. Cela vaut aussi pour les accidents survenus pendant les loisirs. Indiquez quand, où et comment cela s’est produit, quelles sont les conséquences de l’accident, qui vous traite et si une autre personne ou son assurance est concernée. L’employeur transmet l’annonce à l’assureur. En général, vous recevez une déclaration d’accident que vous présentez lors de chaque traitement médical et à la pharmacie.",
+        "it": "Annunci l'infortunio senza indugio al suo datore di lavoro o direttamente all'assicuratore infortuni, se ha bisogno di cure mediche o non può lavorare. Questo vale anche per gli infortuni nel tempo libero. Indichi quando, dove e come è successo, quali conseguenze ha l'infortunio, chi la sta curando e se sono coinvolte un'altra persona o la sua assicurazione. Il datore di lavoro trasmette l'annuncio all'assicuratore. Di solito riceve un certificato d'infortunio, da mostrare a ogni cura medica e in farmacia.",
+        "rm": "Annunziai l'accident senza retard a Voss patrun u directamain a l'assicurader d'accidents, sch'Vus dovrais tractament medical u na pudais betg lavurar. Quai vala era per accidents en il temp liber. Indicai, cura, nua e co ch'i è succedì, tge consequenzas ch'l'accident ha, tgi che Vus tracta e sche in'autra persuna u sia assicuranza è tangada. Il patrun renviescha l'annunzia a l'assicurader. Il pli savens survegnis Vus in bulletin d'accident, che Vus mussais tar mintga tractament medical ed en l'apoteca.",
+        "en": "Report the accident immediately to your employer or directly to the accident insurer, if you need medical treatment or cannot work. This also applies to accidents in your free time. State when, where and how it happened, what consequences the accident has, who is treating you, and whether another person or their insurance is involved. The employer passes the report on to the insurer. You usually receive an accident report form, which you show at every medical treatment and at the pharmacy."
       },
       "sources": [
         "uvg-45",
@@ -350,7 +542,11 @@
         ]
       },
       "text": {
-        "de": "Melden Sie den Unfall ohne entschuldbaren Grund zu spät und verursacht das dem Versicherer erheblichen Aufwand, kann er die Geldleistungen für die Zwischenzeit bis zur Hälfte streichen. Hat er vom Unfall aus einem solchen Grund nicht innert drei Monaten erfahren, kann er jede Leistung um die Hälfte kürzen. Eine absichtlich falsche Unfallmeldung kann zum Verlust aller Leistungen führen."
+        "de": "Melden Sie den Unfall ohne entschuldbaren Grund zu spät und verursacht das dem Versicherer erheblichen Aufwand, kann er die Geldleistungen für die Zwischenzeit bis zur Hälfte streichen. Hat er vom Unfall aus einem solchen Grund nicht innert drei Monaten erfahren, kann er jede Leistung um die Hälfte kürzen. Eine absichtlich falsche Unfallmeldung kann zum Verlust aller Leistungen führen.",
+        "fr": "Si vous annoncez l’accident trop tard sans motif excusable et que cela cause à l’assureur des frais considérables, il peut réduire jusqu’à la moitié les prestations en espèces pour la période intermédiaire. S’il n’a pas eu connaissance de l’accident dans les trois mois pour un tel motif, il peut réduire de moitié chaque prestation. Une annonce d’accident sciemment inexacte peut entraîner la perte de toutes les prestations.",
+        "it": "Se annuncia l'infortunio in ritardo senza motivo scusabile e ciò causa all'assicuratore un onere considerevole, questi può stralciare le prestazioni in denaro per il periodo intermedio fino alla metà. Se per un tale motivo non è venuto a conoscenza dell'infortunio entro tre mesi, può ridurre ogni prestazione della metà. Un annuncio d'infortunio intenzionalmente falso può portare alla perdita di tutte le prestazioni.",
+        "rm": "Annunziais Vus l'accident senza motiv da scusa memia tard e chaschuna quai a l'assicurader in sforz considerabel, po el stritgar las prestaziuns da daner per il temp entaifer fin a la mesadad. N'ha el, pervia d'in tal motiv, betg vegnì a savair da l'accident entaifer trais mais, po el reducir mintga prestaziun da la mesadad. In'annunzia d'accident a bel intent fauss po manar a la perdita da tut las prestaziuns.",
+        "en": "If you report the accident too late without an excusable reason, and this causes the insurer considerable extra work, it can cut the cash benefits for the intervening period by up to half. If, for such a reason, it did not learn of the accident within three months, it can reduce every benefit by half. A deliberately false accident report can lead to the loss of all benefits."
       },
       "sources": [
         "uvg-46"
@@ -360,7 +556,11 @@
       "id": "describe-accurately",
       "kind": "step",
       "text": {
-        "de": "Schildern Sie den Hergang von Anfang an genau, vollständig und immer gleich. Widersprechen sich Ihre Angaben, stützen sich Versicherung und Gericht meist auf Ihre ersten Aussagen kurz nach dem Unfall, weil diese als unbefangener gelten als spätere Schilderungen. Halten Sie Namen von Zeuginnen und Zeugen fest und bewahren Sie Fotos, Arztberichte und Arbeitsunfähigkeitszeugnisse auf."
+        "de": "Schildern Sie den Hergang von Anfang an genau, vollständig und immer gleich. Widersprechen sich Ihre Angaben, stützen sich Versicherung und Gericht meist auf Ihre ersten Aussagen kurz nach dem Unfall, weil diese als unbefangener gelten als spätere Schilderungen. Halten Sie Namen von Zeuginnen und Zeugen fest und bewahren Sie Fotos, Arztberichte und Arbeitsunfähigkeitszeugnisse auf.",
+        "fr": "Décrivez le déroulement des faits dès le début, de manière précise, complète et toujours identique. Si vos déclarations se contredisent, l’assurance et le tribunal se fondent en général sur vos premières déclarations faites peu après l’accident, car elles sont considérées comme moins influencées que des récits ultérieurs. Notez les noms des témoins et conservez les photos, rapports médicaux et certificats d’incapacité de travail.",
+        "it": "Descriva la dinamica fin dall'inizio in modo preciso, completo e sempre uguale. Se le sue indicazioni si contraddicono, l'assicurazione e il tribunale si basano per lo più sulle sue prime dichiarazioni, fatte poco dopo l'infortunio, perché sono considerate più spontanee delle descrizioni successive. Annoti i nomi di testimoni e conservi foto, referti medici e certificati d'incapacità al lavoro.",
+        "rm": "Descrivai il decuors dapi l'entschatta exactamain, cumplettamain e adina uschia. Sa contradin Vossas indicaziuns, sa basan assicuranza e dretgira il pli savens sin Vossas emprimas declaraziuns curt suenter l'accident, perquai ch'ellas valan sco pli neutralas che descripziuns pli tardivas. Fixai nums da testimoniantas e testimonis e conservai fotografias, rapports medicals ed attestas d'incapacitad da lavurar.",
+        "en": "Describe how the accident happened accurately, completely and consistently from the start. If your statements contradict each other, the insurance and the court will usually rely on your first statements shortly after the accident, because these are considered less biased than later accounts. Note down the names of witnesses and keep photos, medical reports and certificates of incapacity for work."
       },
       "sources": [
         "bge-121-v-45-e2a"
@@ -370,7 +570,11 @@
       "id": "medical-treatment",
       "kind": "rule",
       "text": {
-        "de": "Die Unfallversicherung übernimmt die zweckmässige Behandlung der Unfallfolgen: ambulante Behandlung bei Ärztin, Arzt, Zahnärztin, Zahnarzt oder Chiropraktor, ärztlich verordnete Therapien, Medikamente und Analysen, den Spitalaufenthalt in der allgemeinen Abteilung sowie Hilfsmittel, die der Heilung dienen. Sie können Ihre Ärztin oder Ihren Arzt, das Spital und die Apotheke frei wählen. Anders als bei der Krankenkasse bezahlen Sie keine Franchise und keinen Selbstbehalt. Für eine private oder halbprivate Spitalabteilung brauchen Sie eine Zusatzversicherung."
+        "de": "Die Unfallversicherung übernimmt die zweckmässige Behandlung der Unfallfolgen: ambulante Behandlung bei Ärztin, Arzt, Zahnärztin, Zahnarzt oder Chiropraktor, ärztlich verordnete Therapien, Medikamente und Analysen, den Spitalaufenthalt in der allgemeinen Abteilung sowie Hilfsmittel, die der Heilung dienen. Sie können Ihre Ärztin oder Ihren Arzt, das Spital und die Apotheke frei wählen. Anders als bei der Krankenkasse bezahlen Sie keine Franchise und keinen Selbstbehalt. Für eine private oder halbprivate Spitalabteilung brauchen Sie eine Zusatzversicherung.",
+        "fr": "L’assurance-accidents prend en charge le traitement approprié des suites de l’accident : traitement ambulatoire chez une médecin, un médecin, une dentiste, un dentiste ou un chiropraticien, thérapies prescrites médicalement, médicaments et analyses, séjour hospitalier en division commune, ainsi que les moyens auxiliaires utiles à la guérison. Vous pouvez choisir librement votre médecin, l’hôpital et la pharmacie. Contrairement à la caisse-maladie, vous ne payez ni franchise ni quote-part. Pour une division privée ou semi-privée de l’hôpital, il vous faut une assurance complémentaire.",
+        "it": "L'assicurazione contro gli infortuni si assume il trattamento appropriato delle conseguenze dell'infortunio: cura ambulatoriale presso medica, medico, dentista o chiropratico, terapie prescritte dal medico, medicinali e analisi, il soggiorno ospedaliero in reparto comune, nonché mezzi ausiliari utili alla guarigione. Può scegliere liberamente la sua medica o il suo medico, l'ospedale e la farmacia. A differenza della cassa malati, non paga né franchigia né aliquota percentuale. Per un reparto ospedaliero privato o semiprivato le serve un'assicurazione complementare.",
+        "rm": "L'assicuranza cunter accidents surpiglia il tractament adequat da las consequenzas da l'accident: tractament ambulant tar medida, medi, dentista u chiropractur, terapias ordinadas medicalmain, medicaments ed analisas, la stanza en l'ospital en la divisiun generala sco er meds auxiliars, che servan a la guarigiun. Vus pudais tscherner liberamain Vossa medida u Voss medi, l'ospital e l'apoteca. Auter che tar la cassa da malsauns na pajais Vus nagina franchisa e nagina participaziun als custs. Per ina divisiun privata u semiprivata da l'ospital dovrais Vus in'assicuranza supplementara.",
+        "en": "The accident insurance covers appropriate treatment of the consequences of the accident: outpatient treatment by a doctor, dentist or chiropractor, medically prescribed therapies, medicines and tests, a hospital stay in the general ward, and aids that serve recovery. You can freely choose your doctor, the hospital and the pharmacy. Unlike with your health insurer, you pay no deductible and no co-payment. For a private or semi-private hospital ward you need supplementary insurance."
       },
       "sources": [
         "uvg-10",
@@ -381,7 +585,11 @@
       "id": "daily-allowance",
       "kind": "rule",
       "text": {
-        "de": "Können Sie wegen des Unfalls ganz oder teilweise nicht arbeiten, erhalten Sie ein Taggeld. Der Anspruch beginnt am dritten Tag nach dem Unfalltag. Bei voller Arbeitsunfähigkeit beträgt das Taggeld 80 Prozent des versicherten Verdienstes, bei teilweiser Arbeitsunfähigkeit entsprechend weniger. Massgebend ist der letzte Lohn vor dem Unfall, höchstens aber 148 200 Franken im Jahr. Das Taggeld endet, wenn Sie wieder voll arbeitsfähig sind, wenn eine Rente beginnt oder mit dem Tod."
+        "de": "Können Sie wegen des Unfalls ganz oder teilweise nicht arbeiten, erhalten Sie ein Taggeld. Der Anspruch beginnt am dritten Tag nach dem Unfalltag. Bei voller Arbeitsunfähigkeit beträgt das Taggeld 80 Prozent des versicherten Verdienstes, bei teilweiser Arbeitsunfähigkeit entsprechend weniger. Massgebend ist der letzte Lohn vor dem Unfall, höchstens aber 148 200 Franken im Jahr. Das Taggeld endet, wenn Sie wieder voll arbeitsfähig sind, wenn eine Rente beginnt oder mit dem Tod.",
+        "fr": "Si vous ne pouvez pas travailler, totalement ou partiellement, en raison de l’accident, vous recevez une indemnité journalière. Le droit commence le troisième jour après le jour de l’accident. En cas d’incapacité de travail totale, l’indemnité journalière s’élève à 80 % du gain assuré, et proportionnellement moins en cas d’incapacité partielle. Est déterminant le dernier salaire avant l’accident, mais au maximum 148 200 francs par an. L’indemnité journalière prend fin lorsque vous recouvrez votre pleine capacité de travail, lorsqu’une rente commence, ou avec le décès.",
+        "it": "Se a causa dell'infortunio non può lavorare, in tutto o in parte, riceve un'indennità giornaliera. Il diritto inizia il terzo giorno dopo il giorno dell'infortunio. In caso di incapacità al lavoro totale l'indennità giornaliera ammonta all'80 per cento del guadagno assicurato, in caso di incapacità parziale di conseguenza meno. È determinante l'ultimo salario prima dell'infortunio, ma al massimo 148 200 franchi all'anno. L'indennità giornaliera termina quando torna pienamente capace al lavoro, quando inizia una rendita o con la morte.",
+        "rm": "Na pudais Vus, pervia da l'accident, dal tut u parzialmain betg lavurar, survegnis Vus ina diaria. Il dretg cumenza il terz di suenter il di da l'accident. Tar incapacitad da lavurar entira importa la diaria 80 pertschient dal gudogn assicurà, tar incapacitad da lavurar parziala correspundentamain damain. Decisiv è il davos salari avant l'accident, maximalmain dentant 148 200 francs per onn. La diaria finescha, sche Vus essas puspè entiramain abils da lavurar, sche cumenza ina renta u cun la mort.",
+        "en": "If you are wholly or partly unable to work because of the accident, you receive a daily allowance. The entitlement begins on the third day after the day of the accident. For full incapacity for work, the daily allowance is 80 percent of your insured earnings; for partial incapacity for work, correspondingly less. What counts is your last salary before the accident, up to a maximum of 148 200 francs a year. The daily allowance ends when you are fully able to work again, when a pension begins, or on death."
       },
       "sources": [
         "uvg-16",
@@ -394,7 +602,11 @@
       "id": "waiting-days",
       "kind": "rule",
       "text": {
-        "de": "Zahlt die Unfallversicherung ein Taggeld, muss Ihr Arbeitgeber Ihnen für die Tage, bevor der Anspruch einsetzt, mindestens 80 Prozent des Lohnes bezahlen. Deckt das Taggeld weniger als 80 Prozent Ihres Lohnes, zum Beispiel weil Ihr Lohn über dem versicherten Höchstbetrag liegt, muss der Arbeitgeber für eine beschränkte Zeit die Differenz bis zu 80 Prozent übernehmen. Viele Arbeitsverträge und Gesamtarbeitsverträge sehen mehr vor."
+        "de": "Zahlt die Unfallversicherung ein Taggeld, muss Ihr Arbeitgeber Ihnen für die Tage, bevor der Anspruch einsetzt, mindestens 80 Prozent des Lohnes bezahlen. Deckt das Taggeld weniger als 80 Prozent Ihres Lohnes, zum Beispiel weil Ihr Lohn über dem versicherten Höchstbetrag liegt, muss der Arbeitgeber für eine beschränkte Zeit die Differenz bis zu 80 Prozent übernehmen. Viele Arbeitsverträge und Gesamtarbeitsverträge sehen mehr vor.",
+        "fr": "Lorsque l’assurance-accidents verse une indemnité journalière, votre employeur doit vous verser, pour les jours précédant l’ouverture du droit, au moins 80 % du salaire. Si l’indemnité journalière couvre moins de 80 % de votre salaire, par exemple parce que votre salaire dépasse le montant maximal assuré, l’employeur doit prendre en charge la différence jusqu’à 80 % pendant un temps limité. De nombreux contrats de travail et conventions collectives prévoient davantage.",
+        "it": "Se l'assicurazione contro gli infortuni paga un'indennità giornaliera, il suo datore di lavoro deve pagarle, per i giorni prima che il diritto inizi, almeno l'80 per cento del salario. Se l'indennità giornaliera copre meno dell'80 per cento del suo salario, per esempio perché il suo salario supera l'importo massimo assicurato, il datore di lavoro deve assumersi, per un tempo limitato, la differenza fino all'80 per cento. Molti contratti di lavoro e contratti collettivi di lavoro prevedono di più.",
+        "rm": "Sche l'assicuranza cunter accidents paja ina diaria, sto Voss patrun pajar a Vus, per ils dis avant ch'il dretg cumenza, almain 80 pertschient dal salari. Cuvra la diaria damain che 80 pertschient da Voss salari, per exempel perquai che Voss salari sta sur l'import maximal assicurà, sto il patrun surpigliar, per in temp limità, la differenza fin 80 pertschient. Blers contracts da lavur e contracts collectivs da lavur prevesan dapli.",
+        "en": "If the accident insurance pays a daily allowance, your employer must pay you at least 80 percent of your salary for the days before entitlement begins. If the daily allowance covers less than 80 percent of your salary, for example because your salary is above the insured maximum amount, the employer must cover the difference up to 80 percent for a limited time. Many employment contracts and collective employment contracts provide for more."
       },
       "sources": [
         "or-324b",
@@ -405,7 +617,11 @@
       "id": "lasting-harm",
       "kind": "rule",
       "text": {
-        "de": "Bleibt nach dem Unfall ein dauernder Schaden, kommen weitere Leistungen in Frage: eine Invalidenrente, wenn Sie wegen des Unfalls zu mindestens 10 Prozent invalid sind, und eine einmalige Integritätsentschädigung bei einer dauernden, erheblichen Schädigung Ihrer körperlichen, geistigen oder psychischen Unversehrtheit. Diese Leistungen werden in der Regel erst festgelegt, wenn die Behandlung abgeschlossen ist. Lassen Sie sich in diesem Fall beraten."
+        "de": "Bleibt nach dem Unfall ein dauernder Schaden, kommen weitere Leistungen in Frage: eine Invalidenrente, wenn Sie wegen des Unfalls zu mindestens 10 Prozent invalid sind, und eine einmalige Integritätsentschädigung bei einer dauernden, erheblichen Schädigung Ihrer körperlichen, geistigen oder psychischen Unversehrtheit. Diese Leistungen werden in der Regel erst festgelegt, wenn die Behandlung abgeschlossen ist. Lassen Sie sich in diesem Fall beraten.",
+        "fr": "S’il subsiste un dommage durable après l’accident, d’autres prestations entrent en ligne de compte : une rente d’invalidité si vous êtes invalide à 10 % au moins en raison de l’accident, et une indemnité unique pour atteinte à l’intégrité en cas d’atteinte durable et importante à votre intégrité physique, mentale ou psychique. Ces prestations ne sont en règle générale fixées que lorsque le traitement est terminé. Faites-vous conseiller dans ce cas.",
+        "it": "Se dopo l'infortunio rimane un danno permanente, entrano in considerazione ulteriori prestazioni: una rendita d'invalidità, se a causa dell'infortunio è invalido almeno al 10 per cento, e un'indennità unica per menomazione dell'integrità in caso di danno permanente e rilevante alla sua integrità fisica, mentale o psichica. Queste prestazioni vengono di regola stabilite solo quando il trattamento è concluso. In questo caso si faccia consigliare.",
+        "rm": "Resta suenter l'accident in donn permanent, entran ulteriuras prestaziuns en dumonda: ina renta d'invaliditad, sche Vus essas, pervia da l'accident, almain 10 pertschient invalids, ed ina indemnisaziun d'integritad unica tar ina donnegiaziun permanenta e considerabla da Vossa integritad corporala, spirituala u psichica. Questas prestaziuns vegnan per regla fixadas mo, cur che il tractament è terminà. Laschai Vus cusseglier en quest cas.",
+        "en": "If lasting harm remains after the accident, further benefits may be available: a disability pension, if you are at least 10 percent disabled because of the accident, and a one-off impairment benefit for lasting, significant damage to your physical, mental or psychological integrity. These benefits are generally only set once treatment is complete. Get advice in this case."
       },
       "sources": [
         "uvg-18",
@@ -427,7 +643,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie einen Freizeitunfall grob fahrlässig verursacht, kürzt die Versicherung die Taggelder der ersten zwei Jahre nach dem Unfall. Haben Sie für Angehörige zu sorgen, die bei Ihrem Tod eine Hinterlassenenrente erhalten würden, darf sie höchstens die Hälfte kürzen. Die Heilbehandlung wird nicht gekürzt. Bei Berufsunfällen gibt es keine Kürzung wegen grober Fahrlässigkeit. Gekürzt werden darf nur, wenn Ihr Fehlverhalten nach allgemeiner Erfahrung geeignet war, den Unfall oder seine Folgen herbeizuführen oder zu verschlimmern. Als Beispiel dafür, was als grob fahrlässig gilt: Die Rechtsprechung hat es so beurteilt, beim Mofafahren einen mitgeführten Helm nicht aufzusetzen. Wie stark gekürzt wird, lässt sich aus diesem älteren Entscheid nicht ableiten; das richtet sich nach dem heutigen Gesetz. Wer sich absichtlich verletzt, erhält keine Leistungen. Führt die Absicht zum Tod, werden nur die Bestattungskosten bezahlt."
+        "de": "Haben Sie einen Freizeitunfall grob fahrlässig verursacht, kürzt die Versicherung die Taggelder der ersten zwei Jahre nach dem Unfall. Haben Sie für Angehörige zu sorgen, die bei Ihrem Tod eine Hinterlassenenrente erhalten würden, darf sie höchstens die Hälfte kürzen. Die Heilbehandlung wird nicht gekürzt. Bei Berufsunfällen gibt es keine Kürzung wegen grober Fahrlässigkeit. Gekürzt werden darf nur, wenn Ihr Fehlverhalten nach allgemeiner Erfahrung geeignet war, den Unfall oder seine Folgen herbeizuführen oder zu verschlimmern. Als Beispiel dafür, was als grob fahrlässig gilt: Die Rechtsprechung hat es so beurteilt, beim Mofafahren einen mitgeführten Helm nicht aufzusetzen. Wie stark gekürzt wird, lässt sich aus diesem älteren Entscheid nicht ableiten; das richtet sich nach dem heutigen Gesetz. Wer sich absichtlich verletzt, erhält keine Leistungen. Führt die Absicht zum Tod, werden nur die Bestattungskosten bezahlt.",
+        "fr": "Si vous avez causé un accident de loisirs par négligence grave, l’assurance réduit les indemnités journalières des deux premières années suivant l’accident. Si vous avez des proches à charge qui recevraient une rente de survivants en cas de décès, elle ne peut réduire que de moitié au maximum. Le traitement médical n’est pas réduit. Pour les accidents professionnels, il n’y a pas de réduction pour négligence grave. Une réduction n’est possible que si votre comportement fautif était, selon l’expérience générale, propre à provoquer l’accident ou ses suites, ou à les aggraver. À titre d’exemple de ce qui est considéré comme une négligence grave : la jurisprudence a jugé ainsi le fait de ne pas mettre un casque disponible en conduisant un cyclomoteur. L’ampleur de la réduction ne peut pas être déduite de cet ancien arrêt ; elle se détermine selon le droit actuel. Quiconque se blesse intentionnellement ne reçoit aucune prestation. Si l’intention entraîne la mort, seuls les frais funéraires sont payés.",
+        "it": "Se ha causato per colpa grave un infortunio nel tempo libero, l'assicurazione riduce le indennità giornaliere dei primi due anni dopo l'infortunio. Se ha familiari a suo carico che, in caso di morte, riceverebbero una rendita per superstiti, può ridurre al massimo della metà. La cura medica non viene ridotta. Negli infortuni professionali non c'è riduzione per colpa grave. Una riduzione è ammessa solo se il suo comportamento scorretto era, secondo l'esperienza generale, idoneo a provocare l'infortunio o le sue conseguenze o ad aggravarli. Come esempio di ciò che è considerato colpa grave: la giurisprudenza ha giudicato così il non indossare un casco portato con sé mentre si guida un ciclomotore. L'entità della riduzione non si può dedurre da questa vecchia decisione; essa si determina secondo la legge attuale. Chi si ferisce intenzionalmente non riceve prestazioni. Se l'intenzione porta alla morte, vengono pagate solo le spese funebri.",
+        "rm": "Avais Vus chaschunà in accident en il temp liber tras grava negligenza, reducescha l'assicuranza las diarias dals emprims dus onns suenter l'accident. Avais Vus da procurar per commembers da la famiglia, che survegneran, en cas da Voss mort, ina renta da survivents, dastga ella reducir maximalmain la mesadad. Il tractament medical na vegn betg reducì. Tar accidents professionals na dat i nagina reducziun pervia da grava negligenza. Reducì dastga vegnir mo, sche Voss cumportament sbaglià era, tenor l'experientscha generala, adattà per chaschunar u aggravar l'accident u sias consequenzas. Sco exempel per quai che vala sco grava negligenza: La giurisprudenza ha giuditgà uschia il fatg da betg metter si in tgasco manà cun sasez cun ina motoretta. Quant fermamain ch'i vegn reducì, na sa lascha betg deducir da questa decisiun pli veglia; quai sa drizza tenor la lescha dad oz. Tgi che sa blessa a bel intent, na survegn naginas prestaziuns. Maina l'intenziun a la mort, vegnan pajads mo ils custs da sepultura.",
+        "en": "If you caused a non-occupational accident through gross negligence, the insurance reduces the daily allowances for the first two years after the accident. If you have dependants who would receive a survivor's pension on your death, it may reduce them by at most half. Medical treatment is not reduced. For occupational accidents, there is no reduction for gross negligence. A reduction is only allowed if your misconduct was, according to general experience, capable of causing or worsening the accident or its consequences. As an example of what counts as gross negligence: case law has judged not wearing a helmet you were carrying while riding a moped to be gross negligence. How much of a reduction that leads to cannot be derived from that older decision; that is governed by the law as it now stands. Anyone who injures themselves intentionally receives no benefits. If the intent leads to death, only the funeral costs are paid."
       },
       "sources": [
         "uvg-37",
@@ -449,7 +669,11 @@
         ]
       },
       "text": {
-        "de": "Geht ein Freizeitunfall auf ein sogenanntes Wagnis zurück, werden die Geldleistungen wie das Taggeld um die Hälfte gekürzt, in besonders schweren Fällen ganz verweigert. Ein Wagnis ist eine Handlung, bei der Sie sich einer besonders grossen Gefahr aussetzen, ohne das Risiko durch Vorkehrungen auf ein vernünftiges Mass zu senken, oder ohne dass das überhaupt möglich wäre. Die Rechtsprechung unterscheidet Tätigkeiten, die selbst unter besten Bedingungen zu gefährlich sind, von an sich erlaubten Tätigkeiten, bei denen Sie mögliche Vorsichtsmassnahmen unterlassen haben. Die Heilbehandlung wird weiterhin bezahlt. Wer eine andere Person zu retten versucht, bleibt voll versichert."
+        "de": "Geht ein Freizeitunfall auf ein sogenanntes Wagnis zurück, werden die Geldleistungen wie das Taggeld um die Hälfte gekürzt, in besonders schweren Fällen ganz verweigert. Ein Wagnis ist eine Handlung, bei der Sie sich einer besonders grossen Gefahr aussetzen, ohne das Risiko durch Vorkehrungen auf ein vernünftiges Mass zu senken, oder ohne dass das überhaupt möglich wäre. Die Rechtsprechung unterscheidet Tätigkeiten, die selbst unter besten Bedingungen zu gefährlich sind, von an sich erlaubten Tätigkeiten, bei denen Sie mögliche Vorsichtsmassnahmen unterlassen haben. Die Heilbehandlung wird weiterhin bezahlt. Wer eine andere Person zu retten versucht, bleibt voll versichert.",
+        "fr": "Si un accident de loisirs résulte d’une entreprise dite téméraire, les prestations en espèces telles que l’indemnité journalière sont réduites de moitié, et entièrement refusées dans les cas particulièrement graves. Une entreprise téméraire est un acte par lequel vous vous exposez à un danger particulièrement grand sans réduire le risque à une mesure raisonnable par des précautions, ou sans que cela soit même possible. La jurisprudence distingue les activités qui sont trop dangereuses même dans les meilleures conditions de celles, en soi permises, pour lesquelles vous avez omis des précautions possibles. Le traitement médical continue d’être payé. Quiconque tente de sauver une autre personne reste entièrement assuré.",
+        "it": "Se un infortunio nel tempo libero è riconducibile a un cosiddetto atto temerario, le prestazioni in denaro come l'indennità giornaliera vengono ridotte della metà, nei casi particolarmente gravi rifiutate del tutto. Un atto temerario è un'azione con cui lei si espone a un pericolo particolarmente grande, senza ridurre il rischio a una misura ragionevole con precauzioni, o senza che ciò sia affatto possibile. La giurisprudenza distingue le attività che sono troppo pericolose anche nelle migliori condizioni dalle attività di per sé lecite in cui lei ha omesso possibili misure di prudenza. La cura medica continua a essere pagata. Chi cerca di salvare un'altra persona resta pienamente assicurato.",
+        "rm": "Va enavos in accident en il temp liber sin in uschenumnà act temerari, vegnan las prestaziuns da daner sco la diaria reducidas da la mesadad, en cas spezialmain gravs refusadas dal tut. In act temerari è in act, tar il qual Vus Vus exponais ad in privel spezialmain grond, senza reducir il ristg tras mesiras da precauziun ad in mesiras raschunaivel, u senza che quai fiss adina pussibel. La giurisprudenza distingua activitads, che èn era sut las megliras cundiziuns memia privlas, dad activitads en sasez permessas, tar las qualas Vus avais tralaschà pussaivlas mesiras da precauziun. Il tractament medical vegn vinavant pajà. Tgi che emprova da salvar in'autra persuna, resta entiramain assicurà.",
+        "en": "If a non-occupational accident is due to a so-called reckless act, the cash benefits such as the daily allowance are reduced by half, and refused entirely in particularly serious cases. A reckless act is an action in which you expose yourself to a particularly great danger without reducing the risk to a reasonable level through precautions, or where that would not be possible at all. Case law distinguishes activities that are too dangerous even under the best conditions from activities that are permitted in themselves, where you failed to take possible precautions. Medical treatment continues to be paid. Anyone who tries to rescue another person remains fully insured."
       },
       "sources": [
         "uvg-39",
@@ -467,7 +691,11 @@
         ]
       },
       "text": {
-        "de": "Teilt Ihnen der Versicherer nur in einem Brief, per Telefon oder durch das Einstellen der Zahlungen mit, dass er nicht oder nicht mehr leistet, verlangen Sie schriftlich eine formelle Verfügung. Wenn Sie nicht einverstanden sind, muss er über Ihre Leistungen schriftlich verfügen und seinen Entscheid begründen. Erst gegen eine solche Verfügung können Sie Einsprache erheben. Warten Sie damit nicht lange."
+        "de": "Teilt Ihnen der Versicherer nur in einem Brief, per Telefon oder durch das Einstellen der Zahlungen mit, dass er nicht oder nicht mehr leistet, verlangen Sie schriftlich eine formelle Verfügung. Wenn Sie nicht einverstanden sind, muss er über Ihre Leistungen schriftlich verfügen und seinen Entscheid begründen. Erst gegen eine solche Verfügung können Sie Einsprache erheben. Warten Sie damit nicht lange.",
+        "fr": "Si l’assureur ne vous communique que par une simple lettre, par téléphone ou en cessant les paiements qu’il ne verse pas ou plus de prestations, exigez par écrit une décision formelle. S’il n’est pas d’accord avec vous, il doit statuer par écrit sur vos prestations et motiver sa décision. Ce n’est que contre une telle décision que vous pouvez former opposition. N’attendez pas longtemps pour cela.",
+        "it": "Se l'assicuratore le comunica solo con una lettera, per telefono o interrompendo i pagamenti che non presta o non presta più, chieda per scritto una decisione formale. Se non è d'accordo, deve emanare una decisione scritta sulle sue prestazioni e motivare il suo giudizio. Solo contro una tale decisione può fare opposizione. Non aspetti a lungo.",
+        "rm": "Communitgel Vus l'assicurader mo en ina brev, per telefon u tras la fin dals pajaments, ch'el na presta betg u betg pli, pretendai per scrit ina decisiun formala. Sch'Vus n'essas betg d'accord, sto el decider per scrit davart Vossas prestaziuns e motivar sia decisiun. Mo cunter ina tala decisiun pudais Vus far opposiziun. Spetgai betg ditg cun quai.",
+        "en": "If the insurer only tells you in a letter, by telephone, or by stopping payments that it is not paying, or no longer paying, demand a formal ruling in writing. If you disagree, it must issue a written ruling on your benefits and give reasons for its decision. You can only object once such a ruling has been issued. Do not wait long to do this."
       },
       "sources": [
         "atsg-49",
@@ -485,7 +713,11 @@
         ]
       },
       "text": {
-        "de": "Gegen eine Verfügung der Unfallversicherung können Sie innert 30 Tagen bei der Stelle Einsprache erheben, welche die Verfügung erlassen hat. Die Frist beginnt am Tag nach der Zustellung. Einen eingeschriebenen Brief, den Sie nicht abholen, behandelt das Gesetz spätestens am siebten Tag nach dem ersten erfolglosen Zustellversuch als zugestellt. Die Frist ist eingehalten, wenn Sie Ihre Einsprache spätestens am letzten Tag der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet die Frist am nächsten Werktag. Diese gesetzliche Frist kann nicht verlängert werden."
+        "de": "Gegen eine Verfügung der Unfallversicherung können Sie innert 30 Tagen bei der Stelle Einsprache erheben, welche die Verfügung erlassen hat. Die Frist beginnt am Tag nach der Zustellung. Einen eingeschriebenen Brief, den Sie nicht abholen, behandelt das Gesetz spätestens am siebten Tag nach dem ersten erfolglosen Zustellversuch als zugestellt. Die Frist ist eingehalten, wenn Sie Ihre Einsprache spätestens am letzten Tag der Schweizerischen Post übergeben. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet die Frist am nächsten Werktag. Diese gesetzliche Frist kann nicht verlängert werden.",
+        "fr": "Vous pouvez former opposition contre une décision de l’assurance-accidents dans les 30 jours, auprès du service qui a rendu la décision. Le délai commence à courir le jour suivant la notification. Une lettre recommandée que vous ne retirez pas est réputée par la loi notifiée au plus tard le septième jour suivant le premier essai infructueux de distribution. Le délai est respecté si vous remettez votre opposition à la Poste Suisse au plus tard le dernier jour. Si le dernier jour tombe un samedi, un dimanche ou un jour férié, le délai se termine le jour ouvrable suivant. Ce délai légal ne peut pas être prolongé.",
+        "it": "Contro una decisione dell'assicurazione contro gli infortuni può fare opposizione entro 30 giorni presso il servizio che l'ha emanata. Il termine inizia il giorno dopo la notificazione. Una lettera raccomandata che lei non ritira è considerata dalla legge notificata al più tardi il settimo giorno dopo il primo tentativo di consegna infruttuoso. Il termine è rispettato se consegna la sua opposizione alla Posta Svizzera al più tardi l'ultimo giorno. Se l'ultimo giorno cade di sabato, domenica o in un giorno festivo, il termine scade il giorno lavorativo seguente. Questo termine legale non può essere prorogato.",
+        "rm": "Cunter ina decisiun da l'assicuranza cunter accidents pudais Vus far opposiziun entaifer 30 dis tar il post, ch'ha emess la decisiun. La termin cumenza il di suenter la consegna. Ina brev racumandada, che Vus na retirais betg, tracta la lescha al pli tard il settavel di suenter il emprim empruv da consegna senza success sco consegnada. La termin è observada, sche Vus consegnais Vossa opposiziun al pli tard l'ultim di a la Posta Svizra. Croda l'ultim di sin in sonda, dumengia u di da festa, finescha la termin il proxim di da lavur. Questa termin legala na po betg vegnir prolungada.",
+        "en": "You can object to a ruling of the accident insurance within 30 days, with the body that issued the ruling. The time limit begins on the day after service. A registered letter that you do not collect is treated by law as served at the latest on the seventh day after the first unsuccessful delivery attempt. The time limit is met if you hand your objection to the Swiss Post at the latest on the last day. If the last day falls on a Saturday, Sunday or public holiday, the time limit ends on the next working day. This statutory time limit cannot be extended."
       },
       "sources": [
         "atsg-52",
@@ -505,7 +737,11 @@
         ]
       },
       "text": {
-        "de": "Schreiben Sie in der Einsprache, was Sie verlangen (zum Beispiel die Weiterzahlung des Taggeldes) und warum. Legen Sie Arztberichte bei, die Ihre Sicht stützen. Unterschreiben Sie den Brief von Hand und schicken Sie ihn eingeschrieben. Sie können die Einsprache auch persönlich am Schalter des Versicherers mündlich erheben. Eine Einsprache per gewöhnlicher E-Mail ist ungültig, weil die Unterschrift fehlt, und wahrt die Frist nicht. Den Fehler können Sie nur beheben, solange die 30 Tage noch laufen."
+        "de": "Schreiben Sie in der Einsprache, was Sie verlangen (zum Beispiel die Weiterzahlung des Taggeldes) und warum. Legen Sie Arztberichte bei, die Ihre Sicht stützen. Unterschreiben Sie den Brief von Hand und schicken Sie ihn eingeschrieben. Sie können die Einsprache auch persönlich am Schalter des Versicherers mündlich erheben. Eine Einsprache per gewöhnlicher E-Mail ist ungültig, weil die Unterschrift fehlt, und wahrt die Frist nicht. Den Fehler können Sie nur beheben, solange die 30 Tage noch laufen.",
+        "fr": "Indiquez dans l’opposition ce que vous demandez (par exemple la poursuite du versement de l’indemnité journalière) et pourquoi. Joignez des rapports médicaux qui appuient votre point de vue. Signez la lettre de votre main et envoyez-la sous pli recommandé. Vous pouvez aussi former l’opposition oralement, en personne, au guichet de l’assureur. Une opposition par simple courriel n’est pas valable, car la signature fait défaut, et elle ne sauvegarde pas le délai. Vous ne pouvez réparer ce vice que tant que les 30 jours courent encore.",
+        "it": "Scriva nell'opposizione cosa chiede (per esempio la continuazione del pagamento dell'indennità giornaliera) e perché. Alleghi referti medici che sostengono il suo punto di vista. Firmi la lettera a mano e la invii per raccomandata. Può anche fare opposizione oralmente, di persona, allo sportello dell'assicuratore. Un'opposizione per e-mail ordinaria non è valida, perché manca la firma, e non salvaguarda il termine. Può sanare l'errore solo finché i 30 giorni sono ancora aperti.",
+        "rm": "Scrivai en l'opposiziun, tge che Vus pretendais (per exempel la cuntinuaziun dal pajament da la diaria) e pertge. Agiuntai rapports medicals, che sustegnan Vossa vesida. Suttascrivai la brev a maun e tramettai la per pievel racumandà. Vus pudais era far l'opposiziun persunalmain oralmain al schalter da l'assicurader. In'opposiziun per e-mail ordinaria n'è betg valaivla, perquai che la suttascripziun manca, e na salvegua betg la termin. Il sbagl pudais Vus correger mo, uschè ditg che ils 30 dis currunt anc.",
+        "en": "In the objection, state what you are asking for (for example, continued payment of the daily allowance) and why. Enclose medical reports that support your position. Sign the letter by hand and send it by registered post. You can also raise the objection orally in person at the insurer's counter. An objection by ordinary email is invalid, because the signature is missing, and does not preserve the time limit. You can only correct this error while the 30 days are still running."
       },
       "sources": [
         "atsv-10",
@@ -523,7 +759,11 @@
         ]
       },
       "text": {
-        "de": "Der Versicherer ist im Einspracheverfahren nicht an Ihre Anträge gebunden. Er kann die Verfügung auch zu Ihrem Nachteil ändern, etwa eine Rente herabsetzen. Will er das tun, muss er Sie vorher darauf hinweisen und Ihnen die Möglichkeit geben, die Einsprache zurückzuziehen. Nehmen Sie einen solchen Hinweis ernst und holen Sie Rat."
+        "de": "Der Versicherer ist im Einspracheverfahren nicht an Ihre Anträge gebunden. Er kann die Verfügung auch zu Ihrem Nachteil ändern, etwa eine Rente herabsetzen. Will er das tun, muss er Sie vorher darauf hinweisen und Ihnen die Möglichkeit geben, die Einsprache zurückzuziehen. Nehmen Sie einen solchen Hinweis ernst und holen Sie Rat.",
+        "fr": "L’assureur n’est pas lié par vos conclusions dans la procédure d’opposition. Il peut aussi modifier la décision à votre désavantage, par exemple réduire une rente. S’il veut le faire, il doit vous le signaler au préalable et vous donner la possibilité de retirer l’opposition. Prenez un tel avertissement au sérieux et demandez conseil.",
+        "it": "Nella procedura di opposizione l'assicuratore non è vincolato alle sue conclusioni. Può modificare la decisione anche a suo svantaggio, per esempio riducendo una rendita. Se vuole farlo, deve prima avvertirla e darle la possibilità di ritirare l'opposizione. Prenda sul serio un tale avviso e si faccia consigliare.",
+        "rm": "L'assicurader n'è, en la procedura d'opposiziun, betg lià a Vossas dumondas. El po midar la decisiun era a Voss donn, per exempel reducir ina renta. Vul el far quai, sto el indicar quai a Vus ordavant e dar a Vus la pussaivladad da retrair l'opposiziun. Prendai in tal indizi serius e procurai cussegl.",
+        "en": "The insurer is not bound by your requests in the objection proceedings. It can also amend the ruling to your disadvantage, for example by reducing a pension. If it wants to do this, it must point this out to you beforehand and give you the opportunity to withdraw the objection. Take such a warning seriously and get advice."
       },
       "sources": [
         "atsv-12"
@@ -540,7 +780,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie mit dem Einspracheentscheid nicht einverstanden, können Sie innert 30 Tagen nach der Eröffnung Beschwerde beim Versicherungsgericht des Kantons erheben, in dem Sie wohnen. Die Beschwerde muss kurz schildern, was passiert ist, sagen, was Sie verlangen, und dies kurz begründen. Fehlt etwas davon, gibt Ihnen das Gericht eine Frist zur Verbesserung. Wie das Gericht heisst und wo es ist, ist von Kanton zu Kanton verschieden. Die genaue Stelle steht in der Rechtsmittelbelehrung am Ende des Einspracheentscheids. Erlässt der Versicherer trotz Ihrer Aufforderung keine Verfügung oder keinen Einspracheentscheid, können Sie sich ebenfalls beim Versicherungsgericht beschweren."
+        "de": "Sind Sie mit dem Einspracheentscheid nicht einverstanden, können Sie innert 30 Tagen nach der Eröffnung Beschwerde beim Versicherungsgericht des Kantons erheben, in dem Sie wohnen. Die Beschwerde muss kurz schildern, was passiert ist, sagen, was Sie verlangen, und dies kurz begründen. Fehlt etwas davon, gibt Ihnen das Gericht eine Frist zur Verbesserung. Wie das Gericht heisst und wo es ist, ist von Kanton zu Kanton verschieden. Die genaue Stelle steht in der Rechtsmittelbelehrung am Ende des Einspracheentscheids. Erlässt der Versicherer trotz Ihrer Aufforderung keine Verfügung oder keinen Einspracheentscheid, können Sie sich ebenfalls beim Versicherungsgericht beschweren.",
+        "fr": "Si vous n’êtes pas d’accord avec la décision sur opposition, vous pouvez former recours dans les 30 jours suivant sa notification auprès du tribunal des assurances du canton dans lequel vous habitez. Le recours doit exposer brièvement ce qui s’est passé, indiquer ce que vous demandez et le motiver brièvement. S’il manque quelque chose, le tribunal vous impartit un délai pour compléter votre recours. Le nom et l’adresse du tribunal varient d’un canton à l’autre. Le service exact figure dans l’indication des voies de droit à la fin de la décision sur opposition. Si l’assureur ne rend, malgré votre demande, ni décision ni décision sur opposition, vous pouvez également vous adresser au tribunal des assurances.",
+        "it": "Se non è d'accordo con la decisione su opposizione, può presentare ricorso entro 30 giorni dalla notificazione al tribunale delle assicurazioni del Cantone in cui risiede. Il ricorso deve descrivere brevemente cosa è successo, dire cosa chiede e motivarlo brevemente. Se manca qualcosa, il tribunale le fissa un termine per sanare il vizio. Come si chiama il tribunale e dove si trova varia da Cantone a Cantone. Il servizio esatto è indicato nell'indicazione dei rimedi giuridici alla fine della decisione su opposizione. Se, nonostante la sua richiesta, l'assicuratore non emana una decisione né una decisione su opposizione, può reclamare allo stesso modo presso il tribunale delle assicurazioni.",
+        "rm": "N'essas Vus betg d'accord cun la decisiun sin opposiziun, pudais Vus far recurs entaifer 30 dis suenter l'avertura tar la dretgira d'assicuranza dal chantun, en il qual Vus abitais. Il recurs sto descriver curtamain, tge ch'è succedì, dir, tge che Vus pretendais, e motivar quai curtamain. Manca insatge da quai, dat la dretgira a Vus ina termin per la meglieraziun. Co la dretgira sa clama e nua ch'ella è, è different da chantun a chantun. Il post exact stat en l'indicaziun dals meds legals a la fin da la decisiun sin opposiziun. Sch'l'assicurader n'emetta, malgrà Vossa pretensiun, nagina decisiun u nagina decisiun sin opposiziun, pudais Vus era far recurs tar la dretgira d'assicuranza.",
+        "en": "If you disagree with the objection decision, you can appeal to the insurance court of the canton where you live, within 30 days of notification. The appeal must briefly describe what happened, state what you are asking for, and be briefly reasoned. If something is missing, the court will give you a time limit to correct it. The name and location of the court differ from canton to canton. The exact body is given in the instructions on legal remedies at the end of the objection decision. If the insurer, despite your request, issues no ruling and no objection decision, you can likewise complain to the insurance court."
       },
       "sources": [
         "atsg-56",
@@ -553,7 +797,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Einspracheverfahren ist kostenlos. Eine Entschädigung für Anwaltskosten erhalten Sie dort in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei Streit über Leistungen der Unfallversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, muss Ihnen die Versicherung Ihre Parteikosten ersetzen. Fehlen Ihnen die Mittel und brauchen Sie wegen der Schwierigkeit des Falls eine Vertretung, kann Ihnen für das Einspracheverfahren und für das Gerichtsverfahren eine unentgeltliche Anwältin oder ein unentgeltlicher Anwalt bewilligt werden."
+        "de": "Das Einspracheverfahren ist kostenlos. Eine Entschädigung für Anwaltskosten erhalten Sie dort in der Regel nicht. Auch das Verfahren vor dem kantonalen Versicherungsgericht ist bei Streit über Leistungen der Unfallversicherung grundsätzlich kostenlos. Nur wer sich mutwillig oder leichtsinnig verhält, kann Gerichtskosten auferlegt bekommen. Gewinnen Sie vor Gericht, muss Ihnen die Versicherung Ihre Parteikosten ersetzen. Fehlen Ihnen die Mittel und brauchen Sie wegen der Schwierigkeit des Falls eine Vertretung, kann Ihnen für das Einspracheverfahren und für das Gerichtsverfahren eine unentgeltliche Anwältin oder ein unentgeltlicher Anwalt bewilligt werden.",
+        "fr": "La procédure d’opposition est gratuite. Vous n’y recevez en règle générale aucune indemnisation pour des frais d’avocat. La procédure devant le tribunal cantonal des assurances est elle aussi en principe gratuite pour les litiges relatifs aux prestations de l’assurance-accidents. Seule une personne qui agit de manière téméraire ou légère peut se voir imposer des frais judiciaires. Si vous gagnez devant le tribunal, l’assurance doit vous rembourser vos dépens. Si vous n’avez pas les moyens et avez besoin d’une représentation en raison de la difficulté du cas, une avocate ou un avocat d’office peut vous être accordé pour la procédure d’opposition et pour la procédure judiciaire.",
+        "it": "La procedura di opposizione è gratuita. Un'indennità per le spese legali di regola non è prevista. Anche la procedura davanti al tribunale cantonale delle assicurazioni è di principio gratuita in caso di controversia sulle prestazioni dell'assicurazione contro gli infortuni. Solo chi agisce in modo temerario o leggero può vedersi addossate spese giudiziarie. Se vince in tribunale, l'assicurazione deve rimborsarle le sue spese ripetibili. Se non dispone dei mezzi e ha bisogno di una rappresentanza per la difficoltà del caso, può esserle concessa un'avvocata gratuita o un avvocato gratuito per la procedura di opposizione e per la procedura giudiziaria.",
+        "rm": "La procedura d'opposiziun è gratuita. In'indemnisaziun per custs d'advocat na survegnis Vus là per regla betg. Er la procedura avant la dretgira chantunala d'assicuranza è, tar dispitas davart prestaziuns da l'assicuranza cunter accidents, per principi gratuita. Mo tgi che sa cumporta a mala fai u a la leviera po survegnir custs giudizials. Vegnis Vus victorius avant dretgira, sto l'assicuranza restituir a Vus Vossas expensas da part. Manca a Vus il meds e dovrais Vus, pervia da la difficultad dal cas, ina represchentanza, po vegnir approvà a Vus per la procedura d'opposiziun e per la procedura giudiziala in'advocata u in advocat gratuits.",
+        "en": "The objection proceedings are free of charge. You generally receive no compensation for lawyer's costs there. Proceedings before the cantonal insurance court are also, in principle, free of charge for disputes over accident insurance benefits. Only someone who acts wantonly or recklessly can be ordered to pay court costs. If you win in court, the insurance must reimburse your party costs. If you lack the means and need representation because of the difficulty of the case, you can be granted a lawyer free of charge for the objection proceedings and for the court proceedings."
       },
       "sources": [
         "atsg-52",
@@ -565,14 +813,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie rasch persönliche Beratung, wenn der Versicherer bestreitet, dass es ein Unfall war, oder Ihre Beschwerden auf Abnützung oder eine Krankheit zurückführt, wenn er das Taggeld einstellt, obwohl Sie nicht arbeiten können, wenn er Leistungen wegen grober Fahrlässigkeit oder eines Wagnisses kürzt, wenn eine Invalidenrente oder Integritätsentschädigung zur Diskussion steht, oder wenn die Frist für Einsprache oder Beschwerde bald abläuft. Nehmen Sie die Verfügung, die Arztberichte und Ihre Unfallmeldung mit."
+        "de": "Holen Sie rasch persönliche Beratung, wenn der Versicherer bestreitet, dass es ein Unfall war, oder Ihre Beschwerden auf Abnützung oder eine Krankheit zurückführt, wenn er das Taggeld einstellt, obwohl Sie nicht arbeiten können, wenn er Leistungen wegen grober Fahrlässigkeit oder eines Wagnisses kürzt, wenn eine Invalidenrente oder Integritätsentschädigung zur Diskussion steht, oder wenn die Frist für Einsprache oder Beschwerde bald abläuft. Nehmen Sie die Verfügung, die Arztberichte und Ihre Unfallmeldung mit.",
+        "fr": "Demandez rapidement un conseil personnalisé si l’assureur conteste qu’il s’agisse d’un accident ou attribue vos troubles à l’usure ou à une maladie, s’il arrête l’indemnité journalière alors que vous ne pouvez pas travailler, s’il réduit ses prestations pour négligence grave ou entreprise téméraire, si une rente d’invalidité ou une indemnité pour atteinte à l’intégrité est en jeu, ou si le délai d’opposition ou de recours expire bientôt. Apportez la décision, les rapports médicaux et votre annonce d’accident.",
+        "it": "Si faccia consigliare rapidamente e personalmente se l'assicuratore contesta che si tratti di un infortunio o riconduce i suoi disturbi a usura o a una malattia, se sospende l'indennità giornaliera benché lei non possa lavorare, se riduce le prestazioni per colpa grave o per un atto temerario, se è in discussione una rendita d'invalidità o un'indennità per menomazione dell'integrità, oppure se il termine per l'opposizione o il ricorso sta per scadere. Porti con sé la decisione, i referti medici e il suo annuncio d'infortunio.",
+        "rm": "Procurai svelt ina consulaziun persunala, sche l'assicurader contesta ch'i era in accident, u renvia Vossas plaints ad usura u ina malsogna, sch'el fermescha la diaria, malgrà ch'Vus na pudais betg lavurar, sch'el reducescha prestaziuns pervia da grava negligenza u d'in act temerari, sche stat en dumonda ina renta d'invaliditad u ina indemnisaziun d'integritad, u sche la termin per opposiziun u recurs scada bainbaud. Prendai cun Vus la decisiun, ils rapports medicals e Vossa annunzia d'accident.",
+        "en": "Get personal advice quickly if the insurer disputes that it was an accident, or attributes your complaints to wear and tear or an illness, if it stops the daily allowance although you cannot work, if it reduces benefits because of gross negligence or a reckless act, if a disability pension or impairment benefit is under discussion, or if the time limit for an objection or appeal is about to expire. Bring the ruling, the medical reports and your accident report with you."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Gewerkschaften beraten ihre Mitglieder in Fragen der Unfallversicherung. Behindertenorganisationen und andere Beratungsstellen für Sozialversicherungen helfen bei längeren oder schweren Fällen. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Prüfen Sie auch, ob Sie eine Rechtsschutzversicherung haben."
+        "de": "Kostenlose oder günstige Hilfe: Gewerkschaften beraten ihre Mitglieder in Fragen der Unfallversicherung. Behindertenorganisationen und andere Beratungsstellen für Sozialversicherungen helfen bei längeren oder schweren Fällen. Viele Kantone und Anwaltsverbände bieten eine unentgeltliche Rechtsauskunft an. Prüfen Sie auch, ob Sie eine Rechtsschutzversicherung haben.",
+        "fr": "Aide gratuite ou à faible coût : les syndicats conseillent leurs membres en matière d’assurance-accidents. Les organisations de personnes handicapées et d’autres services de consultation en assurances sociales aident dans les cas prolongés ou graves. De nombreux cantons et associations d’avocats offrent une consultation juridique gratuite. Vérifiez aussi si vous disposez d’une protection juridique.",
+        "it": "Aiuto gratuito o a basso costo: i sindacati consigliano i propri membri in materia di assicurazione contro gli infortuni. Organizzazioni per persone con disabilità e altri servizi di consulenza per le assicurazioni sociali aiutano nei casi più lunghi o gravi. Molti Cantoni e associazioni di avvocati offrono una consulenza giuridica gratuita. Verifichi anche se dispone di un'assicurazione di protezione giuridica.",
+        "rm": "Agid gratuit u avantagius: Sindicats cusseglieschan lur commembers en dumondas da l'assicuranza cunter accidents. Organisaziuns per persunas cun impediment ed autras posts da cussegliaziun per assicuranzas socialas agiuidan en cas pli lungs u pli gravs. Blers chantuns e federaziuns d'advocatas ed advocats offran in'infurmaziun giuridica gratuita. Examinai era, sch'Vus avais in'assicuranza da protecziun giuridica.",
+        "en": "Free or low-cost help: trade unions advise their members on accident insurance questions. Disability organisations and other advice centres for social insurance help with longer or more serious cases. Many cantons and bar associations offer free legal information. Also check whether you have legal expenses insurance."
       }
     }
   ],
@@ -963,13 +1219,21 @@
   "official_links": [
     {
       "label": {
-        "de": "BAG: Unfallversicherung – wer ist obligatorisch versichert?"
+        "de": "BAG: Unfallversicherung – wer ist obligatorisch versichert?",
+        "fr": "OFSP : assurance-accidents – qui est assuré obligatoirement ?",
+        "it": "UFSP: assicurazione contro gli infortuni – chi è obbligatoriamente assicurato?",
+        "rm": "UFSP: Assicuranza cunter accidents – tgi è obligatoricamain assicurà?",
+        "en": "FOPH: Accident insurance – who is compulsorily insured?"
       },
       "url": "https://www.bag.admin.ch/de/unfallversicherung-wer-ist-obligatorisch-versichert"
     },
     {
       "label": {
-        "de": "BAG: Was bietet die Unfallversicherung?"
+        "de": "BAG: Was bietet die Unfallversicherung?",
+        "fr": "OFSP : que couvre l’assurance-accidents ?",
+        "it": "UFSP: cosa offre l'assicurazione contro gli infortuni?",
+        "rm": "UFSP: Tge porscha l'assicuranza cunter accidents?",
+        "en": "FOPH: What does accident insurance cover?"
       },
       "url": "https://www.bag.admin.ch/de/was-bietet-die-unfallversicherung"
     }
