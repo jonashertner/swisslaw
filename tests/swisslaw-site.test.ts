@@ -64,7 +64,7 @@ test('coverage lists every situation once, in all five languages', () => {
 
 test('unreviewed translations stay off the public site', () => {
   const s = structuredClone(all.find(x => x.id === 'tenancy.early-exit')!);
-  s.title.fr = 'Je veux partir avant la fin du délai de congé'; s.blocks[0].text.fr = 'Texte'; s.examples.fr = ['Partir plus tôt'];
+  s.title.fr = 'Je veux partir avant la fin du délai de congé'; s.blocks[0].text.fr = 'Texte'; s.examples.fr = ['Partir plus tôt']; delete s.title.it;
   s.review.languages_reviewed = ['de'];
   const pub = withPublishedLanguages(s, 'public');
   assert.equal(pub.title.fr, undefined); assert.equal(pub.blocks[0].text.fr, undefined); assert.equal(pub.examples.fr, undefined);
