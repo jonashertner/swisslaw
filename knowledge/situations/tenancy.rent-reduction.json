@@ -9,7 +9,7 @@
     "de": "Der Referenzzinssatz ist gesunken. Kann ich eine Mietzinssenkung verlangen?"
   },
   "summary": {
-    "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Antwortet er nicht oder lehnt er ab, können Sie danach die Schlichtungsbehörde anrufen. Das Verfahren ist kostenlos."
+    "de": "Ist der hypothekarische Referenzzinssatz gesunken oder haben sich die Kosten des Vermieters sonst verringert, können Sie eine Senkung des Mietzinses verlangen. Sie gilt ab dem nächsten Kündigungstermin und nur für die Zukunft. Sie müssen zuerst schriftlich beim Vermieter nachfragen. Lehnt er ab oder antwortet er nicht innert 30 Tagen, können Sie danach innert 30 Tagen die Schlichtungsbehörde anrufen. Das Verfahren dort ist kostenlos."
   },
   "examples": {
     "de": [
@@ -126,10 +126,38 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie vor: Stellen Sie Ihr Herabsetzungsbegehren schriftlich beim Vermieter, nicht bei der Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und verlangen Sie die Senkung auf den nächstmöglichen Kündigungstermin. Bewahren Sie eine Kopie und den Versandnachweis auf."
+        "de": "So gehen Sie vor: Schreiben Sie dem Vermieter einen Brief und verlangen Sie darin die Senkung Ihres Mietzinses. Das Gesuch geht zuerst an den Vermieter, nicht an die Schlichtungsbehörde. Nennen Sie den Grund, zum Beispiel den gesunkenen Referenzzinssatz, und den Termin, ab dem die tiefere Miete gelten soll. Bewahren Sie eine Kopie und den Versandnachweis auf."
       },
       "sources": [
-        "or-270a"
+        "or-270a",
+        "bge-132-iii-702"
+      ]
+    },
+    {
+      "id": "timing",
+      "kind": "rule",
+      "text": {
+        "de": "Die Senkung gilt erst ab dem nächsten Termin, auf den Sie den Mietvertrag kündigen könnten. Ihr Brief muss beim Vermieter deshalb eintreffen, bevor die Kündigungsfrist für diesen Termin beginnt. Beträgt Ihre Kündigungsfrist zum Beispiel drei Monate und ist der 30. September ein Kündigungstermin, muss der Brief spätestens Ende Juni beim Vermieter sein. Trifft er später ein, gilt die Senkung erst auf den folgenden Termin. Für vergangene Monate erhalten Sie kein Geld zurück, auch wenn der Referenzzinssatz schon länger gesunken ist. Warten Sie deshalb nicht."
+      },
+      "sources": [
+        "or-270a",
+        "bge-119-ii-32"
+      ]
+    },
+    {
+      "id": "landlord-already-refused",
+      "kind": "rule",
+      "when": {
+        "requested": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Gesuch an den Vermieter ist Pflicht. Gehen Sie ohne dieses Gesuch direkt zur Schlichtungsbehörde, tritt sie in der Regel nicht darauf ein. Eine Ausnahme gilt, wenn der Vermieter schon klar erklärt hat, er werde den Mietzins nicht senken. Ein allgemeiner Streit mit dem Vermieter genügt dafür nicht. Im Zweifel schreiben Sie ihm zuerst."
+      },
+      "sources": [
+        "bge-132-iii-702"
       ]
     },
     {
@@ -143,6 +171,23 @@
       ]
     },
     {
+      "id": "landlord-agreed",
+      "kind": "step",
+      "when": {
+        "landlord_answer": [
+          "agreed",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat der Vermieter zugestimmt, lassen Sie sich die neue Miete und das Datum schriftlich bestätigen. Prüfen Sie, ob die Senkung der Änderung des Referenzzinssatzes entspricht. Bietet er weniger an, als Sie verlangt haben, gilt das als teilweise Ablehnung: Sie können dann innert 30 Tagen die Schlichtungsbehörde anrufen. Nehmen Sie eine zu kleine Senkung bloss stillschweigend hin, verzichten Sie damit nicht auf den Rest. Unterschreiben Sie aber eine Vereinbarung über die neue Miete, sind Sie daran in der Regel gebunden."
+      },
+      "sources": [
+        "or-270a",
+        "bge-124-iii-67"
+      ]
+    },
+    {
       "id": "reference-rate-explained",
       "kind": "rule",
       "when": {
@@ -152,11 +197,12 @@
         ]
       },
       "text": {
-        "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Sinkt er, muss der Vermieter die Mietzinse in der Regel entsprechend senken oder die Einsparung mit anderen, bereits eingetretenen Kostensteigerungen verrechnen. Wie stark sich eine Änderung um einen Viertelprozentpunkt auswirkt, hängt vom bisherigen Hypothekarzinssatz ab; die genaue Berechnung ist nicht ganz einfach."
+        "de": "Der hypothekarische Referenzzinssatz ist ein amtlicher Durchschnittswert der Hypothekarzinsen in der Schweiz. Der Bund veröffentlicht ihn vierteljährlich. Massgebend ist, welcher Satz Ihrer heutigen Miete zugrunde liegt. Das steht meist im Mietvertrag oder in der letzten Mitteilung über eine Mietzinsänderung. Nur was sich seither verändert hat, zählt. Liegt der Satz unter 5 Prozent, wie seit vielen Jahren, entspricht jeder Viertelprozentpunkt weniger einer Senkung um knapp 3 Prozent der Nettomiete. Ist der Satz um einen halben Prozentpunkt gesunken, sind es also rund 5,7 Prozent."
       },
       "sources": [
         "vmwg-12a",
-        "vmwg-13"
+        "vmwg-13",
+        "bge-142-iii-568"
       ]
     },
     {
@@ -176,20 +222,109 @@
       ]
     },
     {
+      "id": "landlord-objections",
+      "kind": "rule",
+      "text": {
+        "de": "Der Vermieter muss nicht in jedem Fall voll senken. Er darf die Einsparung mit Kosten verrechnen, die seit der letzten Festlegung Ihrer Miete gestiegen sind. Dazu gehören die allgemeine Teuerung, von der er 40 Prozent weitergeben darf, und höhere Unterhalts- und Betriebskosten. Er kann auch geltend machen, Ihre Miete bringe ihm trotz der Änderung keinen übersetzten Ertrag oder sie liege im Rahmen der Mieten im Quartier. Das muss er dann belegen. Verlangen Sie in diesem Fall eine nachvollziehbare Berechnung."
+      },
+      "sources": [
+        "or-269a",
+        "vmwg-13",
+        "vmwg-16",
+        "bge-141-iii-569-objection"
+      ]
+    },
+    {
+      "id": "contract-clause",
+      "kind": "rule",
+      "text": {
+        "de": "Steht in Ihrem Vertrag, der Mietzins werde nicht an den Referenzzinssatz angepasst, gilt diese Klausel nicht. Der Schutz vor missbräuchlichen Mietzinsen lässt sich vertraglich nicht wegbedingen. Sie können die Senkung trotzdem verlangen."
+      },
+      "sources": [
+        "bge-133-iii-61"
+      ]
+    },
+    {
+      "id": "co-tenants",
+      "kind": "step",
+      "when": {
+        "landlord_answer": [
+          "refused",
+          "silent",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben mehrere Personen den Mietvertrag unterschrieben, stellen Sie das Gesuch am besten gemeinsam. Will jemand nicht mitmachen, können Sie auch allein zur Schlichtungsbehörde gehen. Nennen Sie diese Person dann im Gesuch neben dem Vermieter als Gegenpartei."
+      },
+      "sources": [
+        "bge-146-iii-346"
+      ]
+    },
+    {
+      "id": "hearing",
+      "kind": "warning",
+      "when": {
+        "landlord_answer": [
+          "refused",
+          "silent",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg."
+      },
+      "sources": [
+        "zpo-204",
+        "zpo-206"
+      ]
+    },
+    {
+      "id": "protection",
+      "kind": "rule",
+      "text": {
+        "de": "Der Vermieter darf Ihnen nicht kündigen, weil Sie eine Senkung verlangen. Eine solche Kündigung ist anfechtbar. Anfechtbar ist auch eine Kündigung während des Verfahrens oder innert drei Jahren danach, wenn der Vermieter im Verfahren zu einem erheblichen Teil unterlag, nachgab oder sich mit Ihnen einigte. Dieser Schutz gilt nicht bei allen Kündigungen, zum Beispiel nicht bei Zahlungsrückstand. Gegen eine Kündigung müssen Sie innert 30 Tagen nach Empfang eine eigene Anfechtung einreichen."
+      },
+      "sources": [
+        "or-271a",
+        "or-273"
+      ]
+    },
+    {
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst."
+        "de": "Das Schlichtungsverfahren in Mietsachen ist kostenlos: Es werden keine Gerichtskosten erhoben. Es gibt aber auch keine Entschädigung für Anwaltskosten. Ziehen Sie eine Anwältin oder einen Anwalt bei, tragen Sie diese Kosten in diesem Verfahren grundsätzlich selbst. Kommt es danach zu einem Gerichtsverfahren, können Gerichtskosten und eine Entschädigung an die Gegenseite anfallen. Fehlen Ihnen die Mittel und ist Ihr Standpunkt nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen."
       },
       "sources": [
-        "zpo-113"
+        "zpo-113",
+        "zpo-117"
+      ]
+    },
+    {
+      "id": "after-conciliation",
+      "kind": "escalate",
+      "when": {
+        "landlord_answer": [
+          "refused",
+          "silent",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Einigen Sie sich an der Schlichtungsverhandlung nicht, gibt es zwei Wege. Die Behörde kann einen Urteilsvorschlag machen. Er wird verbindlich, wenn ihn niemand innert 20 Tagen nach der schriftlichen Eröffnung ablehnt. Wer ihn ablehnt, erhält die Klagebewilligung und muss innert 30 Tagen beim Gericht klagen, sonst gilt der Vorschlag als anerkannt. Macht die Behörde keinen Vorschlag, erhalten Sie die Klagebewilligung. Wollen Sie an der Senkung festhalten, müssen Sie innert 30 Tagen beim Gericht klagen. Lassen Sie sich spätestens jetzt beraten."
+      },
+      "sources": [
+        "zpo-209",
+        "zpo-210",
+        "zpo-211"
       ]
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der verlangten Senkung nicht selbst berechnen können, wenn der Vermieter Gegenforderungen stellt, oder wenn eine der beiden 30-Tage-Fristen in wenigen Tagen abläuft."
+        "de": "Holen Sie persönliche Beratung, wenn Sie die genaue Höhe der Senkung nicht selbst berechnen können, wenn der Vermieter Kostensteigerungen oder eine Ertragsrechnung entgegenhält, wenn Ihnen im Zusammenhang mit dem Gesuch gekündigt wird, wenn Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben, oder wenn eine der 30-Tage-Fristen in wenigen Tagen abläuft."
       }
     },
     {
@@ -232,6 +367,135 @@
       "label": "ZPO · Art. 113",
       "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
       "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "or-269a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "269a",
+      "label": "OR · Art. 269a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_269a",
+      "sha256": "895cbfb27345bcd1add17d3d939b410db80140f294ba5984a5632a47d53d983d"
+    },
+    "or-271a": {
+      "type": "statute",
+      "sr": "220",
+      "article": "271a",
+      "label": "OR · Art. 271a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_271a",
+      "sha256": "6a385a4470743475823357e1020d0fbd6b5d918e80235f617d9f6c6c73fa0043"
+    },
+    "or-273": {
+      "type": "statute",
+      "sr": "220",
+      "article": "273",
+      "label": "OR · Art. 273",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_273",
+      "sha256": "df7e8a1e60f7f39c9475231a620b6c76b578db8fd5b0863ca828371adb7af738"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-204": {
+      "type": "statute",
+      "sr": "272",
+      "article": "204",
+      "label": "ZPO · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_204",
+      "sha256": "1dfd0c6a3cfb29def0a71b04ab92554858cdac71e95eb5c0c7a6600dd8046cf4"
+    },
+    "zpo-206": {
+      "type": "statute",
+      "sr": "272",
+      "article": "206",
+      "label": "ZPO · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_206",
+      "sha256": "e2c4b2bb107d7ae551013d688d497a41db13f53abad4e68e53271e45f99de4bb"
+    },
+    "zpo-209": {
+      "type": "statute",
+      "sr": "272",
+      "article": "209",
+      "label": "ZPO · Art. 209",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_209",
+      "sha256": "abcfa5dffdd2c53370914c798a1a2b623b3652c025b875cb75678b07125fba13"
+    },
+    "zpo-210": {
+      "type": "statute",
+      "sr": "272",
+      "article": "210",
+      "label": "ZPO · Art. 210",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_210",
+      "sha256": "584d47587412193ec3ebcde43f6f8c454992333ac51d2676fdf966eeaa0c0561"
+    },
+    "zpo-211": {
+      "type": "statute",
+      "sr": "272",
+      "article": "211",
+      "label": "ZPO · Art. 211",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_211",
+      "sha256": "68a788bc1bd152cdc5012969379926caff8195305064632d48b05b5b43710914"
+    },
+    "vmwg-16": {
+      "type": "statute",
+      "sr": "221.213.11",
+      "article": "16",
+      "label": "VMWG · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/835_835_835/de#art_16",
+      "sha256": "14a64376dfc0da5b18941523f310d502cb6e3ce82b5e513523c03d8f009266c5"
+    },
+    "bge-146-iii-346": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_III_346",
+      "citation": "BGE 146 III 346",
+      "e": "2.3.2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_III_346#e-2-3-2-2"
+    },
+    "bge-119-ii-32": {
+      "type": "decision",
+      "decision_id": "bge_BGE_119_II_32",
+      "citation": "BGE 119 II 32",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_119_II_32#e-3"
+    },
+    "bge-132-iii-702": {
+      "type": "decision",
+      "decision_id": "bge_BGE_132_III_702",
+      "citation": "BGE 132 III 702",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_132_III_702#e-4-3"
+    },
+    "bge-133-iii-61": {
+      "type": "decision",
+      "decision_id": "bge_BGE_133_III_61",
+      "citation": "BGE 133 III 61",
+      "e": "3.2.2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_133_III_61#e-3-2-2-2"
+    },
+    "bge-124-iii-67": {
+      "type": "decision",
+      "decision_id": "bge_BGE_124_III_67",
+      "citation": "BGE 124 III 67",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_124_III_67#e-3"
+    },
+    "bge-142-iii-568": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_568",
+      "citation": "BGE 142 III 568",
+      "e": "1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_568#e-1-2"
+    },
+    "bge-141-iii-569-objection": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_III_569",
+      "citation": "BGE 141 III 569",
+      "e": "2.1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_III_569#e-2-1-2"
     }
   },
   "official_links": [
