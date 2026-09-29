@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich erlebe Gewalt in der Beziehung oder Familie"
+    "de": "Ich erlebe Gewalt in der Beziehung oder Familie",
+    "fr": "Je vis de la violence dans mon couple ou ma famille",
+    "it": "Subisco violenza nella coppia o in famiglia",
+    "en": "I am experiencing violence in my relationship or family",
+    "rm": "Jau suffresch violenza en la relaziun u en la famiglia"
   },
   "summary": {
-    "de": "Was Sie sofort tun können, wenn Sie oder Ihre Kinder von einer Partnerin, einem Partner oder einer anderen Person aus dem Haushalt bedroht oder verletzt werden: polizeiliche und gerichtliche Schutzmassnahmen, das Strafverfahren, Opferhilfe und Folgen für eine abhängige Aufenthaltsbewilligung."
+    "de": "Was Sie sofort tun können, wenn Sie oder Ihre Kinder von einer Partnerin, einem Partner oder einer anderen Person aus dem Haushalt bedroht oder verletzt werden: polizeiliche und gerichtliche Schutzmassnahmen, das Strafverfahren, Opferhilfe und Folgen für eine abhängige Aufenthaltsbewilligung.",
+    "fr": "Ce que vous pouvez faire immédiatement si vous ou vos enfants êtes menacés ou blessés par une ou un partenaire, ou par une autre personne du ménage : mesures de protection policières et judiciaires, procédure pénale, aide aux victimes, et conséquences pour une autorisation de séjour qui dépend de la relation.",
+    "it": "Cosa può fare subito se lei o i suoi figli vengono minacciati o feriti da una partner, un partner o un'altra persona della sua economia domestica: le misure di protezione della polizia e del giudice, il procedimento penale, l'aiuto alle vittime e le conseguenze per un permesso di soggiorno dipendente.",
+    "en": "What you can do immediately if you or your children are threatened or hurt by a partner or another person in the household: police and court protective measures, the criminal proceedings, victim support, and the consequences for a residence permit that depends on the relationship.",
+    "rm": "Tge che Vus pudais far immediat, sche Vus u Vossas uffants vegnis smanatschads u blessads d'ina partenadra, d'in partener u d'in'autra persuna dal chasau: mesiras da protecziun policialas e giudizialas, la procedura penala, l'agid a victimas e consequenzas per ina permissiun da dimora depende."
   },
   "examples": {
     "de": [
@@ -18,57 +26,121 @@
       "Kann ich verlangen, dass er aus der gemeinsamen Wohnung muss?",
       "Ich habe Angst vor meinem Ex-Freund, kann ich ein Kontaktverbot bekommen?",
       "Verliere ich meine Aufenthaltsbewilligung, wenn ich mich von meinem Mann trenne?"
+    ],
+    "fr": [
+      "Mon mari me frappe, que puis-je faire ?",
+      "Ma partenaire me menace sans arrêt, dois-je porter plainte ?",
+      "Puis-je exiger qu’il quitte le logement commun ?",
+      "J’ai peur de mon ex-compagnon, puis-je obtenir une interdiction de contact ?",
+      "Est-ce que je perds mon autorisation de séjour si je me sépare de mon mari ?"
+    ],
+    "it": [
+      "Mio marito mi picchia, cosa posso fare?",
+      "La mia partner mi minaccia continuamente, devo denunciarla?",
+      "Posso chiedere che lui debba lasciare l'abitazione comune?",
+      "Ho paura del mio ex ragazzo, posso ottenere un divieto di contatto?",
+      "Perdo il mio permesso di soggiorno se mi separo da mio marito?"
+    ],
+    "en": [
+      "My husband is hitting me, what can I do?",
+      "My partner keeps threatening me, do I have to report it?",
+      "Can I ask for him to be made to leave our shared flat?",
+      "I'm afraid of my ex-boyfriend, can I get a no-contact order?",
+      "Will I lose my residence permit if I separate from my husband?"
+    ],
+    "rm": [
+      "Mes um am bat, tge poss jau far?",
+      "Mia partenadra am smanatscha constantamain, stoss jau annunziar quai?",
+      "Poss jau pretender ch'el stoppia bandunar l'abitaziun cuminaivla?",
+      "Jau hai temma da mes ex-ami, poss jau survegnir in scumond da contact?",
+      "Perd jau mia permissiun da dimora, sch'jau am separ da mes um?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Gewalt, Drohungen oder Nachstellungen durch die Ehepartnerin, den Ehepartner, die eingetragene Partnerin, den eingetragenen Partner, eine Partnerin oder einen Partner im gemeinsamen Haushalt, eine Ex-Partnerin oder einen Ex-Partner, oder ein anderes Familienmitglied. Polizeiliche Wegweisung, zivilrechtlicher Schutz, das Strafverfahren, Opferhilfe, eheliche Schutzmassnahmen und Folgen für eine von der Beziehung abhängige Aufenthaltsbewilligung."
+      "de": "Gewalt, Drohungen oder Nachstellungen durch die Ehepartnerin, den Ehepartner, die eingetragene Partnerin, den eingetragenen Partner, eine Partnerin oder einen Partner im gemeinsamen Haushalt, eine Ex-Partnerin oder einen Ex-Partner, oder ein anderes Familienmitglied. Polizeiliche Wegweisung, zivilrechtlicher Schutz, das Strafverfahren, Opferhilfe, eheliche Schutzmassnahmen und Folgen für eine von der Beziehung abhängige Aufenthaltsbewilligung.",
+      "fr": "La violence, les menaces ou le harcèlement de la part de l’épouse ou de l’époux, de la partenaire ou du partenaire enregistré, d’une ou d’un partenaire dans le ménage commun, d’une ou d’un ex-partenaire, ou d’un autre membre de la famille. L’expulsion prononcée par la police, la protection de droit civil, la procédure pénale, l’aide aux victimes, les mesures protectrices de l’union conjugale et les conséquences pour une autorisation de séjour qui dépend de la relation.",
+      "it": "Violenza, minacce o insidie da parte della moglie, del marito, della partner registrata, del partner registrato, di una partner o di un partner nell'economia domestica comune, di un'ex partner o di un ex partner, oppure di un altro membro della famiglia. L'allontanamento da parte della polizia, la protezione di diritto civile, il procedimento penale, l'aiuto alle vittime, le misure a tutela dell'unione coniugale e le conseguenze per un permesso di soggiorno dipendente dalla relazione.",
+      "en": "Violence, threats or stalking by a spouse, a registered partner, a partner in a shared household, a former partner, or another family member. Police removal, civil-law protection, the criminal proceedings, victim support, protective measures for the marital union, and the consequences for a residence permit that depends on the relationship.",
+      "rm": "Violenza, smanatschas u persecuziuns tras la consorta u il consort, la partenadra u il partener registrà, ina partenadra u in partener en il chasau cuminaivel, in'ex-partenadra u in ex-partener, u in auter commember da famiglia. Bandiziun policiala, protecziun da dretg civil, la procedura penala, l'agid a victimas, mesiras da protecziun da la cuminanza conjugala e consequenzas per ina permissiun da dimora depende da la relaziun."
     },
     "excludes": {
-      "de": "Diese Übersicht ersetzt keine persönliche Beratung und keine Notfallversorgung. Sie behandelt nicht die Kinderbelange einer normalen Trennung ohne Gewalt (siehe die Übersicht zur Trennung), keine Nachbarschaftsstreitigkeiten und keine asylrechtlichen Sonderregeln."
+      "de": "Diese Übersicht ersetzt keine persönliche Beratung und keine Notfallversorgung. Sie behandelt nicht die Kinderbelange einer normalen Trennung ohne Gewalt (siehe die Übersicht zur Trennung), keine Nachbarschaftsstreitigkeiten und keine asylrechtlichen Sonderregeln.",
+      "fr": "Ce guide ne remplace ni une consultation personnelle ni une prise en charge d’urgence. Il ne traite pas des questions relatives aux enfants lors d’une séparation ordinaire sans violence (voir le guide sur la séparation), ni des conflits de voisinage, ni des règles particulières du droit d’asile.",
+      "it": "Questa guida non sostituisce una consulenza personale né un pronto soccorso d'urgenza. Non tratta le questioni riguardanti i figli in una separazione ordinaria senza violenza (si veda la guida sulla separazione), le controversie di vicinato e le regole speciali del diritto d'asilo.",
+      "en": "This overview does not replace personal advice or emergency care. It does not cover the arrangements for children in an ordinary separation without violence (see the guide on separation), neighbour disputes, or the special rules of asylum law.",
+      "rm": "Quest manual na remplazza nagina consulaziun persunala e nagin provediment d'urgenza. El na tracta betg las dumondas dals uffants d'ina separaziun normala senza violenza (vesair il manual davart la separaziun), naginas dispitas da vischinanza e naginas reglas spezialas dal dretg d'asil."
     }
   },
   "facts": [
     {
       "key": "relationship",
       "question": {
-        "de": "In welcher Beziehung stehen Sie zur Person, die Gewalt ausübt?"
+        "de": "In welcher Beziehung stehen Sie zur Person, die Gewalt ausübt?",
+        "fr": "Dans quelle relation êtes-vous avec la personne qui exerce la violence ?",
+        "it": "Che relazione ha con la persona che esercita violenza?",
+        "en": "What is your relationship with the person using violence?",
+        "rm": "En tge relaziun stais Vus a la persuna che exerca violenza?"
       },
       "options": [
         {
           "value": "married",
           "label": {
-            "de": "Verheiratet"
+            "de": "Verheiratet",
+            "fr": "Mariée ou marié",
+            "it": "Sposato o sposata",
+            "en": "Married",
+            "rm": "En matrimoni"
           }
         },
         {
           "value": "registered-partner",
           "label": {
-            "de": "Eingetragene Partnerschaft"
+            "de": "Eingetragene Partnerschaft",
+            "fr": "Partenariat enregistré",
+            "it": "Unione domestica registrata",
+            "en": "Registered partnership",
+            "rm": "En partenadi registrà"
           }
         },
         {
           "value": "cohabiting",
           "label": {
-            "de": "Wir leben ohne Trauschein zusammen"
+            "de": "Wir leben ohne Trauschein zusammen",
+            "fr": "Nous vivons en concubinage",
+            "it": "Viviamo insieme senza essere sposati",
+            "en": "We live together without being married",
+            "rm": "Nus vivain ensemen, senza esser maridads"
           }
         },
         {
           "value": "former-partner",
           "label": {
-            "de": "Ex-Partnerin oder Ex-Partner"
+            "de": "Ex-Partnerin oder Ex-Partner",
+            "fr": "Ex-partenaire",
+            "it": "Ex partner",
+            "en": "Former partner",
+            "rm": "Ex-partenadra u ex-partener"
           }
         },
         {
           "value": "family-member",
           "label": {
-            "de": "Anderes Familienmitglied"
+            "de": "Anderes Familienmitglied",
+            "fr": "Autre membre de la famille",
+            "it": "Un altro membro della famiglia",
+            "en": "Another family member",
+            "rm": "In auter commember da famiglia"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -76,25 +148,41 @@
     {
       "key": "children_at_home",
       "question": {
-        "de": "Leben Kinder im gemeinsamen Haushalt?"
+        "de": "Leben Kinder im gemeinsamen Haushalt?",
+        "fr": "Des enfants vivent-ils dans le ménage commun ?",
+        "it": "Vivono figli nell'economia domestica comune?",
+        "en": "Do children live in the shared household?",
+        "rm": "Vivan uffants en il chasau cuminaivel?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -102,25 +190,41 @@
     {
       "key": "residence_dependent",
       "question": {
-        "de": "Hängt Ihre Aufenthaltsbewilligung in der Schweiz von dieser Person ab?"
+        "de": "Hängt Ihre Aufenthaltsbewilligung in der Schweiz von dieser Person ab?",
+        "fr": "Votre autorisation de séjour en Suisse dépend-elle de cette personne ?",
+        "it": "Il suo permesso di soggiorno in Svizzera dipende da questa persona?",
+        "en": "Does your residence permit in Switzerland depend on this person?",
+        "rm": "Dependa Vossa permissiun da dimora en Svizra da questa persuna?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, das betrifft mich nicht"
+            "de": "Nein, das betrifft mich nicht",
+            "fr": "Non, cela ne me concerne pas",
+            "it": "No, questo non mi riguarda",
+            "en": "No, this does not apply to me",
+            "rm": "Na, quai na m'pertutga betg"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -128,25 +232,41 @@
     {
       "key": "police_involved",
       "question": {
-        "de": "Ist die Polizei schon eingeschaltet?"
+        "de": "Ist die Polizei schon eingeschaltet?",
+        "fr": "La police est-elle déjà intervenue ?",
+        "it": "La polizia è già stata coinvolta?",
+        "en": "Has the police already been involved?",
+        "rm": "È la polizia gia involvida?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -157,14 +277,22 @@
       "id": "sofort-sicherheit",
       "kind": "step",
       "text": {
-        "de": "Wenn Sie oder Kinder gerade in Gefahr sind, rufen Sie sofort die Polizei unter 117 oder die Notrufnummer 112 an. Die Polizei kommt auch nachts und am Wochenende.\n\nFür Beratung, auch ohne akute Gefahr, erreichen Sie die Opferhilfe schweizweit rund um die Uhr unter der Nummer 142. Das Gespräch ist kostenlos und vertraulich, auf Wunsch auch anonym. Die 142 ist keine Notrufnummer: Bei akuter Gefahr wählen Sie immer zuerst 117 oder 112.\n\nSie müssen nicht schon wissen, was Sie als Nächstes tun wollen, um dort anzurufen. Die Beratungsstelle hilft Ihnen weiter, unabhängig davon, in welcher Beziehung Sie zur gewaltausübenden Person stehen."
+        "de": "Wenn Sie oder Kinder gerade in Gefahr sind, rufen Sie sofort die Polizei unter 117 oder die Notrufnummer 112 an. Die Polizei kommt auch nachts und am Wochenende.\n\nFür Beratung, auch ohne akute Gefahr, erreichen Sie die Opferhilfe schweizweit rund um die Uhr unter der Nummer 142. Das Gespräch ist kostenlos und vertraulich, auf Wunsch auch anonym. Die 142 ist keine Notrufnummer: Bei akuter Gefahr wählen Sie immer zuerst 117 oder 112.\n\nSie müssen nicht schon wissen, was Sie als Nächstes tun wollen, um dort anzurufen. Die Beratungsstelle hilft Ihnen weiter, unabhängig davon, in welcher Beziehung Sie zur gewaltausübenden Person stehen.",
+        "fr": "Si vous ou des enfants êtes en danger immédiat, appelez tout de suite la police au 117 ou le numéro d’urgence 112. La police intervient aussi la nuit et le week-end.\n\nPour un conseil, même sans danger immédiat, l’aide aux victimes est joignable dans toute la Suisse jour et nuit au numéro 142. L’entretien est gratuit et confidentiel, anonyme si vous le souhaitez. Le 142 n’est pas un numéro d’urgence : en cas de danger immédiat, composez toujours d’abord le 117 ou le 112.\n\nVous n’avez pas besoin de déjà savoir ce que vous voulez faire ensuite pour appeler ce numéro. Le centre de consultation vous aide, quelle que soit la relation qui vous lie à la personne qui exerce la violence.",
+        "it": "Se lei o i suoi figli siete in pericolo in questo momento, chiami subito la polizia al numero 117 o il numero d'emergenza 112. La polizia interviene anche di notte e nel fine settimana.\n\nPer una consulenza, anche senza pericolo acuto, può raggiungere l'aiuto alle vittime in tutta la Svizzera, giorno e notte, al numero 142. Il colloquio è gratuito e confidenziale, su richiesta anche anonimo. Il 142 non è un numero d'emergenza: in caso di pericolo acuto componga sempre prima il 117 o il 112.\n\nNon deve già sapere cosa vuole fare in seguito per chiamare questo numero. Il consultorio la aiuta ulteriormente, indipendentemente dalla relazione che ha con la persona che esercita violenza.",
+        "en": "If you or your children are in danger right now, call the police immediately on 117 or the emergency number 112. The police also come at night and at weekends.\n\nFor advice, even without acute danger, you can reach victim support across Switzerland around the clock on 142. The call is free and confidential, and anonymous if you wish. 142 is not an emergency number: in acute danger, always call 117 or 112 first.\n\nYou do not need to already know what you want to do next to call. The advice centre will help you further, whatever your relationship with the person using violence.",
+        "rm": "Sche Vus u uffants essas gist en privel, telefonai immediat a la polizia sut il 117 u al numer d'urgenza 112. La polizia vegn era da notg e la fin d'emna.\n\nPer cussegliaziun, era senza privel acut, cuntanschais Vus l'agid a victimas en tut la Svizra il di enteir sut il numer 142. Il discurs è gratuit e confidenzial, sin giavisch era anonim. Il 142 n'è nagin numer d'urgenza: en cas da privel acut tscherni Vus adina empruma il 117 u il 112.\n\nVus na stuais anc betg savair, tge che Vus vulais far sco proxim pass, per telefonar là. Il post da cussegliaziun As gida vinavant, independentamain da la relaziun, en la quala Vus stais a la persuna che exerca violenza."
       }
     },
     {
       "id": "wegweisung-polizei",
       "kind": "rule",
       "text": {
-        "de": "Leben Sie mit der Person, die Gewalt ausübt, in derselben Wohnung, kann eine dafür zuständige kantonale Stelle diese Person im Krisenfall sofort aus der gemeinsamen Wohnung wegweisen. In der Regel ist das die Polizei. Wie lange die Wegweisung dauert, legt jeder Kanton selbst fest.\n\nRufen Sie dafür die Polizei (117 oder die lokale Polizeistation) und verlangen Sie einen Rapport oder eine Ereignisnummer. Dieses Dokument hilft Ihnen später bei einem Gesuch ans Gericht oder bei der Opferhilfe.\n\nMöchten Sie, dass der Schutz über die Wegweisungsfrist hinaus gilt, stellen Sie rechtzeitig vor deren Ablauf ein eigenes Gesuch beim Gericht (siehe unten)."
+        "de": "Leben Sie mit der Person, die Gewalt ausübt, in derselben Wohnung, kann eine dafür zuständige kantonale Stelle diese Person im Krisenfall sofort aus der gemeinsamen Wohnung wegweisen. In der Regel ist das die Polizei. Wie lange die Wegweisung dauert, legt jeder Kanton selbst fest.\n\nRufen Sie dafür die Polizei (117 oder die lokale Polizeistation) und verlangen Sie einen Rapport oder eine Ereignisnummer. Dieses Dokument hilft Ihnen später bei einem Gesuch ans Gericht oder bei der Opferhilfe.\n\nMöchten Sie, dass der Schutz über die Wegweisungsfrist hinaus gilt, stellen Sie rechtzeitig vor deren Ablauf ein eigenes Gesuch beim Gericht (siehe unten).",
+        "fr": "Si vous vivez avec la personne qui exerce la violence dans le même logement, un service cantonal compétent peut, en cas de crise, l’expulser immédiatement du logement commun. En règle générale, il s’agit de la police. Chaque canton fixe lui-même la durée de cette expulsion.\n\nPour cela, appelez la police (117 ou le poste de police local) et demandez un rapport ou un numéro d’événement. Ce document vous aidera ensuite pour une requête au tribunal ou auprès de l’aide aux victimes.\n\nSi vous souhaitez que la protection dure au-delà du délai de l’expulsion, déposez à temps, avant son échéance, votre propre requête au tribunal (voir ci-dessous).",
+        "it": "Se vive nello stesso alloggio della persona che esercita violenza, un servizio cantonale competente può allontanare immediatamente questa persona dall'abitazione comune in caso di crisi. Di regola è la polizia. Quanto dura l'allontanamento lo stabilisce ogni Cantone autonomamente.\n\nPer questo chiami la polizia (117 o il posto di polizia locale) e chieda un rapporto o un numero di evento. Questo documento le sarà utile in seguito per una domanda al giudice o presso l'aiuto alle vittime.\n\nSe desidera che la protezione valga oltre il termine dell'allontanamento, presenti per tempo, prima della sua scadenza, una propria domanda al giudice (si veda sotto).",
+        "en": "If you live in the same home as the person using violence, a cantonal body responsible for this can immediately expel that person from the shared home in a crisis. This is usually the police. How long the expulsion lasts is set by each canton itself.\n\nCall the police for this (117 or your local police station) and ask for a report or an incident number. This document will help you later with an application to the court or with victim support.\n\nIf you want the protection to continue beyond the expulsion period, file your own application with the court before it expires (see below).",
+        "rm": "Vivais Vus cun la persuna che exerca violenza en la medema abitaziun, po in post chantunal cumpetent per quai bandischar questa persuna immediat ordaifer l'abitaziun cuminaivla en cas da crisa. Per regla è quai la polizia. Quant ditg che la bandiziun dura, fixescha mintga chantun sez.\n\nTelefonai per quai a la polizia (117 u al post policial local) e pretendai in rapport u in numer d'eveniment. Quest document gida a Vus pli tard tar ina dumonda a la dretgira u tar l'agid a victimas.\n\nGiavischais Vus che la protecziun valia ultra dal termin da bandiziun, inoltrai a temp, avant la scadenza da quel, in agen dumonda a la dretgira (vesair sut)."
       },
       "sources": [
         "zgb-28b"
@@ -179,14 +307,22 @@
         ]
       },
       "text": {
-        "de": "War die Polizei bereits bei Ihnen oder haben Sie Anzeige erstattet, notieren Sie sich möglichst bald die Ereignis- oder Rapportnummer und den Namen der zuständigen Dienststelle. Fragen Sie nach, ob eine Wegweisung oder ein Kontakt- und Annäherungsverbot ausgesprochen wurde und bis wann dieses gilt.\n\nDiese Angaben brauchen Sie später weiter: für ein eigenes Gesuch beim Gericht, für die Opferhilfe und, falls Ihre Aufenthaltsbewilligung von der Beziehung abhängt, als Beleg gegenüber der Migrationsbehörde. Bewahren Sie Kopien von Rapporten, Arztberichten und weiteren Unterlagen sorgfältig auf, wenn möglich an einem Ort, zu dem die gewaltausübende Person keinen Zutritt hat."
+        "de": "War die Polizei bereits bei Ihnen oder haben Sie Anzeige erstattet, notieren Sie sich möglichst bald die Ereignis- oder Rapportnummer und den Namen der zuständigen Dienststelle. Fragen Sie nach, ob eine Wegweisung oder ein Kontakt- und Annäherungsverbot ausgesprochen wurde und bis wann dieses gilt.\n\nDiese Angaben brauchen Sie später weiter: für ein eigenes Gesuch beim Gericht, für die Opferhilfe und, falls Ihre Aufenthaltsbewilligung von der Beziehung abhängt, als Beleg gegenüber der Migrationsbehörde. Bewahren Sie Kopien von Rapporten, Arztberichten und weiteren Unterlagen sorgfältig auf, wenn möglich an einem Ort, zu dem die gewaltausübende Person keinen Zutritt hat.",
+        "fr": "Si la police est déjà venue chez vous ou si vous avez porté plainte, notez dès que possible le numéro d’événement ou de rapport ainsi que le nom du service compétent. Demandez si une expulsion ou une interdiction de contact et d’approche a été prononcée, et jusqu’à quand elle est valable.\n\nVous aurez besoin plus tard de ces informations : pour votre propre requête au tribunal, pour l’aide aux victimes et, si votre autorisation de séjour dépend de la relation, comme preuve auprès de l’autorité de migration. Conservez soigneusement des copies des rapports, des certificats médicaux et d’autres documents, si possible dans un endroit auquel la personne qui exerce la violence n’a pas accès.",
+        "it": "Se la polizia è già intervenuta da lei o se ha già sporto denuncia, annoti il prima possibile il numero di evento o di rapporto e il nome del servizio competente. Si informi se è stato pronunciato un allontanamento o un divieto di contatto e di avvicinamento, e fino a quando vale.\n\nLe servono in seguito queste indicazioni: per una propria domanda al giudice, per l'aiuto alle vittime e, se il suo permesso di soggiorno dipende dalla relazione, come prova nei confronti dell'autorità di migrazione. Conservi con cura le copie di rapporti, referti medici e altri documenti, se possibile in un luogo a cui la persona che esercita violenza non ha accesso.",
+        "en": "If the police have already attended, or you have reported the matter, note down the incident or report number and the name of the responsible unit as soon as possible. Ask whether an expulsion order or a no-contact and no-approach order was issued, and until when it applies.\n\nYou will need these details later: for your own application to the court, for victim support, and, if your residence permit depends on the relationship, as evidence for the immigration authority. Keep copies of reports, medical reports and other documents carefully, if possible somewhere the person using violence cannot access.",
+        "rm": "Era la polizia gia tar Vus u avais Vus fatg annunzia penala, notai Vus uschè baud sco pussaivel il numer d'eveniment u da rapport ed il num dal post cumpetent. Dumandai, sch'ina bandiziun u in scumond da contact e da s'avischinar è vegnì pronunzià e enfin cura che quel vala.\n\nQuestas indicaziuns dovrais Vus pli tard vinavant: per in agen dumonda a la dretgira, per l'agid a victimas e, sche Vossa permissiun da dimora dependa da la relaziun, sco cumprova vers l'autoritad da migraziun. Conservai cun premura copias da rapports, rapports medicals ed ulteriurs documents, sch'i è pussaivel a in lieu, al qual la persuna che exerca violenza n'ha nagin access."
       }
     },
     {
       "id": "zivilrechtlicher-schutz",
       "kind": "rule",
       "text": {
-        "de": "Unabhängig von einer Anzeige können Sie beim Zivilgericht eigene Schutzmassnahmen beantragen. Das Gericht kann der Person insbesondere verbieten, sich Ihnen anzunähern, sich an bestimmten Orten aufzuhalten oder in irgendeiner Form mit Ihnen Kontakt aufzunehmen. Leben Sie zusammen, kann das Gericht die Person zudem für eine bestimmte Zeit aus der Wohnung weisen; aus wichtigen Gründen lässt sich diese Frist einmal verlängern.\n\nAuf Ihren Antrag kann das Gericht ein solches Verbot zusätzlich mit einer elektronischen Überwachung absichern: Die Person trägt dann ein fest angebrachtes Gerät, das ihren Aufenthaltsort laufend aufzeichnet. Die Überwachung wird für höchstens sechs Monate angeordnet und kann jeweils um sechs Monate verlängert werden. Ihnen entstehen daraus keine Kosten.\n\nVerlangen Sie im Gesuch, dass das Gericht das Verbot mit einer Strafdrohung verbindet. Wer ein so verbundenes Verbot missachtet, kann mit Busse bestraft werden."
+        "de": "Unabhängig von einer Anzeige können Sie beim Zivilgericht eigene Schutzmassnahmen beantragen. Das Gericht kann der Person insbesondere verbieten, sich Ihnen anzunähern, sich an bestimmten Orten aufzuhalten oder in irgendeiner Form mit Ihnen Kontakt aufzunehmen. Leben Sie zusammen, kann das Gericht die Person zudem für eine bestimmte Zeit aus der Wohnung weisen; aus wichtigen Gründen lässt sich diese Frist einmal verlängern.\n\nAuf Ihren Antrag kann das Gericht ein solches Verbot zusätzlich mit einer elektronischen Überwachung absichern: Die Person trägt dann ein fest angebrachtes Gerät, das ihren Aufenthaltsort laufend aufzeichnet. Die Überwachung wird für höchstens sechs Monate angeordnet und kann jeweils um sechs Monate verlängert werden. Ihnen entstehen daraus keine Kosten.\n\nVerlangen Sie im Gesuch, dass das Gericht das Verbot mit einer Strafdrohung verbindet. Wer ein so verbundenes Verbot missachtet, kann mit Busse bestraft werden.",
+        "fr": "Indépendamment d’une plainte, vous pouvez demander au tribunal civil vos propres mesures de protection. Le tribunal peut notamment interdire à la personne de s’approcher de vous, de se trouver dans certains lieux ou de prendre contact avec vous sous quelque forme que ce soit. Si vous vivez ensemble, le tribunal peut en outre l’expulser du logement pour une durée déterminée ; ce délai peut être prolongé une fois pour de justes motifs.\n\nSur votre requête, le tribunal peut en outre assortir une telle interdiction d’une surveillance électronique : la personne porte alors un appareil fixe qui enregistre en continu l’endroit où elle se trouve. La surveillance est ordonnée pour six mois au plus et peut être prolongée à chaque fois de six mois. Elle ne vous occasionne aucun frais.\n\nDemandez dans votre requête que le tribunal assortisse l’interdiction d’une menace de peine. Quiconque enfreint une interdiction ainsi assortie peut être puni d’une amende.",
+        "it": "Indipendentemente da una denuncia, può chiedere al tribunale civile proprie misure di protezione. Il giudice può in particolare vietare alla persona di avvicinarsi a lei, di trattenersi in determinati luoghi o di mettersi in contatto con lei in qualsiasi forma. Se vivete insieme, il giudice può inoltre allontanare la persona dall'abitazione per un periodo determinato; per motivi importanti questo termine può essere prolungato una volta.\n\nSu sua richiesta, il giudice può inoltre garantire un simile divieto con una sorveglianza elettronica: la persona porta allora un apparecchio fissato in modo permanente, che registra costantemente il luogo in cui si trova. La sorveglianza viene ordinata per al massimo sei mesi e può essere prolungata ogni volta di sei mesi. Per lei non ne derivano costi.\n\nChieda nella domanda che il giudice colleghi il divieto a una comminatoria penale. Chi disattende un divieto così collegato può essere punito con la multa.",
+        "en": "Regardless of whether you have reported the matter, you can apply to the civil court for your own protective measures. The court can, in particular, forbid the person from approaching you, from being in certain places, or from making contact with you in any form. If you live together, the court can also bar the person from the home for a set period; for good cause, this period can be extended once.\n\nOn your application, the court can also secure such a ban with electronic monitoring: the person then wears a device that is permanently attached and continuously records their location. Monitoring is ordered for at most six months and can be extended by six months at a time. You bear no costs for this.\n\nAsk in your application for the court to combine the ban with a threat of punishment. Anyone who disregards a ban combined in this way can be punished with a fine.",
+        "rm": "Independentamain d'ina annunzia penala pudais Vus pretender tar la dretgira civila agens mesiras da protecziun. La dretgira po scumandar a la persuna en spezial da s'avischinar a Vus, da sa tegnair a tscherts lieus u da prender cun Vus contact en insaquala furma. Vivais Vus ensemen, po la dretgira ultra da quai bandischar la persuna per in temp determinà ordaifer l'abitaziun; per motivs impurtants sa lascha quest termin prolungar ina giada.\n\nSin Voss dumonda po la dretgira garantir in tal scumond supplementarmain cun ina surveglianza electronica: la persuna porta lura in apparat fixà permanentamain, che registrescha cuntinuadamain ses lieu da dimora. La surveglianza vegn ordinada per maximalmain sis mais e po vegnir prolungada mintgamai per sis mais. A Vus na resultan naginas custs da quai.\n\nPretendai en la dumonda che la dretgira colligia il scumond cun ina smanatscha da chasti. Tgi che mancoressa in scumond colligià uschia, po vegnir chastià cun multa."
       },
       "sources": [
         "zgb-28b",
@@ -198,7 +334,11 @@
       "id": "gericht-schneller-gratis",
       "kind": "rule",
       "text": {
-        "de": "Für ein eigenständiges Gesuch wegen Gewalt, Drohungen oder Nachstellungen müssen Sie nicht zuerst zu einer Schlichtungsverhandlung: Sie klagen direkt beim Gericht. Das Gericht erhebt dafür keine Gerichtskosten; Kosten für eine Anwältin oder einen Anwalt sind davon nicht erfasst. Führen Sie den Schutz stattdessen im Rahmen eines Eheschutzverfahrens durch, gelten andere Kostenregeln (siehe unten).\n\nBei besonderer Dringlichkeit, etwa wenn eine sofortige Anordnung sonst zu spät käme, kann das Gericht eine Massnahme auch ohne vorherige Anhörung der Gegenseite treffen. Diese wird danach umgehend angehört und kann sich äussern."
+        "de": "Für ein eigenständiges Gesuch wegen Gewalt, Drohungen oder Nachstellungen müssen Sie nicht zuerst zu einer Schlichtungsverhandlung: Sie klagen direkt beim Gericht. Das Gericht erhebt dafür keine Gerichtskosten; Kosten für eine Anwältin oder einen Anwalt sind davon nicht erfasst. Führen Sie den Schutz stattdessen im Rahmen eines Eheschutzverfahrens durch, gelten andere Kostenregeln (siehe unten).\n\nBei besonderer Dringlichkeit, etwa wenn eine sofortige Anordnung sonst zu spät käme, kann das Gericht eine Massnahme auch ohne vorherige Anhörung der Gegenseite treffen. Diese wird danach umgehend angehört und kann sich äussern.",
+        "fr": "Pour une requête autonome en raison de violence, de menaces ou de harcèlement, vous n’avez pas besoin de passer d’abord par une audience de conciliation : vous saisissez directement le tribunal. Le tribunal ne perçoit pas de frais judiciaires pour cette procédure ; les frais d’une avocate ou d’un avocat n’en font pas partie. Si vous faites valoir cette protection dans le cadre d’une procédure de mesures protectrices de l’union conjugale, d’autres règles de frais s’appliquent (voir ci-dessous).\n\nEn cas d’urgence particulière, par exemple si une mesure immédiate arriverait sinon trop tard, le tribunal peut aussi ordonner une mesure sans audition préalable de la partie adverse. Celle-ci est alors entendue sans délai par la suite et peut se déterminer.",
+        "it": "Per una domanda autonoma a causa di violenza, minacce o insidie, non deve prima passare da un'udienza di conciliazione: fa causa direttamente al tribunale. Il tribunale non riscuote per questo spese giudiziarie; le spese per un'avvocata o un avvocato non ne sono comprese. Se invece attua la protezione nell'ambito di una procedura di protezione dell'unione coniugale, valgono altre regole sulle spese (si veda sotto).\n\nIn caso di particolare urgenza, per esempio quando un ordine immediato arriverebbe altrimenti troppo tardi, il giudice può adottare una misura anche senza previa audizione della controparte. Questa viene poi sentita senza indugio e può esprimersi.",
+        "en": "For your own application because of violence, threats or stalking, you do not first have to go to a conciliation hearing: you sue directly at the court. The court does not charge court costs for this; the costs of a lawyer are not covered by this. If you instead pursue protection as part of proceedings on protective measures for the marital union, different cost rules apply (see below).\n\nIn cases of particular urgency, for example if an immediate order would otherwise come too late, the court can order a measure even without hearing the other side beforehand. That person is then heard promptly afterwards and can respond.",
+        "rm": "Per ina dumonda autonoma pervia da violenza, smanatschas u persecuziuns na stuais Vus betg empruma ad ina udienza da conciliaziun: Vus plidais directamain tar la dretgira. La dretgira na drizza per quai naginas custs giudizials; custs per in'advocata u in advocat na sun betg cumpigliads en quai. Fetschais Vus la protecziun envece en il rom d'ina procedura da protecziun da la cuminanza conjugala, valan autras reglas da custs (vesair sut).\n\nTar urgenza speziala, per exempel sche in'ordinaziun immediata vegniss autramain memia tard, po la dretgira prender ina mesira era senza udienza precedenta da la cuntrapart. Questa vegn suenter udida immediatamain e po sa exprimer."
       },
       "sources": [
         "zpo-198",
@@ -215,7 +355,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie verheiratet, können Sie beim Eheschutzgericht zusätzlich weitergehende Regelungen verlangen, etwa wer in der gemeinsamen Wohnung bleibt oder wie der Unterhalt geregelt wird. Die gleichen Schutzmöglichkeiten wie bei Gewalt, Drohungen oder Nachstellungen gelten auch in diesem Verfahren.\n\nBei Dringlichkeit kann auch das Eheschutzgericht sofort und ohne vorherige Anhörung der Gegenseite entscheiden. Anders als bei einer eigenständigen Klage wegen Gewalt ist das Eheschutzverfahren nicht automatisch kostenlos; können Sie sich das nicht leisten, können Sie unentgeltliche Rechtspflege beantragen."
+        "de": "Sind Sie verheiratet, können Sie beim Eheschutzgericht zusätzlich weitergehende Regelungen verlangen, etwa wer in der gemeinsamen Wohnung bleibt oder wie der Unterhalt geregelt wird. Die gleichen Schutzmöglichkeiten wie bei Gewalt, Drohungen oder Nachstellungen gelten auch in diesem Verfahren.\n\nBei Dringlichkeit kann auch das Eheschutzgericht sofort und ohne vorherige Anhörung der Gegenseite entscheiden. Anders als bei einer eigenständigen Klage wegen Gewalt ist das Eheschutzverfahren nicht automatisch kostenlos; können Sie sich das nicht leisten, können Sie unentgeltliche Rechtspflege beantragen.",
+        "fr": "Si vous êtes marié, vous pouvez en outre demander au tribunal des mesures protectrices de l’union conjugale des règles plus étendues, par exemple qui reste dans le logement commun ou comment l’entretien est réglé. Les mêmes possibilités de protection qu’en cas de violence, de menaces ou de harcèlement s’appliquent aussi dans cette procédure.\n\nEn cas d’urgence, le tribunal des mesures protectrices de l’union conjugale peut lui aussi statuer immédiatement et sans audition préalable de la partie adverse. Contrairement à une action autonome pour violence, la procédure de mesures protectrices de l’union conjugale n’est pas automatiquement gratuite ; si vous n’en avez pas les moyens, vous pouvez demander l’assistance judiciaire.",
+        "it": "Se è sposato o sposata, può chiedere al giudice della protezione dell'unione coniugale anche regolamentazioni più ampie, per esempio chi resta nell'abitazione comune o come viene disciplinato il mantenimento. Le stesse possibilità di protezione previste in caso di violenza, minacce o insidie valgono anche in questa procedura.\n\nIn caso di urgenza, anche il giudice della protezione dell'unione coniugale può decidere immediatamente e senza previa audizione della controparte. A differenza di un'azione autonoma per violenza, la procedura di protezione dell'unione coniugale non è automaticamente gratuita; se non può permettersela, può chiedere il gratuito patrocinio.",
+        "en": "If you are married, you can also ask the court for protective measures for the marital union to make further arrangements, for example who stays in the shared home or how maintenance is arranged. The same protective options as for violence, threats or stalking are also available in these proceedings.\n\nIn urgent cases, the court for protective measures for the marital union can likewise decide immediately and without hearing the other side beforehand. Unlike a stand-alone claim for violence, proceedings on protective measures for the marital union are not automatically free of charge; if you cannot afford this, you can apply for legal aid.",
+        "rm": "Essas Vus maridads, pudais Vus pretender supplementarmain tar la dretgira da protecziun da la cuminanza conjugala reglaziuns pli vastas, per exempel tgi che resta en l'abitaziun cuminaivla u co ch'il mantegniment vegn reglà. Las medemas pussaivladads da protecziun sco tar violenza, smanatschas u persecuziuns valan era en questa procedura.\n\nTar urgenza po era la dretgira da protecziun da la cuminanza conjugala decider immediat e senza udienza precedenta da la cuntrapart. Auter che tar ina plant autonoma pervia da violenza n'è la procedura da protecziun da la cuminanza conjugala betg automaticamain gratuita; na pudais Vus betg Vus permetter quai, pudais Vus dumandar la giurisdicziun gratuita."
       },
       "sources": [
         "zgb-172",
@@ -237,7 +381,11 @@
         ]
       },
       "text": {
-        "de": "Bei einfachen Körperverletzungen, wiederholten Tätlichkeiten oder schweren Drohungen verfolgt der Staat die Tat von sich aus, wenn die Täterin oder der Täter Ihre Ehepartnerin, Ihr Ehepartner, Ihre eingetragene Partnerin, Ihr eingetragener Partner ist, oder mit Ihnen ohne Trauschein auf unbestimmte Zeit einen gemeinsamen Haushalt führt oder geführt hat. Das gilt auch noch bis zu einem Jahr nach Scheidung, Auflösung der Partnerschaft oder Trennung.\n\nDas heisst: Sie müssen selbst keinen Strafantrag stellen, und Sie können ein einmal eröffnetes Verfahren nicht einfach durch Rückzug beenden. Über Anklage oder Einstellung entscheidet die Staatsanwaltschaft."
+        "de": "Bei einfachen Körperverletzungen, wiederholten Tätlichkeiten oder schweren Drohungen verfolgt der Staat die Tat von sich aus, wenn die Täterin oder der Täter Ihre Ehepartnerin, Ihr Ehepartner, Ihre eingetragene Partnerin, Ihr eingetragener Partner ist, oder mit Ihnen ohne Trauschein auf unbestimmte Zeit einen gemeinsamen Haushalt führt oder geführt hat. Das gilt auch noch bis zu einem Jahr nach Scheidung, Auflösung der Partnerschaft oder Trennung.\n\nDas heisst: Sie müssen selbst keinen Strafantrag stellen, und Sie können ein einmal eröffnetes Verfahren nicht einfach durch Rückzug beenden. Über Anklage oder Einstellung entscheidet die Staatsanwaltschaft.",
+        "fr": "L’État poursuit d’office les lésions corporelles simples, les voies de fait réitérées et les menaces graves lorsque l’auteure ou l’auteur est votre épouse, votre époux, votre partenaire enregistrée ou partenaire enregistré, ou fait ou a fait ménage commun avec vous pour une durée indéterminée sans être marié. Cela vaut encore pendant un an après un divorce, la dissolution du partenariat enregistré ou une séparation.\n\nCela signifie que vous n’avez pas vous-même à déposer une plainte pénale, et que vous ne pouvez pas simplement mettre fin, en la retirant, à une procédure déjà ouverte. C’est le ministère public qui décide de la mise en accusation ou du classement.",
+        "it": "In caso di lesioni semplici, vie di fatto reiterate o gravi minacce, lo Stato persegue il reato d'ufficio quando l'autrice o l'autore è la sua moglie, il suo marito, la sua partner registrata, il suo partner registrato, oppure convive o ha convissuto con lei per un tempo indeterminato senza essere sposati. Questo vale anche fino a un anno dopo il divorzio, lo scioglimento dell'unione domestica registrata o la separazione.\n\nQuesto significa: lei stessa non deve presentare querela, e non può porre fine a un procedimento già avviato semplicemente ritirandola. Sull'accusa o sull'abbandono del procedimento decide il pubblico ministero.",
+        "en": "For common assault, repeated acts of aggression, or serious threats, the state prosecutes the offence on its own initiative if the perpetrator is your spouse, your registered partner, or has lived or has been living with you in a shared household without being married for an indefinite period. This also applies for up to a year after divorce, dissolution of the partnership, or separation.\n\nThis means: you do not have to file a criminal complaint yourself, and you cannot simply end proceedings once opened by withdrawing it. The public prosecutor decides on charges or discontinuation.",
+        "rm": "Tar lesiuns corporalas simplas, vias da fatg repetidas u smanatschas gravas persequitescha il stadi il fatg d'atgna iniziativa, sche l'autura u l'autur è Vossa consorta, Voss consort, Vossa partenadra registrada, Voss partener registrà, u maina u ha manà cun Vus, senza contract da matrimoni, per temp indeterminà in chasau cuminaivel. Quai vala er anc fin ad in onn suenter divorzi, schliaziun da la partenadi u separaziun.\n\nQuai vul dir: Vus na stuais betg Vus sez far ina dumonda penala, e Vus na pudais betg simplamain terminar tras retratga ina procedura ina giada averta. Davart acusa u sospensiun decida la procura publica."
       },
       "sources": [
         "stgb-123",
@@ -249,7 +397,11 @@
       "id": "noetigung-immer-offizial",
       "kind": "rule",
       "text": {
-        "de": "Wer Sie mit Gewalt oder der Androhung eines ernsten Nachteils dazu zwingt, etwas zu tun, zu unterlassen oder zu dulden, macht sich der Nötigung strafbar. Anders als Drohung oder einfache Körperverletzung wird Nötigung immer vom Staat selbst verfolgt, unabhängig davon, in welcher Beziehung Sie zur Täterin oder zum Täter stehen; einen Strafantrag braucht es nicht."
+        "de": "Wer Sie mit Gewalt oder der Androhung eines ernsten Nachteils dazu zwingt, etwas zu tun, zu unterlassen oder zu dulden, macht sich der Nötigung strafbar. Anders als Drohung oder einfache Körperverletzung wird Nötigung immer vom Staat selbst verfolgt, unabhängig davon, in welcher Beziehung Sie zur Täterin oder zum Täter stehen; einen Strafantrag braucht es nicht.",
+        "fr": "Quiconque vous oblige, par la violence ou en vous menaçant d’un dommage sérieux, à faire, à ne pas faire ou à laisser faire quelque chose se rend coupable de contrainte. Contrairement à la menace ou aux lésions corporelles simples, la contrainte est toujours poursuivie d’office par l’État, quelle que soit votre relation avec l’auteure ou l’auteur ; aucune plainte pénale n’est nécessaire.",
+        "it": "Chi la costringe con la violenza o con la minaccia di un grave danno a fare, omettere o tollerare qualcosa si rende colpevole di coazione. A differenza della minaccia o delle lesioni semplici, la coazione è sempre perseguita d'ufficio dallo Stato, indipendentemente dalla relazione che ha con l'autrice o l'autore; non è necessaria una querela.",
+        "en": "Anyone who uses force or the threat of serious harm to compel you to do something, refrain from doing something, or tolerate something, commits the offence of coercion. Unlike a threat or common assault, coercion is always prosecuted by the state itself, regardless of your relationship with the perpetrator; no criminal complaint is needed.",
+        "rm": "Tgi che Vus forza cun violenza u cun la smanatscha d'in donn serius da far, d'umettar u da tolerar insatge, sa fa culpabel da constrenschiment. Auter che smanatscha u lesiun corporala simpla vegn il constrenschiment adina persequità dal stadi sez, independentamain da la relaziun, en la quala Vus stais a l'autura u a l'autur; ina dumonda penala n'è betg necessaria."
       },
       "sources": [
         "stgb-181"
@@ -268,7 +420,11 @@
         ]
       },
       "text": {
-        "de": "Bei einfacher Körperverletzung, wiederholten Tätlichkeiten, Drohung oder Nötigung innerhalb einer Paarbeziehung können Sie als Opfer bei der Staatsanwaltschaft oder beim Gericht beantragen, das Strafverfahren für höchstens sechs Monate auszusetzen, wenn das Ihre Situation stabilisieren oder verbessern kann. Die beschuldigte Person kann für diese Zeit verpflichtet werden, ein Lernprogramm gegen Gewalt zu besuchen.\n\nWichtig: Das geschieht nicht automatisch und ist kein Rückzug Ihrer Anzeige. Verlangen Sie später doch die Weiterführung, oder verbessert sich Ihre Lage nicht, wird das Verfahren wieder aufgenommen. Hat sich Ihre Lage am Ende der sechs Monate stabilisiert oder verbessert, wird das Verfahren eingestellt. Ausgeschlossen ist die Aussetzung, wenn die beschuldigte Person schon früher wegen einer Gewalt-, Freiheits- oder Sexualstraftat gegen eine Partnerin oder einen Partner verurteilt wurde."
+        "de": "Bei einfacher Körperverletzung, wiederholten Tätlichkeiten, Drohung oder Nötigung innerhalb einer Paarbeziehung können Sie als Opfer bei der Staatsanwaltschaft oder beim Gericht beantragen, das Strafverfahren für höchstens sechs Monate auszusetzen, wenn das Ihre Situation stabilisieren oder verbessern kann. Die beschuldigte Person kann für diese Zeit verpflichtet werden, ein Lernprogramm gegen Gewalt zu besuchen.\n\nWichtig: Das geschieht nicht automatisch und ist kein Rückzug Ihrer Anzeige. Verlangen Sie später doch die Weiterführung, oder verbessert sich Ihre Lage nicht, wird das Verfahren wieder aufgenommen. Hat sich Ihre Lage am Ende der sechs Monate stabilisiert oder verbessert, wird das Verfahren eingestellt. Ausgeschlossen ist die Aussetzung, wenn die beschuldigte Person schon früher wegen einer Gewalt-, Freiheits- oder Sexualstraftat gegen eine Partnerin oder einen Partner verurteilt wurde.",
+        "fr": "Si, au sein du couple, il y a eu des lésions corporelles simples, des voies de fait réitérées, une menace ou une contrainte, vous pouvez, en tant que victime, demander au ministère public ou au tribunal de suspendre la procédure pénale pour six mois au plus, si cela peut stabiliser ou améliorer votre situation. Pendant ce temps, la personne prévenue peut être obligée de suivre un programme de lutte contre la violence.\n\nImportant : cela ne se produit pas automatiquement et ne constitue pas un retrait de votre plainte. Si vous demandez ensuite malgré tout la reprise de la procédure, ou si votre situation ne s’améliore pas, la procédure est reprise. Si votre situation s’est stabilisée ou améliorée à la fin des six mois, la procédure est classée. La suspension est exclue si la personne prévenue a déjà été condamnée auparavant pour une infraction de violence, contre la liberté ou contre l’intégrité sexuelle commise envers une ou un partenaire.",
+        "it": "In caso di lesioni semplici, vie di fatto reiterate, minaccia o coazione all'interno di una relazione di coppia, può chiedere, come vittima, al pubblico ministero o al giudice di sospendere il procedimento penale per al massimo sei mesi, se ciò può stabilizzare o migliorare la sua situazione. La persona imputata può essere obbligata, per questo periodo, a frequentare un programma di apprendimento contro la violenza.\n\nImportante: questo non avviene automaticamente e non è un ritiro della sua denuncia. Se in seguito chiede comunque la continuazione del procedimento, oppure se la sua situazione non migliora, il procedimento viene ripreso. Se alla fine dei sei mesi la sua situazione si è stabilizzata o migliorata, il procedimento viene abbandonato. La sospensione è esclusa se la persona imputata è già stata condannata in precedenza per un reato di violenza, contro la libertà o contro l'integrità sessuale nei confronti di una partner o di un partner.",
+        "en": "For common assault, repeated acts of aggression, threats or coercion within a couple relationship, you as the victim can ask the public prosecutor or the court to suspend the criminal proceedings for at most six months, if this can stabilise or improve your situation. The accused can be required to attend a course on violence prevention during this time.\n\nImportant: this does not happen automatically and is not a withdrawal of your report. If you later ask for the proceedings to continue after all, or if your situation does not improve, the proceedings resume. If your situation has stabilised or improved by the end of the six months, the proceedings are abandoned. Suspension is excluded if the accused has already been convicted of an earlier offence of violence, against personal liberty or a sexual offence against a partner.",
+        "rm": "Tar lesiun corporala simpla, vias da fatg repetidas, smanatscha u constrenschiment en ina relaziun da coppia pudais Vus, sco victima, pretender tar la procura publica u tar la dretgira da suspender la procedura penala per maximalmain sis mais, sche quai po stabilisar u meglierar Vossa situaziun. La persuna inculpada po vegnir obligada per quest temp da visitar in program d'emprender cunter la violenza.\n\nImpurtant: quai na succeda betg automaticamain e n'è nagina retratga da Vossa annunzia. Pretendais Vus pli tard tuttina la cuntinuaziun, u na sa meglierescha betg Vossa situaziun, vegn la procedura ripiglià. Sa ha Vossa situaziun stabilisada u meglierada a la fin dals sis mais, vegn la procedura sospendida. Exclus è la suspensiun, sche la persuna inculpada è gia stada condemnada pli baud pervia d'in delict da violenza, cunter la libertad u sexual cunter ina partenadra u in partener."
       },
       "sources": [
         "stgb-55a"
@@ -283,7 +439,11 @@
         ]
       },
       "text": {
-        "de": "Das Gericht teilt seinen Entscheid über Schutzmassnahmen wegen Gewalt der zuständigen Kindes- und Erwachsenenschutzbehörde (KESB) mit, soweit sie ihn für ihre Aufgaben braucht, etwa wenn Kinder im Haushalt leben. Ist das Wohl eines Kindes gefährdet, trifft die KESB die nötigen Massnahmen zu seinem Schutz.\n\nFragen zum Sorge- oder Besuchsrecht sind oft komplex. Lassen Sie sich dazu persönlich beraten, etwa bei der Opferberatungsstelle oder einer Fachperson für Familienrecht."
+        "de": "Das Gericht teilt seinen Entscheid über Schutzmassnahmen wegen Gewalt der zuständigen Kindes- und Erwachsenenschutzbehörde (KESB) mit, soweit sie ihn für ihre Aufgaben braucht, etwa wenn Kinder im Haushalt leben. Ist das Wohl eines Kindes gefährdet, trifft die KESB die nötigen Massnahmen zu seinem Schutz.\n\nFragen zum Sorge- oder Besuchsrecht sind oft komplex. Lassen Sie sich dazu persönlich beraten, etwa bei der Opferberatungsstelle oder einer Fachperson für Familienrecht.",
+        "fr": "Le tribunal communique sa décision sur les mesures de protection contre la violence à l’autorité de protection de l’enfant et de l’adulte (APEA) compétente, dans la mesure où elle en a besoin pour ses tâches, par exemple lorsque des enfants vivent dans le ménage. Si le bien d’un enfant est menacé, l’APEA prend les mesures nécessaires à sa protection.\n\nLes questions relatives à l’autorité parentale ou au droit de visite sont souvent complexes. Faites-vous conseiller personnellement à ce sujet, par exemple auprès du centre de consultation pour l’aide aux victimes ou d’une ou un spécialiste du droit de la famille.",
+        "it": "Il giudice comunica la sua decisione sulle misure di protezione per violenza all'autorità di protezione dei minori e degli adulti (APMA) competente, nella misura in cui questa ne abbia bisogno per i propri compiti, per esempio quando nell'economia domestica vivono figli. Se il bene di un figlio è minacciato, l'APMA adotta le misure necessarie per proteggerlo.\n\nLe questioni relative all'autorità parentale o al diritto di visita sono spesso complesse. Si faccia consigliare personalmente al riguardo, per esempio presso il consultorio per l'aiuto alle vittime o una persona specializzata in diritto di famiglia.",
+        "en": "The court informs the competent child and adult protection authority (KESB) of its decision on protective measures against violence, to the extent it needs this for its own tasks, for example if children live in the household. If a child's welfare is at risk, the KESB takes the necessary measures to protect them.\n\nQuestions of parental responsibility or contact are often complex. Get personal advice on this, for example from the victim support centre or a family law specialist.",
+        "rm": "La dretgira communitgescha sia decisiun davart mesiras da protecziun pervia da violenza a la KESB cumpetenta, uschenavant ch'ella al dovra per sias incumbensas, per exempel sche uffants vivan en il chasau. È periclità il bainstar d'in uffant, prenda la KESB las mesiras necessarias per ses protecziun.\n\nDumondas davart il dretg da tgira u da visita èn savens cumplexas. Laschai Vus persunalmain cusseglier davart quai, per exempel tar il post da cussegliaziun per victimas u ina persuna spezialisada per il dretg da famiglia."
       },
       "sources": [
         "zgb-28b",
@@ -299,7 +459,11 @@
         ]
       },
       "text": {
-        "de": "Hängt Ihre Aufenthaltsbewilligung von der Ehe oder der Familiengemeinschaft ab, verlieren Sie diese nicht automatisch, wenn die Beziehung endet. Nach mindestens drei Jahren Ehegemeinschaft und bei ausreichender Integration besteht ohnehin ein Anspruch auf Verlängerung.\n\nAuch davor kann ein Anspruch bestehen, wenn wichtige persönliche Gründe einen weiteren Aufenthalt nötig machen. Häusliche Gewalt gegen Sie oder ein Kind zählt ausdrücklich dazu. Die Behörde berücksichtigt dabei insbesondere: eine Anerkennung als Opfer durch die Opferhilfe, eine Bestätigung einer spezialisierten Fachstelle, polizeiliche oder gerichtliche Schutzmassnahmen, Arztberichte, Polizeirapporte oder Strafanzeigen sowie strafrechtliche Verurteilungen. Für Konkubinatspaare mit Härtefallbewilligung gilt dies entsprechend.\n\nLassen Sie sich dazu unbedingt persönlich beraten, wenn möglich bevor Sie handeln."
+        "de": "Hängt Ihre Aufenthaltsbewilligung von der Ehe oder der Familiengemeinschaft ab, verlieren Sie diese nicht automatisch, wenn die Beziehung endet. Nach mindestens drei Jahren Ehegemeinschaft und bei ausreichender Integration besteht ohnehin ein Anspruch auf Verlängerung.\n\nAuch davor kann ein Anspruch bestehen, wenn wichtige persönliche Gründe einen weiteren Aufenthalt nötig machen. Häusliche Gewalt gegen Sie oder ein Kind zählt ausdrücklich dazu. Die Behörde berücksichtigt dabei insbesondere: eine Anerkennung als Opfer durch die Opferhilfe, eine Bestätigung einer spezialisierten Fachstelle, polizeiliche oder gerichtliche Schutzmassnahmen, Arztberichte, Polizeirapporte oder Strafanzeigen sowie strafrechtliche Verurteilungen. Für Konkubinatspaare mit Härtefallbewilligung gilt dies entsprechend.\n\nLassen Sie sich dazu unbedingt persönlich beraten, wenn möglich bevor Sie handeln.",
+        "fr": "Si votre autorisation de séjour dépend du mariage ou de la communauté familiale, vous ne la perdez pas automatiquement lorsque la relation prend fin. Après au moins trois ans de communauté conjugale et en cas d’intégration suffisante, vous avez de toute façon droit à sa prolongation.\n\nUn droit peut aussi exister avant cela, si des raisons personnelles majeures rendent nécessaire la poursuite du séjour. La violence domestique contre vous ou contre un enfant en fait expressément partie. L’autorité prend notamment en compte : une reconnaissance en tant que victime par l’aide aux victimes, une attestation d’un service spécialisé, des mesures de protection policières ou judiciaires, des certificats médicaux, des rapports de police ou des plaintes pénales, ainsi que des condamnations pénales. Pour les couples en concubinage titulaires d’une autorisation de séjour pour cas de rigueur, cela s’applique par analogie.\n\nFaites-vous absolument conseiller personnellement à ce sujet, si possible avant d’agir.",
+        "it": "Se il suo permesso di soggiorno dipende dal matrimonio o dalla comunità familiare, non lo perde automaticamente quando la relazione finisce. Dopo almeno tre anni di comunità coniugale e con un'integrazione sufficiente esiste comunque un diritto al rinnovo.\n\nAnche prima può sussistere un diritto, se motivi personali importanti rendono necessaria un'ulteriore permanenza. La violenza domestica contro di lei o contro un figlio ne fa espressamente parte. L'autorità considera in particolare: un riconoscimento come vittima da parte dell'aiuto alle vittime, una conferma di un servizio specializzato, misure di protezione della polizia o del giudice, referti medici, rapporti di polizia o denunce penali, nonché condanne penali. Per le coppie in unione libera con permesso per casi di rigore vale lo stesso per analogia.\n\nSi faccia assolutamente consigliare personalmente al riguardo, se possibile prima di agire.",
+        "en": "If your residence permit depends on the marriage or the family unit, you do not automatically lose it when the relationship ends. After at least three years of marital union and with sufficient integration, you are in any case entitled to an extension.\n\nEven before that, you may be entitled if important personal reasons make it necessary for you to stay longer. Domestic violence against you or a child expressly counts as such a reason. The authority considers in particular: recognition as a victim by victim support, confirmation from a specialised agency, police or court protective measures, medical reports, police reports or criminal complaints, and criminal convictions. This applies correspondingly for cohabiting couples with a hardship permit.\n\nBe sure to get personal advice on this, if possible before you act.",
+        "rm": "Dependa Vossa permissiun da dimora da la lètg u da la cuminanza da famiglia, na perdais Vus quella betg automaticamain, sche la relaziun finescha. Suenter almain trais onns da cuminanza conjugala e cun integraziun suffizienta exista tuttavia in dretg a la prolungaziun.\n\nEr avant pon existir in dretg, sche motivs persunals impurtants fan necessaria ina dimora ulteriura. Violenza domestica cunter Vus u in uffant tutga explicitamain qua tar. L'autoritad resguarda en quest connex en spezial: ina renconoschientscha sco victima tras l'agid a victimas, ina conferma d'ina posta spezialisada, mesiras da protecziun policialas u giudizialas, rapports medicals, rapports da polizia u annunzias penalas sco er condemnaziuns penalas. Per coppias en concubinat cun permissiun da cas da rigur vala quai correspundentamain.\n\nLaschai Vus percunquai a tut ils cas persunalmain cusseglier, sch'i è pussaivel avant che Vus agis."
       },
       "sources": [
         "aig-50"
@@ -309,7 +473,11 @@
       "id": "opferhilfe-anspruch",
       "kind": "rule",
       "text": {
-        "de": "Als Opfer einer Straftat gegen Ihre körperliche, psychische oder sexuelle Integrität haben Sie Anspruch auf Opferhilfe. Das gilt unabhängig davon, ob die Täterin oder der Täter ermittelt oder verurteilt wurde. Auch nahestehende Personen wie Ehepartner, Kinder oder Eltern können Opferhilfe beanspruchen.\n\nDie Beratungsstellen unterstützen Sie kostenlos und sind zur Verschwiegenheit verpflichtet. Sie helfen Ihnen, Ihre Rechte wahrzunehmen. Die Hilfe umfasst je nach Bedarf medizinische, psychologische, soziale, materielle und juristische Unterstützung. Braucht es das, vermitteln die Beratungsstellen auch eine Notunterkunft."
+        "de": "Als Opfer einer Straftat gegen Ihre körperliche, psychische oder sexuelle Integrität haben Sie Anspruch auf Opferhilfe. Das gilt unabhängig davon, ob die Täterin oder der Täter ermittelt oder verurteilt wurde. Auch nahestehende Personen wie Ehepartner, Kinder oder Eltern können Opferhilfe beanspruchen.\n\nDie Beratungsstellen unterstützen Sie kostenlos und sind zur Verschwiegenheit verpflichtet. Sie helfen Ihnen, Ihre Rechte wahrzunehmen. Die Hilfe umfasst je nach Bedarf medizinische, psychologische, soziale, materielle und juristische Unterstützung. Braucht es das, vermitteln die Beratungsstellen auch eine Notunterkunft.",
+        "fr": "En tant que victime d’une infraction contre votre intégrité corporelle, psychique ou sexuelle, vous avez droit à l’aide aux victimes. Cela vaut indépendamment du fait que l’auteure ou l’auteur ait été identifié ou condamné. Les proches, comme l’épouse ou l’époux, les enfants ou les parents, peuvent eux aussi bénéficier de l’aide aux victimes.\n\nLes centres de consultation vous soutiennent gratuitement et sont tenus au secret. Ils vous aident à faire valoir vos droits. L’aide comprend, selon les besoins, un soutien médical, psychologique, social, matériel et juridique. Si nécessaire, les centres de consultation vous procurent aussi un hébergement d’urgence.",
+        "it": "Come vittima di un reato contro la sua integrità fisica, psichica o sessuale ha diritto all'aiuto alle vittime. Questo vale indipendentemente dal fatto che l'autrice o l'autore sia stato individuato o condannato. Anche le persone a lei vicine, come il coniuge, i figli o i genitori, possono avvalersi dell'aiuto alle vittime.\n\nI consultori la sostengono gratuitamente e sono tenuti al segreto. La aiutano a far valere i suoi diritti. L'aiuto comprende, a seconda del bisogno, un sostegno medico, psicologico, sociale, materiale e giuridico. Se necessario, i consultori procurano anche un alloggio d'emergenza.",
+        "en": "As the victim of an offence against your physical, psychological or sexual integrity, you are entitled to victim support. This applies regardless of whether the perpetrator has been identified or convicted. Close relations such as a spouse, children or parents can also claim victim support.\n\nThe advice centres support you free of charge and are bound to confidentiality. They help you exercise your rights. Support includes medical, psychological, social, material and legal assistance, depending on your needs. If necessary, the advice centres also arrange emergency accommodation.",
+        "rm": "Sco victima d'in delict cunter Vossa integritad corporala, psichica u sexuala avais Vus dretg a l'agid a victimas. Quai vala independentamain, sche la persuna che ha cumess il delict è vegnida identifitgada u condemnada. Er persunas datiers, sco consorts, uffants u geniturs, pon pretender l'agid a victimas.\n\nIls posts da cussegliaziun As sustegnan gratuitamain e sun obligads al secret. Ellas gidan a Vus da far valair Vossas dretgs. L'agid cumpiglia, tenor basegn, sustegn medical, psicologic, social, material e giuridic. Sch'i dovra, procuran las postas da consulaziun era in allogiament d'urgenza."
       },
       "sources": [
         "ohg-1",
@@ -323,14 +491,22 @@
       "id": "hilfsangebote",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose und vertrauliche Anlaufstellen: Die kantonale Opferberatungsstelle finden Sie über die Suche auf opferhilfe-schweiz.ch. Frauenhäuser in der ganzen Schweiz bieten Frauen und ihren Kindern kurzfristig einen sicheren, meist geheimen Unterkunftsort; eine Übersicht steht auf frauenhaeuser.ch. In einzelnen Kantonen gibt es auch Schutzunterkünfte für Männer; fragen Sie dazu bei der Opferberatungsstelle nach.\n\nFür rechtliche Fragen bieten viele Kantone und Anwaltsverbände kostenlose oder kostengünstige Erstberatungen an."
+        "de": "Kostenlose und vertrauliche Anlaufstellen: Die kantonale Opferberatungsstelle finden Sie über die Suche auf opferhilfe-schweiz.ch. Frauenhäuser in der ganzen Schweiz bieten Frauen und ihren Kindern kurzfristig einen sicheren, meist geheimen Unterkunftsort; eine Übersicht steht auf frauenhaeuser.ch. In einzelnen Kantonen gibt es auch Schutzunterkünfte für Männer; fragen Sie dazu bei der Opferberatungsstelle nach.\n\nFür rechtliche Fragen bieten viele Kantone und Anwaltsverbände kostenlose oder kostengünstige Erstberatungen an.",
+        "fr": "Adresses gratuites et confidentielles : vous trouvez le centre de consultation cantonal pour l’aide aux victimes grâce à la recherche sur opferhilfe-schweiz.ch. Les maisons d’accueil pour femmes, dans toute la Suisse, offrent aux femmes et à leurs enfants, à court terme, un hébergement sûr et le plus souvent tenu secret ; un aperçu se trouve sur frauenhaeuser.ch. Certains cantons disposent aussi de lieux d’hébergement protégés pour les hommes ; renseignez-vous à ce sujet auprès du centre de consultation pour l’aide aux victimes.\n\nPour les questions juridiques, de nombreux cantons et ordres d’avocats proposent des premières consultations gratuites ou à coût modique.",
+        "it": "Servizi di contatto gratuiti e confidenziali: trova il consultorio cantonale per l'aiuto alle vittime tramite la ricerca su opferhilfe-schweiz.ch. Le case delle donne in tutta la Svizzera offrono a breve termine, alle donne e ai loro figli, un luogo di alloggio sicuro, per lo più segreto; una panoramica si trova su frauenhaeuser.ch. In alcuni Cantoni esistono anche alloggi protetti per uomini; si informi al riguardo presso il consultorio per l'aiuto alle vittime.\n\nPer le questioni giuridiche, molti Cantoni e associazioni di avvocati offrono prime consulenze gratuite o a basso costo.",
+        "en": "Free and confidential contact points: you can find your cantonal victim support centre using the search on opferhilfe-schweiz.ch. Women's shelters throughout Switzerland offer women and their children safe, usually undisclosed accommodation at short notice; an overview is available at frauenhaeuser.ch. Some cantons also have shelters for men; ask the victim support centre about this.\n\nFor legal questions, many cantons and bar associations offer free or low-cost initial consultations.",
+        "rm": "Postas d'annunzia gratuitas e confidenzialas: il post chantunal da cussegliaziun per victimas chattais Vus tras la tschertga sin opferhilfe-schweiz.ch. Chasas da dunnas en tut la Svizra offran a dunnas ed a lur uffants a curt termin in lieu d'allogiament segir, il pli savens secret; ina survista stat sin frauenhaeuser.ch. En singuls chantuns datti er allogiaments da protecziun per umens; dumandai davart quai tar il post da cussegliaziun per victimas.\n\nPer dumondas giuridicas offran blers chantuns e federaziuns d'advocatas ed advocats emprimas consulaziuns gratuitas u avantagiusas."
       }
     },
     {
       "id": "persoenliche-beratung",
       "kind": "escalate",
       "text": {
-        "de": "Diese Übersicht ersetzt keine persönliche Beratung. Gerade wenn Kinder betroffen sind, ein Strafverfahren läuft oder Ihr Aufenthaltsstatus von der Beziehung abhängt, lohnt sich frühzeitig eine Fachperson: die kantonale Opferberatungsstelle, eine Anwältin oder ein Anwalt für Familien- und Strafrecht, oder eine kostenlose Rechtsauskunft Ihres Kantons."
+        "de": "Diese Übersicht ersetzt keine persönliche Beratung. Gerade wenn Kinder betroffen sind, ein Strafverfahren läuft oder Ihr Aufenthaltsstatus von der Beziehung abhängt, lohnt sich frühzeitig eine Fachperson: die kantonale Opferberatungsstelle, eine Anwältin oder ein Anwalt für Familien- und Strafrecht, oder eine kostenlose Rechtsauskunft Ihres Kantons.",
+        "fr": "Ce guide ne remplace pas une consultation personnelle. Surtout lorsque des enfants sont concernés, qu’une procédure pénale est en cours ou que votre statut de séjour dépend de la relation, il vaut la peine de consulter tôt une ou un spécialiste : le centre de consultation cantonal pour l’aide aux victimes, une avocate ou un avocat en droit de la famille et pénal, ou un service gratuit de renseignement juridique de votre canton.",
+        "it": "Questa guida non sostituisce una consulenza personale. Soprattutto quando sono coinvolti dei figli, è in corso un procedimento penale, oppure il suo statuto di soggiorno dipende dalla relazione, conviene rivolgersi per tempo a una persona specializzata: il consultorio cantonale per l'aiuto alle vittime, un'avvocata o un avvocato per il diritto di famiglia e penale, oppure una consulenza giuridica gratuita del suo Cantone.",
+        "en": "This overview does not replace personal advice. Especially where children are affected, criminal proceedings are under way, or your residence status depends on the relationship, it is worth involving a specialist early: the cantonal victim support centre, a lawyer for family and criminal law, or your canton's free legal information service.",
+        "rm": "Quest manual na remplazza nagina consulaziun persunala. Precisamain sche uffants èn tangads, ina procedura penala curra u Voss status da dimora dependa da la relaziun, giova baud ina persuna spezialisada: il post chantunal da cussegliaziun per victimas, in'advocata u in advocat per il dretg da famiglia e penal, u in'infurmaziun giuridica gratuita da Voss chantun."
       }
     }
   ],
@@ -507,13 +683,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Opferhilfe Schweiz – Beratungsstellen und die Nummer 142"
+        "de": "Opferhilfe Schweiz – Beratungsstellen und die Nummer 142",
+        "fr": "Aide aux victimes Suisse – centres de consultation et numéro 142",
+        "it": "Aiuto alle vittime Svizzera – consultori e il numero 142",
+        "en": "Victim Support Switzerland – advice centres and the 142 number",
+        "rm": "Agid a las victimas Svizra – posts da cussegliaziun ed il numer 142"
       },
       "url": "https://www.opferhilfe-schweiz.ch/"
     },
     {
       "label": {
-        "de": "Frauenhäuser Schweiz und Liechtenstein – Adressen"
+        "de": "Frauenhäuser Schweiz und Liechtenstein – Adressen",
+        "fr": "Maisons d’accueil pour femmes Suisse et Liechtenstein – adresses",
+        "it": "Case delle donne Svizzera e Liechtenstein – indirizzi",
+        "en": "Women's shelters Switzerland and Liechtenstein – addresses",
+        "rm": "Chasas da dunnas Svizra e Liechtenstein – adressas"
       },
       "url": "https://www.frauenhaeuser.ch/"
     }

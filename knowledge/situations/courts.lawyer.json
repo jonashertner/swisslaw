@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Wie finde ich eine Anwältin oder einen Anwalt, und was kostet das?"
+    "de": "Wie finde ich eine Anwältin oder einen Anwalt, und was kostet das?",
+    "fr": "Comment trouver une avocate ou un avocat, et combien cela coûte-t-il ?",
+    "it": "Come trovo un'avvocata o un avvocato, e quanto costa?",
+    "en": "How do I find a lawyer, and what does it cost?",
+    "rm": "Co chatt jau in'advocata u in advocat, e tge custa quai?"
   },
   "summary": {
-    "de": "Vor einem Zivilgericht dürfen Sie sich selbst vertreten. Wer Sie berufsmässig vertritt, muss in der Regel in einem kantonalen Anwaltsregister stehen. Anwältinnen und Anwälte müssen unabhängig sein, Interessenkonflikte vermeiden, das Berufsgeheimnis wahren und Sie über ihre Abrechnung informieren. Ein Honorar nur bei Erfolg ist verboten. Sie können das Mandat jederzeit beenden und Ihre Unterlagen herausverlangen. Gewinnen Sie einen Prozess, deckt die Parteientschädigung nicht immer alle Ihre Anwaltskosten. Eine Rechtsschutzversicherung muss Ihnen für Gerichtsverfahren die freie Wahl lassen. Wer kein Geld hat, kann unentgeltliche Rechtspflege beantragen."
+    "de": "Vor einem Zivilgericht dürfen Sie sich selbst vertreten. Wer Sie berufsmässig vertritt, muss in der Regel in einem kantonalen Anwaltsregister stehen. Anwältinnen und Anwälte müssen unabhängig sein, Interessenkonflikte vermeiden, das Berufsgeheimnis wahren und Sie über ihre Abrechnung informieren. Ein Honorar nur bei Erfolg ist verboten. Sie können das Mandat jederzeit beenden und Ihre Unterlagen herausverlangen. Gewinnen Sie einen Prozess, deckt die Parteientschädigung nicht immer alle Ihre Anwaltskosten. Eine Rechtsschutzversicherung muss Ihnen für Gerichtsverfahren die freie Wahl lassen. Wer kein Geld hat, kann unentgeltliche Rechtspflege beantragen.",
+    "fr": "Devant un tribunal civil, vous pouvez vous représenter vous-même. Qui vous représente à titre professionnel doit en général être inscrit dans un registre cantonal des avocats. Les avocates et avocats doivent être indépendants, éviter les conflits d'intérêts, respecter le secret professionnel et vous informer sur leur facturation. Un honoraire dépendant uniquement du succès est interdit. Vous pouvez résilier le mandat en tout temps et exiger la restitution de vos documents. Si vous gagnez un procès, les dépens ne couvrent pas toujours l'intégralité de vos frais d'avocat. Une assurance de protection juridique doit vous laisser le libre choix pour les procédures judiciaires. Qui n'a pas d'argent peut demander l'assistance judiciaire.",
+    "it": "Davanti a un tribunale civile può rappresentarsi da sola. Chi la rappresenta a titolo professionale deve di regola essere iscritto in un registro cantonale degli avvocati. Le avvocate e gli avvocati devono essere indipendenti, evitare conflitti d'interesse, rispettare il segreto professionale e informarla sulla loro fatturazione. Un onorario dovuto solo in caso di successo è vietato. Può porre fine al mandato in ogni momento e pretendere la restituzione dei suoi documenti. Se vince un processo, le ripetibili non coprono sempre tutte le sue spese legali. Un'assicurazione di protezione giuridica deve lasciarle libera scelta per i procedimenti giudiziari. Chi non ha soldi può chiedere il gratuito patrocinio.",
+    "en": "You are allowed to represent yourself before a civil court. Anyone who represents you professionally must, as a rule, be entered in a cantonal register of lawyers. Lawyers must be independent, avoid conflicts of interest, maintain professional secrecy, and inform you about their billing. A fee payable only on success is forbidden. You can end the mandate at any time and demand your documents back. If you win a case, the compensation awarded against the other side does not always cover all your lawyer's costs. Legal expenses insurance must let you choose freely for court proceedings. Anyone without money can apply for legal aid.",
+    "rm": "Avant ina dretgira civila dastgais Vus Vus represchentar sez. Tgi che Vus represchenta professiunalmain, sto per regla star en in register chantunal d'advocatas ed advocats. Advocatas ed advocats ston esser independents, evitar conflicts d'interess, guardar il secret professiunal e Vus infurmar davart lur decomptaziun. In honorar mo en cas da success è scumandà. Vus pudais terminar il mandat da tut temp e pretender enavos Voss documents. Gudagnais Vus in process, na cuvra l'indemnisaziun da la partida betg adina tut Voss custs d'advocat. In'assicuranza da protecziun giuridica sto Vus laschar la libra tscherna per proceduras giudizialas. Tgi che n'ha nagin daner, po dumandar la giurisdicziun gratuita."
   },
   "examples": {
     "de": [
@@ -20,45 +28,109 @@
       "Zahlt mir die Gegenpartei meinen Anwalt, wenn ich gewinne?",
       "Darf meine Rechtsschutzversicherung mir vorschreiben, welchen Anwalt ich nehme?",
       "Kann ich meinen Anwalt nur bezahlen, wenn wir gewinnen?"
+    ],
+    "fr": [
+      "Comment trouver un bon avocat pour mon problème ?",
+      "Combien coûte un avocat de l'heure, et dois-je payer d'avance ?",
+      "Je ne suis pas satisfait de mon avocate. Puis-je simplement en changer ?",
+      "Mon avocat m'envoie des factures que je ne comprends pas. Que puis-je faire ?",
+      "La partie adverse paie-t-elle mon avocat si je gagne ?",
+      "Mon assurance de protection juridique peut-elle m'imposer quel avocat prendre ?",
+      "Puis-je ne payer mon avocat que si nous gagnons ?"
+    ],
+    "it": [
+      "Come trovo un buon avvocato per il mio problema?",
+      "Quanto costa un avvocato all'ora, e devo pagarlo in anticipo?",
+      "Non sono soddisfatta della mia avvocata. Posso semplicemente cambiarla?",
+      "Il mio avvocato mi manda fatture che non capisco. Cosa posso fare?",
+      "La controparte mi paga l'avvocato se vinco?",
+      "La mia assicurazione di protezione giuridica può imporgli quale avvocato devo prendere?",
+      "Posso pagare il mio avvocato solo se vinciamo?"
+    ],
+    "en": [
+      "How do I find a good lawyer for my problem?",
+      "What does a lawyer cost per hour, and do I have to pay in advance?",
+      "I'm not happy with my lawyer. Can I just switch?",
+      "My lawyer keeps sending me invoices I don't understand. What can I do?",
+      "Will the other side pay for my lawyer if I win?",
+      "Can my legal expenses insurer tell me which lawyer to use?",
+      "Can I pay my lawyer only if we win?"
+    ],
+    "rm": [
+      "Co chatt jau in bun advocat per mia dumonda?",
+      "Tge custa in'advocata per ura, e stoss jau pajar quai ordavant?",
+      "Jau na sun betg cuntent cun mia advocata. Poss jau simplamain midar?",
+      "Mes advocat tramatta quintas ch'jau na chapesch betg. Tge poss jau far?",
+      "Paja la cuntrapartida mes advocat, sche jau gudogn?",
+      "Dastga mia assicuranza da protecziun giuridica am prescriver, tge advocat che jau tschernel?",
+      "Poss jau pajar mes advocat mo, sche nus gudagnain?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Wer vor Gericht vertreten darf, das kantonale Anwaltsregister, die Berufsregeln und das Berufsgeheimnis, das Honorar und die Abrechnung, Erfolgshonorare, das Mandat und seine Beendigung, die Herausgabe von Unterlagen, die Aufsicht über Anwältinnen und Anwälte, die Parteientschädigung im Zivilprozess, die Rechtsschutzversicherung und Anlaufstellen für eine erste Auskunft."
+      "de": "Wer vor Gericht vertreten darf, das kantonale Anwaltsregister, die Berufsregeln und das Berufsgeheimnis, das Honorar und die Abrechnung, Erfolgshonorare, das Mandat und seine Beendigung, die Herausgabe von Unterlagen, die Aufsicht über Anwältinnen und Anwälte, die Parteientschädigung im Zivilprozess, die Rechtsschutzversicherung und Anlaufstellen für eine erste Auskunft.",
+      "fr": "Qui peut représenter une partie devant le tribunal, le registre cantonal des avocats, les règles professionnelles et le secret professionnel, les honoraires et la facturation, les honoraires de résultat, le mandat et sa fin, la restitution des documents, la surveillance des avocates et avocats, les dépens dans le procès civil, l'assurance de protection juridique et les services offrant un premier renseignement.",
+      "it": "Chi può rappresentare davanti al tribunale, il registro cantonale degli avvocati, le regole professionali e il segreto professionale, l'onorario e la fatturazione, i patti di quota lite, il mandato e la sua fine, la restituzione dei documenti, la sorveglianza sulle avvocate e sugli avvocati, le ripetibili nel processo civile, l'assicurazione di protezione giuridica e i punti di contatto per una prima informazione.",
+      "en": "Who may represent you in court, the cantonal register of lawyers, the professional rules and professional secrecy, fees and billing, contingency fees, the mandate and its termination, the handover of documents, supervision of lawyers, compensation for costs in civil proceedings, legal expenses insurance, and places for a first consultation.",
+      "rm": "Tgi che dastga represchentar davant dretgira, il register chantunal d'advocatas ed advocats, las reglas professiunalas ed il secret professiunal, l'honorar e la decomptaziun, honorars da success, il mandat e sia terminaziun, la restituziun da documents, la surveglianza davart advocatas ed advocats, l'indemnisaziun da la partida en il process civil, l'assicuranza da protecziun giuridica e posts da contact per in'emprima infurmaziun."
     },
     "excludes": {
-      "de": "Die unentgeltliche Rechtspflege im Einzelnen (dafür gibt es einen eigenen Leitfaden), die amtliche Verteidigung im Strafverfahren im Einzelnen, kantonale Anwaltstarife und Honorarbeträge sowie Einzelheiten zur Haftung von Anwältinnen und Anwälten für Fehler."
+      "de": "Die unentgeltliche Rechtspflege im Einzelnen (dafür gibt es einen eigenen Leitfaden), die amtliche Verteidigung im Strafverfahren im Einzelnen, kantonale Anwaltstarife und Honorarbeträge sowie Einzelheiten zur Haftung von Anwältinnen und Anwälten für Fehler.",
+      "fr": "L'assistance judiciaire en détail (un guide séparé y est consacré), la défense d'office en procédure pénale en détail, les tarifs cantonaux des avocats et les montants des honoraires, ainsi que les détails de la responsabilité des avocates et avocats pour leurs fautes.",
+      "it": "Il gratuito patrocinio nel dettaglio (per questo esiste una guida propria), la difesa d'ufficio nella procedura penale nel dettaglio, le tariffe cantonali degli avvocati e gli importi degli onorari, nonché i dettagli sulla responsabilità delle avvocate e degli avvocati per errori.",
+      "en": "Legal aid in detail (there is a separate guide for that), official defence in criminal proceedings in detail, cantonal fee scales and amounts, and details of a lawyer's liability for mistakes.",
+      "rm": "La giurisdicziun gratuita en detagl (per quai exista ina guida separada), la defensiun uffiziala en la procedura penala en detagl, tariffas chantunalas d'advocats ed impurts d'honorar sco er detagls davart la responsabladad d'advocatas ed advocats per sbagls."
     }
   },
   "facts": [
     {
       "key": "stage",
       "question": {
-        "de": "Wo stehen Sie gerade?"
+        "de": "Wo stehen Sie gerade?",
+        "fr": "Où en êtes-vous ?",
+        "it": "A che punto si trova?",
+        "en": "Where do you currently stand?",
+        "rm": "Nua stais Vus gist?"
       },
       "options": [
         {
           "value": "looking",
           "label": {
-            "de": "Ich suche eine Anwältin oder einen Anwalt"
+            "de": "Ich suche eine Anwältin oder einen Anwalt",
+            "fr": "Je cherche une avocate ou un avocat",
+            "it": "Cerco un'avvocata o un avvocato",
+            "en": "I am looking for a lawyer",
+            "rm": "Jau tschertgel in'advocata u in advocat"
           }
         },
         {
           "value": "have-lawyer",
           "label": {
-            "de": "Ich habe bereits eine Anwältin oder einen Anwalt"
+            "de": "Ich habe bereits eine Anwältin oder einen Anwalt",
+            "fr": "J'ai déjà une avocate ou un avocat",
+            "it": "Ho già un'avvocata o un avvocato",
+            "en": "I already have a lawyer",
+            "rm": "Jau hai gia in'advocata u in advocat"
           }
         },
         {
           "value": "problem",
           "label": {
-            "de": "Ich habe ein Problem mit meiner Anwältin oder meinem Anwalt"
+            "de": "Ich habe ein Problem mit meiner Anwältin oder meinem Anwalt",
+            "fr": "J'ai un problème avec mon avocate ou mon avocat",
+            "it": "Ho un problema con la mia avvocata o il mio avvocato",
+            "en": "I have a problem with my lawyer",
+            "rm": "Jau hai in problem cun mia advocata u mes advocat"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -66,25 +138,41 @@
     {
       "key": "insurance",
       "question": {
-        "de": "Haben Sie eine Rechtsschutzversicherung?"
+        "de": "Haben Sie eine Rechtsschutzversicherung?",
+        "fr": "Avez-vous une assurance de protection juridique ?",
+        "it": "Ha un'assicurazione di protezione giuridica?",
+        "en": "Do you have legal expenses insurance?",
+        "rm": "Avais Vus in'assicuranza da protecziun giuridica?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -92,25 +180,41 @@
     {
       "key": "money_tight",
       "question": {
-        "de": "Fehlt Ihnen das Geld für eine Anwältin oder einen Anwalt?"
+        "de": "Fehlt Ihnen das Geld für eine Anwältin oder einen Anwalt?",
+        "fr": "L'argent vous manque-t-il pour une avocate ou un avocat ?",
+        "it": "Le mancano i mezzi per un'avvocata o un avvocato?",
+        "en": "Are you short of money for a lawyer?",
+        "rm": "Manca a Vus il daner per in'advocata u in advocat?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, das kann ich kaum oder gar nicht bezahlen"
+            "de": "Ja, das kann ich kaum oder gar nicht bezahlen",
+            "fr": "Oui, je peux à peine ou pas du tout payer cela",
+            "it": "Sì, posso a malapena o per niente permettermelo",
+            "en": "Yes, I can barely afford it or cannot afford it at all",
+            "rm": "Gea, quai poss jau strusch u betg dal tuttafatg pajar"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -127,7 +231,11 @@
         ]
       },
       "text": {
-        "de": "Falls Ihnen das Geld für eine Anwältin oder einen Anwalt fehlt: Deshalb müssen Sie nicht auf Ihr Recht verzichten. Wer die nötigen Mittel nicht hat und dessen Begehren nicht aussichtslos erscheint, hat Anspruch auf unentgeltliche Rechtspflege. Ist es zur Wahrung der Rechte nötig, gehört ein unentgeltlicher Rechtsbeistand dazu. Das ist eine Anwältin oder ein Anwalt, die oder den der Staat bezahlt. Anwältinnen und Anwälte im kantonalen Register müssen solche Mandate in ihrem Kanton übernehmen. Wie Sie das beantragen und was danach gilt, erklärt der Leitfaden zur unentgeltlichen Rechtspflege. Stellen Sie das Gesuch früh."
+        "de": "Falls Ihnen das Geld für eine Anwältin oder einen Anwalt fehlt: Deshalb müssen Sie nicht auf Ihr Recht verzichten. Wer die nötigen Mittel nicht hat und dessen Begehren nicht aussichtslos erscheint, hat Anspruch auf unentgeltliche Rechtspflege. Ist es zur Wahrung der Rechte nötig, gehört ein unentgeltlicher Rechtsbeistand dazu. Das ist eine Anwältin oder ein Anwalt, die oder den der Staat bezahlt. Anwältinnen und Anwälte im kantonalen Register müssen solche Mandate in ihrem Kanton übernehmen. Wie Sie das beantragen und was danach gilt, erklärt der Leitfaden zur unentgeltlichen Rechtspflege. Stellen Sie das Gesuch früh.",
+        "fr": "Si l'argent vous manque pour une avocate ou un avocat : cela ne signifie pas que vous devez renoncer à votre droit. Quiconque ne dispose pas des moyens nécessaires et dont la cause ne paraît pas dépourvue de chances de succès a droit à l'assistance judiciaire. Si la défense des droits l'exige, elle comprend un conseil juridique gratuit, c'est-à-dire une avocate ou un avocat rémunéré par l'État. Les avocates et avocats inscrits au registre cantonal doivent accepter de tels mandats dans leur canton. Le guide sur l'assistance judiciaire explique comment la demander et ce qui s'applique ensuite. Déposez la requête tôt.",
+        "it": "Se le mancano i mezzi per un'avvocata o un avvocato: per questo non deve rinunciare al suo diritto. Chi non ha i mezzi necessari e la cui domanda non appare priva di probabilità di successo ha diritto al gratuito patrocinio. Se è necessario per tutelare i suoi diritti, comprende anche un patrocinatore d'ufficio. È un'avvocata o un avvocato pagata o pagato dallo Stato. Le avvocate e gli avvocati iscritti nel registro cantonale devono assumere tali mandati nel loro Cantone. Come richiederlo e cosa vale in seguito lo spiega la guida sul gratuito patrocinio. Presenti la domanda per tempo.",
+        "en": "If you are short of money for a lawyer: that is not a reason to give up your rights. Anyone who lacks the necessary means, and whose case does not appear hopeless, is entitled to legal aid. If it is necessary to safeguard your rights, this includes legal aid representation, that is, a lawyer paid for by the state. Lawyers on the cantonal register must take on such mandates in their canton. How to apply for this, and what applies afterwards, is explained in the guide to legal aid. File the application early.",
+        "rm": "Sche a Vus manca il daner per in'advocata u in advocat: Perquai na stuais Vus betg renunziar a Voss dretg. Sche a Vus mancan ils meds necessaris e Voss basegn na para betg dad esser invan, avais Vus dretg sin la giurisdicziun gratuita. Sche quai è necessari per defender ils dretgs, appartegna là tenor in'assistenta giuridica gratuita u in assistent giuridic gratuit. Quai è in'advocata u in advocat, ch'il stadi paja. Advocatas ed advocats en il register chantunal ston surpigliar tals mandats en lur chantun. Co Vus dumandais quai e tge che vala suenter, declera la guida davart la giurisdicziun gratuita. Fetschai la dumonda baud."
       },
       "sources": [
         "bv-29",
@@ -139,7 +247,11 @@
       "id": "need-lawyer",
       "kind": "rule",
       "text": {
-        "de": "Brauchen Sie überhaupt eine Anwältin oder einen Anwalt? In einem Zivilprozess nicht zwingend: Sie dürfen Ihre Sache selbst vertreten. Wer Sie aber berufsmässig vertritt, muss grundsätzlich eine Anwältin oder ein Anwalt nach dem Anwaltsgesetz sein. Nur in bestimmten Verfahren, etwa vor der Schlichtungsbehörde oder vor Miet- und Arbeitsgerichten, können je nach Kanton auch andere Fachleute vertreten. Zur Schlichtungsverhandlung müssen Sie in der Regel persönlich gehen. Eine Rechtsbeiständin oder eine Vertrauensperson darf Sie begleiten. Im Strafverfahren ist die Verteidigung einer beschuldigten Person grundsätzlich Anwältinnen und Anwälten vorbehalten. Vor Bundesgericht dürfen in Zivil- und Strafsachen nur Anwältinnen und Anwälte andere vertreten."
+        "de": "Brauchen Sie überhaupt eine Anwältin oder einen Anwalt? In einem Zivilprozess nicht zwingend: Sie dürfen Ihre Sache selbst vertreten. Wer Sie aber berufsmässig vertritt, muss grundsätzlich eine Anwältin oder ein Anwalt nach dem Anwaltsgesetz sein. Nur in bestimmten Verfahren, etwa vor der Schlichtungsbehörde oder vor Miet- und Arbeitsgerichten, können je nach Kanton auch andere Fachleute vertreten. Zur Schlichtungsverhandlung müssen Sie in der Regel persönlich gehen. Eine Rechtsbeiständin oder eine Vertrauensperson darf Sie begleiten. Im Strafverfahren ist die Verteidigung einer beschuldigten Person grundsätzlich Anwältinnen und Anwälten vorbehalten. Vor Bundesgericht dürfen in Zivil- und Strafsachen nur Anwältinnen und Anwälte andere vertreten.",
+        "fr": "Avez-vous vraiment besoin d'une avocate ou d'un avocat ? Dans un procès civil, ce n'est pas obligatoire : vous pouvez défendre votre cause vous-même. Mais qui vous représente à titre professionnel doit en principe être une avocate ou un avocat au sens de la loi sur les avocats. Ce n'est que dans certaines procédures, par exemple devant l'autorité de conciliation ou devant les tribunaux du bail et du travail, que d'autres professionnels peuvent aussi représenter les parties, selon le canton. Vous devez en règle générale vous rendre en personne à l'audience de conciliation. Une conseillère juridique ou une personne de confiance peut vous accompagner. En procédure pénale, la défense d'une personne prévenue est en principe réservée aux avocates et avocats. Devant le Tribunal fédéral, seuls les avocates et avocats peuvent représenter autrui en matière civile et pénale.",
+        "it": "Le serve davvero un'avvocata o un avvocato? In un processo civile non è obbligatorio: può rappresentare da sola la sua causa. Chi però la rappresenta a titolo professionale deve in linea di principio essere un'avvocata o un avvocato secondo la legge sugli avvocati. Solo in determinate procedure, per esempio davanti all'autorità di conciliazione o ai tribunali di locazione e del lavoro, a seconda del Cantone possono rappresentare anche altri professionisti. All'udienza di conciliazione deve di regola andare personalmente. Una patrocinatrice o un patrocinatore, oppure una persona di fiducia, può accompagnarla. Nella procedura penale la difesa di una persona imputata è in linea di principio riservata alle avvocate e agli avvocati. Davanti al Tribunale federale, in materia civile e penale, solo avvocate e avvocati possono rappresentare altre persone.",
+        "en": "Do you actually need a lawyer? In civil proceedings, not necessarily: you are allowed to represent your own case. But anyone who represents you professionally must, in principle, be a lawyer under the Lawyers Act. Only in certain proceedings, for example before the conciliation authority or before tenancy and employment courts, can other professionals also act as representatives, depending on the canton. For the conciliation hearing you must, as a rule, attend in person. A legal adviser or someone you trust may accompany you. In criminal proceedings, the defence of an accused person is in principle reserved to lawyers. Before the Federal Supreme Court, only lawyers may represent others in civil and criminal matters.",
+        "rm": "Duvrais Vus dal tuttafatg in'advocata u in advocat? En in process civil betg obligatoricamain: Vus dastgais represchentar Vossa chaussa Vus sez. Tgi che Vus represchenta dentant professiunalmain, sto per principi esser in'advocata u in advocat tenor la Lescha davart las advocatas ed ils advocats. Mo en tschertas proceduras, per exempel davant l'autoritad da mediaziun u davant dretgiras da locaziun e da lavur, pon, tenor il chantun, era autras spezialistas e spezialists represchentar. A la tractativa da mediaziun stuais Vus per regla ir persunalmain. In'assistenta giuridica u ina persuna da confidenza dastga Vus accumpagnar. En la procedura penala è la defensiun d'ina persuna inculpada per principi resalvada ad advocatas ed advocats. Davant il Tribunal federal dastgan en chaussas civilas e penalas mo advocatas ed advocats represchentar auters."
       },
       "sources": [
         "zpo-68",
@@ -158,7 +270,11 @@
         ]
       },
       "text": {
-        "de": "Anwältinnen und Anwälte, die vor Gericht vertreten dürfen, stehen in einem kantonalen Anwaltsregister. Eingetragen sind sie im Kanton ihrer Geschäftsadresse. Das Register führt die kantonale Aufsichtsbehörde. Mit dem Eintrag dürfen sie in der ganzen Schweiz vor Gericht auftreten. Für den Eintrag braucht es das Anwaltspatent. Zudem darf zum Beispiel kein Verlustschein bestehen, und die Person muss den Beruf unabhängig ausüben können. Jede Person darf bei der Aufsichtsbehörde nachfragen, ob jemand im Register steht und ob ein Berufsausübungsverbot besteht."
+        "de": "Anwältinnen und Anwälte, die vor Gericht vertreten dürfen, stehen in einem kantonalen Anwaltsregister. Eingetragen sind sie im Kanton ihrer Geschäftsadresse. Das Register führt die kantonale Aufsichtsbehörde. Mit dem Eintrag dürfen sie in der ganzen Schweiz vor Gericht auftreten. Für den Eintrag braucht es das Anwaltspatent. Zudem darf zum Beispiel kein Verlustschein bestehen, und die Person muss den Beruf unabhängig ausüben können. Jede Person darf bei der Aufsichtsbehörde nachfragen, ob jemand im Register steht und ob ein Berufsausübungsverbot besteht.",
+        "fr": "Les avocates et avocats autorisés à représenter des parties devant le tribunal sont inscrits dans un registre cantonal des avocats. Ils sont inscrits dans le canton de leur adresse professionnelle. Le registre est tenu par l'autorité cantonale de surveillance. Cette inscription leur permet de plaider devant les tribunaux dans toute la Suisse. L'inscription suppose le brevet d'avocat. Il ne doit en outre exister, par exemple, aucun acte de défaut de biens, et la personne doit pouvoir exercer la profession en toute indépendance. Toute personne peut demander à l'autorité de surveillance si quelqu'un est inscrit au registre et si une interdiction de pratiquer existe.",
+        "it": "Le avvocate e gli avvocati che possono rappresentare davanti al tribunale sono iscritti in un registro cantonale degli avvocati. Sono iscritti nel Cantone del loro indirizzo professionale. Il registro è tenuto dall'autorità cantonale di sorveglianza. Con l'iscrizione possono esercitare davanti ai tribunali in tutta la Svizzera. Per l'iscrizione serve il patentino di avvocato. Inoltre non deve per esempio esistere un attestato di carenza di beni, e la persona deve poter esercitare la professione in piena indipendenza. Chiunque può chiedere all'autorità di sorveglianza se qualcuno è iscritto nel registro e se esiste un divieto di esercitare la professione.",
+        "en": "Lawyers who may represent parties in court are entered in a cantonal register of lawyers. They are registered in the canton of their business address. The register is kept by the cantonal supervisory authority. With this entry, they may appear in court throughout Switzerland. Entry requires a lawyer's licence. In addition, for example, there must be no certificate of unpaid debt against the person, and they must be able to practise the profession independently. Anyone may ask the supervisory authority whether a person is on the register and whether a prohibition on practising the profession exists.",
+        "rm": "Advocatas ed advocats che dastgan represchentar davant dretgira, stattan en in register chantunal d'advocatas ed advocats. Ellas ed els èn inscrits en il chantun da lur adressa da fatschenta. Il register maina l'autoritad chantunala da surveglianza. Cun l'inscripziun dastgan els cumparair davant dretgira en tutta la Svizra. Per l'inscripziun basegna la patente d'advocat. Supplementarmain na dastga per exempel exister nagin attest da perdita, e la persuna sto pudair exercitar la professiun independentamain. Mintga persuna dastga dumandar tar l'autoritad da surveglianza, sch'insatgi stat en il register e sche exista in scumond d'exercitar la professiun."
       },
       "sources": [
         "bgfa-4",
@@ -179,7 +295,11 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie bei der Suche vor: 1. Suchen Sie jemanden, der sich im betreffenden Rechtsgebiet auskennt, zum Beispiel im Miet-, Arbeits- oder Familienrecht. Die kantonalen Anwaltsverbände und der Schweizerische Anwaltsverband haben dafür eine Anwaltssuche. 2. Sagen Sie beim ersten Kontakt, gegen wen es geht. So kann die Kanzlei prüfen, ob sie die Gegenseite schon vertritt. 3. Fragen Sie vor dem ersten Gespräch, ob es etwas kostet und wie viel. 4. Bringen Sie alle Unterlagen mit, nach Datum geordnet: Verträge, Briefe, Entscheide, Couverts mit Zustelldatum. 5. Klären Sie früh, wie abgerechnet wird: Stundenansatz, geschätzter Aufwand, Vorschuss, Auslagen und Mehrwertsteuer. Lassen Sie sich das schriftlich geben. 6. Haben Sie eine Rechtsschutzversicherung, melden Sie den Fall zuerst dort."
+        "de": "So gehen Sie bei der Suche vor: 1. Suchen Sie jemanden, der sich im betreffenden Rechtsgebiet auskennt, zum Beispiel im Miet-, Arbeits- oder Familienrecht. Die kantonalen Anwaltsverbände und der Schweizerische Anwaltsverband haben dafür eine Anwaltssuche. 2. Sagen Sie beim ersten Kontakt, gegen wen es geht. So kann die Kanzlei prüfen, ob sie die Gegenseite schon vertritt. 3. Fragen Sie vor dem ersten Gespräch, ob es etwas kostet und wie viel. 4. Bringen Sie alle Unterlagen mit, nach Datum geordnet: Verträge, Briefe, Entscheide, Couverts mit Zustelldatum. 5. Klären Sie früh, wie abgerechnet wird: Stundenansatz, geschätzter Aufwand, Vorschuss, Auslagen und Mehrwertsteuer. Lassen Sie sich das schriftlich geben. 6. Haben Sie eine Rechtsschutzversicherung, melden Sie den Fall zuerst dort.",
+        "fr": "Voici comment procéder pour chercher : 1. Cherchez une personne qui connaît bien le domaine juridique concerné, par exemple le droit du bail, du travail ou de la famille. Les associations cantonales d'avocats et la Fédération Suisse des Avocats proposent pour cela une recherche d'avocats. 2. Indiquez dès le premier contact contre qui est dirigée l'affaire. L'étude peut ainsi vérifier si elle représente déjà la partie adverse. 3. Demandez avant le premier entretien si celui-ci est payant et combien il coûte. 4. Apportez tous les documents, classés par date : contrats, lettres, décisions, enveloppes avec la date de remise. 5. Clarifiez tôt les modalités de facturation : taux horaire, temps estimé, avance, débours et TVA. Faites-vous confirmer cela par écrit. 6. Si vous avez une assurance de protection juridique, annoncez d'abord le cas auprès d'elle.",
+        "it": "Come procedere nella ricerca: 1. Cerchi qualcuno che conosca bene l'ambito giuridico in questione, per esempio il diritto della locazione, del lavoro o della famiglia. Gli ordini cantonali degli avvocati e la Federazione Svizzera degli Avvocati hanno per questo una ricerca di avvocati. 2. Al primo contatto dica contro chi è diretta la causa, così lo studio può verificare se rappresenta già la controparte. 3. Prima del primo colloquio chieda se costa qualcosa e quanto. 4. Porti tutti i documenti, ordinati per data: contratti, lettere, decisioni, buste con la data di consegna. 5. Chiarisca per tempo come avviene la fatturazione: tariffa oraria, dispendio stimato, anticipo, spese e IVA. Se lo faccia mettere per scritto. 6. Se ha un'assicurazione di protezione giuridica, segnali prima il caso lì.",
+        "en": "Here is how to go about the search: 1. Look for someone who knows the relevant area of law, for example tenancy, employment or family law. The cantonal bar associations and the Swiss Bar Association have a lawyer-search service for this. 2. At the first contact, say who the case is against. This lets the firm check whether it already represents the other side. 3. Before the first meeting, ask whether it costs anything and how much. 4. Bring all your documents, sorted by date: contracts, letters, decisions, envelopes with a delivery date. 5. Clarify early on how billing works: the hourly rate, the estimated time required, an advance, expenses and value-added tax. Get this in writing. 6. If you have legal expenses insurance, report the case there first.",
+        "rm": "Uschia procedais Vus tar la tschertga: 1. Tschertgai insatgi che enconuscha bain il sectur giuridic pertutgà, per exempel il dretg da locaziun, da lavur u da famiglia. Las associaziuns chantunalas d'advocatas ed advocats e l'Uniun Svizra dals Advocats han per quai ina tschertga d'advocats. 2. Di gia al emprim contact, cunter tgi che sa tracta. Uschia po la canzlia examinar, sch'ella represchenta gia l'autra varta. 3. Dumandai avant il emprim discurs, sch'i custa insatge e quant. 4. Purtai cun Vus tut ils documents, ordinads tenor data: contracts, brevs, decisiuns, cuvierts cun data da consegna. 5. Clarifitgai baud, co ch'i vegn decomptà: taxa per ura, spesas estimadas, avanza, exposiziuns e taglia sin la plusvalur. Laschai Vus dar quai per scrit. 6. Avais Vus in'assicuranza da protecziun giuridica, annunziai il cas emprim là."
       },
       "sources": [
         "bgfa-12"
@@ -189,7 +309,11 @@
       "id": "professional-rules",
       "kind": "rule",
       "text": {
-        "de": "Anwältinnen und Anwälte im Register müssen Berufsregeln einhalten, die auch Sie schützen. Sie müssen sorgfältig und gewissenhaft arbeiten. Sie müssen unabhängig sein und in eigenem Namen und auf eigene Verantwortung handeln. Sie müssen Interessenkonflikte vermeiden. Wer Sie vertritt, darf deshalb in derselben oder einer damit zusammenhängenden Sache nicht auch Ihre Gegenseite vertreten, auch nicht nach dem Ende Ihres Mandats. Sie müssen eine Berufshaftpflichtversicherung haben. Geld und andere Werte, die man ihnen anvertraut, müssen sie getrennt von ihrem eigenen Vermögen aufbewahren."
+        "de": "Anwältinnen und Anwälte im Register müssen Berufsregeln einhalten, die auch Sie schützen. Sie müssen sorgfältig und gewissenhaft arbeiten. Sie müssen unabhängig sein und in eigenem Namen und auf eigene Verantwortung handeln. Sie müssen Interessenkonflikte vermeiden. Wer Sie vertritt, darf deshalb in derselben oder einer damit zusammenhängenden Sache nicht auch Ihre Gegenseite vertreten, auch nicht nach dem Ende Ihres Mandats. Sie müssen eine Berufshaftpflichtversicherung haben. Geld und andere Werte, die man ihnen anvertraut, müssen sie getrennt von ihrem eigenen Vermögen aufbewahren.",
+        "fr": "Les avocates et avocats inscrits au registre doivent respecter des règles professionnelles qui vous protègent aussi. Ils doivent exercer leur profession avec soin et diligence. Ils doivent être indépendants et agir en leur nom personnel et sous leur propre responsabilité. Ils doivent éviter les conflits d'intérêts. Qui vous représente ne peut donc pas non plus représenter la partie adverse dans la même affaire ou dans une affaire connexe, même après la fin de votre mandat. Ils doivent avoir une assurance responsabilité civile professionnelle. L'argent et les autres valeurs qui leur sont confiés doivent être conservés séparément de leur propre patrimoine.",
+        "it": "Le avvocate e gli avvocati iscritti nel registro devono rispettare regole professionali che proteggono anche lei. Devono lavorare con cura e diligenza. Devono essere indipendenti e agire in nome proprio e sotto la propria responsabilità. Devono evitare conflitti d'interesse. Chi la rappresenta non può quindi rappresentare, nella stessa causa o in una causa collegata, anche la sua controparte, nemmeno dopo la fine del suo mandato. Devono avere un'assicurazione di responsabilità civile professionale. Il denaro e gli altri valori che le vengono affidati devono essere custoditi separatamente dal proprio patrimonio.",
+        "en": "Lawyers on the register must comply with professional rules that also protect you. They must work carefully and conscientiously. They must be independent and act in their own name and on their own responsibility. They must avoid conflicts of interest. Someone who represents you may therefore not also represent your opponent in the same or a related matter, even after your mandate has ended. They must have professional liability insurance. Money and other assets entrusted to them must be kept separate from their own assets.",
+        "rm": "Advocatas ed advocats en il register ston observar reglas professiunalas che protegian er Vus. Els ston lavurar cun diligenza e conscienziusamain. Els ston esser independents ed agir en atgen num e sut atgna responsabladad. Els ston evitar conflicts d'interess. Tgi che Vus represchenta, na dastga perquai betg represchentar, en la medema chaussa u en ina chaussa connexa cun ella, era Vossa cuntrapartida, era betg suenter la fin da Voss mandat. Els ston avair in'assicuranza da responsabladad professiunala. Daner ed auters valurs, ch'ins als confida, ston els conservar separadamain da lur atgna facultad."
       },
       "sources": [
         "bgfa-12",
@@ -200,7 +324,11 @@
       "id": "fees",
       "kind": "rule",
       "text": {
-        "de": "Der Bund legt nicht fest, was eine Anwältin oder ein Anwalt kostet. Ein Honorar schulden Sie, wenn es vereinbart oder üblich ist. Bei einer berufsmässigen Anwältin oder einem berufsmässigen Anwalt ist es üblich. Dazu kommen die Auslagen, etwa für Porto, Kopien oder Reisen. Zu Beginn des Mandats muss man Sie über die Grundsätze der Abrechnung informieren. Danach müssen Sie regelmässig oder auf Verlangen erfahren, wie hoch das geschuldete Honorar ist. Sie können eine detaillierte Rechnung verlangen, die jede Leistung und den Zeitaufwand aufführt. Auch bei einer Pauschale muss der Aufwand erfasst werden. Fragen Sie nach, sobald Ihnen eine Rechnung unklar ist."
+        "de": "Der Bund legt nicht fest, was eine Anwältin oder ein Anwalt kostet. Ein Honorar schulden Sie, wenn es vereinbart oder üblich ist. Bei einer berufsmässigen Anwältin oder einem berufsmässigen Anwalt ist es üblich. Dazu kommen die Auslagen, etwa für Porto, Kopien oder Reisen. Zu Beginn des Mandats muss man Sie über die Grundsätze der Abrechnung informieren. Danach müssen Sie regelmässig oder auf Verlangen erfahren, wie hoch das geschuldete Honorar ist. Sie können eine detaillierte Rechnung verlangen, die jede Leistung und den Zeitaufwand aufführt. Auch bei einer Pauschale muss der Aufwand erfasst werden. Fragen Sie nach, sobald Ihnen eine Rechnung unklar ist.",
+        "fr": "La Confédération ne fixe pas ce que coûte une avocate ou un avocat. Vous devez un honoraire s'il est convenu ou usuel. Chez une avocate ou un avocat exerçant à titre professionnel, il est usuel. S'y ajoutent les débours, par exemple pour le port, les copies ou les déplacements. Au début du mandat, on doit vous informer des principes de facturation. Ensuite, vous devez être informé régulièrement ou sur demande du montant de l'honoraire dû. Vous pouvez exiger une facture détaillée indiquant chaque prestation et le temps consacré. Même en cas de forfait, le temps consacré doit être relevé. Posez des questions dès qu'une facture n'est pas claire pour vous.",
+        "it": "La Confederazione non stabilisce quanto costi un'avvocata o un avvocato. Deve un onorario se è stato pattuito o se è usuale. Presso un'avvocata o un avvocato professionista è usuale. A questo si aggiungono le spese, per esempio per porto, copie o viaggi. All'inizio del mandato deve essere informata sui principi della fatturazione. In seguito deve venire a sapere regolarmente, o su richiesta, a quanto ammonta l'onorario dovuto. Può chiedere una fattura dettagliata che elenchi ogni prestazione e il tempo impiegato. Anche con un forfait il dispendio deve essere registrato. Chieda chiarimenti non appena una fattura non le è chiara.",
+        "en": "The Confederation does not set what a lawyer costs. You owe a fee if one has been agreed or is customary. With a professional lawyer, it is customary. Expenses are added to this, for example for postage, copies or travel. At the start of the mandate, you must be informed about the principles of billing. After that, you must be told regularly, or on request, how much fee is owed. You can demand a detailed invoice listing every service and the time spent. Even with a flat fee, the time spent must be recorded. Ask questions as soon as an invoice is unclear to you.",
+        "rm": "La Confederaziun na fixescha betg, tge ch'in'advocata u in advocat custa. In honorar deivas Vus, sch'el è cunvegnì u usità. Tar in'advocata u in advocat professiunal è quai usità. Là tenor vegnan las exposiziuns, per exempel per porto, copias u viadis. A l'entschatta dal mandat ston Vus vegnir infurmads davart ils principis da la decomptaziun. Suenter stuais Vus regularmain u sin dumonda vegnir a savair, quant aut ch'il honorar deivì è. Vus pudais pretender ina quinta detagliada, che numna mintga prestaziun ed il temp duvrà. Er tar ina taxa fixa sto il lavuratemp vegnir registrà. Dumandai enavant, uschespert ch'ina quinta n'è betg clera per Vus."
       },
       "sources": [
         "or-394",
@@ -214,7 +342,11 @@
       "id": "success-fee",
       "kind": "rule",
       "text": {
-        "de": "Ein Honorar, das nur vom Ausgang abhängt, ist verboten. Vor dem Ende des Streits darf die Anwältin oder der Anwalt nicht vereinbaren, statt eines Honorars einen Teil des Prozessgewinns zu bekommen. Ebenso wenig darf sie oder er versprechen, bei einem verlorenen Prozess auf das Honorar zu verzichten. Erlaubt ist ein Zuschlag bei Erfolg, zusätzlich zu einem Honorar, das Sie auf jeden Fall bezahlen. Das Bundesgericht setzt dafür Grenzen: Das feste Honorar muss die Kosten der Kanzlei decken und einen angemessenen Gewinn erlauben. Der Zuschlag darf nicht höher sein als das feste Honorar. Und er darf nur ganz am Anfang des Mandats oder nach dem Ende des Streits vereinbart werden, nicht mittendrin."
+        "de": "Ein Honorar, das nur vom Ausgang abhängt, ist verboten. Vor dem Ende des Streits darf die Anwältin oder der Anwalt nicht vereinbaren, statt eines Honorars einen Teil des Prozessgewinns zu bekommen. Ebenso wenig darf sie oder er versprechen, bei einem verlorenen Prozess auf das Honorar zu verzichten. Erlaubt ist ein Zuschlag bei Erfolg, zusätzlich zu einem Honorar, das Sie auf jeden Fall bezahlen. Das Bundesgericht setzt dafür Grenzen: Das feste Honorar muss die Kosten der Kanzlei decken und einen angemessenen Gewinn erlauben. Der Zuschlag darf nicht höher sein als das feste Honorar. Und er darf nur ganz am Anfang des Mandats oder nach dem Ende des Streits vereinbart werden, nicht mittendrin.",
+        "fr": "Un honoraire qui ne dépend que de l'issue de l'affaire est interdit. Avant la fin du litige, l'avocate ou l'avocat ne peut pas convenir de recevoir, au lieu d'un honoraire, une part du gain du procès. Elle ou il ne peut pas non plus promettre de renoncer à l'honoraire en cas de procès perdu. Un supplément en cas de succès est autorisé, en plus d'un honoraire que vous payez dans tous les cas. Le Tribunal fédéral fixe des limites à cela : l'honoraire fixe doit couvrir les frais de l'étude et permettre un gain raisonnable. Le supplément ne doit pas être plus élevé que l'honoraire fixe. Et il ne peut être convenu qu'au tout début du mandat ou après la fin du litige, pas entre les deux.",
+        "it": "Un onorario dipendente solo dall'esito è vietato. Prima della fine della controversia, l'avvocata o l'avvocato non può pattuire di ricevere, al posto di un onorario, una parte del ricavato del processo. Non può nemmeno promettere di rinunciare all'onorario in caso di processo perso. È permesso un supplemento in caso di successo, in aggiunta a un onorario che lei paga comunque. Il Tribunale federale pone dei limiti: l'onorario fisso deve coprire i costi dello studio e permettere un guadagno adeguato. Il supplemento non può essere superiore all'onorario fisso. E può essere pattuito solo all'inizio del mandato o dopo la fine della controversia, non nel mezzo.",
+        "en": "A fee that depends only on the outcome is forbidden. Before the dispute ends, the lawyer may not agree to receive a share of the proceeds of the case instead of a fee. Nor may they promise to waive the fee if the case is lost. What is allowed is a success surcharge, in addition to a fee that you pay in any case. The Federal Supreme Court sets limits for this: the fixed fee must cover the firm's costs and allow a reasonable profit. The surcharge may not be higher than the fixed fee. And it may only be agreed right at the start of the mandate or after the dispute has ended, not in between.",
+        "rm": "In honorar che dependa mo da l'exit, è scumandà. Avant la fin da la dispita na dastga l'advocata u l'advocat betg cunvegnir, da survegnir, empè d'in honorar, ina part dal gudogn dal process. Uschè pauc dastga ella u el empermetter da renunziar al honorar en cas d'in process pers. Permess è in supplement en cas da success, supplementarmain ad in honorar che Vus pajais en mintga cas. Il Tribunal federal fixescha limits per quai: L'honorar fixà sto cuvrir ils custs da la canzlia e permetter in gudogn adequat. Il supplement na dastga betg esser pli aut che l'honorar fixà. Ed el dastga vegnir cunvegnì mo dal tuttafatg a l'entschatta dal mandat u suenter la fin da la dispita, betg amez ella."
       },
       "sources": [
         "bgfa-12",
@@ -225,7 +357,11 @@
       "id": "secrecy",
       "kind": "rule",
       "text": {
-        "de": "Alles, was Sie Ihrer Anwältin oder Ihrem Anwalt für das Mandat anvertrauen, fällt unter das Berufsgeheimnis. Das Geheimnis gilt gegenüber allen und zeitlich unbegrenzt, also auch nach dem Ende des Mandats. Auch die Mitarbeitenden der Kanzlei sind daran gebunden. Sie können Ihre Anwältin oder Ihren Anwalt vom Geheimnis entbinden. Sie oder er muss danach aber nichts preisgeben. Sie können deshalb offen über alles sprechen, auch über Dinge, die für Sie ungünstig sind."
+        "de": "Alles, was Sie Ihrer Anwältin oder Ihrem Anwalt für das Mandat anvertrauen, fällt unter das Berufsgeheimnis. Das Geheimnis gilt gegenüber allen und zeitlich unbegrenzt, also auch nach dem Ende des Mandats. Auch die Mitarbeitenden der Kanzlei sind daran gebunden. Sie können Ihre Anwältin oder Ihren Anwalt vom Geheimnis entbinden. Sie oder er muss danach aber nichts preisgeben. Sie können deshalb offen über alles sprechen, auch über Dinge, die für Sie ungünstig sind.",
+        "fr": "Tout ce que vous confiez à votre avocate ou à votre avocat pour le mandat est couvert par le secret professionnel. Ce secret vaut à l'égard de tous et sans limite dans le temps, donc aussi après la fin du mandat. Les collaboratrices et collaborateurs de l'étude y sont également tenus. Vous pouvez délier votre avocate ou votre avocat du secret. Elle ou il n'est toutefois pas obligé de révéler quoi que ce soit après cela. Vous pouvez donc parler ouvertement de tout, même de ce qui vous est défavorable.",
+        "it": "Tutto ciò che affida alla sua avvocata o al suo avvocato per il mandato è coperto dal segreto professionale. Il segreto vale nei confronti di tutti e senza limiti di tempo, quindi anche dopo la fine del mandato. Anche i collaboratori e le collaboratrici dello studio vi sono vincolati. Può liberare la sua avvocata o il suo avvocato dal segreto. Dopo di ciò, però, non è obbligata o obbligato a rivelare nulla. Può quindi parlare apertamente di tutto, anche di cose a lei sfavorevoli.",
+        "en": "Everything you entrust to your lawyer for the mandate is covered by professional secrecy. The secrecy applies towards everyone and for an unlimited time, including after the mandate has ended. The firm's staff are bound by it too. You can release your lawyer from the secrecy. Even then, they do not have to disclose anything. You can therefore speak openly about everything, including matters that are unfavourable to you.",
+        "rm": "Tut quai che Vus confidais a Vossa advocata u a Voss advocat per il mandat, suttastat al secret professiunal. Il secret vala envers tuts e senza limitaziun da temp, dunca er suenter la fin dal mandat. Er ils collavuraturs da la canzlia èn liads a quai. Vus pudais deliberar Vossa advocata u Voss advocat dal secret. Ella u el na sto dentant lura betg divulgar nagut. Vus pudais perquai discurrer avertamain davart tut, er davart chaussas che na Vus èn betg favuraivlas."
       },
       "sources": [
         "bgfa-13"
@@ -242,7 +378,11 @@
         ]
       },
       "text": {
-        "de": "Zwischen Ihnen und Ihrer Anwältin oder Ihrem Anwalt gilt das Auftragsrecht. Sie oder er muss Ihre Weisungen grundsätzlich befolgen. Die Sache muss treu und sorgfältig und grundsätzlich persönlich besorgt werden. Für einen Vergleich, also eine Einigung mit der Gegenseite, braucht es Ihre besondere Ermächtigung. Werden diese Pflichten verletzt, haftet die Anwältin oder der Anwalt Ihnen gegenüber. Geschuldet ist sorgfältige Arbeit, nicht ein bestimmtes Ergebnis. Ein verlorener Prozess allein heisst also noch nicht, dass schlecht gearbeitet wurde."
+        "de": "Zwischen Ihnen und Ihrer Anwältin oder Ihrem Anwalt gilt das Auftragsrecht. Sie oder er muss Ihre Weisungen grundsätzlich befolgen. Die Sache muss treu und sorgfältig und grundsätzlich persönlich besorgt werden. Für einen Vergleich, also eine Einigung mit der Gegenseite, braucht es Ihre besondere Ermächtigung. Werden diese Pflichten verletzt, haftet die Anwältin oder der Anwalt Ihnen gegenüber. Geschuldet ist sorgfältige Arbeit, nicht ein bestimmtes Ergebnis. Ein verlorener Prozess allein heisst also noch nicht, dass schlecht gearbeitet wurde.",
+        "fr": "Entre vous et votre avocate ou votre avocat s'applique le droit du mandat. Elle ou il doit en principe suivre vos instructions. L'affaire doit être menée fidèlement et avec soin, et en principe personnellement. Pour une transaction, c'est-à-dire un accord avec la partie adverse, il faut votre autorisation spéciale. Si ces obligations sont violées, l'avocate ou l'avocat répond envers vous. Ce qui est dû, c'est un travail soigné, non un résultat déterminé. Un procès perdu ne signifie donc pas à lui seul qu'il a été mal travaillé.",
+        "it": "Tra lei e la sua avvocata o il suo avvocato si applica il diritto del mandato. Deve in linea di principio seguire le sue istruzioni. L'affare deve essere gestito con fedeltà e diligenza e in linea di principio personalmente. Per una transazione, cioè un'intesa con la controparte, serve la sua autorizzazione speciale. Se questi obblighi vengono violati, l'avvocata o l'avvocato risponde nei suoi confronti. È dovuto un lavoro diligente, non un determinato risultato. Un processo perso da solo non significa quindi che il lavoro sia stato svolto male.",
+        "en": "The law of mandate applies between you and your lawyer. They must, in principle, follow your instructions. The matter must be handled faithfully and carefully, and in principle personally. A settlement, that is, an agreement with the other side, requires your special authorisation. If these duties are breached, the lawyer is liable to you. What is owed is careful work, not a particular result. A lost case alone therefore does not mean the work was poor.",
+        "rm": "Tranter Vus e Vossa advocata u Voss advocat vala il dretg da mandat. Ella u el sto per principi suandar Vossas instrucziuns. La chaussa sto vegnir procurada fidedignamain e cun diligenza e per principi persunalmain. Per in accord, dunca in consens cun l'autra varta, basegna Vossa autorisaziun speziala. Vegnan questas obligaziuns violadas, respunda l'advocata u l'advocat envers Vus. Deivì è lavur diligenta, betg in resultat fixà. In process pers na signifitgescha dunca betg anc, ch'i saja vegnì lavurà mal."
       },
       "sources": [
         "or-396",
@@ -261,7 +401,11 @@
         ]
       },
       "text": {
-        "de": "Sie können das Mandat jederzeit beenden, ohne Frist und ohne Begründung. Dieses Recht kann man vertraglich weder ausschliessen noch einschränken, auch nicht mit einer festen Vertragsdauer. Auch die Anwältin oder der Anwalt kann das Mandat jederzeit niederlegen. Die bis dahin geleistete Arbeit und die Auslagen müssen Sie grundsätzlich bezahlen. Teilen Sie die Beendigung am besten schriftlich mit. Läuft ein Verfahren, sagen Sie auch dem Gericht oder der Behörde, wer Sie künftig vertritt oder dass Sie selbst handeln."
+        "de": "Sie können das Mandat jederzeit beenden, ohne Frist und ohne Begründung. Dieses Recht kann man vertraglich weder ausschliessen noch einschränken, auch nicht mit einer festen Vertragsdauer. Auch die Anwältin oder der Anwalt kann das Mandat jederzeit niederlegen. Die bis dahin geleistete Arbeit und die Auslagen müssen Sie grundsätzlich bezahlen. Teilen Sie die Beendigung am besten schriftlich mit. Läuft ein Verfahren, sagen Sie auch dem Gericht oder der Behörde, wer Sie künftig vertritt oder dass Sie selbst handeln.",
+        "fr": "Vous pouvez résilier le mandat en tout temps, sans délai et sans motif. Ce droit ne peut être ni exclu ni restreint par contrat, même par une durée contractuelle fixe. L'avocate ou l'avocat peut aussi déposer le mandat en tout temps. Vous devez en principe payer le travail effectué et les débours engagés jusque-là. Communiquez la résiliation de préférence par écrit. Si une procédure est en cours, indiquez aussi au tribunal ou à l'autorité qui vous représentera désormais, ou que vous agissez vous-même.",
+        "it": "Può porre fine al mandato in ogni momento, senza termine e senza motivazione. Questo diritto non può essere escluso né limitato per contratto, nemmeno con una durata contrattuale fissa. Anche l'avvocata o l'avvocato può recedere dal mandato in ogni momento. Il lavoro svolto fino a quel momento e le spese deve pagarle in linea di principio. Comunichi la fine del mandato meglio per scritto. Se è in corso una procedura, comunichi anche al tribunale o all'autorità chi la rappresenta in futuro oppure che agisce da sola.",
+        "en": "You can end the mandate at any time, without notice and without giving reasons. This right cannot be excluded or restricted by contract, not even by a fixed contract term. The lawyer, too, can lay down the mandate at any time. You must, in principle, pay for the work done and the expenses incurred up to that point. It is best to communicate the termination in writing. If proceedings are under way, also tell the court or authority who will represent you in future, or that you will act yourself.",
+        "rm": "Vus pudais terminar il mandat da tut temp, senza termin e senza motivaziun. Quest dretg na po betg vegnir exclus u limità contractualmain, er betg cun ina durada contractuala fixa. Er l'advocata u l'advocat po deponer il mandat da tut temp. La lavur fatga enfin lura e las exposiziuns stuais Vus per principi pajar. Communitgai la terminaziun il meglier per scrit. Curra ina procedura, di er a la dretgira u a l'autoritad, tgi che Vus represchenta en avegnir u che Vus agischais Vus sez."
       },
       "sources": [
         "or-404",
@@ -281,7 +425,11 @@
         ]
       },
       "text": {
-        "de": "Vorsicht bei einem Wechsel mitten im Verfahren. Wer das Mandat zur Unzeit beendet, also in einem ungünstigen Moment, muss der anderen Seite den Schaden ersetzen, der daraus entsteht. Das gilt für Sie genauso wie für die Anwältin oder den Anwalt. Klären Sie vor einem Wechsel, welche Fristen laufen und wer sie einhält. Eine verpasste Frist lässt sich oft nicht mehr nachholen."
+        "de": "Vorsicht bei einem Wechsel mitten im Verfahren. Wer das Mandat zur Unzeit beendet, also in einem ungünstigen Moment, muss der anderen Seite den Schaden ersetzen, der daraus entsteht. Das gilt für Sie genauso wie für die Anwältin oder den Anwalt. Klären Sie vor einem Wechsel, welche Fristen laufen und wer sie einhält. Eine verpasste Frist lässt sich oft nicht mehr nachholen.",
+        "fr": "Prudence en cas de changement en cours de procédure. Qui résilie le mandat en temps inopportun, c'est-à-dire à un moment défavorable, doit réparer le dommage qui en résulte pour l'autre partie. Cela vaut pour vous comme pour l'avocate ou l'avocat. Avant un changement, clarifiez quels délais courent et qui doit les respecter. Un délai manqué ne peut souvent plus être rattrapé.",
+        "it": "Attenzione a un cambio nel mezzo della procedura. Chi pone fine al mandato a un momento inopportuno deve risarcire all'altra parte il danno che ne deriva. Ciò vale per lei come per l'avvocata o l'avvocato. Prima di un cambio, chiarisca quali termini corrono e chi li rispetta. Un termine mancato spesso non può più essere recuperato.",
+        "en": "Be careful about switching in the middle of proceedings. Anyone who ends the mandate at an unfavourable time must compensate the other side for the resulting damage. This applies to you just as much as to the lawyer. Before switching, clarify which time limits are running and who will meet them. A missed time limit often cannot be made up later.",
+        "rm": "Attenziun tar ina midada amez la procedura. Tgi che termina il mandat a la mala hura, dunca en in mument sfavuraivel, sto restituir a l'autra varta il donn che resulta da quai. Quai vala per Vus tuttina sco per l'advocata u l'advocat. Clarifitgai avant ina midada, tge terminas che curran e tgi che las tegna. Ina termin manchentada na sa lascha savens betg pli rifar."
       },
       "sources": [
         "or-404"
@@ -298,7 +446,11 @@
         ]
       },
       "text": {
-        "de": "Die Anwältin oder der Anwalt muss Ihnen auf Verlangen jederzeit Rechenschaft über die Mandatsführung ablegen. Alles, was sie oder er für Sie erhalten hat, muss Ihnen herausgegeben werden, zum Beispiel Originaldokumente oder Geld aus einem Vergleich. Wer Ihnen zustehendes Geld zu spät abliefert, schuldet darauf Zins. Verlangen Sie bei einem Wechsel Ihre Unterlagen heraus, damit die neue Anwältin oder der neue Anwalt rasch weiterarbeiten kann."
+        "de": "Die Anwältin oder der Anwalt muss Ihnen auf Verlangen jederzeit Rechenschaft über die Mandatsführung ablegen. Alles, was sie oder er für Sie erhalten hat, muss Ihnen herausgegeben werden, zum Beispiel Originaldokumente oder Geld aus einem Vergleich. Wer Ihnen zustehendes Geld zu spät abliefert, schuldet darauf Zins. Verlangen Sie bei einem Wechsel Ihre Unterlagen heraus, damit die neue Anwältin oder der neue Anwalt rasch weiterarbeiten kann.",
+        "fr": "L'avocate ou l'avocat doit, sur demande, vous rendre compte à tout moment de la gestion du mandat. Tout ce qu'elle ou il a reçu pour vous doit vous être restitué, par exemple les documents originaux ou l'argent issu d'une transaction. Qui vous remet en retard de l'argent qui vous revient doit un intérêt sur celui-ci. En cas de changement, exigez la restitution de vos documents afin que la nouvelle avocate ou le nouvel avocat puisse reprendre le dossier rapidement.",
+        "it": "L'avvocata o l'avvocato deve renderle conto in ogni momento, su richiesta, della gestione del mandato. Tutto ciò che ha ricevuto per lei deve esserle restituito, per esempio documenti originali o denaro proveniente da una transazione. Chi consegna in ritardo denaro che le spetta ne deve gli interessi. In caso di cambio, pretenda la restituzione dei suoi documenti, affinché la nuova avvocata o il nuovo avvocato possa proseguire rapidamente il lavoro.",
+        "en": "The lawyer must account to you for the conduct of the mandate at any time on request. Everything they have received for you must be handed over to you, for example original documents or money from a settlement. Anyone who hands over money owed to you too late owes interest on it. When switching lawyers, demand your documents back so the new lawyer can continue the work quickly.",
+        "rm": "L'advocata u l'advocat sto Vus, sin dumonda, render quint da tut temp davart la maniera da manar il mandat. Tut quai ch'ella u el ha retschet per Vus, sto Vus vegnir restituì, per exempel documents originals u daner d'in accord. Tgi che deliverescha memia tard daner che Vus tutga, deiva tschains sin quai. Pretendai Vossas documents enavos tar ina midada, per che la nova advocata u il nov advocat possia lavurar vinavant svelt."
       },
       "sources": [
         "or-400"
@@ -314,7 +466,11 @@
         ]
       },
       "text": {
-        "de": "Wenn Sie mit Ihrer Anwältin oder Ihrem Anwalt nicht zufrieden sind: 1. Sprechen Sie das Problem direkt an, am besten schriftlich. 2. Ist eine Rechnung unklar, verlangen Sie eine detaillierte Aufstellung der Leistungen und des Zeitaufwands. 3. Fordern Sie Ihre Unterlagen und Geld heraus, das Ihnen zusteht. 4. Fragen Sie beim kantonalen Anwaltsverband, ob er bei Streit über das Honorar vermittelt. 5. Halten Sie Berufsregeln für verletzt, wenden Sie sich an die kantonale Aufsichtsbehörde. 6. Geht es um viel Geld oder um Schadenersatz, lassen Sie sich von einer anderen Anwältin oder einem anderen Anwalt beraten."
+        "de": "Wenn Sie mit Ihrer Anwältin oder Ihrem Anwalt nicht zufrieden sind: 1. Sprechen Sie das Problem direkt an, am besten schriftlich. 2. Ist eine Rechnung unklar, verlangen Sie eine detaillierte Aufstellung der Leistungen und des Zeitaufwands. 3. Fordern Sie Ihre Unterlagen und Geld heraus, das Ihnen zusteht. 4. Fragen Sie beim kantonalen Anwaltsverband, ob er bei Streit über das Honorar vermittelt. 5. Halten Sie Berufsregeln für verletzt, wenden Sie sich an die kantonale Aufsichtsbehörde. 6. Geht es um viel Geld oder um Schadenersatz, lassen Sie sich von einer anderen Anwältin oder einem anderen Anwalt beraten.",
+        "fr": "Si vous n'êtes pas satisfait de votre avocate ou de votre avocat : 1. Abordez le problème directement, de préférence par écrit. 2. Si une facture n'est pas claire, exigez un décompte détaillé des prestations et du temps consacré. 3. Réclamez vos documents et l'argent qui vous revient. 4. Demandez à l'association cantonale des avocats si elle intervient en cas de litige sur les honoraires. 5. Si vous estimez que des règles professionnelles ont été violées, adressez-vous à l'autorité cantonale de surveillance. 6. S'il s'agit de sommes importantes ou de dommages-intérêts, faites-vous conseiller par une autre avocate ou un autre avocat.",
+        "it": "Se non è soddisfatta della sua avvocata o del suo avvocato: 1. Affronti il problema direttamente, meglio per scritto. 2. Se una fattura non è chiara, chieda un elenco dettagliato delle prestazioni e del tempo impiegato. 3. Pretenda la restituzione dei suoi documenti e del denaro che le spetta. 4. Si informi presso l'ordine cantonale degli avvocati se media in caso di controversia sull'onorario. 5. Se ritiene violate le regole professionali, si rivolga all'autorità cantonale di sorveglianza. 6. Se si tratta di molto denaro o di risarcimento del danno, si faccia consigliare da un'altra avvocata o un altro avvocato.",
+        "en": "If you are not happy with your lawyer: 1. Raise the problem directly, ideally in writing. 2. If an invoice is unclear, demand a detailed breakdown of the services and the time spent. 3. Demand your documents and any money owed to you. 4. Ask the cantonal bar association whether it mediates in fee disputes. 5. If you consider professional rules to have been breached, contact the cantonal supervisory authority. 6. If a lot of money or damages are at stake, get advice from another lawyer.",
+        "rm": "Sche Vus n'essas betg cuntents cun Vossa advocata u Voss advocat: 1. Discurrai il problem directamain, il meglier per scrit. 2. Sch'ina quinta n'è betg clera, pretendai in'exposiziun detagliada da las prestaziuns e dal temp duvrà. 3. Pretendai enavos Voss documents ed il daner che Vus tutga. 4. Dumandai tar l'associaziun chantunala d'advocatas ed advocats, sch'ella intermedia en cas da dispita davart l'honorar. 5. Tegnais Vus las reglas professiunalas per violadas, drizzai Vus a l'autoritad chantunala da surveglianza. 6. Sche sa tracta da bler daner u d'indemnisaziun per donns, laschai Vus cusseglier d'in'autra advocata u d'in auter advocat."
       },
       "sources": [
         "or-400",
@@ -331,7 +487,11 @@
         ]
       },
       "text": {
-        "de": "Jeder Kanton hat eine Aufsichtsbehörde über die Anwältinnen und Anwälte. Dort können Sie melden, wenn Sie meinen, dass jemand Berufsregeln verletzt hat. Die Behörde kann eine Verwarnung, einen Verweis, eine Busse bis 20 000 Franken oder ein befristetes oder dauerndes Berufsausübungsverbot anordnen. Das Aufsichtsverfahren dient dem öffentlichen Interesse, nicht Ihren privaten Interessen. Wer eine Meldung macht, ist darin grundsätzlich nicht Partei und kann den Entscheid nicht anfechten. Das kantonale Recht kann Ausnahmen vorsehen. Geld spricht Ihnen die Aufsichtsbehörde nicht zu. Einen Streit über das Honorar oder eine Forderung auf Schadenersatz müssen Sie auf dem Zivilweg klären."
+        "de": "Jeder Kanton hat eine Aufsichtsbehörde über die Anwältinnen und Anwälte. Dort können Sie melden, wenn Sie meinen, dass jemand Berufsregeln verletzt hat. Die Behörde kann eine Verwarnung, einen Verweis, eine Busse bis 20 000 Franken oder ein befristetes oder dauerndes Berufsausübungsverbot anordnen. Das Aufsichtsverfahren dient dem öffentlichen Interesse, nicht Ihren privaten Interessen. Wer eine Meldung macht, ist darin grundsätzlich nicht Partei und kann den Entscheid nicht anfechten. Das kantonale Recht kann Ausnahmen vorsehen. Geld spricht Ihnen die Aufsichtsbehörde nicht zu. Einen Streit über das Honorar oder eine Forderung auf Schadenersatz müssen Sie auf dem Zivilweg klären.",
+        "fr": "Chaque canton a une autorité de surveillance des avocates et avocats. Vous pouvez lui signaler que vous estimez que quelqu'un a violé des règles professionnelles. L'autorité peut prononcer un avertissement, un blâme, une amende jusqu'à 20 000 francs, ou une interdiction de pratiquer temporaire ou définitive. La procédure de surveillance sert l'intérêt public, non vos intérêts privés. Qui fait un signalement n'y est en principe pas partie et ne peut pas contester la décision. Le droit cantonal peut prévoir des exceptions. L'autorité de surveillance ne vous alloue pas d'argent. Un litige sur les honoraires ou une prétention en dommages-intérêts doit être réglé par la voie civile.",
+        "it": "Ogni Cantone ha un'autorità di sorveglianza sulle avvocate e sugli avvocati. Lì può segnalare se ritiene che qualcuno abbia violato le regole professionali. L'autorità può disporre un avvertimento, un ammonimento, una multa fino a 20 000 franchi o un divieto di esercitare la professione, temporaneo o definitivo. La procedura di sorveglianza serve all'interesse pubblico, non ai suoi interessi privati. Chi fa una segnalazione non è di regola parte nella procedura e non può impugnare la decisione. Il diritto cantonale può prevedere eccezioni. L'autorità di sorveglianza non le assegna denaro. Una controversia sull'onorario o una pretesa di risarcimento del danno deve chiarirla per via civile.",
+        "en": "Every canton has a supervisory authority for lawyers. You can report there if you believe someone has breached professional rules. The authority can order a warning, a reprimand, a fine of up to 20 000 francs, or a temporary or permanent prohibition on practising the profession. The supervisory procedure serves the public interest, not your private interests. Anyone who makes a report is, in principle, not a party to it and cannot challenge the decision. Cantonal law may provide for exceptions. The supervisory authority does not award you money. You must settle a fee dispute or a claim for damages through the civil courts.",
+        "rm": "Mintga chantun ha in'autoritad da surveglianza davart las advocatas ed ils advocats. Là pudais Vus annunziar, sche Vus tegnis che insatgi ha violà reglas professiunalas. L'autoritad po ordinar in avertiment, in reproche, ina multa enfin 20 000 francs u in scumond d'exercitar la professiun temporar u permanent. La procedura da surveglianza serva a l'interess public, betg a Vossas interess privatas. Tgi che fa in'annunzia, n'è per principi betg partida en ella e na po betg contestar la decisiun. Il dretg chantunal po prevair excepziuns. Daner na Vus attribuescha l'autoritad da surveglianza betg. Ina dispita davart l'honorar u ina pretensiun d'indemnisaziun per donns stuais Vus clarifitgar per via civila."
       },
       "sources": [
         "bgfa-14",
@@ -349,7 +509,11 @@
         ]
       },
       "text": {
-        "de": "Warten Sie mit einer Meldung an die Aufsichtsbehörde nicht zu lange. Die disziplinarische Verfolgung verjährt in jedem Fall zehn Jahre nach dem Vorfall. Zudem verjährt sie ein Jahr, nachdem die Aufsichtsbehörde vom Vorfall erfahren hat. Jede Untersuchungshandlung der Behörde unterbricht diese Einjahresfrist."
+        "de": "Warten Sie mit einer Meldung an die Aufsichtsbehörde nicht zu lange. Die disziplinarische Verfolgung verjährt in jedem Fall zehn Jahre nach dem Vorfall. Zudem verjährt sie ein Jahr, nachdem die Aufsichtsbehörde vom Vorfall erfahren hat. Jede Untersuchungshandlung der Behörde unterbricht diese Einjahresfrist.",
+        "fr": "N'attendez pas trop longtemps pour signaler un fait à l'autorité de surveillance. La poursuite disciplinaire se prescrit dans tous les cas par dix ans après les faits. Elle se prescrit en outre par un an après que l'autorité de surveillance a eu connaissance des faits. Tout acte d'instruction de l'autorité interrompt ce délai d'une année.",
+        "it": "Non aspetti troppo a lungo per una segnalazione all'autorità di sorveglianza. Il perseguimento disciplinare si prescrive in ogni caso dieci anni dopo il fatto. Inoltre si prescrive un anno dopo che l'autorità di sorveglianza è venuta a conoscenza del fatto. Ogni atto d'inchiesta dell'autorità interrompe questo termine di un anno.",
+        "en": "Do not wait too long before reporting to the supervisory authority. Disciplinary prosecution is time-barred in any case ten years after the incident. It is also time-barred one year after the supervisory authority learned of the incident. Any investigative step by the authority interrupts this one-year time limit.",
+        "rm": "Na spetgai betg memia ditg cun in'annunzia a l'autoritad da surveglianza. La persecuziun disciplinara prescriva en mintga cas diesch onns suenter l'eveniment. Supplementarmain prescriva ella in onn, suenter che l'autoritad da surveglianza ha vegnì a savair da l'eveniment. Mintga act d'inquisiziun da l'autoritad interrumpa questa termin d'in onn."
       },
       "sources": [
         "bgfa-19"
@@ -359,7 +523,11 @@
       "id": "party-costs",
       "kind": "cost",
       "text": {
-        "de": "Wer einen Zivilprozess verliert, trägt in der Regel die Gerichtskosten und muss der Gegenseite eine Parteientschädigung zahlen. Dazu gehören vor allem die Kosten ihrer Anwältin oder ihres Anwalts. Gewinnt niemand ganz, werden die Kosten nach dem Ausgang verteilt. In bestimmten Fällen, etwa in Familiensachen, kann das Gericht nach Ermessen verteilen. Die Parteientschädigung bestimmt das Gericht nach dem Tarif Ihres Kantons, nicht nach Ihrer Honorarvereinbarung. Sie können dem Gericht eine Kostennote einreichen. Die Entschädigung kann tiefer sein als das, was Sie Ihrer eigenen Anwältin oder Ihrem eigenen Anwalt schulden. Den Rest tragen Sie selbst, auch wenn Sie gewinnen. Die Gegenseite zahlt die Entschädigung an Sie. Zahlt die Gegenseite nicht, bleibt Ihr Honorar grundsätzlich geschuldet. Im Schlichtungsverfahren gibt es keine Parteientschädigung."
+        "de": "Wer einen Zivilprozess verliert, trägt in der Regel die Gerichtskosten und muss der Gegenseite eine Parteientschädigung zahlen. Dazu gehören vor allem die Kosten ihrer Anwältin oder ihres Anwalts. Gewinnt niemand ganz, werden die Kosten nach dem Ausgang verteilt. In bestimmten Fällen, etwa in Familiensachen, kann das Gericht nach Ermessen verteilen. Die Parteientschädigung bestimmt das Gericht nach dem Tarif Ihres Kantons, nicht nach Ihrer Honorarvereinbarung. Sie können dem Gericht eine Kostennote einreichen. Die Entschädigung kann tiefer sein als das, was Sie Ihrer eigenen Anwältin oder Ihrem eigenen Anwalt schulden. Den Rest tragen Sie selbst, auch wenn Sie gewinnen. Die Gegenseite zahlt die Entschädigung an Sie. Zahlt die Gegenseite nicht, bleibt Ihr Honorar grundsätzlich geschuldet. Im Schlichtungsverfahren gibt es keine Parteientschädigung.",
+        "fr": "Qui perd un procès civil supporte en règle générale les frais judiciaires et doit verser des dépens à la partie adverse. Ceux-ci comprennent avant tout les frais de son avocate ou de son avocat. Si personne ne gagne entièrement, les frais sont répartis selon l'issue. Dans certains cas, par exemple en matière familiale, le tribunal peut les répartir selon son appréciation. Les dépens sont fixés par le tribunal selon le tarif de votre canton, et non selon votre convention d'honoraires. Vous pouvez remettre au tribunal une liste de frais. L'indemnité peut être inférieure à ce que vous devez à votre propre avocate ou avocat. Vous supportez le reste vous-même, même si vous gagnez. La partie adverse vous verse les dépens. Si la partie adverse ne paie pas, votre honoraire reste en principe dû. Il n'y a pas de dépens dans la procédure de conciliation.",
+        "it": "Chi perde un processo civile sopporta di regola le spese processuali e deve versare alla controparte un'indennità di ripetibili. Vi rientrano soprattutto le spese della sua avvocata o del suo avvocato. Se nessuno vince del tutto, le spese sono ripartite secondo l'esito. In determinati casi, per esempio nelle cause di famiglia, il tribunale può ripartirle secondo il suo apprezzamento. Le ripetibili sono stabilite dal tribunale secondo la tariffa del suo Cantone, non secondo il suo accordo sull'onorario. Può presentare al tribunale una nota d'onorario. L'indennità può essere inferiore a quanto deve alla propria avvocata o al proprio avvocato. Il resto lo sopporta lei stessa, anche se vince. La controparte le versa l'indennità. Se la controparte non paga, il suo onorario resta in linea di principio dovuto. Nella procedura di conciliazione non ci sono ripetibili.",
+        "en": "Anyone who loses a civil case generally bears the court costs and must pay the other side compensation for costs. This mainly covers the costs of their lawyer. If no one wins entirely, the costs are divided according to the outcome. In certain cases, for example in family matters, the court can divide them at its discretion. The compensation for costs is set by the court according to the scale of your canton, not according to your fee agreement. You can submit a bill of costs to the court. The compensation can be lower than what you owe your own lawyer. You bear the rest yourself, even if you win. The other side pays the compensation to you. If the other side does not pay, you generally still owe your own fee. There is no compensation for costs in conciliation proceedings.",
+        "rm": "Tgi che perda in process civil, porta per regla ils custs da dretgira e sto pajar a l'autra varta in'indemnisaziun da la partida. Là tenor appartegnan avant tut ils custs da sia advocata u da ses advocat. Sche nagin na gudogna dal tuttafatg, vegnan ils custs repartids tenor l'exit. En tscherts cas, per exempel en chaussas da famiglia, po la dretgira repartir tenor discreziun. L'indemnisaziun da la partida fixescha la dretgira tenor la tariffa da Voss chantun, betg tenor Vossa cunvegna d'honorar. Vus pudais inoltrar a la dretgira ina quinta da custs. L'indemnisaziun po esser pli bassa che quai che Vus deivas a Vossa atgna advocata u a Voss atgn advocat. Il rest purtais Vus sez, er sche Vus gudagnais. L'autra varta paja l'indemnisaziun a Vus. Na paja l'autra varta betg, resta Voss honorar per principi deivì. En la procedura da mediaziun na dat i nagina indemnisaziun da la partida."
       },
       "sources": [
         "zpo-95",
@@ -382,7 +550,11 @@
         ]
       },
       "text": {
-        "de": "Falls Sie eine Rechtsschutzversicherung haben: Lesen Sie die Police und melden Sie den Fall früh, am besten bevor Sie selbst jemanden beauftragen. Muss für ein Gerichts- oder Verwaltungsverfahren eine Anwältin oder ein Anwalt beigezogen werden, dürfen Sie diese Person frei wählen. Dasselbe gilt bei einem Interessenkonflikt. Darauf muss die Versicherung Sie dann hinweisen. Der Vertrag kann vorsehen, dass die Versicherung Ihre Wahl ablehnen darf. Dann dürfen Sie drei andere Personen vorschlagen, und eine davon muss sie akzeptieren. Lehnt die Versicherung eine Leistung ab, weil Ihr Fall aussichtslos sei, muss sie das sofort schriftlich begründen. Sie muss Sie auch auf das Verfahren für Meinungsverschiedenheiten hinweisen, das der Vertrag vorsehen muss. Fehlt dieser Hinweis, gilt Ihr Anspruch auf Rechtsschutz in diesem Fall als anerkannt. Führen Sie den Prozess auf eigene Kosten und erreichen Sie mehr, als die Versicherung Ihnen vorgeschlagen hat, muss sie diese Kosten bis zur Versicherungssumme übernehmen. Übernimmt die Versicherung die Kosten, haben Sie insoweit keinen Anspruch auf unentgeltliche Rechtspflege."
+        "de": "Falls Sie eine Rechtsschutzversicherung haben: Lesen Sie die Police und melden Sie den Fall früh, am besten bevor Sie selbst jemanden beauftragen. Muss für ein Gerichts- oder Verwaltungsverfahren eine Anwältin oder ein Anwalt beigezogen werden, dürfen Sie diese Person frei wählen. Dasselbe gilt bei einem Interessenkonflikt. Darauf muss die Versicherung Sie dann hinweisen. Der Vertrag kann vorsehen, dass die Versicherung Ihre Wahl ablehnen darf. Dann dürfen Sie drei andere Personen vorschlagen, und eine davon muss sie akzeptieren. Lehnt die Versicherung eine Leistung ab, weil Ihr Fall aussichtslos sei, muss sie das sofort schriftlich begründen. Sie muss Sie auch auf das Verfahren für Meinungsverschiedenheiten hinweisen, das der Vertrag vorsehen muss. Fehlt dieser Hinweis, gilt Ihr Anspruch auf Rechtsschutz in diesem Fall als anerkannt. Führen Sie den Prozess auf eigene Kosten und erreichen Sie mehr, als die Versicherung Ihnen vorgeschlagen hat, muss sie diese Kosten bis zur Versicherungssumme übernehmen. Übernimmt die Versicherung die Kosten, haben Sie insoweit keinen Anspruch auf unentgeltliche Rechtspflege.",
+        "fr": "Si vous avez une assurance de protection juridique : lisez la police et annoncez le cas tôt, de préférence avant de mandater vous-même quelqu'un. Si une avocate ou un avocat doit être mandaté pour une procédure judiciaire ou administrative, vous pouvez choisir librement cette personne. Il en va de même en cas de conflit d'intérêts. L'assurance doit alors vous le signaler. Le contrat peut prévoir que l'assurance a le droit de refuser votre choix. Vous pouvez alors proposer trois autres personnes, et elle doit en accepter une. Si l'assurance refuse une prestation au motif que votre cas serait dépourvu de chances de succès, elle doit le motiver immédiatement par écrit. Elle doit aussi vous indiquer la procédure de règlement des différends que le contrat doit prévoir. Si cette indication fait défaut, votre droit à la protection juridique est réputé reconnu dans ce cas. Si vous menez le procès à vos propres frais et obtenez plus que ce que l'assurance vous avait proposé, elle doit prendre en charge ces frais jusqu'à concurrence de la somme d'assurance. Si l'assurance prend en charge les frais, vous n'avez pas, dans cette mesure, droit à l'assistance judiciaire.",
+        "it": "Se ha un'assicurazione di protezione giuridica: legga la polizza e segnali il caso per tempo, meglio prima di incaricare lei stessa qualcuno. Se per una procedura giudiziaria o amministrativa deve essere coinvolta un'avvocata o un avvocato, può scegliere liberamente questa persona. Lo stesso vale in caso di conflitto d'interessi. L'assicurazione deve segnalarglielo. Il contratto può prevedere che l'assicurazione possa rifiutare la sua scelta. In tal caso può proporre altre tre persone, e una di esse l'assicurazione deve accettarla. Se l'assicurazione rifiuta una prestazione perché ritiene il suo caso privo di probabilità di successo, deve motivarlo subito per scritto. Deve anche indicarle la procedura per le divergenze d'opinione, che il contratto deve prevedere. Se manca questa indicazione, il suo diritto alla protezione giuridica in questo caso si considera riconosciuto. Se conduce il processo a proprie spese e ottiene di più di quanto le aveva proposto l'assicurazione, questa deve assumersi tali spese fino alla somma assicurata. Se l'assicurazione assume le spese, in tale misura non ha diritto al gratuito patrocinio.",
+        "en": "If you have legal expenses insurance: read the policy and report the case early, ideally before you instruct anyone yourself. If a lawyer needs to be engaged for court or administrative proceedings, you may choose that person freely. The same applies in the event of a conflict of interest. The insurer must point this out to you. The contract may provide that the insurer can reject your choice. In that case, you may propose three other people, and it must accept one of them. If the insurer refuses cover because it considers your case hopeless, it must give written reasons for this immediately. It must also inform you of the procedure for disputes, which the contract must provide for. If this information is missing, your entitlement to legal protection in that case is deemed acknowledged. If you conduct the case at your own expense and achieve more than the insurer proposed, it must cover these costs up to the insured sum. If the insurance covers the costs, you have no entitlement to legal aid to that extent.",
+        "rm": "Sche Vus avais in'assicuranza da protecziun giuridica: Legiai la police ed annunziai il cas baud, il meglier avant che Vus mandatais Vus sez insatgi. Sto vegnir consultà in'advocata u in advocat per ina procedura giudiziala u administrativa, dastgais Vus tscherner questa persuna liberamain. Il medem vala tar in conflict d'interess. Sin quai sto l'assicuranza Vus rendair attent lura. Il contract po prevair che l'assicuranza dastgia refusar Vossa tscherna. Lura dastgais Vus proponer trais autras persunas, ed ina da quellas sto ella acceptar. Refusa l'assicuranza ina prestaziun, perquai che Voss cas saja invan, sto ella motivar quai immediat per scrit. Ella sto Vus era rendair attent a la procedura per differenzas d'opiniun, che il contract sto prevair. Manca quest renviament, vala Voss dretg sin protecziun giuridica en quest cas sco renconoschì. Manais Vus il process sin atgnas spesas e cuntanschais dapli che quai che l'assicuranza Vus ha proponì, sto ella surpigliar quests custs enfin la summa d'assicuranza. Surpiglia l'assicuranza ils custs, avais Vus en quella mesira nagin dretg sin la giurisdicziun gratuita."
       },
       "sources": [
         "avo-167",
@@ -394,14 +566,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie früh anwaltlichen Rat, wenn Sie eine Klage, einen Strafbefehl, eine Vorladung oder einen Entscheid mit einer Rechtsmittelfrist erhalten haben. Das gilt auch, wenn viel Geld, Ihre Wohnung, Ihre Stelle oder Ihre Kinder betroffen sind, wenn die Gegenseite eine Anwältin oder einen Anwalt hat, oder wenn Ihnen eine Straftat vorgeworfen wird. Wegen laufender Fristen sollten Sie dann nicht warten."
+        "de": "Holen Sie früh anwaltlichen Rat, wenn Sie eine Klage, einen Strafbefehl, eine Vorladung oder einen Entscheid mit einer Rechtsmittelfrist erhalten haben. Das gilt auch, wenn viel Geld, Ihre Wohnung, Ihre Stelle oder Ihre Kinder betroffen sind, wenn die Gegenseite eine Anwältin oder einen Anwalt hat, oder wenn Ihnen eine Straftat vorgeworfen wird. Wegen laufender Fristen sollten Sie dann nicht warten.",
+        "fr": "Demandez tôt conseil à une avocate ou un avocat si vous avez reçu une demande en justice, une ordonnance pénale, une citation ou une décision assortie d'un délai de recours. Cela vaut aussi si beaucoup d'argent, votre logement, votre emploi ou vos enfants sont en jeu, si la partie adverse a une avocate ou un avocat, ou si une infraction vous est reprochée. En raison des délais en cours, vous ne devriez alors pas attendre.",
+        "it": "Si faccia consigliare presto se ha ricevuto un'azione, un decreto penale, una citazione o una decisione con un termine di ricorso. Ciò vale anche se sono in gioco molto denaro, la sua abitazione, il suo posto di lavoro o i suoi figli, se la controparte ha un'avvocata o un avvocato, oppure se le viene rimproverato un reato. A causa dei termini che corrono, non dovrebbe aspettare.",
+        "en": "Get legal advice early if you have received a claim, a summary penalty order, a summons, or a decision with a time limit for a legal remedy. This also applies if a lot of money, your flat, your job or your children are affected, if the other side has a lawyer, or if you are accused of a criminal offence. Because of running time limits, you should not wait in these cases.",
+        "rm": "Retschertgai baud cussegl d'advocat, sche Vus avais retschet in plant, in mandat penal, ina citaziun u ina decisiun cun ina termin da med legal. Quai vala er, sche bler daner, Vossa abitaziun, Voss post da lavur u Voss uffants èn pertutgads, sche l'autra varta ha in'advocata u in advocat, u sche Vus vegnis reproschà ina infracziun penala. Pervi da terminas che curran na duessas Vus lura betg spetgar."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Anwaltsverbände betreiben Rechtsauskunftsstellen, bei denen Sie eine erste Auskunft erhalten. Eine Übersicht nach Kanton finden Sie beim Schweizerischen Anwaltsverband. Manche Kantone und Gemeinden bieten zudem eine unentgeltliche Rechtsauskunft an. Die Schlichtungsbehörden und viele Gerichte informieren über das Verfahren. Mieterinnen- und Mieterverbände, Gewerkschaften und Beratungsstellen helfen ihren Mitgliedern oder bestimmten Gruppen. Fragen Sie jeweils im Voraus, ob die Beratung etwas kostet."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Anwaltsverbände betreiben Rechtsauskunftsstellen, bei denen Sie eine erste Auskunft erhalten. Eine Übersicht nach Kanton finden Sie beim Schweizerischen Anwaltsverband. Manche Kantone und Gemeinden bieten zudem eine unentgeltliche Rechtsauskunft an. Die Schlichtungsbehörden und viele Gerichte informieren über das Verfahren. Mieterinnen- und Mieterverbände, Gewerkschaften und Beratungsstellen helfen ihren Mitgliedern oder bestimmten Gruppen. Fragen Sie jeweils im Voraus, ob die Beratung etwas kostet.",
+        "fr": "Aide gratuite ou à faible coût : les associations cantonales d'avocats exploitent des services de consultation juridique où vous obtenez un premier renseignement. Vous trouverez un aperçu par canton auprès de la Fédération Suisse des Avocats. Certains cantons et communes proposent en outre une consultation juridique gratuite. Les autorités de conciliation et de nombreux tribunaux renseignent sur la procédure. Les associations de locataires, les syndicats et les services de consultation aident leurs membres ou certains groupes. Demandez à chaque fois au préalable si la consultation est payante.",
+        "it": "Aiuto gratuito o a basso costo: gli ordini cantonali degli avvocati gestiscono servizi di consulenza giuridica presso cui riceve una prima informazione. Una panoramica per Cantone la trova presso la Federazione Svizzera degli Avvocati. Alcuni Cantoni e Comuni offrono inoltre una consulenza giuridica gratuita. Le autorità di conciliazione e molti tribunali informano sulla procedura. Le associazioni degli inquilini, i sindacati e i servizi di consulenza aiutano i propri membri o determinati gruppi. Chieda sempre in anticipo se la consulenza costa qualcosa.",
+        "en": "Free or low-cost help: the cantonal bar associations run legal information centres where you can get an initial consultation. An overview by canton is available from the Swiss Bar Association. Some cantons and municipalities also offer free legal information. Conciliation authorities and many courts give information about the procedure. Tenants' associations, trade unions and advice centres help their members or particular groups. Always ask in advance whether the advice costs anything.",
+        "rm": "Agid gratuit u favuraivel: Las associaziuns chantunalas d'advocatas ed advocats maneschan posts da infurmaziun giuridica, nua che Vus survegnis in'emprima infurmaziun. In'survista tenor chantun chattais Vus tar l'Uniun Svizra dals Advocats. Tscherts chantuns e vischnancas offran supplementarmain in'infurmaziun giuridica gratuita. Las autoritads da mediaziun e blers dretgiras infurmeschan davart la procedura. Associaziuns da locataris, syndicats e posts da cussegliaziun gidan lur commembers u tschertas gruppas. Dumandai mintga giada ordavant, sch'la cussegliaziun custa insatge."
       }
     }
   ],
@@ -716,25 +896,41 @@
   "official_links": [
     {
       "label": {
-        "de": "Schweizerischer Anwaltsverband: Anwaltssuche"
+        "de": "Schweizerischer Anwaltsverband: Anwaltssuche",
+        "fr": "Fédération Suisse des Avocats : recherche d'avocats",
+        "it": "Federazione Svizzera degli Avvocati: ricerca di avvocati",
+        "en": "Swiss Bar Association: lawyer search",
+        "rm": "Uniun Svizra dals Advocats: Tschertga d'advocats"
       },
       "url": "https://www.sav-fsa.ch/anwaltssuche"
     },
     {
       "label": {
-        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen der kantonalen Anwaltsverbände"
+        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen der kantonalen Anwaltsverbände",
+        "fr": "Fédération Suisse des Avocats : services de consultation juridique des associations cantonales d'avocats",
+        "it": "Federazione Svizzera degli Avvocati: servizi di consulenza giuridica degli ordini cantonali degli avvocati",
+        "en": "Swiss Bar Association: legal information centres of the cantonal bar associations",
+        "rm": "Uniun Svizra dals Advocats: Posts da infurmaziun giuridica da las associaziuns chantunalas d'advocatas ed advocats"
       },
       "url": "https://www.sav-fsa.ch/de/rechtsauskunft"
     },
     {
       "label": {
-        "de": "Bundesamt für Justiz: Anwaltsrecht"
+        "de": "Bundesamt für Justiz: Anwaltsrecht",
+        "fr": "Office fédéral de la justice : droit des avocats",
+        "it": "Ufficio federale di giustizia: diritto degli avvocati",
+        "en": "Federal Office of Justice: law on lawyers",
+        "rm": "Uffizi federal da giustia: Dretg d'advocatura"
       },
       "url": "https://www.bj.admin.ch/de/anwaltsrecht"
     },
     {
       "label": {
-        "de": "Beispiel Kanton Basel-Stadt: Anwaltsaufsichtskommission und Anwaltsregister"
+        "de": "Beispiel Kanton Basel-Stadt: Anwaltsaufsichtskommission und Anwaltsregister",
+        "fr": "Exemple du canton de Bâle-Ville : commission de surveillance des avocats et registre des avocats",
+        "it": "Esempio Canton Basilea Città: Commissione di sorveglianza sugli avvocati e registro degli avvocati",
+        "en": "Example, Canton of Basel-Stadt: supervisory commission for lawyers and register of lawyers",
+        "rm": "Exempel chantun Basilea-Citad: Cummissiun da surveglianza d'advocats e register d'advocats"
       },
       "url": "https://www.bs.ch/gerichte-judikative/ueber-die-gerichte/anwaltsaufsichtskommission"
     }

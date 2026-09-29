@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Schulden der verstorbenen Person"
+    "de": "Schulden der verstorbenen Person",
+    "fr": "Les dettes de la personne décédée",
+    "it": "I debiti della persona defunta",
+    "en": "The debts of the deceased",
+    "rm": "Debits da la persuna defunta"
   },
   "summary": {
-    "de": "Stirbt eine Ihnen nahestehende Person, erben Sie nicht nur deren Vermögen, sondern automatisch auch deren Schulden – diese werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch und mit Ihrem ganzen eigenen Vermögen. Sie können das vermeiden: durch Ausschlagung innert drei Monaten, durch ein öffentliches Inventar, das Ihre Haftung auf die dort verzeichneten Schulden beschränkt, oder durch amtliche Liquidation, bei der Sie gar nicht persönlich haften. Verschaffen Sie sich zuerst einen Überblick über Vermögen und Schulden, und mischen Sie sich bis zu Ihrem Entscheid nicht in die Erbschaft ein. Für all diese Schritte laufen kurze Fristen."
+    "de": "Stirbt eine Ihnen nahestehende Person, erben Sie nicht nur deren Vermögen, sondern automatisch auch deren Schulden – diese werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch und mit Ihrem ganzen eigenen Vermögen. Sie können das vermeiden: durch Ausschlagung innert drei Monaten, durch ein öffentliches Inventar, das Ihre Haftung auf die dort verzeichneten Schulden beschränkt, oder durch amtliche Liquidation, bei der Sie gar nicht persönlich haften. Verschaffen Sie sich zuerst einen Überblick über Vermögen und Schulden, und mischen Sie sich bis zu Ihrem Entscheid nicht in die Erbschaft ein. Für all diese Schritte laufen kurze Fristen.",
+    "fr": "Lorsqu’une personne qui vous est proche décède, vous héritez non seulement de son patrimoine, mais aussi, automatiquement, de ses dettes – celles-ci deviennent vos propres dettes personnelles. Si vous êtes plusieurs héritières et héritiers, vous en répondez solidairement et sur tout votre propre patrimoine. Vous pouvez éviter cela : par une répudiation dans les trois mois, par un bénéfice d’inventaire, qui limite votre responsabilité aux dettes qui y sont inscrites, ou par une liquidation officielle, où vous ne répondez pas du tout personnellement. Faites-vous d’abord une idée du patrimoine et des dettes, et ne vous immiscez pas dans la succession avant votre décision. Des délais courts s’appliquent à toutes ces démarches.",
+    "it": "Se muore una persona a lei vicina, lei eredita non solo il suo patrimonio, ma automaticamente anche i suoi debiti – questi diventano suoi debiti personali. Se siete più eredi, ne rispondete solidalmente e con tutto il vostro patrimonio personale. Può evitarlo: rinunciando all'eredità entro tre mesi, chiedendo il beneficio d'inventario, che limita la sua responsabilità ai debiti ivi iscritti, oppure con la liquidazione d'ufficio, nella quale lei non risponde affatto personalmente. Si procuri anzitutto una visione d'insieme del patrimonio e dei debiti, e non si immischi nell'eredità prima della sua decisione. Per tutti questi passi decorrono termini brevi.",
+    "en": "If someone close to you dies, you do not only inherit their assets, but automatically also their debts - these become your own personal debts. If there are several of you as heirs, you are jointly and severally liable for them, with your entire personal assets. You can avoid this: by disclaiming the inheritance within three months, by a public inventory, which limits your liability to the debts listed in it, or by official liquidation, under which you are not personally liable at all. First get an overview of the assets and debts, and do not interfere in the estate before you have decided. Short time limits apply to all these steps.",
+    "rm": "Sche mora ina persuna datiers a Vus, ertais Vus betg mo sia facultad, mabain automaticamain er ses debits - quels daventan Voss atgns, persunals debits. Essas Vus pliras ertavlas ed ertavels, respundais Vus per quai solidaricamain e cun tut Vossa atgna facultad. Vus pudais eschivar quai: tras la refusa da l'ierta entaifer trais mais, tras in inventari public che limitescha Vossa responsabladad als debits inscrits là, u tras la liquidaziun uffiziala, en la quala Vus na respundais dal tuttafatg betg persunalmain. Procurai Vus emprim ina survista davart facultad e debits, e n'As maschadais betg en l'ierta fin a Voss decisiun. Per tut quests pass valan termins curts."
   },
   "examples": {
     "de": [
@@ -19,51 +27,115 @@
       "Mein Vater hatte Schulden bei der Bank. Haften wir Kinder jetzt dafür?",
       "Muss ich als Ehefrau für die Schulden meines verstorbenen Mannes aufkommen?",
       "Chan ich s'Erbe usschlah, wenn ich nid weiss, öb Schulde da sind?"
+    ],
+    "fr": [
+      "Ma mère est décédée. Dois-je maintenant payer ses dettes ?",
+      "Comment savoir si la succession est surendettée ?",
+      "Qu’est-ce qu’un bénéfice d’inventaire et à quoi sert-il ?",
+      "Mon père avait des dettes envers la banque. Est-ce que nous, les enfants, en répondons maintenant ?",
+      "Dois-je, en tant qu’épouse, répondre des dettes de mon mari décédé ?",
+      "Je peux répudier l’héritage si je ne sais pas s’il y a des dettes ?"
+    ],
+    "it": [
+      "Mia madre è morta. Devo pagare adesso i suoi debiti?",
+      "Come faccio a scoprire se l'eredità è oberata di debiti?",
+      "Che cos'è il beneficio d'inventario e a che cosa mi serve?",
+      "Mio padre aveva debiti con la banca. Ne rispondiamo ora noi figli?",
+      "Devo rispondere, come moglie, dei debiti di mio marito defunto?",
+      "Posso rinunciare all'eredità se non so se ci sono debiti?"
+    ],
+    "en": [
+      "My mother has died. Do I now have to pay her debts?",
+      "How do I find out if the estate is over-indebted?",
+      "What is a public inventory and what do I need it for?",
+      "My father had debts with the bank. Are we children now liable for them?",
+      "As his wife, do I have to cover my deceased husband's debts?",
+      "Can I disclaim the inheritance if I don't know whether there are any debts?"
+    ],
+    "rm": [
+      "Mia mamma è morta. Stoss jau ussa pajar ses debits?",
+      "Co chat jau ora, sch'il relasch è surdebitgà?",
+      "Tge è in inventari public e per tge hai jau basegn da quel?",
+      "Mes bab aveva debits tar la banca. Respundain nus uffants ussa per quai?",
+      "Stoss jau, sco dunna, garantir per ils debits da mes um defunct?",
+      "Poss jau refusar l'ierta, sch'jau na sai betg, sche datti debits?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Haftung der Erbinnen und Erben für die Schulden einer verstorbenen Person: was mit dem Tod automatisch übergeht, wie Sie herausfinden, ob eine Erbschaft überschuldet ist, das öffentliche Inventar, die amtliche Liquidation, die Ausschlagung als Option sowie der Vollstreckungsschutz in den ersten Wochen nach dem Tod."
+      "de": "Die Haftung der Erbinnen und Erben für die Schulden einer verstorbenen Person: was mit dem Tod automatisch übergeht, wie Sie herausfinden, ob eine Erbschaft überschuldet ist, das öffentliche Inventar, die amtliche Liquidation, die Ausschlagung als Option sowie der Vollstreckungsschutz in den ersten Wochen nach dem Tod.",
+      "fr": "La responsabilité des héritières et héritiers pour les dettes d’une personne décédée : ce qui est transmis automatiquement au décès, comment savoir si une succession est surendettée, le bénéfice d’inventaire, la liquidation officielle, la répudiation comme option, ainsi que la protection contre l’exécution forcée dans les premières semaines suivant le décès.",
+      "it": "La responsabilità degli eredi per i debiti di una persona defunta: che cosa passa automaticamente con la morte, come scoprire se un'eredità è oberata di debiti, il beneficio d'inventario, la liquidazione d'ufficio, la rinuncia come opzione, nonché la protezione dall'esecuzione nelle prime settimane dopo la morte.",
+      "en": "The liability of heirs for the debts of a deceased person: what passes automatically on death, how you find out whether an estate is over-indebted, the public inventory, official liquidation, disclaiming the inheritance as an option, and protection from enforcement in the first weeks after the death.",
+      "rm": "La responsabladad da las ertavlas e dals ertavels per ils debits d'ina persuna defunta: tge che passa automaticamain cun la mort, co Vus chattais ora, sche in'ierta è surdebitgada, l'inventari public, la liquidaziun uffiziala, la refusa da l'ierta sco opziun sco er la protecziun cunter la scussiun durant las emprimas emnas suenter la mort."
     },
     "excludes": {
-      "de": "Wie Sie eine Erbschaft im Einzelnen ausschlagen – Form, Frist im Detail, Einmischung und die Folgen für Ihre eigenen Kinder – behandelt der eigene Leitfaden zur Erbausschlagung. Nicht behandelt werden die Berechnung von Pflichtteilen, die Teilung der Erbschaft unter den Erbinnen und Erben, das internationale Erbrecht sowie die Erbschafts- und Schenkungssteuer."
+      "de": "Wie Sie eine Erbschaft im Einzelnen ausschlagen – Form, Frist im Detail, Einmischung und die Folgen für Ihre eigenen Kinder – behandelt der eigene Leitfaden zur Erbausschlagung. Nicht behandelt werden die Berechnung von Pflichtteilen, die Teilung der Erbschaft unter den Erbinnen und Erben, das internationale Erbrecht sowie die Erbschafts- und Schenkungssteuer.",
+      "fr": "La manière de répudier une succession en détail – la forme, le délai en détail, l’immixtion et les conséquences pour vos propres enfants – est traitée dans le guide séparé consacré à la répudiation de succession. Ne sont pas traités le calcul des réserves héréditaires, le partage de la succession entre les héritières et héritiers, le droit international des successions, ainsi que l’impôt sur les successions et les donations.",
+      "it": "Come rinunciare nel dettaglio a un'eredità – forma, termine in dettaglio, immistione e conseguenze per i propri figli – è trattato dalla guida specifica sulla rinuncia all'eredità. Non sono trattati il calcolo della legittima, la divisione dell'eredità tra gli eredi, il diritto successorio internazionale, nonché l'imposta di successione e di donazione.",
+      "en": "How you disclaim an inheritance in detail - the form, the time limit in detail, interference and the consequences for your own children - is covered by the separate guide on disclaiming an inheritance. Not covered here are the calculation of statutory entitlements, dividing the estate among the heirs, cross-border succession law, and inheritance and gift tax.",
+      "rm": "Co Vus refusais en detagl in'ierta - furma, termin en detagl, maschadaditga en il relasch e las consequenzas per Vossas atgnas uffants - tracta la propria guida davart la refusa da l'ierta. Betg tractads vegnan la calculaziun da parts obligatoricas, la partiziun da l'ierta tranter las ertavlas ed ils ertavels, il dretg d'ierta internaziunal sco er la taglia da successiun e da donaziun."
     }
   },
   "facts": [
     {
       "key": "relationship",
       "question": {
-        "de": "In welchem Verhältnis stehen Sie zur verstorbenen Person?"
+        "de": "In welchem Verhältnis stehen Sie zur verstorbenen Person?",
+        "fr": "Quel est votre lien avec la personne décédée ?",
+        "it": "Che rapporto ha con la persona defunta?",
+        "en": "What is your relationship to the deceased?",
+        "rm": "En tge relaziun stais Vus cun la persuna defunta?"
       },
       "options": [
         {
           "value": "spouse-partner",
           "label": {
-            "de": "Ehepartner/in oder eingetragene Partnerin/eingetragener Partner"
+            "de": "Ehepartner/in oder eingetragene Partnerin/eingetragener Partner",
+            "fr": "Conjointe, conjoint ou partenaire enregistrée ou partenaire enregistré",
+            "it": "Coniuge o partner registrato",
+            "en": "Spouse or registered partner",
+            "rm": "Consorta u consort, u partenaria registrada u partenari registrà"
           }
         },
         {
           "value": "child",
           "label": {
-            "de": "Kind der verstorbenen Person"
+            "de": "Kind der verstorbenen Person",
+            "fr": "Enfant de la personne décédée",
+            "it": "Figlio della persona defunta",
+            "en": "Child of the deceased",
+            "rm": "Uffant da la persuna defunta"
           }
         },
         {
           "value": "other-relative",
           "label": {
-            "de": "Andere/r Verwandte/r"
+            "de": "Andere/r Verwandte/r",
+            "fr": "Autre personne apparentée",
+            "it": "Un altro parente",
+            "en": "Other relative",
+            "rm": "Autra persuna parentada"
           }
         },
         {
           "value": "will-named",
           "label": {
-            "de": "Im Testament als Erbin oder Erbe eingesetzt"
+            "de": "Im Testament als Erbin oder Erbe eingesetzt",
+            "fr": "Instituée comme héritière ou héritier dans un testament",
+            "it": "Istituito erede nel testamento",
+            "en": "Named as an heir in the will",
+            "rm": "Inserì en il testament sco ertavla u ertavel"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -71,31 +143,51 @@
     {
       "key": "debts_known",
       "question": {
-        "de": "Wissen Sie, ob der Nachlass Schulden hat?"
+        "de": "Wissen Sie, ob der Nachlass Schulden hat?",
+        "fr": "Savez-vous si la succession a des dettes ?",
+        "it": "Sa se l'eredità ha debiti?",
+        "en": "Do you know whether the estate has debts?",
+        "rm": "Savais Vus, sche il relasch ha debits?"
       },
       "options": [
         {
           "value": "more-debts",
           "label": {
-            "de": "Es gibt eindeutig mehr Schulden als Vermögen"
+            "de": "Es gibt eindeutig mehr Schulden als Vermögen",
+            "fr": "Il y a clairement plus de dettes que de patrimoine",
+            "it": "Ci sono chiaramente più debiti che patrimonio",
+            "en": "There are clearly more debts than assets",
+            "rm": "I datti evidentamain dapli debits che facultad"
           }
         },
         {
           "value": "unclear",
           "label": {
-            "de": "Unklar, auch nach Prüfung nicht sicher"
+            "de": "Unklar, auch nach Prüfung nicht sicher",
+            "fr": "Ce n’est pas clair, même après vérification",
+            "it": "Non è chiaro, incerto anche dopo aver verificato",
+            "en": "Unclear, not certain even after checking",
+            "rm": "Nunclar, er suenter examinaziun betg segir"
           }
         },
         {
           "value": "probably-none",
           "label": {
-            "de": "Vermutlich keine oder nur wenig Schulden"
+            "de": "Vermutlich keine oder nur wenig Schulden",
+            "fr": "Probablement peu ou pas de dettes",
+            "it": "Probabilmente nessun debito o solo pochi debiti",
+            "en": "Probably no debts, or only a few",
+            "rm": "Probablamain nagins u mo paucs debits"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -103,31 +195,51 @@
     {
       "key": "months_since_death",
       "question": {
-        "de": "Wie lange ist der Todesfall her?"
+        "de": "Wie lange ist der Todesfall her?",
+        "fr": "Depuis combien de temps le décès a-t-il eu lieu ?",
+        "it": "Da quanto tempo è avvenuto il decesso?",
+        "en": "How long ago was the death?",
+        "rm": "Quant ditg è il mortori indretg?"
       },
       "options": [
         {
           "value": "under-1-month",
           "label": {
-            "de": "Weniger als 1 Monat"
+            "de": "Weniger als 1 Monat",
+            "fr": "Moins d’1 mois",
+            "it": "Meno di 1 mese",
+            "en": "Less than 1 month",
+            "rm": "Damain che 1 mais"
           }
         },
         {
           "value": "one-to-3-months",
           "label": {
-            "de": "1 bis 3 Monate"
+            "de": "1 bis 3 Monate",
+            "fr": "1 à 3 mois",
+            "it": "Da 1 a 3 mesi",
+            "en": "1 to 3 months",
+            "rm": "1 fin 3 mais"
           }
         },
         {
           "value": "over-3-months",
           "label": {
-            "de": "Mehr als 3 Monate"
+            "de": "Mehr als 3 Monate",
+            "fr": "Plus de 3 mois",
+            "it": "Più di 3 mesi",
+            "en": "More than 3 months",
+            "rm": "Dapli che 3 mais"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht genau"
+            "de": "Weiss ich nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con esattezza",
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exactamain"
           }
         }
       ]
@@ -135,28 +247,48 @@
     {
       "key": "already_acted",
       "question": {
-        "de": "Haben Sie bereits etwas aus dem Nachlass genommen oder für ihn bezahlt?"
+        "de": "Haben Sie bereits etwas aus dem Nachlass genommen oder für ihn bezahlt?",
+        "fr": "Avez-vous déjà pris quelque chose de la succession ou payé quelque chose pour elle ?",
+        "it": "Ha già preso qualcosa dall'eredità o pagato qualcosa per essa?",
+        "en": "Have you already taken anything from the estate, or paid for it?",
+        "rm": "Avais Vus gia prendì insatge dal relasch u pajà insatge per el?"
       },
       "help": {
-        "de": "Zum Beispiel Geld vom Konto der verstorbenen Person bezogen, Rechnungen beglichen, die über dringende Verwaltung hinausgehen, oder Gegenstände mitgenommen."
+        "de": "Zum Beispiel Geld vom Konto der verstorbenen Person bezogen, Rechnungen beglichen, die über dringende Verwaltung hinausgehen, oder Gegenstände mitgenommen.",
+        "fr": "Par exemple retiré de l’argent du compte de la personne décédée, payé des factures allant au-delà de l’administration urgente, ou emporté des objets.",
+        "it": "Per esempio prelevato denaro dal conto della persona defunta, pagato fatture che vanno oltre l'amministrazione urgente, oppure portato via oggetti.",
+        "en": "For example, withdrawn money from the deceased's account, paid invoices that go beyond urgent administration, or taken items away.",
+        "rm": "Per exempel retratg daners dal conto da la persuna defunta, pajà quintas che vegnan ultra da l'administraziun urgenta, u prendì objects cun Vus."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht genau"
+            "de": "Weiss ich nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con esattezza",
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exactamain"
           }
         }
       ]
@@ -167,7 +299,11 @@
       "id": "universal-succession",
       "kind": "rule",
       "text": {
-        "de": "Stirbt ein Mensch, geht sein gesamtes Vermögen von Gesetzes wegen auf die Erbinnen und Erben über – automatisch und als Ganzes, ohne dass Sie etwas dafür tun müssen. Das gilt nicht nur für Guthaben, Grundstücke und Gegenstände, sondern auch für die Schulden der verstorbenen Person: Sie werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch: Jede Gläubigerin und jeder Gläubiger kann die ganze Schuld von einer einzigen Person unter Ihnen verlangen, auch wenn diese Person nur einen kleinen Erbteil hat. Sie haften dabei mit Ihrem gesamten eigenen Vermögen, nicht nur mit dem, was Sie geerbt haben. Das lässt sich nur vermeiden, wenn Sie ausschlagen, die Erbschaft unter öffentlichem Inventar annehmen oder die amtliche Liquidation verlangen."
+        "de": "Stirbt ein Mensch, geht sein gesamtes Vermögen von Gesetzes wegen auf die Erbinnen und Erben über – automatisch und als Ganzes, ohne dass Sie etwas dafür tun müssen. Das gilt nicht nur für Guthaben, Grundstücke und Gegenstände, sondern auch für die Schulden der verstorbenen Person: Sie werden zu Ihren eigenen, persönlichen Schulden. Sind Sie mehrere Erbinnen und Erben, haften Sie dafür solidarisch: Jede Gläubigerin und jeder Gläubiger kann die ganze Schuld von einer einzigen Person unter Ihnen verlangen, auch wenn diese Person nur einen kleinen Erbteil hat. Sie haften dabei mit Ihrem gesamten eigenen Vermögen, nicht nur mit dem, was Sie geerbt haben. Das lässt sich nur vermeiden, wenn Sie ausschlagen, die Erbschaft unter öffentlichem Inventar annehmen oder die amtliche Liquidation verlangen.",
+        "fr": "Lorsqu’une personne meurt, tout son patrimoine passe de par la loi aux héritières et héritiers – automatiquement et en bloc, sans que vous ayez à faire quoi que ce soit. Cela vaut non seulement pour les avoirs, les immeubles et les objets, mais aussi pour les dettes de la personne décédée : elles deviennent vos propres dettes personnelles. Si vous êtes plusieurs héritières et héritiers, vous en répondez solidairement : chaque créancière ou créancier peut exiger la totalité de la dette d’une seule personne parmi vous, même si cette personne n’a qu’une petite part héréditaire. Vous en répondez alors sur tout votre propre patrimoine, et pas seulement sur ce que vous avez hérité. Vous ne pouvez éviter cela qu’en répudiant, en acceptant la succession sous bénéfice d’inventaire, ou en demandant la liquidation officielle.",
+        "it": "Quando una persona muore, il suo intero patrimonio passa per legge agli eredi – automaticamente e nel suo insieme, senza che lei debba fare nulla. Ciò vale non solo per averi, fondi e oggetti, ma anche per i debiti della persona defunta: essi diventano suoi debiti personali. Se siete più eredi, ne rispondete solidalmente: ogni creditore può esigere l'intero debito da una sola persona tra voi, anche se questa ha solo una piccola quota ereditaria. Voi rispondete allora con tutto il vostro patrimonio personale, non solo con quanto avete ereditato. Ciò si può evitare solo rinunciando, accettando l'eredità con beneficio d'inventario, oppure chiedendo la liquidazione d'ufficio.",
+        "en": "When a person dies, their entire estate passes to the heirs by operation of law - automatically and as a whole, without you having to do anything for it. This applies not only to bank balances, land and other property, but also to the debts of the deceased: they become your own personal debts. If there are several of you as heirs, you are jointly and severally liable for them: any creditor can demand the whole debt from a single one of you, even if that person has only a small share of the estate. You are liable for this with your entire personal assets, not only with what you have inherited. This can only be avoided if you disclaim the inheritance, accept it under public inventory, or request official liquidation.",
+        "rm": "Sche mora in uman, passa tut sia facultad da lescha a las ertavlas ed als ertavels - automaticamain e sco tut, senza che Vus stuais far insatge per quai. Quai vala betg mo per havers, bains immobigliars ed objects, mabain er per ils debits da la persuna defunta: els daventan Voss atgns, persunals debits. Essas Vus pliras ertavlas ed ertavels, respundais Vus per quai solidaricamain: mintga creditura e mintgin creditur po pretender l'entir debit d'ina singula persuna tranter Vus, era sch'ella ha mo ina pitschna quota d'ierta. Vus respundais qua cun tut Vossa atgna facultad, betg mo cun quai ch'Vus avais ertà. Quai sa laschia eschivar mo, sche Vus refusais, acceptais l'ierta sut inventari public u pretendais la liquidaziun uffiziala."
       },
       "sources": [
         "zgb-560",
@@ -185,7 +321,11 @@
         ]
       },
       "text": {
-        "de": "Waren Sie mit der verstorbenen Person verheiratet oder durch eine eingetragene Partnerschaft verbunden, haften Sie nicht schon deshalb für deren Schulden. Massgebend ist allein, ob Sie Erbin oder Erbe sind. Eine Ausnahme betrifft laufende Bedürfnisse der Familie: Hat Ihr Ehepartner oder Ihre Ehepartnerin zu Lebzeiten die eheliche Gemeinschaft für solche laufenden Bedürfnisse vertreten und dabei eine Schuld eingegangen, können Sie dafür bereits als Ehepartnerin oder Ehepartner persönlich und solidarisch mitverpflichtet sein – unabhängig von einer Erbschaft. Für alle anderen Schulden der verstorbenen Person gilt: Sie haften nur, wenn und weil Sie erben."
+        "de": "Waren Sie mit der verstorbenen Person verheiratet oder durch eine eingetragene Partnerschaft verbunden, haften Sie nicht schon deshalb für deren Schulden. Massgebend ist allein, ob Sie Erbin oder Erbe sind. Eine Ausnahme betrifft laufende Bedürfnisse der Familie: Hat Ihr Ehepartner oder Ihre Ehepartnerin zu Lebzeiten die eheliche Gemeinschaft für solche laufenden Bedürfnisse vertreten und dabei eine Schuld eingegangen, können Sie dafür bereits als Ehepartnerin oder Ehepartner persönlich und solidarisch mitverpflichtet sein – unabhängig von einer Erbschaft. Für alle anderen Schulden der verstorbenen Person gilt: Sie haften nur, wenn und weil Sie erben.",
+        "fr": "Si vous étiez marié avec la personne décédée ou lié par un partenariat enregistré, vous ne répondez pas de ses dettes pour ce seul motif. Seul compte le fait que vous soyez ou non héritière ou héritier. Une exception concerne les besoins courants de la famille : si votre conjointe ou conjoint a, de son vivant, représenté l’union conjugale pour de tels besoins courants et a contracté une dette à cette occasion, vous pouvez déjà en être coobligé personnellement et solidairement en tant que conjointe ou conjoint – indépendamment de toute succession. Pour toutes les autres dettes de la personne décédée, la règle est la suivante : vous n’en répondez que si, et parce que, vous héritez.",
+        "it": "Se lei era sposato con la persona defunta o legato a essa da un'unione domestica registrata, non risponde già per questo dei suoi debiti. Determinante è unicamente se lei è erede. Un'eccezione riguarda i bisogni correnti della famiglia: se il suo coniuge, in vita, ha rappresentato l'unione coniugale per tali bisogni correnti e ha così contratto un debito, lei può già esserne obbligato personalmente e solidalmente in quanto coniuge – indipendentemente da un'eredità. Per tutti gli altri debiti della persona defunta vale: lei risponde solo se e perché eredita.",
+        "en": "If you were married to the deceased, or connected to them by a registered partnership, you are not liable for their debts simply because of this. What matters is solely whether you are an heir. There is an exception for the family's everyday needs: if, during their lifetime, your spouse represented the marital union for such everyday needs and thereby incurred a debt, you can already be personally and jointly liable for this as a spouse - independently of any inheritance. For all other debts of the deceased, the rule is: you are only liable if, and because, you inherit.",
+        "rm": "Essas Vus stads maridads cun la persuna defunta u colliads tras in partenadi registrà, respundais Vus betg gia percanto per ses debits. Decisiv è mo, sch'Vus essas ertavla u ertavel. Ina excepziun pertutga basegns currents da la famiglia: sch'Vossa consorta u Voss consort ha represchentà la cuminanza conjugala per talas basegns currents e cun quai entrà en in debit, pudais Vus gia sco consorta u consort esser co-obligà persunalmain e solidaricamain per quai - independentamain d'ina ierta. Per tut ils auters debits da la persuna defunta vala: Vus respundais mo, sch'e perquai che Vus ertais."
       },
       "sources": [
         "zgb-166",
@@ -196,7 +336,11 @@
       "id": "outside-the-estate",
       "kind": "rule",
       "text": {
-        "de": "Nicht alles, was bei Ihrer Familie ankommt, gehört zum Nachlass, für den Sie haften. Eine Lebensversicherung, bei der die verstorbene Person ausdrücklich eine begünstigte Person bezeichnet hat, begründet für diese ein eigenes Recht auf die Versicherungsleistung; der Anspruch gehört nicht zur Erbschaft. Ist die begünstigte Person der Ehegatte, die eingetragene Partnerin, der eingetragene Partner oder ein Nachkomme, ist dieser Anspruch zudem vor dem Zugriff der Gläubigerinnen und Gläubiger der verstorbenen Person geschützt. Hinterlassenenleistungen der Pensionskasse gehen nach einer eigenen, reglementarischen Begünstigtenordnung an bestimmte Personen und folgen nicht den Erbregeln."
+        "de": "Nicht alles, was bei Ihrer Familie ankommt, gehört zum Nachlass, für den Sie haften. Eine Lebensversicherung, bei der die verstorbene Person ausdrücklich eine begünstigte Person bezeichnet hat, begründet für diese ein eigenes Recht auf die Versicherungsleistung; der Anspruch gehört nicht zur Erbschaft. Ist die begünstigte Person der Ehegatte, die eingetragene Partnerin, der eingetragene Partner oder ein Nachkomme, ist dieser Anspruch zudem vor dem Zugriff der Gläubigerinnen und Gläubiger der verstorbenen Person geschützt. Hinterlassenenleistungen der Pensionskasse gehen nach einer eigenen, reglementarischen Begünstigtenordnung an bestimmte Personen und folgen nicht den Erbregeln.",
+        "fr": "Tout ce qui parvient à votre famille ne fait pas partie de la succession dont vous répondez. Une assurance-vie pour laquelle la personne décédée a expressément désigné une personne bénéficiaire fonde pour celle-ci un droit propre à la prestation d’assurance ; cette prétention ne fait pas partie de la succession. Si la personne bénéficiaire est le conjoint, la partenaire enregistrée, le partenaire enregistré ou un descendant, cette prétention est en outre protégée contre l’accès des créancières et créanciers de la personne décédée. Les prestations pour survivants de la caisse de pension vont, selon un ordre réglementaire de bénéficiaires propre, à des personnes déterminées et ne suivent pas les règles successorales.",
+        "it": "Non tutto ciò che arriva alla sua famiglia fa parte dell'eredità per cui lei risponde. Un'assicurazione sulla vita per la quale la persona defunta ha espressamente designato una persona beneficiaria fonda per questa un proprio diritto alla prestazione assicurativa; tale pretesa non fa parte dell'eredità. Se la persona beneficiaria è il coniuge, il partner registrato o un discendente, questa pretesa è inoltre protetta dall'accesso dei creditori della persona defunta. Le prestazioni per superstiti della cassa pensioni vanno, secondo un proprio ordine regolamentare dei beneficiari, a determinate persone e non seguono le regole successorie.",
+        "en": "Not everything that reaches your family belongs to the estate for which you are liable. A life insurance policy for which the deceased expressly named a beneficiary gives that person their own right to the insurance benefit; the claim does not belong to the estate. If the beneficiary is the spouse, the registered partner, or a descendant, this claim is also protected from being seized by the deceased's creditors. Survivors' benefits from the pension fund go to specific people under the fund's own rules on beneficiaries, and do not follow the rules of succession.",
+        "rm": "Betg tut quai che arriva tar Vossa famiglia, tutga al relasch, per il qual Vus respundais. In'assicuranza da vita, en la quala la persuna defunta ha designà expressivamain ina persuna favurisada, fundescha per questa persuna in dretg agen a la prestaziun d'assicuranza; il dretg na tutga betg al relasch. È la persuna favurisada il consort, la partenaria registrada, il partenari registrà u in descendent cun dretg d'ierta, è quest dretg ultra da quai protegì cunter l'access da las cretituras e dals crediturs da la persuna defunta. Prestaziuns per survivents da la cassa da pensiun van tenor in'atgna reglamentaziun da favurisaziun a tschertas persunas e na suondan betg las reglas d'ierta."
       },
       "sources": [
         "vvg-76",
@@ -209,14 +353,22 @@
       "id": "finding-out",
       "kind": "step",
       "text": {
-        "de": "Verschaffen Sie sich zuerst einen Überblick, bevor Sie entscheiden. Sichten Sie die Post der verstorbenen Person, insbesondere Rechnungen, Mahnungen und Schreiben von Betreibungsämtern. Fragen Sie bei ihrer Bank oder ihren Banken Kontoauszüge und den Vermögensstand an. Das zuständige Steueramt kann Auskunft über die letzten Steuerveranlagungen geben. Beim Betreibungsamt am letzten Wohnsitz der verstorbenen Person können Sie als Erbin oder Erbe einen Betreibungsregisterauszug der verstorbenen Person verlangen; mehrere offene Betreibungen oder Verlustscheine sind ein klares Warnzeichen für eine überschuldete Erbschaft. Bleiben Zweifel, verlangen Sie fristgerecht ein öffentliches Inventar, statt sich vorschnell festzulegen."
+        "de": "Verschaffen Sie sich zuerst einen Überblick, bevor Sie entscheiden. Sichten Sie die Post der verstorbenen Person, insbesondere Rechnungen, Mahnungen und Schreiben von Betreibungsämtern. Fragen Sie bei ihrer Bank oder ihren Banken Kontoauszüge und den Vermögensstand an. Das zuständige Steueramt kann Auskunft über die letzten Steuerveranlagungen geben. Beim Betreibungsamt am letzten Wohnsitz der verstorbenen Person können Sie als Erbin oder Erbe einen Betreibungsregisterauszug der verstorbenen Person verlangen; mehrere offene Betreibungen oder Verlustscheine sind ein klares Warnzeichen für eine überschuldete Erbschaft. Bleiben Zweifel, verlangen Sie fristgerecht ein öffentliches Inventar, statt sich vorschnell festzulegen.",
+        "fr": "Faites-vous d’abord une vue d’ensemble avant de décider. Examinez le courrier de la personne décédée, en particulier les factures, les rappels et les courriers des offices des poursuites. Demandez à sa banque ou à ses banques les relevés de compte et l’état du patrimoine. L’office des impôts compétent peut renseigner sur les dernières taxations fiscales. Auprès de l’office des poursuites du dernier domicile de la personne décédée, vous pouvez, en tant qu’héritière ou héritier, demander un extrait du registre des poursuites de la personne décédée ; plusieurs poursuites en cours ou actes de défaut de biens sont un signe d’alerte clair d’une succession surendettée. Si des doutes subsistent, demandez à temps un bénéfice d’inventaire plutôt que de vous engager prématurément.",
+        "it": "Si procuri anzitutto una visione d'insieme, prima di decidere. Esamini la posta della persona defunta, in particolare fatture, solleciti e lettere degli uffici d'esecuzione. Chieda alla sua banca o alle sue banche gli estratti conto e la situazione patrimoniale. L'ufficio delle imposte competente può fornire informazioni sulle ultime tassazioni. Presso l'ufficio d'esecuzione dell'ultimo domicilio della persona defunta lei può chiedere, come erede, un estratto del registro delle esecuzioni della persona defunta; più esecuzioni pendenti o attestati di carenza di beni sono un chiaro segnale d'allarme per un'eredità oberata di debiti. Se restano dubbi, chieda per tempo il beneficio d'inventario, invece di impegnarsi in modo affrettato.",
+        "en": "First get an overview before you decide. Go through the deceased's post, in particular invoices, reminders and letters from debt enforcement offices. Ask their bank or banks for account statements and the state of their assets. The competent tax office can provide information on the most recent tax assessments. At the debt enforcement office at the deceased's last place of residence, you can, as an heir, request a debt enforcement register extract for the deceased; several open debt enforcement proceedings or certificates of shortfall are a clear warning sign of an over-indebted estate. If doubts remain, request a public inventory in time, rather than committing yourself too hastily.",
+        "rm": "Procurai Vus emprim ina survista, avant che Vus decidais. Examinai la posta da la persuna defunta, surtut quintas, rapetiziuns e brevs dals uffizis da scussiun. Dumandai tar sia banca u sias bancas extracts da conto ed il stadi da facultad. L'uffizi da taglia cumpetent po dar infurmaziuns davart las ultimas taxaziuns da taglia. Tar l'uffizi da scussiun dal davos domicil da la persuna defunta pudais Vus, sco ertavla u ertavel, pretender in extract dal register da las scussiuns da la persuna defunta; pliras scussiuns avertas u attests da perdita èn in clar segn d'alarm per in relasch surdebitgà. Restan dubis, pretendai a temp in inventari public, empè da Vus fixar memia spert."
       }
     },
     {
       "id": "dont-intermeddle",
       "kind": "warning",
       "text": {
-        "de": "Solange Sie sich nicht entschieden haben, mischen Sie sich nicht in die Erbschaft ein. Wer sich in die Angelegenheiten der Erbschaft einmischt, Handlungen vornimmt, die über die blosse Verwaltung und die Weiterführung der laufenden Geschäfte hinausgehen, oder Erbschaftssachen an sich nimmt oder verheimlicht, verliert das Recht, die Erbschaft später auszuschlagen. Handlungen, die für die blosse Verwaltung nötig sind, etwa die Wohnung abschliessen oder die Post sichten, schaden nicht. Wo die Grenze liegt, entscheidet sich im Einzelfall; bezahlen Sie Schulden der verstorbenen Person im Zweifel erst, wenn Sie sich entschieden haben. Auch das blosse Einholen einer Erbenbescheinigung gilt für sich allein nicht als Einmischung. Vorsicht ist geboten bei Klagen, der Verwertung von Nachlassgegenständen oder der Mitnahme von Wertsachen für sich selbst."
+        "de": "Solange Sie sich nicht entschieden haben, mischen Sie sich nicht in die Erbschaft ein. Wer sich in die Angelegenheiten der Erbschaft einmischt, Handlungen vornimmt, die über die blosse Verwaltung und die Weiterführung der laufenden Geschäfte hinausgehen, oder Erbschaftssachen an sich nimmt oder verheimlicht, verliert das Recht, die Erbschaft später auszuschlagen. Handlungen, die für die blosse Verwaltung nötig sind, etwa die Wohnung abschliessen oder die Post sichten, schaden nicht. Wo die Grenze liegt, entscheidet sich im Einzelfall; bezahlen Sie Schulden der verstorbenen Person im Zweifel erst, wenn Sie sich entschieden haben. Auch das blosse Einholen einer Erbenbescheinigung gilt für sich allein nicht als Einmischung. Vorsicht ist geboten bei Klagen, der Verwertung von Nachlassgegenständen oder der Mitnahme von Wertsachen für sich selbst.",
+        "fr": "Tant que vous n’avez pas décidé, ne vous immiscez pas dans la succession. Quiconque s’immisce dans les affaires de la succession, accomplit des actes allant au-delà de la simple administration et de la continuation des affaires courantes, ou prend ou dissimule des biens de la succession, perd le droit de la répudier ultérieurement. Les actes nécessaires à la simple administration, comme fermer le logement à clé ou trier le courrier, ne portent pas préjudice. La limite se détermine au cas par cas ; en cas de doute, ne payez les dettes de la personne décédée qu’une fois votre décision prise. La simple demande d’un certificat d’héritier n’est, à elle seule, pas non plus considérée comme une immixtion. La prudence est de mise pour les actions en justice, la réalisation d’objets de la succession ou le fait d’emporter des valeurs pour soi-même.",
+        "it": "Finché non ha deciso, non si immischi nell'eredità. Chi si immischia negli affari dell'eredità, compie atti che vanno oltre la semplice amministrazione e la continuazione degli affari correnti, oppure si appropria o occulta beni dell'eredità, perde il diritto di rinunciarvi in seguito. Gli atti necessari per la semplice amministrazione, per esempio chiudere a chiave l'abitazione o esaminare la posta, non nuocciono. Dove si trovi il limite si decide caso per caso; nel dubbio, paghi i debiti della persona defunta solo dopo aver deciso. Anche la semplice richiesta di un certificato ereditario non è di per sé considerata immistione. Occorre prudenza per le azioni giudiziarie, la realizzazione di beni dell'eredità o il prelievo di oggetti di valore per sé stessi.",
+        "en": "As long as you have not decided, do not interfere in the estate. Anyone who interferes in the affairs of the estate, carries out acts that go beyond mere administration and continuing current business, or takes possession of or conceals items belonging to the estate, loses the right to disclaim the inheritance later. Acts that are necessary for mere administration, such as locking up the flat or going through the post, do no harm. Where the line lies is decided case by case; if in doubt, do not pay the deceased's debts until you have decided. Merely obtaining a certificate of inheritance does not by itself count as interference. Caution is needed with legal actions, realising estate assets, or taking valuables for yourself.",
+        "rm": "Uschè ditg che Vus n'avais betg decidì, n'As maschadais betg en l'ierta. Tgi che sa maschada en las fatschendas da l'ierta, fa acziuns che van ultra da la simpla administraziun e la cuntinuaziun da las fatschendas currentas, u prenda u zuppentescha chaussas da l'ierta, perda il dretg da pli tard refusar l'ierta. Acziuns che èn necessarias per la simpla administraziun, per exempel serrar l'abitaziun u examinar la posta, na donnegian betg. Nua ch'è il cunfin, decida il cas singul; pajai en cas da dubi debits da la persuna defunta mo, sch'Vus avais decidì. Er il simpel procurar in certificat d'ierta na vala per sasez betg sco maschadaditga. Prudenza è dumandada tar plants, tar la valorisaziun d'objects da l'ierta u tar il prender via da valurs per sasez."
       },
       "sources": [
         "zgb-571",
@@ -232,7 +384,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie bereits Geld vom Konto der verstorbenen Person bezogen, Rechnungen für die Erbschaft bezahlt, die über dringende Verwaltung hinausgehen, oder Gegenstände der Erbschaft für sich behalten, kann das als Einmischung gelten. Dann können Sie nicht mehr ausschlagen und haften vorbehaltlos für die Schulden der Erbschaft. Ob eine bestimmte Handlung noch als blosse Verwaltung durchgeht, hängt vom Einzelfall ab. Lassen Sie das im Zweifel rasch prüfen, bevor Sie weitere Schritte unternehmen."
+        "de": "Haben Sie bereits Geld vom Konto der verstorbenen Person bezogen, Rechnungen für die Erbschaft bezahlt, die über dringende Verwaltung hinausgehen, oder Gegenstände der Erbschaft für sich behalten, kann das als Einmischung gelten. Dann können Sie nicht mehr ausschlagen und haften vorbehaltlos für die Schulden der Erbschaft. Ob eine bestimmte Handlung noch als blosse Verwaltung durchgeht, hängt vom Einzelfall ab. Lassen Sie das im Zweifel rasch prüfen, bevor Sie weitere Schritte unternehmen.",
+        "fr": "Si vous avez déjà retiré de l’argent du compte de la personne décédée, payé pour la succession des factures allant au-delà de l’administration urgente, ou gardé pour vous des objets de la succession, cela peut être considéré comme une immixtion. Vous ne pouvez alors plus répudier et vous répondez sans réserve des dettes de la succession. Le fait qu’un acte déterminé passe encore pour de la simple administration dépend du cas d’espèce. En cas de doute, faites vérifier cela rapidement avant d’entreprendre d’autres démarches.",
+        "it": "Se lei ha già prelevato denaro dal conto della persona defunta, pagato per l'eredità fatture che vanno oltre l'amministrazione urgente, o trattenuto per sé oggetti dell'eredità, ciò può essere considerato immistione. In tal caso non può più rinunciare e risponde senza riserve dei debiti dell'eredità. Se un determinato atto rientri ancora nella semplice amministrazione dipende dal caso concreto. Nel dubbio, lo faccia verificare rapidamente prima di intraprendere ulteriori passi.",
+        "en": "If you have already withdrawn money from the deceased's account, paid invoices for the estate that go beyond urgent administration, or kept items belonging to the estate for yourself, this can count as interference. In that case you can no longer disclaim the inheritance, and you are unconditionally liable for the debts of the estate. Whether a particular act still counts as mere administration depends on the individual case. If in doubt, have this checked quickly before taking any further steps.",
+        "rm": "Avais Vus gia retratg daners dal conto da la persuna defunta, pajà quintas per l'ierta che vegnan ultra da l'administraziun urgenta, u tegnì per Vus objects da l'ierta, po quai valair sco maschadaditga. Lura na pudais Vus betg pli refusar e respundais senza restricziun per ils debits da l'ierta. Sche ina tscherta acziun passa anc sco simpla administraziun, dependa dal cas singul. Laschai examinar quai svelt en cas da dubi, avant che Vus prendais ulteriurs pass."
       },
       "sources": [
         "zgb-571"
@@ -242,7 +398,11 @@
       "id": "refusal-deadline",
       "kind": "warning",
       "text": {
-        "de": "Sie können die Erbschaft ausschlagen. Dafür haben Sie drei Monate Zeit. Die Frist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald Sie vom Tod erfahren haben, und für im Testament eingesetzte Personen, sobald Ihnen die amtliche Mitteilung der letztwilligen Verfügung zugegangen ist. War die verstorbene Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig zahlungsunfähig, wird Ihre Ausschlagung von Gesetzes wegen vermutet. Wie Sie ausschlagen, welche Form das braucht und was eine Ausschlagung für Ihre eigenen Kinder bedeutet, erklärt der Leitfaden zur Erbausschlagung."
+        "de": "Sie können die Erbschaft ausschlagen. Dafür haben Sie drei Monate Zeit. Die Frist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald Sie vom Tod erfahren haben, und für im Testament eingesetzte Personen, sobald Ihnen die amtliche Mitteilung der letztwilligen Verfügung zugegangen ist. War die verstorbene Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig zahlungsunfähig, wird Ihre Ausschlagung von Gesetzes wegen vermutet. Wie Sie ausschlagen, welche Form das braucht und was eine Ausschlagung für Ihre eigenen Kinder bedeutet, erklärt der Leitfaden zur Erbausschlagung.",
+        "fr": "Vous pouvez répudier la succession. Vous disposez pour cela de trois mois. Le délai commence, pour les héritières et héritiers légaux, en règle générale dès que vous avez appris le décès, et pour les personnes instituées par testament, dès que la communication officielle de la disposition pour cause de mort vous est parvenue. Si la personne décédée était, au moment de son décès, officiellement constatée insolvable ou notoirement insolvable, votre répudiation est présumée de par la loi. Comment répudier, quelle forme cela nécessite et ce qu’une répudiation signifie pour vos propres enfants sont expliqués dans le guide consacré à la répudiation de succession.",
+        "it": "Lei può rinunciare all'eredità. Per farlo ha tre mesi di tempo. Il termine inizia, per gli eredi legittimi, di regola non appena lei ha saputo della morte, e per le persone istituite nel testamento, non appena le è pervenuta la comunicazione ufficiale della disposizione a causa di morte. Se al momento della morte l'insolvenza della persona defunta era accertata d'ufficio o notoria, la sua rinuncia si presume per legge. Come rinunciare, quale forma sia necessaria e che cosa significhi una rinuncia per i suoi stessi figli, lo spiega la guida sulla rinuncia all'eredità.",
+        "en": "You can disclaim the inheritance. You have three months to do this. For statutory heirs, the time limit generally begins as soon as you learn of the death, and for people named in the will, as soon as you receive official notification of the disposition on death. If the deceased was officially established, or was evidently, insolvent at the time of their death, your disclaimer is presumed by operation of law. How you disclaim, what form this requires, and what a disclaimer means for your own children, is explained in the guide on disclaiming an inheritance.",
+        "rm": "Vus pudais refusar l'ierta. Per quai avais Vus trais mais temp. Il termin cumenza per ertavlas ed ertavels legals per regla, uschespert ch'Vus avais survegnì enconuschientscha da la mort, e per persunas inseridas en il testament, uschespert che l'infurmaziun uffiziala da la disposiziun testamentara Vus è arrivada. Era la persuna defunta al mument da sia mort uffizialmain constatada u evidentamain nunsolvibla, vala Vossa refusa sco supponida da lescha. Co Vus refusais, tge furma quai dovra e tge che ina refusa signifitga per Vossas atgnas uffants, explitga la guida davart la refusa da l'ierta."
       },
       "sources": [
         "zgb-566",
@@ -258,7 +418,11 @@
         ]
       },
       "text": {
-        "de": "Sind seit dem Tod bereits mehr als drei Monate vergangen und wussten Sie schon damals davon, ist die Frist zur Ausschlagung in der Regel bereits abgelaufen. Ohne rechtzeitige Ausschlagung gilt die Erbschaft grundsätzlich als vorbehaltlos angenommen, und Sie haften wie jede Erbin oder jeder Erbe für deren Schulden. Eine neue Frist oder eine Verlängerung gibt es nur aus wichtigen Gründen, etwa wenn Sie trotz aller zumutbaren Abklärungen die Lage nicht kennen konnten, und nur, wenn Sie sofort handeln, sobald Sie vom Grund erfahren. Prüfen Sie das umgehend und holen Sie rasch Rat, statt weiter zuzuwarten."
+        "de": "Sind seit dem Tod bereits mehr als drei Monate vergangen und wussten Sie schon damals davon, ist die Frist zur Ausschlagung in der Regel bereits abgelaufen. Ohne rechtzeitige Ausschlagung gilt die Erbschaft grundsätzlich als vorbehaltlos angenommen, und Sie haften wie jede Erbin oder jeder Erbe für deren Schulden. Eine neue Frist oder eine Verlängerung gibt es nur aus wichtigen Gründen, etwa wenn Sie trotz aller zumutbaren Abklärungen die Lage nicht kennen konnten, und nur, wenn Sie sofort handeln, sobald Sie vom Grund erfahren. Prüfen Sie das umgehend und holen Sie rasch Rat, statt weiter zuzuwarten.",
+        "fr": "Si plus de trois mois se sont déjà écoulés depuis le décès et que vous le saviez déjà à l’époque, le délai de répudiation est en règle générale déjà échu. Sans répudiation faite à temps, la succession est en principe réputée acceptée sans réserve, et vous répondez de ses dettes comme toute héritière ou héritier. Un nouveau délai ou une prolongation n’existe que pour des motifs importants, par exemple si, malgré toutes les vérifications raisonnablement exigibles, vous ne pouviez pas connaître la situation, et seulement si vous agissez immédiatement dès que vous apprenez le motif. Vérifiez cela sans délai et faites-vous conseiller rapidement plutôt que d’attendre encore.",
+        "it": "Se sono già trascorsi più di tre mesi dalla morte e lei ne era già a conoscenza allora, il termine per la rinuncia è di regola già scaduto. Senza una rinuncia tempestiva, l'eredità si considera di principio accettata senza riserve, e lei risponde dei suoi debiti come ogni erede. Un nuovo termine o una proroga esistono solo per motivi gravi, per esempio se, nonostante tutti gli accertamenti ragionevolmente esigibili, lei non poteva conoscere la situazione, e solo se agisce immediatamente non appena viene a conoscenza del motivo. Lo verifichi subito e si faccia consigliare rapidamente, invece di continuare ad attendere.",
+        "en": "If more than three months have already passed since the death, and you already knew of it at the time, the time limit for disclaiming has generally already expired. Without a timely disclaimer, the inheritance is in principle treated as accepted unconditionally, and you are liable for its debts like any heir. A new time limit or an extension is only available for good cause, for example if you could not have known the situation despite all reasonable enquiries, and only if you act immediately once you learn of the ground for this. Check this immediately and get advice quickly, rather than waiting any longer.",
+        "rm": "Èn dapi la mort gia passads dapli che trais mais e savevat Vus quai gia lura, è il termin per la refusa per regla gia scadì. Senza refusa a temp vala l'ierta en princip sco acceptada senza restricziun, e Vus respundais sco mintga ertavla u ertavel per ses debits. In nov termin u ina prolungaziun datti mo per motivs impurtants, per exempel sche Vus, malgrà tut las clarificaziuns pretendibla, na pudevat betg enconuscher la situaziun, e mo, sche Vus agis immediat, uschespert che Vus enconuschais il motiv. Examinai quai immediat e retschertgai svelt cussegl, empè da spetgar vinavant."
       },
       "sources": [
         "zgb-567",
@@ -279,7 +443,11 @@
         ]
       },
       "text": {
-        "de": "Auch wer ausschlägt, kann in einem Punkt trotzdem haften: Haben Sie von der verstorbenen, zahlungsunfähigen Person innerhalb der letzten fünf Jahre vor ihrem Tod Vermögenswerte erhalten, die bei einer Erbteilung zur Ausgleichung gebracht werden müssten, haften Sie den Gläubigerinnen und Gläubigern in diesem Umfang trotz Ausschlagung. Ausgenommen sind die landesübliche Ausstattung bei einer Heirat sowie Erziehungs- und Ausbildungskosten. Waren Sie beim Empfang gutgläubig, haften Sie nur, soweit Sie noch bereichert sind."
+        "de": "Auch wer ausschlägt, kann in einem Punkt trotzdem haften: Haben Sie von der verstorbenen, zahlungsunfähigen Person innerhalb der letzten fünf Jahre vor ihrem Tod Vermögenswerte erhalten, die bei einer Erbteilung zur Ausgleichung gebracht werden müssten, haften Sie den Gläubigerinnen und Gläubigern in diesem Umfang trotz Ausschlagung. Ausgenommen sind die landesübliche Ausstattung bei einer Heirat sowie Erziehungs- und Ausbildungskosten. Waren Sie beim Empfang gutgläubig, haften Sie nur, soweit Sie noch bereichert sind.",
+        "fr": "Même en répudiant, on peut néanmoins rester responsable sur un point : si vous avez reçu de la personne décédée insolvable, dans les cinq dernières années avant son décès, des valeurs patrimoniales qui devraient être rapportées lors d’un partage successoral, vous en répondez envers les créancières et créanciers dans cette mesure, malgré la répudiation. Sont exceptés l’établissement usuel dans le pays lors d’un mariage ainsi que les frais d’éducation et de formation. Si vous étiez de bonne foi au moment de la réception, vous ne répondez que dans la mesure où vous êtes encore enrichi.",
+        "it": "Anche chi rinuncia può comunque rispondere su un punto: se lei ha ricevuto dalla persona defunta insolvente, negli ultimi cinque anni prima della sua morte, valori patrimoniali che in una divisione ereditaria dovrebbero essere conferiti a titolo di collazione, lei risponde ai creditori in questa misura nonostante la rinuncia. Sono eccettuati il corredo usuale nel Paese in occasione di un matrimonio nonché le spese di educazione e di formazione. Se al momento della ricezione era in buona fede, lei risponde solo nella misura in cui è ancora arricchito.",
+        "en": "Even someone who disclaims the inheritance can still be liable on one point: if you received assets from the deceased, insolvent person within the last five years before their death that would have to be brought into hotchpot on a division of the estate, you are liable to the creditors to that extent despite the disclaimer. Exempted are the customary endowment on marriage and the costs of upbringing and education. If you acted in good faith when you received the assets, you are only liable to the extent that you are still enriched.",
+        "rm": "Er tgi che refusa, po tuttina respunder en in punct: avais Vus survegnì da la persuna defunta, nunsolvibla, entaifer ils ultims tschintg onns avant sia mort, valurs da facultad che stuessan vegnir computads en cas d'ina partiziun da l'ierta, respundais Vus per quest import malgrà la refusa envers las cretituras ed ils crediturs. Exceptà è l'equipaschament usità en il pajais tar ina maridaglia sco er custs d'educaziun e da furmaziun. Erat Vus da buna fai a la retschavida, respundais Vus mo, uschenavant che Vus essas anc arrichids."
       },
       "sources": [
         "zgb-579"
@@ -289,7 +457,11 @@
       "id": "public-inventory-request",
       "kind": "rule",
       "text": {
-        "de": "Statt auszuschlagen, können Sie ein öffentliches Inventar verlangen. Dazu berechtigt ist jede Person, die auch zur Ausschlagung berechtigt wäre. Sie stellen das Begehren bei der zuständigen Behörde in der gleichen Form wie eine Ausschlagung. Stellt eine Erbin oder ein Erbe das Begehren, gilt es auch für die übrigen; Sie müssen es also nicht gemeinsam stellen. Das öffentliche Inventar gibt Ihnen zunächst mehr Zeit und Informationen; es ist noch keine Annahme der Erbschaft."
+        "de": "Statt auszuschlagen, können Sie ein öffentliches Inventar verlangen. Dazu berechtigt ist jede Person, die auch zur Ausschlagung berechtigt wäre. Sie stellen das Begehren bei der zuständigen Behörde in der gleichen Form wie eine Ausschlagung. Stellt eine Erbin oder ein Erbe das Begehren, gilt es auch für die übrigen; Sie müssen es also nicht gemeinsam stellen. Das öffentliche Inventar gibt Ihnen zunächst mehr Zeit und Informationen; es ist noch keine Annahme der Erbschaft.",
+        "fr": "Au lieu de répudier, vous pouvez demander un bénéfice d’inventaire. Y a droit toute personne qui aurait aussi le droit de répudier. Vous présentez la requête à l’autorité compétente dans la même forme qu’une répudiation. Si une héritière ou un héritier présente la requête, elle vaut aussi pour les autres ; vous n’avez donc pas besoin de la présenter ensemble. Le bénéfice d’inventaire vous donne d’abord plus de temps et d’informations ; il ne constitue pas encore une acceptation de la succession.",
+        "it": "Invece di rinunciare, lei può chiedere il beneficio d'inventario. A ciò ha diritto chiunque avrebbe anche il diritto di rinunciare. La domanda va presentata all'autorità competente nella stessa forma della rinuncia. Se la domanda è presentata da un erede, vale anche per gli altri; non dovete quindi presentarla insieme. Il beneficio d'inventario le dà anzitutto più tempo e più informazioni; non costituisce ancora un'accettazione dell'eredità.",
+        "en": "Instead of disclaiming, you can request a public inventory. Anyone who would also be entitled to disclaim is entitled to do this. You submit the request to the competent authority in the same form as a disclaimer. If one heir submits the request, it also applies to the others; you do not have to submit it jointly. The public inventory initially gives you more time and information; it is not yet an acceptance of the inheritance.",
+        "rm": "Empè da refusar, pudais Vus pretender in inventari public. Autorisada per quai è mintga persuna che fiss er autorisada a refusar. Vus fixais la dumonda tar l'autoritad cumpetenta en la medema furma sco ina refusa. Fa ina ertavla u in ertavel la dumonda, vala ella er per ils auters; Vus na stuais betg la fixar ensemen. L'inventari public dat a Vus emprim dapli temp ed infurmaziuns; el n'è anc nagina acceptaziun da l'ierta."
       },
       "sources": [
         "zgb-580"
@@ -299,7 +471,11 @@
       "id": "public-inventory-deadline",
       "kind": "warning",
       "text": {
-        "de": "Das öffentliche Inventar müssen Sie innert eines Monats verlangen, also deutlich früher, als die dreimonatige Frist für die Ausschlagung abläuft. Die Monatsfrist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald sie vom Tod erfahren haben, auch wenn ein Testament sie auf den Pflichtteil setzt. Das Gesetz sieht keine Verlängerung dieser Frist vor. Ob die Behörde ausnahmsweise trotzdem eine neue Frist ansetzen darf, ist umstritten und vom Bundesgericht nicht entschieden. Rechnen Sie deshalb damit, dass ein verspätetes Gesuch scheitert. Ausschlagen können Sie aber weiterhin, solange die drei Monate laufen. Sind Sie unsicher, ob die Erbschaft überschuldet ist, handeln Sie deshalb in den ersten Wochen."
+        "de": "Das öffentliche Inventar müssen Sie innert eines Monats verlangen, also deutlich früher, als die dreimonatige Frist für die Ausschlagung abläuft. Die Monatsfrist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald sie vom Tod erfahren haben, auch wenn ein Testament sie auf den Pflichtteil setzt. Das Gesetz sieht keine Verlängerung dieser Frist vor. Ob die Behörde ausnahmsweise trotzdem eine neue Frist ansetzen darf, ist umstritten und vom Bundesgericht nicht entschieden. Rechnen Sie deshalb damit, dass ein verspätetes Gesuch scheitert. Ausschlagen können Sie aber weiterhin, solange die drei Monate laufen. Sind Sie unsicher, ob die Erbschaft überschuldet ist, handeln Sie deshalb in den ersten Wochen.",
+        "fr": "Vous devez demander le bénéfice d’inventaire dans un délai d’un mois, donc nettement plus tôt que l’expiration du délai de trois mois pour la répudiation. Le délai d’un mois commence, pour les héritières et héritiers légaux, en règle générale dès qu’ils ont appris le décès, même si un testament les réduit à leur réserve héréditaire. La loi ne prévoit aucune prolongation de ce délai. La question de savoir si l’autorité peut, à titre exceptionnel, fixer malgré tout un nouveau délai est controversée et n’a pas été tranchée par le Tribunal fédéral. Attendez-vous donc à ce qu’une requête tardive échoue. Vous pouvez cependant continuer à répudier tant que les trois mois courent. Si vous n’êtes pas sûr que la succession soit surendettée, agissez donc dans les premières semaines.",
+        "it": "Il beneficio d'inventario deve essere chiesto entro un mese, quindi molto prima che scada il termine di tre mesi per la rinuncia. Il termine di un mese inizia, per gli eredi legittimi, di regola non appena hanno saputo della morte, anche se un testamento li limita alla legittima. La legge non prevede una proroga di questo termine. Se l'autorità possa eccezionalmente fissare comunque un nuovo termine è controverso e non è stato deciso dal Tribunale federale. Consideri quindi che una domanda tardiva possa fallire. Può però ancora rinunciare finché corrono i tre mesi. Se lei è incerto se l'eredità è oberata di debiti, agisca quindi nelle prime settimane.",
+        "en": "You must request the public inventory within one month, so considerably earlier than the three-month time limit for disclaiming expires. For statutory heirs, the one-month time limit generally begins as soon as they learn of the death, even if a will restricts them to their statutory entitlement. The law does not provide for an extension of this time limit. Whether the authority may nonetheless exceptionally set a new time limit is disputed and has not been decided by the Federal Supreme Court. So expect a late request to fail. However, you can still disclaim the inheritance for as long as the three months are running. If you are unsure whether the estate is over-indebted, act within the first few weeks for this reason.",
+        "rm": "L'inventari public stuais Vus pretender entaifer in mais, dunca considerablamain pli baud che il termin da trais mais per la refusa scada. Il termin d'in mais cumenza per ertavlas ed ertavels legals per regla, uschespert ch'els han survegnì enconuschientscha da la mort, era sch'in testament ils metta sin la part obligatorica. La lescha na prevesa nagina prolungaziun da quest termin. Sch'la autoritad po excepziunalmain tuttina fixar in nov termin, è controvers e betg decidì dal Tribunal federal. Quintai percunquai, che ina dumonda pli tardiva fallescha. Refusar pudais Vus dentant vinavant, uschè ditg che ils trais mais curran. Essas Vus nunsegirs, sche l'ierta è surdebitgada, agi percunquai en las emprimas emnas."
       },
       "sources": [
         "zgb-580",
@@ -312,7 +488,11 @@
       "id": "public-inventory-process",
       "kind": "rule",
       "text": {
-        "de": "Die zuständige Behörde erstellt nach kantonalem Recht ein Verzeichnis aller Vermögenswerte und Schulden der Erbschaft mit Schätzung. Wer über die Vermögensverhältnisse der verstorbenen Person Auskunft geben kann, muss der Behörde alle verlangten Angaben machen; auch Sie als Erbin oder Erbe müssen ihr die Ihnen bekannten Schulden mitteilen. Mit der Inventaraufnahme ruft die Behörde öffentlich die Gläubigerinnen und Gläubiger sowie die Schuldnerinnen und Schuldner der verstorbenen Person auf, ihre Forderungen und Schulden innert mindestens einem Monat anzumelden; die Gläubigerinnen und Gläubiger werden dabei auf die Folgen einer versäumten Anmeldung hingewiesen. Schulden und Guthaben, die aus öffentlichen Büchern oder aus den Papieren der verstorbenen Person ersichtlich sind, nimmt die Behörde von sich aus ins Inventar auf. Nach Ablauf der Anmeldefrist wird das Inventar abgeschlossen und liegt danach während mindestens einem weiteren Monat zur Einsicht auf."
+        "de": "Die zuständige Behörde erstellt nach kantonalem Recht ein Verzeichnis aller Vermögenswerte und Schulden der Erbschaft mit Schätzung. Wer über die Vermögensverhältnisse der verstorbenen Person Auskunft geben kann, muss der Behörde alle verlangten Angaben machen; auch Sie als Erbin oder Erbe müssen ihr die Ihnen bekannten Schulden mitteilen. Mit der Inventaraufnahme ruft die Behörde öffentlich die Gläubigerinnen und Gläubiger sowie die Schuldnerinnen und Schuldner der verstorbenen Person auf, ihre Forderungen und Schulden innert mindestens einem Monat anzumelden; die Gläubigerinnen und Gläubiger werden dabei auf die Folgen einer versäumten Anmeldung hingewiesen. Schulden und Guthaben, die aus öffentlichen Büchern oder aus den Papieren der verstorbenen Person ersichtlich sind, nimmt die Behörde von sich aus ins Inventar auf. Nach Ablauf der Anmeldefrist wird das Inventar abgeschlossen und liegt danach während mindestens einem weiteren Monat zur Einsicht auf.",
+        "fr": "L’autorité compétente établit, selon le droit cantonal, un inventaire de toutes les valeurs patrimoniales et dettes de la succession, avec estimation. Quiconque peut renseigner sur la situation patrimoniale de la personne décédée doit fournir à l’autorité tous les renseignements demandés ; vous aussi, en tant qu’héritière ou héritier, devez lui communiquer les dettes que vous connaissez. Avec l’inventaire, l’autorité appelle publiquement les créancières et créanciers ainsi que les débitrices et débiteurs de la personne décédée à annoncer leurs créances et leurs dettes dans un délai d’au moins un mois ; les créancières et créanciers sont alors avisés des conséquences d’une annonce omise. Les dettes et avoirs qui ressortent des registres publics ou des papiers de la personne décédée sont inscrits d’office à l’inventaire par l’autorité. À l’expiration du délai d’annonce, l’inventaire est clôturé, puis reste consultable pendant au moins un mois supplémentaire.",
+        "it": "L'autorità competente compila, secondo il diritto cantonale, un elenco di tutti i valori patrimoniali e i debiti dell'eredità con la relativa stima. Chi può dare informazioni sulla situazione patrimoniale della persona defunta deve fornire all'autorità tutti i dati richiesti; anche lei, come erede, deve comunicarle i debiti a lei noti. Con la compilazione dell'inventario, l'autorità invita pubblicamente i creditori e i debitori della persona defunta ad annunciare i loro crediti e debiti entro almeno un mese; i creditori vengono al riguardo resi attenti alle conseguenze di un annuncio omesso. I debiti e gli averi risultanti da registri pubblici o dalle carte della persona defunta sono iscritti d'ufficio dall'autorità nell'inventario. Scaduto il termine per l'annuncio, l'inventario viene chiuso e resta poi depositato per la consultazione durante almeno un altro mese.",
+        "en": "The competent authority draws up, under cantonal law, a list of all the assets and debts of the estate, with a valuation. Anyone who can give information about the deceased's financial affairs must give the authority all the information requested; you too, as an heir, must tell it the debts known to you. When drawing up the inventory, the authority publicly calls on the deceased's creditors and debtors to register their claims and debts within at least one month; creditors are informed of the consequences of failing to register in time. Debts and assets apparent from public records or from the deceased's papers are entered in the inventory by the authority of its own motion. Once the registration period has expired, the inventory is closed and then remains open for inspection for at least a further month.",
+        "rm": "L'autoritad cumpetenta fa, tenor il dretg chantunal, in register da tut las valurs da facultad e dals debits da l'ierta cun stimaziun. Tgi che po dar infurmaziun davart las relaziuns da facultad da la persuna defunta, sto dar a l'autoritad tut las indicaziuns pretendidas; er Vus, sco ertavla u ertavel, stuais As communitgar ad ella ils debits enconuschids. Cun l'inventarisaziun clama l'autoritad publicamain las cretituras ed ils crediturs, sco er las debituras ed ils debiturs da la persuna defunta, d'annunziar lur pretensiuns e debits entaifer almain in mais; las cretituras ed ils crediturs vegnan qua avertids davart las consequenzas d'in'annunzia mancanta. Debits ed havers che resultan da registers publics u da las papiras da la persuna defunta, includa l'autoritad da sasez en l'inventari. Suenter la scadenza dal termin d'annunzia vegn l'inventari serrà e stat lura anc almain in ulteriur mais avert per la consultaziun."
       },
       "sources": [
         "zgb-581",
@@ -325,7 +505,11 @@
       "id": "public-inventory-cost",
       "kind": "cost",
       "text": {
-        "de": "Die Kosten des öffentlichen Inventars trägt in erster Linie die Erbschaft. Reicht deren Vermögen dafür nicht aus, tragen sie die Erbinnen und Erben, die das Inventar verlangt haben."
+        "de": "Die Kosten des öffentlichen Inventars trägt in erster Linie die Erbschaft. Reicht deren Vermögen dafür nicht aus, tragen sie die Erbinnen und Erben, die das Inventar verlangt haben.",
+        "fr": "Les frais du bénéfice d’inventaire sont supportés en premier lieu par la succession. Si son patrimoine n’y suffit pas, ils sont supportés par les héritières et héritiers qui ont demandé l’inventaire.",
+        "it": "Le spese del beneficio d'inventario sono sostenute in primo luogo dall'eredità. Se il suo patrimonio non basta, le sostengono gli eredi che hanno chiesto l'inventario.",
+        "en": "The costs of the public inventory are borne primarily by the estate. If its assets are not enough for this, they are borne by the heirs who requested the inventory.",
+        "rm": "Ils custs da l'inventari public porta en emprima lingia l'ierta. Na basta la facultad da quella betg per quai, ils portan las ertavlas ed ils ertavels che han pretendì l'inventari."
       },
       "sources": [
         "zgb-584"
@@ -335,7 +519,11 @@
       "id": "inventory-choice",
       "kind": "rule",
       "text": {
-        "de": "Nach Abschluss des Inventars werden Sie aufgefordert, sich innert einem weiteren Monat zu erklären: Sie können ausschlagen, die amtliche Liquidation verlangen, die Erbschaft unter öffentlichem Inventar annehmen oder sie vorbehaltlos annehmen. Aus wichtigen Gründen, etwa zur Einholung von Schätzungen oder zur Erledigung streitiger Ansprüche, kann Ihnen die Behörde eine weitere Frist einräumen. Geben Sie innerhalb der Frist keine Erklärung ab, gilt die Erbschaft als unter öffentlichem Inventar angenommen."
+        "de": "Nach Abschluss des Inventars werden Sie aufgefordert, sich innert einem weiteren Monat zu erklären: Sie können ausschlagen, die amtliche Liquidation verlangen, die Erbschaft unter öffentlichem Inventar annehmen oder sie vorbehaltlos annehmen. Aus wichtigen Gründen, etwa zur Einholung von Schätzungen oder zur Erledigung streitiger Ansprüche, kann Ihnen die Behörde eine weitere Frist einräumen. Geben Sie innerhalb der Frist keine Erklärung ab, gilt die Erbschaft als unter öffentlichem Inventar angenommen.",
+        "fr": "Une fois l’inventaire clôturé, vous êtes invité à vous déterminer dans un délai supplémentaire d’un mois : vous pouvez répudier, demander la liquidation officielle, accepter la succession sous bénéfice d’inventaire, ou l’accepter sans réserve. Pour des motifs importants, par exemple pour obtenir des estimations ou régler des prétentions litigieuses, l’autorité peut vous accorder un délai supplémentaire. Si vous ne faites aucune déclaration dans le délai, la succession est réputée acceptée sous bénéfice d’inventaire.",
+        "it": "Dopo la chiusura dell'inventario, lei è invitato a dichiararsi entro un ulteriore mese: può rinunciare, chiedere la liquidazione d'ufficio, accettare l'eredità con beneficio d'inventario oppure accettarla senza riserve. Per motivi gravi, per esempio per ottenere stime o per definire pretese controverse, l'autorità può concederle un ulteriore termine. Se non presenta alcuna dichiarazione entro il termine, l'eredità si considera accettata con beneficio d'inventario.",
+        "en": "Once the inventory is closed, you are asked to declare your position within a further month: you can disclaim the inheritance, request official liquidation, accept the estate under public inventory, or accept it unconditionally. For good cause, for example to obtain valuations or settle disputed claims, the authority can grant you a further time limit. If you make no declaration within the time limit, the estate is treated as accepted under public inventory.",
+        "rm": "Suenter la conclusiun da l'inventari vegnis Vus envidads a Vus declerar entaifer in ulteriur mais: Vus pudais refusar, pretender la liquidaziun uffiziala, acceptar l'ierta sut inventari public u l'acceptar senza restricziun. Per motivs impurtants, per exempel per procurar stimaziuns u per regular pretensiuns litigiusas, po l'autoritad Vus conceder in ulteriur termin. Na dais Vus nagina decleraziun entaifer il termin, vala l'ierta sco acceptada sut inventari public."
       },
       "sources": [
         "zgb-587",
@@ -346,7 +534,11 @@
       "id": "inventory-effect",
       "kind": "rule",
       "text": {
-        "de": "Nehmen Sie die Erbschaft unter öffentlichem Inventar an, gehen nur die im Inventar verzeichneten Schulden auf Sie über; dafür haften Sie sowohl mit der Erbschaft als auch mit Ihrem eigenen Vermögen. Für Schulden, die eine Gläubigerin oder ein Gläubiger nicht angemeldet hat, haften Sie danach weder persönlich noch mit der Erbschaft – ausser die Gläubigerin oder der Gläubiger trifft daran keine Schuld, oder die Forderung wurde trotz Anmeldung nicht aufgenommen; dann haften Sie noch, soweit Sie aus der Erbschaft bereichert sind. Durch ein Pfandrecht an Nachlassgegenständen gesicherte Forderungen können in jedem Fall geltend gemacht werden."
+        "de": "Nehmen Sie die Erbschaft unter öffentlichem Inventar an, gehen nur die im Inventar verzeichneten Schulden auf Sie über; dafür haften Sie sowohl mit der Erbschaft als auch mit Ihrem eigenen Vermögen. Für Schulden, die eine Gläubigerin oder ein Gläubiger nicht angemeldet hat, haften Sie danach weder persönlich noch mit der Erbschaft – ausser die Gläubigerin oder der Gläubiger trifft daran keine Schuld, oder die Forderung wurde trotz Anmeldung nicht aufgenommen; dann haften Sie noch, soweit Sie aus der Erbschaft bereichert sind. Durch ein Pfandrecht an Nachlassgegenständen gesicherte Forderungen können in jedem Fall geltend gemacht werden.",
+        "fr": "Si vous acceptez la succession sous bénéfice d’inventaire, seules les dettes inscrites à l’inventaire passent sur vous ; vous en répondez alors tant avec la succession qu’avec votre propre patrimoine. Pour les dettes qu’une créancière ou un créancier n’a pas annoncées, vous ne répondez ensuite ni personnellement ni avec la succession – sauf si la créancière ou le créancier n’y est pour rien, ou si la créance n’a pas été admise malgré son annonce ; vous en répondez alors encore dans la mesure où vous vous êtes enrichi grâce à la succession. Les créances garanties par un droit de gage sur des objets de la succession peuvent dans tous les cas être exercées.",
+        "it": "Se lei accetta l'eredità con beneficio d'inventario, passano a lei solo i debiti iscritti nell'inventario; per questi risponde sia con l'eredità sia con il suo patrimonio personale. Per i debiti che un creditore non ha annunciato, lei non risponde poi né personalmente né con l'eredità – a meno che il creditore non ne abbia colpa, oppure che il credito, nonostante l'annuncio, non sia stato iscritto; in tal caso lei risponde ancora nella misura in cui si è arricchito a carico dell'eredità. I crediti garantiti da un diritto di pegno su beni dell'eredità possono in ogni caso essere fatti valere.",
+        "en": "If you accept the estate under public inventory, only the debts listed in the inventory pass to you; for these you are liable both with the estate and with your own assets. For debts that a creditor did not register, you are afterwards liable neither personally nor with the estate - unless the creditor was not at fault for this, or the claim was not entered despite being registered; in that case you are still liable to the extent that you are enriched from the estate. Claims secured by a lien on assets of the estate can be asserted in any case.",
+        "rm": "Acceptais Vus l'ierta sut inventari public, passan mo ils debits inscrits en l'inventari sin Vus; per quels respundais Vus tant cun l'ierta sco er cun Vossa atgna facultad. Per debits che ina creditura u in creditur na ha betg annunzià, na respundais Vus pli né persunalmain né cun l'ierta - exceptà la creditura u il creditur n'ha nagina culpa da quai, u la pretensiun n'è betg vegnida inseridas malgrà l'annunzia; lura respundais Vus anc, uschenavant che Vus essas arrichids da l'ierta. Pretensiuns garantidas tras in dretg da pegn sin objects da l'ierta pon vegnir fatgas valair en mintga cas."
       },
       "sources": [
         "zgb-589",
@@ -357,7 +549,11 @@
       "id": "official-liquidation",
       "kind": "rule",
       "text": {
-        "de": "Statt auszuschlagen oder unter öffentlichem Inventar anzunehmen, kann jede Erbin und jeder Erbe die amtliche Liquidation verlangen. Solange auch nur eine Miterbin oder ein Miterbe die Erbschaft annimmt, kann diesem Begehren nicht mehr stattgegeben werden. Bei amtlicher Liquidation werden Sie für die Schulden der Erbschaft nicht haftbar; es haftet nur der Nachlass selbst."
+        "de": "Statt auszuschlagen oder unter öffentlichem Inventar anzunehmen, kann jede Erbin und jeder Erbe die amtliche Liquidation verlangen. Solange auch nur eine Miterbin oder ein Miterbe die Erbschaft annimmt, kann diesem Begehren nicht mehr stattgegeben werden. Bei amtlicher Liquidation werden Sie für die Schulden der Erbschaft nicht haftbar; es haftet nur der Nachlass selbst.",
+        "fr": "Au lieu de répudier ou d’accepter sous bénéfice d’inventaire, chaque héritière et chaque héritier peut demander la liquidation officielle. Dès qu’une seule cohéritière ou un seul cohéritier accepte la succession, il ne peut plus être donné suite à cette requête. En cas de liquidation officielle, vous ne devenez pas responsable des dettes de la succession ; seule la succession elle-même en répond.",
+        "it": "Invece di rinunciare o di accettare con beneficio d'inventario, ogni erede può chiedere la liquidazione d'ufficio. Finché anche un solo coerede accetta l'eredità, questa domanda non può più essere accolta. Con la liquidazione d'ufficio, lei non risponde dei debiti dell'eredità; risponde solo l'eredità stessa.",
+        "en": "Instead of disclaiming or accepting under public inventory, any heir can request official liquidation. As soon as even one co-heir accepts the estate, this request can no longer be granted. Under official liquidation, you do not become liable for the debts of the estate; only the estate itself is liable.",
+        "rm": "Empè da refusar u d'acceptar sut inventari public, po mintga ertavla e mintga ertavel pretender la liquidaziun uffiziala. Uschè ditg che almain in'autra ertavla u in auter ertavel acceptescha l'ierta, na po pli vegnir approvà quest dumonda. Tar la liquidaziun uffiziala na daventais Vus betg responsabels per ils debits da l'ierta; respunda mo il relasch sez."
       },
       "sources": [
         "zgb-593"
@@ -374,7 +570,11 @@
         ]
       },
       "text": {
-        "de": "Auch Gläubigerinnen und Gläubiger der verstorbenen Person können die amtliche Liquidation verlangen, wenn sie begründet befürchten müssen, nicht bezahlt zu werden, und auf ihr Begehren hin weder befriedigt noch sichergestellt werden. Sie müssen dies innert drei Monaten seit dem Tod oder seit der Eröffnung der letztwilligen Verfügung tun."
+        "de": "Auch Gläubigerinnen und Gläubiger der verstorbenen Person können die amtliche Liquidation verlangen, wenn sie begründet befürchten müssen, nicht bezahlt zu werden, und auf ihr Begehren hin weder befriedigt noch sichergestellt werden. Sie müssen dies innert drei Monaten seit dem Tod oder seit der Eröffnung der letztwilligen Verfügung tun.",
+        "fr": "Les créancières et créanciers de la personne décédée peuvent eux aussi demander la liquidation officielle s’ils doivent craindre, pour des motifs fondés, de ne pas être payés, et qu’ils ne sont, sur leur requête, ni désintéressés ni garantis. Ils doivent le faire dans les trois mois à compter du décès ou de l’ouverture de la disposition pour cause de mort.",
+        "it": "Anche i creditori della persona defunta possono chiedere la liquidazione d'ufficio, se hanno fondato motivo di temere di non essere pagati e, su loro richiesta, non vengono né soddisfatti né garantiti. Devono farlo entro tre mesi dalla morte o dall'apertura della disposizione a causa di morte.",
+        "en": "Creditors of the deceased can also request official liquidation if they have good reason to fear they will not be paid, and are neither satisfied nor given security on their request. They must do this within three months of the death or of the opening of the disposition on death.",
+        "rm": "Er cretituras e cretidurs da la persuna defunta pon pretender la liquidaziun uffiziala, sch'els sto temair fundadamain da betg vegnir pajads e n'èn ni satisfatgs ni garantids sin lur dumonda. Els ston far quai entaifer trais mais dapi la mort u dapi l'avertura da la disposiziun testamentara."
       },
       "sources": [
         "zgb-594"
@@ -384,7 +584,11 @@
       "id": "liquidation-process",
       "kind": "rule",
       "text": {
-        "de": "Die amtliche Liquidation führt die zuständige Behörde oder eine von ihr beauftragte Liquidatorin oder ein Liquidator durch, unter Aufsicht der Behörde. Sie beginnt mit einem Inventar samt Rechnungsruf wie beim öffentlichen Inventar. Laufende Geschäfte werden beendet, Forderungen der verstorbenen Person eingezogen, ihre Verpflichtungen erfüllt und ihr Vermögen zu Geld gemacht; Grundstücke werden öffentlich versteigert, ausser alle Erbinnen und Erben stimmen einem freihändigen Verkauf zu. Was für die Liquidation nicht gebraucht wird, kann Ihnen schon während des Verfahrens ganz oder teilweise ausgehändigt werden. Stellt sich heraus, dass die Erbschaft überschuldet ist, wird sie stattdessen durch das Konkursamt nach den Regeln des Konkursrechts liquidiert."
+        "de": "Die amtliche Liquidation führt die zuständige Behörde oder eine von ihr beauftragte Liquidatorin oder ein Liquidator durch, unter Aufsicht der Behörde. Sie beginnt mit einem Inventar samt Rechnungsruf wie beim öffentlichen Inventar. Laufende Geschäfte werden beendet, Forderungen der verstorbenen Person eingezogen, ihre Verpflichtungen erfüllt und ihr Vermögen zu Geld gemacht; Grundstücke werden öffentlich versteigert, ausser alle Erbinnen und Erben stimmen einem freihändigen Verkauf zu. Was für die Liquidation nicht gebraucht wird, kann Ihnen schon während des Verfahrens ganz oder teilweise ausgehändigt werden. Stellt sich heraus, dass die Erbschaft überschuldet ist, wird sie stattdessen durch das Konkursamt nach den Regeln des Konkursrechts liquidiert.",
+        "fr": "La liquidation officielle est effectuée par l’autorité compétente ou par une liquidatrice ou un liquidateur qu’elle mandate, sous la surveillance de l’autorité. Elle commence par un inventaire assorti d’un appel aux créanciers, comme pour le bénéfice d’inventaire. Les affaires courantes sont terminées, les créances de la personne décédée sont recouvrées, ses obligations sont exécutées et son patrimoine est réalisé en espèces ; les immeubles sont vendus aux enchères publiques, sauf si toutes les héritières et tous les héritiers acceptent une vente de gré à gré. Ce qui n’est pas nécessaire à la liquidation peut déjà vous être remis, en tout ou en partie, pendant la procédure. S’il s’avère que la succession est surendettée, elle est liquidée à la place par l’office des faillites selon les règles du droit de la faillite.",
+        "it": "La liquidazione d'ufficio è eseguita dall'autorità competente o da un liquidatore da essa incaricato, sotto la vigilanza dell'autorità. Essa inizia con un inventario e un pubblico avviso ai creditori come per il beneficio d'inventario. Gli affari correnti vengono conclusi, i crediti della persona defunta incassati, i suoi obblighi adempiuti e il suo patrimonio realizzato; i fondi vengono venduti all'asta pubblica, a meno che tutti gli eredi acconsentano a una vendita a trattativa privata. Ciò che non serve per la liquidazione può esserle consegnato, in tutto o in parte, già durante la procedura. Se risulta che l'eredità è oberata di debiti, essa viene liquidata invece dall'ufficio dei fallimenti secondo le regole del diritto fallimentare.",
+        "en": "Official liquidation is carried out by the competent authority or by a liquidator it appoints, under the authority's supervision. It begins with an inventory together with a public call for claims, as with the public inventory. Ongoing business is wound up, claims of the deceased are collected, their obligations are performed, and their assets are converted into cash; land is sold at public auction, unless all the heirs agree to a private sale. Whatever is not needed for the liquidation can be handed over to you, in whole or in part, even during the proceedings. If it turns out that the estate is over-indebted, it is instead liquidated by the bankruptcy office under the rules of bankruptcy law.",
+        "rm": "La liquidaziun uffiziala vegn exequida da l'autoritad cumpetenta u d'ina administratura d'ierta u d'in administratur d'ierta incumbensà da quella, sut surveglianza da l'autoritad. Ella cumenza cun in inventari cun clom da quintas sco tar l'inventari public. Fatschendas currentas vegnan terminadas, pretensiuns da la persuna defunta incassadas, sias obligaziuns ademplidas e sia facultad transfurmada en daners; bains immobigliars vegnan vendids publicamain a l'incant, exceptà tut las ertavlas ed ils ertavels d'accordan ad ina vendita da maun libra. Quai che na vegn betg duvrà per la liquidaziun, po Vus vegnir surdà entiramain u per part gia durant la procedura. Sa mussa ch'il relasch è surdebitgà, vegn el liquidà invece tras l'uffizi da concurs tenor las reglas dal dretg da concurs."
       },
       "sources": [
         "zgb-595",
@@ -396,7 +600,11 @@
       "id": "enforcement-standstill",
       "kind": "warning",
       "text": {
-        "de": "Für Schulden der verstorbenen Person darf während der ersten zwei Wochen nach dem Tod nicht gegen die Erbschaft oder gegen Sie als Erbin oder Erben betrieben werden; dieser Rechtsstillstand dauert zusätzlich während der ganzen Zeit, die Ihnen für die Ausschlagung oder Annahme eingeräumt ist. Eine bereits zu Lebzeiten der verstorbenen Person eingeleitete Betreibung kann danach gegen die Erbschaft als solche fortgesetzt werden; sie erfasst dann nur das Nachlassvermögen, nicht Ihr eigenes. Ist die Ausschlagungsfrist abgelaufen, können Gläubigerinnen und Gläubiger auch gegen Sie persönlich betreiben; haben Sie unter öffentlichem Inventar angenommen, nur für die im Inventar verzeichneten Schulden."
+        "de": "Für Schulden der verstorbenen Person darf während der ersten zwei Wochen nach dem Tod nicht gegen die Erbschaft oder gegen Sie als Erbin oder Erben betrieben werden; dieser Rechtsstillstand dauert zusätzlich während der ganzen Zeit, die Ihnen für die Ausschlagung oder Annahme eingeräumt ist. Eine bereits zu Lebzeiten der verstorbenen Person eingeleitete Betreibung kann danach gegen die Erbschaft als solche fortgesetzt werden; sie erfasst dann nur das Nachlassvermögen, nicht Ihr eigenes. Ist die Ausschlagungsfrist abgelaufen, können Gläubigerinnen und Gläubiger auch gegen Sie persönlich betreiben; haben Sie unter öffentlichem Inventar angenommen, nur für die im Inventar verzeichneten Schulden.",
+        "fr": "Pour les dettes de la personne décédée, aucune poursuite ne peut être engagée contre la succession ou contre vous en tant qu’héritière ou héritier pendant les deux premières semaines suivant le décès ; cette suspension de la poursuite dure en outre pendant tout le temps qui vous est accordé pour la répudiation ou l’acceptation. Une poursuite déjà introduite du vivant de la personne décédée peut ensuite être continuée contre la succession en tant que telle ; elle ne porte alors que sur le patrimoine successoral, pas sur le vôtre. Si le délai de répudiation est écoulé, les créancières et créanciers peuvent aussi poursuivre contre vous personnellement ; si vous avez accepté sous bénéfice d’inventaire, seulement pour les dettes inscrites à l’inventaire.",
+        "it": "Per i debiti della persona defunta non si può procedere in via esecutiva contro l'eredità o contro di lei come erede durante le prime due settimane dopo la morte; questa sospensione dell'esecuzione dura inoltre per tutto il tempo concesso per la rinuncia o l'accettazione. Un'esecuzione già avviata in vita della persona defunta può poi essere proseguita contro l'eredità in quanto tale; essa colpisce allora solo il patrimonio dell'eredità, non il suo proprio. Scaduto il termine per la rinuncia, i creditori possono procedere anche contro di lei personalmente; se ha accettato con beneficio d'inventario, solo per i debiti iscritti nell'inventario.",
+        "en": "For debts of the deceased, no debt enforcement may be brought against the estate or against you as an heir during the first two weeks after the death; this standstill also lasts for the whole of the further time allowed to you for disclaiming or accepting the inheritance. Debt enforcement proceedings already brought during the deceased's lifetime can afterwards be continued against the estate as such; they then only affect the estate's assets, not your own. Once the time limit for disclaiming has expired, creditors can also bring debt enforcement against you personally; if you accepted under public inventory, only for the debts listed in the inventory.",
+        "rm": "Per debits da la persuna defunta na dastga vegnir scussì cunter l'ierta u cunter Vus sco ertavla u ertavel durant las emprimas duas emnas suenter la mort; quest stapagiament dal dretg dura supplementarmain durant tut il temp che Vus vegn conceda per la refusa u l'acceptaziun. Ina scussiun gia iniziada durant vita da la persuna defunta po vegnir cuntinuada suenter cunter l'ierta sco tala; ella pertutga lura mo la facultad dal relasch, betg Vossa atgna. È il termin da refusa scadì, pon cretituras e crediturs scussir er cunter Vus persunalmain; avais Vus acceptà sut inventari public, mo per ils debits inscrits en l'inventari."
       },
       "sources": [
         "schkg-59",
@@ -407,14 +615,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung ein, wenn die Vermögensverhältnisse gross, unklar oder streitig sind, wenn die verstorbene Person ein Geschäft oder eine Einzelfirma betrieben hat, wenn Grundstücke im In- oder Ausland zum Nachlass gehören, wenn die verstorbene Person Bürgschaften oder Garantien eingegangen ist, wenn Miterbinnen oder Miterben im Ausland wohnen, oder wenn Sie unsicher sind, ob eine Frist bereits läuft oder schon abgelaufen ist. Wegen der kurzen Fristen sollten Sie damit nicht zuwarten."
+        "de": "Holen Sie persönliche Beratung ein, wenn die Vermögensverhältnisse gross, unklar oder streitig sind, wenn die verstorbene Person ein Geschäft oder eine Einzelfirma betrieben hat, wenn Grundstücke im In- oder Ausland zum Nachlass gehören, wenn die verstorbene Person Bürgschaften oder Garantien eingegangen ist, wenn Miterbinnen oder Miterben im Ausland wohnen, oder wenn Sie unsicher sind, ob eine Frist bereits läuft oder schon abgelaufen ist. Wegen der kurzen Fristen sollten Sie damit nicht zuwarten.",
+        "fr": "Faites-vous conseiller personnellement si la situation patrimoniale est importante, peu claire ou litigieuse, si la personne décédée exploitait une entreprise ou une raison individuelle, si des immeubles en Suisse ou à l’étranger font partie de la succession, si la personne décédée a contracté des cautionnements ou des garanties, si des cohéritières ou cohéritiers habitent à l’étranger, ou si vous n’êtes pas sûr qu’un délai court déjà ou soit déjà échu. En raison des délais courts, vous ne devriez pas attendre pour le faire.",
+        "it": "Si faccia consigliare personalmente se la situazione patrimoniale è ampia, poco chiara o controversa, se la persona defunta gestiva un'azienda o una ditta individuale, se fondi in Svizzera o all'estero fanno parte dell'eredità, se la persona defunta aveva prestato fideiussioni o garanzie, se dei coeredi risiedono all'estero, oppure se lei è incerto se un termine sia già in corso o già scaduto. A causa dei termini brevi, non dovrebbe attendere.",
+        "en": "Get personal advice if the financial affairs are large, unclear or disputed, if the deceased ran a business or a sole proprietorship, if land in Switzerland or abroad belongs to the estate, if the deceased entered into sureties or guarantees, if co-heirs live abroad, or if you are unsure whether a time limit is already running or has already expired. Because the time limits are short, you should not wait to do this.",
+        "rm": "Retschertgai consulaziun persunala, sche las relaziuns da facultad èn grondas, nunclaras u litigiusas, sche la persuna defunta ha manà in commerzi u ina firma individuala, sche bains immobigliars en Svizra u a l'exteriur tutgan al relasch, sche la persuna defunta è entrada en garanzias, sche co-ertavlas u co-ertavels abitan a l'exteriur, u sche Vus essas nunsegirs, sch'in termin curra gia u è gia scadì. Pervia dals termins curts na duessas Vus betg spetgar cun quai."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an, oft über die Gerichte oder die Anwaltsverbände. Notariate führen regelmässig öffentliche Informationstage zu Erbschaftsfragen durch. Pro Senectute berät ältere Menschen und ihre Angehörigen auch zu Erbschaftsfragen. Sind minderjährige Kinder Erbinnen oder Erben, kann die Kindes- und Erwachsenenschutzbehörde (KESB) beigezogen werden, um deren Interessen in der Erbschaft zu wahren."
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an, oft über die Gerichte oder die Anwaltsverbände. Notariate führen regelmässig öffentliche Informationstage zu Erbschaftsfragen durch. Pro Senectute berät ältere Menschen und ihre Angehörigen auch zu Erbschaftsfragen. Sind minderjährige Kinder Erbinnen oder Erben, kann die Kindes- und Erwachsenenschutzbehörde (KESB) beigezogen werden, um deren Interessen in der Erbschaft zu wahren.",
+        "fr": "Aide gratuite ou à faible coût : de nombreux cantons offrent une consultation juridique gratuite ou à faible coût, souvent par l’intermédiaire des tribunaux ou des associations d’avocats. Les notariats organisent régulièrement des journées d’information publiques sur les questions successorales. Pro Senectute conseille aussi les personnes âgées et leurs proches sur les questions successorales. Si des enfants mineurs sont héritières ou héritiers, l’autorité de protection de l’enfant et de l’adulte (APEA) peut être impliquée pour sauvegarder leurs intérêts dans la succession.",
+        "it": "Aiuto gratuito o a basso costo: molti Cantoni offrono una consulenza giuridica gratuita o a basso costo, spesso tramite i tribunali o le associazioni di avvocati. I notariati organizzano regolarmente giornate informative pubbliche su questioni successorie. Pro Senectute consiglia le persone anziane e i loro congiunti anche su questioni successorie. Se figli minorenni sono eredi, può essere coinvolta l'Autorità di protezione dei minori e degli adulti (APMA) per tutelare i loro interessi nell'eredità.",
+        "en": "Free or low-cost help: many cantons offer free or low-cost legal information, often through the courts or the bar associations. Notaries' offices regularly hold public information days on inheritance questions. Pro Senectute also advises older people and their families on inheritance questions. If minor children are heirs, the child and adult protection authority (KESB) can be involved to safeguard their interests in the estate.",
+        "rm": "Agid gratuit u avantagius: blers chantuns offran ina consulaziun giuridica gratuita u avantagiusa, savens tras las dretgiras u las federaziuns d'advocatas ed advocats. Notariats exequeschan regularmain dis d'infurmaziun public davart dumondas d'ierta. Pro Senectute cussegia persunas pli veglias e lur confamigliars er davart dumondas d'ierta. Èn uffants minorens ertavlas u ertavels, po l'autoritad per la protecziun da creschids (KESB) vegnir tratga en quint, per proteger lur interess en l'ierta."
       }
     }
   ],
@@ -681,13 +897,21 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Ein Erbe annehmen oder ausschlagen"
+        "de": "ch.ch: Ein Erbe annehmen oder ausschlagen",
+        "fr": "ch.ch : Accepter ou répudier un héritage",
+        "it": "ch.ch: Accettare o rinunciare a un'eredità",
+        "en": "ch.ch: Accepting or disclaiming an inheritance",
+        "rm": "ch.ch: Acceptar u refusar in'ierta"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/erbe-ausschlagen/"
     },
     {
       "label": {
-        "de": "ch.ch: Todesfall – Checkliste"
+        "de": "ch.ch: Todesfall – Checkliste",
+        "fr": "ch.ch : Décès – check-list",
+        "it": "ch.ch: Decesso – lista di controllo",
+        "en": "ch.ch: Death - checklist",
+        "rm": "ch.ch: Cas da mort - glista da controlla"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/todesfall/todesfall-checkliste/"
     }

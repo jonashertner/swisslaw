@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Klimaschutz: Was kann ich rechtlich tun?"
+    "de": "Klimaschutz: Was kann ich rechtlich tun?",
+    "fr": "Protection du climat : que puis-je faire sur le plan juridique ?",
+    "it": "Protezione del clima: cosa posso fare a livello giuridico?",
+    "en": "Climate protection: what can I do legally?",
+    "rm": "Protecziun dal clima: Tge poss jau far giuridicamain?"
   },
   "summary": {
-    "de": "Die Schweiz hat sich per Gesetz verpflichtet, bis 2050 unter dem Strich keine Treibhausgase mehr auszustossen. Diese Ziele binden den Staat. Als Einzelperson können Sie sie aber fast nie vor Gericht einklagen, und eine Klage im Namen der Allgemeinheit gibt es nicht. Wirksam sind vor allem politische Wege: wählen und abstimmen, Initiativen und Referenden, Petitionen und Stellungnahmen in Vernehmlassungen. Dazu kommen das Recht auf Umweltinformationen und, bei grossen Bauprojekten, die rechtzeitige Mitwirkung über beschwerdeberechtigte Organisationen. Der Europäische Gerichtshof für Menschenrechte hat 2024 einem Schweizer Klimaverein recht gegeben, die Beschwerden der einzelnen Frauen aber nicht zugelassen."
+    "de": "Die Schweiz hat sich per Gesetz verpflichtet, bis 2050 unter dem Strich keine Treibhausgase mehr auszustossen. Diese Ziele binden den Staat. Als Einzelperson können Sie sie aber fast nie vor Gericht einklagen, und eine Klage im Namen der Allgemeinheit gibt es nicht. Wirksam sind vor allem politische Wege: wählen und abstimmen, Initiativen und Referenden, Petitionen und Stellungnahmen in Vernehmlassungen. Dazu kommen das Recht auf Umweltinformationen und, bei grossen Bauprojekten, die rechtzeitige Mitwirkung über beschwerdeberechtigte Organisationen. Der Europäische Gerichtshof für Menschenrechte hat 2024 einem Schweizer Klimaverein recht gegeben, die Beschwerden der einzelnen Frauen aber nicht zugelassen.",
+    "fr": "La Suisse s'est engagée par la loi à ne plus émettre, au net, de gaz à effet de serre d'ici 2050. Ces objectifs lient l'État. En tant que personne privée, vous ne pouvez toutefois presque jamais les faire valoir en justice, et il n'existe pas d'action dans l'intérêt général. Les voies efficaces sont surtout politiques : voter, participer aux élections, lancer ou signer des initiatives et des référendums, déposer des pétitions et prendre position dans les procédures de consultation. S'y ajoutent le droit aux informations sur l'environnement et, pour les grands projets de construction, la participation en temps utile par l'intermédiaire d'organisations habilitées à recourir. La Cour européenne des droits de l'homme a donné raison en 2024 à une association climatique suisse, mais a déclaré irrecevables les recours des femmes prises individuellement.",
+    "it": "La Svizzera si è impegnata per legge a non emettere più, nel bilancio complessivo, gas serra entro il 2050. Questi obiettivi vincolano lo Stato. Come persona singola, però, non può quasi mai farli valere davanti a un tribunale, e un'azione a nome della collettività non esiste. Efficaci sono soprattutto le vie politiche: votare ed eleggere, iniziative e referendum, petizioni e prese di posizione nelle procedure di consultazione. A ciò si aggiungono il diritto alle informazioni ambientali e, per i grandi progetti edilizi, la partecipazione tempestiva tramite le organizzazioni legittimate a ricorrere. La Corte europea dei diritti dell'uomo nel 2024 ha dato ragione a un'associazione svizzera per il clima, ma non ha ammesso i ricorsi delle singole donne.",
+    "en": "Switzerland has committed itself by law to emitting, on balance, no more greenhouse gases by 2050. These targets bind the state. As an individual, however, you can almost never enforce them in court, and there is no such thing as an action on behalf of the general public. What is effective is mainly the political route: voting in elections and referendums, initiatives and referendums, petitions, and statements in consultation procedures. In addition there is the right to environmental information and, for large construction projects, timely participation through organisations entitled to appeal. In 2024 the European Court of Human Rights ruled in favour of a Swiss climate association, but declared the individual women's complaints inadmissible.",
+    "rm": "Tras lescha è la Svizra obligada da n'emetter pli, fin il 2050, en total nagins gas cun effect da serra. Questas finamiras liaan il stadi. Sco persuna singula na pudais Vus dentant quasi mai far valair questas finamiras avant dretgira, ed ina plant en num da la generalitad n'exista betg. Efficazs èn surtut las vias politicas: eleger e votar, iniziativas e referendums, petiziuns e posiziuns en consultaziuns. A quai s'agiundschan il dretg a infurmaziuns davart l'ambient e, tar gronds projects da construcziun, la participaziun a temp tras organisaziuns cun dretg da far recurs. Il 2024 ha la Dretgira europeica dals dretgs umans dà resasch ad in'associaziun svizra per il clima, ma n'ha betg admess ils recurs da las singulas dunnas."
   },
   "examples": {
     "de": [
@@ -19,45 +27,105 @@
       "Ich bin herzkrank und halte die Hitze im Sommer kaum aus. Muss der Staat mich schützen?",
       "Wo finde ich offizielle Zahlen zum CO2-Ausstoss der Schweiz?",
       "Wir wollen als Verein etwas gegen die lasche Klimapolitik unternehmen. Geht das rechtlich?"
+    ],
+    "fr": [
+      "Puis-je poursuivre la Confédération parce qu'elle n'en fait pas assez pour le climat ?",
+      "Qu'est-ce que l'arrêt KlimaSeniorinnen m'apporte personnellement ?",
+      "On prévoit une nouvelle autoroute chez nous. Puis-je faire opposition à cause du climat ?",
+      "Je suis cardiaque et je supporte à peine la chaleur en été. L'État doit-il me protéger ?",
+      "Où trouver les chiffres officiels sur les émissions de CO2 de la Suisse ?",
+      "Nous voulons agir en tant qu'association contre une politique climatique trop molle. Est-ce possible juridiquement ?"
+    ],
+    "it": [
+      "Posso citare in giudizio la Confederazione perché fa troppo poco per il clima?",
+      "Cosa mi porta personalmente la sentenza delle Anziane per il clima?",
+      "Vicino a noi vogliono costruire una nuova autostrada. Posso fare opposizione per motivi climatici?",
+      "Sono malata di cuore e d'estate fatico a sopportare il caldo. Lo Stato deve proteggermi?",
+      "Dove trovo dati ufficiali sulle emissioni di CO2 della Svizzera?",
+      "Come associazione vorremmo fare qualcosa contro la politica climatica troppo blanda. È possibile a livello giuridico?"
+    ],
+    "en": [
+      "Can I sue the Confederation for not doing enough for the climate?",
+      "What does the KlimaSeniorinnen judgment actually do for me personally?",
+      "A new motorway is planned near us. Can I object because of the climate?",
+      "I have heart disease and can barely stand the heat in summer. Does the state have to protect me?",
+      "Where do I find official figures on Switzerland's CO2 emissions?",
+      "We want to do something as an association about weak climate policy. Is that legally possible?"
+    ],
+    "rm": [
+      "Poss jau far plant cunter la Confederaziun, perquai ch'ella fa memia pauc per il clima?",
+      "Tge profit hai jau persunalmain da la sentenzia da las KlimaSeniorinnas?",
+      "Tar nus vulan els fabritgar in'autostrada nova. Poss jau far protesta pervia dal clima?",
+      "Jau sun cardiopat e na sopport gist betg la chalur en stad. Sto il stadi proteger mai?",
+      "Nua chattain jau cifras uffizialas davart l'output da CO2 da la Svizra?",
+      "Nus vulain far insatge sco associaziun cunter la politica dal clima memia flaivla. È quai giuridicamain pussaivel?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Was Einzelpersonen und Vereine rechtlich tun können, damit Bund und Kantone mehr für den Klimaschutz tun: die gesetzlichen Klimaziele, die Grenzen von Klagen, das Urteil des Europäischen Gerichtshofs für Menschenrechte von 2024, politische Mitwirkung, Petition, Vernehmlassung, Umweltinformationen, Aufsichtsanzeigen und die Mitwirkung bei grossen Bauprojekten."
+      "de": "Was Einzelpersonen und Vereine rechtlich tun können, damit Bund und Kantone mehr für den Klimaschutz tun: die gesetzlichen Klimaziele, die Grenzen von Klagen, das Urteil des Europäischen Gerichtshofs für Menschenrechte von 2024, politische Mitwirkung, Petition, Vernehmlassung, Umweltinformationen, Aufsichtsanzeigen und die Mitwirkung bei grossen Bauprojekten.",
+      "fr": "Ce que les particuliers et les associations peuvent faire juridiquement pour que la Confédération et les cantons en fassent davantage pour la protection du climat : les objectifs climatiques légaux, les limites des actions en justice, l'arrêt de la Cour européenne des droits de l'homme de 2024, la participation politique, la pétition, la consultation, les informations sur l'environnement, les dénonciations à l'autorité de surveillance et la participation aux grands projets de construction.",
+      "it": "Cosa possono fare a livello giuridico le persone singole e le associazioni affinché Confederazione e Cantoni facciano di più per la protezione del clima: gli obiettivi climatici di legge, i limiti delle azioni giudiziarie, la sentenza della Corte europea dei diritti dell'uomo del 2024, la partecipazione politica, la petizione, la procedura di consultazione, le informazioni ambientali, le denunce all'autorità di vigilanza e la partecipazione nei grandi progetti edilizi.",
+      "en": "What individuals and associations can do legally to make the Confederation and the cantons do more for climate protection: the statutory climate targets, the limits of legal action, the 2024 judgment of the European Court of Human Rights, political participation, petitions, consultation procedures, environmental information, supervisory complaints, and participation in large construction projects.",
+      "rm": "Tge che persunas singulas ed associaziuns pon far giuridicamain, per che la Confederaziun ed ils chantuns fetschian dapli per la protecziun dal clima: las finamiras legalas dal clima, ils limits da plants, la sentenzia da la Dretgira europeica dals dretgs umans dal 2024, la participaziun politica, la petiziun, la consultaziun, las infurmaziuns davart l'ambient, ils recurs da surveglianza e la participaziun tar gronds projects da construcziun."
     },
     "excludes": {
-      "de": "Streit mit Nachbarn (etwa um Wärmepumpen oder Cheminées), Klagen gegen private Unternehmen auf Schadenersatz, Strafverfahren gegen Klimaaktivistinnen und -aktivisten sowie Förderbeiträge für das eigene Haus. Kantonale Verfahren und Fristen sind nur allgemein beschrieben; sie richten sich nach dem Recht Ihres Kantons."
+      "de": "Streit mit Nachbarn (etwa um Wärmepumpen oder Cheminées), Klagen gegen private Unternehmen auf Schadenersatz, Strafverfahren gegen Klimaaktivistinnen und -aktivisten sowie Förderbeiträge für das eigene Haus. Kantonale Verfahren und Fristen sind nur allgemein beschrieben; sie richten sich nach dem Recht Ihres Kantons.",
+      "fr": "Les litiges avec des voisins (par exemple à propos de pompes à chaleur ou de cheminées), les actions en dommages-intérêts contre des entreprises privées, les procédures pénales contre des personnes militant pour le climat, ainsi que les aides financières pour sa propre maison. Les procédures et délais cantonaux ne sont décrits que de manière générale ; ils se règlent selon le droit de votre canton.",
+      "it": "Le controversie con i vicini (per esempio su pompe di calore o caminetti), le azioni di risarcimento del danno contro imprese private, i procedimenti penali contro attiviste e attivisti per il clima, nonché i contributi di promozione per la propria casa. Le procedure e i termini cantonali sono descritti solo in generale; dipendono dal diritto del suo Cantone.",
+      "en": "Disputes with neighbours (for example about heat pumps or fireplaces), claims for damages against private companies, criminal proceedings against climate activists, and subsidies for your own house. Cantonal procedures and time limits are described only in general terms; they follow the law of your canton.",
+      "rm": "Dispitas cun vischins (per exempel pervia da pumpas da chalur u chaminéus), plants cunter interpresas privatas per indemnisaziun, proceduras penalas cunter activistas ed activists dal clima sco er contribuziuns da promoziun per l'atgna chasa. Proceduras e termins chantunals èn descrits mo en general; els sa drizzan tenor il dretg da Voss chantun."
     }
   },
   "facts": [
     {
       "key": "want",
       "question": {
-        "de": "Was möchten Sie erreichen?"
+        "de": "Was möchten Sie erreichen?",
+        "fr": "Que voulez-vous obtenir ?",
+        "it": "Cosa vorrebbe ottenere?",
+        "en": "What would you like to achieve?",
+        "rm": "Tge vulais Vus cuntanscher?"
       },
       "options": [
         {
           "value": "state",
           "label": {
-            "de": "Dass Bund oder Kanton mehr für den Klimaschutz tun"
+            "de": "Dass Bund oder Kanton mehr für den Klimaschutz tun",
+            "fr": "Que la Confédération ou le canton en fasse davantage pour la protection du climat",
+            "it": "Che Confederazione o Cantone facciano di più per la protezione del clima",
+            "en": "That the Confederation or a canton does more for climate protection",
+            "rm": "Che la Confederaziun u il chantun fetschian dapli per la protecziun dal clima"
           }
         },
         {
           "value": "project",
           "label": {
-            "de": "Ein bestimmtes Projekt mit hohem Ausstoss verhindern oder ändern, zum Beispiel eine Strasse oder eine grosse Anlage"
+            "de": "Ein bestimmtes Projekt mit hohem Ausstoss verhindern oder ändern, zum Beispiel eine Strasse oder eine grosse Anlage",
+            "fr": "Empêcher ou modifier un projet précis à fortes émissions, par exemple une route ou une grande installation",
+            "it": "Impedire o modificare un determinato progetto con emissioni elevate, per esempio una strada o un grande impianto",
+            "en": "Prevent or change a specific high-emission project, for example a road or a large facility",
+            "rm": "Impedir u midar in tschert project cun grond output, per exempel ina via u in'installaziun granda"
           }
         },
         {
           "value": "facts",
           "label": {
-            "de": "Fakten und Zahlen erfahren"
+            "de": "Fakten und Zahlen erfahren",
+            "fr": "Connaître des faits et des chiffres",
+            "it": "Conoscere fatti e cifre",
+            "en": "Find out facts and figures",
+            "rm": "Emprender fatgs e cifras"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich noch nicht"
+            "de": "Weiss ich noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Na sai anc betg"
           }
         }
       ]
@@ -65,25 +133,41 @@
     {
       "key": "alone",
       "question": {
-        "de": "Handeln Sie allein oder mit anderen zusammen?"
+        "de": "Handeln Sie allein oder mit anderen zusammen?",
+        "fr": "Agissez-vous seul ou avec d'autres ?",
+        "it": "Agisce da sola o insieme ad altri?",
+        "en": "Are you acting alone or together with others?",
+        "rm": "Agis Vus persunalmain u ensemen cun auters?"
       },
       "options": [
         {
           "value": "alone",
           "label": {
-            "de": "Allein"
+            "de": "Allein",
+            "fr": "Seul",
+            "it": "Da sola",
+            "en": "Alone",
+            "rm": "Persunalmain"
           }
         },
         {
           "value": "group",
           "label": {
-            "de": "Ich bin in einem Verein oder würde mich einem anschliessen"
+            "de": "Ich bin in einem Verein oder würde mich einem anschliessen",
+            "fr": "Je suis membre d'une association ou j'y adhérerais",
+            "it": "Sono in un'associazione o vi aderirei",
+            "en": "I am in an association, or would join one",
+            "rm": "Jau sun commember d'in'associaziun u vuless daventar commember d'ina"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -91,28 +175,48 @@
     {
       "key": "exposed",
       "question": {
-        "de": "Sind Sie durch den Klimawandel persönlich besonders gefährdet?"
+        "de": "Sind Sie durch den Klimawandel persönlich besonders gefährdet?",
+        "fr": "Êtes-vous personnellement particulièrement exposé au changement climatique ?",
+        "it": "È personalmente particolarmente esposta ai cambiamenti climatici?",
+        "en": "Are you personally especially at risk from climate change?",
+        "rm": "Essas Vus persunalmain spezialmain periclità tras la midada dal clima?"
       },
       "help": {
-        "de": "Zum Beispiel, weil eine schwere Krankheit bei Hitze deutlich schlimmer wird. Gemeint ist mehr als das, was die meisten Menschen in der Schweiz erleben."
+        "de": "Zum Beispiel, weil eine schwere Krankheit bei Hitze deutlich schlimmer wird. Gemeint ist mehr als das, was die meisten Menschen in der Schweiz erleben.",
+        "fr": "Par exemple parce qu'une maladie grave s'aggrave nettement en cas de chaleur. Il s'agit de plus que ce que vit la majorité de la population en Suisse.",
+        "it": "Per esempio perché una malattia grave peggiora notevolmente con il caldo. Si intende più di quanto vive la maggior parte delle persone in Svizzera.",
+        "en": "For example, because a serious illness becomes markedly worse in heat. This means more than what most people in Switzerland experience.",
+        "rm": "Per exempel, perquai ch'ina grava malsogna daventa considerablamain pli greva a chaschun da chalur. Noziun è dapli che quai che la gronda part da la populaziun en Svizra emprova."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -123,7 +227,11 @@
       "id": "targets",
       "kind": "rule",
       "text": {
-        "de": "Das Klima- und Innovationsgesetz (KlG) verpflichtet den Bund: Bis 2050 soll die Wirkung der Treibhausgase aus der Schweiz unter dem Strich null betragen (Netto-Null). Dafür gibt es Zwischenziele, gemessen an 1990: im Durchschnitt der Jahre 2031 bis 2040 mindestens 64 Prozent weniger, bis 2040 mindestens 75 Prozent weniger und im Durchschnitt der Jahre 2041 bis 2050 mindestens 89 Prozent weniger. Das CO2-Gesetz verlangt, dass der Ausstoss 2030 höchstens halb so gross ist wie 1990. Bund und Kantone müssen sich im Rahmen ihrer Zuständigkeiten für diese Ziele einsetzen. Auch andere Gesetze, etwa zu Energie, Raumplanung oder Verkehr, sollen so gestaltet und angewendet werden, dass sie zu den Zielen beitragen. Wichtig: Diese Ziele richten sich an den Staat. Keines dieser Gesetze gibt Ihnen ein eigenes Klagerecht, mit dem Sie ihre Einhaltung erzwingen könnten."
+        "de": "Das Klima- und Innovationsgesetz (KlG) verpflichtet den Bund: Bis 2050 soll die Wirkung der Treibhausgase aus der Schweiz unter dem Strich null betragen (Netto-Null). Dafür gibt es Zwischenziele, gemessen an 1990: im Durchschnitt der Jahre 2031 bis 2040 mindestens 64 Prozent weniger, bis 2040 mindestens 75 Prozent weniger und im Durchschnitt der Jahre 2041 bis 2050 mindestens 89 Prozent weniger. Das CO2-Gesetz verlangt, dass der Ausstoss 2030 höchstens halb so gross ist wie 1990. Bund und Kantone müssen sich im Rahmen ihrer Zuständigkeiten für diese Ziele einsetzen. Auch andere Gesetze, etwa zu Energie, Raumplanung oder Verkehr, sollen so gestaltet und angewendet werden, dass sie zu den Zielen beitragen. Wichtig: Diese Ziele richten sich an den Staat. Keines dieser Gesetze gibt Ihnen ein eigenes Klagerecht, mit dem Sie ihre Einhaltung erzwingen könnten.",
+        "fr": "La loi sur le climat et l'innovation (LCl) engage la Confédération : d'ici 2050, l'effet des gaz à effet de serre provenant de la Suisse doit être nul au net (zéro net). Des objectifs intermédiaires existent pour cela, mesurés par rapport à 1990 : en moyenne des années 2031 à 2040, au moins 64 pour cent de moins, d'ici 2040 au moins 75 pour cent de moins, et en moyenne des années 2041 à 2050 au moins 89 pour cent de moins. La loi sur le CO2 exige qu'en 2030 les émissions soient au plus la moitié de celles de 1990. La Confédération et les cantons doivent s'engager pour ces objectifs dans le cadre de leurs compétences. D'autres lois aussi, par exemple sur l'énergie, l'aménagement du territoire ou les transports, doivent être conçues et appliquées de manière à contribuer à ces objectifs. Important : ces objectifs s'adressent à l'État. Aucune de ces lois ne vous donne un droit d'action propre pour en exiger le respect.",
+        "it": "La legge sul clima e sull'innovazione (LCI) obbliga la Confederazione: entro il 2050 l'effetto dei gas serra provenienti dalla Svizzera dovrà essere, nel bilancio complessivo, pari a zero (zero netto). A tal fine esistono obiettivi intermedi, misurati rispetto al 1990: nella media degli anni 2031-2040 una riduzione di almeno il 64 per cento, entro il 2040 una riduzione di almeno il 75 per cento e nella media degli anni 2041-2050 una riduzione di almeno l'89 per cento. La legge sul CO2 richiede che nel 2030 le emissioni siano al massimo la metà di quelle del 1990. Confederazione e Cantoni devono impegnarsi per questi obiettivi nell'ambito delle loro competenze. Anche altre leggi, per esempio su energia, pianificazione del territorio o traffico, devono essere concepite e applicate in modo da contribuire a questi obiettivi. Importante: questi obiettivi si rivolgono allo Stato. Nessuna di queste leggi le conferisce un proprio diritto d'azione con cui poterne imporre il rispetto.",
+        "en": "The Climate and Innovation Act (KlG) commits the Confederation: by 2050, the effect of greenhouse gases from Switzerland should, on balance, be zero (net zero). There are interim targets for this, measured against 1990: on average over 2031 to 2040 at least 64 percent less, by 2040 at least 75 percent less, and on average over 2041 to 2050 at least 89 percent less. The CO2 Act requires emissions in 2030 to be at most half what they were in 1990. The Confederation and the cantons must work towards these targets within their areas of responsibility. Other laws too, for example on energy, spatial planning or transport, are to be designed and applied so that they contribute to the targets. Important: these targets are addressed to the state. None of these laws gives you your own right of action to enforce compliance with them.",
+        "rm": "La Lescha davart la protecziun dal clima e l'innovaziun (KlG) obligescha la Confederaziun: Fin il 2050 duai l'effect dals gas cun effect da serra da la Svizra importar en total nulla (nett-zero). Per quai datti finamiras intermediarias, mesiradas tar il 1990: en la media dals onns 2031 fin 2040 almain 64 pertschient damain, fin il 2040 almain 75 pertschient damain, e en la media dals onns 2041 fin 2050 almain 89 pertschient damain. La Lescha dal CO2 pretenda che l'output il 2030 importia maximalmain la mesadad da quel dal 1990. La Confederaziun ed ils chantuns ston s'engaschar, en il rom da lur cumpetenzas, per questas finamiras. Er autras leschas, per exempel davart l'energia, la planisaziun dal territori u il traffic, duain vegnir concepidas ed applitgadas uschia ch'ellas contribueschian a las finamiras. Impurtant: Questas finamiras sa drizzan al stadi. Nagina da questas leschas dat a Vus in agen dretg da plant, cun il qual Vus pudessas fortzar lur observanza."
       },
       "sources": [
         "klg-3",
@@ -136,7 +244,11 @@
       "id": "no-popular-action",
       "kind": "warning",
       "text": {
-        "de": "Eine Klage im Namen der Allgemeinheit gibt es in der Schweiz nicht. Wer von einer Bundesbehörde verlangt, ein Handeln zu unterlassen, zu ändern oder als rechtswidrig festzustellen, muss selbst in seinen Rechten betroffen sein, und zwar spürbar. Genau daran scheiterten ältere Frauen, die zusammen mit ihrem Verein vom Bund mehr Klimaschutz verlangten. Das Bundesgericht hielt 2020 fest: Die Frauen seien von der Erwärmung nicht stärker betroffen als die übrige Bevölkerung. Ihr Begehren diene einem allgemeinen Anliegen und gehöre in die Politik, nicht vor Gericht. Rechnen Sie deshalb nicht damit, dass ein Gericht auf eine Klage eintritt, nur weil Sie sich um das Klima sorgen."
+        "de": "Eine Klage im Namen der Allgemeinheit gibt es in der Schweiz nicht. Wer von einer Bundesbehörde verlangt, ein Handeln zu unterlassen, zu ändern oder als rechtswidrig festzustellen, muss selbst in seinen Rechten betroffen sein, und zwar spürbar. Genau daran scheiterten ältere Frauen, die zusammen mit ihrem Verein vom Bund mehr Klimaschutz verlangten. Das Bundesgericht hielt 2020 fest: Die Frauen seien von der Erwärmung nicht stärker betroffen als die übrige Bevölkerung. Ihr Begehren diene einem allgemeinen Anliegen und gehöre in die Politik, nicht vor Gericht. Rechnen Sie deshalb nicht damit, dass ein Gericht auf eine Klage eintritt, nur weil Sie sich um das Klima sorgen.",
+        "fr": "Il n'existe pas en Suisse d'action au nom de la collectivité. Quiconque exige d'une autorité fédérale qu'elle s'abstienne d'un acte, le modifie ou le fasse constater illégal doit être lui-même atteint dans ses droits, et de manière sensible. C'est précisément sur ce point qu'ont échoué des femmes âgées qui, avec leur association, demandaient à la Confédération davantage de protection du climat. Le Tribunal fédéral a retenu en 2020 que ces femmes n'étaient pas plus touchées par le réchauffement que le reste de la population. Leur requête servait un intérêt général et relevait de la politique, non des tribunaux. Ne comptez donc pas sur le fait qu'un tribunal entre en matière sur une action pour la seule raison que le climat vous préoccupe.",
+        "it": "Un'azione a nome della collettività non esiste in Svizzera. Chi chiede a un'autorità federale di omettere, modificare un atto o di accertarne l'illiceità deve essere lei stessa toccata nei propri diritti, e in modo percepibile. Proprio su questo sono fallite alcune donne anziane che, insieme alla loro associazione, chiedevano alla Confederazione più protezione del clima. Il Tribunale federale nel 2020 ha stabilito: le donne non erano toccate dal riscaldamento più della popolazione restante. La loro richiesta serviva un interesse generale e apparteneva alla politica, non al tribunale. Non conti quindi sul fatto che un tribunale entri nel merito di un'azione solo perché lei si preoccupa per il clima.",
+        "en": "There is no such thing in Switzerland as an action brought on behalf of the general public. Anyone who demands that a federal authority refrain from an act, change it, or have it declared unlawful must be affected in their own rights, and noticeably so. This is exactly where older women failed who, together with their association, demanded more climate protection from the Confederation. In 2020 the Federal Supreme Court held that the women were not affected by warming any more than the rest of the population. Their request served a general concern and belonged in politics, not in court. So do not expect a court to take up a case just because you are worried about the climate.",
+        "rm": "Ina plant en num da la generalitad n'exista betg en Svizra. Tgi che pretenda d'in'autoritad federala ch'ella tralaschia, midia u constatescha sco illegal in agir, sto esser sez tangì en ses dretgs, e quai en moda perceptibla. Exact a quai fallirn dunnas pli veglias che pretendevan, ensemen cun lur associaziun, dapli protecziun dal clima da la Confederaziun. Il Tribunal federal ha constatà il 2020: Las dunnas na fissan betg pli fitg tangidas da la calur ch'il rest da la populaziun. Lur pretensiun servissia ad in interess general e tutgassia en la politica, betg avant dretgira. Na quintai percunquai betg cun quai, ch'ina dretgira entra en materia sin ina plant mo perquai ch'Vus As fetschais chaschun davart il clima."
       },
       "sources": [
         "vwvg-25a",
@@ -148,7 +260,11 @@
       "id": "strasbourg-judgment",
       "kind": "rule",
       "text": {
-        "de": "Der Verein KlimaSeniorinnen zog danach an den Europäischen Gerichtshof für Menschenrechte in Strassburg. Dieser entschied am 9. April 2024: Artikel 8 der Europäischen Menschenrechtskonvention (EMRK), der das Privat- und Familienleben schützt, umfasst auch einen Anspruch darauf, dass der Staat die Menschen wirksam vor schweren Folgen des Klimawandels für Leben, Gesundheit und Wohlbefinden schützt. Die Schweiz hat dieses Recht verletzt, unter anderem weil sie ihre zulässigen Emissionen nicht beziffert hatte, etwa mit einem CO2-Budget, und frühere eigene Ziele verfehlt hatte. Zudem hatten die Schweizer Gerichte sich mit dem Anliegen des Vereins nicht ernsthaft befasst. Das verletzte sein Recht auf Zugang zu einem Gericht. Die Beschwerden der vier einzelnen Frauen erklärte der Gerichtshof dagegen für unzulässig. Das Urteil schreibt der Schweiz keine bestimmten Massnahmen vor. Ob sie es umsetzt, überwacht das Ministerkomitee des Europarats. Der Bundesrat erklärte im August 2024, die Schweiz erfülle die klimapolitischen Anforderungen des Urteils. Den aktuellen Stand finden Sie auf den Seiten des Bundes (Links unten)."
+        "de": "Der Verein KlimaSeniorinnen zog danach an den Europäischen Gerichtshof für Menschenrechte in Strassburg. Dieser entschied am 9. April 2024: Artikel 8 der Europäischen Menschenrechtskonvention (EMRK), der das Privat- und Familienleben schützt, umfasst auch einen Anspruch darauf, dass der Staat die Menschen wirksam vor schweren Folgen des Klimawandels für Leben, Gesundheit und Wohlbefinden schützt. Die Schweiz hat dieses Recht verletzt, unter anderem weil sie ihre zulässigen Emissionen nicht beziffert hatte, etwa mit einem CO2-Budget, und frühere eigene Ziele verfehlt hatte. Zudem hatten die Schweizer Gerichte sich mit dem Anliegen des Vereins nicht ernsthaft befasst. Das verletzte sein Recht auf Zugang zu einem Gericht. Die Beschwerden der vier einzelnen Frauen erklärte der Gerichtshof dagegen für unzulässig. Das Urteil schreibt der Schweiz keine bestimmten Massnahmen vor. Ob sie es umsetzt, überwacht das Ministerkomitee des Europarats. Der Bundesrat erklärte im August 2024, die Schweiz erfülle die klimapolitischen Anforderungen des Urteils. Den aktuellen Stand finden Sie auf den Seiten des Bundes (Links unten).",
+        "fr": "L'association KlimaSeniorinnen a ensuite saisi la Cour européenne des droits de l'homme à Strasbourg. Celle-ci a jugé le 9 avril 2024 que l'article 8 de la Convention européenne des droits de l'homme (CEDH), qui protège la vie privée et familiale, comprend aussi le droit à ce que l'État protège effectivement les personnes contre les conséquences graves du changement climatique pour la vie, la santé et le bien-être. La Suisse a violé ce droit, notamment parce qu'elle n'avait pas chiffré ses émissions admissibles, par exemple par un budget de CO2, et qu'elle avait manqué ses propres objectifs antérieurs. En outre, les tribunaux suisses ne s'étaient pas penchés sérieusement sur la requête de l'association. Cela a violé son droit d'accès à un tribunal. La Cour a en revanche déclaré irrecevables les recours des quatre femmes prises individuellement. L'arrêt ne prescrit pas de mesures précises à la Suisse. Le Comité des ministres du Conseil de l'Europe surveille sa mise en œuvre. Le Conseil fédéral a déclaré en août 2024 que la Suisse remplissait les exigences de politique climatique de l'arrêt. Vous trouverez l'état actuel sur les pages de la Confédération (liens ci-dessous).",
+        "it": "L'associazione Anziane per il clima si è poi rivolta alla Corte europea dei diritti dell'uomo a Strasburgo. Questa ha deciso il 9 aprile 2024: l'articolo 8 della Convenzione europea dei diritti dell'uomo (CEDU), che tutela la vita privata e familiare, comprende anche il diritto a che lo Stato protegga effettivamente le persone dalle gravi conseguenze dei cambiamenti climatici per la vita, la salute e il benessere. La Svizzera ha violato questo diritto, tra l'altro perché non aveva quantificato le sue emissioni ammissibili, per esempio con un budget di CO2, e non aveva raggiunto propri obiettivi precedenti. Inoltre i tribunali svizzeri non si erano occupati seriamente della richiesta dell'associazione. Ciò ha violato il suo diritto di accesso a un tribunale. I ricorsi delle quattro singole donne, invece, la Corte li ha dichiarati irricevibili. La sentenza non prescrive alla Svizzera misure determinate. Se la attua lo sorveglia il Comitato dei Ministri del Consiglio d'Europa. Il Consiglio federale ha dichiarato nell'agosto 2024 che la Svizzera soddisfa i requisiti climatico-politici della sentenza. Lo stato attuale lo trova sui siti della Confederazione (link sotto).",
+        "en": "The association KlimaSeniorinnen then took the case to the European Court of Human Rights in Strasbourg. It ruled on 9 April 2024 that Article 8 of the European Convention on Human Rights (ECHR), which protects private and family life, also includes an entitlement to effective protection by the state against the serious effects of climate change on life, health and well-being. Switzerland had violated this right, among other things because it had not quantified its permissible emissions, for example with a CO2 budget, and had missed its own earlier targets. In addition, the Swiss courts had not seriously examined the association's concern. That violated its right of access to a court. The Court, however, declared the complaints of the four individual women inadmissible. The judgment does not prescribe specific measures for Switzerland. Whether it implements the judgment is monitored by the Committee of Ministers of the Council of Europe. In August 2024 the Federal Council stated that Switzerland meets the climate-policy requirements of the judgment. You can find the current state of affairs on the Confederation's website (links below).",
+        "rm": "L'associaziun KlimaSeniorinnas è lura ida a la Dretgira europeica dals dretgs umans a Strasburg. Quella ha decidì ils 9 d'avrigl 2024: L'artitgel 8 da la Convenziun europeica dals dretgs umans (CEDU), che protegia la vita privata e la vita da famiglia, cuntegna er in dretg a che il stadi protegia las persunas efficazmain cunter graves consequenzas da la midada dal clima per la vita, la sanadad ed il bainstar. La Svizra ha violà quest dretg, tranter auter perquai ch'ella n'aveva betg cifrà sias emissiuns admissiblas, per exempel cun in budget da CO2, ed aveva mancà sias atgnas finamiras anteriuras. Supplementarmain n'avevan las dretgiras svizras betg tractà seriusamain la dumonda da l'associaziun. Quai ha violà ses dretg d'access ad ina dretgira. Ils recurs da las quatter singulas dunnas ha la dretgira percunter declerà sco inadmissibels. La sentenzia na prescriva a la Svizra naginas mesiras determinadas. Sche la Svizra la realisescha, surveglia il Comité da ministers dal Cussegl da l'Europa. Il Cussegl federal ha declerà en avust 2024 che la Svizra ademplischia las pretensiuns da la sentenzia en la politica dal clima. L'actual stadi chattais Vus sin las paginas da la Confederaziun (colliaziuns sutvart)."
       },
       "sources": [
         "egmr-klimaseniorinnen"
@@ -164,7 +280,11 @@
         ]
       },
       "text": {
-        "de": "Vor dem Gerichtshof in Strassburg kann ein Verein in Klimafragen Beschwerde führen, auch wenn seine Mitglieder die sehr hohe Hürde für Einzelpersonen nicht nehmen. Der Verein muss drei Bedingungen erfüllen. Erstens ist er in der Schweiz rechtmässig gegründet oder darf hier klagen. Zweitens setzt er sich laut Statuten gezielt für die Grundrechte seiner Mitglieder oder anderer Betroffener ein, zum Beispiel gegen die Gefahren des Klimawandels. Drittens kann er zeigen, dass er wirklich für Menschen spricht, deren Leben, Gesundheit oder Wohlbefinden durch den Klimawandel bedroht ist. Der Gerichtshof achtet dabei etwa auf den Vereinszweck, ob der Verein ohne Gewinnabsicht arbeitet, wie gross und aktiv er ist und wie offen er geführt wird. Nach Strassburg gelangt ein Verein erst, wenn er alle Schweizer Rechtsmittel ausgeschöpft hat. Danach bleiben ihm vier Monate ab dem letzten Schweizer Entscheid."
+        "de": "Vor dem Gerichtshof in Strassburg kann ein Verein in Klimafragen Beschwerde führen, auch wenn seine Mitglieder die sehr hohe Hürde für Einzelpersonen nicht nehmen. Der Verein muss drei Bedingungen erfüllen. Erstens ist er in der Schweiz rechtmässig gegründet oder darf hier klagen. Zweitens setzt er sich laut Statuten gezielt für die Grundrechte seiner Mitglieder oder anderer Betroffener ein, zum Beispiel gegen die Gefahren des Klimawandels. Drittens kann er zeigen, dass er wirklich für Menschen spricht, deren Leben, Gesundheit oder Wohlbefinden durch den Klimawandel bedroht ist. Der Gerichtshof achtet dabei etwa auf den Vereinszweck, ob der Verein ohne Gewinnabsicht arbeitet, wie gross und aktiv er ist und wie offen er geführt wird. Nach Strassburg gelangt ein Verein erst, wenn er alle Schweizer Rechtsmittel ausgeschöpft hat. Danach bleiben ihm vier Monate ab dem letzten Schweizer Entscheid.",
+        "fr": "Devant la Cour de Strasbourg, une association peut porter plainte en matière climatique, même si ses membres ne franchissent pas le seuil très élevé exigé des particuliers. L'association doit remplir trois conditions. Premièrement, elle est légalement constituée en Suisse ou a le droit d'y agir en justice. Deuxièmement, elle se consacre, selon ses statuts, spécifiquement aux droits fondamentaux de ses membres ou d'autres personnes concernées, par exemple contre les dangers du changement climatique. Troisièmement, elle peut démontrer qu'elle représente réellement des personnes dont la vie, la santé ou le bien-être sont menacés par le changement climatique. La Cour tient compte notamment du but de l'association, du fait qu'elle agit sans but lucratif, de sa taille et de son activité, ainsi que de la manière dont elle est dirigée de façon ouverte. Une association ne peut saisir Strasbourg qu'après avoir épuisé toutes les voies de droit suisses. Elle dispose ensuite de quatre mois à compter de la dernière décision suisse.",
+        "it": "Davanti alla Corte di Strasburgo, un'associazione può presentare ricorso in materia di clima anche se i suoi membri non superano la soglia molto alta prevista per le persone singole. L'associazione deve soddisfare tre condizioni. Primo: è costituita legalmente in Svizzera o può agire in giudizio qui. Secondo: secondo il suo statuto si impegna in modo mirato per i diritti fondamentali dei suoi membri o di altre persone toccate, per esempio contro i pericoli dei cambiamenti climatici. Terzo: può dimostrare di parlare davvero per persone la cui vita, salute o benessere sono minacciati dai cambiamenti climatici. La Corte guarda tra l'altro allo scopo dell'associazione, se lavora senza scopo di lucro, quanto è grande e attiva e come è diretta. A Strasburgo un'associazione arriva solo dopo aver esaurito tutti i rimedi giuridici svizzeri. Da quel momento le restano quattro mesi dall'ultima decisione svizzera.",
+        "en": "Before the Court in Strasbourg, an association can bring a complaint in climate matters even if its members cannot clear the very high hurdle for individuals. The association must meet three conditions. First, it must be lawfully established in Switzerland, or entitled to bring proceedings here. Second, its statutes must show that it works specifically for the fundamental rights of its members or other affected persons, for example against the dangers of climate change. Third, it must be able to show that it genuinely speaks for people whose life, health or well-being is threatened by climate change. The Court looks, among other things, at the association's purpose, whether it operates without a profit motive, how large and active it is, and how openly it is run. An association can only go to Strasbourg once it has exhausted all Swiss legal remedies. After that, it has four months from the last Swiss decision.",
+        "rm": "Avant la dretgira a Strasburg po in'associaziun far recurs en dumondas dal clima, era sche ses commembers na surpassan betg l'auta bariera per persunas singulas. L'associaziun sto ademplir trais cundiziuns. Emprimarmain è ella fundada legalmain en Svizra u dastga plantar qua. Secundarmain s'engascha ella, tenor ils statuts, specificamain per ils dretgs fundamentals da ses commembers u d'autras persunas tangidas, per exempel cunter ils privels da la midada dal clima. Terzarmain po ella mussar ch'ella represchenta propi persunas, la vita, la sanadad u il bainstar da las qualas è periclità da la midada dal clima. La dretgira resguarda là tranter auter l'intent da l'associaziun, sche l'associaziun lavura senza intent da gudogn, quant gronda ed activa ch'ella è e quant averta ch'ella vegn manada. A Strasburg arriva in'associaziun mo, sche ella ha exaurì tut ils meds legals svizzers. Suenter al restan quatter mais dapi l'ultima decisiun svizra."
       },
       "sources": [
         "egmr-klimaseniorinnen",
@@ -181,7 +301,11 @@
         ]
       },
       "text": {
-        "de": "In der Schweiz selbst ist offen, ob ein Verein wegen der Klimapolitik vor Gericht gehen kann. Im Interesse der Umwelt dürfen Organisationen grundsätzlich nur dort Beschwerde führen, wo ein Bundesgesetz es ihnen ausdrücklich erlaubt, etwa Umweltorganisationen bei grossen Anlagen mit Umweltverträglichkeitsprüfung. Für die allgemeine Klimapolitik fehlt eine solche Regel. Ein Verein, der klagen will, sollte sich deshalb früh von einer Fachperson beraten lassen."
+        "de": "In der Schweiz selbst ist offen, ob ein Verein wegen der Klimapolitik vor Gericht gehen kann. Im Interesse der Umwelt dürfen Organisationen grundsätzlich nur dort Beschwerde führen, wo ein Bundesgesetz es ihnen ausdrücklich erlaubt, etwa Umweltorganisationen bei grossen Anlagen mit Umweltverträglichkeitsprüfung. Für die allgemeine Klimapolitik fehlt eine solche Regel. Ein Verein, der klagen will, sollte sich deshalb früh von einer Fachperson beraten lassen.",
+        "fr": "En Suisse même, il n'est pas établi qu'une association puisse aller en justice au sujet de la politique climatique. Dans l'intérêt de l'environnement, les organisations ne peuvent en principe recourir que là où une loi fédérale le leur permet expressément, par exemple les organisations environnementales pour les grandes installations soumises à une étude d'impact sur l'environnement. Une telle règle fait défaut pour la politique climatique générale. Une association qui souhaite agir en justice devrait donc se faire conseiller tôt par une ou un spécialiste.",
+        "it": "In Svizzera stessa è aperto se un'associazione possa agire in giudizio a causa della politica climatica. Nell'interesse dell'ambiente, le organizzazioni possono in linea di principio presentare ricorso solo dove una legge federale lo permette espressamente, per esempio le organizzazioni di protezione dell'ambiente per i grandi impianti soggetti a un esame dell'impatto sull'ambiente. Per la politica climatica generale manca una tale regola. Un'associazione che vuole agire in giudizio dovrebbe quindi farsi consigliare presto da una persona esperta.",
+        "en": "In Switzerland itself, it is unclear whether an association can go to court over climate policy. In the interest of the environment, organisations may in principle only appeal where a federal act expressly allows it, for example environmental organisations in the case of large facilities requiring an environmental impact assessment. For general climate policy, no such rule exists. An association wanting to bring proceedings should therefore get advice from a professional early on.",
+        "rm": "En Svizra sezza è avert, sche in'associaziun po ir avant dretgira pervia da la politica dal clima. En l'interess da l'ambient dastgan organisaziuns per principi far recurs mo, nua ch'ina lescha federala al permetta expressivamain, per exempel organisaziuns ambientalas tar grondas installaziuns cun examinaziun ecologica. Per la politica generala dal clima manca ina tala regla. In'associaziun che vul plantar duess percunquai laschar sa consegliar bault d'ina persuna spezialisada."
       },
       "sources": [
         "vwvg-48",
@@ -198,7 +322,11 @@
         ]
       },
       "text": {
-        "de": "Allein haben Sie in Klimafragen vor Gericht kaum Aussichten. Gemeinsam erreichen Sie oft mehr: Unterstützen Sie einen Verein, der sich für den Klimaschutz einsetzt, oder werden Sie Mitglied. Ein Verein kann Petitionen breit abstützen, in Vernehmlassungen Stellung nehmen und, wenn er die Bedingungen erfüllt, Beschwerde führen. Eine Petition oder eine Stellungnahme in einer Vernehmlassung können Sie aber auch allein einreichen."
+        "de": "Allein haben Sie in Klimafragen vor Gericht kaum Aussichten. Gemeinsam erreichen Sie oft mehr: Unterstützen Sie einen Verein, der sich für den Klimaschutz einsetzt, oder werden Sie Mitglied. Ein Verein kann Petitionen breit abstützen, in Vernehmlassungen Stellung nehmen und, wenn er die Bedingungen erfüllt, Beschwerde führen. Eine Petition oder eine Stellungnahme in einer Vernehmlassung können Sie aber auch allein einreichen.",
+        "fr": "Seul, vous avez peu de chances en justice sur les questions climatiques. Ensemble, vous obtenez souvent davantage : soutenez une association qui s'engage pour la protection du climat, ou devenez-en membre. Une association peut donner une large assise à des pétitions, prendre position dans des consultations et, si elle remplit les conditions, recourir. Vous pouvez toutefois aussi déposer seul une pétition ou une prise de position dans une consultation.",
+        "it": "Da sola, in materia di clima, ha davanti al tribunale scarse prospettive. Insieme si ottiene spesso di più: sostenga un'associazione che si impegna per la protezione del clima, oppure ne diventi membro. Un'associazione può sostenere ampiamente delle petizioni, prendere posizione nelle procedure di consultazione e, se soddisfa le condizioni, presentare ricorso. Una petizione o una presa di posizione in una procedura di consultazione può però presentarle anche da sola.",
+        "en": "Alone, you have little prospect of success in climate matters in court. Together, you often achieve more: support an association that campaigns for climate protection, or become a member. An association can give broader backing to a petition, submit a statement in a consultation procedure, and, if it meets the conditions, appeal. But you can also submit a petition or a statement in a consultation procedure on your own.",
+        "rm": "Persunalmain avais Vus en dumondas dal clima quasi naginas schanzas avant dretgira. Ensemen cuntanschais Vus savens dapli: sustegnai in'associaziun che s'engascha per la protecziun dal clima, u daventai commember. In'associaziun po sustegnair vastamain petiziuns, prender posiziun en consultaziuns e, sch'ella ademplescha las cundiziuns, far recurs. Ina petiziun u ina posiziun en ina consultaziun pudais Vus dentant inoltrar er persunalmain."
       }
     },
     {
@@ -211,7 +339,11 @@
         ]
       },
       "text": {
-        "de": "Eine Klage als Einzelperson ist nur in seltenen Ausnahmefällen denkbar. Sie müssen dann selbst und unmittelbar betroffen sein, deutlich stärker als die übrige Bevölkerung. Der Gerichtshof in Strassburg verlangt, dass Sie den Folgen des Klimawandels sehr stark ausgesetzt sind und dringend persönlichen Schutz brauchen. Die Hürde ist bewusst sehr hoch. Bei den älteren Frauen im Fall KlimaSeniorinnen reichte es nicht: Es war nicht belegt, dass ihre Gesundheit bei Hitze kritisch gefährdet war und dass sich das nicht durch Anpassung, etwa im Alltag oder mit staatlichen Hitzemassnahmen, mildern liess. In der Schweiz führt der Weg über ein Gesuch an die zuständige Bundesbehörde, die darüber verfügen muss, und danach über die Gerichte. Erst dann ist eine Beschwerde in Strassburg möglich, und zwar innert vier Monaten nach dem letzten Schweizer Entscheid. Lassen Sie sich vorher beraten und sammeln Sie ärztliche Unterlagen, die Ihre besondere Gefährdung belegen."
+        "de": "Eine Klage als Einzelperson ist nur in seltenen Ausnahmefällen denkbar. Sie müssen dann selbst und unmittelbar betroffen sein, deutlich stärker als die übrige Bevölkerung. Der Gerichtshof in Strassburg verlangt, dass Sie den Folgen des Klimawandels sehr stark ausgesetzt sind und dringend persönlichen Schutz brauchen. Die Hürde ist bewusst sehr hoch. Bei den älteren Frauen im Fall KlimaSeniorinnen reichte es nicht: Es war nicht belegt, dass ihre Gesundheit bei Hitze kritisch gefährdet war und dass sich das nicht durch Anpassung, etwa im Alltag oder mit staatlichen Hitzemassnahmen, mildern liess. In der Schweiz führt der Weg über ein Gesuch an die zuständige Bundesbehörde, die darüber verfügen muss, und danach über die Gerichte. Erst dann ist eine Beschwerde in Strassburg möglich, und zwar innert vier Monaten nach dem letzten Schweizer Entscheid. Lassen Sie sich vorher beraten und sammeln Sie ärztliche Unterlagen, die Ihre besondere Gefährdung belegen.",
+        "fr": "Une action en tant que particulier n'est envisageable que dans de rares cas exceptionnels. Vous devez alors être vous-même et directement touché, nettement plus que le reste de la population. La Cour de Strasbourg exige que vous soyez très fortement exposé aux conséquences du changement climatique et que vous ayez un besoin urgent de protection personnelle. Le seuil est délibérément très élevé. Chez les femmes âgées de l'affaire KlimaSeniorinnen, cela n'a pas suffi : il n'était pas établi que leur santé était mise en danger de façon critique par la chaleur et que cela ne pouvait pas être atténué par une adaptation, par exemple dans la vie quotidienne ou par des mesures étatiques contre la chaleur. En Suisse, la voie passe par une demande à l'autorité fédérale compétente, qui doit statuer, puis par les tribunaux. Ce n'est qu'ensuite qu'un recours à Strasbourg est possible, dans un délai de quatre mois à compter de la dernière décision suisse. Faites-vous conseiller au préalable et rassemblez des documents médicaux attestant votre exposition particulière.",
+        "it": "Un'azione come persona singola è immaginabile solo in rari casi eccezionali. Deve allora essere toccata lei stessa e direttamente, chiaramente di più della popolazione restante. La Corte di Strasburgo richiede che sia molto fortemente esposta alle conseguenze dei cambiamenti climatici e abbia urgentemente bisogno di protezione personale. La soglia è volutamente molto alta. Nel caso delle Anziane per il clima non è bastato: non era stato dimostrato che la loro salute fosse criticamente a rischio con il caldo e che ciò non potesse essere mitigato con un adattamento, per esempio nella vita quotidiana o con misure statali contro il caldo. In Svizzera la via passa per una domanda all'autorità federale competente, che deve emanare una decisione, e poi per i tribunali. Solo allora è possibile un ricorso a Strasburgo, ed entro quattro mesi dall'ultima decisione svizzera. Si faccia consigliare prima e raccolga documenti medici che comprovino la sua particolare esposizione.",
+        "en": "An action as an individual is conceivable only in rare exceptional cases. You must then be affected yourself and directly, markedly more so than the rest of the population. The Court in Strasbourg requires that you are very severely exposed to the effects of climate change and urgently need personal protection. The bar is deliberately set very high. For the older women in the KlimaSeniorinnen case, it was not enough: it was not shown that their health was critically endangered by heat and that this could not be mitigated through adaptation, for example in daily life or through state heat measures. In Switzerland, the route runs through an application to the responsible federal authority, which must issue a ruling on it, and then through the courts. Only then is a complaint in Strasbourg possible, and that within four months of the last Swiss decision. Get advice beforehand and gather medical records that document your particular vulnerability.",
+        "rm": "Ina plant sco persuna singula è pensabla mo en cas d'excepziun raras. Vus stuais lura esser tangì persunalmain e directamain, considerablamain pli fitg che il rest da la populaziun. La dretgira a Strasburg pretenda che Vus fussas fitg exponì a las consequenzas da la midada dal clima e basegnessas urgentamain protecziun persunala. La barriera è deliberadamain fitg auta. Tar las dunnas pli veglias en il cas KlimaSeniorinnas n'ha quai betg abastà: n'era betg cumprovà che lur sanadad era periclitada criticamain a chalur e che quai na pudeva betg vegnir mitigà tras adattaziun, per exempel en la vita da mintgadi u cun mesiras statalas cunter la chalur. En Svizra maina la via sur ina dumonda a l'autoritad federala cumpetenta, che sto decider en ina decisiun, e suenter sur las dretgiras. Mo lura è pussaivel in recurs a Strasburg, e quai entaifer quatter mais suenter l'ultima decisiun svizra. Laschai Vus consegliar avant e cumplai documents medicals che cumprovan Voss privel spezial."
       },
       "sources": [
         "vwvg-25a",
@@ -230,7 +362,11 @@
         ]
       },
       "text": {
-        "de": "Das Bundesgericht verweist Klimaanliegen ausdrücklich auf den demokratischen Weg. Wenn Sie das Schweizer Bürgerrecht haben und mindestens 18 Jahre alt sind, können Sie bei eidgenössischen Wahlen und Abstimmungen mitbestimmen sowie Volksinitiativen und Referenden unterschreiben oder selbst lancieren. Wer in Kanton und Gemeinde stimmen darf, regelt das kantonale Recht. Unabhängig vom Stimmrecht dürfen Sie Ihre Meinung öffentlich äussern, sich mit anderen zusammenschliessen und Petitionen einreichen."
+        "de": "Das Bundesgericht verweist Klimaanliegen ausdrücklich auf den demokratischen Weg. Wenn Sie das Schweizer Bürgerrecht haben und mindestens 18 Jahre alt sind, können Sie bei eidgenössischen Wahlen und Abstimmungen mitbestimmen sowie Volksinitiativen und Referenden unterschreiben oder selbst lancieren. Wer in Kanton und Gemeinde stimmen darf, regelt das kantonale Recht. Unabhängig vom Stimmrecht dürfen Sie Ihre Meinung öffentlich äussern, sich mit anderen zusammenschliessen und Petitionen einreichen.",
+        "fr": "Le Tribunal fédéral renvoie expressément les préoccupations climatiques à la voie démocratique. Si vous avez la nationalité suisse et au moins 18 ans, vous pouvez participer aux élections et votations fédérales, ainsi que signer ou lancer vous-même des initiatives populaires et des référendums. Le droit cantonal règle qui peut voter dans le canton et la commune. Indépendamment du droit de vote, vous pouvez exprimer publiquement votre opinion, vous associer avec d'autres et déposer des pétitions.",
+        "it": "Il Tribunale federale rinvia espressamente le questioni climatiche alla via democratica. Se ha la cittadinanza svizzera e almeno 18 anni, può partecipare alle elezioni e votazioni federali e firmare o lanciare lei stessa iniziative popolari e referendum. Chi può votare nel Cantone e nel Comune lo stabilisce il diritto cantonale. Indipendentemente dal diritto di voto, può esprimere pubblicamente la sua opinione, associarsi con altri e presentare petizioni.",
+        "en": "The Federal Supreme Court expressly refers climate concerns to the democratic route. If you hold Swiss citizenship and are at least 18 years old, you can take part in federal elections and votes, and sign or launch popular initiatives and referendums. Cantonal law governs who may vote in the canton and municipality. Regardless of voting rights, you may publicly express your opinion, join together with others, and submit petitions.",
+        "rm": "Il Tribunal federal renviescha las dumondas dal clima expressivamain a la via democratica. Sche Vus avais il dretg da burgais svizzer ed essas vegls almain 18 onns, pudais Vus cudecider tar elecziuns e votaziuns federalas sco er suttascriver u lantschar sez iniziativas populars e referendums. Tgi che dastga votar en il chantun e la vischnanca, regla il dretg chantunal. Independentamain dal dretg da votar dastgais Vus manifestar Vossa opiniun publicamain, s'unir cun auters e inoltrar petiziuns."
       },
       "sources": [
         "bv-34",
@@ -242,7 +378,11 @@
       "id": "petition",
       "kind": "rule",
       "text": {
-        "de": "Jede Person darf sich mit einer Petition an eine Behörde wenden, also mit einer Bitte, einem Vorschlag oder einer Kritik. Dafür braucht es kein Stimmrecht. Sie darf Ihnen keine Nachteile bringen. Eine Petition kann an Bund, Kanton oder Gemeinde gehen, zum Beispiel an ein Parlament oder eine Regierung. Schreiben Sie Ihr Anliegen klar auf und unterschreiben Sie mit Name und Adresse; weitere Personen können mitunterzeichnen. Die Bundesverfassung verlangt nur, dass die Behörde die Petition zur Kenntnis nimmt. Einen Anspruch auf eine Antwort oder darauf, dass Ihrem Anliegen gefolgt wird, gibt sie Ihnen nicht. Kantonsverfassungen und Parlamentsregeln können mehr vorsehen."
+        "de": "Jede Person darf sich mit einer Petition an eine Behörde wenden, also mit einer Bitte, einem Vorschlag oder einer Kritik. Dafür braucht es kein Stimmrecht. Sie darf Ihnen keine Nachteile bringen. Eine Petition kann an Bund, Kanton oder Gemeinde gehen, zum Beispiel an ein Parlament oder eine Regierung. Schreiben Sie Ihr Anliegen klar auf und unterschreiben Sie mit Name und Adresse; weitere Personen können mitunterzeichnen. Die Bundesverfassung verlangt nur, dass die Behörde die Petition zur Kenntnis nimmt. Einen Anspruch auf eine Antwort oder darauf, dass Ihrem Anliegen gefolgt wird, gibt sie Ihnen nicht. Kantonsverfassungen und Parlamentsregeln können mehr vorsehen.",
+        "fr": "Toute personne peut s'adresser à une autorité par une pétition, c'est-à-dire une demande, une proposition ou une critique. Le droit de vote n'est pas nécessaire pour cela. Elle ne doit vous causer aucun préjudice. Une pétition peut être adressée à la Confédération, au canton ou à la commune, par exemple à un parlement ou à un gouvernement. Rédigez clairement votre demande et signez-la avec votre nom et votre adresse ; d'autres personnes peuvent cosigner. La Constitution fédérale exige seulement que l'autorité prenne connaissance de la pétition. Elle ne vous donne aucun droit à une réponse ni à ce que votre demande soit suivie. Les constitutions cantonales et les règlements des parlements peuvent prévoir davantage.",
+        "it": "Ogni persona può rivolgersi a un'autorità con una petizione, quindi con una richiesta, una proposta o una critica. Per questo non serve il diritto di voto. Non le può arrecare svantaggi. Una petizione può essere indirizzata a Confederazione, Cantone o Comune, per esempio a un parlamento o a un governo. Scriva chiaramente la sua richiesta e la firmi con nome e indirizzo; altre persone possono cofirmarla. La Costituzione federale richiede solo che l'autorità prenda atto della petizione. Non le dà diritto a una risposta né a che la sua richiesta venga seguita. Le costituzioni cantonali e i regolamenti parlamentari possono prevedere di più.",
+        "en": "Anyone may address a petition to an authority, that is, a request, a proposal or a criticism. You do not need voting rights for this. It must not cause you any disadvantage. A petition can go to the Confederation, a canton or a municipality, for example to a parliament or a government. Write your concern down clearly and sign it with your name and address; other people can co-sign. The Federal Constitution only requires the authority to take note of the petition. It does not give you a right to a reply or to your concern being acted on. Cantonal constitutions and parliamentary rules can provide for more.",
+        "rm": "Mintga persuna dastga sa drizzar cun ina petiziun ad in'autoritad, dunc cun ina dumonda, ina proposta u ina critica. Per quai na dovra ella nagin dretg da votar. Ella na dastga purtar a Vus nagin dischvantatg. Ina petiziun po ir a la Confederaziun, al chantun u a la vischnanca, per exempel ad in parlament u ad in guvern. Scrivai Voss motiv cleramain e suttascrivai cun num ed adressa; autras persunas pon cosuttascriver. La Constituziun federala pretenda mo che l'autoritad prendia enconuschientscha da la petiziun. In dretg a ina resposta u a che Voss motiv vegnia suandà, na dat ella betg a Vus. Constituziuns chantunalas e reglas parlamentaras pon prevair dapli."
       },
       "sources": [
         "bv-33"
@@ -258,7 +398,11 @@
         ]
       },
       "text": {
-        "de": "Bevor der Bund wichtige Gesetze, Verordnungen oder Verträge beschliesst, führt er eine Vernehmlassung durch. Daran kann sich jede Person und jede Organisation beteiligen und eine Stellungnahme einreichen, auch zu Vorlagen über Klima, Energie oder Verkehr. Das Klimagesetz verlangt, dass der Bundesrat die betroffenen Kreise anhört, bevor er dem Parlament die Massnahmen für die nächsten Zeitabschnitte vorschlägt. Die laufenden Vernehmlassungen mit allen Unterlagen finden Sie auf der Publikationsplattform des Bundes (Link unten). Auch Kantone führen Vernehmlassungen durch; wie, regelt das kantonale Recht."
+        "de": "Bevor der Bund wichtige Gesetze, Verordnungen oder Verträge beschliesst, führt er eine Vernehmlassung durch. Daran kann sich jede Person und jede Organisation beteiligen und eine Stellungnahme einreichen, auch zu Vorlagen über Klima, Energie oder Verkehr. Das Klimagesetz verlangt, dass der Bundesrat die betroffenen Kreise anhört, bevor er dem Parlament die Massnahmen für die nächsten Zeitabschnitte vorschlägt. Die laufenden Vernehmlassungen mit allen Unterlagen finden Sie auf der Publikationsplattform des Bundes (Link unten). Auch Kantone führen Vernehmlassungen durch; wie, regelt das kantonale Recht.",
+        "fr": "Avant d'adopter des lois, ordonnances ou traités importants, la Confédération mène une procédure de consultation. Toute personne et toute organisation peut y participer et déposer une prise de position, y compris sur des projets concernant le climat, l'énergie ou les transports. La loi sur le climat exige que le Conseil fédéral entende les milieux concernés avant de proposer au Parlement les mesures pour les prochaines périodes. Vous trouverez les consultations en cours avec tous les documents sur la plateforme de publication de la Confédération (lien ci-dessous). Les cantons mènent eux aussi des consultations ; les modalités sont réglées par le droit cantonal.",
+        "it": "Prima che la Confederazione adotti leggi, ordinanze o trattati importanti, svolge una procedura di consultazione. Vi può partecipare ogni persona e ogni organizzazione presentando una presa di posizione, anche su progetti riguardanti clima, energia o traffico. La legge sul clima richiede che il Consiglio federale senta gli ambienti interessati prima di proporre al Parlamento le misure per i periodi successivi. Le procedure di consultazione in corso, con tutti i documenti, le trova sulla piattaforma di pubblicazione della Confederazione (link sotto). Anche i Cantoni svolgono procedure di consultazione; come, lo regola il diritto cantonale.",
+        "en": "Before the Confederation adopts important acts, ordinances or treaties, it holds a consultation procedure. Any person and any organisation can take part and submit a statement, including on proposals concerning climate, energy or transport. The Climate Act requires the Federal Council to consult the circles concerned before it proposes measures for the coming periods to Parliament. You can find the current consultation procedures with all the documents on the Confederation's publication platform (link below). Cantons also hold consultation procedures; how is a matter for cantonal law.",
+        "rm": "Avant che la Confederaziun decida leschas, ordinaziuns u contracts impurtants, maina ella ina consultaziun. A quella po sa participar mintga persuna e mintga organisaziun ed inoltrar ina posiziun, era tar propostas davart il clima, l'energia u il traffic. La Lescha davart la protecziun dal clima pretenda che il Cussegl federal audia ils circuls tangids, avant ch'el proponia al parlament las mesiras per ils proxims periods. Las consultaziuns currentas cun tut ils documents chattais Vus sin la plattafurma da publicaziun da la Confederaziun (colliaziun sutvart). Er chantuns maineschan consultaziuns; co, regla il dretg chantunal."
       },
       "sources": [
         "vlg-4",
@@ -275,7 +419,11 @@
         ]
       },
       "text": {
-        "de": "Eine Vernehmlassung des Bundes dauert mindestens drei Monate. Über den Sommer, über Weihnachten und Neujahr sowie über Ostern verlängert sich diese Mindestfrist. Ist eine Vorlage dringend, kann die Frist ausnahmsweise kürzer sein. Massgebend ist das Datum, das die Behörde bei der Eröffnung der Vernehmlassung nennt. Reichen Sie Ihre Stellungnahme vorher ein."
+        "de": "Eine Vernehmlassung des Bundes dauert mindestens drei Monate. Über den Sommer, über Weihnachten und Neujahr sowie über Ostern verlängert sich diese Mindestfrist. Ist eine Vorlage dringend, kann die Frist ausnahmsweise kürzer sein. Massgebend ist das Datum, das die Behörde bei der Eröffnung der Vernehmlassung nennt. Reichen Sie Ihre Stellungnahme vorher ein.",
+        "fr": "Une consultation fédérale dure au moins trois mois. Ce délai minimal se prolonge sur l'été, sur Noël et le Nouvel An ainsi que sur Pâques. Si un projet est urgent, le délai peut exceptionnellement être plus court. La date déterminante est celle que l'autorité indique à l'ouverture de la consultation. Déposez votre prise de position avant cette date.",
+        "it": "Una procedura di consultazione della Confederazione dura almeno tre mesi. Questo termine minimo si prolunga durante l'estate, durante Natale e Capodanno nonché durante Pasqua. Se un progetto è urgente, il termine può eccezionalmente essere più breve. Determinante è la data indicata dall'autorità all'apertura della consultazione. Presenti la sua presa di posizione prima di tale data.",
+        "en": "A federal consultation procedure lasts at least three months. This minimum period is extended over the summer, over Christmas and New Year, and over Easter. If a proposal is urgent, the period can exceptionally be shorter. What counts is the date given by the authority when it opens the consultation procedure. Submit your statement before that date.",
+        "rm": "Ina consultaziun da la Confederaziun dura almain trais mais. Sur la stad, sur Nadal e Chapodann sco er sur Pasqua sa prolungescha quest termin minimal. Sch'ina proposta è urgenta, po il termin excepziunalmain esser pli curt. Decisiv è la data che l'autoritad numna tar l'avertura da la consultaziun. Inoltrai Vossa posiziun avant quella data."
       },
       "sources": [
         "vlg-7"
@@ -285,7 +433,11 @@
       "id": "information",
       "kind": "rule",
       "text": {
-        "de": "Die Behörden müssen die Öffentlichkeit über den Umweltschutz und den Zustand der Umwelt informieren und ihre Erhebungen veröffentlichen. Die Zahlen zu den Treibhausgasen der Schweiz stellt das Bundesamt für Umwelt (BAFU) im Treibhausgasinventar bereit (Link unten). Brauchen Sie mehr, dürfen Sie amtliche Dokumente mit Umweltinformationen einsehen und Auskunft über ihren Inhalt verlangen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes, bei kantonalen Behörden das kantonale Recht. Beschreiben Sie im Gesuch möglichst genau, welche Unterlagen Sie suchen."
+        "de": "Die Behörden müssen die Öffentlichkeit über den Umweltschutz und den Zustand der Umwelt informieren und ihre Erhebungen veröffentlichen. Die Zahlen zu den Treibhausgasen der Schweiz stellt das Bundesamt für Umwelt (BAFU) im Treibhausgasinventar bereit (Link unten). Brauchen Sie mehr, dürfen Sie amtliche Dokumente mit Umweltinformationen einsehen und Auskunft über ihren Inhalt verlangen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes, bei kantonalen Behörden das kantonale Recht. Beschreiben Sie im Gesuch möglichst genau, welche Unterlagen Sie suchen.",
+        "fr": "Les autorités doivent informer le public sur la protection de l'environnement et l'état de l'environnement, et publier leurs relevés. L'Office fédéral de l'environnement (OFEV) met à disposition les chiffres sur les gaz à effet de serre de la Suisse dans l'inventaire des gaz à effet de serre (lien ci-dessous). Si vous avez besoin de plus, vous pouvez consulter les documents officiels contenant des informations sur l'environnement et demander des renseignements sur leur contenu. Pour les autorités fédérales, la loi fédérale sur la transparence s'applique ; pour les autorités cantonales, le droit cantonal. Décrivez dans votre demande, aussi précisément que possible, les documents que vous recherchez.",
+        "it": "Le autorità devono informare la popolazione sulla protezione dell'ambiente e sullo stato dell'ambiente e pubblicare i loro rilevamenti. I dati sui gas serra della Svizzera sono messi a disposizione dall'Ufficio federale dell'ambiente (UFAM) nell'inventario dei gas serra (link sotto). Se le serve di più, può consultare i documenti ufficiali contenenti informazioni ambientali e chiedere informazioni sul loro contenuto. Presso le autorità federali vale per questo la legge federale sulla trasparenza, presso le autorità cantonali il diritto cantonale. Nella domanda descriva nel modo più preciso possibile quali documenti cerca.",
+        "en": "The authorities must inform the public about environmental protection and the state of the environment, and publish their surveys. The figures on Switzerland's greenhouse gases are provided by the Federal Office for the Environment (FOEN) in the greenhouse gas inventory (link below). If you need more, you may inspect official documents containing environmental information and request information about their content. For federal authorities, the Federal Act on Freedom of Information applies; for cantonal authorities, cantonal law applies. Describe as precisely as possible in your application which documents you are looking for.",
+        "rm": "Las autoritads ston infurmar la publicitad davart la protecziun da l'ambient ed il stadi da l'ambient e publitgar lur relevaziuns. Las cifras davart ils gas cun effect da serra da la Svizra metta a disposiziun l'Uffizi federal per l'ambient (UFAM) en l'inventari dals gas cun effect da serra (colliaziun sutvart). Basegnais Vus dapli, dastgais Vus consultar documents uffizials cun infurmaziuns davart l'ambient e pretender infurmaziun davart lur cuntegn. Tar autoritads federalas vala per quai la Lescha da transparenza da la Confederaziun, tar autoritads chantunalas il dretg chantunal. Descrivai en la dumonda uschè exact sco pussaivel, tge documents che Vus tschertgais."
       },
       "sources": [
         "usg-10e",
@@ -303,7 +455,11 @@
         ]
       },
       "text": {
-        "de": "Gegen einen Entscheid über ein bestimmtes Projekt, etwa eine Strasse, einen Flugplatz oder eine grosse Anlage, kann nur Beschwerde führen, wer davon besonders betroffen ist, also deutlich stärker als die Allgemeinheit, und ein schutzwürdiges Interesse hat. In der Regel sind das Personen in unmittelbarer Nähe. Die allgemeine Sorge um das Klima genügt nicht. Das Bundesverwaltungsgericht hielt 2026 fest, dass sich Private kaum auf das Strassburger Klimaurteil stützen können, um ein bestimmtes Projekt zu bekämpfen. Wer eine Behörde nur auf einen Missstand hinweist, wird dadurch nicht Partei des Verfahrens."
+        "de": "Gegen einen Entscheid über ein bestimmtes Projekt, etwa eine Strasse, einen Flugplatz oder eine grosse Anlage, kann nur Beschwerde führen, wer davon besonders betroffen ist, also deutlich stärker als die Allgemeinheit, und ein schutzwürdiges Interesse hat. In der Regel sind das Personen in unmittelbarer Nähe. Die allgemeine Sorge um das Klima genügt nicht. Das Bundesverwaltungsgericht hielt 2026 fest, dass sich Private kaum auf das Strassburger Klimaurteil stützen können, um ein bestimmtes Projekt zu bekämpfen. Wer eine Behörde nur auf einen Missstand hinweist, wird dadurch nicht Partei des Verfahrens.",
+        "fr": "Contre une décision relative à un projet précis, par exemple une route, un aérodrome ou une grande installation, seule peut recourir la personne particulièrement touchée, c'est-à-dire nettement plus que la collectivité, et qui a un intérêt digne de protection. Il s'agit en règle générale de personnes situées à proximité immédiate. La préoccupation générale pour le climat ne suffit pas. Le Tribunal administratif fédéral a retenu en 2026 que les particuliers peuvent difficilement s'appuyer sur l'arrêt climatique de Strasbourg pour combattre un projet précis. Qui se contente de signaler un dysfonctionnement à une autorité ne devient pas partie à la procédure de ce seul fait.",
+        "it": "Contro una decisione su un determinato progetto, per esempio una strada, un aeroporto o un grande impianto, può presentare ricorso solo chi ne è particolarmente toccato, quindi chiaramente più della collettività, e ha un interesse degno di protezione. Di regola si tratta di persone nelle immediate vicinanze. La preoccupazione generale per il clima non basta. Il Tribunale amministrativo federale nel 2026 ha stabilito che i privati possono difficilmente basarsi sulla sentenza climatica di Strasburgo per combattere un determinato progetto. Chi si limita a segnalare un'irregolarità a un'autorità non diventa per questo parte della procedura.",
+        "en": "Against a decision on a specific project, for example a road, an airfield or a large facility, only someone who is especially affected by it, that is, markedly more so than the general public, and who has a legitimate interest, can appeal. As a rule these are people in the immediate vicinity. General concern for the climate is not enough. In 2026 the Federal Administrative Court held that private individuals can hardly rely on the Strasbourg climate judgment to fight a specific project. Anyone who merely points an authority to a problem does not thereby become a party to the proceedings.",
+        "rm": "Cunter ina decisiun davart in tschert project, per exempel ina via, in aeroport u in'installaziun granda, po far recurs mo tgi ch'è spezialmain tangì da quel, dunca considerablamain pli fitg che la generalitad, e ch'ha in interess digne da protecziun. Per regla èn quai persunas en vicinanza immediata. La generala sollicitude per il clima na basta betg. Il Tribunal administrativ federal ha constatà il 2026 che privats sa pon a pauc basar sin la sentenzia da Strasburg davart il clima per combatter in tschert project. Tgi ch'annunzia ad in'autoritad mo in scumbigl, na daventa betg partida da la procedura tras quai."
       },
       "sources": [
         "vwvg-48",
@@ -322,7 +478,11 @@
         ]
       },
       "text": {
-        "de": "Für grosse Anlagen, welche die Umwelt erheblich belasten können, ist eine Umweltverträglichkeitsprüfung nötig. Gegen Entscheide zu solchen Anlagen dürfen bestimmte Umweltorganisationen Beschwerde führen, ohne selbst betroffen zu sein. Sie müssen in der ganzen Schweiz tätig sein, rein ideelle Zwecke verfolgen und das betreffende Rechtsgebiet seit mindestens zehn Jahren in ihren Statuten haben. Welche Organisationen das sind, steht in einer Liste des Bundesrates. Die Entscheide zu solchen Anlagen werden den Organisationen mitgeteilt oder amtlich publiziert; gibt es ein Einspracheverfahren, wird schon das Gesuch publiziert. Ob sich im einzelnen Verfahren auch Klimaargumente vorbringen lassen, hängt vom Projekt und vom anwendbaren Recht ab. Halten Sie ein Projekt für problematisch, informieren Sie eine dieser Organisationen früh und geben Sie ihr Ihre Hinweise weiter."
+        "de": "Für grosse Anlagen, welche die Umwelt erheblich belasten können, ist eine Umweltverträglichkeitsprüfung nötig. Gegen Entscheide zu solchen Anlagen dürfen bestimmte Umweltorganisationen Beschwerde führen, ohne selbst betroffen zu sein. Sie müssen in der ganzen Schweiz tätig sein, rein ideelle Zwecke verfolgen und das betreffende Rechtsgebiet seit mindestens zehn Jahren in ihren Statuten haben. Welche Organisationen das sind, steht in einer Liste des Bundesrates. Die Entscheide zu solchen Anlagen werden den Organisationen mitgeteilt oder amtlich publiziert; gibt es ein Einspracheverfahren, wird schon das Gesuch publiziert. Ob sich im einzelnen Verfahren auch Klimaargumente vorbringen lassen, hängt vom Projekt und vom anwendbaren Recht ab. Halten Sie ein Projekt für problematisch, informieren Sie eine dieser Organisationen früh und geben Sie ihr Ihre Hinweise weiter.",
+        "fr": "Pour les grandes installations susceptibles de porter une atteinte importante à l'environnement, une étude d'impact sur l'environnement est nécessaire. Contre les décisions relatives à de telles installations, certaines organisations environnementales peuvent recourir sans être elles-mêmes touchées. Elles doivent être actives dans toute la Suisse, poursuivre des buts purement idéaux et avoir le domaine juridique concerné dans leurs statuts depuis dix ans au moins. Ces organisations sont énumérées dans une liste du Conseil fédéral. Les décisions relatives à de telles installations sont communiquées aux organisations ou publiées officiellement ; s'il existe une procédure d'opposition, la demande elle-même est déjà publiée. Que des arguments climatiques puissent aussi être avancés dans la procédure particulière dépend du projet et du droit applicable. Si vous jugez un projet problématique, informez tôt l'une de ces organisations et transmettez-lui vos observations.",
+        "it": "Per i grandi impianti che possono gravare notevolmente sull'ambiente serve un esame dell'impatto sull'ambiente. Contro le decisioni relative a tali impianti possono presentare ricorso determinate organizzazioni di protezione dell'ambiente, senza essere esse stesse toccate. Devono essere attive in tutta la Svizzera, perseguire scopi puramente ideali e avere l'ambito giuridico in questione nel loro statuto da almeno dieci anni. Quali sono queste organizzazioni figura in un elenco del Consiglio federale. Le decisioni relative a tali impianti vengono comunicate alle organizzazioni o pubblicate ufficialmente; se esiste una procedura di opposizione, viene già pubblicata la domanda. Se in una procedura specifica si possano far valere anche argomenti climatici dipende dal progetto e dal diritto applicabile. Se ritiene problematico un progetto, informi tempestivamente una di queste organizzazioni e le trasmetta le sue osservazioni.",
+        "en": "For large facilities that could significantly burden the environment, an environmental impact assessment is required. Certain environmental organisations may appeal against decisions on such facilities without being personally affected. They must be active throughout Switzerland, pursue purely non-material purposes, and have had the relevant area of law in their statutes for at least ten years. Which organisations these are is set out in a list of the Federal Council. Decisions on such facilities are communicated to the organisations or officially published; where there is an objection procedure, the application itself is already published. Whether climate arguments can also be raised in a particular procedure depends on the project and the applicable law. If you consider a project problematic, inform one of these organisations early and pass on your observations.",
+        "rm": "Per grondas installaziuns che pon chargiar considerablamain l'ambient, è necessaria in'examinaziun ecologica. Cunter decisiuns davart talas installaziuns dastgan tscherts organisaziuns ambientalas far recurs, senza esser tangidas sezzas. Ellas ston esser activas en tut la Svizra, persequitar exclusivamain intents ideals ed avair il respectiv sectur giuridic en lur statuts dapi almain diesch onns. Tge organisaziuns che quai èn, stat en ina glista dal Cussegl federal. Las decisiuns davart talas installaziuns vegnan communitgadas a las organisaziuns u publitgadas uffizialmain; datti ina procedura da protesta, vegn gia la dumonda publitgada. Sche er motivs davart il clima sa laschan far valair en la procedura singula, dependa dal project e dal dretg applitgabel. Tegnais Vus in project per problematic, infurmai bault ina da questas organisaziuns e dai ad ella Vossas indicaziuns."
       },
       "sources": [
         "usg-10a",
@@ -341,7 +501,11 @@
         ]
       },
       "text": {
-        "de": "Bei Bauprojekten entscheidet der Zeitpunkt. Gesuche werden in der Regel öffentlich aufgelegt oder publiziert, zum Beispiel im kantonalen Amtsblatt. Wer mitreden will, muss innerhalb der dort genannten Frist Einsprache erheben. In Verfahren nach Bundesrecht kann nur Beschwerde führen, wer sich vorher beteiligt hat oder keine Gelegenheit dazu hatte. Für Umweltorganisationen sagt das Gesetz ausdrücklich: Wer sich an einem Einspracheverfahren nicht beteiligt hat, kann später keine Beschwerde mehr erheben. Wie lange die Einsprachefrist dauert, hängt vom Verfahren ab und ist oft kantonal geregelt. Massgebend ist die Frist in der Publikation. Informieren Sie eine Organisation deshalb schon während der Auflage, nicht erst nach dem Entscheid."
+        "de": "Bei Bauprojekten entscheidet der Zeitpunkt. Gesuche werden in der Regel öffentlich aufgelegt oder publiziert, zum Beispiel im kantonalen Amtsblatt. Wer mitreden will, muss innerhalb der dort genannten Frist Einsprache erheben. In Verfahren nach Bundesrecht kann nur Beschwerde führen, wer sich vorher beteiligt hat oder keine Gelegenheit dazu hatte. Für Umweltorganisationen sagt das Gesetz ausdrücklich: Wer sich an einem Einspracheverfahren nicht beteiligt hat, kann später keine Beschwerde mehr erheben. Wie lange die Einsprachefrist dauert, hängt vom Verfahren ab und ist oft kantonal geregelt. Massgebend ist die Frist in der Publikation. Informieren Sie eine Organisation deshalb schon während der Auflage, nicht erst nach dem Entscheid.",
+        "fr": "Pour les projets de construction, le moment est déterminant. Les demandes sont en règle générale mises à l'enquête publique ou publiées, par exemple dans la feuille officielle cantonale. Qui veut se faire entendre doit faire opposition dans le délai indiqué. Dans les procédures relevant du droit fédéral, seule peut recourir la personne qui a participé auparavant ou qui n'en a pas eu l'occasion. Pour les organisations environnementales, la loi précise expressément : qui n'a pas participé à une procédure d'opposition ne peut plus recourir par la suite. La durée du délai d'opposition dépend de la procédure et est souvent réglée par le droit cantonal. Le délai déterminant est celui indiqué dans la publication. Informez donc une organisation déjà pendant la mise à l'enquête, et non seulement après la décision.",
+        "it": "Nei progetti edilizi conta il momento. Le domande vengono di regola depositate pubblicamente o pubblicate, per esempio nel foglio ufficiale cantonale. Chi vuole far valere la propria opinione deve presentare opposizione entro il termine indicato lì. Nelle procedure secondo il diritto federale può presentare ricorso solo chi si è precedentemente coinvolto o non ne ha avuto l'occasione. Per le organizzazioni di protezione dell'ambiente la legge dice espressamente: chi non ha partecipato a una procedura di opposizione non può più presentare ricorso in seguito. Quanto dura il termine di opposizione dipende dalla procedura ed è spesso regolato a livello cantonale. Determinante è il termine indicato nella pubblicazione. Informi quindi un'organizzazione già durante il deposito, non solo dopo la decisione.",
+        "en": "For construction projects, timing is decisive. Applications are usually placed on public deposit or published, for example in the cantonal official gazette. Anyone who wants a say must lodge an objection within the time limit stated there. In proceedings under federal law, only someone who took part beforehand, or had no opportunity to do so, can appeal. For environmental organisations the law expressly states: anyone who did not take part in an objection procedure cannot appeal later. How long the objection period lasts depends on the procedure and is often set by cantonal law. What counts is the time limit stated in the publication. So inform an organisation already during the public deposit period, not only after the decision.",
+        "rm": "Tar projects da construcziun decida il mument. Dumondas vegnan per regla exponidas publicamain u publitgadas, per exempel en il fegl uffizial chantunal. Tgi che vul sa participar, sto far protesta entaifer il termin numnà là. En proceduras tenor il dretg federal po far recurs mo tgi che sa ha participà avant u n'aveva nagina occasiun da quai. Per organisaziuns ambientalas di la lescha expressivamain: Tgi che na sa participescha betg ad ina procedura da protesta, na po pli far recurs pli tard. Quant ditg che il termin da protesta dura, dependa da la procedura ed è savens reglà chantunalmain. Decisiv è il termin en la publicaziun. Infurmai percunquai in'organisaziun gia durant l'exposiziun, betg mo suenter la decisiun."
       },
       "sources": [
         "vwvg-48",
@@ -360,7 +524,11 @@
         ]
       },
       "text": {
-        "de": "Halten Sie das Vorgehen einer Bundesbehörde für rechtswidrig, können Sie das jederzeit ihrer Aufsichtsbehörde melden, wenn ein Einschreiten im öffentlichen Interesse nötig ist. Das heisst Aufsichtsanzeige. Sie werden dadurch aber nicht Partei: Sie können nicht verlangen, dass die Aufsichtsbehörde tätig wird, und ihren Entscheid nicht anfechten. Für kantonale und kommunale Behörden gelten die Regeln Ihres Kantons."
+        "de": "Halten Sie das Vorgehen einer Bundesbehörde für rechtswidrig, können Sie das jederzeit ihrer Aufsichtsbehörde melden, wenn ein Einschreiten im öffentlichen Interesse nötig ist. Das heisst Aufsichtsanzeige. Sie werden dadurch aber nicht Partei: Sie können nicht verlangen, dass die Aufsichtsbehörde tätig wird, und ihren Entscheid nicht anfechten. Für kantonale und kommunale Behörden gelten die Regeln Ihres Kantons.",
+        "fr": "Si vous estimez que le procédé d'une autorité fédérale est illégal, vous pouvez le signaler en tout temps à son autorité de surveillance, lorsqu'une intervention est nécessaire dans l'intérêt public. C'est ce qu'on appelle une dénonciation à l'autorité de surveillance. Vous ne devenez toutefois pas partie de ce fait : vous ne pouvez pas exiger que l'autorité de surveillance intervienne, ni contester sa décision. Pour les autorités cantonales et communales, les règles de votre canton s'appliquent.",
+        "it": "Se ritiene illecito l'operato di un'autorità federale, può segnalarlo in ogni momento alla sua autorità di vigilanza con una denuncia, se un intervento è necessario nell'interesse pubblico. Questo si chiama denuncia all'autorità di vigilanza. Non diventa però parte: non può pretendere che l'autorità di vigilanza intervenga, e non può impugnarne la decisione. Per le autorità cantonali e comunali valgono le regole del suo Cantone.",
+        "en": "If you consider the conduct of a federal authority unlawful, you can report this to its supervisory authority at any time, if intervention is necessary in the public interest. This is called a supervisory complaint. You do not thereby become a party: you cannot demand that the supervisory authority take action, and you cannot challenge its decision. For cantonal and communal authorities, the rules of your canton apply.",
+        "rm": "Tegnais Vus il proceder d'in'autoritad federala per illegal, pudais Vus communitgar quai da tut temp a sia autoritad da surveglianza, sch'in intervenir en l'interess public è necessari. Quai sa clama recurs da surveglianza. Vus na daventais dentant betg partida tras quai: Vus na pudais betg pretender che l'autoritad da surveglianza agescha, e na pudais betg contestar sia decisiun. Per autoritads chantunalas e communalas valan las reglas da Voss chantun."
       },
       "sources": [
         "vwvg-71",
@@ -371,14 +539,22 @@
       "id": "escalate",
       "kind": "escalate",
       "text": {
-        "de": "Erwägen Sie oder Ihr Verein ein Gesuch an eine Behörde, eine Beschwerde oder eine Beschwerde in Strassburg, lassen Sie sich vorher von einer Anwältin oder einem Anwalt mit Erfahrung im öffentlichen Recht oder in Menschenrechtsfragen beraten. Solche Verfahren dauern oft Jahre, die Hürden sind hoch, und bei einer Niederlage können Kosten anfallen. Klären Sie zuerst, ob die Voraussetzungen erfüllt sind und welche Fristen laufen."
+        "de": "Erwägen Sie oder Ihr Verein ein Gesuch an eine Behörde, eine Beschwerde oder eine Beschwerde in Strassburg, lassen Sie sich vorher von einer Anwältin oder einem Anwalt mit Erfahrung im öffentlichen Recht oder in Menschenrechtsfragen beraten. Solche Verfahren dauern oft Jahre, die Hürden sind hoch, und bei einer Niederlage können Kosten anfallen. Klären Sie zuerst, ob die Voraussetzungen erfüllt sind und welche Fristen laufen.",
+        "fr": "Si vous ou votre association envisagez une demande à une autorité, un recours ou une requête à Strasbourg, faites-vous d'abord conseiller par une avocate ou un avocat expérimenté en droit public ou en droits humains. De telles procédures durent souvent des années, les obstacles sont élevés, et une défaite peut entraîner des frais. Clarifiez d'abord si les conditions sont remplies et quels délais courent.",
+        "it": "Se lei o la sua associazione considerate una domanda a un'autorità, un ricorso o un ricorso a Strasburgo, si facciano consigliare prima da un'avvocata o un avvocato con esperienza in diritto pubblico o in questioni di diritti umani. Tali procedure durano spesso anni, gli ostacoli sono alti, e in caso di sconfitta possono sorgere spese. Chiarisca prima se i presupposti sono soddisfatti e quali termini corrono.",
+        "en": "If you or your association are considering an application to an authority, an appeal, or a complaint in Strasbourg, get advice beforehand from a lawyer experienced in public law or human-rights matters. Such proceedings often take years, the hurdles are high, and costs can arise if you lose. First clarify whether the conditions are met and which time limits are running.",
+        "rm": "Considerai Vus u Vossa associaziun ina dumonda ad in'autoritad, in recurs u in recurs a Strasburg, laschai Vus consegliar avant d'in'advocata u in advocat cun experientscha en il dretg public u en dumondas dals dretgs umans. Talas proceduras duran savens onns, las barrieras èn autas, e tar ina disfatta pon resultar custs. Sclerezzai empruma, sche las premissas èn ademplidas e tge termins currian."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Eine erste kostenlose oder günstige Rechtsauskunft bieten in vielen Kantonen und Städten unentgeltliche Rechtsberatungsstellen. Zu Bauprojekten können Sie sich an die beschwerdeberechtigten Umweltorganisationen wenden; die Liste finden Sie im Anhang der Verordnung SR 814.076 (Link unten). Die kantonale Umweltfachstelle berät auch Private zu Umweltfragen. Fachinformationen zu Klima und Treibhausgasen bietet das Bundesamt für Umwelt. Wie Sie eine Petition an den Bundesrat oder die Bundesversammlung richten, erklärt die Bundeskanzlei (Link unten)."
+        "de": "Eine erste kostenlose oder günstige Rechtsauskunft bieten in vielen Kantonen und Städten unentgeltliche Rechtsberatungsstellen. Zu Bauprojekten können Sie sich an die beschwerdeberechtigten Umweltorganisationen wenden; die Liste finden Sie im Anhang der Verordnung SR 814.076 (Link unten). Die kantonale Umweltfachstelle berät auch Private zu Umweltfragen. Fachinformationen zu Klima und Treibhausgasen bietet das Bundesamt für Umwelt. Wie Sie eine Petition an den Bundesrat oder die Bundesversammlung richten, erklärt die Bundeskanzlei (Link unten).",
+        "fr": "Dans de nombreux cantons et villes, des services de consultation juridique gratuits offrent un premier renseignement gratuit ou à faible coût. Pour les projets de construction, vous pouvez vous adresser aux organisations environnementales habilitées à recourir ; la liste figure dans l'annexe de l'ordonnance RS 814.076 (lien ci-dessous). Le service cantonal de l'environnement conseille aussi les particuliers sur les questions environnementales. L'Office fédéral de l'environnement fournit des informations spécialisées sur le climat et les gaz à effet de serre. La Chancellerie fédérale explique comment adresser une pétition au Conseil fédéral ou à l'Assemblée fédérale (lien ci-dessous).",
+        "it": "Una prima informazione giuridica gratuita o a basso costo la offrono in molti Cantoni e città i servizi gratuiti di consulenza giuridica. Per i progetti edilizi può rivolgersi alle organizzazioni di protezione dell'ambiente legittimate a ricorrere; l'elenco lo trova nell'allegato dell'ordinanza RS 814.076 (link sotto). Il servizio cantonale per l'ambiente consiglia anche i privati su questioni ambientali. Informazioni specialistiche su clima e gas serra le offre l'Ufficio federale dell'ambiente. Come indirizzare una petizione al Consiglio federale o all'Assemblea federale lo spiega la Cancelleria federale (link sotto).",
+        "en": "An initial, free or low-cost legal consultation is offered in many cantons and cities by free legal advice centres. For construction projects, you can contact the organisations entitled to appeal; the list is in the annex to the ordinance SR 814.076 (link below). The cantonal environmental agency also advises private individuals on environmental questions. The Federal Office for the Environment provides specialist information on climate and greenhouse gases. How to address a petition to the Federal Council or the Federal Assembly is explained by the Federal Chancellery (link below).",
+        "rm": "Ina emprima infurmaziun giuridica gratuita u avantagiusa offran en blers chantuns e citads posts gratuits da cussegliaziun giuridica. Tar projects da construcziun pudais Vus sa drizzar a las organisaziuns ambientalas cun dretg da far recurs; la glista chattais Vus en l'agiunta da l'ordinaziun SR 814.076 (colliaziun sutvart). Il post chantunal spezialisà per l'ambient conseglia er privats en dumondas ambientalas. Infurmaziuns spezialisadas davart il clima ed ils gas cun effect da serra offra l'Uffizi federal per l'ambient. Co Vus drizzais ina petiziun al Cussegl federal u a l'Assamblea federala, declera la Chanzlia federala (colliaziun sutvart)."
       },
       "sources": [
         "usg-10e"
@@ -607,43 +783,71 @@
   "official_links": [
     {
       "label": {
-        "de": "Klimapolitik der Schweiz (Bundesamt für Umwelt)"
+        "de": "Klimapolitik der Schweiz (Bundesamt für Umwelt)",
+        "fr": "Politique climatique de la Suisse (Office fédéral de l'environnement)",
+        "it": "Politica climatica della Svizzera (Ufficio federale dell'ambiente)",
+        "en": "Switzerland's climate policy (Federal Office for the Environment)",
+        "rm": "Politica dal clima da la Svizra (Uffizi federal per l'ambient)"
       },
       "url": "https://www.bafu.admin.ch/de/klimapolitik"
     },
     {
       "label": {
-        "de": "Treibhausgasinventar der Schweiz (Bundesamt für Umwelt)"
+        "de": "Treibhausgasinventar der Schweiz (Bundesamt für Umwelt)",
+        "fr": "Inventaire des gaz à effet de serre de la Suisse (Office fédéral de l'environnement)",
+        "it": "Inventario dei gas serra della Svizzera (Ufficio federale dell'ambiente)",
+        "en": "Switzerland's greenhouse gas inventory (Federal Office for the Environment)",
+        "rm": "Inventari dals gas cun effect da serra da la Svizra (Uffizi federal per l'ambient)"
       },
       "url": "https://www.bafu.admin.ch/de/treibhausgasinventar"
     },
     {
       "label": {
-        "de": "Bundesrat zum Urteil KlimaSeniorinnen (28. August 2024)"
+        "de": "Bundesrat zum Urteil KlimaSeniorinnen (28. August 2024)",
+        "fr": "Conseil fédéral sur l'arrêt KlimaSeniorinnen (28 août 2024)",
+        "it": "Consiglio federale sulla sentenza Anziane per il clima (28 agosto 2024)",
+        "en": "Federal Council on the KlimaSeniorinnen judgment (28 August 2024)",
+        "rm": "Il Cussegl federal davart la sentenzia KlimaSeniorinnas (ils 28 d'avust 2024)"
       },
       "url": "https://www.admin.ch/de/nsb?id=102244"
     },
     {
       "label": {
-        "de": "Bundesamt für Justiz zur Umsetzung des Urteils (26. November 2025)"
+        "de": "Bundesamt für Justiz zur Umsetzung des Urteils (26. November 2025)",
+        "fr": "Office fédéral de la justice sur la mise en œuvre de l'arrêt (26 novembre 2025)",
+        "it": "Ufficio federale di giustizia sull'attuazione della sentenza (26 novembre 2025)",
+        "en": "Federal Office of Justice on the implementation of the judgment (26 November 2025)",
+        "rm": "Uffizi federal da giustia davart la realisaziun da la sentenzia (ils 26 da november 2025)"
       },
       "url": "https://www.bj.admin.ch/de/newnsb/wr35SCyLrHAZ"
     },
     {
       "label": {
-        "de": "Laufende Vernehmlassungen des Bundes (Fedlex)"
+        "de": "Laufende Vernehmlassungen des Bundes (Fedlex)",
+        "fr": "Consultations en cours de la Confédération (Fedlex)",
+        "it": "Procedure di consultazione in corso della Confederazione (Fedlex)",
+        "en": "Current federal consultation procedures (Fedlex)",
+        "rm": "Consultaziuns currentas da la Confederaziun (Fedlex)"
       },
       "url": "https://www.fedlex.admin.ch/de/consultation-procedures/ongoing"
     },
     {
       "label": {
-        "de": "Petitionen an Bundesbehörden (Bundeskanzlei)"
+        "de": "Petitionen an Bundesbehörden (Bundeskanzlei)",
+        "fr": "Pétitions aux autorités fédérales (Chancellerie fédérale)",
+        "it": "Petizioni alle autorità federali (Cancelleria federale)",
+        "en": "Petitions to federal authorities (Federal Chancellery)",
+        "rm": "Petiziuns ad autoritads federalas (Chanzlia federala)"
       },
       "url": "https://www.bk.admin.ch/bk/de/home/politische-rechte/petitionen.html"
     },
     {
       "label": {
-        "de": "Liste der beschwerdeberechtigten Umweltorganisationen (SR 814.076)"
+        "de": "Liste der beschwerdeberechtigten Umweltorganisationen (SR 814.076)",
+        "fr": "Liste des organisations environnementales habilitées à recourir (RS 814.076)",
+        "it": "Elenco delle organizzazioni di protezione dell'ambiente legittimate a ricorrere (RS 814.076)",
+        "en": "List of organisations entitled to appeal (SR 814.076)",
+        "rm": "Glista da las organisaziuns ambientalas cun dretg da far recurs (SR 814.076)"
       },
       "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de"
     }

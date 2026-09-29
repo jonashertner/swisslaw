@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich kann mir ein Verfahren oder eine Anwältin nicht leisten"
+    "de": "Ich kann mir ein Verfahren oder eine Anwältin nicht leisten",
+    "fr": "Je n'ai pas les moyens de payer une procédure ou une avocate ou un avocat",
+    "it": "Non posso permettermi una procedura o un'avvocata",
+    "en": "I can't afford proceedings or a lawyer",
+    "rm": "Jau na poss betg pajar ina procedura u in'advocata u in advocat"
   },
   "summary": {
-    "de": "Wer kein Geld für Gericht und Anwalt hat, kann unentgeltliche Rechtspflege beantragen. Sie erhalten sie, wenn Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist; eine Anwältin oder einen Anwalt zusätzlich, wenn Sie das brauchen. Im Strafverfahren gibt es die amtliche Verteidigung. Stellen Sie das Gesuch früh. Die Hilfe deckt nicht alles, und oft müssen Sie später zurückzahlen, wenn es Ihnen besser geht."
+    "de": "Wer kein Geld für Gericht und Anwalt hat, kann unentgeltliche Rechtspflege beantragen. Sie erhalten sie, wenn Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist; eine Anwältin oder einen Anwalt zusätzlich, wenn Sie das brauchen. Im Strafverfahren gibt es die amtliche Verteidigung. Stellen Sie das Gesuch früh. Die Hilfe deckt nicht alles, und oft müssen Sie später zurückzahlen, wenn es Ihnen besser geht.",
+    "fr": "Qui n'a pas d'argent pour le tribunal et l'avocat peut demander l'assistance judiciaire. Vous l'obtenez si les moyens vous manquent et si votre cause n'est pas dépourvue de chances de succès ; en plus une avocate ou un avocat, si vous en avez besoin. En procédure pénale, il existe la défense d'office. Déposez la requête tôt. L'aide ne couvre pas tout, et vous devez souvent rembourser plus tard, lorsque votre situation s'améliore.",
+    "it": "Chi non ha soldi per il tribunale e l'avvocato può chiedere il gratuito patrocinio. Lo ottiene se le mancano i mezzi e la sua domanda non è priva di probabilità di successo; inoltre un'avvocata o un avvocato, se ne ha bisogno. Nella procedura penale esiste la difesa d'ufficio. Presenti la domanda per tempo. L'aiuto non copre tutto, e spesso in seguito deve rimborsare, se la sua situazione migliora.",
+    "en": "Anyone without money for court and a lawyer can apply for legal aid. You receive it if you lack the means and your case is not hopeless; a lawyer as well, if you need one. In criminal proceedings there is official defence. File the application early. The help does not cover everything, and you often have to repay it later if your situation improves.",
+    "rm": "Tgi che n'ha nagin daner per dretgira ed advocat, po dumandar la giurisdicziun gratuita. Vus la survegnis, sche a Vus mancan ils meds e Voss basegn n'è betg invan; in'advocata u in advocat supplementarmain, sche Vus basegnais quai. En la procedura penala exista la defensiun uffiziala. Fetschai la dumonda baud. L'agid na cuvra betg tut, e savens stuais Vus pli tard restituir, sche va meglier a Vus."
   },
   "examples": {
     "de": [
@@ -21,51 +29,123 @@
       "Muss ich den Pflichtverteidiger später zurückzahlen?",
       "Ich bin Opfer einer Straftat und kann mir keinen Anwalt leisten.",
       "Das Gericht will einen Kostenvorschuss, aber ich hab das Geld nöd."
+    ],
+    "fr": [
+      "Je ne peux pas me payer un avocat, que puis-je faire ?",
+      "Qui paie les frais de justice si je n'ai pas d'argent ?",
+      "Je suis accusé et je n'ai pas d'argent pour un défenseur.",
+      "Peut-on obtenir un avocat gratuit quand on touche l'aide sociale ?",
+      "Comment demander l'assistance judiciaire pour mon divorce ?",
+      "Dois-je rembourser plus tard mon avocat d'office ?",
+      "Je suis victime d'une infraction et je n'ai pas les moyens de payer un avocat.",
+      "Le tribunal exige une avance de frais, mais je n'ai pas cet argent."
+    ],
+    "it": [
+      "Non posso permettermi un avvocato, cosa posso fare?",
+      "Chi paga le spese processuali se non ho soldi?",
+      "Sono imputata e non ho soldi per un difensore.",
+      "Si ottiene un avvocato gratis se si percepisce l'aiuto sociale?",
+      "Come chiedo il gratuito patrocinio per il mio divorzio?",
+      "Devo rimborsare in seguito il difensore d'ufficio?",
+      "Sono vittima di un reato e non posso permettermi un avvocato.",
+      "Il tribunale vuole un anticipo delle spese, ma non ho i soldi."
+    ],
+    "en": [
+      "I can't afford a lawyer, what can I do?",
+      "Who pays the court costs if I have no money?",
+      "I've been charged and have no money for a defence lawyer.",
+      "Do you get a free lawyer if you're on welfare?",
+      "How do I apply for legal aid for my divorce?",
+      "Do I have to repay the court-appointed defence lawyer later?",
+      "I'm the victim of a crime and can't afford a lawyer.",
+      "The court wants an advance on costs, but I don't have the money."
+    ],
+    "rm": [
+      "Jau na poss betg pajar in'advocata, tge poss jau far?",
+      "Tgi paja ils custs da dretgira, sche jau n'hai nagin daner?",
+      "Jau sun accusà e n'hai nagin daner per in defensur.",
+      "Survegn ins in advocat gratuit, sche ins retira agid social?",
+      "Co dumond jau la giurisdicziun gratuita per mes divorzi?",
+      "Stoss jau restituir pli tard il defensur uffizial?",
+      "Jau sun victima d'ina infracziun penala e na poss betg pajar in'advocata.",
+      "La dretgira vul in'avanza da custs, ma jau n'hai betg il daner."
     ]
   },
   "scope": {
     "covers": {
-      "de": "Unentgeltliche Rechtspflege und unentgeltlicher Rechtsbeistand in Zivilprozessen, im Strafverfahren (amtliche Verteidigung, Hilfe für Privatklägerschaft und Opfer), in Verfahren gegenüber Behörden und Sozialversicherungen sowie vor dem Bundesgericht."
+      "de": "Unentgeltliche Rechtspflege und unentgeltlicher Rechtsbeistand in Zivilprozessen, im Strafverfahren (amtliche Verteidigung, Hilfe für Privatklägerschaft und Opfer), in Verfahren gegenüber Behörden und Sozialversicherungen sowie vor dem Bundesgericht.",
+      "fr": "L'assistance judiciaire et le conseil juridique gratuit dans les procès civils, en procédure pénale (défense d'office, aide à la partie plaignante et aux victimes), dans les procédures face aux autorités et aux assurances sociales, ainsi que devant le Tribunal fédéral.",
+      "it": "Il gratuito patrocinio e il patrocinatore d'ufficio nei processi civili, nella procedura penale (difesa d'ufficio, aiuto per l'accusatore privato e per la vittima), nelle procedure contro le autorità e le assicurazioni sociali, nonché davanti al Tribunale federale.",
+      "en": "Legal aid and legal aid representation in civil proceedings, in criminal proceedings (official defence, help for private claimants and victims), in proceedings before authorities and social insurers, and before the Federal Supreme Court.",
+      "rm": "La giurisdicziun gratuita e l'assistenza giuridica gratuita en process civils, en la procedura penala (defensiun uffiziala, agid per l'accusadra privata e per victimas), en proceduras envers autoritads ed assicuranzas socialas sco er davant il Tribunal federal."
     },
     "excludes": {
-      "de": "Wie Sie eine Anwältin oder einen Anwalt finden und was ein Mandat kostet, die Leistungen der Opferhilfe im Einzelnen und das Schlichtungsverfahren. Dafür gibt es eigene Anleitungen. Kantonale Gebühren und Tarife werden hier nicht angegeben."
+      "de": "Wie Sie eine Anwältin oder einen Anwalt finden und was ein Mandat kostet, die Leistungen der Opferhilfe im Einzelnen und das Schlichtungsverfahren. Dafür gibt es eigene Anleitungen. Kantonale Gebühren und Tarife werden hier nicht angegeben.",
+      "fr": "Comment trouver une avocate ou un avocat et ce que coûte un mandat, les prestations de l'aide aux victimes en détail et la procédure de conciliation. Des guides séparés y sont consacrés. Les émoluments et tarifs cantonaux ne sont pas indiqués ici.",
+      "it": "Come trovare un'avvocata o un avvocato e quanto costa un mandato, le prestazioni dell'aiuto alle vittime nel dettaglio e la procedura di conciliazione. Per questo esistono guide proprie. Le tasse e le tariffe cantonali non sono indicate qui.",
+      "en": "How to find a lawyer and what a mandate costs, the benefits of victim support in detail, and the conciliation procedure. There are separate guides for these. Cantonal fees and scales are not given here.",
+      "rm": "Co Vus chattais in'advocata u in advocat e tge ch'in mandat custa, las prestaziuns da l'agid a victimas en detagl e la procedura da mediaziun. Per quai exista guidas separadas. Taxas e tariffas chantunalas na vegnan betg indicadas qua."
     }
   },
   "facts": [
     {
       "key": "procedure",
       "question": {
-        "de": "Um welche Art von Verfahren geht es?"
+        "de": "Um welche Art von Verfahren geht es?",
+        "fr": "De quel type de procédure s'agit-il ?",
+        "it": "Di che tipo di procedura si tratta?",
+        "en": "What kind of proceedings are involved?",
+        "rm": "De tge gener da procedura sa tracta?"
       },
       "options": [
         {
           "value": "civil",
           "label": {
-            "de": "Ein Streit mit einer Privatperson oder Firma, zum Beispiel Scheidung, Miete oder Lohn"
+            "de": "Ein Streit mit einer Privatperson oder Firma, zum Beispiel Scheidung, Miete oder Lohn",
+            "fr": "Un litige avec une personne privée ou une entreprise, par exemple divorce, bail ou salaire",
+            "it": "Una controversia con un privato o una società, per esempio divorzio, locazione o salario",
+            "en": "A dispute with a private person or company, for example divorce, tenancy or wages",
+            "rm": "Ina dispita cun ina persuna privata u ina firma, per exempel divorzi, locaziun u salari"
           }
         },
         {
           "value": "criminal-accused",
           "label": {
-            "de": "Ein Strafverfahren gegen mich"
+            "de": "Ein Strafverfahren gegen mich",
+            "fr": "Une procédure pénale contre moi",
+            "it": "Una procedura penale contro di me",
+            "en": "Criminal proceedings against me",
+            "rm": "Ina procedura penala cunter mai"
           }
         },
         {
           "value": "criminal-victim",
           "label": {
-            "de": "Ein Strafverfahren, in dem ich Opfer oder geschädigt bin"
+            "de": "Ein Strafverfahren, in dem ich Opfer oder geschädigt bin",
+            "fr": "Une procédure pénale dans laquelle je suis victime ou lésé",
+            "it": "Una procedura penale in cui sono vittima o danneggiata o danneggiato",
+            "en": "Criminal proceedings in which I am a victim or have suffered harm",
+            "rm": "Ina procedura penala, en la quala jau sun victima u donnegià"
           }
         },
         {
           "value": "administrative",
           "label": {
-            "de": "Ein Verfahren gegen eine Behörde oder eine Sozialversicherung"
+            "de": "Ein Verfahren gegen eine Behörde oder eine Sozialversicherung",
+            "fr": "Une procédure contre une autorité ou une assurance sociale",
+            "it": "Una procedura contro un'autorità o un'assicurazione sociale",
+            "en": "Proceedings against an authority or a social insurer",
+            "rm": "Ina procedura cunter in'autoritad u in'assicuranza soziala"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -73,31 +153,51 @@
     {
       "key": "stage",
       "question": {
-        "de": "Läuft das Verfahren schon?"
+        "de": "Läuft das Verfahren schon?",
+        "fr": "La procédure est-elle déjà en cours ?",
+        "it": "La procedura è già in corso?",
+        "en": "Are the proceedings already under way?",
+        "rm": "Curra la procedura gia?"
       },
       "options": [
         {
           "value": "not-yet",
           "label": {
-            "de": "Nein, noch nicht"
+            "de": "Nein, noch nicht",
+            "fr": "Non, pas encore",
+            "it": "No, non ancora",
+            "en": "No, not yet",
+            "rm": "Na, anc betg"
           }
         },
         {
           "value": "running",
           "label": {
-            "de": "Ja, es läuft"
+            "de": "Ja, es läuft",
+            "fr": "Oui, elle est en cours",
+            "it": "Sì, è in corso",
+            "en": "Yes, they are under way",
+            "rm": "Gea, ella curra"
           }
         },
         {
           "value": "refused",
           "label": {
-            "de": "Ja, und mein Gesuch um unentgeltliche Rechtspflege wurde abgelehnt"
+            "de": "Ja, und mein Gesuch um unentgeltliche Rechtspflege wurde abgelehnt",
+            "fr": "Oui, et ma demande d'assistance judiciaire a été rejetée",
+            "it": "Sì, e la mia domanda di gratuito patrocinio è stata respinta",
+            "en": "Yes, and my application for legal aid was refused",
+            "rm": "Gea, e mia dumonda da giurisdicziun gratuita è vegnida refusada"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -105,28 +205,48 @@
     {
       "key": "insurance",
       "question": {
-        "de": "Haben Sie eine Rechtsschutzversicherung?"
+        "de": "Haben Sie eine Rechtsschutzversicherung?",
+        "fr": "Avez-vous une assurance de protection juridique ?",
+        "it": "Ha un'assicurazione di protezione giuridica?",
+        "en": "Do you have legal expenses insurance?",
+        "rm": "Avais Vus in'assicuranza da protecziun giuridica?"
       },
       "help": {
-        "de": "Sie kann auch Teil einer anderen Versicherung oder einer Mitgliedschaft sein, zum Beispiel bei einer Gewerkschaft."
+        "de": "Sie kann auch Teil einer anderen Versicherung oder einer Mitgliedschaft sein, zum Beispiel bei einer Gewerkschaft.",
+        "fr": "Elle peut aussi faire partie d'une autre assurance ou d'une affiliation, par exemple à un syndicat.",
+        "it": "Può anche far parte di un'altra assicurazione o di un'affiliazione, per esempio a un sindacato.",
+        "en": "It can also be part of another insurance policy or a membership, for example with a trade union.",
+        "rm": "Ella po era esser part d'in'autra assicuranza u d'ina commembranza, per exempel tar in syndicat."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Ich weiss es nicht"
+            "de": "Ich weiss es nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -137,7 +257,11 @@
       "id": "three-conditions",
       "kind": "rule",
       "text": {
-        "de": "Die Bundesverfassung gibt jeder Person, der das Geld für ein Verfahren fehlt, Anspruch auf unentgeltliche Rechtspflege. Drei Punkte zählen. Erstens: Sie haben nicht genug Mittel. Das trifft zu, wenn Sie Gericht und Anwalt nur bezahlen könnten, indem Sie Geld brauchen, das Sie für Ihren eigenen Lebensunterhalt und den Ihrer Familie benötigen. Geprüft wird Ihre ganze Lage im Zeitpunkt des Gesuchs: Lohn und andere Einkünfte, Erspartes und die Ausgaben, die Sie tatsächlich bezahlen. Bleibt Ihnen jeden Monat so viel übrig, dass Sie die Kosten in einem einfachen Fall innert etwa einem Jahr, in anderen Fällen innert etwa zwei Jahren abzahlen könnten, fehlt es in der Regel an dieser Voraussetzung. Zweitens: Ihr Anliegen ist nicht aussichtslos. Aussichtslos heisst, dass die Chancen, zu gewinnen, klar kleiner sind als das Risiko, zu verlieren. Das Gericht fragt, ob eine vernünftige Person mit genug Geld den gleichen Prozess auch führen würde. Sind Chancen und Risiken etwa gleich gross, ist das Anliegen nicht aussichtslos. Drittens: Eine Anwältin oder einen Anwalt erhalten Sie zusätzlich, wenn Sie ohne Hilfe Ihre Rechte nicht richtig wahren könnten, etwa weil viel für Sie auf dem Spiel steht und der Fall rechtlich oder tatsächlich schwierig ist."
+        "de": "Die Bundesverfassung gibt jeder Person, der das Geld für ein Verfahren fehlt, Anspruch auf unentgeltliche Rechtspflege. Drei Punkte zählen. Erstens: Sie haben nicht genug Mittel. Das trifft zu, wenn Sie Gericht und Anwalt nur bezahlen könnten, indem Sie Geld brauchen, das Sie für Ihren eigenen Lebensunterhalt und den Ihrer Familie benötigen. Geprüft wird Ihre ganze Lage im Zeitpunkt des Gesuchs: Lohn und andere Einkünfte, Erspartes und die Ausgaben, die Sie tatsächlich bezahlen. Bleibt Ihnen jeden Monat so viel übrig, dass Sie die Kosten in einem einfachen Fall innert etwa einem Jahr, in anderen Fällen innert etwa zwei Jahren abzahlen könnten, fehlt es in der Regel an dieser Voraussetzung. Zweitens: Ihr Anliegen ist nicht aussichtslos. Aussichtslos heisst, dass die Chancen, zu gewinnen, klar kleiner sind als das Risiko, zu verlieren. Das Gericht fragt, ob eine vernünftige Person mit genug Geld den gleichen Prozess auch führen würde. Sind Chancen und Risiken etwa gleich gross, ist das Anliegen nicht aussichtslos. Drittens: Eine Anwältin oder einen Anwalt erhalten Sie zusätzlich, wenn Sie ohne Hilfe Ihre Rechte nicht richtig wahren könnten, etwa weil viel für Sie auf dem Spiel steht und der Fall rechtlich oder tatsächlich schwierig ist.",
+        "fr": "La Constitution fédérale donne à toute personne qui n'a pas l'argent pour une procédure le droit à l'assistance judiciaire. Trois points comptent. Premièrement : vous n'avez pas de moyens suffisants. C'est le cas si vous ne pourriez payer le tribunal et l'avocat qu'en utilisant de l'argent dont vous avez besoin pour votre propre entretien et celui de votre famille. On examine l'ensemble de votre situation au moment de la requête : salaire et autres revenus, économies et dépenses que vous payez effectivement. S'il vous reste chaque mois assez d'argent pour rembourser les frais dans un délai d'environ un an dans un cas simple, ou d'environ deux ans dans d'autres cas, cette condition n'est en règle générale pas remplie. Deuxièmement : votre cause n'est pas dépourvue de chances de succès. Dépourvue de chances de succès signifie que les chances de gagner sont nettement plus faibles que le risque de perdre. Le tribunal se demande si une personne raisonnable disposant de moyens suffisants mènerait aussi ce procès. Si les chances et les risques sont à peu près égaux, la cause n'est pas dépourvue de chances de succès. Troisièmement : vous obtenez en plus une avocate ou un avocat si, sans aide, vous ne pourriez pas défendre correctement vos droits, par exemple parce que beaucoup est en jeu pour vous et que l'affaire est difficile en droit ou en fait.",
+        "it": "La Costituzione federale dà a ogni persona a cui mancano i mezzi per una procedura il diritto al gratuito patrocinio. Contano tre punti. Primo: non dispone di mezzi sufficienti. È il caso se potrebbe pagare tribunale e avvocato solo utilizzando denaro di cui ha bisogno per il proprio sostentamento e quello della sua famiglia. Si esamina l'intera sua situazione al momento della domanda: salario e altri introiti, risparmi e le spese che effettivamente paga. Se ogni mese le rimane abbastanza da poter rimborsare le spese, in un caso semplice entro circa un anno, in altri casi entro circa due anni, di regola manca questo presupposto. Secondo: la sua domanda non è priva di probabilità di successo. Priva di probabilità di successo significa che le possibilità di vincere sono chiaramente inferiori al rischio di perdere. Il tribunale si chiede se una persona ragionevole con abbastanza denaro condurrebbe lo stesso processo. Se possibilità e rischi sono all'incirca uguali, la domanda non è priva di probabilità di successo. Terzo: riceve inoltre un'avvocata o un avvocato se senza aiuto non potrebbe tutelare correttamente i suoi diritti, per esempio perché è in gioco molto per lei e il caso è difficile dal punto di vista giuridico o fattuale.",
+        "en": "The Federal Constitution entitles every person who lacks the money for proceedings to legal aid. Three points count. First: you do not have sufficient means. This is the case if you could only pay for court and a lawyer by using money that you need for your own living costs and those of your family. Your whole situation at the time of the application is assessed: wages and other income, savings, and the expenses you actually pay. If enough is left over each month that you could pay off the costs within roughly a year in a simple case, or roughly two years in other cases, this condition is generally not met. Second: your case is not hopeless. Hopeless means that the chances of winning are clearly smaller than the risk of losing. The court asks whether a reasonable person with enough money would also bring the same case. If the chances and the risk are roughly equal, the case is not hopeless. Third: you receive a lawyer in addition if, without help, you could not properly safeguard your rights, for example because a great deal is at stake for you and the case is legally or factually difficult.",
+        "rm": "La Constituziun federala conceda a mintga persuna, a la quala manca il daner per ina procedura, il dretg sin la giurisdicziun gratuita. Trais puncts conteschan. Emprim: Vus n'avais betg avunda meds. Quai vala, sche Vus pudessas pajar dretgira ed advocat mo cun duvrar daner che Vus basegnais per Voss agen sustegn e quel da Vossa famiglia. Examinada vegn Vossa entira situaziun al mument da la dumonda: salari ed autras entradas, spargn e las spesas che Vus pajais propi. Resta a Vus mintga mais tant, che Vus pudessas pajar enavos ils custs en in cas simpel entaifer bain in onn, en auters cas entaifer bain dus onns, manca per regla questa premissa. Secund: Voss basegn n'è betg invan. Invan munta che las schanzas da gudagnar èn cleramain pli pitschnas ch'il risic da perder. La dretgira dumonda, sch'ina persuna raschunaivla cun avunda daner manass er il medem process. Sun schanzas e risics bain uschè gronds, n'è il basegn betg invan. Terz: In'advocata u in advocat survegnis Vus supplementarmain, sche Vus na pudessas betg defender endretgamain Vossas dretgs senza agid, per exempel perquai che bler è en gieu per Vus e la chaussa è giuridicamain u factualmain difficila."
       },
       "sources": [
         "bv-29",
@@ -150,7 +274,11 @@
       "id": "family-and-insurance-first",
       "kind": "rule",
       "text": {
-        "de": "Der Staat springt nur ein, wenn niemand sonst für die Kosten aufkommen muss. Sind Sie verheiratet, muss Ihnen Ihr Ehemann oder Ihre Ehefrau in einem Rechtsstreit mit einem Kostenvorschuss helfen, soweit er oder sie das kann. Diese Pflicht geht der unentgeltlichen Rechtspflege vor. Für Partnerinnen und Partner im Konkubinat gilt diese Pflicht nicht; das Gericht darf aber berücksichtigen, dass Sie die Kosten des gemeinsamen Haushalts teilen. Haben Sie eine Rechtsschutzversicherung, die den Fall deckt, oder übernimmt eine Gewerkschaft oder ein Verband, bei dem Sie Mitglied sind, die Vertretung, sind Ihre Kosten bereits gedeckt. Dann bezahlt der Staat dafür nicht."
+        "de": "Der Staat springt nur ein, wenn niemand sonst für die Kosten aufkommen muss. Sind Sie verheiratet, muss Ihnen Ihr Ehemann oder Ihre Ehefrau in einem Rechtsstreit mit einem Kostenvorschuss helfen, soweit er oder sie das kann. Diese Pflicht geht der unentgeltlichen Rechtspflege vor. Für Partnerinnen und Partner im Konkubinat gilt diese Pflicht nicht; das Gericht darf aber berücksichtigen, dass Sie die Kosten des gemeinsamen Haushalts teilen. Haben Sie eine Rechtsschutzversicherung, die den Fall deckt, oder übernimmt eine Gewerkschaft oder ein Verband, bei dem Sie Mitglied sind, die Vertretung, sind Ihre Kosten bereits gedeckt. Dann bezahlt der Staat dafür nicht.",
+        "fr": "L'État n'intervient que si personne d'autre ne doit assumer les frais. Si vous êtes marié, votre époux ou épouse doit vous aider par une avance de frais dans un litige, dans la mesure de ses possibilités. Cette obligation prime l'assistance judiciaire. Pour les partenaires en concubinage, cette obligation ne s'applique pas ; le tribunal peut toutefois tenir compte du fait que vous partagez les frais du ménage commun. Si vous avez une assurance de protection juridique qui couvre le cas, ou si un syndicat ou une association dont vous êtes membre prend en charge la représentation, vos frais sont déjà couverts. L'État ne paie alors pas pour cela.",
+        "it": "Lo Stato interviene solo se nessun altro deve farsi carico delle spese. Se è sposata, suo marito o sua moglie deve aiutarla con un anticipo delle spese in una controversia legale, nella misura in cui può farlo. Questo obbligo precede il gratuito patrocinio. Per le persone conviventi in concubinato questo obbligo non vale; il tribunale può però tenere conto del fatto che condividete le spese della economia domestica comune. Se ha un'assicurazione di protezione giuridica che copre il caso, oppure se un sindacato o un'associazione di cui è membro assume la rappresentanza, le sue spese sono già coperte. Allora lo Stato non paga per questo.",
+        "en": "The state only steps in if no one else has to cover the costs. If you are married, your husband or wife must help you with an advance on costs in a legal dispute, so far as they are able to. This duty takes priority over legal aid. This duty does not apply to unmarried partners; but the court may take into account that you share the costs of a joint household. If you have legal expenses insurance that covers the case, or a trade union or association of which you are a member takes on the representation, your costs are already covered. The state then does not pay for it.",
+        "rm": "Il stadi sa participa mo, sche nagin auter na sto garantir per ils custs. Essas Vus maridads, sto Voss um u Vossa dunna Vus gidar en ina dispita giuridica cun in'avanza da custs, uschenavant ch'el u ella po quai. Questa obligaziun va avant la giurisdicziun gratuita. Per partenarias e partenaris en concubinat na vala questa obligaziun betg; la dretgira dastga dentant resguardar che Vus repartis ils custs da la damaschada cuminaivla. Avais Vus in'assicuranza da protecziun giuridica che cuvra il cas, u surpiglia in syndicat u in'associaziun, tar la quala Vus essas commember, la represchentanza, èn Voss custs gia cuverts. Lura na paja il stadi betg per quai."
       },
       "sources": [
         "bge-142-iii-36",
@@ -167,7 +295,11 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie Ihre Verträge: Eine Rechtsschutzversicherung kann auch Teil eines anderen Versicherungsvertrags oder einer Mitgliedschaft sein. Melden Sie den Fall der Versicherung so früh wie möglich und fragen Sie schriftlich, ob und in welchem Umfang sie die Kosten übernimmt. Lehnt sie ab oder deckt sie nur einen Teil, legen Sie diese Antwort Ihrem Gesuch um unentgeltliche Rechtspflege bei."
+        "de": "Prüfen Sie Ihre Verträge: Eine Rechtsschutzversicherung kann auch Teil eines anderen Versicherungsvertrags oder einer Mitgliedschaft sein. Melden Sie den Fall der Versicherung so früh wie möglich und fragen Sie schriftlich, ob und in welchem Umfang sie die Kosten übernimmt. Lehnt sie ab oder deckt sie nur einen Teil, legen Sie diese Antwort Ihrem Gesuch um unentgeltliche Rechtspflege bei.",
+        "fr": "Vérifiez vos contrats : une assurance de protection juridique peut aussi faire partie d'un autre contrat d'assurance ou d'une affiliation. Annoncez le cas à l'assurance aussitôt que possible et demandez par écrit si et dans quelle mesure elle prend en charge les frais. Si elle refuse ou ne couvre qu'une partie, joignez cette réponse à votre requête d'assistance judiciaire.",
+        "it": "Verifichi i suoi contratti: un'assicurazione di protezione giuridica può far parte anche di un altro contratto assicurativo o di un'affiliazione. Segnali il caso all'assicurazione il prima possibile e chieda per scritto se e in che misura assume le spese. Se rifiuta o copre solo in parte, alleghi questa risposta alla sua domanda di gratuito patrocinio.",
+        "en": "Check your contracts: legal expenses insurance can also be part of another insurance contract or a membership. Notify the insurer of the case as early as possible and ask in writing whether, and to what extent, it will cover the costs. If it refuses, or covers only part, enclose that answer with your application for legal aid.",
+        "rm": "Examinai Vossas contracts: In'assicuranza da protecziun giuridica po era esser part d'in auter contract d'assicuranza u d'ina commembranza. Annunziai il cas a l'assicuranza uschè baud sco pussaivel e dumandai per scrit, sch'ella surpiglia ils custs e en tge mesira. Refusa ella u cuvra ella mo ina part, agiuntai questa resposta a Vossa dumonda da giurisdicziun gratuita."
       }
     },
     {
@@ -180,7 +312,11 @@
         ]
       },
       "text": {
-        "de": "Im Zivilprozess, zum Beispiel bei einer Scheidung, einem Streit mit dem Vermieter oder einer Lohnklage, bedeutet unentgeltliche Rechtspflege: Sie müssen keine Kostenvorschüsse und keine Sicherheiten leisten, Sie bezahlen keine Gerichtskosten, und das Gericht setzt Ihnen eine Anwältin oder einen Anwalt ein, wenn Sie das zur Wahrung Ihrer Rechte brauchen. Das ist besonders der Fall, wenn die Gegenseite anwaltlich vertreten ist. Die Anwältin oder der Anwalt kann schon eingesetzt werden, um den Prozess vorzubereiten. Das Gericht kann die Hilfe ganz oder nur teilweise gewähren, zum Beispiel nur für die Gerichtskosten, aber ohne Anwalt. Sie ist auch möglich, wenn Sie vor einem Prozess Beweise sichern lassen wollen."
+        "de": "Im Zivilprozess, zum Beispiel bei einer Scheidung, einem Streit mit dem Vermieter oder einer Lohnklage, bedeutet unentgeltliche Rechtspflege: Sie müssen keine Kostenvorschüsse und keine Sicherheiten leisten, Sie bezahlen keine Gerichtskosten, und das Gericht setzt Ihnen eine Anwältin oder einen Anwalt ein, wenn Sie das zur Wahrung Ihrer Rechte brauchen. Das ist besonders der Fall, wenn die Gegenseite anwaltlich vertreten ist. Die Anwältin oder der Anwalt kann schon eingesetzt werden, um den Prozess vorzubereiten. Das Gericht kann die Hilfe ganz oder nur teilweise gewähren, zum Beispiel nur für die Gerichtskosten, aber ohne Anwalt. Sie ist auch möglich, wenn Sie vor einem Prozess Beweise sichern lassen wollen.",
+        "fr": "Dans le procès civil, par exemple pour un divorce, un litige avec le bailleur ou une action en paiement de salaire, l'assistance judiciaire signifie : vous ne devez fournir ni avance de frais ni sûretés, vous ne payez pas de frais judiciaires, et le tribunal vous désigne une avocate ou un avocat si vous en avez besoin pour défendre vos droits. C'est en particulier le cas lorsque la partie adverse est représentée par un avocat. L'avocate ou l'avocat peut déjà être désigné pour préparer le procès. Le tribunal peut accorder l'aide entièrement ou seulement en partie, par exemple uniquement pour les frais judiciaires, mais sans avocat. Elle est aussi possible si vous voulez faire assurer des preuves avant un procès.",
+        "it": "Nel processo civile, per esempio in un divorzio, una controversia con il locatore o un'azione salariale, il gratuito patrocinio significa: non deve versare anticipi né cauzioni, non paga spese processuali, e il tribunale le designa un'avvocata o un avvocato se ne ha bisogno per tutelare i suoi diritti. Questo vale in particolare se la controparte è patrocinata da un avvocato. L'avvocata o l'avvocato può essere designata o designato già per preparare il processo. Il tribunale può concedere l'aiuto integralmente o solo in parte, per esempio solo per le spese processuali, ma senza avvocato. È possibile anche se vuole far assumere prove prima di un processo.",
+        "en": "In civil proceedings, for example in a divorce, a dispute with your landlord or a wage claim, legal aid means: you do not have to pay advances on costs or provide security, you do not pay court costs, and the court appoints you a lawyer if you need one to safeguard your rights. This is especially so if the other side is represented by a lawyer. The lawyer can already be appointed to prepare the case. The court can grant the help in full or only in part, for example only for the court costs but without a lawyer. It is also available if you want to have evidence secured before proceedings.",
+        "rm": "En il process civil, per exempel tar in divorzi, ina dispita cun il locatur u in plant da salari, munta la giurisdicziun gratuita: Vus na stuais prestar naginas avanzas da custs e naginas garanzias, Vus na pajais nagins custs da dretgira, e la dretgira Vus nominescha in'advocata u in advocat, sche Vus basegnais quai per defender Voss dretgs. Quai è en spezial il cas, sche l'autra varta è represchentada tras in advocat. L'advocata u l'advocat po gia vegnir nominà per preparar il process. La dretgira po conceder l'agid entiramain u mo per part, per exempel mo per ils custs da dretgira, ma senza advocat. Ella è er pussaivla, sche Vus vulais garantir cumprovas avant in process."
       },
       "sources": [
         "zpo-117",
@@ -197,7 +333,11 @@
         ]
       },
       "text": {
-        "de": "Die unentgeltliche Rechtspflege schützt Sie nicht vor allen Kosten. Verlieren Sie den Prozess, übernimmt der Kanton zwar Ihre Gerichtskosten und Ihre eigene Anwältin oder Ihren eigenen Anwalt. Die Entschädigung, die das Gericht der Gegenseite für deren Anwalt zuspricht, müssen Sie aber selbst bezahlen. Rechnen Sie dieses Risiko mit ein, bevor Sie klagen oder ein Rechtsmittel ergreifen."
+        "de": "Die unentgeltliche Rechtspflege schützt Sie nicht vor allen Kosten. Verlieren Sie den Prozess, übernimmt der Kanton zwar Ihre Gerichtskosten und Ihre eigene Anwältin oder Ihren eigenen Anwalt. Die Entschädigung, die das Gericht der Gegenseite für deren Anwalt zuspricht, müssen Sie aber selbst bezahlen. Rechnen Sie dieses Risiko mit ein, bevor Sie klagen oder ein Rechtsmittel ergreifen.",
+        "fr": "L'assistance judiciaire ne vous protège pas de tous les frais. Si vous perdez le procès, le canton prend certes en charge vos frais judiciaires et votre propre avocate ou avocat. Mais vous devez payer vous-même les dépens que le tribunal alloue à la partie adverse pour son avocat. Tenez compte de ce risque avant d'introduire une action ou un recours.",
+        "it": "Il gratuito patrocinio non la protegge da tutte le spese. Se perde il processo, il Cantone si assume sì le spese processuali e la sua propria avvocata o il suo proprio avvocato. L'indennità che il tribunale assegna alla controparte per il suo avvocato, però, deve pagarla lei stessa. Consideri questo rischio prima di agire in giudizio o di presentare un rimedio giuridico.",
+        "en": "Legal aid does not protect you from all costs. If you lose the case, the canton covers your court costs and your own lawyer. But you must pay yourself the compensation that the court awards the other side for their lawyer. Factor in this risk before you bring an action or a legal remedy.",
+        "rm": "La giurisdicziun gratuita na Vus protegia betg avant tut ils custs. Perdais Vus il process, surpiglia il chantun bain Voss custs da dretgira e Vossa atgna advocata u Voss atgn advocat. L'indemnisaziun che la dretgira attribuescha a l'autra varta per ses advocat, stuais Vus dentant pajar Vus sez. Quintai en quest risic, avant che Vus plantais u recurrais."
       },
       "sources": [
         "zpo-118",
@@ -208,7 +348,11 @@
       "id": "how-to-apply",
       "kind": "step",
       "text": {
-        "de": "Stellen Sie das Gesuch bei der Stelle, die Ihr Verfahren führt: beim Gericht, bei der Staatsanwaltschaft oder bei der Beschwerdeinstanz. Viele Gerichte und Kantone haben dafür ein Formular. Legen Sie Ihre Einkommens- und Vermögensverhältnisse vollständig offen und belegen Sie sie, etwa mit Lohnabrechnungen, Steuerveranlagung, Kontoauszügen, Mietvertrag, Krankenkassenprämien und Belegen für Schulden, die Sie tatsächlich abzahlen. Erklären Sie kurz, worum es geht und welche Beweise Sie haben. Im Zivilprozess können Sie im Gesuch auch die Anwältin oder den Anwalt nennen, die oder der Sie vertreten soll. Fehlen Angaben oder Belege, kann das Gesuch abgelehnt werden."
+        "de": "Stellen Sie das Gesuch bei der Stelle, die Ihr Verfahren führt: beim Gericht, bei der Staatsanwaltschaft oder bei der Beschwerdeinstanz. Viele Gerichte und Kantone haben dafür ein Formular. Legen Sie Ihre Einkommens- und Vermögensverhältnisse vollständig offen und belegen Sie sie, etwa mit Lohnabrechnungen, Steuerveranlagung, Kontoauszügen, Mietvertrag, Krankenkassenprämien und Belegen für Schulden, die Sie tatsächlich abzahlen. Erklären Sie kurz, worum es geht und welche Beweise Sie haben. Im Zivilprozess können Sie im Gesuch auch die Anwältin oder den Anwalt nennen, die oder der Sie vertreten soll. Fehlen Angaben oder Belege, kann das Gesuch abgelehnt werden.",
+        "fr": "Déposez la requête auprès de l'autorité qui conduit votre procédure : le tribunal, le ministère public ou l'instance de recours. De nombreux tribunaux et cantons ont un formulaire pour cela. Indiquez entièrement votre situation de revenus et de fortune et justifiez-la, par exemple avec des fiches de salaire, la taxation fiscale, des relevés de compte, le contrat de bail, les primes d'assurance-maladie et des justificatifs pour les dettes que vous remboursez effectivement. Expliquez brièvement de quoi il s'agit et quelles preuves vous avez. Dans le procès civil, vous pouvez aussi indiquer dans la requête l'avocate ou l'avocat qui doit vous représenter. Si des indications ou des justificatifs manquent, la requête peut être rejetée.",
+        "it": "Presenti la domanda al servizio che conduce la sua procedura: al tribunale, al pubblico ministero o all'istanza di ricorso. Molti tribunali e Cantoni hanno un modulo per questo. Renda note completamente le sue condizioni di reddito e di patrimonio e le comprovi, per esempio con conteggi salariali, tassazione fiscale, estratti conto, contratto di locazione, premi di cassa malati e giustificativi per debiti che paga effettivamente. Spieghi brevemente di cosa si tratta e quali prove ha. Nel processo civile può indicare nella domanda anche l'avvocata o l'avvocato che dovrebbe rappresentarla. Se mancano indicazioni o giustificativi, la domanda può essere respinta.",
+        "en": "File the application with the body conducting your proceedings: the court, the public prosecutor's office, or the appeal authority. Many courts and cantons have a form for this. Disclose your income and assets fully and provide evidence, for example with payslips, tax assessments, bank statements, the lease, health insurance premiums, and evidence of debts you are actually paying off. Briefly explain what the case is about and what evidence you have. In civil proceedings you can also name in the application the lawyer you want to represent you. If information or evidence is missing, the application can be refused.",
+        "rm": "Fetschai la dumonda tar il post che maina Vossa procedura: tar la dretgira, tar la procura publica u tar l'instanza da recurs. Blers dretgiras e chantuns han per quai in formular. Exponai Vossas relaziuns d'entradas e da facultad cumplainamain e cumprovai las, per exempel cun decomptas da salari, taxaziun fiscala, extracts da conto, contract da locaziun, premias da la cassa da malsauns e cumprovas per debits che Vus pajais propi. Declerai cuort, de tge che sa tracta e tge cumprovas che Vus avais. En il process civil pudais Vus numnar en la dumonda era l'advocata u l'advocat che duai Vus represchentar. Mancan indicaziuns u cumprovas, po la dumonda vegnir refusada."
       },
       "sources": [
         "zpo-119",
@@ -229,7 +373,11 @@
         ]
       },
       "text": {
-        "de": "Im Zivilprozess müssen Sie nicht warten, bis die Klage eingereicht ist. Sie können das Gesuch schon vorher stellen. Das Gericht entscheidet darüber rasch in einem kurzen Verfahren (summarisches Verfahren). Für das Gesuch selbst werden keine Gerichtskosten verlangt, ausser Sie handeln böswillig oder mutwillig."
+        "de": "Im Zivilprozess müssen Sie nicht warten, bis die Klage eingereicht ist. Sie können das Gesuch schon vorher stellen. Das Gericht entscheidet darüber rasch in einem kurzen Verfahren (summarisches Verfahren). Für das Gesuch selbst werden keine Gerichtskosten verlangt, ausser Sie handeln böswillig oder mutwillig.",
+        "fr": "Dans le procès civil, vous n'avez pas besoin d'attendre que la demande soit déposée. Vous pouvez présenter la requête déjà avant. Le tribunal statue rapidement sur celle-ci dans une procédure sommaire. Aucun frais judiciaire n'est perçu pour la requête elle-même, sauf si vous agissez de manière malveillante ou téméraire.",
+        "it": "Nel processo civile non deve aspettare che l'azione sia stata depositata. Può presentare la domanda già prima. Il tribunale decide rapidamente con una procedura sommaria. Per la domanda stessa non sono richieste spese processuali, a meno che agisca in modo malizioso o temerario.",
+        "en": "In civil proceedings, you do not have to wait until the action has been filed. You can apply beforehand. The court decides on this quickly, in a short procedure (summary proceedings). No court costs are charged for the application itself, unless you act in bad faith or wantonly.",
+        "rm": "En il process civil na stuais Vus betg spetgar, fin il plant è inoltrà. Vus pudais far la dumonda gia avant. La dretgira decida davart quai svelt en ina procedura curta (procedura summarica). Per la dumonda sezza na vegnan pretendids nagins custs da dretgira, ustier Vus agischais cun mala fai u cun levsenn."
       },
       "sources": [
         "zpo-119"
@@ -239,7 +387,11 @@
       "id": "apply-early",
       "kind": "warning",
       "text": {
-        "de": "Stellen Sie das Gesuch so früh wie möglich. Die unentgeltliche Rechtspflege wirkt grundsätzlich erst ab dem Tag, an dem Sie sie beantragen. Mitgedeckt ist in der Regel noch die Arbeit der Anwältin oder des Anwalts für die Eingabe, mit der Sie das Gesuch einreichen. Kosten, die vorher entstanden sind, übernimmt der Staat nur ausnahmsweise. Wird Ihre finanzielle Lage erst während des Verfahrens schlechter, stellen Sie sofort ein Gesuch."
+        "de": "Stellen Sie das Gesuch so früh wie möglich. Die unentgeltliche Rechtspflege wirkt grundsätzlich erst ab dem Tag, an dem Sie sie beantragen. Mitgedeckt ist in der Regel noch die Arbeit der Anwältin oder des Anwalts für die Eingabe, mit der Sie das Gesuch einreichen. Kosten, die vorher entstanden sind, übernimmt der Staat nur ausnahmsweise. Wird Ihre finanzielle Lage erst während des Verfahrens schlechter, stellen Sie sofort ein Gesuch.",
+        "fr": "Déposez la requête le plus tôt possible. L'assistance judiciaire ne produit en principe ses effets qu'à partir du jour où vous la demandez. Est en général encore couvert le travail de l'avocate ou de l'avocat pour l'écriture par laquelle vous déposez la requête. L'État ne prend en charge les frais déjà engagés auparavant qu'à titre exceptionnel. Si votre situation financière ne se dégrade qu'en cours de procédure, déposez immédiatement une requête.",
+        "it": "Presenti la domanda il prima possibile. Il gratuito patrocinio in linea di principio ha effetto solo dal giorno in cui lo richiede. Di regola è coperto anche il lavoro dell'avvocata o dell'avvocato per l'atto con cui presenta la domanda. Le spese sorte prima le assume lo Stato solo eccezionalmente. Se la sua situazione finanziaria peggiora solo durante la procedura, presenti subito una domanda.",
+        "en": "File the application as early as possible. Legal aid generally only takes effect from the day you apply for it. As a rule, this still covers the work of the lawyer on the submission with which you file the application. The state only covers costs incurred beforehand in exceptional cases. If your financial situation worsens only during the proceedings, apply immediately.",
+        "rm": "Fetschai la dumonda uschè baud sco pussaivel. La giurisdicziun gratuita age per principi mo dapi il di, en il qual Vus la dumandais. Cuvrida è per regla anc la lavur da l'advocata u da l'advocat per l'inoltraziun, cun la quala Vus inoltrais la dumonda. Custs che èn resultads ordavant, surpiglia il stadi mo excepziunalmain. Daventa Vossa situaziun finanziala pir durant la procedura pli mala, fetschai immediat ina dumonda."
       },
       "sources": [
         "zpo-119",
@@ -250,7 +402,11 @@
       "id": "refusal-challenge",
       "kind": "warning",
       "text": {
-        "de": "Wird Ihr Gesuch ganz oder teilweise abgelehnt oder wird Ihnen die Hilfe später entzogen, können Sie sich dagegen wehren. Die Fristen sind kurz: Im Zivilprozess beträgt die Frist für die Beschwerde gegen einen solchen Entscheid 10 Tage, im Strafverfahren beträgt die Beschwerdefrist ebenfalls 10 Tage. In anderen Verfahren gilt, was in der Rechtsmittelbelehrung am Ende des Entscheids steht. Lesen Sie diese sofort und halten Sie die Frist ein."
+        "de": "Wird Ihr Gesuch ganz oder teilweise abgelehnt oder wird Ihnen die Hilfe später entzogen, können Sie sich dagegen wehren. Die Fristen sind kurz: Im Zivilprozess beträgt die Frist für die Beschwerde gegen einen solchen Entscheid 10 Tage, im Strafverfahren beträgt die Beschwerdefrist ebenfalls 10 Tage. In anderen Verfahren gilt, was in der Rechtsmittelbelehrung am Ende des Entscheids steht. Lesen Sie diese sofort und halten Sie die Frist ein.",
+        "fr": "Si votre requête est rejetée entièrement ou en partie, ou si l'aide vous est retirée plus tard, vous pouvez vous y opposer. Les délais sont courts : dans le procès civil, le délai de recours contre une telle décision est de 10 jours ; en procédure pénale, le délai de recours est également de 10 jours. Dans les autres procédures, ce qui figure dans l'indication des voies de droit à la fin de la décision s'applique. Lisez-la immédiatement et respectez le délai.",
+        "it": "Se la sua domanda viene respinta del tutto o in parte, o se l'aiuto le viene revocato in seguito, può opporsi. I termini sono brevi: nel processo civile il termine di ricorso contro una tale decisione è di 10 giorni, nella procedura penale il termine di ricorso è anch'esso di 10 giorni. In altre procedure vale ciò che è indicato nell'indicazione dei rimedi giuridici alla fine della decisione. La legga subito e rispetti il termine.",
+        "en": "If your application is refused in whole or in part, or the help is later withdrawn from you, you can contest this. The time limits are short: in civil proceedings, the time limit for an appeal against such a decision is 10 days; in criminal proceedings the appeal time limit is likewise 10 days. In other proceedings, what is stated in the instructions on legal remedies at the end of the decision applies. Read these immediately and observe the time limit.",
+        "rm": "Vegn Vossa dumonda entiramain u per part refusada, u vegn Vus l'agid pli tard retratg, pudais Vus Vus defender cunter quai. Las terminas èn curtas: En il process civil importa la termin per il recurs cunter ina tala decisiun 10 dis, en la procedura penala importa la termin da recurs medemamain 10 dis. En autras proceduras vala quai che stat en l'indicaziun dals meds legals a la fin da la decisiun. Legiai quella immediat e tegnei il termin."
       },
       "sources": [
         "zpo-120",
@@ -263,7 +419,11 @@
       "id": "appeal-new-application",
       "kind": "warning",
       "text": {
-        "de": "Die Bewilligung gilt nur für die Instanz, die sie erteilt hat. Ziehen Sie oder die Gegenseite den Fall an die nächste Instanz weiter, müssen Sie dort neu ein Gesuch stellen. Das gilt im Zivilprozess, im Strafverfahren und auch vor dem Bundesgericht. Das Bundesgericht befreit Sie auf Antrag von den Gerichtskosten und von der Sicherheit für die Entschädigung der Gegenseite, wenn Ihnen die Mittel fehlen und Ihr Begehren nicht aussichtslos ist. Wenn nötig, setzt es Ihnen eine Anwältin oder einen Anwalt ein."
+        "de": "Die Bewilligung gilt nur für die Instanz, die sie erteilt hat. Ziehen Sie oder die Gegenseite den Fall an die nächste Instanz weiter, müssen Sie dort neu ein Gesuch stellen. Das gilt im Zivilprozess, im Strafverfahren und auch vor dem Bundesgericht. Das Bundesgericht befreit Sie auf Antrag von den Gerichtskosten und von der Sicherheit für die Entschädigung der Gegenseite, wenn Ihnen die Mittel fehlen und Ihr Begehren nicht aussichtslos ist. Wenn nötig, setzt es Ihnen eine Anwältin oder einen Anwalt ein.",
+        "fr": "L'autorisation ne vaut que pour l'instance qui l'a accordée. Si vous ou la partie adverse portez l'affaire devant l'instance suivante, vous devez y déposer une nouvelle requête. Cela vaut pour le procès civil, la procédure pénale et aussi devant le Tribunal fédéral. Sur requête, le Tribunal fédéral vous dispense des frais judiciaires et de la sûreté en garantie des dépens de la partie adverse si les moyens vous font défaut et que vos conclusions ne paraissent pas dépourvues de chances de succès. Si nécessaire, il vous désigne une avocate ou un avocat.",
+        "it": "L'autorizzazione vale solo per l'istanza che l'ha concessa. Se lei o la controparte porta il caso all'istanza successiva, deve presentare lì una nuova domanda. Ciò vale nel processo civile, nella procedura penale e anche davanti al Tribunale federale. Il Tribunale federale, su richiesta, la esonera dalle spese giudiziarie e dalla prestazione di garanzie per le ripetibili della controparte, se le mancano i mezzi e la sua domanda non è priva di probabilità di successo. Se necessario, le designa un'avvocata o un avvocato.",
+        "en": "The authorisation applies only to the instance that granted it. If you, or the other side, take the case to the next instance, you must file a new application there. This applies in civil proceedings, in criminal proceedings and also before the Federal Supreme Court. On request, the Federal Supreme Court exempts you from the court costs and from the security for the other side's compensation if you lack the means and your case is not hopeless. If necessary, it appoints you a lawyer.",
+        "rm": "La permissiun vala mo per l'instanza che l'ha concedida. Purtais Vus u l'autra varta il cas vinavant a la proxima instanza, stuais Vus far là da nov ina dumonda. Quai vala en il process civil, en la procedura penala ed er davant il Tribunal federal. Il Tribunal federal Vus liberescha, sin dumonda, dals custs da dretgira e da la garanzia per l'indemnisaziun da l'autra varta, sche a Vus mancan ils meds e Voss basegn n'è betg invan. Sche necessari, nominescha el a Vus in'advocata u in advocat."
       },
       "sources": [
         "zpo-119",
@@ -282,7 +442,11 @@
         ]
       },
       "text": {
-        "de": "Unentgeltliche Rechtspflege ist kein Geschenk für immer. Im Zivilprozess müssen Sie dem Kanton die Kosten zurückzahlen, sobald Sie dazu in der Lage sind. Der Kanton kann das während 10 Jahren nach dem Ende des Verfahrens verlangen. Vor dem Bundesgericht und vor Beschwerdeinstanzen des Bundes gilt ebenfalls: Geht es Ihnen später finanziell besser, müssen Sie zurückzahlen. Eine Ausnahme gilt für den unentgeltlichen Rechtsbeistand im Verfahren vor einer Sozialversicherung selbst: Dort gibt es keine gesetzliche Grundlage, um die Kosten später zurückzufordern. Bei kantonalen Behörden und Gerichten regelt das kantonale Recht, ob und wie zurückgefordert wird. Im Zivilprozess kann das Gericht die Hilfe zudem entziehen, wenn ihre Voraussetzungen wegfallen, zum Beispiel weil Sie Geld erben."
+        "de": "Unentgeltliche Rechtspflege ist kein Geschenk für immer. Im Zivilprozess müssen Sie dem Kanton die Kosten zurückzahlen, sobald Sie dazu in der Lage sind. Der Kanton kann das während 10 Jahren nach dem Ende des Verfahrens verlangen. Vor dem Bundesgericht und vor Beschwerdeinstanzen des Bundes gilt ebenfalls: Geht es Ihnen später finanziell besser, müssen Sie zurückzahlen. Eine Ausnahme gilt für den unentgeltlichen Rechtsbeistand im Verfahren vor einer Sozialversicherung selbst: Dort gibt es keine gesetzliche Grundlage, um die Kosten später zurückzufordern. Bei kantonalen Behörden und Gerichten regelt das kantonale Recht, ob und wie zurückgefordert wird. Im Zivilprozess kann das Gericht die Hilfe zudem entziehen, wenn ihre Voraussetzungen wegfallen, zum Beispiel weil Sie Geld erben.",
+        "fr": "L'assistance judiciaire n'est pas un cadeau définitif. Dans le procès civil, vous devez rembourser les frais au canton dès que vous en avez les moyens. Le canton peut l'exiger pendant 10 ans après la fin de la procédure. Devant le Tribunal fédéral et devant les instances de recours de la Confédération, la même règle s'applique : si votre situation financière s'améliore par la suite, vous devez rembourser. Une exception vaut pour le conseil juridique gratuit dans la procédure devant une assurance sociale elle-même : il n'existe là aucune base légale pour réclamer les frais par la suite. Auprès des autorités et tribunaux cantonaux, le droit cantonal règle si et comment un remboursement est réclamé. Dans le procès civil, le tribunal peut en outre retirer l'aide si ses conditions ne sont plus remplies, par exemple parce que vous héritez d'argent.",
+        "it": "Il gratuito patrocinio non è un regalo per sempre. Nel processo civile deve rimborsare al Cantone le spese non appena è in grado di farlo. Il Cantone può esigerlo per 10 anni dopo la fine della procedura. Davanti al Tribunale federale e alle istanze di ricorso della Confederazione vale lo stesso: se in seguito la sua situazione finanziaria migliora, deve rimborsare. Un'eccezione vale per il patrocinatore d'ufficio gratuito nella procedura davanti a un'assicurazione sociale stessa: lì manca una base legale per pretendere in seguito la restituzione delle spese. Presso le autorità e i tribunali cantonali, il diritto cantonale regola se e come si effettua il rimborso. Nel processo civile il tribunale può inoltre revocare l'aiuto se i suoi presupposti vengono meno, per esempio perché eredita del denaro.",
+        "en": "Legal aid is not a gift for good. In civil proceedings, you must repay the costs to the canton as soon as you are able to. The canton can demand this for 10 years after the proceedings end. The same applies before the Federal Supreme Court and before federal appeal authorities: if your finances later improve, you must repay. An exception applies to legal aid representation in proceedings before a social insurer itself: there is no legal basis there for reclaiming the costs later. For cantonal authorities and courts, cantonal law governs whether and how reclaiming applies. In civil proceedings the court can also withdraw the help if its conditions no longer apply, for example because you receive an inheritance.",
+        "rm": "La giurisdicziun gratuita n'è nagin regal per adina. En il process civil stuais Vus restituir al chantun ils custs, uschespert che Vus essas en la posiziun da far quai. Il chantun po pretender quai durant 10 onns suenter la fin da la procedura. Davant il Tribunal federal e davant instanzas da recurs da la Confederaziun vala medemamain: Va Vus pli tard finanzialmain meglier, stuais Vus restituir. In'excepziun vala per l'assistenza giuridica gratuita en la procedura davant in'assicuranza soziala sezza: Là na dat i nagina basa legala per pretender enavos pli tard ils custs. Tar autoritads e dretgiras chantunalas regla il dretg chantunal, sch'e co che vegn pretendì enavos. En il process civil po la dretgira retrair l'agid supplementarmain, sche sias premissas crodan davent, per exempel perquai che Vus ereditais daner."
       },
       "sources": [
         "zpo-123",
@@ -302,7 +466,11 @@
         ]
       },
       "text": {
-        "de": "Im Strafverfahren brauchen Sie in bestimmten Fällen zwingend eine Verteidigung, unabhängig davon, ob Sie sie bezahlen können oder wollen. Das ist unter anderem so, wenn Sie mit einer vorläufigen Festnahme zusammen mehr als 10 Tage in Untersuchungshaft waren, wenn Ihnen mehr als ein Jahr Freiheitsstrafe, eine freiheitsentziehende Massnahme oder eine Landesverweisung droht, wenn Sie Ihre Interessen wegen Ihres Gesundheitszustands oder aus anderen Gründen nicht selbst wahren können, wenn die Staatsanwaltschaft vor Gericht persönlich auftritt oder wenn ein abgekürztes Verfahren durchgeführt wird. Wählen Sie in diesen Fällen keine eigene Verteidigung, setzt die Behörde eine amtliche Verteidigung ein."
+        "de": "Im Strafverfahren brauchen Sie in bestimmten Fällen zwingend eine Verteidigung, unabhängig davon, ob Sie sie bezahlen können oder wollen. Das ist unter anderem so, wenn Sie mit einer vorläufigen Festnahme zusammen mehr als 10 Tage in Untersuchungshaft waren, wenn Ihnen mehr als ein Jahr Freiheitsstrafe, eine freiheitsentziehende Massnahme oder eine Landesverweisung droht, wenn Sie Ihre Interessen wegen Ihres Gesundheitszustands oder aus anderen Gründen nicht selbst wahren können, wenn die Staatsanwaltschaft vor Gericht persönlich auftritt oder wenn ein abgekürztes Verfahren durchgeführt wird. Wählen Sie in diesen Fällen keine eigene Verteidigung, setzt die Behörde eine amtliche Verteidigung ein.",
+        "fr": "En procédure pénale, une défense est obligatoire dans certains cas, que vous puissiez ou vouliez la payer ou non. C'est notamment le cas si, arrestation provisoire comprise, vous avez été en détention provisoire plus de 10 jours, si vous encourez plus d'une année de peine privative de liberté, une mesure entraînant une privation de liberté ou une expulsion, si vous ne pouvez pas défendre vous-même vos intérêts en raison de votre état de santé ou pour d'autres raisons, si le ministère public intervient personnellement devant le tribunal, ou si une procédure simplifiée est menée. Si vous ne choisissez pas vous-même de défenseur dans ces cas, l'autorité désigne un défenseur d'office.",
+        "it": "Nella procedura penale, in determinati casi le serve obbligatoriamente una difesa, indipendentemente dal fatto che possa o voglia pagarla. È il caso tra l'altro se, insieme a un fermo provvisorio, è stata in carcerazione preventiva per più di 10 giorni, se rischia più di un anno di pena detentiva, una misura privativa della libertà o un'espulsione, se non può tutelare i suoi interessi da sola a causa del suo stato di salute o per altri motivi, se il pubblico ministero interviene personalmente davanti al tribunale, oppure se si procede con rito abbreviato. Se in questi casi non sceglie una propria difesa, l'autorità le designa una difesa d'ufficio.",
+        "en": "In criminal proceedings you need a defence lawyer in certain cases regardless of whether you can or want to pay for one. This applies, among other things, if, together with a provisional arrest, you were in pre-trial detention for more than 10 days, if you face more than one year's imprisonment, a custodial measure or expulsion from Switzerland, if you cannot safeguard your own interests because of your state of health or for other reasons, if the public prosecutor's office appears in person before the court, or if abbreviated proceedings are carried out. If you do not choose your own defence lawyer in these cases, the authority appoints an official defence lawyer.",
+        "rm": "En la procedura penala basegnais Vus en tscherts cas obligatoricamain ina defensiun, independentamain, sche Vus pudais u vulais la pajar. Quai è danter auter uschia, sche Vus essas stads, ensemen cun in arrest provisori, dapli che 10 dis en praschun preventiva, sche a Vus smanatscha dapli ch'in onn pena privativa da la libertad, ina mesira privativa da la libertad u in'expulsiun dal pajais, sche Vus na pudais betg defender Vossas interess Vus sez pervi da Voss stadi da sanadad u pervi d'auters motivs, sche la procura publica cumpara persunalmain davant dretgira, u sche vegn manada ina procedura abbreviada. Na tschernais Vus en quests cas nagina atgna defensiun, nominescha l'autoritad ina defensiun uffiziala."
       },
       "sources": [
         "stpo-130",
@@ -319,7 +487,11 @@
         ]
       },
       "text": {
-        "de": "Auch ausserhalb dieser Fälle erhalten Sie eine amtliche Verteidigung, wenn Ihnen das Geld für einen Anwalt fehlt und eine Verteidigung für Ihre Interessen nötig ist. Nötig ist sie, wenn es nicht um eine Kleinigkeit geht und der Fall so schwierig ist, dass Sie allein überfordert wären. Um eine Kleinigkeit geht es jedenfalls nicht mehr, wenn mehr als 4 Monate Freiheitsstrafe oder mehr als 120 Tagessätze Geldstrafe zu erwarten sind. Beantragen Sie die amtliche Verteidigung bei der Staatsanwaltschaft oder beim Gericht, das Ihr Verfahren führt."
+        "de": "Auch ausserhalb dieser Fälle erhalten Sie eine amtliche Verteidigung, wenn Ihnen das Geld für einen Anwalt fehlt und eine Verteidigung für Ihre Interessen nötig ist. Nötig ist sie, wenn es nicht um eine Kleinigkeit geht und der Fall so schwierig ist, dass Sie allein überfordert wären. Um eine Kleinigkeit geht es jedenfalls nicht mehr, wenn mehr als 4 Monate Freiheitsstrafe oder mehr als 120 Tagessätze Geldstrafe zu erwarten sind. Beantragen Sie die amtliche Verteidigung bei der Staatsanwaltschaft oder beim Gericht, das Ihr Verfahren führt.",
+        "fr": "Même en dehors de ces cas, vous obtenez un défenseur d'office si l'argent vous manque pour un avocat et qu'une défense est nécessaire pour vos intérêts. Elle est nécessaire lorsqu'il ne s'agit pas d'un cas de peu de gravité et que l'affaire est si difficile que vous seriez dépassé seul. Il ne s'agit en tout cas plus d'un cas de peu de gravité lorsque plus de 4 mois de peine privative de liberté ou plus de 120 jours-amende sont à prévoir. Demandez la défense d'office au ministère public ou au tribunal qui conduit votre procédure.",
+        "it": "Anche al di fuori di questi casi riceve una difesa d'ufficio se le mancano i mezzi per un avvocato e una difesa è necessaria per i suoi interessi. È necessaria se non si tratta di un caso da poco e il caso è così difficile che da sola sarebbe sopraffatta. Non si tratta comunque più di un caso da poco se si prospettano più di 4 mesi di pena detentiva o più di 120 aliquote giornaliere di pena pecuniaria. Chieda la difesa d'ufficio al pubblico ministero o al tribunale che conduce la sua procedura.",
+        "en": "Even outside these cases, you receive an official defence lawyer if you lack the money for one and a defence is needed to safeguard your interests. It is needed if the matter is not a minor one and the case is so difficult that you would be overwhelmed on your own. It is in any case no longer a minor matter if more than 4 months' imprisonment or more than 120 daily penalty units of a monetary penalty are to be expected. Apply for official defence to the public prosecutor's office or the court conducting your proceedings.",
+        "rm": "Er ordaifer quests cas survegnis Vus ina defensiun uffiziala, sche a Vus manca il daner per in advocat ed ina defensiun per Vossas interess è necessaria. Necessaria è ella, sche na sa tracta betg d'ina bagatella e la chaussa è uschè difficila che Vus fissas suletamain surchargiads. D'ina bagatella na sa tracta en mintga cas betg pli, sche pli che 4 mais pena privativa da la libertad u pli che 120 taxas diarias pena pecuniara èn dad spetgar. Dumandai la defensiun uffiziala tar la procura publica u tar la dretgira, che maina Vossa procedura."
       },
       "sources": [
         "stpo-132"
@@ -335,7 +507,11 @@
         ]
       },
       "text": {
-        "de": "Eine amtliche Verteidigung ist nicht in jedem Fall am Ende gratis. Der Staat bezahlt die Anwältin oder den Anwalt zuerst. Werden Sie aber verurteilt, die Verfahrenskosten zu tragen, müssen Sie dem Staat diese Entschädigung zurückzahlen, sobald Ihre finanzielle Lage es erlaubt. Der Staat kann das bis 10 Jahre nach dem rechtskräftigen Entscheid verlangen."
+        "de": "Eine amtliche Verteidigung ist nicht in jedem Fall am Ende gratis. Der Staat bezahlt die Anwältin oder den Anwalt zuerst. Werden Sie aber verurteilt, die Verfahrenskosten zu tragen, müssen Sie dem Staat diese Entschädigung zurückzahlen, sobald Ihre finanzielle Lage es erlaubt. Der Staat kann das bis 10 Jahre nach dem rechtskräftigen Entscheid verlangen.",
+        "fr": "Une défense d'office n'est pas gratuite dans tous les cas au final. L'État paie d'abord l'avocate ou l'avocat. Mais si vous êtes condamné à supporter les frais de procédure, vous devez rembourser cette indemnité à l'État dès que votre situation financière le permet. L'État peut l'exiger jusqu'à 10 ans après la décision entrée en force.",
+        "it": "Una difesa d'ufficio alla fine non è gratuita in ogni caso. Lo Stato paga prima l'avvocata o l'avvocato. Se però viene condannata a sopportare le spese procedurali, deve rimborsare allo Stato questa retribuzione non appena la sua situazione finanziaria lo permette. Lo Stato può esigerlo fino a 10 anni dopo la decisione passata in giudicato.",
+        "en": "Official defence is not free of charge in every case in the end. The state pays the lawyer first. But if you are ordered to bear the costs of the proceedings, you must repay this compensation to the state as soon as your financial situation allows. The state can demand this for up to 10 years after the final and binding decision.",
+        "rm": "Ina defensiun uffiziala n'è betg en mintga cas gratuita a la fin. Il stadi paja emprim l'advocata u l'advocat. Vegnis Vus dentant condemnads da purtar ils custs da procedura, stuais Vus restituir al stadi questa indemnisaziun, uschespert che Vossa situaziun finanziala al permetta. Il stadi po pretender quai enfin 10 onns suenter la decisiun legalmain valaivla."
       },
       "sources": [
         "stpo-135"
@@ -351,7 +527,11 @@
         ]
       },
       "text": {
-        "de": "Beteiligen Sie sich als Privatklägerin oder Privatkläger am Strafverfahren, können Sie unentgeltliche Rechtspflege erhalten, um Ihre Zivilansprüche durchzusetzen, zum Beispiel Schadenersatz oder Genugtuung. Sind Sie Opfer einer Straftat, ist sie auch für die Bestrafung der Täterin oder des Täters möglich. Voraussetzung ist jeweils, dass Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist. Die Hilfe umfasst die Befreiung von Vorschüssen, Sicherheiten und Verfahrenskosten sowie eine Anwältin oder einen Anwalt, wenn das nötig ist. Opfer und ihre Angehörigen müssen diese Kosten später nicht zurückzahlen. Bei anderen Privatklägerinnen und Privatklägern entscheidet die Behörde am Ende, wer die Kosten trägt."
+        "de": "Beteiligen Sie sich als Privatklägerin oder Privatkläger am Strafverfahren, können Sie unentgeltliche Rechtspflege erhalten, um Ihre Zivilansprüche durchzusetzen, zum Beispiel Schadenersatz oder Genugtuung. Sind Sie Opfer einer Straftat, ist sie auch für die Bestrafung der Täterin oder des Täters möglich. Voraussetzung ist jeweils, dass Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist. Die Hilfe umfasst die Befreiung von Vorschüssen, Sicherheiten und Verfahrenskosten sowie eine Anwältin oder einen Anwalt, wenn das nötig ist. Opfer und ihre Angehörigen müssen diese Kosten später nicht zurückzahlen. Bei anderen Privatklägerinnen und Privatklägern entscheidet die Behörde am Ende, wer die Kosten trägt.",
+        "fr": "Si vous participez à la procédure pénale comme partie plaignante, vous pouvez obtenir l'assistance judiciaire pour faire valoir vos prétentions civiles, par exemple des dommages-intérêts ou une réparation morale. Si vous êtes victime d'une infraction, elle est aussi possible pour la punition de l'auteure ou de l'auteur. La condition est, dans chaque cas, que les moyens vous manquent et que votre cause ne soit pas dépourvue de chances de succès. L'aide comprend la dispense d'avances, de sûretés et de frais de procédure, ainsi qu'une avocate ou un avocat si cela est nécessaire. Les victimes et leurs proches n'ont pas à rembourser ces frais par la suite. Pour les autres parties plaignantes, l'autorité décide à la fin qui supporte les frais.",
+        "it": "Se partecipa alla procedura penale come accusatrice privata o accusatore privato, può ottenere il gratuito patrocinio per far valere le sue pretese civili, per esempio risarcimento del danno o riparazione morale. Se è vittima di un reato, è possibile anche per l'azione penale contro l'autrice o l'autore del reato. Il presupposto è sempre che le manchino i mezzi e che la sua domanda non sia priva di probabilità di successo. L'aiuto comprende l'esonero da anticipi, cauzioni e spese procedurali, nonché un'avvocata o un avvocato, se necessario. Le vittime e i loro familiari non devono rimborsare in seguito queste spese. Per le altre persone accusatrici private, l'autorità decide alla fine chi sopporta le spese.",
+        "en": "If you take part in criminal proceedings as a private claimant, you can receive legal aid to pursue your civil claims, for example damages or satisfaction. If you are the victim of a criminal offence, it is also available for the prosecution of the offender. In each case the condition is that you lack the means and your case is not hopeless. The help covers exemption from advances, security and costs of proceedings, and a lawyer if that is needed. Victims and their relatives do not have to repay these costs later. For other private claimants, the authority decides at the end who bears the costs.",
+        "rm": "Sche Vus Vus participais sco accusadra privata a la procedura penala, pudais Vus survegnir la giurisdicziun gratuita per far valair Vossas pretensiuns civilas, per exempel indemnisaziun per il donn u satisfacziun. Essas Vus victima d'ina infracziun penala, è ella er pussaivla per la pena da la persuna autura. Premissa è mintga giada, ch'a Vus mancan ils meds e Voss basegn n'è betg invan. L'agid cumpiglia la liberaziun da pajaments anticipads, garanzias e custs da procedura sco er in'advocata u in advocat, sche quai è necessari. Victimas e lur confamigliars na stuain betg restituir pli tard quests custs. Tar autras accusadras privatas decida l'autoritad a la fin, tgi che porta ils custs."
       },
       "sources": [
         "stpo-136",
@@ -368,7 +548,11 @@
         ]
       },
       "text": {
-        "de": "Auch gegenüber Behörden gilt der Anspruch aus der Bundesverfassung. Fechten Sie den Entscheid einer Bundesbehörde an, befreit Sie die Beschwerdeinstanz nach Einreichung der Beschwerde auf Antrag von den Verfahrenskosten, wenn Ihnen die Mittel fehlen und Ihre Beschwerde nicht aussichtslos ist. Wenn nötig, erhalten Sie eine Anwältin oder einen Anwalt. Für Verfahren vor kantonalen und kommunalen Behörden regelt der Kanton die Einzelheiten. Er muss aber mindestens gewähren, was die Bundesverfassung verlangt. Wie das Gesuch zu stellen ist, erfahren Sie bei der zuständigen Behörde oder im kantonalen Verfahrensgesetz."
+        "de": "Auch gegenüber Behörden gilt der Anspruch aus der Bundesverfassung. Fechten Sie den Entscheid einer Bundesbehörde an, befreit Sie die Beschwerdeinstanz nach Einreichung der Beschwerde auf Antrag von den Verfahrenskosten, wenn Ihnen die Mittel fehlen und Ihre Beschwerde nicht aussichtslos ist. Wenn nötig, erhalten Sie eine Anwältin oder einen Anwalt. Für Verfahren vor kantonalen und kommunalen Behörden regelt der Kanton die Einzelheiten. Er muss aber mindestens gewähren, was die Bundesverfassung verlangt. Wie das Gesuch zu stellen ist, erfahren Sie bei der zuständigen Behörde oder im kantonalen Verfahrensgesetz.",
+        "fr": "Le droit tiré de la Constitution fédérale vaut aussi face aux autorités. Si vous contestez la décision d'une autorité fédérale, l'instance de recours vous dispense, sur requête après le dépôt du recours, des frais de procédure si les moyens vous manquent et que votre recours n'est pas dépourvu de chances de succès. Si nécessaire, vous obtenez une avocate ou un avocat. Pour les procédures devant les autorités cantonales et communales, le canton règle les détails. Il doit toutefois garantir au moins ce qu'exige la Constitution fédérale. Renseignez-vous auprès de l'autorité compétente ou dans la loi cantonale de procédure sur la manière de déposer la requête.",
+        "it": "Anche nei confronti delle autorità vale il diritto sancito dalla Costituzione federale. Se contesta la decisione di un'autorità federale, dopo la presentazione del ricorso l'istanza di ricorso, su richiesta, la esonera dalle spese procedurali se le mancano i mezzi e il suo ricorso non è privo di probabilità di successo. Se necessario, riceve un'avvocata o un avvocato. Per le procedure davanti alle autorità cantonali e comunali, il Cantone regola i dettagli. Deve però garantire almeno ciò che richiede la Costituzione federale. Come presentare la domanda lo sa presso l'autorità competente o nella legge di procedura cantonale.",
+        "en": "The entitlement under the Federal Constitution also applies against authorities. If you challenge the decision of a federal authority, the appeal authority, on request, exempts you from the costs of proceedings after the appeal has been filed, if you lack the means and your appeal is not hopeless. If necessary, you receive a lawyer. For proceedings before cantonal and communal authorities, the canton regulates the details. But it must at least grant what the Federal Constitution requires. You can find out how to file the application from the responsible authority or in the cantonal procedural law.",
+        "rm": "Er envers autoritads vala il dretg da la Constituziun federala. Contestais Vus la decisiun d'in'autoritad federala, Vus liberescha l'instanza da recurs, suenter l'inoltraziun dal recurs, sin dumonda, dals custs da procedura, sche a Vus mancan ils meds e Voss recurs n'è betg invan. Sche necessari, survegnis Vus in'advocata u in advocat. Per proceduras davant autoritads chantunalas e communalas regla il chantun ils detagls. El sto dentant almain conceder quai che la Constituziun federala pretenda. Co la dumonda sto vegnir fatga, savais Vus tar l'autoritad cumpetenta u en la lescha chantunala da procedura."
       },
       "sources": [
         "vwvg-65",
@@ -385,7 +569,11 @@
         ]
       },
       "text": {
-        "de": "Bei Sozialversicherungen, etwa der IV, der Unfall- oder der Arbeitslosenversicherung, gibt es zwei Stufen. Im Verfahren vor der Versicherung selbst erhalten Sie nur dann einen unentgeltlichen Rechtsbeistand, wenn die Umstände es wirklich verlangen. Dieser Massstab ist streng; oft wird zuerst erwartet, dass Sie Hilfe bei einer Beratungsstelle, einem Sozialdienst oder einem Verband suchen. Vor dem kantonalen Versicherungsgericht wird ein unentgeltlicher Rechtsbeistand bewilligt, wenn die Verhältnisse es rechtfertigen. Das Gerichtsverfahren ist bei vielen Sozialversicherungen kostenlos. Bei Streit um Leistungen der IV kostet es aber Gerichtsgebühren; auch davon können Sie befreit werden, wenn Ihnen die Mittel fehlen."
+        "de": "Bei Sozialversicherungen, etwa der IV, der Unfall- oder der Arbeitslosenversicherung, gibt es zwei Stufen. Im Verfahren vor der Versicherung selbst erhalten Sie nur dann einen unentgeltlichen Rechtsbeistand, wenn die Umstände es wirklich verlangen. Dieser Massstab ist streng; oft wird zuerst erwartet, dass Sie Hilfe bei einer Beratungsstelle, einem Sozialdienst oder einem Verband suchen. Vor dem kantonalen Versicherungsgericht wird ein unentgeltlicher Rechtsbeistand bewilligt, wenn die Verhältnisse es rechtfertigen. Das Gerichtsverfahren ist bei vielen Sozialversicherungen kostenlos. Bei Streit um Leistungen der IV kostet es aber Gerichtsgebühren; auch davon können Sie befreit werden, wenn Ihnen die Mittel fehlen.",
+        "fr": "Pour les assurances sociales, par exemple l'AI, l'assurance-accidents ou l'assurance-chômage, il y a deux niveaux. Dans la procédure devant l'assurance elle-même, vous n'obtenez un conseil juridique gratuit que si les circonstances l'exigent réellement. Ce critère est strict ; on attend souvent d'abord que vous cherchiez de l'aide auprès d'un service de consultation, d'un service social ou d'une association. Devant le tribunal cantonal des assurances, un conseil juridique gratuit est accordé si les circonstances le justifient. La procédure judiciaire est gratuite pour de nombreuses assurances sociales. En cas de litige sur des prestations de l'AI, elle entraîne toutefois des frais judiciaires ; vous pouvez aussi en être dispensé si les moyens vous manquent.",
+        "it": "Presso le assicurazioni sociali, per esempio l'AI, l'assicurazione contro gli infortuni o quella contro la disoccupazione, ci sono due livelli. Nella procedura davanti all'assicurazione stessa riceve un patrocinatore d'ufficio gratuito solo se le circostanze lo richiedono davvero. Questo criterio è severo; spesso ci si aspetta prima che lei cerchi aiuto presso un servizio di consulenza, un servizio sociale o un'associazione. Davanti al tribunale cantonale delle assicurazioni viene concesso un patrocinatore d'ufficio gratuito se le circostanze lo giustificano. La procedura giudiziaria è gratuita per molte assicurazioni sociali. In caso di controversia sulle prestazioni dell'AI, invece, comporta spese giudiziarie; anche da queste può essere esonerata se le mancano i mezzi.",
+        "en": "For social insurers, for example disability insurance (DI), accident insurance or unemployment insurance, there are two levels. In the proceedings before the insurer itself, you receive legal aid representation only if the circumstances truly require it. This standard is strict; often you are first expected to seek help from an advice centre, a social service or an association. Before the cantonal insurance court, legal aid representation is granted if the circumstances justify it. Court proceedings are free of charge for many social insurers. But for disputes over DI benefits, court fees are charged; you can also be exempted from these if you lack the means.",
+        "rm": "Tar assicuranzas socialas, per exempel l'assicuranza d'invaliditad (AI), l'assicuranza d'accidents u l'assicuranza da disoccupaziun, dat i dus stgalims. En la procedura davant l'assicuranza sezza survegnis Vus mo lura in'assistenza giuridica gratuita, sche las circumstanzas al pretendan propi. Quest standard è sever; savens vegn emprim spetgà che Vus tschertgais agid tar in post da cussegliaziun, in servetsch social u in'associaziun. Davant la dretgira chantunala d'assicuranza vegn concedida in'assistenza giuridica gratuita, sche las relaziuns al giustifitgeschan. La procedura giudiziala è gratuita tar blers assicuranzas socialas. Tar dispita davart prestaziuns da l'AI custa quai dentant taxas da dretgira; er da quellas pudais Vus vegnir liberads, sche a Vus mancan ils meds."
       },
       "sources": [
         "atsg-37",
@@ -404,7 +592,11 @@
         ]
       },
       "text": {
-        "de": "Wenn Sie Opfer einer Straftat sind, hilft Ihnen die Opferhilfe-Beratungsstelle in Ihrem Kanton. Die Beratung ist für Opfer und Angehörige kostenlos. Die Beratungsstelle kann Ihnen auch helfen, eine Anwältin oder einen Anwalt zu finden, und klärt ab, welche Kosten die Opferhilfe übernimmt. Mehr dazu finden Sie in der Anleitung zur Opferhilfe."
+        "de": "Wenn Sie Opfer einer Straftat sind, hilft Ihnen die Opferhilfe-Beratungsstelle in Ihrem Kanton. Die Beratung ist für Opfer und Angehörige kostenlos. Die Beratungsstelle kann Ihnen auch helfen, eine Anwältin oder einen Anwalt zu finden, und klärt ab, welche Kosten die Opferhilfe übernimmt. Mehr dazu finden Sie in der Anleitung zur Opferhilfe.",
+        "fr": "Si vous êtes victime d'une infraction, le centre de consultation d'aide aux victimes de votre canton vous aide. La consultation est gratuite pour les victimes et leurs proches. Le centre de consultation peut aussi vous aider à trouver une avocate ou un avocat, et détermine quels frais l'aide aux victimes prend en charge. Vous trouverez plus d'informations dans le guide sur l'aide aux victimes.",
+        "it": "Se è vittima di un reato, l'aiuta il servizio di consulenza per l'aiuto alle vittime del suo Cantone. La consulenza è gratuita per le vittime e i loro familiari. Il servizio di consulenza può aiutarla anche a trovare un'avvocata o un avvocato, e chiarisce quali spese assume l'aiuto alle vittime. Maggiori informazioni le trova nella guida sull'aiuto alle vittime.",
+        "en": "If you are the victim of a criminal offence, the victim support advice centre in your canton can help you. Advice is free of charge for victims and their relatives. The advice centre can also help you find a lawyer, and clarifies what costs victim support will cover. You can find out more in the guide to victim support.",
+        "rm": "Sche Vus essas victima d'ina infracziun penala, Vus gida il post da cussegliaziun da l'agid a victimas en Voss chantun. La cussegliaziun è gratuita per victimas e confamigliars. Il post da cussegliaziun po er Vus gidar da chattar in'advocata u in advocat, e clarifitgescha, tge custs che l'agid a victimas surpiglia. Dapli davart quai chattais Vus en la guida davart l'agid a victimas."
       },
       "sources": [
         "ohg-5"
@@ -419,21 +611,33 @@
         ]
       },
       "text": {
-        "de": "Ihr Gesuch wurde abgelehnt. Lassen Sie sofort prüfen, ob sich eine Beschwerde lohnt, und beachten Sie die kurze Frist. Wurde Ihr Anliegen als aussichtslos beurteilt, lassen Sie diese Einschätzung von einer Fachperson überprüfen."
+        "de": "Ihr Gesuch wurde abgelehnt. Lassen Sie sofort prüfen, ob sich eine Beschwerde lohnt, und beachten Sie die kurze Frist. Wurde Ihr Anliegen als aussichtslos beurteilt, lassen Sie diese Einschätzung von einer Fachperson überprüfen.",
+        "fr": "Votre requête a été rejetée. Faites immédiatement examiner si un recours en vaut la peine, et respectez le délai court. Si votre cause a été jugée dépourvue de chances de succès, faites vérifier cette appréciation par une ou un spécialiste.",
+        "it": "La sua domanda è stata respinta. Faccia verificare subito se conviene un ricorso, e rispetti il breve termine. Se la sua richiesta è stata giudicata priva di probabilità di successo, faccia verificare questa valutazione da una persona esperta.",
+        "en": "Your application has been refused. Have it checked immediately whether an appeal is worthwhile, and note the short time limit. If your case was assessed as hopeless, have this assessment reviewed by a professional.",
+        "rm": "Vossa dumonda è vegnida refusada. Laschai examinar immediat, sch'in recurs vala la paina, e resguardai la curta termin. È Voss basegn vegnì giuditgà sco invan, laschai examinar questa evaluaziun tras ina spezialista u in spezialist."
       }
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Lassen Sie sich beraten, wenn Ihnen im Strafverfahren eine hohe Strafe droht, wenn Ihr Gesuch abgelehnt wurde, wenn Sie nicht sicher sind, ob Ihr Anliegen Chancen hat, oder wenn es um viel Geld oder um Ihre Kinder geht. Viele Anwältinnen und Anwälte stellen das Gesuch um unentgeltliche Rechtspflege für Sie. Fragen Sie beim ersten Kontakt direkt danach."
+        "de": "Lassen Sie sich beraten, wenn Ihnen im Strafverfahren eine hohe Strafe droht, wenn Ihr Gesuch abgelehnt wurde, wenn Sie nicht sicher sind, ob Ihr Anliegen Chancen hat, oder wenn es um viel Geld oder um Ihre Kinder geht. Viele Anwältinnen und Anwälte stellen das Gesuch um unentgeltliche Rechtspflege für Sie. Fragen Sie beim ersten Kontakt direkt danach.",
+        "fr": "Faites-vous conseiller si une peine sévère vous menace en procédure pénale, si votre requête a été rejetée, si vous n'êtes pas sûr que votre cause ait des chances de succès, ou s'il s'agit de beaucoup d'argent ou de vos enfants. De nombreuses avocates et de nombreux avocats déposent la requête d'assistance judiciaire pour vous. Demandez-le directement dès le premier contact.",
+        "it": "Si faccia consigliare se nella procedura penale rischia una pena severa, se la sua domanda è stata respinta, se non è sicura che la sua richiesta abbia possibilità di successo, oppure se è in gioco molto denaro o i suoi figli. Molte avvocate e avvocati presentano per lei la domanda di gratuito patrocinio. Lo chieda direttamente al primo contatto.",
+        "en": "Get advice if you face a severe sentence in criminal proceedings, if your application was refused, if you are unsure whether your case has a chance, or if a lot of money or your children are at stake. Many lawyers file the application for legal aid on your behalf. Ask about this directly at the first contact.",
+        "rm": "Laschai Vus cusseglier, sche a Vus smanatscha en la procedura penala ina pena auta, sche Vossa dumonda è vegnida refusada, sche Vus n'essas betg segirs, sch'Voss basegn ha schanzas, u sche sa tracta da bler daner u da Voss uffants. Blera advocatas ed advocats fan la dumonda da giurisdicziun gratuita per Vus. Dumandai gia al emprim contact directamain per quai."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Viele Gerichtskanzleien geben Ihnen ein Formular für das Gesuch und erklären das Verfahren. In den meisten Kantonen gibt es Rechtsauskunftsstellen, oft von den kantonalen Anwaltsverbänden, die eine erste Auskunft kostenlos oder günstig geben. Mitglieder einer Gewerkschaft, eines Mieterverbands oder eines anderen Verbands erhalten dort oft Rechtsberatung. Bei Sozialversicherungen helfen Beratungsstellen für Menschen mit Behinderungen und Sozialdienste. Der Sozialdienst Ihrer Gemeinde kann Ihnen auch helfen, die Unterlagen für das Gesuch zusammenzustellen."
+        "de": "Kostenlose oder günstige Hilfe: Viele Gerichtskanzleien geben Ihnen ein Formular für das Gesuch und erklären das Verfahren. In den meisten Kantonen gibt es Rechtsauskunftsstellen, oft von den kantonalen Anwaltsverbänden, die eine erste Auskunft kostenlos oder günstig geben. Mitglieder einer Gewerkschaft, eines Mieterverbands oder eines anderen Verbands erhalten dort oft Rechtsberatung. Bei Sozialversicherungen helfen Beratungsstellen für Menschen mit Behinderungen und Sozialdienste. Der Sozialdienst Ihrer Gemeinde kann Ihnen auch helfen, die Unterlagen für das Gesuch zusammenzustellen.",
+        "fr": "Aide gratuite ou à faible coût : de nombreux greffes de tribunaux vous remettent un formulaire pour la requête et vous expliquent la procédure. Dans la plupart des cantons, il existe des services de consultation juridique, souvent tenus par les associations cantonales d'avocats, qui donnent un premier renseignement gratuitement ou à faible coût. Les membres d'un syndicat, d'une association de locataires ou d'une autre association y reçoivent souvent un conseil juridique. Pour les assurances sociales, des services de consultation pour personnes en situation de handicap et des services sociaux aident. Le service social de votre commune peut aussi vous aider à réunir les documents pour la requête.",
+        "it": "Aiuto gratuito o a basso costo: molte cancellerie giudiziarie le danno un modulo per la domanda e le spiegano la procedura. Nella maggior parte dei Cantoni esistono servizi di consulenza giuridica, spesso degli ordini cantonali degli avvocati, che offrono una prima informazione gratuita o a basso costo. I membri di un sindacato, di un'associazione di inquilini o di un'altra associazione ricevono spesso lì consulenza giuridica. Presso le assicurazioni sociali aiutano i servizi di consulenza per persone con disabilità e i servizi sociali. Il servizio sociale del suo Comune può aiutarla anche a raccogliere i documenti per la domanda.",
+        "en": "Free or low-cost help: many court registries give you a form for the application and explain the procedure. Most cantons have legal information centres, often run by the cantonal bar associations, which give an initial consultation free of charge or cheaply. Members of a trade union, a tenants' association or another association often get legal advice there. For social insurance matters, advice centres for people with disabilities and social services help. Your municipality's social service can also help you put together the documents for the application.",
+        "rm": "Agid gratuit u favuraivel: Blera canzlias da dretgira Vus dattan in formular per la dumonda e declerian la procedura. En la gronda part dals chantuns dat i posts da infurmaziun giuridica, savens da las associaziuns chantunalas d'advocatas ed advocats, che dattan in'emprima infurmaziun gratuitamain u a bun mertg. Commembers d'in syndicat, d'in'associaziun da locataris u d'in'autra associaziun survegnan là savens cussegliaziun giuridica. Tar assicuranzas socialas gidan posts da cussegliaziun per persunas cun impediments e servetschs socials. Il servetsch social da Vossa vischnanca po era Vus gidar da cumbinar ils documents per la dumonda."
       }
     }
   ],
@@ -659,13 +863,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen in den Kantonen"
+        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen in den Kantonen",
+        "fr": "Fédération Suisse des Avocats : services de consultation juridique dans les cantons",
+        "it": "Federazione Svizzera degli Avvocati: servizi di consulenza giuridica nei Cantoni",
+        "en": "Swiss Bar Association: legal information centres in the cantons",
+        "rm": "Uniun Svizra dals Advocats: Posts da infurmaziun giuridica en ils chantuns"
       },
       "url": "https://www.sav-fsa.ch/de/rechtsauskunft"
     },
     {
       "label": {
-        "de": "Opferhilfe Schweiz: Beratungsstellen in Ihrem Kanton"
+        "de": "Opferhilfe Schweiz: Beratungsstellen in Ihrem Kanton",
+        "fr": "Aide aux victimes Suisse : centres de consultation dans votre canton",
+        "it": "Aiuto alle vittime Svizzera: servizi di consulenza nel suo Cantone",
+        "en": "Victim Support Switzerland: advice centres in your canton",
+        "rm": "Agid a las victimas Svizra: Posts da cussegliaziun en Voss chantun"
       },
       "url": "https://www.opferhilfe-schweiz.ch/de/"
     }

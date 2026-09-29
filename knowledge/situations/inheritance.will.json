@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ein Testament errichten"
+    "de": "Ein Testament errichten",
+    "fr": "Rédiger un testament",
+    "it": "Redigere un testamento",
+    "en": "Making a will",
+    "rm": "Redigiar in testament"
   },
   "summary": {
-    "de": "Ab 18 Jahren und urteilsfähig dürfen Sie mit einem Testament selbst bestimmen, was nach Ihrem Tod mit Ihrem Vermögen geschieht. Am einfachsten ist das eigenhändige Testament: von Anfang bis Ende von Hand geschrieben, datiert und unterschrieben. Daneben gibt es das öffentliche Testament vor einer Notarin oder einem Notar und, nur in einer akuten Notlage, das mündliche Testament. Sie können Erbinnen und Erben einsetzen, Vermächtnisse aussetzen, eine Willensvollstreckerin oder einen Willensvollstrecker bestimmen und Bedingungen anfügen. Pflichtteile von Nachkommen sowie Ehegatten oder eingetragenen Partnerinnen und Partnern setzen dabei Grenzen. Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts."
+    "de": "Ab 18 Jahren und urteilsfähig dürfen Sie mit einem Testament selbst bestimmen, was nach Ihrem Tod mit Ihrem Vermögen geschieht. Am einfachsten ist das eigenhändige Testament: von Anfang bis Ende von Hand geschrieben, datiert und unterschrieben. Daneben gibt es das öffentliche Testament vor einer Notarin oder einem Notar und, nur in einer akuten Notlage, das mündliche Testament. Sie können Erbinnen und Erben einsetzen, Vermächtnisse aussetzen, eine Willensvollstreckerin oder einen Willensvollstrecker bestimmen und Bedingungen anfügen. Pflichtteile von Nachkommen sowie Ehegatten oder eingetragenen Partnerinnen und Partnern setzen dabei Grenzen. Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts.",
+    "fr": "Dès 18 ans et si vous êtes capable de discernement, un testament vous permet de décider vous-même de ce qu’il advient de votre patrimoine après votre mort. La forme la plus simple est le testament olographe : écrit à la main du début à la fin, daté et signé. Il existe aussi le testament public devant une notaire ou un notaire et, seulement en cas de danger imminent, le testament oral. Vous pouvez instituer des héritières et héritiers, faire des legs, désigner une exécutrice ou un exécuteur testamentaire et assortir vos dispositions de conditions. Les réserves héréditaires des descendants ainsi que du conjoint ou du partenaire enregistré fixent toutefois des limites. Sans testament, une partenaire de vie ou un partenaire de vie non marié n’hérite de rien.",
+    "it": "A partire dai 18 anni e se è capace di discernimento, lei può stabilire da sé, con un testamento, che cosa succede al suo patrimonio dopo la sua morte. La forma più semplice è il testamento olografo: scritto, datato e firmato a mano dall'inizio alla fine. Esistono inoltre il testamento pubblico davanti a un notaio e, solo in una situazione di emergenza acuta, il testamento orale. Lei può istituire eredi, disporre legati, designare un esecutore testamentario e apporre condizioni. La legittima dei discendenti nonché del coniuge o del partner registrato pone però dei limiti. Senza testamento, chi convive con lei senza essere sposato non eredita nulla.",
+    "en": "From the age of 18, and provided you are capable of judgement, you can use a will to decide for yourself what happens to your property after your death. The simplest form is the holographic will: written, dated and signed by hand from beginning to end. There is also the will made by public deed, before a notary, and, only in an acute emergency, the oral will. You can name heirs, leave legacies, appoint an executor and attach conditions. The statutory entitlements of descendants and of a spouse or registered partner set limits on this. Without a will, an unmarried partner inherits nothing.",
+    "rm": "Dapi 18 onns e capabels da giudicar dastgais Vus fixar sez cun in testament, tge che succeda suenter Voss mortori cun Vossa facultad. Il pli simpel è il testament scrit a maun: scrit, datà e suttascrit a maun dad entschatta a fin. Sper quai datti il testament public avant ina notaria u in notari e, mo en ina fatschenda extrema, il testament a bucca. Vus pudais inserir ertavlas ed ertavels, fixar legats, designar in'executura dal testament u in executur dal testament e agiuntar cundiziuns. Parts obligatoricas da descendents sco er da consorts u da partenarias registradas e partenaris registrads fixeschan là in cunfin. Senza testament n'erta ina partenaria da vita betg maridada u in partenari da vita betg maridà nagut."
   },
   "examples": {
     "de": [
@@ -19,45 +27,105 @@
       "Chan ich mis Testament eifach vo Hand schriibe?",
       "Kann ich meine Partnerin in meinem Testament bedenken, obwohl wir nicht verheiratet sind?",
       "Wie kann ich verhindern, dass mein Testament später für ungültig erklärt wird?"
+    ],
+    "fr": [
+      "Je veux rédiger un testament. Comment m’y prendre correctement ?",
+      "Un testament doit-il obligatoirement être fait par un notaire ?",
+      "Que se passe-t-il si je n’ai pas de testament ?",
+      "Je peux juste écrire mon testament à la main, ça suffit ?",
+      "Puis-je prévoir ma compagne dans mon testament alors que nous ne sommes pas mariés ?",
+      "Comment éviter que mon testament soit annulé plus tard ?"
+    ],
+    "it": [
+      "Vorrei scrivere un testamento. Come devo procedere correttamente?",
+      "Un testamento deve essere fatto da un notaio?",
+      "Che cosa succede se non ho un testamento?",
+      "Posso semplicemente scrivere il mio testamento a mano?",
+      "Posso includere la mia partner nel mio testamento, anche se non siamo sposati?",
+      "Come posso evitare che il mio testamento venga in seguito dichiarato nullo?"
+    ],
+    "en": [
+      "I want to write a will. How do I do it properly?",
+      "Does a will have to be made by a notary?",
+      "What happens if I don't have a will?",
+      "Can I just write my will out by hand myself?",
+      "Can I leave something to my partner in my will even though we're not married?",
+      "How can I stop my will being declared invalid later?"
+    ],
+    "rm": [
+      "Jau vuless scriver in testament. Co fetsch jau quai correctamain?",
+      "Sto in testament vegnir fatg tras in notari?",
+      "Tge succeda, sch'jau n'hai nagin testament?",
+      "Poss jau simplamain scriver mes testament a maun?",
+      "Poss jau resguardar mia partenaria en mes testament, malgrà che nus n'essan betg maridads?",
+      "Co poss jau impedir che mes testament vegnia lura declerà nunvalaivel?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die Errichtung eines Testaments durch eine urteilsfähige, volljährige Person: die zulässigen Formen (eigenhändig, öffentlich, mündlich in Notlagen), die wichtigsten möglichen Inhalte (Erbeinsetzung, Vermächtnis, Willensvollstreckung, Bedingungen), die Grenze der Pflichtteile, die Aufbewahrung, das Widerrufen und Ändern sowie die Gründe und Fristen für eine Ungültigkeitsklage. Dazu ein kurzer Überblick über die gesetzliche Erbfolge ohne Testament."
+      "de": "Die Errichtung eines Testaments durch eine urteilsfähige, volljährige Person: die zulässigen Formen (eigenhändig, öffentlich, mündlich in Notlagen), die wichtigsten möglichen Inhalte (Erbeinsetzung, Vermächtnis, Willensvollstreckung, Bedingungen), die Grenze der Pflichtteile, die Aufbewahrung, das Widerrufen und Ändern sowie die Gründe und Fristen für eine Ungültigkeitsklage. Dazu ein kurzer Überblick über die gesetzliche Erbfolge ohne Testament.",
+      "fr": "La rédaction d’un testament par une personne capable de discernement et majeure : les formes admises (olographe, public, oral en cas de danger imminent), les principaux contenus possibles (institution d’héritier, legs, exécution testamentaire, conditions), la limite des réserves héréditaires, la conservation, la révocation et la modification, ainsi que les motifs et délais d’une action en nullité. Avec un bref aperçu de la dévolution légale en l’absence de testament.",
+      "it": "La redazione di un testamento da parte di una persona capace di discernimento e maggiorenne: le forme ammesse (olografo, pubblico, orale in situazioni di emergenza), i principali contenuti possibili (istituzione d'erede, legato, esecuzione testamentaria, condizioni), il limite della legittima, la conservazione, la revoca e la modifica, nonché i motivi e i termini per un'azione di nullità. Inoltre, una breve panoramica della successione legittima senza testamento.",
+      "en": "Making a will as a person capable of judgement who has reached the age of majority: the permitted forms (holographic, public deed, oral in an emergency), the main possible content (naming heirs, legacies, appointing an executor, conditions), the limit set by statutory entitlements, safekeeping, revoking and changing a will, and the grounds and time limits for an action to declare a will invalid. Also a short overview of intestate succession where there is no will.",
+      "rm": "La fatgira d'in testament tras ina persuna capabla da giudicar e maiorenna: las furmas admess (scrit a maun, public, a bucca en fatschendas extremas), ils cuntegns pli impurtants pussaivels (inserziun d'ertavlas ed ertavels, legat, exekuziun testamentara, cundiziuns), il cunfin da las parts obligatoricas, la conservaziun, la revocaziun e la midada sco er ils motivs e termins per ina plant da nunvalidità. Ultra da quai in curt survesair davart la successiun legala senza testament."
     },
     "excludes": {
-      "de": "Der Erbvertrag im Einzelnen, die Berechnung und Herabsetzung von Pflichtteilen, die Erbteilung nach dem Tod, die Ausschlagung einer Erbschaft, das Konkubinat im Allgemeinen sowie internationale Erbfälle mit Auslandbezug. Diese Themen sind oder werden in eigenen Leitfäden behandelt."
+      "de": "Der Erbvertrag im Einzelnen, die Berechnung und Herabsetzung von Pflichtteilen, die Erbteilung nach dem Tod, die Ausschlagung einer Erbschaft, das Konkubinat im Allgemeinen sowie internationale Erbfälle mit Auslandbezug. Diese Themen sind oder werden in eigenen Leitfäden behandelt.",
+      "fr": "Le pacte successoral en détail, le calcul et la réduction des réserves héréditaires, le partage de la succession après le décès, la répudiation d’une succession, le concubinage en général, ainsi que les successions internationales avec un lien avec l’étranger. Ces thèmes sont ou seront traités dans des guides séparés.",
+      "it": "Il contratto successorio nel dettaglio, il calcolo e la riduzione della legittima, la divisione dell'eredità dopo la morte, la rinuncia a un'eredità, il concubinato in generale, nonché le successioni internazionali con un legame con l'estero. Questi temi sono o saranno trattati in guide proprie.",
+      "en": "The contract of succession in detail, the calculation and abatement of statutory entitlements, dividing the estate after death, disclaiming an inheritance, cohabitation in general, and cross-border inheritance cases. These topics are or will be covered in their own guides.",
+      "rm": "Il contract d'ierta en detagl, la calculaziun e la reducziun da parts obligatoricas, la partiziun da l'ierta suenter la mort, la refusa d'in'ierta, il concubinat en general sco er cas d'ierta internaziunals cun connex a l'exteriur. Quests temas vegnan tractads u vegnan a vegnir tractads en agentas guidas."
     }
   },
   "facts": [
     {
       "key": "status",
       "question": {
-        "de": "Wie leben Sie zurzeit?"
+        "de": "Wie leben Sie zurzeit?",
+        "fr": "Comment vivez-vous actuellement ?",
+        "it": "Come vive attualmente?",
+        "en": "What is your current living situation?",
+        "rm": "Co vivais Vus actualmain?"
       },
       "options": [
         {
           "value": "married-registered",
           "label": {
-            "de": "Verheiratet oder in eingetragener Partnerschaft"
+            "de": "Verheiratet oder in eingetragener Partnerschaft",
+            "fr": "Mariage ou partenariat enregistré",
+            "it": "Sposato o in unione domestica registrata",
+            "en": "Married or in a registered partnership",
+            "rm": "Maridà/a u en partenadi registrà"
           }
         },
         {
           "value": "unmarried-partner",
           "label": {
-            "de": "Ich habe eine Partnerin oder einen Partner, wir sind aber nicht verheiratet"
+            "de": "Ich habe eine Partnerin oder einen Partner, wir sind aber nicht verheiratet",
+            "fr": "En couple avec une partenaire ou un partenaire, sans être mariés",
+            "it": "Ho una relazione di coppia, ma non siamo sposati",
+            "en": "I have a partner, but we are not married",
+            "rm": "Jau hai ina partenaria u in partenari, nus na essan dentant betg maridads"
           }
         },
         {
           "value": "single",
           "label": {
-            "de": "Ledig, geschieden oder verwitwet, ohne feste Partnerschaft"
+            "de": "Ledig, geschieden oder verwitwet, ohne feste Partnerschaft",
+            "fr": "Célibataire, divorcé ou divorcée, ou veuf ou veuve, sans partenaire fixe",
+            "it": "Non sposato, non in unione domestica registrata e senza una relazione stabile",
+            "en": "Single, divorced or widowed, with no steady partner",
+            "rm": "Nubil/a, divorzià/a u vieuv/vieuva, senza partenadi fix"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -65,25 +133,41 @@
     {
       "key": "children",
       "question": {
-        "de": "Haben Sie Kinder, auch aus einer früheren Beziehung?"
+        "de": "Haben Sie Kinder, auch aus einer früheren Beziehung?",
+        "fr": "Avez-vous des enfants, y compris d’une relation précédente ?",
+        "it": "Ha figli, anche da una relazione precedente?",
+        "en": "Do you have children, including from an earlier relationship?",
+        "rm": "Avais Vus uffants, er da relaziuns anteriuras?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -91,37 +175,61 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie mit Ihrem Testament vor allem erreichen?"
+        "de": "Was möchten Sie mit Ihrem Testament vor allem erreichen?",
+        "fr": "Que voulez-vous accomplir en priorité avec votre testament ?",
+        "it": "Che cosa desidera ottenere soprattutto con il suo testamento?",
+        "en": "What do you mainly want to achieve with your will?",
+        "rm": "Tge vulais Vus cuntanscher surtut cun Voss testament?"
       },
       "options": [
         {
           "value": "benefit-partner",
           "label": {
-            "de": "Meine Partnerin oder meinen Partner begünstigen"
+            "de": "Meine Partnerin oder meinen Partner begünstigen",
+            "fr": "Avantager ma partenaire ou mon partenaire",
+            "it": "Favorire la persona con cui ho una relazione di coppia",
+            "en": "Benefit my partner",
+            "rm": "Favurisar mia partenaria u mes partenari"
           }
         },
         {
           "value": "favor-one",
           "label": {
-            "de": "Ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen"
+            "de": "Ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen",
+            "fr": "Avantager un enfant ou une autre personne plus que ce que prévoit la loi",
+            "it": "Favorire un figlio o un'altra persona in misura maggiore di quanto previsto dalla legge",
+            "en": "Favour one child or another person more than the law provides",
+            "rm": "Favurisar in uffant u in'autra persuna pli fitg che previs da lescha"
           }
         },
         {
           "value": "charity",
           "label": {
-            "de": "Einer gemeinnützigen Organisation etwas hinterlassen"
+            "de": "Einer gemeinnützigen Organisation etwas hinterlassen",
+            "fr": "Léguer quelque chose à une organisation d’utilité publique",
+            "it": "Lasciare qualcosa a un'organizzazione di pubblica utilità",
+            "en": "Leave something to a charitable organisation",
+            "rm": "Laschar insatge ad in'organisaziun d'utilitad publica"
           }
         },
         {
           "value": "clarity",
           "label": {
-            "de": "Einfach dafür sorgen, dass alles klar geregelt ist"
+            "de": "Einfach dafür sorgen, dass alles klar geregelt ist",
+            "fr": "Simplement veiller à ce que tout soit clairement réglé",
+            "it": "Semplicemente fare in modo che tutto sia regolato chiaramente",
+            "en": "Simply make sure everything is clearly settled",
+            "rm": "Simplamain far en moda che tut saja regulà cler"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich noch nicht"
+            "de": "Weiss ich noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Quai na sai jau anc betg"
           }
         }
       ]
@@ -132,7 +240,11 @@
       "id": "who-can-make-a-will",
       "kind": "rule",
       "text": {
-        "de": "Ein Testament dürfen Sie errichten, wenn Sie mindestens 18 Jahre alt und urteilsfähig sind. Urteilsfähig heisst: Sie können erkennen, worum es geht, und sich danach richten. Das trifft auf die meisten Erwachsenen zu, auch bei einer Krankheit oder im höheren Alter, solange sie noch verstehen und entscheiden können. Ein Testament, das vor dem 18. Geburtstag oder ohne Urteilsfähigkeit errichtet wurde, kann durch Klage angefochten werden."
+        "de": "Ein Testament dürfen Sie errichten, wenn Sie mindestens 18 Jahre alt und urteilsfähig sind. Urteilsfähig heisst: Sie können erkennen, worum es geht, und sich danach richten. Das trifft auf die meisten Erwachsenen zu, auch bei einer Krankheit oder im höheren Alter, solange sie noch verstehen und entscheiden können. Ein Testament, das vor dem 18. Geburtstag oder ohne Urteilsfähigkeit errichtet wurde, kann durch Klage angefochten werden.",
+        "fr": "Vous pouvez rédiger un testament si vous avez au moins 18 ans et si vous êtes capable de discernement. Être capable de discernement signifie : vous pouvez comprendre de quoi il s’agit et agir en conséquence. C’est le cas de la plupart des adultes, même en cas de maladie ou à un âge avancé, tant qu’ils sont encore capables de comprendre et de décider. Un testament rédigé avant le 18e anniversaire ou sans capacité de discernement peut être attaqué par une action en justice.",
+        "it": "Lei può redigere un testamento se ha almeno 18 anni ed è capace di discernimento. Capace di discernimento significa: lei è in grado di riconoscere di che cosa si tratta e di agire di conseguenza. Ciò vale per la maggior parte degli adulti, anche in caso di malattia o in età avanzata, finché possono ancora comprendere e decidere. Un testamento redatto prima del 18° compleanno o senza capacità di discernimento può essere impugnato con un'azione giudiziaria.",
+        "en": "You may make a will if you are at least 18 years old and capable of judgement. Capable of judgement means: you can understand what is at stake and act accordingly. This applies to most adults, even with an illness or at an advanced age, as long as they can still understand and decide. A will made before your 18th birthday, or without capacity of judgement, can be challenged by an action in court.",
+        "rm": "Fixar in testament dastgais Vus, sche Vus avais almain 18 onns e sche Vus essas capabels da giudicar. Capabel da giudicar signifitga: Vus pudais recognoscher, da tge che sa tracta, ed As drizzar tenor quai. Quai vala per la gronda part dals adults, er en cas da malsauna u en vegliadetgna pli auta, uschè ditg ch'els chapeschan ed decidan anc. In testament, fatg avant il 18avel anniversari u senza capacitad da giudicar, po vegnir contestà tras plant."
       },
       "sources": [
         "zgb-467"
@@ -142,7 +254,11 @@
       "id": "capacity-in-doubt",
       "kind": "warning",
       "text": {
-        "de": "Bestehen Zweifel an der Urteilsfähigkeit, etwa wegen einer beginnenden Demenz oder einer schweren Krankheit, verlangen Gerichte für ein einfaches Testament weniger als für eine komplizierte Verfügung. Wer nur wenige, klare Anordnungen trifft, gilt eher als dafür urteilsfähig als jemand mit einer verwickelten Regelung. Bestehen dennoch Zweifel, lassen Sie sich die Urteilsfähigkeit im Zeitpunkt der Unterschrift von der Hausärztin oder dem Hausarzt schriftlich bestätigen. Bei einem öffentlichen Testament hilft es zusätzlich, wenn eine Ärztin, ein Arzt oder eine Pflegefachperson bei der Beurkundung dabei ist und ihre Wahrnehmung der Urteilsfähigkeit festhält."
+        "de": "Bestehen Zweifel an der Urteilsfähigkeit, etwa wegen einer beginnenden Demenz oder einer schweren Krankheit, verlangen Gerichte für ein einfaches Testament weniger als für eine komplizierte Verfügung. Wer nur wenige, klare Anordnungen trifft, gilt eher als dafür urteilsfähig als jemand mit einer verwickelten Regelung. Bestehen dennoch Zweifel, lassen Sie sich die Urteilsfähigkeit im Zeitpunkt der Unterschrift von der Hausärztin oder dem Hausarzt schriftlich bestätigen. Bei einem öffentlichen Testament hilft es zusätzlich, wenn eine Ärztin, ein Arzt oder eine Pflegefachperson bei der Beurkundung dabei ist und ihre Wahrnehmung der Urteilsfähigkeit festhält.",
+        "fr": "En cas de doute sur la capacité de discernement, par exemple en raison d’une démence débutante ou d’une maladie grave, les tribunaux exigent moins pour un testament simple que pour une disposition compliquée. Une personne qui ne prend que quelques dispositions claires est plus facilement considérée comme capable de discernement pour cela qu’une personne avec une réglementation complexe. Si des doutes subsistent, faites confirmer par écrit votre capacité de discernement au moment de la signature par votre médecin de famille. Pour un testament public, il est en outre utile qu’une médecin, un médecin ou une personne infirmière soit présente lors de l’instrumentation et consigne son appréciation de la capacité de discernement.",
+        "it": "Se vi sono dubbi sulla capacità di discernimento, per esempio a causa di una demenza incipiente o di una grave malattia, i tribunali esigono meno per un testamento semplice che per una disposizione complessa. Chi prende solo poche disposizioni chiare è considerato più facilmente capace di discernimento rispetto a chi adotta una regolamentazione complicata. Se permangono dubbi, si faccia confermare per iscritto dal suo medico di famiglia la capacità di discernimento al momento della firma. Per un testamento pubblico, aiuta inoltre che un medico o un infermiere sia presente all'atto e ne annoti la propria percezione della capacità di discernimento.",
+        "en": "If there is doubt about capacity of judgement, for example because of early-stage dementia or a serious illness, the courts require less for a simple will than for a complicated one. Someone who makes only a few, clear provisions is more readily considered capable of judgement for this than someone with an intricate arrangement. If doubt remains even so, have your GP confirm your capacity of judgement in writing at the time of signing. For a will made as a public deed, it also helps if a doctor or a qualified nurse is present at the notarisation and records their impression of your capacity of judgement.",
+        "rm": "Datti dubis davart la capacitad da giudicar, per exempel pervia d'ina demenza che cumenza u d'ina malsauna greva, pretendan las dretgiras damain per in testament simpel che per ina disposiziun cumplitgada. Tgi che fixa mo paucas, cleras disposiziuns, vala pli spert sco capabel da giudicar per quai che insatgi cun ina reglaziun intricada. Restan dubis tuttina, laschai Vus confirmar per scrit da la medgessa u dal medi da chasa la capacitad da giudicar al mument da la suttascripziun. Tar in testament public gida supplementarmain, sche ina medgessa, in medi u ina persuna da tgira è preschenta a la documentaziun e registrescha sia perceziun da la capacitad da giudicar."
       },
       "sources": [
         "zgb-467",
@@ -154,7 +270,11 @@
       "id": "handwritten-will",
       "kind": "rule",
       "text": {
-        "de": "Das eigenhändige Testament ist die einfachste Form: Sie schreiben es vollständig von Anfang bis Ende mit der Hand, geben Jahr, Monat und Tag der Errichtung an und unterschreiben es. Ein Computerausdruck, ein maschinengeschriebener Text oder ein von einer anderen Person geschriebener Text erfüllen die Form nicht, selbst wenn Sie darunter unterschreiben. Wirkungslos ist ein solches Schriftstück deshalb aber nicht ohne Weiteres: Ein Testament mit einem Formfehler gilt grundsätzlich, bis ein Gericht es auf Klage hin für ungültig erklärt. Nur bei besonders schweren Formfehlern kann ein Gericht es als nichtig behandeln, also als von Anfang an wirkungslos. Wer ein solches Dokument nicht gelten lassen will, sollte sich deshalb nicht darauf verlassen, dass es ohnehin nichtig sei, sondern innert der Fristen für die Ungültigkeitsklage handeln."
+        "de": "Das eigenhändige Testament ist die einfachste Form: Sie schreiben es vollständig von Anfang bis Ende mit der Hand, geben Jahr, Monat und Tag der Errichtung an und unterschreiben es. Ein Computerausdruck, ein maschinengeschriebener Text oder ein von einer anderen Person geschriebener Text erfüllen die Form nicht, selbst wenn Sie darunter unterschreiben. Wirkungslos ist ein solches Schriftstück deshalb aber nicht ohne Weiteres: Ein Testament mit einem Formfehler gilt grundsätzlich, bis ein Gericht es auf Klage hin für ungültig erklärt. Nur bei besonders schweren Formfehlern kann ein Gericht es als nichtig behandeln, also als von Anfang an wirkungslos. Wer ein solches Dokument nicht gelten lassen will, sollte sich deshalb nicht darauf verlassen, dass es ohnehin nichtig sei, sondern innert der Fristen für die Ungültigkeitsklage handeln.",
+        "fr": "Le testament olographe est la forme la plus simple : vous l’écrivez entièrement à la main du début à la fin, vous indiquez l’année, le mois et le jour de sa rédaction, et vous le signez. Un document imprimé par ordinateur, un texte dactylographié ou un texte écrit par une autre personne ne remplit pas cette forme, même si vous le signez. Un tel document n’est toutefois pas nécessairement sans effet pour autant : un testament entaché d’un vice de forme reste en principe valable jusqu’à ce qu’un tribunal l’annule sur action en justice. Ce n’est qu’en cas de vice de forme particulièrement grave qu’un tribunal peut le considérer comme nul, c’est-à-dire sans effet dès l’origine. Qui ne veut pas reconnaître un tel document ne doit donc pas se fier au fait qu’il serait de toute façon nul, mais doit agir dans les délais prévus pour l’action en nullité.",
+        "it": "Il testamento olografo è la forma più semplice: lei lo scrive interamente a mano dall'inizio alla fine, indica l'anno, il mese e il giorno della redazione e lo firma. Una stampa al computer, un testo dattiloscritto o un testo scritto da un'altra persona non rispettano questa forma, anche se lei lo firma. Un simile documento non è tuttavia senza altro privo di effetto: un testamento con un vizio di forma vale in linea di principio finché un tribunale non lo dichiara nullo su azione giudiziaria. Solo in caso di vizi di forma particolarmente gravi un tribunale può trattarlo come nullo fin dall'inizio, cioè privo di effetto sin dall'origine. Chi non vuole che un simile documento valga non dovrebbe quindi confidare che sia comunque nullo, ma agire entro i termini previsti per l'azione di nullità.",
+        "en": "The holographic will is the simplest form: you write it out completely, from beginning to end, by hand, state the year, month and day it was made, and sign it. A printout, a typed text, or a text written by someone else does not satisfy this form, even if you sign underneath it. Even so, such a document is not automatically without effect: a will with a defect of form is in principle valid until a court declares it invalid on an action being brought. Only for particularly serious defects of form can a court treat it as void, that is, without effect from the outset. Anyone who does not want such a document to be valid should therefore not rely on it being void anyway, but should act within the time limits for an action to declare it invalid.",
+        "rm": "Il testament scrit a maun è la furma la pli simpla: Vus el scrivais entiramain dad entschatta a fin a maun, indicai onn, mais e di da la fatgira e suttascrivais el. In stampà da computer, in text scrit a maschina u in text scrit d'in'autra persuna n'ademplan betg la furma, er sche Vus suttascrivais sut quel. Nunefficaz n'è in tal document dentant betg senza pli: in testament cun in sbagl da furma vala en princip, fin ch'ina dretgira al declera nunvalaivel sin plant. Mo en cas da sbaglis da furma spezialmain gravs po ina dretgira al tractar sco nul, dunca sco senza effect dad entschatta. Tgi che na vul betg laschar valair in tal document, na dastga percunquai betg contar sin quai ch'el saja uschè e uschè nul, mabain sto agir entaifer ils termins per la plant da nunvalidità."
       },
       "sources": [
         "zgb-505",
@@ -168,7 +288,11 @@
       "id": "date-defect",
       "kind": "warning",
       "text": {
-        "de": "Fehlt das Datum oder ist es falsch, ist das eigenhändige Testament deswegen nicht automatisch ungültig. Es wird nur dann für ungültig erklärt, wenn sich das nötige Datum auf keine andere Weise feststellen lässt und es für eine wichtige Frage gebraucht wird, etwa ob Sie damals urteilsfähig waren oder welches von mehreren Testamenten das spätere ist. Schreiben Sie das vollständige Datum trotzdem immer korrekt hin, um Streit von vornherein zu vermeiden."
+        "de": "Fehlt das Datum oder ist es falsch, ist das eigenhändige Testament deswegen nicht automatisch ungültig. Es wird nur dann für ungültig erklärt, wenn sich das nötige Datum auf keine andere Weise feststellen lässt und es für eine wichtige Frage gebraucht wird, etwa ob Sie damals urteilsfähig waren oder welches von mehreren Testamenten das spätere ist. Schreiben Sie das vollständige Datum trotzdem immer korrekt hin, um Streit von vornherein zu vermeiden.",
+        "fr": "Si la date manque ou est erronée, le testament olographe n’est pas automatiquement invalide pour autant. Il n’est annulé que si la date nécessaire ne peut être établie d’aucune autre manière et qu’elle est nécessaire pour trancher une question importante, par exemple si vous étiez alors capable de discernement ou lequel de plusieurs testaments est le plus récent. Indiquez néanmoins toujours la date complète et correcte, afin d’éviter tout litige dès le départ.",
+        "it": "Se manca la data o se è errata, il testamento olografo non è per questo automaticamente nullo. Viene dichiarato nullo solo se la data necessaria non può essere accertata in nessun altro modo e se serve per una questione importante, per esempio se lei era allora capace di discernimento o quale, tra più testamenti, sia il più recente. Scriva comunque sempre la data completa e corretta, per evitare fin dall'inizio ogni controversia.",
+        "en": "If the date is missing or wrong, the holographic will is not automatically invalid because of this. It is only declared invalid if the necessary date cannot be established in any other way and is needed to decide an important question, for example whether you were capable of judgement at the time, or which of several wills is the later one. Even so, always write the full date correctly, to avoid disputes from the outset.",
+        "rm": "Manca la data u è ella faussa, n'è il testament scrit a maun percanto betg automaticamain nunvalaivel. El vegn declerà nunvalaivel mo lura, sche la data necessaria na sa lascha constatar autramain e sch'ella è duvrada per ina dumonda impurtanta, per exempel sche Vus erat lura capabels da giudicar u tge testament da pliras saja il pli tard. Scrivi la data cumpletta tuttina adina correctamain, per eschivar conflicts dad entschatta."
       },
       "sources": [
         "zgb-520a"
@@ -178,7 +302,11 @@
       "id": "public-will",
       "kind": "rule",
       "text": {
-        "de": "Beim öffentlichen Testament teilen Sie einer Notarin, einem Notar oder einer anderen dafür zuständigen Urkundsperson Ihren Willen mit. Diese Person verfasst die Urkunde oder lässt sie verfassen und gibt sie Ihnen zu lesen. Sie unterschreiben die Urkunde, die Urkundsperson datiert und unterschreibt sie ebenfalls. Danach erklären Sie unmittelbar vor zwei Zeuginnen oder Zeugen und der Urkundsperson, dass Sie die Urkunde gelesen haben und dass sie Ihren letzten Willen enthält. Die Zeuginnen und Zeugen bestätigen mit ihrer Unterschrift diese Erklärung und dass Sie nach ihrem Eindruck urteilsfähig waren; sie müssen den Inhalt der Urkunde nicht kennen."
+        "de": "Beim öffentlichen Testament teilen Sie einer Notarin, einem Notar oder einer anderen dafür zuständigen Urkundsperson Ihren Willen mit. Diese Person verfasst die Urkunde oder lässt sie verfassen und gibt sie Ihnen zu lesen. Sie unterschreiben die Urkunde, die Urkundsperson datiert und unterschreibt sie ebenfalls. Danach erklären Sie unmittelbar vor zwei Zeuginnen oder Zeugen und der Urkundsperson, dass Sie die Urkunde gelesen haben und dass sie Ihren letzten Willen enthält. Die Zeuginnen und Zeugen bestätigen mit ihrer Unterschrift diese Erklärung und dass Sie nach ihrem Eindruck urteilsfähig waren; sie müssen den Inhalt der Urkunde nicht kennen.",
+        "fr": "Pour le testament public, vous communiquez votre volonté à une notaire, un notaire ou une autre personne habilitée à instrumenter. Cette personne rédige l’acte ou le fait rédiger et vous le donne à lire. Vous signez l’acte, et la personne qui l’a instrumenté le date et le signe également. Vous déclarez ensuite, immédiatement, devant deux témoins et la personne qui a instrumenté l’acte, que vous avez lu l’acte et qu’il contient vos dernières volontés. Les témoins confirment par leur signature cette déclaration ainsi que le fait que vous leur avez paru capable de discernement ; ils n’ont pas besoin de connaître le contenu de l’acte.",
+        "it": "Nel testamento pubblico lei comunica la sua volontà a un notaio o a un'altra persona ufficialmente competente per la rogazione. Questa persona redige l'atto o lo fa redigere e glielo dà da leggere. Lei firma l'atto, e la persona incaricata della rogazione lo data e lo firma a sua volta. Successivamente, lei dichiara immediatamente, davanti a due testimoni e alla persona incaricata della rogazione, di aver letto l'atto e che esso contiene le sue ultime volontà. I testimoni confermano con la loro firma questa dichiarazione e il fatto che, secondo la loro impressione, lei era capace di discernimento; non è necessario che conoscano il contenuto dell'atto.",
+        "en": "For a will made as a public deed, you tell a notary or another official authorised to do this your wishes. This person draws up the deed, or has it drawn up, and gives it to you to read. You sign the deed, and the official also dates and signs it. You then declare, immediately afterwards and in the presence of two witnesses and the official, that you have read the deed and that it contains your last will. The witnesses confirm this declaration with their signature, and that in their impression you were capable of judgement; they do not need to know the content of the deed.",
+        "rm": "Tar il testament public communitgais Vus a la notaria, al notari u ad in'autra persuna documentanta cumpetenta per quai, Voss avert. Questa persuna redigescha la documentaziun u la lascha redigiar e Vus la dat da leger. Vus suttascrivais la documentaziun, la persuna documentanta la data e la suttascriva medemamain. Suenter declerais Vus, immediat avant duas perditgas e la persuna documentanta, che Vus avais legì la documentaziun e ch'ella cuntegna Voss ultima voluntad. Las perditgas confermeschan cun lur suttascripziun questa decleraziun e ch'els han l'impressiun che Vus erat capabels da giudicar; els na ston betg enconuscher il cuntegn da la documentaziun."
       },
       "sources": [
         "zgb-499",
@@ -190,7 +318,11 @@
       "id": "oral-will",
       "kind": "rule",
       "text": {
-        "de": "Ein mündliches Testament ist nur in einer akuten Notlage gültig, etwa bei naher Todesgefahr, einer Verkehrssperre, einer Epidemie oder Kriegsereignissen, wenn Ihnen keine andere Form mehr möglich ist. Sie erklären dazu Ihren letzten Willen vor zwei Zeuginnen oder Zeugen und beauftragen sie, die nötige Beurkundung zu veranlassen. Eine der beiden Personen muss die Erklärung sofort schriftlich festhalten und die Urkunde unverzüglich bei einem Gericht einreichen, oder beide geben sie dort zu Protokoll. Sobald Ihnen wieder eine andere Form möglich ist, verliert das mündliche Testament nach 14 Tagen seine Gültigkeit."
+        "de": "Ein mündliches Testament ist nur in einer akuten Notlage gültig, etwa bei naher Todesgefahr, einer Verkehrssperre, einer Epidemie oder Kriegsereignissen, wenn Ihnen keine andere Form mehr möglich ist. Sie erklären dazu Ihren letzten Willen vor zwei Zeuginnen oder Zeugen und beauftragen sie, die nötige Beurkundung zu veranlassen. Eine der beiden Personen muss die Erklärung sofort schriftlich festhalten und die Urkunde unverzüglich bei einem Gericht einreichen, oder beide geben sie dort zu Protokoll. Sobald Ihnen wieder eine andere Form möglich ist, verliert das mündliche Testament nach 14 Tagen seine Gültigkeit.",
+        "fr": "Un testament oral n’est valable qu’en cas de danger imminent, par exemple un péril de mort proche, un blocage des communications, une épidémie ou des événements de guerre, lorsqu’aucune autre forme ne vous est plus possible. Vous déclarez alors vos dernières volontés devant deux témoins et les chargez de faire établir l’acte authentique nécessaire. L’un des deux témoins doit immédiatement consigner la déclaration par écrit et déposer sans délai l’acte auprès d’un tribunal, ou les deux témoins le déposent ensemble au procès-verbal du tribunal. Dès qu’une autre forme vous redevient possible, le testament oral perd sa validité après 14 jours.",
+        "it": "Il testamento orale è valido solo in una situazione di emergenza acuta, per esempio in caso di pericolo di morte imminente, di un blocco delle comunicazioni, di un'epidemia o di eventi bellici, quando nessun'altra forma le è più possibile. Lei dichiara allora la sua ultima volontà davanti a due testimoni e li incarica di procurare la necessaria documentazione. Una delle due persone deve mettere immediatamente per iscritto la dichiarazione e depositare senza indugio l'atto presso un tribunale, oppure entrambe la comunicano a un tribunale affinché sia messa a verbale. Non appena le è di nuovo possibile ricorrere a un'altra forma, il testamento orale perde la sua validità dopo 14 giorni.",
+        "en": "An oral will is only valid in an acute emergency, for example imminent danger of death, a communication blockage, an epidemic or acts of war, where no other form is possible for you. You declare your last will to two witnesses and instruct them to arrange for it to be recorded formally. One of the two must immediately set the declaration down in writing and file the document with a court without delay, or both must give it to the court to be recorded. As soon as another form becomes possible for you again, the oral will loses its validity after 14 days.",
+        "rm": "In testament a bucca è mo valaivel en ina fatschenda extrema, per exempel en cas da pericul da mort immediat, d'in blocher da traffic, d'in'epidemia u d'eveniments da guerra, sche nagina autra furma na Vus è pli pussibla. Vus declerais lura Voss ultima voluntad avant duas perditgas ed als incumbensais da procurar la documentaziun necessaria. Ina da las duas persunas sto registrar immediat la decleraziun per scrit e deponer la documentaziun senza retard tar ina dretgira, u tuttas duas la dattan là a protocol. Uschespert ch'ina autra furma Vus è puspè pussibla, perda il testament a bucca, suenter 14 dis, sia validitad."
       },
       "sources": [
         "zgb-506",
@@ -202,7 +334,11 @@
       "id": "erbvertrag-contrast",
       "kind": "rule",
       "text": {
-        "de": "Ein Erbvertrag unterscheidet sich vom Testament: Darin vereinbaren Sie mit einer anderen Person gemeinsam etwas über Ihren Nachlass, zum Beispiel einen Erbverzicht. Ein Erbvertrag ist immer nur in der Form des öffentlichen Testaments gültig, also nie eigenhändig oder mündlich. Sie und die Vertragspartei erklären gleichzeitig der Urkundsperson Ihren Willen und unterschreiben die Urkunde vor ihr und den zwei Zeuginnen oder Zeugen."
+        "de": "Ein Erbvertrag unterscheidet sich vom Testament: Darin vereinbaren Sie mit einer anderen Person gemeinsam etwas über Ihren Nachlass, zum Beispiel einen Erbverzicht. Ein Erbvertrag ist immer nur in der Form des öffentlichen Testaments gültig, also nie eigenhändig oder mündlich. Sie und die Vertragspartei erklären gleichzeitig der Urkundsperson Ihren Willen und unterschreiben die Urkunde vor ihr und den zwei Zeuginnen oder Zeugen.",
+        "fr": "Un pacte successoral se distingue du testament : vous y convenez avec une autre personne, ensemble, de quelque chose au sujet de votre succession, par exemple une renonciation à succession. Un pacte successoral n’est valable que dans la forme du testament public, jamais sous forme olographe ou orale. Vous et l’autre partie déclarez simultanément votre volonté à la personne qui instrumente l’acte et signez l’acte devant elle et les deux témoins.",
+        "it": "Un contratto successorio si distingue dal testamento: in esso lei conviene insieme a un'altra persona qualcosa riguardo alla sua successione, per esempio una rinuncia d'eredità. Un contratto successorio è valido sempre e solo nella forma del testamento pubblico, quindi mai in forma olografa o orale. Lei e la controparte contrattuale dichiarano contemporaneamente la loro volontà alla persona incaricata della rogazione e firmano l'atto davanti a essa e ai due testimoni.",
+        "en": "A contract of succession is different from a will: in it, you agree something about your estate jointly with another person, for example a renunciation of inheritance. A contract of succession is only ever valid in the form of a will made as a public deed, so never in holographic or oral form. You and the other party declare your intentions to the official at the same time, and sign the deed in front of the official and the two witnesses.",
+        "rm": "In contract d'ierta sa distingua dal testament: là Vus As entendais cun in'autra persuna cuminaivlamain davart Voss relasch, per exempel ina renunzia a l'ierta. In contract d'ierta è adina mo valaivel en la furma dal testament public, dunca mai scrit a maun u a bucca. Vus e la partenaria u il partenari contractuala declerais suandantamain a la persuna documentanta Voss avert e suttascrivais la documentaziun avant ella ed avant ils duas perditgas."
       },
       "sources": [
         "zgb-512"
@@ -212,7 +348,11 @@
       "id": "content-of-will",
       "kind": "rule",
       "text": {
-        "de": "Innerhalb der Pflichtteile können Sie in Ihrem Testament frei bestimmen. Sie können eine oder mehrere Personen als Erbin oder Erbe für die ganze Erbschaft oder einen Bruchteil einsetzen. Sie können auch, ohne jemanden als Erbe einzusetzen, ein Vermächtnis zuwenden: einen bestimmten Gegenstand, einen Geldbetrag oder ein Nutzniessungsrecht. Ihren Anordnungen dürfen Sie Bedingungen oder Auflagen anfügen, deren Erfüllung jede Person mit einem Interesse daran verlangen kann; eine unsittliche oder rechtswidrige Bedingung oder Auflage macht die Anordnung ungültig, mit der sie verbunden ist; ist sie für andere bloss lästig oder unsinnig, gilt sie als nicht vorhanden. Was Sie nicht ausdrücklich regeln, fällt an Ihre gesetzlichen Erben."
+        "de": "Innerhalb der Pflichtteile können Sie in Ihrem Testament frei bestimmen. Sie können eine oder mehrere Personen als Erbin oder Erbe für die ganze Erbschaft oder einen Bruchteil einsetzen. Sie können auch, ohne jemanden als Erbe einzusetzen, ein Vermächtnis zuwenden: einen bestimmten Gegenstand, einen Geldbetrag oder ein Nutzniessungsrecht. Ihren Anordnungen dürfen Sie Bedingungen oder Auflagen anfügen, deren Erfüllung jede Person mit einem Interesse daran verlangen kann; eine unsittliche oder rechtswidrige Bedingung oder Auflage macht die Anordnung ungültig, mit der sie verbunden ist; ist sie für andere bloss lästig oder unsinnig, gilt sie als nicht vorhanden. Was Sie nicht ausdrücklich regeln, fällt an Ihre gesetzlichen Erben.",
+        "fr": "Dans les limites des réserves héréditaires, vous pouvez disposer librement dans votre testament. Vous pouvez instituer une ou plusieurs personnes comme héritière ou héritier pour toute la succession ou pour une fraction de celle-ci. Vous pouvez aussi, sans instituer d’héritier, faire un legs : un objet déterminé, une somme d’argent ou un droit d’usufruit. Vous pouvez assortir vos dispositions de conditions ou de charges, dont l’exécution peut être demandée par toute personne y ayant un intérêt ; une condition ou une charge immorale ou illicite rend nulle la disposition à laquelle elle est liée ; si elle n’est pour autrui que gênante ou dépourvue de sens, elle est réputée non écrite. Ce que vous ne réglez pas expressément revient à vos héritiers légaux.",
+        "it": "Entro i limiti della legittima, lei può disporre liberamente nel suo testamento. Può istituire una o più persone eredi per l'intera eredità o per una frazione di essa. Può anche, senza istituire nessuno erede, assegnare un legato: una determinata cosa, una somma di denaro o un diritto di usufrutto. Alle sue disposizioni lei può apporre condizioni od oneri, il cui adempimento può essere richiesto da chiunque vi abbia un interesse; una condizione o un onere immorale o illecito rende nulla la disposizione a cui è collegato; se per altri è meramente vessatorio o privo di senso, si considera come non apposto. Ciò che lei non regola espressamente spetta ai suoi eredi legittimi.",
+        "en": "Within the limits of statutory entitlements, you are free to decide in your will. You can name one or more people as heirs for the whole estate or for a fraction of it. You can also, without naming anyone as an heir, leave a legacy: a specific item, a sum of money, or a right of usufruct. You may attach conditions or directions to your provisions, and anyone with an interest in them can demand that they be fulfilled; an immoral or unlawful condition or direction makes the provision it is attached to invalid; if it is merely a nuisance or pointless for others, it is treated as not existing. Anything you do not expressly settle passes to your statutory heirs.",
+        "rm": "Entaifer las parts obligatoricas pudais Vus decider liberamain en Voss testament. Vus pudais inserir ina u pliras persunas sco ertavla u ertavel per l'entir relasch u per ina fracziun. Vus pudais er, senza inserir insatgi sco ertavla u ertavel, attribuir in legat: in object determinà, in import da daners u in dretg d'usufrut. A Vossas disposiziuns dastgais Vus agiuntar cundiziuns u chargias, la reussida da las qualas mintga persuna cun in interess per quai po pretender; ina cundiziun u chargia immorala u illegala rend nunvalaivla la disposiziun, cun la quala ella è colliada; è ella per auters mo fastidiusa u sensada, vala ella sco n'exista betg. Quai che Vus na regulais betg explicitamain, croda a Vossas ertavlas ed ertavels legals."
       },
       "sources": [
         "zgb-481",
@@ -225,7 +365,11 @@
       "id": "executor",
       "kind": "rule",
       "text": {
-        "de": "Sie können im Testament eine oder mehrere handlungsfähige Personen als Willensvollstreckerin oder Willensvollstrecker einsetzen. Diese Person wird von Amtes wegen benachrichtigt und muss sich innert 14 Tagen zur Annahme äussern; schweigt sie, gilt das als Annahme. Sie hat Anspruch auf eine angemessene Vergütung. Die Willensvollstreckerin oder der Willensvollstrecker verwaltet die Erbschaft, bezahlt die Schulden, richtet die Vermächtnisse aus und führt die Teilung nach Ihren Anordnungen oder nach Gesetz durch."
+        "de": "Sie können im Testament eine oder mehrere handlungsfähige Personen als Willensvollstreckerin oder Willensvollstrecker einsetzen. Diese Person wird von Amtes wegen benachrichtigt und muss sich innert 14 Tagen zur Annahme äussern; schweigt sie, gilt das als Annahme. Sie hat Anspruch auf eine angemessene Vergütung. Die Willensvollstreckerin oder der Willensvollstrecker verwaltet die Erbschaft, bezahlt die Schulden, richtet die Vermächtnisse aus und führt die Teilung nach Ihren Anordnungen oder nach Gesetz durch.",
+        "fr": "Vous pouvez désigner dans votre testament une ou plusieurs personnes capables d’exercer les droits civils comme exécutrice ou exécuteur testamentaire. Cette personne est avisée d’office et doit se prononcer sur l’acceptation dans les 14 jours ; son silence vaut acceptation. Elle a droit à une indemnité équitable. L’exécutrice ou l’exécuteur testamentaire administre la succession, paie les dettes, exécute les legs et procède au partage selon vos dispositions ou selon la loi.",
+        "it": "Nel testamento lei può designare una o più persone capaci di agire come esecutore testamentario. Questa persona viene informata d'ufficio e deve pronunciarsi sull'accettazione entro 14 giorni; il silenzio vale come accettazione. Essa ha diritto a un equo compenso. L'esecutore testamentario amministra l'eredità, paga i debiti, soddisfa i legati e procede alla divisione conformemente alle sue disposizioni o a tenore di legge.",
+        "en": "You can appoint one or more people with capacity to act as executor in your will. The authority notifies this person automatically, and they must say within 14 days whether they accept; if they say nothing, this counts as acceptance. The executor is entitled to appropriate remuneration. The executor administers the estate, pays the debts, distributes the legacies, and carries out the division of the estate according to your instructions or according to the law.",
+        "rm": "Vus pudais inserir en il testament ina u pliras persunas abels d'agir sco executura dal testament u executur dal testament. Questa persuna vegn infurmada d'uffizi e sto As exprimer entaifer 14 dis davart l'acceptaziun; taschia ella, vala quai sco acceptaziun. Ella ha dretg ad in'indemnisaziun adequata. L'executura dal testament u l'executur dal testament administrescha l'ierta, paja ils debits, exequescha ils legats e realisescha la partiziun tenor Vossas disposiziuns u tenor lescha."
       },
       "sources": [
         "zgb-517",
@@ -236,7 +380,11 @@
       "id": "compulsory-share-limit",
       "kind": "warning",
       "text": {
-        "de": "Ganz frei sind Sie nicht: Hinterlassen Sie Nachkommen, einen Ehegatten, eine eingetragene Partnerin oder einen eingetragenen Partner, steht diesen von Gesetzes wegen ein Pflichtteil zu, also die Hälfte ihres gesetzlichen Erbanspruchs. Darüber dürfen Sie nicht frei verfügen. Eltern haben seit der Erbrechtsreform von 2023 keinen Pflichtteil mehr. Haben Sie keine der pflichtteilsgeschützten Personen, können Sie über Ihr ganzes Vermögen frei verfügen. Wie der Pflichtteil berechnet und durchgesetzt wird, erklärt der eigene Leitfaden zum Pflichtteil."
+        "de": "Ganz frei sind Sie nicht: Hinterlassen Sie Nachkommen, einen Ehegatten, eine eingetragene Partnerin oder einen eingetragenen Partner, steht diesen von Gesetzes wegen ein Pflichtteil zu, also die Hälfte ihres gesetzlichen Erbanspruchs. Darüber dürfen Sie nicht frei verfügen. Eltern haben seit der Erbrechtsreform von 2023 keinen Pflichtteil mehr. Haben Sie keine der pflichtteilsgeschützten Personen, können Sie über Ihr ganzes Vermögen frei verfügen. Wie der Pflichtteil berechnet und durchgesetzt wird, erklärt der eigene Leitfaden zum Pflichtteil.",
+        "fr": "Vous n’êtes pas entièrement libre : si vous laissez des descendants, un conjoint, une partenaire enregistrée ou un partenaire enregistré, ceux-ci ont de par la loi droit à une réserve héréditaire, soit la moitié de leur droit de succession légal. Vous ne pouvez pas disposer librement de cette part. Depuis la réforme du droit des successions de 2023, les parents n’ont plus de réserve héréditaire. Si vous n’avez aucune des personnes protégées par une réserve, vous pouvez disposer librement de tout votre patrimoine. La manière dont la réserve héréditaire est calculée et mise en œuvre est expliquée dans le guide consacré à la réserve héréditaire.",
+        "it": "Lei non è del tutto libero: se lascia discendenti, un coniuge o un partner registrato, a queste persone spetta per legge una legittima, cioè la metà della loro quota ereditaria legale. Su questa parte lei non può disporre liberamente. Dalla riforma del diritto successorio del 2023, i genitori non hanno più diritto alla legittima. Se non ha nessuna delle persone protette dalla legittima, può disporre liberamente dell'intero suo patrimonio. Come viene calcolata e fatta valere la legittima è spiegato nella guida propria sulla legittima.",
+        "en": "You are not completely free: if you leave descendants, a spouse or a registered partner, the law gives them a statutory entitlement, that is, half of their statutory succession rights. You may not freely dispose of this part. Since the 2023 reform of the law of succession, parents no longer have a statutory entitlement. If you have none of the people protected by a statutory entitlement, you can freely dispose of your entire estate. How the statutory entitlement is calculated and enforced is explained in the separate guide on statutory entitlements.",
+        "rm": "Dal tuttafatg liber n'essas Vus betg: laschais Vus enavos descendents, in consort, ina partenaria registrada u in partenari registrà, tutga a quels da lescha ina part obligatorica, dunca la mesadad da lur dretg d'ierta legal. Sur da quai na dastgais Vus betg disponer liberamain. Geniturs n'han dapi la refurma dal dretg d'ierta da 2023 nagina part obligatorica pli. Avais Vus naginas da las persunas protegidas tras la part obligatorica, pudais Vus disponer liberamain sur tut Vossa facultad. Co la part obligatorica vegn calculada ed applitgada, explitgescha la propria guida davart la part obligatorica."
       },
       "sources": [
         "zgb-470",
@@ -247,7 +395,11 @@
       "id": "intestate-overview",
       "kind": "rule",
       "text": {
-        "de": "Ohne Testament gilt die gesetzliche Erbfolge: Zuerst erben Ihre Nachkommen, die Kinder zu gleichen Teilen; ist ein Kind vorverstorben, treten seine eigenen Nachkommen an seine Stelle. Haben Sie keine Nachkommen, erben Ihre Eltern und, falls ein Elternteil vorverstorben ist, dessen Nachkommen. Fehlen auch diese, erben Ihre Grosseltern und deren Nachkommen. Weiter geht die gesetzliche Erbfolge nicht. Ein überlebender Ehegatte oder eine überlebende eingetragene Partnerin oder Partner erhält daneben die Hälfte der Erbschaft zusammen mit Nachkommen, drei Viertel zusammen mit dem elterlichen Stamm, und alles, wenn keine dieser Erbinnen und Erben vorhanden sind."
+        "de": "Ohne Testament gilt die gesetzliche Erbfolge: Zuerst erben Ihre Nachkommen, die Kinder zu gleichen Teilen; ist ein Kind vorverstorben, treten seine eigenen Nachkommen an seine Stelle. Haben Sie keine Nachkommen, erben Ihre Eltern und, falls ein Elternteil vorverstorben ist, dessen Nachkommen. Fehlen auch diese, erben Ihre Grosseltern und deren Nachkommen. Weiter geht die gesetzliche Erbfolge nicht. Ein überlebender Ehegatte oder eine überlebende eingetragene Partnerin oder Partner erhält daneben die Hälfte der Erbschaft zusammen mit Nachkommen, drei Viertel zusammen mit dem elterlichen Stamm, und alles, wenn keine dieser Erbinnen und Erben vorhanden sind.",
+        "fr": "Sans testament, la dévolution légale s’applique : héritent d’abord vos descendants, les enfants à parts égales ; si un enfant est prédécédé, ses propres descendants prennent sa place. Si vous n’avez pas de descendants, ce sont vos parents qui héritent et, si un parent est prédécédé, ses descendants. À défaut, ce sont vos grands-parents et leurs descendants qui héritent. La dévolution légale ne va pas plus loin. Un conjoint survivant ou une partenaire enregistrée survivante ou un partenaire enregistré survivant reçoit en outre la moitié de la succession en concours avec les descendants, trois quarts en concours avec la souche des parents, et la totalité en l’absence de ces héritières et héritiers.",
+        "it": "Senza testamento vale la successione legittima: ereditano anzitutto i suoi discendenti, i figli in parti uguali; se un figlio è premorto, subentrano al suo posto i suoi stessi discendenti. Se lei non ha discendenti, ereditano i suoi genitori e, se un genitore è premorto, i suoi discendenti. Se mancano anche questi, ereditano i suoi nonni e i loro discendenti. Oltre a questo la successione legittima non si estende. Il coniuge o il partner registrato superstite riceve inoltre la metà della successione in concorso con i discendenti, tre quarti in concorso con la stirpe dei genitori, e tutto se non vi sono eredi di questi gradi.",
+        "en": "Without a will, intestate succession applies: your descendants inherit first, the children in equal shares; if a child has predeceased you, their own descendants take their place. If you have no descendants, your parents inherit and, if a parent has predeceased you, that parent's descendants. If none of these exist either, your grandparents and their descendants inherit. Intestate succession does not go further than this. A surviving spouse or registered partner receives, alongside this, half the estate together with descendants, three-quarters together with the parental line, and all of it if none of these heirs exist.",
+        "rm": "Senza testament vala la successiun legala: emprim ertan Vossas descendents, ils uffants a quotas egualas; è in uffant predefunt, entran ses atgns descendents a sia plazza. Avais Vus naginas descendents, ertan Voss geniturs e, sch'in genitur è predefunt, ses descendents. Mancan er quels, ertan Vossas tats e tattas e lur descendents. Pli lunsch na va la successiun legala betg. In consort survivent u ina partenaria registrada u in partenari registrà survivent survegn sper quai la mesadad da l'ierta ensemen cun descendents, trais quarts ensemen cun la lingia dals geniturs, e tut, sche naginas da questas ertavlas u nagins da quests ertavels existan."
       },
       "sources": [
         "zgb-457",
@@ -267,7 +419,11 @@
         ]
       },
       "text": {
-        "de": "Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts: Das Gesetz sieht ein Erbrecht nur für Verwandte sowie für Ehegatten und eingetragene Partnerinnen und Partner vor, gleich wie lange und wie eng die Beziehung gedauert hat. Wollen Sie Ihre Partnerin oder Ihren Partner begünstigen, brauchen Sie zwingend ein Testament oder einen Erbvertrag, und zwar innerhalb der Pflichtteile Ihrer übrigen gesetzlichen Erben."
+        "de": "Ohne Testament erbt eine unverheiratete Lebenspartnerin oder ein unverheirateter Lebenspartner nichts: Das Gesetz sieht ein Erbrecht nur für Verwandte sowie für Ehegatten und eingetragene Partnerinnen und Partner vor, gleich wie lange und wie eng die Beziehung gedauert hat. Wollen Sie Ihre Partnerin oder Ihren Partner begünstigen, brauchen Sie zwingend ein Testament oder einen Erbvertrag, und zwar innerhalb der Pflichtteile Ihrer übrigen gesetzlichen Erben.",
+        "fr": "Sans testament, une partenaire de vie ou un partenaire de vie non marié n’hérite de rien : la loi ne prévoit un droit de succession que pour les parents ainsi que pour les conjoints et les partenaires enregistrés, quelle que soit la durée ou l’intensité de la relation. Si vous voulez avantager votre partenaire, un testament ou un pacte successoral est indispensable, dans les limites des réserves héréditaires de vos autres héritiers légaux.",
+        "it": "Senza testamento, chi convive con lei senza essere sposato non eredita nulla: la legge prevede un diritto successorio solo per i parenti nonché per i coniugi e i partner registrati, indipendentemente da quanto tempo e quanto strettamente sia durata la relazione. Se lei vuole favorire la persona con cui convive, ha assolutamente bisogno di un testamento o di un contratto successorio, e ciò entro i limiti della legittima dei suoi altri eredi legittimi.",
+        "en": "Without a will, an unmarried partner inherits nothing: the law provides for a right of inheritance only for relatives and for spouses and registered partners, however long and however close the relationship was. If you want to benefit your partner, you must have a will or a contract of succession, and only within the statutory entitlements of your other statutory heirs.",
+        "rm": "Senza testament n'erta ina partenaria da vita betg maridada u in partenari da vita betg maridà nagut: la lescha prevesa in dretg d'ierta mo per persunas parentadas sco er per consorts e partenarias registradas u partenaris registrads, independentamain da quant ditg e quant stretgamain che la relaziun ha durà. Vulais Vus favurisar Vossa partenaria u Voss partenari, avais Vus obligatoricamain basegn d'in testament u d'in contract d'ierta, e quai entaifer las parts obligatoricas da Vossas autras ertavlas ed ertavels legals."
       },
       "sources": [
         "zgb-457",
@@ -283,7 +439,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie keine Kinder und Enkel, schränken Nachkommen Ihre Freiheit nicht ein. Sind Sie zudem weder verheiratet noch in eingetragener Partnerschaft, können Sie über Ihr ganzes Vermögen frei verfügen. Errichten Sie kein Testament, erben Ihre Eltern; an die Stelle eines verstorbenen Elternteils treten dessen Nachkommen, also etwa Ihre Geschwister, Nichten und Neffen. Erst wenn es im Stamm der Eltern niemanden mehr gibt, kommen die Grosseltern und deren Nachkommen zum Zug. Eine unverheiratete Partnerin, ein unverheirateter Partner oder Freunde erben ohne Testament nie."
+        "de": "Haben Sie keine Kinder und Enkel, schränken Nachkommen Ihre Freiheit nicht ein. Sind Sie zudem weder verheiratet noch in eingetragener Partnerschaft, können Sie über Ihr ganzes Vermögen frei verfügen. Errichten Sie kein Testament, erben Ihre Eltern; an die Stelle eines verstorbenen Elternteils treten dessen Nachkommen, also etwa Ihre Geschwister, Nichten und Neffen. Erst wenn es im Stamm der Eltern niemanden mehr gibt, kommen die Grosseltern und deren Nachkommen zum Zug. Eine unverheiratete Partnerin, ein unverheirateter Partner oder Freunde erben ohne Testament nie.",
+        "fr": "Si vous n’avez ni enfants ni petits-enfants, les descendants ne limitent pas votre liberté. Si vous n’êtes en outre ni marié ni en partenariat enregistré, vous pouvez disposer librement de tout votre patrimoine. Si vous ne rédigez pas de testament, ce sont vos parents qui héritent ; à la place d’un parent prédécédé viennent ses descendants, donc par exemple vos frères et sœurs, nièces et neveux. Ce n’est que lorsqu’il n’y a plus personne dans la souche des parents que les grands-parents et leurs descendants entrent en jeu. Une partenaire non mariée, un partenaire non marié ou des amis n’héritent jamais sans testament.",
+        "it": "Se lei non ha figli né nipoti, i discendenti non limitano la sua libertà. Se inoltre lei non è né sposato né in unione domestica registrata, può disporre liberamente dell'intero suo patrimonio. Se non redige un testamento, ereditano i suoi genitori; al posto di un genitore deceduto subentrano i suoi discendenti, quindi per esempio i suoi fratelli e sorelle, e i suoi nipoti. Solo quando nella stirpe dei genitori non vi è più nessuno, entrano in gioco i nonni e i loro discendenti. Il convivente non sposato o gli amici non ereditano mai senza testamento.",
+        "en": "If you have no children or grandchildren, descendants do not limit your freedom. If you are also neither married nor in a registered partnership, you can freely dispose of your entire estate. If you make no will, your parents inherit; a deceased parent's descendants take that parent's place, for example your siblings, nieces and nephews. Only once there is no one left in the parental line do the grandparents and their descendants take their turn. An unmarried partner or friends never inherit without a will.",
+        "rm": "Avais Vus naginas uffants e nagins uffants d'uffants, na restrenschan descendents betg Vossa libertad. Essas Vus supplementarmain ni maridà/a ni en partenadi registrà, pudais Vus disponer liberamain sur tut Vossa facultad. Na fixais Vus nagin testament, ertan Voss geniturs; a la plazza d'in genitur predefunt entran ses descendents, dunca per exempel Voss fragliuns, nezzas e nevs. Pir sche datti nagin dapli en la lingia dals geniturs, entran las tats e tattas e lur descendents en gieu. Ina partenaria betg maridada, in partenari betg maridà u amitgas ed amitgs n'ertan senza testament mai."
       },
       "sources": [
         "zgb-470",
@@ -295,7 +455,11 @@
       "id": "safekeeping",
       "kind": "rule",
       "text": {
-        "de": "Ein eigenhändiges Testament dürfen Sie zu Hause aufbewahren, sicherer ist aber die Hinterlegung bei einer kantonalen Amtsstelle, offen oder verschlossen; jeder Kanton muss eine solche Stelle anbieten. Ein öffentliches Testament wird von der Urkundsperson im Original oder in Abschrift selbst aufbewahrt oder ebenfalls einer Amtsstelle übergeben. So ist eher sichergestellt, dass Ihr Testament nach Ihrem Tod auch gefunden wird."
+        "de": "Ein eigenhändiges Testament dürfen Sie zu Hause aufbewahren, sicherer ist aber die Hinterlegung bei einer kantonalen Amtsstelle, offen oder verschlossen; jeder Kanton muss eine solche Stelle anbieten. Ein öffentliches Testament wird von der Urkundsperson im Original oder in Abschrift selbst aufbewahrt oder ebenfalls einer Amtsstelle übergeben. So ist eher sichergestellt, dass Ihr Testament nach Ihrem Tod auch gefunden wird.",
+        "fr": "Vous pouvez conserver un testament olographe chez vous, mais il est plus sûr de le déposer, ouvert ou clos, auprès d’un service cantonal compétent ; chaque canton doit proposer un tel service. Un testament public est conservé, en original ou en copie, par la personne qui l’a instrumenté, ou remis également à un tel service. Cela garantit mieux que votre testament sera retrouvé après votre mort.",
+        "it": "Lei può conservare un testamento olografo a casa, ma è più sicuro depositarlo presso un ufficio cantonale, in forma aperta o chiusa; ogni Cantone deve offrire un simile ufficio. Un testamento pubblico è conservato dalla persona incaricata della rogazione, in originale o in copia, oppure è parimenti consegnato a un ufficio. In questo modo è più probabile che il suo testamento venga effettivamente trovato dopo la sua morte.",
+        "en": "You may keep a holographic will at home, but it is safer to deposit it with a cantonal office, open or sealed; every canton must offer such an office. A will made as a public deed is kept by the official, in the original or as a copy, or is likewise handed to an office. This makes it more likely that your will will actually be found after your death.",
+        "rm": "In testament scrit a maun dastgais Vus conservar a chasa, pli segir è dentant la deposiziun tar in post uffizial chantunal, avert u serrà; mintga chantun sto porscher in tal post. In testament public vegn conservà tras la persuna documentanta sezza, en original u en copia, u er transferì ad in post uffizial. Uschia è pli garantì che Voss testament vegnia er chattà suenter Voss mortori."
       },
       "sources": [
         "zgb-505",
@@ -306,7 +470,11 @@
       "id": "duty-to-hand-in",
       "kind": "rule",
       "text": {
-        "de": "Wer nach einem Todesfall ein Testament findet, muss es unverzüglich der zuständigen Behörde einliefern, auch wenn es für ungültig gehalten wird. Das gilt für die Urkundsperson, bei der es hinterlegt oder protokolliert ist, und für jede Person, die es aufbewahrt hat oder unter den Sachen der verstorbenen Person gefunden hat, sobald sie vom Tod erfährt; wer das unterlässt, haftet dafür persönlich."
+        "de": "Wer nach einem Todesfall ein Testament findet, muss es unverzüglich der zuständigen Behörde einliefern, auch wenn es für ungültig gehalten wird. Das gilt für die Urkundsperson, bei der es hinterlegt oder protokolliert ist, und für jede Person, die es aufbewahrt hat oder unter den Sachen der verstorbenen Person gefunden hat, sobald sie vom Tod erfährt; wer das unterlässt, haftet dafür persönlich.",
+        "fr": "Quiconque trouve un testament après un décès doit le remettre sans délai à l’autorité compétente, même s’il le considère comme invalide. Cela vaut pour la personne qui a instrumenté l’acte auprès de laquelle il est déposé ou consigné, et pour toute personne qui l’a conservé ou l’a trouvé parmi les affaires de la personne décédée, dès qu’elle apprend le décès ; celui qui omet de le faire en répond personnellement.",
+        "it": "Chi, dopo un decesso, trova un testamento deve consegnarlo senza indugio all'autorità competente, anche se lo si ritiene nullo. Ciò vale per la persona incaricata della rogazione presso cui è depositato o protocollato, e per chiunque lo abbia custodito o lo abbia trovato tra le cose della persona defunta, non appena ne apprende la morte; chi omette di farlo ne risponde personalmente.",
+        "en": "Anyone who finds a will after a death must hand it in to the competent authority without delay, even if it is thought to be invalid. This applies to the official with whom it was deposited or recorded, and to anyone who has kept it or found it among the deceased's belongings, as soon as they learn of the death; anyone who fails to do so is personally liable for this.",
+        "rm": "Tgi che chatta suenter in mortori in testament, sto el deliverar senza retard a l'autoritad cumpetenta, er sche quel vala sco nunvalaivel. Quai vala per la persuna documentanta, tar la quala el è deponì u protocollà, e per mintga persuna che l'ha conservà u chattà tranter las chaussas da la persuna defunta, uschespert ch'ella survegn enconuschientscha da la mort; tgi che na fa betg quai, respunda persunalmain per quai."
       },
       "sources": [
         "zgb-556"
@@ -316,7 +484,11 @@
       "id": "revocation",
       "kind": "rule",
       "text": {
-        "de": "Sie können Ihr Testament jederzeit ganz oder teilweise widerrufen, in jeder der zulässigen Formen, unabhängig davon, in welcher Form Sie es ursprünglich errichtet haben. Ein Widerruf liegt auch vor, wenn Sie die Urkunde vernichten; wird sie durch Zufall oder durch das Verschulden einer anderen Person vernichtet, verliert sie ebenfalls ihre Gültigkeit, ausser ihr Inhalt lässt sich genau und vollständig nachweisen. Errichten Sie ein neues Testament, ohne das frühere ausdrücklich aufzuheben, tritt es an dessen Stelle, soweit es ihm widerspricht; eine neue Verfügung über eine bestimmte Sache hebt eine frühere, damit unvereinbare Verfügung über dieselbe Sache auf."
+        "de": "Sie können Ihr Testament jederzeit ganz oder teilweise widerrufen, in jeder der zulässigen Formen, unabhängig davon, in welcher Form Sie es ursprünglich errichtet haben. Ein Widerruf liegt auch vor, wenn Sie die Urkunde vernichten; wird sie durch Zufall oder durch das Verschulden einer anderen Person vernichtet, verliert sie ebenfalls ihre Gültigkeit, ausser ihr Inhalt lässt sich genau und vollständig nachweisen. Errichten Sie ein neues Testament, ohne das frühere ausdrücklich aufzuheben, tritt es an dessen Stelle, soweit es ihm widerspricht; eine neue Verfügung über eine bestimmte Sache hebt eine frühere, damit unvereinbare Verfügung über dieselbe Sache auf.",
+        "fr": "Vous pouvez révoquer votre testament en tout temps, en totalité ou en partie, dans l’une des formes admises, indépendamment de la forme dans laquelle vous l’avez initialement rédigé. Il y a également révocation lorsque vous détruisez l’acte ; s’il est détruit par accident ou par la faute d’une autre personne, il perd également sa validité, sauf si son contenu peut être prouvé de manière exacte et complète. Si vous rédigez un nouveau testament sans révoquer expressément le précédent, il le remplace dans la mesure où il le contredit ; une nouvelle disposition sur un objet déterminé annule une disposition antérieure incompatible portant sur le même objet.",
+        "it": "Lei può revocare il suo testamento in ogni momento, del tutto o in parte, in una qualsiasi delle forme ammesse, indipendentemente dalla forma in cui lo ha originariamente redatto. Vi è revoca anche quando lei distrugge il documento; se questo viene distrutto per caso fortuito o per colpa di un'altra persona, esso perde parimenti la sua validità, a meno che il suo contenuto possa essere provato in modo esatto e completo. Se lei redige un nuovo testamento senza revocare espressamente il precedente, questo ne prende il posto nella misura in cui vi è in contraddizione; una nuova disposizione su una cosa determinata revoca una precedente disposizione incompatibile sulla stessa cosa.",
+        "en": "You can revoke your will, wholly or in part, at any time, in any of the permitted forms, regardless of the form in which you originally made it. There is also a revocation if you destroy the document; if it is destroyed by accident or through the fault of another person, it likewise loses its validity, unless its content can be proved precisely and completely. If you make a new will without expressly revoking the earlier one, the new will takes its place to the extent that it contradicts it; a new provision about a specific item revokes an earlier, incompatible provision about the same item.",
+        "rm": "Vus pudais revocar Voss testament da tut temp, entiramain u per part, en mintga da las furmas admessas, independentamain, en tge furma ch'Vus l'avais fatg originalmain. Ina revocaziun exista er, sche Vus destruis la documentaziun; vegn ella destruida per casualitad u tras la culpa d'in'autra persuna, perda ella medemamain sia validitad, exceptà ses cuntegn sa lascha cumprovar exactamain e cumplettamain. Fixais Vus in nov testament, senza abolir explicitamain il pli baud, entra el a la plazza da quel, uschenavant ch'el al cuntradiga; ina nova disposiziun davart ina chaussa determinada abolescha ina pli baula disposiziun incompatibla davart la medema chaussa."
       },
       "sources": [
         "zgb-509",
@@ -328,7 +500,11 @@
       "id": "invalidity",
       "kind": "warning",
       "text": {
-        "de": "Ein Testament kann durch Klage für ungültig erklärt werden: wenn Sie es ohne Urteilsfähigkeit errichtet haben, wenn Ihr Wille mangelhaft war, etwa durch Täuschung oder Drohung, wenn Inhalt oder eine Bedingung unsittlich oder rechtswidrig ist, oder wenn ein Formfehler vorliegt. Liegt der Formfehler nur darin, dass eine bedachte Person oder ihre Angehörigen bei der Errichtung mitgewirkt haben, wird nur diese einzelne Zuwendung ungültig, nicht das ganze Testament. Klagen kann jede Person, die als Erbin oder Bedachte ein Interesse daran hat. Die Klage verjährt innert einem Jahr, seit die klagende Person vom Testament und vom Ungültigkeitsgrund erfahren hat, in jedem Fall innert zehn Jahren seit der Testamentseröffnung; gegenüber einer bösgläubigen Person bei Urteilsunfähigkeit, Rechtswidrigkeit oder Unsittlichkeit erst nach 30 Jahren. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Wird aus einem ungültigen Testament etwas verlangt, kann die Ungültigkeit als Einrede jederzeit geltend gemacht werden."
+        "de": "Ein Testament kann durch Klage für ungültig erklärt werden: wenn Sie es ohne Urteilsfähigkeit errichtet haben, wenn Ihr Wille mangelhaft war, etwa durch Täuschung oder Drohung, wenn Inhalt oder eine Bedingung unsittlich oder rechtswidrig ist, oder wenn ein Formfehler vorliegt. Liegt der Formfehler nur darin, dass eine bedachte Person oder ihre Angehörigen bei der Errichtung mitgewirkt haben, wird nur diese einzelne Zuwendung ungültig, nicht das ganze Testament. Klagen kann jede Person, die als Erbin oder Bedachte ein Interesse daran hat. Die Klage verjährt innert einem Jahr, seit die klagende Person vom Testament und vom Ungültigkeitsgrund erfahren hat, in jedem Fall innert zehn Jahren seit der Testamentseröffnung; gegenüber einer bösgläubigen Person bei Urteilsunfähigkeit, Rechtswidrigkeit oder Unsittlichkeit erst nach 30 Jahren. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Wird aus einem ungültigen Testament etwas verlangt, kann die Ungültigkeit als Einrede jederzeit geltend gemacht werden.",
+        "fr": "Un testament peut être annulé par une action en justice : si vous l’avez rédigé sans capacité de discernement, si votre volonté était viciée, par exemple par tromperie ou menace, si le contenu ou une condition est immoral ou illicite, ou en cas de vice de forme. Si le vice de forme consiste seulement dans le fait qu’une personne gratifiée ou ses proches ont participé à la rédaction, seule cette libéralité particulière est annulée, et non le testament entier. L’action peut être intentée par toute personne qui y a un intérêt en tant qu’héritière ou gratifiée. L’action se prescrit par un an à compter du jour où la personne demanderesse a eu connaissance du testament et de la cause de nullité, et dans tous les cas par dix ans depuis l’ouverture du testament ; à l’égard d’une personne de mauvaise foi, en cas d’incapacité de discernement, d’illicéité ou d’immoralité, seulement après 30 ans. Ces délais sont stricts : une lettre, une poursuite ou des négociations ne les suspendent pas. Vous ne pouvez les sauvegarder qu’en déposant à temps une requête de conciliation ou une action en justice. Si quelque chose est réclamé sur la base d’un testament invalide, l’invalidité peut être invoquée en tout temps par voie d’exception.",
+        "it": "Un testamento può essere dichiarato nullo mediante azione giudiziaria: se lei lo ha redatto senza capacità di discernimento, se la sua volontà era viziata, per esempio da inganno o minaccia, se il contenuto o una condizione è immorale o illecito, oppure se sussiste un vizio di forma. Se il vizio di forma consiste soltanto nel fatto che una persona beneficiata o i suoi congiunti hanno cooperato alla redazione, diventa nulla solo questa singola liberalità, non l'intero testamento. Può agire in giudizio chiunque, come erede o beneficiato, vi abbia un interesse. L'azione si prescrive entro un anno da quando la persona attrice ha avuto conoscenza del testamento e del motivo di nullità, in ogni caso entro dieci anni dall'apertura del testamento; nei confronti di una persona in mala fede, in caso di incapacità di discernimento, illiceità o immoralità, solo dopo 30 anni. Questi termini sono rigorosi: una lettera, un'esecuzione o trattative non li sospendono. Lei può tutelarli solo presentando tempestivamente un'istanza di conciliazione o un'azione giudiziaria. Se da un testamento nullo si pretende qualcosa, la nullità può essere fatta valere in via di eccezione in ogni momento.",
+        "en": "A will can be declared invalid by an action in court: if you made it without capacity of judgement, if your intention was defective, for example through deception or threats, if the content or a condition is immoral or unlawful, or if there is a defect of form. If the only defect of form is that a person named in the will, or their family, took part in making it, only that individual gift becomes invalid, not the whole will. Anyone who has an interest as an heir or a beneficiary can bring the action. The action becomes time-barred one year after the person bringing it learned of the will and of the ground of invalidity, and in any case ten years after the will was opened; against a person acting in bad faith, in cases of incapacity of judgement, unlawfulness or immorality, only after 30 years. These time limits are strict: a letter, debt enforcement proceedings or negotiations do not stop them running. You can only preserve them by filing a request for conciliation or bringing an action in time. If something is claimed on the basis of an invalid will, the invalidity can be raised as a defence at any time.",
+        "rm": "In testament po vegnir declerà nunvalaivel tras plant: sche Vus l'avais fatg senza capacitad da giudicar, sche Voss avert era donnegià, per exempel tras engion u smanatscha, sche il cuntegn u ina cundiziun è immoral u illegal, u sche datti in sbagl da furma. Sa chatta il sbagl da furma mo en quai ch'ina persuna favurisada u ses confamigliars han collavurà a la fatgira, vegn nunvalaivla mo questa singula attribuziun, betg l'entir testament. Plantar po mintga persuna che ha, sco ertavla u persuna favurisada, in interess per quai. La plant sa prescriva entaifer in onn, dapi che la persuna planidanta ha survegnì enconuschientscha dal testament e dal motiv da nunvalidità, en mintga cas entaifer diesch onns dapi l'avertura dal testament; envers ina persuna da mala fai, en cas da nuncapacitad da giudicar, illegalitad u immoralitad, pir suenter 30 onns. Quests termins èn strits: ina brev, ina scussiun u negoziaziuns na las fermeschan betg. Vus las pudais mantegnair mo, sche Vus inoltrais a temp ina dumonda da mediaziun u ina plant. Vegn pretendì insatge dad in testament nunvalaivel, po la nunvalidità vegnir fatga valair per via d'exceptiun da tut temp."
       },
       "sources": [
         "zgb-519",
@@ -348,7 +524,11 @@
         ]
       },
       "text": {
-        "de": "Möchten Sie ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen, dürfen Sie das nur innerhalb der Pflichtteile Ihrer übrigen pflichtteilsgeschützten Erben tun. Verletzen Sie deren Pflichtteil, können diese nach Ihrem Tod eine Herabsetzung verlangen. Wie hoch die Pflichtteile ausfallen und wie eine Herabsetzung funktioniert, erklärt der eigene Leitfaden zum Pflichtteil."
+        "de": "Möchten Sie ein Kind oder eine andere Person stärker begünstigen als gesetzlich vorgesehen, dürfen Sie das nur innerhalb der Pflichtteile Ihrer übrigen pflichtteilsgeschützten Erben tun. Verletzen Sie deren Pflichtteil, können diese nach Ihrem Tod eine Herabsetzung verlangen. Wie hoch die Pflichtteile ausfallen und wie eine Herabsetzung funktioniert, erklärt der eigene Leitfaden zum Pflichtteil.",
+        "fr": "Si vous voulez avantager un enfant ou une autre personne davantage que ce que prévoit la loi, vous ne pouvez le faire que dans les limites des réserves héréditaires de vos autres héritiers réservataires. Si vous portez atteinte à leur réserve, ils pourront, après votre mort, demander une réduction. Le montant des réserves héréditaires et le fonctionnement d’une réduction sont expliqués dans le guide consacré à la réserve héréditaire.",
+        "it": "Se lei desidera favorire un figlio o un'altra persona in misura maggiore di quanto previsto dalla legge, può farlo solo entro i limiti della legittima dei suoi altri eredi protetti dalla legittima. Se lede la loro legittima, questi possono, dopo la sua morte, chiedere una riduzione. A quanto ammontano le legittime e come funziona un'azione di riduzione è spiegato nella guida propria sulla legittima.",
+        "en": "If you want to favour one child or another person more than the law provides, you may only do so within the statutory entitlements of your other protected heirs. If you infringe their statutory entitlement, they can demand abatement after your death. How large the statutory entitlements are and how abatement works is explained in the separate guide on statutory entitlements.",
+        "rm": "Vulais Vus favurisar in uffant u in'autra persuna pli fitg che previs da lescha, dastgais Vus quai mo far entaifer las parts obligatoricas da Vossas autras ertavlas ed ertavels protegids tras la part obligatorica. Violais Vus lur part obligatorica, pon quels pretender suenter Voss mortori ina reducziun. Quant autas che las parts obligatoricas èn e co ina reducziun funcziunescha, explitgescha la propria guida davart la part obligatorica."
       },
       "sources": [
         "zgb-470",
@@ -364,14 +544,22 @@
         ]
       },
       "text": {
-        "de": "Möchten Sie einer gemeinnützigen Organisation etwas hinterlassen, nennen Sie sie eindeutig mit vollem Namen und Sitz und legen Sie fest, ob es sich um einen festen Betrag, einen bestimmten Gegenstand oder einen Anteil an der Erbschaft handeln soll. Erkundigen Sie sich vorher bei der Organisation, ob und wie sie Ihre Zuwendung entgegennehmen kann. Eine Willensvollstreckerin oder ein Willensvollstrecker kann dafür sorgen, dass Ihr Wille tatsächlich umgesetzt wird."
+        "de": "Möchten Sie einer gemeinnützigen Organisation etwas hinterlassen, nennen Sie sie eindeutig mit vollem Namen und Sitz und legen Sie fest, ob es sich um einen festen Betrag, einen bestimmten Gegenstand oder einen Anteil an der Erbschaft handeln soll. Erkundigen Sie sich vorher bei der Organisation, ob und wie sie Ihre Zuwendung entgegennehmen kann. Eine Willensvollstreckerin oder ein Willensvollstrecker kann dafür sorgen, dass Ihr Wille tatsächlich umgesetzt wird.",
+        "fr": "Si vous voulez léguer quelque chose à une organisation d’utilité publique, nommez-la clairement avec son nom complet et son siège, et précisez s’il s’agit d’un montant fixe, d’un objet déterminé ou d’une part de la succession. Renseignez-vous au préalable auprès de l’organisation pour savoir si et comment elle peut recevoir votre libéralité. Une exécutrice ou un exécuteur testamentaire peut veiller à ce que votre volonté soit effectivement mise en œuvre.",
+        "it": "Se lei desidera lasciare qualcosa a un'organizzazione di pubblica utilità, la indichi in modo univoco con il nome completo e la sede, e stabilisca se si tratta di un importo fisso, di un oggetto determinato o di una quota dell'eredità. Si informi previamente presso l'organizzazione se e come può ricevere la sua liberalità. Un esecutore testamentario può fare in modo che la sua volontà sia effettivamente attuata.",
+        "en": "If you want to leave something to a charitable organisation, name it clearly with its full name and registered seat, and specify whether this is to be a fixed amount, a specific item, or a share of the estate. Ask the organisation beforehand whether and how it can accept your gift. An executor can make sure your wishes are actually carried out.",
+        "rm": "Vulais Vus laschar insatge ad in'organisaziun d'utilitad publica, numnai ella cleramain cun num cumplet e sedia e fixai, sch'i sa tracta d'in import fix, d'in object determinà u d'ina quota da l'ierta. Infurmai Vus ordavant tar l'organisaziun, sch'e co ella po acceptar Vossa attribuziun. In'executura dal testament u in executur dal testament po guardar, che Voss avert vegnia propi realisà."
       }
     },
     {
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Ein eigenhändiges Testament kostet Sie nichts ausser der Zeit zum Schreiben. Für ein öffentliches Testament verlangen Notarinnen, Notare oder die zuständige Urkundsperson ein Honorar nach kantonalem Tarif; dieser Tarif ist von Kanton zu Kanton unterschiedlich. Auch für die Hinterlegung bei einer kantonalen Amtsstelle kann eine Gebühr anfallen. Erkundigen Sie sich vorher nach den Kosten."
+        "de": "Ein eigenhändiges Testament kostet Sie nichts ausser der Zeit zum Schreiben. Für ein öffentliches Testament verlangen Notarinnen, Notare oder die zuständige Urkundsperson ein Honorar nach kantonalem Tarif; dieser Tarif ist von Kanton zu Kanton unterschiedlich. Auch für die Hinterlegung bei einer kantonalen Amtsstelle kann eine Gebühr anfallen. Erkundigen Sie sich vorher nach den Kosten.",
+        "fr": "Un testament olographe ne vous coûte rien, hormis le temps nécessaire pour l’écrire. Pour un testament public, les notaires ou la personne compétente pour instrumenter demandent des honoraires selon le tarif cantonal ; ce tarif varie d’un canton à l’autre. Le dépôt auprès d’un service cantonal peut également entraîner un émolument. Renseignez-vous à l’avance sur les coûts.",
+        "it": "Un testamento olografo non le costa nulla, a parte il tempo per scriverlo. Per un testamento pubblico, i notai o la persona incaricata della rogazione competente chiedono un onorario secondo la tariffa cantonale; questa tariffa varia da Cantone a Cantone. Anche per il deposito presso un ufficio cantonale può essere dovuto un emolumento. Si informi previamente sui costi.",
+        "en": "A holographic will costs you nothing except the time it takes to write it. For a will made as a public deed, the notary or other competent official charges a fee under the cantonal tariff; this tariff differs from canton to canton. A fee may also be charged for depositing it with a cantonal office. Ask about the costs beforehand.",
+        "rm": "In testament scrit a maun na costa a Vus nagut, ultra dal temp per scriver. Per in testament public pretendan notarias, notaris u la persuna documentanta cumpetenta in'indemnisaziun tenor tarif chantunal; quest tarif è different da chantun a chantun. Er per la deposiziun tar in post uffizial chantunal po entrar ina taxa. Infurmai Vus ordavant davart ils custs."
       },
       "sources": [
         "zgb-499",
@@ -382,14 +570,22 @@
       "id": "escalate",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung bei einer Notarin, einem Notar, einer Anwältin oder einem Anwalt, wenn Ihr Nachlass gross oder kompliziert ist, wenn ein Unternehmen oder Grundeigentum dazugehört, wenn Sie Vermögen im Ausland haben oder eine ausländische Staatsangehörigkeit besitzen (dann können fremde Erbrechtsregeln gelten), wenn Sie in einer Patchworkfamilie leben, oder wenn Sie jemanden enterben möchten. In diesen Fällen lohnt sich die Beratung, bevor Sie etwas Falsches aufschreiben."
+        "de": "Holen Sie persönliche Beratung bei einer Notarin, einem Notar, einer Anwältin oder einem Anwalt, wenn Ihr Nachlass gross oder kompliziert ist, wenn ein Unternehmen oder Grundeigentum dazugehört, wenn Sie Vermögen im Ausland haben oder eine ausländische Staatsangehörigkeit besitzen (dann können fremde Erbrechtsregeln gelten), wenn Sie in einer Patchworkfamilie leben, oder wenn Sie jemanden enterben möchten. In diesen Fällen lohnt sich die Beratung, bevor Sie etwas Falsches aufschreiben.",
+        "fr": "Faites-vous conseiller personnellement par une notaire, un notaire, une avocate ou un avocat si votre succession est importante ou compliquée, si une entreprise ou un bien immobilier en fait partie, si vous avez des biens à l’étranger ou une nationalité étrangère (des règles de droit successoral étrangères peuvent alors s’appliquer), si vous vivez dans une famille recomposée, ou si vous voulez déshériter quelqu’un. Dans ces cas, il vaut la peine de vous faire conseiller avant d’écrire quelque chose d’erroné.",
+        "it": "Si faccia consigliare personalmente da un notaio o da un avvocato se la sua successione è grande o complicata, se ne fa parte un'azienda o una proprietà fondiaria, se lei ha patrimonio all'estero o possiede una cittadinanza straniera (in tal caso possono applicarsi norme successorie straniere), se vive in una famiglia ricomposta, oppure se desidera diseredare qualcuno. In questi casi la consulenza vale la pena, prima che lei scriva qualcosa di sbagliato.",
+        "en": "Get personal advice from a notary or a lawyer if your estate is large or complicated, if it includes a business or real estate, if you have assets abroad or hold a foreign nationality (foreign succession rules can then apply), if you live in a blended family, or if you want to disinherit someone. In these cases, advice is worthwhile before you write down something wrong.",
+        "rm": "Retschertgai consulaziun persunala tar ina notaria, in notari, in'advocata u in advocat, sche Voss relasch è grond u cumplitgà, sche in'interpresa u proprietad immobigliara tutgan là tar, sche Vus avais facultad a l'exteriur u possedais ina naziunalitad estra (lura pon valair reglas d'ierta estras), sche Vus vivais en ina famiglia da patchwork, u sche Vus vulais exhereditar insatgi. En quests cas svegia la consulaziun, avant che Vus scrivais insatge fauss."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an. Notariate führen oft eine kostenlose Erstberatung durch oder informieren an offenen Tagen über das Testament. Pro Senectute berät ältere Menschen zu Testament und Nachlass. Bestehen Zweifel an der Urteilsfähigkeit oder ein Schutzbedarf, kann die Erwachsenenschutzbehörde (KESB) Auskunft geben."
+        "de": "Kostenlose oder günstige Hilfe: Viele Kantone bieten eine kostenlose oder günstige Rechtsauskunft an. Notariate führen oft eine kostenlose Erstberatung durch oder informieren an offenen Tagen über das Testament. Pro Senectute berät ältere Menschen zu Testament und Nachlass. Bestehen Zweifel an der Urteilsfähigkeit oder ein Schutzbedarf, kann die Erwachsenenschutzbehörde (KESB) Auskunft geben.",
+        "fr": "Aide gratuite ou à faible coût : de nombreux cantons offrent une consultation juridique gratuite ou à faible coût. Les notariats organisent souvent une première consultation gratuite ou informent sur le testament lors de journées portes ouvertes. Pro Senectute conseille les personnes âgées sur le testament et la succession. En cas de doute sur la capacité de discernement ou de besoin de protection, l’autorité de protection de l’adulte (APEA) peut renseigner.",
+        "it": "Aiuto gratuito o a basso costo: molti Cantoni offrono informazioni giuridiche gratuite o a basso costo. I notariati svolgono spesso una prima consulenza gratuita o informano sul testamento in giornate aperte al pubblico. Pro Senectute consiglia le persone anziane su testamento e successione. Se vi sono dubbi sulla capacità di discernimento o un bisogno di protezione, l'Autorità di protezione degli adulti (APMA) può fornire informazioni.",
+        "en": "Free or low-cost help: many cantons offer free or low-cost legal information. Notaries' offices often give a free initial consultation or provide information on wills at open days. Pro Senectute advises older people on wills and estates. If there is doubt about capacity of judgement or a need for protection, the adult protection authority (KESB) can provide information.",
+        "rm": "Agid gratuit u avantagius: blers chantuns offran ina consulaziun giuridica gratuita u avantagiusa. Notariats exequeschan savens ina consulaziun inizial gratuita u infurmeschan a dis averts davart il testament. Pro Senectute cussegia persunas pli veglias davart testament e relasch. Restan dubis davart la capacitad da giudicar u in basegn da protecziun, po l'autoritad per la protecziun da creschids (KESB) dar infurmaziun."
       }
     }
   ],
@@ -697,19 +893,31 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Testament und Erbvertrag"
+        "de": "ch.ch: Testament und Erbvertrag",
+        "fr": "ch.ch : Testament et pacte successoral",
+        "it": "ch.ch: Testamento e contratto successorio",
+        "en": "ch.ch: Wills and contracts of succession",
+        "rm": "ch.ch: Testament e contract d'ierta"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/testament-und-erbvertrag/"
     },
     {
       "label": {
-        "de": "ch.ch: Wer erbt wie viel"
+        "de": "ch.ch: Wer erbt wie viel",
+        "fr": "ch.ch : Qui hérite de combien",
+        "it": "ch.ch: Chi eredita quanto",
+        "en": "ch.ch: Who inherits how much",
+        "rm": "ch.ch: Tgi ha quant dretg d'ierta"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/wer-wie-viel-erbt/"
     },
     {
       "label": {
-        "de": "Pro Senectute: Testament und Erbschaften"
+        "de": "Pro Senectute: Testament und Erbschaften",
+        "fr": "Pro Senectute : Testament et successions",
+        "it": "Pro Senectute: testamento ed eredità",
+        "en": "Pro Senectute: Wills and inheritance",
+        "rm": "Pro Senectute: Testament ed ierta"
       },
       "url": "https://www.prosenectute.ch/de/ratgeber/persoenliche-vorsorge/testament-erbschaft.html"
     }

@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Pflichtteile: Was nahen Angehörigen zusteht"
+    "de": "Pflichtteile: Was nahen Angehörigen zusteht",
+    "fr": "La réserve héréditaire : ce qui revient aux proches",
+    "it": "La legittima: che cosa spetta ai parenti stretti",
+    "en": "Statutory entitlements: what close family members are owed",
+    "rm": "Part obligatorica: Tge che tutga a confamigliars datiers"
   },
   "summary": {
-    "de": "Pflichtteile schützen nahe Angehörige davor, durch ein Testament oder einen Erbvertrag völlig leer auszugehen. Seit dem 1. Januar 2023 haben nur noch Nachkommen sowie der überlebende Ehegatte oder die eingetragene Partnerin beziehungsweise der eingetragene Partner einen Pflichtteil; Eltern, Geschwister und andere Verwandte haben keinen mehr. Der Pflichtteil beträgt die Hälfte des gesetzlichen Erbanspruchs, der Rest ist frei verfügbar. Wurden Sie übergangen oder erhalten Sie zu wenig, können Sie mit der Herabsetzungsklage Ihren Pflichtteil durchsetzen - dafür gelten kurze Fristen. Planen Sie Ihren eigenen Nachlass, zeigt dieser Leitfaden, wie viel Sie frei verteilen können und welche Möglichkeiten wie die Enterbung oder die Nutzniessung für den Ehegatten bestehen."
+    "de": "Pflichtteile schützen nahe Angehörige davor, durch ein Testament oder einen Erbvertrag völlig leer auszugehen. Seit dem 1. Januar 2023 haben nur noch Nachkommen sowie der überlebende Ehegatte oder die eingetragene Partnerin beziehungsweise der eingetragene Partner einen Pflichtteil; Eltern, Geschwister und andere Verwandte haben keinen mehr. Der Pflichtteil beträgt die Hälfte des gesetzlichen Erbanspruchs, der Rest ist frei verfügbar. Wurden Sie übergangen oder erhalten Sie zu wenig, können Sie mit der Herabsetzungsklage Ihren Pflichtteil durchsetzen - dafür gelten kurze Fristen. Planen Sie Ihren eigenen Nachlass, zeigt dieser Leitfaden, wie viel Sie frei verteilen können und welche Möglichkeiten wie die Enterbung oder die Nutzniessung für den Ehegatten bestehen.",
+    "fr": "Les réserves héréditaires protègent les proches contre le fait de se retrouver totalement exclus par un testament ou un pacte successoral. Depuis le 1er janvier 2023, seuls les descendants ainsi que le conjoint survivant ou la partenaire enregistrée survivante ou le partenaire enregistré survivant ont une réserve héréditaire ; les parents, les frères et sœurs et les autres proches n’en ont plus. La réserve héréditaire correspond à la moitié du droit de succession légal, le reste étant la quotité disponible. Si vous avez été écarté ou si vous recevez trop peu, vous pouvez faire valoir votre réserve au moyen d’une action en réduction – des délais courts s’appliquent. Si vous planifiez votre propre succession, ce guide montre combien vous pouvez répartir librement et quelles possibilités existent, comme l’exhérédation ou l’usufruit en faveur du conjoint.",
+    "it": "La legittima protegge i parenti stretti dal rimanere completamente esclusi da un testamento o da un contratto successorio. Dal 1° gennaio 2023 hanno diritto alla legittima solo i discendenti e il coniuge superstite o il partner registrato superstite; genitori, fratelli, sorelle e altri parenti non ne hanno più. La legittima corrisponde alla metà della quota ereditaria legale, il resto è liberamente disponibile. Se non ha ricevuto nulla o riceve troppo poco, può far valere la sua legittima con l'azione di riduzione – per questo valgono termini brevi. Se sta pianificando la propria successione, questa guida mostra quanto può distribuire liberamente e quali possibilità esistono, come la diseredazione o l'usufrutto per il coniuge.",
+    "en": "Statutory entitlements protect close family members from being left with nothing at all by a will or a contract of succession. Since 1 January 2023, only descendants and the surviving spouse or registered partner have a statutory entitlement; parents, siblings and other relatives no longer have one. The statutory entitlement is half of the statutory succession rights, and the rest can be freely disposed of. If you have been passed over or receive too little, you can enforce your statutory entitlement with an action for abatement - short time limits apply. If you are planning your own estate, this guide shows how much you can freely distribute and what options exist, such as disinheritance or usufruct for a spouse.",
+    "rm": "Las parts obligatoricas protegian confamigliars datiers, per ch'els na restian betg entiramain senza part tras in testament u in contract d'ierta. Dapi il 1. da schaner 2023 han mo pli descendents sco er la consorta surviventa u il consort survivent u la partenaria registrada u il partenari registrà ina part obligatorica; geniturs, fragliuns ed autras persunas parentadas n'han betg pli ina. La part obligatorica importa la mesadad dal dretg d'ierta legal, il rest è liberamain disponibel. Sche insatgi Vus ha ignorà en il testament u sche Vus retschavais memia pauc, pudais Vus applitgar Vossa part obligatorica cun la plant da reducziun - per quai valan termins curts. Planisais Vus Voss agen relasch, mussa questa guida quant Vus pudais repartir liberamain e tge pussaivladads sco la dischertaziun u l'usufrut per la consorta u il consort existan."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Mis Vater het churz vor sim Tod na Schänkige gmacht. Zellt das für min Pflichtteil?",
       "Ich will meinem Konkubinatspartner möglichst viel vererben. Geht das?",
       "Wie lang han ich Zeit, öppis gäge es Testament z'mache?"
+    ],
+    "fr": [
+      "Ma mère est décédée et a légué presque tout à ma sœur. Qu’est-ce qui me revient ?",
+      "Mon père peut-il m’exclure complètement de son testament ?",
+      "Quelle part puis-je retirer à ma femme et à mes enfants par testament ?",
+      "Mon père a fait des donations peu avant sa mort. Est-ce que ça compte pour ma réserve héréditaire ?",
+      "Je veux léguer le plus possible à mon concubin. Est-ce possible ?",
+      "Combien de temps ai-je pour contester un testament ?"
+    ],
+    "it": [
+      "Mia madre è morta e ha lasciato quasi tutto a mia sorella. Che cosa spetta a me?",
+      "Mio padre può escludermi completamente dal testamento?",
+      "Quanto posso togliere a mia moglie e ai miei figli con un testamento?",
+      "Poco prima di morire, mio padre ha fatto ancora dei regali. Contano per la mia legittima?",
+      "Voglio lasciare il più possibile al mio convivente. È possibile?",
+      "Quanto tempo ho per contestare un testamento?"
+    ],
+    "en": [
+      "My mother has died and left almost everything to my sister. What am I entitled to?",
+      "Can my father leave me out of his will completely?",
+      "How much can I take away from my wife and children by will?",
+      "My father made some gifts shortly before he died. Does that count towards my statutory entitlement?",
+      "I want to leave as much as possible to my cohabiting partner. Is that possible?",
+      "How long do I have to challenge a will?"
+    ],
+    "rm": [
+      "Mia mamma è morta ed ha legà quasi tut a mia sora. Tge am tutga a mi?",
+      "Poi mes bab ignorar mai dal tuttafatg en il testament?",
+      "Quant poss jau prender via a mia dunna ed a mes uffants tras in testament?",
+      "Mes bab ha fatg anc regals curt avant sia mort. Conta quai per mia part obligatorica?",
+      "Jau vuless leschar uschè bler sco pussibel a mia partenaria u a mes partenari da concubinat. Va quai?",
+      "Quant temp hai jau per As opponer cunter in testament?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Den Pflichtteil von Nachkommen sowie von Ehegatten und eingetragenen Partnerinnen und Partnern nach dem seit 1. Januar 2023 geltenden Erbrecht: wie hoch er ist, was frei verfügbar bleibt, wann die Ehepartnerin oder der Ehepartner ihn verliert, die Nutzniessung als Alternative, welche Lebzeit-Zuwendungen mitzählen, wie Sie ihn mit der Herabsetzungsklage durchsetzen und innert welcher Fristen, sowie die Enterbung und der Verzicht auf den Pflichtteil."
+      "de": "Den Pflichtteil von Nachkommen sowie von Ehegatten und eingetragenen Partnerinnen und Partnern nach dem seit 1. Januar 2023 geltenden Erbrecht: wie hoch er ist, was frei verfügbar bleibt, wann die Ehepartnerin oder der Ehepartner ihn verliert, die Nutzniessung als Alternative, welche Lebzeit-Zuwendungen mitzählen, wie Sie ihn mit der Herabsetzungsklage durchsetzen und innert welcher Fristen, sowie die Enterbung und der Verzicht auf den Pflichtteil.",
+      "fr": "La réserve héréditaire des descendants ainsi que des conjoints et des partenaires enregistrés, selon le droit des successions en vigueur depuis le 1er janvier 2023 : son montant, ce qui reste librement disponible, quand le conjoint la perd, l’usufruit comme alternative, quelles libéralités entre vifs entrent en compte, comment la faire valoir par l’action en réduction et dans quels délais, ainsi que l’exhérédation et la renonciation à la réserve héréditaire.",
+      "it": "La legittima dei discendenti, del coniuge e dei partner registrati secondo il diritto successorio in vigore dal 1° gennaio 2023: quanto ammonta, che cosa resta liberamente disponibile, quando il coniuge la perde, l'usufrutto come alternativa, quali liberalità in vita vi rientrano, come farla valere con l'azione di riduzione ed entro quali termini, nonché la diseredazione e la rinuncia alla legittima.",
+      "en": "The statutory entitlement of descendants and of spouses and registered partners under the law of succession in force since 1 January 2023: how much it amounts to, what remains freely disposable, when a spouse loses it, usufruct as an alternative, which lifetime gifts count towards it, how you enforce it with an action for abatement and within what time limits, and disinheritance and waiving the statutory entitlement.",
+      "rm": "La part obligatorica da descendents sco er da consorts e da partenarias registradas u partenaris registrads tenor il dretg d'ierta valaivel dapi il 1. da schaner 2023: quant auta ch'ella è, tge che resta liberamain disponibel, cura che la consorta u il consort la perda, l'usufrut sco alternativa, tge attribuziuns fatgas durant vita contan, co Vus la applitgais cun la plant da reducziun ed entaifer tge termins, sco er la dischertaziun e la renunzia a la part obligatorica."
     },
     "excludes": {
-      "de": "Die detaillierte Berechnung eines konkreten Nachlasses, die gesetzliche Erbfolge im Einzelnen, die Erbschaftssteuer, internationale Erbfälle mit Auslandbezug sowie Todesfälle vor dem 1. Januar 2023, für die teilweise noch das damals geltende Recht gilt."
+      "de": "Die detaillierte Berechnung eines konkreten Nachlasses, die gesetzliche Erbfolge im Einzelnen, die Erbschaftssteuer, internationale Erbfälle mit Auslandbezug sowie Todesfälle vor dem 1. Januar 2023, für die teilweise noch das damals geltende Recht gilt.",
+      "fr": "Le calcul détaillé d’une succession concrète, la dévolution légale en détail, l’impôt sur les successions, les successions internationales avec un lien avec l’étranger, ainsi que les décès survenus avant le 1er janvier 2023, pour lesquels l’ancien droit reste en partie applicable.",
+      "it": "Il calcolo dettagliato di un'eredità concreta, la successione legittima nel dettaglio, l'imposta di successione, i casi successori internazionali con legami con l'estero, nonché i decessi avvenuti prima del 1° gennaio 2023, per i quali si applica in parte ancora il diritto allora vigente.",
+      "en": "The detailed calculation of a specific estate, intestate succession in detail, inheritance tax, cross-border inheritance cases, and deaths before 1 January 2023, to which the law then in force can still partly apply.",
+      "rm": "La calculaziun detagliada d'in relasch concret, la successiun legala en detagl, la taglia da successiun, cas d'ierta internaziunals cun connex a l'exteriur, sco er mortoris avant il 1. da schaner 2023, per ils quals vala per part anc il dretg valaivel lura."
     }
   },
   "facts": [
     {
       "key": "perspective",
       "question": {
-        "de": "Worum geht es bei Ihnen?"
+        "de": "Worum geht es bei Ihnen?",
+        "fr": "De quoi s’agit-il dans votre cas ?",
+        "it": "Di che cosa si tratta nel suo caso?",
+        "en": "What is your situation?",
+        "rm": "Da tge sa tracta per Vus?"
       },
       "options": [
         {
           "value": "heir",
           "label": {
-            "de": "Ich bin Erbin oder Erbe und wurde übergangen oder erhalte zu wenig"
+            "de": "Ich bin Erbin oder Erbe und wurde übergangen oder erhalte zu wenig",
+            "fr": "Je suis héritière ou héritier et j’ai été écarté ou je reçois trop peu",
+            "it": "Sono erede e non ho ricevuto nulla, oppure ricevo troppo poco",
+            "en": "I am an heir and have been passed over or am receiving too little",
+            "rm": "Jau sun ertavla u ertavel; insatgi m'ha ignorà, u jau retscheva memia pauc"
           }
         },
         {
           "value": "planning",
           "label": {
-            "de": "Ich plane mein eigenes Testament oder meinen Nachlass"
+            "de": "Ich plane mein eigenes Testament oder meinen Nachlass",
+            "fr": "Je planifie mon propre testament ou ma succession",
+            "it": "Sto pianificando il mio testamento o la mia successione",
+            "en": "I am planning my own will or estate",
+            "rm": "Jau planisesch mes agen testament u mes agen relasch"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich noch nicht genau"
+            "de": "Weiss ich noch nicht genau",
+            "fr": "Je ne sais pas encore exactement",
+            "it": "Non lo so ancora con precisione",
+            "en": "I don't know exactly yet",
+            "rm": "Quai na sai jau anc betg exact"
           }
         }
       ]
@@ -59,37 +123,61 @@
     {
       "key": "relationship",
       "question": {
-        "de": "In welchem Verhältnis stehen oder standen Sie zur Erblasserin oder zum Erblasser?"
+        "de": "In welchem Verhältnis stehen oder standen Sie zur Erblasserin oder zum Erblasser?",
+        "fr": "Quel est ou était votre lien avec la personne défunte ?",
+        "it": "Che rapporto ha o aveva con il disponente?",
+        "en": "What is or was your relationship to the deceased?",
+        "rm": "En tge relaziun stais u stavas Vus cun la defuncta u il defunct?"
       },
       "options": [
         {
           "value": "child-grandchild",
           "label": {
-            "de": "Kind oder Enkelkind"
+            "de": "Kind oder Enkelkind",
+            "fr": "Enfant ou petit-enfant",
+            "it": "Figlio o nipote",
+            "en": "Child or grandchild",
+            "rm": "Uffant u uffant d'uffant"
           }
         },
         {
           "value": "spouse-partner",
           "label": {
-            "de": "Ehepartnerin, Ehepartner oder eingetragene Partnerin beziehungsweise eingetragener Partner"
+            "de": "Ehepartnerin, Ehepartner oder eingetragene Partnerin beziehungsweise eingetragener Partner",
+            "fr": "Conjointe, conjoint ou partenaire enregistrée ou partenaire enregistré",
+            "it": "Coniuge o partner registrato",
+            "en": "Spouse or registered partner",
+            "rm": "Consorta, consort, partenaria registrada u partenari registrà"
           }
         },
         {
           "value": "parent",
           "label": {
-            "de": "Elternteil"
+            "de": "Elternteil",
+            "fr": "Père ou mère",
+            "it": "Genitore",
+            "en": "Parent",
+            "rm": "Genitur"
           }
         },
         {
           "value": "sibling-other",
           "label": {
-            "de": "Geschwister oder andere verwandte Person"
+            "de": "Geschwister oder andere verwandte Person",
+            "fr": "Frère, sœur ou autre personne apparentée",
+            "it": "Fratello, sorella o un altro parente",
+            "en": "Sibling or other relative",
+            "rm": "Ina fragliuna u in fragliun, u autra persuna parentada"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht oder trifft nicht zu"
+            "de": "Weiss ich nicht oder trifft nicht zu",
+            "fr": "Je ne sais pas, ou cela ne s’applique pas",
+            "it": "Non lo so o non si applica",
+            "en": "I don't know, or this doesn't apply",
+            "rm": "Jau na sai betg, u quai na tutga betg"
           }
         }
       ]
@@ -97,28 +185,48 @@
     {
       "key": "death_date",
       "question": {
-        "de": "Wann ist die Erblasserin oder der Erblasser gestorben, beziehungsweise planen Sie für die Zukunft?"
+        "de": "Wann ist die Erblasserin oder der Erblasser gestorben, beziehungsweise planen Sie für die Zukunft?",
+        "fr": "Quand la personne défunte est-elle décédée, ou planifiez-vous pour l’avenir ?",
+        "it": "Quando è morto il disponente, oppure sta pianificando per il futuro?",
+        "en": "When did the deceased die, or are you planning for the future?",
+        "rm": "Cura è la defuncta u il defunct mort u morta, u planisais Vus per il futur?"
       },
       "help": {
-        "de": "Am 1. Januar 2023 ist ein revidiertes Erbrecht in Kraft getreten. Für Todesfälle davor gilt teilweise noch das frühere Recht."
+        "de": "Am 1. Januar 2023 ist ein revidiertes Erbrecht in Kraft getreten. Für Todesfälle davor gilt teilweise noch das frühere Recht.",
+        "fr": "Un droit des successions révisé est entré en vigueur le 1er janvier 2023. Pour les décès antérieurs, l’ancien droit reste en partie applicable.",
+        "it": "Il 1° gennaio 2023 è entrato in vigore un diritto successorio riveduto. Per i decessi precedenti si applica in parte ancora il diritto anteriore.",
+        "en": "A revised law of succession came into force on 1 January 2023. For deaths before that date, the earlier law can still partly apply.",
+        "rm": "Il 1. da schaner 2023 è entrà en vigur in dretg d'ierta revedì. Per mortoris avant quel vala per part anc il dretg anteriur."
       },
       "options": [
         {
           "value": "before-2023",
           "label": {
-            "de": "Vor dem 1. Januar 2023"
+            "de": "Vor dem 1. Januar 2023",
+            "fr": "Avant le 1er janvier 2023",
+            "it": "Prima del 1° gennaio 2023",
+            "en": "Before 1 January 2023",
+            "rm": "Avant il 1. da schaner 2023"
           }
         },
         {
           "value": "since-2023",
           "label": {
-            "de": "Am oder nach dem 1. Januar 2023, oder der Todesfall ist noch nicht eingetreten"
+            "de": "Am oder nach dem 1. Januar 2023, oder der Todesfall ist noch nicht eingetreten",
+            "fr": "Le 1er janvier 2023 ou après, ou le décès n’est pas encore survenu",
+            "it": "Il 1° gennaio 2023 o dopo, oppure il decesso non è ancora avvenuto",
+            "en": "On or after 1 January 2023, or the death has not yet occurred",
+            "rm": "Il 1. da schaner 2023 u pli tard, u il mortori n'è anc betg succedì"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -126,28 +234,48 @@
     {
       "key": "divorcing",
       "question": {
-        "de": "War beim Tod ein Scheidungsverfahren oder ein Verfahren zur Auflösung der eingetragenen Partnerschaft hängig?"
+        "de": "War beim Tod ein Scheidungsverfahren oder ein Verfahren zur Auflösung der eingetragenen Partnerschaft hängig?",
+        "fr": "Une procédure de divorce ou de dissolution du partenariat enregistré était-elle pendante au moment du décès ?",
+        "it": "Al momento della morte era pendente una procedura di divorzio o di scioglimento dell'unione domestica registrata?",
+        "en": "Were divorce proceedings, or proceedings to dissolve the registered partnership, pending at the time of death?",
+        "rm": "Era, al mument da la mort, pendenta ina procedura da divorzi u ina procedura per schliar il partenadi registrà?"
       },
       "help": {
-        "de": "Gemeint ist ein Verfahren, das beim Tod noch nicht rechtskräftig abgeschlossen war."
+        "de": "Gemeint ist ein Verfahren, das beim Tod noch nicht rechtskräftig abgeschlossen war.",
+        "fr": "Il s’agit d’une procédure qui n’était pas encore close par un jugement entré en force au moment du décès.",
+        "it": "S'intende una procedura non ancora conclusa con effetto giuridico al momento della morte.",
+        "en": "This means proceedings that had not yet been concluded with final and binding effect at the time of death.",
+        "rm": "Percanto è inteschada ina procedura che n'era anc betg terminada legalmain al mument da la mort."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht oder trifft nicht zu"
+            "de": "Weiss ich nicht oder trifft nicht zu",
+            "fr": "Je ne sais pas, ou cela ne s’applique pas",
+            "it": "Non lo so o non si applica",
+            "en": "I don't know, or this doesn't apply",
+            "rm": "Jau na sai betg, u quai na tutga betg"
           }
         }
       ]
@@ -155,25 +283,41 @@
     {
       "key": "will_exists",
       "question": {
-        "de": "Gibt es ein Testament oder einen Erbvertrag?"
+        "de": "Gibt es ein Testament oder einen Erbvertrag?",
+        "fr": "Existe-t-il un testament ou un pacte successoral ?",
+        "it": "C'è un testamento o un contratto successorio?",
+        "en": "Is there a will or a contract of succession?",
+        "rm": "Datti in testament u in contract d'ierta?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, soweit ich weiss"
+            "de": "Nein, soweit ich weiss",
+            "fr": "Non, à ma connaissance",
+            "it": "No, per quanto ne sappia",
+            "en": "No, as far as I know",
+            "rm": "Na, tenor mia enconuschientscha"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -181,28 +325,48 @@
     {
       "key": "learned_when",
       "question": {
-        "de": "Seit wann kennen Sie Tatsachen, die auf eine Verletzung Ihres Pflichtteils hindeuten?"
+        "de": "Seit wann kennen Sie Tatsachen, die auf eine Verletzung Ihres Pflichtteils hindeuten?",
+        "fr": "Depuis quand connaissez-vous des faits laissant penser que votre réserve héréditaire a été violée ?",
+        "it": "Da quando conosce fatti che indicano una lesione della sua legittima?",
+        "en": "Since when have you known facts suggesting that your statutory entitlement has been infringed?",
+        "rm": "Dapi cura enconuschais Vus fatgs che pledan per ina violaziun da Vossa part obligatorica?"
       },
       "help": {
-        "de": "Gemeint ist der Zeitpunkt, an dem Sie erstmals Anhaltspunkte hatten, nicht erst, wenn alles sicher feststeht."
+        "de": "Gemeint ist der Zeitpunkt, an dem Sie erstmals Anhaltspunkte hatten, nicht erst, wenn alles sicher feststeht.",
+        "fr": "Il s’agit du moment où vous avez eu les premiers indices, et non du moment où tout est établi avec certitude.",
+        "it": "S'intende il momento in cui lei ha avuto per la prima volta indizi, non solo quando tutto è certo.",
+        "en": "This means the point when you first had grounds to suspect this, not only once everything is certain.",
+        "rm": "Impurtant è il mument, en il qual Vus avevat per l'emprima giada indizis, betg mo cura ch'i è tut segir."
       },
       "options": [
         {
           "value": "recent",
           "label": {
-            "de": "Vor weniger als einem Jahr"
+            "de": "Vor weniger als einem Jahr",
+            "fr": "Il y a moins d’un an",
+            "it": "Meno di un anno fa",
+            "en": "Less than a year ago",
+            "rm": "Damain che in onn fa"
           }
         },
         {
           "value": "over-a-year",
           "label": {
-            "de": "Vor mehr als einem Jahr"
+            "de": "Vor mehr als einem Jahr",
+            "fr": "Il y a plus d’un an",
+            "it": "Più di un anno fa",
+            "en": "More than a year ago",
+            "rm": "Pli che in onn fa"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht oder trifft nicht zu"
+            "de": "Weiss ich nicht oder trifft nicht zu",
+            "fr": "Je ne sais pas, ou cela ne s’applique pas",
+            "it": "Non lo so o non si applica",
+            "en": "I don't know, or this doesn't apply",
+            "rm": "Jau na sai betg, u quai na tutga betg"
           }
         }
       ]
@@ -218,7 +382,11 @@
         ]
       },
       "text": {
-        "de": "Ist die Erblasserin oder der Erblasser vor dem 1. Januar 2023 gestorben, richtet sich der Pflichtteil noch nach dem damals geltenden Recht. Dieser Leitfaden beschreibt nur das seit dem 1. Januar 2023 geltende Recht und passt für einen solchen Todesfall nicht ohne Weiteres. Lassen Sie sich für einen Todesfall vor diesem Datum persönlich beraten."
+        "de": "Ist die Erblasserin oder der Erblasser vor dem 1. Januar 2023 gestorben, richtet sich der Pflichtteil noch nach dem damals geltenden Recht. Dieser Leitfaden beschreibt nur das seit dem 1. Januar 2023 geltende Recht und passt für einen solchen Todesfall nicht ohne Weiteres. Lassen Sie sich für einen Todesfall vor diesem Datum persönlich beraten.",
+        "fr": "Si la personne défunte est décédée avant le 1er janvier 2023, la réserve héréditaire se détermine encore selon le droit alors en vigueur. Ce guide décrit uniquement le droit en vigueur depuis le 1er janvier 2023 et ne convient pas sans autre à un tel décès. Pour un décès antérieur à cette date, faites-vous conseiller personnellement.",
+        "it": "Se il disponente è morto prima del 1° gennaio 2023, la legittima si determina ancora secondo il diritto allora vigente. Questa guida descrive solo il diritto in vigore dal 1° gennaio 2023 e non si applica senza altro a un simile decesso. Per un decesso avvenuto prima di questa data, si faccia consigliare personalmente.",
+        "en": "If the deceased died before 1 January 2023, the statutory entitlement is still governed by the law that applied at the time. This guide describes only the law in force since 1 January 2023 and does not automatically fit such a death. Get personal advice for a death before that date.",
+        "rm": "È la defuncta u il defunct mort u morta avant il 1. da schaner 2023, sa drizza la part obligatorica anc tenor il dretg valaivel lura. Questa guida descriva mo il dretg valaivel dapi il 1. da schaner 2023 e na correspunda betg senza pli per in tal mortori. Laschai Vus cussegliar persunalmain per in mortori avant questa data."
       }
     },
     {
@@ -231,7 +399,11 @@
         ]
       },
       "text": {
-        "de": "Ihr Pflichtteil ist der Teil des Nachlasses, den Ihnen die Erblasserin oder der Erblasser nicht durch Testament oder Erbvertrag entziehen kann. Einen Pflichtteil haben heute nur noch Nachkommen, also Kinder und Enkelkinder, sowie die überlebende Ehepartnerin oder der überlebende Ehepartner beziehungsweise die überlebende eingetragene Partnerin oder der überlebende eingetragene Partner. Er beträgt für jede dieser Personen die Hälfte dessen, was sie ohne Testament gesetzlich erben würde. Eltern haben seit dem 1. Januar 2023 keinen Pflichtteil mehr; Geschwister, Konkubinatspartnerinnen und -partner sowie weitere Verwandte haben ebenfalls keinen."
+        "de": "Ihr Pflichtteil ist der Teil des Nachlasses, den Ihnen die Erblasserin oder der Erblasser nicht durch Testament oder Erbvertrag entziehen kann. Einen Pflichtteil haben heute nur noch Nachkommen, also Kinder und Enkelkinder, sowie die überlebende Ehepartnerin oder der überlebende Ehepartner beziehungsweise die überlebende eingetragene Partnerin oder der überlebende eingetragene Partner. Er beträgt für jede dieser Personen die Hälfte dessen, was sie ohne Testament gesetzlich erben würde. Eltern haben seit dem 1. Januar 2023 keinen Pflichtteil mehr; Geschwister, Konkubinatspartnerinnen und -partner sowie weitere Verwandte haben ebenfalls keinen.",
+        "fr": "Votre réserve héréditaire est la part de la succession que la personne défunte ne peut pas vous retirer par testament ou par pacte successoral. Aujourd’hui, seuls les descendants, c’est-à-dire les enfants et petits-enfants, ainsi que le conjoint survivant ou la conjointe survivante ou la partenaire enregistrée survivante ou le partenaire enregistré survivant, ont une réserve héréditaire. Elle correspond, pour chacune de ces personnes, à la moitié de ce qu’elle recevrait légalement sans testament. Depuis le 1er janvier 2023, les parents n’ont plus de réserve héréditaire ; les frères et sœurs, les concubines et concubins ainsi que les autres proches n’en ont pas non plus.",
+        "it": "La sua legittima è la parte dell'eredità che il disponente non può toglierle con un testamento o un contratto successorio. Hanno oggi diritto alla legittima soltanto i discendenti, cioè figli e nipoti, nonché il coniuge superstite o il partner registrato superstite. Per ciascuna di queste persone essa corrisponde alla metà di quanto erediterebbe per legge senza testamento. Dal 1° gennaio 2023 i genitori non hanno più diritto alla legittima; non ne hanno nemmeno i fratelli e le sorelle, i conviventi né altri parenti.",
+        "en": "Your statutory entitlement is the part of the estate that the deceased cannot take away from you by will or contract of succession. Today, only descendants, that is, children and grandchildren, and the surviving spouse or registered partner have a statutory entitlement. For each of these people, it amounts to half of what they would inherit by law without a will. Since 1 January 2023, parents no longer have a statutory entitlement; siblings, cohabiting partners and other relatives do not have one either.",
+        "rm": "Vossa part obligatorica (Pflichtteil) è quella part dal relasch che la defuncta u il defunct na po betg Vus retrair tras in testament u in contract d'ierta. Oz han mo pli descendents, dunca uffants ed uffants d'uffants, sco er la consorta surviventa u il consort survivent u la partenaria registrada surviventa u il partenari registrà survivent, ina part obligatorica. Per mintga da questas persunas importa ella la mesadad da quai ch'ella ertass legalmain senza testament. Geniturs n'han dapi il 1. da schaner 2023 nagina part obligatorica pli; fragliuns, partenarias u partenaris da concubinat sco er autras persunas parentadas n'han er nagina."
       },
       "sources": [
         "zgb-470",
@@ -253,7 +425,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie Elternteil, Geschwister oder eine andere verwandte Person der Erblasserin oder des Erblassers, haben Sie nach geltendem Recht keinen Pflichtteil. Die Erblasserin oder der Erblasser kann Sie durch Testament oder Erbvertrag vollständig übergehen, auch ohne jeden Grund. Von Gesetzes wegen erben Sie nur, wenn die verstorbene Person keine Nachkommen hinterlässt, und nur soweit kein Testament oder Erbvertrag etwas anderes bestimmt. Neben einer überlebenden Ehepartnerin oder einem überlebenden Ehepartner erhält der Stamm der Eltern einen Viertel des Nachlasses."
+        "de": "Sind Sie Elternteil, Geschwister oder eine andere verwandte Person der Erblasserin oder des Erblassers, haben Sie nach geltendem Recht keinen Pflichtteil. Die Erblasserin oder der Erblasser kann Sie durch Testament oder Erbvertrag vollständig übergehen, auch ohne jeden Grund. Von Gesetzes wegen erben Sie nur, wenn die verstorbene Person keine Nachkommen hinterlässt, und nur soweit kein Testament oder Erbvertrag etwas anderes bestimmt. Neben einer überlebenden Ehepartnerin oder einem überlebenden Ehepartner erhält der Stamm der Eltern einen Viertel des Nachlasses.",
+        "fr": "Si vous êtes le père, la mère, un frère, une sœur ou une autre personne apparentée à la personne défunte, vous n’avez, selon le droit en vigueur, aucune réserve héréditaire. La personne défunte peut vous exclure entièrement par testament ou pacte successoral, même sans aucun motif. Vous n’héritez de par la loi que si la personne décédée ne laisse pas de descendants, et seulement dans la mesure où aucun testament ou pacte successoral n’en dispose autrement. En concours avec un conjoint survivant ou une conjointe survivante, la souche des parents reçoit un quart de la succession.",
+        "it": "Se lei è genitore, fratello o sorella, oppure un altro parente del disponente, secondo il diritto vigente non ha diritto alla legittima. Il disponente può escluderla completamente con un testamento o un contratto successorio, anche senza alcun motivo. Per legge lei eredita solo se la persona defunta non lascia discendenti, e solo nella misura in cui nessun testamento o contratto successorio disponga altrimenti. Accanto al coniuge superstite, la stirpe dei genitori riceve un quarto dell'eredità.",
+        "en": "If you are a parent, sibling or other relative of the deceased, you have no statutory entitlement under the law now in force. The deceased can leave you out completely by will or contract of succession, even without any reason. You inherit by law only if the deceased leaves no descendants, and only to the extent that no will or contract of succession provides otherwise. Alongside a surviving spouse or registered partner, the parental line receives a quarter of the estate.",
+        "rm": "Essas Vus genitur, fragliuna u fragliun, u in'autra persuna parentada da la defuncta u dal defunct, avais Vus tenor il dretg valaivel nagina part obligatorica. La defuncta u il defunct po Vus ignorar dal tuttafatg tras in testament u in contract d'ierta, era senza nagin motiv. Da lescha ertais Vus mo, sche la persuna defunta na lascha enavos nagins descendents, e mo uschenavant che nagin testament u contract d'ierta na fixescha insatge auter. Ultra d'ina consorta surviventa u d'in consort survivent survegn la lingia dals geniturs ina quarta part dal relasch."
       },
       "sources": [
         "zgb-470",
@@ -276,7 +452,11 @@
         ]
       },
       "text": {
-        "de": "Ein Beispiel: Ein verheirateter Erblasser hinterlässt seine Ehefrau und zwei Kinder, ohne dass ein Testament etwas anderes bestimmt. Mit seinem Tod wird zuerst das eheliche Vermögen nach dem Güterrecht aufgeteilt; nur sein Anteil daran bildet den Nachlass. Gesetzlich erhält die Ehefrau die Hälfte des Nachlasses, die zwei Kinder zusammen die andere Hälfte, also ein Viertel pro Kind. Der Pflichtteil ist die Hälfte davon: Die Ehefrau hat Anspruch auf mindestens ein Viertel des Nachlasses, jedes Kind auf mindestens ein Achtel. Zusammen ergibt das die Hälfte des Nachlasses. Über die andere Hälfte, den frei verfügbaren Teil, kann der Erblasser durch Testament oder Erbvertrag frei verfügen, zum Beispiel zugunsten eines Kindes, einer weiteren Person oder einer Organisation."
+        "de": "Ein Beispiel: Ein verheirateter Erblasser hinterlässt seine Ehefrau und zwei Kinder, ohne dass ein Testament etwas anderes bestimmt. Mit seinem Tod wird zuerst das eheliche Vermögen nach dem Güterrecht aufgeteilt; nur sein Anteil daran bildet den Nachlass. Gesetzlich erhält die Ehefrau die Hälfte des Nachlasses, die zwei Kinder zusammen die andere Hälfte, also ein Viertel pro Kind. Der Pflichtteil ist die Hälfte davon: Die Ehefrau hat Anspruch auf mindestens ein Viertel des Nachlasses, jedes Kind auf mindestens ein Achtel. Zusammen ergibt das die Hälfte des Nachlasses. Über die andere Hälfte, den frei verfügbaren Teil, kann der Erblasser durch Testament oder Erbvertrag frei verfügen, zum Beispiel zugunsten eines Kindes, einer weiteren Person oder einer Organisation.",
+        "fr": "Un exemple : un défunt marié laisse son épouse et deux enfants, sans qu’un testament ne dispose autrement. À son décès, le patrimoine des époux est d’abord partagé selon le régime matrimonial ; seule sa part constitue la succession. Légalement, l’épouse reçoit la moitié de la succession, et les deux enfants ensemble l’autre moitié, soit un quart par enfant. La réserve héréditaire en est la moitié : l’épouse a droit à au moins un quart de la succession, chaque enfant à au moins un huitième. Ensemble, cela représente la moitié de la succession. Sur l’autre moitié, la quotité disponible, le défunt peut disposer librement par testament ou pacte successoral, par exemple en faveur d’un enfant, d’une autre personne ou d’une organisation.",
+        "it": "Un esempio: un disponente sposato lascia la moglie e due figli, senza che un testamento disponga altrimenti. Con la sua morte viene prima diviso il patrimonio coniugale secondo il regime dei beni; solo la sua quota in esso costituisce l'eredità. Per legge la moglie riceve la metà dell'eredità, i due figli insieme l'altra metà, quindi un quarto ciascuno. La legittima è la metà di questo: la moglie ha diritto ad almeno un quarto dell'eredità, ogni figlio ad almeno un ottavo. Insieme ciò corrisponde alla metà dell'eredità. Sull'altra metà, la quota disponibile, il disponente può disporre liberamente con un testamento o un contratto successorio, per esempio a favore di un figlio, di un'altra persona o di un'organizzazione.",
+        "en": "An example: a married man dies leaving his wife and two children, with no will providing otherwise. On his death, the marital property is first divided under matrimonial property law; only his share of it forms the estate. By law, the wife receives half the estate, and the two children together the other half, so a quarter each. The statutory entitlement is half of that: the wife is entitled to at least a quarter of the estate, and each child to at least an eighth. Together, this comes to half the estate. Over the other half, the disposable part, the deceased can freely dispose by will or contract of succession, for example in favour of a child, another person or an organisation.",
+        "rm": "In exempel: In defunct maridà lascha enavos sia dunna e dus uffants, senza che in testament fixeschia insatge auter. Cun sia mort vegn emprim repartida la facultad conjugala tenor il dretg dals bains; mo sia quota da quella furma il relasch. Legalmain survegn la dunna la mesadad dal relasch, ils dus uffants ensemen l'autra mesadad, dunca ina quarta part per mintga uffant. La part obligatorica è la mesadad da quai: la dunna ha dretg ad almain ina quarta part dal relasch, mintga uffant ad almain in'otgavla part. Ensemen dat quai la mesadad dal relasch. Sur l'autra mesadad, la part liberamain disponibla, po il defunct disponer liberamain tras testament u contract d'ierta, per exempel a favur d'in uffant, d'in'autra persuna u d'in'organisaziun."
       },
       "sources": [
         "zgb-457",
@@ -295,7 +475,11 @@
         ]
       },
       "text": {
-        "de": "Was nicht durch Pflichtteile gebunden ist, ist der frei verfügbare Teil. Darüber können Sie durch Testament oder Erbvertrag frei verfügen, etwa zugunsten einzelner Erben, einer nicht verwandten Person oder einer gemeinnützigen Organisation. Hinterlassen Sie weder Nachkommen noch eine Ehepartnerin beziehungsweise einen Ehepartner oder eine eingetragene Partnerin beziehungsweise einen eingetragenen Partner, können Sie über Ihr ganzes Vermögen frei verfügen. Berechnet wird der frei verfügbare Teil anhand des Vermögens im Zeitpunkt des Todes, nach Abzug der Schulden, der Bestattungskosten, der Kosten für Siegelung und Inventar sowie des Unterhalts für Hausgenossinnen und Hausgenossen während eines Monats."
+        "de": "Was nicht durch Pflichtteile gebunden ist, ist der frei verfügbare Teil. Darüber können Sie durch Testament oder Erbvertrag frei verfügen, etwa zugunsten einzelner Erben, einer nicht verwandten Person oder einer gemeinnützigen Organisation. Hinterlassen Sie weder Nachkommen noch eine Ehepartnerin beziehungsweise einen Ehepartner oder eine eingetragene Partnerin beziehungsweise einen eingetragenen Partner, können Sie über Ihr ganzes Vermögen frei verfügen. Berechnet wird der frei verfügbare Teil anhand des Vermögens im Zeitpunkt des Todes, nach Abzug der Schulden, der Bestattungskosten, der Kosten für Siegelung und Inventar sowie des Unterhalts für Hausgenossinnen und Hausgenossen während eines Monats.",
+        "fr": "Ce qui n’est pas lié par des réserves héréditaires forme la quotité disponible. Vous pouvez en disposer librement par testament ou pacte successoral, par exemple en faveur de certains héritiers, d’une personne non apparentée ou d’une organisation d’utilité publique. Si vous ne laissez ni descendants ni conjoint, ni partenaire enregistrée ou partenaire enregistré, vous pouvez disposer librement de tout votre patrimoine. La quotité disponible se calcule sur la base du patrimoine au moment du décès, après déduction des dettes, des frais funéraires, des frais de scellés et d’inventaire, ainsi que de l’entretien pendant un mois des personnes faisant ménage commun avec le défunt.",
+        "it": "Quanto non è vincolato dalla legittima è la quota disponibile. Su di essa lei può disporre liberamente con un testamento o un contratto successorio, per esempio a favore di singoli eredi, di una persona non imparentata o di un'organizzazione di pubblica utilità. Se non lascia né discendenti né un coniuge o un partner registrato, può disporre liberamente di tutto il suo patrimonio. La quota disponibile si calcola sul patrimonio al momento della morte, dopo deduzione dei debiti, delle spese funerarie, delle spese di apposizione dei sigilli e d'inventario, nonché del mantenimento delle persone conviventi in famiglia durante un mese.",
+        "en": "What is not tied up by statutory entitlements is the disposable part. You can freely dispose of this by will or contract of succession, for example in favour of individual heirs, a person who is not related to you, or a charitable organisation. If you leave neither descendants nor a spouse or registered partner, you can freely dispose of your entire estate. The disposable part is calculated on the basis of the assets at the time of death, after deducting the debts, the funeral costs, the costs of sealing the estate and drawing up the inventory, and the maintenance of household members for one month.",
+        "rm": "Quai che na vegn betg lià tras parts obligatoricas, è la part liberamain disponibla. Sur da quella pudais Vus disponer liberamain tras testament u contract d'ierta, per exempel a favur da singuls ertavels, d'ina persuna betg parentada u d'in'organisaziun d'utilitad publica. Sche Vus na laschais enavos nagins descendents e nagina consorta u consort ni partenaria registrada u partenari registrà, pudais Vus disponer liberamain sur tut Vossa facultad. La part liberamain disponibla vegn calculada tenor la facultad al mument da la mort, suenter deducziun dals debits, dals custs da sepultura, dals custs per la sigillaziun e l'inventari sco er dal mantegniment per confamigliars da chasa durant in mais."
       },
       "sources": [
         "zgb-470",
@@ -320,7 +504,11 @@
         ]
       },
       "text": {
-        "de": "War beim Tod ein Scheidungsverfahren hängig, verliert die überlebende Ehepartnerin oder der überlebende Ehepartner den Pflichtteil, wenn das Verfahren auf gemeinsames Begehren eingeleitet oder so fortgeführt wurde, oder wenn die Ehegatten zu diesem Zeitpunkt bereits mindestens zwei Jahre getrennt gelebt haben. In diesem Fall gelten die Pflichtteile der übrigen Erben, wie wenn die Erblasserin oder der Erblasser nicht verheiratet gewesen wäre. Für ein Verfahren zur Auflösung einer eingetragenen Partnerschaft gilt dasselbe sinngemäss. Das heisst nicht, dass sie oder er automatisch weniger erbt: Die Ehe besteht bis zur rechtskräftigen Scheidung weiter, und ohne Testament oder Erbvertrag erhält sie oder er den gesetzlichen Erbteil. Die Regel bewirkt nur, dass die verstorbene Person sie oder ihn in einem Testament oder Erbvertrag ganz übergehen durfte."
+        "de": "War beim Tod ein Scheidungsverfahren hängig, verliert die überlebende Ehepartnerin oder der überlebende Ehepartner den Pflichtteil, wenn das Verfahren auf gemeinsames Begehren eingeleitet oder so fortgeführt wurde, oder wenn die Ehegatten zu diesem Zeitpunkt bereits mindestens zwei Jahre getrennt gelebt haben. In diesem Fall gelten die Pflichtteile der übrigen Erben, wie wenn die Erblasserin oder der Erblasser nicht verheiratet gewesen wäre. Für ein Verfahren zur Auflösung einer eingetragenen Partnerschaft gilt dasselbe sinngemäss. Das heisst nicht, dass sie oder er automatisch weniger erbt: Die Ehe besteht bis zur rechtskräftigen Scheidung weiter, und ohne Testament oder Erbvertrag erhält sie oder er den gesetzlichen Erbteil. Die Regel bewirkt nur, dass die verstorbene Person sie oder ihn in einem Testament oder Erbvertrag ganz übergehen durfte.",
+        "fr": "Si une procédure de divorce était pendante au moment du décès, le conjoint survivant perd sa réserve héréditaire si la procédure a été introduite ou poursuivie sur requête commune, ou si les époux vivaient déjà séparés depuis au moins deux ans à ce moment-là. Dans ce cas, les réserves héréditaires des autres héritiers s’appliquent comme si la personne défunte n’avait pas été mariée. La même règle s’applique par analogie à une procédure de dissolution d’un partenariat enregistré. Cela ne signifie pas qu’il ou elle hérite automatiquement de moins : le mariage subsiste jusqu’au divorce entré en force, et sans testament ou pacte successoral, il ou elle reçoit la part légale. La règle a seulement pour effet que la personne défunte pouvait l’exclure entièrement par testament ou pacte successoral.",
+        "it": "Se al momento della morte era pendente una procedura di divorzio, il coniuge superstite perde la legittima se la procedura era stata avviata o proseguita su richiesta comune, oppure se i coniugi a quel momento vivevano già separati da almeno due anni. In questo caso valgono le legittime degli altri eredi come se il disponente non fosse stato sposato. Per una procedura di scioglimento di un'unione domestica registrata vale per analogia la stessa regola. Ciò non significa che il coniuge superstite erediti automaticamente meno: il matrimonio continua a sussistere fino al divorzio passato in giudicato, e senza testamento o contratto successorio egli riceve la quota ereditaria legale. La regola comporta solo che la persona defunta potesse escluderlo completamente in un testamento o contratto successorio.",
+        "en": "If divorce proceedings were pending at the time of death, the surviving spouse loses the statutory entitlement if the proceedings were brought by joint request or continued as such, or if the spouses had already been living apart for at least two years at that point. In that case, the statutory entitlements of the other heirs apply as if the deceased had never been married. The same applies correspondingly to proceedings to dissolve a registered partnership. This does not mean that the surviving spouse automatically inherits less: the marriage continues to exist until the divorce becomes final, and without a will or contract of succession they receive their statutory succession rights. The rule only means that the deceased was allowed to leave them out completely in a will or contract of succession.",
+        "rm": "Era al mument da la mort pendenta ina procedura da divorzi, perda la consorta surviventa u il consort survivent la part obligatorica, sche la procedura è vegnida inizialisada u cuntinuada sin dumonda cuminaivla, u sch'ils consorts han gia vivì separads almain dus onns en quel mument. En quest cas valan las parts obligatoricas dals auters ertavels, sco sche la defuncta u il defunct na fiss betg stà u stada maridà u maridada. Per ina procedura per schliar in partenadi registrà vala il medem per analogia. Quai na signifitga betg ch'ella u el ertia automaticamain damain: la lètg dura vinavant fin al divorzi legalmain valaivel, e senza testament u contract d'ierta survegn ella u el la quota legala. La regla cuntanscha mo che la persuna defunta ha pudì ignorar ella u el dal tuttafatg en in testament u contract d'ierta."
       },
       "sources": [
         "zgb-472",
@@ -341,7 +529,11 @@
         ]
       },
       "text": {
-        "de": "Die Erblasserin oder der Erblasser kann der Person, mit der sie oder er verheiratet war oder in eingetragener Partnerschaft lebte, durch Testament oder Erbvertrag statt eines Erbteils die Nutzniessung am ganzen Anteil zuwenden, der den gemeinsamen Nachkommen zufällt. Das gibt der überlebenden Person ein Nutzungsrecht am ganzen Nachlassanteil der Kinder, ohne dass dieser sofort ausbezahlt werden muss. Daneben beträgt der frei verfügbare Teil die Hälfte des Nachlasses. Heiratet die überlebende Person wieder oder geht sie eine neue eingetragene Partnerschaft ein, entfällt die Nutzniessung auf jenem Teil, der sonst über den Pflichtteil der Nachkommen hinausginge."
+        "de": "Die Erblasserin oder der Erblasser kann der Person, mit der sie oder er verheiratet war oder in eingetragener Partnerschaft lebte, durch Testament oder Erbvertrag statt eines Erbteils die Nutzniessung am ganzen Anteil zuwenden, der den gemeinsamen Nachkommen zufällt. Das gibt der überlebenden Person ein Nutzungsrecht am ganzen Nachlassanteil der Kinder, ohne dass dieser sofort ausbezahlt werden muss. Daneben beträgt der frei verfügbare Teil die Hälfte des Nachlasses. Heiratet die überlebende Person wieder oder geht sie eine neue eingetragene Partnerschaft ein, entfällt die Nutzniessung auf jenem Teil, der sonst über den Pflichtteil der Nachkommen hinausginge.",
+        "fr": "La personne défunte peut, par testament ou pacte successoral, attribuer à la personne avec laquelle elle était mariée ou vivait en partenariat enregistré, à la place d’une part héréditaire, l’usufruit de toute la part qui revient aux descendants communs. Cela donne à la personne survivante un droit de jouissance sur toute la part successorale des enfants, sans que celle-ci doive être versée immédiatement. À côté de cet usufruit, la quotité disponible s’élève à la moitié de la succession. Si la personne survivante se remarie ou conclut un nouveau partenariat enregistré, l’usufruit cesse de grever la part qui dépasserait autrement la réserve héréditaire des descendants.",
+        "it": "Il disponente può attribuire, con un testamento o un contratto successorio, alla persona con cui era sposato o viveva in unione domestica registrata, invece di una quota ereditaria, l'usufrutto sull'intera parte che spetta ai discendenti comuni. Ciò dà alla persona superstite un diritto di godimento sull'intera quota ereditaria dei figli, senza che questa debba essere versata immediatamente. Oltre a questo usufrutto, la quota disponibile è la metà dell'eredità. Se la persona superstite si risposa o costituisce una nuova unione domestica registrata, l'usufrutto decade sulla parte che altrimenti eccederebbe la legittima dei discendenti.",
+        "en": "By will or contract of succession, the deceased can grant the person they were married to, or with whom they lived in a registered partnership, a usufruct over the whole share passing to their joint descendants, instead of a share of the estate. This gives the surviving person a right to use the children's entire share of the estate, without it having to be paid out immediately. Alongside this, the disposable part amounts to half the estate. If the surviving person remarries or enters into a new registered partnership, the usufruct lapses on the part that would otherwise exceed the descendants' statutory entitlement.",
+        "rm": "La defuncta u il defunct po attribuir a la persuna, cun la quala ella u el era maridà u maridada u viveva en in partenadi registrà, empè d'ina quota d'ierta, l'usufrut sur l'entira quota che tutga als descendents cuminaivels, tras testament u contract d'ierta. Quai dat a la persuna surviventa in dretg d'utilisar l'entira quota dal relasch dals uffants, senza ch'ella stoppia vegnir pajada ora immediat. Sper quai importa la part liberamain disponibla la mesadad dal relasch. Sa marida la persuna surviventa puspè u entra ella en in nov partenadi registrà, croda davent l'usufrut sin la part che autramain surpassass la part obligatorica dals descendents."
       },
       "sources": [
         "zgb-473"
@@ -357,7 +549,11 @@
         ]
       },
       "text": {
-        "de": "Für den Pflichtteil zählen nicht nur Vermögen und Verfügungen von Todes wegen. Bestimmte Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat, werden ebenfalls berücksichtigt: Schenkungen der letzten fünf Jahre vor dem Tod, Schenkungen, die jederzeit frei widerrufen werden konnten, Heiratsgut, Ausstattungen, Erbabfindungen sowie Vermögensübertragungen, die erkennbar nur dazu dienten, die Verfügungsfreiheit zu umgehen. Solche Zuwendungen können wie eine testamentarische Verfügung herabgesetzt werden, wenn sie Ihren Pflichtteil verletzen. Übliche Gelegenheitsgeschenke zählen nicht dazu. Ob eine bestimmte Zuwendung mitzählt, hängt stark vom Einzelfall ab; dokumentieren Sie deshalb, was Sie darüber wissen."
+        "de": "Für den Pflichtteil zählen nicht nur Vermögen und Verfügungen von Todes wegen. Bestimmte Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat, werden ebenfalls berücksichtigt: Schenkungen der letzten fünf Jahre vor dem Tod, Schenkungen, die jederzeit frei widerrufen werden konnten, Heiratsgut, Ausstattungen, Erbabfindungen sowie Vermögensübertragungen, die erkennbar nur dazu dienten, die Verfügungsfreiheit zu umgehen. Solche Zuwendungen können wie eine testamentarische Verfügung herabgesetzt werden, wenn sie Ihren Pflichtteil verletzen. Übliche Gelegenheitsgeschenke zählen nicht dazu. Ob eine bestimmte Zuwendung mitzählt, hängt stark vom Einzelfall ab; dokumentieren Sie deshalb, was Sie darüber wissen.",
+        "fr": "Pour la réserve héréditaire, il n’y a pas que le patrimoine et les dispositions pour cause de mort qui comptent. Certaines libéralités que la personne défunte a faites de son vivant sont également prises en compte : les donations des cinq dernières années avant le décès, les donations librement révocables à tout moment, la dot, l’établissement, les avancements d’hoirie, ainsi que les transferts de patrimoine qui n’ont manifestement servi qu’à contourner la liberté de disposer. De telles libéralités peuvent être réduites comme une disposition testamentaire si elles portent atteinte à votre réserve héréditaire. Les présents d’usage habituels n’en font pas partie. Le fait qu’une libéralité déterminée compte ou non dépend fortement du cas d’espèce ; documentez donc ce que vous en savez.",
+        "it": "Per la legittima non contano solo il patrimonio e le disposizioni a causa di morte. Si tiene conto anche di determinate liberalità che il disponente ha fatto in vita: le donazioni degli ultimi cinque anni prima della morte, le donazioni liberamente revocabili in ogni momento, il corredo nuziale, la dote, le anticipazioni ereditarie, nonché i trasferimenti patrimoniali fatti con la manifesta intenzione di eludere la libertà di disporre. Tali liberalità possono essere ridotte come una disposizione testamentaria se ledono la sua legittima. I regali d'uso abituali non ne fanno parte. Se una determinata liberalità vi rientri dipende fortemente dal caso concreto; documenti quindi ciò che sa al riguardo.",
+        "en": "Not only assets and dispositions on death count towards the statutory entitlement. Certain gifts that the deceased made during their lifetime are also taken into account: gifts made in the five years before death, gifts that could be freely revoked at any time, wedding gifts, endowments, advances against a future share of the estate, and transfers of assets that were clearly made only to circumvent testamentary freedom. Such gifts can be abated like a testamentary provision if they infringe your statutory entitlement. Ordinary occasional gifts are not included. Whether a particular gift counts depends heavily on the individual case; document what you know about it.",
+        "rm": "Per la part obligatorica conta betg mo la facultad e las disposiziuns per causa da mort. Vegnan er resguardadas tschertas attribuziuns che la defuncta u il defunct ha fatg durant vita: regals dals ultims tschintg onns avant la mort, regals che pudevan vegnir revocads liberamain en mintga mument, dot da maridaglia, equipaschaments, indemnisaziuns d'ierta sco er translatiuns da facultad che servivan evidentamain mo per eschivar la libertad da disponer. Talas attribuziuns pon vegnir reducidas sco ina disposiziun testamentara, sch'ellas violeschan Vossa part obligatorica. Regals usitads d'occasiun na contan betg là tar. Sch'ina tscherta attribuziun conta, dependa fitg dal cas singul; documentai percunquai quai che Vus savais davart quai."
       },
       "sources": [
         "zgb-475",
@@ -377,7 +573,11 @@
         ]
       },
       "text": {
-        "de": "Gibt es kein Testament und keinen Erbvertrag, gilt die gesetzliche Erbfolge, und Ihr Pflichtteil ist damit bereits durch das Gesetz gesichert. Eine Pflichtteilsverletzung kommt dann vor allem durch Lebzeit-Zuwendungen an andere Personen in Frage, etwa grosse Schenkungen. Prüfen Sie in diesem Fall in erster Linie, ob die Erblasserin oder der Erblasser vor dem Tod solche Zuwendungen gemacht hat."
+        "de": "Gibt es kein Testament und keinen Erbvertrag, gilt die gesetzliche Erbfolge, und Ihr Pflichtteil ist damit bereits durch das Gesetz gesichert. Eine Pflichtteilsverletzung kommt dann vor allem durch Lebzeit-Zuwendungen an andere Personen in Frage, etwa grosse Schenkungen. Prüfen Sie in diesem Fall in erster Linie, ob die Erblasserin oder der Erblasser vor dem Tod solche Zuwendungen gemacht hat.",
+        "fr": "S’il n’y a ni testament ni pacte successoral, la dévolution légale s’applique, et votre réserve héréditaire est donc déjà garantie par la loi. Une atteinte à la réserve héréditaire n’entre alors en ligne de compte que par des libéralités faites de son vivant à d’autres personnes, par exemple des donations importantes. Dans ce cas, vérifiez en premier lieu si la personne défunte a fait de telles libéralités avant son décès.",
+        "it": "Se non c'è né testamento né contratto successorio, vale la successione legittima, e la sua legittima è quindi già garantita dalla legge. Una lesione della legittima entra allora in considerazione soprattutto a causa di liberalità in vita fatte ad altre persone, per esempio grandi donazioni. In questo caso verifichi anzitutto se il disponente ha fatto simili liberalità prima della morte.",
+        "en": "If there is no will and no contract of succession, intestate succession applies, and your statutory entitlement is therefore already secured by law. An infringement of the statutory entitlement can then mainly arise from lifetime gifts to other people, for example large gifts. In this case, check above all whether the deceased made such gifts before their death.",
+        "rm": "Sch'i na datti nagin testament e nagin contract d'ierta, vala la successiun legala, e Vossa part obligatorica è cun quai gia garantida tras la lescha. Ina violaziun da la part obligatorica entra lura en dumonda surtut tras attribuziuns fatgas durant vita ad autras persunas, per exempel grondas donaziuns. Examinai en quest cas en emprima lingia, sche la defuncta u il defunct ha fatg talas attribuziuns avant la mort."
       },
       "sources": [
         "zgb-457",
@@ -395,7 +595,11 @@
         ]
       },
       "text": {
-        "de": "Erhalten Sie wertmässig weniger als Ihren Pflichtteil, können Sie mit der Herabsetzungsklage verlangen, dass andere Zuwendungen so weit herabgesetzt werden, bis Ihr Pflichtteil hergestellt ist. Das geschieht der Reihe nach: zuerst das, was andere nach der gesetzlichen Erbfolge erhalten, dann die Zuwendungen aus Testament oder Erbvertrag, und erst wenn das nicht reicht, die Lebzeit-Zuwendungen, dabei die späteren vor den früheren. Die Klage richtet sich gegen die Personen, die zu viel erhalten haben. Wurden mehrere pflichtteilsberechtigte Erben von Todes wegen begünstigt, wird unter ihnen im Verhältnis dessen herabgesetzt, was sie über ihren eigenen Pflichtteil hinaus erhalten haben. Den Herabsetzungsanspruch können Sie auch einredeweise geltend machen, also zur Abwehr, wenn Sie selbst auf Herausgabe verklagt werden; das ist zeitlich nicht befristet."
+        "de": "Erhalten Sie wertmässig weniger als Ihren Pflichtteil, können Sie mit der Herabsetzungsklage verlangen, dass andere Zuwendungen so weit herabgesetzt werden, bis Ihr Pflichtteil hergestellt ist. Das geschieht der Reihe nach: zuerst das, was andere nach der gesetzlichen Erbfolge erhalten, dann die Zuwendungen aus Testament oder Erbvertrag, und erst wenn das nicht reicht, die Lebzeit-Zuwendungen, dabei die späteren vor den früheren. Die Klage richtet sich gegen die Personen, die zu viel erhalten haben. Wurden mehrere pflichtteilsberechtigte Erben von Todes wegen begünstigt, wird unter ihnen im Verhältnis dessen herabgesetzt, was sie über ihren eigenen Pflichtteil hinaus erhalten haben. Den Herabsetzungsanspruch können Sie auch einredeweise geltend machen, also zur Abwehr, wenn Sie selbst auf Herausgabe verklagt werden; das ist zeitlich nicht befristet.",
+        "fr": "Si vous recevez, en valeur, moins que votre réserve héréditaire, vous pouvez, par l’action en réduction, exiger que d’autres libéralités soient réduites jusqu’à ce que votre réserve soit reconstituée. Cela se fait dans un ordre déterminé : d’abord ce que d’autres reçoivent selon la dévolution légale, puis les libéralités résultant d’un testament ou d’un pacte successoral, et ce n’est que si cela ne suffit pas que les libéralités entre vifs sont réduites, les plus récentes avant les plus anciennes. L’action est dirigée contre les personnes qui ont reçu trop. Si plusieurs héritiers réservataires ont été avantagés par une libéralité pour cause de mort, la réduction s’opère entre eux proportionnellement à ce qu’ils ont reçu au-delà de leur propre réserve. Vous pouvez aussi faire valoir le droit à la réduction par voie d’exception, c’est-à-dire pour vous défendre si vous êtes vous-même poursuivi en restitution ; cela n’est soumis à aucun délai.",
+        "it": "Se lei riceve, in valore, meno della sua legittima, può chiedere con l'azione di riduzione che altre liberalità siano ridotte finché la sua legittima sia reintegrata. Ciò avviene in un ordine preciso: prima quanto altri ricevono secondo la successione legittima, poi le liberalità da testamento o contratto successorio, e solo se questo non basta, le liberalità in vita, tra queste prima le più recenti e poi le più vecchie. L'azione si dirige contro le persone che hanno ricevuto troppo. Se più eredi legittimari sono stati favoriti per causa di morte, la riduzione tra loro avviene in proporzione a quanto hanno ricevuto oltre la propria legittima. Può far valere la pretesa di riduzione anche in via di eccezione, cioè per difendersi, se lei stesso viene convenuto in giudizio per la restituzione; ciò non è soggetto ad alcun termine.",
+        "en": "If you receive less than your statutory entitlement in value, you can use an action for abatement to demand that other gifts be abated until your statutory entitlement is restored. This happens in order: first what others receive under intestate succession, then gifts under a will or contract of succession, and only if that is not enough, lifetime gifts, with later ones abated before earlier ones. The action is brought against the people who received too much. If several heirs with a statutory entitlement were favoured by a disposition on death, abatement between them is in proportion to what each received beyond their own statutory entitlement. You can also raise the claim for abatement as a defence, that is, to resist a claim, if you yourself are sued for the return of property; there is no time limit for this.",
+        "rm": "Retschavais Vus, valitativamain, damain che Vossa part obligatorica, pudais Vus pretender cun la plant da reducziun che autras attribuziuns vegnian reducidas, fin che Vossa part obligatorica è restabilida. Quai succeda en urden: emprim quai che auters survegnan tenor la successiun legala, lura las attribuziuns dal testament u dal contract d'ierta, e mo sche quai na basta betg, las attribuziuns fatgas durant vita, tar quai las pli tardivas avant las pli baldas. La plant sa drizza cunter las persunas che han survegnì memia bler. Sche pliras ertavlas u ertavels cun dretg a la part obligatorica èn vegnids favurisads per causa da mort, vegn reducì tranter els en proporziun da quai ch'els han survegnì ultra da lur atgna part obligatorica. Il dretg da reducziun pudais Vus era far valair per via d'exceptiun, dunca per Vus defender, sche Vus vegnis Vus sez planidads per restituziun; quai n'è temporalmain betg limità."
       },
       "sources": [
         "zgb-522",
@@ -418,7 +622,11 @@
         ]
       },
       "text": {
-        "de": "Wichtigste Frist: Die Herabsetzungsklage verjährt innert einem Jahr, nachdem Sie von der Verletzung Ihres Pflichtteils Kenntnis erhalten haben. Dafür genügt es, dass Sie die Tatsachen kennen, die einen Erfolg der Klage möglich erscheinen lassen; völlige Gewissheit ist nicht nötig, die Frist läuft trotzdem bereits. In jedem Fall verjährt die Klage spätestens zehn Jahre nach der Eröffnung des Testaments oder Erbvertrags, bei Lebzeit-Zuwendungen zehn Jahre nach dem Tod der Erblasserin oder des Erblassers. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Warten Sie deshalb nicht, bis alle Zahlen feststehen: Sobald Sie eine Verletzung Ihres Pflichtteils vermuten können, sollten Sie handeln oder zumindest die Frist rechtzeitig wahren."
+        "de": "Wichtigste Frist: Die Herabsetzungsklage verjährt innert einem Jahr, nachdem Sie von der Verletzung Ihres Pflichtteils Kenntnis erhalten haben. Dafür genügt es, dass Sie die Tatsachen kennen, die einen Erfolg der Klage möglich erscheinen lassen; völlige Gewissheit ist nicht nötig, die Frist läuft trotzdem bereits. In jedem Fall verjährt die Klage spätestens zehn Jahre nach der Eröffnung des Testaments oder Erbvertrags, bei Lebzeit-Zuwendungen zehn Jahre nach dem Tod der Erblasserin oder des Erblassers. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Warten Sie deshalb nicht, bis alle Zahlen feststehen: Sobald Sie eine Verletzung Ihres Pflichtteils vermuten können, sollten Sie handeln oder zumindest die Frist rechtzeitig wahren.",
+        "fr": "Délai le plus important : l’action en réduction se prescrit par un an à compter du jour où vous avez eu connaissance de l’atteinte à votre réserve héréditaire. Il suffit pour cela que vous connaissiez les faits qui rendent possible le succès de l’action ; une certitude absolue n’est pas nécessaire, le délai court malgré tout déjà. Dans tous les cas, l’action se prescrit au plus tard par dix ans depuis l’ouverture du testament ou du pacte successoral, et par dix ans depuis le décès de la personne défunte pour les libéralités entre vifs. Ces délais sont stricts : une lettre, une poursuite ou des négociations ne les suspendent pas. Vous ne pouvez les sauvegarder qu’en déposant à temps une requête de conciliation ou une action en justice. N’attendez donc pas que tous les chiffres soient établis : dès que vous pouvez soupçonner une atteinte à votre réserve héréditaire, vous devriez agir, ou du moins sauvegarder le délai à temps.",
+        "it": "Termine più importante: l'azione di riduzione si prescrive entro un anno da quando lei ha avuto conoscenza della lesione della sua legittima. A tal fine basta che lei conosca i fatti che rendono possibile il successo dell'azione; non è necessaria la certezza completa, il termine decorre comunque già. In ogni caso l'azione si prescrive al più tardi dieci anni dopo l'apertura del testamento o del contratto successorio, e per le liberalità in vita dieci anni dopo la morte del disponente. Questi termini sono rigorosi: una lettera, un'esecuzione o trattative non li sospendono. Può salvaguardarli solo presentando tempestivamente un'istanza di conciliazione o un'azione. Non aspetti quindi che tutte le cifre siano definite: non appena può sospettare una lesione della sua legittima, dovrebbe agire o quantomeno salvaguardare per tempo il termine.",
+        "en": "The most important time limit: the action for abatement becomes time-barred one year after you learned of the infringement of your statutory entitlement. It is enough that you know the facts that make success of the action seem possible; complete certainty is not needed, and the time limit already runs even so. In any case, the action becomes time-barred at the latest ten years after the will or contract of succession was opened, or, for lifetime gifts, ten years after the death of the deceased. These time limits are strict: a letter, debt enforcement proceedings or negotiations do not stop them running. You can only preserve them by filing a request for conciliation or bringing an action in time. So do not wait until every figure is certain: as soon as you can suspect an infringement of your statutory entitlement, you should act, or at least preserve the time limit in time.",
+        "rm": "Il pli impurtant termin: la plant da reducziun sa prescriva entaifer in onn, suenter che Vus avais survegnì enconuschientscha da la violaziun da Vossa part obligatorica. Per quai basta che Vus enconuschais ils fatgs che laschan pussibel in success da la plant; entira certezza n'è betg necessaria, il termin curra tuttina gia. En mintga cas sa prescriva la plant al pli tard diesch onns suenter l'avertura dal testament u dal contract d'ierta, tar attribuziuns fatgas durant vita diesch onns suenter la mort da la defuncta u dal defunct. Quests termins èn strits: ina brev, ina scussiun u negoziaziuns na las fermeschan betg. Vus las pudais mantegnair mo, sche Vus inoltrais a temp ina dumonda da mediaziun u ina plant. Spetgai percunquai betg, fin che tut ils numers stettian fixads: uschespert che Vus pudais supponer ina violaziun da Vossa part obligatorica, duessas Vus agir u almain mantegnair il termin a temp."
       },
       "sources": [
         "zgb-533",
@@ -437,7 +645,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie schon vor mehr als einem Jahr von der möglichen Verletzung Ihres Pflichtteils erfahren, könnte die einjährige Frist für die Herabsetzungsklage bereits abgelaufen sein. Prüfen Sie umgehend mit rechtlichem Rat, wann genau die Frist zu laufen begann und ob sie noch offen ist, oder ob wenigstens die absolute Frist von zehn Jahren noch läuft. Je länger Sie warten, desto schwieriger wird es, Ihren Anspruch noch durchzusetzen."
+        "de": "Haben Sie schon vor mehr als einem Jahr von der möglichen Verletzung Ihres Pflichtteils erfahren, könnte die einjährige Frist für die Herabsetzungsklage bereits abgelaufen sein. Prüfen Sie umgehend mit rechtlichem Rat, wann genau die Frist zu laufen begann und ob sie noch offen ist, oder ob wenigstens die absolute Frist von zehn Jahren noch läuft. Je länger Sie warten, desto schwieriger wird es, Ihren Anspruch noch durchzusetzen.",
+        "fr": "Si vous avez appris l’atteinte possible à votre réserve héréditaire il y a déjà plus d’un an, le délai d’un an pour l’action en réduction pourrait déjà être échu. Vérifiez immédiatement, avec un conseil juridique, à quel moment exact le délai a commencé à courir et s’il est encore ouvert, ou si du moins le délai absolu de dix ans court encore. Plus vous attendez, plus il devient difficile de faire encore valoir votre prétention.",
+        "it": "Se lei ha saputo della possibile lesione della sua legittima già più di un anno fa, il termine di un anno per l'azione di riduzione potrebbe essere già scaduto. Verifichi immediatamente con una consulenza legale quando esattamente il termine ha iniziato a decorrere e se è ancora aperto, oppure se almeno il termine assoluto di dieci anni è ancora in corso. Più a lungo aspetta, più difficile diventa far valere ancora la sua pretesa.",
+        "en": "If you learned of the possible infringement of your statutory entitlement more than a year ago, the one-year time limit for the action for abatement may already have expired. Check immediately, with legal advice, exactly when the time limit began to run and whether it is still open, or whether at least the absolute ten-year time limit is still running. The longer you wait, the harder it becomes to still enforce your claim.",
+        "rm": "Avais Vus gia dapi pli che in onn enconuschientscha da la pussaivla violaziun da Vossa part obligatorica, po il termin d'in onn per la plant da reducziun esser gia scadì. Examinai immediat cun agid giuridic, cura exactamain ch'il termin ha entschet a currer e sch'el è anc avert, u sch'almain il termin absolut da diesch onns curra anc. Pli ditg che Vus spetgais, pli difficil daventa applitgar anc Voss dretg."
       }
     },
     {
@@ -455,7 +667,11 @@
         ]
       },
       "text": {
-        "de": "Die Erblasserin oder der Erblasser kann Ihnen den Pflichtteil durch Testament oder Erbvertrag ausdrücklich entziehen (Enterbung), aber nur aus engen Gründen: wenn Sie gegen die Erblasserin oder den Erblasser oder eine dieser Person nahestehende Person eine schwere Straftat begangen haben, oder wenn Sie Ihre familienrechtlichen Pflichten gegenüber der Erblasserin oder dem Erblasser oder deren Angehörigen schwer verletzt haben. Die Enterbung ist nur gültig, wenn der Grund im Testament genannt wird. Bestreiten Sie die Enterbung als unrichtig, muss die Person, die davon profitiert, den Enterbungsgrund beweisen. Gelingt der Beweis nicht oder fehlt die Begründung, bleibt Ihnen Ihr Pflichtteil."
+        "de": "Die Erblasserin oder der Erblasser kann Ihnen den Pflichtteil durch Testament oder Erbvertrag ausdrücklich entziehen (Enterbung), aber nur aus engen Gründen: wenn Sie gegen die Erblasserin oder den Erblasser oder eine dieser Person nahestehende Person eine schwere Straftat begangen haben, oder wenn Sie Ihre familienrechtlichen Pflichten gegenüber der Erblasserin oder dem Erblasser oder deren Angehörigen schwer verletzt haben. Die Enterbung ist nur gültig, wenn der Grund im Testament genannt wird. Bestreiten Sie die Enterbung als unrichtig, muss die Person, die davon profitiert, den Enterbungsgrund beweisen. Gelingt der Beweis nicht oder fehlt die Begründung, bleibt Ihnen Ihr Pflichtteil.",
+        "fr": "La personne défunte peut vous retirer expressément la réserve héréditaire par testament ou pacte successoral (exhérédation), mais seulement pour des motifs restreints : si vous avez commis une infraction pénale grave contre la personne défunte ou l’un de ses proches, ou si vous avez gravement violé vos devoirs de famille envers la personne défunte ou ses proches. L’exhérédation n’est valable que si le motif est indiqué dans le testament. Si vous contestez l’exhérédation comme étant infondée, c’est à la personne qui en profite de prouver le motif de l’exhérédation. Si la preuve échoue ou si la motivation fait défaut, votre réserve héréditaire vous reste acquise.",
+        "it": "Il disponente può privarla espressamente della legittima con un testamento o un contratto successorio (diseredazione), ma solo per motivi tassativi: se lei ha commesso un grave reato contro il disponente o contro una persona a lui intimamente legata, oppure se ha gravemente violato i suoi obblighi di famiglia verso il disponente o i suoi congiunti. La diseredazione è valida solo se il motivo è indicato nel testamento. Se lei contesta la diseredazione come infondata, la persona che ne beneficia deve provare il motivo della diseredazione. Se la prova non riesce o manca la motivazione, la sua legittima le resta.",
+        "en": "The deceased can expressly deprive you of your statutory entitlement by will or contract of succession (disinheritance), but only for narrow reasons: if you have committed a serious criminal offence against the deceased or a person close to them, or if you have seriously breached your family-law duties towards the deceased or their family. The disinheritance is only valid if the reason is stated in the will. If you dispute the disinheritance as incorrect, the person who benefits from it must prove the ground for disinheritance. If the proof does not succeed, or the reason is missing, you keep your statutory entitlement.",
+        "rm": "La defuncta u il defunct po Vus retrair explicitamain la part obligatorica tras testament u contract d'ierta (dischertaziun), dentant mo per motivs strets: sche Vus avais cumess in delict grev cunter la defuncta u il defunct u ina persuna datiers ad ella u el, u sche Vus avais violà gravamain Vossas obligaziuns dal dretg da famiglia envers la defuncta u il defunct u ses confamigliars. La dischertaziun è mo valaivla, sche il motiv vegn numnà en il testament. Contestais Vus la dischertaziun sco fauss, sto la persuna che profitescha da quai cumprovar il motiv da la dischertaziun. Na reussescha la cumprova betg u manca la motivaziun, resta a Vus Vossa part obligatorica."
       },
       "sources": [
         "zgb-477",
@@ -472,7 +688,11 @@
         ]
       },
       "text": {
-        "de": "Im Voraus auf Ihren Pflichtteil verzichten können Sie nur durch einen Erbvertrag mit der Erblasserin oder dem Erblasser, etwa einen Erbverzichtvertrag. Ein einseitiges Testament oder eine formlose Abmachung genügt nicht. Ein solcher Erbvertrag muss in der Form einer öffentlichen letztwilligen Verfügung errichtet werden: Sie erklären Ihren Willen gemeinsam gegenüber einer Urkundsperson und unterschreiben die Urkunde vor dieser und zwei Zeuginnen oder Zeugen. Ohne einen solchen Vertrag bleibt Ihr Pflichtteil bestehen, auch wenn Sie mündlich darauf verzichtet haben oder ein Testament ihn für aufgehoben erklärt."
+        "de": "Im Voraus auf Ihren Pflichtteil verzichten können Sie nur durch einen Erbvertrag mit der Erblasserin oder dem Erblasser, etwa einen Erbverzichtvertrag. Ein einseitiges Testament oder eine formlose Abmachung genügt nicht. Ein solcher Erbvertrag muss in der Form einer öffentlichen letztwilligen Verfügung errichtet werden: Sie erklären Ihren Willen gemeinsam gegenüber einer Urkundsperson und unterschreiben die Urkunde vor dieser und zwei Zeuginnen oder Zeugen. Ohne einen solchen Vertrag bleibt Ihr Pflichtteil bestehen, auch wenn Sie mündlich darauf verzichtet haben oder ein Testament ihn für aufgehoben erklärt.",
+        "fr": "Vous ne pouvez renoncer à l’avance à votre réserve héréditaire que par un pacte successoral avec la personne défunte, par exemple un pacte de renonciation à succession. Un testament unilatéral ou un simple accord informel ne suffit pas. Un tel pacte successoral doit être établi dans la forme d’une disposition pour cause de mort authentique : vous déclarez votre volonté ensemble devant une personne habilitée à instrumenter et vous signez l’acte devant elle et deux témoins. Sans un tel pacte, votre réserve héréditaire subsiste, même si vous y avez renoncé oralement ou si un testament la déclare supprimée.",
+        "it": "Lei può rinunciare in anticipo alla sua legittima solo mediante un contratto successorio con il disponente, per esempio un contratto di rinuncia d'eredità. Un testamento unilaterale o un accordo informale non bastano. Un simile contratto successorio deve essere costituito nella forma del testamento pubblico: lei e il disponente dichiarate insieme la vostra volontà al notaio e firmate l'atto davanti a lui e a due testimoni. Senza un simile contratto la sua legittima resta valida, anche se lei vi ha rinunciato verbalmente o un testamento la dichiara soppressa.",
+        "en": "You can only waive your statutory entitlement in advance through a contract of succession with the deceased, for example an inheritance renunciation contract. A one-sided will or an informal agreement is not enough. Such a contract of succession must be made in the form of a will made as a public deed: you and the deceased declare your intention jointly to an official and sign the deed in front of the official and two witnesses. Without such a contract, your statutory entitlement remains in place, even if you waived it orally or a will declares it cancelled.",
+        "rm": "Renunziar ordavant a Vossa part obligatorica pudais Vus mo tras in contract d'ierta cun la defuncta u il defunct, per exempel in contract da renunzia a l'ierta. In testament unilateral u in'entesa senza furma na basta betg. In tal contract d'ierta sto vegnir fatg en la furma d'ina disposiziun testamentara publica: Vus declerais Voss avis cuminaivlamain envers ina persuna documentanta e suttascrivais la documentaziun avant ella e dus u duas testimonis. Senza in tal pact resta Vossa part obligatorica valaivla, era sche Vus avais renunzià a quella oralmain u sch'in testament la declera abolida."
       },
       "sources": [
         "zgb-495",
@@ -489,7 +709,11 @@
         ]
       },
       "text": {
-        "de": "Planen Sie Ihren Nachlass, halten Sie zuerst fest, wer einen Pflichtteil hat: Nachkommen sowie Ihre Ehepartnerin, Ihr Ehepartner oder Ihre eingetragene Partnerin beziehungsweise Ihr eingetragener Partner. Berechnen Sie deren Pflichtteile und damit den frei verfügbaren Teil, bevor Sie testamentarisch verfügen. Wollen Sie jemanden stärker begünstigen, als es der frei verfügbare Teil erlaubt, prüfen Sie eine Nutzniessungslösung für die Ehepartnerin oder den Ehepartner, eine Enterbung aus engem Grund, oder einen Erbvertrag mit den Betroffenen. Dokumentieren Sie grössere Schenkungen zu Lebzeiten schriftlich, weil diese später angerechnet oder herabgesetzt werden können. Lassen Sie ein Testament oder einen Erbvertrag von einer Fachperson prüfen oder öffentlich beurkunden."
+        "de": "Planen Sie Ihren Nachlass, halten Sie zuerst fest, wer einen Pflichtteil hat: Nachkommen sowie Ihre Ehepartnerin, Ihr Ehepartner oder Ihre eingetragene Partnerin beziehungsweise Ihr eingetragener Partner. Berechnen Sie deren Pflichtteile und damit den frei verfügbaren Teil, bevor Sie testamentarisch verfügen. Wollen Sie jemanden stärker begünstigen, als es der frei verfügbare Teil erlaubt, prüfen Sie eine Nutzniessungslösung für die Ehepartnerin oder den Ehepartner, eine Enterbung aus engem Grund, oder einen Erbvertrag mit den Betroffenen. Dokumentieren Sie grössere Schenkungen zu Lebzeiten schriftlich, weil diese später angerechnet oder herabgesetzt werden können. Lassen Sie ein Testament oder einen Erbvertrag von einer Fachperson prüfen oder öffentlich beurkunden.",
+        "fr": "Si vous planifiez votre succession, déterminez d’abord qui a une réserve héréditaire : les descendants ainsi que votre conjointe, votre conjoint ou votre partenaire enregistrée ou votre partenaire enregistré. Calculez leurs réserves héréditaires, et donc la quotité disponible, avant de disposer par testament. Si vous voulez avantager quelqu’un davantage que ne le permet la quotité disponible, examinez une solution d’usufruit pour le conjoint, une exhérédation pour un motif restreint, ou un pacte successoral avec les personnes concernées. Documentez par écrit les donations importantes faites de votre vivant, car elles pourront plus tard être imputées ou réduites. Faites vérifier votre testament ou votre pacte successoral par une ou un spécialiste, ou faites-le établir en la forme authentique.",
+        "it": "Se sta pianificando la sua successione, stabilisca anzitutto chi ha diritto alla legittima: i discendenti nonché il suo coniuge o il suo partner registrato. Calcoli le loro legittime e quindi la quota disponibile, prima di disporre per testamento. Se vuole favorire qualcuno oltre quanto consente la quota disponibile, valuti una soluzione con usufrutto per il coniuge, una diseredazione per motivo tassativo, oppure un contratto successorio con gli interessati. Documenti per scritto le donazioni importanti fatte in vita, perché possono essere computate o ridotte in seguito. Faccia verificare un testamento o un contratto successorio da un professionista, oppure lo faccia rogare pubblicamente.",
+        "en": "If you are planning your estate, first work out who has a statutory entitlement: descendants and your spouse or registered partner. Calculate their statutory entitlements, and so the disposable part, before you make provisions in a will. If you want to favour someone more than the disposable part allows, consider a usufruct arrangement for a spouse, disinheritance for a narrow reason, or a contract of succession with the people concerned. Document larger lifetime gifts in writing, because these can later be taken into account or abated. Have a will or contract of succession checked by a professional, or have it made as a public deed.",
+        "rm": "Planisais Vus Voss relasch, fixai emprim tgi che ha ina part obligatorica: descendents sco er Vossa consorta, Voss consort u Vossa partenaria registrada u Voss partenari registrà. Calculai lur parts obligatoricas e cun quai la part liberamain disponibla, avant che Vus disponais testamentarmain. Vulais Vus favurisar insatgi pli fitg, ch'il che la part liberamain disponibla permetta, examinai ina soluziun d'usufrut per la consorta u il consort, ina dischertaziun per motiv stret, u in contract d'ierta cun las persunas pertutgadas. Documentai per scrit maiuras donaziuns durant vita, perquai ch'ellas pon vegnir computadas u reducidas pli tard. Laschai examinar u documentar publicamain in testament u in contract d'ierta tras ina persuna spezialisada."
       }
     },
     {
@@ -502,14 +726,22 @@
         ]
       },
       "text": {
-        "de": "Vermuten Sie, dass Ihr Pflichtteil verletzt wurde: Verschaffen Sie sich eine Kopie des Testaments oder Erbvertrags und, falls nötig, des Erbenscheins. Notieren Sie das Datum, an dem Sie erstmals davon oder von der möglichen Verletzung erfuhren; es ist für die Frist entscheidend. Berechnen Sie überschlagsmässig, was Ihnen als Pflichtteil zustehen würde. Sammeln Sie Belege zu grösseren Schenkungen oder Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat. Versuchen Sie zunächst eine Einigung mit den begünstigten Erben; gelingt das nicht, müssen Sie die Herabsetzungsklage rechtzeitig einreichen."
+        "de": "Vermuten Sie, dass Ihr Pflichtteil verletzt wurde: Verschaffen Sie sich eine Kopie des Testaments oder Erbvertrags und, falls nötig, des Erbenscheins. Notieren Sie das Datum, an dem Sie erstmals davon oder von der möglichen Verletzung erfuhren; es ist für die Frist entscheidend. Berechnen Sie überschlagsmässig, was Ihnen als Pflichtteil zustehen würde. Sammeln Sie Belege zu grösseren Schenkungen oder Zuwendungen, die die Erblasserin oder der Erblasser zu Lebzeiten gemacht hat. Versuchen Sie zunächst eine Einigung mit den begünstigten Erben; gelingt das nicht, müssen Sie die Herabsetzungsklage rechtzeitig einreichen.",
+        "fr": "Si vous soupçonnez une atteinte à votre réserve héréditaire : procurez-vous une copie du testament ou du pacte successoral et, si nécessaire, du certificat d’héritier. Notez la date à laquelle vous avez appris pour la première fois cette atteinte possible ; elle est déterminante pour le délai. Calculez approximativement ce qui vous reviendrait au titre de la réserve héréditaire. Rassemblez des preuves des donations ou libéralités importantes que la personne défunte a faites de son vivant. Essayez d’abord de trouver un accord avec les héritiers avantagés ; si cela n’aboutit pas, vous devez déposer à temps l’action en réduction.",
+        "it": "Se sospetta che la sua legittima sia stata lesa: si procuri una copia del testamento o del contratto successorio e, se necessario, del certificato ereditario. Annoti la data in cui ha saputo per la prima volta di ciò o della possibile lesione; è decisiva per il termine. Calcoli approssimativamente quanto le spetterebbe come legittima. Raccolga prove relative a donazioni o liberalità importanti che il disponente ha fatto in vita. Cerchi anzitutto un accordo con gli eredi favoriti; se ciò non riesce, deve presentare tempestivamente l'azione di riduzione.",
+        "en": "If you suspect that your statutory entitlement has been infringed: get a copy of the will or contract of succession and, if necessary, the certificate of inheritance. Note the date on which you first learned of this, or of the possible infringement; it is decisive for the time limit. Work out roughly what you would be entitled to as a statutory entitlement. Gather evidence of larger gifts the deceased made during their lifetime. First try to reach an agreement with the favoured heirs; if this does not succeed, you must file the action for abatement in time.",
+        "rm": "Supponais Vus che Vossa part obligatorica saja vegnida violada: procurai Vus ina copia dal testament u dal contract d'ierta e, sche necessari, dal certificat d'ierta. Notai la data, en la quala Vus avais per l'emprima giada survegnì enconuschientscha da quai u da la pussaivla violaziun; ella è decisiva per il termin. Calculai approximativamain, tge che Vus tutgass sco part obligatorica. Cuglientai cumprovas per maiuras donaziuns u attribuziuns che la defuncta u il defunct ha fatg durant vita. Empruvai emprim in'entesa cun ils ertavels favurisads; na reussescha quai betg, stuais Vus inoltrar a temp la plant da reducziun."
       }
     },
     {
       "id": "procedure",
       "kind": "rule",
       "text": {
-        "de": "Für die Herabsetzungsklage ist das Gericht am letzten Wohnsitz der Erblasserin oder des Erblassers zuständig. Bevor Sie klagen können, müssen Sie in der Regel zuerst ein Schlichtungsverfahren bei der Schlichtungsbehörde durchführen; erst wenn dieses erfolglos bleibt, erhalten Sie die Klagebewilligung fürs Gericht. Reichen Sie das Schlichtungsgesuch rechtzeitig ein, spätestens vor Ablauf der Frist für die Herabsetzungsklage. Das eigentliche Verfahren ist in der Regel ein ordentliches Gerichtsverfahren; wie lange es dauert, hängt vom Kanton und von der Komplexität des Falls ab."
+        "de": "Für die Herabsetzungsklage ist das Gericht am letzten Wohnsitz der Erblasserin oder des Erblassers zuständig. Bevor Sie klagen können, müssen Sie in der Regel zuerst ein Schlichtungsverfahren bei der Schlichtungsbehörde durchführen; erst wenn dieses erfolglos bleibt, erhalten Sie die Klagebewilligung fürs Gericht. Reichen Sie das Schlichtungsgesuch rechtzeitig ein, spätestens vor Ablauf der Frist für die Herabsetzungsklage. Das eigentliche Verfahren ist in der Regel ein ordentliches Gerichtsverfahren; wie lange es dauert, hängt vom Kanton und von der Komplexität des Falls ab.",
+        "fr": "Pour l’action en réduction, le tribunal du dernier domicile de la personne défunte est compétent. Avant de pouvoir agir en justice, vous devez en règle générale d’abord mener une procédure de conciliation devant l’autorité de conciliation ; ce n’est que si celle-ci échoue que vous obtenez l’autorisation de procéder devant le tribunal. Déposez la requête de conciliation à temps, au plus tard avant l’expiration du délai pour l’action en réduction. La procédure proprement dite est en règle générale une procédure judiciaire ordinaire ; sa durée dépend du canton et de la complexité du cas.",
+        "it": "Per l'azione di riduzione è competente il tribunale dell'ultimo domicilio del disponente. Prima di poter agire in giudizio, di regola deve prima svolgere una procedura di conciliazione davanti all'autorità di conciliazione; solo se questa rimane infruttuosa ottiene l'autorizzazione ad agire davanti al tribunale. Presenti l'istanza di conciliazione per tempo, al più tardi prima della scadenza del termine per l'azione di riduzione. La procedura vera e propria è di regola un procedimento ordinario; quanto duri dipende dal Cantone e dalla complessità del caso.",
+        "en": "The court at the deceased's last place of residence has jurisdiction over the action for abatement. Before you can bring the action, you must generally first go through conciliation proceedings before the conciliation authority; only once these are unsuccessful do you receive the authorisation to proceed to court. File the request for conciliation in time, at the latest before the time limit for the action for abatement expires. The actual proceedings are generally ordinary court proceedings; how long they take depends on the canton and the complexity of the case.",
+        "rm": "Per la plant da reducziun è cumpetenta la dretgira dal davos domicil da la defuncta u dal defunct. Avant che Vus pudais plantar plant, stuais Vus per regla emprim far ina procedura da mediaziun tar l'autoritad da mediaziun; mo sche quella resta senza success, retschavais Vus il permiss da plant per la dretgira. Inoltrai la dumonda da mediaziun a temp, al pli tard avant la scadenza dal termin per la plant da reducziun. La procedura sezza è per regla ina procedura giudiziala ordinaria; quant ditg ch'ella dura, dependa dal chantun e da la cumplexitad dal cas."
       },
       "sources": [
         "zpo-197",
@@ -520,14 +752,22 @@
       "id": "escalate-disputes",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Rechtsberatung, wenn ein Streit über das Testament oder über Schenkungen zu Lebzeiten droht, wenn ein Unternehmen, eine Liegenschaft oder grössere Vermögenswerte zum Nachlass gehören, wenn die Erblasserin oder der Erblasser oder Erbinnen und Erben im Ausland wohnten oder wohnen, wenn eine Enterbung im Raum steht, oder wenn die Fristen bald ablaufen. Bei internationalen Erbfällen entscheidet oft ausländisches statt schweizerisches Recht; lassen Sie das frühzeitig abklären."
+        "de": "Holen Sie persönliche Rechtsberatung, wenn ein Streit über das Testament oder über Schenkungen zu Lebzeiten droht, wenn ein Unternehmen, eine Liegenschaft oder grössere Vermögenswerte zum Nachlass gehören, wenn die Erblasserin oder der Erblasser oder Erbinnen und Erben im Ausland wohnten oder wohnen, wenn eine Enterbung im Raum steht, oder wenn die Fristen bald ablaufen. Bei internationalen Erbfällen entscheidet oft ausländisches statt schweizerisches Recht; lassen Sie das frühzeitig abklären.",
+        "fr": "Faites-vous conseiller personnellement si un litige menace au sujet du testament ou de donations faites de son vivant, si une entreprise, un bien immobilier ou des valeurs patrimoniales importantes font partie de la succession, si la personne défunte ou des héritières et héritiers habitaient ou habitent à l’étranger, si une exhérédation est envisagée, ou si les délais arrivent bientôt à échéance. Dans les successions internationales, c’est souvent le droit étranger, et non le droit suisse, qui s’applique ; faites clarifier cela rapidement.",
+        "it": "Si faccia consigliare personalmente se si prospetta una controversia sul testamento o su donazioni fatte in vita, se un'azienda, un immobile o valori patrimoniali importanti fanno parte dell'eredità, se il disponente o gli eredi risiedevano o risiedono all'estero, se è in gioco una diseredazione, oppure se i termini stanno per scadere. Nei casi successori internazionali decide spesso il diritto straniero anziché quello svizzero; lo faccia chiarire per tempo.",
+        "en": "Get personal legal advice if a dispute over the will or over lifetime gifts is threatening, if a business, real estate or larger assets belong to the estate, if the deceased or heirs lived or live abroad, if disinheritance is in question, or if the time limits are running out soon. In cross-border inheritance cases, foreign law rather than Swiss law often applies; have this clarified early.",
+        "rm": "Retschertgai consulaziun giuridica persunala, sche in conflict davart il testament u davart donaziuns durant vita smanatscha, sche in'interpresa, in bain immobigliar u maiurs valurs da facultad tutgan al relasch, sche la defuncta u il defunct u ertavlas ed ertavels han abità u abitan a l'exteriur, sche ina dischertaziun è en discussiun, u sche ils termins scadan bainbaud. Tar cas d'ierta internaziunals decida savens dretg estger empè dal dretg svizzer; laschai clarifitgar quai baud."
       }
     },
     {
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Für die Herabsetzungsklage erhebt das Gericht Gerichtskosten nach kantonalem Tarif; meist müssen Sie einen Kostenvorschuss leisten. Das Schlichtungsverfahren ist in der Regel deutlich günstiger; kostenlos ist es in Erbsachen nicht. Wer im Prozess unterliegt, trägt in der Regel die Gerichtskosten und entschädigt die Gegenpartei für deren Anwaltskosten. Fehlen Ihnen die nötigen Mittel und ist Ihr Anliegen nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen; dann entfallen Kostenvorschuss und Gerichtskosten, und nötigenfalls wird Ihnen eine unentgeltliche Rechtsvertretung bestellt. Verlieren Sie den Prozess, müssen Sie die Gegenpartei trotzdem entschädigen."
+        "de": "Für die Herabsetzungsklage erhebt das Gericht Gerichtskosten nach kantonalem Tarif; meist müssen Sie einen Kostenvorschuss leisten. Das Schlichtungsverfahren ist in der Regel deutlich günstiger; kostenlos ist es in Erbsachen nicht. Wer im Prozess unterliegt, trägt in der Regel die Gerichtskosten und entschädigt die Gegenpartei für deren Anwaltskosten. Fehlen Ihnen die nötigen Mittel und ist Ihr Anliegen nicht aussichtslos, können Sie unentgeltliche Rechtspflege beantragen; dann entfallen Kostenvorschuss und Gerichtskosten, und nötigenfalls wird Ihnen eine unentgeltliche Rechtsvertretung bestellt. Verlieren Sie den Prozess, müssen Sie die Gegenpartei trotzdem entschädigen.",
+        "fr": "Pour l’action en réduction, le tribunal perçoit des frais judiciaires selon le tarif cantonal ; vous devez généralement verser une avance de frais. La procédure de conciliation est en règle générale nettement moins coûteuse ; elle n’est toutefois pas gratuite en matière successorale. La partie qui succombe supporte en règle générale les frais judiciaires et indemnise la partie adverse pour ses frais d’avocat. Si vous manquez des moyens nécessaires et que votre cause n’est pas dénuée de chances de succès, vous pouvez demander l’assistance judiciaire ; l’avance de frais et les frais judiciaires sont alors supprimés, et une avocate ou un avocat d’office vous est désigné si nécessaire. Si vous perdez le procès, vous devez néanmoins indemniser la partie adverse.",
+        "it": "Per l'azione di riduzione il tribunale riscuote spese giudiziarie secondo la tariffa cantonale; di regola deve versare un anticipo spese. La procedura di conciliazione è di regola nettamente più economica; non è tuttavia gratuita in materia successoria. Chi soccombe nel processo sostiene di regola le spese giudiziarie e indennizza la controparte per le sue spese legali. Se le mancano i mezzi necessari e la sua causa non è priva di probabilità di successo, può chiedere il gratuito patrocinio; in tal caso decadono l'anticipo spese e le spese giudiziarie, e se necessario le viene designato un avvocato d'ufficio. Se perde il processo, deve comunque indennizzare la controparte.",
+        "en": "For the action for abatement, the court charges court costs under the cantonal tariff; you usually have to pay an advance on costs. Conciliation proceedings are generally significantly cheaper; they are not free of charge in inheritance matters. Whoever loses the case generally bears the court costs and compensates the other party for their lawyer's costs. If you lack the necessary means and your case is not hopeless, you can apply for legal aid; you are then exempt from the advance on costs and the court costs, and a lawyer is appointed for you under legal aid if necessary. If you lose the case, you must still compensate the other party.",
+        "rm": "Per la plant da reducziun drizza la dretgira custs giudizials tenor tarif chantunal; il pli savens stuais Vus prestar in'avanza da custs. La procedura da mediaziun è per regla considerablamain pli avantagiusa; gratuita n'è ella betg en fatgs d'ierta. Tgi che perda il process, porta per regla ils custs giudizials ed indemnisescha la cuntraparte per ses custs d'advocat. Sche a Vus mancan ils mezs necessaris e Voss dumonda n'è betg senza schanza, pudais Vus dumandar la giurisdicziun gratuita; lura crodan davent l'avanza da custs ed ils custs giudizials, e sche necessari vegn a Vus attribuida in'advocata gratuita u in advocat gratuit. Perdais Vus il process, stuais Vus tuttina indemnisar la cuntraparte."
       },
       "sources": [
         "zpo-95",
@@ -542,7 +782,11 @@
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Beratungsstellen für Rechtsauskünfte informieren über Pflichtteil und Erbrecht. Notariate bieten oft eine erste, teils kostenlose Auskunft oder spezielle Informationstage zu Testament und Erbvertrag an. Pro Senectute berät ältere Menschen und ihre Angehörigen zu Nachlassplanung und Testament und bietet einen Testament-Rechner an. Viele Anwaltsverbände vermitteln eine erste kostenlose oder günstige Rechtsauskunft."
+        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Beratungsstellen für Rechtsauskünfte informieren über Pflichtteil und Erbrecht. Notariate bieten oft eine erste, teils kostenlose Auskunft oder spezielle Informationstage zu Testament und Erbvertrag an. Pro Senectute berät ältere Menschen und ihre Angehörigen zu Nachlassplanung und Testament und bietet einen Testament-Rechner an. Viele Anwaltsverbände vermitteln eine erste kostenlose oder günstige Rechtsauskunft.",
+        "fr": "Aide gratuite ou à faible coût : les services cantonaux de consultation juridique informent sur la réserve héréditaire et le droit des successions. Les notariats offrent souvent un premier renseignement, parfois gratuit, ou des journées d’information spéciales sur le testament et le pacte successoral. Pro Senectute conseille les personnes âgées et leurs proches sur la planification successorale et le testament, et propose un calculateur de testament. De nombreuses associations d’avocats offrent un premier renseignement juridique gratuit ou à faible coût.",
+        "it": "Aiuto gratuito o a basso costo: i consultori cantonali per le informazioni giuridiche informano su legittima e diritto successorio. I notariati offrono spesso una prima consulenza, in parte gratuita, o giornate informative speciali su testamento e contratto successorio. Pro Senectute consiglia le persone anziane e i loro congiunti sulla pianificazione successoria e sul testamento e offre un calcolatore del testamento. Molte associazioni di avvocati offrono una prima consulenza giuridica gratuita o a basso costo.",
+        "en": "Free or low-cost help: the cantonal legal information services provide information on the statutory entitlement and the law of succession. Notaries' offices often provide an initial, sometimes free, consultation or special information days on wills and contracts of succession. Pro Senectute advises older people and their families on estate planning and wills and offers a will calculator. Many bar associations arrange an initial free or low-cost legal consultation.",
+        "rm": "Agid gratuit u avantagius: las postas chantunalas da consulaziun per infurmaziuns giuridicas infurmeschan davart la part obligatorica ed il dretg d'ierta. Notariats offran savens ina emprima infurmaziun, per part gratuita, u dis d'infurmaziun spezials davart testament e contract d'ierta. Pro Senectute cussegia persunas pli veglias e lur confamigliars davart la planisaziun dal relasch ed il testament e porscha in calculatur da testament. Blers federaziuns d'advocatas ed advocats procuran in'emprima infurmaziun giuridica gratuita u avantagiusa."
       }
     }
   ],
@@ -797,19 +1041,31 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Wer wie viel erbt (Erbfolge und Pflichtteil)"
+        "de": "ch.ch: Wer wie viel erbt (Erbfolge und Pflichtteil)",
+        "fr": "ch.ch : Qui hérite de combien (dévolution et réserve héréditaire)",
+        "it": "ch.ch: Chi eredita quanto (successione e legittima)",
+        "en": "ch.ch: Who inherits how much (succession and the statutory entitlement)",
+        "rm": "ch.ch: Tgi ha quant dretg d'ierta (successiun e part obligatorica)"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/wer-wie-viel-erbt/"
     },
     {
       "label": {
-        "de": "ch.ch: Testament, Erbvertrag und Schenkung"
+        "de": "ch.ch: Testament, Erbvertrag und Schenkung",
+        "fr": "ch.ch : Testament, pacte successoral et donation",
+        "it": "ch.ch: Testamento, contratto successorio e donazione",
+        "en": "ch.ch: Wills, contracts of succession and gifts",
+        "rm": "ch.ch: Testament, contract d'ierta e donaziun"
       },
       "url": "https://www.ch.ch/de/familie-und-partnerschaft/erbschaft/testament-und-erbvertrag/"
     },
     {
       "label": {
-        "de": "Pro Senectute: Testament-Rechner (Pflichtteil berechnen)"
+        "de": "Pro Senectute: Testament-Rechner (Pflichtteil berechnen)",
+        "fr": "Pro Senectute : calculateur de testament (calculer la réserve héréditaire)",
+        "it": "Pro Senectute: calcolatore del testamento (calcolare la legittima)",
+        "en": "Pro Senectute: Will calculator (calculating the statutory entitlement)",
+        "rm": "Pro Senectute: Calculatur da testament (calcular la part obligatorica)"
       },
       "url": "https://www.prosenectute.ch/de/dienstleistungen/orientierungshilfen/testament-rechner.html"
     }
