@@ -60,10 +60,9 @@ Family situations point to personal advice early.
 | Protection | `protection.domestic-violence` | I am experiencing violence at home. What protects me? | ○ |
 | Protection | `protection.victim-support` | I was the victim of a crime. What help and compensation can I get? | ○ |
 | Protection | `protection.police-questioning` | The police want to question me. What are my rights? | ○ |
-
-Still planned, in this order:
-
-- **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.
+| Courts | `courts.conciliation` | I have to go to a conciliation hearing. How does it work? | ○ |
+| Courts | `courts.legal-aid` | I cannot afford a case or a lawyer | ○ |
+| Courts | `courts.lawyer` | How do I find a lawyer, and what does it cost? | ○ |
 
 ## Environment
 

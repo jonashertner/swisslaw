@@ -82,6 +82,11 @@ export const WAVE_3: readonly CoverageGroup[] = [
     { id: 'protection.victim-support', title: e('Opferhilfe', 'Aide aux victimes', 'Aiuto alle vittime', 'Agid a las victimas', 'Victim support') },
     { id: 'protection.police-questioning', title: e('Rechte bei einer Befragung durch die Polizei', 'Vos droits lors d’une audition par la police', 'Diritti durante un interrogatorio di polizia', 'Dretgs durant in interrogatori da la polizia', 'Your rights when questioned by the police') },
   ] },
+  { area: 'courts', topics: [
+    { id: 'courts.conciliation', title: e('So läuft eine Schlichtung', 'Comment se déroule une conciliation', 'Come si svolge una conciliazione', 'Uschia funcziuna ina conciliaziun', 'How conciliation works') },
+    { id: 'courts.legal-aid', title: e('Unentgeltliche Rechtspflege', 'Assistance judiciaire gratuite', 'Gratuito patrocinio', 'Assistenza giudiziala gratuita', 'Free legal aid') },
+    { id: 'courts.lawyer', title: e('Eine Anwältin oder einen Anwalt finden und bezahlen', 'Trouver et payer un avocat', 'Trovare e pagare un avvocato', 'Chattar e pajar in advocat', 'Finding and paying a lawyer') },
+  ] },
   { area: 'environment', topics: [
     { id: 'environment.report-pollution', title: e('Umweltverschmutzung melden', 'Signaler une pollution', 'Segnalare un inquinamento', 'Annunziar ina contaminaziun da l’ambient', 'Reporting pollution') },
     { id: 'environment.project-participation', title: e('Bei Bauprojekten mitreden', 'Participer aux projets de construction', 'Partecipare ai progetti di costruzione', 'Participar a projects da construcziun', 'Having a say in building projects') },
@@ -90,13 +95,8 @@ export const WAVE_3: readonly CoverageGroup[] = [
   ] },
 ];
 
-/** Wave 3 continued and the long tail: planned, not yet drafted. */
+/** The long tail: planned, not yet drafted. */
 export const LATER: readonly CoverageGroup[] = [
-  { area: 'courts', label: e('Gerichte und Anwälte', 'Tribunaux et avocats', 'Tribunali e avvocati', 'Dretgiras ed advocats', 'Courts and lawyers'), topics: [
-    { title: e('So läuft eine Schlichtung', 'Comment se déroule une conciliation', 'Come si svolge una conciliazione', 'Uschia funcziuna ina conciliaziun', 'How conciliation works') },
-    { title: e('Unentgeltliche Rechtspflege', 'Assistance judiciaire gratuite', 'Gratuito patrocinio', 'Assistenza giudiziala gratuita', 'Free legal aid') },
-    { title: e('Eine Anwältin oder einen Anwalt finden und bezahlen', 'Trouver et payer un avocat', 'Trovare e pagare un avvocato', 'Chattar e pajar in advocat', 'Finding and paying a lawyer') },
-  ] },
   { area: 'more', label: e('Weitere Themen', 'Autres thèmes', 'Altri temi', 'Ulteriurs temas', 'Further topics'), topics: [
     { title: e('Nachbarn: Lärm, Bäume, Grenzen', 'Voisins : bruit, arbres, limites', 'Vicini: rumore, alberi, confini', 'Vischins: canera, plantas, cunfins', 'Neighbours: noise, trees, boundaries') },
     { title: e('Forderungen bis 30 000 Franken', 'Créances jusqu’à 30 000 francs', 'Crediti fino a 30 000 franchi', 'Pretensiuns fin 30 000 francs', 'Claims up to CHF 30,000') },

@@ -1,0 +1,915 @@
+{
+  "schema": 1,
+  "id": "courts.conciliation",
+  "domain": "courts",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich muss vor die Schlichtungsbehörde. Wie läuft das?"
+  },
+  "summary": {
+    "de": "Vor den meisten Zivilprozessen steht ein Schlichtungsversuch. Die Schlichtungsbehörde bringt beide Seiten an einen Tisch und sucht eine Einigung. Beide Parteien müssen persönlich erscheinen. Gelingt keine Einigung, erhält meist die klagende Partei eine Klagebewilligung und hat drei Monate Zeit, um vor Gericht zu klagen. Bei Streit um die Miete oder Pacht von Wohn- und Geschäftsräumen sind es nur 30 Tage. Bei kleineren Beträgen kann die Behörde einen Urteilsvorschlag machen oder selbst entscheiden. In Mietstreitigkeiten über Wohn- und Geschäftsräume und in Arbeitsstreitigkeiten bis 30 000 Franken kostet die Schlichtung keine Gerichtskosten."
+  },
+  "examples": {
+    "de": [
+      "Ich ha e Vorladig vo de Schlichtigsbehörde becho. Muess ich da würkli sälber ane?",
+      "Der Handwerker hat Pfusch gemacht und will trotzdem das ganze Geld. Wie reiche ich ein Schlichtungsgesuch ein?",
+      "Mein Vermieter hat mir gekündigt. Was passiert beim Schlichtungsamt?",
+      "Was kostet der Friedensrichter und wer zahlt das?",
+      "Ich habe einen Urteilsvorschlag bekommen. Muss ich den annehmen?",
+      "Chan ich eifach min Anwalt schicke statt sälber z'gah?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Das Schlichtungsverfahren vor einem Zivilprozess, für die klagende und für die vorgeladene Partei: wann es nötig ist, das Gesuch, die Vorladung, das persönliche Erscheinen, Vertraulichkeit, Säumnis, Einigung, Klagebewilligung und ihre Frist, Urteilsvorschlag und Entscheid der Schlichtungsbehörde, Kosten, unentgeltliche Rechtspflege, Mediation und die Rechtsberatung in Miet- und Gleichstellungssachen."
+    },
+    "excludes": {
+      "de": "Das Gerichtsverfahren nach der Schlichtung (nur ein kurzer Hinweis), Straf- und Verwaltungsverfahren, Betreibung und Rechtsöffnung, Scheidung und andere familienrechtliche Verfahren ohne Schlichtung sowie die kantonalen Gebührentarife."
+    }
+  },
+  "facts": [
+    {
+      "key": "role",
+      "question": {
+        "de": "Wer hat das Verfahren eingeleitet?"
+      },
+      "options": [
+        {
+          "value": "claimant",
+          "label": {
+            "de": "Ich selbst: Ich will etwas von der anderen Seite"
+          }
+        },
+        {
+          "value": "summoned",
+          "label": {
+            "de": "Die andere Seite: Ich habe eine Vorladung erhalten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "dispute",
+      "question": {
+        "de": "Worum geht es im Streit?"
+      },
+      "help": {
+        "de": "Für Mietstreitigkeiten, Streitigkeiten aus dem Arbeitsverhältnis und Diskriminierung wegen des Geschlechts gelten besondere Regeln."
+      },
+      "options": [
+        {
+          "value": "tenancy",
+          "label": {
+            "de": "Miete oder Pacht einer Wohnung oder eines Geschäftsraums"
+          }
+        },
+        {
+          "value": "employment",
+          "label": {
+            "de": "Arbeitsverhältnis, zum Beispiel Lohn oder Kündigung"
+          }
+        },
+        {
+          "value": "equality",
+          "label": {
+            "de": "Benachteiligung wegen des Geschlechts im Job (Gleichstellungsgesetz)"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Etwas anderes, zum Beispiel eine unbezahlte Rechnung oder ein Handwerkerstreit"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "amount",
+      "question": {
+        "de": "Um wie viel Geld geht es?"
+      },
+      "help": {
+        "de": "Massgebend ist, was die klagende Partei verlangt, ohne Zinsen und Kosten."
+      },
+      "options": [
+        {
+          "value": "upto-2000",
+          "label": {
+            "de": "Bis 2000 Franken"
+          }
+        },
+        {
+          "value": "upto-10000",
+          "label": {
+            "de": "Mehr als 2000 bis 10 000 Franken"
+          }
+        },
+        {
+          "value": "upto-30000",
+          "label": {
+            "de": "Mehr als 10 000 bis 30 000 Franken"
+          }
+        },
+        {
+          "value": "upto-100000",
+          "label": {
+            "de": "Mehr als 30 000, aber weniger als 100 000 Franken"
+          }
+        },
+        {
+          "value": "from-100000",
+          "label": {
+            "de": "100 000 Franken oder mehr"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht, oder es geht nicht um Geld"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "what-it-is",
+      "kind": "step",
+      "text": {
+        "de": "Bevor ein Zivilgericht über einen Streit entscheidet, müssen die Parteien in den meisten Fällen zuerst zur Schlichtungsbehörde. Dort sitzen Sie zusammen mit der Gegenseite an einem Tisch. Die Behörde versucht, mit Ihnen eine Lösung zu finden, die beide annehmen können. Das Verfahren ist bewusst einfach und ohne viele Formalitäten. Sie brauchen dafür keine Anwältin und keinen Anwalt. In eine Einigung dürfen auch weitere Streitpunkte zwischen Ihnen aufgenommen werden, wenn das hilft, den Streit ganz zu beenden. Wie die Behörde heisst und wer sie führt, bestimmt Ihr Kanton. Mancherorts ist es das Friedensrichteramt oder ein Vermittleramt, für Mietstreitigkeiten gibt es eine besondere Schlichtungsbehörde. Die Adresse erfahren Sie auf der Website Ihres Kantons oder Ihrer Gemeinde."
+      },
+      "sources": [
+        "zpo-197",
+        "zpo-201"
+      ]
+    },
+    {
+      "id": "when-required",
+      "kind": "rule",
+      "text": {
+        "de": "Der Schlichtungsversuch ist die Regel. Ohne ihn geht es nur in bestimmten Fällen direkt ans Gericht, unter anderem: in raschen Verfahren wie der Rechtsöffnung in der Betreibung oder bei vorsorglichen Massnahmen; bei Scheidung und Auflösung einer eingetragenen Partnerschaft; bei Klagen über den Unterhalt von Kindern und andere Kinderbelange; bei Klagen zum Schutz vor Gewalt, Drohungen oder Nachstellungen; bei gewissen Klagen im Betreibungs- und Konkursrecht; wenn das Gericht selbst eine Frist für die Klage gesetzt hat; und wenn nur eine einzige kantonale Instanz zuständig ist, etwa ein Handelsgericht. Geht es um 100 000 Franken oder mehr, können beide Seiten gemeinsam auf die Schlichtung verzichten. Die klagende Partei allein darf verzichten, wenn die Gegenseite im Ausland wohnt oder ihren Sitz dort hat, wenn ihr Aufenthalt unbekannt ist oder wenn es um Diskriminierung nach dem Gleichstellungsgesetz geht. Sind Sie unsicher, ob Ihr Fall zur Schlichtung muss, fragen Sie bei der Schlichtungsbehörde oder beim Gericht nach."
+      },
+      "sources": [
+        "zpo-198",
+        "zpo-199"
+      ]
+    },
+    {
+      "id": "file-request",
+      "kind": "step",
+      "when": {
+        "role": [
+          "claimant",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie leiten das Verfahren mit einem Schlichtungsgesuch ein. Drei Dinge gehören hinein: wer die Gegenseite ist (Name und Adresse), was Sie genau verlangen (zum Beispiel einen bestimmten Betrag in Franken) und worum es im Streit geht. Legen Sie Kopien der wichtigsten Unterlagen bei, etwa Vertrag, Rechnung, Mahnungen und Briefwechsel. Sie können das Gesuch auf Papier einreichen und unterschreiben. Elektronisch geht es nur mit einer qualifizierten elektronischen Signatur; ein gewöhnliches E-Mail reicht deshalb nicht. Sie können Ihr Anliegen auch direkt am Schalter der Schlichtungsbehörde mündlich vorbringen; sie hält es dann schriftlich fest. Der Bund stellt Formulare zur Verfügung, die auch ohne juristische Kenntnisse ausgefüllt werden können. Sie müssen sie nicht verwenden, und viele Kantone haben eigene Formulare. Welche Schlichtungsbehörde örtlich zuständig ist, hängt von der Art des Streits ab, oft vom Wohnsitz der Gegenseite oder vom Ort der Mietsache. Fragen Sie im Zweifel vorher nach."
+      },
+      "sources": [
+        "zpo-202",
+        "zpo-130",
+        "zpo-400"
+      ]
+    },
+    {
+      "id": "filing-effects",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "claimant",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Mit dem Einreichen des Schlichtungsgesuchs ist Ihr Fall rechtlich hängig. Das Gesuch unterbricht ausserdem die Verjährung Ihrer Forderung, sofern es klar sagt, wer was von wem verlangt. Eine blosse Mahnung oder ein eingeschriebener Brief hat diese Wirkung nicht. Haben Sie sich an die falsche Behörde gewandt und ziehen das Gesuch deshalb zurück, oder tritt die Behörde mangels Zuständigkeit nicht darauf ein, dann reichen Sie es innert eines Monats bei der richtigen Stelle neu ein. So gilt weiterhin das Datum Ihrer ersten Eingabe."
+      },
+      "sources": [
+        "zpo-62",
+        "or-135",
+        "zpo-63"
+      ]
+    },
+    {
+      "id": "summons",
+      "kind": "step",
+      "when": {
+        "role": [
+          "summoned",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat jemand gegen Sie ein Schlichtungsgesuch eingereicht, schickt Ihnen die Schlichtungsbehörde das Gesuch und gleichzeitig eine Vorladung zur Verhandlung. Sie müssen in der Regel nichts Schriftliches einreichen. Nur in Miet- und Gleichstellungsstreitigkeiten kann die Behörde ausnahmsweise eine schriftliche Stellungnahme verlangen. Lesen Sie das Gesuch genau: Wer verlangt was, und mit welcher Begründung? Sammeln Sie Ihre Unterlagen und überlegen Sie, was Sie der Gegenseite entgegenhalten und was Sie allenfalls anbieten könnten. Die Vorladung gilt auch für Sie: Sie müssen persönlich erscheinen. Können Sie am angesetzten Tag wegen eines wichtigen Grundes nicht kommen, melden Sie sich sofort bei der Schlichtungsbehörde und belegen Sie den Grund."
+      },
+      "sources": [
+        "zpo-202",
+        "zpo-204"
+      ]
+    },
+    {
+      "id": "hearing",
+      "kind": "step",
+      "text": {
+        "de": "Die Verhandlung soll innert zwei Monaten nach Eingang des Gesuchs stattfinden. Sie ist nicht öffentlich. Die Schlichtungsbehörde hört beide Seiten an, stellt Fragen, erklärt die Rechtslage und schlägt Lösungen vor. Sie lässt sich Urkunden zeigen und kann sich die Sache vor Ort ansehen. Zeugen werden nur ausnahmsweise befragt, nämlich wenn die Behörde einen Urteilsvorschlag oder einen Entscheid in Betracht zieht. Sind beide Seiten einverstanden, kann es weitere Verhandlungen geben. Spätestens nach zwölf Monaten muss das Verfahren abgeschlossen sein. Wichtig: Die Gerichtsferien über Ostern, im Sommer und über Weihnachten gelten im Schlichtungsverfahren nicht. Die Verhandlung kann also auch im Juli oder im Dezember angesetzt werden."
+      },
+      "sources": [
+        "zpo-203",
+        "zpo-145"
+      ]
+    },
+    {
+      "id": "prepare",
+      "kind": "step",
+      "text": {
+        "de": "So bereiten Sie sich vor: Bringen Sie die Vorladung, einen amtlichen Ausweis und alle wichtigen Unterlagen mit, geordnet und wenn möglich in Kopie für die Gegenseite. Schreiben Sie sich in wenigen Sätzen auf, was passiert ist und was Sie wollen. Überlegen Sie vorher, wo Ihre Schmerzgrenze liegt: Welcher Kompromiss wäre für Sie noch annehmbar? Denken Sie auch an Zeit, Kosten und Nerven, die ein Gerichtsverfahren kosten würde. Kommen Sie pünktlich und planen Sie Reserve ein. Wer zu spät kommt, riskiert die Folgen des Nichterscheinens. Sprechen Sie nicht gut Deutsch, fragen Sie die Schlichtungsbehörde vorher, wie die Verständigung sichergestellt wird, und nehmen Sie allenfalls eine Vertrauensperson mit."
+      }
+    },
+    {
+      "id": "appear-in-person",
+      "kind": "rule",
+      "text": {
+        "de": "Beide Seiten müssen persönlich zur Verhandlung kommen. Der Grund: Eine Einigung gelingt am ehesten im direkten Gespräch zwischen den Personen, die tatsächlich im Streit sind. Sie dürfen eine Anwältin, einen Anwalt oder eine Vertrauensperson zur Begleitung mitnehmen. Die Begleitung ersetzt Sie aber nicht. Ist eine Firma, ein Verein oder eine Stiftung Partei, muss ein Organ kommen, zum Beispiel ein Mitglied der Geschäftsleitung oder des Verwaltungsrats, oder eine Person mit kaufmännischer Handlungsvollmacht, die den Streit kennt und einen Vergleich abschliessen darf. Eine Anwältin oder ein Anwalt allein genügt für eine Firma nicht."
+      },
+      "sources": [
+        "zpo-204",
+        "bge-140-iii-70"
+      ]
+    },
+    {
+      "id": "representation",
+      "kind": "rule",
+      "text": {
+        "de": "Nur in bestimmten Fällen dürfen Sie jemanden an Ihrer Stelle schicken: wenn Sie in einem anderen Kanton oder im Ausland wohnen; wenn Sie wegen Krankheit, Alter oder aus einem anderen wichtigen Grund verhindert sind; wenn Sie mit mehreren Personen gemeinsam klagen oder beklagt sind und eine anwesende Person die anderen vertreten und für sie einen Vergleich abschliessen darf. In Streitigkeiten bis 30 000 Franken und in gewissen Mietsachen dürfen zudem Arbeitgeber und Versicherer eine angestellte Person schicken und Vermieter die Liegenschaftsverwaltung, wenn diese schriftlich ermächtigt ist, einen Vergleich abzuschliessen. Die Gegenseite muss vorher über die Vertretung informiert werden. Wer ohne einen solchen Grund nur eine Vertretung schickt, gilt als nicht erschienen. Als berufsmässige Vertretung sind Anwältinnen und Anwälte zugelassen; ob auch andere Fachleute vertreten dürfen, regelt Ihr Kanton."
+      },
+      "sources": [
+        "zpo-204",
+        "zpo-243",
+        "bger-4c-1-2013",
+        "zpo-68"
+      ]
+    },
+    {
+      "id": "confidential",
+      "kind": "rule",
+      "text": {
+        "de": "Was Sie in der Schlichtungsverhandlung sagen, wird nicht protokolliert. Es darf später vor Gericht nicht gegen Sie verwendet werden. Sie können also offen reden und auch Angebote machen, ohne dass Ihnen das in einem späteren Prozess schadet. Eine Ausnahme gilt, wenn die Schlichtungsbehörde am Ende selbst einen Urteilsvorschlag macht oder einen Entscheid fällt: Dafür darf sie Ihre Aussagen berücksichtigen."
+      },
+      "sources": [
+        "zpo-205"
+      ]
+    },
+    {
+      "id": "no-show-claimant",
+      "kind": "warning",
+      "when": {
+        "role": [
+          "claimant",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie als klagende Partei nicht erscheinen, gilt Ihr Gesuch als zurückgezogen. Das Verfahren wird abgeschrieben, und Sie tragen die Kosten. Das gilt auch dann, wenn die Gegenseite vorher angekündigt hat, sie werde nicht kommen: Sie müssen trotzdem hingehen, sonst erhalten Sie keine Klagebewilligung. Zusätzlich kann die Behörde eine Ordnungsbusse von bis zu 1000 Franken verhängen. Grundsätzlich können Sie das Gesuch später neu einreichen. Läuft für Ihre Forderung aber eine gesetzliche Frist, etwa für die Anfechtung einer Kündigung der Wohnung, kann der Anspruch dann endgültig verloren sein. Waren Sie ohne eigenes Verschulden oder nur wegen eines leichten Versehens verhindert, können Sie verlangen, dass die Verhandlung wiederholt wird. Dieses Gesuch müssen Sie innert zehn Tagen stellen, nachdem der Hinderungsgrund weggefallen ist, und den Grund glaubhaft machen. Die Gerichte beurteilen solche Gesuche streng."
+      },
+      "sources": [
+        "zpo-206",
+        "zpo-207",
+        "bge-146-iii-185",
+        "bger-4c-1-2013",
+        "zpo-148",
+        "bger-4a-289-2021"
+      ]
+    },
+    {
+      "id": "no-show-summoned",
+      "kind": "warning",
+      "when": {
+        "role": [
+          "summoned",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie als vorgeladene Partei nicht erscheinen, wird ohne Sie weitergemacht, so als wäre keine Einigung zustande gekommen. Die klagende Partei erhält dann in der Regel die Klagebewilligung und kann Sie vor Gericht einklagen. Die Behörde kann aber auch einen Urteilsvorschlag machen oder, bei Beträgen bis 2000 Franken, auf Antrag der klagenden Partei direkt entscheiden, ohne Ihre Sicht gehört zu haben. Zudem kann sie eine Ordnungsbusse von bis zu 1000 Franken verhängen. Waren Sie ohne eigenes Verschulden oder nur wegen eines leichten Versehens verhindert, können Sie innert zehn Tagen nach Wegfall des Hindernisses verlangen, dass die Verhandlung wiederholt wird."
+      },
+      "sources": [
+        "zpo-206",
+        "zpo-148"
+      ]
+    },
+    {
+      "id": "settlement",
+      "kind": "rule",
+      "text": {
+        "de": "Einigen Sie sich, hält die Schlichtungsbehörde das Ergebnis im Protokoll fest, und beide Seiten unterschreiben. Jede Partei erhält ein Exemplar. Möglich sind ein Vergleich (beide geben etwas nach), die Anerkennung der Forderung durch die Gegenseite oder der vorbehaltlose Rückzug der Klage. Alle drei wirken wie ein rechtskräftiges Urteil. Wer sich danach nicht daran hält, kann wie bei einem Urteil zur Erfüllung gezwungen werden, zum Beispiel mit einer Betreibung. Umgekehrt können Sie später nicht mehr verlangen als vereinbart und die Sache nicht erneut vor Gericht bringen. Ziehen Sie Ihre Klage vorbehaltlos zurück, verzichten Sie endgültig auf den Anspruch. Lesen Sie deshalb jede Vereinbarung genau, bevor Sie unterschreiben, und fragen Sie nach, wenn Ihnen etwas unklar ist."
+      },
+      "sources": [
+        "zpo-208"
+      ]
+    },
+    {
+      "id": "authorisation",
+      "kind": "rule",
+      "text": {
+        "de": "Kommt keine Einigung zustande, hält die Schlichtungsbehörde das im Protokoll fest und stellt eine Klagebewilligung aus. Sie erhält in der Regel die klagende Partei. Nur wenn ein Mieter eine Mietzinserhöhung angefochten hat, geht sie an den Vermieter. Die Klagebewilligung nennt unter anderem die Parteien, das Begehren, das Datum der Einleitung des Verfahrens und wer die Kosten der Schlichtung trägt. Wer sie erhält, kann damit beim Gericht klagen, muss aber nicht. Die Frist dafür beträgt drei Monate ab der Eröffnung, in Streitigkeiten über die Miete oder Pacht von Wohn- und Geschäftsräumen 30 Tage. Sind Sie die vorgeladene Partei, heisst das: Die Gegenseite kann Sie innert dieser Frist vor Gericht einklagen. Tut sie das nicht, verfällt die Klagebewilligung. Will sie später doch klagen, muss sie zuerst ein neues Schlichtungsverfahren einleiten."
+      },
+      "sources": [
+        "zpo-209",
+        "bge-140-iii-561"
+      ]
+    },
+    {
+      "id": "authorisation-deadline",
+      "kind": "warning",
+      "when": {
+        "role": [
+          "claimant",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Mit der Klagebewilligung dürfen Sie drei Monate lang beim Gericht klagen. In Streitigkeiten über die Miete oder Pacht von Wohn- und Geschäftsräumen haben Sie nur 30 Tage. Die Frist beginnt mit der Eröffnung der Klagebewilligung. Eine Frist in Tagen beginnt am Tag danach; eine Frist in Monaten endet am Tag mit derselben Zahl wie der Tag, an dem sie zu laufen begann. Endet sie an einem Samstag, Sonntag oder Feiertag, läuft sie bis zum nächsten Werktag. Anders als im Schlichtungsverfahren selbst stehen diese Fristen während der Gerichtsferien still: sieben Tage vor bis sieben Tage nach Ostern, vom 15. Juli bis 15. August und vom 18. Dezember bis 2. Januar. Die Klage ist rechtzeitig, wenn sie spätestens am letzten Tag beim Gericht eingeht oder der Schweizerischen Post übergeben wird. Verpassen Sie die Frist, verfällt die Klagebewilligung. Sie müssen dann ein neues Schlichtungsverfahren durchlaufen. Ist in der Zwischenzeit eine gesetzliche Frist für Ihren Anspruch abgelaufen, ist er verloren. Warten Sie deshalb nicht bis zum letzten Tag."
+      },
+      "sources": [
+        "zpo-209",
+        "zpo-142",
+        "zpo-145",
+        "zpo-143",
+        "bge-138-iii-615",
+        "bge-140-iii-561"
+      ]
+    },
+    {
+      "id": "proposal",
+      "kind": "rule",
+      "text": {
+        "de": "In bestimmten Fällen kann die Schlichtungsbehörde den Parteien einen Urteilsvorschlag machen. Das ist ein Vorschlag, wie ein Gericht den Fall entscheiden könnte, meist mit einer kurzen Begründung. Möglich ist das bei Streitigkeiten nach dem Gleichstellungsgesetz; bei Mietstreitigkeiten über Wohn- und Geschäftsräume, wenn es um die Hinterlegung des Mietzinses, einen missbräuchlichen Mietzins, den Schutz vor einer Kündigung oder die Erstreckung des Mietverhältnisses geht; und bei allen anderen Streitigkeiten um Geld bis 10 000 Franken. Die Behörde muss keinen Vorschlag machen. Sie kann auch einfach die Klagebewilligung ausstellen."
+      },
+      "sources": [
+        "zpo-210"
+      ]
+    },
+    {
+      "id": "proposal-reject",
+      "kind": "warning",
+      "text": {
+        "de": "Ein Urteilsvorschlag wird verbindlich, wenn niemand widerspricht. Sie haben 20 Tage ab der schriftlichen Eröffnung, um ihn abzulehnen. Eine Begründung ist nicht nötig. Teilen Sie die Ablehnung der Schlichtungsbehörde schriftlich mit, am besten eingeschrieben, und bewahren Sie den Beleg auf. Schweigen Sie, gilt der Vorschlag als angenommen und wirkt wie ein rechtskräftiges Urteil. Nach der Rechtsprechung des Bundesgerichts steht diese Frist während der Gerichtsferien still. Verlassen Sie sich aber nicht darauf und handeln Sie früh. Nach einer Ablehnung erhält normalerweise die klagende Partei die Klagebewilligung. Bei Mietstreitigkeiten über Hinterlegung, missbräuchlichen Mietzins, Kündigungsschutz oder Erstreckung erhält sie dagegen die Partei, die abgelehnt hat. Diese muss dann innert 30 Tagen klagen. Tut sie das nicht, gilt der Vorschlag als anerkannt. Der Urteilsvorschlag selbst muss Sie auf diese Folgen hinweisen."
+      },
+      "sources": [
+        "zpo-211",
+        "zpo-209",
+        "bge-144-iii-404"
+      ]
+    },
+    {
+      "id": "decision-small",
+      "kind": "rule",
+      "when": {
+        "amount": [
+          "upto-2000",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Geht es um höchstens 2000 Franken, kann die Schlichtungsbehörde den Streit auf Antrag der klagenden Partei selbst entscheiden. Sie ist dazu nicht verpflichtet. Das Verfahren ist mündlich. Die Behörde legt in diesem Fall auch die Gerichtskosten fest und kann die unterlegene Seite verpflichten, der anderen eine Entschädigung zu zahlen. Ein solcher Entscheid ist ein echtes Urteil, kein Vorschlag. Sie können ihn nicht einfach ablehnen. Wer nicht einverstanden ist, kann ihn nur mit einer Beschwerde bei der oberen kantonalen Instanz anfechten. Der Entscheid enthält eine Rechtsmittelbelehrung mit der Frist. Lesen Sie sie sofort und halten Sie die Frist genau ein."
+      },
+      "sources": [
+        "zpo-212",
+        "zpo-238",
+        "zpo-319"
+      ]
+    },
+    {
+      "id": "legal-advice-office",
+      "kind": "rule",
+      "when": {
+        "dispute": [
+          "tenancy",
+          "equality",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei Streitigkeiten über die Miete oder Pacht von Wohn- und Geschäftsräumen und bei Diskriminierung nach dem Gleichstellungsgesetz ist die Schlichtungsbehörde besonders zusammengesetzt: Neben der vorsitzenden Person sitzen Vertreterinnen und Vertreter beider Seiten, also etwa von Mietern und Vermietern. In diesen Bereichen ist die Schlichtungsbehörde auch eine Rechtsberatungsstelle. Sie können sich dort über Ihre Rechte informieren lassen, auch bevor Sie ein Gesuch einreichen. Die Beratung ist neutral: Die Behörde erklärt Ihnen die Rechtslage, vertritt aber nicht Ihre Interessen gegen die Gegenseite. Wie die Beratung organisiert ist, etwa mit Sprechstunden oder telefonisch, bestimmt der Kanton."
+      },
+      "sources": [
+        "zpo-200",
+        "zpo-201"
+      ]
+    },
+    {
+      "id": "costs",
+      "kind": "cost",
+      "text": {
+        "de": "Das Schlichtungsverfahren kostet eine Pauschale. Wie hoch sie ist, legt der Kanton in seinem Gebührentarif fest. Die Schlichtungsbehörde kann von der klagenden Partei verlangen, einen Vorschuss bis zur vollen Höhe der voraussichtlichen Kosten zu bezahlen. Wird dieser Vorschuss auch innert einer Nachfrist nicht bezahlt, behandelt die Behörde das Gesuch nicht. Die Kosten trägt zunächst die klagende Partei, wenn sie das Gesuch zurückzieht, wenn sie nicht erscheint oder wenn die Klagebewilligung ausgestellt wird. Kommt es danach zum Prozess, entscheidet das Gericht am Schluss auch über diese Kosten. Eigene Anwaltskosten bezahlt im Schlichtungsverfahren jede Seite selbst; die Gegenseite muss sie Ihnen hier nicht ersetzen. Anders ist es nur, wenn die Behörde bei Beträgen bis 2000 Franken selbst entscheidet: Dann legt sie auch eine Entschädigung fest."
+      },
+      "sources": [
+        "zpo-95",
+        "zpo-98",
+        "zpo-101",
+        "zpo-207",
+        "zpo-113",
+        "zpo-212"
+      ]
+    },
+    {
+      "id": "free-matters",
+      "kind": "cost",
+      "when": {
+        "dispute": [
+          "tenancy",
+          "employment",
+          "equality",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "In bestimmten Streitigkeiten erhebt die Schlichtungsbehörde keine Gerichtskosten. Das gilt unter anderem für Streitigkeiten über die Miete oder Pacht von Wohn- und Geschäftsräumen und über landwirtschaftliche Pacht, für Streitigkeiten aus dem Arbeitsverhältnis bis zu einem Streitwert von 30 000 Franken, für Streitigkeiten nach dem Gleichstellungsgesetz und dem Behindertengleichstellungsgesetz, für Zusatzversicherungen zur Krankenversicherung und für Streitigkeiten nach dem Datenschutzgesetz. Achtung: Kommt es danach zum Gerichtsverfahren, sind Mietstreitigkeiten dort nicht mehr kostenlos. Arbeitsstreitigkeiten bis 30 000 Franken bleiben auch vor Gericht ohne Gerichtskosten. Eigene Anwaltskosten müssen Sie in allen Fällen selbst bezahlen, wenn Sie keine unentgeltliche Rechtspflege erhalten."
+      },
+      "sources": [
+        "zpo-113",
+        "zpo-114"
+      ]
+    },
+    {
+      "id": "legal-aid",
+      "kind": "rule",
+      "text": {
+        "de": "Wer nicht genug Geld hat und dessen Begehren nicht aussichtslos ist, hat Anspruch auf unentgeltliche Rechtspflege. Sie befreit von Vorschüssen und Gerichtskosten. Ist es zur Wahrung Ihrer Rechte nötig, wird Ihnen zusätzlich eine Anwältin oder ein Anwalt bestellt, deren Kosten der Kanton übernimmt. Das gilt auch im Schlichtungsverfahren. Für eine Anwältin oder einen Anwalt schon in der Schlichtung ist die Schwelle aber hoch: Es kommt auf die Schwierigkeit des Falls und auf Ihre Fähigkeit an, sich selbst zurechtzufinden. Das Gesuch können Sie schon stellen, bevor Sie das Schlichtungsgesuch einreichen. Sie müssen Ihr Einkommen und Vermögen offenlegen und kurz erklären, worum es geht. Wo Sie das Gesuch einreichen, regelt der Kanton; die Schlichtungsbehörde gibt Auskunft. Wichtig: Verlieren Sie später vor Gericht, schützt die unentgeltliche Rechtspflege Sie nicht davor, der Gegenseite deren Anwaltskosten zu ersetzen."
+      },
+      "sources": [
+        "zpo-117",
+        "zpo-118",
+        "zpo-119",
+        "bger-4a-301-2020"
+      ]
+    },
+    {
+      "id": "mediation",
+      "kind": "rule",
+      "text": {
+        "de": "Statt der Schlichtung können Sie eine Mediation wählen, wenn alle Parteien das wollen. Den Antrag stellen Sie im Schlichtungsgesuch oder an der Verhandlung. In der Mediation hilft eine neutrale Fachperson den Parteien, selbst eine Lösung zu erarbeiten. Die Parteien suchen die Mediatorin oder den Mediator selbst aus und organisieren die Mediation. Sie ist unabhängig von der Schlichtungsbehörde und vertraulich. Was Sie dort sagen, darf vor Gericht nicht verwendet werden. Die Kosten der Mediation tragen die Parteien selbst; der Kanton kann Erleichterungen vorsehen. Finden Sie eine Lösung, können Sie diese gemeinsam genehmigen lassen. Dann wirkt sie wie ein rechtskräftiges Urteil. Scheitert die Mediation, genügt es, dass eine Partei dies der Schlichtungsbehörde meldet. Diese stellt dann die Klagebewilligung aus."
+      },
+      "sources": [
+        "zpo-213",
+        "zpo-215",
+        "zpo-216",
+        "zpo-217",
+        "zpo-218"
+      ]
+    },
+    {
+      "id": "court-pointer",
+      "kind": "step",
+      "text": {
+        "de": "Dieser Leitfaden endet mit der Schlichtung. Wird danach geklagt, beginnt das Gerichtsverfahren. Bei Streitigkeiten bis 30 000 Franken und in gewissen Bereichen, etwa bei Kündigungsschutz und missbräuchlichem Mietzins, gilt ein vereinfachtes Verfahren mit weniger Formalitäten. Bei höheren Beträgen ist das Verfahren aufwendiger und das Kostenrisiko grösser. Lassen Sie sich spätestens dann beraten."
+      },
+      "sources": [
+        "zpo-243"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, bevor Sie etwas unterschreiben oder eine Frist verstreichen lassen, vor allem wenn: es um viel Geld oder um Ihre Wohnung oder Ihre Stelle geht; die Gegenseite von einer Anwältin oder einem Anwalt begleitet wird; Sie einen Urteilsvorschlag oder eine Klagebewilligung erhalten haben und nicht wissen, wie es weitergeht; eine gesetzliche Frist läuft, etwa für die Anfechtung einer Kündigung; Sie die Gegenseite in einem anderen Kanton oder im Ausland belangen wollen; oder Sie eine Firma vertreten. Eine Anwältin oder ein Anwalt darf Sie an die Verhandlung begleiten, auch wenn Sie selbst anwesend sein müssen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die Schlichtungsbehörde selbst gibt Auskunft über das Verfahren; in Miet- und Gleichstellungssachen berät sie auch zur Rechtslage. Viele Kantone und Städte führen unentgeltliche Rechtsauskunftsstellen. Die kantonalen Anwaltsverbände informieren über ihre Beratungsangebote. Mieterinnen und Mieter erhalten Rat beim Mieterinnen- und Mieterverband, Vermieterinnen und Vermieter bei ihren Verbänden, meist gegen einen Mitgliederbeitrag. Arbeitnehmende wenden sich an ihre Gewerkschaft oder ihren Berufsverband. Bei Diskriminierung wegen des Geschlechts helfen die kantonalen Gleichstellungsbüros. Haben Sie eine Rechtsschutzversicherung, melden Sie den Fall dort früh an. Fehlt Ihnen das Geld für Kosten und Anwalt, beantragen Sie unentgeltliche Rechtspflege."
+      }
+    }
+  ],
+  "sources": {
+    "bge-138-iii-615": {
+      "type": "decision",
+      "decision_id": "bge_BGE_138_III_615",
+      "citation": "BGE 138 III 615",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_138_III_615#e-2-3"
+    },
+    "bge-140-iii-561": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_III_561",
+      "citation": "BGE 140 III 561",
+      "e": "2.2.2.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_III_561#e-2-2-2-4"
+    },
+    "bge-140-iii-70": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_III_70",
+      "citation": "BGE 140 III 70",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_III_70#e-4-3"
+    },
+    "bge-144-iii-404": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_III_404",
+      "citation": "BGE 144 III 404",
+      "e": "4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_III_404#e-4"
+    },
+    "bge-146-iii-185": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_III_185",
+      "citation": "BGE 146 III 185",
+      "e": "4.3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_III_185#e-4-3-2"
+    },
+    "bger-4a-289-2021": {
+      "type": "decision",
+      "decision_id": "bger_4A_289_2021",
+      "citation": "BGer 4A_289/2021 vom 16. Juli 2021",
+      "e": "6.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_289_2021#e-6-2"
+    },
+    "bger-4a-301-2020": {
+      "type": "decision",
+      "decision_id": "bger_4A_301_2020",
+      "citation": "BGer 4A_301/2020 vom 6. August 2020",
+      "e": "3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_301_2020#e-3-3"
+    },
+    "bger-4c-1-2013": {
+      "type": "decision",
+      "decision_id": "bger_4C_1_2013",
+      "citation": "BGer 4C_1/2013 vom 25. Juni 2013",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4C_1_2013#e-4-3"
+    },
+    "or-135": {
+      "type": "statute",
+      "sr": "220",
+      "article": "135",
+      "label": "OR · Art. 135",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_135",
+      "sha256": "ea4288e1a4dd58a37f69014cc171e1ee1208effc66e1ab3df1d2f4632a373a3f"
+    },
+    "zpo-101": {
+      "type": "statute",
+      "sr": "272",
+      "article": "101",
+      "label": "ZPO · Art. 101",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_101",
+      "sha256": "ca5c615b3d26005a2fc033ca84cdb3e365edede16f769804dc227594fd753a58"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-114": {
+      "type": "statute",
+      "sr": "272",
+      "article": "114",
+      "label": "ZPO · Art. 114",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_114",
+      "sha256": "38eaf66dcbf458b7f7511782fcfc1f50eb245766b282c410fbd3339e5a2e7693"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-118": {
+      "type": "statute",
+      "sr": "272",
+      "article": "118",
+      "label": "ZPO · Art. 118",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_118",
+      "sha256": "57a8d1e56776ed20bbadaca565061ad61cd00d26966d007c619f329a9a784977"
+    },
+    "zpo-119": {
+      "type": "statute",
+      "sr": "272",
+      "article": "119",
+      "label": "ZPO · Art. 119",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_119",
+      "sha256": "bf8467f9dc0132a434da5cb4dea0ca8d677786666a7cc33dcb3d9971bacbb21d"
+    },
+    "zpo-130": {
+      "type": "statute",
+      "sr": "272",
+      "article": "130",
+      "label": "ZPO · Art. 130",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_130",
+      "sha256": "990b5b7516eaddffc6afcbe95fe4e90303b9e4e5d359263b22a879de0853735d"
+    },
+    "zpo-142": {
+      "type": "statute",
+      "sr": "272",
+      "article": "142",
+      "label": "ZPO · Art. 142",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_142",
+      "sha256": "1a32d9e0194b34eed728994ccecbb3c906bcf0d4928ce40519bf4ccfbb35bee7"
+    },
+    "zpo-143": {
+      "type": "statute",
+      "sr": "272",
+      "article": "143",
+      "label": "ZPO · Art. 143",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_143",
+      "sha256": "c4db8d1befe974165154b790d33d87ccbf3ea6efc885a95c0775ebba6aa50dd7"
+    },
+    "zpo-145": {
+      "type": "statute",
+      "sr": "272",
+      "article": "145",
+      "label": "ZPO · Art. 145",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_145",
+      "sha256": "da9b9a4faa60143781d32202737f842239e2c945928e4c565d3895d6991867dd"
+    },
+    "zpo-148": {
+      "type": "statute",
+      "sr": "272",
+      "article": "148",
+      "label": "ZPO · Art. 148",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_148",
+      "sha256": "9227cf4f3568530d2aeb9855b89986afac510fb96b133a95799c4adf1801002b"
+    },
+    "zpo-197": {
+      "type": "statute",
+      "sr": "272",
+      "article": "197",
+      "label": "ZPO · Art. 197",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_197",
+      "sha256": "562350ba8a04d5223adf8117dfe64d143060270395dd9c154bfd6956559133e5"
+    },
+    "zpo-198": {
+      "type": "statute",
+      "sr": "272",
+      "article": "198",
+      "label": "ZPO · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_198",
+      "sha256": "f9a9e217d9f9e15c677af3b0e7b39597f5a276afa8fe7fd5e9d6086dcf7d36c7"
+    },
+    "zpo-199": {
+      "type": "statute",
+      "sr": "272",
+      "article": "199",
+      "label": "ZPO · Art. 199",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_199",
+      "sha256": "945ee88968f40d9080684b25dd74257df191ef2ebe7d694bb87797ae864d606c"
+    },
+    "zpo-200": {
+      "type": "statute",
+      "sr": "272",
+      "article": "200",
+      "label": "ZPO · Art. 200",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_200",
+      "sha256": "f8cec0b808df4a67a4a9678569428745237cf9ec7f833b2cd67bb42d2929020b"
+    },
+    "zpo-201": {
+      "type": "statute",
+      "sr": "272",
+      "article": "201",
+      "label": "ZPO · Art. 201",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_201",
+      "sha256": "47064beaa6477d361306caa559439c4ca1634a1efcf829dc60c1c7beb59293c8"
+    },
+    "zpo-202": {
+      "type": "statute",
+      "sr": "272",
+      "article": "202",
+      "label": "ZPO · Art. 202",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_202",
+      "sha256": "937c186d72375c4740ee7441d128cc64aac187573cc4fb90f7f0fb6b5893bb6c"
+    },
+    "zpo-203": {
+      "type": "statute",
+      "sr": "272",
+      "article": "203",
+      "label": "ZPO · Art. 203",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_203",
+      "sha256": "65353c5535d36e14008a2db052138362209fdaf5fd9a234cc1e2785def754dd0"
+    },
+    "zpo-204": {
+      "type": "statute",
+      "sr": "272",
+      "article": "204",
+      "label": "ZPO · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_204",
+      "sha256": "1dfd0c6a3cfb29def0a71b04ab92554858cdac71e95eb5c0c7a6600dd8046cf4"
+    },
+    "zpo-205": {
+      "type": "statute",
+      "sr": "272",
+      "article": "205",
+      "label": "ZPO · Art. 205",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_205",
+      "sha256": "33558b568026265299b0eb8b619a7eda9e602ea47962797cf8828ba592a1e8bd"
+    },
+    "zpo-206": {
+      "type": "statute",
+      "sr": "272",
+      "article": "206",
+      "label": "ZPO · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_206",
+      "sha256": "e2c4b2bb107d7ae551013d688d497a41db13f53abad4e68e53271e45f99de4bb"
+    },
+    "zpo-207": {
+      "type": "statute",
+      "sr": "272",
+      "article": "207",
+      "label": "ZPO · Art. 207",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_207",
+      "sha256": "3321d2be2f6efcce4bec1408b0225affd761e9a313588dc2d93f781866709068"
+    },
+    "zpo-208": {
+      "type": "statute",
+      "sr": "272",
+      "article": "208",
+      "label": "ZPO · Art. 208",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_208",
+      "sha256": "301995951d3a6c1de0b7d5da2b4257c4381f24005c694057475dfe9cfd958d79"
+    },
+    "zpo-209": {
+      "type": "statute",
+      "sr": "272",
+      "article": "209",
+      "label": "ZPO · Art. 209",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_209",
+      "sha256": "abcfa5dffdd2c53370914c798a1a2b623b3652c025b875cb75678b07125fba13"
+    },
+    "zpo-210": {
+      "type": "statute",
+      "sr": "272",
+      "article": "210",
+      "label": "ZPO · Art. 210",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_210",
+      "sha256": "584d47587412193ec3ebcde43f6f8c454992333ac51d2676fdf966eeaa0c0561"
+    },
+    "zpo-211": {
+      "type": "statute",
+      "sr": "272",
+      "article": "211",
+      "label": "ZPO · Art. 211",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_211",
+      "sha256": "68a788bc1bd152cdc5012969379926caff8195305064632d48b05b5b43710914"
+    },
+    "zpo-212": {
+      "type": "statute",
+      "sr": "272",
+      "article": "212",
+      "label": "ZPO · Art. 212",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_212",
+      "sha256": "6fa28c0f4b803c4ed768f97056b6170d607ec6ed4e3bb8a363d0fc5901f5fa6e"
+    },
+    "zpo-213": {
+      "type": "statute",
+      "sr": "272",
+      "article": "213",
+      "label": "ZPO · Art. 213",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_213",
+      "sha256": "750c0f2650f4cd25c74e20d5bb867bea8fd2f9cbc237deb1bfc5131fe48bfb6a"
+    },
+    "zpo-215": {
+      "type": "statute",
+      "sr": "272",
+      "article": "215",
+      "label": "ZPO · Art. 215",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_215",
+      "sha256": "5f5411c39c840a9d009ca4edf39fdda370301ec38608e04b1a53851aa1a2d678"
+    },
+    "zpo-216": {
+      "type": "statute",
+      "sr": "272",
+      "article": "216",
+      "label": "ZPO · Art. 216",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_216",
+      "sha256": "45e9c1d9a15cd7c042a2fc12f313e59e40d7d8aa908381c796e8a608a6424fac"
+    },
+    "zpo-217": {
+      "type": "statute",
+      "sr": "272",
+      "article": "217",
+      "label": "ZPO · Art. 217",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_217",
+      "sha256": "9a93749210ffd0ad5724dfca05b42c8ffbefa2496a3073f0b8a0d11aae49a4cf"
+    },
+    "zpo-218": {
+      "type": "statute",
+      "sr": "272",
+      "article": "218",
+      "label": "ZPO · Art. 218",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_218",
+      "sha256": "e4e8074a5946c0b5d1520215cde9230223d5aef6fabf33e1cd567335699739d5"
+    },
+    "zpo-238": {
+      "type": "statute",
+      "sr": "272",
+      "article": "238",
+      "label": "ZPO · Art. 238",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_238",
+      "sha256": "eaace4462c37fb5734b8771f8797e769db3b0fc5e03d13a1c2fc570dccafb75b"
+    },
+    "zpo-243": {
+      "type": "statute",
+      "sr": "272",
+      "article": "243",
+      "label": "ZPO · Art. 243",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_243",
+      "sha256": "b73bc28a6f32382418bbafc458eb9fccbc0fd09968cf4ac5b8134be18f91bbce"
+    },
+    "zpo-319": {
+      "type": "statute",
+      "sr": "272",
+      "article": "319",
+      "label": "ZPO · Art. 319",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_319",
+      "sha256": "41bdc6722cd85e0e2c4f0a0f897fa6e5c014d79c24021104636abff904b5a86c"
+    },
+    "zpo-400": {
+      "type": "statute",
+      "sr": "272",
+      "article": "400",
+      "label": "ZPO · Art. 400",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_400",
+      "sha256": "f1f1332c12b39b889900dd8f3fbac4d212e5f11c8405b4c67308ad76d6f85525"
+    },
+    "zpo-62": {
+      "type": "statute",
+      "sr": "272",
+      "article": "62",
+      "label": "ZPO · Art. 62",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_62",
+      "sha256": "561ba4deec9540e574b3e56e0024c2431249bd89d842c7b42206154e98f71991"
+    },
+    "zpo-63": {
+      "type": "statute",
+      "sr": "272",
+      "article": "63",
+      "label": "ZPO · Art. 63",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_63",
+      "sha256": "89f61cd3f887dd3696a8c6d29c0a384801e0d5bbc74bae165afb8b45e775582e"
+    },
+    "zpo-68": {
+      "type": "statute",
+      "sr": "272",
+      "article": "68",
+      "label": "ZPO · Art. 68",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_68",
+      "sha256": "273d3308300c0301108c42d18580f58accb6635e7704001d82a0c3dd38f6c5a5"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-98": {
+      "type": "statute",
+      "sr": "272",
+      "article": "98",
+      "label": "ZPO · Art. 98",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_98",
+      "sha256": "014dce33d0b328656f07556ff7b40ddcce37bc03a9d3203c6e1ffbecb033428a"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Justiz: Formulare für Parteieingaben, darunter das Schlichtungsgesuch"
+      },
+      "url": "https://www.bj.admin.ch/de/formulare-fuer-parteieingaben"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Wohnungswesen: Schlichtungsverfahren Miete und Pacht, mit Adressen der Schlichtungsbehörden"
+      },
+      "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

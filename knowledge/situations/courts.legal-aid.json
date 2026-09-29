@@ -1,0 +1,680 @@
+{
+  "schema": 1,
+  "id": "courts.legal-aid",
+  "domain": "courts",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich kann mir ein Verfahren oder eine Anwältin nicht leisten"
+  },
+  "summary": {
+    "de": "Wer kein Geld für Gericht und Anwalt hat, kann unentgeltliche Rechtspflege beantragen. Sie erhalten sie, wenn Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist; eine Anwältin oder einen Anwalt zusätzlich, wenn Sie das brauchen. Im Strafverfahren gibt es die amtliche Verteidigung. Stellen Sie das Gesuch früh. Die Hilfe deckt nicht alles, und oft müssen Sie später zurückzahlen, wenn es Ihnen besser geht."
+  },
+  "examples": {
+    "de": [
+      "Ich cha mir kei Anwalt leischte, was chan ich mache?",
+      "Wer zahlt die Gerichtskosten, wenn ich kein Geld habe?",
+      "Ich bin angeklagt und habe kein Geld für einen Verteidiger.",
+      "Kriegt man einen Gratis-Anwalt, wenn man Sozialhilfe bezieht?",
+      "Wie beantrage ich die unentgeltliche Rechtspflege für meine Scheidung?",
+      "Muss ich den Pflichtverteidiger später zurückzahlen?",
+      "Ich bin Opfer einer Straftat und kann mir keinen Anwalt leisten.",
+      "Das Gericht will einen Kostenvorschuss, aber ich hab das Geld nöd."
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Unentgeltliche Rechtspflege und unentgeltlicher Rechtsbeistand in Zivilprozessen, im Strafverfahren (amtliche Verteidigung, Hilfe für Privatklägerschaft und Opfer), in Verfahren gegenüber Behörden und Sozialversicherungen sowie vor dem Bundesgericht."
+    },
+    "excludes": {
+      "de": "Wie Sie eine Anwältin oder einen Anwalt finden und was ein Mandat kostet, die Leistungen der Opferhilfe im Einzelnen und das Schlichtungsverfahren. Dafür gibt es eigene Anleitungen. Kantonale Gebühren und Tarife werden hier nicht angegeben."
+    }
+  },
+  "facts": [
+    {
+      "key": "procedure",
+      "question": {
+        "de": "Um welche Art von Verfahren geht es?"
+      },
+      "options": [
+        {
+          "value": "civil",
+          "label": {
+            "de": "Ein Streit mit einer Privatperson oder Firma, zum Beispiel Scheidung, Miete oder Lohn"
+          }
+        },
+        {
+          "value": "criminal-accused",
+          "label": {
+            "de": "Ein Strafverfahren gegen mich"
+          }
+        },
+        {
+          "value": "criminal-victim",
+          "label": {
+            "de": "Ein Strafverfahren, in dem ich Opfer oder geschädigt bin"
+          }
+        },
+        {
+          "value": "administrative",
+          "label": {
+            "de": "Ein Verfahren gegen eine Behörde oder eine Sozialversicherung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "stage",
+      "question": {
+        "de": "Läuft das Verfahren schon?"
+      },
+      "options": [
+        {
+          "value": "not-yet",
+          "label": {
+            "de": "Nein, noch nicht"
+          }
+        },
+        {
+          "value": "running",
+          "label": {
+            "de": "Ja, es läuft"
+          }
+        },
+        {
+          "value": "refused",
+          "label": {
+            "de": "Ja, und mein Gesuch um unentgeltliche Rechtspflege wurde abgelehnt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "insurance",
+      "question": {
+        "de": "Haben Sie eine Rechtsschutzversicherung?"
+      },
+      "help": {
+        "de": "Sie kann auch Teil einer anderen Versicherung oder einer Mitgliedschaft sein, zum Beispiel bei einer Gewerkschaft."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Ich weiss es nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "three-conditions",
+      "kind": "rule",
+      "text": {
+        "de": "Die Bundesverfassung gibt jeder Person, der das Geld für ein Verfahren fehlt, Anspruch auf unentgeltliche Rechtspflege. Drei Punkte zählen. Erstens: Sie haben nicht genug Mittel. Das trifft zu, wenn Sie Gericht und Anwalt nur bezahlen könnten, indem Sie Geld brauchen, das Sie für Ihren eigenen Lebensunterhalt und den Ihrer Familie benötigen. Geprüft wird Ihre ganze Lage im Zeitpunkt des Gesuchs: Lohn und andere Einkünfte, Erspartes und die Ausgaben, die Sie tatsächlich bezahlen. Bleibt Ihnen jeden Monat so viel übrig, dass Sie die Kosten in einem einfachen Fall innert etwa einem Jahr, in anderen Fällen innert etwa zwei Jahren abzahlen könnten, fehlt es in der Regel an dieser Voraussetzung. Zweitens: Ihr Anliegen ist nicht aussichtslos. Aussichtslos heisst, dass die Chancen, zu gewinnen, klar kleiner sind als das Risiko, zu verlieren. Das Gericht fragt, ob eine vernünftige Person mit genug Geld den gleichen Prozess auch führen würde. Sind Chancen und Risiken etwa gleich gross, ist das Anliegen nicht aussichtslos. Drittens: Eine Anwältin oder einen Anwalt erhalten Sie zusätzlich, wenn Sie ohne Hilfe Ihre Rechte nicht richtig wahren könnten, etwa weil viel für Sie auf dem Spiel steht und der Fall rechtlich oder tatsächlich schwierig ist."
+      },
+      "sources": [
+        "bv-29",
+        "bge-135-i-221",
+        "bge-142-iii-138",
+        "bge-128-i-225"
+      ]
+    },
+    {
+      "id": "family-and-insurance-first",
+      "kind": "rule",
+      "text": {
+        "de": "Der Staat springt nur ein, wenn niemand sonst für die Kosten aufkommen muss. Sind Sie verheiratet, muss Ihnen Ihr Ehemann oder Ihre Ehefrau in einem Rechtsstreit mit einem Kostenvorschuss helfen, soweit er oder sie das kann. Diese Pflicht geht der unentgeltlichen Rechtspflege vor. Für Partnerinnen und Partner im Konkubinat gilt diese Pflicht nicht; das Gericht darf aber berücksichtigen, dass Sie die Kosten des gemeinsamen Haushalts teilen. Haben Sie eine Rechtsschutzversicherung, die den Fall deckt, oder übernimmt eine Gewerkschaft oder ein Verband, bei dem Sie Mitglied sind, die Vertretung, sind Ihre Kosten bereits gedeckt. Dann bezahlt der Staat dafür nicht."
+      },
+      "sources": [
+        "bge-142-iii-36",
+        "bge-135-i-1"
+      ]
+    },
+    {
+      "id": "insurance-check",
+      "kind": "step",
+      "when": {
+        "insurance": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie Ihre Verträge: Eine Rechtsschutzversicherung kann auch Teil eines anderen Versicherungsvertrags oder einer Mitgliedschaft sein. Melden Sie den Fall der Versicherung so früh wie möglich und fragen Sie schriftlich, ob und in welchem Umfang sie die Kosten übernimmt. Lehnt sie ab oder deckt sie nur einen Teil, legen Sie diese Antwort Ihrem Gesuch um unentgeltliche Rechtspflege bei."
+      }
+    },
+    {
+      "id": "civil-what-covered",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "civil",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Im Zivilprozess, zum Beispiel bei einer Scheidung, einem Streit mit dem Vermieter oder einer Lohnklage, bedeutet unentgeltliche Rechtspflege: Sie müssen keine Kostenvorschüsse und keine Sicherheiten leisten, Sie bezahlen keine Gerichtskosten, und das Gericht setzt Ihnen eine Anwältin oder einen Anwalt ein, wenn Sie das zur Wahrung Ihrer Rechte brauchen. Das ist besonders der Fall, wenn die Gegenseite anwaltlich vertreten ist. Die Anwältin oder der Anwalt kann schon eingesetzt werden, um den Prozess vorzubereiten. Das Gericht kann die Hilfe ganz oder nur teilweise gewähren, zum Beispiel nur für die Gerichtskosten, aber ohne Anwalt. Sie ist auch möglich, wenn Sie vor einem Prozess Beweise sichern lassen wollen."
+      },
+      "sources": [
+        "zpo-117",
+        "zpo-118"
+      ]
+    },
+    {
+      "id": "civil-other-side-costs",
+      "kind": "cost",
+      "when": {
+        "procedure": [
+          "civil",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die unentgeltliche Rechtspflege schützt Sie nicht vor allen Kosten. Verlieren Sie den Prozess, übernimmt der Kanton zwar Ihre Gerichtskosten und Ihre eigene Anwältin oder Ihren eigenen Anwalt. Die Entschädigung, die das Gericht der Gegenseite für deren Anwalt zuspricht, müssen Sie aber selbst bezahlen. Rechnen Sie dieses Risiko mit ein, bevor Sie klagen oder ein Rechtsmittel ergreifen."
+      },
+      "sources": [
+        "zpo-118",
+        "zpo-122"
+      ]
+    },
+    {
+      "id": "how-to-apply",
+      "kind": "step",
+      "text": {
+        "de": "Stellen Sie das Gesuch bei der Stelle, die Ihr Verfahren führt: beim Gericht, bei der Staatsanwaltschaft oder bei der Beschwerdeinstanz. Viele Gerichte und Kantone haben dafür ein Formular. Legen Sie Ihre Einkommens- und Vermögensverhältnisse vollständig offen und belegen Sie sie, etwa mit Lohnabrechnungen, Steuerveranlagung, Kontoauszügen, Mietvertrag, Krankenkassenprämien und Belegen für Schulden, die Sie tatsächlich abzahlen. Erklären Sie kurz, worum es geht und welche Beweise Sie haben. Im Zivilprozess können Sie im Gesuch auch die Anwältin oder den Anwalt nennen, die oder der Sie vertreten soll. Fehlen Angaben oder Belege, kann das Gesuch abgelehnt werden."
+      },
+      "sources": [
+        "zpo-119",
+        "bge-135-i-221"
+      ]
+    },
+    {
+      "id": "civil-before-filing",
+      "kind": "step",
+      "when": {
+        "procedure": [
+          "civil",
+          "unknown"
+        ],
+        "stage": [
+          "not-yet",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Im Zivilprozess müssen Sie nicht warten, bis die Klage eingereicht ist. Sie können das Gesuch schon vorher stellen. Das Gericht entscheidet darüber rasch in einem kurzen Verfahren (summarisches Verfahren). Für das Gesuch selbst werden keine Gerichtskosten verlangt, ausser Sie handeln böswillig oder mutwillig."
+      },
+      "sources": [
+        "zpo-119"
+      ]
+    },
+    {
+      "id": "apply-early",
+      "kind": "warning",
+      "text": {
+        "de": "Stellen Sie das Gesuch so früh wie möglich. Die unentgeltliche Rechtspflege wirkt grundsätzlich erst ab dem Tag, an dem Sie sie beantragen. Mitgedeckt ist in der Regel noch die Arbeit der Anwältin oder des Anwalts für die Eingabe, mit der Sie das Gesuch einreichen. Kosten, die vorher entstanden sind, übernimmt der Staat nur ausnahmsweise. Wird Ihre finanzielle Lage erst während des Verfahrens schlechter, stellen Sie sofort ein Gesuch."
+      },
+      "sources": [
+        "zpo-119",
+        "bge-122-i-203"
+      ]
+    },
+    {
+      "id": "refusal-challenge",
+      "kind": "warning",
+      "text": {
+        "de": "Wird Ihr Gesuch ganz oder teilweise abgelehnt oder wird Ihnen die Hilfe später entzogen, können Sie sich dagegen wehren. Die Fristen sind kurz: Im Zivilprozess beträgt die Frist für die Beschwerde gegen einen solchen Entscheid 10 Tage, im Strafverfahren beträgt die Beschwerdefrist ebenfalls 10 Tage. In anderen Verfahren gilt, was in der Rechtsmittelbelehrung am Ende des Entscheids steht. Lesen Sie diese sofort und halten Sie die Frist ein."
+      },
+      "sources": [
+        "zpo-120",
+        "zpo-121",
+        "zpo-321",
+        "stpo-396"
+      ]
+    },
+    {
+      "id": "appeal-new-application",
+      "kind": "warning",
+      "text": {
+        "de": "Die Bewilligung gilt nur für die Instanz, die sie erteilt hat. Ziehen Sie oder die Gegenseite den Fall an die nächste Instanz weiter, müssen Sie dort neu ein Gesuch stellen. Das gilt im Zivilprozess, im Strafverfahren und auch vor dem Bundesgericht. Das Bundesgericht befreit Sie auf Antrag von den Gerichtskosten und von der Sicherheit für die Entschädigung der Gegenseite, wenn Ihnen die Mittel fehlen und Ihr Begehren nicht aussichtslos ist. Wenn nötig, setzt es Ihnen eine Anwältin oder einen Anwalt ein."
+      },
+      "sources": [
+        "zpo-119",
+        "stpo-136",
+        "bgg-64"
+      ]
+    },
+    {
+      "id": "repayment",
+      "kind": "warning",
+      "when": {
+        "procedure": [
+          "civil",
+          "administrative",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Unentgeltliche Rechtspflege ist kein Geschenk für immer. Im Zivilprozess müssen Sie dem Kanton die Kosten zurückzahlen, sobald Sie dazu in der Lage sind. Der Kanton kann das während 10 Jahren nach dem Ende des Verfahrens verlangen. Vor dem Bundesgericht und vor Beschwerdeinstanzen des Bundes gilt ebenfalls: Geht es Ihnen später finanziell besser, müssen Sie zurückzahlen. Eine Ausnahme gilt für den unentgeltlichen Rechtsbeistand im Verfahren vor einer Sozialversicherung selbst: Dort gibt es keine gesetzliche Grundlage, um die Kosten später zurückzufordern. Bei kantonalen Behörden und Gerichten regelt das kantonale Recht, ob und wie zurückgefordert wird. Im Zivilprozess kann das Gericht die Hilfe zudem entziehen, wenn ihre Voraussetzungen wegfallen, zum Beispiel weil Sie Geld erben."
+      },
+      "sources": [
+        "zpo-123",
+        "zpo-120",
+        "bgg-64",
+        "vwvg-65",
+        "bge-144-v-97"
+      ]
+    },
+    {
+      "id": "criminal-mandatory-defence",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "criminal-accused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Im Strafverfahren brauchen Sie in bestimmten Fällen zwingend eine Verteidigung, unabhängig davon, ob Sie sie bezahlen können oder wollen. Das ist unter anderem so, wenn Sie mit einer vorläufigen Festnahme zusammen mehr als 10 Tage in Untersuchungshaft waren, wenn Ihnen mehr als ein Jahr Freiheitsstrafe, eine freiheitsentziehende Massnahme oder eine Landesverweisung droht, wenn Sie Ihre Interessen wegen Ihres Gesundheitszustands oder aus anderen Gründen nicht selbst wahren können, wenn die Staatsanwaltschaft vor Gericht persönlich auftritt oder wenn ein abgekürztes Verfahren durchgeführt wird. Wählen Sie in diesen Fällen keine eigene Verteidigung, setzt die Behörde eine amtliche Verteidigung ein."
+      },
+      "sources": [
+        "stpo-130",
+        "stpo-132"
+      ]
+    },
+    {
+      "id": "criminal-official-defence",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "criminal-accused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch ausserhalb dieser Fälle erhalten Sie eine amtliche Verteidigung, wenn Ihnen das Geld für einen Anwalt fehlt und eine Verteidigung für Ihre Interessen nötig ist. Nötig ist sie, wenn es nicht um eine Kleinigkeit geht und der Fall so schwierig ist, dass Sie allein überfordert wären. Um eine Kleinigkeit geht es jedenfalls nicht mehr, wenn mehr als 4 Monate Freiheitsstrafe oder mehr als 120 Tagessätze Geldstrafe zu erwarten sind. Beantragen Sie die amtliche Verteidigung bei der Staatsanwaltschaft oder beim Gericht, das Ihr Verfahren führt."
+      },
+      "sources": [
+        "stpo-132"
+      ]
+    },
+    {
+      "id": "criminal-repay",
+      "kind": "warning",
+      "when": {
+        "procedure": [
+          "criminal-accused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine amtliche Verteidigung ist nicht in jedem Fall am Ende gratis. Der Staat bezahlt die Anwältin oder den Anwalt zuerst. Werden Sie aber verurteilt, die Verfahrenskosten zu tragen, müssen Sie dem Staat diese Entschädigung zurückzahlen, sobald Ihre finanzielle Lage es erlaubt. Der Staat kann das bis 10 Jahre nach dem rechtskräftigen Entscheid verlangen."
+      },
+      "sources": [
+        "stpo-135"
+      ]
+    },
+    {
+      "id": "criminal-victim",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "criminal-victim",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Beteiligen Sie sich als Privatklägerin oder Privatkläger am Strafverfahren, können Sie unentgeltliche Rechtspflege erhalten, um Ihre Zivilansprüche durchzusetzen, zum Beispiel Schadenersatz oder Genugtuung. Sind Sie Opfer einer Straftat, ist sie auch für die Bestrafung der Täterin oder des Täters möglich. Voraussetzung ist jeweils, dass Ihnen die Mittel fehlen und Ihr Anliegen nicht aussichtslos ist. Die Hilfe umfasst die Befreiung von Vorschüssen, Sicherheiten und Verfahrenskosten sowie eine Anwältin oder einen Anwalt, wenn das nötig ist. Opfer und ihre Angehörigen müssen diese Kosten später nicht zurückzahlen. Bei anderen Privatklägerinnen und Privatklägern entscheidet die Behörde am Ende, wer die Kosten trägt."
+      },
+      "sources": [
+        "stpo-136",
+        "stpo-138"
+      ]
+    },
+    {
+      "id": "admin-procedure",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "administrative",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auch gegenüber Behörden gilt der Anspruch aus der Bundesverfassung. Fechten Sie den Entscheid einer Bundesbehörde an, befreit Sie die Beschwerdeinstanz nach Einreichung der Beschwerde auf Antrag von den Verfahrenskosten, wenn Ihnen die Mittel fehlen und Ihre Beschwerde nicht aussichtslos ist. Wenn nötig, erhalten Sie eine Anwältin oder einen Anwalt. Für Verfahren vor kantonalen und kommunalen Behörden regelt der Kanton die Einzelheiten. Er muss aber mindestens gewähren, was die Bundesverfassung verlangt. Wie das Gesuch zu stellen ist, erfahren Sie bei der zuständigen Behörde oder im kantonalen Verfahrensgesetz."
+      },
+      "sources": [
+        "vwvg-65",
+        "bv-29"
+      ]
+    },
+    {
+      "id": "social-insurance",
+      "kind": "rule",
+      "when": {
+        "procedure": [
+          "administrative",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei Sozialversicherungen, etwa der IV, der Unfall- oder der Arbeitslosenversicherung, gibt es zwei Stufen. Im Verfahren vor der Versicherung selbst erhalten Sie nur dann einen unentgeltlichen Rechtsbeistand, wenn die Umstände es wirklich verlangen. Dieser Massstab ist streng; oft wird zuerst erwartet, dass Sie Hilfe bei einer Beratungsstelle, einem Sozialdienst oder einem Verband suchen. Vor dem kantonalen Versicherungsgericht wird ein unentgeltlicher Rechtsbeistand bewilligt, wenn die Verhältnisse es rechtfertigen. Das Gerichtsverfahren ist bei vielen Sozialversicherungen kostenlos. Bei Streit um Leistungen der IV kostet es aber Gerichtsgebühren; auch davon können Sie befreit werden, wenn Ihnen die Mittel fehlen."
+      },
+      "sources": [
+        "atsg-37",
+        "atsg-61",
+        "ivg-69",
+        "bv-29"
+      ]
+    },
+    {
+      "id": "victim-support-pointer",
+      "kind": "free-help",
+      "when": {
+        "procedure": [
+          "criminal-victim",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie Opfer einer Straftat sind, hilft Ihnen die Opferhilfe-Beratungsstelle in Ihrem Kanton. Die Beratung ist für Opfer und Angehörige kostenlos. Die Beratungsstelle kann Ihnen auch helfen, eine Anwältin oder einen Anwalt zu finden, und klärt ab, welche Kosten die Opferhilfe übernimmt. Mehr dazu finden Sie in der Anleitung zur Opferhilfe."
+      },
+      "sources": [
+        "ohg-5"
+      ]
+    },
+    {
+      "id": "refused-advice",
+      "kind": "escalate",
+      "when": {
+        "stage": [
+          "refused"
+        ]
+      },
+      "text": {
+        "de": "Ihr Gesuch wurde abgelehnt. Lassen Sie sofort prüfen, ob sich eine Beschwerde lohnt, und beachten Sie die kurze Frist. Wurde Ihr Anliegen als aussichtslos beurteilt, lassen Sie diese Einschätzung von einer Fachperson überprüfen."
+      }
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Lassen Sie sich beraten, wenn Ihnen im Strafverfahren eine hohe Strafe droht, wenn Ihr Gesuch abgelehnt wurde, wenn Sie nicht sicher sind, ob Ihr Anliegen Chancen hat, oder wenn es um viel Geld oder um Ihre Kinder geht. Viele Anwältinnen und Anwälte stellen das Gesuch um unentgeltliche Rechtspflege für Sie. Fragen Sie beim ersten Kontakt direkt danach."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Viele Gerichtskanzleien geben Ihnen ein Formular für das Gesuch und erklären das Verfahren. In den meisten Kantonen gibt es Rechtsauskunftsstellen, oft von den kantonalen Anwaltsverbänden, die eine erste Auskunft kostenlos oder günstig geben. Mitglieder einer Gewerkschaft, eines Mieterverbands oder eines anderen Verbands erhalten dort oft Rechtsberatung. Bei Sozialversicherungen helfen Beratungsstellen für Menschen mit Behinderungen und Sozialdienste. Der Sozialdienst Ihrer Gemeinde kann Ihnen auch helfen, die Unterlagen für das Gesuch zusammenzustellen."
+      }
+    }
+  ],
+  "sources": {
+    "bv-29": {
+      "type": "statute",
+      "sr": "101",
+      "article": "29",
+      "label": "BV · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_29",
+      "sha256": "50280ceb6b3ce862d8db477b1915ecb2a07aa51d1f504d45ba22226b27cdf71d"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-118": {
+      "type": "statute",
+      "sr": "272",
+      "article": "118",
+      "label": "ZPO · Art. 118",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_118",
+      "sha256": "57a8d1e56776ed20bbadaca565061ad61cd00d26966d007c619f329a9a784977"
+    },
+    "zpo-119": {
+      "type": "statute",
+      "sr": "272",
+      "article": "119",
+      "label": "ZPO · Art. 119",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_119",
+      "sha256": "bf8467f9dc0132a434da5cb4dea0ca8d677786666a7cc33dcb3d9971bacbb21d"
+    },
+    "zpo-120": {
+      "type": "statute",
+      "sr": "272",
+      "article": "120",
+      "label": "ZPO · Art. 120",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_120",
+      "sha256": "25d683b8a29d446ceafa39bc47a6d3bc1484761509ab073ea284df4f69841b21"
+    },
+    "zpo-121": {
+      "type": "statute",
+      "sr": "272",
+      "article": "121",
+      "label": "ZPO · Art. 121",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_121",
+      "sha256": "50671a08c23d8b0c4c1bf70cc4f34deeb00dbbf739a71948838364d21066a67f"
+    },
+    "zpo-122": {
+      "type": "statute",
+      "sr": "272",
+      "article": "122",
+      "label": "ZPO · Art. 122",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_122",
+      "sha256": "2c00aa89deb8a8d8ee542613db1b2c384501bebba93f69698cbf7cb68dc9849d"
+    },
+    "zpo-123": {
+      "type": "statute",
+      "sr": "272",
+      "article": "123",
+      "label": "ZPO · Art. 123",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_123",
+      "sha256": "87067f3372ec43e1670c85ae03d15f5d68d5615a70701aaf350d76b8f2d2e899"
+    },
+    "zpo-321": {
+      "type": "statute",
+      "sr": "272",
+      "article": "321",
+      "label": "ZPO · Art. 321",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_321",
+      "sha256": "f4b5c9c747911f5da610eee00401b863e8f86079275ec2bb15bcb9eb0e0611ef"
+    },
+    "stpo-130": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "130",
+      "label": "StPO · Art. 130",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_130",
+      "sha256": "1867cc7bf1bd2878eeadd37e97fccdb80eec77a1493e599988714894349eec21"
+    },
+    "stpo-132": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "132",
+      "label": "StPO · Art. 132",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_132",
+      "sha256": "b942d9f9335d534cd29a9c08e56dce485056127ea95579a31ab804dfd0164b17"
+    },
+    "stpo-135": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "135",
+      "label": "StPO · Art. 135",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_135",
+      "sha256": "9ac5d61ce36c97195c554911637f247ab13903224555d976c947cc8de656a1d1"
+    },
+    "stpo-136": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "136",
+      "label": "StPO · Art. 136",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_136",
+      "sha256": "424f0ed46fbb53db8d35cf467dac46ee175bc97517105745b50461f7c98ca9f2"
+    },
+    "stpo-138": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "138",
+      "label": "StPO · Art. 138",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_138",
+      "sha256": "4421dd55f1fe08f4cb52c9ccbb5317bfdbea92be290c2a5bedcaf84c65594ce9"
+    },
+    "stpo-396": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "396",
+      "label": "StPO · Art. 396",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_396",
+      "sha256": "c7f5c33c54555d382063ac93332bc0925a79addfae3621c996e2b48ab3e26835"
+    },
+    "vwvg-65": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "65",
+      "label": "VwVG · Art. 65",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_65",
+      "sha256": "2cf5934082b83748572f2b157e595dae41f89bc9123aece9c3e60f3000945b51"
+    },
+    "bgg-64": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "64",
+      "label": "BGG · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_64",
+      "sha256": "14ccc253b2393fe8ee95f0f45da3aab6b1a4adef8ac313951593639ae62502f4"
+    },
+    "atsg-37": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "37",
+      "label": "ATSG · Art. 37",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_37",
+      "sha256": "00232b14e344827a12be5b283a6a2055db79f8c6e71f17c34f4d3524bb930eea"
+    },
+    "atsg-61": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "61",
+      "label": "ATSG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_61",
+      "sha256": "bfcd579d997ba4f6e8dc23876f903ee0f307b95f32bf5302d45ba3f164ed5a2c"
+    },
+    "ivg-69": {
+      "type": "statute",
+      "sr": "831.20",
+      "article": "69",
+      "label": "IVG · Art. 69",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/827_857_845/de#art_69",
+      "sha256": "2f5dbaae1af4c5ff87df0fec1f49583e76a1d99ed6b370f04160688dec9d0e37"
+    },
+    "ohg-5": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "5",
+      "label": "OHG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_5",
+      "sha256": "c62bef975b1e5c8f0cdc36e1221f90e1eded88f624a64139dff2059de93f2600"
+    },
+    "bge-135-i-221": {
+      "type": "decision",
+      "decision_id": "bge_BGE_135_I_221",
+      "citation": "BGE 135 I 221",
+      "e": "5.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_135_I_221#e-5-1"
+    },
+    "bge-142-iii-138": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_138",
+      "citation": "BGE 142 III 138",
+      "e": "5.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_138#e-5-1"
+    },
+    "bge-128-i-225": {
+      "type": "decision",
+      "decision_id": "bge_BGE_128_I_225",
+      "citation": "BGE 128 I 225",
+      "e": "2.5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_128_I_225#e-2-5-2"
+    },
+    "bge-122-i-203": {
+      "type": "decision",
+      "decision_id": "bge_BGE_122_I_203",
+      "citation": "BGE 122 I 203",
+      "e": "2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_122_I_203#e-2"
+    },
+    "bge-142-iii-36": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_III_36",
+      "citation": "BGE 142 III 36",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_III_36#e-2-3"
+    },
+    "bge-135-i-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_135_I_1",
+      "citation": "BGE 135 I 1",
+      "e": "7.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_135_I_1#e-7-4"
+    },
+    "bge-144-v-97": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_V_97",
+      "citation": "BGE 144 V 97",
+      "e": "3.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_V_97#e-3-5"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen in den Kantonen"
+      },
+      "url": "https://www.sav-fsa.ch/de/rechtsauskunft"
+    },
+    {
+      "label": {
+        "de": "Opferhilfe Schweiz: Beratungsstellen in Ihrem Kanton"
+      },
+      "url": "https://www.opferhilfe-schweiz.ch/de/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
