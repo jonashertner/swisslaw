@@ -152,6 +152,8 @@ export const SITE_TEXT = {
   lbl_escalate: e('Beratung', 'Conseil', 'Consulenza', 'Cussegliaziun', 'Advice'),
   'lbl_free-help': e('Hilfe', 'Aide', 'Aiuto', 'Agid', 'Help'),
   lbl_sources: e('Quellen', 'Sources', 'Fonti', 'Funtaunas', 'Sources'),
+  reviewedOn: e('Anwaltlich geprüft am {date}', 'Vérifié par un avocat le {date}', 'Verificato da un avvocato il {date}', 'Examinà d’in advocat ils {date}', 'Reviewed by a lawyer on {date}'),
+  officialSources: e('Amtliche Quellen', 'Sources officielles', 'Fonti ufficiali', 'Funtaunas uffizialas', 'Official sources'),
   mdWhen: e('Gilt, wenn', 'S’applique si', 'Vale se', 'Vala sche', 'Applies if'),
   lbl_scope: e('Geltung', 'Portée', 'Ambito', 'Valaivladad', 'Scope'),
   tocLabel: e('Auf dieser Seite', 'Sur cette page', 'In questa pagina', 'Sin questa pagina', 'On this page'),

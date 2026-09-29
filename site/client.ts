@@ -25,29 +25,63 @@ function fmt(iso: string, weekday = true): string {
 function today(): string { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; }
 
 // --- index: instant search -----------------------------------------------------
+// Folds case and accents one character at a time, so positions in the folded text match the original.
+const fold = (text: string) => [...text].map(c => (c.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase()[0] ?? c)).join('');
+// Marks the start of every word that begins with a query word.
+function highlight(text: string, q: string): DocumentFragment {
+  const words = fold(q).split(/[^\p{L}\p{N}]+/u).filter(w => w.length > 1);
+  const out = document.createDocumentFragment(); const f = fold(text); let at = 0;
+  for (const m of f.matchAll(/[\p{L}\p{N}]+/gu)) {
+    const w = words.filter(w => m[0].startsWith(w)).sort((a, b) => b.length - a.length)[0];
+    if (!w) continue;
+    out.append(text.slice(at, m.index), el('mark', undefined, text.slice(m.index, m.index + w.length))); at = m.index + w.length;
+  }
+  out.append(text.slice(at)); return out;
+}
+const firstSentence = (text: string) => text.split(/(?<=[.!?])\s/)[0];
+
 function initSearch() {
   const form = $<HTMLFormElement>('[data-search]'); const input = $<HTMLInputElement>('#q');
   const results = $<HTMLElement>('#results'); const index = $<HTMLElement>('#index');
   if (!form || !input || !results || !index || !data.search) return;
   form.hidden = false;
+  const examples = $<HTMLElement>('.try', form);
   const list = $<HTMLUListElement>('.entries', results)!; const none = $<HTMLElement>('.none', results)!;
   const items = data.search.map(s => ({ ...s, examples: { de: [], ...s.examples } })) as unknown as Situation[];
   const byId = new Map(data.search.map(s => [s.id, s]));
   const run = () => {
     const q = input.value.trim();
     const searching = q.length > 1;
+    // On the first match, bring the field to the top of the screen so the results are visible below it.
+    if (searching && results.hidden && form.getBoundingClientRect().top > innerHeight * .3)
+      form.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     results.hidden = !searching; index.hidden = searching;
+    if (examples) examples.hidden = searching;
     if (!searching) return;
     const hits = searchSituations(q, items, data.lang, 12);
     list.replaceChildren(...hits.map(h => {
       const s = byId.get(h.id)!; const li = el('li'); const a = el('a') as HTMLAnchorElement; a.href = s.url;
-      a.append(el('span', 'entry-title', s.title[data.lang] ?? s.title.de));
+      const main = el('span', 'entry-main');
+      const title = el('span', 'entry-title'); title.append(highlight(s.title[data.lang] ?? s.title.de, q));
+      const desc = el('span', 'entry-desc'); desc.append(highlight(firstSentence(s.summary[data.lang] ?? s.summary.de), q));
+      if (!s.title[data.lang]) title.lang = 'de';
+      if (!s.summary[data.lang]) desc.lang = 'de';
+      main.append(title, desc); a.append(main);
       if (s.due) a.append(el('span', 'entry-due', s.due));
       li.append(a); return li;
     }));
     none.hidden = hits.length > 0;
   };
   input.addEventListener('input', run);
+  // Arrow keys move between the field and the results; Enter on a result follows it.
+  (results.parentElement ?? form).addEventListener('keydown', e => {
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+    const links = $$<HTMLAnchorElement>('a', list); if (!links.length || results.hidden) return;
+    const i = links.indexOf(document.activeElement as HTMLAnchorElement);
+    const next = e.key === 'ArrowDown' ? Math.min(i + 1, links.length - 1) : i - 1;
+    e.preventDefault();
+    if (next < 0) input.focus(); else links[next].focus();
+  });
   for (const chip of $$<HTMLButtonElement>('.chip', form)) chip.addEventListener('click', () => { input.value = chip.dataset.q ?? ''; run(); input.focus(); });
   form.addEventListener('submit', e => { e.preventDefault(); const first = $<HTMLAnchorElement>('a', list); if (first) location.href = first.href; });
   const initial = new URLSearchParams(location.search).get('q'); if (initial) { input.value = initial; run(); }

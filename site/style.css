@@ -64,7 +64,7 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);flex:1 0 auto}
 .hero{padding:clamp(48px,10vw,128px) 0 clamp(40px,6vw,72px);display:grid;justify-items:center;text-align:center}
 .hero-title{font:420 clamp(2.5rem,1.1rem + 5vw,4.75rem)/1.02 var(--serif);letter-spacing:-.028em;max-width:22ch}
 .hero-sub{margin-top:clamp(16px,2vw,24px);font:400 clamp(1.125rem,1rem + .5vw,1.375rem)/1.5 var(--serif);color:var(--ink-2);max-width:34rem}
-.search{width:100%;max-width:44rem;margin-top:clamp(32px,4.5vw,52px)}
+.search{width:100%;max-width:44rem;margin-top:clamp(32px,4.5vw,52px);scroll-margin-top:16px}
 .search-box{position:relative;display:flex;align-items:center;background:var(--paper);border:1px solid var(--hair-2);border-radius:20px;box-shadow:var(--shadow);transition:border-color .15s,box-shadow .15s}
 .search-box:focus-within{border-color:var(--ink);box-shadow:var(--shadow),0 0 0 4px var(--surface-2)}
 .search-icon{position:absolute;left:22px;color:var(--ink-3);pointer-events:none}
@@ -80,8 +80,14 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);flex:1 0 auto}
 .chip:hover{color:var(--ink)}
 .chip:hover::before{transform:translateX(3px)}
 
-.results{max-width:52rem;margin:0 auto;padding-bottom:64px}
-.results .section-label{margin-bottom:8px}
+.results{width:100%;max-width:44rem;margin:26px auto 0;text-align:left}
+.results .section-label{margin-bottom:4px;padding:0 6px}
+.results .entries a{padding:14px 16px;margin:0 -10px;border-radius:14px;outline-offset:0}
+.results .entries a:hover,.results .entries a:focus-visible{background:var(--surface)}
+.results .entries a:focus-visible{outline:2px solid var(--ink)}
+.results .none{padding:14px 6px;color:var(--ink-2)}
+.try[hidden]{display:none}
+mark{background:none;color:inherit;font-weight:inherit;box-shadow:inset 0 -.42em 0 var(--surface-2)}
 /* Columns, not a grid: areas of different length pack without gaps under the short ones. */
 .areas{columns:3 21rem;column-gap:clamp(28px,4vw,56px)}
 #index{padding-top:clamp(16px,3vw,32px)}
@@ -95,6 +101,9 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);flex:1 0 auto}
 .entries a:hover .entry-title{text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:var(--hair-2);text-underline-offset:.2em}
 .entry-due{flex:none;font:600 .75rem/1 var(--sans);color:var(--ink-2);background:var(--surface);border-radius:999px;padding:6px 9px;font-variant-numeric:tabular-nums;white-space:nowrap}
 .entries-page{max-width:48rem;padding-bottom:clamp(48px,8vw,96px)}
+.entry-main{flex:1 1 14rem;display:grid;gap:3px}
+.entry-desc{font:400 .9375rem/1.45 var(--sans);color:var(--ink-2);display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.entries-page a{padding:16px 0}
 .index-more{margin-top:clamp(8px,2vw,16px);font:500 .9375rem/1.4 var(--sans)}
 .index-more a{text-decoration:none;color:var(--ink-2)}
 .index-more a::after{content:' →'}
@@ -124,6 +133,9 @@ main{max-width:var(--max);margin:0 auto;padding:0 var(--gutter);flex:1 0 auto}
 .doc-head{padding:clamp(16px,3vw,32px) 0 clamp(24px,3vw,36px);max-width:54rem}
 .doc-head h1{font:430 clamp(2.125rem,1.3rem + 3vw,3.25rem)/1.06 var(--serif);letter-spacing:-.022em;hyphens:auto}
 .doc-lead{margin-top:16px;font:400 clamp(1.125rem,1rem + .45vw,1.3125rem)/1.55 var(--serif);color:var(--ink-2);max-width:46rem}
+.doc-reviewed{margin-top:16px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font:500 .875rem/1.4 var(--sans);color:var(--ink-2)}
+.doc-reviewed svg{color:var(--ink);flex:none}
+.doc-reviewed a{color:inherit;text-decoration-color:var(--hair-2);text-underline-offset:.2em}
 .doc-meta{margin-top:18px;display:inline-block;font:500 .8125rem/1.4 var(--sans);color:var(--ink-2);background:var(--surface);border-radius:10px;padding:6px 12px}
 .doc-meta+.doc-meta{margin-left:8px}
 /* The script reveals the search and the questions on load: reserve their place so nothing shifts. Without scripts the questions and the date fields stay hidden and the text stands alone. */
