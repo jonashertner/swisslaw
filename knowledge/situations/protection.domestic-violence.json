@@ -1,0 +1,528 @@
+{
+  "schema": 1,
+  "id": "protection.domestic-violence",
+  "domain": "protection",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich erlebe Gewalt in der Beziehung oder Familie"
+  },
+  "summary": {
+    "de": "Was Sie sofort tun können, wenn Sie oder Ihre Kinder von einer Partnerin, einem Partner oder einer anderen Person aus dem Haushalt bedroht oder verletzt werden: polizeiliche und gerichtliche Schutzmassnahmen, das Strafverfahren, Opferhilfe und Folgen für eine abhängige Aufenthaltsbewilligung."
+  },
+  "examples": {
+    "de": [
+      "Mein Mann schlägt mich, was kann ich tun?",
+      "Meine Partnerin bedroht mich ständig, muss ich das anzeigen?",
+      "Kann ich verlangen, dass er aus der gemeinsamen Wohnung muss?",
+      "Ich habe Angst vor meinem Ex-Freund, kann ich ein Kontaktverbot bekommen?",
+      "Verliere ich meine Aufenthaltsbewilligung, wenn ich mich von meinem Mann trenne?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Gewalt, Drohungen oder Nachstellungen durch die Ehepartnerin, den Ehepartner, die eingetragene Partnerin, den eingetragenen Partner, eine Partnerin oder einen Partner im gemeinsamen Haushalt, eine Ex-Partnerin oder einen Ex-Partner, oder ein anderes Familienmitglied. Polizeiliche Wegweisung, zivilrechtlicher Schutz, das Strafverfahren, Opferhilfe, eheliche Schutzmassnahmen und Folgen für eine von der Beziehung abhängige Aufenthaltsbewilligung."
+    },
+    "excludes": {
+      "de": "Diese Übersicht ersetzt keine persönliche Beratung und keine Notfallversorgung. Sie behandelt nicht die Kinderbelange einer normalen Trennung ohne Gewalt (siehe die Übersicht zur Trennung), keine Nachbarschaftsstreitigkeiten und keine asylrechtlichen Sonderregeln."
+    }
+  },
+  "facts": [
+    {
+      "key": "relationship",
+      "question": {
+        "de": "In welcher Beziehung stehen Sie zur Person, die Gewalt ausübt?"
+      },
+      "options": [
+        {
+          "value": "married",
+          "label": {
+            "de": "Verheiratet"
+          }
+        },
+        {
+          "value": "registered-partner",
+          "label": {
+            "de": "Eingetragene Partnerschaft"
+          }
+        },
+        {
+          "value": "cohabiting",
+          "label": {
+            "de": "Wir leben ohne Trauschein zusammen"
+          }
+        },
+        {
+          "value": "former-partner",
+          "label": {
+            "de": "Ex-Partnerin oder Ex-Partner"
+          }
+        },
+        {
+          "value": "family-member",
+          "label": {
+            "de": "Anderes Familienmitglied"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "children_at_home",
+      "question": {
+        "de": "Leben Kinder im gemeinsamen Haushalt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "residence_dependent",
+      "question": {
+        "de": "Hängt Ihre Aufenthaltsbewilligung in der Schweiz von dieser Person ab?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, das betrifft mich nicht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "police_involved",
+      "question": {
+        "de": "Ist die Polizei schon eingeschaltet?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "sofort-sicherheit",
+      "kind": "step",
+      "text": {
+        "de": "Wenn Sie oder Kinder gerade in Gefahr sind, rufen Sie sofort die Polizei unter 117 oder die Notrufnummer 112 an. Die Polizei kommt auch nachts und am Wochenende.\n\nFür Beratung, auch ohne akute Gefahr, erreichen Sie die Opferhilfe schweizweit rund um die Uhr unter der Nummer 142. Das Gespräch ist kostenlos und vertraulich, auf Wunsch auch anonym. Die 142 ist keine Notrufnummer: Bei akuter Gefahr wählen Sie immer zuerst 117 oder 112.\n\nSie müssen nicht schon wissen, was Sie als Nächstes tun wollen, um dort anzurufen. Die Beratungsstelle hilft Ihnen weiter, unabhängig davon, in welcher Beziehung Sie zur gewaltausübenden Person stehen."
+      }
+    },
+    {
+      "id": "wegweisung-polizei",
+      "kind": "rule",
+      "text": {
+        "de": "Leben Sie mit der Person, die Gewalt ausübt, in derselben Wohnung, kann eine dafür zuständige kantonale Stelle diese Person im Krisenfall sofort aus der gemeinsamen Wohnung wegweisen. In der Regel ist das die Polizei. Wie lange die Wegweisung dauert, legt jeder Kanton selbst fest.\n\nRufen Sie dafür die Polizei (117 oder die lokale Polizeistation) und verlangen Sie einen Rapport oder eine Ereignisnummer. Dieses Dokument hilft Ihnen später bei einem Gesuch ans Gericht oder bei der Opferhilfe.\n\nMöchten Sie, dass der Schutz über die Wegweisungsfrist hinaus gilt, stellen Sie rechtzeitig vor deren Ablauf ein eigenes Gesuch beim Gericht (siehe unten)."
+      },
+      "sources": [
+        "zgb-28b"
+      ]
+    },
+    {
+      "id": "nach-polizeieinsatz",
+      "kind": "step",
+      "when": {
+        "police_involved": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "War die Polizei bereits bei Ihnen oder haben Sie Anzeige erstattet, notieren Sie sich möglichst bald die Ereignis- oder Rapportnummer und den Namen der zuständigen Dienststelle. Fragen Sie nach, ob eine Wegweisung oder ein Kontakt- und Annäherungsverbot ausgesprochen wurde und bis wann dieses gilt.\n\nDiese Angaben brauchen Sie später weiter: für ein eigenes Gesuch beim Gericht, für die Opferhilfe und, falls Ihre Aufenthaltsbewilligung von der Beziehung abhängt, als Beleg gegenüber der Migrationsbehörde. Bewahren Sie Kopien von Rapporten, Arztberichten und weiteren Unterlagen sorgfältig auf, wenn möglich an einem Ort, zu dem die gewaltausübende Person keinen Zutritt hat."
+      }
+    },
+    {
+      "id": "zivilrechtlicher-schutz",
+      "kind": "rule",
+      "text": {
+        "de": "Unabhängig von einer Anzeige können Sie beim Zivilgericht eigene Schutzmassnahmen beantragen. Das Gericht kann der Person insbesondere verbieten, sich Ihnen anzunähern, sich an bestimmten Orten aufzuhalten oder in irgendeiner Form mit Ihnen Kontakt aufzunehmen. Leben Sie zusammen, kann das Gericht die Person zudem für eine bestimmte Zeit aus der Wohnung weisen; aus wichtigen Gründen lässt sich diese Frist einmal verlängern.\n\nAuf Ihren Antrag kann das Gericht ein solches Verbot zusätzlich mit einer elektronischen Überwachung absichern: Die Person trägt dann ein fest angebrachtes Gerät, das ihren Aufenthaltsort laufend aufzeichnet. Die Überwachung wird für höchstens sechs Monate angeordnet und kann jeweils um sechs Monate verlängert werden. Ihnen entstehen daraus keine Kosten.\n\nVerlangen Sie im Gesuch, dass das Gericht das Verbot mit einer Strafdrohung verbindet. Wer ein so verbundenes Verbot missachtet, kann mit Busse bestraft werden."
+      },
+      "sources": [
+        "zgb-28b",
+        "zgb-28c",
+        "stgb-292"
+      ]
+    },
+    {
+      "id": "gericht-schneller-gratis",
+      "kind": "rule",
+      "text": {
+        "de": "Für ein eigenständiges Gesuch wegen Gewalt, Drohungen oder Nachstellungen müssen Sie nicht zuerst zu einer Schlichtungsverhandlung: Sie klagen direkt beim Gericht. Das Gericht erhebt dafür keine Gerichtskosten; Kosten für eine Anwältin oder einen Anwalt sind davon nicht erfasst. Führen Sie den Schutz stattdessen im Rahmen eines Eheschutzverfahrens durch, gelten andere Kostenregeln (siehe unten).\n\nBei besonderer Dringlichkeit, etwa wenn eine sofortige Anordnung sonst zu spät käme, kann das Gericht eine Massnahme auch ohne vorherige Anhörung der Gegenseite treffen. Diese wird danach umgehend angehört und kann sich äussern."
+      },
+      "sources": [
+        "zpo-198",
+        "zpo-114",
+        "zpo-265"
+      ]
+    },
+    {
+      "id": "eheschutz",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "married"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie verheiratet, können Sie beim Eheschutzgericht zusätzlich weitergehende Regelungen verlangen, etwa wer in der gemeinsamen Wohnung bleibt oder wie der Unterhalt geregelt wird. Die gleichen Schutzmöglichkeiten wie bei Gewalt, Drohungen oder Nachstellungen gelten auch in diesem Verfahren.\n\nBei Dringlichkeit kann auch das Eheschutzgericht sofort und ohne vorherige Anhörung der Gegenseite entscheiden. Anders als bei einer eigenständigen Klage wegen Gewalt ist das Eheschutzverfahren nicht automatisch kostenlos; können Sie sich das nicht leisten, können Sie unentgeltliche Rechtspflege beantragen."
+      },
+      "sources": [
+        "zgb-172",
+        "zgb-176",
+        "zpo-265",
+        "zpo-117"
+      ]
+    },
+    {
+      "id": "offizialdelikt-paar",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "married",
+          "registered-partner",
+          "cohabiting",
+          "former-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei einfachen Körperverletzungen, wiederholten Tätlichkeiten oder schweren Drohungen verfolgt der Staat die Tat von sich aus, wenn die Täterin oder der Täter Ihre Ehepartnerin, Ihr Ehepartner, Ihre eingetragene Partnerin, Ihr eingetragener Partner ist, oder mit Ihnen ohne Trauschein auf unbestimmte Zeit einen gemeinsamen Haushalt führt oder geführt hat. Das gilt auch noch bis zu einem Jahr nach Scheidung, Auflösung der Partnerschaft oder Trennung.\n\nDas heisst: Sie müssen selbst keinen Strafantrag stellen, und Sie können ein einmal eröffnetes Verfahren nicht einfach durch Rückzug beenden. Über Anklage oder Einstellung entscheidet die Staatsanwaltschaft."
+      },
+      "sources": [
+        "stgb-123",
+        "stgb-126",
+        "stgb-180"
+      ]
+    },
+    {
+      "id": "noetigung-immer-offizial",
+      "kind": "rule",
+      "text": {
+        "de": "Wer Sie mit Gewalt oder der Androhung eines ernsten Nachteils dazu zwingt, etwas zu tun, zu unterlassen oder zu dulden, macht sich der Nötigung strafbar. Anders als Drohung oder einfache Körperverletzung wird Nötigung immer vom Staat selbst verfolgt, unabhängig davon, in welcher Beziehung Sie zur Täterin oder zum Täter stehen; einen Strafantrag braucht es nicht."
+      },
+      "sources": [
+        "stgb-181"
+      ]
+    },
+    {
+      "id": "einstellung-auf-wunsch",
+      "kind": "rule",
+      "when": {
+        "relationship": [
+          "married",
+          "registered-partner",
+          "cohabiting",
+          "former-partner",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei einfacher Körperverletzung, wiederholten Tätlichkeiten, Drohung oder Nötigung innerhalb einer Paarbeziehung können Sie als Opfer bei der Staatsanwaltschaft oder beim Gericht beantragen, das Strafverfahren für höchstens sechs Monate auszusetzen, wenn das Ihre Situation stabilisieren oder verbessern kann. Die beschuldigte Person kann für diese Zeit verpflichtet werden, ein Lernprogramm gegen Gewalt zu besuchen.\n\nWichtig: Das geschieht nicht automatisch und ist kein Rückzug Ihrer Anzeige. Verlangen Sie später doch die Weiterführung, oder verbessert sich Ihre Lage nicht, wird das Verfahren wieder aufgenommen. Hat sich Ihre Lage am Ende der sechs Monate stabilisiert oder verbessert, wird das Verfahren eingestellt. Ausgeschlossen ist die Aussetzung, wenn die beschuldigte Person schon früher wegen einer Gewalt-, Freiheits- oder Sexualstraftat gegen eine Partnerin oder einen Partner verurteilt wurde."
+      },
+      "sources": [
+        "stgb-55a"
+      ]
+    },
+    {
+      "id": "kesb-kinder",
+      "kind": "rule",
+      "when": {
+        "children_at_home": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Das Gericht teilt seinen Entscheid über Schutzmassnahmen wegen Gewalt der zuständigen Kindes- und Erwachsenenschutzbehörde (KESB) mit, soweit sie ihn für ihre Aufgaben braucht, etwa wenn Kinder im Haushalt leben. Ist das Wohl eines Kindes gefährdet, trifft die KESB die nötigen Massnahmen zu seinem Schutz.\n\nFragen zum Sorge- oder Besuchsrecht sind oft komplex. Lassen Sie sich dazu persönlich beraten, etwa bei der Opferberatungsstelle oder einer Fachperson für Familienrecht."
+      },
+      "sources": [
+        "zgb-28b",
+        "zgb-307"
+      ]
+    },
+    {
+      "id": "aufenthaltsbewilligung",
+      "kind": "rule",
+      "when": {
+        "residence_dependent": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Hängt Ihre Aufenthaltsbewilligung von der Ehe oder der Familiengemeinschaft ab, verlieren Sie diese nicht automatisch, wenn die Beziehung endet. Nach mindestens drei Jahren Ehegemeinschaft und bei ausreichender Integration besteht ohnehin ein Anspruch auf Verlängerung.\n\nAuch davor kann ein Anspruch bestehen, wenn wichtige persönliche Gründe einen weiteren Aufenthalt nötig machen. Häusliche Gewalt gegen Sie oder ein Kind zählt ausdrücklich dazu. Die Behörde berücksichtigt dabei insbesondere: eine Anerkennung als Opfer durch die Opferhilfe, eine Bestätigung einer spezialisierten Fachstelle, polizeiliche oder gerichtliche Schutzmassnahmen, Arztberichte, Polizeirapporte oder Strafanzeigen sowie strafrechtliche Verurteilungen. Für Konkubinatspaare mit Härtefallbewilligung gilt dies entsprechend.\n\nLassen Sie sich dazu unbedingt persönlich beraten, wenn möglich bevor Sie handeln."
+      },
+      "sources": [
+        "aig-50"
+      ]
+    },
+    {
+      "id": "opferhilfe-anspruch",
+      "kind": "rule",
+      "text": {
+        "de": "Als Opfer einer Straftat gegen Ihre körperliche, psychische oder sexuelle Integrität haben Sie Anspruch auf Opferhilfe. Das gilt unabhängig davon, ob die Täterin oder der Täter ermittelt oder verurteilt wurde. Auch nahestehende Personen wie Ehepartner, Kinder oder Eltern können Opferhilfe beanspruchen.\n\nDie Beratungsstellen unterstützen Sie kostenlos und sind zur Verschwiegenheit verpflichtet. Sie helfen Ihnen, Ihre Rechte wahrzunehmen. Die Hilfe umfasst je nach Bedarf medizinische, psychologische, soziale, materielle und juristische Unterstützung. Braucht es das, vermitteln die Beratungsstellen auch eine Notunterkunft."
+      },
+      "sources": [
+        "ohg-1",
+        "ohg-12",
+        "ohg-14",
+        "ohg-5",
+        "ohg-11"
+      ]
+    },
+    {
+      "id": "hilfsangebote",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose und vertrauliche Anlaufstellen: Die kantonale Opferberatungsstelle finden Sie über die Suche auf opferhilfe-schweiz.ch. Frauenhäuser in der ganzen Schweiz bieten Frauen und ihren Kindern kurzfristig einen sicheren, meist geheimen Unterkunftsort; eine Übersicht steht auf frauenhaeuser.ch. In einzelnen Kantonen gibt es auch Schutzunterkünfte für Männer; fragen Sie dazu bei der Opferberatungsstelle nach.\n\nFür rechtliche Fragen bieten viele Kantone und Anwaltsverbände kostenlose oder kostengünstige Erstberatungen an."
+      }
+    },
+    {
+      "id": "persoenliche-beratung",
+      "kind": "escalate",
+      "text": {
+        "de": "Diese Übersicht ersetzt keine persönliche Beratung. Gerade wenn Kinder betroffen sind, ein Strafverfahren läuft oder Ihr Aufenthaltsstatus von der Beziehung abhängt, lohnt sich frühzeitig eine Fachperson: die kantonale Opferberatungsstelle, eine Anwältin oder ein Anwalt für Familien- und Strafrecht, oder eine kostenlose Rechtsauskunft Ihres Kantons."
+      }
+    }
+  ],
+  "sources": {
+    "zgb-28b": {
+      "type": "statute",
+      "sr": "210",
+      "article": "28b",
+      "label": "ZGB · Art. 28b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_28b",
+      "sha256": "f892701de6e57ab41568ac55bf9e5a15ce6fcfed710940316488944f2b51792f"
+    },
+    "zgb-28c": {
+      "type": "statute",
+      "sr": "210",
+      "article": "28c",
+      "label": "ZGB · Art. 28c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_28c",
+      "sha256": "6d905f1ae8ae85cb4996ab198c80f466b83a7b16fd1c429375587e098adba7b4"
+    },
+    "zgb-172": {
+      "type": "statute",
+      "sr": "210",
+      "article": "172",
+      "label": "ZGB · Art. 172",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_172",
+      "sha256": "0efa0ea0fd57c8e72d9ad3f28b99194a2dd8c7b67d0f48a0ee02569dbbe083bd"
+    },
+    "stgb-55a": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "55a",
+      "label": "StGB · Art. 55a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_55a",
+      "sha256": "207ed23d608f222892534ff2a0805eb232854f36c899b2ed5ca96f5c7b75d431"
+    },
+    "stgb-123": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "123",
+      "label": "StGB · Art. 123",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_123",
+      "sha256": "b61c5c87736716a2b84d43fc09f73c7db57cb16e6e61ea446a23fbf313452998"
+    },
+    "stgb-126": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "126",
+      "label": "StGB · Art. 126",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_126",
+      "sha256": "f51259a0e2ccfd83c988af37f5711fa3f876debfe9147d26f03bd1fea6d9f60a"
+    },
+    "stgb-180": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "180",
+      "label": "StGB · Art. 180",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_180",
+      "sha256": "03aec353e3fc82c757a94e8b25ad8fcf92ac99fda839922f1bb045385b6907ec"
+    },
+    "stgb-181": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "181",
+      "label": "StGB · Art. 181",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_181",
+      "sha256": "4c75f22ea2bffecb255304009b450776f9ecd9df71007ca5ccc7801d595e1ec4"
+    },
+    "zpo-198": {
+      "type": "statute",
+      "sr": "272",
+      "article": "198",
+      "label": "ZPO · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_198",
+      "sha256": "f9a9e217d9f9e15c677af3b0e7b39597f5a276afa8fe7fd5e9d6086dcf7d36c7"
+    },
+    "zpo-114": {
+      "type": "statute",
+      "sr": "272",
+      "article": "114",
+      "label": "ZPO · Art. 114",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_114",
+      "sha256": "38eaf66dcbf458b7f7511782fcfc1f50eb245766b282c410fbd3339e5a2e7693"
+    },
+    "zpo-265": {
+      "type": "statute",
+      "sr": "272",
+      "article": "265",
+      "label": "ZPO · Art. 265",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_265",
+      "sha256": "4716100028621475fd46472248fb19a63217dfb383d8179669d3bfb0ac618d93"
+    },
+    "aig-50": {
+      "type": "statute",
+      "sr": "142.20",
+      "article": "50",
+      "label": "AIG · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/de#art_50",
+      "sha256": "639725bf96107417c72973e14f9d4c548f01cf56db167f5e945793c210509a98"
+    },
+    "ohg-1": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "1",
+      "label": "OHG · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_1",
+      "sha256": "e0501e498af20f1fb3d3828f0595f92752ecbd0d61b98c6d6210a20b57053614"
+    },
+    "ohg-12": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "12",
+      "label": "OHG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_12",
+      "sha256": "320753d2779087c45693b920da8cfb99563a7cb4a9718097e76f52593c40e0da"
+    },
+    "ohg-14": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "14",
+      "label": "OHG · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_14",
+      "sha256": "78bb5fa46a6f29bd99e092a2bb54610b3a84f50e7c25662db8385a3225dd7550"
+    },
+    "stgb-292": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "292",
+      "label": "StGB · Art. 292",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_292",
+      "sha256": "3c34596e387a0ae9f21724b30e2e273bc00bb741771628d8f0dcf864bbd7bc7a"
+    },
+    "zgb-176": {
+      "type": "statute",
+      "sr": "210",
+      "article": "176",
+      "label": "ZGB · Art. 176",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_176",
+      "sha256": "9fee2770069d0fa1f8cd5e0cebcd2bd02389920b69531cec314dcbe7877bbd54"
+    },
+    "zgb-307": {
+      "type": "statute",
+      "sr": "210",
+      "article": "307",
+      "label": "ZGB · Art. 307",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de#art_307",
+      "sha256": "b8d78932e9f528369b4b10ca96c8aee53df8f60001f7bd8980532c2fe57c27a9"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "ohg-5": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "5",
+      "label": "OHG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_5",
+      "sha256": "c62bef975b1e5c8f0cdc36e1221f90e1eded88f624a64139dff2059de93f2600"
+    },
+    "ohg-11": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "11",
+      "label": "OHG · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_11",
+      "sha256": "94c4022b506a47f24bf511022b2822a27c79401aac9fd068dffd3e9fba017ad8"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Opferhilfe Schweiz – Beratungsstellen und die Nummer 142"
+      },
+      "url": "https://www.opferhilfe-schweiz.ch/"
+    },
+    {
+      "label": {
+        "de": "Frauenhäuser Schweiz und Liechtenstein – Adressen"
+      },
+      "url": "https://www.frauenhaeuser.ch/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
