@@ -82,6 +82,12 @@ export const WAVE_3: readonly CoverageGroup[] = [
     { id: 'protection.victim-support', title: e('Opferhilfe', 'Aide aux victimes', 'Aiuto alle vittime', 'Agid a las victimas', 'Victim support') },
     { id: 'protection.police-questioning', title: e('Rechte bei einer Befragung durch die Polizei', 'Vos droits lors d’une audition par la police', 'Diritti durante un interrogatorio di polizia', 'Dretgs durant in interrogatori da la polizia', 'Your rights when questioned by the police') },
   ] },
+  { area: 'environment', topics: [
+    { id: 'environment.report-pollution', title: e('Umweltverschmutzung melden', 'Signaler une pollution', 'Segnalare un inquinamento', 'Annunziar ina contaminaziun da l’ambient', 'Reporting pollution') },
+    { id: 'environment.project-participation', title: e('Bei Bauprojekten mitreden', 'Participer aux projets de construction', 'Partecipare ai progetti di costruzione', 'Participar a projects da construcziun', 'Having a say in building projects') },
+    { id: 'environment.information', title: e('Umweltinformationen erhalten', 'Obtenir des informations environnementales', 'Ottenere informazioni ambientali', 'Survegnir infurmaziuns davart l’ambient', 'Getting environmental information') },
+    { id: 'environment.climate', title: e('Klimaschutz: rechtliche Wege', 'Protection du climat : les voies juridiques', 'Protezione del clima: le vie legali', 'Protecziun dal clima: vias giuridicas', 'Climate protection: legal routes') },
+  ] },
 ];
 
 /** Wave 3 continued and the long tail: planned, not yet drafted. */

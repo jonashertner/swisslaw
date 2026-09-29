@@ -53,6 +53,9 @@ export function sourceLabel(r: Source, language: KnowledgeLanguage): string {
   const d = /^BGer (\S+) vom (\d{1,2})\. (\p{L}+) (\d{4})$/u.exec(r.citation);
   const month = d ? MONTHS_DE.indexOf(d[3]) : -1;
   if (d && month >= 0) c = `TF ${d[1]} ${language === 'fr' ? 'du' : 'del'} ${language === 'fr' && d[2] === '1' ? '1er' : d[2]} ${MONTHS[language][month]} ${d[4]}`;
+  const h = /^EGMR (.+), Nr\. (\S+) vom (\d{1,2})\. (\p{L}+) (\d{4})$/u.exec(r.citation);
+  const hMonth = h ? MONTHS_DE.indexOf(h[4]) : -1;
+  if (h && hMonth >= 0) c = `${language === 'fr' ? `CourEDH ${h[1]}, n° ${h[2]} du` : `CorteEDU ${h[1]}, n. ${h[2]} del`} ${language === 'fr' && h[3] === '1' ? '1er' : h[3]} ${MONTHS[language][hMonth]} ${h[5]}`;
   return `${c}${r.e ? `, consid. ${r.e}` : ''}`;
 }
 /** Fedlex publishes every federal act in German, French and Italian. */
@@ -60,7 +63,7 @@ export function sourceUrl(r: Source, language: KnowledgeLanguage): string {
   return r.type === 'statute' && (language === 'fr' || language === 'it') ? r.url.replace(/\/de(#|$)/, `/${language}$1`) : r.url;
 }
 
-export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'admin', 'data', 'family', 'inheritance', 'social', 'health', 'protection'] as const;
+export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'admin', 'data', 'family', 'inheritance', 'social', 'health', 'protection', 'environment'] as const;
 export type AreaId = typeof AREAS[number];
 
 /** Letters people receive, in the order of how often they bring someone here. */
@@ -78,6 +81,7 @@ export const SITUATION_ORDER: readonly string[] = [
   'inheritance.refusal', 'inheritance.debts', 'inheritance.will', 'inheritance.compulsory-shares', 'inheritance.power-of-attorney',
   'health.refused-bill', 'health.switching', 'health.supplementary',
   'protection.domestic-violence', 'protection.victim-support', 'protection.police-questioning',
+  'environment.report-pollution', 'environment.project-participation', 'environment.information', 'environment.climate',
 ];
 export function byImportance(a: { id: string }, b: { id: string }): number {
   const rank = (id: string) => { const i = SITUATION_ORDER.indexOf(id); return i < 0 ? SITUATION_ORDER.length : i; };
