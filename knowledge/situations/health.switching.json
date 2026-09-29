@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Die Kasse wechseln: Fristen"
+    "de": "Die Kasse wechseln: Fristen",
+    "fr": "Changer de caisse-maladie : les délais",
+    "it": "Cambiare cassa malati: i termini",
+    "en": "Switching health insurer: deadlines",
+    "rm": "Midar la cassa: termins"
   },
   "summary": {
-    "de": "Sie möchten die Krankenkasse für Ihre obligatorische Grundversicherung wechseln. Dieser Leitfaden zeigt, welche Kündigungsfristen gelten, wann eine Kündigung rechtzeitig ist, welche Einschränkungen eine höhere Franchise oder ein Hausarzt-, HMO- oder Telmed-Modell mit sich bringen, wann offene Rechnungen einen Wechsel blockieren und wann die alte Versicherung tatsächlich endet."
+    "de": "Sie möchten die Krankenkasse für Ihre obligatorische Grundversicherung wechseln. Dieser Leitfaden zeigt, welche Kündigungsfristen gelten, wann eine Kündigung rechtzeitig ist, welche Einschränkungen eine höhere Franchise oder ein Hausarzt-, HMO- oder Telmed-Modell mit sich bringen, wann offene Rechnungen einen Wechsel blockieren und wann die alte Versicherung tatsächlich endet.",
+    "fr": "Vous souhaitez changer de caisse-maladie pour votre assurance de base obligatoire. Ce guide montre quels délais de résiliation s’appliquent, quand une résiliation est faite à temps, quelles restrictions entraînent une franchise plus élevée ou un modèle du médecin de famille, HMO ou Telmed, quand des factures impayées bloquent un changement, et quand l’ancienne assurance prend effectivement fin.",
+    "it": "Vuole cambiare cassa malati per la sua assicurazione di base obbligatoria. Questa guida mostra quali termini di disdetta valgono, quando una disdetta è tempestiva, quali limitazioni comporta una franchigia più alta o un modello del medico di famiglia, HMO o Telmed, quando fatture in sospeso bloccano un cambiamento e quando l'assicurazione precedente termina effettivamente.",
+    "en": "You want to switch health insurer for your compulsory basic insurance. This guide shows which notice periods apply, when a termination is in time, what restrictions a higher deductible or a family doctor, HMO or telmed model bring, when outstanding bills block a switch, and when the old insurance actually ends.",
+    "rm": "Vus vulais midar la cassa da malsauns per Vossa assicuranza da basa obligatorica. Quest manual mussa, tge termins da disditga che valan, cura ch'ina disditga è a temp, tge restricziuns ch'ina franchisa pli auta u in model da medi da famiglia, HMO u Telmed cumporta, cura che quintas aviertas bloccheschan in midar e cura che la veglia assicuranza finescha propi."
   },
   "examples": {
     "de": [
@@ -18,51 +26,111 @@
       "Ich habe noch offene Rechnungen bei der Kasse, darf ich trotzdem wechseln?",
       "Muss ich eingeschrieben kündigen, damit es gültig ist?",
       "Was passiert mit meiner Zusatzversicherung, wenn ich die Grundversicherung wechsle?"
+    ],
+    "fr": [
+      "Ma caisse-maladie a augmenté la prime, jusqu’à quand dois-je résilier ?",
+      "Puis-je changer de caisse en cours d’année si j’ai une franchise élevée ?",
+      "J’ai encore des factures impayées auprès de ma caisse, puis-je quand même changer ?",
+      "Dois-je résilier par courrier recommandé pour que ce soit valable ?",
+      "Qu’advient-il de mon assurance complémentaire si je change d’assurance de base ?"
+    ],
+    "it": [
+      "La mia cassa malati ha aumentato il premio, entro quando devo disdire?",
+      "Posso cambiare cassa a metà anno se ho una franchigia alta?",
+      "Ho ancora fatture in sospeso presso la cassa, posso comunque cambiare?",
+      "Devo disdire per raccomandata perché sia valido?",
+      "Cosa succede alla mia assicurazione complementare se cambio l'assicurazione di base?"
+    ],
+    "en": [
+      "My health insurer has increased the premium, by when do I have to give notice?",
+      "Can I switch insurer during the year if I have a high deductible?",
+      "I still have outstanding bills with my insurer, can I switch anyway?",
+      "Do I have to give notice by registered letter for it to be valid?",
+      "What happens to my supplementary insurance if I switch basic insurance?"
+    ],
+    "rm": [
+      "Mia cassa da malsauns ha augmentà la premia, enfin cura stoss jau disdir?",
+      "Poss jau midar la cassa a mesaduonn, sch'jau hai ina franchisa auta?",
+      "Jau hai anc quintas aviertas tar la cassa, dastg jau tuttina midar?",
+      "Stoss jau disdir per pievel racumandà, per ch'i saja valaivel?",
+      "Tge succeda cun mia assicuranza supplementara, sch'jau mid l'assicuranza da basa?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Der Wechsel des Versicherers für die obligatorische Krankenpflegeversicherung (Grundversicherung) nach KVG und KVV: die beiden Kündigungswege, die Kündigungsfrist und wann eine Kündigung rechtzeitig ist, die Einschränkungen bei höherer Franchise oder besonderem Versicherungsmodell, die Sperre bei offenen Prämien, den Zeitpunkt, an dem die alte Versicherung endet, die Aufnahmepflicht der neuen Kasse sowie die Auswirkungen auf eine bestehende Zusatzversicherung."
+      "de": "Der Wechsel des Versicherers für die obligatorische Krankenpflegeversicherung (Grundversicherung) nach KVG und KVV: die beiden Kündigungswege, die Kündigungsfrist und wann eine Kündigung rechtzeitig ist, die Einschränkungen bei höherer Franchise oder besonderem Versicherungsmodell, die Sperre bei offenen Prämien, den Zeitpunkt, an dem die alte Versicherung endet, die Aufnahmepflicht der neuen Kasse sowie die Auswirkungen auf eine bestehende Zusatzversicherung.",
+      "fr": "Le changement d’assureur pour l’assurance obligatoire des soins (assurance de base) selon la LAMal et l’OAMal : les deux voies de résiliation, le délai de résiliation et le moment où une résiliation est faite à temps, les restrictions en cas de franchise plus élevée ou de modèle d’assurance particulier, le blocage en cas de primes impayées, le moment où l’ancienne assurance prend fin, l’obligation d’admettre de la nouvelle caisse, ainsi que les effets sur une assurance complémentaire existante.",
+      "it": "Il cambiamento dell'assicuratore per l'assicurazione obbligatoria delle cure medico-sanitarie (assicurazione di base) secondo la LAMal e l'OAMal: le due vie di disdetta, il termine di disdetta e quando una disdetta è tempestiva, le limitazioni in caso di franchigia più alta o di modello assicurativo particolare, il blocco in caso di premi in sospeso, il momento in cui termina l'assicurazione precedente, l'obbligo di ammissione della nuova cassa nonché le ripercussioni su un'assicurazione complementare esistente.",
+      "en": "Switching insurer for compulsory basic health insurance under the KVG and the KVV: the two ways of giving notice, the notice period and when a termination is in time, the restrictions that apply with a higher deductible or a special insurance model, the block where premiums are outstanding, the point at which the old insurance ends, the new insurer's duty to accept you, and the effect on any existing supplementary insurance.",
+      "rm": "Il midar da l'assicurader per l'assicuranza obligatorica da basa per la tgira da malsauns tenor la LAMal e la OAMal: las duas vias da disditga, il termin da disditga e cura ch'ina disditga è a temp, las restricziuns tar ina franchisa pli auta u in model d'assicuranza spezial, il bloccher tar premias aviertas, il mument, en il qual la veglia assicuranza finescha, l'obligaziun d'admissiun da la nova cassa sco er ils effects sin ina assicuranza supplementara existenta."
     },
     "excludes": {
-      "de": "Nicht behandelt werden die Wahl einer bestimmten Franchise oder eines Versicherungsmodells als solche, Streitigkeiten über die Höhe von Prämien oder Leistungen, das Einsprache- und Beschwerdeverfahren gegen Verfügungen der Kasse, die Situation von Personen mit Wohnsitz im Ausland (EU, Island, Norwegen, Vereinigtes Königreich) sowie die inhaltlichen Bedingungen einer Zusatzversicherung selbst."
+      "de": "Nicht behandelt werden die Wahl einer bestimmten Franchise oder eines Versicherungsmodells als solche, Streitigkeiten über die Höhe von Prämien oder Leistungen, das Einsprache- und Beschwerdeverfahren gegen Verfügungen der Kasse, die Situation von Personen mit Wohnsitz im Ausland (EU, Island, Norwegen, Vereinigtes Königreich) sowie die inhaltlichen Bedingungen einer Zusatzversicherung selbst.",
+      "fr": "Ne sont pas traités : le choix d’une franchise ou d’un modèle d’assurance déterminé en tant que tel, les litiges sur le montant des primes ou des prestations, la procédure d’opposition et de recours contre les décisions de la caisse, la situation des personnes domiciliées à l’étranger (UE, Islande, Norvège, Royaume-Uni), ainsi que les conditions matérielles d’une assurance complémentaire elle-même.",
+      "it": "Non sono trattate la scelta di una determinata franchigia o di un modello assicurativo in quanto tale, le controversie sull'importo dei premi o delle prestazioni, la procedura di opposizione e di ricorso contro le decisioni della cassa, la situazione delle persone domiciliate all'estero (UE, Islanda, Norvegia, Regno Unito) nonché le condizioni di contenuto di un'assicurazione complementare in quanto tale.",
+      "en": "This guide does not cover choosing a particular deductible or insurance model as such, disputes over the amount of premiums or benefits, the objection and appeal procedure against rulings of the insurer, the situation of people resident abroad (EU, Iceland, Norway, United Kingdom), or the terms of a supplementary insurance itself.",
+      "rm": "Betg tractads vegnan la tscherna d'ina tscherta franchisa u d'in model d'assicuranza sco tala, dispitas davart l'autezza da premias u prestaziuns, la procedura d'opposiziun e da recurs cunter decisiuns da la cassa, la situaziun da persunas cun domicil a l'exteriur (UE, Islanda, Norvegia, Reginavel Unì) sco er las cundiziuns cuntegnidas d'ina assicuranza supplementara sezza."
     }
   },
   "facts": [
     {
       "key": "route",
       "question": {
-        "de": "Warum möchten Sie die Krankenkasse wechseln?"
+        "de": "Warum möchten Sie die Krankenkasse wechseln?",
+        "fr": "Pourquoi souhaitez-vous changer de caisse-maladie ?",
+        "it": "Perché vuole cambiare cassa malati?",
+        "en": "Why do you want to switch health insurer?",
+        "rm": "Pertge vulais Vus midar la cassa da malsauns?"
       },
       "options": [
         {
           "value": "semester",
           "label": {
-            "de": "Ich möchte einfach wechseln, ohne besonderen Anlass"
+            "de": "Ich möchte einfach wechseln, ohne besonderen Anlass",
+            "fr": "Je veux simplement changer, sans motif particulier",
+            "it": "Voglio semplicemente cambiare, senza un motivo particolare",
+            "en": "I just want to switch, without any particular reason",
+            "rm": "Jau less simplamain midar, senza motiv spezial"
           }
         },
         {
           "value": "premium",
           "label": {
-            "de": "Meine Kasse hat mir eine höhere Prämie angekündigt"
+            "de": "Meine Kasse hat mir eine höhere Prämie angekündigt",
+            "fr": "Ma caisse m’a annoncé une prime plus élevée",
+            "it": "La mia cassa mi ha annunciato un premio più alto",
+            "en": "My insurer has announced a higher premium",
+            "rm": "Mia cassa m'ha annunzià ina premia pli auta"
           }
         },
         {
           "value": "move-or-job",
           "label": {
-            "de": "Ich ziehe um oder trete eine neue Stelle an"
+            "de": "Ich ziehe um oder trete eine neue Stelle an",
+            "fr": "Je déménage ou je prends un nouvel emploi",
+            "it": "Trasloco o inizio un nuovo impiego",
+            "en": "I am moving house or starting a new job",
+            "rm": "Jau traslochel u cumainzel in nov plaz da lavur"
           }
         },
         {
           "value": "insurer-exits",
           "label": {
-            "de": "Meine Kasse gibt die Grundversicherung auf oder verliert die Bewilligung"
+            "de": "Meine Kasse gibt die Grundversicherung auf oder verliert die Bewilligung",
+            "fr": "Ma caisse cesse de pratiquer l’assurance de base ou perd son autorisation",
+            "it": "La mia cassa rinuncia all'assicurazione di base o perde l'autorizzazione",
+            "en": "My insurer is giving up basic insurance or losing its licence",
+            "rm": "Mia cassa abanduna l'assicuranza da basa u perda la permissiun"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -70,25 +138,41 @@
     {
       "key": "franchise",
       "question": {
-        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt?"
+        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt?",
+        "fr": "Avez-vous choisi une franchise plus élevée que la franchise minimale disponible ?",
+        "it": "Ha scelto una franchigia più alta rispetto alla franchigia minima disponibile?",
+        "en": "Have you chosen a higher deductible than the lowest one available?",
+        "rm": "Avais Vus tschernì ina franchisa pli auta che la pli bassa franchisa tscherneivla?"
       },
       "options": [
         {
           "value": "higher",
           "label": {
-            "de": "Ja, eine höhere Franchise"
+            "de": "Ja, eine höhere Franchise",
+            "fr": "Oui, une franchise plus élevée",
+            "it": "Sì, una franchigia più alta",
+            "en": "Yes, a higher deductible",
+            "rm": "Gea, ina franchisa pli auta"
           }
         },
         {
           "value": "minimum",
           "label": {
-            "de": "Nein, die tiefste Franchise"
+            "de": "Nein, die tiefste Franchise",
+            "fr": "Non, la franchise la plus basse",
+            "it": "No, la franchigia minima",
+            "en": "No, the lowest deductible",
+            "rm": "Na, la pli bassa franchisa"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -96,25 +180,41 @@
     {
       "key": "alt_model",
       "question": {
-        "de": "Sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell)?"
+        "de": "Sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell)?",
+        "fr": "Êtes-vous assuré dans un modèle avec un choix limité du médecin (p. ex. modèle du médecin de famille, HMO ou Telmed) ?",
+        "it": "È assicurato in un modello con scelta limitata del medico (per esempio modello del medico di famiglia, HMO o Telmed)?",
+        "en": "Are you insured under a model with restricted choice of doctor (for example a family doctor, HMO or telmed model)?",
+        "rm": "Essas Vus assicurads en in model cun tscherna limitada dal medi (p.ex. model da medi da famiglia, HMO u Telmed)?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, im Standardmodell"
+            "de": "Nein, im Standardmodell",
+            "fr": "Non, dans le modèle standard",
+            "it": "No, nel modello standard",
+            "en": "No, under the standard model",
+            "rm": "Na, en il model standard"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -122,25 +222,41 @@
     {
       "key": "arrears",
       "question": {
-        "de": "Haben Sie bei Ihrer heutigen Kasse noch offene, gemahnte Prämien oder Kostenbeteiligungen, oder läuft bereits eine Betreibung?"
+        "de": "Haben Sie bei Ihrer heutigen Kasse noch offene, gemahnte Prämien oder Kostenbeteiligungen, oder läuft bereits eine Betreibung?",
+        "fr": "Avez-vous encore, auprès de votre caisse actuelle, des primes ou des participations aux coûts impayées et sommées, ou une poursuite est-elle déjà en cours ?",
+        "it": "Ha ancora premi o partecipazioni ai costi in sospeso e già sollecitati presso la sua cassa attuale, o è già in corso un'esecuzione?",
+        "en": "Do you have outstanding premiums or cost-sharing amounts with your current insurer that you have been reminded about, or is debt enforcement already under way?",
+        "rm": "Avais Vus tar Vossa cassa d'oz anc premias u participaziuns als custs aviertas ed admonidas, u curra gia ina scussiun?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, alles bezahlt"
+            "de": "Nein, alles bezahlt",
+            "fr": "Non, tout est payé",
+            "it": "No, tutto pagato",
+            "en": "No, everything is paid",
+            "rm": "Na, tut pajà"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht genau"
+            "de": "Weiss ich nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con precisione",
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -148,25 +264,41 @@
     {
       "key": "supplementary",
       "question": {
-        "de": "Haben Sie bei Ihrer heutigen Kasse auch eine Zusatzversicherung?"
+        "de": "Haben Sie bei Ihrer heutigen Kasse auch eine Zusatzversicherung?",
+        "fr": "Avez-vous aussi une assurance complémentaire auprès de votre caisse actuelle ?",
+        "it": "Ha anche un'assicurazione complementare presso la sua cassa attuale?",
+        "en": "Do you also have supplementary insurance with your current insurer?",
+        "rm": "Avais Vus tar Vossa cassa d'oz era ina assicuranza supplementara?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, oder bei einer anderen Kasse"
+            "de": "Nein, oder bei einer anderen Kasse",
+            "fr": "Non, ou auprès d’une autre caisse",
+            "it": "No, oppure presso un'altra cassa",
+            "en": "No, or with a different insurer",
+            "rm": "Na, u tar in'autra cassa"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -177,7 +309,11 @@
       "id": "regular-notice",
       "kind": "rule",
       "text": {
-        "de": "Sie können die Krankenkasse für die Grundversicherung jederzeit auf das Ende eines Kalendersemesters wechseln, also auf den 30. Juni oder den 31. Dezember. Dafür gilt eine Kündigungsfrist von drei Monaten: Ihre Kündigung muss der bisherigen Kasse spätestens am 31. März (für den 30. Juni) oder am 30. September (für den 31. Dezember) vorliegen. Das Gesetz schreibt keine bestimmte Form vor; ein unterschriebenes Kündigungsschreiben genügt."
+        "de": "Sie können die Krankenkasse für die Grundversicherung jederzeit auf das Ende eines Kalendersemesters wechseln, also auf den 30. Juni oder den 31. Dezember. Dafür gilt eine Kündigungsfrist von drei Monaten: Ihre Kündigung muss der bisherigen Kasse spätestens am 31. März (für den 30. Juni) oder am 30. September (für den 31. Dezember) vorliegen. Das Gesetz schreibt keine bestimmte Form vor; ein unterschriebenes Kündigungsschreiben genügt.",
+        "fr": "Vous pouvez changer de caisse-maladie pour l’assurance de base en tout temps pour la fin d’un semestre civil, c’est-à-dire pour le 30 juin ou le 31 décembre. Un délai de résiliation de trois mois s’applique : votre résiliation doit parvenir à l’ancienne caisse au plus tard le 31 mars (pour le 30 juin) ou le 30 septembre (pour le 31 décembre). La loi ne prescrit aucune forme particulière ; une lettre de résiliation signée suffit.",
+        "it": "Può cambiare la cassa malati per l'assicurazione di base in ogni momento per la fine di un semestre civile, cioè per il 30 giugno o il 31 dicembre. Per questo vale un termine di disdetta di tre mesi: la sua disdetta deve pervenire alla cassa finora competente al più tardi il 31 marzo (per il 30 giugno) o il 30 settembre (per il 31 dicembre). La legge non prescrive una forma particolare; basta una lettera di disdetta firmata.",
+        "en": "You can switch health insurer for basic insurance at any time for the end of a calendar half-year, that is, for 30 June or 31 December. A notice period of three months applies: your termination must reach your current insurer by 31 March at the latest (for 30 June) or by 30 September at the latest (for 31 December). The law does not prescribe any particular form; a signed letter of termination is enough.",
+        "rm": "Vus pudais midar la cassa da malsauns per l'assicuranza da basa da tut temp sin la fin d'in semester chalendar, dunca sin ils 30 da zercladur u ils 31 da december. Per quai vala in termin da disditga da trais mais: Vossa disditga sto esser tar la cassa anteriura al pli tard ils 31 da mars (per ils 30 da zercladur) u ils 30 da settember (per ils 31 da december). La lescha na prescriva nagina furma tscherta; ina brev da disditga suttascritta basta."
       },
       "sources": [
         "kvg-7"
@@ -187,7 +323,11 @@
       "id": "premium-increase-notice",
       "kind": "rule",
       "text": {
-        "de": "Erhöht Ihre Kasse die Prämie, muss sie Ihnen die neue, vom Bundesamt für Gesundheit genehmigte Prämie mindestens zwei Monate im Voraus mitteilen und Sie dabei auf Ihr Recht hinweisen, die Kasse zu wechseln. Sie können dann mit einer Kündigungsfrist von einem Monat auf das Ende des Monats wechseln, der dem Beginn der neuen Prämie vorausgeht. Gilt die neue Prämie zum Beispiel ab 1. Januar, muss Ihre Kündigung spätestens Ende November bei der Kasse vorliegen."
+        "de": "Erhöht Ihre Kasse die Prämie, muss sie Ihnen die neue, vom Bundesamt für Gesundheit genehmigte Prämie mindestens zwei Monate im Voraus mitteilen und Sie dabei auf Ihr Recht hinweisen, die Kasse zu wechseln. Sie können dann mit einer Kündigungsfrist von einem Monat auf das Ende des Monats wechseln, der dem Beginn der neuen Prämie vorausgeht. Gilt die neue Prämie zum Beispiel ab 1. Januar, muss Ihre Kündigung spätestens Ende November bei der Kasse vorliegen.",
+        "fr": "Si votre caisse augmente la prime, elle doit vous communiquer la nouvelle prime, approuvée par l’Office fédéral de la santé publique, au moins deux mois à l’avance, et vous indiquer votre droit de changer de caisse. Vous pouvez alors changer, avec un délai de résiliation d’un mois, pour la fin du mois qui précède le début de la nouvelle prime. Si la nouvelle prime s’applique par exemple dès le 1er janvier, votre résiliation doit parvenir à la caisse au plus tard fin novembre.",
+        "it": "Se la sua cassa aumenta il premio, deve comunicarle il nuovo premio, approvato dall'Ufficio federale della sanità pubblica, con almeno due mesi di anticipo, e informarla al contempo del suo diritto di cambiare cassa. Può allora cambiare con un termine di disdetta di un mese per la fine del mese che precede l'inizio del nuovo premio. Se il nuovo premio vale per esempio dal 1° gennaio, la sua disdetta deve pervenire alla cassa al più tardi entro la fine di novembre.",
+        "en": "If your insurer increases the premium, it must tell you the new premium, approved by the Federal Office of Public Health, at least two months in advance, and must point out your right to switch insurer. You can then switch with one month's notice, for the end of the month before the new premium takes effect. If the new premium applies, for example, from 1 January, your termination must reach the insurer by the end of November at the latest.",
+        "rm": "Augmenta Vossa cassa la premia, sto ella Vus communitgar la nova premia, approvada da l'UFSP, almain dus mais ordavant e Vus render attent en quest connex a Voss dretg da midar la cassa. Vus pudais lura midar cun in termin da disditga d'in mais sin la fin dal mais che precedescha il cumenzament da la nova premia. Vala la nova premia per exempel dapi l'1. da schaner, sto Vossa disditga esser al pli tard tar la fin da november tar la cassa."
       },
       "sources": [
         "kvg-7"
@@ -197,7 +337,11 @@
       "id": "notice-must-arrive",
       "kind": "warning",
       "text": {
-        "de": "Für die Kündigungsfrist zählt nicht der Tag, an dem Sie den Brief aufgeben, sondern der Zeitpunkt, an dem die Kündigung bei der Kasse tatsächlich eintrifft. Ein Brief, den Sie erst am letzten Tag der Frist der Post übergeben, kommt in der Regel zu spät an und wahrt die Frist nicht. Geben Sie Ihre Kündigung deshalb rechtzeitig vor Fristende auf. Eine eingeschriebene Sendung ist gesetzlich nicht vorgeschrieben, hilft Ihnen aber später zu beweisen, wann die Kündigung eingetroffen ist. Trifft die Kündigung zu spät ein, ist sie nicht ungültig, wirkt aber erst auf den nächstmöglichen Termin."
+        "de": "Für die Kündigungsfrist zählt nicht der Tag, an dem Sie den Brief aufgeben, sondern der Zeitpunkt, an dem die Kündigung bei der Kasse tatsächlich eintrifft. Ein Brief, den Sie erst am letzten Tag der Frist der Post übergeben, kommt in der Regel zu spät an und wahrt die Frist nicht. Geben Sie Ihre Kündigung deshalb rechtzeitig vor Fristende auf. Eine eingeschriebene Sendung ist gesetzlich nicht vorgeschrieben, hilft Ihnen aber später zu beweisen, wann die Kündigung eingetroffen ist. Trifft die Kündigung zu spät ein, ist sie nicht ungültig, wirkt aber erst auf den nächstmöglichen Termin.",
+        "fr": "Pour le délai de résiliation, ce qui compte n’est pas le jour où vous remettez la lettre à la poste, mais le moment où la résiliation parvient effectivement à la caisse. Une lettre que vous ne remettez à la poste que le dernier jour du délai arrive en général trop tard et ne respecte pas le délai. Remettez donc votre résiliation à la poste suffisamment tôt avant la fin du délai. Un envoi recommandé n’est pas prescrit par la loi, mais vous aide ensuite à prouver le moment où la résiliation est arrivée. Si la résiliation arrive trop tard, elle n’est pas invalide, mais ne prend effet qu’au prochain terme possible.",
+        "it": "Per il termine di disdetta non conta il giorno in cui consegna la lettera alla posta, bensì il momento in cui la disdetta arriva effettivamente presso la cassa. Una lettera che consegna alla posta solo l'ultimo giorno del termine di regola arriva troppo tardi e non salvaguarda il termine. Consegni quindi la sua disdetta in tempo utile prima della scadenza del termine. Un invio per raccomandata non è prescritto dalla legge, ma le aiuta in seguito a provare quando è arrivata la disdetta. Se la disdetta arriva troppo tardi, non è nulla, ma ha effetto solo per il prossimo termine possibile.",
+        "en": "For the notice period, what counts is not the day you post the letter, but the moment the termination actually reaches the insurer. A letter you only hand to the post office on the last day of the time limit usually arrives too late and does not meet the deadline. So send your termination in good time before the deadline. A registered letter is not required by law, but it will help you later to prove when the termination arrived. If the termination arrives too late, it is not invalid, but only takes effect on the next possible date.",
+        "rm": "Per il termin da disditga na conta betg il di, en il qual Vus dais si la brev, mabain il mument, en il qual la disditga arriva propi tar la cassa. Ina brev, che Vus consegnais a la posta mo l'ultim di dal termin, arriva per regla memia tard e na salvegua betg il termin. Dai percunquai si Vossa disditga a temp avant la fin dal termin. In'enviament racumandà n'è betg prescrit legalmain, gida a Vus dentant pli tard da cumprovar, cura che la disditga è arrivada. Arriva la disditga memia tard, n'è ella betg nulla, agescha dentant mo sin il proxim termin pussaivel."
       },
       "sources": [
         "kvg-7",
@@ -213,7 +357,11 @@
         ]
       },
       "text": {
-        "de": "Müssen Sie Ihre Kasse verlassen, weil Sie umziehen oder eine neue Stelle antreten, endet das Versicherungsverhältnis bereits im Zeitpunkt des Umzugs oder des Stellenantritts. Sie brauchen dafür weder die dreimonatige noch die einmonatige Kündigungsfrist einzuhalten."
+        "de": "Müssen Sie Ihre Kasse verlassen, weil Sie umziehen oder eine neue Stelle antreten, endet das Versicherungsverhältnis bereits im Zeitpunkt des Umzugs oder des Stellenantritts. Sie brauchen dafür weder die dreimonatige noch die einmonatige Kündigungsfrist einzuhalten.",
+        "fr": "Si vous devez quitter votre caisse parce que vous déménagez ou prenez un nouvel emploi, le rapport d’assurance prend fin dès le moment du déménagement ou de la prise d’emploi. Vous n’avez alors à respecter ni le délai de résiliation de trois mois, ni celui d’un mois.",
+        "it": "Se deve lasciare la sua cassa perché trasloca o inizia un nuovo impiego, il rapporto assicurativo termina già nel momento del trasloco o dell'inizio dell'attività. Non deve rispettare né il termine di tre mesi né quello di un mese.",
+        "en": "If you have to leave your insurer because you are moving house or starting a new job, the insurance relationship ends already at the time of the move or of starting the job. You do not need to observe either the three-month or the one-month notice period for this.",
+        "rm": "Stuais Vus bandunar Vossa cassa, perquai ch'Vus traslochais u cumainzais in nov plaz da lavur, finescha la relaziun d'assicuranza gia il mument dal trasloc u dal cumenzament dal plaz. Per quai dovrais Vus ne observar il termin da disditga da trais mais ne quel d'in mais."
       },
       "sources": [
         "kvg-7"
@@ -228,7 +376,11 @@
         ]
       },
       "text": {
-        "de": "Stellt Ihre Kasse die Grundversicherung freiwillig ein oder verliert sie die Bewilligung dazu, endet Ihr Versicherungsverhältnis mit dem Entzug der Bewilligung. Kümmern Sie sich in diesem Fall rechtzeitig um eine neue Kasse, damit keine Lücke im Versicherungsschutz entsteht."
+        "de": "Stellt Ihre Kasse die Grundversicherung freiwillig ein oder verliert sie die Bewilligung dazu, endet Ihr Versicherungsverhältnis mit dem Entzug der Bewilligung. Kümmern Sie sich in diesem Fall rechtzeitig um eine neue Kasse, damit keine Lücke im Versicherungsschutz entsteht.",
+        "fr": "Si votre caisse cesse volontairement de pratiquer l’assurance de base, ou perd son autorisation de le faire, votre rapport d’assurance prend fin avec le retrait de l’autorisation. Dans ce cas, occupez-vous à temps d’une nouvelle caisse, afin qu’aucune lacune de couverture n’apparaisse.",
+        "it": "Se la sua cassa rinuncia volontariamente all'assicurazione di base o perde l'autorizzazione a esercitarla, il suo rapporto assicurativo termina con il ritiro dell'autorizzazione. In questo caso, si occupi per tempo di una nuova cassa, affinché non si crei una lacuna nella copertura assicurativa.",
+        "en": "If your insurer voluntarily stops providing basic insurance or loses its licence to do so, your insurance relationship ends when the licence is withdrawn. In this case, arrange a new insurer in good time so that no gap in cover arises.",
+        "rm": "Chala Vossa cassa voluntariamain cun l'assicuranza da basa u perda ella la permissiun per quai, finescha Vossa relaziun d'assicuranza cun la retratga da la permissiun. Occupai Vus en quest cas a temp d'ina nova cassa, per che nagina lacuna na naschia en la protecziun d'assicuranza."
       },
       "sources": [
         "kvg-7"
@@ -238,7 +390,11 @@
       "id": "higher-deductible-or-model",
       "kind": "rule",
       "text": {
-        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt, oder sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell), gilt eine zusätzliche Einschränkung: Ein gewöhnlicher Wechsel der Kasse, der Franchise oder des Modells wird in diesen Fällen nur auf den Beginn eines Kalenderjahres wirksam, also auf den 1. Januar – selbst wenn Sie fristgerecht auf Ende Juni gekündigt haben. Die Kündigungsfristen von drei beziehungsweise einem Monat gelten dabei unverändert."
+        "de": "Haben Sie eine höhere Franchise als die tiefste wählbare Franchise gewählt, oder sind Sie in einem Modell mit eingeschränkter Arztwahl versichert (z. B. Hausarzt-, HMO- oder Telmed-Modell), gilt eine zusätzliche Einschränkung: Ein gewöhnlicher Wechsel der Kasse, der Franchise oder des Modells wird in diesen Fällen nur auf den Beginn eines Kalenderjahres wirksam, also auf den 1. Januar – selbst wenn Sie fristgerecht auf Ende Juni gekündigt haben. Die Kündigungsfristen von drei beziehungsweise einem Monat gelten dabei unverändert.",
+        "fr": "Si vous avez choisi une franchise plus élevée que la franchise minimale disponible, ou si vous êtes assuré dans un modèle avec un choix limité du médecin (p. ex. modèle du médecin de famille, HMO ou Telmed), une restriction supplémentaire s’applique : un changement ordinaire de caisse, de franchise ou de modèle ne devient alors effectif qu’au début d’une année civile, c’est-à-dire au 1er janvier – même si vous avez résilié à temps pour la fin juin. Les délais de résiliation de trois mois, respectivement d’un mois, restent inchangés.",
+        "it": "Se ha scelto una franchigia più alta rispetto alla franchigia minima disponibile, oppure è assicurato in un modello con scelta limitata del medico (per esempio modello del medico di famiglia, HMO o Telmed), vale una limitazione supplementare: un cambiamento ordinario di cassa, di franchigia o di modello ha effetto in questi casi solo all'inizio di un anno civile, cioè il 1° gennaio – anche se ha disdetto tempestivamente per la fine di giugno. I termini di disdetta di tre, rispettivamente di un mese, restano invariati.",
+        "en": "If you have chosen a higher deductible than the lowest one available, or are insured under a model with restricted choice of doctor (for example a family doctor, HMO or telmed model), an additional restriction applies: an ordinary switch of insurer, deductible or model only takes effect at the start of a calendar year, that is, on 1 January, even if you gave notice in time for the end of June. The three-month and one-month notice periods still apply unchanged.",
+        "rm": "Avais Vus tschernì ina franchisa pli auta che la pli bassa franchisa tscherneivla, u essas Vus assicurads en in model cun tscherna limitada dal medi (p.ex. model da medi da famiglia, HMO u Telmed), vala ina restricziun supplementara: in midar usual da la cassa, da la franchisa u dal model daventa en quests cas valaivel mo sin il cumenzament d'in onn chalendar, dunca sin l'1. da schaner – era sch'Vus avais disdì a temp sin la fin da zercladur. Ils termins da disditga da trais resp. d'in mais valan en quest connex nunmidads."
       },
       "sources": [
         "kvv-94",
@@ -249,7 +405,11 @@
       "id": "mid-year-exceptions",
       "kind": "rule",
       "text": {
-        "de": "Wechseln Sie die Kasse, weil Ihnen eine Prämienerhöhung angekündigt wurde, weil Sie umziehen oder die Stelle wechseln, oder weil Ihre bisherige Kasse die Bewilligung verliert, gilt die Jahresend-Beschränkung nicht: Der Wechsel wird dann auch unterjährig wirksam. Sie behalten dabei Ihre bisherige Franchise, sofern die neue Kasse diese ebenfalls anbietet."
+        "de": "Wechseln Sie die Kasse, weil Ihnen eine Prämienerhöhung angekündigt wurde, weil Sie umziehen oder die Stelle wechseln, oder weil Ihre bisherige Kasse die Bewilligung verliert, gilt die Jahresend-Beschränkung nicht: Der Wechsel wird dann auch unterjährig wirksam. Sie behalten dabei Ihre bisherige Franchise, sofern die neue Kasse diese ebenfalls anbietet.",
+        "fr": "Si vous changez de caisse parce qu’une augmentation de prime vous a été annoncée, parce que vous déménagez ou changez d’emploi, ou parce que votre caisse actuelle perd son autorisation, la restriction de fin d’année ne s’applique pas : le changement devient alors aussi effectif en cours d’année. Vous conservez dans ce cas votre franchise actuelle, pour autant que la nouvelle caisse la propose également.",
+        "it": "Se cambia cassa perché le è stato annunciato un aumento di premio, perché trasloca o cambia impiego, oppure perché la sua cassa precedente perde l'autorizzazione, la limitazione di fine anno non si applica: il cambiamento ha allora effetto anche durante l'anno. In tal caso mantiene la sua franchigia precedente, sempre che la nuova cassa la offra anch'essa.",
+        "en": "If you switch insurer because a premium increase was announced to you, because you are moving house or changing job, or because your current insurer is losing its licence, the year-end restriction does not apply: the switch then also takes effect during the year. You keep your previous deductible, provided the new insurer also offers it.",
+        "rm": "Midais Vus la cassa, perquai ch'a Vus è vegnida annunziada in'augmentaziun da premia, perquai ch'Vus traslochais u midais il plaz da lavur, u perquai che Vossa cassa anteriura perda la permissiun, na vala la restricziun a la fin da l'onn betg: il midar daventa lura era valaivel entaifer l'onn. Vus retegnis en quest connex Vossa franchisa anteriura, sche la nova cassa purscha era quella."
       },
       "sources": [
         "kvv-94",
@@ -260,7 +420,11 @@
       "id": "arrears-block-switch",
       "kind": "warning",
       "text": {
-        "de": "Solange Sie ausstehende Prämien, Kostenbeteiligungen, Verzugszinsen oder Betreibungskosten bei Ihrer bisherigen Kasse nicht vollständig bezahlt haben, können Sie die Kasse grundsätzlich nicht wechseln. Das Bundesgericht hat diese Regel streng ausgelegt. Seit 2024 und 2025 gibt es aber Ausnahmen, etwa für Schulden aus der Zeit, als Sie minderjährig waren, oder wenn der Kanton die Forderungen der Kasse übernommen hat. Klären Sie deshalb vor der Kündigung mit der Kasse oder der Ombudsstelle, ob offene Beträge Ihren Wechsel blockieren, und begleichen Sie sie wenn möglich vollständig oder vereinbaren Sie eine Abzahlung."
+        "de": "Solange Sie ausstehende Prämien, Kostenbeteiligungen, Verzugszinsen oder Betreibungskosten bei Ihrer bisherigen Kasse nicht vollständig bezahlt haben, können Sie die Kasse grundsätzlich nicht wechseln. Das Bundesgericht hat diese Regel streng ausgelegt. Seit 2024 und 2025 gibt es aber Ausnahmen, etwa für Schulden aus der Zeit, als Sie minderjährig waren, oder wenn der Kanton die Forderungen der Kasse übernommen hat. Klären Sie deshalb vor der Kündigung mit der Kasse oder der Ombudsstelle, ob offene Beträge Ihren Wechsel blockieren, und begleichen Sie sie wenn möglich vollständig oder vereinbaren Sie eine Abzahlung.",
+        "fr": "Tant que vous n’avez pas payé intégralement les primes, participations aux coûts, intérêts moratoires ou frais de poursuite dus à votre caisse actuelle, vous ne pouvez en principe pas changer de caisse. Le Tribunal fédéral a interprété cette règle de manière stricte. Depuis 2024 et 2025, il existe toutefois des exceptions, par exemple pour des dettes datant de votre minorité, ou lorsque le canton a repris les créances de la caisse. Clarifiez donc, avant de résilier, auprès de la caisse ou de l’Ombudsman, si des montants impayés bloquent votre changement, et réglez-les si possible intégralement, ou convenez d’un plan de remboursement.",
+        "it": "Finché non ha pagato per intero i premi, le partecipazioni ai costi, gli interessi di mora o le spese esecutive in sospeso presso la sua cassa precedente, di principio non può cambiare cassa. Il Tribunale federale ha interpretato questa regola in modo rigoroso. Dal 2024 e dal 2025 esistono tuttavia eccezioni, per esempio per debiti risalenti al periodo in cui era minorenne, oppure se il Cantone ha ripreso i crediti della cassa. Chiarisca quindi con la cassa o con l'ufficio dell'ombudsman, prima della disdetta, se importi in sospeso bloccano il suo cambiamento, e li saldi per intero se possibile, oppure concordi un pagamento rateale.",
+        "en": "As long as you have not paid outstanding premiums, cost-sharing amounts, default interest or debt enforcement costs with your current insurer in full, you generally cannot switch insurer. The Federal Supreme Court has interpreted this rule strictly. Since 2024 and 2025, however, there are exceptions, for example for debts from the time when you were a minor, or if the canton has taken over the insurer's claims. So clarify with the insurer or the Ombudsman's Office before giving notice whether outstanding amounts are blocking your switch, and settle them in full if possible, or agree on instalments.",
+        "rm": "Uschè ditg che Vus n'avais betg pajà cumplettamain premias aviertas, participaziuns als custs, tschains da retard u custs da scussiun tar Vossa cassa anteriura, na pudais Vus per principi betg midar la cassa. Il Tribunal federal ha interpretà questa regla strictamain. Dapi 2024 e 2025 datti dentant excepziuns, per exempel per debits dal temp, en il qual Vus eras minorens, u sche il chantun ha surpiglià las pretensiuns da la cassa. Clarifitgai percunquai avant la disditga cun la cassa u il post da l'Ombudsman, sch'imports aviertas bloccheschan Voss midar, e pajai els, sch'i è pussaivel, cumplettamain, u cunvegnai in'amortisaziun."
       },
       "sources": [
         "bge-144-v-380"
@@ -276,7 +440,11 @@
       "id": "old-cover-ends-on-confirmation",
       "kind": "warning",
       "text": {
-        "de": "Ihre Kündigung allein beendet das Versicherungsverhältnis mit der bisherigen Kasse noch nicht. Es endet erst, wenn die neue Kasse der bisherigen mitteilt, dass Sie dort ohne Unterbruch versichert sind. Bis diese Mitteilung eingetroffen ist, bleiben Sie bei der bisherigen Kasse versichert und prämienpflichtig. Kommt die Mitteilung erst nach Ablauf Ihrer Kündigungsfrist bei der bisherigen Kasse an, endet das alte Versicherungsverhältnis erst Ende des Monats, in dem diese verspätete Mitteilung dort eingegangen ist. Versäumt die neue Kasse die Mitteilung ganz, muss sie Ihnen den dadurch entstandenen Schaden ersetzen, insbesondere eine allfällige Prämiendifferenz. Kündigen Sie deshalb nicht vorschnell weitere Verträge oder Zahlungen bei der alten Kasse, solange Ihnen die Aufnahmebestätigung der neuen Kasse nicht vorliegt."
+        "de": "Ihre Kündigung allein beendet das Versicherungsverhältnis mit der bisherigen Kasse noch nicht. Es endet erst, wenn die neue Kasse der bisherigen mitteilt, dass Sie dort ohne Unterbruch versichert sind. Bis diese Mitteilung eingetroffen ist, bleiben Sie bei der bisherigen Kasse versichert und prämienpflichtig. Kommt die Mitteilung erst nach Ablauf Ihrer Kündigungsfrist bei der bisherigen Kasse an, endet das alte Versicherungsverhältnis erst Ende des Monats, in dem diese verspätete Mitteilung dort eingegangen ist. Versäumt die neue Kasse die Mitteilung ganz, muss sie Ihnen den dadurch entstandenen Schaden ersetzen, insbesondere eine allfällige Prämiendifferenz. Kündigen Sie deshalb nicht vorschnell weitere Verträge oder Zahlungen bei der alten Kasse, solange Ihnen die Aufnahmebestätigung der neuen Kasse nicht vorliegt.",
+        "fr": "Votre résiliation seule ne met pas encore fin au rapport d’assurance avec l’ancienne caisse. Celui-ci ne prend fin que lorsque la nouvelle caisse communique à l’ancienne que vous êtes assuré chez elle sans interruption. Tant que cette communication n’est pas arrivée, vous restez assuré, et tenu de payer les primes, auprès de l’ancienne caisse. Si la communication n’arrive à l’ancienne caisse qu’après l’expiration de votre délai de résiliation, l’ancien rapport d’assurance ne prend fin qu’à la fin du mois où cette communication tardive y est parvenue. Si la nouvelle caisse omet totalement cette communication, elle doit réparer le dommage qui en résulte pour vous, notamment une éventuelle différence de prime. Ne résiliez donc pas prématurément d’autres contrats ou paiements auprès de l’ancienne caisse, tant que vous n’avez pas reçu la confirmation d’admission de la nouvelle caisse.",
+        "it": "La sua disdetta da sola non pone ancora fine al rapporto assicurativo con la cassa precedente. Questo termina solo quando la nuova cassa comunica a quella precedente che lei è assicurato presso di lei senza interruzione. Fino a quando non arriva questa comunicazione, lei resta assicurato e tenuto al pagamento del premio presso la cassa precedente. Se la comunicazione arriva presso la cassa precedente solo dopo la scadenza del suo termine di disdetta, il vecchio rapporto assicurativo termina solo alla fine del mese in cui questa comunicazione tardiva vi è pervenuta. Se la nuova cassa omette del tutto la comunicazione, deve risarcirle il danno che ne risulta, in particolare un'eventuale differenza di premio. Non disdica quindi in modo affrettato altri contratti o pagamenti presso la vecchia cassa, finché non dispone della conferma di ammissione della nuova cassa.",
+        "en": "Your termination alone does not yet end the insurance relationship with your current insurer. It only ends once the new insurer tells the current one that you are insured there without a gap. Until this notification has arrived, you remain insured, and liable to pay premiums, with your current insurer. If the notification only reaches the current insurer after your notice period has expired, the old insurance relationship only ends at the end of the month in which this late notification arrived there. If the new insurer fails to give notification at all, it must compensate you for the resulting loss, in particular any difference in premiums. So do not hastily cancel further contracts or payments with the old insurer while you do not yet have confirmation of acceptance from the new insurer.",
+        "rm": "Vossa disditga suletta na finescha anc betg la relaziun d'assicuranza cun la cassa anteriura. Ella finescha mo, sche la nova cassa communitgescha a l'anteriura ch'Vus essas là assicurads senza interrupziun. Enfin che questa communicaziun è arrivada, restais Vus assicurads e pajaivels da premia tar la cassa anteriura. Arriva la communicaziun mo suenter la scadenza da Voss termin da disditga tar la cassa anteriura, finescha la veglia relaziun d'assicuranza mo la fin dal mais, en il qual questa communicaziun retardada è arrivada là. Manca la nova cassa dal tut la communicaziun, sto ella Vus render il donn resultant, en spezial in'eventuala differenza da premia. Disdis percunquai betg memia svelt ulteriurs contracts u pajaments tar la veglia cassa, uschè ditg che la conferma d'admissiun da la nova cassa na As è betg avant maun."
       },
       "sources": [
         "kvg-7",
@@ -287,7 +455,11 @@
       "id": "duty-to-accept",
       "kind": "rule",
       "text": {
-        "de": "Jede Kasse, die zur Durchführung der Grundversicherung zugelassen ist, muss in ihrem Tätigkeitsgebiet jede Person aufnehmen, die der Versicherungspflicht untersteht. Das gilt unabhängig von Alter, Gesundheitszustand oder Vorerkrankungen und ist eine Bedingung für die Bewilligung der Kasse. Die neue Kasse darf Sie für die Grundversicherung also nicht ablehnen."
+        "de": "Jede Kasse, die zur Durchführung der Grundversicherung zugelassen ist, muss in ihrem Tätigkeitsgebiet jede Person aufnehmen, die der Versicherungspflicht untersteht. Das gilt unabhängig von Alter, Gesundheitszustand oder Vorerkrankungen und ist eine Bedingung für die Bewilligung der Kasse. Die neue Kasse darf Sie für die Grundversicherung also nicht ablehnen.",
+        "fr": "Chaque caisse autorisée à pratiquer l’assurance de base doit, dans son rayon d’activité, admettre toute personne soumise à l’obligation de s’assurer. Cela vaut indépendamment de l’âge, de l’état de santé ou des maladies antérieures, et constitue une condition de l’autorisation de la caisse. La nouvelle caisse ne peut donc pas vous refuser pour l’assurance de base.",
+        "it": "Ogni cassa ammessa a esercitare l'assicurazione di base deve ammettere, nel suo raggio d'attività, ogni persona soggetta all'obbligo assicurativo. Questo vale indipendentemente dall'età, dallo stato di salute o da malattie preesistenti, ed è una condizione per l'autorizzazione della cassa. La nuova cassa non può quindi rifiutarla per l'assicurazione di base.",
+        "en": "Every insurer licensed to operate basic insurance must, within its area of activity, accept every person subject to the insurance obligation. This applies regardless of age, state of health or pre-existing conditions, and is a condition for the insurer's licence. The new insurer may therefore not refuse you for basic insurance.",
+        "rm": "Mintga cassa, ch'è admessa per exequir l'assicuranza da basa, sto admetter en ses territori d'activitad mintga persuna che sutstat a l'obligaziun d'assicuranza. Quai vala independentamain da l'età, dal stadi da sanadad u da malsognas anteriuras ed è ina cundiziun per la permissiun da la cassa. La nova cassa na dastga percunquai betg refusar Vus per l'assicuranza da basa."
       },
       "sources": [
         "kvag-5"
@@ -297,7 +469,11 @@
       "id": "supplementary-separate",
       "kind": "warning",
       "text": {
-        "de": "Zusatzversicherungen sind privatrechtliche Verträge nach dem Versicherungsvertragsgesetz und rechtlich von der Grundversicherung getrennt (Art. 2 Abs. 2 KVAG). Die Aufnahmepflicht gilt für sie nicht: Die neue Kasse kann einen Antrag für eine Zusatzversicherung ablehnen oder Vorbehalte anbringen, etwa wegen bestehender Gesundheitsprobleme. Ihre bisherige Kasse darf Sie nicht dazu zwingen, beim Wechsel der Grundversicherung auch Ihre Zusatzversicherungen bei ihr zu kündigen, und darf diese nicht allein deshalb kündigen, weil Sie die Grundversicherung wechseln (Art. 7 Abs. 7 und 8 KVG). Sie können also die Grundversicherung wechseln und die Zusatzversicherung behalten. Kündigen Sie eine bestehende Zusatzversicherung erst, wenn feststeht, ob und zu welchen Bedingungen eine neue Kasse Sie dort aufnimmt."
+        "de": "Zusatzversicherungen sind privatrechtliche Verträge nach dem Versicherungsvertragsgesetz und rechtlich von der Grundversicherung getrennt (Art. 2 Abs. 2 KVAG). Die Aufnahmepflicht gilt für sie nicht: Die neue Kasse kann einen Antrag für eine Zusatzversicherung ablehnen oder Vorbehalte anbringen, etwa wegen bestehender Gesundheitsprobleme. Ihre bisherige Kasse darf Sie nicht dazu zwingen, beim Wechsel der Grundversicherung auch Ihre Zusatzversicherungen bei ihr zu kündigen, und darf diese nicht allein deshalb kündigen, weil Sie die Grundversicherung wechseln (Art. 7 Abs. 7 und 8 KVG). Sie können also die Grundversicherung wechseln und die Zusatzversicherung behalten. Kündigen Sie eine bestehende Zusatzversicherung erst, wenn feststeht, ob und zu welchen Bedingungen eine neue Kasse Sie dort aufnimmt.",
+        "fr": "Les assurances complémentaires sont des contrats de droit privé régis par la loi sur le contrat d’assurance et juridiquement séparées de l’assurance de base (art. 2 al. 2 LSAMal). L’obligation d’admettre ne s’applique pas à elles : la nouvelle caisse peut refuser une demande d’assurance complémentaire ou y apporter des réserves, par exemple en raison de problèmes de santé existants. Votre caisse actuelle ne peut pas vous contraindre à résilier aussi vos assurances complémentaires chez elle lorsque vous changez d’assurance de base, et ne peut pas les résilier au seul motif que vous changez d’assurance de base (art. 7 al. 7 et 8 LAMal). Vous pouvez donc changer d’assurance de base tout en conservant votre assurance complémentaire. Ne résiliez une assurance complémentaire existante que lorsqu’il est établi si, et à quelles conditions, une nouvelle caisse vous y admettra.",
+        "it": "Le assicurazioni complementari sono contratti di diritto privato secondo la legge sul contratto d'assicurazione e sono giuridicamente separate dall'assicurazione di base (art. 2 cpv. 2 LVAMal). L'obbligo di ammissione non vale per esse: la nuova cassa può rifiutare una domanda di assicurazione complementare o apporvi riserve, per esempio a causa di problemi di salute esistenti. La sua cassa precedente non può costringerla, in occasione del cambiamento dell'assicurazione di base, a disdire anche le sue assicurazioni complementari presso di lei, e non può disdirle per il solo motivo che lei cambia l'assicurazione di base (art. 7 cpv. 7 e 8 LAMal). Può quindi cambiare l'assicurazione di base e mantenere l'assicurazione complementare. Disdica un'assicurazione complementare esistente solo quando è chiaro se, e a quali condizioni, una nuova cassa la ammette.",
+        "en": "Supplementary insurance is a private-law contract under the Insurance Contract Act and is legally separate from basic insurance (Art. 2 para. 2 KVAG). The duty to accept does not apply to it: the new insurer can refuse an application for supplementary insurance or attach reservations, for example because of existing health problems. Your current insurer may not force you to also terminate your supplementary insurance with it when you switch basic insurance, and may not terminate it for that reason alone (Art. 7 paras. 7 and 8 KVG). So you can switch basic insurance and keep your supplementary insurance. Only terminate an existing supplementary insurance once it is clear whether, and on what terms, a new insurer will accept you for it.",
+        "rm": "Assicuranzas supplementaras èn contracts da dretg privat tenor la Lescha davart il contract d'assicuranza e separadas giuridicamain da l'assicuranza da basa (art. 2 al. 2 KVAG). L'obligaziun d'admissiun na vala betg per ellas: la nova cassa po refusar ina dumonda per in'assicuranza supplementara u far resalvas, per exempel pervia da problems da sanadad existents. Vossa cassa anteriura na dastga betg Vus forzar da disdir tar ella era Vossas assicuranzas supplementaras, cur che Vus midais l'assicuranza da basa, e na dastga betg las disdir mo perquai ch'Vus midais l'assicuranza da basa (art. 7 al. 7 e 8 LAMal). Vus pudais dunca midar l'assicuranza da basa e retegnair l'assicuranza supplementara. Disdis ina assicuranza supplementara existenta mo, sche stat fix, sche ed a tge cundiziuns ina nova cassa Vus admetta là."
       },
       "sources": [
         "kvg-7",
@@ -314,14 +490,22 @@
       "id": "compare-premiums",
       "kind": "step",
       "text": {
-        "de": "Vergleichen Sie die Prämien und Modelle verschiedener Kassen, bevor Sie kündigen, zum Beispiel mit dem Prämienrechner des Bundes. Prüfen Sie dabei, ob die neue Kasse die von Ihnen gewünschte Franchise und das gewünschte Versicherungsmodell überhaupt anbietet, und holen Sie sich eine schriftliche Bestätigung, bevor Sie sich endgültig auf einen Wechsel verlassen."
+        "de": "Vergleichen Sie die Prämien und Modelle verschiedener Kassen, bevor Sie kündigen, zum Beispiel mit dem Prämienrechner des Bundes. Prüfen Sie dabei, ob die neue Kasse die von Ihnen gewünschte Franchise und das gewünschte Versicherungsmodell überhaupt anbietet, und holen Sie sich eine schriftliche Bestätigung, bevor Sie sich endgültig auf einen Wechsel verlassen.",
+        "fr": "Comparez les primes et les modèles de différentes caisses avant de résilier, par exemple avec le calculateur de primes de la Confédération. Vérifiez à cette occasion si la nouvelle caisse propose bien la franchise et le modèle d’assurance souhaités, et obtenez une confirmation écrite avant de compter définitivement sur un changement.",
+        "it": "Confronti i premi e i modelli di diverse casse prima di disdire, per esempio con il calcolatore dei premi della Confederazione. Verifichi in tal caso se la nuova cassa offre effettivamente la franchigia e il modello assicurativo da lei desiderati, e si faccia dare una conferma scritta prima di basarsi definitivamente su un cambiamento.",
+        "en": "Compare the premiums and models of different insurers before giving notice, for example using the federal government's premium calculator. Check whether the new insurer even offers the deductible and the insurance model you want, and get written confirmation before finally relying on a switch.",
+        "rm": "Cumparegiai las premias e ils models da differentas cassas, avant che Vus disdis, per exempel cun il calculader da premias da la Confederaziun. Examinai en quest connex, sche la nova cassa purscha dal tut la franchisa giavischada da Vus ed il model d'assicuranza giavischà, e procuravi ina conferma scritta, avant che Vus As fidais definitivamain d'in midar."
       }
     },
     {
       "id": "premium-reduction",
       "kind": "cost",
       "text": {
-        "de": "Unabhängig davon, bei welcher Kasse Sie versichert sind, verbilligen die Kantone Personen mit bescheidenem Einkommen die Prämien der Grundversicherung; ein Kassenwechsel ändert an diesem Anspruch nichts."
+        "de": "Unabhängig davon, bei welcher Kasse Sie versichert sind, verbilligen die Kantone Personen mit bescheidenem Einkommen die Prämien der Grundversicherung; ein Kassenwechsel ändert an diesem Anspruch nichts.",
+        "fr": "Indépendamment de la caisse auprès de laquelle vous êtes assuré, les cantons réduisent les primes de l’assurance de base pour les personnes de condition économique modeste ; un changement de caisse ne modifie en rien ce droit.",
+        "it": "Indipendentemente dalla cassa presso cui è assicurato, i Cantoni riducono i premi dell'assicurazione di base alle persone con reddito modesto; un cambiamento di cassa non modifica questo diritto.",
+        "en": "Regardless of which insurer you are with, the cantons reduce the premiums of basic insurance for people with modest income; switching insurer does not change this entitlement.",
+        "rm": "Independentamain da tar tge cassa ch'Vus essas assicurads, reducan ils chantuns a persunas cun entradas modestas las premias da l'assicuranza da basa; in midar da cassa na muda nagut a quest dretg."
       },
       "sources": [
         "kvg-65"
@@ -331,14 +515,22 @@
       "id": "escalate",
       "kind": "escalate",
       "text": {
-        "de": "Bestreitet Ihre Kasse, dass Ihre Kündigung rechtzeitig eingegangen ist, ist unklar, ob ein Verlustschein Ihren Wechsel blockiert, oder beruft sich die Kasse darauf, dass Sie wegen höherer Franchise oder besonderem Modell nicht unterjährig wechseln dürfen, obwohl bei Ihnen eine Ausnahme vorliegen könnte: Lassen Sie sich in diesen Fällen persönlich beraten, bevor Sie von einem gültigen Wechsel ausgehen oder Zahlungen einstellen."
+        "de": "Bestreitet Ihre Kasse, dass Ihre Kündigung rechtzeitig eingegangen ist, ist unklar, ob ein Verlustschein Ihren Wechsel blockiert, oder beruft sich die Kasse darauf, dass Sie wegen höherer Franchise oder besonderem Modell nicht unterjährig wechseln dürfen, obwohl bei Ihnen eine Ausnahme vorliegen könnte: Lassen Sie sich in diesen Fällen persönlich beraten, bevor Sie von einem gültigen Wechsel ausgehen oder Zahlungen einstellen.",
+        "fr": "Si votre caisse conteste que votre résiliation est arrivée à temps, s’il n’est pas clair si un acte de défaut de biens bloque votre changement, ou si la caisse invoque le fait que vous ne pouvez pas changer en cours d’année en raison d’une franchise plus élevée ou d’un modèle particulier, alors qu’une exception pourrait s’appliquer dans votre cas : faites-vous conseiller personnellement dans ces situations, avant de partir du principe que le changement est valable ou de cesser vos paiements.",
+        "it": "Se la sua cassa contesta che la sua disdetta sia arrivata in tempo utile, se non è chiaro se un attestato di carenza di beni blocchi il suo cambiamento, oppure se la cassa si richiama al fatto che, a causa di una franchigia più alta o di un modello particolare, lei non può cambiare durante l'anno, benché nel suo caso potrebbe sussistere un'eccezione: in questi casi si faccia consigliare personalmente, prima di dare per scontato un cambiamento valido o di interrompere i pagamenti.",
+        "en": "If your insurer disputes that your termination arrived in time, if it is unclear whether a certificate of unpaid debt is blocking your switch, or if the insurer relies on the fact that you may not switch during the year because of a higher deductible or a special model, although an exception might apply to you: in these cases, get personal advice before assuming a switch is valid or stopping payments.",
+        "rm": "Contesta Vossa cassa ch'Vossa disditga saja arrivada a temp, èsi unclar, sch'in attest da perdita bloccheschia Voss midar, u sa referescha la cassa al fatg ch'Vus na dastgais betg midar entaifer l'onn pervia d'ina franchisa pli auta u d'in model spezial, ballunche tar Vus po esser avant maun in'excepziun: laschai Vus persunalmain cusseglier en quests cas, avant che Vus partis d'in midar valaivel u chalais pajaments."
       }
     },
     {
       "id": "ombudsman",
       "kind": "free-help",
       "text": {
-        "de": "Die Ombudsstelle der Krankenversicherung klärt kostenlos und neutral Missverständnisse und Streitigkeiten zwischen Versicherten und Krankenkassen, auch über die Frage, ob eine Kündigung rechtzeitig und gültig war. Sie können sich dorthin wenden, bevor Sie eine Anwältin oder einen Anwalt beiziehen."
+        "de": "Die Ombudsstelle der Krankenversicherung klärt kostenlos und neutral Missverständnisse und Streitigkeiten zwischen Versicherten und Krankenkassen, auch über die Frage, ob eine Kündigung rechtzeitig und gültig war. Sie können sich dorthin wenden, bevor Sie eine Anwältin oder einen Anwalt beiziehen.",
+        "fr": "L’Ombudsman de l’assurance-maladie clarifie gratuitement et de manière neutre les malentendus et les litiges entre assurés et caisses-maladie, y compris la question de savoir si une résiliation était faite à temps et valable. Vous pouvez vous adresser à lui avant de faire appel à une avocate ou un avocat.",
+        "it": "L'Ombudsman dell'assicurazione malattie chiarisce gratuitamente e in modo neutrale incomprensioni e controversie tra assicurati e casse malati, anche sulla questione se una disdetta fosse tempestiva e valida. Può rivolgersi a questo servizio prima di incaricare un'avvocata o un avvocato.",
+        "en": "The Health Insurance Ombudsman's Office clarifies misunderstandings and disputes between insured people and health insurers free of charge and neutrally, including on the question of whether a termination was made in time and was valid. You can turn to it before involving a lawyer.",
+        "rm": "Il post da l'Ombudsman da l'assicuranza da malsauns sclerescha gratuitamain e neutralmain malchapientschas e dispitas tranter assicurads e cassas da malsauns, era davart la dumonda, sch'ina disditga era a temp e valaivla. Vus pudais As drizzar là, avant che Vus consultais in'advocata u in advocat."
       }
     }
   ],
@@ -416,13 +608,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Prämien vergleichen (priminfo.admin.ch)"
+        "de": "Prämien vergleichen (priminfo.admin.ch)",
+        "fr": "Comparer les primes (priminfo.admin.ch)",
+        "it": "Confrontare i premi (priminfo.admin.ch)",
+        "en": "Compare premiums (priminfo.admin.ch)",
+        "rm": "Cumparegiar premias (priminfo.admin.ch)"
       },
       "url": "https://www.priminfo.admin.ch/de/praemien"
     },
     {
       "label": {
-        "de": "Ombudsstelle der Krankenversicherung"
+        "de": "Ombudsstelle der Krankenversicherung",
+        "fr": "Ombudsman de l’assurance-maladie",
+        "it": "Ombudsman dell'assicurazione malattie",
+        "en": "Health Insurance Ombudsman's Office",
+        "rm": "Post da l'Ombudsman da l'assicuranza da malsauns"
       },
       "url": "https://om-kv.ch/"
     }

@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Die Kasse zahlt eine Rechnung nicht"
+    "de": "Die Kasse zahlt eine Rechnung nicht",
+    "fr": "La caisse ne paie pas une facture",
+    "it": "La cassa non paga una fattura",
+    "en": "My health insurer will not pay a bill",
+    "rm": "La cassa na paja betg ina quinta"
   },
   "summary": {
-    "de": "Ihre Krankenkasse hat eine Rechnung nicht oder nicht vollständig bezahlt. Dieser Leitfaden zeigt, wie Sie zuerst prüfen, ob wirklich eine Ablehnung vorliegt, was die Grundversicherung abdeckt, und wie Sie vorgehen, wenn die Kasse eine Leistung verweigert: von der Anfrage nach den Gründen über die Verfügung bis zur Einsprache und zur Beschwerde."
+    "de": "Ihre Krankenkasse hat eine Rechnung nicht oder nicht vollständig bezahlt. Dieser Leitfaden zeigt, wie Sie zuerst prüfen, ob wirklich eine Ablehnung vorliegt, was die Grundversicherung abdeckt, und wie Sie vorgehen, wenn die Kasse eine Leistung verweigert: von der Anfrage nach den Gründen über die Verfügung bis zur Einsprache und zur Beschwerde.",
+    "fr": "Votre caisse-maladie n’a pas payé une facture, ou seulement en partie. Ce guide montre comment vérifier d’abord s’il s’agit vraiment d’un refus, ce que couvre l’assurance de base, et comment procéder lorsque la caisse refuse une prestation : de la demande des motifs à la décision, puis à l’opposition et au recours.",
+    "it": "La sua cassa malati non ha pagato una fattura, o non l'ha pagata per intero. Questa guida mostra come verificare anzitutto se si tratta davvero di un rifiuto, cosa copre l'assicurazione di base, e come procedere se la cassa rifiuta una prestazione: dalla richiesta dei motivi alla decisione, fino all'opposizione e al ricorso.",
+    "en": "Your health insurer has not paid a bill, or not paid it in full. This guide shows how to first check whether there really is a refusal, what basic insurance covers, and how to proceed if the insurer refuses a benefit: from asking for the reasons, through the ruling, to the objection and the appeal.",
+    "rm": "Vossa cassa da malsauns n'ha betg pajà ina quinta, u betg dal tut. Quest manual mussa, co Vus examinais empruma, sche igl è propi ina refusa, tge che l'assicuranza da basa cuvra, e co Vus procedais, sche la cassa refusa ina prestaziun: da la dumonda per ils motivs, sur la decisiun, enfin l'opposiziun ed il recurs."
   },
   "examples": {
     "de": [
@@ -19,42 +27,102 @@
       "Ich habe Einsprache erhoben, aber keine Antwort erhalten, was nun?",
       "Reicht eine E-Mail an die Krankenkasse, um Einsprache zu erheben?",
       "Muss ich die Rechnung trotzdem bezahlen, solange das Verfahren läuft?"
+    ],
+    "fr": [
+      "Ma caisse-maladie refuse de payer ma facture d’hôpital, que puis-je faire ?",
+      "J’ai envoyé une facture de dentiste et la caisse ne rembourse rien.",
+      "Ma caisse dit que le médicament n’est pas sur la liste, est-ce vrai ?",
+      "J’ai fait opposition, mais je n’ai reçu aucune réponse, que faire maintenant ?",
+      "Un simple e-mail suffit-il pour faire opposition auprès de la caisse-maladie ?",
+      "Dois-je quand même payer la facture pendant que la procédure est en cours ?"
+    ],
+    "it": [
+      "La cassa malati non vuole pagare la mia fattura dell'ospedale, cosa posso fare?",
+      "Ho presentato una fattura del dentista e la cassa non paga nulla.",
+      "La mia cassa dice che il medicamento non è sulla lista, è vero?",
+      "Ho fatto opposizione ma non ho ricevuto risposta, cosa faccio adesso?",
+      "Basta una e-mail alla cassa malati per fare opposizione?",
+      "Devo pagare comunque la fattura finché la procedura è in corso?"
+    ],
+    "en": [
+      "My health insurer won't pay my hospital bill, what can I do?",
+      "I submitted a dentist's bill and the insurer isn't paying anything.",
+      "My insurer says the medicine isn't on the list, is that true?",
+      "I've filed an objection but had no reply, what now?",
+      "Is an email to my health insurer enough to file an objection?",
+      "Do I still have to pay the bill while the procedure is going on?"
+    ],
+    "rm": [
+      "La cassa da malsauns na vul betg pajar mia quinta da l'ospital, tge poss jau far?",
+      "Jau hai inoltrà ina quinta dal dentist e la cassa na paja nagut.",
+      "Mia cassa di che il medicament na saja betg sin la glista, è quai vair?",
+      "Jau hai fatg opposiziun, dentant betg retschet nagina resposta, tge ussa?",
+      "Basta in e-mail a la cassa da malsauns per far opposiziun?",
+      "Stoss jau pajar la quinta tuttina, uschè ditg che la procedura curra?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Die obligatorische Krankenpflege-Grundversicherung (KVG) und die Frage, was zu tun ist, wenn die Krankenkasse eine Rechnung nicht oder nicht vollständig übernimmt."
+      "de": "Die obligatorische Krankenpflege-Grundversicherung (KVG) und die Frage, was zu tun ist, wenn die Krankenkasse eine Rechnung nicht oder nicht vollständig übernimmt.",
+      "fr": "L’assurance obligatoire des soins (assurance de base, LAMal) et la question de savoir que faire lorsque la caisse-maladie ne prend pas en charge une facture, ou seulement en partie.",
+      "it": "L'assicurazione obbligatoria delle cure medico-sanitarie (assicurazione di base, LAMal) e cosa fare se la cassa malati non copre una fattura, o non la copre per intero.",
+      "en": "Compulsory basic health insurance (KVG) and what to do if your health insurer does not pay a bill, or does not pay it in full.",
+      "rm": "L'assicuranza obligatorica da basa per la tgira da malsauns (LAMal) e la dumonda, tge ch'è da far, sche la cassa da malsauns na surpiglia betg u betg dal tut ina quinta."
     },
     "excludes": {
-      "de": "Zusatzversicherungen (Halbprivat, Privat, Zahnzusatz, Auslandschutz und Ähnliches), Streitigkeiten mit Leistungserbringern über die Höhe des Honorars als solche, sowie Fragen der Unfall-, Invaliden- oder Militärversicherung."
+      "de": "Zusatzversicherungen (Halbprivat, Privat, Zahnzusatz, Auslandschutz und Ähnliches), Streitigkeiten mit Leistungserbringern über die Höhe des Honorars als solche, sowie Fragen der Unfall-, Invaliden- oder Militärversicherung.",
+      "fr": "Les assurances complémentaires (semi-privé, privé, complémentaire dentaire, protection à l’étranger et assurances similaires), les litiges avec les fournisseurs de prestations portant sur le montant des honoraires en tant que tels, ainsi que les questions relevant de l’assurance-accidents, de l’assurance-invalidité ou de l’assurance militaire.",
+      "it": "Le assicurazioni complementari (semiprivato, privato, cure dentarie complementari, protezione all'estero e simili), le controversie con i fornitori di prestazioni sull'importo dell'onorario in quanto tali, nonché le questioni relative all'assicurazione contro gli infortuni, all'assicurazione invalidità o all'assicurazione militare.",
+      "en": "Supplementary insurance (semi-private, private, dental supplementary, cover abroad and similar), disputes with service providers about the amount of their fee as such, and questions of accident, invalidity or military insurance.",
+      "rm": "Assicuranzas supplementaras (halbprivat, privat, supplementara dentala, protecziun a l'exteriur e sumegliantas), dispitas cun ils posts da prestaziun davart l'autezza dal honorar sco tala, sco er dumondas da l'assicuranza cunter accidents, da l'assicuranza per invaliditad u da l'assicuranza militara."
     }
   },
   "facts": [
     {
       "key": "insurance_type",
       "question": {
-        "de": "Geht es um die obligatorische Grundversicherung oder um eine Zusatzversicherung?"
+        "de": "Geht es um die obligatorische Grundversicherung oder um eine Zusatzversicherung?",
+        "fr": "S’agit-il de l’assurance de base obligatoire ou d’une assurance complémentaire ?",
+        "it": "Si tratta dell'assicurazione di base obbligatoria o di un'assicurazione complementare?",
+        "en": "Is this about compulsory basic insurance or about supplementary insurance?",
+        "rm": "Sa tracta da l'assicuranza da basa obligatorica u d'ina assicuranza supplementara?"
       },
       "help": {
-        "de": "Steht meist auf der Rechnung oder in der Police: Grundversicherung (KVG) oder eine Zusatzversicherung."
+        "de": "Steht meist auf der Rechnung oder in der Police: Grundversicherung (KVG) oder eine Zusatzversicherung.",
+        "fr": "Cela figure en général sur la facture ou dans la police : assurance de base (LAMal) ou assurance complémentaire.",
+        "it": "Di solito è indicato sulla fattura o nella polizza: assicurazione di base (LAMal) o un'assicurazione complementare.",
+        "en": "Usually shown on the bill or in the policy: basic insurance (KVG) or a supplementary insurance.",
+        "rm": "Stat il pli savens sin la quinta u en la polizza: assicuranza da basa (LAMal) u ina assicuranza supplementara."
       },
       "options": [
         {
           "value": "basic",
           "label": {
-            "de": "Grundversicherung (obligatorisch)"
+            "de": "Grundversicherung (obligatorisch)",
+            "fr": "Assurance de base (obligatoire)",
+            "it": "Assicurazione di base (obbligatoria)",
+            "en": "Basic insurance (compulsory)",
+            "rm": "Assicuranza da basa (obligatorica)"
           }
         },
         {
           "value": "supplementary",
           "label": {
-            "de": "Zusatzversicherung"
+            "de": "Zusatzversicherung",
+            "fr": "Assurance complémentaire",
+            "it": "Assicurazione complementare",
+            "en": "Supplementary insurance",
+            "rm": "Assicuranza supplementara"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -62,37 +130,61 @@
     {
       "key": "bill_type",
       "question": {
-        "de": "Worum geht es bei der Rechnung oder der Ablehnung?"
+        "de": "Worum geht es bei der Rechnung oder der Ablehnung?",
+        "fr": "De quoi s’agit-il dans la facture ou le refus ?",
+        "it": "Di cosa si tratta nella fattura o nel rifiuto?",
+        "en": "What is the bill or refusal about?",
+        "rm": "Da tge sa tracta tar la quinta u la refusa?"
       },
       "options": [
         {
           "value": "treatment",
           "label": {
-            "de": "Arzt- oder Spitalbehandlung"
+            "de": "Arzt- oder Spitalbehandlung",
+            "fr": "Traitement médical ou hospitalier",
+            "it": "Cura medica o ospedaliera",
+            "en": "Medical or hospital treatment",
+            "rm": "Tractament tar il medi u en l'ospital"
           }
         },
         {
           "value": "medication",
           "label": {
-            "de": "Medikament"
+            "de": "Medikament",
+            "fr": "Médicament",
+            "it": "Medicamento",
+            "en": "Medicine",
+            "rm": "Medicament"
           }
         },
         {
           "value": "dental",
           "label": {
-            "de": "Zahnbehandlung"
+            "de": "Zahnbehandlung",
+            "fr": "Traitement dentaire",
+            "it": "Cura dentaria",
+            "en": "Dental treatment",
+            "rm": "Tractament dentar"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Etwas anderes, zum Beispiel Hilfsmittel oder Therapie"
+            "de": "Etwas anderes, zum Beispiel Hilfsmittel oder Therapie",
+            "fr": "Autre chose, par exemple un moyen auxiliaire ou une thérapie",
+            "it": "Qualcos'altro, per esempio un mezzo ausiliario o una terapia",
+            "en": "Something else, for example an aid or therapy",
+            "rm": "Insatge auter, per exempel meds auxiliars u terapia"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -100,28 +192,48 @@
     {
       "key": "billing_system",
       "question": {
-        "de": "Wie wird die Rechnung abgerechnet?"
+        "de": "Wie wird die Rechnung abgerechnet?",
+        "fr": "Comment la facture est-elle réglée ?",
+        "it": "Come viene conteggiata la fattura?",
+        "en": "How is the bill settled?",
+        "rm": "Co vegn la quinta quintada?"
       },
       "help": {
-        "de": "Steht meist auf der Rechnung oder in Ihrer Versicherungspolice."
+        "de": "Steht meist auf der Rechnung oder in Ihrer Versicherungspolice.",
+        "fr": "Cela figure en général sur la facture ou dans votre police d’assurance.",
+        "it": "Di solito è indicato sulla fattura o nella sua polizza assicurativa.",
+        "en": "Usually shown on the bill or in your insurance policy.",
+        "rm": "Stat il pli savens sin la quinta u en Vossa polizza d'assicuranza."
       },
       "options": [
         {
           "value": "direct",
           "label": {
-            "de": "Die Kasse zahlt direkt der Ärztin, dem Arzt oder dem Spital (Tiers payant)"
+            "de": "Die Kasse zahlt direkt der Ärztin, dem Arzt oder dem Spital (Tiers payant)",
+            "fr": "La caisse paie directement la médecin, le médecin ou l’hôpital (tiers payant)",
+            "it": "La cassa paga direttamente la medica, il medico o l'ospedale (sistema del terzo pagante)",
+            "en": "The insurer pays the doctor or the hospital directly (tiers payant)",
+            "rm": "La cassa paja directamain a la medida, al medi u a l'ospital (Tiers payant)"
           }
         },
         {
           "value": "reimburse",
           "label": {
-            "de": "Ich erhalte die Rechnung und muss sie einreichen (Tiers garant)"
+            "de": "Ich erhalte die Rechnung und muss sie einreichen (Tiers garant)",
+            "fr": "Je reçois la facture et dois la transmettre moi-même (tiers garant)",
+            "it": "Ricevo la fattura e devo presentarla io (sistema del terzo garante)",
+            "en": "I receive the bill and have to submit it (tiers garant)",
+            "rm": "Jau survegn la quinta e stoss l'inoltrar (Tiers garant)"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -129,25 +241,41 @@
     {
       "key": "preapproval",
       "question": {
-        "de": "Musste die Behandlung vorher von der Kasse bewilligt werden (Kostengutsprache)?"
+        "de": "Musste die Behandlung vorher von der Kasse bewilligt werden (Kostengutsprache)?",
+        "fr": "Le traitement devait-il être approuvé au préalable par la caisse (garantie de prise en charge des coûts) ?",
+        "it": "La cura doveva essere prima autorizzata dalla cassa (garanzia di assunzione dei costi)?",
+        "en": "Did the treatment need the insurer's approval in advance (a cost guarantee)?",
+        "rm": "Stuev il tractament vegnir approvà ordavant da la cassa (garanzia da pajament)?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -155,31 +283,51 @@
     {
       "key": "procedure",
       "question": {
-        "de": "Wie weit sind Sie im Verfahren mit der Kasse?"
+        "de": "Wie weit sind Sie im Verfahren mit der Kasse?",
+        "fr": "Où en êtes-vous dans la procédure avec la caisse ?",
+        "it": "A che punto è con la procedura presso la cassa?",
+        "en": "How far have you got in the procedure with the insurer?",
+        "rm": "Co avanzà essas Vus en la procedura cun la cassa?"
       },
       "options": [
         {
           "value": "none",
           "label": {
-            "de": "Ich habe eine Ablehnung erhalten, aber keine Verfügung"
+            "de": "Ich habe eine Ablehnung erhalten, aber keine Verfügung",
+            "fr": "J’ai reçu un refus, mais aucune décision",
+            "it": "Ho ricevuto un rifiuto, ma nessuna decisione",
+            "en": "I received a refusal, but no ruling",
+            "rm": "Jau hai retschet ina refusa, dentant nagina decisiun"
           }
         },
         {
           "value": "decision",
           "label": {
-            "de": "Ich habe eine Verfügung erhalten"
+            "de": "Ich habe eine Verfügung erhalten",
+            "fr": "J’ai reçu une décision",
+            "it": "Ho ricevuto una decisione",
+            "en": "I received a ruling",
+            "rm": "Jau hai retschet ina decisiun"
           }
         },
         {
           "value": "objection-decided",
           "label": {
-            "de": "Meine Einsprache wurde durch Einspracheentscheid entschieden"
+            "de": "Meine Einsprache wurde durch Einspracheentscheid entschieden",
+            "fr": "Mon opposition a été tranchée par une décision sur opposition",
+            "it": "La mia opposizione è stata decisa con una decisione su opposizione",
+            "en": "My objection was decided by an objection decision",
+            "rm": "Mia opposiziun è vegnida decidida tras ina decisiun sin opposiziun"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -190,7 +338,11 @@
       "id": "supplementary-pointer",
       "kind": "escalate",
       "text": {
-        "de": "Geht es um eine Zusatzversicherung, zum Beispiel für Halbprivat oder Privat im Spital, Zahnpflege, Alternativmedizin, Brillen oder Schutz im Ausland, gilt dieser Leitfaden nicht für Sie. Zusatzversicherungen sind private Verträge nach dem Versicherungsvertragsgesetz und nicht nach dem Krankenversicherungsgesetz. Es gelten andere Fristen, ein anderes Verfahren bei einer Ablehnung und eine andere Streitbeilegung. Dafür gibt es einen eigenen Leitfaden zur Zusatzversicherung. Betrifft Ihre Rechnung teils die Grundversicherung und teils eine Zusatzversicherung, gilt für den Teil der Grundversicherung trotzdem, was hier steht."
+        "de": "Geht es um eine Zusatzversicherung, zum Beispiel für Halbprivat oder Privat im Spital, Zahnpflege, Alternativmedizin, Brillen oder Schutz im Ausland, gilt dieser Leitfaden nicht für Sie. Zusatzversicherungen sind private Verträge nach dem Versicherungsvertragsgesetz und nicht nach dem Krankenversicherungsgesetz. Es gelten andere Fristen, ein anderes Verfahren bei einer Ablehnung und eine andere Streitbeilegung. Dafür gibt es einen eigenen Leitfaden zur Zusatzversicherung. Betrifft Ihre Rechnung teils die Grundversicherung und teils eine Zusatzversicherung, gilt für den Teil der Grundversicherung trotzdem, was hier steht.",
+        "fr": "S’il s’agit d’une assurance complémentaire, par exemple pour le semi-privé ou le privé à l’hôpital, les soins dentaires, la médecine alternative, les lunettes ou la protection à l’étranger, ce guide ne s’applique pas à vous. Les assurances complémentaires sont des contrats privés régis par la loi sur le contrat d’assurance (LCA), et non par la loi sur l’assurance-maladie. D’autres délais, une autre procédure en cas de refus et un autre mode de règlement des litiges s’appliquent. Il existe pour cela un guide propre à l’assurance complémentaire. Si votre facture relève en partie de l’assurance de base et en partie d’une assurance complémentaire, ce qui est dit ici s’applique quand même à la partie couverte par l’assurance de base.",
+        "it": "Se si tratta di un'assicurazione complementare, per esempio per il semiprivato o il privato in ospedale, le cure dentarie, la medicina alternativa, gli occhiali o la protezione all'estero, questa guida non fa per lei. Le assicurazioni complementari sono contratti privati secondo la legge sul contratto d'assicurazione (LCA) e non secondo la legge sull'assicurazione malattie. Valgono altri termini, un'altra procedura in caso di rifiuto e un'altra composizione delle controversie. Per questo esiste una guida propria sull'assicurazione complementare. Se la sua fattura riguarda in parte l'assicurazione di base e in parte un'assicurazione complementare, per la parte dell'assicurazione di base vale comunque quanto segue.",
+        "en": "If this is about supplementary insurance, for example for a semi-private or private hospital ward, dental care, complementary medicine, glasses or cover abroad, this guide does not apply to you. Supplementary insurance is a private contract under the Insurance Contract Act (VVG), not the Health Insurance Act (KVG). Different time limits apply, along with a different procedure for a refusal and different dispute resolution. There is a separate guide for supplementary insurance. If your bill concerns basic insurance in part and supplementary insurance in part, what is said here still applies to the basic-insurance part.",
+        "rm": "Sa tracta d'ina assicuranza supplementara, per exempel per halbprivat u privat en l'ospital, tgira dentala, medischina alternativa, ochels u protecziun a l'exteriur, na vala quest manual betg per Vus. Assicuranzas supplementaras èn contracts privats tenor la lescha davart il contract d'assicuranza e betg tenor la lescha davart l'assicuranza da malsauns. Valan auters termins, in'autra procedura tar ina refusa ed in'autra soluziun da dispita. Per quai datti in agen manual davart l'assicuranza supplementara. Pertutga Vossa quinta per part l'assicuranza da basa e per part in'assicuranza supplementara, vala tuttina per la part da l'assicuranza da basa quai ch'è scrit qua."
       },
       "when": {
         "insurance_type": [
@@ -203,7 +355,11 @@
       "id": "check-first",
       "kind": "rule",
       "text": {
-        "de": "Bevor Sie von einer Ablehnung ausgehen, prüfen Sie, was auf der Rechnung wirklich steht. Oft handelt es sich nicht um eine Ablehnung, sondern um Ihre eigene Kostenbeteiligung: die Franchise, ein fester Jahresbetrag, den Sie zuerst selbst tragen, und danach der Selbstbehalt von 10 Prozent der weiteren Kosten. Das ist gesetzlich so vorgesehen und keine Leistungsverweigerung der Kasse. Prüfen Sie auch das Abrechnungssystem: Beim Tiers payant zahlt die Kasse direkt der Ärztin, dem Arzt oder dem Spital, und Sie erhalten nur eine Kopie der Rechnung zur Kontrolle. Beim Tiers garant erhalten Sie die Rechnung selbst und schulden das Geld zunächst der Leistungserbringerin oder dem Leistungserbringer; die Kasse erstattet Ihnen die Kosten erst, wenn Sie ihr die Rechnung einreichen. Eine noch nicht eingereichte oder noch nicht bearbeitete Rechnung ist deshalb noch keine Ablehnung. Reichen Sie die vollständige, verständliche Rechnung ein und warten Sie die Antwort der Kasse ab, bevor Sie weitere Schritte prüfen."
+        "de": "Bevor Sie von einer Ablehnung ausgehen, prüfen Sie, was auf der Rechnung wirklich steht. Oft handelt es sich nicht um eine Ablehnung, sondern um Ihre eigene Kostenbeteiligung: die Franchise, ein fester Jahresbetrag, den Sie zuerst selbst tragen, und danach der Selbstbehalt von 10 Prozent der weiteren Kosten. Das ist gesetzlich so vorgesehen und keine Leistungsverweigerung der Kasse. Prüfen Sie auch das Abrechnungssystem: Beim Tiers payant zahlt die Kasse direkt der Ärztin, dem Arzt oder dem Spital, und Sie erhalten nur eine Kopie der Rechnung zur Kontrolle. Beim Tiers garant erhalten Sie die Rechnung selbst und schulden das Geld zunächst der Leistungserbringerin oder dem Leistungserbringer; die Kasse erstattet Ihnen die Kosten erst, wenn Sie ihr die Rechnung einreichen. Eine noch nicht eingereichte oder noch nicht bearbeitete Rechnung ist deshalb noch keine Ablehnung. Reichen Sie die vollständige, verständliche Rechnung ein und warten Sie die Antwort der Kasse ab, bevor Sie weitere Schritte prüfen.",
+        "fr": "Avant de partir du principe qu’il s’agit d’un refus, vérifiez ce qui figure réellement sur la facture. Souvent, il ne s’agit pas d’un refus, mais de votre propre participation aux coûts : la franchise, un montant fixe annuel que vous assumez d’abord vous-même, puis la quote-part de 10 pour cent sur les coûts restants. Cela est prévu par la loi et ne constitue pas un refus de prestation de la caisse. Vérifiez aussi le système de facturation : dans le système du tiers payant, la caisse paie directement la médecin, le médecin ou l’hôpital, et vous ne recevez qu’une copie de la facture pour contrôle. Dans le système du tiers garant, vous recevez vous-même la facture et devez d’abord ce montant au fournisseur de prestations ; la caisse ne vous rembourse les frais que lorsque vous lui avez transmis la facture. Une facture pas encore transmise ou pas encore traitée n’est donc pas encore un refus. Transmettez la facture complète et compréhensible et attendez la réponse de la caisse avant d’examiner d’autres démarches.",
+        "it": "Prima di dare per scontato un rifiuto, verifichi cosa c'è scritto davvero sulla fattura. Spesso non si tratta di un rifiuto, ma della sua propria partecipazione ai costi: la franchigia, un importo annuo fisso che deve sostenere lei per primo, e poi l'aliquota percentuale del 10 per cento sui costi ulteriori. Questo è previsto dalla legge e non è un rifiuto di prestazioni da parte della cassa. Verifichi anche il sistema di conteggio: nel sistema del terzo pagante la cassa paga direttamente la medica, il medico o l'ospedale, e lei riceve solo una copia della fattura per controllo. Nel sistema del terzo garante riceve la fattura lei stesso e deve inizialmente il denaro alla persona o all'istituto che ha fornito la prestazione; la cassa le rimborsa i costi solo quando le presenta la fattura. Una fattura non ancora presentata o non ancora trattata non è quindi ancora un rifiuto. Presenti la fattura completa e comprensibile e attenda la risposta della cassa prima di valutare ulteriori passi.",
+        "en": "Before you assume there has been a refusal, check what the bill actually says. Often it is not a refusal at all, but your own cost-sharing: the deductible, a fixed annual amount you bear yourself first, and then the co-payment of 10 percent of the further costs. This is provided for by law and is not the insurer refusing benefits. Also check the billing system: under tiers payant, the insurer pays the doctor or the hospital directly, and you only receive a copy of the bill for your records. Under tiers garant, you receive the bill yourself and initially owe the money to the service provider; the insurer only reimburses you once you submit the bill to it. A bill that has not yet been submitted, or not yet processed, is therefore not yet a refusal. Submit the complete, understandable bill and wait for the insurer's reply before you consider further steps.",
+        "rm": "Avant che Vus partis d'ina refusa, examinai, tge che stat propi sin la quinta. Savens na sa tracta betg d'ina refusa, mabain da Vossa atgna participaziun als custs: la franchisa, in import annual fixà, che Vus purtais empruma sez, e suenter la quota persunala da 10 pertschient dals ulteriurs custs. Quai è previs uschia da la lescha e n'è nagina refusa da prestaziun da la cassa. Examinai era il sistem da quintaziun: tar il Tiers payant paja la cassa directamain a la medida, al medi u a l'ospital, e Vus survegnis mo ina copia da la quinta per la controlla. Tar il Tiers garant survegnis Vus la quinta Vus sez e deivas il daner empruma al post che ha furnì la prestaziun; la cassa Vus restituescha ils custs mo, sche Vus l'inoltrais la quinta. Ina quinta betg anc inoltrada u betg anc tractada n'è percunquai anc nagina refusa. Inoltrai la quinta cumpletta e cumprensibla ed spetgai la resposta da la cassa, avant che Vus examinais ulteriurs pass."
       },
       "sources": [
         "kvg-64",
@@ -219,7 +375,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie die Rechnung selbst erhalten und noch nicht eingereicht, tun Sie das mit allen Angaben bei Ihrer Kasse zur Rückerstattung. Bewahren Sie eine Kopie auf. Fehlen der Kasse Angaben, etwa zur Diagnose oder zur Behandlung, kann sie diese bei der Leistungserbringerin oder dem Leistungserbringer nachfordern; das verzögert die Bearbeitung, ist aber noch keine Ablehnung. Erst wenn die Kasse Ihnen mitteilt, dass sie nicht oder nicht vollständig zahlt, geht es um eine echte Ablehnung, und die folgenden Schritte gelten."
+        "de": "Haben Sie die Rechnung selbst erhalten und noch nicht eingereicht, tun Sie das mit allen Angaben bei Ihrer Kasse zur Rückerstattung. Bewahren Sie eine Kopie auf. Fehlen der Kasse Angaben, etwa zur Diagnose oder zur Behandlung, kann sie diese bei der Leistungserbringerin oder dem Leistungserbringer nachfordern; das verzögert die Bearbeitung, ist aber noch keine Ablehnung. Erst wenn die Kasse Ihnen mitteilt, dass sie nicht oder nicht vollständig zahlt, geht es um eine echte Ablehnung, und die folgenden Schritte gelten.",
+        "fr": "Si vous avez reçu la facture vous-même et ne l’avez pas encore transmise, faites-le avec toutes les indications nécessaires à votre caisse, pour remboursement. Conservez-en une copie. S’il manque à la caisse des indications, par exemple sur le diagnostic ou le traitement, elle peut les demander au fournisseur de prestations ; cela retarde le traitement, mais ne constitue pas encore un refus. Ce n’est que lorsque la caisse vous communique qu’elle ne paie pas ou pas entièrement qu’il s’agit d’un véritable refus, et que les étapes suivantes s’appliquent.",
+        "it": "Se ha ricevuto lei stesso la fattura e non l'ha ancora presentata, lo faccia con tutte le indicazioni alla sua cassa per il rimborso. Conservi una copia. Se mancano indicazioni alla cassa, per esempio sulla diagnosi o sulla cura, può richiederle al fornitore di prestazioni; questo ritarda la trattazione, ma non è ancora un rifiuto. Solo quando la cassa le comunica che non paga, o non paga per intero, si tratta di un vero rifiuto, e valgono i passi seguenti.",
+        "en": "If you received the bill yourself and have not yet submitted it, do so with all the details to your insurer for reimbursement. Keep a copy. If the insurer is missing information, for example on the diagnosis or the treatment, it can request this from the service provider; that delays processing, but is not yet a refusal. Only once the insurer tells you that it will not pay, or not pay in full, is there a genuine refusal, and the following steps apply.",
+        "rm": "Avais Vus retschet la quinta Vus sez e betg anc inoltrà quella, fetschai quai cun tut las indicaziuns tar Vossa cassa per la restituziun. Conservai ina copia. Mancan a la cassa indicaziuns, per exempel davart la diagnosa u il tractament, po ella las pretender dal post che ha furnì la prestaziun; quai retarda la tractaziun, dentant n'è anc nagina refusa. Mo sche la cassa Vus communitgescha ch'ella na paja betg u betg dal tut, sa tracta d'ina refusa vaira, e vegnan applitgads ils pass suandants."
       },
       "sources": [
         "kvg-42"
@@ -234,7 +394,11 @@
         ]
       },
       "text": {
-        "de": "Zahlt Ihre Kasse direkt der Leistungserbringerin oder dem Leistungserbringer, muss diese oder dieser Ihnen trotzdem unaufgefordert eine Kopie der Rechnung zustellen, die an die Kasse geht. Prüfen Sie diese Kopie: Stimmen Behandlung, Datum und Betrag? Ihre Kostenbeteiligung stellt Ihnen die Kasse in Rechnung. Erhalten Sie für eine Leistung, welche die Kasse nicht übernimmt, eine Rechnung, klären Sie zuerst mit der Kasse, warum sie nicht bezahlt hat, bevor Sie selbst zahlen."
+        "de": "Zahlt Ihre Kasse direkt der Leistungserbringerin oder dem Leistungserbringer, muss diese oder dieser Ihnen trotzdem unaufgefordert eine Kopie der Rechnung zustellen, die an die Kasse geht. Prüfen Sie diese Kopie: Stimmen Behandlung, Datum und Betrag? Ihre Kostenbeteiligung stellt Ihnen die Kasse in Rechnung. Erhalten Sie für eine Leistung, welche die Kasse nicht übernimmt, eine Rechnung, klären Sie zuerst mit der Kasse, warum sie nicht bezahlt hat, bevor Sie selbst zahlen.",
+        "fr": "Si votre caisse paie directement le fournisseur de prestations, celui-ci doit tout de même vous transmettre spontanément une copie de la facture adressée à la caisse. Vérifiez cette copie : le traitement, la date et le montant sont-ils corrects ? La caisse vous facture votre participation aux coûts. Si vous recevez une facture pour une prestation que la caisse ne prend pas en charge, clarifiez d’abord avec la caisse pourquoi elle n’a pas payé, avant de payer vous-même.",
+        "it": "Se la sua cassa paga direttamente il fornitore di prestazioni, questo deve comunque inviarle spontaneamente una copia della fattura che va alla cassa. Verifichi questa copia: la cura, la data e l'importo sono corretti? La sua partecipazione ai costi le viene fatturata dalla cassa. Se riceve una fattura per una prestazione che la cassa non copre, chiarisca prima con la cassa perché non ha pagato, prima di pagare lei stesso.",
+        "en": "If your insurer pays the service provider directly, the service provider must still send you a copy of the bill that goes to the insurer, without being asked. Check this copy: are the treatment, the date and the amount correct? Your insurer will bill you for your cost-sharing. If you receive a bill for a service that the insurer does not cover, first clarify with the insurer why it has not paid before you pay it yourself.",
+        "rm": "Paja Vossa cassa directamain al post che ha furnì la prestaziun, sto quel tuttina, senza pretensiun, trametter a Vus ina copia da la quinta che va a la cassa. Examinai questa copia: correspundan tractament, data ed import? Vossa participaziun als custs Vus fatturescha la cassa. Survegnis Vus per ina prestaziun, che la cassa na surpiglia betg, ina quinta, clarifitgai empruma cun la cassa, pertge ch'ella n'ha betg pajà, avant che Vus pajais Vus sez."
       },
       "sources": [
         "kvg-42"
@@ -244,7 +408,11 @@
       "id": "coverage-scope",
       "kind": "rule",
       "text": {
-        "de": "Die Grundversicherung übernimmt nur, was das Gesetz als Leistung nennt: insbesondere ärztliche und ärztlich angeordnete Behandlungen, Spitalaufenthalte in der allgemeinen Abteilung, verordnete Arzneimittel und Analysen sowie einen Beitrag an bestimmte weitere Kosten. Jede Leistung muss zudem wirksam, zweckmässig und wirtschaftlich sein. Für ärztliche Behandlungen gilt dabei eine für Sie günstige Vermutung: Eine Behandlung durch eine Ärztin oder einen Arzt gilt als zu übernehmen, solange sie nicht ausdrücklich durch eine Liste ausgeschlossen ist. Bestreitet die Kasse im Einzelfall, dass eine ärztliche Behandlung wirksam, zweckmässig oder wirtschaftlich war, können Sie darüber eine Verfügung verlangen. Bei Leistungen anderer Leistungserbringerinnen und Leistungserbringer sowie bei Vorsorge und Zahnbehandlungen ist es umgekehrt: Sie sind nur gedeckt, wenn sie ausdrücklich auf einer Liste stehen."
+        "de": "Die Grundversicherung übernimmt nur, was das Gesetz als Leistung nennt: insbesondere ärztliche und ärztlich angeordnete Behandlungen, Spitalaufenthalte in der allgemeinen Abteilung, verordnete Arzneimittel und Analysen sowie einen Beitrag an bestimmte weitere Kosten. Jede Leistung muss zudem wirksam, zweckmässig und wirtschaftlich sein. Für ärztliche Behandlungen gilt dabei eine für Sie günstige Vermutung: Eine Behandlung durch eine Ärztin oder einen Arzt gilt als zu übernehmen, solange sie nicht ausdrücklich durch eine Liste ausgeschlossen ist. Bestreitet die Kasse im Einzelfall, dass eine ärztliche Behandlung wirksam, zweckmässig oder wirtschaftlich war, können Sie darüber eine Verfügung verlangen. Bei Leistungen anderer Leistungserbringerinnen und Leistungserbringer sowie bei Vorsorge und Zahnbehandlungen ist es umgekehrt: Sie sind nur gedeckt, wenn sie ausdrücklich auf einer Liste stehen.",
+        "fr": "L’assurance de base ne prend en charge que ce que la loi désigne comme prestation : notamment les traitements médicaux et les traitements prescrits par un médecin, les séjours hospitaliers en division commune, les médicaments et analyses prescrits, ainsi qu’une contribution à certains autres frais. Chaque prestation doit en outre être efficace, appropriée et économique. Pour les traitements médicaux, une présomption favorable s’applique : un traitement effectué par une médecin ou un médecin est réputé devoir être pris en charge, tant qu’il n’est pas expressément exclu par une liste. Si la caisse conteste, dans un cas particulier, qu’un traitement médical ait été efficace, approprié ou économique, vous pouvez exiger une décision à ce sujet. Pour les prestations d’autres fournisseurs de prestations ainsi que pour la prévention et les traitements dentaires, c’est l’inverse : ils ne sont couverts que s’ils figurent expressément sur une liste.",
+        "it": "L'assicurazione di base copre solo ciò che la legge definisce come prestazione: in particolare le cure mediche e le cure ordinate dal medico, i soggiorni ospedalieri in reparto comune, i medicamenti e le analisi prescritti, nonché un contributo ad altri costi determinati. Ogni prestazione deve inoltre essere efficace, appropriata ed economica. Per le cure mediche vale al riguardo una presunzione a suo favore: una cura fornita da una medica o da un medico è considerata da assumere finché non è espressamente esclusa da un elenco. Se la cassa contesta nel singolo caso che una cura medica sia stata efficace, appropriata o economica, può chiedere una decisione al riguardo. Per le prestazioni di altri fornitori di prestazioni nonché per la profilassi e le cure dentarie vale l'inverso: sono coperte solo se figurano espressamente su un elenco.",
+        "en": "Basic insurance only covers what the law names as a benefit: in particular medical treatment and treatment ordered by a doctor, hospital stays in the general ward, prescribed medicines and tests, and a contribution towards certain other costs. Every benefit must also be effective, appropriate and cost-efficient. For medical treatment, a presumption applies in your favour: treatment by a doctor is regarded as covered as long as it is not expressly excluded by a list. If the insurer disputes in an individual case that medical treatment was effective, appropriate or cost-efficient, you can ask for a ruling on it. For services from other service providers, and for preventive care and dental treatment, it is the other way round: they are only covered if they are expressly listed.",
+        "rm": "L'assicuranza da basa surpiglia mo quai che la lescha numna sco prestaziun: en spezial tractaments medicals e tractaments ordinads medicalmain, dimoras en l'ospital en la divisiun generala, medicaments ed analisas ordinads sco er ina contribuziun a tscherts ulteriurs custs. Mintga prestaziun sto ultra da quai esser effizienta, adequata ed economica. Per tractaments medicals vala en quest connex ina supposiziun favuraivla per Vus: in tractament tras ina medida u in medi vala sco da surpigliar, uschè ditg ch'el n'è betg exclus explicitamain tras ina glista. Contesta la cassa en il cas singul, ch'in tractament medical era effizient, adequat u economic, pudais Vus pretender ina decisiun davart quai. Tar prestaziuns d'auters posts da prestaziun sco er tar prevenziun e tractaments dentars è quai invers: els èn mo cuverts, sche els stattan explicitamain sin ina glista."
       },
       "sources": [
         "kvg-24",
@@ -263,7 +431,11 @@
         ]
       },
       "text": {
-        "de": "Geht es bei Ihrer Rechnung um eine Zahnbehandlung, deckt die Grundversicherung diese nur ausnahmsweise: wenn eine schwere, nicht vermeidbare Erkrankung des Kausystems die Behandlung nötig macht, wenn eine schwere Allgemeinerkrankung oder ihre Folgen die Zahnbehandlung bedingen oder nötig machen, oder wenn ein Unfall Schäden am Kausystem verursacht hat. Gewöhnliche Zahnbehandlungen, auch wegen Karies oder Parodontose, sind grundsätzlich nicht gedeckt. Prüfen Sie deshalb, ob einer dieser Ausnahmefälle vorliegt, und lassen Sie sich das von der behandelnden Zahnärztin oder dem Zahnarzt schriftlich bestätigen, bevor Sie Einsprache erheben."
+        "de": "Geht es bei Ihrer Rechnung um eine Zahnbehandlung, deckt die Grundversicherung diese nur ausnahmsweise: wenn eine schwere, nicht vermeidbare Erkrankung des Kausystems die Behandlung nötig macht, wenn eine schwere Allgemeinerkrankung oder ihre Folgen die Zahnbehandlung bedingen oder nötig machen, oder wenn ein Unfall Schäden am Kausystem verursacht hat. Gewöhnliche Zahnbehandlungen, auch wegen Karies oder Parodontose, sind grundsätzlich nicht gedeckt. Prüfen Sie deshalb, ob einer dieser Ausnahmefälle vorliegt, und lassen Sie sich das von der behandelnden Zahnärztin oder dem Zahnarzt schriftlich bestätigen, bevor Sie Einsprache erheben.",
+        "fr": "Si votre facture porte sur un traitement dentaire, l’assurance de base ne le couvre qu’à titre exceptionnel : lorsqu’une maladie grave et non évitable du système de la mastication rend le traitement nécessaire, lorsqu’une maladie générale grave ou ses suites conditionnent ou rendent nécessaire le traitement dentaire, ou lorsqu’un accident a causé des dommages au système de la mastication. Les traitements dentaires ordinaires, y compris pour caries ou parodontose, ne sont en principe pas couverts. Vérifiez donc si l’un de ces cas d’exception est réalisé, et faites-vous confirmer cela par écrit par la dentiste ou le dentiste traitant, avant de faire opposition.",
+        "it": "Se la sua fattura riguarda una cura dentaria, l'assicurazione di base la copre solo eccezionalmente: se una malattia grave e non evitabile dell'apparato masticatorio rende necessaria la cura, se una malattia grave sistemica o i suoi postumi condizionano o rendono necessaria la cura dentaria, oppure se un infortunio ha causato danni all'apparato masticatorio. Le cure dentarie ordinarie, anche per carie o parodontosi, non sono di principio coperte. Verifichi quindi se sussiste uno di questi casi eccezionali, e se lo faccia confermare per scritto dalla dentista o dal dentista curante prima di fare opposizione.",
+        "en": "If your bill concerns dental treatment, basic insurance only covers this as an exception: if a serious, unavoidable disease of the chewing apparatus makes the treatment necessary, if a serious general disease or its consequences require or make necessary the dental treatment, or if an accident has damaged the chewing apparatus. Ordinary dental treatment, including for tooth decay or gum disease, is generally not covered. So check whether one of these exceptions applies, and have this confirmed in writing by the treating dentist before you file an objection.",
+        "rm": "Sa tracta tar Vossa quinta d'in tractament dentar, cuvra l'assicuranza da basa quel mo excepziunalmain: sche ina malsogna greva e nunevitabla dal sistem masticatori fa il tractament necessari, sche ina malsogna generala greva u sias consequenzas cundiziunan u fan necessari il tractament dentar, u sch'in accident ha chaschunà donns al sistem masticatori. Tractaments dentars usuals, era pervia da caries u parodontosa, na sun per principi betg cuverts. Examinai percunquai, sche in da quests cas excepziunals è avant maun, e laschai Vus confermar quai per scrit da la dentista u dal dentist ch'ha tractà, avant che Vus fetschais opposiziun."
       },
       "sources": [
         "kvg-31"
@@ -279,7 +451,11 @@
         ]
       },
       "text": {
-        "de": "Manche Leistungen setzt das Gesetz ausdrücklich unter den Vorbehalt einer vorherigen Bewilligung durch die Kasse, einer Kostengutsprache. Das gilt zum Beispiel für ein Arzneimittel aus der Spezialitätenliste, das ausserhalb der zugelassenen Fachinformation oder Limitierung eingesetzt wird: Hier übernimmt die Grundversicherung die Kosten nur mit einer besonderen Gutsprache, nach Rücksprache mit der Vertrauensärztin oder dem Vertrauensarzt. Ist das Gesuch vollständig, muss die Kasse innert zwei Wochen entscheiden, und lehnt sie ab, muss sie das gegenüber der behandelnden Person und Ihnen begründen. War für Ihre Behandlung eine solche Bewilligung nötig und wurde sie nicht eingeholt oder verweigert, verlangen Sie die schriftliche Begründung und lassen Sie prüfen, ob die gesetzlichen Voraussetzungen erfüllt gewesen wären."
+        "de": "Manche Leistungen setzt das Gesetz ausdrücklich unter den Vorbehalt einer vorherigen Bewilligung durch die Kasse, einer Kostengutsprache. Das gilt zum Beispiel für ein Arzneimittel aus der Spezialitätenliste, das ausserhalb der zugelassenen Fachinformation oder Limitierung eingesetzt wird: Hier übernimmt die Grundversicherung die Kosten nur mit einer besonderen Gutsprache, nach Rücksprache mit der Vertrauensärztin oder dem Vertrauensarzt. Ist das Gesuch vollständig, muss die Kasse innert zwei Wochen entscheiden, und lehnt sie ab, muss sie das gegenüber der behandelnden Person und Ihnen begründen. War für Ihre Behandlung eine solche Bewilligung nötig und wurde sie nicht eingeholt oder verweigert, verlangen Sie die schriftliche Begründung und lassen Sie prüfen, ob die gesetzlichen Voraussetzungen erfüllt gewesen wären.",
+        "fr": "La loi soumet expressément certaines prestations à l’exigence d’une autorisation préalable de la caisse, une garantie de prise en charge des coûts. C’est le cas par exemple pour un médicament de la liste des spécialités utilisé en dehors de l’information professionnelle ou de la limitation autorisées : l’assurance de base ne prend alors en charge les coûts qu’avec une garantie particulière, après consultation de la médecin-conseil ou du médecin-conseil. Si la demande est complète, la caisse doit décider dans un délai de deux semaines, et si elle refuse, elle doit motiver son refus envers la personne traitante et envers vous. Si une telle autorisation était nécessaire pour votre traitement et qu’elle n’a pas été demandée ou a été refusée, exigez la motivation écrite et faites vérifier si les conditions légales auraient été remplies.",
+        "it": "Per alcune prestazioni la legge prevede espressamente una previa autorizzazione della cassa, una garanzia di assunzione dei costi. Questo vale per esempio per un medicamento dell'elenco delle specialità impiegato al di fuori dell'informazione professionale approvata o della limitazione: in questo caso l'assicurazione di base assume i costi solo con una garanzia speciale, dopo aver consultato la medica di fiducia o il medico di fiducia. Se la domanda è completa, la cassa deve decidere entro due settimane, e se rifiuta deve motivarlo nei confronti della persona curante e nei suoi confronti. Se per la sua cura era necessaria una tale autorizzazione e non è stata richiesta oppure è stata rifiutata, chieda la motivazione scritta e faccia verificare se le condizioni legali sarebbero state adempiute.",
+        "en": "The law expressly makes some benefits subject to the insurer's prior approval, a cost guarantee. This applies, for example, to a medicine from the Specialities List that is used outside its approved product information or limitation: here, basic insurance only covers the costs with a special guarantee, after consulting the medical adviser. If the application is complete, the insurer must decide within two weeks, and if it refuses, it must give reasons to the treating person and to you. If such approval was needed for your treatment and was not obtained or was refused, ask for the written reasons and have it checked whether the legal requirements would have been met.",
+        "rm": "Tscherts prestaziuns metta la lescha explicitamain sut la resalva d'in'approvaziun ordavant da la cassa, ina garanzia da pajament. Quai vala per exempel per in medicament da la glista da spezialitads, ch'è duvrà ordaifer l'infurmaziun professiunala u la limitaziun admessas: qua surpiglia l'assicuranza da basa ils custs mo cun ina garanzia spezial, suenter consultaziun cun la medida u il medi da fiducia. Sch'la dumonda è cumpletta, sto la cassa decider entaifer duas emnas, e refusa ella, sto ella motivar quai vers la persuna ch'ha tractà e vers Vus. Steva per Voss tractament ina tala approvaziun necessaria e n'è ella betg vegnida obtegnida u è vegnida refusada, pretendai la motivaziun scritta e laschai examinar, sche las premissas legalas fissan vegnidas ademplidas."
       },
       "sources": [
         "kvv-71a",
@@ -296,7 +472,11 @@
         ]
       },
       "text": {
-        "de": "Lehnt die Kasse eine Leistung ab oder zahlt sie weniger als erwartet, verlangen Sie zunächst schriftlich die Gründe. Leistungen der Grundversicherung werden nach Gesetz meist formlos erledigt, auch wenn es um einen erheblichen Betrag geht. Sind Sie mit diesem formlosen Bescheid nicht einverstanden, haben Sie das Recht, eine förmliche Verfügung zu verlangen. Verlangen Sie diese schriftlich und möglichst bald. Eine Verfügung enthält eine Begründung, soweit sie Ihrem Begehren nicht vollständig entspricht, und eine Rechtsmittelbelehrung. Erst gegen diese Verfügung können Sie Einsprache erheben."
+        "de": "Lehnt die Kasse eine Leistung ab oder zahlt sie weniger als erwartet, verlangen Sie zunächst schriftlich die Gründe. Leistungen der Grundversicherung werden nach Gesetz meist formlos erledigt, auch wenn es um einen erheblichen Betrag geht. Sind Sie mit diesem formlosen Bescheid nicht einverstanden, haben Sie das Recht, eine förmliche Verfügung zu verlangen. Verlangen Sie diese schriftlich und möglichst bald. Eine Verfügung enthält eine Begründung, soweit sie Ihrem Begehren nicht vollständig entspricht, und eine Rechtsmittelbelehrung. Erst gegen diese Verfügung können Sie Einsprache erheben.",
+        "fr": "Si la caisse refuse une prestation ou paie moins que prévu, exigez d’abord par écrit les motifs. Selon la loi, les prestations de l’assurance de base sont le plus souvent réglées sans décision formelle, même lorsqu’il s’agit d’un montant important. Si vous n’êtes pas d’accord avec cette réponse informelle, vous avez le droit d’exiger une décision formelle. Demandez-la par écrit et le plus tôt possible. Une décision contient une motivation, dans la mesure où elle ne fait pas entièrement droit à votre demande, et l’indication des voies de droit. Ce n’est que contre cette décision que vous pouvez former opposition.",
+        "it": "Se la cassa rifiuta una prestazione o paga meno del previsto, chieda anzitutto per scritto i motivi. Le prestazioni dell'assicurazione di base sono per lo più liquidate senza formalità secondo la legge, anche quando si tratta di un importo rilevante. Se non è d'accordo con questa risposta informale, ha il diritto di chiedere una decisione formale. La chieda per scritto e il più presto possibile. Una decisione contiene una motivazione, nella misura in cui non corrisponde interamente alla sua richiesta, e un'indicazione dei rimedi giuridici. Solo contro questa decisione può fare opposizione.",
+        "en": "If the insurer refuses a benefit or pays less than expected, first ask in writing for the reasons. Benefits under basic insurance are usually dealt with informally under the law, even where a substantial amount is at stake. If you do not agree with this informal notice, you have the right to ask for a formal ruling. Ask for this in writing, and as soon as possible. A ruling contains a statement of reasons, to the extent it does not fully grant your request, and a notice of legal remedies. Only against this ruling can you file an objection.",
+        "rm": "Refusa la cassa ina prestaziun u paja ella damain che spetgà, pretendai empruma per scrit ils motivs. Prestaziuns da l'assicuranza da basa vegnan tenor lescha il pli savens fatgas senza furma spezifica, era sche sa tracta d'in import considerabel. N'essas Vus betg d'accord cun questa communicaziun senza furma, avais Vus il dretg da pretender ina decisiun formala. Pretendai questa per scrit e uschè baud sco pussaivel. Ina decisiun cuntegna ina motivaziun, uschenavant ch'ella na correspunda betg dal tut a Voss giavisch, ed in'indicaziun dals meds legals. Mo cunter questa decisiun pudais Vus far opposiziun."
       },
       "sources": [
         "atsg-51",
@@ -316,7 +496,11 @@
         ]
       },
       "text": {
-        "de": "Gegen eine Verfügung Ihrer Krankenkasse können Sie innert 30 Tagen Einsprache erheben, bei der Stelle, die verfügt hat. Massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag, und über Ostern, im Sommer und über Weihnachten steht sie still. In der Krankenversicherung können Sie die Einsprache schriftlich einreichen oder bei persönlicher Vorsprache mündlich erheben; im mündlichen Fall hält die Kasse sie in einem Protokoll fest, das Sie oder Ihre Vertretung unterschreiben. Die Einsprache muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag einreichen oder der Post übergeben."
+        "de": "Gegen eine Verfügung Ihrer Krankenkasse können Sie innert 30 Tagen Einsprache erheben, bei der Stelle, die verfügt hat. Massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag, und über Ostern, im Sommer und über Weihnachten steht sie still. In der Krankenversicherung können Sie die Einsprache schriftlich einreichen oder bei persönlicher Vorsprache mündlich erheben; im mündlichen Fall hält die Kasse sie in einem Protokoll fest, das Sie oder Ihre Vertretung unterschreiben. Die Einsprache muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag einreichen oder der Post übergeben.",
+        "fr": "Vous pouvez former opposition contre une décision de votre caisse-maladie dans les 30 jours, auprès du service qui l’a rendue. L’indication des voies de droit à la fin de la décision fait foi. Le délai commence à courir le jour suivant la notification. Si le dernier jour tombe un samedi, un dimanche ou un jour férié, le délai se termine le jour ouvrable suivant, et il est suspendu à Pâques, en été et à Noël. Dans l’assurance-maladie, vous pouvez déposer l’opposition par écrit ou la déclarer oralement en vous présentant en personne ; dans ce dernier cas, la caisse la consigne dans un procès-verbal que vous ou votre représentant signez. L’opposition doit indiquer ce que vous demandez et brièvement pourquoi. Elle est déposée à temps si vous la remettez au plus tard le dernier jour, ou la remettez à la poste ce jour-là.",
+        "it": "Contro una decisione della sua cassa malati può fare opposizione entro 30 giorni, presso il servizio che l'ha emanata. È determinante l'indicazione dei rimedi giuridici alla fine della decisione. Il termine inizia il giorno dopo la notificazione. Se l'ultimo giorno cade di sabato, domenica o in un giorno festivo, il termine scade il giorno lavorativo seguente, e a Pasqua, in estate e a Natale il termine è sospeso. Nell'assicurazione malattie può presentare l'opposizione per scritto oppure farla verbalmente presentandosi di persona; in tal caso la cassa la mette a verbale, che lei o la sua rappresentanza firma. L'opposizione deve dire cosa chiede e motivare brevemente perché. È tempestiva se la presenta o la consegna alla posta al più tardi l'ultimo giorno.",
+        "en": "You can file an objection against a ruling of your health insurer within 30 days, with the body that issued the ruling. What matters is the notice of legal remedies at the end of the ruling. The time limit begins on the day after service. If the last day falls on a Saturday, Sunday or public holiday, it ends on the next working day, and the time limit stands still over Easter, in summer and over Christmas. In health insurance, you can file the objection in writing, or raise it orally if you attend in person; if oral, the insurer records it in a statement, which you or your representative sign. The objection must state what you are asking for, and briefly give reasons why. It is in time if you submit it, or hand it to the post office, at the latest on the last day.",
+        "rm": "Cunter ina decisiun da Vossa cassa da malsauns pudais Vus far opposiziun entaifer 30 dis, tar il post ch'ha decidì. Decisiva è l'indicaziun dals meds legals a la fin da la decisiun. Il termin cumenza il di suenter la consegna. Croda l'ultim di sin in sonda, dumengia u di da festa, finescha il termin il proxim di da lavur, e durant Pasca, en stad e durant Nadal stat el silenzius. En l'assicuranza da malsauns pudais Vus inoltrar l'opposiziun per scrit u la far oralmain tar ina vartida persunala; en il cas oral la fixescha la cassa en in protocol, che Vus u Vossa represchentanza suttascrivais. L'opposiziun sto dir, tge che Vus pretendais, e motivar curtamain, pertge. Ella è a temp, sche Vus l'inoltrais u la consegnais a la posta al pli tard l'ultim di."
       },
       "sources": [
         "atsg-52",
@@ -339,7 +523,11 @@
         ]
       },
       "text": {
-        "de": "Entscheiden Sie sich für die schriftliche Form, muss die Einsprache Ihre Unterschrift tragen. Eine gewöhnliche E-Mail erfüllt das nicht und wahrt die Frist nicht, selbst wenn sie fristgerecht ankommt; eine Nachfrist zur Verbesserung nach Fristablauf gibt es dafür nicht, weil das Fehlen der Unterschrift dabei als bewusst in Kauf genommen gilt. Anders ist es, wenn Sie bei einem Brief die Unterschrift bloss vergessen haben: Dann muss die Kasse Ihnen eine Frist setzen, um sie nachzuholen. Solange die Einsprachefrist noch läuft, können Sie den Mangel beheben, indem Sie eine unterschriebene Fassung nachreichen. Nutzen Sie deshalb die Post, eine persönliche Übergabe, oder erheben Sie die Einsprache stattdessen mündlich bei einer persönlichen Vorsprache."
+        "de": "Entscheiden Sie sich für die schriftliche Form, muss die Einsprache Ihre Unterschrift tragen. Eine gewöhnliche E-Mail erfüllt das nicht und wahrt die Frist nicht, selbst wenn sie fristgerecht ankommt; eine Nachfrist zur Verbesserung nach Fristablauf gibt es dafür nicht, weil das Fehlen der Unterschrift dabei als bewusst in Kauf genommen gilt. Anders ist es, wenn Sie bei einem Brief die Unterschrift bloss vergessen haben: Dann muss die Kasse Ihnen eine Frist setzen, um sie nachzuholen. Solange die Einsprachefrist noch läuft, können Sie den Mangel beheben, indem Sie eine unterschriebene Fassung nachreichen. Nutzen Sie deshalb die Post, eine persönliche Übergabe, oder erheben Sie die Einsprache stattdessen mündlich bei einer persönlichen Vorsprache.",
+        "fr": "Si vous choisissez la forme écrite, l’opposition doit porter votre signature. Un simple e-mail ne remplit pas cette condition et ne sauvegarde pas le délai, même s’il arrive à temps ; il n’existe alors pas de délai supplémentaire pour régulariser après l’échéance, car l’absence de signature est réputée acceptée sciemment dans ce cas. Il en va autrement si, dans une lettre, vous avez simplement oublié la signature : la caisse doit alors vous fixer un délai pour la compléter. Tant que le délai d’opposition court encore, vous pouvez remédier au vice en transmettant ensuite une version signée. Utilisez donc la poste, une remise en personne, ou formez plutôt l’opposition oralement en vous présentant en personne.",
+        "it": "Se sceglie la forma scritta, l'opposizione deve portare la sua firma. Una semplice e-mail non lo soddisfa e non salvaguarda il termine, anche se arriva in tempo utile; non esiste per questo un termine suppletorio per correggere l'errore dopo la scadenza, perché l'assenza della firma è considerata in tal caso volutamente accettata. Diverso è il caso in cui, in una lettera, ha semplicemente dimenticato la firma: allora la cassa deve fissarle un termine per rimediarvi. Finché il termine di opposizione è ancora aperto, può sanare il vizio presentando una versione firmata. Utilizzi quindi la posta, una consegna di persona, oppure faccia opposizione verbalmente presentandosi di persona.",
+        "en": "If you choose the written form, the objection must bear your signature. An ordinary email does not meet this requirement and does not preserve the time limit, even if it arrives in time; there is no further time limit to correct this after the deadline, because the missing signature is treated as deliberate. It is different if you simply forgot to sign a letter: the insurer must then give you a time limit to add it. As long as the objection time limit is still running, you can remedy the defect by submitting a signed version. So use the post, hand it in personally, or raise the objection orally instead by attending in person.",
+        "rm": "Decidais Vus per la furma scritta, sto l'opposiziun purtar Vossa suttascripziun. In e-mail usual n'ademplescha betg quai e na salvegua betg il termin, era sch'el arriva a temp; in termin supplementar per la meglieraziun suenter la scadenza dal termin na datti betg per quai, perquai che la mancanza da la suttascripziun vala sco acceptada conscientamain. Auter è, sche Vus avais tar ina brev mo emblidà la suttascripziun: lura sto la cassa Vus mettre in termin per la rapportar. Uschè ditg che il termin d'opposiziun curra anc, pudais Vus reparar il defect, cun inoltrar ina versiun suttascritta. Utilisai percunquai la posta, ina consegna persunala, u fetschai l'opposiziun invezza oralmain tar ina vartida persunala."
       },
       "sources": [
         "atsg-52",
@@ -357,7 +545,11 @@
         ]
       },
       "text": {
-        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen. Auch hier steht die Frist über Ostern, im Sommer und über Weihnachten still, und fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Die Beschwerde muss den Sachverhalt kurz schildern, ein Begehren enthalten und begründet sein; fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an Ihre Begehren gebunden. Es kann den Entscheid sogar zu Ihren Ungunsten ändern, muss Ihnen dazu aber vorher Gelegenheit geben, sich zu äussern oder die Beschwerde zurückzuziehen."
+        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen. Auch hier steht die Frist über Ostern, im Sommer und über Weihnachten still, und fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Die Beschwerde muss den Sachverhalt kurz schildern, ein Begehren enthalten und begründet sein; fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an Ihre Begehren gebunden. Es kann den Entscheid sogar zu Ihren Ungunsten ändern, muss Ihnen dazu aber vorher Gelegenheit geben, sich zu äussern oder die Beschwerde zurückzuziehen.",
+        "fr": "Vous pouvez former recours contre la décision sur opposition dans les 30 jours suivant sa notification, auprès du tribunal des assurances du canton. Le tribunal compétent est celui du canton où vous habitez au moment du dépôt du recours. Là aussi, le délai est suspendu à Pâques, en été et à Noël, et si le dernier jour tombe un samedi, un dimanche ou un jour férié, il se termine le jour ouvrable suivant. Le recours doit exposer brièvement les faits, contenir une conclusion et être motivé ; s’il manque quelque chose, le tribunal vous impartit un délai pour le compléter. Le tribunal établit lui-même les faits et n’est pas lié par vos conclusions. Il peut même modifier la décision à votre désavantage, mais doit auparavant vous donner l’occasion de vous exprimer ou de retirer le recours.",
+        "it": "Contro la decisione su opposizione può presentare ricorso entro 30 giorni dalla notificazione al tribunale cantonale delle assicurazioni. È competente il tribunale del Cantone in cui risiede al momento della presentazione del ricorso. Anche qui il termine è sospeso a Pasqua, in estate e a Natale, e se l'ultimo giorno cade di sabato, domenica o in un giorno festivo, il termine scade il giorno lavorativo seguente. Il ricorso deve esporre brevemente i fatti, contenere una conclusione ed essere motivato; se manca qualcosa, il tribunale le fissa un termine per sanare il vizio. Il tribunale accerta esso stesso i fatti e non è vincolato alle sue conclusioni. Può persino modificare la decisione a suo svantaggio, ma deve prima darle l'occasione di esprimersi o di ritirare il ricorso.",
+        "en": "You can appeal against the objection decision to the cantonal insurance court within 30 days of service. The court of the canton where you live when you file the appeal has jurisdiction. Here too, the time limit stands still over Easter, in summer and over Christmas, and if the last day falls on a Saturday, Sunday or public holiday, it ends on the next working day. The appeal must briefly describe the facts, contain a request and be reasoned; if something is missing, the court will give you a time limit to correct it. The court establishes the facts itself and is not bound by your requests. It can even amend the decision to your disadvantage, but must first give you the opportunity to comment or to withdraw the appeal.",
+        "rm": "Cunter la decisiun sin opposiziun pudais Vus far recurs entaifer 30 dis suenter la consegna tar la dretgira chantunala d'assicuranza. Cumpetenta è la dretgira dal chantun, en il qual Vus abitais tar l'inoltraziun dal recurs. Er qua stat il termin silenzius durant Pasca, en stad e durant Nadal, e croda l'ultim di sin in sonda, dumengia u di da festa, finescha el il proxim di da lavur. Il recurs sto descriver curtamain il fatg, cuntegnair ina dumonda ed esser motivà; manca insatge, dat la dretgira a Vus in termin per la meglieraziun. La dretgira sclerescha il fatg sez e n'è betg liada a Vossas dumondas. Ella po midar la decisiun era a Voss donn, sto Vus dentant avant dar l'occasiun da Vus exprimer u da retrair il recurs."
       },
       "sources": [
         "atsg-56",
@@ -372,7 +564,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Das Einspracheverfahren bei der Kasse ist kostenlos; eine Entschädigung für Ihren Aufwand wird aber in der Regel nicht ausgerichtet. Auch das Beschwerdeverfahren vor dem kantonalen Versicherungsgericht ist bei Streitigkeiten über Leistungen grundsätzlich kostenlos, ausser das Gericht wirft Ihnen mutwilliges oder leichtsinniges Prozessieren vor. Obsiegen Sie vor Gericht, haben Sie Anspruch auf Ersatz Ihrer Parteikosten. Das Recht, sich anwaltlich vertreten zu lassen, ist gewährleistet; rechtfertigen es Ihre Verhältnisse, wird Ihnen bei Bedarf eine unentgeltliche Rechtsvertretung bewilligt."
+        "de": "Das Einspracheverfahren bei der Kasse ist kostenlos; eine Entschädigung für Ihren Aufwand wird aber in der Regel nicht ausgerichtet. Auch das Beschwerdeverfahren vor dem kantonalen Versicherungsgericht ist bei Streitigkeiten über Leistungen grundsätzlich kostenlos, ausser das Gericht wirft Ihnen mutwilliges oder leichtsinniges Prozessieren vor. Obsiegen Sie vor Gericht, haben Sie Anspruch auf Ersatz Ihrer Parteikosten. Das Recht, sich anwaltlich vertreten zu lassen, ist gewährleistet; rechtfertigen es Ihre Verhältnisse, wird Ihnen bei Bedarf eine unentgeltliche Rechtsvertretung bewilligt.",
+        "fr": "La procédure d’opposition auprès de la caisse est gratuite ; une indemnisation pour votre travail n’est en règle générale pas versée. La procédure de recours devant le tribunal cantonal des assurances est elle aussi en principe gratuite pour les litiges relatifs aux prestations, sauf si le tribunal vous reproche un procès téméraire ou léger. Si vous obtenez gain de cause devant le tribunal, vous avez droit au remboursement de vos dépens. Le droit de vous faire représenter par une avocate ou un avocat est garanti ; si votre situation le justifie, une assistance judiciaire gratuite vous est accordée en cas de besoin.",
+        "it": "La procedura di opposizione presso la cassa è gratuita; un'indennità per il suo dispendio non viene però di regola versata. Anche la procedura di ricorso davanti al tribunale cantonale delle assicurazioni è di principio gratuita per le controversie sulle prestazioni, salvo che il tribunale le rimproveri un processo temerario o leggero. Se vince davanti al tribunale, ha diritto al rimborso delle sue spese ripetibili. Il diritto di farsi rappresentare da un'avvocata o da un avvocato è garantito; se la sua situazione lo giustifica, le viene concesso all'occorrenza il gratuito patrocinio.",
+        "en": "The objection procedure with the insurer is free of charge; however, you are generally not compensated for your own time and effort. Appeal proceedings before the cantonal insurance court are also, in principle, free of charge for disputes over benefits, unless the court finds that you acted wantonly or recklessly. If you win in court, you are entitled to reimbursement of your party costs. The right to be represented by a lawyer is guaranteed; if your circumstances justify it, you will be granted free legal representation if you need it.",
+        "rm": "La procedura d'opposiziun tar la cassa è gratuita; in'indemnisaziun per Voss sforz na vegn dentant per regla betg pajada. Er la procedura da recurs avant la dretgira chantunala d'assicuranza è per dispitas davart prestaziuns per principi gratuita, ausà che la dretgira Vus reproscha da process a mala fai u a la leviera. Vegnis Vus victorius avant dretgira, avais Vus dretg a la restituziun da Vossas expensas da part. Il dretg da Vus laschar represchentar tras in'advocata u in advocat è garantì; giustifitgeschan Vossas relaziuns quai, vegn approvada a Vus, sch'i dovra, ina represchentanza giudiziala gratuita."
       },
       "sources": [
         "atsg-52",
@@ -383,7 +579,11 @@
       "id": "claims-expire",
       "kind": "warning",
       "text": {
-        "de": "Ihr Anspruch auf eine ausstehende Leistung erlischt fünf Jahre, gerechnet ab Ablauf jenes Monats, in dem die Leistung fällig gewesen wäre. Beim Tiers garant beginnt diese Frist für Ihre Rückerstattung mit dem Eingang der Rechnung des Leistungserbringers bei Ihnen. Warten Sie deshalb mit der Geltendmachung nicht zu lange, auch wenn Sie mit der Kasse noch im Gespräch sind. Reichen Sie die Rechnung deshalb rechtzeitig bei der Kasse ein."
+        "de": "Ihr Anspruch auf eine ausstehende Leistung erlischt fünf Jahre, gerechnet ab Ablauf jenes Monats, in dem die Leistung fällig gewesen wäre. Beim Tiers garant beginnt diese Frist für Ihre Rückerstattung mit dem Eingang der Rechnung des Leistungserbringers bei Ihnen. Warten Sie deshalb mit der Geltendmachung nicht zu lange, auch wenn Sie mit der Kasse noch im Gespräch sind. Reichen Sie die Rechnung deshalb rechtzeitig bei der Kasse ein.",
+        "fr": "Votre droit à une prestation encore due s’éteint cinq ans après la fin du mois au cours duquel la prestation serait devenue exigible. Pour le tiers garant, ce délai commence, pour votre remboursement, à la réception de la facture du fournisseur de prestations. N’attendez donc pas trop longtemps pour faire valoir vos droits, même si vous êtes encore en discussion avec la caisse. Transmettez donc la facture à temps à la caisse.",
+        "it": "Il suo diritto a una prestazione in sospeso si estingue dopo cinque anni, calcolati dalla fine del mese in cui la prestazione sarebbe stata dovuta. Nel sistema del terzo garante, per il suo rimborso questo termine inizia con la ricezione della fattura del fornitore di prestazioni. Non aspetti quindi troppo a lungo a far valere il suo diritto, anche se è ancora in trattativa con la cassa. Presenti perciò la fattura alla cassa in tempo utile.",
+        "en": "Your right to an outstanding benefit lapses after five years, calculated from the end of the month in which the benefit would have fallen due. Under tiers garant, this time limit for your reimbursement begins when the service provider's bill reaches you. So do not wait too long to assert your claim, even if you are still in discussion with the insurer. Submit the bill to the insurer in good time.",
+        "rm": "Voss dretg ad ina prestaziun anc avierta sa stitgescha tschintg onns, quintà dapi la fin da quel mais, en il qual la prestaziun fiss stada dua. Tar il Tiers garant cumenza quest termin per Vossa restituziun cun l'entrada da la quinta dal post che ha furnì la prestaziun tar Vus. Spetgai percunquai betg memia ditg cun far valair Voss dretg, era sche Vus essas anc en discurs cun la cassa. Inoltrai la quinta percunquai a temp tar la cassa."
       },
       "sources": [
         "atsg-24",
@@ -394,14 +594,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn es um einen grösseren Betrag geht, wenn die Kasse eine dauernde oder wiederkehrende Behandlung ablehnt, wenn medizinische Fachfragen zur Wirksamkeit oder Notwendigkeit strittig sind, wenn Sie eine Verfügung erhalten haben und die Frist bereits läuft, oder wenn unklar ist, ob es um die Grundversicherung oder eine Zusatzversicherung geht. Wegen der kurzen Fristen sollten Sie dann nicht zuwarten."
+        "de": "Holen Sie persönliche Beratung, wenn es um einen grösseren Betrag geht, wenn die Kasse eine dauernde oder wiederkehrende Behandlung ablehnt, wenn medizinische Fachfragen zur Wirksamkeit oder Notwendigkeit strittig sind, wenn Sie eine Verfügung erhalten haben und die Frist bereits läuft, oder wenn unklar ist, ob es um die Grundversicherung oder eine Zusatzversicherung geht. Wegen der kurzen Fristen sollten Sie dann nicht zuwarten.",
+        "fr": "Demandez un conseil personnalisé lorsqu’il s’agit d’un montant important, lorsque la caisse refuse un traitement durable ou récurrent, lorsque des questions médicales spécialisées sur l’efficacité ou la nécessité sont litigieuses, lorsque vous avez reçu une décision et que le délai court déjà, ou lorsqu’il n’est pas clair s’il s’agit de l’assurance de base ou d’une assurance complémentaire. En raison des délais courts, n’attendez pas dans ce cas.",
+        "it": "Si faccia consigliare personalmente se si tratta di un importo rilevante, se la cassa rifiuta una cura permanente o ricorrente, se sono controverse questioni mediche specialistiche sull'efficacia o sulla necessità, se ha ricevuto una decisione e il termine è già in corso, oppure se non è chiaro se si tratti dell'assicurazione di base o di un'assicurazione complementare. Visti i termini brevi, in tal caso non dovrebbe aspettare.",
+        "en": "Get personal advice if a larger amount is at stake, if the insurer refuses ongoing or recurring treatment, if medical questions about effectiveness or necessity are in dispute, if you have received a ruling and the time limit is already running, or if it is unclear whether this concerns basic insurance or supplementary insurance. Because the time limits are short, do not wait in that case.",
+        "rm": "Procurai consulaziun persunala, sche sa tracta d'in import pli grond, sche la cassa refusa in tractament permanent u recurrent, sche dumondas professiunalas medicinalas davart l'effizienza u la necessitad èn contestadas, sche Vus avais retschet ina decisiun e il termin curra gia, u sch'igl è unclear, sche sa tracta da l'assicuranza da basa u d'ina assicuranza supplementara. Pervia dals termins curts na duessas Vus lura betg spetgar."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose Hilfe bietet die Ombudsstelle Krankenversicherung: Sie berät und vermittelt bei Unklarheiten und Streitigkeiten mit Ihrer Kasse, unabhängig und für Sie kostenlos, finanziert durch Beiträge aller schweizerischen Krankenversicherer. Viele Kantone bieten zudem eine unentgeltliche Rechtsauskunft an, und die kantonalen Versicherungsgerichte informieren auf ihrer Website über das Beschwerdeverfahren."
+        "de": "Kostenlose Hilfe bietet die Ombudsstelle Krankenversicherung: Sie berät und vermittelt bei Unklarheiten und Streitigkeiten mit Ihrer Kasse, unabhängig und für Sie kostenlos, finanziert durch Beiträge aller schweizerischen Krankenversicherer. Viele Kantone bieten zudem eine unentgeltliche Rechtsauskunft an, und die kantonalen Versicherungsgerichte informieren auf ihrer Website über das Beschwerdeverfahren.",
+        "fr": "L’Ombudsman de l’assurance-maladie offre une aide gratuite : il conseille et sert de médiateur en cas d’ambiguïtés et de litiges avec votre caisse, de manière indépendante et gratuite pour vous, financé par les contributions de tous les assureurs-maladie suisses. De nombreux cantons offrent en outre une consultation juridique gratuite, et les tribunaux cantonaux des assurances informent sur leur site internet au sujet de la procédure de recours.",
+        "it": "Offre aiuto gratuito l'Ombudsman dell'assicurazione malattie: consiglia e media in caso di incertezze e controversie con la sua cassa, in modo indipendente e gratuito per lei, finanziato dai contributi di tutti gli assicuratori malattia svizzeri. Molti Cantoni offrono inoltre una consulenza giuridica gratuita, e i tribunali cantonali delle assicurazioni informano sul loro sito web sulla procedura di ricorso.",
+        "en": "Free help is available from the Health Insurance Ombudsman's Office: it advises and mediates on unclear points and disputes with your insurer, independently and free of charge for you, financed by contributions from all Swiss health insurers. Many cantons also offer free legal information, and the cantonal insurance courts publish information about the appeal procedure on their websites.",
+        "rm": "Agid gratuit u avantagius: il post da l'Ombudsman da l'assicuranza da malsauns cusseglia e media en cas d'unclaretads e dispitas cun Vossa cassa, independent e gratuit per Vus, finanzià tras contribuziuns da tut ils assicuraders da malsauns svizzers. Blers chantuns offran ultra da quai in'infurmaziun giuridica gratuita, e las dretgiras chantunalas d'assicuranza infurmeschan sin lur website davart la procedura da recurs."
       }
     }
   ],
@@ -599,19 +807,31 @@
   "official_links": [
     {
       "label": {
-        "de": "Ombudsstelle Krankenversicherung"
+        "de": "Ombudsstelle Krankenversicherung",
+        "fr": "Ombudsman de l’assurance-maladie",
+        "it": "Ombudsman dell'assicurazione malattie",
+        "en": "Health Insurance Ombudsman's Office",
+        "rm": "Post da l'Ombudsman da l'assicuranza da malsauns"
       },
       "url": "https://www.om-kv.ch/de/"
     },
     {
       "label": {
-        "de": "Bundesamt für Gesundheit: Leistungen der Krankenversicherung"
+        "de": "Bundesamt für Gesundheit: Leistungen der Krankenversicherung",
+        "fr": "Office fédéral de la santé publique : prestations de l’assurance-maladie",
+        "it": "Ufficio federale della sanità pubblica: prestazioni dell'assicurazione malattie",
+        "en": "Federal Office of Public Health: health insurance benefits",
+        "rm": "UFSP: prestaziuns da l'assicuranza da malsauns"
       },
       "url": "https://www.bag.admin.ch/bag/de/home/versicherungen/krankenversicherung/krankenversicherung-leistungen-tarife.html"
     },
     {
       "label": {
-        "de": "priminfo: Informationen zur Krankenversicherung"
+        "de": "priminfo: Informationen zur Krankenversicherung",
+        "fr": "priminfo : informations sur l’assurance-maladie",
+        "it": "priminfo: informazioni sull'assicurazione malattie",
+        "en": "priminfo: information on health insurance",
+        "rm": "priminfo: infurmaziuns davart l'assicuranza da malsauns"
       },
       "url": "https://www.priminfo.admin.ch/"
     }

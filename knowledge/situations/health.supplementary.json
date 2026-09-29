@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Streit um die Zusatzversicherung"
+    "de": "Streit um die Zusatzversicherung",
+    "fr": "Litige au sujet de l’assurance complémentaire",
+    "it": "Controversia sull'assicurazione complementare",
+    "en": "Dispute over supplementary insurance",
+    "rm": "Dispita davart l'assicuranza supplementara"
   },
   "summary": {
-    "de": "Ihre Zusatzversicherung zur Krankenversicherung ist ein privater Vertrag, kein Sozialversicherungsverhältnis. Bei Streit – etwa über eine abgelehnte Leistung, eine Kündigung oder eine angebliche Anzeigepflichtverletzung – gelten deshalb andere Regeln als bei der Grundversicherung: keine Verfügung, kein Einspracheverfahren, sondern Vertrag, Allgemeine Versicherungsbedingungen (AVB) und das Versicherungsvertragsgesetz (VVG)."
+    "de": "Ihre Zusatzversicherung zur Krankenversicherung ist ein privater Vertrag, kein Sozialversicherungsverhältnis. Bei Streit – etwa über eine abgelehnte Leistung, eine Kündigung oder eine angebliche Anzeigepflichtverletzung – gelten deshalb andere Regeln als bei der Grundversicherung: keine Verfügung, kein Einspracheverfahren, sondern Vertrag, Allgemeine Versicherungsbedingungen (AVB) und das Versicherungsvertragsgesetz (VVG).",
+    "fr": "Votre assurance complémentaire à l’assurance-maladie est un contrat privé, et non un rapport d’assurance sociale. En cas de litige – par exemple au sujet d’une prestation refusée, d’une résiliation ou d’une prétendue réticence – d’autres règles s’appliquent donc que pour l’assurance de base : pas de décision, pas de procédure d’opposition, mais le contrat, les conditions générales d’assurance (CGA) et la loi sur le contrat d’assurance (LCA).",
+    "it": "La sua assicurazione complementare all'assicurazione malattie è un contratto privato, non un rapporto assicurativo sociale. In caso di controversia – per esempio su una prestazione rifiutata, una disdetta o una presunta violazione dell'obbligo di dichiarazione – valgono quindi regole diverse rispetto all'assicurazione di base: nessuna decisione, nessuna procedura di opposizione, bensì il contratto, le condizioni generali di assicurazione (CGA) e la legge sul contratto d'assicurazione (LCA).",
+    "en": "Your supplementary insurance to your health insurance is a private contract, not a social insurance relationship. In a dispute – for example over a refused benefit, a termination, or an alleged breach of the duty of disclosure – different rules therefore apply than for basic insurance: no ruling, no objection procedure, but the contract, the general insurance conditions (AVB) and the Insurance Contract Act (VVG).",
+    "rm": "Vossa assicuranza supplementara a l'assicuranza da malsauns è in contract privat, nagina relaziun d'assicuranza sociala. Tar dispita – per exempel davart ina prestaziun refusada, ina disditga u ina supponida violaziun da l'obligaziun d'infurmaziun – valan percunquai autras reglas che tar l'assicuranza da basa: nagina decisiun, nagina procedura d'opposiziun, mabain contract, Cundiziuns Generalas d'Assicuranza (CGA) e la Lescha davart il contract d'assicuranza (LCA)."
   },
   "examples": {
     "de": [
@@ -18,51 +26,111 @@
       "Kann meine Krankenkasse meine Zahnzusatzversicherung einfach kündigen?",
       "Ich habe die Prämie für die Spitalzusatzversicherung vergessen zu zahlen, jetzt zahlt sie nicht mehr.",
       "Wo muss ich klagen, wenn die Zusatzversicherung nicht zahlt?"
+    ],
+    "fr": [
+      "Mon assurance complémentaire ne veut pas prendre en charge la facture de l’hôpital.",
+      "La caisse-maladie dit que j’ai caché quelque chose à l’inscription et résilie maintenant mon assurance complémentaire.",
+      "Ma caisse-maladie peut-elle résilier ainsi mon assurance complémentaire dentaire ?",
+      "J’ai oublié de payer la prime de mon assurance complémentaire d’hôpital, et maintenant elle ne paie plus.",
+      "Où dois-je agir en justice si l’assurance complémentaire ne paie pas ?"
+    ],
+    "it": [
+      "La mia assicurazione complementare non vuole assumersi la fattura dell'ospedale.",
+      "La cassa malati dice che avevo taciuto qualcosa all'iscrizione, e ora disdice la mia assicurazione complementare.",
+      "La mia cassa malati può semplicemente disdire la mia assicurazione complementare per le cure dentarie?",
+      "Ho dimenticato di pagare il premio dell'assicurazione complementare ospedaliera, ora non paga più.",
+      "Dove devo fare causa se l'assicurazione complementare non paga?"
+    ],
+    "en": [
+      "My supplementary insurance won't cover my hospital bill.",
+      "My health insurer says I concealed something when I applied, and is now terminating my supplementary insurance.",
+      "Can my health insurer simply terminate my dental supplementary insurance?",
+      "I forgot to pay the premium for my hospital supplementary insurance, now it's not paying any more.",
+      "Where do I have to sue if my supplementary insurance doesn't pay?"
+    ],
+    "rm": [
+      "Mia assicuranza supplementara na vul betg surpigliar la quinta da l'ospital.",
+      "La cassa da malsauns di ch'jau hajia zuppentà insatge tar l'annunzia, e disditga ussa mia assicuranza supplementara.",
+      "Po mia cassa da malsauns simplamain disdir mia assicuranza supplementara dentala?",
+      "Jau hai emblidà da pajar la premia per l'assicuranza supplementara da l'ospital, ussa na paja ella betg pli.",
+      "Nua stoss jau plidar, sche l'assicuranza supplementara na paja betg?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Streitigkeiten aus einer privaten Zusatzversicherung zur Krankenversicherung: Spital (halbprivat/privat), Zahnbehandlungen, Alternativmedizin, Krankentaggeld und Ähnliches. Diese Verträge unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Sozialversicherungsrecht."
+      "de": "Streitigkeiten aus einer privaten Zusatzversicherung zur Krankenversicherung: Spital (halbprivat/privat), Zahnbehandlungen, Alternativmedizin, Krankentaggeld und Ähnliches. Diese Verträge unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Sozialversicherungsrecht.",
+      "fr": "Les litiges découlant d’une assurance complémentaire privée à l’assurance-maladie : hôpital (semi-privé/privé), traitements dentaires, médecine alternative, indemnités journalières en cas de maladie et assurances similaires. Ces contrats sont régis par la loi sur le contrat d’assurance (LCA), et non par le droit des assurances sociales.",
+      "it": "Le controversie derivanti da un'assicurazione complementare privata all'assicurazione malattie: ospedale (semiprivato/privato), cure dentarie, medicina alternativa, indennità giornaliera di malattia e simili. Questi contratti sottostanno alla legge sul contratto d'assicurazione (LCA), non al diritto delle assicurazioni sociali.",
+      "en": "Disputes arising from private supplementary insurance to health insurance: hospital (semi-private/private), dental treatment, complementary medicine, daily sickness benefits and similar. These contracts are governed by the Insurance Contract Act (VVG), not social insurance law.",
+      "rm": "Dispitas d'ina assicuranza supplementara privata a l'assicuranza da malsauns: ospital (halbprivat/privat), tractaments dentars, medischina alternativa, diaria da malsauns e sumegliantas. Quests contracts sutstattan a la Lescha davart il contract d'assicuranza (LCA), betg al dretg da las assicuranzas socialas."
     },
     "excludes": {
-      "de": "Die obligatorische Grundversicherung (KVG) mit Verfügung und Einsprache – dafür gibt es eine eigene Übersicht. Auch Lebensversicherungen und private Zusatzversicherungen ausserhalb der Krankenpflege (z.B. reine Unfallzusatzversicherungen) gehören nicht hierher."
+      "de": "Die obligatorische Grundversicherung (KVG) mit Verfügung und Einsprache – dafür gibt es eine eigene Übersicht. Auch Lebensversicherungen und private Zusatzversicherungen ausserhalb der Krankenpflege (z.B. reine Unfallzusatzversicherungen) gehören nicht hierher.",
+      "fr": "L’assurance de base obligatoire (LAMal) avec décision et opposition – il existe pour cela un guide séparé. Les assurances sur la vie et les assurances complémentaires privées en dehors des soins (p. ex. les assurances complémentaires purement accidents) n’en font pas non plus partie.",
+      "it": "L'assicurazione di base obbligatoria (LAMal) con decisione e opposizione – per questo esiste una guida propria. Non rientrano qui neppure le assicurazioni sulla vita e le assicurazioni complementari private al di fuori delle cure medico-sanitarie (per esempio le pure assicurazioni complementari contro gli infortuni).",
+      "en": "Compulsory basic insurance (KVG) with its ruling and objection procedure – there is a separate overview for that. Life insurance and private supplementary insurance outside health care (for example pure accident supplementary insurance) are not covered here either.",
+      "rm": "L'assicuranza da basa obligatorica (LAMal) cun decisiun ed opposiziun – per quai datti in agen manual. Er assicuranzas da vita ed assicuranzas supplementaras privatas ordaifer la tgira da malsauns (p.ex. assicuranzas supplementaras cunter accidents) na tutgan betg qua."
     }
   },
   "facts": [
     {
       "key": "dispute_type",
       "question": {
-        "de": "Worum geht es bei Ihrem Streit mit der Zusatzversicherung?"
+        "de": "Worum geht es bei Ihrem Streit mit der Zusatzversicherung?",
+        "fr": "De quoi s’agit-il dans votre litige avec l’assurance complémentaire ?",
+        "it": "Di cosa si tratta nella sua controversia con l'assicurazione complementare?",
+        "en": "What is your dispute with the supplementary insurance about?",
+        "rm": "Da tge sa tracta tar Vossa dispita cun l'assicuranza supplementara?"
       },
       "options": [
         {
           "value": "benefit-refused",
           "label": {
-            "de": "Sie lehnt eine Leistung ab oder kürzt sie"
+            "de": "Sie lehnt eine Leistung ab oder kürzt sie",
+            "fr": "Elle refuse une prestation ou la réduit",
+            "it": "Rifiuta una prestazione o la riduce",
+            "en": "It is refusing or reducing a benefit",
+            "rm": "Ella refusa ina prestaziun u la reducescha"
           }
         },
         {
           "value": "disclosure",
           "label": {
-            "de": "Sie beruft sich auf falsche oder fehlende Angaben beim Vertragsabschluss"
+            "de": "Sie beruft sich auf falsche oder fehlende Angaben beim Vertragsabschluss",
+            "fr": "Elle invoque des indications fausses ou manquantes lors de la conclusion du contrat",
+            "it": "Si richiama a indicazioni false o mancanti alla conclusione del contratto",
+            "en": "It is relying on incorrect or missing information given when the contract was concluded",
+            "rm": "Ella sa referescha a indicaziuns faussas u mancantas tar la conclusiun dal contract"
           }
         },
         {
           "value": "termination",
           "label": {
-            "de": "Es geht um eine Kündigung des Vertrags"
+            "de": "Es geht um eine Kündigung des Vertrags",
+            "fr": "Il s’agit d’une résiliation du contrat",
+            "it": "Si tratta di una disdetta del contratto",
+            "en": "It concerns termination of the contract",
+            "rm": "Sa tracta d'ina disditga dal contract"
           }
         },
         {
           "value": "premium",
           "label": {
-            "de": "Es geht um die Prämie oder einen Zahlungsverzug"
+            "de": "Es geht um die Prämie oder einen Zahlungsverzug",
+            "fr": "Il s’agit de la prime ou d’un retard de paiement",
+            "it": "Si tratta del premio o di un ritardo nel pagamento",
+            "en": "It concerns the premium or an arrears in payment",
+            "rm": "Sa tracta da la premia u d'in retard da pajament"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht genau"
+            "de": "Weiss ich nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con precisione",
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exact"
           }
         }
       ]
@@ -70,28 +138,48 @@
     {
       "key": "written_answer",
       "question": {
-        "de": "Haben Sie von der Versicherung schon etwas Schriftliches dazu erhalten?"
+        "de": "Haben Sie von der Versicherung schon etwas Schriftliches dazu erhalten?",
+        "fr": "Avez-vous déjà reçu quelque chose par écrit de l’assurance à ce sujet ?",
+        "it": "Ha già ricevuto qualcosa per scritto dall'assicurazione in merito?",
+        "en": "Have you already received anything in writing from the insurer about this?",
+        "rm": "Avais Vus gia retschet insatge per scrit da l'assicuranza davart quai?"
       },
       "help": {
-        "de": "Gemeint ist ein Brief, ein E-Mail oder ein Formular, in dem die Versicherung ihre Ablehnung, Kündigung oder Forderung begründet."
+        "de": "Gemeint ist ein Brief, ein E-Mail oder ein Formular, in dem die Versicherung ihre Ablehnung, Kündigung oder Forderung begründet.",
+        "fr": "Il s’agit d’une lettre, d’un e-mail ou d’un formulaire dans lequel l’assurance motive son refus, sa résiliation ou sa prétention.",
+        "it": "Si intende una lettera, un'e-mail o un modulo in cui l'assicurazione motiva il suo rifiuto, la disdetta o la richiesta.",
+        "en": "This means a letter, an email or a form in which the insurer gives reasons for its refusal, termination or demand.",
+        "rm": "Vegn manegià ina brev, in e-mail u in formular, en il qual l'assicuranza motivescha sia refusa, disditga u pretensiun."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -99,28 +187,48 @@
     {
       "key": "cantonal_court",
       "question": {
-        "de": "Hat Ihr Kanton ein einziges Gericht für solche Streitigkeiten bezeichnet?"
+        "de": "Hat Ihr Kanton ein einziges Gericht für solche Streitigkeiten bezeichnet?",
+        "fr": "Votre canton a-t-il désigné un tribunal unique pour ce genre de litiges ?",
+        "it": "Il suo Cantone ha designato un unico tribunale per queste controversie?",
+        "en": "Has your canton designated a single court for disputes of this kind?",
+        "rm": "Ha Voss chantun designà in'unica dretgira per talas dispitas?"
       },
       "help": {
-        "de": "Manche Kantone weisen Streitigkeiten aus der Zusatzversicherung einem einzigen kantonalen Gericht zu (Art. 7 ZPO), andere nicht. Im Zweifel wählen Sie „Weiss ich nicht“."
+        "de": "Manche Kantone weisen Streitigkeiten aus der Zusatzversicherung einem einzigen kantonalen Gericht zu (Art. 7 ZPO), andere nicht. Im Zweifel wählen Sie „Weiss ich nicht“.",
+        "fr": "Certains cantons attribuent les litiges relatifs à l’assurance complémentaire à un tribunal cantonal unique (art. 7 CPC), d’autres non. En cas de doute, choisissez « Je ne sais pas ».",
+        "it": "Alcuni Cantoni attribuiscono le controversie derivanti dall'assicurazione complementare a un unico tribunale cantonale (art. 7 CPC), altri no. In caso di dubbio scelga «Non lo so».",
+        "en": "Some cantons assign disputes from supplementary insurance to a single cantonal court (Art. 7 ZPO), others do not. If in doubt, choose \"I don't know\".",
+        "rm": "Tscherts chantuns attribueschan dispitas da l'assicuranza supplementara ad in'unica dretgira chantunala (art. 7 CPC), auters betg. En cas da dubi tscherni Vus «Jau na sai betg»."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -131,7 +239,11 @@
       "id": "private-law",
       "kind": "rule",
       "text": {
-        "de": "Ihre Zusatzversicherung zur Krankenversicherung – etwa für Spital halbprivat/privat, Zahnbehandlungen oder Alternativmedizin – ist ein privatrechtlicher Vertrag. Solche Zusatzversicherungen unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Krankenversicherungsgesetz (KVG). Das heisst: Die Versicherung erlässt keine Verfügung, und es gibt kein Einspracheverfahren wie bei der Grundversicherung. Massgebend sind Ihr Vertrag, die Allgemeinen Versicherungsbedingungen (AVB) und das VVG. Bei Streit müssen Sie Ihren Anspruch nötigenfalls beim Zivilgericht einklagen."
+        "de": "Ihre Zusatzversicherung zur Krankenversicherung – etwa für Spital halbprivat/privat, Zahnbehandlungen oder Alternativmedizin – ist ein privatrechtlicher Vertrag. Solche Zusatzversicherungen unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Krankenversicherungsgesetz (KVG). Das heisst: Die Versicherung erlässt keine Verfügung, und es gibt kein Einspracheverfahren wie bei der Grundversicherung. Massgebend sind Ihr Vertrag, die Allgemeinen Versicherungsbedingungen (AVB) und das VVG. Bei Streit müssen Sie Ihren Anspruch nötigenfalls beim Zivilgericht einklagen.",
+        "fr": "Votre assurance complémentaire à l’assurance-maladie – par exemple pour l’hôpital semi-privé/privé, les traitements dentaires ou la médecine alternative – est un contrat de droit privé. Ces assurances complémentaires sont régies par la loi sur le contrat d’assurance (LCA), et non par la loi sur l’assurance-maladie (LAMal). Cela signifie que l’assurance ne rend pas de décision, et qu’il n’existe pas de procédure d’opposition comme pour l’assurance de base. Ce qui est déterminant, ce sont votre contrat, les conditions générales d’assurance (CGA) et la LCA. En cas de litige, vous devez, si nécessaire, faire valoir votre prétention devant le tribunal civil.",
+        "it": "La sua assicurazione complementare all'assicurazione malattie – per esempio per l'ospedale semiprivato/privato, le cure dentarie o la medicina alternativa – è un contratto di diritto privato. Tali assicurazioni complementari sottostanno alla legge sul contratto d'assicurazione (LCA), non alla legge sull'assicurazione malattie (LAMal). Questo significa: l'assicurazione non emana una decisione, e non esiste una procedura di opposizione come nell'assicurazione di base. Determinanti sono il suo contratto, le condizioni generali di assicurazione (CGA) e la LCA. In caso di controversia deve far valere il suo diritto, se necessario, davanti al tribunale civile.",
+        "en": "Your supplementary insurance to your health insurance – for example for semi-private/private hospital care, dental treatment or complementary medicine – is a private-law contract. Such supplementary insurance is governed by the Insurance Contract Act (VVG), not the Health Insurance Act (KVG). This means: the insurer does not issue a ruling, and there is no objection procedure as there is for basic insurance. What matters is your contract, the general insurance conditions (AVB) and the VVG. In a dispute you must, if necessary, sue for your claim before the civil court.",
+        "rm": "Vossa assicuranza supplementara a l'assicuranza da malsauns – per exempel per l'ospital halbprivat/privat, tractaments dentars u medischina alternativa – è in contract da dretg privat. Talas assicuranzas supplementaras sutstattan a la Lescha davart il contract d'assicuranza (LCA), betg a la Lescha davart l'assicuranza da malsauns (LAMal). Quai vul dir: l'assicuranza n'emetta nagina decisiun, e na datti nagina procedura d'opposiziun sco tar l'assicuranza da basa. Decisivs èn Voss contract, las Cundiziuns Generalas d'Assicuranza (CGA) e la LCA. Tar dispita stuais Vus far valair Voss dretg, sch'igl è necessari, plidond tar la dretgira civila."
       },
       "sources": [
         "kvag-2"
@@ -141,7 +253,11 @@
       "id": "scope",
       "kind": "rule",
       "text": {
-        "de": "Als Zusatzversicherung zur sozialen Krankenversicherung gilt nur eine Versicherung, die die Risiken Krankheit, Unfall oder Mutterschaft abdeckt und die Leistungen der obligatorischen Krankenversicherung ergänzt. Eine private Versicherung, die zum Beispiel nur die Leistungen der Unfallversicherung (UVG) aufbessert, gehört nach der Rechtsprechung nicht dazu; für sie gilt die besondere Gerichtszuständigkeit nach Art. 7 ZPO nicht."
+        "de": "Als Zusatzversicherung zur sozialen Krankenversicherung gilt nur eine Versicherung, die die Risiken Krankheit, Unfall oder Mutterschaft abdeckt und die Leistungen der obligatorischen Krankenversicherung ergänzt. Eine private Versicherung, die zum Beispiel nur die Leistungen der Unfallversicherung (UVG) aufbessert, gehört nach der Rechtsprechung nicht dazu; für sie gilt die besondere Gerichtszuständigkeit nach Art. 7 ZPO nicht.",
+        "fr": "N’est considérée comme assurance complémentaire à l’assurance-maladie sociale qu’une assurance qui couvre les risques de maladie, d’accident ou de maternité et qui complète les prestations de l’assurance-maladie obligatoire. Une assurance privée qui, par exemple, ne fait qu’améliorer les prestations de l’assurance-accidents (LAA) n’en fait pas partie selon la jurisprudence ; la compétence judiciaire particulière de l’art. 7 CPC ne s’applique pas à elle.",
+        "it": "È considerata assicurazione complementare all'assicurazione sociale malattie solo un'assicurazione che copre i rischi malattia, infortunio o maternità e che completa le prestazioni dell'assicurazione obbligatoria delle cure medico-sanitarie. Un'assicurazione privata che, per esempio, migliora soltanto le prestazioni dell'assicurazione contro gli infortuni (LAINF) non ne fa parte secondo la giurisprudenza; per essa non vale la competenza giudiziaria speciale secondo l'art. 7 CPC.",
+        "en": "Only insurance that covers the risks of illness, accident or maternity and supplements the benefits of compulsory health insurance counts as supplementary insurance to social health insurance. Under case law, a private insurance that, for example, only improves the benefits of accident insurance (UVG) does not belong to this category; the special court jurisdiction under Art. 7 ZPO does not apply to it.",
+        "rm": "Sco assicuranza supplementara a l'assicuranza sociala da malsauns vala mo in'assicuranza che cuvra ils ristgs da malsogna, accident u maternitad e che cumplettescha las prestaziuns da l'assicuranza da malsauns obligatorica. In'assicuranza privata che meglierescha per exempel mo las prestaziuns da l'assicuranza cunter accidents na tutga, tenor la giurisprudenza, betg qua; per ella na vala betg la cumpetenza giudiziala speziala tenor l'art. 7 CPC."
       },
       "sources": [
         "bger-4a-169-2023",
@@ -152,7 +268,11 @@
       "id": "first-steps",
       "kind": "step",
       "text": {
-        "de": "Verlangen Sie von der Versicherung eine schriftliche Begründung: Welche Bestimmung des Vertrags oder der Allgemeinen Versicherungsbedingungen (AVB) wendet sie an? Bewahren Sie Police, AVB, den ausgefüllten Gesundheitsfragebogen und die gesamte Korrespondenz auf. Ohne diese Unterlagen lässt sich kaum beurteilen, ob die Versicherung im Recht ist, und Sie brauchen sie für eine Beratung oder eine allfällige Klage."
+        "de": "Verlangen Sie von der Versicherung eine schriftliche Begründung: Welche Bestimmung des Vertrags oder der Allgemeinen Versicherungsbedingungen (AVB) wendet sie an? Bewahren Sie Police, AVB, den ausgefüllten Gesundheitsfragebogen und die gesamte Korrespondenz auf. Ohne diese Unterlagen lässt sich kaum beurteilen, ob die Versicherung im Recht ist, und Sie brauchen sie für eine Beratung oder eine allfällige Klage.",
+        "fr": "Exigez de l’assurance une motivation écrite : quelle disposition du contrat ou des conditions générales d’assurance (CGA) applique-t-elle ? Conservez la police, les CGA, le questionnaire de santé rempli et l’ensemble de la correspondance. Sans ces documents, il est presque impossible d’apprécier si l’assurance est dans son droit, et vous en aurez besoin pour une consultation ou une éventuelle action en justice.",
+        "it": "Chieda all'assicurazione una motivazione scritta: quale disposizione del contratto o delle condizioni generali di assicurazione (CGA) applica? Conservi la polizza, le CGA, il questionario sanitario compilato e l'intera corrispondenza. Senza questi documenti è difficile valutare se l'assicurazione ha ragione, e le servono per una consulenza o un'eventuale azione legale.",
+        "en": "Ask the insurer for written reasons: which provision of the contract or of the general insurance conditions (AVB) is it applying? Keep the policy, the AVB, the completed health questionnaire and all correspondence. Without these documents it is hardly possible to judge whether the insurer is right, and you will need them for advice or any legal action.",
+        "rm": "Pretendai da l'assicuranza ina motivaziun scritta: tge disposiziun dal contract u da las Cundiziuns Generalas d'Assicuranza (CGA) applitgescha ella? Conservai polizza, CGA, il dumandari da sanadad emplenì e tut la correspondenza. Senza quests documents na sa lascha bunamain betg giuditgar, sche l'assicuranza ha raschun, e Vus dovrais els per ina consulaziun u in'eventuala plant."
       }
     },
     {
@@ -165,7 +285,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie noch nichts Schriftliches erhalten, fordern Sie die Versicherung schriftlich auf, ihre Ablehnung, Kündigung oder Forderung zu begründen, und setzen Sie eine angemessene Frist, zum Beispiel 10 bis 14 Tage. Diese schriftliche Antwort ist die Grundlage für alles Weitere – ohne sie lässt sich weder eine Beratung noch eine Klage sinnvoll vorbereiten."
+        "de": "Haben Sie noch nichts Schriftliches erhalten, fordern Sie die Versicherung schriftlich auf, ihre Ablehnung, Kündigung oder Forderung zu begründen, und setzen Sie eine angemessene Frist, zum Beispiel 10 bis 14 Tage. Diese schriftliche Antwort ist die Grundlage für alles Weitere – ohne sie lässt sich weder eine Beratung noch eine Klage sinnvoll vorbereiten.",
+        "fr": "Si vous n’avez encore rien reçu par écrit, sommez l’assurance par écrit de motiver son refus, sa résiliation ou sa prétention, et fixez-lui un délai raisonnable, par exemple de 10 à 14 jours. Cette réponse écrite est la base de tout ce qui suit – sans elle, ni une consultation ni une action en justice ne peuvent être préparées utilement.",
+        "it": "Se non ha ancora ricevuto nulla per scritto, inviti l'assicurazione per scritto a motivare il suo rifiuto, la sua disdetta o la sua richiesta, e le fissi un termine adeguato, per esempio da 10 a 14 giorni. Questa risposta scritta è la base per tutto il resto – senza di essa non è possibile preparare in modo sensato né una consulenza né un'azione legale.",
+        "en": "If you have not yet received anything in writing, ask the insurer in writing to give reasons for its refusal, termination or demand, and set a reasonable time limit, for example 10 to 14 days. This written reply is the basis for everything that follows – without it, neither advice nor a legal action can be properly prepared.",
+        "rm": "Avais Vus anc nagut retschet per scrit, pretendai per scrit da l'assicuranza ch'ella motivescha sia refusa, disditga u pretensiun, e mettai in termin adequat, per exempel 10 fin 14 dis. Questa resposta scritta è la basa per tut il suandant – senza ella na sa lascha ne ina consulaziun ne ina plant preparar raschunaivlamain."
       }
     },
     {
@@ -177,7 +301,11 @@
         ]
       },
       "text": {
-        "de": "Prüfen Sie die schriftliche Mitteilung genau: Auf welche Bestimmung von Vertrag, AVB oder Gesetz beruft sich die Versicherung? Stimmt das Datum, und wann genau ist Ihnen die Mitteilung zugegangen? Wurden Ihnen Police und AVB beim Vertragsabschluss korrekt ausgehändigt? Diese Angaben brauchen Sie für eine Beratung oder eine Klage."
+        "de": "Prüfen Sie die schriftliche Mitteilung genau: Auf welche Bestimmung von Vertrag, AVB oder Gesetz beruft sich die Versicherung? Stimmt das Datum, und wann genau ist Ihnen die Mitteilung zugegangen? Wurden Ihnen Police und AVB beim Vertragsabschluss korrekt ausgehändigt? Diese Angaben brauchen Sie für eine Beratung oder eine Klage.",
+        "fr": "Examinez attentivement la communication écrite : sur quelle disposition du contrat, des CGA ou de la loi l’assurance se fonde-t-elle ? La date est-elle correcte, et à quel moment exactement la communication vous est-elle parvenue ? La police et les CGA vous ont-elles été remises correctement lors de la conclusion du contrat ? Ces informations vous seront nécessaires pour une consultation ou une action en justice.",
+        "it": "Esamini attentamente la comunicazione scritta: a quale disposizione del contratto, delle CGA o della legge si richiama l'assicurazione? La data è corretta, e quando esattamente le è pervenuta la comunicazione? Le sono state consegnate correttamente la polizza e le CGA alla conclusione del contratto? Le servono queste indicazioni per una consulenza o un'azione legale.",
+        "en": "Examine the written communication closely: which provision of the contract, the AVB or the law does the insurer rely on? Is the date correct, and exactly when did the communication reach you? Were the policy and the AVB properly handed to you when the contract was concluded? You will need these details for advice or a legal action.",
+        "rm": "Examinai exactamain la communicaziun scritta: sin tge disposiziun dal contract, da las CGA u da la lescha sa referescha l'assicuranza? Correspunda la data, e cura exact è la communicaziun arrivada tar Vus? Èn polizza e CGA vegnidas surdadas a Vus correctamain tar la conclusiun dal contract? Questas indicaziuns dovrais Vus per ina consulaziun u ina plant."
       }
     },
     {
@@ -190,7 +318,11 @@
         ]
       },
       "text": {
-        "de": "Lehnt die Versicherung eine Leistung ab oder kürzt sie, vergleichen Sie die Begründung mit Ihrer Police und den AVB: Nennt die Versicherung eine konkrete Ausschlussklausel oder einen Vorbehalt? Fehlen aus ihrer Sicht Unterlagen? Reichen Sie fehlende ärztliche Unterlagen nach und verlangen Sie eine schriftliche Neubeurteilung, bevor Sie weitere Schritte prüfen."
+        "de": "Lehnt die Versicherung eine Leistung ab oder kürzt sie, vergleichen Sie die Begründung mit Ihrer Police und den AVB: Nennt die Versicherung eine konkrete Ausschlussklausel oder einen Vorbehalt? Fehlen aus ihrer Sicht Unterlagen? Reichen Sie fehlende ärztliche Unterlagen nach und verlangen Sie eine schriftliche Neubeurteilung, bevor Sie weitere Schritte prüfen.",
+        "fr": "Si l’assurance refuse une prestation ou la réduit, comparez la motivation avec votre police et les CGA : l’assurance invoque-t-elle une clause d’exclusion concrète ou une réserve ? Manque-t-il, à son avis, des documents ? Transmettez les documents médicaux manquants et exigez un nouvel examen écrit avant d’envisager d’autres démarches.",
+        "it": "Se l'assicurazione rifiuta una prestazione o la riduce, confronti la motivazione con la sua polizza e le CGA: l'assicurazione menziona una clausola di esclusione concreta o una riserva? Mancano, dal suo punto di vista, dei documenti? Presenti i documenti medici mancanti e chieda una nuova valutazione scritta prima di considerare ulteriori passi.",
+        "en": "If the insurer refuses or reduces a benefit, compare the reasons given with your policy and the AVB: does the insurer name a specific exclusion clause or reservation? Is it missing documents in its view? Submit any missing medical records and ask for a written reassessment before you consider further steps.",
+        "rm": "Refusa l'assicuranza ina prestaziun u la reducescha ella, cumparegiai la motivaziun cun Vossa polizza e las CGA: numna l'assicuranza ina clausa d'exclusiun concreta u ina resalva? Mancan dal ses punct da vista documents? Inoltrai documents medicals mancants e pretendai ina renovada apreziaziun scritta, avant che Vus examinais ulteriurs pass."
       }
     },
     {
@@ -203,7 +335,11 @@
         ]
       },
       "text": {
-        "de": "Beim Vertragsabschluss mussten Sie alle Fragen der Versicherung zu Ihrer Gesundheit und anderen Gefahrstatsachen wahrheitsgemäss beantworten, soweit Sie die Tatsachen kannten oder kennen mussten (Art. 4 VVG). Erheblich sind Tatsachen, die den Entschluss der Versicherung beeinflussen konnten, den Vertrag überhaupt oder zu diesen Bedingungen abzuschliessen. Wonach die Versicherung klar und eindeutig gefragt hat, gilt als erheblich."
+        "de": "Beim Vertragsabschluss mussten Sie alle Fragen der Versicherung zu Ihrer Gesundheit und anderen Gefahrstatsachen wahrheitsgemäss beantworten, soweit Sie die Tatsachen kannten oder kennen mussten (Art. 4 VVG). Erheblich sind Tatsachen, die den Entschluss der Versicherung beeinflussen konnten, den Vertrag überhaupt oder zu diesen Bedingungen abzuschliessen. Wonach die Versicherung klar und eindeutig gefragt hat, gilt als erheblich.",
+        "fr": "Lors de la conclusion du contrat, vous deviez répondre conformément à la vérité à toutes les questions de l’assurance sur votre santé et sur d’autres faits pertinents pour le risque, dans la mesure où vous connaissiez ces faits ou deviez les connaître (art. 4 LCA). Sont importants les faits de nature à influer sur la détermination de l’assurance de conclure le contrat, ou de le conclure à ces conditions. Ce sur quoi l’assurance a posé des questions précises et non équivoques est réputé important.",
+        "it": "Alla conclusione del contratto doveva rispondere secondo verità a tutte le domande dell'assicurazione sulla sua salute e su altri fatti rilevanti per il rischio, nella misura in cui conosceva o doveva conoscere questi fatti (art. 4 LCA). Sono rilevanti i fatti che potevano influire sulla decisione dell'assicurazione di concludere il contratto, o di concluderlo a queste condizioni. Ciò su cui l'assicurazione ha posto una domanda chiara e non equivoca è considerato rilevante.",
+        "en": "When the contract was concluded, you had to answer truthfully all questions the insurer asked about your health and other risk factors, as far as you knew or should have known the facts (Art. 4 VVG). Material facts are those that could have influenced the insurer's decision to conclude the contract at all, or to conclude it on these terms. Anything the insurer asked about clearly and unambiguously counts as material.",
+        "rm": "Tar la conclusiun dal contract stuevas Vus respunder correspundentamain a la vardad a tut las dumondas da l'assicuranza davart Vossa sanadad ed auters fatgs da privel, uschenavant ch'Vus enconuschevas u stuevas enconuscher ils fatgs (art. 4 LCA). Erchevans èn fatgs che avessan pudì influenzar la decisiun da l'assicuranza da concluder il contract, dal tut u a questas cundiziuns. Da tge che l'assicuranza ha dumandà cler ed unequivocamain, vala sco erchevant."
       },
       "sources": [
         "vvg-4"
@@ -219,7 +355,11 @@
         ]
       },
       "text": {
-        "de": "Hat die Versicherung Sie beim Abschluss nach einer erheblichen Tatsache gefragt und haben Sie diese verschwiegen oder falsch angegeben, obwohl Sie sie kannten oder kennen mussten, kann sie den Vertrag schriftlich kündigen. Die Kündigung wirkt ab dem Zeitpunkt, in dem sie bei Ihnen eintrifft, nicht rückwirkend (Art. 6 Abs. 1 VVG). Die Versicherung muss dann auch für bereits eingetretene Schäden nicht zahlen, soweit die verschwiegene Tatsache sie beeinflusst hat, und kann solche Leistungen zurückfordern (Art. 6 Abs. 3 VVG). Wichtig: Das Kündigungsrecht erlischt vier Wochen, nachdem die Versicherung von der Verletzung erfahren hat (Art. 6 Abs. 2 VVG). Die Frist beginnt erst, wenn sie sicher und vollständig Bescheid weiss; ein blosser Verdacht, etwa aus einer Arztrechnung, genügt nicht. Die Versicherung muss beweisen, dass sie die Frist eingehalten hat. Fragen Sie deshalb nach, seit wann die Versicherung die massgebenden Angaben hatte."
+        "de": "Hat die Versicherung Sie beim Abschluss nach einer erheblichen Tatsache gefragt und haben Sie diese verschwiegen oder falsch angegeben, obwohl Sie sie kannten oder kennen mussten, kann sie den Vertrag schriftlich kündigen. Die Kündigung wirkt ab dem Zeitpunkt, in dem sie bei Ihnen eintrifft, nicht rückwirkend (Art. 6 Abs. 1 VVG). Die Versicherung muss dann auch für bereits eingetretene Schäden nicht zahlen, soweit die verschwiegene Tatsache sie beeinflusst hat, und kann solche Leistungen zurückfordern (Art. 6 Abs. 3 VVG). Wichtig: Das Kündigungsrecht erlischt vier Wochen, nachdem die Versicherung von der Verletzung erfahren hat (Art. 6 Abs. 2 VVG). Die Frist beginnt erst, wenn sie sicher und vollständig Bescheid weiss; ein blosser Verdacht, etwa aus einer Arztrechnung, genügt nicht. Die Versicherung muss beweisen, dass sie die Frist eingehalten hat. Fragen Sie deshalb nach, seit wann die Versicherung die massgebenden Angaben hatte.",
+        "fr": "Si l’assurance vous a interrogé, lors de la conclusion, sur un fait important et que vous l’avez caché ou déclaré inexactement alors que vous le connaissiez ou deviez le connaître (réticence), elle peut résilier le contrat par écrit. La résiliation prend effet au moment où elle vous parvient, sans effet rétroactif (art. 6 al. 1 LCA). L’assurance n’a alors pas non plus à payer pour des sinistres déjà survenus, dans la mesure où le fait caché les a influencés, et elle peut réclamer le remboursement de telles prestations (art. 6 al. 3 LCA). Important : le droit de résiliation s’éteint quatre semaines après que l’assurance a eu connaissance de la réticence (art. 6 al. 2 LCA). Le délai ne commence à courir que lorsqu’elle en a une connaissance sûre et complète ; un simple soupçon, par exemple tiré d’une facture médicale, ne suffit pas. L’assurance doit prouver qu’elle a respecté ce délai. Demandez donc depuis quand l’assurance disposait des indications déterminantes.",
+        "it": "Se l'assicurazione le ha posto, alla conclusione del contratto, una domanda su un fatto rilevante e lei l'ha taciuto o dichiarato in modo inesatto, pur conoscendolo o dovendolo conoscere, essa può recedere dal contratto per scritto. Il recesso ha effetto dal momento in cui le perviene, non retroattivamente (art. 6 cpv. 1 LCA). L'assicurazione non deve allora pagare nemmeno per i danni già intervenuti, nella misura in cui il fatto taciuto li abbia influenzati, e può richiedere la restituzione di tali prestazioni (art. 6 cpv. 3 LCA). Importante: il diritto di recesso si estingue quattro settimane dopo che l'assicurazione è venuta a conoscenza della violazione (art. 6 cpv. 2 LCA). Il termine inizia a decorrere solo quando essa ne ha conoscenza sicura e completa; un semplice sospetto, per esempio tratto da una fattura medica, non basta. L'assicurazione deve provare di aver rispettato il termine. Si informi quindi da quando l'assicurazione disponeva delle indicazioni determinanti.",
+        "en": "If the insurer asked you about a material fact when the contract was concluded and you concealed it or gave incorrect information, although you knew or should have known it, it can terminate the contract in writing. The termination takes effect from the time it reaches you, not retroactively (Art. 6 para. 1 VVG). The insurer then also does not have to pay for losses that have already occurred, to the extent the concealed fact affected them, and can reclaim such benefits (Art. 6 para. 3 VVG). Important: the right to terminate lapses four weeks after the insurer learned of the breach (Art. 6 para. 2 VVG). This time limit only begins once it knows for certain and completely; a mere suspicion, for example from a doctor's bill, is not enough. The insurer must prove that it met the time limit. So ask when the insurer had the relevant information.",
+        "rm": "Ha l'assicuranza Vus dumandà tar la conclusiun in fatg erchevant, ed avais Vus quel zuppentà u indicà fauss, malgrà ch'Vus l'enconuschevas u stuevas enconuscher, po ella disdir il contract per scrit. La disditga agescha dapi il mument, en il qual ella arriva tar Vus, betg cun effect retroactiv (art. 6 al. 1 LCA). L'assicuranza na sto lura era betg pajar per donns gia succedids, uschenavant ch'il fatg zuppentà l'ha influenzada, e po pretender enavos talas prestaziuns (art. 6 al. 3 LCA). Impurtant: il dretg da disditga sa stitgescha quatter emnas, suenter che l'assicuranza ha vegnì a savair da la violaziun (art. 6 al. 2 LCA). Il termin cumenza mo, cur che l'assicuranza sa cun segirezza e dal tut da la violaziun; ina simpla suspecha, per exempel dad ina quinta dal medi, na basta betg. L'assicuranza sto cumprovar ch'ella ha observà il termin. Dumandai percunquai, dapi tge temp che l'assicuranza aveva las indicaziuns decisivas."
       },
       "sources": [
         "vvg-6",
@@ -236,7 +376,11 @@
         ]
       },
       "text": {
-        "de": "Die Versicherung darf trotz Anzeigepflichtverletzung nicht kündigen, wenn zum Beispiel: die verschwiegene Tatsache vor dem Ereignis weggefallen war; die Versicherung die falsche oder fehlende Angabe selbst veranlasst hat; sie die Tatsache bereits kannte oder kennen musste; sie auf das Kündigungsrecht verzichtet hat; oder eine Frage unbeantwortet blieb und die Versicherung den Vertrag trotzdem abgeschlossen hat (Art. 8 VVG). Trifft eine dieser Ausnahmen zu, widersprechen Sie der Kündigung schriftlich und mit Begründung."
+        "de": "Die Versicherung darf trotz Anzeigepflichtverletzung nicht kündigen, wenn zum Beispiel: die verschwiegene Tatsache vor dem Ereignis weggefallen war; die Versicherung die falsche oder fehlende Angabe selbst veranlasst hat; sie die Tatsache bereits kannte oder kennen musste; sie auf das Kündigungsrecht verzichtet hat; oder eine Frage unbeantwortet blieb und die Versicherung den Vertrag trotzdem abgeschlossen hat (Art. 8 VVG). Trifft eine dieser Ausnahmen zu, widersprechen Sie der Kündigung schriftlich und mit Begründung.",
+        "fr": "Malgré la réticence, l’assurance ne peut pas résilier le contrat, par exemple : si le fait caché a cessé d’exister avant le sinistre ; si l’assurance a elle-même provoqué l’indication fausse ou manquante ; si elle connaissait déjà le fait ou devait le connaître ; si elle a renoncé au droit de résiliation ; ou si une question est restée sans réponse et que l’assurance a quand même conclu le contrat (art. 8 LCA). Si l’une de ces exceptions est réalisée, contestez la résiliation par écrit et avec motivation.",
+        "it": "Nonostante la violazione dell'obbligo di dichiarazione, l'assicurazione non può recedere dal contratto se, per esempio: il fatto taciuto è cessato prima dell'evento; l'assicurazione stessa ha provocato l'indicazione falsa o mancante; conosceva già il fatto o doveva conoscerlo; ha rinunciato al diritto di recesso; oppure una domanda è rimasta senza risposta e l'assicurazione ha comunque concluso il contratto (art. 8 LCA). Se si applica una di queste eccezioni, si opponga alla disdetta per scritto e con motivazione.",
+        "en": "Despite a breach of the duty of disclosure, the insurer may not terminate the contract if, for example: the concealed fact had ceased to exist before the event occurred; the insurer itself caused the incorrect or missing information; it already knew or should have known the fact; it has waived the right to terminate; or a question remained unanswered and the insurer concluded the contract anyway (Art. 8 VVG). If one of these exceptions applies, object to the termination in writing and give your reasons.",
+        "rm": "L'assicuranza na dastga betg disdir, malgrà la violaziun da l'obligaziun d'infurmaziun, sche per exempel: il fatg zuppentà era chalà avant l'eveniment; l'assicuranza sezza aveva chaschunà l'indicaziun faussa u mancanta; ella enconuscheva gia il fatg u al stueva enconuscher; ella ha renunzià al dretg da disditga; u ina dumonda è restada senza resposta e l'assicuranza ha tuttina concludì il contract (art. 8 LCA). Sa mussa in da quests cas excepziunals, contradis Vus la disditga per scrit e cun motivaziun."
       },
       "sources": [
         "vvg-8"
@@ -253,7 +397,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie Ihren Vertrag vor dem 1. Januar 2022 abgeschlossen, gelten bei einer Anzeigepflichtverletzung und beim Prämienverzug teils andere Regeln als hier beschrieben. Von den neuen Bestimmungen gelten für ältere Verträge nur die Formvorschriften und die Kündigungsrechte nach Art. 35a und 35b VVG; alles Übrige richtet sich nach dem damaligen Recht (Art. 103a VVG). Wissen Sie das Abschlussdatum nicht mehr oder sind Sie unsicher, fragen Sie Ihre Versicherung nach dem Vertragsbeginn oder lassen Sie sich beraten, bevor Sie sich auf die hier beschriebenen Regeln verlassen."
+        "de": "Haben Sie Ihren Vertrag vor dem 1. Januar 2022 abgeschlossen, gelten bei einer Anzeigepflichtverletzung und beim Prämienverzug teils andere Regeln als hier beschrieben. Von den neuen Bestimmungen gelten für ältere Verträge nur die Formvorschriften und die Kündigungsrechte nach Art. 35a und 35b VVG; alles Übrige richtet sich nach dem damaligen Recht (Art. 103a VVG). Wissen Sie das Abschlussdatum nicht mehr oder sind Sie unsicher, fragen Sie Ihre Versicherung nach dem Vertragsbeginn oder lassen Sie sich beraten, bevor Sie sich auf die hier beschriebenen Regeln verlassen.",
+        "fr": "Si vous avez conclu votre contrat avant le 1er janvier 2022, des règles en partie différentes de celles décrites ici s’appliquent en cas de réticence et de retard de paiement de la prime. Pour les contrats plus anciens, seules les prescriptions de forme et les droits de résiliation selon les art. 35a et 35b LCA s’appliquent parmi les nouvelles dispositions ; tout le reste relève du droit alors en vigueur (art. 103a LCA). Si vous ne connaissez plus la date de conclusion ou si vous n’êtes pas sûr, demandez à votre assurance la date du début du contrat ou faites-vous conseiller avant de vous fier aux règles décrites ici.",
+        "it": "Se ha concluso il suo contratto prima del 1° gennaio 2022, in caso di violazione dell'obbligo di dichiarazione e di ritardo nel pagamento del premio valgono in parte regole diverse da quelle qui descritte. Delle nuove disposizioni, per i contratti più vecchi valgono solo le prescrizioni di forma e i diritti di recesso secondo gli articoli 35a e 35b LCA; per il resto si applica il diritto in vigore all'epoca (art. 103a LCA). Se non ricorda più la data di conclusione o non è sicuro, chieda alla sua assicurazione l'inizio del contratto o si faccia consigliare prima di basarsi sulle regole qui descritte.",
+        "en": "If you concluded your contract before 1 January 2022, partly different rules apply to a breach of the duty of disclosure and to arrears in premium payment than those described here. Of the new provisions, only the formal requirements and the rights of termination under Art. 35a and 35b VVG apply to older contracts; everything else is governed by the law then in force (Art. 103a VVG). If you no longer know the date your contract was concluded, or are unsure, ask your insurer when the contract began, or get advice, before relying on the rules described here.",
+        "rm": "Avais Vus concludì Voss contract avant l'1. da schaner 2022, valan tar ina violaziun da l'obligaziun d'infurmaziun e tar il retard da premia per part autras reglas che quellas descrittas qua. Da las novas disposiziuns valan per contracts pli vegls mo las prescripziuns da furma ed ils dretgs da disditga tenor art. 35a e 35b LCA; tut l'auter sa drizza tenor il dretg d'allura (art. 103a LCA). Na savais Vus betg pli la data da conclusiun u essas Vus nunsegirs, dumandai Vossa assicuranza per il cumenzament dal contract u laschai Vus cusseglier, avant che Vus As fidais da las reglas descrittas qua."
       },
       "sources": [
         "vvg-103a"
@@ -269,7 +417,11 @@
         ]
       },
       "text": {
-        "de": "Ordentlich kündbar ist der Vertrag frühestens auf das Ende des dritten Jahres und danach jedes weiteren Jahres, mit drei Monaten Kündigungsfrist (Art. 35a Abs. 1 VVG); andere, für beide Seiten gleiche Fristen können vereinbart werden. Wichtig für die Zusatzversicherung zur sozialen Krankenversicherung: Dieses ordentliche Kündigungsrecht steht nur Ihnen als Versicherungsnehmer zu, nicht der Versicherung (Art. 35a Abs. 4 VVG). Nur bei der kollektiven Krankentaggeldversicherung dürfen beide Seiten ordentlich kündigen."
+        "de": "Ordentlich kündbar ist der Vertrag frühestens auf das Ende des dritten Jahres und danach jedes weiteren Jahres, mit drei Monaten Kündigungsfrist (Art. 35a Abs. 1 VVG); andere, für beide Seiten gleiche Fristen können vereinbart werden. Wichtig für die Zusatzversicherung zur sozialen Krankenversicherung: Dieses ordentliche Kündigungsrecht steht nur Ihnen als Versicherungsnehmer zu, nicht der Versicherung (Art. 35a Abs. 4 VVG). Nur bei der kollektiven Krankentaggeldversicherung dürfen beide Seiten ordentlich kündigen.",
+        "fr": "Le contrat peut être résilié ordinairement au plus tôt pour la fin de la troisième année, puis pour la fin de chaque année suivante, moyennant un préavis de trois mois (art. 35a al. 1 LCA) ; d’autres délais, identiques pour les deux parties, peuvent être convenus. Important pour l’assurance complémentaire à l’assurance-maladie sociale : ce droit de résiliation ordinaire n’appartient qu’à vous, en tant que preneur d’assurance, et non à l’assurance (art. 35a al. 4 LCA). Seule l’assurance collective d’indemnités journalières en cas de maladie permet aux deux parties de résilier ordinairement.",
+        "it": "Il contratto può essere disdetto in via ordinaria al più presto alla fine del terzo anno e poi alla fine di ogni anno successivo, con un preavviso di tre mesi (art. 35a cpv. 1 LCA); possono essere convenuti altri termini, identici per entrambe le parti. Importante per l'assicurazione complementare all'assicurazione sociale malattie: questo diritto di disdetta ordinaria spetta solo a lei come stipulante, non all'assicurazione (art. 35a cpv. 4 LCA). Solo nell'assicurazione collettiva d'indennità giornaliera di malattia entrambe le parti possono disdire in via ordinaria.",
+        "en": "The contract can be terminated in the ordinary way at the earliest for the end of the third year and thereafter for the end of any further year, with three months' notice (Art. 35a para. 1 VVG); other time limits, equal for both sides, can be agreed. Important for supplementary insurance to social health insurance: this ordinary right of termination belongs only to you as the policyholder, not to the insurer (Art. 35a para. 4 VVG). Only in collective daily sickness benefit insurance may both sides terminate in the ordinary way.",
+        "rm": "Ordinariamain disdibel è il contract il pli baud sin la fin dal terz onn e suenter mintga ulteriur onn, cun in termin da disditga da trais mais (art. 35a al. 1 LCA); auters termins, medems per tuttas duas varts, pon vegnir cunvegnids. Impurtant per l'assicuranza supplementara a l'assicuranza sociala da malsauns: quest dretg ordinari da disditga tutga mo a Vus sco persuna che ha concludì il contract, betg a l'assicuranza (art. 35a al. 4 LCA). Mo tar l'assicuranza collectiva da diaria da malsauns dastgan tuttas duas varts disdir ordinariamain."
       },
       "sources": [
         "vvg-35a"
@@ -285,7 +437,11 @@
         ]
       },
       "text": {
-        "de": "Aus wichtigem Grund kann jede Seite den Vertrag jederzeit kündigen (Art. 35b VVG), zum Beispiel bei einer nicht voraussehbaren Gesetzesänderung, die die Vertragserfüllung verunmöglicht, oder wenn die Fortsetzung des Vertrags nach Treu und Glauben nicht mehr zumutbar ist. Eine Kündigungsfrist gilt dafür nicht. Die Kündigung muss schriftlich oder in einer anderen Form erfolgen, die sich mit Text belegen lässt, etwa per E-Mail."
+        "de": "Aus wichtigem Grund kann jede Seite den Vertrag jederzeit kündigen (Art. 35b VVG), zum Beispiel bei einer nicht voraussehbaren Gesetzesänderung, die die Vertragserfüllung verunmöglicht, oder wenn die Fortsetzung des Vertrags nach Treu und Glauben nicht mehr zumutbar ist. Eine Kündigungsfrist gilt dafür nicht. Die Kündigung muss schriftlich oder in einer anderen Form erfolgen, die sich mit Text belegen lässt, etwa per E-Mail.",
+        "fr": "Pour de justes motifs, chaque partie peut résilier le contrat en tout temps (art. 35b LCA), par exemple en cas de modification imprévisible des prescriptions légales qui rend impossible l’exécution du contrat, ou lorsque la continuation du contrat ne peut plus être exigée selon les règles de la bonne foi. Aucun délai de résiliation ne s’applique dans ce cas. La résiliation doit se faire par écrit ou par une autre forme permettant d’en établir la preuve par un texte, par exemple par e-mail.",
+        "it": "Per gravi motivi ciascuna parte può disdire il contratto in ogni momento (art. 35b LCA), per esempio in caso di una modifica imprevedibile delle disposizioni legali che rende impossibile l'adempimento del contratto, o quando la continuazione del contratto non sia più ragionevolmente esigibile secondo buona fede. Per questo non vale alcun termine di disdetta. La disdetta deve avvenire per scritto o in un'altra forma che consenta la prova per testo, per esempio per e-mail.",
+        "en": "Either side can terminate the contract at any time for good cause (Art. 35b VVG), for example on an unforeseeable change in the law that makes performance of the contract impossible, or if continuing the contract can no longer reasonably be expected in good faith. No notice period applies to this. The termination must be made in writing or in another form that can be evidenced by text, for example by email.",
+        "rm": "Per motiv impurtant po mintga vart disdir il contract da tut temp (art. 35b LCA), per exempel tar ina midada da lescha nunprevisibla, che verifitgescha impussibel l'adempliment dal contract, u sche la cuntinuaziun dal contract n'è, tenor buna fai, betg pli raschunaivla. Nagin termin da disditga na vala per quai. La disditga sto avair lieu per scrit u en in'autra furma che sa lascha cumprovar cun text, per exempel per e-mail."
       },
       "sources": [
         "vvg-35b"
@@ -302,7 +458,11 @@
         ]
       },
       "text": {
-        "de": "Ist nur ein Teilschaden eingetreten und verlangen Sie dafür Leistungen, dürfen nach dem Gesetz grundsätzlich beide Seiten den Vertrag spätestens bei der Auszahlung kündigen (Art. 42 Abs. 1 VVG). In der Zusatzversicherung zur sozialen Krankenversicherung hat dieses Recht aber nur die versicherte Person als Versicherungsnehmerin, nicht die Versicherung; nur in der kollektiven Taggeldversicherung haben es beide Seiten (Art. 35a Abs. 4 VVG). Kündigen Sie, endet die Deckung 14 Tage, nachdem die Kündigung der Versicherung mitgeteilt wurde (Art. 42 Abs. 2 VVG). Kündigen Sie im Jahr nach dem Vertragsabschluss, bleibt die Prämie für die laufende Versicherungsperiode geschuldet (Art. 42 Abs. 3 VVG)."
+        "de": "Ist nur ein Teilschaden eingetreten und verlangen Sie dafür Leistungen, dürfen nach dem Gesetz grundsätzlich beide Seiten den Vertrag spätestens bei der Auszahlung kündigen (Art. 42 Abs. 1 VVG). In der Zusatzversicherung zur sozialen Krankenversicherung hat dieses Recht aber nur die versicherte Person als Versicherungsnehmerin, nicht die Versicherung; nur in der kollektiven Taggeldversicherung haben es beide Seiten (Art. 35a Abs. 4 VVG). Kündigen Sie, endet die Deckung 14 Tage, nachdem die Kündigung der Versicherung mitgeteilt wurde (Art. 42 Abs. 2 VVG). Kündigen Sie im Jahr nach dem Vertragsabschluss, bleibt die Prämie für die laufende Versicherungsperiode geschuldet (Art. 42 Abs. 3 VVG).",
+        "fr": "S’il n’y a qu’un dommage partiel et que vous en réclamez des prestations, la loi permet en principe aux deux parties de résilier le contrat au plus tard lors du paiement (art. 42 al. 1 LCA). Dans l’assurance complémentaire à l’assurance-maladie sociale, seule la personne assurée, en tant que preneuse d’assurance, dispose toutefois de ce droit, et non l’assurance ; seule l’assurance collective d’indemnités journalières le donne aux deux parties (art. 35a al. 4 LCA). Si vous résiliez, la couverture prend fin 14 jours après que la résiliation a été communiquée à l’assurance (art. 42 al. 2 LCA). Si vous résiliez dans l’année qui suit la conclusion du contrat, la prime reste due pour la période d’assurance en cours (art. 42 al. 3 LCA).",
+        "it": "Se si è verificato solo un danno parziale e lei chiede per questo delle prestazioni, secondo la legge entrambe le parti hanno di principio il diritto di disdire il contratto al più tardi al momento del pagamento dell'indennità (art. 42 cpv. 1 LCA). Nell'assicurazione complementare all'assicurazione sociale malattie questo diritto spetta però solo a lei come stipulante, non all'assicurazione; solo nell'assicurazione collettiva d'indennità giornaliera lo hanno entrambe le parti (art. 35a cpv. 4 LCA). Se disdice, la copertura termina 14 giorni dopo che la disdetta è stata comunicata all'assicurazione (art. 42 cpv. 2 LCA). Se disdice nell'anno successivo alla conclusione del contratto, il premio resta dovuto per il periodo di assicurazione in corso (art. 42 cpv. 3 LCA).",
+        "en": "If only part of a loss has occurred and you claim benefits for it, the law in principle allows either side to terminate the contract at the latest on payment (Art. 42 para. 1 VVG). In supplementary insurance to social health insurance, however, only the insured person as policyholder has this right, not the insurer; only in collective daily allowance insurance do both sides have it (Art. 35a para. 4 VVG). If you terminate, cover ends 14 days after the insurer is notified of the termination (Art. 42 para. 2 VVG). If you terminate within the year after the contract was concluded, the premium for the current insurance period remains owed (Art. 42 para. 3 VVG).",
+        "rm": "Sch'è succedì mo in donn parzial e Vus pretendais prestaziuns per quel, dastgan tenor lescha per principi tuttas duas varts disdir il contract al pli tard tar il pajament (art. 42 al. 1 LCA). En l'assicuranza supplementara a l'assicuranza sociala da malsauns ha dentant mo la persuna assicurada, sco quella che ha concludì il contract, quest dretg, betg l'assicuranza; mo en l'assicuranza collectiva da diaria l'han tuttas duas varts (art. 35a al. 4 LCA). Disdis Vus, finescha la cuverta 14 dis, suenter che la disditga è vegnida communitgada a l'assicuranza (art. 42 al. 2 LCA). Disdis Vus en l'onn suenter la conclusiun dal contract, resta la premia dua per il period d'assicuranza currentamain (art. 42 al. 3 LCA)."
       },
       "sources": [
         "vvg-42",
@@ -319,7 +479,11 @@
         ]
       },
       "text": {
-        "de": "Zahlen Sie die Prämie nicht rechtzeitig, muss die Versicherung Sie schriftlich mahnen, Ihnen 14 Tage ab Absendung der Mahnung Zeit geben und auf die Folgen hinweisen (Art. 20 Abs. 1 VVG). Verstreicht diese Frist ungenutzt, ruht die Leistungspflicht der Versicherung ab dann (Art. 20 Abs. 3 VVG) – ein Ereignis in dieser Zeit ist also möglicherweise nicht gedeckt. Prüfen Sie deshalb, ob Sie überhaupt eine gültige Mahnung mit 14-tägiger Frist erhalten haben."
+        "de": "Zahlen Sie die Prämie nicht rechtzeitig, muss die Versicherung Sie schriftlich mahnen, Ihnen 14 Tage ab Absendung der Mahnung Zeit geben und auf die Folgen hinweisen (Art. 20 Abs. 1 VVG). Verstreicht diese Frist ungenutzt, ruht die Leistungspflicht der Versicherung ab dann (Art. 20 Abs. 3 VVG) – ein Ereignis in dieser Zeit ist also möglicherweise nicht gedeckt. Prüfen Sie deshalb, ob Sie überhaupt eine gültige Mahnung mit 14-tägiger Frist erhalten haben.",
+        "fr": "Si vous ne payez pas la prime à temps, l’assurance doit vous sommer par écrit, vous donner 14 jours à compter de l’envoi de la sommation et vous indiquer les conséquences du retard (art. 20 al. 1 LCA). Si ce délai s’écoule sans effet, l’obligation de l’assurance est suspendue à partir de ce moment (art. 20 al. 3 LCA) – un sinistre survenu durant cette période n’est donc éventuellement pas couvert. Vérifiez donc si vous avez bien reçu une sommation valable avec un délai de 14 jours.",
+        "it": "Se non paga il premio in tempo utile, l'assicurazione deve diffidarla per scritto, concederle 14 giorni dall'invio della diffida e avvertirla delle conseguenze (art. 20 cpv. 1 LCA). Se questo termine scade infruttuoso, l'obbligo dell'assicurazione di fornire prestazioni è sospeso a partire da quel momento (art. 20 cpv. 3 LCA) – un evento verificatosi in questo periodo potrebbe quindi non essere coperto. Verifichi quindi se ha effettivamente ricevuto una diffida valida con un termine di 14 giorni.",
+        "en": "If you do not pay the premium on time, the insurer must send you a written reminder, give you 14 days from when the reminder was sent, and point out the consequences (Art. 20 para. 1 VVG). If this time limit passes unused, the insurer's duty to pay benefits is suspended from then on (Art. 20 para. 3 VVG) – an event during this period may therefore not be covered. So check whether you received a valid reminder with a 14-day time limit at all.",
+        "rm": "Na pajais Vus la premia betg a temp, sto l'assicuranza Vus admonir per scrit, dar a Vus 14 dis temp dapi l'enviament da l'admoniziun ed indicar las consequenzas (art. 20 al. 1 LCA). Passa quest termin senza esser utilisà, riposa l'obligaziun da prestaziun da l'assicuranza dapi lura (art. 20 al. 3 LCA) – in eveniment en quest temp n'è donc eventualmain betg cuvert. Examinai percunquai, sche Vus avais dal tut retschet in'admoniziun valaivla cun in termin da 14 dis."
       },
       "sources": [
         "vvg-20"
@@ -335,7 +499,11 @@
         ]
       },
       "text": {
-        "de": "Fordert die Versicherung die ausstehende Prämie nicht innert zwei Monaten nach Ablauf der Mahnfrist rechtlich ein, gilt sie als vom Vertrag zurückgetreten und verzichtet auf die rückständige Prämie (Art. 21 Abs. 1 VVG). Verlangt oder nimmt die Versicherung die Prämie später doch noch an, lebt ihre Leistungspflicht erst wieder auf, sobald Sie die rückständige Prämie samt Zinsen und Kosten bezahlt haben (Art. 21 Abs. 2 VVG)."
+        "de": "Fordert die Versicherung die ausstehende Prämie nicht innert zwei Monaten nach Ablauf der Mahnfrist rechtlich ein, gilt sie als vom Vertrag zurückgetreten und verzichtet auf die rückständige Prämie (Art. 21 Abs. 1 VVG). Verlangt oder nimmt die Versicherung die Prämie später doch noch an, lebt ihre Leistungspflicht erst wieder auf, sobald Sie die rückständige Prämie samt Zinsen und Kosten bezahlt haben (Art. 21 Abs. 2 VVG).",
+        "fr": "Si l’assurance ne poursuit pas juridiquement le paiement de la prime en souffrance dans les deux mois suivant l’expiration du délai de sommation, elle est réputée s’être départie du contrat et avoir renoncé à la prime arriérée (art. 21 al. 1 LCA). Si l’assurance réclame ou accepte quand même la prime par la suite, son obligation ne reprend effet qu’à partir du moment où vous avez payé la prime arriérée avec les intérêts et les frais (art. 21 al. 2 LCA).",
+        "it": "Se l'assicurazione non richiede il premio in sospeso per via legale entro due mesi dalla scadenza del termine di diffida, si ritiene che sia receduta dal contratto e che abbia rinunciato al premio arretrato (art. 21 cpv. 1 LCA). Se l'assicurazione richiede o accetta il premio più tardi, il suo obbligo di fornire prestazioni rinasce solo quando lei ha pagato il premio arretrato con interessi e spese (art. 21 cpv. 2 LCA).",
+        "en": "If the insurer does not legally pursue the outstanding premium within two months of the reminder period expiring, it is deemed to have withdrawn from the contract and to have waived the overdue premium (Art. 21 para. 1 VVG). If the insurer nevertheless later demands or accepts the premium, its duty to pay benefits only revives once you have paid the overdue premium together with interest and costs (Art. 21 para. 2 VVG).",
+        "rm": "Na pretenda l'assicuranza la premia avierta giuridicamain entaifer dus mais suenter la scadenza dal termin d'admoniziun, vala ella sco sa retratta dal contract e renunzia a la premia arretrada (art. 21 al. 1 LCA). Pretenda u acceptescha l'assicuranza pli tard la premia tuttina, revegn sia obligaziun da prestaziun mo a vivere, uschespert ch'Vus avais pajà la premia arretrada cun tschains e custs (art. 21 al. 2 LCA)."
       },
       "sources": [
         "vvg-21"
@@ -351,7 +519,11 @@
         ]
       },
       "text": {
-        "de": "Hat Ihr Kanton für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung ein einziges Gericht bezeichnet (Art. 7 ZPO), entscheidet dieses direkt als einzige kantonale Instanz. Ein vorgängiges Schlichtungsverfahren findet dann nicht statt (Art. 198 lit. f ZPO); Sie reichen Ihre Klage unmittelbar bei diesem Gericht ein. Unabhängig vom Streitwert gilt das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO)."
+        "de": "Hat Ihr Kanton für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung ein einziges Gericht bezeichnet (Art. 7 ZPO), entscheidet dieses direkt als einzige kantonale Instanz. Ein vorgängiges Schlichtungsverfahren findet dann nicht statt (Art. 198 lit. f ZPO); Sie reichen Ihre Klage unmittelbar bei diesem Gericht ein. Unabhängig vom Streitwert gilt das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO).",
+        "fr": "Si votre canton a désigné un tribunal unique pour les litiges relatifs à l’assurance complémentaire à l’assurance-maladie sociale (art. 7 CPC), celui-ci statue directement comme instance cantonale unique. Aucune procédure de conciliation préalable n’a alors lieu (art. 198 let. f CPC) ; vous déposez votre action directement auprès de ce tribunal. La procédure simplifiée s’applique indépendamment de la valeur litigieuse (art. 243 al. 2 let. f CPC).",
+        "it": "Se il suo Cantone ha designato un unico tribunale per le controversie derivanti dall'assicurazione complementare all'assicurazione sociale malattie (art. 7 CPC), questo decide direttamente come unica istanza cantonale. Non ha allora luogo una previa procedura di conciliazione (art. 198 lett. f CPC); presenta la sua azione direttamente a questo tribunale. Indipendentemente dal valore litigioso si applica la procedura semplificata (art. 243 cpv. 2 lett. f CPC).",
+        "en": "If your canton has designated a single court for disputes arising from supplementary insurance to social health insurance (Art. 7 ZPO), that court decides directly as the sole cantonal instance. No prior conciliation procedure then takes place (Art. 198 let. f ZPO); you file your claim directly with that court. Whatever the amount in dispute, the simplified procedure applies (Art. 243 para. 2 let. f ZPO).",
+        "rm": "Ha Voss chantun designà per dispitas da l'assicuranza supplementara a l'assicuranza sociala da malsauns in'unica dretgira (art. 7 CPC), decida quella directamain sco unica instanza chantunala. Ina procedura da conciliaziun precedenta na ha lura betg lieu (art. 198 lit. f CPC); Vus inoltrais Vossa plant immediatamain tar questa dretgira. Independentamain dal valur litigius vala la procedura simplifitgada (art. 243 al. 2 lit. f CPC)."
       },
       "sources": [
         "zpo-7",
@@ -369,7 +541,11 @@
         ]
       },
       "text": {
-        "de": "Hat Ihr Kanton kein solches Gericht bezeichnet (Art. 7 ZPO), gelten die ordentlichen Zuständigkeitsregeln: in der Regel zuerst ein Schlichtungsversuch, danach die Klage beim zuständigen Zivilgericht. Auch dort gilt für Ihre Streitigkeit unabhängig vom Streitwert das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO). Ob Ihr Kanton ein Gericht nach Art. 7 ZPO bezeichnet hat, erfahren Sie bei der kantonalen Gerichtsverwaltung oder einer Rechtsberatungsstelle."
+        "de": "Hat Ihr Kanton kein solches Gericht bezeichnet (Art. 7 ZPO), gelten die ordentlichen Zuständigkeitsregeln: in der Regel zuerst ein Schlichtungsversuch, danach die Klage beim zuständigen Zivilgericht. Auch dort gilt für Ihre Streitigkeit unabhängig vom Streitwert das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO). Ob Ihr Kanton ein Gericht nach Art. 7 ZPO bezeichnet hat, erfahren Sie bei der kantonalen Gerichtsverwaltung oder einer Rechtsberatungsstelle.",
+        "fr": "Si votre canton n’a pas désigné un tel tribunal (art. 7 CPC), les règles de compétence ordinaires s’appliquent : en règle générale, une tentative de conciliation d’abord, puis l’action devant le tribunal civil compétent. Là aussi, la procédure simplifiée s’applique à votre litige indépendamment de la valeur litigieuse (art. 243 al. 2 let. f CPC). Vous pouvez savoir si votre canton a désigné un tribunal selon l’art. 7 CPC auprès de l’administration judiciaire cantonale ou d’un service de consultation juridique.",
+        "it": "Se il suo Cantone non ha designato un tale tribunale (art. 7 CPC), valgono le regole di competenza ordinarie: di regola prima un tentativo di conciliazione, poi l'azione presso il tribunale civile competente. Anche lì, per la sua controversia si applica la procedura semplificata indipendentemente dal valore litigioso (art. 243 cpv. 2 lett. f CPC). Se il suo Cantone ha designato un tribunale secondo l'art. 7 CPC lo può sapere presso l'amministrazione giudiziaria cantonale o un servizio di consulenza giuridica.",
+        "en": "If your canton has not designated such a court (Art. 7 ZPO), the ordinary rules on jurisdiction apply: usually a conciliation attempt first, then the claim before the competent civil court. There too, the simplified procedure applies to your dispute regardless of the amount in dispute (Art. 243 para. 2 let. f ZPO). You can find out whether your canton has designated a court under Art. 7 ZPO from the cantonal court administration or a legal advice centre.",
+        "rm": "Ha Voss chantun betg designà ina tala dretgira (art. 7 CPC), valan las reglas ordinarias da cumpetenza: per regla empruma in emprova da conciliaziun, suenter la plant tar la dretgira civila cumpetenta. Er là vala per Vossa dispita, independentamain dal valur litigius, la procedura simplifitgada (art. 243 al. 2 lit. f CPC). Sche Voss chantun ha designà ina dretgira tenor art. 7 CPC, savais Vus tar l'administraziun chantunala da la dretgira u in post da cussegliaziun giuridica."
       },
       "sources": [
         "zpo-7",
@@ -380,7 +556,11 @@
       "id": "cost",
       "kind": "cost",
       "text": {
-        "de": "Für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung werden weder im Schlichtungsverfahren noch im Entscheidverfahren Gerichtskosten erhoben (Art. 113 Abs. 2 lit. f und Art. 114 lit. e ZPO). Im Schlichtungsverfahren wird zudem grundsätzlich keine Parteientschädigung gesprochen (Art. 113 Abs. 1 ZPO). Im Gerichtsverfahren trägt aber grundsätzlich die Partei, die verliert, die Prozesskosten. Dazu gehört die Parteientschädigung, also vor allem die Anwaltskosten der Gegenseite (Art. 95 und 106 ZPO)."
+        "de": "Für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung werden weder im Schlichtungsverfahren noch im Entscheidverfahren Gerichtskosten erhoben (Art. 113 Abs. 2 lit. f und Art. 114 lit. e ZPO). Im Schlichtungsverfahren wird zudem grundsätzlich keine Parteientschädigung gesprochen (Art. 113 Abs. 1 ZPO). Im Gerichtsverfahren trägt aber grundsätzlich die Partei, die verliert, die Prozesskosten. Dazu gehört die Parteientschädigung, also vor allem die Anwaltskosten der Gegenseite (Art. 95 und 106 ZPO).",
+        "fr": "Pour les litiges relatifs à l’assurance complémentaire à l’assurance-maladie sociale, aucun frais judiciaire n’est perçu, ni dans la procédure de conciliation ni dans la procédure de décision (art. 113 al. 2 let. f et art. 114 let. e CPC). Dans la procédure de conciliation, aucuns dépens ne sont en outre en principe alloués (art. 113 al. 1 CPC). Dans la procédure judiciaire, en revanche, c’est en principe la partie qui succombe qui supporte les frais du procès. Cela comprend les dépens, c’est-à-dire surtout les frais d’avocat de la partie adverse (art. 95 et 106 CPC).",
+        "it": "Per le controversie derivanti dall'assicurazione complementare all'assicurazione sociale malattie non vengono riscosse spese giudiziarie, né nella procedura di conciliazione né nella procedura decisionale (art. 113 cpv. 2 lett. f e art. 114 lett. e CPC). Nella procedura di conciliazione, inoltre, di principio non viene assegnata alcuna indennità di parte (art. 113 cpv. 1 CPC). Nella procedura giudiziaria, invece, di principio la parte soccombente sopporta le spese processuali. Ne fa parte l'indennità di parte, ossia soprattutto le spese legali della controparte (art. 95 e 106 CPC).",
+        "en": "No court costs are charged for disputes arising from supplementary insurance to social health insurance, either in the conciliation procedure or in the decision procedure (Art. 113 para. 2 let. f and Art. 114 let. e ZPO). In the conciliation procedure, no party compensation is awarded either, as a rule (Art. 113 para. 1 ZPO). In court proceedings, however, the losing party in principle bears the costs of proceedings. This includes party compensation, above all the other side's lawyer's costs (Art. 95 and 106 ZPO).",
+        "rm": "Per dispitas da l'assicuranza supplementara a l'assicuranza sociala da malsauns na vegnan drizzads ni en la procedura da conciliaziun ni en la procedura da decisiun custs giudizials (art. 113 al. 2 lit. f ed art. 114 lit. e CPC). En la procedura da conciliaziun na vegn ultra da quai per principi drizzada nagina indemnisaziun da part (art. 113 al. 1 CPC). En la procedura giudiziala porta dentant per principi la part che perda ils custs da process. A quai tutga l'indemnisaziun da part, dunca surtut ils custs d'advocat da la cuntrapart (art. 95 ed 106 CPC)."
       },
       "sources": [
         "zpo-113",
@@ -393,7 +573,11 @@
       "id": "limitation",
       "kind": "warning",
       "text": {
-        "de": "Ansprüche aus dem Versicherungsvertrag verjähren fünf Jahre, nachdem das Ereignis eingetreten ist, das die Leistungspflicht begründet (Art. 46 Abs. 1 VVG); bei der kollektiven Krankentaggeldversicherung sind es nur zwei Jahre (Art. 46 Abs. 3 VVG). Eine vertragliche Verkürzung dieser Frist ist ungültig (Art. 46 Abs. 2 VVG). Nach Ablauf können Sie Ihren Anspruch nicht mehr gerichtlich durchsetzen – handeln Sie rechtzeitig. Unterbrochen wird die Verjährung etwa durch eine Betreibung, ein Schlichtungsgesuch oder eine Klage, oder wenn die Versicherung die Forderung anerkennt (Art. 135 OR). Ein Brief oder eine Anfrage bei der Ombudsstelle genügt dafür nicht."
+        "de": "Ansprüche aus dem Versicherungsvertrag verjähren fünf Jahre, nachdem das Ereignis eingetreten ist, das die Leistungspflicht begründet (Art. 46 Abs. 1 VVG); bei der kollektiven Krankentaggeldversicherung sind es nur zwei Jahre (Art. 46 Abs. 3 VVG). Eine vertragliche Verkürzung dieser Frist ist ungültig (Art. 46 Abs. 2 VVG). Nach Ablauf können Sie Ihren Anspruch nicht mehr gerichtlich durchsetzen – handeln Sie rechtzeitig. Unterbrochen wird die Verjährung etwa durch eine Betreibung, ein Schlichtungsgesuch oder eine Klage, oder wenn die Versicherung die Forderung anerkennt (Art. 135 OR). Ein Brief oder eine Anfrage bei der Ombudsstelle genügt dafür nicht.",
+        "fr": "Les créances découlant du contrat d’assurance se prescrivent par cinq ans à compter de la survenance du fait qui fonde l’obligation (art. 46 al. 1 LCA) ; pour l’assurance collective d’indemnités journalières en cas de maladie, ce délai n’est que de deux ans (art. 46 al. 3 LCA). Un raccourcissement contractuel de ce délai est nul (art. 46 al. 2 LCA). Une fois ce délai écoulé, vous ne pouvez plus faire valoir votre prétention en justice – agissez à temps. La prescription est interrompue notamment par une poursuite, une requête de conciliation ou une action, ou lorsque l’assurance reconnaît la créance (art. 135 CO). Une lettre ou une demande adressée à l’Ombudsman ne suffit pas pour cela.",
+        "it": "I crediti derivanti dal contratto di assicurazione si prescrivono in cinque anni dal fatto su cui è fondato l'obbligo di fornire la prestazione (art. 46 cpv. 1 LCA); nell'assicurazione collettiva d'indennità giornaliera di malattia sono solo due anni (art. 46 cpv. 3 LCA). Un accorciamento contrattuale di questo termine è nullo (art. 46 cpv. 2 LCA). Dopo la scadenza non può più far valere il suo diritto in giudizio – agisca in tempo utile. La prescrizione è interrotta per esempio da un'esecuzione, da un'istanza di conciliazione o da un'azione, oppure se l'assicurazione riconosce il credito (art. 135 CO). Una lettera o una richiesta all'ufficio dell'ombudsman non bastano per questo.",
+        "en": "Claims under the insurance contract become time-barred five years after the event giving rise to the duty to pay benefits (Art. 46 para. 1 VVG); for collective daily sickness benefit insurance it is only two years (Art. 46 para. 3 VVG). A contractual shortening of this time limit is invalid (Art. 46 para. 2 VVG). Once it has expired, you can no longer enforce your claim in court – act in good time. Limitation is interrupted, for example, by debt enforcement proceedings, a request for conciliation or a legal action, or if the insurer acknowledges the claim (Art. 135 OR). A letter or an enquiry to the Ombudsman's Office is not enough for this.",
+        "rm": "Pretensiuns dal contract d'assicuranza sa stitgeschan tschintg onns, suenter che l'eveniment è succedì, che fonda l'obligaziun da prestaziun (art. 46 al. 1 LCA); tar l'assicuranza collectiva da diaria da malsauns èn quai mo dus onns (art. 46 al. 3 LCA). Ina reducziun contractuala da quest termin è nulla (art. 46 al. 2 LCA). Suenter la scadenza na pudais Vus betg pli far valair Voss dretg giudizialmain – agis a temp. La prescripziun vegn interrutta per exempel tras ina scussiun, ina dumonda da conciliaziun u ina plant, u sche l'assicuranza renconuscha la pretensiun (art. 135 CO). Ina brev u ina dumonda tar il post da l'Ombudsman na basta betg per quai."
       },
       "sources": [
         "vvg-46",
@@ -404,21 +588,33 @@
       "id": "escalate",
       "kind": "escalate",
       "text": {
-        "de": "Geht es um einen grösseren Betrag, um eine Kündigung, die Ihre Versicherungsdeckung gefährdet, oder beruft sich die Versicherung auf eine Anzeigepflichtverletzung, lohnt sich meist eine Beratung durch eine Fachperson für Versicherungsrecht, bevor Sie eine Frist verstreichen lassen oder etwas unterschreiben. Diese Übersicht ersetzt keine Rechtsberatung im Einzelfall."
+        "de": "Geht es um einen grösseren Betrag, um eine Kündigung, die Ihre Versicherungsdeckung gefährdet, oder beruft sich die Versicherung auf eine Anzeigepflichtverletzung, lohnt sich meist eine Beratung durch eine Fachperson für Versicherungsrecht, bevor Sie eine Frist verstreichen lassen oder etwas unterschreiben. Diese Übersicht ersetzt keine Rechtsberatung im Einzelfall.",
+        "fr": "S’il s’agit d’un montant important, d’une résiliation qui met en péril votre couverture d’assurance, ou si l’assurance invoque une réticence, il vaut généralement la peine de consulter une personne spécialisée en droit des assurances avant de laisser passer un délai ou de signer quoi que ce soit. Ce guide ne remplace pas un conseil juridique dans un cas particulier.",
+        "it": "Se si tratta di un importo rilevante, di una disdetta che mette a rischio la sua copertura assicurativa, oppure se l'assicurazione si richiama a una violazione dell'obbligo di dichiarazione, conviene di regola farsi consigliare da una persona specializzata in diritto assicurativo, prima di lasciar scadere un termine o di firmare qualcosa. Questa guida non sostituisce una consulenza legale nel singolo caso.",
+        "en": "If a larger amount is at stake, if a termination endangers your insurance cover, or if the insurer relies on a breach of the duty of disclosure, it is usually worth getting advice from an insurance law specialist before you let a time limit pass or sign anything. This overview does not replace legal advice in an individual case.",
+        "rm": "Sa tracta d'in import pli grond, d'ina disditga che periclitescha Vossa cuverta d'assicuranza, u sa referescha l'assicuranza a ina violaziun da l'obligaziun d'infurmaziun, giova per regla ina consulaziun tras ina persuna spezialisada per il dretg d'assicuranza, avant che Vus laschais passar in termin u suttascrivais insatge. Quest manual na remplazza nagina consulaziun giuridica en il cas singul."
       }
     },
     {
       "id": "ombudsman",
       "kind": "free-help",
       "text": {
-        "de": "Die Ombudsstelle Krankenversicherung vermittelt kostenlos zwischen Ihnen und Ihrer Versicherung – auch bei Streitigkeiten aus der Zusatzversicherung nach VVG. Sie ersetzt kein Gericht, kann aber oft rasch und unbürokratisch zu einer Lösung beitragen, bevor Sie klagen. Eine Anfrage unterbricht jedoch keine Fristen – behalten Sie Verjährung und Kündigungsfristen weiterhin im Auge."
+        "de": "Die Ombudsstelle Krankenversicherung vermittelt kostenlos zwischen Ihnen und Ihrer Versicherung – auch bei Streitigkeiten aus der Zusatzversicherung nach VVG. Sie ersetzt kein Gericht, kann aber oft rasch und unbürokratisch zu einer Lösung beitragen, bevor Sie klagen. Eine Anfrage unterbricht jedoch keine Fristen – behalten Sie Verjährung und Kündigungsfristen weiterhin im Auge.",
+        "fr": "L’Ombudsman de l’assurance-maladie sert gratuitement de médiateur entre vous et votre assurance – y compris pour les litiges relatifs à l’assurance complémentaire selon la LCA. Il ne remplace pas un tribunal, mais peut souvent contribuer rapidement et sans formalités à une solution avant que vous n’agissiez en justice. Une demande n’interrompt toutefois aucun délai – continuez à surveiller la prescription et les délais de résiliation.",
+        "it": "L'Ombudsman dell'assicurazione malattie media gratuitamente tra lei e la sua assicurazione – anche nelle controversie derivanti dall'assicurazione complementare secondo la LCA. Non sostituisce un tribunale, ma può spesso contribuire in modo rapido e non burocratico a una soluzione, prima che lei faccia causa. Una richiesta non interrompe però alcun termine – tenga comunque d'occhio la prescrizione e i termini di disdetta.",
+        "en": "The Health Insurance Ombudsman's Office mediates free of charge between you and your insurer – including in disputes arising from supplementary insurance under the VVG. It does not replace a court, but can often contribute quickly and without red tape to a solution before you sue. However, an enquiry to it does not interrupt any time limits – keep an eye on limitation periods and notice periods.",
+        "rm": "Il post da l'Ombudsman da l'assicuranza da malsauns media gratuitamain tranter Vus e Vossa assicuranza – er tar dispitas da l'assicuranza supplementara tenor la LCA. El na remplazza nagina dretgira, po dentant savens contribuir svelt e senza burocrazia ad ina soluziun, avant che Vus plidais. Ina dumonda na interrump dentant naginas termins – tegnai vinavant en egl la prescripziun ed ils termins da disditga."
       }
     },
     {
       "id": "legal-advice",
       "kind": "free-help",
       "text": {
-        "de": "Viele kantonale Anwaltsverbände bieten eine kostenlose oder günstige erste Rechtsauskunft an. Nutzen Sie ein solches Angebot, um Ihre Erfolgsaussichten und das weitere Vorgehen einzuschätzen, bevor Sie eine Frist verpassen oder eine Erklärung unterschreiben."
+        "de": "Viele kantonale Anwaltsverbände bieten eine kostenlose oder günstige erste Rechtsauskunft an. Nutzen Sie ein solches Angebot, um Ihre Erfolgsaussichten und das weitere Vorgehen einzuschätzen, bevor Sie eine Frist verpassen oder eine Erklärung unterschreiben.",
+        "fr": "De nombreux ordres cantonaux d’avocats offrent un premier renseignement juridique gratuit ou à faible coût. Profitez d’une telle offre pour évaluer vos chances de succès et la suite à donner, avant de manquer un délai ou de signer une déclaration.",
+        "it": "Molte associazioni cantonali di avvocati offrono una prima consulenza giuridica gratuita o a basso costo. Approfitti di un simile servizio per valutare le sue possibilità di successo e il seguito da dare, prima di lasciar scadere un termine o di firmare una dichiarazione.",
+        "en": "Many cantonal bar associations offer a free or low-cost initial legal consultation. Use such an offer to assess your prospects of success and how to proceed, before you miss a time limit or sign a declaration.",
+        "rm": "Blers federaziuns chantunalas d'advocatas ed advocats offran in'emprima infurmaziun giuridica gratuita u avantagiusa. Utilisai in tala purschida per taxar Vossas schanzas da success ed il proceder ulteriur, avant che Vus manchentais in termin u suttascrivais ina decleraziun."
       }
     }
   ],
@@ -593,13 +789,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Ombudsstelle Krankenversicherung"
+        "de": "Ombudsstelle Krankenversicherung",
+        "fr": "Ombudsman de l’assurance-maladie",
+        "it": "Ombudsman dell'assicurazione malattie",
+        "en": "Health Insurance Ombudsman's Office",
+        "rm": "Post da l'Ombudsman da l'assicuranza da malsauns"
       },
       "url": "https://om-kv.ch/"
     },
     {
       "label": {
-        "de": "Kantonale Anwaltsverbände (kostenlose Rechtsauskunft)"
+        "de": "Kantonale Anwaltsverbände (kostenlose Rechtsauskunft)",
+        "fr": "Ordres cantonaux d’avocats (renseignement juridique gratuit)",
+        "it": "Associazioni cantonali di avvocati (consulenza giuridica gratuita)",
+        "en": "Cantonal bar associations (free legal information)",
+        "rm": "Federaziuns chantunalas d'advocatas ed advocats (infurmaziun giuridica gratuita)"
       },
       "url": "https://www.sav-fsa.ch/de/kantonale-anwaltsverb%C3%A4nde"
     }

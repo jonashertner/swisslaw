@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich bin Opfer einer Straftat geworden: Opferhilfe"
+    "de": "Ich bin Opfer einer Straftat geworden: Opferhilfe",
+    "fr": "J’ai été victime d’une infraction : l’aide aux victimes",
+    "it": "Sono diventato vittima di un reato: l'aiuto alle vittime",
+    "en": "I have become the victim of an offence: victim support",
+    "rm": "Jau sun victima d'in delict: agid a victimas"
   },
   "summary": {
-    "de": "Sie oder ein Ihnen nahestehender Mensch wurden Opfer einer Straftat – etwa Gewalt, ein Sexualdelikt, eine ernsthafte Drohung oder ein von jemand anderem verursachter Unfall. Dieser Leitfaden zeigt, welche kostenlose Beratung, welche finanziellen Hilfen und welche Rechte im Strafverfahren Ihnen als Opfer oder als Angehörige bzw. Angehöriger zustehen – unabhängig davon, ob die Täterschaft gefunden oder verurteilt wurde oder ob Sie Anzeige erstattet haben."
+    "de": "Sie oder ein Ihnen nahestehender Mensch wurden Opfer einer Straftat – etwa Gewalt, ein Sexualdelikt, eine ernsthafte Drohung oder ein von jemand anderem verursachter Unfall. Dieser Leitfaden zeigt, welche kostenlose Beratung, welche finanziellen Hilfen und welche Rechte im Strafverfahren Ihnen als Opfer oder als Angehörige bzw. Angehöriger zustehen – unabhängig davon, ob die Täterschaft gefunden oder verurteilt wurde oder ob Sie Anzeige erstattet haben.",
+    "fr": "Vous, ou une personne qui vous est proche, avez été victime d’une infraction – par exemple un acte de violence, une infraction sexuelle, une menace grave ou un accident causé par une autre personne. Ce guide montre quelles consultations gratuites, quelles aides financières et quels droits dans la procédure pénale vous reviennent en tant que victime ou en tant que proche – indépendamment du fait que l’auteure ou l’auteur ait été trouvé ou condamné, ou que vous ayez porté plainte.",
+    "it": "Lei stesso, oppure una persona a lei vicina, è diventato vittima di un reato – per esempio violenza, un reato contro l'integrità sessuale, una minaccia grave o un incidente causato da un'altra persona. Questa guida spiega quale consulenza gratuita, quali aiuti finanziari e quali diritti nel procedimento penale le spettano come vittima o come congiunto, indipendentemente dal fatto che l'autore del reato sia stato trovato o condannato oppure che lei abbia sporto denuncia.",
+    "en": "You, or someone close to you, have become the victim of an offence – for example violence, a sexual offence, a serious threat, or an accident caused by someone else. This guide shows what free advice, what financial help, and what rights in the criminal proceedings you are entitled to as a victim or as a close relation – regardless of whether the perpetrator has been found or convicted, or whether you have reported the offence.",
+    "rm": "Vus u ina persuna datiers a Vus è daventada victima d'in delict – per exempel violenza, in delict sexual, ina smanatscha seriusa u in accident chaschunà d'insatgi auter. Quest manual mussa, tge consulaziun gratuita, tge agids finanzials e tge dretgs en la procedura penala che As tutgan sco victima u sco confamigliar – independentamain, sche l'autura u l'autur è stà chattà u condemnà, u sche Vus avais fatg annunzia penala."
   },
   "examples": {
     "de": [
@@ -18,39 +26,91 @@
       "Ich wurde sexuell belästigt, will aber nicht zur Polizei – gibt es trotzdem Hilfe?",
       "Muss ich zuerst Anzeige erstatten, damit mir die Opferhilfe hilft?",
       "Wer bezahlt meine Psychotherapie nach der Tat?"
+    ],
+    "fr": [
+      "J’ai été passé à tabac dans la rue, que puis-je faire maintenant ?",
+      "Mon frère est mort dans un accident causé par un autre automobiliste. Notre famille peut-elle recevoir de l’argent ?",
+      "J’ai été victime de harcèlement sexuel, mais je ne veux pas aller à la police, existe-t-il quand même une aide ?",
+      "Dois-je d’abord porter plainte pour que l’aide aux victimes m’aide ?",
+      "Qui paie ma psychothérapie après les faits ?"
+    ],
+    "it": [
+      "Sono stato aggredito per strada, cosa posso fare adesso?",
+      "Mio fratello è morto in un incidente causato da un altro automobilista. Abbiamo diritto a un aiuto finanziario come famiglia?",
+      "Ho subito una molestia sessuale ma non voglio andare alla polizia, esiste comunque un aiuto?",
+      "Devo prima sporgere denuncia perché l'aiuto alle vittime mi aiuti?",
+      "Chi paga la mia psicoterapia dopo il reato?"
+    ],
+    "en": [
+      "I was beaten up in the street, what can I do now?",
+      "My brother died in an accident caused by another driver. Can we as a family get money?",
+      "I was sexually harassed but don't want to go to the police, is there still help?",
+      "Do I have to report the offence first before victim support helps me?",
+      "Who pays for my psychotherapy after the offence?"
+    ],
+    "rm": [
+      "Insatgi m'ha bacchà sin la via – tge poss jau far ussa?",
+      "Mes frar è mort en in accident, chaschunà d'in auter automobilist. Survegnin nus, sco famiglia, daners?",
+      "Insatgi m'ha molestà sexualmain, ma jau na vi betg ir a la polizia – dat i tuttina agid?",
+      "Stoss jau empruma far annunzia penala, per che l'agid a victimas am gida?",
+      "Tgi paja mia psicoterapia suenter il fatg?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Wer als Opfer oder als Angehörige bzw. Angehöriger nach dem Opferhilfegesetz gilt; kostenlose und vertrauliche Beratung; finanzielle Hilfe (Entschädigung und Genugtuung) mit Voraussetzungen, Höchstbeträgen und Fristen; zentrale Opferrechte im Strafverfahren wie Information, Begleitung, Schutz vor einer Begegnung mit der beschuldigten Person und besondere Rechte bei Straftaten gegen die sexuelle Integrität."
+      "de": "Wer als Opfer oder als Angehörige bzw. Angehöriger nach dem Opferhilfegesetz gilt; kostenlose und vertrauliche Beratung; finanzielle Hilfe (Entschädigung und Genugtuung) mit Voraussetzungen, Höchstbeträgen und Fristen; zentrale Opferrechte im Strafverfahren wie Information, Begleitung, Schutz vor einer Begegnung mit der beschuldigten Person und besondere Rechte bei Straftaten gegen die sexuelle Integrität.",
+      "fr": "Qui est considéré comme victime ou comme proche au sens de la loi sur l’aide aux victimes ; la consultation gratuite et confidentielle ; l’aide financière (indemnité et réparation morale), avec ses conditions, ses montants maximaux et ses délais ; les droits centraux de la victime dans la procédure pénale, comme l’information, l’accompagnement, la protection contre une confrontation avec la personne prévenue, et les droits particuliers en cas d’infractions contre l’intégrité sexuelle.",
+      "it": "Chi è considerato vittima o congiunto secondo la legge sull'aiuto alle vittime; la consulenza gratuita e confidenziale; l'aiuto finanziario (indennizzo e riparazione morale) con i relativi presupposti, importi massimi e termini; i diritti centrali della vittima nel procedimento penale, come l'informazione, l'accompagnamento, la protezione da un confronto con la persona imputata e i diritti particolari in caso di reati contro l'integrità sessuale.",
+      "en": "Who counts as a victim or as a close relation under the Victim Support Act; free and confidential advice; financial help (damages and satisfaction) with its requirements, maximum amounts and time limits; key victim rights in the criminal proceedings such as information, being accompanied, protection from encountering the accused, and particular rights for offences against sexual integrity.",
+      "rm": "Tgi che vala sco victima u sco confamigliar tenor la Lescha davart l'agid a victimas; consulaziun gratuita e confidenziala; agid finanzial (indemnisaziun e satisfacziun) cun cundiziuns, imports maximals e termins; dretgs centrals da la victima en la procedura penala sco infurmaziun, accumpagnament, protecziun cunter in'incunter cun la persuna inculpada e dretgs spezials tar delicts cunter l'integritad sexuala."
     },
     "excludes": {
-      "de": "Wie Sie eine Strafanzeige einreichen oder wie ein Strafverfahren im Einzelnen abläuft; das zivilrechtliche Vorgehen ausserhalb des Opferhilfeverfahrens; Schutzmassnahmen bei häuslicher Gewalt wie Kontakt- oder Rayonverbot sowie das Verhalten bei einer polizeilichen Einvernahme – dazu gibt es eigene Leitfäden. Kantonale Einzelheiten der Beratungsstellen werden nicht aufgeführt."
+      "de": "Wie Sie eine Strafanzeige einreichen oder wie ein Strafverfahren im Einzelnen abläuft; das zivilrechtliche Vorgehen ausserhalb des Opferhilfeverfahrens; Schutzmassnahmen bei häuslicher Gewalt wie Kontakt- oder Rayonverbot sowie das Verhalten bei einer polizeilichen Einvernahme – dazu gibt es eigene Leitfäden. Kantonale Einzelheiten der Beratungsstellen werden nicht aufgeführt.",
+      "fr": "Comment déposer une plainte pénale ou comment se déroule en détail une procédure pénale ; la voie civile en dehors de la procédure d’aide aux victimes ; les mesures de protection en cas de violence domestique, comme l’interdiction de contact ou de périmètre, ainsi que le comportement à adopter lors d’une audition policière – ces sujets font l’objet de guides distincts. Les détails cantonaux propres à chaque centre de consultation ne sont pas indiqués.",
+      "it": "Non sono trattati come si presenta una denuncia penale o come si svolge nel dettaglio un procedimento penale; il modo di procedere civile al di fuori della procedura di aiuto alle vittime; le misure di protezione in caso di violenza domestica, come il divieto di contatto o di accesso a una zona determinata, né il comportamento durante un interrogatorio di polizia – per questo esistono guide separate. Non vengono indicate le particolarità cantonali dei consultori.",
+      "en": "How to file a criminal complaint or how criminal proceedings work in detail; civil-law steps outside the victim support procedure; protective measures for domestic violence such as a no-contact or exclusion order, and how to conduct yourself at a police examination hearing – separate guides cover these. Cantonal details of the individual advice centres are not listed.",
+      "rm": "Co ch'Vus inoltrais in'annunzia penala u co ch'ina procedura penala sa deda en detagl; il proceder da dretg civil ordaifer la procedura da l'agid a victimas; mesiras da protecziun tar violenza domestica sco scumond da contact u da territori sco er il cumportament tar in'audiziun policiala – per quai datti agens manuals. Details chantunals dals posts da cussegliaziun na vegnan betg indicads."
     }
   },
   "facts": [
     {
       "key": "role",
       "question": {
-        "de": "Sind Sie selbst durch die Straftat verletzt worden, oder sind Sie Angehörige bzw. Angehöriger einer betroffenen Person?"
+        "de": "Sind Sie selbst durch die Straftat verletzt worden, oder sind Sie Angehörige bzw. Angehöriger einer betroffenen Person?",
+        "fr": "Avez-vous vous-même été blessé par l’infraction, ou êtes-vous le proche d’une personne concernée ?",
+        "it": "È stato leso lei stesso dal reato, oppure è congiunto di una persona colpita?",
+        "en": "Were you yourself harmed by the offence, or are you a close relation of an affected person?",
+        "rm": "Essas Vus sez vegnids blessads tras il delict, u essas Vus confamigliar d'ina persuna tangada?"
       },
       "options": [
         {
           "value": "victim",
           "label": {
-            "de": "Ich selbst bin betroffen"
+            "de": "Ich selbst bin betroffen",
+            "fr": "Je suis moi-même concerné",
+            "it": "Sono io stesso la persona colpita",
+            "en": "I was myself affected",
+            "rm": "Jau sez sun tangà"
           }
         },
         {
           "value": "relative",
           "label": {
-            "de": "Ich bin Angehörige/Angehöriger einer betroffenen Person"
+            "de": "Ich bin Angehörige/Angehöriger einer betroffenen Person",
+            "fr": "Je suis le proche d’une personne concernée",
+            "it": "Sono congiunto di una persona colpita",
+            "en": "I am a close relation of an affected person",
+            "rm": "Jau sun confamigliar d'ina persuna tangada"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -58,25 +118,41 @@
     {
       "key": "sexual_offence",
       "question": {
-        "de": "Geht es um eine Straftat gegen die sexuelle Integrität (z. B. sexuelle Nötigung, Vergewaltigung, sexuelle Belästigung)?"
+        "de": "Geht es um eine Straftat gegen die sexuelle Integrität (z. B. sexuelle Nötigung, Vergewaltigung, sexuelle Belästigung)?",
+        "fr": "S’agit-il d’une infraction contre l’intégrité sexuelle (p. ex. contrainte sexuelle, viol, harcèlement sexuel) ?",
+        "it": "Si tratta di un reato contro l'integrità sessuale (per esempio coazione sessuale, violenza carnale, molestia sessuale)?",
+        "en": "Does this concern an offence against sexual integrity (for example sexual coercion, rape, sexual harassment)?",
+        "rm": "Sa tracta i d'in delict cunter l'integritad sexuala (p.ex. constrenschiment sexual, violaziun, molestaziun sexuala)?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -84,25 +160,41 @@
     {
       "key": "abroad",
       "question": {
-        "de": "Wurde die Straftat in der Schweiz oder im Ausland begangen?"
+        "de": "Wurde die Straftat in der Schweiz oder im Ausland begangen?",
+        "fr": "L’infraction a-t-elle été commise en Suisse ou à l’étranger ?",
+        "it": "Il reato è stato commesso in Svizzera o all'estero?",
+        "en": "Was the offence committed in Switzerland or abroad?",
+        "rm": "È il delict vegnì cumess en Svizra u a l'exteriur?"
       },
       "options": [
         {
           "value": "switzerland",
           "label": {
-            "de": "In der Schweiz"
+            "de": "In der Schweiz",
+            "fr": "En Suisse",
+            "it": "In Svizzera",
+            "en": "In Switzerland",
+            "rm": "En Svizra"
           }
         },
         {
           "value": "abroad",
           "label": {
-            "de": "Im Ausland"
+            "de": "Im Ausland",
+            "fr": "À l’étranger",
+            "it": "All'estero",
+            "en": "Abroad",
+            "rm": "A l'exteriur"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -110,25 +202,41 @@
     {
       "key": "proceedings",
       "question": {
-        "de": "Läuft bereits ein Strafverfahren, zum Beispiel weil Sie oder jemand anders Anzeige erstattet hat?"
+        "de": "Läuft bereits ein Strafverfahren, zum Beispiel weil Sie oder jemand anders Anzeige erstattet hat?",
+        "fr": "Une procédure pénale est-elle déjà en cours, par exemple parce que vous ou quelqu’un d’autre avez porté plainte ?",
+        "it": "È già in corso un procedimento penale, per esempio perché lei stesso o qualcun altro ha sporto denuncia?",
+        "en": "Are criminal proceedings already under way, for example because you or someone else has reported the offence?",
+        "rm": "Curra gia ina procedura penala, per exempel perquai ch'Vus u insatgi auter ha fatg annunzia penala?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, es läuft ein Verfahren"
+            "de": "Ja, es läuft ein Verfahren",
+            "fr": "Oui, une procédure est en cours",
+            "it": "Sì, è in corso un procedimento",
+            "en": "Yes, proceedings are under way",
+            "rm": "Gea, ina procedura curra"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es gibt noch kein Verfahren"
+            "de": "Nein, es gibt noch kein Verfahren",
+            "fr": "Non, il n’y a pas encore de procédure",
+            "it": "No, non esiste ancora un procedimento",
+            "en": "No, there are no proceedings yet",
+            "rm": "Na, i n'exista anc nagina procedura"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -139,7 +247,11 @@
       "id": "wer-gilt-als-opfer",
       "kind": "rule",
       "text": {
-        "de": "Als Opfer gilt, wer durch eine Straftat unmittelbar in der körperlichen, psychischen oder sexuellen Integrität beeinträchtigt worden ist – etwa durch eine Körperverletzung, eine ernsthafte Drohung, eine sexuelle Handlung gegen Ihren Willen oder einen Verkehrsunfall, den eine andere Person strafrechtlich zu verantworten hat. Reine Vermögensdelikte wie ein Diebstahl reichen dafür nicht aus. Angehörige des Opfers – Ehegattin oder Ehegatte, Kinder, Eltern und andere ihm ähnlich nahestehende Personen – haben ebenfalls Anspruch auf Opferhilfe, zum Beispiel wenn ein naher Angehöriger getötet wurde. Der Anspruch besteht unabhängig davon, ob die Täterschaft ermittelt oder verurteilt wurde, ob sie vorsätzlich oder fahrlässig gehandelt hat und ob überhaupt eine Strafanzeige erstattet worden ist."
+        "de": "Als Opfer gilt, wer durch eine Straftat unmittelbar in der körperlichen, psychischen oder sexuellen Integrität beeinträchtigt worden ist – etwa durch eine Körperverletzung, eine ernsthafte Drohung, eine sexuelle Handlung gegen Ihren Willen oder einen Verkehrsunfall, den eine andere Person strafrechtlich zu verantworten hat. Reine Vermögensdelikte wie ein Diebstahl reichen dafür nicht aus. Angehörige des Opfers – Ehegattin oder Ehegatte, Kinder, Eltern und andere ihm ähnlich nahestehende Personen – haben ebenfalls Anspruch auf Opferhilfe, zum Beispiel wenn ein naher Angehöriger getötet wurde. Der Anspruch besteht unabhängig davon, ob die Täterschaft ermittelt oder verurteilt wurde, ob sie vorsätzlich oder fahrlässig gehandelt hat und ob überhaupt eine Strafanzeige erstattet worden ist.",
+        "fr": "Est considérée comme victime toute personne qui a subi, du fait d’une infraction, une atteinte directe à son intégrité physique, psychique ou sexuelle – par exemple une lésion corporelle, une menace grave, un acte sexuel commis contre sa volonté, ou un accident de la route dont une autre personne doit répondre pénalement. De simples infractions contre le patrimoine, comme un vol, ne suffisent pas. Les proches de la victime – l’épouse ou l’époux, les enfants, les parents et d’autres personnes qui lui sont unies par des liens analogues – ont eux aussi droit à l’aide aux victimes, par exemple lorsqu’un proche a été tué. Le droit existe indépendamment du fait que l’auteure ou l’auteur ait été identifié ou condamné, qu’elle ou il ait agi intentionnellement ou par négligence, et qu’une plainte pénale ait été déposée ou non.",
+        "it": "È considerato vittima chi è stato leso direttamente, a seguito di un reato, nella sua integrità fisica, psichica o sessuale – per esempio a causa di una lesione personale, di una minaccia grave, di un atto sessuale contro la sua volontà o di un incidente della circolazione di cui un'altra persona deve rispondere penalmente. I semplici reati contro il patrimonio, come un furto, non bastano a tal fine. Anche i congiunti della vittima – coniuge, figli, genitori e altre persone a lei ugualmente vicine – hanno diritto all'aiuto alle vittime, per esempio quando un congiunto stretto è stato ucciso. Il diritto sussiste indipendentemente dal fatto che l'autore del reato sia stato individuato o condannato, che abbia agito intenzionalmente o per negligenza, e indipendentemente dal fatto che sia stata sporta una denuncia penale.",
+        "en": "You count as a victim if an offence has directly harmed your physical, psychological or sexual integrity – for example through an assault, a serious threat, a sexual act against your will, or a road accident for which another person is criminally responsible. A purely financial offence, such as theft, is not enough on its own. Close relations of the victim – a spouse, children, parents, and other people similarly close to them – are likewise entitled to victim support, for example if a close relation was killed. This right exists regardless of whether the perpetrator has been identified or convicted, whether they acted wilfully or negligently, and whether a criminal complaint has been filed at all.",
+        "rm": "Sco victima vala, tgi che è vegnì restrenschì directamain, tras in delict, en sia integritad corporala, psichica u sexuala – per exempel tras ina lesiun corporala, ina smanatscha seriusa, in'acziun sexuala cunter Voss consentiment u in accident da traffic, per il qual ina autra persuna è responsabla en il dretg penal. Purs delicts patrimonials, sco in furt, na bastan betg per quai. Confamigliars da la victima – consorta u consort, uffants, geniturs ed autras persunas datiers en moda sumeglianta – han medemamain dretg a l'agid a victimas, per exempel sche in confamigliar datiers è vegnì mazzà. Il dretg exista independentamain, sche l'autura u l'autur è stà identifitgà u condemnà, sch'ella ha agì intenziunadamain u per negligientscha, e sch'i è dal tut vegnida fatga in'annunzia penala."
       },
       "sources": [
         "ohg-1"
@@ -149,7 +261,11 @@
       "id": "beratungsstelle-kostenlos",
       "kind": "rule",
       "text": {
-        "de": "Die Kantone stellen Beratungsstellen für Opferhilfe zur Verfügung. Diese beraten Sie und Ihre Angehörigen und unterstützen Sie dabei, Ihre Rechte wahrzunehmen, etwa gegenüber Polizei, Staatsanwaltschaft oder Versicherung. Sie können sich an eine Beratungsstelle Ihrer Wahl wenden, unabhängig davon, in welchem Kanton die Straftat begangen wurde. Die Kantone sorgen dafür, dass Sie innert angemessener Frist Soforthilfe für die dringendsten Bedürfnisse erhalten; danach folgt bei Bedarf längerfristige Hilfe, bis sich Ihr Gesundheitszustand stabilisiert hat und die übrigen Folgen der Tat möglichst behoben sind. Diese Hilfe können Sie unabhängig davon beanspruchen, wann die Straftat begangen wurde. Beratung, Soforthilfe und längerfristige Hilfe der Beratungsstelle sind für Sie und Ihre Angehörigen kostenlos."
+        "de": "Die Kantone stellen Beratungsstellen für Opferhilfe zur Verfügung. Diese beraten Sie und Ihre Angehörigen und unterstützen Sie dabei, Ihre Rechte wahrzunehmen, etwa gegenüber Polizei, Staatsanwaltschaft oder Versicherung. Sie können sich an eine Beratungsstelle Ihrer Wahl wenden, unabhängig davon, in welchem Kanton die Straftat begangen wurde. Die Kantone sorgen dafür, dass Sie innert angemessener Frist Soforthilfe für die dringendsten Bedürfnisse erhalten; danach folgt bei Bedarf längerfristige Hilfe, bis sich Ihr Gesundheitszustand stabilisiert hat und die übrigen Folgen der Tat möglichst behoben sind. Diese Hilfe können Sie unabhängig davon beanspruchen, wann die Straftat begangen wurde. Beratung, Soforthilfe und längerfristige Hilfe der Beratungsstelle sind für Sie und Ihre Angehörigen kostenlos.",
+        "fr": "Les cantons mettent à disposition des centres de consultation pour l’aide aux victimes. Ceux-ci vous conseillent, vous et vos proches, et vous aident à faire valoir vos droits, par exemple face à la police, au ministère public ou à une assurance. Vous pouvez vous adresser au centre de consultation de votre choix, indépendamment du canton où l’infraction a été commise. Les cantons veillent à ce que vous receviez, dans un délai raisonnable, une aide immédiate pour les besoins les plus urgents ; si nécessaire, une aide à plus long terme suit ensuite, jusqu’à ce que votre état de santé se soit stabilisé et que les autres conséquences de l’infraction soient, dans la mesure du possible, réparées. Vous pouvez bénéficier de cette aide indépendamment du moment où l’infraction a été commise. Le conseil, l’aide immédiate et l’aide à plus long terme du centre de consultation sont gratuits pour vous et vos proches.",
+        "it": "I Cantoni mettono a disposizione consultori per l'aiuto alle vittime. Questi la consigliano, insieme ai suoi congiunti, e la sostengono nel far valere i suoi diritti, per esempio nei confronti della polizia, del pubblico ministero o di un'assicurazione. Può rivolgersi a un consultorio di sua scelta, indipendentemente dal Cantone in cui è stato commesso il reato. I Cantoni provvedono affinché riceva, entro un termine adeguato, un aiuto immediato per i bisogni più urgenti; in seguito, se necessario, segue un aiuto a più lungo termine, fino a quando il suo stato di salute si è stabilizzato e le altre conseguenze del reato sono per quanto possibile eliminate. Può avvalersi di questo aiuto indipendentemente dal momento in cui è stato commesso il reato. La consulenza, l'aiuto immediato e l'aiuto a più lungo termine del consultorio sono gratuiti per lei e per i suoi congiunti.",
+        "en": "The cantons provide advice centres for victim support. They advise you and your close relations and help you exercise your rights, for example towards the police, the public prosecutor or an insurer. You can approach an advice centre of your choice, regardless of which canton the offence was committed in. The cantons ensure that you receive emergency assistance for your most urgent needs within a reasonable time; longer-term assistance follows afterwards if needed, until your state of health has stabilised and the other consequences of the offence have as far as possible been dealt with. You can claim this help regardless of when the offence was committed. Advice, emergency assistance and longer-term assistance from the advice centre are free of charge for you and your close relations.",
+        "rm": "Ils chantuns metten a disposiziun posts da cussegliaziun per l'agid a victimas. Quels cusseglian Vus e Voss confamigliars e sustegnan Vus da far valair Vossas dretgs, per exempel vers la polizia, la procura publica u l'assicuranza. Vus pudais As drizzar ad in post da cussegliaziun da Vossa tscherna, independentamain, en tge chantun che il delict è vegnì cumess. Ils chantuns procuran ch'Vus survegnias, entaifer termin adequat, agid immediat per ils basegns ils pli urgents; suenter suonda, sche necessari, agid a lung termin, enfin ch'Voss stadi da sanadad è stabilisà e las ulteriuras consequenzas dal fatg èn, sch'i è pussaivel, sanadas. Quest agid pudais Vus pretender independentamain, cur che il delict è vegnì cumess. Consulaziun, agid immediat ed agid a lung termin dal post da cussegliaziun èn gratuits per Vus e Voss confamigliars."
       },
       "sources": [
         "ohg-12",
@@ -163,7 +279,11 @@
       "id": "beratung-vertraulich",
       "kind": "rule",
       "text": {
-        "de": "Die Mitarbeitenden der Beratungsstelle müssen über das, was Sie ihnen erzählen, gegenüber Behörden und Privaten schweigen; diese Pflicht gilt auch nach Beendigung ihrer Tätigkeit. Weitergeben dürfen sie Informationen nur, wenn Sie damit einverstanden sind. Eine Ausnahme gilt, wenn ein minderjähriges Kind oder ein Erwachsener unter umfassender Beistandschaft ernsthaft in seiner körperlichen, psychischen oder sexuellen Integrität gefährdet ist: Dann darf die Beratungsstelle die Kindes- und Erwachsenenschutzbehörde informieren oder selbst Strafanzeige erstatten."
+        "de": "Die Mitarbeitenden der Beratungsstelle müssen über das, was Sie ihnen erzählen, gegenüber Behörden und Privaten schweigen; diese Pflicht gilt auch nach Beendigung ihrer Tätigkeit. Weitergeben dürfen sie Informationen nur, wenn Sie damit einverstanden sind. Eine Ausnahme gilt, wenn ein minderjähriges Kind oder ein Erwachsener unter umfassender Beistandschaft ernsthaft in seiner körperlichen, psychischen oder sexuellen Integrität gefährdet ist: Dann darf die Beratungsstelle die Kindes- und Erwachsenenschutzbehörde informieren oder selbst Strafanzeige erstatten.",
+        "fr": "Les collaboratrices et collaborateurs du centre de consultation doivent garder le secret, envers les autorités et les particuliers, sur ce que vous leur confiez ; cette obligation subsiste après la fin de leur activité. Ils ne peuvent transmettre des informations que si vous y consentez. Une exception s’applique lorsqu’un enfant mineur ou une personne majeure sous curatelle de portée générale est sérieusement mis en danger dans son intégrité physique, psychique ou sexuelle : le centre de consultation peut alors informer l’autorité de protection de l’enfant et de l’adulte ou dénoncer lui-même l’infraction.",
+        "it": "Il personale del consultorio deve tacere, nei confronti delle autorità e dei privati, su quanto gli racconta; questo obbligo vale anche dopo la fine della sua attività. Può comunicare informazioni solo se lei è d'accordo. Un'eccezione vale quando un minorenne o un adulto sotto curatela generale è seriamente minacciato nella sua integrità fisica, psichica o sessuale: in tal caso il consultorio può informare l'autorità di protezione dei minori e degli adulti oppure sporgere esso stesso denuncia penale.",
+        "en": "Staff at the advice centre must keep confidential what you tell them, towards both authorities and private parties; this duty continues even after they stop working there. They may only pass on information with your consent. An exception applies if a minor child or an adult under a general deputyship is seriously endangered in their physical, psychological or sexual integrity: in that case, the advice centre may inform the child and adult protection authority or itself file a criminal complaint.",
+        "rm": "Ils collavuraturs e las collavuratras dal post da cussegliaziun ston tacair, vers autoritads e privats, davart quai ch'Vus als raquintais; questa obligaziun vala er suenter la fin da lur activitad. Ellas dastgan transmetter infurmaziuns mo, sch'Vus essas d'accord cun quai. Ina excepziun vala, sche in uffant minoren u in adult sut curatella cumplessiva è periclità seriusamain en sia integritad corporala, psichica u sexuala: lura dastga il post da cussegliaziun infurmar la KESB u far ella sezza annunzia penala."
       },
       "sources": [
         "ohg-11"
@@ -173,7 +293,11 @@
       "id": "finanzielle-hilfe-arten",
       "kind": "rule",
       "text": {
-        "de": "Neben der Beratung kennt das Opferhilferecht zwei Arten von Geldleistungen. Die Entschädigung ersetzt Ihnen einen Teil des finanziellen Schadens, der durch die Beeinträchtigung oder den Tod des Opfers entstanden ist, zum Beispiel Heilungskosten, Erwerbsausfall oder Bestattungskosten; reine Sachschäden sind nicht gedeckt. Die Genugtuung ist eine Geldsumme für das erlittene seelische Leid; sie steht Ihnen zu, wenn die Schwere der Beeinträchtigung dies rechtfertigt, und ist – anders als die Entschädigung – unabhängig von Ihrem Einkommen. Beide Ansprüche stehen sowohl dem Opfer als auch seinen Angehörigen zu."
+        "de": "Neben der Beratung kennt das Opferhilferecht zwei Arten von Geldleistungen. Die Entschädigung ersetzt Ihnen einen Teil des finanziellen Schadens, der durch die Beeinträchtigung oder den Tod des Opfers entstanden ist, zum Beispiel Heilungskosten, Erwerbsausfall oder Bestattungskosten; reine Sachschäden sind nicht gedeckt. Die Genugtuung ist eine Geldsumme für das erlittene seelische Leid; sie steht Ihnen zu, wenn die Schwere der Beeinträchtigung dies rechtfertigt, und ist – anders als die Entschädigung – unabhängig von Ihrem Einkommen. Beide Ansprüche stehen sowohl dem Opfer als auch seinen Angehörigen zu.",
+        "fr": "Outre la consultation, le droit de l’aide aux victimes connaît deux types de prestations en argent. L’indemnité vous rembourse une partie du dommage financier résultant de l’atteinte ou du décès de la victime, par exemple les frais de guérison, la perte de gain ou les frais funéraires ; les dommages purement matériels ne sont pas couverts. La réparation morale est une somme d’argent pour la souffrance morale subie ; elle vous revient lorsque la gravité de l’atteinte le justifie, et elle est, contrairement à l’indemnité, indépendante de votre revenu. Ces deux droits appartiennent tant à la victime qu’à ses proches.",
+        "it": "Oltre alla consulenza, il diritto dell'aiuto alle vittime conosce due tipi di prestazioni finanziarie. L'indennizzo le rimborsa una parte del danno finanziario risultante dalla lesione o dalla morte della vittima, per esempio le spese di cura, la perdita di guadagno o le spese funerarie; i semplici danni materiali non sono coperti. La riparazione morale è una somma di denaro per la sofferenza psichica subita; le spetta se la gravità della lesione lo giustifica, ed è, a differenza dell'indennizzo, indipendente dal suo reddito. Entrambe le pretese spettano sia alla vittima sia ai suoi congiunti.",
+        "en": "Besides advice, victim support law provides for two kinds of financial benefit. Damages replace part of the financial loss caused by the harm to, or death of, the victim, for example medical costs, loss of earnings or funeral costs; purely material damage to property is not covered. Satisfaction is a sum of money for the psychological suffering you have endured; you are entitled to it if the severity of the harm justifies it, and, unlike damages, it does not depend on your income. Both claims are available to the victim and to their close relations.",
+        "rm": "Ultra da la consulaziun enconuscha il dretg da l'agid a victimas duas sorts da prestaziuns finanzialas. L'indemnisaziun remplazza a Vus ina part dal donn finanzial, che è resultà tras la restricziun u la mort da la victima, per exempel custs da guarigiun, perdita da gudogn u custs da sepultura; purs donns materials na sun betg cuvrids. La satisfacziun è ina summa da daners per la suffrienza psichica suffrida; ella As tutga, sche la gravitad da la restricziun giustifitgescha quai, ed è – auter che l'indemnisaziun – independenta da Voss reditg. Ils dus dretgs tutgan tant a la victima sco er a ses confamigliars."
       },
       "sources": [
         "ohg-19",
@@ -184,7 +308,11 @@
       "id": "finanzielle-hilfe-subsidiaer",
       "kind": "rule",
       "text": {
-        "de": "Entschädigung und Genugtuung sind subsidiär: Der Kanton zahlt nur endgültig, wenn die Täterschaft oder eine andere verpflichtete Person oder Versicherung keine oder keine ausreichende Leistung erbringt. Wenn Sie eine dieser Leistungen beantragen, müssen Sie in der Regel glaubhaft machen, dass diese Voraussetzung erfüllt ist – ausser es wäre Ihnen angesichts der besonderen Umstände nicht zumutbar, sich um Leistungen Dritter zu bemühen. Die Beratungsstelle kann Sie dabei unterstützen, Ansprüche gegenüber Versicherungen oder der Täterschaft abzuklären."
+        "de": "Entschädigung und Genugtuung sind subsidiär: Der Kanton zahlt nur endgültig, wenn die Täterschaft oder eine andere verpflichtete Person oder Versicherung keine oder keine ausreichende Leistung erbringt. Wenn Sie eine dieser Leistungen beantragen, müssen Sie in der Regel glaubhaft machen, dass diese Voraussetzung erfüllt ist – ausser es wäre Ihnen angesichts der besonderen Umstände nicht zumutbar, sich um Leistungen Dritter zu bemühen. Die Beratungsstelle kann Sie dabei unterstützen, Ansprüche gegenüber Versicherungen oder der Täterschaft abzuklären.",
+        "fr": "L’indemnité et la réparation morale sont subsidiaires : le canton ne paie définitivement que si l’auteure ou l’auteur, ou une autre personne ou assurance tenue de le faire, ne fournit aucune prestation ou une prestation insuffisante. Lorsque vous demandez l’une de ces prestations, vous devez en règle générale rendre vraisemblable que cette condition est remplie – sauf s’il ne serait pas raisonnable d’exiger de vous, compte tenu des circonstances particulières, que vous cherchiez à obtenir des prestations de tiers. Le centre de consultation peut vous aider à clarifier vos prétentions envers des assurances ou l’auteure ou l’auteur.",
+        "it": "L'indennizzo e la riparazione morale sono sussidiari: il Cantone paga in via definitiva solo se l'autore del reato o un'altra persona o assicurazione tenuta a farlo non fornisce alcuna prestazione, o una prestazione insufficiente. Quando chiede una di queste prestazioni, deve di regola rendere verosimile che questo presupposto è soddisfatto – a meno che, date le circostanze particolari, non le si possa ragionevolmente pretendere di adoperarsi per ottenere prestazioni di terzi. Il consultorio può aiutarla a chiarire le pretese nei confronti di assicurazioni o dell'autore del reato.",
+        "en": "Damages and satisfaction are subsidiary: the canton only pays definitively if the perpetrator or another liable person or insurer makes no payment, or an insufficient one. If you apply for one of these benefits, you must generally show it credible that this requirement is met, unless, given the particular circumstances, it would not be reasonable to expect you to pursue payment from third parties. The advice centre can help you clarify claims against insurers or the perpetrator.",
+        "rm": "Indemnisaziun e satisfacziun èn subsidiaras: il chantun paja definitivamain mo, sche l'autura u l'autur u in'autra persuna obligada u assicuranza na fa nagina u nagina prestaziun suffizienta. Sche Vus pretendais ina da questas prestaziuns, stuais Vus per regla far probabel ch'questa cundiziun è ademplida – exceptà sch'i na fiss betg raschunaivel per Vus, resguardond las circumstanzas spezialas, da As stentar per prestaziuns da terzas persunas. Il post da cussegliaziun po As sustegnair, da clarifitgar pretensiuns vers assicuranzas u vers l'autura u l'autur."
       },
       "sources": [
         "ohg-4"
@@ -194,7 +322,11 @@
       "id": "finanzielle-hilfe-betraege",
       "kind": "cost",
       "text": {
-        "de": "Die Entschädigung deckt Ihren Schaden ganz, wenn Ihr anrechenbares Einkommen eine bestimmte Grenze nicht übersteigt, und anteilsmässig, wenn es bis zum Vierfachen dieser Grenze liegt; darüber hinaus gibt es keine Entschädigung. Sie beträgt höchstens 130 000 Franken; liegt der errechnete Betrag unter 500 Franken, wird nichts ausbezahlt. Die Genugtuung beträgt höchstens 76 000 Franken für das Opfer und höchstens 38 000 Franken für Angehörige; Genugtuungsleistungen, die Sie bereits von Dritten erhalten haben, werden abgezogen. Die genaue Höhe berechnet die zuständige kantonale Stelle für Ihren Fall."
+        "de": "Die Entschädigung deckt Ihren Schaden ganz, wenn Ihr anrechenbares Einkommen eine bestimmte Grenze nicht übersteigt, und anteilsmässig, wenn es bis zum Vierfachen dieser Grenze liegt; darüber hinaus gibt es keine Entschädigung. Sie beträgt höchstens 130 000 Franken; liegt der errechnete Betrag unter 500 Franken, wird nichts ausbezahlt. Die Genugtuung beträgt höchstens 76 000 Franken für das Opfer und höchstens 38 000 Franken für Angehörige; Genugtuungsleistungen, die Sie bereits von Dritten erhalten haben, werden abgezogen. Die genaue Höhe berechnet die zuständige kantonale Stelle für Ihren Fall.",
+        "fr": "L’indemnité couvre entièrement votre dommage si votre revenu déterminant ne dépasse pas une certaine limite, et proportionnellement s’il atteint jusqu’au quadruple de cette limite ; au-delà, il n’y a pas d’indemnité. Elle s’élève à 130 000 francs au maximum ; si le montant calculé est inférieur à 500 francs, rien n’est versé. La réparation morale s’élève à 76 000 francs au maximum pour la victime et à 38 000 francs au maximum pour les proches ; les prestations de réparation morale que vous avez déjà reçues de tiers sont déduites. Le montant exact est calculé pour votre cas par le service cantonal compétent.",
+        "it": "L'indennizzo copre interamente il suo danno se il suo reddito determinante non supera un certo limite, e in proporzione se è compreso fino al quadruplo di questo limite; oltre tale soglia non viene versato alcun indennizzo. Ammonta al massimo a 130 000 franchi; se l'importo calcolato è inferiore a 500 franchi, non viene versato nulla. La riparazione morale ammonta al massimo a 76 000 franchi per la vittima e al massimo a 38 000 franchi per i congiunti; le prestazioni di riparazione morale già ricevute da terzi vengono dedotte. L'importo esatto è stabilito dall'autorità cantonale competente per il suo caso.",
+        "en": "Damages cover your loss in full if your assessable income does not exceed a certain threshold, and proportionately if it is up to four times that threshold; above that, no damages are paid. They amount to at most CHF 130,000; if the calculated amount would be less than CHF 500, nothing is paid out. Satisfaction amounts to at most CHF 76,000 for the victim and at most CHF 38,000 for close relations; any satisfaction you have already received from third parties is deducted. The competent cantonal authority calculates the exact amount for your case.",
+        "rm": "L'indemnisaziun cuvra Voss donn dal tut, sche Voss reditg quintabel na surpassa betg in tschert limit, e proporziunalmain, sch'el sa chatta fin al quadrupel da quest limit; ultra da quai n'exista nagina indemnisaziun. Ella importa maximalmain 130 000 francs; sa chatta l'import quintà sut 500 francs, na vegn nagut pajà ora. La satisfacziun importa maximalmain 76 000 francs per la victima e maximalmain 38 000 francs per confamigliars; prestaziuns da satisfacziun, ch'Vus avais gia retschet da terzas persunas, vegnan deducidas. L'autezza exacta calcula la posta chantunala cumpetenta per Voss cas."
       },
       "sources": [
         "ohg-20",
@@ -205,7 +337,11 @@
       "id": "mitverschulden",
       "kind": "warning",
       "text": {
-        "de": "Haben Sie selbst – oder als Angehörige bzw. Angehöriger das Opfer – zur Entstehung oder Verschlimmerung der Beeinträchtigung beigetragen, kann die kantonale Behörde die Entschädigung oder Genugtuung kürzen oder ganz verweigern. Wohnen Sie im Ausland, kann die Genugtuung zudem an die dortigen Lebenshaltungskosten angepasst, also gekürzt werden."
+        "de": "Haben Sie selbst – oder als Angehörige bzw. Angehöriger das Opfer – zur Entstehung oder Verschlimmerung der Beeinträchtigung beigetragen, kann die kantonale Behörde die Entschädigung oder Genugtuung kürzen oder ganz verweigern. Wohnen Sie im Ausland, kann die Genugtuung zudem an die dortigen Lebenshaltungskosten angepasst, also gekürzt werden.",
+        "fr": "Si vous-même – ou, en tant que proche, la victime – avez contribué à la survenance ou à l’aggravation de l’atteinte, l’autorité cantonale peut réduire ou refuser entièrement l’indemnité ou la réparation morale. Si vous êtes domicilié à l’étranger, la réparation morale peut en outre être adaptée, donc réduite, au coût de la vie de ce pays.",
+        "it": "Se lei stesso – oppure, come congiunto, la vittima – ha contribuito al verificarsi o all'aggravarsi della lesione, l'autorità cantonale può ridurre o rifiutare del tutto l'indennizzo o la riparazione morale. Se risiede all'estero, la riparazione morale può inoltre essere adeguata, cioè ridotta, al costo della vita di quel luogo.",
+        "en": "If you – or, as a close relation, the victim – contributed to causing or worsening the harm, the cantonal authority can reduce or entirely refuse the damages or satisfaction. If you live abroad, satisfaction can also be adjusted, that is, reduced, to reflect the cost of living there.",
+        "rm": "Avais Vus sez – u, sco confamigliar, la victima – contribuì a l'origin u a l'aggravaziun da la restricziun, po l'autoritad chantunala reducir u refusar dal tut l'indemnisaziun u la satisfacziun. Habitais Vus a l'exteriur, po la satisfacziun supplementarmain vegnir adattada, dunca reducida, als custs da viver dal lieu."
       },
       "sources": [
         "ohg-27"
@@ -215,7 +351,11 @@
       "id": "frist-entschaedigung",
       "kind": "warning",
       "text": {
-        "de": "Für Entschädigung und Genugtuung gilt eine Frist: Sie haben ab der Tat – oder, falls Sie erst später davon erfahren haben, ab diesem späteren Zeitpunkt – fünf Jahre Zeit, um bei der zuständigen kantonalen Stelle ein Gesuch zu stellen; reichen Sie es später ein, geht Ihr Anspruch unter. Haben Sie oder Ihre Angehörigen im Strafverfahren rechtzeitig Zivilansprüche geltend gemacht, läuft zusätzlich eine Frist von einem Jahr ab dem endgültigen Entscheid über diese Ansprüche oder ab der Einstellung des Strafverfahrens. Bei bestimmten schweren Straftaten gegen ein Kind unter 16 Jahren – etwa sexuellen Handlungen mit Kindern, Tötung, schwerer Körperverletzung oder Menschenhandel – sowie bei versuchtem Mord an einem Kind unter 16 Jahren kann das Opfer das Gesuch bis zum vollendeten 25. Lebensjahr stellen. Warten Sie im Zweifel nicht: Fragen Sie frühzeitig bei einer Beratungsstelle nach, welche Frist für Sie gilt."
+        "de": "Für Entschädigung und Genugtuung gilt eine Frist: Sie haben ab der Tat – oder, falls Sie erst später davon erfahren haben, ab diesem späteren Zeitpunkt – fünf Jahre Zeit, um bei der zuständigen kantonalen Stelle ein Gesuch zu stellen; reichen Sie es später ein, geht Ihr Anspruch unter. Haben Sie oder Ihre Angehörigen im Strafverfahren rechtzeitig Zivilansprüche geltend gemacht, läuft zusätzlich eine Frist von einem Jahr ab dem endgültigen Entscheid über diese Ansprüche oder ab der Einstellung des Strafverfahrens. Bei bestimmten schweren Straftaten gegen ein Kind unter 16 Jahren – etwa sexuellen Handlungen mit Kindern, Tötung, schwerer Körperverletzung oder Menschenhandel – sowie bei versuchtem Mord an einem Kind unter 16 Jahren kann das Opfer das Gesuch bis zum vollendeten 25. Lebensjahr stellen. Warten Sie im Zweifel nicht: Fragen Sie frühzeitig bei einer Beratungsstelle nach, welche Frist für Sie gilt.",
+        "fr": "Un délai s’applique à l’indemnité et à la réparation morale : vous avez, à compter de l’infraction – ou, si vous n’en avez eu connaissance que plus tard, à compter de ce moment ultérieur – cinq ans pour déposer une demande auprès du service cantonal compétent ; si vous la déposez plus tard, votre droit est périmé. Si vous ou vos proches avez fait valoir en temps utile des prétentions civiles dans la procédure pénale, un délai supplémentaire d’un an court à compter de la décision définitive sur ces prétentions ou du classement de la procédure pénale. Pour certaines infractions graves commises contre un enfant de moins de 16 ans – par exemple des actes d’ordre sexuel avec des enfants, un homicide, des lésions corporelles graves ou la traite d’êtres humains – ainsi qu’en cas de tentative de meurtre sur un enfant de moins de 16 ans, la victime peut déposer sa demande jusqu’à l’âge de 25 ans révolus. En cas de doute, n’attendez pas : renseignez-vous tôt auprès d’un centre de consultation sur le délai qui s’applique à vous.",
+        "it": "Per l'indennizzo e la riparazione morale vale un termine: dalla data del reato – oppure, se ne è venuto a conoscenza solo più tardi, da questo momento successivo – ha cinque anni di tempo per presentare una domanda all'autorità cantonale competente; se la presenta più tardi, la sua pretesa si estingue. Se lei o i suoi congiunti avete fatto valere tempestivamente pretese civili nel procedimento penale, decorre inoltre un termine supplementare di un anno dalla decisione definitiva su queste pretese o dall'abbandono del procedimento penale. Per determinati reati gravi commessi contro un bambino sotto i 16 anni – per esempio atti sessuali con fanciulli, omicidio, lesione personale grave o tratta di esseri umani – nonché per il tentato omicidio di un bambino sotto i 16 anni, la vittima può presentare la domanda fino al compimento dei 25 anni. In caso di dubbio non aspetti: si informi per tempo presso un consultorio su quale termine si applichi nel suo caso.",
+        "en": "A time limit applies to damages and satisfaction: you have five years from the offence – or, if you only learned of it later, from that later point – to submit an application to the competent cantonal authority; if you submit it later, your claim lapses. If you or your close relations asserted civil claims in time in the criminal proceedings, an additional one-year time limit runs from the final decision on those claims or from the discontinuation of the criminal proceedings. For certain serious offences against a child under 16 – such as sexual acts with children, homicide, serious assault or human trafficking – and for attempted murder of a child under 16, the victim can submit the application up to the completed age of 25. If in doubt, do not wait: ask an advice centre early which time limit applies to you.",
+        "rm": "Per indemnisaziun e satisfacziun vala in termin: Vus avais, dapi il fatg – u, sche Vus avais savì quai mo pli tard, dapi quest mument pli tardiv – tschintg onns temp per inoltrar ina dumonda tar la posta chantunala cumpetenta; inoltrais Vus la pli tard, va Voss dretg a perder. Avais Vus u Voss confamigliars fatg valair a temp pretensiuns civilas en la procedura penala, curra supplementarmain in termin d'in onn dapi la decisiun definitiva davart questas pretensiuns u dapi la sospensiun da la procedura penala. Tar tschertas grevas delicts cunter in uffant sut 16 onns – per exempel acziuns sexualas cun uffants, mazzament, lesiun corporala grava u traffic d'umans – sco er tar tentativa da mazzament d'in uffant sut 16 onns, po la victima inoltrar la dumonda fin al 25avel anniversari cumplenì. Spetgai betg en cas da dubi: dumandai baud tar in post da cussegliaziun, tge termin che vala per Vus."
       },
       "sources": [
         "ohg-25",
@@ -226,7 +366,11 @@
       "id": "gesuch-einreichen",
       "kind": "step",
       "text": {
-        "de": "Das Gesuch um Entschädigung oder Genugtuung reichen Sie bei der Behörde des Kantons ein, in dem die Straftat begangen wurde; wurde sie an mehreren Orten begangen, ist der Kanton zuständig, in dem die Strafuntersuchung zuerst eröffnet wurde, und ohne Strafuntersuchung Ihr Wohnsitzkanton. Die Kantone müssen ein einfaches und rasches Verfahren anbieten und klären den Sachverhalt von sich aus ab. Brauchen Sie sofort Geld und lassen sich die Folgen der Tat kurzfristig noch nicht sicher abschätzen, können Sie einen Vorschuss auf die Entschädigung beantragen. Die Beratungsstelle hilft Ihnen beim Ausfüllen des Gesuchs."
+        "de": "Das Gesuch um Entschädigung oder Genugtuung reichen Sie bei der Behörde des Kantons ein, in dem die Straftat begangen wurde; wurde sie an mehreren Orten begangen, ist der Kanton zuständig, in dem die Strafuntersuchung zuerst eröffnet wurde, und ohne Strafuntersuchung Ihr Wohnsitzkanton. Die Kantone müssen ein einfaches und rasches Verfahren anbieten und klären den Sachverhalt von sich aus ab. Brauchen Sie sofort Geld und lassen sich die Folgen der Tat kurzfristig noch nicht sicher abschätzen, können Sie einen Vorschuss auf die Entschädigung beantragen. Die Beratungsstelle hilft Ihnen beim Ausfüllen des Gesuchs.",
+        "fr": "Vous déposez la demande d’indemnité ou de réparation morale auprès de l’autorité du canton où l’infraction a été commise ; si elle a été commise en plusieurs lieux, le canton compétent est celui où l’instruction pénale a été ouverte en premier, et, à défaut d’instruction pénale, votre canton de domicile. Les cantons doivent offrir une procédure simple et rapide et élucident les faits d’office. Si vous avez besoin d’argent immédiatement et que les conséquences de l’infraction ne peuvent pas encore être évaluées de manière sûre à court terme, vous pouvez demander une avance sur l’indemnité. Le centre de consultation vous aide à remplir la demande.",
+        "it": "La domanda di indennizzo o di riparazione morale la presenta all'autorità del Cantone in cui è stato commesso il reato; se è stato commesso in più luoghi, è competente il Cantone in cui è stata aperta per prima l'istruzione penale, e, in mancanza di un'istruzione penale, il suo Cantone di domicilio. I Cantoni devono offrire una procedura semplice e rapida e accertano d'ufficio i fatti. Se ha bisogno di denaro immediatamente e le conseguenze del fatto non possono ancora essere valutate con certezza a breve termine, può chiedere un anticipo sull'indennizzo. Il consultorio l'aiuta a compilare la domanda.",
+        "en": "You submit the application for damages or satisfaction to the authority of the canton in which the offence was committed; if it was committed in several places, the canton in which the criminal investigation was first opened has jurisdiction, and, if there is no criminal investigation, your canton of residence. The cantons must offer a simple and swift procedure and establish the facts on their own initiative. If you need money immediately and the consequences of the offence cannot yet be reliably assessed in the short term, you can apply for an advance on the damages. The advice centre helps you fill in the application.",
+        "rm": "La dumonda per indemnisaziun u satisfacziun inoltrais Vus tar l'autoritad dal chantun, en il qual il delict è vegnì cumess; è el vegnì cumess a plirs lieus, è cumpetent il chantun, en il qual l'examinaziun penala è vegnida averta empruma, e senza examinaziun penala Voss chantun da domicil. Ils chantuns ston purscher ina procedura simpla e svelta e clarifitgar il fatg d'atgna iniziativa. Basegnais Vus immediat daners e na sa laschan las consequenzas dal fatg betg anc pronosticar cun segirezza a curt termin, pudais Vus pretender in avanzament sin l'indemnisaziun. Il post da cussegliaziun gida a Vus da cumplenir la dumonda."
       },
       "sources": [
         "ohg-26",
@@ -238,7 +382,11 @@
       "id": "verfahren-kostenlos",
       "kind": "cost",
       "text": {
-        "de": "Das Verfahren bei den Verwaltungs- und Gerichtsbehörden für Beratung, Soforthilfe, längerfristige Hilfe, Entschädigung und Genugtuung ist für Sie und Ihre Angehörigen kostenlos. Eine Ausnahme gilt nur, wenn Sie mutwillig prozessieren, also offensichtlich aussichtslose oder querulatorische Anträge stellen. Kosten für einen unentgeltlichen Rechtsbeistand müssen Sie nicht zurückzahlen."
+        "de": "Das Verfahren bei den Verwaltungs- und Gerichtsbehörden für Beratung, Soforthilfe, längerfristige Hilfe, Entschädigung und Genugtuung ist für Sie und Ihre Angehörigen kostenlos. Eine Ausnahme gilt nur, wenn Sie mutwillig prozessieren, also offensichtlich aussichtslose oder querulatorische Anträge stellen. Kosten für einen unentgeltlichen Rechtsbeistand müssen Sie nicht zurückzahlen.",
+        "fr": "La procédure devant les autorités administratives et judiciaires pour le conseil, l’aide immédiate, l’aide à plus long terme, l’indemnité et la réparation morale est gratuite pour vous et vos proches. Une exception s’applique uniquement si vous procédez de manière téméraire, c’est-à-dire en déposant des requêtes manifestement vouées à l’échec ou de nature procédurière. Vous n’avez pas à rembourser les frais d’une assistance judiciaire gratuite.",
+        "it": "La procedura dinanzi alle autorità amministrative e giudiziarie per la consulenza, l'aiuto immediato, l'aiuto a più lungo termine, l'indennizzo e la riparazione morale è gratuita per lei e per i suoi congiunti. Un'eccezione vale solo se agisce in modo temerario, cioè presenta richieste manifestamente prive di probabilità di successo o querulomani. Non deve restituire le spese per un patrocinio gratuito.",
+        "en": "Proceedings before the administrative and judicial authorities for advice, emergency assistance, longer-term assistance, damages and satisfaction are free of charge for you and your close relations. An exception applies only if you litigate wantonly, that is, make applications that are obviously hopeless or querulous. You do not have to repay the costs of a court-appointed lawyer.",
+        "rm": "La procedura tar las autoritads administrativas e giudizialas per consulaziun, agid immediat, agid a lung termin, indemnisaziun e satisfacziun è gratuita per Vus e Voss confamigliars. In'excepziun vala mo, sche Vus plidegiais temerariamain, dunca stellais dumondas evidentamain senza schanza u querulatoricas. Custs per ina represchentanza giuridica gratuita na stuais Vus betg restituir."
       },
       "sources": [
         "ohg-30"
@@ -254,7 +402,11 @@
         ]
       },
       "text": {
-        "de": "Wurde die Straftat im Ausland begangen, erhalten Sie Hilfe der Beratungsstellen nur, wenn Sie – und bei Angehörigen auch das Opfer – sowohl im Zeitpunkt der Tat als auch bei der Gesuchstellung Wohnsitz in der Schweiz hatten, und nur, wenn der Staat, in dem die Tat begangen wurde, keine oder keine ausreichende Hilfe leistet. Eine Entschädigung oder Genugtuung nach Schweizer Opferhilferecht gibt es für im Ausland begangene Straftaten dagegen nicht. Klären Sie mit der Beratungsstelle ab, welche Hilfe im Tatortstaat oder über Ihre Versicherung möglich ist."
+        "de": "Wurde die Straftat im Ausland begangen, erhalten Sie Hilfe der Beratungsstellen nur, wenn Sie – und bei Angehörigen auch das Opfer – sowohl im Zeitpunkt der Tat als auch bei der Gesuchstellung Wohnsitz in der Schweiz hatten, und nur, wenn der Staat, in dem die Tat begangen wurde, keine oder keine ausreichende Hilfe leistet. Eine Entschädigung oder Genugtuung nach Schweizer Opferhilferecht gibt es für im Ausland begangene Straftaten dagegen nicht. Klären Sie mit der Beratungsstelle ab, welche Hilfe im Tatortstaat oder über Ihre Versicherung möglich ist.",
+        "fr": "Si l’infraction a été commise à l’étranger, vous ne recevez l’aide des centres de consultation que si vous – et, pour les proches, également la victime – étiez domicilié en Suisse aussi bien au moment de l’infraction qu’au moment de la demande, et uniquement si l’État où l’infraction a été commise ne fournit aucune aide ou une aide insuffisante. En revanche, il n’existe pas d’indemnité ni de réparation morale selon le droit suisse de l’aide aux victimes pour des infractions commises à l’étranger. Clarifiez avec le centre de consultation quelle aide est possible dans l’État où l’infraction a été commise ou par l’intermédiaire de votre assurance.",
+        "it": "Se il reato è stato commesso all'estero, riceve l'aiuto dei consultori solo se lei – e, per i congiunti, anche la vittima – era domiciliato in Svizzera sia al momento del reato sia al momento della domanda, e solo se lo Stato in cui il reato è stato commesso non fornisce alcun aiuto o un aiuto insufficiente. Un indennizzo o una riparazione morale secondo il diritto svizzero dell'aiuto alle vittime non esiste invece per i reati commessi all'estero. Chiarisca con il consultorio quale aiuto sia possibile nello Stato in cui è stato commesso il reato o tramite la sua assicurazione.",
+        "en": "If the offence was committed abroad, you receive help from the advice centres only if you – and, for close relations, also the victim – were resident in Switzerland both at the time of the offence and when applying, and only if the state where the offence was committed provides no help, or insufficient help. Damages or satisfaction under Swiss victim support law are, however, not available for offences committed abroad. Clarify with the advice centre what help is possible in the state where the offence occurred, or through your insurance.",
+        "rm": "È il delict vegnì cumess a l'exteriur, survegnis Vus agid dals posts da cussegliaziun mo, sche Vus – e tar confamigliars era la victima – avevas domicil en Svizra tant al mument dal fatg sco er tar l'inoltraziun da la dumonda, e mo, sche il stadi, en il qual il fatg è vegnì cumess, na fa nagin u nagin agid suffizient. In'indemnisaziun u satisfacziun tenor il dretg svizzer da l'agid a victimas n'exista percunter betg per delicts cumess a l'exteriur. Clarifitgai cun il post da cussegliaziun, tge agid che è pussaivel en il stadi dal lieu dal fatg u tras Vossa assicuranza."
       },
       "sources": [
         "ohg-3",
@@ -265,7 +417,11 @@
       "id": "information-durch-behoerden",
       "kind": "rule",
       "text": {
-        "de": "Polizei und Staatsanwaltschaft müssen Sie bei der ersten Einvernahme umfassend über Ihre Rechte und Pflichten im Strafverfahren informieren – insbesondere über die Adressen und Aufgaben der Beratungsstellen, die möglichen Opferhilfeleistungen und die Frist für Entschädigungs- und Genugtuungsgesuche. Mit Ihrem Einverständnis melden sie Ihren Namen und Ihre Adresse einer Beratungsstelle. Diese Informationspflicht gilt sinngemäss auch gegenüber Ihren Angehörigen."
+        "de": "Polizei und Staatsanwaltschaft müssen Sie bei der ersten Einvernahme umfassend über Ihre Rechte und Pflichten im Strafverfahren informieren – insbesondere über die Adressen und Aufgaben der Beratungsstellen, die möglichen Opferhilfeleistungen und die Frist für Entschädigungs- und Genugtuungsgesuche. Mit Ihrem Einverständnis melden sie Ihren Namen und Ihre Adresse einer Beratungsstelle. Diese Informationspflicht gilt sinngemäss auch gegenüber Ihren Angehörigen.",
+        "fr": "La police et le ministère public doivent vous informer de manière complète, lors de la première audition, de vos droits et obligations dans la procédure pénale – notamment des adresses et des tâches des centres de consultation, des prestations possibles de l’aide aux victimes et du délai pour les demandes d’indemnité et de réparation morale. Avec votre accord, ils communiquent votre nom et votre adresse à un centre de consultation. Cette obligation d’information s’applique par analogie à vos proches.",
+        "it": "La polizia e il pubblico ministero devono informarla in modo completo, al primo interrogatorio, sui suoi diritti e obblighi nel procedimento penale – in particolare sugli indirizzi e sui compiti dei consultori, sulle possibili prestazioni dell'aiuto alle vittime e sul termine per le domande di indennizzo e di riparazione morale. Con il suo consenso, comunicano il suo nome e il suo indirizzo a un consultorio. Questo obbligo di informazione vale per analogia anche nei confronti dei suoi congiunti.",
+        "en": "The police and the public prosecutor must inform you comprehensively of your rights and duties in the criminal proceedings at the first examination hearing – in particular about the addresses and tasks of the advice centres, the possible victim support benefits, and the time limit for applications for damages and satisfaction. With your consent, they pass on your name and address to an advice centre. This duty to inform applies correspondingly to your close relations.",
+        "rm": "La polizia e la procura publica ston Vus infurmar cumplessivamain, tar la emprima audiziun, davart Voss dretgs ed obligaziuns en la procedura penala – en spezial davart las adressas e las incumbensas dals posts da cussegliaziun, las pussaivlas prestaziuns da l'agid a victimas ed il termin per dumondas d'indemnisaziun e da satisfacziun. Cun Voss consentiment communitgeschan ellas Voss num e Voss'adressa ad in post da cussegliaziun. Questa obligaziun d'infurmaziun vala tenor sen era vers Voss confamigliars."
       },
       "sources": [
         "stpo-305"
@@ -275,7 +431,11 @@
       "id": "vertrauensperson-schutz",
       "kind": "rule",
       "text": {
-        "de": "Bei allen Verfahrenshandlungen dürfen Sie sich – neben Ihrem Rechtsbeistand – von einer Vertrauensperson begleiten lassen. Verlangen Sie es, vermeiden die Strafbehörden eine Begegnung zwischen Ihnen und der beschuldigten Person, etwa bei einer Einvernahme, und sorgen auf andere Weise dafür, dass die beschuldigte Person trotzdem angehört werden kann. Die Strafbehörden müssen Ihre Persönlichkeitsrechte während des ganzen Verfahrens wahren."
+        "de": "Bei allen Verfahrenshandlungen dürfen Sie sich – neben Ihrem Rechtsbeistand – von einer Vertrauensperson begleiten lassen. Verlangen Sie es, vermeiden die Strafbehörden eine Begegnung zwischen Ihnen und der beschuldigten Person, etwa bei einer Einvernahme, und sorgen auf andere Weise dafür, dass die beschuldigte Person trotzdem angehört werden kann. Die Strafbehörden müssen Ihre Persönlichkeitsrechte während des ganzen Verfahrens wahren.",
+        "fr": "Pour tous les actes de procédure, vous pouvez vous faire accompagner – en plus de votre conseil juridique – par une personne de confiance. Si vous l’exigez, les autorités pénales évitent une confrontation entre vous et la personne prévenue, par exemple lors d’une audition, et veillent autrement à ce que la personne prévenue puisse néanmoins être entendue. Les autorités pénales doivent garantir vos droits de la personnalité pendant toute la procédure.",
+        "it": "In ogni atto procedurale può farsi accompagnare, oltre che dal suo patrocinatore, da una persona di fiducia. Se lo richiede, le autorità penali evitano un incontro tra lei e la persona imputata, per esempio durante un interrogatorio, e provvedono in altro modo affinché la persona imputata possa comunque essere sentita. Le autorità penali devono tutelare i suoi diritti della personalità durante l'intero procedimento.",
+        "en": "In all procedural steps you may be accompanied by a person of your trust, in addition to your legal representative. If you ask for it, the criminal justice authorities avoid a meeting between you and the accused, for example at an examination hearing, and ensure in some other way that the accused can still be heard. The criminal justice authorities must safeguard your personality rights throughout the proceedings.",
+        "rm": "Tar tut las acziuns da la procedura dastgais Vus – ultra da Vossa represchentanza giuridica – sa laschar accumpagnar d'ina persuna da fiducia. Pretendais Vus quai, evitan las autoritads penalas in'incunter tranter Vus e la persuna inculpada, per exempel tar in'audiziun, e procuran en autra moda ch'la persuna inculpada possia tuttina vegnir udida. Las autoritads penalas ston tegnair quint da Voss dretgs da persunalitad durant la procedura entira."
       },
       "sources": [
         "stpo-152"
@@ -291,7 +451,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie Opfer einer Straftat gegen die sexuelle Integrität, können Sie verlangen, von einer Person gleichen Geschlechts einvernommen zu werden. Eine Gegenüberstellung mit der beschuldigten Person gegen Ihren Willen ist nur zulässig, wenn deren Anspruch auf rechtliches Gehör nicht anders gewahrt werden kann. Ausserdem dürfen Sie die Aussage zu Fragen, die Ihre Intimsphäre betreffen, in jedem Fall verweigern – unabhängig davon, ob Sie sonst zur Aussage verpflichtet wären."
+        "de": "Sind Sie Opfer einer Straftat gegen die sexuelle Integrität, können Sie verlangen, von einer Person gleichen Geschlechts einvernommen zu werden. Eine Gegenüberstellung mit der beschuldigten Person gegen Ihren Willen ist nur zulässig, wenn deren Anspruch auf rechtliches Gehör nicht anders gewahrt werden kann. Ausserdem dürfen Sie die Aussage zu Fragen, die Ihre Intimsphäre betreffen, in jedem Fall verweigern – unabhängig davon, ob Sie sonst zur Aussage verpflichtet wären.",
+        "fr": "Si vous êtes victime d’une infraction contre l’intégrité sexuelle, vous pouvez exiger d’être entendu par une personne du même sexe. Une confrontation avec la personne prévenue contre votre volonté n’est admissible que si son droit d’être entendue ne peut pas être garanti autrement. En outre, vous pouvez, dans tous les cas, refuser de répondre à des questions qui touchent votre sphère intime – indépendamment du fait que vous seriez par ailleurs tenu de déposer.",
+        "it": "Se è vittima di un reato contro l'integrità sessuale, può chiedere di essere interrogato da una persona dello stesso sesso. Un confronto con la persona imputata contro la sua volontà è ammesso solo se il suo diritto di essere sentita non può essere garantito altrimenti. Inoltre può sempre rifiutare di rispondere a domande che riguardano la sua sfera intima, indipendentemente dal fatto che sarebbe altrimenti tenuto a deporre.",
+        "en": "If you are the victim of an offence against sexual integrity, you can ask to be examined by a person of the same sex. A confrontation with the accused against your will is only permitted if their right to be heard cannot be safeguarded in any other way. You may also refuse in any case to answer questions concerning your intimate sphere, regardless of whether you would otherwise be obliged to testify.",
+        "rm": "Essas Vus victima d'in delict cunter l'integritad sexuala, pudais Vus pretender da vegnir audids d'ina persuna dal medem schlattaina. Ina confrontaziun cun la persuna inculpada cunter Voss veglia è admissibla mo, sch'il dretg da quella d'esser udida na po betg vegnir garantì autramain. Ultra da quai dastgais Vus, en mintga cas, refusar la declaraziun a dumondas che tutgan Vossa sfera intima – independentamain, sch'Vus fussas autramain obligads da declerar."
       },
       "sources": [
         "stpo-153",
@@ -308,7 +472,11 @@
         ]
       },
       "text": {
-        "de": "Wollen Sie sich am Strafverfahren als Straf- oder Zivilklägerin bzw. -kläger beteiligen (Privatklägerschaft), müssen Sie dies spätestens bis zum Abschluss des Vorverfahrens gegenüber der Polizei oder der Staatsanwaltschaft erklären; eine Strafanzeige gilt bereits als solche Erklärung. Melden Sie sich nicht von sich aus, muss die Staatsanwaltschaft Sie darauf aufmerksam machen, sobald sie das Vorverfahren eröffnet hat. Sie können jederzeit schriftlich oder mündlich zu Protokoll erklären, dass Sie auf Ihre Rechte verzichten; dieser Verzicht ist endgültig und umfasst, wenn nicht ausdrücklich beschränkt, sowohl die Straf- als auch die Zivilklage."
+        "de": "Wollen Sie sich am Strafverfahren als Straf- oder Zivilklägerin bzw. -kläger beteiligen (Privatklägerschaft), müssen Sie dies spätestens bis zum Abschluss des Vorverfahrens gegenüber der Polizei oder der Staatsanwaltschaft erklären; eine Strafanzeige gilt bereits als solche Erklärung. Melden Sie sich nicht von sich aus, muss die Staatsanwaltschaft Sie darauf aufmerksam machen, sobald sie das Vorverfahren eröffnet hat. Sie können jederzeit schriftlich oder mündlich zu Protokoll erklären, dass Sie auf Ihre Rechte verzichten; dieser Verzicht ist endgültig und umfasst, wenn nicht ausdrücklich beschränkt, sowohl die Straf- als auch die Zivilklage.",
+        "fr": "Si vous souhaitez participer à la procédure pénale comme demandeur au pénal ou au civil (partie plaignante), vous devez le déclarer à la police ou au ministère public au plus tard jusqu’à la clôture de la procédure préliminaire ; une plainte pénale vaut déjà comme une telle déclaration. Si vous ne vous manifestez pas de vous-même, le ministère public doit attirer votre attention sur ce droit dès l’ouverture de la procédure préliminaire. Vous pouvez à tout moment déclarer par écrit ou oralement, au procès-verbal, que vous renoncez à vos droits ; cette renonciation est définitive et porte, si elle n’est pas expressément limitée, aussi bien sur l’action pénale que sur l’action civile.",
+        "it": "Se vuole partecipare al procedimento penale come accusatore penale o civile (accusatore privato), deve dichiararlo alla polizia o al pubblico ministero al più tardi entro la chiusura della procedura preliminare; una denuncia penale vale già come tale dichiarazione. Se non si annuncia di propria iniziativa, il pubblico ministero deve renderla attenta a questa possibilità non appena apre la procedura preliminare. In ogni momento può dichiarare per scritto o oralmente a verbale di rinunciare ai suoi diritti; questa rinuncia è definitiva e comprende, se non espressamente limitata, sia l'azione penale sia l'azione civile.",
+        "en": "If you want to take part in the criminal proceedings as a criminal or civil claimant (private claimant), you must declare this to the police or the public prosecutor at the latest by the close of the preliminary proceedings; a criminal complaint already counts as such a declaration. If you do not come forward yourself, the public prosecutor must draw your attention to this as soon as it opens the preliminary proceedings. You can declare in writing or orally for the record, at any time, that you waive your rights; this waiver is final and, unless expressly limited, covers both the criminal and the civil claim.",
+        "rm": "Vulais Vus As participar a la procedura penala sco accusadra privata penala u civila (accusadra privata), stuais Vus declerar quai al pli tard fin a la conclusiun da la procedura preliminara vers la polizia u la procura publica; in'annunzia penala vala gia sco tala declaraziun. Na As annunziais Vus betg d'atgna iniziativa, sto la procura publica render Vus attents a quai, uschespert ch'ella ha avert la procedura preliminara. Vus pudais, mintgatemp, declerar en scrit u oralmain a protocol ch'Vus renunziais a Vossas dretgs; questa renunzia è definitiva e cumpiglia, sche betg limitada explicitamain, tant la plant penala sco er la plant civila."
       },
       "sources": [
         "stpo-118",
@@ -325,7 +493,11 @@
         ]
       },
       "text": {
-        "de": "Als Angehörige bzw. Angehöriger haben Sie eigene Rechte im Strafverfahren: Machen Sie selbst Zivilansprüche geltend – etwa Schadenersatz oder Genugtuung wegen des Todes oder der Verletzung des Opfers –, stehen Ihnen dieselben besonderen Rechte zu wie dem Opfer selbst, zum Beispiel auf Persönlichkeitsschutz, Begleitung durch eine Vertrauensperson und Information durch die Behörden."
+        "de": "Als Angehörige bzw. Angehöriger haben Sie eigene Rechte im Strafverfahren: Machen Sie selbst Zivilansprüche geltend – etwa Schadenersatz oder Genugtuung wegen des Todes oder der Verletzung des Opfers –, stehen Ihnen dieselben besonderen Rechte zu wie dem Opfer selbst, zum Beispiel auf Persönlichkeitsschutz, Begleitung durch eine Vertrauensperson und Information durch die Behörden.",
+        "fr": "En tant que proche, vous avez vos propres droits dans la procédure pénale : si vous faites valoir vous-même des prétentions civiles – par exemple des dommages-intérêts ou une réparation morale en raison de la mort ou de la lésion de la victime –, vous disposez des mêmes droits particuliers que la victime elle-même, par exemple la protection de la personnalité, l’accompagnement par une personne de confiance et l’information par les autorités.",
+        "it": "Come congiunto ha diritti propri nel procedimento penale: se fa valere lei stesso pretese civili – per esempio un risarcimento del danno o una riparazione morale per la morte o la lesione della vittima – le spettano gli stessi diritti particolari della vittima stessa, per esempio la protezione della personalità, l'accompagnamento da parte di una persona di fiducia e l'informazione da parte delle autorità.",
+        "en": "As a close relation, you have your own rights in the criminal proceedings: if you yourself assert civil claims – for example damages or satisfaction for the death or injury of the victim – you have the same particular rights as the victim, for example to protection of your personality, to be accompanied by a person of your trust, and to be informed by the authorities.",
+        "rm": "Sco confamigliar avais Vus agens dretgs en la procedura penala: fetschais Vus sez valair pretensiuns civilas – per exempel indemnisaziun u satisfacziun pervia da la mort u da la lesiun da la victima –, tutgan a Vus ils medems dretgs spezials sco a la victima sezza, per exempel protecziun da la persunalitad, accumpagnament tras ina persuna da fiducia ed infurmaziun tras las autoritads."
       },
       "sources": [
         "stpo-117"
@@ -335,21 +507,33 @@
       "id": "opferhilfe-telefon",
       "kind": "free-help",
       "text": {
-        "de": "Die nationale Opferhilfe-Nummer 142 ist rund um die Uhr, kostenlos und vertraulich erreichbar, auf Wunsch auch anonym. Über opferhilfe-schweiz.ch finden Sie zudem die Beratungsstelle Ihres Kantons mit Adresse und Öffnungszeiten. Sie müssen dafür keine Anzeige erstattet haben und können sich melden, auch wenn Sie noch nicht wissen, ob Sie rechtliche Schritte unternehmen wollen."
+        "de": "Die nationale Opferhilfe-Nummer 142 ist rund um die Uhr, kostenlos und vertraulich erreichbar, auf Wunsch auch anonym. Über opferhilfe-schweiz.ch finden Sie zudem die Beratungsstelle Ihres Kantons mit Adresse und Öffnungszeiten. Sie müssen dafür keine Anzeige erstattet haben und können sich melden, auch wenn Sie noch nicht wissen, ob Sie rechtliche Schritte unternehmen wollen.",
+        "fr": "Le numéro national de l’aide aux victimes 142 est joignable jour et nuit, gratuitement et confidentiellement, anonymement si vous le souhaitez. Sur opferhilfe-schweiz.ch, vous trouvez en outre le centre de consultation de votre canton, avec son adresse et ses horaires d’ouverture. Vous n’avez pas besoin d’avoir porté plainte pour cela, et vous pouvez vous manifester même si vous ne savez pas encore si vous voulez entreprendre des démarches juridiques.",
+        "it": "Il numero nazionale dell'aiuto alle vittime 142 è raggiungibile giorno e notte, gratuitamente e in modo confidenziale, su richiesta anche in forma anonima. Su opferhilfe-schweiz.ch trova inoltre il consultorio del suo Cantone, con indirizzo e orari di apertura. Non deve aver sporto denuncia per questo e può rivolgersi anche se non sa ancora se intende intraprendere passi legali.",
+        "en": "The national victim support number 142 can be reached around the clock, free of charge and confidentially, anonymously if you wish. At opferhilfe-schweiz.ch you can also find the advice centre for your canton, with its address and opening hours. You do not need to have filed a report to call, and you can get in touch even if you do not yet know whether you want to take legal steps.",
+        "rm": "Il numer naziunal da l'agid a victimas 142 è cuntanschaivel il di enteir, gratuitamain e confidenzialmain, sin giavisch era anonim. Sin opferhilfe-schweiz.ch chattais Vus supplementarmain il post da cussegliaziun da Voss chantun, cun adressa ed uras d'avertura. Vus na stuais betg avair fatg annunzia penala per quai e pudais As annunziar, era sch'Vus na savais anc betg, sch'Vus vulais interpigliar pass giuridics."
       }
     },
     {
       "id": "notfallnummern",
       "kind": "free-help",
       "text": {
-        "de": "In einer akuten Notlage rufen Sie die Polizei unter 117 oder bei gesundheitlicher Gefahr den Sanitätsnotruf unter 144. Beide Nummern sind rund um die Uhr kostenlos erreichbar."
+        "de": "In einer akuten Notlage rufen Sie die Polizei unter 117 oder bei gesundheitlicher Gefahr den Sanitätsnotruf unter 144. Beide Nummern sind rund um die Uhr kostenlos erreichbar.",
+        "fr": "En cas d’urgence immédiate, appelez la police au 117 ou, en cas de danger pour la santé, les urgences sanitaires au 144. Les deux numéros sont joignables gratuitement jour et nuit.",
+        "it": "In una situazione di emergenza acuta chiami la polizia al numero 117 oppure, in caso di pericolo per la salute, il servizio sanitario di soccorso al numero 144. Entrambi i numeri sono raggiungibili gratuitamente giorno e notte.",
+        "en": "In an acute emergency, call the police on 117, or, if there is a danger to health, the medical emergency number on 144. Both numbers can be reached around the clock free of charge.",
+        "rm": "En ina situaziun d'urgenza acuta telefonai a la polizia sut il 117 u, tar privel per la sanadad, a l'urgenza sanitara sut il 144. Omadus numers èn cuntanschaivels il di enteir e gratuitamain."
       }
     },
     {
       "id": "rechtliche-beratung",
       "kind": "escalate",
       "text": {
-        "de": "Bei schweren Beeinträchtigungen, wenn die Täterschaft den Schaden bestreitet, wenn mehrere Kantone oder Länder betroffen sind oder wenn Ihnen eine Entschädigung oder Genugtuung verweigert oder gekürzt wird, lohnt sich eine persönliche Rechtsberatung. Die Beratungsstelle für Opferhilfe kann Ihnen praktische Unterstützung bieten und Sie an eine spezialisierte Anwältin oder einen Anwalt verweisen; die Kosten dafür können unter Umständen von der Opferhilfe mitgetragen werden."
+        "de": "Bei schweren Beeinträchtigungen, wenn die Täterschaft den Schaden bestreitet, wenn mehrere Kantone oder Länder betroffen sind oder wenn Ihnen eine Entschädigung oder Genugtuung verweigert oder gekürzt wird, lohnt sich eine persönliche Rechtsberatung. Die Beratungsstelle für Opferhilfe kann Ihnen praktische Unterstützung bieten und Sie an eine spezialisierte Anwältin oder einen Anwalt verweisen; die Kosten dafür können unter Umständen von der Opferhilfe mitgetragen werden.",
+        "fr": "En cas d’atteintes graves, lorsque l’auteure ou l’auteur conteste le dommage, lorsque plusieurs cantons ou pays sont concernés, ou lorsqu’une indemnité ou une réparation morale vous est refusée ou réduite, une consultation juridique personnelle vaut la peine. Le centre de consultation pour l’aide aux victimes peut vous offrir un soutien pratique et vous orienter vers une avocate ou un avocat spécialisé ; les frais correspondants peuvent, selon les cas, être pris en charge en partie par l’aide aux victimes.",
+        "it": "In caso di lesioni gravi, se l'autore del reato contesta il danno, se sono coinvolti più Cantoni o Stati, oppure se le viene rifiutato o ridotto un indennizzo o una riparazione morale, conviene farsi consigliare personalmente da un legale. Il consultorio per l'aiuto alle vittime può offrirle un sostegno pratico e indirizzarla a un'avvocata o a un avvocato specializzati; a determinate condizioni, le relative spese possono essere in parte assunte dall'aiuto alle vittime.",
+        "en": "For serious harm, if the perpetrator disputes the loss, if several cantons or countries are involved, or if damages or satisfaction are refused or reduced, personal legal advice is worthwhile. The victim support advice centre can offer you practical support and refer you to a specialist lawyer; the costs of this may, in certain circumstances, be shared by victim support.",
+        "rm": "Tar gravas restricziuns, sche l'autura u l'autur contesta il donn, sche plirs chantuns u pajais èn tangads, u sche ad Vus vegn refusada u reducida in'indemnisaziun u satisfacziun, sa paja ora ina consulaziun giuridica persunala. Il post da cussegliaziun per l'agid a victimas po porscher a Vus sustegn practic e Vus renvair ad in'advocata u in advocat spezialisà; ils custs per quai pon, sut tschertas circumstanzas, vegnir cuffinanziads da l'agid a victimas."
       }
     }
   ],
@@ -582,13 +766,21 @@
   "official_links": [
     {
       "label": {
-        "de": "Opferhilfe Schweiz – Beratungsstelle finden"
+        "de": "Opferhilfe Schweiz – Beratungsstelle finden",
+        "fr": "Aide aux victimes Suisse – trouver un centre de consultation",
+        "it": "Aiuto alle vittime Svizzera – trova il consultorio",
+        "en": "Victim Support Switzerland – find an advice centre",
+        "rm": "Agid a las victimas Svizra – chattar il post da cussegliaziun"
       },
       "url": "https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/"
     },
     {
       "label": {
-        "de": "Bundesamt für Justiz – Opferhilfe"
+        "de": "Bundesamt für Justiz – Opferhilfe",
+        "fr": "Office fédéral de la justice – aide aux victimes",
+        "it": "Ufficio federale di giustizia – Aiuto alle vittime",
+        "en": "Federal Office of Justice – victim support",
+        "rm": "Uffizi federal da giustia – agid a las victimas"
       },
       "url": "https://www.bj.admin.ch/de/opferhilfe"
     }

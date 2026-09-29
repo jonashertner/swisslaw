@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Vorsorgeauftrag und Patientenverfügung"
+    "de": "Vorsorgeauftrag und Patientenverfügung",
+    "fr": "Mandat pour cause d’inaptitude et directives anticipées",
+    "it": "Mandato precauzionale e direttive del paziente",
+    "en": "Advance care directive and living will",
+    "rm": "Mandat preventiv e disposiziun dal pazient"
   },
   "summary": {
-    "de": "Wenn Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden, können Sie nicht mehr selbst entscheiden. Mit einem Vorsorgeauftrag bestimmen Sie im Voraus, wer sich um Ihre Person, Ihr Vermögen und Ihre rechtlichen Angelegenheiten kümmert. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Ohne solche Dokumente haben nur Ehegatten und eingetragene Partnerinnen und Partner ein beschränktes gesetzliches Vertretungsrecht für Alltagsgeschäfte. Bei medizinischen Entscheiden bestimmt das Gesetz eine Reihenfolge von Angehörigen. Für alles andere muss die Erwachsenenschutzbehörde (KESB) einschreiten. Beide Dokumente können Sie nur erstellen, solange Sie selbst urteilsfähig sind."
+    "de": "Wenn Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden, können Sie nicht mehr selbst entscheiden. Mit einem Vorsorgeauftrag bestimmen Sie im Voraus, wer sich um Ihre Person, Ihr Vermögen und Ihre rechtlichen Angelegenheiten kümmert. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Ohne solche Dokumente haben nur Ehegatten und eingetragene Partnerinnen und Partner ein beschränktes gesetzliches Vertretungsrecht für Alltagsgeschäfte. Bei medizinischen Entscheiden bestimmt das Gesetz eine Reihenfolge von Angehörigen. Für alles andere muss die Erwachsenenschutzbehörde (KESB) einschreiten. Beide Dokumente können Sie nur erstellen, solange Sie selbst urteilsfähig sind.",
+    "fr": "Si vous devenez incapable de discernement à la suite d’une maladie, d’un accident ou d’une démence, vous ne pouvez plus décider vous-même. Par un mandat pour cause d’inaptitude, vous déterminez à l’avance qui s’occupera de votre personne, de votre patrimoine et de vos affaires juridiques. Par des directives anticipées, vous fixez à quelles mesures médicales vous consentez, et qui s’entretient au besoin avec les médecins. Sans de tels documents, seuls les conjoints et les partenaires enregistrés disposent d’un pouvoir légal de représentation limité pour les actes de la vie courante. Pour les décisions médicales, la loi fixe un ordre de proches. Pour tout le reste, l’autorité de protection de l’adulte (APEA) doit intervenir. Vous ne pouvez établir ces deux documents que tant que vous êtes vous-même capable de discernement.",
+    "it": "Se a causa di una malattia, di un incidente o di una demenza lei diventa incapace di discernimento, non può più decidere da sé. Con un mandato precauzionale lei stabilisce in anticipo chi si occupa della sua persona, del suo patrimonio e dei suoi affari giuridici. Con le direttive del paziente lei stabilisce a quali provvedimenti medici acconsente, e chi parla se necessario con i medici. Senza tali documenti, solo i coniugi e i partner registrati hanno un diritto di rappresentanza legale limitato per gli affari quotidiani. Per le decisioni mediche, la legge stabilisce un ordine di congiunti. Per tutto il resto deve intervenire l'Autorità di protezione dei minori e degli adulti (APMA). Entrambi i documenti può redigerli solo finché è lei stesso capace di discernimento.",
+    "en": "If illness, an accident or dementia leaves you incapable of judgement, you can no longer decide for yourself. With an advance care directive, you determine in advance who looks after your person, your assets and your legal affairs. With a living will, you set out which medical procedures you agree to, and who talks to the doctors if necessary. Without such documents, only spouses and registered partners have a limited statutory right of representation for everyday matters. For medical decisions, the law sets out an order of family members. For everything else, the adult protection authority (KESB) must intervene. You can only create both documents while you yourself are capable of judgement.",
+    "rm": "Sche Vus daventais nuncapabels da giudicar pervia d'ina malsauna, d'in accident u d'ina demenza, na pudais Vus betg pli decider sez. Cun in mandat preventiv fixais Vus ordavant, tgi che tgira da Vossa persuna, da Vossa facultad e da Vossas fatschendas giuridicas. Cun ina disposiziun dal pazient fixais Vus, a tge mesiras medicinalas Vus consentis, e tgi che discurra, sche necessari, cun las medgas e cun ils medis. Senza tals documents han mo consorts e partenarias registradas u partenaris registrads in dretg da represchentanza legal limità per fatschendas dal mintgadi. Tar decisiuns medicinalas fixescha la lescha in urden da confamigliars. Per tut il rest sto l'autoritad per la protecziun da creschids (KESB) intervegnir. Ils dus documents pudais Vus mo far, uschè ditg che Vus essas Vus sez capabels da giudicar."
   },
   "examples": {
     "de": [
@@ -19,48 +27,112 @@
       "Was ist der Unterschied zwischen Vorsorgeauftrag und Patientenverfügung?",
       "Wer entscheidet über meine Behandlung, wenn ich im Koma liege?",
       "Min Vater wird viergässlich, chan ich für ihn öppis vorkehre?"
+    ],
+    "fr": [
+      "Que se passe-t-il si je deviens dément et que je ne peux plus décider ?",
+      "Comment puis-je déterminer qui décide pour moi en cas d’accident ?",
+      "Dois-je rédiger des directives anticipées ?",
+      "Quelle est la différence entre le mandat pour cause d’inaptitude et les directives anticipées ?",
+      "Qui décide de mon traitement si je suis dans le coma ?",
+      "Mon père devient oublieux, puis-je prévoir quelque chose pour lui ?"
+    ],
+    "it": [
+      "Che cosa succede se divento demente e non posso più decidere?",
+      "Come posso stabilire chi decide per me se ho un incidente?",
+      "Devo fare le direttive del paziente?",
+      "Qual è la differenza tra mandato precauzionale e direttive del paziente?",
+      "Chi decide sulla mia cura se sono in coma?",
+      "Mio padre sta diventando smemorato, posso prendere qualche provvedimento per lui?"
+    ],
+    "en": [
+      "What happens if I develop dementia and can no longer decide for myself?",
+      "How can I decide who will make decisions for me if I have an accident?",
+      "Do I have to make a living will?",
+      "What is the difference between an advance care directive and a living will?",
+      "Who decides about my treatment if I am in a coma?",
+      "My father is becoming forgetful. Can I arrange something for him?"
+    ],
+    "rm": [
+      "Tge succeda, sch'jau vegn dement e na poss pli decider?",
+      "Co poss jau fixar, tgi che decida per mai, sch'jau hai in accident?",
+      "Stoss jau far ina disposiziun dal pazient?",
+      "Tge differenza è tranter il mandat preventiv e la disposiziun dal pazient?",
+      "Tgi decida davart mia tractaziun, sch'jau sun en coma?",
+      "Mes bab daventa dement, poss jau prevegnir insatge per el?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Den Vorsorgeauftrag (ZGB 360–369) für die Vertretung in persönlichen, finanziellen und rechtlichen Angelegenheiten bei Urteilsunfähigkeit, die Patientenverfügung (ZGB 370–373) für medizinische Entscheidungen, sowie die gesetzliche Vertretung durch Ehegatten und eingetragene Partnerinnen und Partner und die Vertretung bei medizinischen Massnahmen, wenn keine solchen Dokumente vorliegen."
+      "de": "Den Vorsorgeauftrag (ZGB 360–369) für die Vertretung in persönlichen, finanziellen und rechtlichen Angelegenheiten bei Urteilsunfähigkeit, die Patientenverfügung (ZGB 370–373) für medizinische Entscheidungen, sowie die gesetzliche Vertretung durch Ehegatten und eingetragene Partnerinnen und Partner und die Vertretung bei medizinischen Massnahmen, wenn keine solchen Dokumente vorliegen.",
+      "fr": "Le mandat pour cause d’inaptitude (CC 360–369) pour la représentation dans les affaires personnelles, financières et juridiques en cas d’incapacité de discernement, les directives anticipées (CC 370–373) pour les décisions médicales, ainsi que la représentation légale par les conjoints et les partenaires enregistrés et la représentation lors de mesures médicales, lorsqu’aucun de ces documents n’existe.",
+      "it": "Il mandato precauzionale (CC 360–369) per la rappresentanza negli affari personali, finanziari e giuridici in caso di incapacità di discernimento, le direttive del paziente (CC 370–373) per le decisioni mediche, nonché la rappresentanza legale da parte di coniugi e partner registrati e la rappresentanza in caso di provvedimenti medici quando mancano tali documenti.",
+      "en": "The advance care directive (Art. 360-369 CC) for representation in personal, financial and legal matters in the event of incapacity of judgement, the living will (Art. 370-373 CC) for medical decisions, and statutory representation by spouses and registered partners and representation for medical procedures where no such documents exist.",
+      "rm": "Il mandat preventiv (ZGB 360-369) per la represchentanza en fatschendas persunalas, finanzialas e giuridicas en cas da nuncapacitad da giudicar, la disposiziun dal pazient (ZGB 370-373) per decisiuns medicinalas, sco er la represchentanza legala tras consorts e partenarias registradas u partenaris registrads e la represchentanza tar mesiras medicinalas, sche talas documents mancan."
     },
     "excludes": {
-      "de": "Die Vorsorge für minderjährige Kinder, den fürsorgerischen Freiheitsentzug, das Erb- und Testamentsrecht sowie kantonale Formulare und Gebühren im Einzelnen. Dazu gibt es eigene Leitfäden beziehungsweise kantonale Auskünfte."
+      "de": "Die Vorsorge für minderjährige Kinder, den fürsorgerischen Freiheitsentzug, das Erb- und Testamentsrecht sowie kantonale Formulare und Gebühren im Einzelnen. Dazu gibt es eigene Leitfäden beziehungsweise kantonale Auskünfte.",
+      "fr": "La prévoyance pour les enfants mineurs, le placement à des fins d’assistance, le droit successoral et testamentaire, ainsi que les formulaires et émoluments cantonaux en détail. Il existe pour cela des guides séparés ou des renseignements cantonaux.",
+      "it": "La previdenza per i figli minorenni, il ricovero a scopo di assistenza, il diritto successorio e testamentario, nonché i moduli e gli emolumenti cantonali nel dettaglio. Per questi esistono guide proprie oppure informazioni cantonali.",
+      "en": "Provision for minor children, care-related hospitalisation, the law of succession and wills, and cantonal forms and fees in detail. There are separate guides on these, or cantonal information services.",
+      "rm": "Il provediment per uffants minorens, la privaziun da la libertad per motivs d'assistenza, il dretg d'ierta e da testament sco er formulars e taxas chantunals en detagl. Per quai datti agidas guidas resp. infurmaziuns chantunalas."
     }
   },
   "facts": [
     {
       "key": "interest",
       "question": {
-        "de": "Was möchten Sie regeln?"
+        "de": "Was möchten Sie regeln?",
+        "fr": "Que souhaitez-vous régler ?",
+        "it": "Che cosa desidera regolare?",
+        "en": "What would you like to arrange?",
+        "rm": "Tge vulais Vus regular?"
       },
       "help": {
-        "de": "Sie können auch beide Dokumente wählen."
+        "de": "Sie können auch beide Dokumente wählen.",
+        "fr": "Vous pouvez aussi choisir les deux documents.",
+        "it": "Può scegliere anche entrambi i documenti.",
+        "en": "You can also choose both documents.",
+        "rm": "Vus pudais era tscherner ils dus documents."
       },
       "options": [
         {
           "value": "vorsorgeauftrag",
           "label": {
-            "de": "Wer sich um mein Vermögen und meine Angelegenheiten kümmert (Vorsorgeauftrag)"
+            "de": "Wer sich um mein Vermögen und meine Angelegenheiten kümmert (Vorsorgeauftrag)",
+            "fr": "Qui s’occupe de mon patrimoine et de mes affaires (mandat pour cause d’inaptitude)",
+            "it": "Chi si occupa del mio patrimonio e dei miei affari (mandato precauzionale)",
+            "en": "Who looks after my assets and my affairs (advance care directive)",
+            "rm": "Tgi che tgira da mia facultad e da mias fatschendas (mandat preventiv)"
           }
         },
         {
           "value": "patientenverfuegung",
           "label": {
-            "de": "Welche medizinische Behandlung ich will oder nicht will (Patientenverfügung)"
+            "de": "Welche medizinische Behandlung ich will oder nicht will (Patientenverfügung)",
+            "fr": "Quel traitement médical je veux ou ne veux pas (directives anticipées)",
+            "it": "Quale cura medica voglio o non voglio (direttive del paziente)",
+            "en": "What medical treatment I want or don't want (living will)",
+            "rm": "Tge tractament medicinal jau vi u na vi betg (disposiziun dal pazient)"
           }
         },
         {
           "value": "both",
           "label": {
-            "de": "Beides"
+            "de": "Beides",
+            "fr": "Les deux",
+            "it": "Entrambi",
+            "en": "Both",
+            "rm": "Tuts dus"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich noch nicht"
+            "de": "Weiss ich noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Quai na sai jau anc betg"
           }
         }
       ]
@@ -68,31 +140,51 @@
     {
       "key": "relationship",
       "question": {
-        "de": "Wie leben Sie zurzeit?"
+        "de": "Wie leben Sie zurzeit?",
+        "fr": "Comment vivez-vous actuellement ?",
+        "it": "Come vive attualmente?",
+        "en": "What is your current living situation?",
+        "rm": "Co vivais Vus actualmain?"
       },
       "options": [
         {
           "value": "married",
           "label": {
-            "de": "Verheiratet oder in eingetragener Partnerschaft"
+            "de": "Verheiratet oder in eingetragener Partnerschaft",
+            "fr": "Marié ou en partenariat enregistré",
+            "it": "Sposato o in unione domestica registrata",
+            "en": "Married or in a registered partnership",
+            "rm": "Maridà/a u en partenadi registrà"
           }
         },
         {
           "value": "partner",
           "label": {
-            "de": "Unverheiratet, aber mit einer Partnerin oder einem Partner zusammenlebend"
+            "de": "Unverheiratet, aber mit einer Partnerin oder einem Partner zusammenlebend",
+            "fr": "Non marié, mais vivant avec une partenaire ou un partenaire",
+            "it": "Non sposato, ma convivente con una partner o un partner",
+            "en": "Unmarried, but living with a partner",
+            "rm": "Betg maridà/a, ma vivend ensemen cun ina partenaria u in partenari"
           }
         },
         {
           "value": "single",
           "label": {
-            "de": "Alleinstehend"
+            "de": "Alleinstehend",
+            "fr": "Vivant seul",
+            "it": "Solo",
+            "en": "Living alone",
+            "rm": "Alleinstant u alleinstanta"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht oder möchte ich nicht sagen"
+            "de": "Weiss ich nicht oder möchte ich nicht sagen",
+            "fr": "Je ne sais pas ou je préfère ne pas le dire",
+            "it": "Non lo so o preferisco non dirlo",
+            "en": "I don't know, or would rather not say",
+            "rm": "Jau na sai betg u na vi betg dir"
           }
         }
       ]
@@ -100,25 +192,41 @@
     {
       "key": "existing",
       "question": {
-        "de": "Haben Sie schon einen Vorsorgeauftrag oder eine Patientenverfügung erstellt?"
+        "de": "Haben Sie schon einen Vorsorgeauftrag oder eine Patientenverfügung erstellt?",
+        "fr": "Avez-vous déjà établi un mandat pour cause d’inaptitude ou des directives anticipées ?",
+        "it": "Ha già redatto un mandato precauzionale o direttive del paziente?",
+        "en": "Have you already made an advance care directive or a living will?",
+        "rm": "Avais Vus gia fatg in mandat preventiv u ina disposiziun dal pazient?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Bin ich nicht sicher"
+            "de": "Bin ich nicht sicher",
+            "fr": "Je n’en suis pas sûr",
+            "it": "Non ne sono sicuro",
+            "en": "I'm not sure",
+            "rm": "Jau na sun betg segir u segira"
           }
         }
       ]
@@ -126,25 +234,41 @@
     {
       "key": "situation",
       "question": {
-        "de": "Für wen möchten Sie dies regeln?"
+        "de": "Für wen möchten Sie dies regeln?",
+        "fr": "Pour qui souhaitez-vous régler cela ?",
+        "it": "Per chi desidera regolare questo?",
+        "en": "Who do you want to arrange this for?",
+        "rm": "Per tgi vulais Vus regular quai?"
       },
       "options": [
         {
           "value": "self",
           "label": {
-            "de": "Für mich selbst, auf Vorrat"
+            "de": "Für mich selbst, auf Vorrat",
+            "fr": "Pour moi-même, par précaution",
+            "it": "Per me stesso, per precauzione",
+            "en": "For myself, as a precaution",
+            "rm": "Per mai sez, sco provediment"
           }
         },
         {
           "value": "relative",
           "label": {
-            "de": "Eine mir nahestehende Person ist bereits urteilsunfähig geworden"
+            "de": "Eine mir nahestehende Person ist bereits urteilsunfähig geworden",
+            "fr": "Une personne qui m’est proche est déjà devenue incapable de discernement",
+            "it": "Una persona a me vicina è già diventata incapace di discernimento",
+            "en": "Someone close to me has already become incapable of judgement",
+            "rm": "Ina persuna datiers a mai è gia daventada nuncapabla da giudicar"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -155,7 +279,11 @@
       "id": "overview",
       "kind": "rule",
       "text": {
-        "de": "Mit zwei Dokumenten können Sie vorsorgen für den Fall, dass Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden: Mit einem Vorsorgeauftrag bestimmen Sie, wer sich um Ihre Person und Ihr Vermögen kümmert und Sie im Rechtsverkehr vertritt. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen oder nicht zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Sie können das eine, das andere oder beide Dokumente erstellen; sie ergänzen sich."
+        "de": "Mit zwei Dokumenten können Sie vorsorgen für den Fall, dass Sie wegen Krankheit, eines Unfalls oder einer Demenz urteilsunfähig werden: Mit einem Vorsorgeauftrag bestimmen Sie, wer sich um Ihre Person und Ihr Vermögen kümmert und Sie im Rechtsverkehr vertritt. Mit einer Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie zustimmen oder nicht zustimmen, und wer nötigenfalls mit den Ärztinnen und Ärzten spricht. Sie können das eine, das andere oder beide Dokumente erstellen; sie ergänzen sich.",
+        "fr": "Deux documents vous permettent de prévoir le cas où vous deviendriez incapable de discernement à la suite d’une maladie, d’un accident ou d’une démence : par un mandat pour cause d’inaptitude, vous déterminez qui s’occupe de votre personne et de votre patrimoine et vous représente dans les rapports juridiques. Par des directives anticipées, vous fixez à quelles mesures médicales vous consentez ou non, et qui s’entretient au besoin avec les médecins. Vous pouvez établir l’un, l’autre, ou les deux documents ; ils se complètent.",
+        "it": "Con due documenti lei può prendere precauzioni per il caso in cui diventi incapace di discernimento a causa di una malattia, di un incidente o di una demenza: con un mandato precauzionale stabilisce chi si occupa della sua persona e del suo patrimonio e la rappresenta nei rapporti giuridici. Con le direttive del paziente lei stabilisce a quali provvedimenti medici acconsente o non acconsente, e chi parla se necessario con i medici. Può redigere l'uno, l'altro o entrambi i documenti; essi si completano a vicenda.",
+        "en": "Two documents let you make provision for the case that illness, an accident or dementia leaves you incapable of judgement: with an advance care directive, you determine who looks after your person and your assets and represents you in legal transactions. With a living will, you set out which medical procedures you agree to or do not agree to, and who talks to the doctors if necessary. You can create one, the other, or both documents; they complement each other.",
+        "rm": "Cun dus documents pudais Vus prevegnir per il cas ch'Vus daventais nuncapabels da giudicar pervia d'ina malsauna, d'in accident u d'ina demenza: cun in mandat preventiv fixais Vus, tgi che tgira da Vossa persuna e da Vossa facultad e Vus represchenta en las relaziuns giuridicas. Cun ina disposiziun dal pazient fixais Vus, a tge mesiras medicinalas Vus consentis u betg, e tgi che discurra, sche necessari, cun las medgas e cun ils medis. Vus pudais far l'in, l'auter u tuts dus documents; els sa cumpleteschan."
       },
       "sources": [
         "zgb-360",
@@ -166,7 +294,11 @@
       "id": "not-a-will",
       "kind": "warning",
       "text": {
-        "de": "Ein Vorsorgeauftrag ist kein Testament. Er regelt nicht, wer nach Ihrem Tod Ihr Vermögen erhält; das legen Sie in einer letztwilligen Verfügung fest, einem eigenen Dokument mit eigenen Formvorschriften. Der Vorsorgeauftrag regelt allein die Vertretung zu Lebzeiten, solange Sie urteilsunfähig sind, und unterliegt eigenen Schutzmechanismen wie der Prüfung durch die Erwachsenenschutzbehörde. Das Bundesgericht hat diese beiden Rechtsgeschäfte ausdrücklich voneinander abgegrenzt."
+        "de": "Ein Vorsorgeauftrag ist kein Testament. Er regelt nicht, wer nach Ihrem Tod Ihr Vermögen erhält; das legen Sie in einer letztwilligen Verfügung fest, einem eigenen Dokument mit eigenen Formvorschriften. Der Vorsorgeauftrag regelt allein die Vertretung zu Lebzeiten, solange Sie urteilsunfähig sind, und unterliegt eigenen Schutzmechanismen wie der Prüfung durch die Erwachsenenschutzbehörde. Das Bundesgericht hat diese beiden Rechtsgeschäfte ausdrücklich voneinander abgegrenzt.",
+        "fr": "Un mandat pour cause d’inaptitude n’est pas un testament. Il ne règle pas qui reçoit votre patrimoine après votre décès ; cela se fixe dans une disposition pour cause de mort, un document distinct avec ses propres règles de forme. Le mandat pour cause d’inaptitude règle uniquement la représentation de votre vivant, tant que vous êtes incapable de discernement, et il est soumis à ses propres mécanismes de protection, comme l’examen par l’autorité de protection de l’adulte. Le Tribunal fédéral a expressément distingué ces deux actes juridiques l’un de l’autre.",
+        "it": "Un mandato precauzionale non è un testamento. Non regola chi riceve il suo patrimonio dopo la sua morte; questo lo stabilisce in una disposizione a causa di morte, un documento a sé con proprie regole di forma. Il mandato precauzionale regola soltanto la rappresentanza in vita, finché lei è incapace di discernimento, e sottostà a propri meccanismi di protezione, come l'esame da parte dell'Autorità di protezione degli adulti. Il Tribunale federale ha espressamente distinto questi due negozi giuridici l'uno dall'altro.",
+        "en": "An advance care directive is not a will. It does not settle who receives your assets after your death; you set that out in a will, a separate document with its own formal requirements. The advance care directive only governs representation during your lifetime, for as long as you are incapable of judgement, and is subject to its own safeguards, such as review by the adult protection authority. The Federal Supreme Court has expressly distinguished between these two legal transactions.",
+        "rm": "In mandat preventiv n'è nagin testament. El na regla betg, tgi che survegn Vossa facultad suenter Voss mortori; quai fixais Vus en ina disposiziun testamentara, in agen document cun agens pretschs da furma. Il mandat preventiv regla mo la represchentanza durant vita, uschè ditg che Vus essas nuncapabels da giudicar, e sta sut agens mecanissems da protecziun sco l'examinaziun tras l'autoritad per la protecziun da creschids. Il Tribunal federal ha distinguì explicitamain quests dus negozis giuridics in da l'auter."
       },
       "sources": [
         "bger-5a-336-2024"
@@ -176,7 +308,11 @@
       "id": "capacity",
       "kind": "rule",
       "text": {
-        "de": "Einen Vorsorgeauftrag können Sie nur erstellen, solange Sie handlungsfähig sind: volljährig und urteilsfähig, also fähig, die Tragweite Ihres Entscheids zu erkennen und danach zu handeln. Für eine Patientenverfügung genügt Urteilsfähigkeit allein; ein Mindestalter schreibt das Gesetz dafür nicht vor. Massgebend ist immer der Zeitpunkt, in dem Sie das Dokument erstellen. Werden Sie später urteilsunfähig, bleibt ein gültig errichtetes Dokument trotzdem wirksam."
+        "de": "Einen Vorsorgeauftrag können Sie nur erstellen, solange Sie handlungsfähig sind: volljährig und urteilsfähig, also fähig, die Tragweite Ihres Entscheids zu erkennen und danach zu handeln. Für eine Patientenverfügung genügt Urteilsfähigkeit allein; ein Mindestalter schreibt das Gesetz dafür nicht vor. Massgebend ist immer der Zeitpunkt, in dem Sie das Dokument erstellen. Werden Sie später urteilsunfähig, bleibt ein gültig errichtetes Dokument trotzdem wirksam.",
+        "fr": "Vous ne pouvez établir un mandat pour cause d’inaptitude que tant que vous avez l’exercice des droits civils : être majeur et capable de discernement, c’est-à-dire capable de reconnaître la portée de votre décision et d’agir en conséquence. Pour des directives anticipées, la seule capacité de discernement suffit ; la loi ne prescrit pas d’âge minimum pour cela. Le moment déterminant est toujours celui où vous établissez le document. Si vous devenez incapable de discernement par la suite, un document valablement établi reste néanmoins valable.",
+        "it": "Un mandato precauzionale può redigerlo solo finché è capace di agire: maggiorenne e capace di discernimento, cioè in grado di riconoscere la portata della sua decisione e di agire di conseguenza. Per le direttive del paziente basta la sola capacità di discernimento; la legge non prescrive a tal fine un'età minima. Determinante è sempre il momento in cui lei redige il documento. Se in seguito diventa incapace di discernimento, un documento validamente costituito resta comunque efficace.",
+        "en": "You can only create an advance care directive while you have capacity to act: you must be of full age and capable of judgement, that is, able to recognise the significance of your decision and to act accordingly. For a living will, capacity of judgement alone is enough; the law does not prescribe a minimum age for it. What always matters is the point in time when you create the document. If you later become incapable of judgement, a validly created document remains effective even so.",
+        "rm": "In mandat preventiv pudais Vus mo far, uschè ditg che Vus essas abels d'agir: maiorens e capabels da giudicar, dunca capabels da recognoscher la purtada da Voss decisiun ed agir tenor quella. Per ina disposiziun dal pazient basta la sola capacitad da giudicar; la lescha na prevesa nagina vegliadetgna minimala per quai. Decisiv è adina il mument, en il qual Vus fixais il document. Daventais Vus pli tard nuncapabels da giudicar, resta in document validamain fatg tuttina valaivel."
       },
       "sources": [
         "zgb-13",
@@ -189,7 +325,11 @@
       "id": "vorsorgeauftrag-scope",
       "kind": "rule",
       "text": {
-        "de": "Im Vorsorgeauftrag beauftragen Sie eine oder mehrere natürliche oder juristische Personen damit, im Fall Ihrer Urteilsunfähigkeit Ihre Personensorge oder Ihre Vermögenssorge zu übernehmen oder Sie im Rechtsverkehr zu vertreten. Sie müssen die Aufgaben, die Sie übertragen wollen, umschreiben, und Sie können der beauftragten Person Weisungen für die Erfüllung dieser Aufgaben erteilen."
+        "de": "Im Vorsorgeauftrag beauftragen Sie eine oder mehrere natürliche oder juristische Personen damit, im Fall Ihrer Urteilsunfähigkeit Ihre Personensorge oder Ihre Vermögenssorge zu übernehmen oder Sie im Rechtsverkehr zu vertreten. Sie müssen die Aufgaben, die Sie übertragen wollen, umschreiben, und Sie können der beauftragten Person Weisungen für die Erfüllung dieser Aufgaben erteilen.",
+        "fr": "Dans le mandat pour cause d’inaptitude, vous chargez une ou plusieurs personnes physiques ou morales d’assumer, en cas d’incapacité de discernement, l’assistance personnelle ou la gestion de votre patrimoine, ou de vous représenter dans les rapports juridiques. Vous devez décrire les tâches que vous voulez confier, et vous pouvez donner à la personne mandatée des instructions pour l’exécution de ces tâches.",
+        "it": "Nel mandato precauzionale lei incarica una o più persone fisiche o giuridiche di occuparsi, in caso della sua incapacità di discernimento, della cura della sua persona o dei suoi interessi patrimoniali, oppure di rappresentarla nei rapporti giuridici. Deve descrivere i compiti che intende attribuire, e può impartire al mandatario istruzioni per l'adempimento di tali compiti.",
+        "en": "In the advance care directive, you instruct one or more natural persons or legal entities to take on your personal care or the management of your assets, or to represent you in legal transactions, in the event that you become incapable of judgement. You must describe the tasks you want to assign, and you can give the appointee instructions on how to carry them out.",
+        "rm": "En il mandat preventiv incumbensais Vus ina u pliras persunas natiralas u giuridicas da surpigliar, en cas da Vossa nuncapacitad da giudicar, la tgira da Vossa persuna u da Vossa facultad, u da Vus represchentar en las relaziuns giuridicas. Vus stuais descriver ils incumbents che Vus vulais transferir, e Vus pudais dar a la persuna incumbensada instrucziuns per l'adempliment da quests incumbents."
       },
       "when": {
         "interest": [
@@ -206,7 +346,11 @@
       "id": "form-vorsorgeauftrag",
       "kind": "rule",
       "text": {
-        "de": "Ein Vorsorgeauftrag ist nur gültig, wenn Sie ihn von Anfang bis Ende eigenhändig von Hand schreiben, datieren und unterzeichnen, oder wenn Sie ihn öffentlich beurkunden lassen, also bei einer Notarin oder einem Notar. Ein am Computer geschriebenes und nur unterschriebenes Dokument genügt nicht. Ist die Form nicht eingehalten, gilt das Dokument nicht als Vorsorgeauftrag. Enthält es Anweisungen zu medizinischen Behandlungen und ist es datiert und unterschrieben, können diese aber als Patientenverfügung gelten."
+        "de": "Ein Vorsorgeauftrag ist nur gültig, wenn Sie ihn von Anfang bis Ende eigenhändig von Hand schreiben, datieren und unterzeichnen, oder wenn Sie ihn öffentlich beurkunden lassen, also bei einer Notarin oder einem Notar. Ein am Computer geschriebenes und nur unterschriebenes Dokument genügt nicht. Ist die Form nicht eingehalten, gilt das Dokument nicht als Vorsorgeauftrag. Enthält es Anweisungen zu medizinischen Behandlungen und ist es datiert und unterschrieben, können diese aber als Patientenverfügung gelten.",
+        "fr": "Un mandat pour cause d’inaptitude n’est valable que si vous l’écrivez, le datez et le signez de votre main du début à la fin, ou si vous le faites dresser en la forme authentique, c’est-à-dire auprès d’une notaire ou d’un notaire. Un document rédigé à l’ordinateur et seulement signé ne suffit pas. Si la forme n’est pas respectée, le document ne vaut pas comme mandat pour cause d’inaptitude. S’il contient des instructions concernant des traitements médicaux et qu’il est daté et signé, celles-ci peuvent toutefois valoir comme directives anticipées.",
+        "it": "Un mandato precauzionale è valido solo se lei lo scrive, data e firma interamente a mano dall'inizio alla fine, oppure se lo fa costituire per atto pubblico, cioè presso un notaio. Un documento scritto al computer e solo firmato non basta. Se la forma non è rispettata, il documento non vale come mandato precauzionale. Se contiene istruzioni su cure mediche ed è datato e firmato, queste possono però valere come direttive del paziente.",
+        "en": "An advance care directive is only valid if you write it out completely by hand from beginning to end, date it and sign it, or if you have it made as a public deed, that is, before a notary. A document written on a computer and only signed is not enough. If the form is not followed, the document does not count as an advance care directive. If it contains instructions on medical treatment and is dated and signed, these can, however, count as a living will.",
+        "rm": "In mandat preventiv è mo valaivel, sche Vus el scrivais, datais e suttascrivais entiramain a maun, dad entschatta a fin, u sche Vus el laschais documentar publicamain, dunca tar ina notaria u in notari. In document scrit al computer e mo suttascrit na basta betg. N'è la furma betg observada, na vala il document betg sco mandat preventiv. Cuntegna el instrucziuns per tractaments medicinals ed è el datà e suttascrit, po el dentant valair sco disposiziun dal pazient."
       },
       "when": {
         "interest": [
@@ -224,7 +368,11 @@
       "id": "register-vorsorgeauftrag",
       "kind": "step",
       "text": {
-        "de": "Melden Sie dem Zivilstandsamt, dass Sie einen Vorsorgeauftrag errichtet haben, und wo er hinterlegt ist. Das Amt trägt dies auf Antrag in eine zentrale Datenbank ein, auf die die Erwachsenenschutzbehörde bei Bedarf zugreifen kann. Das ersetzt nicht die sorgfältige Aufbewahrung des Originals selbst."
+        "de": "Melden Sie dem Zivilstandsamt, dass Sie einen Vorsorgeauftrag errichtet haben, und wo er hinterlegt ist. Das Amt trägt dies auf Antrag in eine zentrale Datenbank ein, auf die die Erwachsenenschutzbehörde bei Bedarf zugreifen kann. Das ersetzt nicht die sorgfältige Aufbewahrung des Originals selbst.",
+        "fr": "Annoncez à l’office de l’état civil que vous avez établi un mandat pour cause d’inaptitude, et l’endroit où il est déposé. L’office inscrit cela, sur demande, dans une banque de données centrale, à laquelle l’autorité de protection de l’adulte peut accéder en cas de besoin. Cela ne remplace pas la conservation soigneuse de l’original lui-même.",
+        "it": "Comunichi all'ufficio dello stato civile di aver costituito un mandato precauzionale, e dove è depositato. L'ufficio lo iscrive, su richiesta, in una banca dati centrale, a cui l'Autorità di protezione degli adulti può accedere in caso di bisogno. Ciò non sostituisce la custodia accurata dell'originale stesso.",
+        "en": "Tell the Civil Register Office that you have made an advance care directive, and where it is deposited. On request, the office records this in a central database that the adult protection authority can access if needed. This does not replace carefully keeping the original itself.",
+        "rm": "Annunziai a l'uffizi da stadi civil ch'Vus avais fatg in mandat preventiv, e nua ch'el è deponì. L'uffizi inscriva quai, sin dumonda, en ina banca da datas centrala, a la quala l'autoritad per la protecziun da creschids ha access en cas da basegn. Quai na remplazza betg la conservaziun accurada da l'original sez."
       },
       "when": {
         "interest": [
@@ -241,7 +389,11 @@
       "id": "choosing-appointee",
       "kind": "step",
       "text": {
-        "de": "Wählen Sie eine Person, der Sie vertrauen und die die Aufgabe zeitlich und persönlich übernehmen kann, und sprechen Sie vorher mit ihr. Bestimmen Sie auch eine Ersatzperson für den Fall, dass die erste Person ungeeignet ist, den Auftrag nicht annimmt oder ihn später kündigt. Sie können die Aufgaben aufteilen, zum Beispiel Personensorge und Vermögenssorge an verschiedene Personen übertragen."
+        "de": "Wählen Sie eine Person, der Sie vertrauen und die die Aufgabe zeitlich und persönlich übernehmen kann, und sprechen Sie vorher mit ihr. Bestimmen Sie auch eine Ersatzperson für den Fall, dass die erste Person ungeeignet ist, den Auftrag nicht annimmt oder ihn später kündigt. Sie können die Aufgaben aufteilen, zum Beispiel Personensorge und Vermögenssorge an verschiedene Personen übertragen.",
+        "fr": "Choisissez une personne en qui vous avez confiance et qui peut assumer la tâche, sur le plan du temps et sur le plan personnel, et parlez-en avec elle au préalable. Désignez aussi une personne de remplacement pour le cas où la première personne ne conviendrait pas, n’accepterait pas le mandat ou le résilierait plus tard. Vous pouvez répartir les tâches, par exemple confier l’assistance personnelle et la gestion du patrimoine à des personnes différentes.",
+        "it": "Scelga una persona di cui si fida e che possa assumere il compito sia dal punto di vista del tempo sia personalmente, e ne parli prima con lei. Designi anche una persona sostitutiva per il caso in cui la prima persona non sia idonea, non accetti il mandato o lo disdica in seguito. Può ripartire i compiti, per esempio attribuendo la cura della persona e la cura del patrimonio a persone diverse.",
+        "en": "Choose a person you trust, who is able to take on the task in terms of time and in person, and speak to them beforehand. Also name a substitute in case the first person is not suitable, does not accept the directive, or later terminates it. You can split the tasks, for example assigning personal care and asset management to different people.",
+        "rm": "Tscherni ina persuna, en la quala Vus avais fidanza e che po surpigliar l'incumbensa temporalmain e persunalmain, e discurri cun ella ordavant. Fixai er ina persuna suppletiva per il cas che l'emprima persuna n'è betg adattada, n'accepta betg l'incumbensa u la reschinda pli tard. Vus pudais repartir ils incumbents, per exempel transferir la tgira da la persuna e la tgira da la facultad a differentas persunas."
       },
       "when": {
         "interest": [
@@ -258,7 +410,11 @@
       "id": "when-it-applies",
       "kind": "rule",
       "text": {
-        "de": "Ihr Vorsorgeauftrag wird erst wirksam, wenn die Erwachsenenschutzbehörde (KESB) dies feststellt. Erfährt sie, dass jemand urteilsunfähig geworden ist, erkundigt sie sich beim Zivilstandsamt nach einem Vorsorgeauftrag. Liegt einer vor, prüft sie, ob er gültig errichtet wurde, ob die Urteilsunfähigkeit tatsächlich eingetreten ist, ob die beauftragte Person geeignet ist und ob weitere Massnahmen nötig sind. Nimmt die beauftragte Person den Auftrag an, weist die KESB sie auf ihre Pflichten hin und stellt ihr eine Urkunde über ihre Befugnisse aus."
+        "de": "Ihr Vorsorgeauftrag wird erst wirksam, wenn die Erwachsenenschutzbehörde (KESB) dies feststellt. Erfährt sie, dass jemand urteilsunfähig geworden ist, erkundigt sie sich beim Zivilstandsamt nach einem Vorsorgeauftrag. Liegt einer vor, prüft sie, ob er gültig errichtet wurde, ob die Urteilsunfähigkeit tatsächlich eingetreten ist, ob die beauftragte Person geeignet ist und ob weitere Massnahmen nötig sind. Nimmt die beauftragte Person den Auftrag an, weist die KESB sie auf ihre Pflichten hin und stellt ihr eine Urkunde über ihre Befugnisse aus.",
+        "fr": "Votre mandat pour cause d’inaptitude ne devient effectif que lorsque l’autorité de protection de l’adulte (APEA) le constate. Si elle apprend qu’une personne est devenue incapable de discernement, elle se renseigne auprès de l’office de l’état civil sur l’existence d’un mandat pour cause d’inaptitude. S’il en existe un, elle examine s’il a été valablement établi, si l’incapacité de discernement est effectivement survenue, si la personne mandatée est apte et si d’autres mesures sont nécessaires. Si la personne mandatée accepte le mandat, l’APEA attire son attention sur ses obligations et lui délivre un acte attestant ses pouvoirs.",
+        "it": "Il suo mandato precauzionale diventa efficace solo quando l'Autorità di protezione degli adulti (APMA) lo accerta. Se essa viene a sapere che qualcuno è diventato incapace di discernimento, si informa presso l'ufficio dello stato civile sull'esistenza di un mandato precauzionale. Se ve n'è uno, essa verifica se è stato validamente costituito, se l'incapacità di discernimento si è effettivamente verificata, se il mandatario è idoneo e se sono necessari ulteriori provvedimenti. Se il mandatario accetta il mandato, l'APMA lo rende attento ai suoi obblighi e gli rilascia un documento sui suoi poteri.",
+        "en": "Your advance care directive only takes effect once the adult protection authority (KESB) establishes this. If it learns that someone has become incapable of judgement, it asks the Civil Register Office whether there is an advance care directive. If one exists, it checks whether it was validly made, whether incapacity of judgement has actually occurred, whether the appointee is suitable, and whether further measures are needed. If the appointee accepts the directive, the KESB advises them of their duties and issues them with a document setting out their powers.",
+        "rm": "Voss mandat preventiv daventa valaivel mo, sche l'autoritad per la protecziun da creschids (KESB) constata quai. Enconuscha ella che insatgi è daventà nuncapabel da giudicar, sa infurmescha ella tar l'uffizi da stadi civil davart in mandat preventiv. È in tal avant maun, examinescha ella, sch'el è vegnì fatg validamain, sche la nuncapacitad da giudicar è propi entrada, sche la persuna incumbensada è adattada e sch'ulteriuras mesiras èn necessarias. Accepta la persuna incumbensada l'incumbensa, renda la KESB ella attenta a sias obligaziuns e deliverescha ad ella in document davart sias cumpetenzas."
       },
       "when": {
         "interest": [
@@ -275,7 +431,11 @@
       "id": "suitability",
       "kind": "warning",
       "text": {
-        "de": "Die KESB prüft nicht nur, ob Ihr Vorsorgeauftrag formell gültig ist, sondern auch, ob die von Ihnen gewählte Person tatsächlich geeignet ist, die konkreten Aufgaben zu übernehmen. In einem Fall, der bis vor Bundesgericht ging, hielt das kantonale Gericht eine beauftragte Person für die Personensorge für geeignet, wegen eines anhaltenden Familienkonflikts aber nicht für die Vermögenssorge. Wählen Sie deshalb pro Aufgabenbereich eine Person, die dafür tatsächlich in Frage kommt, und bedenken Sie familiäre Spannungen."
+        "de": "Die KESB prüft nicht nur, ob Ihr Vorsorgeauftrag formell gültig ist, sondern auch, ob die von Ihnen gewählte Person tatsächlich geeignet ist, die konkreten Aufgaben zu übernehmen. In einem Fall, der bis vor Bundesgericht ging, hielt das kantonale Gericht eine beauftragte Person für die Personensorge für geeignet, wegen eines anhaltenden Familienkonflikts aber nicht für die Vermögenssorge. Wählen Sie deshalb pro Aufgabenbereich eine Person, die dafür tatsächlich in Frage kommt, und bedenken Sie familiäre Spannungen.",
+        "fr": "L’APEA examine non seulement si votre mandat pour cause d’inaptitude est formellement valable, mais aussi si la personne que vous avez choisie est effectivement apte à assumer les tâches concrètes. Dans une affaire allant jusqu’au Tribunal fédéral, le tribunal cantonal a jugé une personne mandatée apte pour l’assistance personnelle, mais pas pour la gestion du patrimoine, en raison d’un conflit familial persistant. Choisissez donc, pour chaque domaine de tâches, une personne qui entre effectivement en ligne de compte, et tenez compte des tensions familiales.",
+        "it": "L'APMA verifica non solo se il suo mandato precauzionale è formalmente valido, ma anche se la persona da lei scelta è effettivamente idonea ad assumere i compiti concreti. In un caso giunto fino al Tribunale federale, il tribunale cantonale ha ritenuto un mandatario idoneo per la cura della persona, ma non per la cura del patrimonio, a causa di un conflitto familiare persistente. Scelga quindi, per ciascun ambito di compiti, una persona che vi si presti effettivamente, e tenga conto delle tensioni familiari.",
+        "en": "The KESB checks not only whether your advance care directive is formally valid, but also whether the person you chose is actually suitable to take on the specific tasks. In a case that went as far as the Federal Supreme Court, the cantonal court considered an appointee suitable for personal care, but not for asset management, because of an ongoing family conflict. For each area of responsibility, therefore, choose a person who is genuinely suitable for it, and bear family tensions in mind.",
+        "rm": "La KESB examinescha betg mo, sche Voss mandat preventiv è formalmain valaivel, mabain er, sche la persuna tschernida da Vus è propi adattada per surpigliar ils incumbents concrets. En in cas che è arrivà davant il Tribunal federal, ha la dretgira chantunala tegnì ina persuna incumbensada adattada per la tgira da la persuna, ma betg per la tgira da la facultad, pervia d'in conflict da famiglia persistent. Tscherni percunquai per mintga secturs d'incumbensa ina persuna che entra propi en dumonda per quai, e resguardai tensiuns familiaras."
       },
       "when": {
         "interest": [
@@ -293,7 +453,11 @@
       "id": "duties-appointee",
       "kind": "rule",
       "text": {
-        "de": "Die beauftragte Person vertritt Sie nur im Rahmen dessen, was der Vorsorgeauftrag umschreibt, und muss ihre Aufgaben sorgfältig wahrnehmen, wie es die Regeln des Auftragsrechts verlangen. Muss sie ein Geschäft besorgen, das der Vorsorgeauftrag nicht erfasst, oder hat sie in einer Sache eigene Interessen, die Ihren widersprechen, muss sie unverzüglich die KESB benachrichtigen. Bei einer solchen Interessenkollision fallen ihre Befugnisse von Gesetzes wegen weg."
+        "de": "Die beauftragte Person vertritt Sie nur im Rahmen dessen, was der Vorsorgeauftrag umschreibt, und muss ihre Aufgaben sorgfältig wahrnehmen, wie es die Regeln des Auftragsrechts verlangen. Muss sie ein Geschäft besorgen, das der Vorsorgeauftrag nicht erfasst, oder hat sie in einer Sache eigene Interessen, die Ihren widersprechen, muss sie unverzüglich die KESB benachrichtigen. Bei einer solchen Interessenkollision fallen ihre Befugnisse von Gesetzes wegen weg.",
+        "fr": "La personne mandatée ne vous représente que dans le cadre de ce que décrit le mandat pour cause d’inaptitude, et elle doit accomplir ses tâches avec soin, comme l’exigent les règles du droit du mandat. Si elle doit s’occuper d’une affaire que le mandat pour cause d’inaptitude ne couvre pas, ou si elle a, dans une affaire, des intérêts propres qui contredisent les vôtres, elle doit en aviser sans délai l’APEA. En cas d’un tel conflit d’intérêts, ses pouvoirs s’éteignent de par la loi.",
+        "it": "Il mandatario la rappresenta solo nell'ambito descritto dal mandato precauzionale, e deve svolgere i suoi compiti con diligenza, come richiedono le regole del diritto del mandato. Se deve occuparsi di un affare non compreso nel mandato precauzionale, o se in una faccenda ha interessi propri in contrasto con i suoi, deve avvisare senza indugio l'APMA. In caso di un simile conflitto d'interessi, i suoi poteri decadono per legge.",
+        "en": "The appointee represents you only within what the advance care directive describes, and must carry out their tasks with due care, as required by the rules on agency contracts. If they must deal with a matter that the advance care directive does not cover, or if they have their own interests in a matter that conflict with yours, they must notify the KESB without delay. In the event of such a conflict of interest, their powers cease to apply by operation of law.",
+        "rm": "La persuna incumbensada Vus represchenta mo entaifer quai che il mandat preventiv descriva, e sto adempir sias incumbensas cun cura, sco quai pretendan las reglas dal dretg da mandat. Sto ella regular ina fatschenda che il mandat preventiv na cumpiglia betg, u ha ella en ina chaussa agens interess che cuntradistan a quels da Vus, sto ella infurmar immediat la KESB. Tar ina tala colisiun d'interess crodan sias cumpetenzas davent da lescha."
       },
       "when": {
         "interest": [
@@ -310,7 +474,11 @@
       "id": "compensation",
       "kind": "cost",
       "text": {
-        "de": "Regeln Sie im Vorsorgeauftrag nicht selbst, ob und wie die beauftragte Person entschädigt wird, legt die KESB eine angemessene Entschädigung fest, wenn dies wegen des Aufgabenumfangs gerechtfertigt ist oder solche Leistungen üblicherweise bezahlt werden. Entschädigung und notwendige Spesen gehen zu Ihren eigenen Lasten. Lassen Sie den Vorsorgeauftrag öffentlich beurkunden, kommt dafür die kantonal unterschiedliche Notariatsgebühr hinzu; für ein eigenhändig geschriebenes Dokument fällt keine Notariatsgebühr an."
+        "de": "Regeln Sie im Vorsorgeauftrag nicht selbst, ob und wie die beauftragte Person entschädigt wird, legt die KESB eine angemessene Entschädigung fest, wenn dies wegen des Aufgabenumfangs gerechtfertigt ist oder solche Leistungen üblicherweise bezahlt werden. Entschädigung und notwendige Spesen gehen zu Ihren eigenen Lasten. Lassen Sie den Vorsorgeauftrag öffentlich beurkunden, kommt dafür die kantonal unterschiedliche Notariatsgebühr hinzu; für ein eigenhändig geschriebenes Dokument fällt keine Notariatsgebühr an.",
+        "fr": "Si vous ne réglez pas vous-même, dans le mandat pour cause d’inaptitude, si et comment la personne mandatée est indemnisée, l’APEA fixe une indemnité appropriée, lorsque cela se justifie par l’ampleur des tâches ou que de telles prestations sont habituellement rémunérées. L’indemnité et les frais nécessaires sont à votre propre charge. Si vous faites dresser le mandat pour cause d’inaptitude en la forme authentique, s’y ajoute l’émolument notarial, qui varie selon les cantons ; pour un document rédigé de votre main, aucun émolument notarial n’est dû.",
+        "it": "Se nel mandato precauzionale lei non regola personalmente se e come il mandatario venga retribuito, l'APMA fissa una retribuzione adeguata, se ciò è giustificato dall'ampiezza dei compiti o se simili prestazioni sono di regola retribuite. La retribuzione e le spese necessarie sono a suo carico. Se fa costituire il mandato precauzionale per atto pubblico, si aggiunge l'emolumento notarile, che varia da Cantone a Cantone; per un documento scritto a mano non è dovuto alcun emolumento notarile.",
+        "en": "If you do not yourself settle in the advance care directive whether and how the appointee is remunerated, the KESB sets appropriate remuneration if this is justified by the extent of the tasks, or if such services are usually paid for. Remuneration and necessary expenses are charged to you. If you have the advance care directive made as a public deed, the notary's fee, which varies from canton to canton, is added to this; no notary's fee is charged for a document written by hand.",
+        "rm": "Na regulais Vus betg en il mandat preventiv sez, sch'e co la persuna incumbensada vegn indemnisada, fixescha la KESB in'indemnisaziun adequata, sch'igl è giustifitgà pervia da la grondezza da l'incumbensa u sche talas prestaziuns vegnan pajadas usitadamain. Indemnisaziun e spesas necessarias van a Voss atgna quenta. Laschais Vus documentar publicamain il mandat preventiv, vegn ad aquai la taxa notariala, differenta da chantun a chantun; per in document scrit a maun n'entra naginas taxas notarialas."
       },
       "when": {
         "interest": [
@@ -327,7 +495,11 @@
       "id": "termination",
       "kind": "warning",
       "text": {
-        "de": "Die beauftragte Person kann den Vorsorgeauftrag jederzeit mit einer Frist von zwei Monaten kündigen, durch schriftliche Mitteilung an die KESB; aus wichtigen Gründen darf sie fristlos kündigen. Prüfen Sie deshalb periodisch, ob die von Ihnen gewählte Person die Aufgabe weiterhin übernehmen will und kann, und halten Sie eine Ersatzperson bereit."
+        "de": "Die beauftragte Person kann den Vorsorgeauftrag jederzeit mit einer Frist von zwei Monaten kündigen, durch schriftliche Mitteilung an die KESB; aus wichtigen Gründen darf sie fristlos kündigen. Prüfen Sie deshalb periodisch, ob die von Ihnen gewählte Person die Aufgabe weiterhin übernehmen will und kann, und halten Sie eine Ersatzperson bereit.",
+        "fr": "La personne mandatée peut résilier le mandat pour cause d’inaptitude en tout temps moyennant un délai de deux mois, par avis écrit à l’APEA ; pour de justes motifs, elle peut résilier sans délai. Vérifiez donc périodiquement si la personne que vous avez choisie veut et peut continuer d’assumer la tâche, et tenez une personne de remplacement prête.",
+        "it": "Il mandatario può disdire il mandato precauzionale in ogni momento con un preavviso di due mesi, mediante comunicazione scritta all'APMA; per motivi gravi può disdirlo senza preavviso. Verifichi quindi periodicamente se la persona da lei scelta vuole e può continuare ad assumere il compito, e tenga pronta una persona sostitutiva.",
+        "en": "The appointee can terminate the advance care directive at any time, giving two months' notice, by written notice to the KESB; for good cause, they may terminate it without notice. Check periodically, therefore, whether the person you chose is still willing and able to take on the task, and keep a substitute ready.",
+        "rm": "La persuna incumbensada po reschinder il mandat preventiv da tut temp cun in termin da dus mais, tras communicaziun scritta a la KESB; per motivs impurtants po ella reschinder senza termin. Examinai percunquai periodicamain, sche la persuna tschernida da Vus vul e po vinavant surpigliar l'incumbensa, e tegnì pronta ina persuna suppletiva."
       },
       "when": {
         "interest": [
@@ -344,7 +516,11 @@
       "id": "kesb-intervention",
       "kind": "warning",
       "text": {
-        "de": "Sind Ihre Interessen gefährdet oder nicht mehr gewahrt, greift die KESB von sich aus oder auf Antrag einer nahestehenden Person ein. Sie kann der beauftragten Person Weisungen erteilen, ein Inventar, eine periodische Rechnungsablage oder Berichte verlangen, oder ihr die Befugnisse teilweise oder ganz entziehen. Wer aus der Familie Missstände bemerkt, kann sich also jederzeit an die KESB wenden."
+        "de": "Sind Ihre Interessen gefährdet oder nicht mehr gewahrt, greift die KESB von sich aus oder auf Antrag einer nahestehenden Person ein. Sie kann der beauftragten Person Weisungen erteilen, ein Inventar, eine periodische Rechnungsablage oder Berichte verlangen, oder ihr die Befugnisse teilweise oder ganz entziehen. Wer aus der Familie Missstände bemerkt, kann sich also jederzeit an die KESB wenden.",
+        "fr": "Si vos intérêts sont menacés ou ne sont plus sauvegardés, l’APEA intervient d’office ou sur requête d’une personne proche. Elle peut donner des instructions à la personne mandatée, exiger un inventaire, une reddition de comptes périodique ou des rapports, ou lui retirer ses pouvoirs en tout ou en partie. Toute personne de la famille qui constate des irrégularités peut donc s’adresser en tout temps à l’APEA.",
+        "it": "Se i suoi interessi sono minacciati o non più tutelati, l'APMA interviene d'ufficio o su richiesta di una persona a lei vicina. Essa può impartire istruzioni al mandatario, esigere un inventario, una rendicontazione periodica o rapporti, oppure togliergli in tutto o in parte i suoi poteri. Chi in famiglia nota irregolarità può quindi rivolgersi in ogni momento all'APMA.",
+        "en": "If your interests are endangered or no longer protected, the KESB intervenes of its own motion or at the request of someone close to you. It can give the appointee instructions, require an inventory, periodic accounts or reports, or withdraw some or all of their powers. So a family member who notices problems can turn to the KESB at any time.",
+        "rm": "Èn Voss interess periclitads u betg pli garantids, intervegn la KESB da sasez u sin dumonda d'ina persuna datiers. Ella po dar a la persuna incumbensada instrucziuns, pretender in inventari, ina rendaquint periodica u rapports, u retrair ad ella las cumpetenzas per part u entiramain. Tgi che remarcha en la famiglia irregularitads, po As drizzar da tut temp a la KESB."
       },
       "when": {
         "interest": [
@@ -361,7 +537,11 @@
       "id": "recovery",
       "kind": "rule",
       "text": {
-        "de": "Werden Sie wieder urteilsfähig, verliert der Vorsorgeauftrag von Gesetzes wegen seine Wirkung. Wären Ihre Interessen dadurch gefährdet, muss die beauftragte Person die übertragenen Aufgaben trotzdem weiterführen, bis Sie Ihre Interessen wieder selbst wahren können. Geschäfte, welche die beauftragte Person vornimmt, bevor sie vom Ende ihres Auftrags erfährt, bleiben für Sie verbindlich, wie wenn der Auftrag noch bestünde."
+        "de": "Werden Sie wieder urteilsfähig, verliert der Vorsorgeauftrag von Gesetzes wegen seine Wirkung. Wären Ihre Interessen dadurch gefährdet, muss die beauftragte Person die übertragenen Aufgaben trotzdem weiterführen, bis Sie Ihre Interessen wieder selbst wahren können. Geschäfte, welche die beauftragte Person vornimmt, bevor sie vom Ende ihres Auftrags erfährt, bleiben für Sie verbindlich, wie wenn der Auftrag noch bestünde.",
+        "fr": "Si vous recouvrez votre capacité de discernement, le mandat pour cause d’inaptitude perd ses effets de par la loi. Si vos intérêts s’en trouvaient menacés, la personne mandatée doit néanmoins continuer d’assumer les tâches confiées jusqu’à ce que vous puissiez à nouveau sauvegarder vous-même vos intérêts. Les actes que la personne mandatée accomplit avant d’apprendre la fin de son mandat restent contraignants pour vous, comme si le mandat existait encore.",
+        "it": "Se lei ricupera la capacità di discernimento, il mandato precauzionale si estingue per legge. Se ciò mettesse in pericolo i suoi interessi, il mandatario deve comunque continuare a svolgere i compiti attribuitigli, fino a quando lei possa di nuovo tutelare da sé i propri interessi. Gli affari che il mandatario compie prima di apprendere la fine del suo mandato restano per lei vincolanti, come se il mandato sussistesse ancora.",
+        "en": "If you become capable of judgement again, the advance care directive loses its effect by operation of law. If your interests would be endangered by this, the appointee must continue to carry out the assigned tasks even so, until you can safeguard your own interests again. Transactions that the appointee carries out before they learn that the directive has ended remain binding on you, as if the directive still existed.",
+        "rm": "Daventais Vus puspè capabels da giudicar, perda il mandat preventiv sia validitad da lescha. Fissan Voss interess periclitads tras quai, sto la persuna incumbensada vinavant exequir ils incumbents transferids, fin che Vus pudais puspè guardar sez Voss interess. Fatschendas che la persuna incumbensada fa, avant ch'ella enconuscha la fin da ses mandat, restan obligatoricas per Vus, sco sche il mandat existiss anc."
       },
       "when": {
         "interest": [
@@ -378,7 +558,11 @@
       "id": "interpretation",
       "kind": "step",
       "text": {
-        "de": "Ist eine Formulierung im Vorsorgeauftrag unklar, oder muss ein Nebenpunkt ergänzt werden, den Sie nicht geregelt haben, kann die beauftragte Person die KESB um Auslegung oder Ergänzung ersuchen. Umschreiben Sie die Aufgaben deshalb möglichst klar, das erspart der beauftragten Person später diesen Weg."
+        "de": "Ist eine Formulierung im Vorsorgeauftrag unklar, oder muss ein Nebenpunkt ergänzt werden, den Sie nicht geregelt haben, kann die beauftragte Person die KESB um Auslegung oder Ergänzung ersuchen. Umschreiben Sie die Aufgaben deshalb möglichst klar, das erspart der beauftragten Person später diesen Weg.",
+        "fr": "Si une formulation du mandat pour cause d’inaptitude n’est pas claire, ou si un point accessoire que vous n’avez pas réglé doit être complété, la personne mandatée peut demander à l’APEA une interprétation ou un complément. Décrivez donc les tâches de la manière la plus claire possible ; cela évitera plus tard cette démarche à la personne mandatée.",
+        "it": "Se una formulazione nel mandato precauzionale è poco chiara, o se occorre completare un punto accessorio che lei non ha regolato, il mandatario può chiedere all'APMA un'interpretazione o un'integrazione. Descriva quindi i compiti nel modo più chiaro possibile: ciò risparmia in seguito questo passo al mandatario.",
+        "en": "If a wording in the advance care directive is unclear, or a secondary point needs to be added that you have not settled, the appointee can ask the KESB to interpret or supplement it. Describe the tasks as clearly as possible, therefore, to spare the appointee this step later.",
+        "rm": "È ina formulaziun en il mandat preventiv nunclara, u sto vegnir cumplettà in punct secundar che Vus n'avais betg regulà, po la persuna incumbensada supplitgar la KESB per interpretaziun u cumplettaziun. Descrivi percunquai ils incumbents uschè cler sco pussibel, quai spargna a la persuna incumbensada pli tard quest passa."
       },
       "when": {
         "interest": [
@@ -395,7 +579,11 @@
       "id": "patientenverfuegung-scope",
       "kind": "rule",
       "text": {
-        "de": "In der Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie im Fall Ihrer Urteilsunfähigkeit zustimmen und welchen nicht. Sie können auch eine Person bezeichnen, die im Fall Ihrer Urteilsunfähigkeit mit der behandelnden Ärztin oder dem behandelnden Arzt die medizinischen Massnahmen bespricht und in Ihrem Namen entscheidet, und dieser Person Weisungen erteilen. Auch hier können Sie eine Ersatzperson bestimmen."
+        "de": "In der Patientenverfügung legen Sie fest, welchen medizinischen Massnahmen Sie im Fall Ihrer Urteilsunfähigkeit zustimmen und welchen nicht. Sie können auch eine Person bezeichnen, die im Fall Ihrer Urteilsunfähigkeit mit der behandelnden Ärztin oder dem behandelnden Arzt die medizinischen Massnahmen bespricht und in Ihrem Namen entscheidet, und dieser Person Weisungen erteilen. Auch hier können Sie eine Ersatzperson bestimmen.",
+        "fr": "Dans les directives anticipées, vous fixez à quelles mesures médicales vous consentez, et à quelles mesures vous ne consentez pas, en cas d’incapacité de discernement. Vous pouvez aussi désigner une personne qui, en cas d’incapacité de discernement, s’entretient des mesures médicales avec la ou le médecin traitant et décide en votre nom, et donner des instructions à cette personne. Là aussi, vous pouvez désigner une personne de remplacement.",
+        "it": "Nelle direttive del paziente lei stabilisce a quali provvedimenti medici acconsente e a quali no, in caso della sua incapacità di discernimento. Può anche designare una persona che, in caso della sua incapacità di discernimento, discuta i provvedimenti medici con il medico curante e decida in suo nome, e impartire istruzioni a questa persona. Anche qui può designare una persona sostitutiva.",
+        "en": "In the living will, you set out which medical procedures you agree to, and which you do not, in the event that you become incapable of judgement. You can also designate a person who, if you become incapable of judgement, discusses the medical procedures with the attending doctor and decides on your behalf, and you can give this person instructions. Here too, you can name a substitute.",
+        "rm": "En la disposiziun dal pazient fixais Vus, a tge mesiras medicinalas Vus consentis en cas da Vossa nuncapacitad da giudicar e a tge betg. Vus pudais era designar ina persuna che, en cas da Vossa nuncapacitad da giudicar, discurra cun la medgessa u cun il medi tractant davart las mesiras medicinalas e decida en Voss num, e dar a questa persuna instrucziuns. Er qua pudais Vus fixar ina persuna suppletiva."
       },
       "when": {
         "interest": [
@@ -412,7 +600,11 @@
       "id": "form-patientenverfuegung",
       "kind": "rule",
       "text": {
-        "de": "Eine Patientenverfügung muss schriftlich errichtet, datiert und unterzeichnet sein; anders als beim Vorsorgeauftrag müssen Sie sie nicht von Hand schreiben, ein ausgedrucktes und unterschriebenes Formular genügt."
+        "de": "Eine Patientenverfügung muss schriftlich errichtet, datiert und unterzeichnet sein; anders als beim Vorsorgeauftrag müssen Sie sie nicht von Hand schreiben, ein ausgedrucktes und unterschriebenes Formular genügt.",
+        "fr": "Des directives anticipées doivent être établies par écrit, datées et signées ; contrairement au mandat pour cause d’inaptitude, vous n’avez pas besoin de les écrire à la main, un formulaire imprimé et signé suffit.",
+        "it": "Le direttive del paziente devono essere costituite in forma scritta, datate e firmate; a differenza del mandato precauzionale, non deve scriverle a mano, basta un modulo stampato e firmato.",
+        "en": "A living will must be made in writing, dated and signed; unlike the advance care directive, you do not have to write it by hand, and a printed and signed form is enough.",
+        "rm": "Ina disposiziun dal pazient sto vegnir fatga per scrit, datada e suttascritta; a differenza dal mandat preventiv na stuais Vus betg la scriver a maun, in formular stampà e suttascrit basta."
       },
       "when": {
         "interest": [
@@ -429,7 +621,11 @@
       "id": "register-patientenverfuegung",
       "kind": "step",
       "text": {
-        "de": "Lassen Sie die Tatsache, dass Sie eine Patientenverfügung errichtet haben, und den Hinterlegungsort auf Ihrer Versichertenkarte eintragen. So findet das Behandlungsteam im Ernstfall rasch heraus, dass ein Dokument besteht und wo es liegt. Geben Sie eine Kopie zusätzlich der von Ihnen bezeichneten Vertrauensperson und Ihrer Hausärztin oder Ihrem Hausarzt."
+        "de": "Lassen Sie die Tatsache, dass Sie eine Patientenverfügung errichtet haben, und den Hinterlegungsort auf Ihrer Versichertenkarte eintragen. So findet das Behandlungsteam im Ernstfall rasch heraus, dass ein Dokument besteht und wo es liegt. Geben Sie eine Kopie zusätzlich der von Ihnen bezeichneten Vertrauensperson und Ihrer Hausärztin oder Ihrem Hausarzt.",
+        "fr": "Faites inscrire sur votre carte d’assuré le fait que vous avez établi des directives anticipées, ainsi que le lieu où elles sont déposées. L’équipe soignante découvre ainsi rapidement, en cas d’urgence, qu’un document existe et où il se trouve. Remettez en outre une copie à la personne de confiance que vous avez désignée et à votre médecin de famille.",
+        "it": "Faccia registrare sulla sua tessera di assicurato il fatto di aver costituito direttive del paziente e il luogo del deposito. Così, in caso di emergenza, l'équipe curante scopre rapidamente che esiste un documento e dove si trova. Dia inoltre una copia alla persona di fiducia da lei designata e al suo medico di famiglia.",
+        "en": "Have the fact that you have made a living will, and where it is deposited, entered on your health insurance card. This way, the treatment team can quickly find out in an emergency that a document exists and where it is kept. Also give a copy to the person of trust you have designated and to your GP.",
+        "rm": "Laschai inscriver sin Vossa charta d'assicurà il fatg ch'Vus avais fatg ina disposiziun dal pazient e nua ch'ella è deponida. Uschia chatta il team da tractament svelt en cas serius ora, ch'in document exista e nua ch'el sa chatta. Dai ina copia supplementarmain a la persuna da fidanza designada da Vus ed a Vossa medgessa u a Voss medi da chasa."
       },
       "when": {
         "interest": [
@@ -446,7 +642,11 @@
       "id": "doctor-checks",
       "kind": "rule",
       "text": {
-        "de": "Sind Sie urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung besteht, klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand Ihrer Versichertenkarte ab, ausser in dringlichen Fällen. Liegt eine Patientenverfügung vor, muss die Ärztin oder der Arzt ihr folgen, ausser sie verstösst gegen gesetzliche Vorschriften oder es bestehen begründete Zweifel, dass sie auf freiem Willen beruht oder noch Ihrem mutmasslichen Willen entspricht. Weicht die Ärztin oder der Arzt davon ab, muss sie oder er die Gründe im Patientendossier festhalten. Dass die Ärztin oder der Arzt eine andere Behandlung für besser hielte, ist kein Grund zur Abweichung. Sie können in der Patientenverfügung auch festhalten, welchen Behandlungen Sie nicht zustimmen."
+        "de": "Sind Sie urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung besteht, klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand Ihrer Versichertenkarte ab, ausser in dringlichen Fällen. Liegt eine Patientenverfügung vor, muss die Ärztin oder der Arzt ihr folgen, ausser sie verstösst gegen gesetzliche Vorschriften oder es bestehen begründete Zweifel, dass sie auf freiem Willen beruht oder noch Ihrem mutmasslichen Willen entspricht. Weicht die Ärztin oder der Arzt davon ab, muss sie oder er die Gründe im Patientendossier festhalten. Dass die Ärztin oder der Arzt eine andere Behandlung für besser hielte, ist kein Grund zur Abweichung. Sie können in der Patientenverfügung auch festhalten, welchen Behandlungen Sie nicht zustimmen.",
+        "fr": "Si vous êtes incapable de discernement et que l’on ignore si des directives anticipées existent, la ou le médecin traitant vérifie ce point au moyen de votre carte d’assuré, sauf dans les cas urgents. Si des directives anticipées existent, la ou le médecin doit s’y conformer, sauf si elles violent des dispositions légales ou s’il existe des doutes fondés qu’elles reposent sur une volonté libre ou qu’elles correspondent encore à votre volonté présumée. Si la ou le médecin s’en écarte, elle ou il doit consigner les motifs dans le dossier du patient. Le fait que la ou le médecin estimerait un autre traitement préférable n’est pas un motif d’y déroger. Vous pouvez aussi indiquer dans les directives anticipées à quels traitements vous ne consentez pas.",
+        "it": "Se lei è incapace di discernimento e non si sa se esistono direttive del paziente, il medico curante lo accerta sulla base della sua tessera di assicurato, salvo nei casi urgenti. Se esistono direttive del paziente, il medico deve attenervisi, a meno che non violino disposizioni legali o vi siano dubbi fondati che non poggino su una libera volontà o non corrispondano più alla sua volontà presumibile. Se il medico se ne discosta, deve annotarne i motivi nella cartella del paziente. Il fatto che il medico ritenga migliore un'altra cura non è un motivo per discostarsene. Lei può indicare nelle direttive del paziente anche a quali cure non acconsente.",
+        "en": "If you are incapable of judgement and it is not known whether a living will exists, the attending doctor checks this using your health insurance card, except in urgent cases. If a living will exists, the doctor must follow it, unless it violates statutory provisions, or there is reasonable doubt that it is based on your free will or still corresponds to your presumed will. If the doctor departs from it, they must record the reasons in the patient's file. That the doctor considers a different treatment better is not a reason to depart from it. You can also state in the living will which treatments you do not agree to.",
+        "rm": "Essas Vus nuncapabels da giudicar e n'è betg enconuschì, sch'ina disposiziun dal pazient exista, clarifitgescha quai la medgessa u il medi tractant sin basa da Vossa charta d'assicurà, exceptà en cas urgents. Exista ina disposiziun dal pazient, sto la medgessa u il medi la suondar, exceptà ella cuntrafa a prescripziuns da lescha u datti dubis fundads ch'ella sa basia sin libra voluntad u ch'ella correspundia anc a Voss avert presumibel. S'allontanescha la medgessa u il medi da quai, sto ella u el registrar ils motivs en il dossier dal pazient. Ch'la medgessa u il medi tegness ina autra tractaziun per meglra, n'è nagin motiv d'allontanaziun. Vus pudais fixar en la disposiziun dal pazient er, a tge tractaziuns Vus na consentis betg."
       },
       "when": {
         "interest": [
@@ -464,7 +664,11 @@
       "id": "no-directive",
       "kind": "rule",
       "text": {
-        "de": "Haben Sie sich zur anstehenden Behandlung in keiner Patientenverfügung geäussert, plant die behandelnde Ärztin oder der behandelnde Arzt die Behandlung zusammen mit der Person, die zu Ihrer Vertretung bei medizinischen Massnahmen berechtigt ist. Diese Person wird über Gründe, Zweck, Art, Risiken, Nebenwirkungen und Kosten der Massnahme sowie über Alternativen informiert. Soweit möglich werden auch Sie selbst in die Entscheidfindung einbezogen, und der Behandlungsplan wird laufend angepasst."
+        "de": "Haben Sie sich zur anstehenden Behandlung in keiner Patientenverfügung geäussert, plant die behandelnde Ärztin oder der behandelnde Arzt die Behandlung zusammen mit der Person, die zu Ihrer Vertretung bei medizinischen Massnahmen berechtigt ist. Diese Person wird über Gründe, Zweck, Art, Risiken, Nebenwirkungen und Kosten der Massnahme sowie über Alternativen informiert. Soweit möglich werden auch Sie selbst in die Entscheidfindung einbezogen, und der Behandlungsplan wird laufend angepasst.",
+        "fr": "Si vous ne vous êtes exprimé dans aucunes directives anticipées sur le traitement envisagé, la ou le médecin traitant planifie le traitement avec la personne habilitée à vous représenter pour les mesures médicales. Cette personne est informée des raisons, du but, de la nature, des risques, des effets secondaires et des coûts de la mesure, ainsi que des alternatives. Dans la mesure du possible, vous êtes vous-même associé à la prise de décision, et le plan de traitement est adapté en continu.",
+        "it": "Se lei non si è espresso in nessuna direttiva del paziente sulla cura prevista, il medico curante pianifica la cura insieme alla persona autorizzata a rappresentarla per i provvedimenti medici. Questa persona viene informata sui motivi, lo scopo, il genere, i rischi, gli effetti collaterali e i costi del provvedimento, nonché sulle alternative. Per quanto possibile, anche lei stesso viene coinvolto nella decisione, e il piano di cura viene costantemente adeguato.",
+        "en": "If you have not addressed the treatment in question in any living will, the attending doctor plans the treatment together with the person entitled to represent you for medical procedures. This person is informed about the reasons, purpose, nature, risks, side effects and costs of the procedure, and about alternatives. As far as possible, you yourself are also involved in the decision-making, and the treatment plan is continually adjusted.",
+        "rm": "Sche Vus n'essas betg exprimids en nagina disposiziun dal pazient davart la tractaziun impendenta, planisescha la medgessa u il medi tractant la tractaziun ensemen cun la persuna autorisada a Vossa represchentanza tar mesiras medicinalas. Questa persuna vegn infurmada davart motivs, intent, gener, ristgas, effects secundars e custs da la mesira sco er davart alternativas. Uschenavant pussibel vegnis er Vus sez integrads en la decisiun, e la planisaziun da tractament vegn adattada permanentamain."
       },
       "when": {
         "interest": [
@@ -481,7 +685,11 @@
       "id": "emergency",
       "kind": "warning",
       "text": {
-        "de": "In dringlichen Fällen wartet die Ärztin oder der Arzt nicht erst auf die Abklärung einer Patientenverfügung oder die vertretungsberechtigte Person, sondern ergreift sofort die nötigen medizinischen Massnahmen, nach Ihrem mutmasslichen Willen und Ihren Interessen."
+        "de": "In dringlichen Fällen wartet die Ärztin oder der Arzt nicht erst auf die Abklärung einer Patientenverfügung oder die vertretungsberechtigte Person, sondern ergreift sofort die nötigen medizinischen Massnahmen, nach Ihrem mutmasslichen Willen und Ihren Interessen.",
+        "fr": "Dans les cas urgents, la ou le médecin n’attend pas d’abord la vérification de l’existence de directives anticipées ou la personne habilitée à vous représenter, mais prend immédiatement les mesures médicales nécessaires, conformément à votre volonté présumée et à vos intérêts.",
+        "it": "Nei casi urgenti il medico non attende prima l'accertamento di direttive del paziente o la persona autorizzata a rappresentarla, ma adotta subito i provvedimenti medici necessari, secondo la sua volontà presumibile e i suoi interessi.",
+        "en": "In urgent cases, the doctor does not wait to check for a living will or for the person entitled to represent you, but immediately takes the necessary medical procedures, in accordance with your presumed will and your interests.",
+        "rm": "En cas urgents na spetga la medgessa u il medi betg emprim sin la clarificaziun d'ina disposiziun dal pazient u sin la persuna autorisada a la represchentanza, mabain prenda immediat las mesiras medicinalas necessarias, tenor Voss avert presumibel e Voss interess."
       },
       "when": {
         "interest": [
@@ -498,7 +706,11 @@
       "id": "complaint-kesb",
       "kind": "rule",
       "text": {
-        "de": "Jede Ihnen nahestehende Person kann sich schriftlich an die KESB wenden, wenn Ihrer Patientenverfügung nicht entsprochen wird, wenn Ihre Interessen als urteilsunfähige Person gefährdet oder nicht mehr gewahrt sind, oder wenn geltend gemacht wird, die Patientenverfügung beruhe nicht auf Ihrem freien Willen. Die KESB prüft dann, wie beim Vorsorgeauftrag, ob eine behördliche Massnahme nötig ist."
+        "de": "Jede Ihnen nahestehende Person kann sich schriftlich an die KESB wenden, wenn Ihrer Patientenverfügung nicht entsprochen wird, wenn Ihre Interessen als urteilsunfähige Person gefährdet oder nicht mehr gewahrt sind, oder wenn geltend gemacht wird, die Patientenverfügung beruhe nicht auf Ihrem freien Willen. Die KESB prüft dann, wie beim Vorsorgeauftrag, ob eine behördliche Massnahme nötig ist.",
+        "fr": "Toute personne qui vous est proche peut s’adresser par écrit à l’APEA si vos directives anticipées ne sont pas respectées, si vos intérêts de personne incapable de discernement sont menacés ou ne sont plus sauvegardés, ou s’il est allégué que les directives anticipées ne reposent pas sur votre volonté libre. L’APEA examine alors, comme pour le mandat pour cause d’inaptitude, si une mesure de l’autorité est nécessaire.",
+        "it": "Ogni persona a lei vicina può rivolgersi per scritto all'APMA se non si dà seguito alle sue direttive del paziente, se i suoi interessi come persona incapace di discernimento sono minacciati o non più tutelati, oppure se si fa valere che le direttive del paziente non poggiano sulla sua libera volontà. L'APMA verifica allora, come per il mandato precauzionale, se sia necessario un provvedimento dell'autorità.",
+        "en": "Anyone close to you can contact the KESB in writing if your living will is not being complied with, if your interests as a person incapable of judgement are endangered or no longer protected, or if it is claimed that the living will is not based on your free will. The KESB then checks, as with the advance care directive, whether an official measure is needed.",
+        "rm": "Mintga persuna datiers a Vus po As drizzar per scrit a la KESB, sche Vossa disposiziun dal pazient na vegn betg suondada, sche Voss interess sco persuna nuncapabla da giudicar èn periclitads u betg pli garantids, u sche vegn fatg valair che la disposiziun dal pazient na sa basia betg sin Voss libra voluntad. La KESB examinescha lura, sco tar il mandat preventiv, sch'ina mesira da l'autoritad è necessaria."
       },
       "when": {
         "interest": [
@@ -515,7 +727,11 @@
       "id": "medical-representation-order",
       "kind": "rule",
       "text": {
-        "de": "Für die Zustimmung zu medizinischen Massnahmen gilt eine gesetzliche Reihenfolge, wenn Sie urteilsunfähig sind: zuerst die in einer Patientenverfügung oder einem Vorsorgeauftrag bezeichnete Person, dann eine Beiständin oder ein Beistand mit einem entsprechenden Vertretungsrecht, dann Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner, sofern gemeinsamer Haushalt oder regelmässige persönliche Betreuung besteht, dann eine Person, die mit Ihnen einen Haushalt führt und Sie regelmässig persönlich betreut, dann Ihre Nachkommen, dann Ihre Eltern und zuletzt Ihre Geschwister, jeweils wenn sie Sie regelmässig und persönlich betreuen. Sind mehrere Personen gleichermassen berechtigt, darf die gutgläubige Ärztin oder der gutgläubige Arzt annehmen, dass sie im Einverständnis miteinander handeln. Fehlen Weisungen, entscheidet die vertretungsberechtigte Person nach Ihrem mutmasslichen Willen und Ihren Interessen."
+        "de": "Für die Zustimmung zu medizinischen Massnahmen gilt eine gesetzliche Reihenfolge, wenn Sie urteilsunfähig sind: zuerst die in einer Patientenverfügung oder einem Vorsorgeauftrag bezeichnete Person, dann eine Beiständin oder ein Beistand mit einem entsprechenden Vertretungsrecht, dann Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner, sofern gemeinsamer Haushalt oder regelmässige persönliche Betreuung besteht, dann eine Person, die mit Ihnen einen Haushalt führt und Sie regelmässig persönlich betreut, dann Ihre Nachkommen, dann Ihre Eltern und zuletzt Ihre Geschwister, jeweils wenn sie Sie regelmässig und persönlich betreuen. Sind mehrere Personen gleichermassen berechtigt, darf die gutgläubige Ärztin oder der gutgläubige Arzt annehmen, dass sie im Einverständnis miteinander handeln. Fehlen Weisungen, entscheidet die vertretungsberechtigte Person nach Ihrem mutmasslichen Willen und Ihren Interessen.",
+        "fr": "Pour le consentement aux mesures médicales, un ordre légal s’applique lorsque vous êtes incapable de discernement : d’abord la personne désignée dans des directives anticipées ou un mandat pour cause d’inaptitude, puis une curatrice ou un curateur disposant d’un pouvoir de représentation correspondant, puis votre conjoint ou votre partenaire enregistrée ou votre partenaire enregistré, pour autant qu’il existe un ménage commun ou une assistance personnelle régulière, puis une personne qui fait ménage commun avec vous et vous assiste personnellement de façon régulière, puis vos descendants, puis vos père et mère et enfin vos frères et sœurs, chaque fois s’ils vous assistent régulièrement et personnellement. Si plusieurs personnes sont habilitées à égalité, la ou le médecin de bonne foi peut présumer qu’elles agissent d’un commun accord. En l’absence d’instructions, la personne habilitée à vous représenter décide selon votre volonté présumée et vos intérêts.",
+        "it": "Per il consenso ai provvedimenti medici vale un ordine legale, se lei è incapace di discernimento: in primo luogo la persona designata in direttive del paziente o in un mandato precauzionale, poi un curatore con un corrispondente diritto di rappresentanza, poi il suo coniuge o il suo partner registrato, se esiste una comunione domestica o un'assistenza personale regolare, poi una persona che convive con lei e la assiste regolarmente di persona, poi i suoi discendenti, poi i suoi genitori e infine i suoi fratelli e le sue sorelle, ciascuno se la assiste regolarmente e di persona. Se più persone hanno lo stesso diritto, il medico in buona fede può presumere che esse agiscano d'intesa tra loro. Se mancano istruzioni, la persona autorizzata a rappresentarla decide secondo la sua volontà presumibile e i suoi interessi.",
+        "en": "For consenting to medical procedures, a statutory order applies if you are incapable of judgement: first, the person named in a living will or advance care directive; then a deputy with an appropriate right of representation; then your spouse or registered partner, provided you share a household or they provide you with regular personal care; then a person who runs a household with you and provides you with regular personal care; then your descendants; then your parents; and lastly your siblings, in each case if they provide you with regular, personal care. If several people are equally entitled, a doctor acting in good faith may assume that they are acting in agreement with one another. If instructions are missing, the person entitled to represent you decides in accordance with your presumed will and your interests.",
+        "rm": "Per il consentiment a mesiras medicinalas vala in urden legal, sche Vus essas nuncapabels da giudicar: emprim la persuna designada en ina disposiziun dal pazient u in mandat preventiv, lura ina curatura u in curatur cun in dretg da represchentanza correspundent, lura Voss consort u Vossa partenaria registrada resp. Voss partenari registrà, uschenavant che datti ina chasada cuminaivla u ina tgira persunala regulara, lura ina persuna che maina cun Vus ina chasada e Vus tgira regularmain e persunalmain, lura Vossa descendents, lura Voss geniturs e per ultim Voss fragliuns, mintga giada uschenavant ch'els Vus tgiran regularmain e persunalmain. Èn pliras persunas autorisadas egualmain, dastga la medgessa u il medi da buna fai supponer ch'ellas agin d'accordi ina cun l'autra. Mancan instrucziuns, decida la persuna autorisada a la represchentanza tenor Voss avert presumibel e Voss interess."
       },
       "sources": [
         "zgb-378"
@@ -525,7 +741,11 @@
       "id": "spousal-representation",
       "kind": "rule",
       "text": {
-        "de": "Führen Sie mit Ihrem Ehegatten oder Ihrer eingetragenen Partnerin bzw. Ihrem eingetragenen Partner einen gemeinsamen Haushalt oder leistet diese Person Ihnen regelmässig und persönlich Beistand, hat sie von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht. Dieses Recht deckt Rechtshandlungen, die üblicherweise zur Deckung Ihres Unterhaltsbedarfs nötig sind, die ordentliche Verwaltung Ihres Einkommens und übrigen Vermögens, sowie nötigenfalls das Öffnen und Erledigen der Post. Für ausserordentliche Vermögensverwaltung braucht sie zusätzlich die Zustimmung der KESB, und auch sie muss dabei sorgfältig handeln. Bestehen Zweifel, ob die Voraussetzungen erfüllt sind, entscheidet die KESB. Möchten Sie nicht, dass Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner Sie so vertritt, bestimmen Sie in einem Vorsorgeauftrag eine andere Person. Dann gilt dieses gesetzliche Vertretungsrecht nicht."
+        "de": "Führen Sie mit Ihrem Ehegatten oder Ihrer eingetragenen Partnerin bzw. Ihrem eingetragenen Partner einen gemeinsamen Haushalt oder leistet diese Person Ihnen regelmässig und persönlich Beistand, hat sie von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht. Dieses Recht deckt Rechtshandlungen, die üblicherweise zur Deckung Ihres Unterhaltsbedarfs nötig sind, die ordentliche Verwaltung Ihres Einkommens und übrigen Vermögens, sowie nötigenfalls das Öffnen und Erledigen der Post. Für ausserordentliche Vermögensverwaltung braucht sie zusätzlich die Zustimmung der KESB, und auch sie muss dabei sorgfältig handeln. Bestehen Zweifel, ob die Voraussetzungen erfüllt sind, entscheidet die KESB. Möchten Sie nicht, dass Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner Sie so vertritt, bestimmen Sie in einem Vorsorgeauftrag eine andere Person. Dann gilt dieses gesetzliche Vertretungsrecht nicht.",
+        "fr": "Si vous faites ménage commun avec votre conjoint ou votre partenaire enregistrée ou votre partenaire enregistré, ou si cette personne vous assiste régulièrement et personnellement, elle dispose d’un pouvoir de représentation de par la loi, s’il n’existe ni mandat pour cause d’inaptitude ni curatelle correspondante. Ce droit couvre les actes juridiques usuellement nécessaires pour couvrir vos besoins d’entretien, la gestion ordinaire de vos revenus et du reste de votre patrimoine, ainsi que, au besoin, l’ouverture et le traitement du courrier. Pour la gestion extraordinaire du patrimoine, elle a en outre besoin de l’accord de l’APEA, et elle doit là aussi agir avec soin. En cas de doute sur la réalisation des conditions, l’APEA décide. Si vous ne souhaitez pas que votre conjoint ou votre partenaire enregistrée ou votre partenaire enregistré vous représente ainsi, désignez une autre personne dans un mandat pour cause d’inaptitude. Ce pouvoir légal de représentation ne s’applique alors pas.",
+        "it": "Se lei conduce un'economia domestica comune con il suo coniuge o il suo partner registrato, oppure se questa persona le presta regolarmente e di persona assistenza, essa ha per legge un diritto di rappresentanza, se non esistono né un mandato precauzionale né una corrispondente curatela. Questo diritto copre gli atti giuridici di regola necessari per coprire il suo fabbisogno di mantenimento, l'amministrazione ordinaria del suo reddito e del resto del suo patrimonio, nonché, se necessario, l'apertura e l'evasione della posta. Per un'amministrazione patrimoniale straordinaria essa necessita inoltre del consenso dell'APMA, e anche in questo deve agire con diligenza. Se vi sono dubbi sull'adempimento dei presupposti, decide l'APMA. Se lei non desidera che il suo coniuge o il suo partner registrato la rappresenti in questo modo, designi in un mandato precauzionale un'altra persona. In tal caso questo diritto legale di rappresentanza non si applica.",
+        "en": "If you run a joint household with your spouse or registered partner, or if that person provides you with regular, personal assistance, they have a statutory right of representation by operation of law, if neither an advance care directive nor a corresponding deputyship exists. This right covers legal transactions usually needed to cover your maintenance needs, the ordinary management of your income and other assets, and, if necessary, opening and dealing with the post. For extraordinary asset management, they additionally need the consent of the KESB, and they too must act with due care in doing so. If there is doubt whether the requirements are met, the KESB decides. If you do not want your spouse or registered partner to represent you in this way, name another person in an advance care directive. This statutory right of representation then does not apply.",
+        "rm": "Manais Vus cun Voss consort u cun Vossa partenaria registrada resp. Voss partenari registrà ina chasada cuminaivla, u As presta questa persuna regularmain e persunalmain agid, ha ella da lescha in dretg da represchentanza, sche ni in mandat preventiv ni ina curatella correspundenta exista. Quest dretg cumpiglia acts giuridics usitadamain necessaris per cuvrir Voss basegn da mantegniment, l'administraziun ordinaria da Vossa entrada e da Vossa autra facultad, sco er, sche necessari, l'avrir ed exequir la posta. Per l'administraziun extraordinaria da facultad ha ella supplementarmain basegn dal consentiment da la KESB, ed er ella sto agir cun cura. Datti dubis, sch'ils pretschs èn ademplids, decida la KESB. Na vulais Vus betg che Voss consort u Vossa partenaria registrada resp. Voss partenari registrà Vus represchentia uschia, designai en in mandat preventiv in'autra persuna. Lura na vala quest dretg da represchentanza legal betg."
       },
       "when": {
         "relationship": [
@@ -543,7 +763,11 @@
       "id": "no-default-representation",
       "kind": "warning",
       "text": {
-        "de": "Ohne Vorsorgeauftrag gilt das gesetzliche Vertretungsrecht für Alltagsgeschäfte und Vermögen nur zwischen Ehegatten oder eingetragenen Partnerinnen und Partnern, die zusammenleben oder sich regelmässig persönlich betreuen, und auch dann nur beschränkt. Leben Sie unverheiratet mit einer Partnerin oder einem Partner zusammen, oder leben Sie allein, hat diese Person, so nahe sie Ihnen steht, für Vermögens- und Rechtsgeschäfte kein solches gesetzliches Vertretungsrecht; bei medizinischen Massnahmen kann eine mit Ihnen im Haushalt lebende, Sie betreuende Partnerin oder ein solcher Partner immerhin in der gesetzlichen Reihenfolge vertretungsberechtigt sein. Sind Ihre Interessen sonst gefährdet und liegt keine gültige Vorsorge vor, muss die KESB einschreiten, in der Regel mit einer Beistandschaft. Das ist ein wichtiger Grund, gerade als unverheiratetes Paar oder als alleinstehende Person einen Vorsorgeauftrag zu erstellen."
+        "de": "Ohne Vorsorgeauftrag gilt das gesetzliche Vertretungsrecht für Alltagsgeschäfte und Vermögen nur zwischen Ehegatten oder eingetragenen Partnerinnen und Partnern, die zusammenleben oder sich regelmässig persönlich betreuen, und auch dann nur beschränkt. Leben Sie unverheiratet mit einer Partnerin oder einem Partner zusammen, oder leben Sie allein, hat diese Person, so nahe sie Ihnen steht, für Vermögens- und Rechtsgeschäfte kein solches gesetzliches Vertretungsrecht; bei medizinischen Massnahmen kann eine mit Ihnen im Haushalt lebende, Sie betreuende Partnerin oder ein solcher Partner immerhin in der gesetzlichen Reihenfolge vertretungsberechtigt sein. Sind Ihre Interessen sonst gefährdet und liegt keine gültige Vorsorge vor, muss die KESB einschreiten, in der Regel mit einer Beistandschaft. Das ist ein wichtiger Grund, gerade als unverheiratetes Paar oder als alleinstehende Person einen Vorsorgeauftrag zu erstellen.",
+        "fr": "Sans mandat pour cause d’inaptitude, le pouvoir légal de représentation pour les actes de la vie courante et le patrimoine ne s’applique qu’entre conjoints ou partenaires enregistrés qui font ménage commun ou s’assistent régulièrement et personnellement, et même alors seulement de façon limitée. Si vous vivez sans être marié avec une partenaire ou un partenaire, ou si vous vivez seul, cette personne, aussi proche soit-elle de vous, ne dispose d’aucun pouvoir légal de représentation de ce type pour les actes relatifs au patrimoine et les actes juridiques ; pour les mesures médicales, une partenaire ou un partenaire qui fait ménage commun avec vous et vous assiste peut néanmoins être habilité à vous représenter dans l’ordre légal. Si vos intérêts sont par ailleurs menacés et qu’aucune prévoyance valable n’existe, l’APEA doit intervenir, en règle générale par une curatelle. C’est là une raison importante d’établir un mandat pour cause d’inaptitude, précisément en tant que couple non marié ou en tant que personne vivant seule.",
+        "it": "Senza mandato precauzionale, il diritto legale di rappresentanza per gli affari quotidiani e il patrimonio vale solo tra coniugi o partner registrati che convivono o si assistono regolarmente di persona, e anche allora solo in modo limitato. Se lei convive senza essere sposato con una partner o un partner, oppure se vive solo, questa persona, per quanto le sia vicina, non ha un simile diritto legale di rappresentanza per gli affari patrimoniali e giuridici; per i provvedimenti medici, un partner che vive con lei nella stessa economia domestica e la assiste può comunque avere un diritto di rappresentanza secondo l'ordine legale. Se i suoi interessi sono altrimenti minacciati e non esiste una valida previdenza, l'APMA deve intervenire, di regola con una curatela. Questo è un motivo importante per redigere un mandato precauzionale, proprio come coppia non sposata o come persona sola.",
+        "en": "Without an advance care directive, the statutory right of representation for everyday matters and assets applies only between spouses or registered partners who live together or provide each other with regular personal care, and even then only to a limited extent. If you live with a partner without being married, or if you live alone, that person, however close to you they may be, has no such statutory right of representation for asset and legal matters; for medical procedures, a partner who lives in the same household as you and looks after you can still be entitled to represent you under the statutory order. If your interests are otherwise endangered and there is no valid provision in place, the KESB must intervene, generally with a deputyship. This is an important reason to make an advance care directive, particularly as an unmarried couple or as a person living alone.",
+        "rm": "Senza mandat preventiv vala il dretg da represchentanza legal per fatschendas dal mintgadi e per facultad mo tranter consorts u partenarias registradas e partenaris registrads che vivan ensemen u sa tgiran regularmain e persunalmain, ed er lura mo limità. Vivais Vus, senza esser maridads, ensemen cun ina partenaria u in partenari, u vivais Vus suls, na ha questa persuna, aschi datiers ch'ella Vus saja, nagin tal dretg da represchentanza legal per fatschendas da facultad e giuridicas; tar mesiras medicinalas po ina partenaria u in partenari che viva cun Vus en chasada e Vus tgira, tuttina esser autorisà en l'urden legal. Èn Voss interess autramain periclitads e n'exista nagin provediment valaivel, sto la KESB intervegnir, per regla cun ina curatella. Quai è in motiv impurtant per far, precisamain sco pèr betg maridà u sco persuna alleinstanta, in mandat preventiv."
       },
       "when": {
         "relationship": [
@@ -562,7 +786,11 @@
       "id": "revocation",
       "kind": "rule",
       "text": {
-        "de": "Sie können Ihren Vorsorgeauftrag jederzeit widerrufen, in einer der beiden Formen, die für die Errichtung gelten, oder indem Sie die Urkunde vernichten. Erstellen Sie ein neues Dokument, ohne das alte ausdrücklich aufzuheben, tritt das neue an dessen Stelle, ausser es ist zweifellos nur eine Ergänzung. Für die Patientenverfügung gilt sinngemäss dieselbe Regel: Auch sie können Sie jederzeit ändern oder widerrufen."
+        "de": "Sie können Ihren Vorsorgeauftrag jederzeit widerrufen, in einer der beiden Formen, die für die Errichtung gelten, oder indem Sie die Urkunde vernichten. Erstellen Sie ein neues Dokument, ohne das alte ausdrücklich aufzuheben, tritt das neue an dessen Stelle, ausser es ist zweifellos nur eine Ergänzung. Für die Patientenverfügung gilt sinngemäss dieselbe Regel: Auch sie können Sie jederzeit ändern oder widerrufen.",
+        "fr": "Vous pouvez révoquer votre mandat pour cause d’inaptitude en tout temps, dans l’une des deux formes valables pour son établissement, ou en détruisant l’acte. Si vous établissez un nouveau document sans abroger expressément l’ancien, le nouveau prend la place de celui-ci, sauf s’il ne s’agit sans doute possible que d’un complément. La même règle s’applique par analogie aux directives anticipées : vous pouvez, elles aussi, les modifier ou les révoquer en tout temps.",
+        "it": "Lei può revocare il suo mandato precauzionale in ogni momento, in una delle due forme previste per la sua costituzione, oppure distruggendo il documento. Se redige un nuovo documento senza revocare espressamente il precedente, il nuovo ne prende il posto, a meno che non si tratti indubbiamente solo di un'integrazione. Per le direttive del paziente vale per analogia la stessa regola: anche queste può modificarle o revocarle in ogni momento.",
+        "en": "You can revoke your advance care directive at any time, in either of the two forms that apply to making it, or by destroying the document. If you create a new document without expressly revoking the old one, the new one takes its place, unless it is clearly no more than a supplement. The same rule applies correspondingly to the living will: you can also change or revoke it at any time.",
+        "rm": "Vus pudais revocar Voss mandat preventiv da tut temp, en ina da las duas furmas che valan per la fatgira, u cun destruir la documentaziun. Fais Vus in nov document, senza abolir explicitamain il vegl, entra il nov a la plazza da quel, exceptà i saja senza dubi mo ina cumplettaziun. Per la disposiziun dal pazient vala per analogia la medema regla: er ella pudais Vus mudar u revocar da tut temp."
       },
       "sources": [
         "zgb-362",
@@ -573,7 +801,11 @@
       "id": "create-document",
       "kind": "step",
       "text": {
-        "de": "So gehen Sie vor: Entwerfen Sie den Text, umschreiben Sie die Aufgaben oder medizinischen Wünsche klar, und besprechen Sie den Entwurf mit der vorgesehenen Person. Nutzen Sie eine anerkannte Vorlage, etwa von einer kantonalen Behörde, einer Fachorganisation oder einer Notarin bzw. einem Notar, statt bei null zu beginnen. Schreiben, datieren und unterzeichnen Sie den Vorsorgeauftrag danach von Hand, oder lassen Sie ihn öffentlich beurkunden; die Patientenverfügung genügt getippt, datiert und unterschrieben. Bewahren Sie das Original griffbereit auf, und sagen Sie Familie und Vertrauenspersonen, wo es liegt."
+        "de": "So gehen Sie vor: Entwerfen Sie den Text, umschreiben Sie die Aufgaben oder medizinischen Wünsche klar, und besprechen Sie den Entwurf mit der vorgesehenen Person. Nutzen Sie eine anerkannte Vorlage, etwa von einer kantonalen Behörde, einer Fachorganisation oder einer Notarin bzw. einem Notar, statt bei null zu beginnen. Schreiben, datieren und unterzeichnen Sie den Vorsorgeauftrag danach von Hand, oder lassen Sie ihn öffentlich beurkunden; die Patientenverfügung genügt getippt, datiert und unterschrieben. Bewahren Sie das Original griffbereit auf, und sagen Sie Familie und Vertrauenspersonen, wo es liegt.",
+        "fr": "Voici comment procéder : rédigez le texte, décrivez clairement les tâches ou les souhaits médicaux, et discutez le projet avec la personne envisagée. Utilisez un modèle reconnu, par exemple d’une autorité cantonale, d’une organisation spécialisée ou d’une notaire ou d’un notaire, plutôt que de partir de zéro. Écrivez, datez et signez ensuite le mandat pour cause d’inaptitude de votre main, ou faites-le dresser en la forme authentique ; pour les directives anticipées, il suffit qu’elles soient tapées, datées et signées. Conservez l’original à portée de main, et indiquez à votre famille et aux personnes de confiance où il se trouve.",
+        "it": "Come procedere: elabori il testo, descriva chiaramente i compiti o i desideri medici, e discuta la bozza con la persona prevista. Utilizzi un modello riconosciuto, per esempio di un'autorità cantonale, di un'organizzazione specializzata o di un notaio, invece di iniziare da zero. Scriva, dati e firmi poi il mandato precauzionale a mano, oppure lo faccia costituire per atto pubblico; per le direttive del paziente basta un documento dattiloscritto, datato e firmato. Conservi l'originale a portata di mano, e dica alla famiglia e alle persone di fiducia dove si trova.",
+        "en": "Here is how to proceed: draft the text, describe the tasks or medical wishes clearly, and discuss the draft with the intended person. Use a recognised template, for example from a cantonal authority, a professional organisation or a notary, rather than starting from scratch. Then write, date and sign the advance care directive by hand, or have it made as a public deed; for the living will, it is enough for it to be typed, dated and signed. Keep the original close at hand, and tell your family and people you trust where it is kept.",
+        "rm": "Uschia procedais Vus: sboccegiai il text, descrivi cler ils incumbents u ils giavischs medicinals, e discurri il sboz cun la persuna prevesida. Duvrai in model renconuschì, per exempel d'in'autoritad chantunala, d'in'organisaziun spezialisada u d'ina notaria resp. d'in notari, empè da cumenzar da nulla. Scrivi, datai e suttascrivi il mandat preventiv lura a maun, u laschai el documentar publicamain; la disposiziun dal pazient basta stampada, datada e suttascritta. Conservai l'original a maun, e din a la famiglia ed a persunas da fidanza, nua ch'el sa chatta."
       },
       "when": {
         "existing": [
@@ -586,7 +818,11 @@
       "id": "keep-current",
       "kind": "step",
       "text": {
-        "de": "Prüfen Sie Ihr bestehendes Dokument periodisch, etwa alle zwei bis drei Jahre oder nach wichtigen Ereignissen wie Heirat, Trennung, einem Umzug oder einer neuen Diagnose, und datieren Sie eine geänderte Fassung neu. Informieren Sie die beauftragten Personen, ob sie die Aufgabe weiterhin übernehmen wollen, und Ihre Familie, dass die Dokumente bestehen und wo sie liegen."
+        "de": "Prüfen Sie Ihr bestehendes Dokument periodisch, etwa alle zwei bis drei Jahre oder nach wichtigen Ereignissen wie Heirat, Trennung, einem Umzug oder einer neuen Diagnose, und datieren Sie eine geänderte Fassung neu. Informieren Sie die beauftragten Personen, ob sie die Aufgabe weiterhin übernehmen wollen, und Ihre Familie, dass die Dokumente bestehen und wo sie liegen.",
+        "fr": "Vérifiez périodiquement votre document existant, par exemple tous les deux à trois ans ou après des événements importants comme un mariage, une séparation, un déménagement ou un nouveau diagnostic, et datez à nouveau une version modifiée. Informez les personnes mandatées si elles veulent continuer à assumer la tâche, et votre famille du fait que les documents existent et de l’endroit où ils se trouvent.",
+        "it": "Verifichi periodicamente il suo documento esistente, per esempio ogni due o tre anni o dopo eventi importanti come un matrimonio, una separazione, un trasloco o una nuova diagnosi, e dati nuovamente una versione modificata. Informi i mandatari se vogliono continuare ad assumere il compito, e la sua famiglia che i documenti esistono e dove si trovano.",
+        "en": "Review your existing document periodically, for example every two to three years or after important events such as marriage, separation, a move, or a new diagnosis, and give a changed version a new date. Ask the appointees whether they still want to take on the task, and tell your family that the documents exist and where they are kept.",
+        "rm": "Examinai Voss document existent periodicamain, per exempel mintga dus fin trais onns u suenter eveniments impurtants sco maridaglia, separaziun, in traslocament u ina nova diagnosa, e datai da nov ina versiun midada. Infurmai las persunas incumbensadas, sch'ellas vulan surpigliar vinavant l'incumbensa, e Vossa famiglia, ch'ils documents existan e nua ch'els sa chattan."
       },
       "when": {
         "existing": [
@@ -599,7 +835,11 @@
       "id": "relative-incapacitated",
       "kind": "escalate",
       "text": {
-        "de": "Ist eine Ihnen nahestehende Person bereits urteilsunfähig geworden, kann sie selbst keinen gültigen Vorsorgeauftrag und keine Patientenverfügung mehr errichten; dafür wäre Handlungs- beziehungsweise Urteilsfähigkeit im Zeitpunkt der Errichtung nötig gewesen. Prüfen Sie zuerst, ob bereits ein Dokument besteht, etwa über das Zivilstandsamt oder einen Vermerk auf der Versichertenkarte. Liegt ein gültiger Vorsorgeauftrag vor, muss die KESB dessen Wirksamkeit feststellen. Fehlt ein Dokument, kann sich jede nahestehende Person schriftlich an die KESB wenden; diese prüft von Amtes wegen, ob eine Beistandschaft oder eine andere Schutzmassnahme nötig ist. Holen Sie in dieser Situation persönliche Beratung ein."
+        "de": "Ist eine Ihnen nahestehende Person bereits urteilsunfähig geworden, kann sie selbst keinen gültigen Vorsorgeauftrag und keine Patientenverfügung mehr errichten; dafür wäre Handlungs- beziehungsweise Urteilsfähigkeit im Zeitpunkt der Errichtung nötig gewesen. Prüfen Sie zuerst, ob bereits ein Dokument besteht, etwa über das Zivilstandsamt oder einen Vermerk auf der Versichertenkarte. Liegt ein gültiger Vorsorgeauftrag vor, muss die KESB dessen Wirksamkeit feststellen. Fehlt ein Dokument, kann sich jede nahestehende Person schriftlich an die KESB wenden; diese prüft von Amtes wegen, ob eine Beistandschaft oder eine andere Schutzmassnahme nötig ist. Holen Sie in dieser Situation persönliche Beratung ein.",
+        "fr": "Si une personne qui vous est proche est déjà devenue incapable de discernement, elle ne peut plus elle-même établir de mandat pour cause d’inaptitude ni de directives anticipées valables ; cela aurait exigé l’exercice des droits civils, respectivement la capacité de discernement, au moment de l’établissement. Vérifiez d’abord si un document existe déjà, par exemple auprès de l’office de l’état civil ou par une mention sur la carte d’assuré. Si un mandat pour cause d’inaptitude valable existe, l’APEA doit en constater l’effectivité. En l’absence de document, toute personne proche peut s’adresser par écrit à l’APEA ; celle-ci examine d’office si une curatelle ou une autre mesure de protection est nécessaire. Faites-vous conseiller personnellement dans cette situation.",
+        "it": "Se una persona a lei vicina è già diventata incapace di discernimento, essa stessa non può più costituire validamente né un mandato precauzionale né direttive del paziente; per questo sarebbero state necessarie la capacità di agire, rispettivamente di discernimento, al momento della costituzione. Verifichi anzitutto se esiste già un documento, per esempio tramite l'ufficio dello stato civile o un'annotazione sulla tessera di assicurato. Se esiste un valido mandato precauzionale, l'APMA deve accertarne l'efficacia. Se manca un documento, ogni persona vicina può rivolgersi per scritto all'APMA; questa verifica d'ufficio se sia necessaria una curatela o un altro provvedimento di protezione. Si faccia consigliare personalmente in questa situazione.",
+        "en": "If someone close to you has already become incapable of judgement, they can no longer make a valid advance care directive or living will themselves; this would have required capacity to act, or capacity of judgement, at the time it was made. First check whether a document already exists, for example through the Civil Register Office or a note on the health insurance card. If a valid advance care directive exists, the KESB must establish that it takes effect. If no document exists, anyone close to the person can contact the KESB in writing; it then checks, of its own motion, whether a deputyship or another protective measure is needed. Get personal advice in this situation.",
+        "rm": "È ina persuna datiers a Vus gia daventada nuncapabla da giudicar, na po ella sezza betg pli far in mandat preventiv valaivel ni ina disposiziun dal pazient; per quai fiss stada necessaria abilitad d'agir resp. capacitad da giudicar al mument da la fatgira. Examinai emprim, sch'i exista gia in document, per exempel tras l'uffizi da stadi civil u ina nota sin la charta d'assicurà. Exista in mandat preventiv valaivel, sto la KESB constatar sia validitad. Manca in document, po mintga persuna datiers As drizzar per scrit a la KESB; questa examinescha da uffizi, sch'ina curatella u in'autra mesira da protecziun è necessaria. Retschertgai en questa situaziun consulaziun persunala."
       },
       "when": {
         "situation": [
@@ -617,14 +857,22 @@
       "id": "escalate-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung ein, wenn erhebliches Vermögen oder Liegenschaften im Spiel sind, Sie ein Unternehmen führen oder daran beteiligt sind, es Konflikte in der Familie oder mit der vorgesehenen Vertrauensperson gibt, Vermögen oder Angehörige im Ausland betroffen sind, oder eine nahestehende Person bereits urteilsunfähig geworden ist. Auch wenn Sie unsicher sind, wie Sie Aufgaben oder Weisungen genau formulieren sollen, hilft eine Fachperson weiter."
+        "de": "Holen Sie persönliche Beratung ein, wenn erhebliches Vermögen oder Liegenschaften im Spiel sind, Sie ein Unternehmen führen oder daran beteiligt sind, es Konflikte in der Familie oder mit der vorgesehenen Vertrauensperson gibt, Vermögen oder Angehörige im Ausland betroffen sind, oder eine nahestehende Person bereits urteilsunfähig geworden ist. Auch wenn Sie unsicher sind, wie Sie Aufgaben oder Weisungen genau formulieren sollen, hilft eine Fachperson weiter.",
+        "fr": "Faites-vous conseiller personnellement si un patrimoine ou des immeubles importants sont en jeu, si vous dirigez une entreprise ou y participez, s’il existe des conflits dans la famille ou avec la personne de confiance envisagée, si un patrimoine ou des proches à l’étranger sont concernés, ou si une personne qui vous est proche est déjà devenue incapable de discernement. De même, si vous n’êtes pas sûr de la manière exacte de formuler les tâches ou les instructions, une personne spécialisée peut vous aider.",
+        "it": "Si faccia consigliare personalmente se sono in gioco un patrimonio considerevole o immobili, se lei dirige un'azienda o vi partecipa, se vi sono conflitti in famiglia o con la persona di fiducia prevista, se sono interessati patrimonio o congiunti all'estero, oppure se una persona a lei vicina è già diventata incapace di discernimento. Anche se lei è incerto su come formulare esattamente i compiti o le istruzioni, un professionista può aiutarla.",
+        "en": "Get personal advice if substantial assets or real estate are involved, if you run a business or hold a stake in one, if there are conflicts within the family or with the intended person of trust, if assets or family members abroad are affected, or if someone close to you has already become incapable of judgement. A professional can also help if you are unsure exactly how to word the tasks or instructions.",
+        "rm": "Retschertgai consulaziun persunala, sche facultad considerabla u bains immobigliars èn en gieu, sche Vus manais in'interpresa u sezzas participads ad ella, sche datti conflicts en la famiglia u cun la persuna da fidanza prevesida, sche facultad u confamigliars a l'exteriur èn pertutgads, u sch'ina persuna datiers a Vus è gia daventada nuncapabla da giudicar. Er sche Vus essas nunsegirs, co formular exactamain incumbents u instrucziuns, gida vinavant ina persuna spezialisada."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose oder günstige Hilfe: Die Erwachsenenschutzbehörde (KESB) Ihres Wohnkantons informiert über Vorsorgeauftrag und Patientenverfügung. Pro Senectute berät ältere Menschen und ihre Angehörigen zur persönlichen Vorsorge und bietet Musterdokumente an. Viele Kantone und Gemeinden führen Beratungsstellen oder Informationsveranstaltungen, und Notarinnen und Notare informieren über die öffentliche Beurkundung."
+        "de": "Kostenlose oder günstige Hilfe: Die Erwachsenenschutzbehörde (KESB) Ihres Wohnkantons informiert über Vorsorgeauftrag und Patientenverfügung. Pro Senectute berät ältere Menschen und ihre Angehörigen zur persönlichen Vorsorge und bietet Musterdokumente an. Viele Kantone und Gemeinden führen Beratungsstellen oder Informationsveranstaltungen, und Notarinnen und Notare informieren über die öffentliche Beurkundung.",
+        "fr": "Aide gratuite ou à faible coût : l’autorité de protection de l’adulte (APEA) de votre canton de domicile renseigne sur le mandat pour cause d’inaptitude et les directives anticipées. Pro Senectute conseille les personnes âgées et leurs proches sur la prévoyance personnelle et propose des modèles de documents. De nombreux cantons et communes tiennent des services de consultation ou organisent des séances d’information, et les notaires renseignent sur l’instrumentation authentique.",
+        "it": "Aiuto gratuito o a basso costo: l'Autorità di protezione degli adulti (APMA) del suo Cantone di domicilio informa su mandato precauzionale e direttive del paziente. Pro Senectute consiglia le persone anziane e i loro congiunti sulla previdenza personale e offre modelli di documenti. Molti Cantoni e Comuni gestiscono consultori o organizzano incontri informativi, e i notai informano sulla costituzione per atto pubblico.",
+        "en": "Free or low-cost help: the adult protection authority (KESB) of your canton of residence provides information on the advance care directive and the living will. Pro Senectute advises older people and their families on personal provision and offers sample documents. Many cantons and municipalities run advice centres or information events, and notaries provide information on making a public deed.",
+        "rm": "Agid gratuit u avantagius: l'autoritad per la protecziun da creschids (KESB) da Voss chantun da domicil infurmescha davart il mandat preventiv e la disposiziun dal pazient. Pro Senectute cussegia persunas pli veglias e lur confamigliars davart il provediment persunal e porscha documents da model. Blers chantuns e vischnancas maneschan postas da consulaziun u sesidas d'infurmaziun, e notarias e notaris infurmeschan davart la documentaziun publica."
       }
     }
   ],
@@ -831,19 +1079,31 @@
   "official_links": [
     {
       "label": {
-        "de": "ch.ch: Patientenverfügung in der Schweiz"
+        "de": "ch.ch: Patientenverfügung in der Schweiz",
+        "fr": "ch.ch : Les directives anticipées en Suisse",
+        "it": "ch.ch: Le direttive del paziente in Svizzera",
+        "en": "ch.ch: The living will in Switzerland",
+        "rm": "ch.ch: La disposiziun dal pazient en Svizra"
       },
       "url": "https://www.ch.ch/de/gesundheit/patientenverfugung/"
     },
     {
       "label": {
-        "de": "Kanton Bern, KESB: Vorsorgeauftrag und Patientenverfügung"
+        "de": "Kanton Bern, KESB: Vorsorgeauftrag und Patientenverfügung",
+        "fr": "Canton de Berne, APEA : mandat pour cause d’inaptitude et directives anticipées",
+        "it": "Cantone di Berna, APMA: mandato precauzionale e direttive del paziente",
+        "en": "Canton of Bern, KESB: Advance care directive and living will",
+        "rm": "Chantun Berna, KESB: Mandat preventiv e disposiziun dal pazient"
       },
       "url": "https://www.kesb.dij.be.ch/de/start/Erwachsene/vorsorgeauftrag-und-patientenverfuegung.html"
     },
     {
       "label": {
-        "de": "Pro Senectute: Ihr Vorsorgeauftrag"
+        "de": "Pro Senectute: Ihr Vorsorgeauftrag",
+        "fr": "Pro Senectute : Votre mandat pour cause d’inaptitude",
+        "it": "Pro Senectute: il suo mandato precauzionale",
+        "en": "Pro Senectute: Your advance care directive",
+        "rm": "Pro Senectute: Voss mandat preventiv"
       },
       "url": "https://www.prosenectute.ch/de/ratgeber/persoenliche-vorsorge/vorsorgeauftrag.html"
     }

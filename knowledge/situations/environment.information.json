@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich will wissen, was in meinem Trinkwasser, in der Luft oder im Boden ist"
+    "de": "Ich will wissen, was in meinem Trinkwasser, in der Luft oder im Boden ist",
+    "fr": "Je veux savoir ce qui se trouve dans mon eau potable, dans l'air ou dans le sol",
+    "it": "Voglio sapere cosa c'è nella mia acqua potabile, nell'aria o nel suolo",
+    "en": "I want to know what is in my drinking water, in the air or in the soil",
+    "rm": "Jau vi savair tge ch'è en mia aua potabla, en l'aria u en la terra"
   },
   "summary": {
-    "de": "Jede Person darf Umweltinformationen einsehen, die bei einer Behörde liegen, ohne einen Grund anzugeben. Viele Messwerte sind schon veröffentlicht. Über das Trinkwasser muss die Wasserversorgung mindestens einmal im Jahr informieren. Eine Firma muss Ihnen keine Auskunft geben, aber die Behörde, die sie kontrolliert, hat oft die Daten. Bei Bundesstellen ist der Zugang in der Regel kostenlos. Antwortet eine Bundesstelle nicht oder lehnt sie ab, können Sie innert 20 Tagen eine kostenlose Schlichtung verlangen. Bei Kanton und Gemeinde gilt das kantonale Recht."
+    "de": "Jede Person darf Umweltinformationen einsehen, die bei einer Behörde liegen, ohne einen Grund anzugeben. Viele Messwerte sind schon veröffentlicht. Über das Trinkwasser muss die Wasserversorgung mindestens einmal im Jahr informieren. Eine Firma muss Ihnen keine Auskunft geben, aber die Behörde, die sie kontrolliert, hat oft die Daten. Bei Bundesstellen ist der Zugang in der Regel kostenlos. Antwortet eine Bundesstelle nicht oder lehnt sie ab, können Sie innert 20 Tagen eine kostenlose Schlichtung verlangen. Bei Kanton und Gemeinde gilt das kantonale Recht.",
+    "fr": "Toute personne peut consulter les informations sur l'environnement détenues par une autorité, sans devoir indiquer de motif. De nombreuses valeurs mesurées sont déjà publiées. Sur l'eau potable, la distribution d'eau doit informer au moins une fois par an. Une entreprise ne doit vous donner aucun renseignement, mais l'autorité qui la contrôle dispose souvent des données. Auprès des services fédéraux, l'accès est en règle générale gratuit. Si un service fédéral ne répond pas ou refuse, vous pouvez demander une médiation gratuite dans les 20 jours. Pour le canton et la commune, le droit cantonal s'applique.",
+    "it": "Ogni persona può consultare le informazioni ambientali che si trovano presso un'autorità, senza dover indicare un motivo. Molti valori misurati sono già pubblicati. Sull'acqua potabile il fornitore deve informare almeno una volta all'anno. Un'azienda non deve darle informazioni, ma l'autorità che la controlla spesso dispone dei dati. Presso i servizi federali l'accesso è di regola gratuito. Se un servizio federale non risponde o rifiuta, può chiedere entro 20 giorni una mediazione gratuita. Presso Cantone e Comune si applica il diritto cantonale.",
+    "en": "Anyone may inspect environmental information held by an authority, without giving a reason. Many measurement results are already published. On drinking water, the water supplier must inform at least once a year. A company does not have to give you information, but the authority that supervises it often has the data. Access at federal bodies is generally free of charge. If a federal body does not answer or refuses, you can request free mediation within 20 days. For the canton and municipality, cantonal law applies.",
+    "rm": "Mintga persuna dastga consultar infurmaziuns davart l'ambient che sa chattan tar in'autoritad, senza inditgar in motiv. Blers valurs da mesiraziun èn gia publitgads. Davart l'aua potabla sto il provediment d'aua infurmar almain in'giada per onn. Ina firma na sto dar a Vus nagina infurmaziun, ma l'autoritad che la controllescha ha savens las datas. Tar posts federals è l'access per regla gratuit. Sche in post federal na respunda betg u refusa, pudais Vus pretender entaifer 20 dis ina mediaziun gratuita. Tar chantun e vischnanca vala il dretg chantunal."
   },
   "examples": {
     "de": [
@@ -18,51 +26,111 @@
       "Wie kann ich die Messwerte vom Bach hinter unserem Haus bekommen?",
       "Das BAFU gibt mir ein Gutachten nicht heraus. Was kann ich tun?",
       "Die Gemeinde hat nicht geantwortet, als ich nach den Pestiziden im Wasser gefragt habe."
+    ],
+    "fr": [
+      "Y a-t-il des PFAS dans mon eau potable ? Où puis-je le vérifier ?",
+      "L'usine près de chez nous sent mauvais. Puis-je exiger de savoir ce qu'elle rejette dans l'air ?",
+      "Comment obtenir les valeurs mesurées du ruisseau derrière notre maison ?",
+      "L'OFEV ne me remet pas une expertise. Que puis-je faire ?",
+      "La commune n'a pas répondu quand j'ai demandé des informations sur les pesticides dans l'eau."
+    ],
+    "it": [
+      "La mia acqua potabile contiene PFAS? Dove posso controllare?",
+      "La fabbrica vicino a noi puzza. Posso sapere cosa emettono nell'aria?",
+      "Come posso ottenere i valori misurati del ruscello dietro casa nostra?",
+      "L'UFAM non mi consegna una perizia. Cosa posso fare?",
+      "Il Comune non ha risposto quando ho chiesto informazioni sui pesticidi nell'acqua."
+    ],
+    "en": [
+      "Does my drinking water contain PFAS? Where can I check that?",
+      "The factory near us smells. Can I demand to know what they're releasing into the air?",
+      "How can I get the measurement results for the stream behind our house?",
+      "The FOEN won't give me a report. What can I do?",
+      "The municipality didn't reply when I asked about pesticides in the water."
+    ],
+    "rm": [
+      "Ha mia aua potabla PFAS? Nua poss jau controllar quai?",
+      "La fabrica tar nus spuzza. Poss jau pretender da savair, tge ch'ella emetta en l'aria?",
+      "Co poss jau survegnir ils valurs da mesiraziun dal ri davos nossa chasa?",
+      "L'UFAM na dat betg ora a mai ina perizia. Tge poss jau far?",
+      "La vischnanca n'ha betg respundì, cur ch'jau hai dumandà per ils pestizids en l'aua."
     ]
   },
   "scope": {
     "covers": {
-      "de": "Wie Sie an Umweltinformationen kommen: was Behörden von sich aus veröffentlichen, die Information über das Trinkwasser, das Recht auf Einsicht in amtliche Dokumente bei Bund, Kanton und Gemeinde, Angaben über Firmen und Anlagen, Fristen, Schlichtung beim EDÖB und Kosten."
+      "de": "Wie Sie an Umweltinformationen kommen: was Behörden von sich aus veröffentlichen, die Information über das Trinkwasser, das Recht auf Einsicht in amtliche Dokumente bei Bund, Kanton und Gemeinde, Angaben über Firmen und Anlagen, Fristen, Schlichtung beim EDÖB und Kosten.",
+      "fr": "Comment obtenir des informations sur l'environnement : ce que les autorités publient de leur propre initiative, l'information sur l'eau potable, le droit de consulter les documents officiels auprès de la Confédération, du canton et de la commune, les indications sur les entreprises et les installations, les délais, la médiation auprès du PFPDT et les coûts.",
+      "it": "Come ottenere informazioni ambientali: cosa pubblicano di propria iniziativa le autorità, l'informazione sull'acqua potabile, il diritto di consultare i documenti ufficiali presso Confederazione, Cantone e Comune, i dati su aziende e impianti, i termini, la mediazione presso l'IFPDT e i costi.",
+      "en": "How to obtain environmental information: what authorities publish on their own initiative, information about drinking water, the right to inspect official documents held by the Confederation, cantons and municipalities, information about companies and facilities, time limits, mediation at the FDPIC, and costs.",
+      "rm": "Co Vus survegnis infurmaziuns davart l'ambient: tge che las autoritads publitgeschan da sasezzas, l'infurmaziun davart l'aua potabla, il dretg da consultar documents uffizials tar la Confederaziun, il chantun e la vischnanca, indicaziuns davart firmas ed installaziuns, termins, la mediaziun tar l'IFPDT ed ils custs."
     },
     "excludes": {
-      "de": "Streit unter Nachbarn, etwa wegen Wärmepumpen, Hecken oder Grillrauch. Die Anfechtung eines Bauprojekts, Anzeigen wegen Umweltdelikten und die kantonalen Verfahren im Einzelnen. Personendaten über Sie selbst, dafür gilt das Datenschutzrecht."
+      "de": "Streit unter Nachbarn, etwa wegen Wärmepumpen, Hecken oder Grillrauch. Die Anfechtung eines Bauprojekts, Anzeigen wegen Umweltdelikten und die kantonalen Verfahren im Einzelnen. Personendaten über Sie selbst, dafür gilt das Datenschutzrecht.",
+      "fr": "Les litiges entre voisins, par exemple à propos de pompes à chaleur, de haies ou de fumée de grillades. La contestation d'un projet de construction, les dénonciations pour infractions environnementales et les procédures cantonales en détail. Les données personnelles vous concernant, pour lesquelles le droit de la protection des données s'applique.",
+      "it": "Le controversie tra vicini, per esempio per pompe di calore, siepi o fumo di grigliate. L'impugnazione di un progetto edilizio, le denunce per reati ambientali e le procedure cantonali nel dettaglio. I dati personali che la riguardano, per i quali si applica il diritto sulla protezione dei dati.",
+      "en": "Disputes between neighbours, for example over heat pumps, hedges or barbecue smoke. Challenging a construction project, reports of environmental offences, and cantonal procedures in detail. Personal data about yourself, which is covered by data protection law.",
+      "rm": "Dispitas tranter vischins, per exempel pervia da pumpas da chalur, staquets u fum da grill. La contestaziun d'in project da construcziun, annunzias pervia da delicts ambientals e las proceduras chantunalas en detagl. Datas persunalas davart Vus sez; per quellas vala il dretg da protecziun da datas."
     }
   },
   "facts": [
     {
       "key": "info_type",
       "question": {
-        "de": "Was möchten Sie wissen?"
+        "de": "Was möchten Sie wissen?",
+        "fr": "Que voulez-vous savoir ?",
+        "it": "Cosa vorrebbe sapere?",
+        "en": "What would you like to know?",
+        "rm": "Tge vulais Vus savair?"
       },
       "options": [
         {
           "value": "drinking-water",
           "label": {
-            "de": "Was in meinem Trinkwasser ist"
+            "de": "Was in meinem Trinkwasser ist",
+            "fr": "Ce qui se trouve dans mon eau potable",
+            "it": "Cosa c'è nella mia acqua potabile",
+            "en": "What is in my drinking water",
+            "rm": "Tge ch'è en mia aua potabla"
           }
         },
         {
           "value": "emissions",
           "label": {
-            "de": "Was eine Firma oder Anlage ausstösst"
+            "de": "Was eine Firma oder Anlage ausstösst",
+            "fr": "Ce qu'une entreprise ou une installation rejette",
+            "it": "Cosa emette un'azienda o un impianto",
+            "en": "What a company or facility is emitting",
+            "rm": "Tge ch'ina firma u installaziun emetta"
           }
         },
         {
           "value": "environment-state",
           "label": {
-            "de": "Wie es um einen Bach, die Luft oder den Boden steht"
+            "de": "Wie es um einen Bach, die Luft oder den Boden steht",
+            "fr": "Comment se porte un ruisseau, l'air ou le sol",
+            "it": "Come stanno un ruscello, l'aria o il suolo",
+            "en": "The state of a stream, the air or the soil",
+            "rm": "Co ch'i stat cun in ri, l'aria u la terra"
           }
         },
         {
           "value": "authority-documents",
           "label": {
-            "de": "Was in den Akten zu einem Projekt oder Entscheid einer Behörde steht"
+            "de": "Was in den Akten zu einem Projekt oder Entscheid einer Behörde steht",
+            "fr": "Ce qui figure dans le dossier d'un projet ou d'une décision d'une autorité",
+            "it": "Cosa risulta negli atti relativi a un progetto o a una decisione di un'autorità",
+            "en": "What is in the file on a project or a decision of an authority",
+            "rm": "Tge ch'è en las actas d'in project u d'ina decisiun d'in'autoritad"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -70,40 +138,68 @@
     {
       "key": "holder",
       "question": {
-        "de": "Wer hat die Angaben vermutlich?"
+        "de": "Wer hat die Angaben vermutlich?",
+        "fr": "Qui détient probablement les informations ?",
+        "it": "Chi dispone presumibilmente di queste informazioni?",
+        "en": "Who is likely to have the information?",
+        "rm": "Tgi ha probablamain las indicaziuns?"
       },
       "help": {
-        "de": "Wenn Sie es nicht wissen, ist das kein Problem. Der Leitfaden zeigt Ihnen dann die Wege für alle Fälle."
+        "de": "Wenn Sie es nicht wissen, ist das kein Problem. Der Leitfaden zeigt Ihnen dann die Wege für alle Fälle.",
+        "fr": "Si vous ne le savez pas, ce n'est pas un problème. Le guide vous montre alors les démarches pour tous les cas.",
+        "it": "Se non lo sa non è un problema. La guida le mostra comunque le vie percorribili per ogni caso.",
+        "en": "If you don't know, that's not a problem. The guide shows you the routes for every case.",
+        "rm": "Sche Vus na savais betg quai, n'è quai nagin problem. La guida Vus mussa lura las vias per tut ils cas."
       },
       "options": [
         {
           "value": "federal",
           "label": {
-            "de": "Ein Bundesamt, zum Beispiel das BAFU oder das BLV"
+            "de": "Ein Bundesamt, zum Beispiel das BAFU oder das BLV",
+            "fr": "Un office fédéral, par exemple l'OFEV ou l'OSAV",
+            "it": "Un ufficio federale, per esempio l'UFAM o l'USAV",
+            "en": "A federal office, for example the FOEN or the FSVO",
+            "rm": "In uffizi federal, per exempel l'UFAM u l'uffizi federal per la segirezza alimentara (BLV)"
           }
         },
         {
           "value": "cantonal",
           "label": {
-            "de": "Der Kanton oder die Gemeinde"
+            "de": "Der Kanton oder die Gemeinde",
+            "fr": "Le canton ou la commune",
+            "it": "Il Cantone o il Comune",
+            "en": "The canton or the municipality",
+            "rm": "Il chantun u la vischnanca"
           }
         },
         {
           "value": "water-supplier",
           "label": {
-            "de": "Die Wasserversorgung"
+            "de": "Die Wasserversorgung",
+            "fr": "La distribution d'eau",
+            "it": "Il fornitore d'acqua potabile",
+            "en": "The water supplier",
+            "rm": "Il provediment d'aua"
           }
         },
         {
           "value": "company",
           "label": {
-            "de": "Eine Firma"
+            "de": "Eine Firma",
+            "fr": "Une entreprise",
+            "it": "Un'azienda",
+            "en": "A company",
+            "rm": "Ina firma"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -111,31 +207,51 @@
     {
       "key": "status",
       "question": {
-        "de": "Wie weit sind Sie?"
+        "de": "Wie weit sind Sie?",
+        "fr": "Où en êtes-vous ?",
+        "it": "A che punto è?",
+        "en": "How far have you got?",
+        "rm": "Quant lunsch essas Vus?"
       },
       "options": [
         {
           "value": "not-asked",
           "label": {
-            "de": "Ich habe noch nicht nachgefragt"
+            "de": "Ich habe noch nicht nachgefragt",
+            "fr": "Je n'ai pas encore demandé",
+            "it": "Non ho ancora chiesto",
+            "en": "I haven't asked yet",
+            "rm": "Jau n'hai anc betg dumandà"
           }
         },
         {
           "value": "no-answer",
           "label": {
-            "de": "Ich habe gefragt, aber keine Antwort erhalten"
+            "de": "Ich habe gefragt, aber keine Antwort erhalten",
+            "fr": "J'ai demandé, mais je n'ai reçu aucune réponse",
+            "it": "Ho chiesto, ma non ho ricevuto risposta",
+            "en": "I asked, but received no reply",
+            "rm": "Jau hai dumandà, ma n'hai retschet nagina resposta"
           }
         },
         {
           "value": "refused",
           "label": {
-            "de": "Man hat mir die Angaben verweigert oder nur teilweise gegeben"
+            "de": "Man hat mir die Angaben verweigert oder nur teilweise gegeben",
+            "fr": "On m'a refusé les informations ou on ne me les a données qu'en partie",
+            "it": "Mi hanno rifiutato le informazioni o me le hanno date solo in parte",
+            "en": "I was refused the information, or given only part of it",
+            "rm": "Ins m'ha refusà las indicaziuns u dà las mo parzialmain"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -146,7 +262,11 @@
       "id": "what-counts",
       "kind": "rule",
       "text": {
-        "de": "Umweltinformationen sind alle Angaben über den Zustand von Wasser, Luft, Boden, Landschaft und Artenvielfalt. Dazu gehören auch Angaben über das, was die Umwelt belastet, etwa Stoffe, Lärm oder Strahlung, und über die Folgen für die Gesundheit der Menschen. Auch Messwerte darüber, was eine Anlage in die Luft abgibt, zählen dazu. Das Bundesgericht hat das für die Abluftwerte eines Kernkraftwerks entschieden."
+        "de": "Umweltinformationen sind alle Angaben über den Zustand von Wasser, Luft, Boden, Landschaft und Artenvielfalt. Dazu gehören auch Angaben über das, was die Umwelt belastet, etwa Stoffe, Lärm oder Strahlung, und über die Folgen für die Gesundheit der Menschen. Auch Messwerte darüber, was eine Anlage in die Luft abgibt, zählen dazu. Das Bundesgericht hat das für die Abluftwerte eines Kernkraftwerks entschieden.",
+        "fr": "Les informations sur l'environnement sont toutes les indications sur l'état de l'eau, de l'air, du sol, du paysage et de la diversité biologique. En font aussi partie les indications sur ce qui pèse sur l'environnement, par exemple des substances, du bruit ou des rayonnements, ainsi que sur les conséquences pour la santé des personnes. Les valeurs mesurées sur ce qu'une installation rejette dans l'air en font aussi partie. Le Tribunal fédéral l'a jugé pour les valeurs d'évacuation d'air d'une centrale nucléaire.",
+        "it": "Le informazioni ambientali comprendono tutti i dati sullo stato di acqua, aria, suolo, paesaggio e biodiversità. Ne fanno parte anche i dati su ciò che grava sull'ambiente, per esempio sostanze, rumore o radiazioni, e sulle conseguenze per la salute delle persone. Vi rientrano anche i valori misurati su ciò che un impianto emette nell'aria. Il Tribunale federale lo ha stabilito per i valori delle emissioni gassose di una centrale nucleare.",
+        "en": "Environmental information is all information about the state of water, air, soil, landscape and biodiversity. This also includes information about what burdens the environment, for example substances, noise or radiation, and about the effects on human health. Measurement results on what a facility releases into the air also count as such. The Federal Supreme Court has decided this for the exhaust-air readings of a nuclear power plant.",
+        "rm": "Infurmaziuns davart l'ambient èn tut las indicaziuns davart il stadi da l'aua, da l'aria, da la terra, dal territori e da la varietad da spezias. A quai tutgan er indicaziuns davart quai che chargia l'ambient, per exempel substanzas, rumur u radiaziun, e davart las consequenzas per la sanadad da las persunas. Er valurs da mesiraziun davart quai ch'ina installaziun emetta en l'aria tutgan là tar. Il Tribunal federal ha decidì quai per ils valurs da l'aria evacuada d'ina centrala nucleara."
       },
       "sources": [
         "aarhus-2",
@@ -157,7 +277,11 @@
       "id": "authorities-inform",
       "kind": "rule",
       "text": {
-        "de": "Bund und Kantone müssen die Bevölkerung von sich aus über den Zustand der Umwelt und der Gewässer informieren. Die Ergebnisse ihrer Messungen werden veröffentlicht, wenn möglich als frei nutzbare Daten. Kontrollergebnisse einzelner Anlagen dürfen die Behörden veröffentlichen, wenn das von allgemeinem Interesse ist und die Betroffenen vorher angehört wurden. Die Umweltfachstellen und die Gewässerschutzfachstellen beraten auch Privatpersonen. Schauen Sie deshalb zuerst auf den Seiten des Bundesamts für Umwelt (BAFU) und Ihres Kantons nach. Viele Messwerte zu Grundwasser, Flüssen, Luft und den Schadstoffen grosser Betriebe sind dort schon öffentlich."
+        "de": "Bund und Kantone müssen die Bevölkerung von sich aus über den Zustand der Umwelt und der Gewässer informieren. Die Ergebnisse ihrer Messungen werden veröffentlicht, wenn möglich als frei nutzbare Daten. Kontrollergebnisse einzelner Anlagen dürfen die Behörden veröffentlichen, wenn das von allgemeinem Interesse ist und die Betroffenen vorher angehört wurden. Die Umweltfachstellen und die Gewässerschutzfachstellen beraten auch Privatpersonen. Schauen Sie deshalb zuerst auf den Seiten des Bundesamts für Umwelt (BAFU) und Ihres Kantons nach. Viele Messwerte zu Grundwasser, Flüssen, Luft und den Schadstoffen grosser Betriebe sind dort schon öffentlich.",
+        "fr": "La Confédération et les cantons doivent informer la population, de leur propre initiative, sur l'état de l'environnement et des eaux. Les résultats de leurs mesures sont publiés, si possible sous forme de données librement utilisables. Les autorités peuvent publier les résultats de contrôle d'installations particulières si cela présente un intérêt général et si les personnes concernées ont été entendues au préalable. Les services de l'environnement et les services de protection des eaux conseillent aussi les particuliers. Consultez donc d'abord les pages de l'Office fédéral de l'environnement (OFEV) et de votre canton. De nombreuses valeurs mesurées sur les eaux souterraines, les rivières, l'air et les polluants des grandes entreprises y sont déjà publiques.",
+        "it": "Confederazione e Cantoni devono informare la popolazione di propria iniziativa sullo stato dell'ambiente e delle acque. I risultati delle loro misurazioni vengono pubblicati, se possibile come dati liberamente utilizzabili. Le autorità possono pubblicare i risultati dei controlli di singoli impianti se ciò è nell'interesse generale e le persone interessate sono state sentite in precedenza. I servizi cantonali per l'ambiente e per la protezione delle acque consigliano anche i privati. Consulti quindi prima i siti dell'Ufficio federale dell'ambiente (UFAM) e del suo Cantone. Molti valori misurati su acque sotterranee, fiumi, aria e sostanze nocive delle grandi aziende sono già pubblici lì.",
+        "en": "The Confederation and the cantons must inform the public on their own initiative about the state of the environment and of waters. The results of their measurements are published, where possible as freely usable data. The authorities may publish the inspection results for individual facilities if this is of general interest and those affected have first been heard. The environmental agencies and the water protection agencies also advise private individuals. So check first on the website of the Federal Office for the Environment (FOEN) and of your canton. Many measurement results on groundwater, rivers, air and the pollutants of large businesses are already public there.",
+        "rm": "La Confederaziun ed ils chantuns ston infurmar la populaziun da sasezs davart il stadi da l'ambient e da las auas. Ils resultats da lur mesiraziuns vegnan publitgads, sche pussaivel sco datas liberamain utilisablas. Resultats da controlla da singulas installaziuns dastgan las autoritads publitgar, sch'i è d'interess general ed ils tangids èn vegnids tadlads avant. Ils posts spezialisads per l'ambient e per la protecziun da las auas cusseglian er persunas privatas. Guardai percunquai empruma sin las paginas da l'Uffizi federal per l'ambient (UFAM) e da Voss chantun. Blers valurs da mesiraziun davart l'aua sutterranea, ils flums, l'aria e las substanzas nozevlas da grondas interpresas èn là gia publics."
       },
       "sources": [
         "usg-10e",
@@ -174,7 +298,11 @@
         ]
       },
       "text": {
-        "de": "Wer Trinkwasser über ein Leitungsnetz abgibt, muss die Bezügerinnen und Bezüger mindestens einmal im Jahr umfassend über die Qualität des Wassers informieren. Das ist meistens die Wasserversorgung Ihrer Gemeinde. Die Pflicht gilt nicht für die Leitungen innerhalb eines Hauses. Ihre Vermieterin oder Ihr Vermieter muss Ihnen also nach dieser Bestimmung keine Wasseranalyse liefern. Fragen Sie direkt bei der Wasserversorgung nach. Trinkwasser muss einwandfrei sein und darf die Gesundheit nicht gefährden. Es muss die Höchstwerte in den Anhängen der Trinkwasserverordnung einhalten. Ob und welcher Höchstwert für einen Stoff gilt, etwa für PFAS oder Rückstände von Pflanzenschutzmitteln, steht in diesen Anhängen. Die Werte können sich ändern, zuletzt wurden sie im Juni 2026 angepasst. Massgebend ist die geltende Fassung, nicht ein Vorschlag, über den in den Medien berichtet wird. Für einige Stoffe gelten Übergangsfristen: Wasser mit Blei zwischen 5 und 10 Mikrogramm pro Liter darf zum Beispiel noch bis Ende Januar 2036 nach bisherigem Recht abgegeben werden. Die Kontrolle ist Sache der Kantone. Jeder Kanton hat dafür eine Kantonschemikerin oder einen Kantonschemiker, meist mit einem Kantonslabor."
+        "de": "Wer Trinkwasser über ein Leitungsnetz abgibt, muss die Bezügerinnen und Bezüger mindestens einmal im Jahr umfassend über die Qualität des Wassers informieren. Das ist meistens die Wasserversorgung Ihrer Gemeinde. Die Pflicht gilt nicht für die Leitungen innerhalb eines Hauses. Ihre Vermieterin oder Ihr Vermieter muss Ihnen also nach dieser Bestimmung keine Wasseranalyse liefern. Fragen Sie direkt bei der Wasserversorgung nach. Trinkwasser muss einwandfrei sein und darf die Gesundheit nicht gefährden. Es muss die Höchstwerte in den Anhängen der Trinkwasserverordnung einhalten. Ob und welcher Höchstwert für einen Stoff gilt, etwa für PFAS oder Rückstände von Pflanzenschutzmitteln, steht in diesen Anhängen. Die Werte können sich ändern, zuletzt wurden sie im Juni 2026 angepasst. Massgebend ist die geltende Fassung, nicht ein Vorschlag, über den in den Medien berichtet wird. Für einige Stoffe gelten Übergangsfristen: Wasser mit Blei zwischen 5 und 10 Mikrogramm pro Liter darf zum Beispiel noch bis Ende Januar 2036 nach bisherigem Recht abgegeben werden. Die Kontrolle ist Sache der Kantone. Jeder Kanton hat dafür eine Kantonschemikerin oder einen Kantonschemiker, meist mit einem Kantonslabor.",
+        "fr": "Quiconque distribue de l'eau potable par un réseau de conduites doit informer les usagers, au moins une fois par an, de manière complète sur la qualité de l'eau. Il s'agit le plus souvent de la distribution d'eau de votre commune. Cette obligation ne s'applique pas aux conduites à l'intérieur d'un immeuble. Votre bailleresse ou votre bailleur n'est donc pas tenu, en vertu de cette disposition, de vous fournir une analyse d'eau. Renseignez-vous directement auprès de la distribution d'eau. L'eau potable doit être irréprochable et ne doit pas mettre en danger la santé. Elle doit respecter les valeurs maximales fixées dans les annexes de l'ordonnance sur l'eau potable. Si et quelle valeur maximale s'applique à une substance, par exemple aux PFAS ou aux résidus de produits phytosanitaires, figure dans ces annexes. Les valeurs peuvent changer ; elles ont été adaptées pour la dernière fois en juin 2026. C'est la version en vigueur qui fait foi, et non une proposition dont les médias font état. Pour certaines substances, des délais transitoires s'appliquent : l'eau contenant du plomb entre 5 et 10 microgrammes par litre peut par exemple encore être distribuée selon l'ancien droit jusqu'à fin janvier 2036. Le contrôle relève des cantons. Chaque canton dispose pour cela d'une chimiste cantonale ou d'un chimiste cantonal, en général avec un laboratoire cantonal.",
+        "it": "Chi distribuisce acqua potabile tramite una rete di condotte deve informare in modo completo gli utenti almeno una volta all'anno sulla qualità dell'acqua. Di regola è il fornitore d'acqua potabile del suo Comune. L'obbligo non vale per le condotte all'interno di una casa. La sua locatrice o il suo locatore non deve quindi fornirle un'analisi dell'acqua in base a questa disposizione. Si rivolga direttamente al fornitore d'acqua potabile. L'acqua potabile deve essere ineccepibile e non deve mettere in pericolo la salute. Deve rispettare i valori massimi indicati negli allegati dell'ordinanza sull'acqua potabile. Se e quale valore massimo si applichi a una sostanza, per esempio ai PFAS o ai residui di prodotti fitosanitari, è indicato in questi allegati. I valori possono cambiare; da ultimo sono stati adeguati nel giugno 2026. Determinante è la versione in vigore, non una proposta di cui riferiscono i media. Per alcune sostanze valgono termini transitori: l'acqua con un contenuto di piombo tra 5 e 10 microgrammi per litro può per esempio essere ancora distribuita secondo il diritto finora vigente fino a fine gennaio 2036. Il controllo spetta ai Cantoni. Ogni Cantone dispone a tale scopo di una chimica o di un chimico cantonale, di regola con un laboratorio cantonale.",
+        "en": "Anyone who supplies drinking water through a pipe network must give the customers comprehensive information about the quality of the water at least once a year. This is usually your municipality's water supplier. The duty does not apply to the pipes inside a building. Your landlord therefore does not have to provide you with a water analysis under this provision. Ask the water supplier directly. Drinking water must be impeccable and must not endanger health. It must meet the maximum values in the annexes to the Drinking Water Ordinance. Whether, and which, maximum value applies to a substance, for example PFAS or pesticide residues, is set out in these annexes. The values can change; they were last adjusted in June 2026. What counts is the version currently in force, not a proposal reported in the media. Transitional periods apply for some substances: water with lead between 5 and 10 micrograms per litre, for example, may still be supplied under the previous rules until the end of January 2036. Enforcement is a cantonal matter. Every canton has a cantonal chemist for this, usually with a cantonal laboratory.",
+        "rm": "Tgi che porscha aua potabla tras ina retscha da tubs, sto infurmar ils consuments almain in'giada per onn cumplessivamain davart la qualitad da l'aua. Quai è il pli savens il provediment d'aua da Vossa vischnanca. L'obligaziun na vala betg per las tubaturas en il territori d'ina chasa. Vossa locadura u Voss locadur na sto donc, tenor questa disposiziun, betg furnir a Vus nagina analisa da l'aua. Dumandai directamain tar il provediment d'aua. L'aua potabla sto esser impeccabla e na dastga periclitar la sanadad. Ella sto observar ils valurs maximals en las agiuntas da l'Ordinaziun davart l'aua potabla. Sche e tge valur maximal che vala per ina substanza, per exempel per PFAS u per residus da products fitosanitars, stat en questas agiuntas. Ils valurs pon sa midar; l'ultima giada èn els vegnids adattads en zercladur 2026. Decisiva è la versiun en vigur, betg ina proposta, davart la quala las medias infurmeschan. Per tscherts substanzas valan termins transitoris: Aua cun plum tranter 5 e 10 microgrammas per liter dastga per exempel anc vegnir liberada fin la fin da schaner 2036 tenor il dretg fin ussa. La controlla è chaussa dals chantuns. Mintga chantun ha per quai ina chemicra chantunala u in chemicher chantunal, il pli savens cun in laboratori chantunal."
       },
       "sources": [
         "tbdv-5",
@@ -188,7 +316,11 @@
       "id": "right-of-access",
       "kind": "rule",
       "text": {
-        "de": "Jede Person darf Umweltinformationen einsehen, die in amtlichen Dokumenten stehen, und von der Behörde Auskunft über deren Inhalt verlangen. Sie müssen weder betroffen sein noch einen Grund angeben. Amtliche Dokumente sind Unterlagen, die eine Behörde hat und die ihre Aufgabe betreffen, zum Beispiel Messberichte, Gutachten, Bewilligungen oder Kontrollberichte. Entwürfe, die noch nicht fertig sind, gehören nicht dazu. Bei einem Bundesamt gilt das Öffentlichkeitsgesetz des Bundes. Sie können die Dokumente vor Ort ansehen oder eine Kopie verlangen."
+        "de": "Jede Person darf Umweltinformationen einsehen, die in amtlichen Dokumenten stehen, und von der Behörde Auskunft über deren Inhalt verlangen. Sie müssen weder betroffen sein noch einen Grund angeben. Amtliche Dokumente sind Unterlagen, die eine Behörde hat und die ihre Aufgabe betreffen, zum Beispiel Messberichte, Gutachten, Bewilligungen oder Kontrollberichte. Entwürfe, die noch nicht fertig sind, gehören nicht dazu. Bei einem Bundesamt gilt das Öffentlichkeitsgesetz des Bundes. Sie können die Dokumente vor Ort ansehen oder eine Kopie verlangen.",
+        "fr": "Toute personne peut consulter les informations sur l'environnement figurant dans des documents officiels, et demander à l'autorité des renseignements sur leur contenu. Vous n'avez besoin ni d'être concerné ni d'indiquer un motif. Les documents officiels sont les pièces que détient une autorité et qui concernent sa tâche, par exemple des rapports de mesure, des expertises, des autorisations ou des rapports de contrôle. Les projets non encore terminés n'en font pas partie. Pour un office fédéral, la loi fédérale sur la transparence s'applique. Vous pouvez consulter les documents sur place ou demander une copie.",
+        "it": "Ogni persona può consultare le informazioni ambientali contenute nei documenti ufficiali e chiedere all'autorità informazioni sul loro contenuto. Non deve essere toccata né indicare un motivo. I documenti ufficiali sono gli atti in possesso di un'autorità che riguardano il suo compito, per esempio rapporti di misurazione, perizie, autorizzazioni o rapporti di controllo. Le bozze non ancora definitive non ne fanno parte. Presso un ufficio federale si applica la legge federale sulla trasparenza. Può consultare i documenti sul posto o chiederne una copia.",
+        "en": "Anyone may inspect environmental information contained in official documents and request information about its content from the authority. You do not have to be affected, and you do not have to give a reason. Official documents are records held by an authority that concern its task, for example measurement reports, expert opinions, permits or inspection reports. Drafts that are not yet finished do not count. At a federal office, the Federal Act on Freedom of Information applies. You can view the documents on site or request a copy.",
+        "rm": "Mintga persuna dastga consultar infurmaziuns davart l'ambient che stattan en documents uffizials e pretender da l'autoritad infurmaziun davart lur cuntegn. Vus na stuais betg esser tangì ni inditgar in motiv. Documents uffizials èn unitads che ina autoritad ha ed che pertutgan sia incumbensa, per exempel rapports da mesiraziun, perizias, permissiuns u rapports da controlla. Sboccs betg terminads na tutgan betg là tar. Tar in uffizi federal vala la Lescha da transparenza da la Confederaziun. Vus pudais guardar ils documents sin plaz u pretender ina copia."
       },
       "sources": [
         "usg-10g",
@@ -209,7 +341,11 @@
         ]
       },
       "text": {
-        "de": "Hat ein Kanton oder eine Gemeinde die Angaben, gilt das Recht Ihres Kantons. Ihr Kanton kann dafür ein eigenes Gesetz haben, mit eigenen Fristen, Gebühren und Stellen, die bei Streit vermitteln. Hat ein Kanton dazu noch nichts geregelt, gelten die Regeln des Bundes sinngemäss. Das gilt auch für eine Wasserversorgung, die der Gemeinde gehört oder von ihr beauftragt ist. Die Fristen und Stellen des Bundes, die in diesem Leitfaden genannt werden, gelten nicht automatisch im Kanton. Schauen Sie auf der Website Ihres Kantons unter «Öffentlichkeitsprinzip» nach oder fragen Sie bei der Staatskanzlei."
+        "de": "Hat ein Kanton oder eine Gemeinde die Angaben, gilt das Recht Ihres Kantons. Ihr Kanton kann dafür ein eigenes Gesetz haben, mit eigenen Fristen, Gebühren und Stellen, die bei Streit vermitteln. Hat ein Kanton dazu noch nichts geregelt, gelten die Regeln des Bundes sinngemäss. Das gilt auch für eine Wasserversorgung, die der Gemeinde gehört oder von ihr beauftragt ist. Die Fristen und Stellen des Bundes, die in diesem Leitfaden genannt werden, gelten nicht automatisch im Kanton. Schauen Sie auf der Website Ihres Kantons unter «Öffentlichkeitsprinzip» nach oder fragen Sie bei der Staatskanzlei.",
+        "fr": "Si un canton ou une commune détient les informations, le droit de votre canton s'applique. Votre canton peut avoir sa propre loi pour cela, avec ses propres délais, émoluments et instances qui interviennent en cas de litige. Si un canton n'a encore rien réglé à ce sujet, les règles fédérales s'appliquent par analogie. Cela vaut aussi pour une distribution d'eau qui appartient à la commune ou qui est mandatée par elle. Les délais et instances fédéraux mentionnés dans ce guide ne s'appliquent pas automatiquement dans le canton. Consultez le site internet de votre canton à la rubrique «principe de la transparence» ou renseignez-vous auprès de la chancellerie d'État.",
+        "it": "Se le informazioni sono in possesso di un Cantone o di un Comune, si applica il diritto del suo Cantone. Il suo Cantone può avere una propria legge in materia, con termini, emolumenti e organi di mediazione propri. Se un Cantone non ha ancora disciplinato la materia, si applicano per analogia le regole della Confederazione. Ciò vale anche per un fornitore d'acqua potabile di proprietà del Comune o da esso incaricato. I termini e gli organi federali indicati in questa guida non valgono automaticamente nel Cantone. Consulti il sito del suo Cantone alla voce «principio della trasparenza» oppure si informi presso la cancelleria di Stato.",
+        "en": "If a canton or municipality holds the information, the law of your canton applies. Your canton can have its own act for this, with its own time limits, fees and bodies that mediate in disputes. If a canton has not yet regulated this, the federal rules apply by analogy. This also applies to a water supplier owned by, or commissioned by, the municipality. The federal time limits and bodies named in this guide do not automatically apply in the canton. Check your canton's website under \"principle of public access\" (Öffentlichkeitsprinzip) or ask the cantonal chancellery.",
+        "rm": "Sche il chantun u la vischnanca ha las indicaziuns, vala il dretg da Voss chantun. Voss chantun po avair per quai in'atgna lescha, cun atgns termins, taxas e posts che intermedieschan en cas da dispita. N'ha in chantun anc nagut reglà per quai, valan tenor il senn las reglas da la Confederaziun. Quai vala er per in provediment d'aua ch'appartegna a la vischnanca u ch'è incumbensà dad ella. Ils termins ed ils posts da la Confederaziun, che vegnan numnads en questa guida, na valan betg automaticamain en il chantun. Guardai sin la website da Voss chantun sut «princip da la publicitad» u dumandai tar la chanzlia da stadi."
       },
       "sources": [
         "usg-10g"
@@ -219,7 +355,11 @@
       "id": "how-to-ask",
       "kind": "step",
       "text": {
-        "de": "So fragen Sie nach: Richten Sie Ihr Gesuch an die Behörde, die das Dokument erstellt oder als Hauptadressatin erhalten hat. Ein bestimmtes Formular brauchen Sie nicht, und Sie müssen nicht erklären, warum Sie fragen. Am besten schreiben Sie eine E-Mail oder einen Brief, damit Sie das Datum belegen können. Beschreiben Sie so genau wie möglich, was Sie suchen: den Ort, die Anlage oder das Gewässer, den Zeitraum und die Art der Angaben, zum Beispiel «alle Messberichte zu PFAS im Grundwasser der Gemeinde X seit 2023». Wenn Sie den genauen Titel nicht kennen, genügt eine klare Umschreibung."
+        "de": "So fragen Sie nach: Richten Sie Ihr Gesuch an die Behörde, die das Dokument erstellt oder als Hauptadressatin erhalten hat. Ein bestimmtes Formular brauchen Sie nicht, und Sie müssen nicht erklären, warum Sie fragen. Am besten schreiben Sie eine E-Mail oder einen Brief, damit Sie das Datum belegen können. Beschreiben Sie so genau wie möglich, was Sie suchen: den Ort, die Anlage oder das Gewässer, den Zeitraum und die Art der Angaben, zum Beispiel «alle Messberichte zu PFAS im Grundwasser der Gemeinde X seit 2023». Wenn Sie den genauen Titel nicht kennen, genügt eine klare Umschreibung.",
+        "fr": "Voici comment procéder : adressez votre demande à l'autorité qui a établi le document ou qui l'a reçu comme destinataire principale. Vous n'avez pas besoin d'un formulaire particulier, et vous n'avez pas à expliquer pourquoi vous demandez. Le mieux est d'écrire un courriel ou une lettre, afin de pouvoir prouver la date. Décrivez aussi précisément que possible ce que vous cherchez : le lieu, l'installation ou le cours d'eau, la période et le type d'informations, par exemple «tous les rapports de mesure sur les PFAS dans les eaux souterraines de la commune X depuis 2023». Si vous ne connaissez pas le titre exact, une description claire suffit.",
+        "it": "Ecco come procedere: indirizzi la sua domanda all'autorità che ha redatto il documento o lo ha ricevuto come destinataria principale. Non serve un modulo particolare e non deve spiegare perché chiede. È meglio scrivere un'e-mail o una lettera, così può provare la data. Descriva nel modo più preciso possibile cosa cerca: il luogo, l'impianto o il corso d'acqua, il periodo e il tipo di dati, per esempio «tutti i rapporti di misurazione sui PFAS nelle acque sotterranee del Comune X dal 2023». Se non conosce il titolo esatto, basta una descrizione chiara.",
+        "en": "Here is how to ask: address your application to the authority that created the document or received it as the main addressee. You do not need a particular form, and you do not have to explain why you are asking. It is best to write an email or a letter so that you can prove the date. Describe as precisely as possible what you are looking for: the place, the facility or the body of water, the period, and the type of information, for example \"all measurement reports on PFAS in the groundwater of municipality X since 2023\". If you do not know the exact title, a clear description is enough.",
+        "rm": "Uschia dumandais Vus: Drizzai Vossa dumonda a l'autoritad che ha fatg il document u l'ha retschet sco adressata principala. Vus na basegnais nagin formular tschert, e Vus na stuais betg declerar, pertge che Vus dumandais. Il meglier è da scriver in e-mail u ina brev, per che Vus possias cumprovar la data. Descrivai uschè exact sco pussaivel, tge che Vus tschertgais: il lieu, l'installaziun u l'aua, il temp e la sort da las indicaziuns, per exempel «tut ils rapports da mesiraziun davart PFAS en l'aua sutterranea da la vischnanca X dapi il 2023». Sche Vus na enconuschais betg il titel exact, basta ina descripziun clera."
       },
       "sources": [
         "bgoe-10",
@@ -230,7 +370,11 @@
       "id": "clarify-warning",
       "kind": "warning",
       "text": {
-        "de": "Wenn eine Bundesstelle Sie bittet, Ihr Gesuch genauer zu umschreiben, müssen Sie innert 10 Tagen antworten. Rechnen Sie vorsichtshalber ab dem Tag, an dem Sie die Rückfrage erhalten haben. Antworten Sie nicht rechtzeitig, gilt das Gesuch als zurückgezogen. Die Behörde muss Sie auf diese Folge hinweisen. Im Kanton können andere Regeln gelten."
+        "de": "Wenn eine Bundesstelle Sie bittet, Ihr Gesuch genauer zu umschreiben, müssen Sie innert 10 Tagen antworten. Rechnen Sie vorsichtshalber ab dem Tag, an dem Sie die Rückfrage erhalten haben. Antworten Sie nicht rechtzeitig, gilt das Gesuch als zurückgezogen. Die Behörde muss Sie auf diese Folge hinweisen. Im Kanton können andere Regeln gelten.",
+        "fr": "Si un service fédéral vous demande de préciser votre requête, vous devez répondre dans les 10 jours. Par précaution, comptez à partir du jour où vous avez reçu la demande de précision. Si vous ne répondez pas à temps, la requête est réputée retirée. L'autorité doit vous signaler cette conséquence. Dans le canton, d'autres règles peuvent s'appliquer.",
+        "it": "Se un servizio federale le chiede di precisare meglio la sua domanda, deve rispondere entro 10 giorni. Per prudenza conti a partire dal giorno in cui ha ricevuto la richiesta di chiarimento. Se non risponde in tempo, la domanda si considera ritirata. L'autorità deve renderla attenta a questa conseguenza. Nel Cantone possono valere altre regole.",
+        "en": "If a federal body asks you to describe your application more precisely, you must reply within 10 days. As a precaution, count from the day you received the query. If you do not reply in time, the application is deemed withdrawn. The authority must point out this consequence to you. Different rules can apply in the canton.",
+        "rm": "Sche in post federal Vus damonda da descriver pli exactamain Vossa dumonda, stuais Vus respunder entaifer 10 dis. Quintai per segirezza dapi il di, en il qual Vus avais retschet la dumonda supplementara. Sche Vus na respundais betg a temp, vala la dumonda sco retratga. L'autoritad sto far Vus attent a questa consequenza. En il chantun pon valair autras reglas."
       },
       "sources": [
         "vbgoe-7"
@@ -246,7 +390,11 @@
         ]
       },
       "text": {
-        "de": "Eine Firma muss Ihnen grundsätzlich keine Auskunft geben. Der Weg führt über die Behörde. Betriebe müssen den Behörden die Angaben liefern, die für den Vollzug des Umweltrechts nötig sind, etwa Messungen oder Verzeichnisse über Luftschadstoffe, Abfälle und Stoffe. Was die Behörde so erhalten hat, gehört zu ihren amtlichen Dokumenten. Fragen Sie deshalb die Behörde, die den Betrieb bewilligt oder kontrolliert, oft die kantonale Umweltfachstelle. Eine Behörde darf den Zugang nicht einfach deshalb verweigern, weil sie Daten, über die sie verfügen darf, beim Betrieb belassen hat. Eine Ausnahme gilt für Private, die selbst mit einer Vollzugsaufgabe betraut sind: Bei ihnen gilt das Einsichtsrecht direkt."
+        "de": "Eine Firma muss Ihnen grundsätzlich keine Auskunft geben. Der Weg führt über die Behörde. Betriebe müssen den Behörden die Angaben liefern, die für den Vollzug des Umweltrechts nötig sind, etwa Messungen oder Verzeichnisse über Luftschadstoffe, Abfälle und Stoffe. Was die Behörde so erhalten hat, gehört zu ihren amtlichen Dokumenten. Fragen Sie deshalb die Behörde, die den Betrieb bewilligt oder kontrolliert, oft die kantonale Umweltfachstelle. Eine Behörde darf den Zugang nicht einfach deshalb verweigern, weil sie Daten, über die sie verfügen darf, beim Betrieb belassen hat. Eine Ausnahme gilt für Private, die selbst mit einer Vollzugsaufgabe betraut sind: Bei ihnen gilt das Einsichtsrecht direkt.",
+        "fr": "Une entreprise n'est en principe pas tenue de vous donner un renseignement. La voie passe par l'autorité. Les entreprises doivent fournir aux autorités les indications nécessaires à l'exécution du droit de l'environnement, par exemple des mesures ou des registres sur les polluants atmosphériques, les déchets et les substances. Ce que l'autorité a ainsi reçu fait partie de ses documents officiels. Demandez donc à l'autorité qui autorise ou contrôle l'entreprise, souvent le service cantonal de l'environnement. Une autorité ne peut pas refuser l'accès simplement parce qu'elle a laissé auprès de l'entreprise des données dont elle a le droit de disposer. Une exception s'applique aux particuliers eux-mêmes chargés d'une tâche d'exécution : chez eux, le droit de consultation s'applique directement.",
+        "it": "Un'azienda in linea di principio non deve darle informazioni. La via passa attraverso l'autorità. Le aziende devono fornire alle autorità i dati necessari all'esecuzione del diritto ambientale, per esempio misurazioni o elenchi relativi a sostanze inquinanti dell'aria, rifiuti e sostanze. Ciò che l'autorità ha così ricevuto fa parte dei suoi documenti ufficiali. Si rivolga quindi all'autorità che autorizza o controlla l'azienda, spesso il servizio cantonale per l'ambiente. Un'autorità non può rifiutare l'accesso solo perché ha lasciato presso l'azienda dati di cui può disporre. Un'eccezione vale per i privati incaricati essi stessi di un compito esecutivo: per loro il diritto di consultazione si applica direttamente.",
+        "en": "A company does not, in principle, have to give you information. The route runs through the authority. Businesses must supply authorities with the information needed to enforce environmental law, for example measurements or registers on air pollutants, waste and substances. What the authority has received in this way is part of its official documents. So ask the authority that licenses or supervises the business, often the cantonal environmental agency. An authority may not simply refuse access because it has left data it is entitled to hold with the business. An exception applies to private individuals who are themselves entrusted with an enforcement task: for them, the right of access applies directly.",
+        "rm": "Ina firma na sto per principi dar a Vus nagina infurmaziun. La via maina sur l'autoritad. Interpresas ston furnir a las autoritads las indicaziuns che èn necessarias per exequir il dretg da l'ambient, per exempel mesiraziuns u registers davart substanzas nozevlas en l'aria, davart rument e substanzas. Quai che l'autoritad ha retschet uschia, tutga a ses documents uffizials. Dumandai percunquai l'autoritad che permetta u controllescha l'interpresa, savens il post chantunal spezialisà per l'ambient. In'autoritad na dastga betg refusar l'access mo perquai ch'ella ha laschà las datas, davart las qualas ella po disponer, tar l'interpresa. In'excepziun vala per privats ch'èn ins sezs incumbensads cun in'incumbensa d'execuziun: Tar els vala il dretg da consultaziun directamain."
       },
       "sources": [
         "usg-46",
@@ -265,7 +413,11 @@
         ]
       },
       "text": {
-        "de": "Oft wendet eine Firma ein, die Angaben seien ein Geschäftsgeheimnis. Das Gesetz schützt tatsächlich Geschäfts- und Fabrikationsgeheimnisse. Was eine Anlage an Schadstoffen ausstösst, ist aber nach dem Bundesgericht grundsätzlich kein solches Geheimnis. Ein bloss allgemein behaupteter Schaden für die Firma genügt nicht. Bevor die Behörde Angaben herausgibt, welche die Privatsphäre einer betroffenen Person oder Firma berühren können, hört sie diese an. Die Betroffenen haben dann 10 Tage Zeit, sich zu äussern. Deshalb kann das Verfahren länger dauern. Will die Behörde den Zugang gegen den Willen der Firma gewähren, kann auch die Firma eine Schlichtung beim EDÖB verlangen."
+        "de": "Oft wendet eine Firma ein, die Angaben seien ein Geschäftsgeheimnis. Das Gesetz schützt tatsächlich Geschäfts- und Fabrikationsgeheimnisse. Was eine Anlage an Schadstoffen ausstösst, ist aber nach dem Bundesgericht grundsätzlich kein solches Geheimnis. Ein bloss allgemein behaupteter Schaden für die Firma genügt nicht. Bevor die Behörde Angaben herausgibt, welche die Privatsphäre einer betroffenen Person oder Firma berühren können, hört sie diese an. Die Betroffenen haben dann 10 Tage Zeit, sich zu äussern. Deshalb kann das Verfahren länger dauern. Will die Behörde den Zugang gegen den Willen der Firma gewähren, kann auch die Firma eine Schlichtung beim EDÖB verlangen.",
+        "fr": "Une entreprise objecte souvent que les informations sont un secret d'affaires. La loi protège effectivement les secrets d'affaires et de fabrication. Mais ce qu'une installation rejette comme polluants n'est en principe pas un tel secret, selon le Tribunal fédéral. Un préjudice pour l'entreprise simplement allégué de manière générale ne suffit pas. Avant de communiquer des informations susceptibles de toucher la sphère privée d'une personne ou d'une entreprise concernée, l'autorité l'entend. Les personnes concernées disposent alors de 10 jours pour se prononcer. La procédure peut donc durer plus longtemps. Si l'autorité veut accorder l'accès contre la volonté de l'entreprise, celle-ci peut elle aussi demander une médiation auprès du PFPDT.",
+        "it": "Spesso un'azienda obietta che i dati sono un segreto d'affari. La legge protegge effettivamente i segreti d'affari e di fabbricazione. Ma secondo il Tribunale federale, ciò che un impianto emette come sostanze nocive non è in linea di principio un tale segreto. Un danno per l'azienda semplicemente affermato in modo generico non basta. Prima di consegnare dati che possono toccare la sfera privata di una persona o di un'azienda interessata, l'autorità la sente. Gli interessati hanno allora 10 giorni di tempo per esprimersi. Per questo la procedura può durare più a lungo. Se l'autorità vuole concedere l'accesso contro la volontà dell'azienda, anche l'azienda può chiedere una mediazione presso l'IFPDT.",
+        "en": "A company often objects that the information is a business secret. The law does genuinely protect business and manufacturing secrets. But according to the Federal Supreme Court, what a facility emits in pollutants is not, in principle, such a secret. A merely generally alleged harm to the company is not enough. Before an authority discloses information that could affect the privacy of an affected person or company, it hears them. Those affected then have 10 days to comment. The procedure can therefore take longer. If the authority wants to grant access against the company's wishes, the company too can request mediation at the FDPIC.",
+        "rm": "Savens object ina firma che las indicaziuns fissan in secret da fatschenta. La lescha protegia dad efect secrets da fatschenta e da fabricaziun. Quai ch'ina installaziun emetta a substanzas nozevlas n'è dentant, tenor il Tribunal federal, per principi nagin tal secret. In donn mo generalmain pretendì per la firma na basta betg. Avant che l'autoritad dettia ora indicaziuns che pon tanscher la sfera privata d'ina persuna u firma tangida, tadla ella quella. Ils tangids han lura 10 dis temp per s'exprimer. Percunquai po la procedura durar pli ditg. Vul l'autoritad conceder l'access cunter la voluntad da la firma, po er la firma pretender ina mediaziun tar l'IFPDT."
       },
       "sources": [
         "bgoe-7",
@@ -286,7 +438,11 @@
         ]
       },
       "text": {
-        "de": "Eine Bundesstelle muss so rasch wie möglich antworten, spätestens 20 Tage nach Eingang Ihres Gesuchs. Bei umfangreichen oder schwer zu beschaffenden Dokumenten kann sie die Frist ausnahmsweise um 20 Tage verlängern. Muss sie zuerst Dritte anhören, verlängert sich die Frist so lange wie nötig. Über eine Verlängerung muss sie Sie informieren und kurz begründen. Verweigert oder beschränkt sie den Zugang, muss sie das schriftlich und mit einer kurzen Begründung tun."
+        "de": "Eine Bundesstelle muss so rasch wie möglich antworten, spätestens 20 Tage nach Eingang Ihres Gesuchs. Bei umfangreichen oder schwer zu beschaffenden Dokumenten kann sie die Frist ausnahmsweise um 20 Tage verlängern. Muss sie zuerst Dritte anhören, verlängert sich die Frist so lange wie nötig. Über eine Verlängerung muss sie Sie informieren und kurz begründen. Verweigert oder beschränkt sie den Zugang, muss sie das schriftlich und mit einer kurzen Begründung tun.",
+        "fr": "Un service fédéral doit répondre aussitôt que possible, au plus tard 20 jours après réception de votre requête. Pour des documents volumineux ou difficiles à réunir, il peut exceptionnellement prolonger ce délai de 20 jours. S'il doit d'abord entendre des tiers, le délai se prolonge autant que nécessaire. Il doit vous informer d'une prolongation et la motiver brièvement. S'il refuse ou restreint l'accès, il doit le faire par écrit et avec une brève motivation.",
+        "it": "Un servizio federale deve rispondere il più rapidamente possibile, al più tardi entro 20 giorni dalla ricezione della sua domanda. Per documenti voluminosi o difficili da reperire può eccezionalmente prorogare il termine di 20 giorni. Se deve prima sentire terzi, il termine si proroga per il tempo necessario. Deve informarla di una proroga e motivarla brevemente. Se rifiuta o limita l'accesso, deve farlo per scritto e con una breve motivazione.",
+        "en": "A federal body must answer as quickly as possible, at the latest 20 days after your application is received. For extensive documents, or ones that are difficult to obtain, it can exceptionally extend the time limit by 20 days. If it first has to hear third parties, the time limit is extended for as long as necessary. It must inform you of an extension and give brief reasons. If it refuses or restricts access, it must do so in writing and with brief reasons.",
+        "rm": "In post federal sto respunder uschè spert sco pussaivel, al pli tard 20 dis suenter l'entrada da Vossa dumonda. Tar documents vastos u difficils d'obtegnair po el prolungar il termin excepziunalmain per 20 dis. Sto el empruma tadlar terzas persunas, sa prolungescha il termin uschè ditg sco necessari. Davart ina prolungaziun sto el infurmar Vus e motivar curtamain. Refusa u restrenscha el l'access, sto el far quai en scrit e cun ina curta motivaziun."
       },
       "sources": [
         "bgoe-12"
@@ -302,7 +458,11 @@
         ]
       },
       "text": {
-        "de": "Die Behörde muss den Zugang grundsätzlich gewähren. Will sie ein Dokument zurückhalten, muss sie zeigen, dass eine gesetzliche Ausnahme greift, etwa ein Geschäftsgeheimnis oder der Schutz der Privatsphäre. Eine bloss denkbare Gefahr reicht dafür nicht. Der drohende Nachteil muss erheblich und wahrscheinlich sein. Oft ist ein teilweiser Zugang möglich: Die Behörde muss Personendaten wenn möglich abdecken und prüfen, ob sie wenigstens einen Teil herausgeben kann, statt das ganze Dokument zu verweigern."
+        "de": "Die Behörde muss den Zugang grundsätzlich gewähren. Will sie ein Dokument zurückhalten, muss sie zeigen, dass eine gesetzliche Ausnahme greift, etwa ein Geschäftsgeheimnis oder der Schutz der Privatsphäre. Eine bloss denkbare Gefahr reicht dafür nicht. Der drohende Nachteil muss erheblich und wahrscheinlich sein. Oft ist ein teilweiser Zugang möglich: Die Behörde muss Personendaten wenn möglich abdecken und prüfen, ob sie wenigstens einen Teil herausgeben kann, statt das ganze Dokument zu verweigern.",
+        "fr": "L'autorité doit en principe accorder l'accès. Si elle veut retenir un document, elle doit démontrer qu'une exception légale s'applique, par exemple un secret d'affaires ou la protection de la sphère privée. Un simple risque concevable ne suffit pas pour cela. Le préjudice redouté doit être important et probable. Un accès partiel est souvent possible : l'autorité doit si possible caviarder les données personnelles et examiner si elle peut communiquer au moins une partie, plutôt que de refuser le document entier.",
+        "it": "L'autorità deve in linea di principio concedere l'accesso. Se vuole trattenere un documento, deve dimostrare che si applica un'eccezione legale, per esempio un segreto d'affari o la protezione della sfera privata. Un pericolo semplicemente immaginabile non basta a questo scopo. Il pregiudizio temuto deve essere rilevante e probabile. Spesso è possibile un accesso parziale: l'autorità deve, se possibile, coprire i dati personali ed esaminare se può consegnare almeno una parte, invece di rifiutare l'intero documento.",
+        "en": "The authority must, in principle, grant access. If it wants to withhold a document, it must show that a statutory exception applies, for example a business secret or the protection of privacy. A merely conceivable risk is not enough for this. The threatened harm must be significant and probable. Partial access is often possible: the authority must black out personal data where possible and check whether it can at least disclose part, instead of refusing the whole document.",
+        "rm": "L'autoritad sto per principi conceder l'access. Vul ella retegnair in document, sto ella mussar ch'ina excepziun legala sa applitgeschia, per exempel in secret da fatschenta u la protecziun da la sfera privata. In privel mo pensabel na basta betg per quai. Il dischvantatg che smanatscha sto esser considerabel e probabel. Savens è pussaivel in access parzial: L'autoritad sto cuvrir datas da persunas, sche pussaivel, ed examinar sch'ella po dar ora almain ina part, empè da refusar il document entir."
       },
       "sources": [
         "bge-142-ii-324-e3-4",
@@ -327,7 +487,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie von einer Bundesstelle keine, eine ablehnende oder eine unvollständige Antwort erhalten, können Sie beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) eine Schlichtung verlangen. Die Frist beträgt 20 Tage. Sie beginnt mit dem Empfang der Antwort. Haben Sie keine Antwort erhalten, beginnt sie, wenn die Antwortfrist der Behörde abgelaufen ist, also in der Regel 20 Tage nach Eingang Ihres Gesuchs, bei einer Verlängerung später. Der Antrag muss schriftlich sein. Eine Begründung ist nicht nötig. Legen Sie Ihr Gesuch und die Antwort der Behörde bei. Das Verfahren ist kostenlos. Halten Sie die Frist unbedingt ein."
+        "de": "Haben Sie von einer Bundesstelle keine, eine ablehnende oder eine unvollständige Antwort erhalten, können Sie beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) eine Schlichtung verlangen. Die Frist beträgt 20 Tage. Sie beginnt mit dem Empfang der Antwort. Haben Sie keine Antwort erhalten, beginnt sie, wenn die Antwortfrist der Behörde abgelaufen ist, also in der Regel 20 Tage nach Eingang Ihres Gesuchs, bei einer Verlängerung später. Der Antrag muss schriftlich sein. Eine Begründung ist nicht nötig. Legen Sie Ihr Gesuch und die Antwort der Behörde bei. Das Verfahren ist kostenlos. Halten Sie die Frist unbedingt ein.",
+        "fr": "Si vous n'avez reçu aucune réponse d'un service fédéral, ou une réponse négative ou incomplète, vous pouvez demander une médiation auprès du Préposé fédéral à la protection des données et à la transparence (PFPDT). Le délai est de 20 jours. Il commence à la réception de la réponse. Si vous n'avez reçu aucune réponse, il commence lorsque le délai de réponse de l'autorité a expiré, donc en règle générale 20 jours après réception de votre requête, plus tard en cas de prolongation. La demande doit être écrite. Une motivation n'est pas nécessaire. Joignez votre requête et la réponse de l'autorité. La procédure est gratuite. Respectez impérativement le délai.",
+        "it": "Se non ha ricevuto risposta da un servizio federale, oppure ha ricevuto una risposta negativa o incompleta, può chiedere una mediazione all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT). Il termine è di 20 giorni. Decorre dalla ricezione della risposta. Se non ha ricevuto risposta, decorre dalla scadenza del termine di risposta dell'autorità, quindi di regola 20 giorni dopo la ricezione della sua domanda, oppure più tardi in caso di proroga. La richiesta deve essere scritta. Non serve una motivazione. Alleghi la sua domanda e la risposta dell'autorità. La procedura è gratuita. Rispetti assolutamente il termine.",
+        "en": "If you received no reply, a refusal, or an incomplete reply from a federal body, you can request mediation from the Federal Data Protection and Information Commissioner (FDPIC). The time limit is 20 days. It begins on receipt of the reply. If you received no reply, it begins when the authority's time limit for replying has expired, that is, generally 20 days after your application was received, or later if it was extended. The request must be in writing. No reasons are needed. Enclose your application and the authority's reply. The procedure is free of charge. Be sure to keep to the time limit.",
+        "rm": "Avais Vus da in post federal retschet nagina, ina refusanta u ina incumpletta resposta, pudais Vus pretender tar l'incumbensà federal per la protecziun da datas e per la transparenza (IFPDT) ina mediaziun. Il termin importa 20 dis. El cumenza cun la retschavida da la resposta. Avais Vus retschet nagina resposta, cumenza el, cur che il termin da resposta da l'autoritad è scadì, dunca per regla 20 dis suenter l'entrada da Vossa dumonda, tar ina prolungaziun pli tard. La dumonda sto esser en scrit. Ina motivaziun n'è betg necessaria. Agiuntai Vossa dumonda e la resposta da l'autoritad. La procedura è gratuita. Observai il termin obligatoricamain."
       },
       "sources": [
         "bgoe-13",
@@ -351,7 +515,11 @@
         ]
       },
       "text": {
-        "de": "Der EDÖB versucht zuerst, zwischen Ihnen und der Behörde eine Einigung zu finden. Gelingt das, ist das Verfahren erledigt. Gelingt es nicht, gibt er innert 30 Tagen eine schriftliche Empfehlung ab, ob und wie weit Sie Zugang erhalten sollten."
+        "de": "Der EDÖB versucht zuerst, zwischen Ihnen und der Behörde eine Einigung zu finden. Gelingt das, ist das Verfahren erledigt. Gelingt es nicht, gibt er innert 30 Tagen eine schriftliche Empfehlung ab, ob und wie weit Sie Zugang erhalten sollten.",
+        "fr": "Le PFPDT tente d'abord de trouver un accord entre vous et l'autorité. S'il y parvient, la procédure est close. S'il n'y parvient pas, il rend dans les 30 jours une recommandation écrite sur si et dans quelle mesure vous devriez obtenir l'accès.",
+        "it": "L'IFPDT cerca prima di trovare un'intesa tra lei e l'autorità. Se ci riesce, la procedura è conclusa. Se non ci riesce, emana entro 30 giorni una raccomandazione scritta su se e in che misura lei debba ottenere l'accesso.",
+        "en": "The FDPIC first tries to find an agreement between you and the authority. If this succeeds, the procedure is over. If not, it issues a written recommendation within 30 days on whether, and to what extent, you should be given access.",
+        "rm": "L'IFPDT emprova empruma da chattar in'entaisa tranter Vus e l'autoritad. Reussescha quai, è la procedura liquidada. Na reussescha quai betg, dat el ora, entaifer 30 dis, ina recumandaziun en scrit, sche e quant enavant Vus dueiss survegnir access."
       },
       "sources": [
         "bgoe-13",
@@ -374,7 +542,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie mit der Empfehlung des EDÖB nicht einverstanden, können Sie von der Behörde eine Verfügung verlangen, also einen anfechtbaren Entscheid. Dafür haben Sie 10 Tage ab Empfang der Empfehlung. Weicht die Behörde von der Empfehlung ab, muss sie von sich aus verfügen. Sie hat dafür 20 Tage Zeit. In dieser Verfügung muss sie genau sagen, welche Ausnahme sie anwendet, wie sie die Interessen abgewogen hat und warum nicht wenigstens ein Teil zugänglich ist. Die Verfügung können Sie nach den allgemeinen Regeln beim Bundesverwaltungsgericht anfechten. Die Frist dafür steht in der Rechtsmittelbelehrung der Verfügung."
+        "de": "Sind Sie mit der Empfehlung des EDÖB nicht einverstanden, können Sie von der Behörde eine Verfügung verlangen, also einen anfechtbaren Entscheid. Dafür haben Sie 10 Tage ab Empfang der Empfehlung. Weicht die Behörde von der Empfehlung ab, muss sie von sich aus verfügen. Sie hat dafür 20 Tage Zeit. In dieser Verfügung muss sie genau sagen, welche Ausnahme sie anwendet, wie sie die Interessen abgewogen hat und warum nicht wenigstens ein Teil zugänglich ist. Die Verfügung können Sie nach den allgemeinen Regeln beim Bundesverwaltungsgericht anfechten. Die Frist dafür steht in der Rechtsmittelbelehrung der Verfügung.",
+        "fr": "Si vous n'êtes pas d'accord avec la recommandation du PFPDT, vous pouvez exiger de l'autorité une décision, c'est-à-dire un prononcé susceptible de recours. Vous avez pour cela 10 jours à compter de la réception de la recommandation. Si l'autorité s'écarte de la recommandation, elle doit statuer de sa propre initiative. Elle dispose pour cela de 20 jours. Dans cette décision, elle doit indiquer précisément quelle exception elle applique, comment elle a pesé les intérêts et pourquoi au moins une partie n'est pas accessible. Vous pouvez contester la décision selon les règles générales devant le Tribunal administratif fédéral. Le délai pour cela figure dans l'indication des voies de droit de la décision.",
+        "it": "Se non è d'accordo con la raccomandazione dell'IFPDT, può chiedere all'autorità una decisione, quindi una pronuncia impugnabile. Per questo ha 10 giorni dalla ricezione della raccomandazione. Se l'autorità si scosta dalla raccomandazione, deve decidere di propria iniziativa. Ha 20 giorni di tempo per farlo. In questa decisione deve indicare esattamente quale eccezione applica, come ha ponderato gli interessi e perché non è accessibile almeno una parte. Può impugnare la decisione secondo le regole generali presso il Tribunale amministrativo federale. Il termine per farlo è indicato nell'indicazione dei rimedi giuridici della decisione.",
+        "en": "If you do not agree with the FDPIC's recommendation, you can ask the authority for a ruling, that is, a decision you can challenge. You have 10 days from receipt of the recommendation to do this. If the authority departs from the recommendation, it must issue a ruling of its own accord. It has 20 days to do so. In this ruling it must state exactly which exception it is applying, how it weighed the interests, and why at least part cannot be made accessible. You can challenge the ruling before the Federal Administrative Court under the general rules. The time limit for this is given in the instructions on legal remedies in the ruling.",
+        "rm": "N'essas Vus betg d'accord cun la recumandaziun da l'IFPDT, pudais Vus pretender da l'autoritad ina decisiun, dunca ina decisiun contestabla. Per quai avais Vus 10 dis dapi la retschavida da la recumandaziun. Sche l'autoritad s'allontanescha da la recumandaziun, sto ella decider da sasezza. Ella ha per quai 20 dis temp. En questa decisiun sto ella dir exactamain, tge excepziun ch'ella applitgeschia, co ch'ella ha pesà ils interess e pertge betg almain ina part è accessibla. La decisiun pudais Vus contestar tenor las reglas generalas tar il Tribunal administrativ federal. Il termin per quai stat en l'indicaziun dals meds legals da la decisiun."
       },
       "sources": [
         "bgoe-15",
@@ -386,7 +558,11 @@
       "id": "costs",
       "kind": "cost",
       "text": {
-        "de": "Der Zugang zu amtlichen Dokumenten des Bundes ist in der Regel kostenlos. Eine Gebühr ist nur ausnahmsweise möglich, wenn die Bearbeitung mehr als 8 Stunden Arbeit erfordert, und dann nur für die Zeit darüber hinaus. Die Behörde muss Ihnen die Gebühr vorher ankündigen. Sie haben dann 10 Tage Zeit, Ihr Gesuch zu bestätigen. Sonst gilt es als zurückgezogen. Sie können Ihr Gesuch auch enger fassen, um Kosten zu vermeiden. Die Schlichtung beim EDÖB und das Verfahren um eine Verfügung kosten nie etwas. Für gedruckte Berichte kann eine Gebühr verlangt werden. Ein Verfahren vor Gericht kann Kosten auslösen. In den Kantonen gelten eigene Gebührenregeln."
+        "de": "Der Zugang zu amtlichen Dokumenten des Bundes ist in der Regel kostenlos. Eine Gebühr ist nur ausnahmsweise möglich, wenn die Bearbeitung mehr als 8 Stunden Arbeit erfordert, und dann nur für die Zeit darüber hinaus. Die Behörde muss Ihnen die Gebühr vorher ankündigen. Sie haben dann 10 Tage Zeit, Ihr Gesuch zu bestätigen. Sonst gilt es als zurückgezogen. Sie können Ihr Gesuch auch enger fassen, um Kosten zu vermeiden. Die Schlichtung beim EDÖB und das Verfahren um eine Verfügung kosten nie etwas. Für gedruckte Berichte kann eine Gebühr verlangt werden. Ein Verfahren vor Gericht kann Kosten auslösen. In den Kantonen gelten eigene Gebührenregeln.",
+        "fr": "L'accès aux documents officiels de la Confédération est en règle générale gratuit. Un émolument n'est possible qu'exceptionnellement, lorsque le traitement exige plus de 8 heures de travail, et alors seulement pour le temps au-delà. L'autorité doit vous annoncer l'émolument au préalable. Vous avez alors 10 jours pour confirmer votre requête. Sinon, elle est réputée retirée. Vous pouvez aussi restreindre votre requête pour éviter des frais. La médiation auprès du PFPDT et la procédure de décision ne coûtent jamais rien. Un émolument peut être demandé pour des rapports imprimés. Une procédure devant le tribunal peut entraîner des frais. Les cantons appliquent leurs propres règles d'émoluments.",
+        "it": "L'accesso ai documenti ufficiali della Confederazione è di regola gratuito. Un emolumento è possibile solo eccezionalmente, se l'elaborazione richiede più di 8 ore di lavoro, e allora solo per il tempo che supera questa soglia. L'autorità deve preannunciarle l'emolumento. Ha allora 10 giorni di tempo per confermare la sua domanda. Altrimenti questa si considera ritirata. Può anche formulare la sua domanda in modo più circoscritto per evitare costi. La mediazione presso l'IFPDT e la procedura per ottenere una decisione non costano mai nulla. Per i rapporti stampati può essere richiesto un emolumento. Una procedura giudiziaria può comportare costi. Nei Cantoni valgono regole proprie sugli emolumenti.",
+        "en": "Access to official documents of the Confederation is generally free of charge. A fee is possible only exceptionally, if processing requires more than 8 hours of work, and then only for the time beyond that. The authority must announce the fee to you beforehand. You then have 10 days to confirm your application. Otherwise it is deemed withdrawn. You can also narrow your application to avoid costs. Mediation at the FDPIC and proceedings for a ruling are never chargeable. A fee can be charged for printed reports. Court proceedings can incur costs. The cantons have their own fee rules.",
+        "rm": "L'access a documents uffizials da la Confederaziun è per regla gratuit. Ina taxa è mo excepziunalmain pussaivla, sche il tractament pretenda dapli che 8 uras da lavur, e lura mo per il temp ultra da quai. L'autoritad sto annunziar a Vus la taxa avant. Vus avais lura 10 dis temp per confermar Vossa dumonda. Autramain vala ella sco retratga. Vus pudais era limitar pli stretgamain Vossa dumonda, per evitar custs. La mediaziun tar l'IFPDT e la procedura per ina decisiun na custan mai insatge. Per rapports stampads po vegnir pretendida ina taxa. Ina procedura avant dretgira po chaschunar custs. En ils chantuns valan atgnas reglas da taxa."
       },
       "sources": [
         "bgoe-17",
@@ -399,7 +575,11 @@
       "id": "limits",
       "kind": "rule",
       "text": {
-        "de": "Das Einsichtsrecht gibt Ihnen Informationen, aber keinen Anspruch darauf, dass eine Behörde etwas unternimmt. Wer eine Behörde auffordert, gegen eine Firma vorzugehen, wird dadurch nicht Partei in einem Verfahren. Eine Klage für die Allgemeinheit, die jede Person erheben kann, gibt es im Umweltrecht nicht. Mitreden können Sie vor allem, wenn Sie selbst besonders betroffen sind, zum Beispiel als direkte Nachbarin oder direkter Nachbar einer Anlage. Sonst bleiben diese Wege: eine Meldung an die zuständige Behörde, bei einer Straftat eine Anzeige, die Teilnahme an öffentlichen Auflagen innerhalb der Frist oder der Hinweis an eine Umweltorganisation, die vom Bund als beschwerdeberechtigt anerkannt ist. Diese Organisationen stehen in einer Liste im Anhang einer Verordnung des Bundes."
+        "de": "Das Einsichtsrecht gibt Ihnen Informationen, aber keinen Anspruch darauf, dass eine Behörde etwas unternimmt. Wer eine Behörde auffordert, gegen eine Firma vorzugehen, wird dadurch nicht Partei in einem Verfahren. Eine Klage für die Allgemeinheit, die jede Person erheben kann, gibt es im Umweltrecht nicht. Mitreden können Sie vor allem, wenn Sie selbst besonders betroffen sind, zum Beispiel als direkte Nachbarin oder direkter Nachbar einer Anlage. Sonst bleiben diese Wege: eine Meldung an die zuständige Behörde, bei einer Straftat eine Anzeige, die Teilnahme an öffentlichen Auflagen innerhalb der Frist oder der Hinweis an eine Umweltorganisation, die vom Bund als beschwerdeberechtigt anerkannt ist. Diese Organisationen stehen in einer Liste im Anhang einer Verordnung des Bundes.",
+        "fr": "Le droit de consultation vous donne des informations, mais aucun droit à ce qu'une autorité entreprenne quelque chose. Qui invite une autorité à agir contre une entreprise ne devient pas partie à une procédure de ce fait. Il n'existe pas, en droit de l'environnement, d'action dans l'intérêt général que toute personne pourrait intenter. Vous pouvez surtout vous faire entendre si vous êtes vous-même particulièrement touché, par exemple en tant que voisine ou voisin direct d'une installation. Sinon, il vous reste ces voies : un signalement à l'autorité compétente, une dénonciation en cas d'infraction, la participation aux mises à l'enquête publiques dans le délai imparti, ou le signalement à une organisation environnementale reconnue par la Confédération comme habilitée à recourir. Ces organisations figurent dans une liste annexée à une ordonnance de la Confédération.",
+        "it": "Il diritto di consultazione le dà informazioni, ma non il diritto a che un'autorità intraprenda qualcosa. Chi invita un'autorità ad agire contro un'azienda non diventa per questo parte di una procedura. Nel diritto ambientale non esiste un'azione a nome della collettività che ogni persona possa proporre. Può far valere la sua voce soprattutto se è essa stessa particolarmente toccata, per esempio come vicina o vicino diretto di un impianto. Altrimenti restano queste vie: una segnalazione all'autorità competente, in caso di reato una denuncia penale, la partecipazione ai depositi pubblici entro il termine, oppure la segnalazione a un'organizzazione ambientale riconosciuta dalla Confederazione come legittimata a ricorrere. Queste organizzazioni figurano in un elenco nell'allegato di un'ordinanza della Confederazione.",
+        "en": "The right of access gives you information, but not a right to have an authority do something. Anyone who calls on an authority to take action against a company does not thereby become a party to proceedings. There is no such thing in environmental law as an action open to every person on behalf of the general public. You can have a say chiefly if you yourself are especially affected, for example as a direct neighbour of a facility. Otherwise these routes remain: a report to the responsible authority, a criminal complaint in the case of an offence, taking part in public deposit procedures within the time limit, or a tip-off to an environmental organisation recognised by the Confederation as entitled to appeal. These organisations are listed in the annex to a federal ordinance.",
+        "rm": "Il dretg da consultaziun dat a Vus infurmaziuns, betg dentant in dretg a che in'autoritad interveglia insatge. Tgi ch'envida in'autoritad da proceder cunter ina firma, na daventa betg partida tras quai en ina procedura. Ina plant per la generalitad, che mintga persuna pudess far, n'exista betg en il dretg da l'ambient. Influenzar il proceder pudais Vus surtut, sche Vus essas Vus sez spezialmain tangì, per exempel sco vischina directa u vischin direct d'ina installaziun. Autramain restan questas vias: ina communicaziun a l'autoritad cumpetenta, tar in delict in'annunzia penala, la participaziun a exposiziuns publicas entaifer il termin u l'indicaziun ad in'organisaziun ambientala che la Confederaziun renconuscha cun dretg da far recurs. Questas organisaziuns stattan en ina glista en l'agiunta d'ina ordinaziun da la Confederaziun."
       },
       "sources": [
         "bge-139-ii-279-e2-3",
@@ -411,14 +591,22 @@
       "id": "escalate",
       "kind": "escalate",
       "text": {
-        "de": "Lassen Sie sich persönlich beraten, wenn es um viele oder heikle Dokumente geht, wenn eine Behörde den Zugang trotz Empfehlung des EDÖB verweigert oder wenn Sie eine Verfügung vor Gericht anfechten wollen. Das gilt auch, wenn Sie wegen einer Belastung gegen ein Projekt vorgehen möchten: Dann laufen oft kurze Fristen, und es kommt darauf an, ob Sie selbst besonders betroffen sind. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage prüfen."
+        "de": "Lassen Sie sich persönlich beraten, wenn es um viele oder heikle Dokumente geht, wenn eine Behörde den Zugang trotz Empfehlung des EDÖB verweigert oder wenn Sie eine Verfügung vor Gericht anfechten wollen. Das gilt auch, wenn Sie wegen einer Belastung gegen ein Projekt vorgehen möchten: Dann laufen oft kurze Fristen, und es kommt darauf an, ob Sie selbst besonders betroffen sind. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage prüfen.",
+        "fr": "Faites-vous conseiller personnellement lorsqu'il s'agit de nombreux documents ou de documents sensibles, lorsqu'une autorité refuse l'accès malgré la recommandation du PFPDT, ou lorsque vous voulez contester une décision devant le tribunal. Cela vaut aussi si vous voulez agir contre un projet en raison d'une atteinte : des délais courts courent alors souvent, et tout dépend de si vous êtes vous-même particulièrement touché. Une avocate ou un avocat expérimenté en droit de l'environnement ou en droit administratif peut examiner votre situation.",
+        "it": "Si faccia consigliare personalmente se si tratta di molti documenti o di documenti delicati, se un'autorità rifiuta l'accesso nonostante la raccomandazione dell'IFPDT, oppure se vuole impugnare una decisione davanti a un tribunale. Vale anche se, a causa di un'immissione, vuole opporsi a un progetto: in questi casi corrono spesso termini brevi, e conta se lei stessa è particolarmente toccata. Un'avvocata o un avvocato con esperienza in diritto ambientale o amministrativo può esaminare la sua situazione.",
+        "en": "Get personal advice if a lot of documents, or sensitive ones, are involved, if an authority refuses access despite a recommendation from the FDPIC, or if you want to challenge a ruling in court. This also applies if you want to act against a project because of a burden: short time limits often run there, and it depends on whether you yourself are especially affected. A lawyer experienced in environmental or administrative law can assess your situation.",
+        "rm": "Laschai Vus consegliar persunalmain, sch'i sa tracta da blers u delicats documents, sch'in'autoritad refusa l'access malgrà la recumandaziun da l'IFPDT u sche Vus vulais contestar ina decisiun avant dretgira. Quai vala er, sche Vus vulais proceder cunter in project pervia d'ina chargia: Lura currian savens curts termins, e conta, sche Vus essas Vus sez spezialmain tangì. In'advocata u in advocat cun experientscha en il dretg da l'ambient u en il dretg administrativ po examinar Vossa situaziun."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose Hilfe erhalten Sie hier:\n- Der EDÖB informiert auf seiner Website, wie ein Gesuch an eine Bundesstelle funktioniert, und bietet eine Mustervorlage. Die Schlichtung ist kostenlos.\n- Die Wasserversorgung oder die Gemeinde gibt Auskunft über die Qualität Ihres Trinkwassers.\n- Die kantonale Umweltfachstelle und das Kantonslabor beraten zu Messwerten in Ihrer Umgebung.\n- Die Umweltorganisationen, die als beschwerdeberechtigt anerkannt sind, können Sie auf ein Problem hinweisen.\n- In einem akuten Fall, etwa bei einer Verschmutzung eines Gewässers, rufen Sie sofort die Polizei (117) oder die Feuerwehr (118)."
+        "de": "Kostenlose Hilfe erhalten Sie hier:\n- Der EDÖB informiert auf seiner Website, wie ein Gesuch an eine Bundesstelle funktioniert, und bietet eine Mustervorlage. Die Schlichtung ist kostenlos.\n- Die Wasserversorgung oder die Gemeinde gibt Auskunft über die Qualität Ihres Trinkwassers.\n- Die kantonale Umweltfachstelle und das Kantonslabor beraten zu Messwerten in Ihrer Umgebung.\n- Die Umweltorganisationen, die als beschwerdeberechtigt anerkannt sind, können Sie auf ein Problem hinweisen.\n- In einem akuten Fall, etwa bei einer Verschmutzung eines Gewässers, rufen Sie sofort die Polizei (117) oder die Feuerwehr (118).",
+        "fr": "Vous obtenez une aide gratuite ici :\n- Le PFPDT explique sur son site internet comment fonctionne une requête à un service fédéral, et propose un modèle. La médiation est gratuite.\n- La distribution d'eau ou la commune renseigne sur la qualité de votre eau potable.\n- Le service cantonal de l'environnement et le laboratoire cantonal conseillent sur les valeurs mesurées dans votre région.\n- Les organisations environnementales reconnues comme habilitées à recourir peuvent recevoir votre signalement d'un problème.\n- En cas de situation urgente, par exemple une pollution d'un cours d'eau, appelez immédiatement la police (117) ou les pompiers (118).",
+        "it": "Ottiene aiuto gratuito qui:\n- L'IFPDT informa sul suo sito come funziona una domanda a un servizio federale e mette a disposizione un modello. La mediazione è gratuita.\n- Il fornitore d'acqua potabile o il Comune informa sulla qualità della sua acqua potabile.\n- Il servizio cantonale per l'ambiente e il laboratorio cantonale consigliano sui valori misurati nella sua zona.\n- Le organizzazioni ambientali riconosciute come legittimate a ricorrere possono essere avvisate di un problema.\n- In un caso urgente, per esempio in caso di inquinamento di un corso d'acqua, chiami subito la polizia (117) o i pompieri (118).",
+        "en": "Free help is available here:\n- The FDPIC's website explains how to make an application to a federal body, and offers a model template. Mediation is free of charge.\n- The water supplier or the municipality gives information about the quality of your drinking water.\n- The cantonal environmental agency and the cantonal laboratory advise on measurement results in your area.\n- The environmental organisations recognised as entitled to appeal can be alerted to a problem.\n- In an acute case, for example pollution of a body of water, call the police (117) or the fire brigade (118) immediately.",
+        "rm": "Agid gratuit survegnis Vus qua:\n- L'IFPDT infurmescha sin sia website, co ina dumonda ad in post federal funcziunescha, ed offra in model. La mediaziun è gratuita.\n- Il provediment d'aua u la vischnanca dat infurmaziun davart la qualitad da Vossa aua potabla.\n- Il post chantunal spezialisà per l'ambient ed il laboratori chantunal cusseglian davart valurs da mesiraziun en Voss territori.\n- Las organisaziuns ambientalas che vegnan renconuschidas cun dretg da far recurs, pudais Vus far attent a in problem.\n- En in cas acut, per exempel tar in'inquinaziun d'ina aua, clamai immediat la polizia (117) u ils pumpiers (118)."
       }
     }
   ],
@@ -677,43 +865,71 @@
   "official_links": [
     {
       "label": {
-        "de": "EDÖB: Zugang zu amtlichen Dokumenten"
+        "de": "EDÖB: Zugang zu amtlichen Dokumenten",
+        "fr": "PFPDT : accès aux documents officiels",
+        "it": "IFPDT: Accesso ai documenti ufficiali",
+        "en": "FDPIC: access to official documents",
+        "rm": "IFPDT: Access a documents uffizials"
       },
       "url": "https://www.edoeb.admin.ch/de/zugang-zu-amtlichen-dokumenten"
     },
     {
       "label": {
-        "de": "EDÖB: Das Schlichtungsverfahren"
+        "de": "EDÖB: Das Schlichtungsverfahren",
+        "fr": "PFPDT : la procédure de médiation",
+        "it": "IFPDT: La procedura di mediazione",
+        "en": "FDPIC: the mediation procedure",
+        "rm": "IFPDT: La procedura da mediaziun"
       },
       "url": "https://www.edoeb.admin.ch/de/das-schlichtungsverfahren"
     },
     {
       "label": {
-        "de": "BAFU: Aarhus-Konvention"
+        "de": "BAFU: Aarhus-Konvention",
+        "fr": "OFEV : Convention d'Aarhus",
+        "it": "UFAM: Convenzione di Aarhus",
+        "en": "FOEN: the Aarhus Convention",
+        "rm": "UFAM: Convenziun d'Aarhus"
       },
       "url": "https://www.bafu.admin.ch/de/aarhus-konvention"
     },
     {
       "label": {
-        "de": "BAFU: PFAS"
+        "de": "BAFU: PFAS",
+        "fr": "OFEV : PFAS",
+        "it": "UFAM: PFAS",
+        "en": "FOEN: PFAS",
+        "rm": "UFAM: PFAS"
       },
       "url": "https://www.bafu.admin.ch/de/pfas"
     },
     {
       "label": {
-        "de": "BAFU: Nationale Grundwasserbeobachtung NAQUA"
+        "de": "BAFU: Nationale Grundwasserbeobachtung NAQUA",
+        "fr": "OFEV : Observation nationale des eaux souterraines NAQUA",
+        "it": "UFAM: Osservazione nazionale delle acque sotterranee NAQUA",
+        "en": "FOEN: National Groundwater Monitoring NAQUA",
+        "rm": "UFAM: Survegliaziun naziunala da l'aua sutterranea NAQUA"
       },
       "url": "https://www.bafu.admin.ch/de/naqua"
     },
     {
       "label": {
-        "de": "BAFU: Schadstoffregister SwissPRTR"
+        "de": "BAFU: Schadstoffregister SwissPRTR",
+        "fr": "OFEV : Registre des polluants SwissPRTR",
+        "it": "UFAM: Registro delle emissioni di sostanze inquinanti SwissPRTR",
+        "en": "FOEN: pollutant register SwissPRTR",
+        "rm": "UFAM: Register da substanzas nozevlas SwissPRTR"
       },
       "url": "https://www.bafu.admin.ch/de/swissprtr"
     },
     {
       "label": {
-        "de": "BLV: Trinkwasser"
+        "de": "BLV: Trinkwasser",
+        "fr": "OSAV : eau potable",
+        "it": "USAV: Acqua potabile",
+        "en": "FSVO: drinking water",
+        "rm": "BLV: Aua potabla"
       },
       "url": "https://www.blv.admin.ch/de/trinkwasser"
     }

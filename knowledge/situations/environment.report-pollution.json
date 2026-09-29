@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ich habe eine Umweltverschmutzung oder eine Zerstörung der Natur bemerkt"
+    "de": "Ich habe eine Umweltverschmutzung oder eine Zerstörung der Natur bemerkt",
+    "fr": "J'ai remarqué une pollution de l'environnement ou une destruction de la nature",
+    "it": "Ho notato un inquinamento ambientale o una distruzione della natura",
+    "en": "I have noticed pollution or destruction of nature",
+    "rm": "Jau hai remartgà in'inquinaziun da l'ambient u ina destrucziun da la natira"
   },
   "summary": {
-    "de": "Sehen Sie Öl oder tote Fische in einem Bach, brennenden oder abgeladenen Abfall, eine zerstörte Hecke, einen gerodeten Wald oder getötete Wildtiere, können Sie handeln. Läuft etwas noch, rufen Sie die Polizei (117) oder die Feuerwehr (118). Jede Person darf eine Straftat anzeigen und auf Anfrage erfahren, wie das Verfahren ausgeht. Zwingen können Sie die Behörden aber nicht, solange Sie nicht selbst besonders betroffen sind. Wirksam sind eine rasche Meldung, eine Aufsichtsanzeige, ein Gesuch um Einsicht in Umweltinformationen und ein früher Hinweis an eine Umweltorganisation."
+    "de": "Sehen Sie Öl oder tote Fische in einem Bach, brennenden oder abgeladenen Abfall, eine zerstörte Hecke, einen gerodeten Wald oder getötete Wildtiere, können Sie handeln. Läuft etwas noch, rufen Sie die Polizei (117) oder die Feuerwehr (118). Jede Person darf eine Straftat anzeigen und auf Anfrage erfahren, wie das Verfahren ausgeht. Zwingen können Sie die Behörden aber nicht, solange Sie nicht selbst besonders betroffen sind. Wirksam sind eine rasche Meldung, eine Aufsichtsanzeige, ein Gesuch um Einsicht in Umweltinformationen und ein früher Hinweis an eine Umweltorganisation.",
+    "fr": "Si vous voyez du pétrole ou des poissons morts dans un ruisseau, des déchets brûlés ou déposés, une haie détruite, une forêt défrichée ou des animaux sauvages tués, vous pouvez agir. Si quelque chose est encore en cours, appelez la police (117) ou les pompiers (118). Toute personne peut dénoncer une infraction et apprendre, sur demande, comment se termine la procédure. Vous ne pouvez toutefois pas contraindre les autorités, tant que vous n'êtes pas vous-même particulièrement touché. Sont efficaces : un signalement rapide, une dénonciation à l'autorité de surveillance, une demande de consultation d'informations sur l'environnement et un signalement précoce à une organisation environnementale.",
+    "it": "Se vede olio o pesci morti in un ruscello, rifiuti bruciati o depositati abusivamente, una siepe distrutta, un bosco dissodato o animali selvatici uccisi, può agire. Se qualcosa sta ancora succedendo, chiami la polizia (117) o i pompieri (118). Ogni persona può denunciare un reato e, su richiesta, sapere come si è concluso il procedimento. Non può però costringere le autorità ad agire, finché non è essa stessa particolarmente toccata. Sono efficaci una segnalazione tempestiva, una denuncia all'autorità di vigilanza, una domanda di accesso alle informazioni ambientali e una segnalazione precoce a un'organizzazione ambientale.",
+    "en": "If you see oil or dead fish in a stream, burning or dumped waste, a destroyed hedge, cleared forest or killed wildlife, you can act. If something is still happening, call the police (117) or the fire brigade (118). Anyone may report a criminal offence and, on request, find out how the proceedings turn out. But you cannot force the authorities to act unless you are yourself especially affected. What is effective is a prompt report, a supervisory complaint, an application to inspect environmental information, and an early tip-off to an environmental organisation.",
+    "rm": "Vesais Vus ieli u pesch morts en in ri, rument che brischa u ch'è vegnì abandunà, in staquet destruì, in guaud displantà u tiers selvadis mazzads, pudais Vus agir. Sche insatge è anc en process, clamai la polizia (117) u ils pumpiers (118). Mintga persuna dastga denunziar in delict e survegnir, sin dumonda, infurmaziun davart l'exit da la procedura. Forzar las autoritads na pudais Vus dentant betg, uschè ditg che Vus n'essas betg sezs spezialmain tangids. Efficazs èn ina annunzia rapida, in recurs da surveglianza, ina dumonda d'access a infurmaziuns davart l'ambient ed in'indicaziun baud ad in'organisaziun ambientala."
   },
   "examples": {
     "de": [
@@ -19,57 +27,125 @@
       "Die Gemeinde hat eine Hecke mit Nestern drin weggeräumt. Darf die das?",
       "Vo de Baustell lauft grau Wasser i de Bach. Was chan ich mache?",
       "Ich habe Anzeige erstattet. Erfahre ich, was daraus geworden ist?"
+    ],
+    "fr": [
+      "Des poissons morts flottent dans le ruisseau derrière notre maison. Qui dois-je appeler ?",
+      "Quelqu'un a déposé ses gravats de chantier dans la forêt. Puis-je le signaler ?",
+      "Mon voisin brûle du plastique et des déchets dans son jardin tous les samedis. Est-ce autorisé ?",
+      "La commune a enlevé une haie qui contenait des nids. A-t-elle le droit de faire ça ?",
+      "De l'eau grise s'écoule du chantier dans le ruisseau. Que puis-je faire ?",
+      "J'ai déposé une plainte. Vais-je savoir ce qu'il en est advenu ?"
+    ],
+    "it": [
+      "Nel ruscello dietro casa nostra galleggiano pesci morti. Chi devo chiamare?",
+      "Qualcuno ha scaricato le macerie edili direttamente nel bosco. Posso segnalarlo?",
+      "Il mio vicino brucia plastica e rifiuti in giardino ogni sabato. È permesso?",
+      "Il Comune ha rimosso una siepe con dei nidi dentro. Può farlo?",
+      "Dal cantiere esce acqua grigia che finisce nel ruscello. Cosa posso fare?",
+      "Ho sporto denuncia. Verrò a sapere cosa ne è stato?"
+    ],
+    "en": [
+      "There are dead fish floating in the stream behind our house. Who do I need to call?",
+      "Someone has just dumped their building rubble in the forest. Can I report that?",
+      "My neighbour burns plastic and rubbish in the garden every Saturday. Is that allowed?",
+      "The municipality has removed a hedge with nests in it. Are they allowed to do that?",
+      "Grey water is running from the construction site into the stream. What can I do?",
+      "I've filed a report. Will I find out what happened with it?"
+    ],
+    "rm": [
+      "En il ri davos noss chasa nodan pesch morts. Tgi stoss jau clamar?",
+      "Insatgi ha simplamain sbutgà ses rument da construcziun en il guaud. Poss jau denunziar quai?",
+      "Mes vischin brischa mintga sonda plastic e rument en curtin. Èsi permess?",
+      "La vischnanca ha allontanà in staquet cun nids en el. Dastgan els quai?",
+      "Da la fossa da construcziun cuola aua grischa en il ri. Tge poss jau far?",
+      "Jau hai fatg ina denunzia. Vegn jau a savair, tge ch'è daventà da quai?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Was Sie tun können, wenn Sie eine Verschmutzung von Wasser oder Boden, illegal entsorgten oder verbrannten Abfall, eine zerstörte Hecke, ein beschädigtes Biotop, eine Rodung oder getötete oder gestörte Wildtiere bemerken: Notruf, sicheres Festhalten, Strafanzeige, Auskunft über den Ausgang, Aufsichtsanzeige, Einsicht in Umweltinformationen, Hinweis an Umweltorganisationen und die Grenzen dieser Wege."
+      "de": "Was Sie tun können, wenn Sie eine Verschmutzung von Wasser oder Boden, illegal entsorgten oder verbrannten Abfall, eine zerstörte Hecke, ein beschädigtes Biotop, eine Rodung oder getötete oder gestörte Wildtiere bemerken: Notruf, sicheres Festhalten, Strafanzeige, Auskunft über den Ausgang, Aufsichtsanzeige, Einsicht in Umweltinformationen, Hinweis an Umweltorganisationen und die Grenzen dieser Wege.",
+      "fr": "Ce que vous pouvez faire si vous constatez une pollution de l'eau ou du sol, des déchets éliminés ou brûlés illégalement, une haie détruite, un biotope endommagé, un défrichement ou des animaux sauvages tués ou dérangés : l'appel d'urgence, la constatation sûre des faits, la dénonciation pénale, le renseignement sur l'issue, la dénonciation à l'autorité de surveillance, la consultation d'informations sur l'environnement, le signalement aux organisations environnementales et les limites de ces démarches.",
+      "it": "Cosa può fare se nota un inquinamento di acqua o suolo, rifiuti smaltiti o bruciati illegalmente, una siepe distrutta, un biotopo danneggiato, un dissodamento o animali selvatici uccisi o disturbati: il numero d'emergenza, come raccogliere le prove in sicurezza, la denuncia penale, il diritto di sapere come si è concluso il procedimento, la denuncia all'autorità di vigilanza, l'accesso alle informazioni ambientali, la segnalazione a organizzazioni ambientali e i limiti di queste vie.",
+      "en": "What you can do if you notice pollution of water or soil, illegally dumped or burned waste, a destroyed hedge, a damaged biotope, forest clearing, or killed or disturbed wildlife: the emergency number, safely recording evidence, a criminal complaint, information about the outcome, a supervisory complaint, inspecting environmental information, tipping off environmental organisations, and the limits of these routes.",
+      "rm": "Tge che Vus pudais far, sche Vus remartgais in'inquinaziun da l'aua u da la terra, rument sbutgà u brischà illegalmain, in staquet destruì, in biotop donnegià, ina displantaziun u tiers selvadis mazzads u disturbads: clom d'urgenza, documentaziun segira, denunzia penala, infurmaziun davart l'exit, recurs da surveglianza, access a infurmaziuns davart l'ambient, indicaziun ad organisaziuns ambientalas ed ils limits da questas vias."
     },
     "excludes": {
-      "de": "Streitigkeiten unter Nachbarn wie Lärm, Grillrauch, Wärmepumpen oder Hecken an der Grenze, die Einsprache gegen ein Bauprojekt im Einzelnen, Schadenersatzklagen und Klimaklagen. Kantonale Fristen und Zuständigkeiten sind nur allgemein erwähnt."
+      "de": "Streitigkeiten unter Nachbarn wie Lärm, Grillrauch, Wärmepumpen oder Hecken an der Grenze, die Einsprache gegen ein Bauprojekt im Einzelnen, Schadenersatzklagen und Klimaklagen. Kantonale Fristen und Zuständigkeiten sind nur allgemein erwähnt.",
+      "fr": "Les litiges entre voisins comme le bruit, la fumée de grillades, les pompes à chaleur ou les haies à la limite de propriété, l'opposition à un projet de construction en détail, les actions en dommages-intérêts et les actions climatiques. Les délais et compétences cantonaux ne sont mentionnés que de manière générale.",
+      "it": "Le controversie tra vicini come rumore, fumo di grigliate, pompe di calore o siepi al confine, l'opposizione a un progetto edilizio nel dettaglio, le azioni di risarcimento del danno e le azioni climatiche. I termini e le competenze cantonali sono menzionati solo in generale.",
+      "en": "Disputes between neighbours such as noise, barbecue smoke, heat pumps or hedges on the boundary, objecting to a specific construction project, claims for damages, and climate actions. Cantonal time limits and responsibilities are mentioned only in general terms.",
+      "rm": "Dispitas tranter vischins sco rumur, fum da grill, pumpas da chalur u staquets sin la cunfin, la protesta cunter in project da construcziun en detagl, plants d'indemnisaziun e plants per il clima. Termins e cumpetenzas chantunalas èn mo numnads en general."
     }
   },
   "facts": [
     {
       "key": "harm",
       "question": {
-        "de": "Was haben Sie bemerkt?"
+        "de": "Was haben Sie bemerkt?",
+        "fr": "Qu'avez-vous remarqué ?",
+        "it": "Cosa ha notato?",
+        "en": "What have you noticed?",
+        "rm": "Tge avais Vus remartgà?"
       },
       "options": [
         {
           "value": "water",
           "label": {
-            "de": "Verschmutztes Wasser: Öl, Schaum, Verfärbung oder tote Fische"
+            "de": "Verschmutztes Wasser: Öl, Schaum, Verfärbung oder tote Fische",
+            "fr": "De l'eau polluée : pétrole, mousse, décoloration ou poissons morts",
+            "it": "Acqua inquinata: olio, schiuma, cambiamento di colore o pesci morti",
+            "en": "Polluted water: oil, foam, discolouration or dead fish",
+            "rm": "Aua inquinada: ieli, spuma, midada da colur u pesch morts"
           }
         },
         {
           "value": "waste",
           "label": {
-            "de": "Abfall wird abgelagert, weggeworfen oder verbrannt"
+            "de": "Abfall wird abgelagert, weggeworfen oder verbrannt",
+            "fr": "Des déchets sont déposés, jetés ou brûlés",
+            "it": "Rifiuti depositati, gettati via o bruciati",
+            "en": "Waste being dumped, thrown away or burned",
+            "rm": "Rument vegn deposità, sbutgà u brischà"
           }
         },
         {
           "value": "nature",
           "label": {
-            "de": "Zerstörte Natur: Hecke, Ufer, Feuchtgebiet, Biotop oder Wald"
+            "de": "Zerstörte Natur: Hecke, Ufer, Feuchtgebiet, Biotop oder Wald",
+            "fr": "Nature détruite : haie, berge, zone humide, biotope ou forêt",
+            "it": "Natura distrutta: siepe, riva, zona umida, biotopo o bosco",
+            "en": "Destroyed nature: hedge, riverbank, wetland, biotope or forest",
+            "rm": "Natira destruida: staquet, riva, territori umid, biotop u guaud"
           }
         },
         {
           "value": "animals",
           "label": {
-            "de": "Wildtiere werden getötet, gefangen oder gestört"
+            "de": "Wildtiere werden getötet, gefangen oder gestört",
+            "fr": "Des animaux sauvages sont tués, capturés ou dérangés",
+            "it": "Animali selvatici uccisi, catturati o disturbati",
+            "en": "Wildlife being killed, caught or disturbed",
+            "rm": "Tiers selvadis vegnan mazzads, chapids u disturbads"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Etwas anderes"
+            "de": "Etwas anderes",
+            "fr": "Autre chose",
+            "it": "Qualcos'altro",
+            "en": "Something else",
+            "rm": "Insatge auter"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -77,25 +153,41 @@
     {
       "key": "ongoing",
       "question": {
-        "de": "Passiert es gerade jetzt, oder breitet sich die Verschmutzung noch aus?"
+        "de": "Passiert es gerade jetzt, oder breitet sich die Verschmutzung noch aus?",
+        "fr": "Est-ce en train de se produire, ou la pollution continue-t-elle de se propager ?",
+        "it": "Sta succedendo proprio ora, o l'inquinamento si sta ancora diffondendo?",
+        "en": "Is it happening right now, or is the pollution still spreading?",
+        "rm": "Daventa quai gist ussa, u sa derasa l'inquinaziun anc vinavant?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, es passiert jetzt"
+            "de": "Ja, es passiert jetzt",
+            "fr": "Oui, cela se passe maintenant",
+            "it": "Sì, sta succedendo ora",
+            "en": "Yes, it's happening now",
+            "rm": "Gea, quai daventa ussa"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es ist vorbei"
+            "de": "Nein, es ist vorbei",
+            "fr": "Non, c'est terminé",
+            "it": "No, è finita",
+            "en": "No, it's over",
+            "rm": "Na, igl è overs"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -103,25 +195,41 @@
     {
       "key": "responsible",
       "question": {
-        "de": "Wer steckt Ihrer Meinung nach dahinter?"
+        "de": "Wer steckt Ihrer Meinung nach dahinter?",
+        "fr": "Qui est selon vous responsable ?",
+        "it": "Secondo lei, chi ne è responsabile?",
+        "en": "Who do you think is behind it?",
+        "rm": "Tgi che stat, tenor Vossa opiniun, davos quai?"
       },
       "options": [
         {
           "value": "private",
           "label": {
-            "de": "Eine Privatperson oder eine Firma"
+            "de": "Eine Privatperson oder eine Firma",
+            "fr": "Une personne privée ou une entreprise",
+            "it": "Una persona privata o un'azienda",
+            "en": "A private person or a company",
+            "rm": "Ina persuna privata u ina firma"
           }
         },
         {
           "value": "authority",
           "label": {
-            "de": "Eine Behörde, eine Gemeinde oder ein öffentlicher Betrieb"
+            "de": "Eine Behörde, eine Gemeinde oder ein öffentlicher Betrieb",
+            "fr": "Une autorité, une commune ou une entreprise publique",
+            "it": "Un'autorità, un Comune o un'azienda pubblica",
+            "en": "An authority, a municipality or a public undertaking",
+            "rm": "In'autoritad, ina vischnanca u in'interpresa publica"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -129,25 +237,41 @@
     {
       "key": "affected",
       "question": {
-        "de": "Sind Sie selbst betroffen, zum Beispiel Ihr Grundstück, Ihr Brunnen, Ihre Tiere oder Ihre Gesundheit?"
+        "de": "Sind Sie selbst betroffen, zum Beispiel Ihr Grundstück, Ihr Brunnen, Ihre Tiere oder Ihre Gesundheit?",
+        "fr": "Êtes-vous vous-même touché, par exemple votre bien-fonds, votre puits, vos animaux ou votre santé ?",
+        "it": "È lei stessa toccata, per esempio il suo fondo, il suo pozzo, i suoi animali o la sua salute?",
+        "en": "Are you affected yourself, for example your property, your well, your animals or your health?",
+        "rm": "Essas Vus sezs tangids, per exempel Voss terren, Voss funtauna, Voss tiers u Vossa sanadad?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein, es geht mir um die Umwelt"
+            "de": "Nein, es geht mir um die Umwelt",
+            "fr": "Non, ce qui me préoccupe, c'est l'environnement",
+            "it": "No, mi preoccupo per l'ambiente",
+            "en": "No, my concern is the environment",
+            "rm": "Na, a mai stat a cor l'ambient"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -164,21 +288,33 @@
         ]
       },
       "text": {
-        "de": "Läuft die Verschmutzung noch, rufen Sie sofort an. Das gilt zum Beispiel, wenn Öl, Schaum oder eine trübe Flüssigkeit in einen Bach fliesst, wenn tote Fische treiben oder wenn Abfall brennt. Die Polizei erreichen Sie unter 117, die Feuerwehr unter 118. Bei Öl- und Chemieunfällen ist meist die Feuerwehr gefragt. Einige Kantone, etwa Genf, nennen für Gewässerverschmutzungen zuerst die 118. Wählen Sie im Zweifel eine der beiden Nummern: Polizei und Feuerwehr holen die Fachleute des kantonalen Gewässerschutzes dazu. Sagen Sie, wo genau es passiert, was Sie sehen und seit wann. Geben Sie Ihre Telefonnummer für Rückfragen an. Warten Sie nicht bis am nächsten Tag. Spuren im Wasser sind oft schon nach wenigen Stunden verschwunden."
+        "de": "Läuft die Verschmutzung noch, rufen Sie sofort an. Das gilt zum Beispiel, wenn Öl, Schaum oder eine trübe Flüssigkeit in einen Bach fliesst, wenn tote Fische treiben oder wenn Abfall brennt. Die Polizei erreichen Sie unter 117, die Feuerwehr unter 118. Bei Öl- und Chemieunfällen ist meist die Feuerwehr gefragt. Einige Kantone, etwa Genf, nennen für Gewässerverschmutzungen zuerst die 118. Wählen Sie im Zweifel eine der beiden Nummern: Polizei und Feuerwehr holen die Fachleute des kantonalen Gewässerschutzes dazu. Sagen Sie, wo genau es passiert, was Sie sehen und seit wann. Geben Sie Ihre Telefonnummer für Rückfragen an. Warten Sie nicht bis am nächsten Tag. Spuren im Wasser sind oft schon nach wenigen Stunden verschwunden.",
+        "fr": "Si la pollution est encore en cours, appelez immédiatement. C'est le cas par exemple si du pétrole, de la mousse ou un liquide trouble s'écoule dans un ruisseau, si des poissons morts flottent ou si des déchets brûlent. Vous joignez la police au 117, les pompiers au 118. En cas d'accident au pétrole ou aux produits chimiques, ce sont en général les pompiers qu'il faut appeler. Certains cantons, par exemple Genève, indiquent d'abord le 118 pour les pollutions des eaux. En cas de doute, composez l'un des deux numéros : la police et les pompiers font intervenir les spécialistes de la protection cantonale des eaux. Indiquez exactement où cela se passe, ce que vous voyez et depuis quand. Communiquez votre numéro de téléphone pour d'éventuelles questions. N'attendez pas jusqu'au lendemain. Les traces dans l'eau disparaissent souvent déjà après quelques heures.",
+        "it": "Se l'inquinamento è ancora in corso, chiami subito. Questo vale per esempio se olio, schiuma o un liquido torbido finisce in un ruscello, se galleggiano pesci morti o se dei rifiuti bruciano. Raggiunge la polizia al 117, i pompieri al 118. In caso di incidenti con olio o sostanze chimiche è di regola competente il servizio pompieri. Alcuni Cantoni, per esempio Ginevra, indicano per l'inquinamento delle acque prima il 118. Nel dubbio, componga uno dei due numeri: polizia e pompieri coinvolgono poi gli specialisti della protezione cantonale delle acque. Indichi esattamente dove sta succedendo, cosa vede e da quando. Fornisca il suo numero di telefono per eventuali domande. Non aspetti fino al giorno dopo. Le tracce nell'acqua spesso scompaiono già dopo poche ore.",
+        "en": "If the pollution is still happening, call immediately. This applies, for example, if oil, foam or a cloudy liquid is flowing into a stream, if dead fish are floating, or if waste is burning. You can reach the police on 117 and the fire brigade on 118. For oil and chemical incidents, the fire brigade is usually the right choice. Some cantons, for example Geneva, name 118 first for water pollution. If in doubt, dial either number: the police and fire brigade will call in the specialists from the cantonal water protection service. Say exactly where it is happening, what you see, and since when. Give your phone number for follow-up questions. Do not wait until the next day. Traces in water often disappear again within a few hours.",
+        "rm": "Sch'i currescha anc l'inquinaziun, clamai immediat. Quai vala per exempel, sch'ieli, spuma u in liquid stgir cuola en in ri, sche pesch morts nodan u sche rument brischa. La polizia cuntanschais Vus sut il 117, ils pumpiers sut il 118. Tar accidents cun ieli e cun products chimics èn il pli savens ils pumpiers dumandads. Tscherts chantuns, sco Genevra, numnan per inquinaziuns d'auas empruma il 118. En cas da dubi tschernai in dals dus numers: Polizia e pumpiers clomen tar ils spezialists da la protecziun chantunala da las auas. Indicai, nua ch'i daventa exactamain, tge che Vus vesais e dapi quandi. Communitgai Voss numer da telefon per contrapreguntas. N'aspettai betg fin l'di suandant. Traces en l'aua èn savens gia sparidas suenter paucas uras."
       }
     },
     {
       "id": "stay-safe",
       "kind": "step",
       "text": {
-        "de": "Bringen Sie sich nicht in Gefahr. Berühren Sie keine unbekannten Flüssigkeiten und atmen Sie keinen Rauch ein. Betreten Sie kein fremdes, abgesperrtes Gelände und keine Baustelle. Stellen Sie niemanden zur Rede. Halten Sie aus sicherer Distanz fest, was Sie sehen: Datum und Uhrzeit, den genauen Ort (Adresse, Flurname oder Koordinaten aus dem Handy), Fotos oder ein kurzes Video, Farbe und Geruch, Autonummern von beteiligten Fahrzeugen, Namen von Zeuginnen und Zeugen. Schreiben Sie Ihre Beobachtungen möglichst bald auf. Solche Notizen helfen der Polizei und der Umweltfachstelle später, den Fall zu klären."
+        "de": "Bringen Sie sich nicht in Gefahr. Berühren Sie keine unbekannten Flüssigkeiten und atmen Sie keinen Rauch ein. Betreten Sie kein fremdes, abgesperrtes Gelände und keine Baustelle. Stellen Sie niemanden zur Rede. Halten Sie aus sicherer Distanz fest, was Sie sehen: Datum und Uhrzeit, den genauen Ort (Adresse, Flurname oder Koordinaten aus dem Handy), Fotos oder ein kurzes Video, Farbe und Geruch, Autonummern von beteiligten Fahrzeugen, Namen von Zeuginnen und Zeugen. Schreiben Sie Ihre Beobachtungen möglichst bald auf. Solche Notizen helfen der Polizei und der Umweltfachstelle später, den Fall zu klären.",
+        "fr": "Ne vous mettez pas en danger. Ne touchez aucun liquide inconnu et n'inhalez aucune fumée. N'entrez pas sur un terrain d'autrui fermé ni sur un chantier. N'interpellez personne. Consignez, à distance sûre, ce que vous voyez : la date et l'heure, le lieu exact (adresse, nom du lieu-dit ou coordonnées relevées sur votre téléphone), des photos ou une courte vidéo, la couleur et l'odeur, les numéros d'immatriculation des véhicules impliqués, les noms des témoins. Notez vos observations le plus tôt possible. Ces notes aideront ensuite la police et le service de l'environnement à élucider le cas.",
+        "it": "Non si metta in pericolo. Non tocchi liquidi sconosciuti e non respiri il fumo. Non entri in terreni altrui recintati né in un cantiere. Non affronti nessuno direttamente. Da una distanza sicura, annoti ciò che vede: data e ora, il luogo esatto (indirizzo, toponimo o coordinate dal cellulare), fotografie o un breve video, colore e odore, targhe dei veicoli coinvolti, nomi di eventuali testimoni. Scriva le sue osservazioni il prima possibile. Questi appunti aiuteranno in seguito la polizia e il servizio specializzato per l'ambiente a chiarire il caso.",
+        "en": "Do not put yourself in danger. Do not touch unknown liquids and do not breathe in smoke. Do not enter private, cordoned-off land or a construction site. Do not confront anyone. From a safe distance, record what you see: the date and time, the exact location (address, field name or coordinates from your phone), photos or a short video, colour and smell, the number plates of any vehicles involved, and the names of any witnesses. Write down your observations as soon as possible. Notes like this later help the police and the environmental agency clarify the case.",
+        "rm": "Na Vus metter en privel. Na tutgai naginas liquids nunenconuschentas e n'inspirai nagin fum. Na entrai en nagin terren esters, serrà, e en nagina fossa da construcziun. Na tegnai nagin responsabel a moda directa. Documentai, or d'ina distanza segira, tge che Vus vesais: data ed ura, il lieu exact (adressa, num da lieu u coordinatas dal telefonin), fotografias u in curt video, colur ed odur, numers da vehichels participads, nums da testimognas e testimonis. Notai Vossas observaziuns uschè spert sco pussaivel. Talas notizias gidan pli tard la polizia ed il post spezialisà per l'ambient da sclerir il cas."
       }
     },
     {
       "id": "report-offence",
       "kind": "rule",
       "text": {
-        "de": "Sie dürfen jede Straftat anzeigen, auch wenn Sie selbst keinen Schaden haben. Das Gesetz gibt dieses Recht jeder Person. Wenden Sie sich an einen Polizeiposten oder an die Staatsanwaltschaft. Sie können die Anzeige mündlich machen oder schriftlich einreichen. Machen Sie sie mündlich, können Sie eine Bestätigung verlangen. Beweise müssen Sie nicht liefern. Es genügt, dass Sie schildern, was Sie beobachtet haben. Ob wirklich eine Straftat vorliegt, klären die Behörden. Mit einer Anzeige werden Sie aber nicht Partei im Verfahren. Sie erhalten keine Akteneinsicht und können einen Entscheid nicht anfechten, ausser Sie sind durch die Tat selbst geschädigt."
+        "de": "Sie dürfen jede Straftat anzeigen, auch wenn Sie selbst keinen Schaden haben. Das Gesetz gibt dieses Recht jeder Person. Wenden Sie sich an einen Polizeiposten oder an die Staatsanwaltschaft. Sie können die Anzeige mündlich machen oder schriftlich einreichen. Machen Sie sie mündlich, können Sie eine Bestätigung verlangen. Beweise müssen Sie nicht liefern. Es genügt, dass Sie schildern, was Sie beobachtet haben. Ob wirklich eine Straftat vorliegt, klären die Behörden. Mit einer Anzeige werden Sie aber nicht Partei im Verfahren. Sie erhalten keine Akteneinsicht und können einen Entscheid nicht anfechten, ausser Sie sind durch die Tat selbst geschädigt.",
+        "fr": "Vous pouvez dénoncer toute infraction, même si vous n'avez subi aucun dommage vous-même. La loi accorde ce droit à toute personne. Adressez-vous à un poste de police ou au ministère public. Vous pouvez déposer la dénonciation oralement ou par écrit. Si vous la faites oralement, vous pouvez demander une confirmation. Vous n'avez pas à fournir de preuves. Il suffit de décrire ce que vous avez observé. Ce sont les autorités qui déterminent s'il y a réellement infraction. Une dénonciation ne fait toutefois pas de vous une partie à la procédure. Vous n'obtenez pas l'accès au dossier et ne pouvez pas contester une décision, sauf si vous êtes vous-même lésé par l'acte.",
+        "it": "Può denunciare qualsiasi reato, anche se lei stessa non ha subito alcun danno. La legge riconosce questo diritto a ogni persona. Si rivolga a un posto di polizia o al ministero pubblico. Può sporgere la denuncia oralmente o presentarla per scritto. Se la fa oralmente, può chiedere una conferma. Non deve fornire prove. Basta che descriva ciò che ha osservato. Se sussista davvero un reato lo chiariscono le autorità. Con una denuncia, tuttavia, non diventa parte nel procedimento. Non ottiene l'accesso agli atti e non può impugnare una decisione, a meno che non sia lei stessa danneggiata dal fatto.",
+        "en": "You may report any criminal offence, even if you yourself have suffered no harm. The law gives this right to every person. Contact a police station or the public prosecutor's office. You can make the report orally or submit it in writing. If you make it orally, you can request confirmation. You do not have to provide evidence. It is enough to describe what you observed. Whether an offence really has been committed is for the authorities to establish. Making a report does not make you a party to the proceedings. You do not get access to the file and cannot challenge a decision, unless you yourself have been harmed by the act.",
+        "rm": "Vus dastgais denunziar mintga delict, era sche Vus n'avais Vus sez nagin donn. La lescha dat quest dretg a mintga persuna. Drizzai Vus ad in post da polizia u a la procura publica. Vus pudais far la denunzia oralmain u inoltrar la en scrit. Fais Vus la oralmain, pudais Vus pretender ina conferma. Cumprovas na stuais Vus betg furnir. Basta che Vus descrivais, tge che Vus avais observà. Sch'i sa tracta propi d'in delict, sclerescha l'autoritad. Cun ina denunzia na daventais Vus dentant betg partida en la procedura. Vus na survegnis nagina invista da las actas e na pudais betg contestar ina decisiun, exceptà che Vus essas donnegiads Vus sezs tras l'act."
       },
       "sources": [
         "stpo-301"
@@ -188,7 +324,11 @@
       "id": "ask-outcome",
       "kind": "rule",
       "text": {
-        "de": "Sie haben ein Recht darauf zu erfahren, was aus Ihrer Anzeige geworden ist. Die Polizei oder die Staatsanwaltschaft teilt Ihnen auf Anfrage mit, ob ein Strafverfahren eröffnet wurde und wie es abgeschlossen wird. Diese Auskunft erhalten Sie aber nur, wenn Sie danach fragen. Bitten Sie am besten schon bei der Anzeige darum und notieren Sie sich eine Geschäftsnummer oder den Namen der zuständigen Stelle. Einzelheiten zum Verfahren oder zu den beschuldigten Personen erfahren Sie auf diesem Weg nicht."
+        "de": "Sie haben ein Recht darauf zu erfahren, was aus Ihrer Anzeige geworden ist. Die Polizei oder die Staatsanwaltschaft teilt Ihnen auf Anfrage mit, ob ein Strafverfahren eröffnet wurde und wie es abgeschlossen wird. Diese Auskunft erhalten Sie aber nur, wenn Sie danach fragen. Bitten Sie am besten schon bei der Anzeige darum und notieren Sie sich eine Geschäftsnummer oder den Namen der zuständigen Stelle. Einzelheiten zum Verfahren oder zu den beschuldigten Personen erfahren Sie auf diesem Weg nicht.",
+        "fr": "Vous avez le droit de savoir ce qu'il est advenu de votre dénonciation. La police ou le ministère public vous communique, sur demande, si une procédure pénale a été ouverte et comment elle se termine. Vous n'obtenez toutefois ce renseignement que si vous le demandez. Le mieux est de le demander déjà au moment de la dénonciation et de noter un numéro de dossier ou le nom du service compétent. Vous n'obtiendrez pas ainsi de détails sur la procédure ni sur les personnes prévenues.",
+        "it": "Ha il diritto di sapere cosa ne è stato della sua denuncia. La polizia o il ministero pubblico le comunica, su richiesta, se è stato aperto un procedimento penale e come si conclude. Riceve però questa informazione solo se la chiede. Meglio chiederla già al momento della denuncia e annotarsi un numero di incarto o il nome del servizio competente. Dettagli sul procedimento o sulle persone accusate non li ottiene per questa via.",
+        "en": "You have a right to find out what became of your report. The police or the public prosecutor's office will tell you, on request, whether criminal proceedings were opened and how they are concluded. You only get this information, though, if you ask for it. It is best to ask for this already when making the report, and note down a case number or the name of the responsible office. You will not learn details of the proceedings or of the accused persons this way.",
+        "rm": "Vus avais il dretg da survegnir a savair, tge ch'è daventà da Vossa denunzia. La polizia u la procura publica communitgescha a Vus, sin dumonda, sche ina procedura penala saja vegnida averta e co ch'ella vegn serrada. Questa infurmaziun survegnis Vus dentant mo, sche Vus dumandais suenter. Il meglier è da pretender quai gia tar la denunzia e da notar in numer da fatschenta u il num dal post cumpetent. Detagls davart la procedura u davart las persunas inculpadas na survegnis Vus betg sin questa via."
       },
       "sources": [
         "stpo-301"
@@ -204,7 +344,11 @@
         ]
       },
       "text": {
-        "de": "Stoffe, die Wasser verunreinigen können, dürfen weder direkt noch indirekt in einen Bach, einen See oder ins Grundwasser gelangen. Verboten ist auch, sie versickern zu lassen. Ausserhalb eines Gewässers dürfen sie nicht abgelagert oder ausgebracht werden, wenn dadurch konkret die Gefahr einer Verschmutzung entsteht. Das betrifft etwa Öl, Chemikalien, Gülle oder Betonwasser von einer Baustelle. Wer das absichtlich tut, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden. Auch wer aus Unachtsamkeit handelt, macht sich strafbar. Strafbar ist es ausserdem, einen Bach ohne Bewilligung zu verbauen oder in Röhren zu legen. Andere Verstösse gegen das Gewässerschutzgesetz werden mit Busse bestraft."
+        "de": "Stoffe, die Wasser verunreinigen können, dürfen weder direkt noch indirekt in einen Bach, einen See oder ins Grundwasser gelangen. Verboten ist auch, sie versickern zu lassen. Ausserhalb eines Gewässers dürfen sie nicht abgelagert oder ausgebracht werden, wenn dadurch konkret die Gefahr einer Verschmutzung entsteht. Das betrifft etwa Öl, Chemikalien, Gülle oder Betonwasser von einer Baustelle. Wer das absichtlich tut, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden. Auch wer aus Unachtsamkeit handelt, macht sich strafbar. Strafbar ist es ausserdem, einen Bach ohne Bewilligung zu verbauen oder in Röhren zu legen. Andere Verstösse gegen das Gewässerschutzgesetz werden mit Busse bestraft.",
+        "fr": "Les substances susceptibles de polluer l'eau ne doivent parvenir, ni directement ni indirectement, dans un ruisseau, un lac ou les eaux souterraines. Il est également interdit de les laisser s'infiltrer. En dehors d'un cours d'eau, elles ne peuvent pas être déposées ou répandues si cela crée concrètement un risque de pollution. Cela concerne par exemple le pétrole, les produits chimiques, le lisier ou l'eau de béton d'un chantier. Qui agit ainsi intentionnellement peut être puni d'une peine privative de liberté de trois ans au plus ou d'une peine pécuniaire. Qui agit par négligence se rend également punissable. Il est en outre punissable d'endiguer un ruisseau ou de le mettre en tuyaux sans autorisation. Les autres infractions à la loi sur la protection des eaux sont punies de l'amende.",
+        "it": "Le sostanze che possono inquinare l'acqua non devono finire, né direttamente né indirettamente, in un ruscello, in un lago o nelle acque sotterranee. È vietato anche lasciarle infiltrare nel terreno. Al di fuori di un corpo idrico non possono essere depositate o sparse se ciò crea un pericolo concreto di inquinamento. Ciò riguarda per esempio olio, sostanze chimiche, liquame o acqua di lavaggio del calcestruzzo proveniente da un cantiere. Chi lo fa intenzionalmente può essere punito con una pena detentiva fino a tre anni o con una pena pecuniaria. Si rende punibile anche chi agisce per negligenza. È punibile inoltre arginare o incanalare un ruscello senza autorizzazione. Altre violazioni della legge sulla protezione delle acque sono punite con la multa.",
+        "en": "Substances that can pollute water may not enter a stream, a lake or the groundwater, whether directly or indirectly. It is also forbidden to let them seep away. Outside a body of water, they may not be deposited or applied if this creates a concrete risk of pollution. This covers things such as oil, chemicals, liquid manure or concrete wash water from a construction site. Anyone who does this intentionally can be punished with imprisonment of up to three years or a monetary penalty. Anyone who acts carelessly is also liable to prosecution. It is also an offence to channel a stream or put it in pipes without a permit. Other breaches of the Waters Protection Act are punished with a fine.",
+        "rm": "Substanzas che pon inquinar l'aua na dastgan betg arrivar, ni directamain ni indirectamain, en in ri, in lai u en l'aua sutterranea. Scumandà è er da las laschar penetrar en terra. Ordaifer in'aua na dastgan ellas betg vegnir depositadas u derasadas, sch'i resulta per quai in privel concret d'inquinaziun. Quai pertutga per exempel ieli, products chimics, purin u aua da bieton d'ina fossa da construcziun. Tgi che fa quai a bel intent, po vegnir chastià cun privaziun da la libertad fin a trais onns u cun pena pecuniara. Er tgi ch'agescha per negligenza, sa fa culpabel. Chastiabel è ultra da quai da correger u da metter en tubs in ri senza permissiun. Autras violaziuns cunter la Lescha davart la protecziun da las auas vegnan chastiadas cun multa."
       },
       "sources": [
         "gschg-6",
@@ -222,7 +366,11 @@
         ]
       },
       "text": {
-        "de": "Abfälle dürfen nur in dafür bestimmten Anlagen verbrannt werden, nicht im Freien und nicht im Garten. Erlaubt ist einzig, natürliche Wald-, Feld- und Gartenabfälle zu verbrennen, wenn dabei nicht übermässig Rauch oder Gestank entsteht. Wer Abfälle ausserhalb einer bewilligten Deponie ablagert oder sie verbotenerweise verbrennt, wird mit Busse bis zu 20 000 Franken bestraft. Wer ohne Bewilligung eine Deponie betreibt oder Sonderabfälle, also besonders gefährliche Abfälle, falsch weitergibt oder annimmt, begeht ein Vergehen. Dafür droht Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, bei schwerer Gefährdung von Mensch oder Umwelt bis zu fünf Jahren. Seit dem 1. August 2026 gilt zudem schweizweit eine Busse gegen Littering: Wer Abfälle, selbst kleine Mengen, wegwirft oder liegen lässt, kann mit bis zu 300 Franken gebüsst werden."
+        "de": "Abfälle dürfen nur in dafür bestimmten Anlagen verbrannt werden, nicht im Freien und nicht im Garten. Erlaubt ist einzig, natürliche Wald-, Feld- und Gartenabfälle zu verbrennen, wenn dabei nicht übermässig Rauch oder Gestank entsteht. Wer Abfälle ausserhalb einer bewilligten Deponie ablagert oder sie verbotenerweise verbrennt, wird mit Busse bis zu 20 000 Franken bestraft. Wer ohne Bewilligung eine Deponie betreibt oder Sonderabfälle, also besonders gefährliche Abfälle, falsch weitergibt oder annimmt, begeht ein Vergehen. Dafür droht Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, bei schwerer Gefährdung von Mensch oder Umwelt bis zu fünf Jahren. Seit dem 1. August 2026 gilt zudem schweizweit eine Busse gegen Littering: Wer Abfälle, selbst kleine Mengen, wegwirft oder liegen lässt, kann mit bis zu 300 Franken gebüsst werden.",
+        "fr": "Les déchets ne peuvent être brûlés que dans des installations prévues à cet effet, ni en plein air ni dans le jardin. Il est uniquement permis de brûler des déchets naturels de forêt, de champ et de jardin, si cela ne produit pas de fumée ou d'odeur excessive. Qui dépose des déchets en dehors d'une décharge autorisée ou les brûle de manière interdite est puni de l'amende jusqu'à 20 000 francs. Qui exploite une décharge sans autorisation, ou remet ou accepte de manière incorrecte des déchets spéciaux, c'est-à-dire des déchets particulièrement dangereux, commet un délit. Il encourt alors une peine privative de liberté de trois ans au plus ou une peine pécuniaire, et jusqu'à cinq ans en cas de mise en danger grave de l'être humain ou de l'environnement. Depuis le 1er août 2026, une amende contre le littering s'applique en outre dans toute la Suisse : qui jette ou laisse traîner des déchets, même en petite quantité, peut être puni d'une amende allant jusqu'à 300 francs.",
+        "it": "I rifiuti possono essere bruciati solo in impianti destinati a questo scopo, non all'aperto e non in giardino. È permesso unicamente bruciare rifiuti naturali di bosco, campo e giardino, se ciò non produce fumo o cattivo odore eccessivi. Chi deposita rifiuti al di fuori di una discarica autorizzata o li brucia illegalmente è punito con la multa fino a 20'000 franchi. Chi gestisce una discarica senza autorizzazione, oppure consegna o accetta in modo scorretto rifiuti speciali, cioè rifiuti particolarmente pericolosi, commette un delitto. Rischia una pena detentiva fino a tre anni o una pena pecuniaria, in caso di grave pericolo per l'uomo o per l'ambiente fino a cinque anni. Dal 1° agosto 2026 vale inoltre in tutta la Svizzera una multa contro il littering: chi getta via o abbandona rifiuti, anche in piccole quantità, può essere multato fino a 300 franchi.",
+        "en": "Waste may only be burned in facilities designated for that purpose, not in the open and not in the garden. The only exception is burning natural forest, field and garden waste, provided this does not produce excessive smoke or smell. Anyone who deposits waste outside a licensed landfill, or burns it unlawfully, is punished with a fine of up to 20 000 francs. Anyone who operates a landfill without a permit, or wrongly passes on or accepts special waste, that is, particularly hazardous waste, commits a misdemeanour. This carries imprisonment of up to three years or a monetary penalty, and up to five years in the case of serious danger to people or the environment. Since 1 August 2026, a nationwide fine against littering has also applied: anyone who throws away or leaves waste, even in small amounts, can be fined up to 300 francs.",
+        "rm": "Rument dastga vegnir brischà mo en installaziuns destinadas per quai, betg a l'aviert e betg en il curtin. Permess è mo da brischar rument natiral da guaud, da champ e da curtin, sche per quai n'resulta betg excessiv fum u odur nauschaivel. Tgi che deposita rument ordaifer ina deponia permessa u che al brischa vetitamain, vegn chastià cun multa fin 20 000 francs. Tgi che manaschia senza permissiun ina deponia u che transferescha u acceptescha erronamain rument spezial, dunca rument spezialmain privlus, cumetta in delict. Per quai smanatscha privaziun da la libertad fin a trais onns u pena pecuniara, en cas da greva periclitaziun da l'uman u da l'ambient fin a tschintg onns. Dapi il 1. d'avust 2026 vala ultra da quai en tut la Svizra ina multa cunter il littering: Tgi che sbutga u laschia sa chattar rument, era en pitschnas quantitads, po vegnir chastià cun fin 300 francs."
       },
       "sources": [
         "usg-30c",
@@ -241,7 +389,11 @@
         ]
       },
       "text": {
-        "de": "Das Gesetz schützt besonders Uferbereiche, Riedgebiete und Moore, seltene Waldgesellschaften, Hecken, Feldgehölze und Trockenrasen. Wer ein geschütztes Biotop, also einen geschützten Lebensraum für Tiere und Pflanzen, absichtlich und ohne Berechtigung zerstört oder schwer beschädigt, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Dasselbe gilt, wer Ufervegetation rodet oder zuschüttet. Bei Fahrlässigkeit droht Busse. Wald darf grundsätzlich nicht gerodet werden. Eine Rodung braucht eine Ausnahmebewilligung aus wichtigen Gründen. Finanzielle Interessen genügen nicht. Wer ohne Berechtigung rodet, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Wer im Wald ohne Berechtigung Bäume fällt oder mit dem Auto auf Waldstrassen fährt, wird mit Busse bestraft. Ob ein Gebiet geschützt ist und ob eine Bewilligung vorliegt, kann die kantonale Fachstelle für Natur- oder Waldschutz klären."
+        "de": "Das Gesetz schützt besonders Uferbereiche, Riedgebiete und Moore, seltene Waldgesellschaften, Hecken, Feldgehölze und Trockenrasen. Wer ein geschütztes Biotop, also einen geschützten Lebensraum für Tiere und Pflanzen, absichtlich und ohne Berechtigung zerstört oder schwer beschädigt, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Dasselbe gilt, wer Ufervegetation rodet oder zuschüttet. Bei Fahrlässigkeit droht Busse. Wald darf grundsätzlich nicht gerodet werden. Eine Rodung braucht eine Ausnahmebewilligung aus wichtigen Gründen. Finanzielle Interessen genügen nicht. Wer ohne Berechtigung rodet, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Wer im Wald ohne Berechtigung Bäume fällt oder mit dem Auto auf Waldstrassen fährt, wird mit Busse bestraft. Ob ein Gebiet geschützt ist und ob eine Bewilligung vorliegt, kann die kantonale Fachstelle für Natur- oder Waldschutz klären.",
+        "fr": "La loi protège en particulier les zones riveraines, les marais et tourbières, les peuplements forestiers rares, les haies, les bosquets champêtres et les prairies sèches. Qui détruit ou endommage gravement, intentionnellement et sans droit, un biotope protégé, c'est-à-dire un milieu protégé pour les animaux et les plantes, peut être puni d'une peine privative de liberté d'un an au plus ou d'une peine pécuniaire. Il en va de même pour qui défriche ou comble la végétation riveraine. En cas de négligence, l'amende est encourue. La forêt ne peut en principe pas être défrichée. Un défrichement nécessite une autorisation exceptionnelle fondée sur des raisons importantes. Des intérêts financiers ne suffisent pas. Qui défriche sans droit peut être puni d'une peine privative de liberté d'un an au plus ou d'une peine pécuniaire. Qui abat des arbres en forêt sans droit ou circule en voiture sur des routes forestières est puni de l'amende. Le service cantonal spécialisé dans la protection de la nature ou des forêts peut clarifier si une zone est protégée et si une autorisation existe.",
+        "it": "La legge protegge in particolare le zone rivierasche, le zone paludose e le torbiere, le associazioni forestali rare, le siepi, i boschetti campestri e i prati secchi. Chi distrugge o danneggia gravemente, intenzionalmente e senza autorizzazione, un biotopo protetto, cioè un habitat protetto per animali e piante, può essere punito con una pena detentiva fino a un anno o con una pena pecuniaria. Lo stesso vale per chi dissoda o interra la vegetazione rivierasca. In caso di negligenza è prevista la multa. Il bosco non può in linea di principio essere dissodato. Un dissodamento richiede un'autorizzazione eccezionale per motivi importanti. Interessi finanziari non bastano. Chi dissoda senza autorizzazione può essere punito con una pena detentiva fino a un anno o con una pena pecuniaria. Chi nel bosco abbatte alberi senza autorizzazione o circola in auto sulle strade forestali è punito con la multa. Se una zona è protetta e se esiste un'autorizzazione può chiarirlo il servizio cantonale specializzato per la protezione della natura o del bosco.",
+        "en": "The law gives special protection to riverbanks, reed beds and moors, rare forest communities, hedges, copses and dry grassland. Anyone who intentionally and without authorisation destroys or seriously damages a protected biotope, that is, a protected habitat for animals and plants, can be punished with imprisonment of up to one year or a monetary penalty. The same applies to anyone who clears or fills in riverbank vegetation. Negligence is punished with a fine. In principle, forest may not be cleared. Clearing requires an exceptional permit for important reasons. Financial interests are not enough. Anyone who clears without authorisation can be punished with imprisonment of up to one year or a monetary penalty. Anyone who fells trees in the forest without authorisation, or drives a car on forest roads, is punished with a fine. Whether an area is protected and whether a permit exists can be clarified by the cantonal agency for nature or forest protection.",
+        "rm": "La lescha protegia surtut zonas da riva, territoris da palù e maroschas, cuminanzas da guaud raras, staquets, bostgaminas da champ e pradas sitgas. Tgi che destruescha u donnegia gravamain, a bel intent e senza autorisaziun, in biotop protegì, dunca in lieu da viver protegì per tiers e plantas, po vegnir chastià cun privaziun da la libertad fin ad in onn u cun pena pecuniara. Il medem vala, tgi che displanta u encombra vegetaziun da riva. En cas da negligenza smanatscha multa. Guaud na dastga per principi betg vegnir displantà. Ina displantaziun basegna ina permissiun excepziunala per motivs impurtants. Interess finanzials na bastan betg. Tgi che displanta senza autorisaziun, po vegnir chastià cun privaziun da la libertad fin ad in onn u cun pena pecuniara. Tgi che tagla en il guaud auals senza autorisaziun u che va cun l'auto sin vias forestalas, vegn chastià cun multa. Sche in territori è protegì e sche ina permissiun exista, po la posta chantunala spezialisada per la protecziun da la natira u dal guaud sclerir."
       },
       "sources": [
         "nhg-18",
@@ -262,7 +414,11 @@
         ]
       },
       "text": {
-        "de": "Das Jagdgesetz erfasst viele wildlebende Vögel und Säugetiere. Alle diese Tiere, die nicht zu einer jagdbaren Art gehören, sind geschützt. Die Kantone müssen wildlebende Säugetiere und Vögel ausserdem vor Störung schützen. Wer geschützte Tiere absichtlich und ohne Berechtigung jagt, tötet oder einfängt, Nester ausnimmt oder brütende Vögel stört, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Mit Busse wird unter anderem bestraft, wer Hunde wildern lässt, Schutzmassnahmen gegen Störungen missachtet, Hecken beseitigt oder Böschungen und Weiden abbrennt. Ob in einem bestimmten Fall eine Berechtigung vorlag, zum Beispiel eine Abschussbewilligung, weiss die kantonale Jagdverwaltung oder die Wildhut."
+        "de": "Das Jagdgesetz erfasst viele wildlebende Vögel und Säugetiere. Alle diese Tiere, die nicht zu einer jagdbaren Art gehören, sind geschützt. Die Kantone müssen wildlebende Säugetiere und Vögel ausserdem vor Störung schützen. Wer geschützte Tiere absichtlich und ohne Berechtigung jagt, tötet oder einfängt, Nester ausnimmt oder brütende Vögel stört, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Mit Busse wird unter anderem bestraft, wer Hunde wildern lässt, Schutzmassnahmen gegen Störungen missachtet, Hecken beseitigt oder Böschungen und Weiden abbrennt. Ob in einem bestimmten Fall eine Berechtigung vorlag, zum Beispiel eine Abschussbewilligung, weiss die kantonale Jagdverwaltung oder die Wildhut.",
+        "fr": "La loi sur la chasse vise de nombreux oiseaux et mammifères vivant à l'état sauvage. Tous ces animaux qui n'appartiennent pas à une espèce pouvant être chassée sont protégés. Les cantons doivent en outre protéger les mammifères et oiseaux sauvages contre le dérangement. Qui chasse, tue ou capture intentionnellement et sans droit des animaux protégés, pille des nids ou dérange des oiseaux nicheurs peut être puni d'une peine privative de liberté d'un an au plus ou d'une peine pécuniaire. Est notamment puni de l'amende quiconque laisse ses chiens braconner, ne respecte pas des mesures de protection contre le dérangement, supprime des haies ou brûle des talus et des pâturages. L'administration cantonale de la chasse ou la garde-faune sait si une autorisation existait dans un cas déterminé, par exemple une autorisation de tir.",
+        "it": "La legge sulla caccia comprende molti uccelli e mammiferi selvatici. Tutti questi animali che non appartengono a una specie cacciabile sono protetti. I Cantoni devono inoltre proteggere i mammiferi e gli uccelli selvatici dal disturbo. Chi caccia, uccide o cattura animali protetti intenzionalmente e senza autorizzazione, deruba i nidi o disturba uccelli in cova, può essere punito con una pena detentiva fino a un anno o con una pena pecuniaria. Con la multa è punito tra l'altro chi lascia vagare cani in modo da disturbare la selvaggina, non rispetta le misure di protezione contro i disturbi, elimina siepi o brucia scarpate e pascoli. Se in un caso determinato esisteva un'autorizzazione, per esempio un'autorizzazione di abbattimento, lo sa l'amministrazione cantonale della caccia o la guardia della selvaggina.",
+        "en": "The Hunting Act covers many wild birds and mammals. All these animals that do not belong to a huntable species are protected. The cantons must also protect wild mammals and birds from disturbance. Anyone who intentionally and without authorisation hunts, kills or catches protected animals, robs nests or disturbs brooding birds can be punished with imprisonment of up to one year or a monetary penalty. Fines are imposed on, among others, anyone who lets dogs hunt wildlife, disregards protective measures against disturbance, removes hedges, or burns embankments or pastures. Whether authorisation existed in a particular case, for example a permit to shoot an animal, is known to the cantonal hunting authority or the wildlife wardens.",
+        "rm": "La Lescha davart la chatscha cumpiglia bleras utschels e mammifers selvadis. Tut quests tiers, che n'appartegnan betg ad ina spezia chatschabla, èn protegids. Ils chantuns ston ultra da quai proteger mammifers e utschels selvadis cunter disturbi. Tgi che chatscha, mazza u chapescha a bel intent e senza autorisaziun tiers protegids, sguassa nids u disturba utschels che quovan, po vegnir chastià cun privaziun da la libertad fin ad in onn u cun pena pecuniara. Cun multa vegn chastià, danter auter, tgi che laschia chans currer selvadi, che n'observa betg mesuras da protecziun cunter disturbi, che sguassa staquets u che brischa pendicularas e pastgiras. Sche en in cas tschert exista ina autorisaziun, per exempel ina permissiun da tir, sa quai l'administraziun chantunala da chatscha u ils guardachatscha."
       },
       "sources": [
         "jsg-7",
@@ -279,7 +435,11 @@
         ]
       },
       "text": {
-        "de": "Passt Ihre Beobachtung in keine der Gruppen, melden Sie sie trotzdem. Wenden Sie sich an die Polizei oder an die Umweltfachstelle Ihres Kantons. Die Behörde prüft, ob ein Gesetz verletzt ist und wer zuständig ist. Streitigkeiten unter Nachbarn, etwa wegen Lärm, Grillrauch oder einer Hecke an der Grenze, gehören nicht hierher. Dafür gibt es einen eigenen Bereich."
+        "de": "Passt Ihre Beobachtung in keine der Gruppen, melden Sie sie trotzdem. Wenden Sie sich an die Polizei oder an die Umweltfachstelle Ihres Kantons. Die Behörde prüft, ob ein Gesetz verletzt ist und wer zuständig ist. Streitigkeiten unter Nachbarn, etwa wegen Lärm, Grillrauch oder einer Hecke an der Grenze, gehören nicht hierher. Dafür gibt es einen eigenen Bereich.",
+        "fr": "Si votre observation ne correspond à aucun de ces groupes, signalez-la tout de même. Adressez-vous à la police ou au service de l'environnement de votre canton. L'autorité examine si une loi est violée et qui est compétent. Les litiges entre voisins, par exemple à cause du bruit, de la fumée de grillades ou d'une haie à la limite de propriété, ne relèvent pas de ce guide. Un domaine séparé y est consacré.",
+        "it": "Se la sua osservazione non rientra in nessuno di questi gruppi, la segnali comunque. Si rivolga alla polizia o al servizio specializzato per l'ambiente del suo Cantone. L'autorità esamina se è violata una legge e chi è competente. Le controversie tra vicini, per esempio per rumore, fumo di grigliate o una siepe al confine, non rientrano qui. Per questo esiste un ambito proprio.",
+        "en": "If your observation does not fit any of these categories, report it anyway. Contact the police or your canton's environmental agency. The authority checks whether a law has been broken and who is responsible. Disputes between neighbours, for example over noise, barbecue smoke or a hedge on the boundary, do not belong here. There is a separate area for that.",
+        "rm": "Sche Vossa observaziun na va en nagina da questas gruppas, annunziai la tuttina. Drizzai Vus a la polizia u al post spezialisà per l'ambient da Voss chantun. L'autoritad examinescha, sche ina lescha saja violada e tgi ch'è cumpetent. Dispitas tranter vischins, per exempel pervia da rumur, fum da grill u in staquet sin la cunfin, na tutgan betg qua. Per quai datti in sectur separà."
       }
     },
     {
@@ -292,7 +452,11 @@
         ]
       },
       "text": {
-        "de": "Stammt das Öl oder die Flüssigkeit aus Ihrem eigenen Tank, Ihrer Heizung oder einer Anlage, für die Sie verantwortlich sind, haben Sie eine eigene Pflicht: Wer einen Verlust einer wassergefährdenden Flüssigkeit feststellt, muss ihn sofort der Gewässerschutzpolizei melden. Rufen Sie also die 117 oder die 118 an. Zudem müssen Sie selbst alles Zumutbare tun, damit die Flüssigkeit nicht in ein Gewässer oder ins Grundwasser gelangt, zum Beispiel ein Leck abdichten oder einen Schacht abdecken, wenn das ohne Gefahr geht. Wer als Inhaber die nötigen Schutzvorrichtungen nicht in Ordnung hält und dadurch Wasser verschmutzt, kann bestraft werden."
+        "de": "Stammt das Öl oder die Flüssigkeit aus Ihrem eigenen Tank, Ihrer Heizung oder einer Anlage, für die Sie verantwortlich sind, haben Sie eine eigene Pflicht: Wer einen Verlust einer wassergefährdenden Flüssigkeit feststellt, muss ihn sofort der Gewässerschutzpolizei melden. Rufen Sie also die 117 oder die 118 an. Zudem müssen Sie selbst alles Zumutbare tun, damit die Flüssigkeit nicht in ein Gewässer oder ins Grundwasser gelangt, zum Beispiel ein Leck abdichten oder einen Schacht abdecken, wenn das ohne Gefahr geht. Wer als Inhaber die nötigen Schutzvorrichtungen nicht in Ordnung hält und dadurch Wasser verschmutzt, kann bestraft werden.",
+        "fr": "Si le pétrole ou le liquide provient de votre propre citerne, de votre chauffage ou d'une installation dont vous êtes responsable, vous avez une obligation personnelle : qui constate une perte de liquide pouvant polluer les eaux doit la signaler immédiatement à la police de protection des eaux. Appelez donc le 117 ou le 118. Vous devez en outre faire vous-même tout ce qui est raisonnablement exigible pour que le liquide ne parvienne pas dans un cours d'eau ou dans les eaux souterraines, par exemple colmater une fuite ou couvrir un regard, si cela peut se faire sans danger. Qui, en tant que détenteur, ne maintient pas en bon état les dispositifs de protection nécessaires et pollue ainsi l'eau peut être puni.",
+        "it": "Se l'olio o il liquido proviene dal suo serbatoio, dal suo riscaldamento o da un impianto di cui è responsabile, ha un obbligo proprio: chi constata la perdita di un liquido che minaccia le acque deve segnalarla immediatamente alla polizia di protezione delle acque. Chiami quindi il 117 o il 118. Deve inoltre fare lei stessa tutto ciò che è ragionevolmente esigibile affinché il liquido non finisca in un corpo idrico o nelle acque sotterranee, per esempio sigillando una perdita o coprendo un pozzetto, se ciò può avvenire senza pericolo. Chi, come detentore, non mantiene in ordine i dispositivi di protezione necessari e in tal modo inquina l'acqua può essere punito.",
+        "en": "If the oil or liquid comes from your own tank, your heating system, or a facility for which you are responsible, you have a duty of your own: anyone who discovers a loss of a water-polluting liquid must report it immediately to the water protection police. So call 117 or 118. You must also do everything reasonable yourself to stop the liquid reaching a body of water or the groundwater, for example sealing a leak or covering a drain, if this can be done safely. Anyone who, as the holder, fails to keep the necessary protective devices in order and thereby pollutes water can be punished.",
+        "rm": "Vegn l'ieli u il liquid da Voss agen tank, da Voss stgaudament u d'ina installaziun, per la quala Vus essas responsabels, avais Vus in'atgna obligaziun: Tgi che constatescha ina perdita d'in liquid privlus per l'aua, sto communitgar quai immediat a la polizia da protecziun da las auas. Clamai donc il 117 u il 118. Ultra da quai stuais Vus sez far tut quai ch'è raschunaivel, per che il liquid n'arriva betg en in'aua u en l'aua sutterranea, per exempel serrar ina perdita u cuvrir in pozzet, sche quai va senza privel. Tgi che, sco possessur, na tegna betg en urden las installaziuns da protecziun necessarias e sporca uschia l'aua, po vegnir chastià."
       },
       "sources": [
         "gschg-22",
@@ -303,7 +467,11 @@
       "id": "authorities-duties",
       "kind": "rule",
       "text": {
-        "de": "Die Behörden müssen von sich aus handeln. Jeder Kanton hat eine Fachstelle für Gewässerschutz, eine Gewässerschutzpolizei und einen Schadendienst für Unfälle. Anlagen, die gegen Umweltvorschriften verstossen, müssen saniert werden. In dringenden Fällen ordnet die Behörde Massnahmen sofort an und kann eine Anlage notfalls stilllegen. Wer einen schützenswerten Lebensraum beeinträchtigt, muss für Schutz, Wiederherstellung oder angemessenen Ersatz sorgen. Ihre Meldung kann diese Pflichten auslösen. Einen eigenen Anspruch darauf, dass die Behörde eingreift, gibt sie Ihnen aber nicht."
+        "de": "Die Behörden müssen von sich aus handeln. Jeder Kanton hat eine Fachstelle für Gewässerschutz, eine Gewässerschutzpolizei und einen Schadendienst für Unfälle. Anlagen, die gegen Umweltvorschriften verstossen, müssen saniert werden. In dringenden Fällen ordnet die Behörde Massnahmen sofort an und kann eine Anlage notfalls stilllegen. Wer einen schützenswerten Lebensraum beeinträchtigt, muss für Schutz, Wiederherstellung oder angemessenen Ersatz sorgen. Ihre Meldung kann diese Pflichten auslösen. Einen eigenen Anspruch darauf, dass die Behörde eingreift, gibt sie Ihnen aber nicht.",
+        "fr": "Les autorités doivent agir de leur propre initiative. Chaque canton dispose d'un service spécialisé pour la protection des eaux, d'une police de protection des eaux et d'un service d'intervention pour les accidents. Les installations qui violent les prescriptions environnementales doivent être assainies. Dans les cas urgents, l'autorité ordonne immédiatement des mesures et peut, si nécessaire, mettre une installation hors service. Qui porte atteinte à un milieu digne de protection doit assurer sa protection, sa remise en état ou un remplacement adéquat. Votre signalement peut déclencher ces obligations. Il ne vous donne toutefois aucun droit propre à ce que l'autorité intervienne.",
+        "it": "Le autorità devono agire di propria iniziativa. Ogni Cantone dispone di un servizio specializzato per la protezione delle acque, di una polizia di protezione delle acque e di un servizio danni per gli incidenti. Gli impianti che violano le prescrizioni ambientali devono essere risanati. Nei casi urgenti l'autorità ordina immediatamente le misure necessarie e può, se necessario, fermare un impianto. Chi pregiudica un habitat degno di protezione deve provvedere alla sua protezione, al suo ripristino o a una compensazione adeguata. La sua segnalazione può far scattare questi obblighi. Non le conferisce però un diritto proprio a che l'autorità intervenga.",
+        "en": "The authorities must act on their own initiative. Every canton has an agency for water protection, a water protection police force, and an emergency service for accidents. Facilities that breach environmental regulations must be remediated. In urgent cases, the authority orders measures immediately and can, if necessary, shut down a facility. Anyone who damages a habitat worth protecting must provide for its protection, restoration or appropriate replacement. Your report can trigger these duties. It does not, however, give you your own entitlement to have the authority intervene.",
+        "rm": "Las autoritads ston agir da sasezzas. Mintga chantun ha in post spezialisà per la protecziun da las auas, ina polizia da protecziun da las auas ed in servetsch da donns per accidents. Installaziuns che violeschan prescripziuns ambientalas ston vegnir sanadas. En cas urgents ordinescha l'autoritad immediat mesuras e po, sche necessari, serrar ina installaziun. Tgi che donnegia in lieu da viver digne da protecziun, sto procurar per protecziun, restabiliment u remplazzament adequat. Vossa annunzia po declanschar questas obligaziuns. In dretg atgn a che l'autoritad intervegnia na dat ella dentant betg a Vus."
       },
       "sources": [
         "gschg-49",
@@ -315,7 +483,11 @@
       "id": "no-right-to-force",
       "kind": "warning",
       "text": {
-        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt sorgt, kann eine Behörde nicht zwingen, einzugreifen. Wer eine Anzeige erstattet oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Klage oder Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Beschwerde führen kann nur, wer stärker betroffen ist als alle anderen und einen eigenen, persönlichen Vorteil vom Verfahren hat. Das Bundesgericht hat das auch für Personen entschieden, die sich stark für den Naturschutz einsetzen. Anliegen der Allgemeinheit gehören in die Politik. Die Wege, die Ihnen offenstehen, sind die Anzeige, die Aufsichtsanzeige, das Einsichtsgesuch, die Einsprache während der öffentlichen Auflage und der Hinweis an eine Umweltorganisation."
+        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt sorgt, kann eine Behörde nicht zwingen, einzugreifen. Wer eine Anzeige erstattet oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Klage oder Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Beschwerde führen kann nur, wer stärker betroffen ist als alle anderen und einen eigenen, persönlichen Vorteil vom Verfahren hat. Das Bundesgericht hat das auch für Personen entschieden, die sich stark für den Naturschutz einsetzen. Anliegen der Allgemeinheit gehören in die Politik. Die Wege, die Ihnen offenstehen, sind die Anzeige, die Aufsichtsanzeige, das Einsichtsgesuch, die Einsprache während der öffentlichen Auflage und der Hinweis an eine Umweltorganisation.",
+        "fr": "Important à savoir : qui se soucie seulement de l'environnement ne peut pas contraindre une autorité à intervenir. Qui dépose une dénonciation ou demande une intervention ne devient pas partie de ce fait. Une action ou un recours dans l'intérêt général, souvent appelé recours populaire, n'est pas recevable. Seule peut recourir la personne plus touchée que toutes les autres et qui retire de la procédure un avantage propre et personnel. Le Tribunal fédéral l'a aussi jugé pour des personnes très engagées dans la protection de la nature. Les préoccupations de la collectivité relèvent de la politique. Les voies qui s'offrent à vous sont la dénonciation, la dénonciation à l'autorité de surveillance, la demande de consultation, l'opposition pendant la mise à l'enquête publique et le signalement à une organisation environnementale.",
+        "it": "Importante da sapere: chi si preoccupa solo per l'ambiente non può costringere un'autorità a intervenire. Chi sporge una denuncia o chiede un intervento non diventa per questo parte del procedimento. Un'azione o un ricorso nell'interesse della collettività, spesso chiamato ricorso popolare, non è ammissibile. Può fare ricorso solo chi è toccato più di chiunque altro e trae dal procedimento un vantaggio proprio e personale. Il Tribunale federale lo ha deciso anche per persone che si impegnano fortemente per la protezione della natura. Le preoccupazioni della collettività appartengono alla politica. Le vie che le restano aperte sono la denuncia penale, la denuncia all'autorità di vigilanza, la domanda di accesso agli atti, l'opposizione durante il deposito pubblico e la segnalazione a un'organizzazione ambientale.",
+        "en": "Important to know: anyone who is simply concerned about the environment cannot force an authority to intervene. Filing a report or demanding intervention does not make you a party. An action or appeal in the interest of the general public, often called a popular appeal, is not permitted. The Federal Supreme Court has decided this even for people strongly committed to nature conservation. Concerns of the general public belong in politics. The routes open to you are the criminal complaint, the supervisory complaint, the application to inspect information, the objection during a public deposit, and the tip-off to an environmental organisation.",
+        "rm": "Impurtant da savair: Tgi che sa fa mo pensiers per l'ambient, na po betg forzar in'autoritad d'intervegnir. Tgi che fa ina denunzia u pretenda in intervent, na daventa betg partida tras quai. Ina plant u in recurs en l'interess da la generalitad, savens numnà recurs popular, n'è betg admissibel. Far recurs po mo, tgi ch'è pli fitg tangì che tuts auters ed ha in avantatg atgn e persunal dal proceder. Il Tribunal federal ha decidì quai er per persunas che s'engaschan fitgamain per la protecziun da la natira. Dumondas da la generalitad tutgan en la politica. Las vias che stattan avertas a Vus, èn la denunzia, il recurs da surveglianza, la dumonda d'access, la protesta durant l'exposiziun publica e l'indicaziun ad in'organisaziun ambientala."
       },
       "sources": [
         "bge-139-ii-279",
@@ -327,7 +499,11 @@
       "id": "authority-inactive",
       "kind": "rule",
       "text": {
-        "de": "Tut die zuständige Behörde nichts, oder verursacht eine Behörde oder ein öffentlicher Betrieb die Verschmutzung selbst, können Sie sich an die übergeordnete Aufsichtsbehörde wenden. Für Bundesbehörden regelt das Bundesrecht diese Aufsichtsanzeige: Jede Person kann jederzeit Tatsachen melden, die ein Einschreiten gegen eine Behörde im öffentlichen Interesse erfordern. Sie haben dabei aber nicht die Rechte einer Partei. Sie haben also keinen Anspruch darauf, dass die Aufsichtsbehörde einschreitet, und können nicht gegen ihr Vorgehen Beschwerde führen. Bei kantonalen und kommunalen Behörden regelt der Kanton die Aufsichtsanzeige. Erkundigen Sie sich auf der Website Ihres Kantons. Straftaten von Angestellten einer Behörde oder eines öffentlichen Betriebs können Sie wie jede andere Straftat bei der Polizei anzeigen."
+        "de": "Tut die zuständige Behörde nichts, oder verursacht eine Behörde oder ein öffentlicher Betrieb die Verschmutzung selbst, können Sie sich an die übergeordnete Aufsichtsbehörde wenden. Für Bundesbehörden regelt das Bundesrecht diese Aufsichtsanzeige: Jede Person kann jederzeit Tatsachen melden, die ein Einschreiten gegen eine Behörde im öffentlichen Interesse erfordern. Sie haben dabei aber nicht die Rechte einer Partei. Sie haben also keinen Anspruch darauf, dass die Aufsichtsbehörde einschreitet, und können nicht gegen ihr Vorgehen Beschwerde führen. Bei kantonalen und kommunalen Behörden regelt der Kanton die Aufsichtsanzeige. Erkundigen Sie sich auf der Website Ihres Kantons. Straftaten von Angestellten einer Behörde oder eines öffentlichen Betriebs können Sie wie jede andere Straftat bei der Polizei anzeigen.",
+        "fr": "Si l'autorité compétente ne fait rien, ou si une autorité ou une entreprise publique cause elle-même la pollution, vous pouvez vous adresser à l'autorité de surveillance supérieure. Pour les autorités fédérales, le droit fédéral règle cette dénonciation à l'autorité de surveillance : toute personne peut en tout temps signaler des faits qui exigent une intervention contre une autorité dans l'intérêt public. Vous n'avez toutefois pas les droits d'une partie. Vous n'avez donc aucun droit à ce que l'autorité de surveillance intervienne, et vous ne pouvez pas contester son procédé par un recours. Pour les autorités cantonales et communales, le canton règle la dénonciation à l'autorité de surveillance. Renseignez-vous sur le site internet de votre canton. Vous pouvez dénoncer à la police les infractions commises par des employés d'une autorité ou d'une entreprise publique comme toute autre infraction.",
+        "it": "Se l'autorità competente non fa nulla, oppure se è un'autorità o un'azienda pubblica a causare essa stessa l'inquinamento, può rivolgersi all'autorità di vigilanza superiore. Per le autorità federali questa denuncia all'autorità di vigilanza è disciplinata dal diritto federale: ogni persona può in ogni momento segnalare fatti che richiedono un intervento contro un'autorità nell'interesse pubblico. Non ha però i diritti di una parte. Non ha quindi diritto a che l'autorità di vigilanza intervenga, e non può fare ricorso contro il suo modo di procedere. Per le autorità cantonali e comunali, la denuncia all'autorità di vigilanza è disciplinata dal Cantone. Si informi sul sito del suo Cantone. I reati commessi da dipendenti di un'autorità o di un'azienda pubblica può denunciarli alla polizia come qualsiasi altro reato.",
+        "en": "If the responsible authority does nothing, or if an authority or a public undertaking causes the pollution itself, you can turn to the superior supervisory authority. For federal authorities, federal law governs this supervisory complaint: anyone may, at any time, report facts requiring intervention against an authority in the public interest. You do not, however, have the rights of a party. You have no entitlement to have the supervisory authority intervene, and cannot appeal against its approach. For cantonal and communal authorities, the canton governs the supervisory complaint. Check your canton's website. You can report criminal offences by employees of an authority or a public undertaking to the police like any other offence.",
+        "rm": "Na fa l'autoritad cumpetenta nagut, u chaschuna in'autoritad u in'interpresa publica l'inquinaziun sezza, pudais Vus Vus drizzar a l'autoritad da surveglianza superiura. Per autoritads federalas regla il dretg federal quest recurs da surveglianza: Mintga persuna po tut temp communitgar fatgs che pretendan in intervent cunter in'autoritad en l'interess public. Vus n'avais dentant betg ils dretgs d'ina partida. Vus n'avais donc nagin dretg a che l'autoritad da surveglianza intervegnia, e na pudais betg far recurs cunter ses proceder. Tar autoritads chantunalas e communalas regla il chantun il recurs da surveglianza. Infurmai Vus sin la website da Voss chantun. Delicts d'emploiads d'ina autoritad u d'ina interpresa publica pudais Vus denunziar a la polizia sco mintga auter delict."
       },
       "sources": [
         "vwvg-71",
@@ -339,7 +515,11 @@
       "id": "ask-for-information",
       "kind": "rule",
       "text": {
-        "de": "Sie haben das Recht, Umweltinformationen in amtlichen Dokumenten einzusehen und Auskunft über deren Inhalt zu erhalten, zum Beispiel über Kontrollen, Messungen oder Bewilligungen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes. Bei kantonalen Behörden gilt das kantonale Recht. Wo ein Kanton noch keine Regeln hat, gelten die Bundesregeln sinngemäss. Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben geschützt. Die Umweltfachstellen beraten zudem Private. Fragen Sie dort nach, ob der Vorfall bekannt ist, ob eine Bewilligung besteht und was unternommen wird. Oft ist das der schnellste Weg zu klären, ob etwas erlaubt ist."
+        "de": "Sie haben das Recht, Umweltinformationen in amtlichen Dokumenten einzusehen und Auskunft über deren Inhalt zu erhalten, zum Beispiel über Kontrollen, Messungen oder Bewilligungen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes. Bei kantonalen Behörden gilt das kantonale Recht. Wo ein Kanton noch keine Regeln hat, gelten die Bundesregeln sinngemäss. Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben geschützt. Die Umweltfachstellen beraten zudem Private. Fragen Sie dort nach, ob der Vorfall bekannt ist, ob eine Bewilligung besteht und was unternommen wird. Oft ist das der schnellste Weg zu klären, ob etwas erlaubt ist.",
+        "fr": "Vous avez le droit de consulter les informations sur l'environnement contenues dans des documents officiels et d'obtenir des renseignements sur leur contenu, par exemple sur des contrôles, des mesures ou des autorisations. Pour les autorités fédérales, la loi fédérale sur la transparence s'applique. Pour les autorités cantonales, le droit cantonal s'applique. Là où un canton n'a pas encore de règles, les règles fédérales s'appliquent par analogie. Les intérêts au maintien du secret, par exemple les secrets d'affaires, restent protégés. Les services de l'environnement conseillent en outre les particuliers. Demandez-leur si l'incident est connu, si une autorisation existe et ce qui est entrepris. C'est souvent le moyen le plus rapide de savoir si quelque chose est autorisé.",
+        "it": "Ha il diritto di consultare le informazioni ambientali contenute nei documenti ufficiali e di ottenere informazioni sul loro contenuto, per esempio su controlli, misurazioni o autorizzazioni. Presso le autorità federali si applica a tale scopo la legge federale sulla trasparenza. Presso le autorità cantonali si applica il diritto cantonale. Dove un Cantone non ha ancora regole proprie, si applicano per analogia le regole federali. Gli interessi al segreto, per esempio i segreti d'affari, restano protetti. I servizi specializzati per l'ambiente consigliano inoltre i privati. Si informi presso di loro se il fatto è già noto, se esiste un'autorizzazione e cosa viene intrapreso. Spesso è la via più rapida per chiarire se qualcosa è permesso.",
+        "en": "You have the right to inspect environmental information in official documents and to obtain information about its content, for example about inspections, measurements or permits. For federal authorities, the Federal Act on Freedom of Information applies. For cantonal authorities, cantonal law applies. Where a canton has no rules yet, the federal rules apply by analogy. Confidentiality interests, for example business secrets, remain protected. The environmental agencies also advise private individuals. Ask there whether the incident is known, whether a permit exists, and what is being done. This is often the fastest way to clarify whether something is permitted.",
+        "rm": "Vus avais il dretg da consultar infurmaziuns davart l'ambient en documents uffizials e da survegnir infurmaziun davart lur cuntegn, per exempel davart controllas, mesiraziuns u permissiuns. Tar autoritads federalas vala per quai la Lescha da transparenza da la Confederaziun. Tar autoritads chantunalas vala il dretg chantunal. Nua ch'in chantun n'ha anc naginas reglas, valan tenor il senn las reglas federalas. Interess da secretezza, per exempel secrets da fatschenta, restan protegids. Ils posts spezialisads per l'ambient cusseglian ultra da quai er privats. Dumandai là, sche l'incident saja enconuschent, sche ina permissiun exista e tge che vegn fatg. Savens è quai la via la pli spert per sclerir, sch'insatge saja permess."
       },
       "sources": [
         "usg-10g",
@@ -350,7 +530,11 @@
       "id": "permits-and-organisations",
       "kind": "warning",
       "text": {
-        "de": "Beruht der Eingriff auf einer Bewilligung, etwa für eine Baustelle, eine Rodung oder eine grössere Anlage, können Sie ihn nachträglich kaum mehr stoppen. Einwände müssen in der Regel während der öffentlichen Auflage des Gesuchs erhoben werden. Wie lange diese Frist dauert, wo Gesuche veröffentlicht werden und wer Einsprache erheben darf, regelt Ihr Kanton. Gesamtschweizerische Umwelt- und Naturschutzorganisationen haben in bestimmten Verfahren ein besonderes Beschwerderecht, etwa bei grossen Anlagen, die eine Umweltverträglichkeitsprüfung brauchen. Welche Organisationen das sind, steht im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Umweltschutzorganisationen (VBO). Diese Organisationen verlieren ihr Beschwerderecht aber, wenn sie sich am Einspracheverfahren nicht beteiligen. Informieren Sie eine solche Organisation oder ihre kantonale Sektion deshalb früh, am besten sobald ein Gesuch aufliegt. Gegen Wohnbauten mit weniger als 400 m² Geschossfläche in der Bauzone haben Natur- und Heimatschutzorganisationen kein Beschwerderecht. Ausnahmen gelten etwa in Ortsbildern von nationaler Bedeutung und in Biotopen."
+        "de": "Beruht der Eingriff auf einer Bewilligung, etwa für eine Baustelle, eine Rodung oder eine grössere Anlage, können Sie ihn nachträglich kaum mehr stoppen. Einwände müssen in der Regel während der öffentlichen Auflage des Gesuchs erhoben werden. Wie lange diese Frist dauert, wo Gesuche veröffentlicht werden und wer Einsprache erheben darf, regelt Ihr Kanton. Gesamtschweizerische Umwelt- und Naturschutzorganisationen haben in bestimmten Verfahren ein besonderes Beschwerderecht, etwa bei grossen Anlagen, die eine Umweltverträglichkeitsprüfung brauchen. Welche Organisationen das sind, steht im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Umweltschutzorganisationen (VBO). Diese Organisationen verlieren ihr Beschwerderecht aber, wenn sie sich am Einspracheverfahren nicht beteiligen. Informieren Sie eine solche Organisation oder ihre kantonale Sektion deshalb früh, am besten sobald ein Gesuch aufliegt. Gegen Wohnbauten mit weniger als 400 m² Geschossfläche in der Bauzone haben Natur- und Heimatschutzorganisationen kein Beschwerderecht. Ausnahmen gelten etwa in Ortsbildern von nationaler Bedeutung und in Biotopen.",
+        "fr": "Si l'atteinte repose sur une autorisation, par exemple pour un chantier, un défrichement ou une installation plus importante, vous pouvez difficilement encore l'arrêter après coup. Les objections doivent en règle générale être soulevées pendant la mise à l'enquête publique de la demande. La durée de ce délai, le lieu de publication des demandes et qui peut faire opposition sont réglés par votre canton. Les organisations de protection de l'environnement et de la nature actives dans toute la Suisse disposent, dans certaines procédures, d'un droit de recours particulier, par exemple pour les grandes installations nécessitant une étude d'impact sur l'environnement. Ces organisations figurent dans l'annexe de l'ordonnance relative à la désignation des organisations de protection de l'environnement habilitées à recourir (ODO). Ces organisations perdent toutefois leur droit de recours si elles ne participent pas à la procédure d'opposition. Informez donc tôt une telle organisation ou sa section cantonale, de préférence dès qu'une demande est mise à l'enquête. Contre des bâtiments d'habitation de moins de 400 m² de surface de plancher en zone à bâtir, les organisations de protection de la nature et du paysage n'ont pas de droit de recours. Des exceptions s'appliquent par exemple dans les sites construits d'importance nationale et dans les biotopes.",
+        "it": "Se l'intervento si basa su un'autorizzazione, per esempio per un cantiere, un dissodamento o un impianto più grande, difficilmente potrà fermarlo a posteriori. Le obiezioni devono di regola essere sollevate durante il deposito pubblico della domanda. La durata di questo termine, dove vengono pubblicate le domande e chi può fare opposizione lo stabilisce il suo Cantone. Le organizzazioni di protezione dell'ambiente e della natura attive in tutta la Svizzera hanno in determinate procedure un diritto di ricorso speciale, per esempio per i grandi impianti che necessitano di un esame dell'impatto sull'ambiente. Quali organizzazioni siano legittimate risulta dall'allegato dell'ordinanza sulla designazione delle organizzazioni di protezione dell'ambiente legittimate a ricorrere (OOPA). Queste organizzazioni perdono però il diritto di ricorso se non partecipano alla procedura di opposizione. Informi quindi tempestivamente una tale organizzazione o la sua sezione cantonale, meglio non appena una domanda è depositata. Contro edifici abitativi con una superficie di piano inferiore a 400 m² nella zona edificabile, le organizzazioni di protezione della natura e del paesaggio non hanno diritto di ricorso. Eccezioni valgono per esempio nei siti costruiti d'importanza nazionale e nei biotopi.",
+        "en": "If the interference is based on a permit, for example for a construction site, a clearing or a larger facility, you can hardly stop it after the event. Objections generally have to be raised during the public deposit of the application. How long this time limit lasts, where applications are published, and who may object, is a matter for your canton. Nationwide environmental and nature conservation organisations have a special right of appeal in certain proceedings, for example for large facilities requiring an environmental impact assessment. Which organisations these are is set out in the annex to the ordinance on the designation of environmental organisations entitled to appeal (VBO). These organisations lose their right of appeal, however, if they do not take part in the objection procedure. So inform such an organisation or its cantonal section early, ideally as soon as an application is on deposit. Nature and heritage conservation organisations have no right of appeal against residential buildings with less than 400 m² of floor area in the building zone. Exceptions apply, for example, in townscapes of national importance and in biotopes.",
+        "rm": "Sa basa l'intervent sin ina permissiun, per exempel per ina fossa da construcziun, ina displantaziun u ina installaziun pli gronda, pudais Vus a pauc betg pli fermar el posteriurmain. Objecziuns ston per regla vegnir fatgas durant l'exposiziun publica da la dumonda. Quant ditg che quest termin dura, nua che dumondas vegnan publitgadas e tgi che dastga far protesta, regla Voss chantun. Organisaziuns svizras per la protecziun da l'ambient e da la natira han, en tschertas proceduras, in dretg da far recurs spezial, per exempel tar grondas installaziuns che basegnan in'examinaziun ecologica. Tge organisaziuns che quai èn, stat en l'agiunta da l'Ordinaziun davart la designaziun da las organisaziuns cun dretg da far recurs en il chomp da la protecziun da l'ambient (VBO). Questas organisaziuns perdan lur dretg da far recurs dentant, sch'ellas na sa participeschan betg a la procedura da protesta. Infurmai percunquai a temp ina tala organisaziun u sia secziun chantunala, il meglier uschespert sco ina dumonda è en exposiziun. Cunter construcziuns d'abitar cun damain che 400 m² surfatscha da plaun en la zona da construcziun n'han organisaziuns per la protecziun da la natira e da la patria nagin dretg da far recurs. Excepziuns valan per exempel en maletgs locals d'impurtanza naziunala ed en biotops."
       },
       "sources": [
         "usg-55",
@@ -370,7 +554,11 @@
         ]
       },
       "text": {
-        "de": "Sind Sie selbst in Ihren Rechten betroffen, haben Sie mehr Möglichkeiten. Im Strafverfahren kann sich als Privatklägerin oder Privatkläger beteiligen, wer durch die Tat unmittelbar geschädigt ist, zum Beispiel weil sein Eigentum beschädigt wurde. Viele Umweltdelikte schützen aber nur die Allgemeinheit. Wer nur indirekt betroffen ist, gilt dann nicht als geschädigt. Das Bundesgericht hat das etwa für die Eigentümerin eines beschädigten Moors entschieden, soweit es um die Naturschutz-Delikte ging. Gegenüber einer Bundesbehörde können Sie verlangen, dass sie ein rechtswidriges Handeln unterlässt, seine Folgen beseitigt oder die Rechtswidrigkeit feststellt. Voraussetzung ist, dass das Handeln in Ihre eigene Rechtsstellung eingreift. Die Behörde entscheidet dann mit einer Verfügung, die Sie anfechten können. Bei kantonalen Behörden richtet sich das nach kantonalem Recht. Lassen Sie sich beraten, wenn Sie Schaden an Grundstück, Brunnen, Tieren oder Gesundheit haben."
+        "de": "Sind Sie selbst in Ihren Rechten betroffen, haben Sie mehr Möglichkeiten. Im Strafverfahren kann sich als Privatklägerin oder Privatkläger beteiligen, wer durch die Tat unmittelbar geschädigt ist, zum Beispiel weil sein Eigentum beschädigt wurde. Viele Umweltdelikte schützen aber nur die Allgemeinheit. Wer nur indirekt betroffen ist, gilt dann nicht als geschädigt. Das Bundesgericht hat das etwa für die Eigentümerin eines beschädigten Moors entschieden, soweit es um die Naturschutz-Delikte ging. Gegenüber einer Bundesbehörde können Sie verlangen, dass sie ein rechtswidriges Handeln unterlässt, seine Folgen beseitigt oder die Rechtswidrigkeit feststellt. Voraussetzung ist, dass das Handeln in Ihre eigene Rechtsstellung eingreift. Die Behörde entscheidet dann mit einer Verfügung, die Sie anfechten können. Bei kantonalen Behörden richtet sich das nach kantonalem Recht. Lassen Sie sich beraten, wenn Sie Schaden an Grundstück, Brunnen, Tieren oder Gesundheit haben.",
+        "fr": "Si vous êtes vous-même touché dans vos droits, vous avez davantage de possibilités. En procédure pénale, peut se constituer partie plaignante quiconque est directement lésé par l'acte, par exemple parce que sa propriété a été endommagée. Mais de nombreuses infractions environnementales ne protègent que la collectivité. Qui n'est touché qu'indirectement n'est alors pas considéré comme lésé. Le Tribunal fédéral l'a jugé ainsi pour la propriétaire d'un marais endommagé, dans la mesure où il s'agissait des infractions de protection de la nature. Face à une autorité fédérale, vous pouvez exiger qu'elle s'abstienne d'un acte illicite, qu'elle en élimine les conséquences ou qu'elle constate l'illicéité. La condition est que l'acte porte atteinte à votre propre situation juridique. L'autorité statue alors par une décision que vous pouvez contester. Pour les autorités cantonales, cela relève du droit cantonal. Faites-vous conseiller si vous subissez un dommage à votre bien-fonds, votre puits, vos animaux ou votre santé.",
+        "it": "Se è lei stessa toccata nei suoi diritti, ha più possibilità. Nel procedimento penale può costituirsi accusatore privato o accusatrice privata chi è direttamente danneggiato dal fatto, per esempio perché la sua proprietà è stata danneggiata. Molti reati ambientali, però, tutelano solo la collettività. Chi è toccato solo indirettamente non è allora considerato danneggiato. Il Tribunale federale lo ha deciso per esempio per la proprietaria di una torbiera danneggiata, per quanto riguardava i reati di protezione della natura. Nei confronti di un'autorità federale può chiedere che ometta un atto illecito, ne elimini le conseguenze o ne accerti l'illiceità. Condizione è che l'atto tocchi la sua propria posizione giuridica. L'autorità decide allora con una decisione, che può impugnare. Presso le autorità cantonali questo si basa sul diritto cantonale. Si faccia consigliare se ha subito un danno al fondo, al pozzo, agli animali o alla salute.",
+        "en": "If your own rights are affected, you have more options. In criminal proceedings, anyone directly harmed by the act, for example because their property was damaged, can take part as a private claimant. Many environmental offences, however, protect only the general public. Anyone only indirectly affected does not then count as harmed. The Federal Supreme Court has decided this, for example, for the owner of a damaged moor, so far as the nature conservation offences were concerned. Against a federal authority, you can demand that it stop unlawful conduct, remove its consequences, or have its unlawfulness established. This requires that the conduct interferes with your own legal position. The authority then decides by way of a ruling, which you can challenge. For cantonal authorities, this follows cantonal law. Get advice if you have suffered harm to your property, your well, your animals or your health.",
+        "rm": "Essas Vus sezs tangids en Voss dretgs, avais Vus dapli pussaivladads. En la procedura penala po sa participar sco accusadra privata, tgi ch'è donnegià directamain tras l'act, per exempel perquai che sia proprietad è vegnida donnegiada. Blers delicts ambientals protegian dentant mo la generalitad. Tgi ch'è mo indirectamain tangì, na vala lura betg sco donnegià. Il Tribunal federal ha decidì quai per exempel per la proprietaria d'ina maroscha donnegiada, uschè lunsch ch'i sa tractava dals delicts da protecziun da la natira. Envers in'autoritad federala pudais Vus pretender ch'ella tralaschia in agir illegal, elimineschia sias consequenzas u constateschia l'illegalitad. Premissa è che l'agir intervegnia en Vossa atgna posiziun giuridica. L'autoritad decida lura cun ina decisiun che Vus pudais contestar. Tar autoritads chantunalas sa drizza quai tenor il dretg chantunal. Laschai Vus consegliar, sche Vus avais donn a terren, funtauna, tiers u sanadad."
       },
       "sources": [
         "stpo-301",
@@ -384,7 +572,11 @@
       "id": "no-deadline-but-hurry",
       "kind": "warning",
       "text": {
-        "de": "Für eine Strafanzeige und für eine Aufsichtsanzeige setzt das Gesetz keine Frist. Warten Sie trotzdem nicht. Spuren im Wasser oder im Boden verschwinden schnell, und je früher die Behörden Proben nehmen, desto eher lässt sich klären, woher eine Verschmutzung kommt. Anders ist es bei Bewilligungen: Einsprachen sind nur während der Auflagefrist möglich, die Ihr Kanton festlegt. Auch eine Umweltorganisation kann später keine Beschwerde mehr erheben, wenn sie sich an der Einsprache nicht beteiligt hat."
+        "de": "Für eine Strafanzeige und für eine Aufsichtsanzeige setzt das Gesetz keine Frist. Warten Sie trotzdem nicht. Spuren im Wasser oder im Boden verschwinden schnell, und je früher die Behörden Proben nehmen, desto eher lässt sich klären, woher eine Verschmutzung kommt. Anders ist es bei Bewilligungen: Einsprachen sind nur während der Auflagefrist möglich, die Ihr Kanton festlegt. Auch eine Umweltorganisation kann später keine Beschwerde mehr erheben, wenn sie sich an der Einsprache nicht beteiligt hat.",
+        "fr": "La loi ne fixe aucun délai pour une dénonciation pénale ni pour une dénonciation à l'autorité de surveillance. N'attendez cependant pas. Les traces dans l'eau ou dans le sol disparaissent rapidement, et plus tôt les autorités prélèvent des échantillons, plus il est facile de déterminer d'où provient une pollution. Il en va autrement pour les autorisations : les oppositions ne sont possibles que pendant le délai de mise à l'enquête fixé par votre canton. Une organisation environnementale ne peut plus non plus recourir par la suite si elle n'a pas participé à l'opposition.",
+        "it": "Per una denuncia penale e per una denuncia all'autorità di vigilanza la legge non fissa un termine. Non aspetti comunque. Le tracce nell'acqua o nel suolo scompaiono in fretta, e prima le autorità prelevano campioni, più facilmente si può chiarire da dove proviene un inquinamento. Diverso è il caso delle autorizzazioni: le opposizioni sono possibili solo durante il termine di deposito stabilito dal suo Cantone. Anche un'organizzazione ambientale non può più fare ricorso in seguito, se non ha partecipato all'opposizione.",
+        "en": "The law sets no time limit for a criminal complaint or for a supervisory complaint. Do not wait even so. Traces in water or soil disappear quickly, and the sooner the authorities take samples, the more likely it is to be established where pollution came from. It is different with permits: objections are only possible during the deposit period set by your canton. An environmental organisation, too, can no longer appeal later if it did not take part in the objection.",
+        "rm": "Per ina denunzia penala e per in recurs da surveglianza na fixescha la lescha nagin termin. N'aspettai tuttina betg. Traces en l'aua u en la terra sparecen svelt, e pli baud che las autoritads prendan probas, pli bain sa lascha sclerir, dad ingio ch'in'inquinaziun vegn. Auter è tar permissiuns: Protestas èn mo pussaivlas durant il termin d'exposiziun che Voss chantun fixescha. Er in'organisaziun ambientala na po pli tard betg pli far recurs, sch'ella na sa participeschà betg a la protesta."
       },
       "sources": [
         "stpo-301",
@@ -396,14 +588,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn Sie selbst einen Schaden haben, etwa an Ihrem Grundstück, Ihrem Brunnen, Ihren Tieren oder Ihrer Gesundheit, und Schadenersatz verlangen möchten. Das gilt auch, wenn Sie sich als Privatklägerin oder Privatkläger am Strafverfahren beteiligen wollen, wenn Sie gegen eine Bewilligung vorgehen möchten oder wenn Ihnen selbst vorgeworfen wird, eine Verschmutzung verursacht zu haben. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Chancen und Kosten einschätzen."
+        "de": "Holen Sie persönliche Beratung, wenn Sie selbst einen Schaden haben, etwa an Ihrem Grundstück, Ihrem Brunnen, Ihren Tieren oder Ihrer Gesundheit, und Schadenersatz verlangen möchten. Das gilt auch, wenn Sie sich als Privatklägerin oder Privatkläger am Strafverfahren beteiligen wollen, wenn Sie gegen eine Bewilligung vorgehen möchten oder wenn Ihnen selbst vorgeworfen wird, eine Verschmutzung verursacht zu haben. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Chancen und Kosten einschätzen.",
+        "fr": "Faites-vous conseiller personnellement si vous subissez vous-même un dommage, par exemple à votre bien-fonds, votre puits, vos animaux ou votre santé, et que vous souhaitez réclamer des dommages-intérêts. Cela vaut aussi si vous voulez vous constituer partie plaignante dans la procédure pénale, si vous voulez agir contre une autorisation, ou si l'on vous reproche à vous-même d'avoir causé une pollution. Une avocate ou un avocat expérimenté en droit de l'environnement ou en droit administratif peut évaluer vos chances et vos frais.",
+        "it": "Si faccia consigliare personalmente se ha subito lei stessa un danno, per esempio al suo fondo, al suo pozzo, ai suoi animali o alla sua salute, e vuole chiedere un risarcimento. Questo vale anche se vuole costituirsi accusatore privato o accusatrice privata nel procedimento penale, se vuole agire contro un'autorizzazione, oppure se le viene rimproverato di aver causato lei stessa un inquinamento. Un'avvocata o un avvocato con esperienza in diritto ambientale o amministrativo può valutare le sue possibilità e i costi.",
+        "en": "Get personal advice if you yourself have suffered harm, for example to your property, your well, your animals or your health, and want to claim damages. This also applies if you want to take part in criminal proceedings as a private claimant, if you want to act against a permit, or if you yourself are accused of having caused pollution. A lawyer experienced in environmental or administrative law can assess your chances and costs.",
+        "rm": "Procurai consulaziun persunala, sche Vus avais Vus sez in donn, per exempel a Voss terren, a Vossa funtauna, a Voss tiers u a Vossa sanadad, e vulais pretender indemnisaziun. Quai vala er, sche Vus vulais sa participar sco accusadra privata a la procedura penala, sche Vus vulais proceder cunter ina permissiun u sche a Vus vegn reprocha da avair chaschunà in'inquinaziun. In'advocata u in advocat cun experientscha en il dretg da l'ambient u en il dretg administrativ po estimar Vossas schanzas e custs."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose Anlaufstellen: In Notfällen die Polizei (117) oder die Feuerwehr (118). Sonst die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt oder Amt für Wasser und Abfall genannt, mit ihrem Gewässerschutz-Pikett. Für Natur, Wald und Wildtiere die kantonalen Fachstellen für Naturschutz, Wald sowie Jagd und Fischerei, auch die Wildhut. Ihre Gemeinde weiss, wer vor Ort zuständig ist, und kennt die Bauvorhaben in der Gemeinde. Die beschwerdeberechtigten Umwelt- und Naturschutzorganisationen und ihre kantonalen Sektionen nehmen Hinweise entgegen."
+        "de": "Kostenlose Anlaufstellen: In Notfällen die Polizei (117) oder die Feuerwehr (118). Sonst die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt oder Amt für Wasser und Abfall genannt, mit ihrem Gewässerschutz-Pikett. Für Natur, Wald und Wildtiere die kantonalen Fachstellen für Naturschutz, Wald sowie Jagd und Fischerei, auch die Wildhut. Ihre Gemeinde weiss, wer vor Ort zuständig ist, und kennt die Bauvorhaben in der Gemeinde. Die beschwerdeberechtigten Umwelt- und Naturschutzorganisationen und ihre kantonalen Sektionen nehmen Hinweise entgegen.",
+        "fr": "Services gratuits : en cas d'urgence, la police (117) ou les pompiers (118). Sinon, le service de l'environnement de votre canton, souvent appelé office de l'environnement ou office de l'eau et des déchets, avec son piquet de protection des eaux. Pour la nature, la forêt et la faune sauvage, les services cantonaux spécialisés dans la protection de la nature, la forêt ainsi que la chasse et la pêche, ainsi que la garde-faune. Votre commune sait qui est compétent sur place et connaît les projets de construction dans la commune. Les organisations de protection de l'environnement et de la nature habilitées à recourir et leurs sections cantonales reçoivent les signalements.",
+        "it": "Recapiti gratuiti: in caso di emergenza la polizia (117) o i pompieri (118). Altrimenti il servizio specializzato per l'ambiente del suo Cantone, spesso chiamato ufficio dell'ambiente o ufficio delle acque e dei rifiuti, con il suo picchetto di protezione delle acque. Per natura, bosco e animali selvatici, i servizi cantonali specializzati per la protezione della natura, il bosco nonché la caccia e la pesca, anche la guardia della selvaggina. Il suo Comune sa chi è competente sul posto e conosce i progetti edilizi nel Comune. Le organizzazioni di protezione dell'ambiente e della natura legittimate a ricorrere e le loro sezioni cantonali raccolgono segnalazioni.",
+        "en": "Free points of contact: in emergencies, the police (117) or the fire brigade (118). Otherwise your canton's environmental agency, often called the office for the environment or the office for water and waste, with its water protection emergency service. For nature, forest and wildlife, the cantonal agencies for nature conservation, forestry, and hunting and fishing, including the wildlife wardens. Your municipality knows who is locally responsible, and knows the construction projects in the municipality. The environmental and nature conservation organisations entitled to appeal, and their cantonal sections, take tip-offs.",
+        "rm": "Postas d'agid gratuitas: En cas d'urgenza la polizia (117) u ils pumpiers (118). Autramain il post spezialisà per l'ambient da Voss chantun, savens numnà Uffizi per l'ambient u Uffizi per l'aua e per il rument, cun ses pichet da protecziun da las auas. Per natira, guaud e tiers selvadis las postas chantunalas spezialisadas per la protecziun da la natira, il guaud sco er la chatscha e la pestga, era ils guardachatscha. Vossa vischnanca sa, tgi ch'è cumpetent sin plaz, e enconuscha ils vertadads da construcziun en la vischnanca. Las organisaziuns per la protecziun da l'ambient e da la natira cun dretg da far recurs e lur secziuns chantunalas retschaivan indicaziuns."
       }
     }
   ],
@@ -686,19 +886,31 @@
   "official_links": [
     {
       "label": {
-        "de": "BAFU: Verbandsbeschwerderecht der Umweltorganisationen"
+        "de": "BAFU: Verbandsbeschwerderecht der Umweltorganisationen",
+        "fr": "OFEV : droit de recours des organisations environnementales",
+        "it": "UFAM: Diritto di ricorso delle associazioni delle organizzazioni ambientali",
+        "en": "FOEN: right of appeal of environmental organisations",
+        "rm": "UFAM: Dretg da far recurs da las organisaziuns ambientalas"
       },
       "url": "https://www.bafu.admin.ch/de/verbandsbeschwerderecht"
     },
     {
       "label": {
-        "de": "Kanton Zürich: Gewässerschutz-Pikettdienst"
+        "de": "Kanton Zürich: Gewässerschutz-Pikettdienst",
+        "fr": "Canton de Zurich : service de piquet de protection des eaux",
+        "it": "Cantone di Zurigo: Picchetto di protezione delle acque",
+        "en": "Canton of Zurich: water protection emergency service",
+        "rm": "Chantun Turitg: Servetsch da pichet da protecziun da las auas"
       },
       "url": "https://www.zh.ch/de/umwelt-tiere/wasser-gewaesser/gewaesserschutz/gewaesserschutz-pikettdienst.html"
     },
     {
       "label": {
-        "de": "Kanton Aargau: Schadendienst bei Umweltunfällen"
+        "de": "Kanton Aargau: Schadendienst bei Umweltunfällen",
+        "fr": "Canton d'Argovie : service d'intervention en cas d'accident environnemental",
+        "it": "Cantone Argovia: Servizio danni in caso di incidenti ambientali",
+        "en": "Canton of Aargau: emergency service for environmental incidents",
+        "rm": "Chantun Argovia: Servetsch da donns tar accidents ambientals"
       },
       "url": "https://www.ag.ch/de/verwaltung/bvu/umwelt-natur-landschaft/umwelt/schadendienst"
     }

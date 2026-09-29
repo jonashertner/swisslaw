@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Eine Erbschaft ausschlagen"
+    "de": "Eine Erbschaft ausschlagen",
+    "fr": "Répudier une succession",
+    "it": "Rinunciare a un'eredità",
+    "en": "Disclaiming an inheritance",
+    "rm": "Refusar in'ierta"
   },
   "summary": {
-    "de": "Wenn eine nahestehende Person gestorben ist und die Erbschaft überschuldet sein könnte, können Sie als Erbin oder Erbe die Erbschaft ausschlagen. Dieser Leitfaden erklärt Ihr Recht dazu, die Frist, das Vorgehen bei der zuständigen Behörde und worauf Sie unbedingt achten müssen, damit Sie dieses Recht nicht verlieren."
+    "de": "Wenn eine nahestehende Person gestorben ist und die Erbschaft überschuldet sein könnte, können Sie als Erbin oder Erbe die Erbschaft ausschlagen. Dieser Leitfaden erklärt Ihr Recht dazu, die Frist, das Vorgehen bei der zuständigen Behörde und worauf Sie unbedingt achten müssen, damit Sie dieses Recht nicht verlieren.",
+    "fr": "Lorsqu’une personne proche est décédée et que la succession pourrait être surendettée, vous pouvez, en tant qu’héritière ou héritier, répudier la succession. Ce guide explique votre droit à cet effet, le délai, la marche à suivre auprès de l’autorité compétente et ce à quoi vous devez absolument veiller pour ne pas perdre ce droit.",
+    "it": "Se una persona a lei vicina è deceduta e l'eredità potrebbe essere oberata da debiti, lei, come erede, può rinunciare all'eredità. Questa guida spiega questo suo diritto, il termine, la procedura presso l'autorità competente e a che cosa deve assolutamente prestare attenzione per non perdere questo diritto.",
+    "en": "If someone close to you has died and the estate might be over-indebted, you can disclaim the inheritance as an heir. This guide explains your right to do so, the time limit, the procedure at the competent authority, and what you absolutely must watch out for so that you do not lose this right.",
+    "rm": "Sche ina persuna datiers a Vus è morta e l'ierta pudess esser surdebitgada, pudais Vus, sco ertavla u ertavel, refusar l'ierta. Questa guida explitgescha Voss dretg per quai, il termin, il proceder tar l'autoritad cumpetenta e a tge ch'Vus stuais absolutamain guardar, per betg perder quest dretg."
   },
   "examples": {
     "de": [
@@ -18,51 +26,111 @@
       "Wie lange habe ich Zeit, um eine Erbschaft auszuschlagen?",
       "Darf ich schon etwas aus der Wohnung meiner verstorbenen Mutter holen, bevor ich mich entscheide?",
       "Was passiert mit meinen Kindern, wenn ich die Erbschaft ausschlage?"
+    ],
+    "fr": [
+      "Mon père est décédé et n’avait apparemment que des dettes – dois-je hériter de cela ?",
+      "Puis-je répudier la succession de ma tante si je ne sais pas ce qu’elle a laissé ?",
+      "Combien de temps ai-je pour répudier une succession ?",
+      "Puis-je déjà prendre quelque chose dans l’appartement de ma mère décédée avant de me décider ?",
+      "Qu’advient-il de mes enfants si je répudie la succession ?"
+    ],
+    "it": [
+      "Mio padre è morto e aveva probabilmente solo debiti: devo ereditarli per forza?",
+      "Posso rinunciare all'eredità di mia zia se non so che cosa ha lasciato?",
+      "Quanto tempo ho per rinunciare a un'eredità?",
+      "Posso già prendere qualcosa dall'appartamento di mia madre defunta prima di decidere?",
+      "Che cosa succede ai miei figli se rinuncio all'eredità?"
+    ],
+    "en": [
+      "My father has died and probably only had debts - do I have to inherit that?",
+      "Can I disclaim my aunt's inheritance if I don't know what she left behind?",
+      "How long do I have to disclaim an inheritance?",
+      "Am I allowed to take something from my deceased mother's flat before I decide?",
+      "What happens to my children if I disclaim the inheritance?"
+    ],
+    "rm": [
+      "Mes bab è mort ed aveva probablamain mo debits - stoss jau quai ertar?",
+      "Poss jau refusar l'ierta da mia tatta, sch'jau na sai betg, tge ch'ella ha laschà enavos?",
+      "Quant temp hai jau per refusar in'ierta?",
+      "Dastg jau gia prender insatge dal domicil da mia mamma defunta, avant ch'jau decida?",
+      "Tge succeda cun mes uffants, sch'jau refusesch l'ierta?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Das Recht, eine Ihnen zugefallene Erbschaft als gesetzliche oder im Testament bzw. Erbvertrag eingesetzte Erbin oder Erbe auszuschlagen: die 3-Monats-Frist und ihr Beginn, das Vorgehen bei der zuständigen Behörde, was als verbotene Einmischung gilt, was mit Ihrem Anteil geschieht, was bei minderjährigen Kindern zu beachten ist, und was mit Lebensversicherung, AHV-Rente und Pensionskasse passiert."
+      "de": "Das Recht, eine Ihnen zugefallene Erbschaft als gesetzliche oder im Testament bzw. Erbvertrag eingesetzte Erbin oder Erbe auszuschlagen: die 3-Monats-Frist und ihr Beginn, das Vorgehen bei der zuständigen Behörde, was als verbotene Einmischung gilt, was mit Ihrem Anteil geschieht, was bei minderjährigen Kindern zu beachten ist, und was mit Lebensversicherung, AHV-Rente und Pensionskasse passiert.",
+      "fr": "Le droit de répudier une succession qui vous échoit, en tant qu’héritière ou héritier légal ou institué par testament ou pacte successoral : le délai de 3 mois et son point de départ, la marche à suivre auprès de l’autorité compétente, ce qui constitue une immixtion interdite, ce qu’il advient de votre part, ce qu’il faut prendre en compte pour les enfants mineurs, et ce qu’il advient de l’assurance-vie, de la rente AVS et de la caisse de pension.",
+      "it": "Il diritto di rinunciare a un'eredità a lei devoluta come erede legittimo o come erede istituito in un testamento o in un contratto successorio: il termine di 3 mesi e il suo inizio, la procedura presso l'autorità competente, che cosa vale come ingerenza vietata, che cosa succede alla sua quota, che cosa occorre osservare in presenza di figli minorenni, e che cosa succede all'assicurazione sulla vita, alla rendita AVS e alla cassa pensioni.",
+      "en": "The right to disclaim an inheritance that has passed to you, as a statutory heir or as an heir named in a will or contract of succession: the 3-month time limit and when it begins, the procedure at the competent authority, what counts as prohibited interference, what happens to your share, what to watch out for with minor children, and what happens to life insurance, the OASI pension and the pension fund.",
+      "rm": "Il dretg da refusar in'ierta che Vus tutga sco ertavla legala u ertavel legal, u sco persuna inserida en il testament u en il contract d'ierta: il termin da 3 mais e ses cumenzament, il proceder tar l'autoritad cumpetenta, tge che vala sco maschadaditga scumandada, tge che succeda cun Vossa quota, tge ch'i sto vegnir resguardà tar uffants minorens, e tge che succeda cun l'assicuranza da vita, la renta AVS e la cassa da pensiun."
     },
     "excludes": {
-      "de": "Nicht im Detail behandelt: das öffentliche Inventar und die amtliche Liquidation einer überschuldeten Erbschaft (dazu gibt es einen eigenen Leitfaden zu Nachlassschulden), das Verfassen eines Testaments, Pflichtteile, Erbschaftssteuern sowie besondere Fragen bei Geschäftsnachfolge oder Erbschaften mit Auslandsbezug."
+      "de": "Nicht im Detail behandelt: das öffentliche Inventar und die amtliche Liquidation einer überschuldeten Erbschaft (dazu gibt es einen eigenen Leitfaden zu Nachlassschulden), das Verfassen eines Testaments, Pflichtteile, Erbschaftssteuern sowie besondere Fragen bei Geschäftsnachfolge oder Erbschaften mit Auslandsbezug.",
+      "fr": "Ne sont pas traités en détail : le bénéfice d’inventaire et la liquidation officielle d’une succession surendettée (un guide séparé sur les dettes successorales y est consacré), la rédaction d’un testament, les réserves héréditaires, les impôts sur les successions, ainsi que les questions particulières de succession d’entreprise ou de successions avec un lien avec l’étranger.",
+      "it": "Non trattati nel dettaglio: il beneficio d'inventario e la liquidazione d'ufficio di un'eredità oberata da debiti (per questo esiste una guida propria sui debiti della successione), la redazione di un testamento, la legittima, le imposte di successione, nonché questioni particolari relative alla successione d'impresa o a eredità con un legame con l'estero.",
+      "en": "Not covered in detail: the public inventory and official liquidation of an over-indebted estate (there is a separate guide on the debts of the deceased for this), drawing up a will, statutory entitlements, inheritance tax, and special questions of business succession or cross-border inheritance.",
+      "rm": "Betg tractads en detagl: l'inventari public e la liquidaziun uffiziala d'in'ierta surdebitgada (per quai datti in'agenta guida davart debits da l'ierta), la redacziun d'in testament, parts obligatoricas, taglias da successiun sco er dumondas spezialas tar la successiun d'in'interpresa u tar ierta cun connex a l'exteriur."
     }
   },
   "facts": [
     {
       "key": "relationship",
       "question": {
-        "de": "In welchem Verhältnis standen Sie zur verstorbenen Person?"
+        "de": "In welchem Verhältnis standen Sie zur verstorbenen Person?",
+        "fr": "Quel était votre lien avec la personne décédée ?",
+        "it": "In quale rapporto era con la persona defunta?",
+        "en": "What was your relationship to the deceased?",
+        "rm": "En tge relaziun stavat Vus cun la persuna defunta?"
       },
       "options": [
         {
           "value": "child",
           "label": {
-            "de": "Kind der verstorbenen Person"
+            "de": "Kind der verstorbenen Person",
+            "fr": "Enfant de la personne décédée",
+            "it": "Figlio della persona defunta",
+            "en": "Child of the deceased",
+            "rm": "Uffant da la persuna defunta"
           }
         },
         {
           "value": "spouse-partner",
           "label": {
-            "de": "Ehepartner/in oder eingetragene/r Partner/in"
+            "de": "Ehepartner/in oder eingetragene/r Partner/in",
+            "fr": "Conjointe, conjoint ou partenaire enregistrée ou partenaire enregistré",
+            "it": "Coniuge o partner registrato",
+            "en": "Spouse or registered partner",
+            "rm": "Consorta u consort, u partenaria registrada u partenari registrà"
           }
         },
         {
           "value": "other-relative",
           "label": {
-            "de": "andere Verwandtschaft (z. B. Geschwister, Eltern, Nichte/Neffe)"
+            "de": "andere Verwandtschaft (z. B. Geschwister, Eltern, Nichte/Neffe)",
+            "fr": "autre lien de parenté (p. ex. frère ou sœur, père ou mère, nièce ou neveu)",
+            "it": "altro grado di parentela (per esempio fratelli e sorelle, genitori, nipote)",
+            "en": "other relative (e.g. sibling, parent, niece/nephew)",
+            "rm": "autra persuna parentada (p.ex. fragliun, genitur, nezza u nev)"
           }
         },
         {
           "value": "will-named",
           "label": {
-            "de": "im Testament oder Erbvertrag als Erbin/Erbe eingesetzt"
+            "de": "im Testament oder Erbvertrag als Erbin/Erbe eingesetzt",
+            "fr": "institué comme héritière ou héritier dans un testament ou un pacte successoral",
+            "it": "istituito erede in un testamento o in un contratto successorio",
+            "en": "named as an heir in the will or contract of succession",
+            "rm": "inserì en il testament u en il contract d'ierta sco ertavla u ertavel"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht / spielt hier keine Rolle"
+            "de": "Weiss ich nicht / spielt hier keine Rolle",
+            "fr": "Je ne sais pas / cela ne joue pas de rôle ici",
+            "it": "Non lo so / non è rilevante qui",
+            "en": "I don't know / this doesn't matter here",
+            "rm": "Jau na sai betg u quai na tutga betg qua"
           }
         }
       ]
@@ -70,31 +138,51 @@
     {
       "key": "time_since_death",
       "question": {
-        "de": "Wie lange ist der Tod her, beziehungsweise wie lange wissen Sie schon davon?"
+        "de": "Wie lange ist der Tod her, beziehungsweise wie lange wissen Sie schon davon?",
+        "fr": "Depuis combien de temps le décès a-t-il eu lieu, ou depuis combien de temps le savez-vous ?",
+        "it": "Da quanto tempo è avvenuto il decesso, ovvero da quanto tempo ne è a conoscenza?",
+        "en": "How long ago was the death, or how long have you known about it?",
+        "rm": "Quant ditg è la mort indretg, resp. quant ditg savais Vus gia da quai?"
       },
       "options": [
         {
           "value": "under-1-month",
           "label": {
-            "de": "Weniger als 1 Monat"
+            "de": "Weniger als 1 Monat",
+            "fr": "Moins d’1 mois",
+            "it": "Meno di 1 mese",
+            "en": "Less than 1 month",
+            "rm": "Damain che 1 mais"
           }
         },
         {
           "value": "one-to-3-months",
           "label": {
-            "de": "1 bis 3 Monate"
+            "de": "1 bis 3 Monate",
+            "fr": "1 à 3 mois",
+            "it": "Da 1 a 3 mesi",
+            "en": "1 to 3 months",
+            "rm": "1 fin 3 mais"
           }
         },
         {
           "value": "over-3-months",
           "label": {
-            "de": "Mehr als 3 Monate"
+            "de": "Mehr als 3 Monate",
+            "fr": "Plus de 3 mois",
+            "it": "Più di 3 mesi",
+            "en": "More than 3 months",
+            "rm": "Dapli che 3 mais"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht genau"
+            "de": "Weiss ich nicht genau",
+            "fr": "Je ne sais pas exactement",
+            "it": "Non lo so con precisione",
+            "en": "I don't know exactly",
+            "rm": "Jau na sai betg exactamain"
           }
         }
       ]
@@ -102,28 +190,48 @@
     {
       "key": "handled_estate_assets",
       "question": {
-        "de": "Haben Sie bereits Geld oder Gegenstände aus dem Nachlass genommen, verkauft, damit Schulden bezahlt oder sich sonst wie eine Erbin oder ein Erbe verhalten?"
+        "de": "Haben Sie bereits Geld oder Gegenstände aus dem Nachlass genommen, verkauft, damit Schulden bezahlt oder sich sonst wie eine Erbin oder ein Erbe verhalten?",
+        "fr": "Avez-vous déjà pris ou vendu de l’argent ou des objets de la succession, payé des dettes avec, ou agi d’une autre manière comme une héritière ou un héritier ?",
+        "it": "Ha già preso denaro o oggetti dalla successione, li ha venduti, ha pagato debiti con essi o si è comunque comportato come un erede?",
+        "en": "Have you already taken or sold money or items from the estate, used them to pay debts, or otherwise acted like an heir?",
+        "rm": "Avais Vus gia prendì daners u objects dal relasch, vendì els, pajà debits cun els u As cumportà autramain sco ina ertavla u in ertavel?"
       },
       "help": {
-        "de": "Gemeint ist mehr als nur das Nötigste zur Sicherung. Die Wohnung abschliessen oder die Post nachsenden lassen zählt nicht dazu."
+        "de": "Gemeint ist mehr als nur das Nötigste zur Sicherung. Die Wohnung abschliessen oder die Post nachsenden lassen zählt nicht dazu.",
+        "fr": "Il s’agit de plus que le strict nécessaire pour assurer la conservation. Fermer le logement à clé ou faire suivre le courrier n’en fait pas partie.",
+        "it": "Si intende più del minimo indispensabile per la messa in sicurezza. Chiudere a chiave l'appartamento o farsi inoltrare la posta non rientra in questo.",
+        "en": "This means more than just what is necessary to secure the estate. Locking the flat or having the post forwarded does not count.",
+        "rm": "Impurtant è dapli che il pli necessari per la segirezza. Serrar l'abitaziun u laschar renviar la posta na conta betg là tar."
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht / bin mir nicht sicher"
+            "de": "Weiss ich nicht / bin mir nicht sicher",
+            "fr": "Je ne sais pas / je n’en suis pas sûr",
+            "it": "Non lo so / non ne sono sicuro",
+            "en": "I don't know / I'm not sure",
+            "rm": "Jau na sai betg u na sun betg segir"
           }
         }
       ]
@@ -131,31 +239,51 @@
     {
       "key": "children_would_inherit",
       "question": {
-        "de": "Falls Sie ausschlagen würden: Haben Sie eigene Kinder, die dann an Ihre Stelle als Erbin oder Erbe treten würden?"
+        "de": "Falls Sie ausschlagen würden: Haben Sie eigene Kinder, die dann an Ihre Stelle als Erbin oder Erbe treten würden?",
+        "fr": "Si vous répudiiez : avez-vous des enfants qui prendraient alors votre place comme héritière ou héritier ?",
+        "it": "Se lei rinunciasse: ha figli propri che subentrerebbero al suo posto come eredi?",
+        "en": "If you were to disclaim the inheritance: do you have children of your own who would then take your place as heirs?",
+        "rm": "Sche Vus refusassas: avais Vus atgnas uffants che entrass lura a Vossa plazza sco ertavla u ertavel?"
       },
       "options": [
         {
           "value": "yes-adult",
           "label": {
-            "de": "Ja, sie sind volljährig"
+            "de": "Ja, sie sind volljährig",
+            "fr": "Oui, ils sont majeurs",
+            "it": "Sì, sono maggiorenni",
+            "en": "Yes, they are adults",
+            "rm": "Gea, ellas u els èn maiorens"
           }
         },
         {
           "value": "yes-minor",
           "label": {
-            "de": "Ja, mindestens eines ist minderjährig"
+            "de": "Ja, mindestens eines ist minderjährig",
+            "fr": "Oui, au moins un est mineur",
+            "it": "Sì, almeno uno è minorenne",
+            "en": "Yes, at least one is a minor",
+            "rm": "Gea, almain ina è minorenna"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -163,25 +291,41 @@
     {
       "key": "estate_has_business_or_property",
       "question": {
-        "de": "Gehören ein Geschäft/eine Firma oder eine Liegenschaft (Haus, Wohnung, Grundstück) zum Nachlass?"
+        "de": "Gehören ein Geschäft/eine Firma oder eine Liegenschaft (Haus, Wohnung, Grundstück) zum Nachlass?",
+        "fr": "Une entreprise ou un bien immobilier (maison, appartement, terrain) fait-il partie de la succession ?",
+        "it": "Fanno parte della successione un'azienda/una ditta o un fondo (casa, appartamento, terreno)?",
+        "en": "Does a business or company, or real estate (a house, flat or plot of land), belong to the estate?",
+        "rm": "Tutgan in commerzi u ina firma, u in bain immobigliar (chasa, abitaziun, terren) al relasch?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja"
+            "de": "Ja",
+            "fr": "Oui",
+            "it": "Sì",
+            "en": "Yes",
+            "rm": "Gea"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Jau na sai betg"
           }
         }
       ]
@@ -192,7 +336,11 @@
       "id": "right-to-refuse",
       "kind": "rule",
       "text": {
-        "de": "Als gesetzliche Erbin, gesetzlicher Erbe oder als im Testament oder Erbvertrag eingesetzte Person haben Sie das Recht, eine Erbschaft, die Ihnen zufällt, auszuschlagen. Ausschlagen bedeutet: Sie verzichten vollständig auf das Erbe – sowohl auf das Vermögen als auch auf die Schulden der verstorbenen Person. Es ist freiwillig; ohne Ihr Zutun gilt die Erbschaft nach Ablauf der Frist grundsätzlich als angenommen."
+        "de": "Als gesetzliche Erbin, gesetzlicher Erbe oder als im Testament oder Erbvertrag eingesetzte Person haben Sie das Recht, eine Erbschaft, die Ihnen zufällt, auszuschlagen. Ausschlagen bedeutet: Sie verzichten vollständig auf das Erbe – sowohl auf das Vermögen als auch auf die Schulden der verstorbenen Person. Es ist freiwillig; ohne Ihr Zutun gilt die Erbschaft nach Ablauf der Frist grundsätzlich als angenommen.",
+        "fr": "En tant qu’héritière ou héritier légal, ou en tant que personne instituée par testament ou pacte successoral, vous avez le droit de répudier une succession qui vous échoit. Répudier signifie : vous renoncez entièrement à la succession – tant au patrimoine qu’aux dettes de la personne décédée. C’est facultatif ; sans intervention de votre part, la succession est en principe réputée acceptée à l’expiration du délai.",
+        "it": "Come erede legittimo o come persona istituita erede in un testamento o in un contratto successorio, lei ha il diritto di rinunciare a un'eredità che le è devoluta. Rinunciare significa: lei rinuncia completamente all'eredità, sia al patrimonio sia ai debiti della persona defunta. È una scelta volontaria; senza un suo intervento, l'eredità è considerata di regola accettata alla scadenza del termine.",
+        "en": "As a statutory heir, or as a person named in a will or contract of succession, you have the right to disclaim an inheritance that passes to you. Disclaiming means: you give up the inheritance completely - both the assets and the debts of the deceased. It is voluntary; without any action on your part, the inheritance is in principle treated as accepted once the time limit has expired.",
+        "rm": "Sco ertavla legala, ertavel legal u sco persuna inserida en il testament u en il contract d'ierta, avais Vus il dretg da refusar in'ierta che Vus tutga. Refusar signifitga: Vus renunziais entiramain a l'ierta - tant a la facultad sco er als debits da la persuna defunta. Quai è facultativ; senza Voss agir vala l'ierta suenter la scadenza dal termin en princip sco acceptada."
       },
       "sources": [
         "zgb-566"
@@ -202,7 +350,11 @@
       "id": "presumed-refusal-insolvency",
       "kind": "rule",
       "text": {
-        "de": "War die Zahlungsunfähigkeit der verstorbenen Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig, gilt die Ausschlagung von Gesetzes wegen als vermutet. Ob diese Voraussetzung erfüllt ist, lässt sich oft nicht sicher sagen; erklären Sie die Ausschlagung deshalb sicherheitshalber trotzdem ausdrücklich und fristgerecht. Vorsicht: Diese Vermutung schützt Sie nicht, wenn Sie sich trotzdem in die Erbschaft einmischen (siehe unten) – dann gilt die Erbschaft als angenommen."
+        "de": "War die Zahlungsunfähigkeit der verstorbenen Person im Zeitpunkt ihres Todes amtlich festgestellt oder offenkundig, gilt die Ausschlagung von Gesetzes wegen als vermutet. Ob diese Voraussetzung erfüllt ist, lässt sich oft nicht sicher sagen; erklären Sie die Ausschlagung deshalb sicherheitshalber trotzdem ausdrücklich und fristgerecht. Vorsicht: Diese Vermutung schützt Sie nicht, wenn Sie sich trotzdem in die Erbschaft einmischen (siehe unten) – dann gilt die Erbschaft als angenommen.",
+        "fr": "Si l’insolvabilité de la personne décédée était officiellement constatée ou notoire au moment de son décès, la répudiation est présumée de par la loi. Il n’est souvent pas possible de dire avec certitude si cette condition est remplie ; déclarez donc la répudiation par précaution, expressément et dans les délais. Attention : cette présomption ne vous protège pas si vous vous immiscez malgré tout dans la succession (voir ci-dessous) – la succession est alors réputée acceptée.",
+        "it": "Se l'insolvenza della persona defunta al momento della sua morte era accertata ufficialmente o notoria, la rinuncia è presunta per legge. Spesso non si può dire con certezza se questo presupposto sia soddisfatto; per sicurezza dichiari quindi comunque la rinuncia in modo espresso ed entro il termine. Attenzione: questa presunzione non la protegge se lei si ingerisce comunque nell'eredità (si veda oltre); in tal caso l'eredità è considerata accettata.",
+        "en": "If the deceased's insolvency was officially established, or evident, at the time of their death, the disclaimer is presumed by operation of law. It is often not possible to say for certain whether this requirement is met; as a precaution, therefore, declare the disclaimer expressly and in time even so. Caution: this presumption does not protect you if you nonetheless interfere in the estate (see below) - the inheritance is then treated as accepted.",
+        "rm": "Era la nunsolvenza da la persuna defunta al mument da sia mort uffizialmain constatada u evidenta, vala la refusa sco supponida da lescha. Sch'quest pretsch è ademplì, na sa lascha savens betg dir cun segirezza; declerai la refusa percunquai a moda segira tuttina expressivamain e a temp. Attenziun: questa supposiziun Vus na protegia betg, sche Vus As maschadais tuttina en l'ierta (vesair sut) - lura vala l'ierta sco acceptada."
       },
       "sources": [
         "zgb-566"
@@ -212,7 +364,11 @@
       "id": "three-month-deadline",
       "kind": "warning",
       "text": {
-        "de": "Für die Ausschlagung haben Sie 3 Monate Zeit. Der Fristbeginn ist unterschiedlich: Als gesetzliche Erbin oder gesetzlicher Erbe beginnt die Frist, sobald Sie vom Tod erfahren haben. Als im Testament oder Erbvertrag eingesetzte Person beginnt sie erst, wenn Ihnen die Behörde die letztwillige Verfügung amtlich mitgeteilt hat. Wurde zur Sicherung ein amtliches Inventar aufgenommen, beginnt die Frist für alle Erbinnen und Erben erst, sobald die Behörde dessen Abschluss mitgeteilt hat. Verpassen Sie die Frist, gilt die Erbschaft als angenommen."
+        "de": "Für die Ausschlagung haben Sie 3 Monate Zeit. Der Fristbeginn ist unterschiedlich: Als gesetzliche Erbin oder gesetzlicher Erbe beginnt die Frist, sobald Sie vom Tod erfahren haben. Als im Testament oder Erbvertrag eingesetzte Person beginnt sie erst, wenn Ihnen die Behörde die letztwillige Verfügung amtlich mitgeteilt hat. Wurde zur Sicherung ein amtliches Inventar aufgenommen, beginnt die Frist für alle Erbinnen und Erben erst, sobald die Behörde dessen Abschluss mitgeteilt hat. Verpassen Sie die Frist, gilt die Erbschaft als angenommen.",
+        "fr": "Pour répudier, vous disposez de 3 mois. Le point de départ du délai varie : pour une héritière ou un héritier légal, le délai commence dès que vous avez connaissance du décès. Pour une personne instituée par testament ou pacte successoral, il ne commence que lorsque l’autorité vous a communiqué officiellement la disposition pour cause de mort. Si un inventaire officiel a été dressé à titre conservatoire, le délai ne commence, pour toutes les héritières et tous les héritiers, que lorsque l’autorité en a communiqué la clôture. Si vous manquez le délai, la succession est réputée acceptée.",
+        "it": "Per la rinuncia lei ha 3 mesi di tempo. L'inizio del termine varia: come erede legittimo, il termine inizia a decorrere non appena lei ha avuto conoscenza del decesso. Come persona istituita erede in un testamento o in un contratto successorio, esso inizia solo quando l'autorità le ha comunicato ufficialmente la disposizione a causa di morte. Se a scopo di sicurezza è stato allestito un inventario, il termine inizia per tutti gli eredi solo quando l'autorità ne ha comunicato la chiusura. Se lascia scadere il termine, l'eredità è considerata accettata.",
+        "en": "You have 3 months to disclaim the inheritance. When the time limit begins differs: as a statutory heir, it begins as soon as you learn of the death. As a person named in a will or contract of succession, it only begins once the authority has officially notified you of the disposition on death. If an inventory was drawn up as a precautionary measure to safeguard the estate, the time limit for all heirs only begins once the authority has notified them that it is complete. If you miss the time limit, the inheritance is treated as accepted.",
+        "rm": "Per la refusa avais Vus 3 mais temp. Il cumenzament dal termin è different: sco ertavla legala u ertavel legal cumenza il termin, uschespert ch'Vus avais survegnì enconuschientscha da la mort. Sco persuna inserida en il testament u en il contract d'ierta cumenza el pir, cur che l'autoritad Vus ha communitgà uffizialmain la disposiziun testamentara. È vegnì fatg in inventari uffizial per la segirezza, cumenza il termin per tut las ertavlas ed ils ertavels pir, uschespert che l'autoritad ha communitgà sia conclusiun. Manchentais Vus il termin, vala l'ierta sco acceptada."
       },
       "sources": [
         "zgb-567",
@@ -223,7 +379,11 @@
       "id": "deadline-extension",
       "kind": "warning",
       "text": {
-        "de": "Reicht die Zeit nicht, können Sie bei der zuständigen Behörde am letzten Wohnsitz der verstorbenen Person eine Fristverlängerung oder eine neue Frist beantragen. Das gibt es nur aus wichtigen Gründen, und nur, wenn Sie alles unternommen haben, was man von Ihnen erwarten konnte, um sich einen Überblick über Vermögen und Schulden zu verschaffen, zum Beispiel ein öffentliches Inventar zu verlangen. Stellen Sie das Gesuch vor Ablauf der Frist. Erfahren Sie erst später von einem wichtigen Grund, handeln Sie sofort: Wer danach wochen- oder monatelang zuwartet, riskiert, dass das Gesuch als verspätet abgewiesen wird."
+        "de": "Reicht die Zeit nicht, können Sie bei der zuständigen Behörde am letzten Wohnsitz der verstorbenen Person eine Fristverlängerung oder eine neue Frist beantragen. Das gibt es nur aus wichtigen Gründen, und nur, wenn Sie alles unternommen haben, was man von Ihnen erwarten konnte, um sich einen Überblick über Vermögen und Schulden zu verschaffen, zum Beispiel ein öffentliches Inventar zu verlangen. Stellen Sie das Gesuch vor Ablauf der Frist. Erfahren Sie erst später von einem wichtigen Grund, handeln Sie sofort: Wer danach wochen- oder monatelang zuwartet, riskiert, dass das Gesuch als verspätet abgewiesen wird.",
+        "fr": "Si le temps ne suffit pas, vous pouvez demander à l’autorité compétente du dernier domicile de la personne décédée une prolongation du délai ou un nouveau délai. Cela n’est possible que pour des motifs importants, et seulement si vous avez entrepris tout ce qu’on pouvait attendre de vous pour vous faire une idée du patrimoine et des dettes, par exemple demander un bénéfice d’inventaire. Déposez la requête avant l’expiration du délai. Si vous n’apprenez un motif important que plus tard, agissez immédiatement : quiconque attend ensuite des semaines ou des mois risque de voir sa requête rejetée comme tardive.",
+        "it": "Se il tempo non basta, lei può chiedere all'autorità competente dell'ultimo domicilio della persona defunta una proroga del termine o un nuovo termine. Ciò è possibile solo per motivi gravi, e solo se lei ha fatto tutto ciò che ci si poteva attendere da lei per farsi un quadro del patrimonio e dei debiti, per esempio chiedere un beneficio d'inventario. Presenti la domanda prima della scadenza del termine. Se viene a conoscenza di un motivo grave solo più tardi, agisca subito: chi attende poi settimane o mesi rischia che la domanda venga respinta perché tardiva.",
+        "en": "If the time is not enough, you can apply to the competent authority at the deceased's last place of residence for an extension of the time limit or a new time limit. This is only available for good cause, and only if you have done everything that could be expected of you to get an overview of the assets and debts, for example requesting a public inventory. Submit the application before the time limit expires. If you only learn of a good cause later, act immediately: anyone who then waits weeks or months risks the application being rejected as too late.",
+        "rm": "Basta il temp betg, pudais Vus dumandar tar l'autoritad cumpetenta dal davos domicil da la persuna defunta ina prolungaziun dal termin u in nov termin. Quai datti mo per motivs impurtants, e mo sche Vus avais fatg tut quai che Vus pudevat vegnir pretendì, per As procurar ina survista davart facultad e debits, per exempel pretender in inventari public. Fixai la dumonda avant la scadenza dal termin. Enconuschais Vus pir pli tard in motiv impurtant, agi immediat: tgi che spetga suenter quai emnas u mais, riscga che la dumonda vegnia refusada sco tardiva."
       },
       "sources": [
         "zgb-576",
@@ -235,7 +395,11 @@
       "id": "how-to-refuse",
       "kind": "step",
       "text": {
-        "de": "So schlagen Sie aus: Erkundigen Sie sich bei der Gemeinde oder online, welche Behörde am letzten Wohnsitz der verstorbenen Person für Erbschaften zuständig ist (je nach Kanton z. B. Bezirksgericht, Erbschaftsamt oder Notariat). Erklären Sie dort mündlich oder schriftlich, dass Sie die Erbschaft ausschlagen. Die Erklärung muss vorbehaltlos und ohne Bedingungen erfolgen – ein Teilausschlag oder eine Ausschlagung unter Vorbehalt ist nicht möglich. Die Behörde hält Ihre Ausschlagung in einem Protokoll fest. Lassen Sie sich eine schriftliche Bestätigung oder eine Kopie des Protokolleintrags geben und bewahren Sie diese auf."
+        "de": "So schlagen Sie aus: Erkundigen Sie sich bei der Gemeinde oder online, welche Behörde am letzten Wohnsitz der verstorbenen Person für Erbschaften zuständig ist (je nach Kanton z. B. Bezirksgericht, Erbschaftsamt oder Notariat). Erklären Sie dort mündlich oder schriftlich, dass Sie die Erbschaft ausschlagen. Die Erklärung muss vorbehaltlos und ohne Bedingungen erfolgen – ein Teilausschlag oder eine Ausschlagung unter Vorbehalt ist nicht möglich. Die Behörde hält Ihre Ausschlagung in einem Protokoll fest. Lassen Sie sich eine schriftliche Bestätigung oder eine Kopie des Protokolleintrags geben und bewahren Sie diese auf.",
+        "fr": "Voici comment procéder pour répudier : renseignez-vous auprès de la commune ou en ligne sur l’autorité compétente en matière de successions au dernier domicile de la personne décédée (selon le canton, par exemple le tribunal de district, l’office des successions ou le notariat). Déclarez-y, oralement ou par écrit, que vous répudiez la succession. La déclaration doit être inconditionnelle et sans réserve – une répudiation partielle ou sous réserve n’est pas possible. L’autorité consigne votre répudiation dans un procès-verbal. Faites-vous délivrer une confirmation écrite ou une copie de l’inscription au procès-verbal et conservez-la.",
+        "it": "Ecco come procedere per rinunciare: si informi presso il comune o online su quale autorità dell'ultimo domicilio della persona defunta sia competente per le successioni (a seconda del Cantone, per esempio il tribunale distrettuale, l'ufficio successorio o il notariato). Dichiari lì, oralmente o per iscritto, che rinuncia all'eredità. La dichiarazione deve essere fatta senza riserve e senza condizioni: una rinuncia parziale o una rinuncia con riserva non sono possibili. L'autorità registra la sua rinuncia in un verbale. Si faccia rilasciare una conferma scritta o una copia della registrazione a verbale e la conservi.",
+        "en": "Here is how to disclaim the inheritance: find out from the municipality or online which authority at the deceased's last place of residence is responsible for inheritance matters (depending on the canton, for example the district court, the inheritance office or a notary's office). Declare there, orally or in writing, that you are disclaiming the inheritance. The declaration must be unconditional and without reservation - a partial disclaimer or a disclaimer subject to a reservation is not possible. The authority records your disclaimer in the minutes. Have written confirmation or a copy of the record given to you, and keep it safe.",
+        "rm": "Uschia refusais Vus: infurmai Vus tar la vischnanca u online, tge autoritad dal davos domicil da la persuna defunta è cumpetenta per ierta (tenor chantun p.ex. dretgira districtuala, uffizi d'ierta u notariat). Declerai là, oralmain u per scrit, ch'Vus refusais l'ierta. La decleraziun sto succeder senza restricziun e senza cundiziuns - ina refusa parziala u ina refusa sut resalva n'è betg pussibla. L'autoritad fixescha Vossa refusa en in protocol. Laschai Vus dar ina conferma scritta u ina copia da la registrada dal protocol e conservai quella."
       },
       "sources": [
         "zgb-570"
@@ -245,7 +409,11 @@
       "id": "intermeddling-warning",
       "kind": "warning",
       "text": {
-        "de": "Wichtig: Wenn Sie sich vor Ablauf der Frist in die Erbschaft einmischen, verlieren Sie das Recht, sie auszuschlagen – auch wenn die Frist noch läuft, und auch wenn eigentlich eine Ausschlagung vermutet würde. Erlaubt ist die blosse Verwaltung: Dinge, die nötig sind, damit nichts verloren geht oder verdirbt, zum Beispiel die Wohnung sichern, die Post nachsenden lassen, dringende Reparaturen veranlassen oder verderbliche Werte rechtzeitig verkaufen. Nicht erlaubt ist, was darüber hinausgeht: Geld oder Gegenstände aus dem Nachlass an sich nehmen, verkaufen oder für sich verwenden, Vermögenswerte verstecken oder sich sonst endgültig wie eine Erbin oder ein Erbe verhalten. Besondere Vorsicht gilt beim Bezahlen von Schulden der verstorbenen Person: Schon das kann als Einmischung gelten. Wo die Grenze liegt, entscheidet sich im Einzelfall; allein das Beantragen eines Erbscheins reicht für sich genommen nicht aus, um das Ausschlagungsrecht zu verlieren. Im Zweifel: Fassen Sie nichts aus dem Nachlass an und lassen Sie sich beraten, bevor Sie handeln."
+        "de": "Wichtig: Wenn Sie sich vor Ablauf der Frist in die Erbschaft einmischen, verlieren Sie das Recht, sie auszuschlagen – auch wenn die Frist noch läuft, und auch wenn eigentlich eine Ausschlagung vermutet würde. Erlaubt ist die blosse Verwaltung: Dinge, die nötig sind, damit nichts verloren geht oder verdirbt, zum Beispiel die Wohnung sichern, die Post nachsenden lassen, dringende Reparaturen veranlassen oder verderbliche Werte rechtzeitig verkaufen. Nicht erlaubt ist, was darüber hinausgeht: Geld oder Gegenstände aus dem Nachlass an sich nehmen, verkaufen oder für sich verwenden, Vermögenswerte verstecken oder sich sonst endgültig wie eine Erbin oder ein Erbe verhalten. Besondere Vorsicht gilt beim Bezahlen von Schulden der verstorbenen Person: Schon das kann als Einmischung gelten. Wo die Grenze liegt, entscheidet sich im Einzelfall; allein das Beantragen eines Erbscheins reicht für sich genommen nicht aus, um das Ausschlagungsrecht zu verlieren. Im Zweifel: Fassen Sie nichts aus dem Nachlass an und lassen Sie sich beraten, bevor Sie handeln.",
+        "fr": "Important : si vous vous immiscez dans la succession avant l’expiration du délai, vous perdez le droit de la répudier – même si le délai court encore, et même si une répudiation serait en principe présumée. La simple administration est autorisée : ce qui est nécessaire pour éviter une perte ou une détérioration, par exemple sécuriser le logement, faire suivre le courrier, faire effectuer des réparations urgentes ou vendre à temps des biens périssables. Ce qui va au-delà n’est pas autorisé : prendre de l’argent ou des objets de la succession, les vendre ou les utiliser pour soi, dissimuler des valeurs patrimoniales, ou se comporter autrement de façon définitive comme une héritière ou un héritier. Une prudence particulière s’impose pour le paiement des dettes de la personne décédée : cela peut déjà être considéré comme une immixtion. La limite se détermine au cas par cas ; la seule demande d’un certificat d’héritier ne suffit pas à elle seule à faire perdre le droit de répudier. En cas de doute : ne touchez à rien dans la succession et faites-vous conseiller avant d’agir.",
+        "it": "Importante: se lei si ingerisce nell'eredità prima della scadenza del termine, perde il diritto di rinunciarvi, anche se il termine è ancora in corso, e anche se in realtà si presumerebbe una rinuncia. È consentita la semplice amministrazione: le cose necessarie affinché nulla vada perso o si deteriori, per esempio mettere in sicurezza l'appartamento, farsi inoltrare la posta, far eseguire riparazioni urgenti o vendere tempestivamente beni deperibili. Non è consentito ciò che va oltre: prendere per sé denaro o oggetti dalla successione, venderli o utilizzarli per sé, nascondere valori patrimoniali oppure comportarsi altrimenti in modo definitivo come un erede. Occorre particolare prudenza nel pagare i debiti della persona defunta: già questo può valere come ingerenza. Dove si trovi il limite si decide caso per caso; la sola richiesta di un certificato ereditario non basta di per sé a far perdere il diritto di rinuncia. In caso di dubbio: non tocchi nulla della successione e si faccia consigliare prima di agire.",
+        "en": "Important: if you interfere in the estate before the time limit expires, you lose the right to disclaim it - even if the time limit is still running, and even if a disclaimer would actually be presumed. Mere administration is allowed: things needed so that nothing is lost or spoiled, for example securing the flat, having the post forwarded, arranging urgent repairs, or selling perishable items in time. What goes beyond this is not allowed: taking money or items from the estate for yourself, selling them or using them for yourself, hiding assets, or otherwise finally acting like an heir. Particular caution is needed when paying the deceased's debts: even this can count as interference. Where the line lies is decided case by case; merely applying for a certificate of inheritance is not, by itself, enough to lose the right to disclaim. If in doubt: do not touch anything from the estate, and get advice before you act.",
+        "rm": "Impurtant: sche Vus As maschadais en l'ierta avant la scadenza dal termin, perdais Vus il dretg da la refusar - er sch'il termin curra anc, ed er sche propi ina refusa fiss supponida. Permess è la simpla administraziun: chaussas che èn necessarias, per che nagut vegnia pers u guastà, per exempel segirar l'abitaziun, laschar renviar la posta, ordinar reparaziuns urgentas u vender a temp valurs perizabels. Betg permess è quai che va ultra da quai: prender, vender u duvrar per sasez daners u objects dal relasch, zuppentar valurs u As cumportar autramain definitivamain sco ina ertavla u in ertavel. Spezial prudenza vala tar il pajament da debits da la persuna defunta: gia quai po valair sco maschadaditga. Nua ch'è il cunfin, decida il cas singul; il simpel dumandar in certificat d'ierta na basta betg per sasez per perder il dretg da refusar. En cas da dubi: na tuccai nagut dal relasch e laschai Vus cussegliar, avant che Vus agis."
       },
       "sources": [
         "zgb-571",
@@ -256,7 +424,11 @@
       "id": "effects-of-refusal",
       "kind": "rule",
       "text": {
-        "de": "Schlagen Sie aus und gibt es keine letztwillige Verfügung, geht Ihr Anteil so weiter, wie wenn Sie den Erbfall nicht erlebt hätten – meist erben dann Ihre eigenen Kinder an Ihrer Stelle; haben Sie keine, geht Ihr Anteil an die übrigen gesetzlichen Erbinnen und Erben. Gibt es ein Testament oder einen Erbvertrag und schlägt eine darin eingesetzte Person aus, geht ihr Anteil an die nächsten gesetzlichen Erbinnen und Erben der verstorbenen Person, sofern aus dem Testament kein anderer Wille hervorgeht. Diese Personen erben dann selbst und müssen unter Umständen ebenfalls innert eigener Frist entscheiden, ob sie annehmen oder ausschlagen wollen."
+        "de": "Schlagen Sie aus und gibt es keine letztwillige Verfügung, geht Ihr Anteil so weiter, wie wenn Sie den Erbfall nicht erlebt hätten – meist erben dann Ihre eigenen Kinder an Ihrer Stelle; haben Sie keine, geht Ihr Anteil an die übrigen gesetzlichen Erbinnen und Erben. Gibt es ein Testament oder einen Erbvertrag und schlägt eine darin eingesetzte Person aus, geht ihr Anteil an die nächsten gesetzlichen Erbinnen und Erben der verstorbenen Person, sofern aus dem Testament kein anderer Wille hervorgeht. Diese Personen erben dann selbst und müssen unter Umständen ebenfalls innert eigener Frist entscheiden, ob sie annehmen oder ausschlagen wollen.",
+        "fr": "Si vous répudiez et qu’il n’y a pas de disposition pour cause de mort, votre part est dévolue comme si vous n’aviez pas survécu au décès – ce sont généralement vos propres enfants qui héritent alors à votre place ; si vous n’en avez pas, votre part revient aux autres héritières et héritiers légaux. S’il existe un testament ou un pacte successoral et qu’une personne y instituée répudie, sa part revient aux héritières et héritiers légaux les plus proches de la personne décédée, à moins que le testament n’exprime une autre volonté. Ces personnes héritent alors elles-mêmes et doivent, le cas échéant, décider elles aussi, dans leur propre délai, si elles acceptent ou répudient.",
+        "it": "Se lei rinuncia e non esiste una disposizione a causa di morte, la sua quota passa come se lei non avesse vissuto l'apertura della successione: di regola ereditano allora i suoi stessi figli al suo posto; se non ne ha, la sua quota va agli altri eredi legittimi. Se esiste un testamento o un contratto successorio e una persona ivi istituita erede rinuncia, la sua quota passa ai prossimi eredi legittimi della persona defunta, salvo che dal testamento risulti una volontà diversa. Queste persone ereditano allora esse stesse e devono eventualmente decidere a loro volta, entro un proprio termine, se accettare o rinunciare.",
+        "en": "If you disclaim the inheritance and there is no disposition on death, your share passes on as if you had not survived the death - generally your own children then inherit in your place; if you have none, your share goes to the other statutory heirs. If there is a will or contract of succession and a person named in it disclaims, their share goes to the deceased's nearest statutory heirs, unless the will shows a different intention. These people then inherit themselves and may, in turn, have to decide within their own time limit whether they want to accept or disclaim.",
+        "rm": "Refusais Vus e n'exista nagina disposiziun testamentara, va Vossa quota vinavant, sco sche Vus n'avessas betg vivì il cas d'ierta - il pli savens ertan lura Vossas atgnas uffants a Vossa plazza; n'avais Vus naginas, va Vossa quota a las autras ertavlas ed als auters ertavels legals. Datti in testament u in contract d'ierta e refusa ina persuna inserida en quel, va sia quota a las proximas ertavlas ed als proxims ertavels legals da la persuna defunta, uschenavant che nagin auter avert na resulta dal testament. Questas persunas ertan lura sezzas e ston eventualmain decider er, entaifer lur atgen termin, sch'ellas vulan acceptar u refusar."
       },
       "sources": [
         "zgb-572"
@@ -266,7 +438,11 @@
       "id": "minors-must-refuse-too",
       "kind": "warning",
       "text": {
-        "de": "Minderjährige Kinder können eine Erbschaft nicht selbst ausschlagen; das tun für sie ihre gesetzlichen Vertreter, in der Regel die Eltern. Haben die Eltern dabei eigene Interessen, die denen des Kindes widersprechen, entfällt ihre Vertretungsbefugnis in dieser Sache von Gesetzes wegen, auch wenn noch keine Beiständin oder kein Beistand ernannt ist. Dann muss die Kindes- und Erwachsenenschutzbehörde (KESB) einbezogen werden. Ist die Erbschaft überschuldet, schützt die Ausschlagung in der Regel auch die Kinder. Ist sie es nicht, entgeht den Kindern durch die Ausschlagung Vermögen. Dann kann das Gericht annehmen, dass die Eltern nicht allein für sie ausschlagen können, auch wenn ein Elternteil selbst schon ausgeschlagen hat. Werden durch Ihre Ausschlagung minderjährige Kinder zu Erbinnen oder Erben, klären Sie deshalb früh mit der zuständigen Behörde oder der KESB ab, ob Sie für die Kinder ausschlagen können. Die Frist läuft weiter."
+        "de": "Minderjährige Kinder können eine Erbschaft nicht selbst ausschlagen; das tun für sie ihre gesetzlichen Vertreter, in der Regel die Eltern. Haben die Eltern dabei eigene Interessen, die denen des Kindes widersprechen, entfällt ihre Vertretungsbefugnis in dieser Sache von Gesetzes wegen, auch wenn noch keine Beiständin oder kein Beistand ernannt ist. Dann muss die Kindes- und Erwachsenenschutzbehörde (KESB) einbezogen werden. Ist die Erbschaft überschuldet, schützt die Ausschlagung in der Regel auch die Kinder. Ist sie es nicht, entgeht den Kindern durch die Ausschlagung Vermögen. Dann kann das Gericht annehmen, dass die Eltern nicht allein für sie ausschlagen können, auch wenn ein Elternteil selbst schon ausgeschlagen hat. Werden durch Ihre Ausschlagung minderjährige Kinder zu Erbinnen oder Erben, klären Sie deshalb früh mit der zuständigen Behörde oder der KESB ab, ob Sie für die Kinder ausschlagen können. Die Frist läuft weiter.",
+        "fr": "Les enfants mineurs ne peuvent pas répudier eux-mêmes une succession ; leurs représentants légaux, en règle générale les parents, le font pour eux. Si les parents ont, dans ce cadre, des intérêts propres contraires à ceux de l’enfant, leur pouvoir de représentation dans cette affaire s’éteint de par la loi, même si aucune curatrice ou aucun curateur n’a encore été nommé. L’autorité de protection de l’enfant et de l’adulte (APEA) doit alors être impliquée. Si la succession est surendettée, la répudiation protège en règle générale aussi les enfants. Si elle ne l’est pas, la répudiation prive les enfants de patrimoine. Le tribunal peut alors considérer que les parents ne peuvent pas répudier seuls pour eux, même si l’un des parents a déjà lui-même répudié. Si votre répudiation fait des enfants mineurs des héritières ou héritiers, clarifiez donc rapidement avec l’autorité compétente ou l’APEA si vous pouvez répudier pour les enfants. Le délai continue à courir.",
+        "it": "I figli minorenni non possono rinunciare da soli a un'eredità; lo fanno per loro i rappresentanti legali, di regola i genitori. Se in questo i genitori hanno interessi propri in contrasto con quelli del figlio, il loro potere di rappresentanza in questa faccenda decade per legge, anche se non è ancora stato nominato un curatore. In tal caso occorre coinvolgere l'Autorità di protezione dei minori e degli adulti (APMA). Se l'eredità è oberata da debiti, la rinuncia protegge di regola anche i figli. Se non lo è, la rinuncia fa perdere ai figli del patrimonio. In tal caso il tribunale può ritenere che i genitori non possano rinunciare da soli per loro, anche se un genitore ha già rinunciato personalmente. Se, con la sua rinuncia, dei figli minorenni diventano eredi, chiarisca quindi per tempo con l'autorità competente o con l'APMA se lei possa rinunciare per i figli. Il termine continua a decorrere.",
+        "en": "Minor children cannot disclaim an inheritance themselves; their legal representatives do this for them, generally the parents. If the parents have their own interests here that conflict with the child's, their authority to represent the child in this matter ceases by operation of law, even if no deputy has yet been appointed. The child and adult protection authority (KESB) must then be involved. If the estate is over-indebted, the disclaimer generally also protects the children. If it is not, the children lose assets through the disclaimer. The court can then assume that the parents cannot disclaim for the children alone, even if a parent has already disclaimed for themselves. If minor children become heirs as a result of your disclaimer, therefore, clarify early with the competent authority or the KESB whether you can disclaim on the children's behalf. The time limit keeps running.",
+        "rm": "Uffants minorens na pon betg refusar in'ierta sezzas; quai fan per ellas lur represchentantas u represchentants legals, per regla ils geniturs. Han ils geniturs qua atgens interess che cuntradistan a quels da l'uffant, croda lur cumpetenza da represchentanza en questa chaussa davent da lescha, era sche anc nagina curatura u nagin curatur n'è nominà. Lura sto l'autoritad per la protecziun da creschids (KESB) vegnir tratga en quint. Èsi l'ierta surdebitgada, protegia la refusa per regla er las uffants. N'è ella betg surdebitgada, perda l'uffant tras la refusa facultad. Lura po la dretgira supponer che ils geniturs na possian betg refusar suls per ellas, era sch'in genitur ha gia refusà sez. Daventan tras Vossa refusa uffants minorens ertavlas u ertavels, clarifitgai percunquai baud cun l'autoritad cumpetenta u cun la KESB, sch'Vus pudais refusar per las uffants. Il termin curra vinavant."
       },
       "sources": [
         "zgb-306",
@@ -284,7 +460,11 @@
       "id": "all-refuse-bankruptcy-liquidation",
       "kind": "rule",
       "text": {
-        "de": "Schlagen alle nächsten gesetzlichen Erbinnen und Erben die Erbschaft aus, übernimmt das Konkursamt die Liquidation: Es begleicht die Schulden aus dem Nachlassvermögen. Bleibt danach etwas übrig, erhalten es die Personen, die eigentlich erben würden – so, wie wenn niemand ausgeschlagen hätte."
+        "de": "Schlagen alle nächsten gesetzlichen Erbinnen und Erben die Erbschaft aus, übernimmt das Konkursamt die Liquidation: Es begleicht die Schulden aus dem Nachlassvermögen. Bleibt danach etwas übrig, erhalten es die Personen, die eigentlich erben würden – so, wie wenn niemand ausgeschlagen hätte.",
+        "fr": "Si toutes les héritières et tous les héritiers légaux les plus proches répudient la succession, l’office des faillites se charge de la liquidation : il règle les dettes au moyen du patrimoine successoral. S’il reste quelque chose ensuite, cela revient aux personnes qui hériteraient normalement – comme si personne n’avait répudié.",
+        "it": "Se tutti i prossimi eredi legittimi rinunciano all'eredità, la liquidazione è assunta dall'ufficio dei fallimenti: esso salda i debiti con il patrimonio successorio. Se in seguito resta qualcosa, lo ricevono le persone che erediterebbero altrimenti, come se nessuno avesse rinunciato.",
+        "en": "If all the deceased's nearest statutory heirs disclaim the inheritance, the bankruptcy office takes over the liquidation: it settles the debts out of the estate's assets. If anything is left afterwards, it goes to the people who would actually have inherited - as if no one had disclaimed.",
+        "rm": "Refusan tut las proximas ertavlas ed ils proxims ertavels legals l'ierta, surpiglia l'uffizi da concurs la liquidaziun: el paja ils debits cun la facultad da l'ierta. Resta suenter insatge, survegnan quai las persunas che ertassan propi - sco sche nagin n'avess refusà."
       },
       "sources": [
         "zgb-573"
@@ -294,7 +474,11 @@
       "id": "creditor-challenge",
       "kind": "rule",
       "text": {
-        "de": "Schlägt eine überschuldete Person die Erbschaft nur aus, um sie vor ihren eigenen Gläubigern in Sicherheit zu bringen, können diese Gläubiger oder die Konkursverwaltung die Ausschlagung innert 6 Monaten anfechten, wenn ihre Forderungen sonst nicht sichergestellt sind."
+        "de": "Schlägt eine überschuldete Person die Erbschaft nur aus, um sie vor ihren eigenen Gläubigern in Sicherheit zu bringen, können diese Gläubiger oder die Konkursverwaltung die Ausschlagung innert 6 Monaten anfechten, wenn ihre Forderungen sonst nicht sichergestellt sind.",
+        "fr": "Si une personne surendettée répudie la succession dans le seul but de la mettre à l’abri de ses propres créanciers, ces créanciers ou l’administration de la faillite peuvent contester la répudiation dans les 6 mois, si leurs créances ne sont pas garanties autrement.",
+        "it": "Se una persona oberata da debiti rinuncia all'eredità solo per sottrarla ai propri creditori, questi creditori o l'amministrazione del fallimento possono contestare la rinuncia entro 6 mesi, se i loro crediti non sono altrimenti garantiti.",
+        "en": "If an over-indebted person disclaims the inheritance only to keep it safe from their own creditors, those creditors or the bankruptcy administration can challenge the disclaimer within 6 months, if their claims are not otherwise secured.",
+        "rm": "Refusa ina persuna surdebitgada l'ierta mo per la metter en segirezza dad ses atgnas cretituras e crediturs, pon quels crediturs u l'administraziun da concurs contestar la refusa entaifer 6 mais, sche lur pretensiuns n'èn autramain betg garantidas."
       },
       "sources": [
         "zgb-578"
@@ -304,7 +488,11 @@
       "id": "insurance-and-pensions-outside-estate",
       "kind": "rule",
       "text": {
-        "de": "Eine Lebensversicherung mit einer begünstigten Person fällt dieser Person direkt zu – auch wenn sie die Erbschaft ausschlägt –, sofern begünstigt der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner, erbberechtigte Nachkommen, Eltern, Grosseltern oder Geschwister sind. Ebenso sind die Witwen- oder Witwerrente der AHV und die Hinterlassenenleistungen der Pensionskasse ein eigener gesetzlicher Anspruch der hinterbliebenen Person: Die Voraussetzungen dafür (z. B. eigene Kinder oder Ehedauer) betreffen nur sie selbst und nicht die Erbschaft. Eine Ausschlagung ändert daran nichts."
+        "de": "Eine Lebensversicherung mit einer begünstigten Person fällt dieser Person direkt zu – auch wenn sie die Erbschaft ausschlägt –, sofern begünstigt der Ehegatte, die eingetragene Partnerin oder der eingetragene Partner, erbberechtigte Nachkommen, Eltern, Grosseltern oder Geschwister sind. Ebenso sind die Witwen- oder Witwerrente der AHV und die Hinterlassenenleistungen der Pensionskasse ein eigener gesetzlicher Anspruch der hinterbliebenen Person: Die Voraussetzungen dafür (z. B. eigene Kinder oder Ehedauer) betreffen nur sie selbst und nicht die Erbschaft. Eine Ausschlagung ändert daran nichts.",
+        "fr": "Une assurance-vie désignant une personne bénéficiaire revient directement à cette personne – même si elle répudie la succession – lorsque le bénéficiaire est le conjoint, la partenaire enregistrée ou le partenaire enregistré, des descendants ayant droit à la succession, les parents, les grands-parents ou les frères et sœurs. De même, la rente de veuve ou de veuf de l’AVS et les prestations pour survivants de la caisse de pension constituent un droit légal propre de la personne survivante : leurs conditions (p. ex. avoir des enfants ou la durée du mariage) ne concernent qu’elle-même et non la succession. Une répudiation n’y change rien.",
+        "it": "Un'assicurazione sulla vita con una persona beneficiaria spetta direttamente a questa persona, anche se rinuncia all'eredità, sempre che siano beneficiari il coniuge, il partner registrato, i discendenti con diritto ereditario, i genitori, i nonni o i fratelli e le sorelle. Allo stesso modo, la rendita vedovile dell'AVS e le prestazioni per superstiti della cassa pensioni sono una pretesa legale propria della persona superstite: i relativi presupposti (per esempio avere figli propri o la durata del matrimonio) riguardano solo lei stessa e non l'eredità. Una rinuncia non cambia nulla in proposito.",
+        "en": "A life insurance policy with a named beneficiary passes directly to that person - even if they disclaim the inheritance - provided the beneficiary is the spouse, the registered partner, descendants entitled to inherit, parents, grandparents or siblings. Likewise, the OASI widow's or widower's pension and the pension fund's survivors' benefits are the surviving person's own statutory claim: the requirements for this (for example, having their own children, or the length of the marriage) concern only them, and not the estate. A disclaimer changes nothing about this.",
+        "rm": "In'assicuranza da vita cun ina persuna favurisada tutga directamain a questa persuna - er sch'ella refusa l'ierta -, uschenavant che favurisads èn il consort, la partenaria registrada, il partenari registrà, descendents cun dretg d'ierta, geniturs, tats/tattas u fragliuns. Er la renta da vaira u da vaider da l'AVS e las prestaziuns per survivents da la cassa da pensiun èn in agen dretg legal da la persuna surviventa: ils pretschs per quai (p.ex. atgnas uffants u durada da la lètg) pertutgan mo ella e betg l'ierta. Ina refusa na muda nagut a quai."
       },
       "sources": [
         "vvg-85",
@@ -316,7 +504,11 @@
       "id": "debt-enforcement-standstill",
       "kind": "rule",
       "text": {
-        "de": "Für Schulden der verstorbenen Person ruht die Betreibung: während der zwei Wochen nach dem Tod und während der ganzen Überlegungsfrist für Annahme oder Ausschlagung der Erbschaft. Gläubiger können in dieser Zeit also nicht weiter gegen den Nachlass vorgehen. Eine Betreibung, die schon zu Lebzeiten eingeleitet wurde, kann danach gegen die Erbschaft fortgesetzt werden, gegen die Erbinnen und Erben selbst nur in besonderen Fällen, etwa bei einer Betreibung auf Pfandverwertung."
+        "de": "Für Schulden der verstorbenen Person ruht die Betreibung: während der zwei Wochen nach dem Tod und während der ganzen Überlegungsfrist für Annahme oder Ausschlagung der Erbschaft. Gläubiger können in dieser Zeit also nicht weiter gegen den Nachlass vorgehen. Eine Betreibung, die schon zu Lebzeiten eingeleitet wurde, kann danach gegen die Erbschaft fortgesetzt werden, gegen die Erbinnen und Erben selbst nur in besonderen Fällen, etwa bei einer Betreibung auf Pfandverwertung.",
+        "fr": "Pour les dettes de la personne décédée, la poursuite est suspendue : pendant les deux semaines qui suivent le décès et pendant tout le délai de réflexion pour l’acceptation ou la répudiation de la succession. Les créanciers ne peuvent donc pas poursuivre leurs démarches contre la succession pendant cette période. Une poursuite déjà introduite du vivant de la personne décédée peut ensuite être continuée contre la succession, mais contre les héritières et héritiers eux-mêmes seulement dans des cas particuliers, par exemple une poursuite en réalisation de gage.",
+        "it": "Per i debiti della persona defunta l'esecuzione è sospesa: durante le due settimane successive al decesso e durante l'intero termine di riflessione per l'accettazione o la rinuncia all'eredità. I creditori non possono quindi procedere ulteriormente contro la successione durante questo periodo. Un'esecuzione già avviata in vita può in seguito essere proseguita contro la successione; contro gli eredi stessi solo in casi particolari, per esempio in un'esecuzione in via di realizzazione del pegno.",
+        "en": "For debts of the deceased, debt enforcement is suspended: during the two weeks after the death and during the whole of the period allowed for reflection on accepting or disclaiming the inheritance. Creditors therefore cannot proceed further against the estate during this time. Debt enforcement proceedings already brought during the deceased's lifetime can afterwards be continued against the estate, and against the heirs themselves only in special cases, for example debt enforcement for realisation of a pledge.",
+        "rm": "Per debits da la persuna defunta repausa la scussiun: durant las duas emnas suenter la mort e durant tut il termin da reflexiun per l'acceptaziun u la refusa da l'ierta. Cretituras e crediturs na pon percunquai betg vinavant proceder cunter il relasch durant quest temp. Ina scussiun gia iniziada durant vita po vegnir cuntinuada suenter cunter l'ierta, cunter las ertavlas ed ils ertavels sezs mo en cas spezials, per exempel tar ina scussiun sin realisaziun da pegn."
       },
       "sources": [
         "schkg-59"
@@ -333,7 +525,11 @@
         ]
       },
       "text": {
-        "de": "Wenn die 3-Monats-Frist knapp wird oder schon abgelaufen sein könnte, warten Sie nicht: Wenden Sie sich sofort an die zuständige Behörde an Ihrem Wohnort oder an eine Rechtsberatung, um zu klären, ob die Frist noch läuft, ob ein amtliches Inventar sie neu auslöst oder ob eine Fristverlängerung aus wichtigen Gründen möglich ist."
+        "de": "Wenn die 3-Monats-Frist knapp wird oder schon abgelaufen sein könnte, warten Sie nicht: Wenden Sie sich sofort an die zuständige Behörde an Ihrem Wohnort oder an eine Rechtsberatung, um zu klären, ob die Frist noch läuft, ob ein amtliches Inventar sie neu auslöst oder ob eine Fristverlängerung aus wichtigen Gründen möglich ist.",
+        "fr": "Si le délai de 3 mois arrive bientôt à échéance ou pourrait déjà être écoulé, n’attendez pas : adressez-vous immédiatement à l’autorité compétente de votre domicile ou à une consultation juridique pour clarifier si le délai court encore, si un inventaire officiel le fait recommencer à courir, ou si une prolongation de délai est possible pour des motifs importants.",
+        "it": "Se il termine di 3 mesi sta per scadere o potrebbe già essere scaduto, non aspetti: si rivolga subito all'autorità competente del suo luogo di domicilio o a una consulenza legale, per chiarire se il termine è ancora in corso, se un inventario lo fa decorrere di nuovo, oppure se è possibile una proroga per motivi gravi.",
+        "en": "If the 3-month time limit is running short, or may already have expired, do not wait: contact the competent authority where you live or a legal advice service immediately, to clarify whether the time limit is still running, whether a precautionary inventory triggers it afresh, or whether an extension is possible for good cause.",
+        "rm": "Sche il termin da 3 mais daventa stret u pudess gia esser scadì, spetgai betg: As drizzai immediat a l'autoritad cumpetenta a Voss lieu da domicil u ad ina consulaziun giuridica, per clarifitgar, sche il termin curra anc, sch'in inventari uffizial el fa currer da nov, u sch'ina prolungaziun dal termin è pussibla per motivs impurtants."
       }
     },
     {
@@ -346,7 +542,11 @@
         ]
       },
       "text": {
-        "de": "Haben Sie bereits etwas aus dem Nachlass genommen, verkauft, bezahlt oder sonst gehandelt, oder sind Sie sich nicht sicher, ob das als Einmischung gilt? Holen Sie sich jetzt Rat, bevor Sie weiterhandeln oder eine Ausschlagung erklären – ist das Ausschlagungsrecht einmal durch Einmischung verwirkt, lässt sich das nicht mehr rückgängig machen."
+        "de": "Haben Sie bereits etwas aus dem Nachlass genommen, verkauft, bezahlt oder sonst gehandelt, oder sind Sie sich nicht sicher, ob das als Einmischung gilt? Holen Sie sich jetzt Rat, bevor Sie weiterhandeln oder eine Ausschlagung erklären – ist das Ausschlagungsrecht einmal durch Einmischung verwirkt, lässt sich das nicht mehr rückgängig machen.",
+        "fr": "Avez-vous déjà pris, vendu ou payé quelque chose de la succession, ou agi d’une autre manière, ou n’êtes-vous pas sûr que cela soit considéré comme une immixtion ? Faites-vous conseiller maintenant avant d’agir davantage ou de déclarer une répudiation – une fois le droit de répudier perdu par immixtion, cela ne peut plus être annulé.",
+        "it": "Ha già preso, venduto, pagato qualcosa dalla successione o agito in altro modo, oppure non è sicuro se ciò valga come ingerenza? Si faccia consigliare ora, prima di continuare ad agire o di dichiarare la rinuncia: se il diritto di rinuncia è già decaduto per ingerenza, non è più possibile tornare indietro.",
+        "en": "Have you already taken, sold or paid for something from the estate, or otherwise acted, or are you unsure whether this counts as interference? Get advice now, before you act further or declare a disclaimer - once the right to disclaim has been forfeited through interference, this cannot be undone.",
+        "rm": "Avais Vus gia prendì, vendì, pajà u agì autramain cun insatge dal relasch, u n'essas Vus betg segirs, sch'quai vala sco maschadaditga? Procurai Vus ussa cussegl, avant che Vus agis vinavant u declerais ina refusa - è il dretg da refusar ina giada perdì tras maschadaditga, na sa lascha quai betg pli midar."
       }
     },
     {
@@ -359,14 +559,22 @@
         ]
       },
       "text": {
-        "de": "Gehört ein Geschäft, eine Firma oder eine Liegenschaft zum Nachlass? Solche Vermögenswerte sind oft schwierig zu verwalten, ohne sich schon einzumischen, und die Entscheidung hat weitreichende Folgen. Lassen Sie sich in diesem Fall persönlich beraten."
+        "de": "Gehört ein Geschäft, eine Firma oder eine Liegenschaft zum Nachlass? Solche Vermögenswerte sind oft schwierig zu verwalten, ohne sich schon einzumischen, und die Entscheidung hat weitreichende Folgen. Lassen Sie sich in diesem Fall persönlich beraten.",
+        "fr": "Une entreprise ou un bien immobilier fait-il partie de la succession ? De telles valeurs patrimoniales sont souvent difficiles à administrer sans déjà s’immiscer dans la succession, et la décision a des conséquences importantes. Faites-vous conseiller personnellement dans ce cas.",
+        "it": "Fanno parte della successione un'azienda, una ditta o un fondo? Simili valori patrimoniali sono spesso difficili da amministrare senza già ingerirsi, e la decisione ha conseguenze di ampia portata. Si faccia consigliare personalmente in questo caso.",
+        "en": "Does a business, a company or real estate belong to the estate? Such assets are often difficult to manage without already interfering, and the decision has far-reaching consequences. Get personal advice in this case.",
+        "rm": "Tutga in commerzi, ina firma u in bain immobigliar a l'ierta? Talas valurs da facultad èn savens difficilas d'administrar, senza As gia maschadar, e la decisiun ha consequenzas vastas. Laschai Vus cussegliar persunalmain en quest cas."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Beratung kostet nicht immer etwas: Viele Gemeinden und Kantone bieten kostenlose oder günstige Rechtsauskünfte an, ebenso die Notariate mit öffentlichen Beratungstagen. Für ältere Menschen berät Pro Senectute kostenlos, unter anderem zu Erbschaftsfragen. Geht es um minderjährige Kinder oder um Erwachsene unter Beistandschaft, ist die Kindes- und Erwachsenenschutzbehörde (KESB) Ihres Wohnortes die richtige Anlaufstelle."
+        "de": "Beratung kostet nicht immer etwas: Viele Gemeinden und Kantone bieten kostenlose oder günstige Rechtsauskünfte an, ebenso die Notariate mit öffentlichen Beratungstagen. Für ältere Menschen berät Pro Senectute kostenlos, unter anderem zu Erbschaftsfragen. Geht es um minderjährige Kinder oder um Erwachsene unter Beistandschaft, ist die Kindes- und Erwachsenenschutzbehörde (KESB) Ihres Wohnortes die richtige Anlaufstelle.",
+        "fr": "Le conseil n’est pas toujours payant : de nombreuses communes et cantons offrent des renseignements juridiques gratuits ou à faible coût, tout comme les notariats avec des journées de consultation publiques. Pro Senectute conseille gratuitement les personnes âgées, notamment sur les questions successorales. S’il s’agit d’enfants mineurs ou d’adultes sous curatelle, l’autorité de protection de l’enfant et de l’adulte (APEA) de votre domicile est l’interlocuteur compétent.",
+        "it": "Un consulto non costa sempre qualcosa: molti Comuni e Cantoni offrono informazioni giuridiche gratuite o a basso costo, così come i notariati con giornate di consulenza pubblica. Per le persone anziane, Pro Senectute consiglia gratuitamente, tra l'altro su questioni successorie. Se si tratta di figli minorenni o di adulti sotto curatela, l'Autorità di protezione dei minori e degli adulti (APMA) del suo luogo di domicilio è l'interlocutore giusto.",
+        "en": "Advice does not always cost something: many municipalities and cantons offer free or low-cost legal information, as do notaries' offices with public advice days. Pro Senectute advises older people free of charge, including on inheritance questions. Where minor children or adults under a deputyship are concerned, the child and adult protection authority (KESB) where you live is the right point of contact.",
+        "rm": "Consulaziun na costa betg adina insatge: blers vischnancas e chantuns offran consulaziuns giuridicas gratuitas u avantagiusas, uschè er ils notariats cun dis da consulaziun public. Per persunas pli veglias cussegia Pro Senectute gratuitamain, danter auter er davart dumondas d'ierta. Sa tracta da uffants minorens u d'adults sut curatella, è l'autoritad per la protecziun da creschids (KESB) da Voss lieu da domicil il post cumpetent."
       }
     }
   ],
@@ -522,19 +730,31 @@
   "official_links": [
     {
       "label": {
-        "de": "Zuständigkeit und Ablauf der Ausschlagung – Gerichte Kanton Zürich (Beispiel)"
+        "de": "Zuständigkeit und Ablauf der Ausschlagung – Gerichte Kanton Zürich (Beispiel)",
+        "fr": "Compétence et déroulement de la répudiation – Tribunaux du canton de Zurich (exemple)",
+        "it": "Competenza e procedura della rinuncia – Tribunali del Cantone di Zurigo (esempio)",
+        "en": "Jurisdiction and procedure for disclaiming an inheritance - Courts of the Canton of Zurich (example)",
+        "rm": "Cumpetenza e proceder da la refusa - dretgiras chantun Turitg (exempel)"
       },
       "url": "https://www.gerichte-zh.ch/de/themen/erbschaft/erbgangssicherung/ausschlagung"
     },
     {
       "label": {
-        "de": "Erbschaftsausschlagung – Amtsnotariate Kanton St. Gallen (Beispiel)"
+        "de": "Erbschaftsausschlagung – Amtsnotariate Kanton St. Gallen (Beispiel)",
+        "fr": "Répudiation de succession – Notariats officiels du canton de Saint-Gall (exemple)",
+        "it": "Rinuncia all'eredità – Notariati ufficiali del Cantone di San Gallo (esempio)",
+        "en": "Disclaiming an inheritance - Official Notaries' Offices of the Canton of St. Gallen (example)",
+        "rm": "Refusa d'ierta - notariats uffizials chantun Son Gagl (exempel)"
       },
       "url": "https://www.sg.ch/recht/handelsregister-notariate/amtsnotariate/erben/erbschaftsausschlagung.html"
     },
     {
       "label": {
-        "de": "Pro Senectute – kostenlose Beratung"
+        "de": "Pro Senectute – kostenlose Beratung",
+        "fr": "Pro Senectute – consultation gratuite",
+        "it": "Pro Senectute – consulenza gratuita",
+        "en": "Pro Senectute - free advice",
+        "rm": "Pro Senectute - consulaziun gratuita"
       },
       "url": "https://www.prosenectute.ch/de/dienstleistungen/beratung.html"
     }
