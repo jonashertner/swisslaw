@@ -1,0 +1,749 @@
+{
+  "schema": 1,
+  "id": "courts.lawyer",
+  "domain": "courts",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Wie finde ich eine Anwältin oder einen Anwalt, und was kostet das?"
+  },
+  "summary": {
+    "de": "Vor einem Zivilgericht dürfen Sie sich selbst vertreten. Wer Sie berufsmässig vertritt, muss in der Regel in einem kantonalen Anwaltsregister stehen. Anwältinnen und Anwälte müssen unabhängig sein, Interessenkonflikte vermeiden, das Berufsgeheimnis wahren und Sie über ihre Abrechnung informieren. Ein Honorar nur bei Erfolg ist verboten. Sie können das Mandat jederzeit beenden und Ihre Unterlagen herausverlangen. Gewinnen Sie einen Prozess, deckt die Parteientschädigung nicht immer alle Ihre Anwaltskosten. Eine Rechtsschutzversicherung muss Ihnen für Gerichtsverfahren die freie Wahl lassen. Wer kein Geld hat, kann unentgeltliche Rechtspflege beantragen."
+  },
+  "examples": {
+    "de": [
+      "Wie finde ich einen guten Anwalt für mein Problem?",
+      "Was kostet en Aawalt pro Stund, und muss ich das im Voraus zahlen?",
+      "Ich bin mit meiner Anwältin nicht zufrieden. Kann ich einfach wechseln?",
+      "Mein Anwalt schickt Rechnungen, die ich nicht verstehe. Was kann ich tun?",
+      "Zahlt mir die Gegenpartei meinen Anwalt, wenn ich gewinne?",
+      "Darf meine Rechtsschutzversicherung mir vorschreiben, welchen Anwalt ich nehme?",
+      "Kann ich meinen Anwalt nur bezahlen, wenn wir gewinnen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Wer vor Gericht vertreten darf, das kantonale Anwaltsregister, die Berufsregeln und das Berufsgeheimnis, das Honorar und die Abrechnung, Erfolgshonorare, das Mandat und seine Beendigung, die Herausgabe von Unterlagen, die Aufsicht über Anwältinnen und Anwälte, die Parteientschädigung im Zivilprozess, die Rechtsschutzversicherung und Anlaufstellen für eine erste Auskunft."
+    },
+    "excludes": {
+      "de": "Die unentgeltliche Rechtspflege im Einzelnen (dafür gibt es einen eigenen Leitfaden), die amtliche Verteidigung im Strafverfahren im Einzelnen, kantonale Anwaltstarife und Honorarbeträge sowie Einzelheiten zur Haftung von Anwältinnen und Anwälten für Fehler."
+    }
+  },
+  "facts": [
+    {
+      "key": "stage",
+      "question": {
+        "de": "Wo stehen Sie gerade?"
+      },
+      "options": [
+        {
+          "value": "looking",
+          "label": {
+            "de": "Ich suche eine Anwältin oder einen Anwalt"
+          }
+        },
+        {
+          "value": "have-lawyer",
+          "label": {
+            "de": "Ich habe bereits eine Anwältin oder einen Anwalt"
+          }
+        },
+        {
+          "value": "problem",
+          "label": {
+            "de": "Ich habe ein Problem mit meiner Anwältin oder meinem Anwalt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "insurance",
+      "question": {
+        "de": "Haben Sie eine Rechtsschutzversicherung?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "money_tight",
+      "question": {
+        "de": "Fehlt Ihnen das Geld für eine Anwältin oder einen Anwalt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, das kann ich kaum oder gar nicht bezahlen"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "money-tight",
+      "kind": "escalate",
+      "when": {
+        "money_tight": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Falls Ihnen das Geld für eine Anwältin oder einen Anwalt fehlt: Deshalb müssen Sie nicht auf Ihr Recht verzichten. Wer die nötigen Mittel nicht hat und dessen Begehren nicht aussichtslos erscheint, hat Anspruch auf unentgeltliche Rechtspflege. Ist es zur Wahrung der Rechte nötig, gehört ein unentgeltlicher Rechtsbeistand dazu. Das ist eine Anwältin oder ein Anwalt, die oder den der Staat bezahlt. Anwältinnen und Anwälte im kantonalen Register müssen solche Mandate in ihrem Kanton übernehmen. Wie Sie das beantragen und was danach gilt, erklärt der Leitfaden zur unentgeltlichen Rechtspflege. Stellen Sie das Gesuch früh."
+      },
+      "sources": [
+        "bv-29",
+        "zpo-117",
+        "bgfa-12"
+      ]
+    },
+    {
+      "id": "need-lawyer",
+      "kind": "rule",
+      "text": {
+        "de": "Brauchen Sie überhaupt eine Anwältin oder einen Anwalt? In einem Zivilprozess nicht zwingend: Sie dürfen Ihre Sache selbst vertreten. Wer Sie aber berufsmässig vertritt, muss grundsätzlich eine Anwältin oder ein Anwalt nach dem Anwaltsgesetz sein. Nur in bestimmten Verfahren, etwa vor der Schlichtungsbehörde oder vor Miet- und Arbeitsgerichten, können je nach Kanton auch andere Fachleute vertreten. Zur Schlichtungsverhandlung müssen Sie in der Regel persönlich gehen. Eine Rechtsbeiständin oder eine Vertrauensperson darf Sie begleiten. Im Strafverfahren ist die Verteidigung einer beschuldigten Person grundsätzlich Anwältinnen und Anwälten vorbehalten. Vor Bundesgericht dürfen in Zivil- und Strafsachen nur Anwältinnen und Anwälte andere vertreten."
+      },
+      "sources": [
+        "zpo-68",
+        "zpo-204",
+        "stpo-127",
+        "bgg-40"
+      ]
+    },
+    {
+      "id": "register",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "looking",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Anwältinnen und Anwälte, die vor Gericht vertreten dürfen, stehen in einem kantonalen Anwaltsregister. Eingetragen sind sie im Kanton ihrer Geschäftsadresse. Das Register führt die kantonale Aufsichtsbehörde. Mit dem Eintrag dürfen sie in der ganzen Schweiz vor Gericht auftreten. Für den Eintrag braucht es das Anwaltspatent. Zudem darf zum Beispiel kein Verlustschein bestehen, und die Person muss den Beruf unabhängig ausüben können. Jede Person darf bei der Aufsichtsbehörde nachfragen, ob jemand im Register steht und ob ein Berufsausübungsverbot besteht."
+      },
+      "sources": [
+        "bgfa-4",
+        "bgfa-5",
+        "bgfa-6",
+        "bgfa-7",
+        "bgfa-8",
+        "bgfa-10"
+      ]
+    },
+    {
+      "id": "find",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "looking",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie bei der Suche vor: 1. Suchen Sie jemanden, der sich im betreffenden Rechtsgebiet auskennt, zum Beispiel im Miet-, Arbeits- oder Familienrecht. Die kantonalen Anwaltsverbände und der Schweizerische Anwaltsverband haben dafür eine Anwaltssuche. 2. Sagen Sie beim ersten Kontakt, gegen wen es geht. So kann die Kanzlei prüfen, ob sie die Gegenseite schon vertritt. 3. Fragen Sie vor dem ersten Gespräch, ob es etwas kostet und wie viel. 4. Bringen Sie alle Unterlagen mit, nach Datum geordnet: Verträge, Briefe, Entscheide, Couverts mit Zustelldatum. 5. Klären Sie früh, wie abgerechnet wird: Stundenansatz, geschätzter Aufwand, Vorschuss, Auslagen und Mehrwertsteuer. Lassen Sie sich das schriftlich geben. 6. Haben Sie eine Rechtsschutzversicherung, melden Sie den Fall zuerst dort."
+      },
+      "sources": [
+        "bgfa-12"
+      ]
+    },
+    {
+      "id": "professional-rules",
+      "kind": "rule",
+      "text": {
+        "de": "Anwältinnen und Anwälte im Register müssen Berufsregeln einhalten, die auch Sie schützen. Sie müssen sorgfältig und gewissenhaft arbeiten. Sie müssen unabhängig sein und in eigenem Namen und auf eigene Verantwortung handeln. Sie müssen Interessenkonflikte vermeiden. Wer Sie vertritt, darf deshalb in derselben oder einer damit zusammenhängenden Sache nicht auch Ihre Gegenseite vertreten, auch nicht nach dem Ende Ihres Mandats. Sie müssen eine Berufshaftpflichtversicherung haben. Geld und andere Werte, die man ihnen anvertraut, müssen sie getrennt von ihrem eigenen Vermögen aufbewahren."
+      },
+      "sources": [
+        "bgfa-12",
+        "bge-134-ii-108"
+      ]
+    },
+    {
+      "id": "fees",
+      "kind": "rule",
+      "text": {
+        "de": "Der Bund legt nicht fest, was eine Anwältin oder ein Anwalt kostet. Ein Honorar schulden Sie, wenn es vereinbart oder üblich ist. Bei einer berufsmässigen Anwältin oder einem berufsmässigen Anwalt ist es üblich. Dazu kommen die Auslagen, etwa für Porto, Kopien oder Reisen. Zu Beginn des Mandats muss man Sie über die Grundsätze der Abrechnung informieren. Danach müssen Sie regelmässig oder auf Verlangen erfahren, wie hoch das geschuldete Honorar ist. Sie können eine detaillierte Rechnung verlangen, die jede Leistung und den Zeitaufwand aufführt. Auch bei einer Pauschale muss der Aufwand erfasst werden. Fragen Sie nach, sobald Ihnen eine Rechnung unklar ist."
+      },
+      "sources": [
+        "or-394",
+        "or-402",
+        "bgfa-12",
+        "or-400",
+        "bger-2c-314-2020"
+      ]
+    },
+    {
+      "id": "success-fee",
+      "kind": "rule",
+      "text": {
+        "de": "Ein Honorar, das nur vom Ausgang abhängt, ist verboten. Vor dem Ende des Streits darf die Anwältin oder der Anwalt nicht vereinbaren, statt eines Honorars einen Teil des Prozessgewinns zu bekommen. Ebenso wenig darf sie oder er versprechen, bei einem verlorenen Prozess auf das Honorar zu verzichten. Erlaubt ist ein Zuschlag bei Erfolg, zusätzlich zu einem Honorar, das Sie auf jeden Fall bezahlen. Das Bundesgericht setzt dafür Grenzen: Das feste Honorar muss die Kosten der Kanzlei decken und einen angemessenen Gewinn erlauben. Der Zuschlag darf nicht höher sein als das feste Honorar. Und er darf nur ganz am Anfang des Mandats oder nach dem Ende des Streits vereinbart werden, nicht mittendrin."
+      },
+      "sources": [
+        "bgfa-12",
+        "bge-143-iii-600"
+      ]
+    },
+    {
+      "id": "secrecy",
+      "kind": "rule",
+      "text": {
+        "de": "Alles, was Sie Ihrer Anwältin oder Ihrem Anwalt für das Mandat anvertrauen, fällt unter das Berufsgeheimnis. Das Geheimnis gilt gegenüber allen und zeitlich unbegrenzt, also auch nach dem Ende des Mandats. Auch die Mitarbeitenden der Kanzlei sind daran gebunden. Sie können Ihre Anwältin oder Ihren Anwalt vom Geheimnis entbinden. Sie oder er muss danach aber nichts preisgeben. Sie können deshalb offen über alles sprechen, auch über Dinge, die für Sie ungünstig sind."
+      },
+      "sources": [
+        "bgfa-13"
+      ]
+    },
+    {
+      "id": "mandate",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "have-lawyer",
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zwischen Ihnen und Ihrer Anwältin oder Ihrem Anwalt gilt das Auftragsrecht. Sie oder er muss Ihre Weisungen grundsätzlich befolgen. Die Sache muss treu und sorgfältig und grundsätzlich persönlich besorgt werden. Für einen Vergleich, also eine Einigung mit der Gegenseite, braucht es Ihre besondere Ermächtigung. Werden diese Pflichten verletzt, haftet die Anwältin oder der Anwalt Ihnen gegenüber. Geschuldet ist sorgfältige Arbeit, nicht ein bestimmtes Ergebnis. Ein verlorener Prozess allein heisst also noch nicht, dass schlecht gearbeitet wurde."
+      },
+      "sources": [
+        "or-396",
+        "or-397",
+        "or-398"
+      ]
+    },
+    {
+      "id": "end-mandate",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "have-lawyer",
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie können das Mandat jederzeit beenden, ohne Frist und ohne Begründung. Dieses Recht kann man vertraglich weder ausschliessen noch einschränken, auch nicht mit einer festen Vertragsdauer. Auch die Anwältin oder der Anwalt kann das Mandat jederzeit niederlegen. Die bis dahin geleistete Arbeit und die Auslagen müssen Sie grundsätzlich bezahlen. Teilen Sie die Beendigung am besten schriftlich mit. Läuft ein Verfahren, sagen Sie auch dem Gericht oder der Behörde, wer Sie künftig vertritt oder dass Sie selbst handeln."
+      },
+      "sources": [
+        "or-404",
+        "bger-4a-436-2021",
+        "or-394",
+        "or-402"
+      ]
+    },
+    {
+      "id": "untimely",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "have-lawyer",
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Vorsicht bei einem Wechsel mitten im Verfahren. Wer das Mandat zur Unzeit beendet, also in einem ungünstigen Moment, muss der anderen Seite den Schaden ersetzen, der daraus entsteht. Das gilt für Sie genauso wie für die Anwältin oder den Anwalt. Klären Sie vor einem Wechsel, welche Fristen laufen und wer sie einhält. Eine verpasste Frist lässt sich oft nicht mehr nachholen."
+      },
+      "sources": [
+        "or-404"
+      ]
+    },
+    {
+      "id": "handover",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "have-lawyer",
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Anwältin oder der Anwalt muss Ihnen auf Verlangen jederzeit Rechenschaft über die Mandatsführung ablegen. Alles, was sie oder er für Sie erhalten hat, muss Ihnen herausgegeben werden, zum Beispiel Originaldokumente oder Geld aus einem Vergleich. Wer Ihnen zustehendes Geld zu spät abliefert, schuldet darauf Zins. Verlangen Sie bei einem Wechsel Ihre Unterlagen heraus, damit die neue Anwältin oder der neue Anwalt rasch weiterarbeiten kann."
+      },
+      "sources": [
+        "or-400"
+      ]
+    },
+    {
+      "id": "problem-steps",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie mit Ihrer Anwältin oder Ihrem Anwalt nicht zufrieden sind: 1. Sprechen Sie das Problem direkt an, am besten schriftlich. 2. Ist eine Rechnung unklar, verlangen Sie eine detaillierte Aufstellung der Leistungen und des Zeitaufwands. 3. Fordern Sie Ihre Unterlagen und Geld heraus, das Ihnen zusteht. 4. Fragen Sie beim kantonalen Anwaltsverband, ob er bei Streit über das Honorar vermittelt. 5. Halten Sie Berufsregeln für verletzt, wenden Sie sich an die kantonale Aufsichtsbehörde. 6. Geht es um viel Geld oder um Schadenersatz, lassen Sie sich von einer anderen Anwältin oder einem anderen Anwalt beraten."
+      },
+      "sources": [
+        "or-400",
+        "bger-2c-314-2020"
+      ]
+    },
+    {
+      "id": "complaint",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Jeder Kanton hat eine Aufsichtsbehörde über die Anwältinnen und Anwälte. Dort können Sie melden, wenn Sie meinen, dass jemand Berufsregeln verletzt hat. Die Behörde kann eine Verwarnung, einen Verweis, eine Busse bis 20 000 Franken oder ein befristetes oder dauerndes Berufsausübungsverbot anordnen. Das Aufsichtsverfahren dient dem öffentlichen Interesse, nicht Ihren privaten Interessen. Wer eine Meldung macht, ist darin grundsätzlich nicht Partei und kann den Entscheid nicht anfechten. Das kantonale Recht kann Ausnahmen vorsehen. Geld spricht Ihnen die Aufsichtsbehörde nicht zu. Einen Streit über das Honorar oder eine Forderung auf Schadenersatz müssen Sie auf dem Zivilweg klären."
+      },
+      "sources": [
+        "bgfa-14",
+        "bgfa-17",
+        "bger-2c-666-2023"
+      ]
+    },
+    {
+      "id": "complaint-timing",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "problem",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Warten Sie mit einer Meldung an die Aufsichtsbehörde nicht zu lange. Die disziplinarische Verfolgung verjährt in jedem Fall zehn Jahre nach dem Vorfall. Zudem verjährt sie ein Jahr, nachdem die Aufsichtsbehörde vom Vorfall erfahren hat. Jede Untersuchungshandlung der Behörde unterbricht diese Einjahresfrist."
+      },
+      "sources": [
+        "bgfa-19"
+      ]
+    },
+    {
+      "id": "party-costs",
+      "kind": "cost",
+      "text": {
+        "de": "Wer einen Zivilprozess verliert, trägt in der Regel die Gerichtskosten und muss der Gegenseite eine Parteientschädigung zahlen. Dazu gehören vor allem die Kosten ihrer Anwältin oder ihres Anwalts. Gewinnt niemand ganz, werden die Kosten nach dem Ausgang verteilt. In bestimmten Fällen, etwa in Familiensachen, kann das Gericht nach Ermessen verteilen. Die Parteientschädigung bestimmt das Gericht nach dem Tarif Ihres Kantons, nicht nach Ihrer Honorarvereinbarung. Sie können dem Gericht eine Kostennote einreichen. Die Entschädigung kann tiefer sein als das, was Sie Ihrer eigenen Anwältin oder Ihrem eigenen Anwalt schulden. Den Rest tragen Sie selbst, auch wenn Sie gewinnen. Die Gegenseite zahlt die Entschädigung an Sie. Zahlt die Gegenseite nicht, bleibt Ihr Honorar grundsätzlich geschuldet. Im Schlichtungsverfahren gibt es keine Parteientschädigung."
+      },
+      "sources": [
+        "zpo-95",
+        "zpo-96",
+        "zpo-105",
+        "zpo-106",
+        "zpo-107",
+        "zpo-111",
+        "zpo-113",
+        "or-394"
+      ]
+    },
+    {
+      "id": "insurance",
+      "kind": "rule",
+      "when": {
+        "insurance": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Falls Sie eine Rechtsschutzversicherung haben: Lesen Sie die Police und melden Sie den Fall früh, am besten bevor Sie selbst jemanden beauftragen. Muss für ein Gerichts- oder Verwaltungsverfahren eine Anwältin oder ein Anwalt beigezogen werden, dürfen Sie diese Person frei wählen. Dasselbe gilt bei einem Interessenkonflikt. Darauf muss die Versicherung Sie dann hinweisen. Der Vertrag kann vorsehen, dass die Versicherung Ihre Wahl ablehnen darf. Dann dürfen Sie drei andere Personen vorschlagen, und eine davon muss sie akzeptieren. Lehnt die Versicherung eine Leistung ab, weil Ihr Fall aussichtslos sei, muss sie das sofort schriftlich begründen. Sie muss Sie auch auf das Verfahren für Meinungsverschiedenheiten hinweisen, das der Vertrag vorsehen muss. Fehlt dieser Hinweis, gilt Ihr Anspruch auf Rechtsschutz in diesem Fall als anerkannt. Führen Sie den Prozess auf eigene Kosten und erreichen Sie mehr, als die Versicherung Ihnen vorgeschlagen hat, muss sie diese Kosten bis zur Versicherungssumme übernehmen. Übernimmt die Versicherung die Kosten, haben Sie insoweit keinen Anspruch auf unentgeltliche Rechtspflege."
+      },
+      "sources": [
+        "avo-167",
+        "avo-169",
+        "bger-8c-27-2016"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie früh anwaltlichen Rat, wenn Sie eine Klage, einen Strafbefehl, eine Vorladung oder einen Entscheid mit einer Rechtsmittelfrist erhalten haben. Das gilt auch, wenn viel Geld, Ihre Wohnung, Ihre Stelle oder Ihre Kinder betroffen sind, wenn die Gegenseite eine Anwältin oder einen Anwalt hat, oder wenn Ihnen eine Straftat vorgeworfen wird. Wegen laufender Fristen sollten Sie dann nicht warten."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose oder günstige Hilfe: Die kantonalen Anwaltsverbände betreiben Rechtsauskunftsstellen, bei denen Sie eine erste Auskunft erhalten. Eine Übersicht nach Kanton finden Sie beim Schweizerischen Anwaltsverband. Manche Kantone und Gemeinden bieten zudem eine unentgeltliche Rechtsauskunft an. Die Schlichtungsbehörden und viele Gerichte informieren über das Verfahren. Mieterinnen- und Mieterverbände, Gewerkschaften und Beratungsstellen helfen ihren Mitgliedern oder bestimmten Gruppen. Fragen Sie jeweils im Voraus, ob die Beratung etwas kostet."
+      }
+    }
+  ],
+  "sources": {
+    "bgfa-4": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "4",
+      "label": "BGFA · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_4",
+      "sha256": "33545e02d03f1221693a86acdb9b68b80bb8e0f43e1e176c40b00b86a2d713a8"
+    },
+    "bgfa-5": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "5",
+      "label": "BGFA · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_5",
+      "sha256": "2a890f29a9019206791e865c4d373bdfa5a04f50600780d55cb80ef05745e237"
+    },
+    "bgfa-6": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "6",
+      "label": "BGFA · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_6",
+      "sha256": "00e684153428cc24821607fb81ef45ab6d62a638f65a0620d649d8c3c0e5268b"
+    },
+    "bgfa-7": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "7",
+      "label": "BGFA · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_7",
+      "sha256": "a1f5e076432bd8d5117d5f02131200fc484f06c1ba8edb60374eed371ef910a9"
+    },
+    "bgfa-8": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "8",
+      "label": "BGFA · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_8",
+      "sha256": "7d046100d964a8bd398593fc76c507832073c2a850a0f604e14dfcde8f847a17"
+    },
+    "bgfa-10": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "10",
+      "label": "BGFA · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_10",
+      "sha256": "424f87e88a6755805e5d5827cca2553d7db2ea4ff2ad8bc541037bb8ad21ca58"
+    },
+    "bgfa-12": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "12",
+      "label": "BGFA · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_12",
+      "sha256": "550422daea592cc6e3fdab9bdc61afccfd46d39b6797b9d64000df8a1bfd7775"
+    },
+    "bgfa-13": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "13",
+      "label": "BGFA · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_13",
+      "sha256": "3671ff031ec85248dd1701e8670875164f5c638e05fd11877b8d1e322c12790b"
+    },
+    "bgfa-14": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "14",
+      "label": "BGFA · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_14",
+      "sha256": "8b9acab8531bd4f164b6df941260da3711749ff9386cc0277e55cf7da9e3e94f"
+    },
+    "bgfa-17": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "17",
+      "label": "BGFA · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_17",
+      "sha256": "a50eb8a4682ef94ba783f77f08ba093db9d87f643f6cb1b5572df46229e22ed2"
+    },
+    "bgfa-19": {
+      "type": "statute",
+      "sr": "935.61",
+      "article": "19",
+      "label": "BGFA · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/153/de#art_19",
+      "sha256": "5fff825a2bb3cfcf139a04458117153089dbfc2fbc23930cad0fe1a485ee30a8"
+    },
+    "or-394": {
+      "type": "statute",
+      "sr": "220",
+      "article": "394",
+      "label": "OR · Art. 394",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_394",
+      "sha256": "7cffabf63d8ca6fcc060ac69de7a229666161964bcbd8e9ca0639e21c96da707"
+    },
+    "or-396": {
+      "type": "statute",
+      "sr": "220",
+      "article": "396",
+      "label": "OR · Art. 396",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_396",
+      "sha256": "17c7c51d3fced253f17cf1e3d7ed796ba9298a60267ef5feed75156965347da6"
+    },
+    "or-397": {
+      "type": "statute",
+      "sr": "220",
+      "article": "397",
+      "label": "OR · Art. 397",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_397",
+      "sha256": "ee2a14f87c48e28a9a5d9d3540069a6c99fb391c210bc9ffdc55630b66d11c58"
+    },
+    "or-398": {
+      "type": "statute",
+      "sr": "220",
+      "article": "398",
+      "label": "OR · Art. 398",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_398",
+      "sha256": "c9b03608e442b933a9e7941b2e28dd82ad0a285148b10fd3c803e27452b096b2"
+    },
+    "or-400": {
+      "type": "statute",
+      "sr": "220",
+      "article": "400",
+      "label": "OR · Art. 400",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_400",
+      "sha256": "4da00d79b2a569eba7ad17d1191659b015b7debb47a43e66bbe06546521b35e6"
+    },
+    "or-402": {
+      "type": "statute",
+      "sr": "220",
+      "article": "402",
+      "label": "OR · Art. 402",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_402",
+      "sha256": "e2b978884dcab6091d2c0a2333cba8fb341f30b97540d5ed7af5c0f557c57737"
+    },
+    "or-404": {
+      "type": "statute",
+      "sr": "220",
+      "article": "404",
+      "label": "OR · Art. 404",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_404",
+      "sha256": "46b22f18664f26a10598e05c6137b63e82c5a4f679fd0b95e3f2d3842d0e7dcb"
+    },
+    "zpo-68": {
+      "type": "statute",
+      "sr": "272",
+      "article": "68",
+      "label": "ZPO · Art. 68",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_68",
+      "sha256": "273d3308300c0301108c42d18580f58accb6635e7704001d82a0c3dd38f6c5a5"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-96": {
+      "type": "statute",
+      "sr": "272",
+      "article": "96",
+      "label": "ZPO · Art. 96",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_96",
+      "sha256": "89c02830cb76236f122dc601345b4333b2096ddac6c961f7cbd18ff7224cf08c"
+    },
+    "zpo-105": {
+      "type": "statute",
+      "sr": "272",
+      "article": "105",
+      "label": "ZPO · Art. 105",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_105",
+      "sha256": "cbc772300a5c579f5c638b094cffd303b675b3ff88951618bfd5f8d31797a864"
+    },
+    "zpo-106": {
+      "type": "statute",
+      "sr": "272",
+      "article": "106",
+      "label": "ZPO · Art. 106",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_106",
+      "sha256": "e678749847a6362040777cc5faf9a6d8f709957f782c0d13f8b4b7b192fd94c4"
+    },
+    "zpo-107": {
+      "type": "statute",
+      "sr": "272",
+      "article": "107",
+      "label": "ZPO · Art. 107",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_107",
+      "sha256": "f5e64e3a194151350506ce0fe498e499dcb5d746eb54705f374f95885cd48795"
+    },
+    "zpo-111": {
+      "type": "statute",
+      "sr": "272",
+      "article": "111",
+      "label": "ZPO · Art. 111",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_111",
+      "sha256": "ddfa066fddd3cb70593173b1c38e6f11179d430018a2b94d7d832a673d037682"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-117": {
+      "type": "statute",
+      "sr": "272",
+      "article": "117",
+      "label": "ZPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_117",
+      "sha256": "2e785c4e920026011ae89f5b7fc0c34f32948d61304f0728dd96df77b64f03f3"
+    },
+    "zpo-204": {
+      "type": "statute",
+      "sr": "272",
+      "article": "204",
+      "label": "ZPO · Art. 204",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_204",
+      "sha256": "1dfd0c6a3cfb29def0a71b04ab92554858cdac71e95eb5c0c7a6600dd8046cf4"
+    },
+    "bgg-40": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "40",
+      "label": "BGG · Art. 40",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_40",
+      "sha256": "db915d61a432a2d919c3821a797558eb57d6ac8d7033d30ef2293ca5c37ae45e"
+    },
+    "stpo-127": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "127",
+      "label": "StPO · Art. 127",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_127",
+      "sha256": "7ababc00613f0324d36bfe8543a5ef8281b4562b76cc7e9c893820d33132c57e"
+    },
+    "avo-167": {
+      "type": "statute",
+      "sr": "961.011",
+      "article": "167",
+      "label": "AVO · Art. 167",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/735/de#art_167",
+      "sha256": "4c1271097399aecb12b59d9e21885536ef1a527dad531e219135d41355abaacc"
+    },
+    "avo-169": {
+      "type": "statute",
+      "sr": "961.011",
+      "article": "169",
+      "label": "AVO · Art. 169",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/735/de#art_169",
+      "sha256": "b6c77c8e5cec3ea724af8b0c4e70b84bda638aa62cfee2ab218bb39f01330992"
+    },
+    "bv-29": {
+      "type": "statute",
+      "sr": "101",
+      "article": "29",
+      "label": "BV · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_29",
+      "sha256": "50280ceb6b3ce862d8db477b1915ecb2a07aa51d1f504d45ba22226b27cdf71d"
+    },
+    "bge-143-iii-600": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_III_600",
+      "citation": "BGE 143 III 600",
+      "e": "2.7.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_III_600#e-2-7-5"
+    },
+    "bge-134-ii-108": {
+      "type": "decision",
+      "decision_id": "bge_BGE_134_II_108",
+      "citation": "BGE 134 II 108",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_134_II_108#e-3"
+    },
+    "bger-4a-436-2021": {
+      "type": "decision",
+      "decision_id": "bger_4A_436_2021",
+      "citation": "BGer 4A_436/2021 vom 22. März 2022",
+      "e": "9.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_436_2021#e-9-2"
+    },
+    "bger-2c-314-2020": {
+      "type": "decision",
+      "decision_id": "bger_2C_314_2020",
+      "citation": "BGer 2C_314/2020 vom 3. Juli 2020",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_2C_314_2020#e-4-3"
+    },
+    "bger-2c-666-2023": {
+      "type": "decision",
+      "decision_id": "bger_2C_666_2023",
+      "citation": "BGer 2C_666/2023 vom 12. Januar 2024",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_2C_666_2023#e-4-3"
+    },
+    "bger-8c-27-2016": {
+      "type": "decision",
+      "decision_id": "bger_8C_27_2016",
+      "citation": "BGer 8C_27/2016 vom 5. April 2016",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_8C_27_2016#e-3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Schweizerischer Anwaltsverband: Anwaltssuche"
+      },
+      "url": "https://www.sav-fsa.ch/anwaltssuche"
+    },
+    {
+      "label": {
+        "de": "Schweizerischer Anwaltsverband: Rechtsauskunftsstellen der kantonalen Anwaltsverbände"
+      },
+      "url": "https://www.sav-fsa.ch/de/rechtsauskunft"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Justiz: Anwaltsrecht"
+      },
+      "url": "https://www.bj.admin.ch/de/anwaltsrecht"
+    },
+    {
+      "label": {
+        "de": "Beispiel Kanton Basel-Stadt: Anwaltsaufsichtskommission und Anwaltsregister"
+      },
+      "url": "https://www.bs.ch/gerichte-judikative/ueber-die-gerichte/anwaltsaufsichtskommission"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
