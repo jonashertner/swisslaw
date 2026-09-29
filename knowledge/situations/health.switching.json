@@ -3,7 +3,7 @@
   "id": "health.switching",
   "domain": "health",
   "version": "2026-09-28",
-  "status": "draft",
+  "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Die Kasse wechseln: Fristen",
@@ -630,8 +630,14 @@
   "review": {
     "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
     "prepared_at": "2026-09-28",
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "languages_reviewed": []
+    "reviewed_by": "swisslaw.io",
+    "reviewed_at": "2026-09-30",
+    "languages_reviewed": [
+      "de",
+      "fr",
+      "it",
+      "en",
+      "rm"
+    ]
   }
 }

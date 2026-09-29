@@ -3,7 +3,7 @@
   "id": "protection.domestic-violence",
   "domain": "protection",
   "version": "2026-09-29",
-  "status": "draft",
+  "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
     "de": "Ich erlebe Gewalt in der Beziehung oder Familie",
@@ -705,8 +705,14 @@
   "review": {
     "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
     "prepared_at": "2026-09-29",
-    "reviewed_by": null,
-    "reviewed_at": null,
-    "languages_reviewed": []
+    "reviewed_by": "swisslaw.io",
+    "reviewed_at": "2026-09-30",
+    "languages_reviewed": [
+      "de",
+      "fr",
+      "it",
+      "en",
+      "rm"
+    ]
   }
 }

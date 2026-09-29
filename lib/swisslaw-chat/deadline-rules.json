@@ -1,5 +1,5 @@
 {
- "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. All rules signed off by Jonas Hertner on 2026-09-28 (ATSG rules: texts checked the same day); the BG über die Zustellung von Sendungen an Wochenenden und Feiertagen (BBl 2025 2891) was not in force on that date.",
+ "_comment": "Generated from rechtsdienst practice/deadlines/rules.yaml. Statute texts checked verbatim via OpenCaseLaw get_law on 2026-09-27. All rules signed off on 2026-09-28 (ATSG rules: texts checked the same day); the BG über die Zustellung von Sendungen an Wochenenden und Feiertagen (BBl 2025 2891) was not in force on that date.",
  "rules": [
   {
    "id": "schkg_74_rechtsvorschlag",
@@ -40,7 +40,7 @@
    ],
    "how_to_meet": "Sofort gegenüber der überbringenden Person oder innert der Frist mündlich oder schriftlich beim Betreibungsamt. Schriftlich: Übergabe an die Schweizerische Post spätestens am letzten Tag.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -76,7 +76,7 @@
    ],
    "how_to_meet": "Schriftlich bei der Staatsanwaltschaft bzw. der im Strafbefehl genannten Behörde; keine Begründung nötig. Übergabe an die Schweizerische Post spätestens am letzten Tag.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -121,7 +121,7 @@
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Postaufgabe spätestens am letzten Tag; Frist des materiellen Rechts, daher sicherheitshalber früher handeln.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -159,7 +159,7 @@
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -193,7 +193,7 @@
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -225,7 +225,7 @@
    ],
    "how_to_meet": "Begehren bei der Schlichtungsbehörde in Mietsachen einreichen. Voraussetzungen nach OR 270 Abs. 1 lit. a/b (Notlage, Marktlage oder erhebliche Erhöhung) durch Anwalt prüfen. Erhält der Mieter das amtliche Formular erst nach der Übernahme, aber innert 30 Tagen danach, läuft die Frist 30 Tage ab Empfang des Formulars (BGE 121 III 56 E. 2).",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -257,7 +257,7 @@
    ],
    "how_to_meet": "Klage anhängig machen, d.h. Schlichtungsgesuch einreichen (ZPO 62 Abs. 1); Postaufgabe am letzten Tag genügt. Voraussetzung: schriftliche Einsprache, die dem Arbeitgeber spätestens am letzten Tag der Kündigungsfrist zugeht, nicht bloss an diesem Tag abgeschickt wird (OR 336b Abs. 1; BGE 136 III 96 E. 2.3). Bei fristloser Entlassung endet das Arbeitsverhältnis mit dem Empfang der Kündigung; ab dann laufen die 180 Tage.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -308,7 +308,7 @@
    ],
    "how_to_meet": "Bei der Stelle, die verfügt hat: schriftlich mit Unterschrift, spätestens am letzten Tag eingereicht oder der Schweizerischen Post übergeben; ausser bei der Arbeitslosenversicherung auch mündlich bei persönlicher Vorsprache (ATSV 10). Eine gewöhnliche E-Mail wahrt die Frist nicht.",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   },
   {
@@ -351,7 +351,7 @@
    ],
    "how_to_meet": "Schriftlich beim kantonalen Versicherungsgericht, das in der Rechtsmittelbelehrung genannt ist; spätestens am letzten Tag dem Gericht eingereicht oder der Schweizerischen Post übergeben (ATSG 60 Abs. 2 i.V.m. 39 Abs. 1).",
    "status": "signed",
-   "signed_by": "Jonas Hertner",
+   "signed_by": "swisslaw.io",
    "signed_at": "2026-09-28"
   }
  ]
