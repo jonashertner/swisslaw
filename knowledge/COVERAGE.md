@@ -65,6 +65,19 @@ Still planned, in this order:
 
 - **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.
 
+## Environment
+
+These guides help people protect the environment: report harm, get information, take part in projects and know the legal routes on climate. Private disputes between neighbours are a separate topic in the long tail.
+
+| Area | Situation id | Question in plain words | Status |
+| --- | --- | --- | --- |
+| Environment | `environment.report-pollution` | I have noticed pollution or damage to nature. What can I do? | ○ |
+| Environment | `environment.project-participation` | A project threatens nature or the landscape. How can I have a say? | ○ |
+| Environment | `environment.information` | I want to know what is in my drinking water, the air or the soil | ○ |
+| Environment | `environment.climate` | Climate protection: what can I do legally? | ○ |
+
+Planned next: invasive plants, contaminated soil and gardens, traffic noise and health.
+
 Then the long tail: Neighbours (noise, trees, boundaries), small claims up to CHF 30,000, insurance claims refused, road accidents, flight delays, dog bites, apprenticeships, school and education decisions (cantonal), residence permits (with early referral), online fraud, deleting personal data.
 
 ## Rules for every situation

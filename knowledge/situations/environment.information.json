@@ -1,0 +1,728 @@
+{
+  "schema": 1,
+  "id": "environment.information",
+  "domain": "environment",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich will wissen, was in meinem Trinkwasser, in der Luft oder im Boden ist"
+  },
+  "summary": {
+    "de": "Jede Person darf Umweltinformationen einsehen, die bei einer Behörde liegen, ohne einen Grund anzugeben. Viele Messwerte sind schon veröffentlicht. Über das Trinkwasser muss die Wasserversorgung mindestens einmal im Jahr informieren. Eine Firma muss Ihnen keine Auskunft geben, aber die Behörde, die sie kontrolliert, hat oft die Daten. Bei Bundesstellen ist der Zugang in der Regel kostenlos. Antwortet eine Bundesstelle nicht oder lehnt sie ab, können Sie innert 20 Tagen eine kostenlose Schlichtung verlangen. Bei Kanton und Gemeinde gilt das kantonale Recht."
+  },
+  "examples": {
+    "de": [
+      "Hät mis Trinkwasser PFAS drin? Wo chan ich das nachluege?",
+      "Die Fabrik bei uns stinkt. Kann ich verlangen, was die in die Luft lassen?",
+      "Wie kann ich die Messwerte vom Bach hinter unserem Haus bekommen?",
+      "Das BAFU gibt mir ein Gutachten nicht heraus. Was kann ich tun?",
+      "Die Gemeinde hat nicht geantwortet, als ich nach den Pestiziden im Wasser gefragt habe."
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Wie Sie an Umweltinformationen kommen: was Behörden von sich aus veröffentlichen, die Information über das Trinkwasser, das Recht auf Einsicht in amtliche Dokumente bei Bund, Kanton und Gemeinde, Angaben über Firmen und Anlagen, Fristen, Schlichtung beim EDÖB und Kosten."
+    },
+    "excludes": {
+      "de": "Streit unter Nachbarn, etwa wegen Wärmepumpen, Hecken oder Grillrauch. Die Anfechtung eines Bauprojekts, Anzeigen wegen Umweltdelikten und die kantonalen Verfahren im Einzelnen. Personendaten über Sie selbst, dafür gilt das Datenschutzrecht."
+    }
+  },
+  "facts": [
+    {
+      "key": "info_type",
+      "question": {
+        "de": "Was möchten Sie wissen?"
+      },
+      "options": [
+        {
+          "value": "drinking-water",
+          "label": {
+            "de": "Was in meinem Trinkwasser ist"
+          }
+        },
+        {
+          "value": "emissions",
+          "label": {
+            "de": "Was eine Firma oder Anlage ausstösst"
+          }
+        },
+        {
+          "value": "environment-state",
+          "label": {
+            "de": "Wie es um einen Bach, die Luft oder den Boden steht"
+          }
+        },
+        {
+          "value": "authority-documents",
+          "label": {
+            "de": "Was in den Akten zu einem Projekt oder Entscheid einer Behörde steht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "holder",
+      "question": {
+        "de": "Wer hat die Angaben vermutlich?"
+      },
+      "help": {
+        "de": "Wenn Sie es nicht wissen, ist das kein Problem. Der Leitfaden zeigt Ihnen dann die Wege für alle Fälle."
+      },
+      "options": [
+        {
+          "value": "federal",
+          "label": {
+            "de": "Ein Bundesamt, zum Beispiel das BAFU oder das BLV"
+          }
+        },
+        {
+          "value": "cantonal",
+          "label": {
+            "de": "Der Kanton oder die Gemeinde"
+          }
+        },
+        {
+          "value": "water-supplier",
+          "label": {
+            "de": "Die Wasserversorgung"
+          }
+        },
+        {
+          "value": "company",
+          "label": {
+            "de": "Eine Firma"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "status",
+      "question": {
+        "de": "Wie weit sind Sie?"
+      },
+      "options": [
+        {
+          "value": "not-asked",
+          "label": {
+            "de": "Ich habe noch nicht nachgefragt"
+          }
+        },
+        {
+          "value": "no-answer",
+          "label": {
+            "de": "Ich habe gefragt, aber keine Antwort erhalten"
+          }
+        },
+        {
+          "value": "refused",
+          "label": {
+            "de": "Man hat mir die Angaben verweigert oder nur teilweise gegeben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "what-counts",
+      "kind": "rule",
+      "text": {
+        "de": "Umweltinformationen sind alle Angaben über den Zustand von Wasser, Luft, Boden, Landschaft und Artenvielfalt. Dazu gehören auch Angaben über das, was die Umwelt belastet, etwa Stoffe, Lärm oder Strahlung, und über die Folgen für die Gesundheit der Menschen. Auch Messwerte darüber, was eine Anlage in die Luft abgibt, zählen dazu. Das Bundesgericht hat das für die Abluftwerte eines Kernkraftwerks entschieden."
+      },
+      "sources": [
+        "aarhus-2",
+        "bge-144-ii-91-e2-4-6"
+      ]
+    },
+    {
+      "id": "authorities-inform",
+      "kind": "rule",
+      "text": {
+        "de": "Bund und Kantone müssen die Bevölkerung von sich aus über den Zustand der Umwelt und der Gewässer informieren. Die Ergebnisse ihrer Messungen werden veröffentlicht, wenn möglich als frei nutzbare Daten. Kontrollergebnisse einzelner Anlagen dürfen die Behörden veröffentlichen, wenn das von allgemeinem Interesse ist und die Betroffenen vorher angehört wurden. Die Umweltfachstellen und die Gewässerschutzfachstellen beraten auch Privatpersonen. Schauen Sie deshalb zuerst auf den Seiten des Bundesamts für Umwelt (BAFU) und Ihres Kantons nach. Viele Messwerte zu Grundwasser, Flüssen, Luft und den Schadstoffen grosser Betriebe sind dort schon öffentlich."
+      },
+      "sources": [
+        "usg-10e",
+        "gschg-50"
+      ]
+    },
+    {
+      "id": "drinking-water",
+      "kind": "rule",
+      "when": {
+        "info_type": [
+          "drinking-water",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wer Trinkwasser über ein Leitungsnetz abgibt, muss die Bezügerinnen und Bezüger mindestens einmal im Jahr umfassend über die Qualität des Wassers informieren. Das ist meistens die Wasserversorgung Ihrer Gemeinde. Die Pflicht gilt nicht für die Leitungen innerhalb eines Hauses. Ihre Vermieterin oder Ihr Vermieter muss Ihnen also nach dieser Bestimmung keine Wasseranalyse liefern. Fragen Sie direkt bei der Wasserversorgung nach. Trinkwasser muss einwandfrei sein und darf die Gesundheit nicht gefährden. Es muss die Höchstwerte in den Anhängen der Trinkwasserverordnung einhalten. Ob und welcher Höchstwert für einen Stoff gilt, etwa für PFAS oder Rückstände von Pflanzenschutzmitteln, steht in diesen Anhängen. Die Werte können sich ändern, zuletzt wurden sie im Juni 2026 angepasst. Massgebend ist die geltende Fassung, nicht ein Vorschlag, über den in den Medien berichtet wird. Für einige Stoffe gelten Übergangsfristen: Wasser mit Blei zwischen 5 und 10 Mikrogramm pro Liter darf zum Beispiel noch bis Ende Januar 2036 nach bisherigem Recht abgegeben werden. Die Kontrolle ist Sache der Kantone. Jeder Kanton hat dafür eine Kantonschemikerin oder einen Kantonschemiker, meist mit einem Kantonslabor."
+      },
+      "sources": [
+        "tbdv-5",
+        "tbdv-3",
+        "tbdv-16a",
+        "lmg-47",
+        "lmg-49"
+      ]
+    },
+    {
+      "id": "right-of-access",
+      "kind": "rule",
+      "text": {
+        "de": "Jede Person darf Umweltinformationen einsehen, die in amtlichen Dokumenten stehen, und von der Behörde Auskunft über deren Inhalt verlangen. Sie müssen weder betroffen sein noch einen Grund angeben. Amtliche Dokumente sind Unterlagen, die eine Behörde hat und die ihre Aufgabe betreffen, zum Beispiel Messberichte, Gutachten, Bewilligungen oder Kontrollberichte. Entwürfe, die noch nicht fertig sind, gehören nicht dazu. Bei einem Bundesamt gilt das Öffentlichkeitsgesetz des Bundes. Sie können die Dokumente vor Ort ansehen oder eine Kopie verlangen."
+      },
+      "sources": [
+        "usg-10g",
+        "bgoe-6",
+        "bgoe-5",
+        "vbgoe-7"
+      ]
+    },
+    {
+      "id": "cantonal-route",
+      "kind": "rule",
+      "when": {
+        "holder": [
+          "cantonal",
+          "water-supplier",
+          "company",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat ein Kanton oder eine Gemeinde die Angaben, gilt das Recht Ihres Kantons. Ihr Kanton kann dafür ein eigenes Gesetz haben, mit eigenen Fristen, Gebühren und Stellen, die bei Streit vermitteln. Hat ein Kanton dazu noch nichts geregelt, gelten die Regeln des Bundes sinngemäss. Das gilt auch für eine Wasserversorgung, die der Gemeinde gehört oder von ihr beauftragt ist. Die Fristen und Stellen des Bundes, die in diesem Leitfaden genannt werden, gelten nicht automatisch im Kanton. Schauen Sie auf der Website Ihres Kantons unter «Öffentlichkeitsprinzip» nach oder fragen Sie bei der Staatskanzlei."
+      },
+      "sources": [
+        "usg-10g"
+      ]
+    },
+    {
+      "id": "how-to-ask",
+      "kind": "step",
+      "text": {
+        "de": "So fragen Sie nach: Richten Sie Ihr Gesuch an die Behörde, die das Dokument erstellt oder als Hauptadressatin erhalten hat. Ein bestimmtes Formular brauchen Sie nicht, und Sie müssen nicht erklären, warum Sie fragen. Am besten schreiben Sie eine E-Mail oder einen Brief, damit Sie das Datum belegen können. Beschreiben Sie so genau wie möglich, was Sie suchen: den Ort, die Anlage oder das Gewässer, den Zeitraum und die Art der Angaben, zum Beispiel «alle Messberichte zu PFAS im Grundwasser der Gemeinde X seit 2023». Wenn Sie den genauen Titel nicht kennen, genügt eine klare Umschreibung."
+      },
+      "sources": [
+        "bgoe-10",
+        "vbgoe-7"
+      ]
+    },
+    {
+      "id": "clarify-warning",
+      "kind": "warning",
+      "text": {
+        "de": "Wenn eine Bundesstelle Sie bittet, Ihr Gesuch genauer zu umschreiben, müssen Sie innert 10 Tagen antworten. Rechnen Sie vorsichtshalber ab dem Tag, an dem Sie die Rückfrage erhalten haben. Antworten Sie nicht rechtzeitig, gilt das Gesuch als zurückgezogen. Die Behörde muss Sie auf diese Folge hinweisen. Im Kanton können andere Regeln gelten."
+      },
+      "sources": [
+        "vbgoe-7"
+      ]
+    },
+    {
+      "id": "company-data",
+      "kind": "rule",
+      "when": {
+        "holder": [
+          "company",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Firma muss Ihnen grundsätzlich keine Auskunft geben. Der Weg führt über die Behörde. Betriebe müssen den Behörden die Angaben liefern, die für den Vollzug des Umweltrechts nötig sind, etwa Messungen oder Verzeichnisse über Luftschadstoffe, Abfälle und Stoffe. Was die Behörde so erhalten hat, gehört zu ihren amtlichen Dokumenten. Fragen Sie deshalb die Behörde, die den Betrieb bewilligt oder kontrolliert, oft die kantonale Umweltfachstelle. Eine Behörde darf den Zugang nicht einfach deshalb verweigern, weil sie Daten, über die sie verfügen darf, beim Betrieb belassen hat. Eine Ausnahme gilt für Private, die selbst mit einer Vollzugsaufgabe betraut sind: Bei ihnen gilt das Einsichtsrecht direkt."
+      },
+      "sources": [
+        "usg-46",
+        "bgoe-5",
+        "usg-10g",
+        "bge-144-ii-91-e2-4-6"
+      ]
+    },
+    {
+      "id": "business-secrets",
+      "kind": "rule",
+      "when": {
+        "info_type": [
+          "emissions",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Oft wendet eine Firma ein, die Angaben seien ein Geschäftsgeheimnis. Das Gesetz schützt tatsächlich Geschäfts- und Fabrikationsgeheimnisse. Was eine Anlage an Schadstoffen ausstösst, ist aber nach dem Bundesgericht grundsätzlich kein solches Geheimnis. Ein bloss allgemein behaupteter Schaden für die Firma genügt nicht. Bevor die Behörde Angaben herausgibt, welche die Privatsphäre einer betroffenen Person oder Firma berühren können, hört sie diese an. Die Betroffenen haben dann 10 Tage Zeit, sich zu äussern. Deshalb kann das Verfahren länger dauern. Will die Behörde den Zugang gegen den Willen der Firma gewähren, kann auch die Firma eine Schlichtung beim EDÖB verlangen."
+      },
+      "sources": [
+        "bgoe-7",
+        "bge-144-ii-91-e3-1",
+        "bgoe-11",
+        "bgoe-12",
+        "bgoe-13"
+      ]
+    },
+    {
+      "id": "answer-deadline",
+      "kind": "rule",
+      "when": {
+        "holder": [
+          "federal",
+          "company",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Bundesstelle muss so rasch wie möglich antworten, spätestens 20 Tage nach Eingang Ihres Gesuchs. Bei umfangreichen oder schwer zu beschaffenden Dokumenten kann sie die Frist ausnahmsweise um 20 Tage verlängern. Muss sie zuerst Dritte anhören, verlängert sich die Frist so lange wie nötig. Über eine Verlängerung muss sie Sie informieren und kurz begründen. Verweigert oder beschränkt sie den Zugang, muss sie das schriftlich und mit einer kurzen Begründung tun."
+      },
+      "sources": [
+        "bgoe-12"
+      ]
+    },
+    {
+      "id": "refusal",
+      "kind": "rule",
+      "when": {
+        "status": [
+          "refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Behörde muss den Zugang grundsätzlich gewähren. Will sie ein Dokument zurückhalten, muss sie zeigen, dass eine gesetzliche Ausnahme greift, etwa ein Geschäftsgeheimnis oder der Schutz der Privatsphäre. Eine bloss denkbare Gefahr reicht dafür nicht. Der drohende Nachteil muss erheblich und wahrscheinlich sein. Oft ist ein teilweiser Zugang möglich: Die Behörde muss Personendaten wenn möglich abdecken und prüfen, ob sie wenigstens einen Teil herausgeben kann, statt das ganze Dokument zu verweigern."
+      },
+      "sources": [
+        "bge-142-ii-324-e3-4",
+        "bgoe-7",
+        "bgoe-9",
+        "bge-142-ii-324-e3-6"
+      ]
+    },
+    {
+      "id": "mediation-warning",
+      "kind": "warning",
+      "when": {
+        "holder": [
+          "federal",
+          "company",
+          "unknown"
+        ],
+        "status": [
+          "no-answer",
+          "refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie von einer Bundesstelle keine, eine ablehnende oder eine unvollständige Antwort erhalten, können Sie beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) eine Schlichtung verlangen. Die Frist beträgt 20 Tage. Sie beginnt mit dem Empfang der Antwort. Haben Sie keine Antwort erhalten, beginnt sie, wenn die Antwortfrist der Behörde abgelaufen ist, also in der Regel 20 Tage nach Eingang Ihres Gesuchs, bei einer Verlängerung später. Der Antrag muss schriftlich sein. Eine Begründung ist nicht nötig. Legen Sie Ihr Gesuch und die Antwort der Behörde bei. Das Verfahren ist kostenlos. Halten Sie die Frist unbedingt ein."
+      },
+      "sources": [
+        "bgoe-13",
+        "bgoe-12",
+        "bgoe-17"
+      ]
+    },
+    {
+      "id": "recommendation",
+      "kind": "step",
+      "when": {
+        "holder": [
+          "federal",
+          "company",
+          "unknown"
+        ],
+        "status": [
+          "no-answer",
+          "refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Der EDÖB versucht zuerst, zwischen Ihnen und der Behörde eine Einigung zu finden. Gelingt das, ist das Verfahren erledigt. Gelingt es nicht, gibt er innert 30 Tagen eine schriftliche Empfehlung ab, ob und wie weit Sie Zugang erhalten sollten."
+      },
+      "sources": [
+        "bgoe-13",
+        "bgoe-14"
+      ]
+    },
+    {
+      "id": "ruling-warning",
+      "kind": "warning",
+      "when": {
+        "holder": [
+          "federal",
+          "company",
+          "unknown"
+        ],
+        "status": [
+          "no-answer",
+          "refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie mit der Empfehlung des EDÖB nicht einverstanden, können Sie von der Behörde eine Verfügung verlangen, also einen anfechtbaren Entscheid. Dafür haben Sie 10 Tage ab Empfang der Empfehlung. Weicht die Behörde von der Empfehlung ab, muss sie von sich aus verfügen. Sie hat dafür 20 Tage Zeit. In dieser Verfügung muss sie genau sagen, welche Ausnahme sie anwendet, wie sie die Interessen abgewogen hat und warum nicht wenigstens ein Teil zugänglich ist. Die Verfügung können Sie nach den allgemeinen Regeln beim Bundesverwaltungsgericht anfechten. Die Frist dafür steht in der Rechtsmittelbelehrung der Verfügung."
+      },
+      "sources": [
+        "bgoe-15",
+        "bge-142-ii-324-e3-6",
+        "bgoe-16"
+      ]
+    },
+    {
+      "id": "costs",
+      "kind": "cost",
+      "text": {
+        "de": "Der Zugang zu amtlichen Dokumenten des Bundes ist in der Regel kostenlos. Eine Gebühr ist nur ausnahmsweise möglich, wenn die Bearbeitung mehr als 8 Stunden Arbeit erfordert, und dann nur für die Zeit darüber hinaus. Die Behörde muss Ihnen die Gebühr vorher ankündigen. Sie haben dann 10 Tage Zeit, Ihr Gesuch zu bestätigen. Sonst gilt es als zurückgezogen. Sie können Ihr Gesuch auch enger fassen, um Kosten zu vermeiden. Die Schlichtung beim EDÖB und das Verfahren um eine Verfügung kosten nie etwas. Für gedruckte Berichte kann eine Gebühr verlangt werden. Ein Verfahren vor Gericht kann Kosten auslösen. In den Kantonen gelten eigene Gebührenregeln."
+      },
+      "sources": [
+        "bgoe-17",
+        "vbgoe-14",
+        "vbgoe-16",
+        "bgoe-16"
+      ]
+    },
+    {
+      "id": "limits",
+      "kind": "rule",
+      "text": {
+        "de": "Das Einsichtsrecht gibt Ihnen Informationen, aber keinen Anspruch darauf, dass eine Behörde etwas unternimmt. Wer eine Behörde auffordert, gegen eine Firma vorzugehen, wird dadurch nicht Partei in einem Verfahren. Eine Klage für die Allgemeinheit, die jede Person erheben kann, gibt es im Umweltrecht nicht. Mitreden können Sie vor allem, wenn Sie selbst besonders betroffen sind, zum Beispiel als direkte Nachbarin oder direkter Nachbar einer Anlage. Sonst bleiben diese Wege: eine Meldung an die zuständige Behörde, bei einer Straftat eine Anzeige, die Teilnahme an öffentlichen Auflagen innerhalb der Frist oder der Hinweis an eine Umweltorganisation, die vom Bund als beschwerdeberechtigt anerkannt ist. Diese Organisationen stehen in einer Liste im Anhang einer Verordnung des Bundes."
+      },
+      "sources": [
+        "bge-139-ii-279-e2-3",
+        "bge-146-i-145-e5-5",
+        "vbo-1"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Lassen Sie sich persönlich beraten, wenn es um viele oder heikle Dokumente geht, wenn eine Behörde den Zugang trotz Empfehlung des EDÖB verweigert oder wenn Sie eine Verfügung vor Gericht anfechten wollen. Das gilt auch, wenn Sie wegen einer Belastung gegen ein Projekt vorgehen möchten: Dann laufen oft kurze Fristen, und es kommt darauf an, ob Sie selbst besonders betroffen sind. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage prüfen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose Hilfe erhalten Sie hier:\n- Der EDÖB informiert auf seiner Website, wie ein Gesuch an eine Bundesstelle funktioniert, und bietet eine Mustervorlage. Die Schlichtung ist kostenlos.\n- Die Wasserversorgung oder die Gemeinde gibt Auskunft über die Qualität Ihres Trinkwassers.\n- Die kantonale Umweltfachstelle und das Kantonslabor beraten zu Messwerten in Ihrer Umgebung.\n- Die Umweltorganisationen, die als beschwerdeberechtigt anerkannt sind, können Sie auf ein Problem hinweisen.\n- In einem akuten Fall, etwa bei einer Verschmutzung eines Gewässers, rufen Sie sofort die Polizei (117) oder die Feuerwehr (118)."
+      }
+    }
+  ],
+  "sources": {
+    "tbdv-3": {
+      "type": "statute",
+      "sr": "817.022.11",
+      "article": "3",
+      "label": "TBDV · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/153/de#art_3",
+      "sha256": "da671f3fa1edc572305d3172db3982dba0640959c0b73e10bdddbf35b588991c"
+    },
+    "tbdv-5": {
+      "type": "statute",
+      "sr": "817.022.11",
+      "article": "5",
+      "label": "TBDV · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/153/de#art_5",
+      "sha256": "90c3794f96572b71987758c64bd8d67f2d6c3b9e277ac70115ea94caee0805c1"
+    },
+    "tbdv-16a": {
+      "type": "statute",
+      "sr": "817.022.11",
+      "article": "16a",
+      "label": "TBDV · Art. 16a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/153/de#art_16a",
+      "sha256": "f4f0d59b0adf5c8788fea3a073a9cb090b58436dc50bcd1276040871893b97bb"
+    },
+    "lmg-47": {
+      "type": "statute",
+      "sr": "817.0",
+      "article": "47",
+      "label": "LMG · Art. 47",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/62/de#art_47",
+      "sha256": "72a5f148cad2aa71e7c40cfcf22601aa5a8c4a824408a7a3b8a6e75f1e3fb83c"
+    },
+    "lmg-49": {
+      "type": "statute",
+      "sr": "817.0",
+      "article": "49",
+      "label": "LMG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/62/de#art_49",
+      "sha256": "4d1489382400896cb316caf6bd773b0d4c65b8a6495fca3a1074389022889b09"
+    },
+    "usg-10e": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10e",
+      "label": "USG · Art. 10e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10e",
+      "sha256": "cb1066c2d9a6c94c1b8bd1a7f16082ea1ab1b6a7768932011894136e03389c76"
+    },
+    "usg-10g": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10g",
+      "label": "USG · Art. 10g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10g",
+      "sha256": "e38a6bb4b42e4fed80d2448695065dc1f5fbf2ee03d51c15356ba2624e5ace10"
+    },
+    "usg-46": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "46",
+      "label": "USG · Art. 46",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_46",
+      "sha256": "60fd724783eeae50495fd1a7872c5f6422951e4472fb13f28b49eea56ac0a5a8"
+    },
+    "gschg-50": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "50",
+      "label": "GSchG · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_50",
+      "sha256": "caec85d49364555962dccc2aeaa5e062e174976f870b53265dd8735bf1f3bb69"
+    },
+    "aarhus-2": {
+      "type": "statute",
+      "sr": "0.814.07",
+      "article": "2",
+      "label": "Aarhus-Konvention · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2014/235/de#art_2",
+      "sha256": "3f07cab22406fda58fb65819ba2e012dbe95e7ead897a527e90c4c31cd3d9641"
+    },
+    "bgoe-5": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "5",
+      "label": "BGÖ · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_5",
+      "sha256": "4a023b3fdfd33d9545603974015afea5393b2d37532ed63a7ccbcb8e607eb2a7"
+    },
+    "bgoe-6": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "6",
+      "label": "BGÖ · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_6",
+      "sha256": "ff40be9e38689f49caad4a01d63a16a59e87cea69dd0c020df7b3f2603acd294"
+    },
+    "bgoe-7": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "7",
+      "label": "BGÖ · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_7",
+      "sha256": "1e52f7f064d84dabc0bfd42e4488d2943c2a3ec5b52ea399093f83da93cad758"
+    },
+    "bgoe-9": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "9",
+      "label": "BGÖ · Art. 9",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_9",
+      "sha256": "2a14b5881f0e8ed48fdbe41821d17c26ea42ccb59562ea197948f146896029db"
+    },
+    "bgoe-10": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "10",
+      "label": "BGÖ · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_10",
+      "sha256": "d3bc7ac8ce86356cb103de6f89bb391ec42dfd4bde8d2ec76427debfe35442d5"
+    },
+    "bgoe-11": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "11",
+      "label": "BGÖ · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_11",
+      "sha256": "9e2ac4321a24ad2e97e798dadafabe1b8349cf5873cdbea3d3d96dfc4e8491fa"
+    },
+    "bgoe-12": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "12",
+      "label": "BGÖ · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_12",
+      "sha256": "9a1413f8118e14c1ed3c1e6774042361a6b871033bd57ea5eea503374e925bcb"
+    },
+    "bgoe-13": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "13",
+      "label": "BGÖ · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_13",
+      "sha256": "9d8c406d2c5470f1656fb8f2fe910b1bd872ef26a691908807b9580a70dcb62d"
+    },
+    "bgoe-14": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "14",
+      "label": "BGÖ · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_14",
+      "sha256": "d136a62f796452476b0e6f833eb03c92a797923642c8c6018388ac3f454654dd"
+    },
+    "bgoe-15": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "15",
+      "label": "BGÖ · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_15",
+      "sha256": "e3487fff8ab77ab7c8b0e7647f0364a3a2c281ecd28b6ae0a9af4a000aaf8097"
+    },
+    "bgoe-16": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "16",
+      "label": "BGÖ · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_16",
+      "sha256": "2d85a90e29c1d1707f2da1bc58570b5b7602464199eb6399c33fc4af91768830"
+    },
+    "bgoe-17": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "17",
+      "label": "BGÖ · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_17",
+      "sha256": "8dfe1a7be5eb3ac8b549cc1ea80956ffb4ab71208f8463c89953f9b74b213f7a"
+    },
+    "vbgoe-7": {
+      "type": "statute",
+      "sr": "152.31",
+      "article": "7",
+      "label": "VBGÖ · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/356/de#art_7",
+      "sha256": "e0e7d3b566d03553666a7470c647e0b9c797befaf19ca154abca6ce309442849"
+    },
+    "vbgoe-14": {
+      "type": "statute",
+      "sr": "152.31",
+      "article": "14",
+      "label": "VBGÖ · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/356/de#art_14",
+      "sha256": "6b4abafcc80fe894321aeafc975dcd3ee951318642a4b6688bb8f0d6e81d7af4"
+    },
+    "vbgoe-16": {
+      "type": "statute",
+      "sr": "152.31",
+      "article": "16",
+      "label": "VBGÖ · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/356/de#art_16",
+      "sha256": "bb4e86a508026ede52b90b80e80a864c3250b03c4d9702cc633c732491a036c8"
+    },
+    "vbo-1": {
+      "type": "statute",
+      "sr": "814.076",
+      "article": "1",
+      "label": "VBO · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de#art_1",
+      "sha256": "16a3cbd76a8427f0810b9499b0eb34d50d172c98fed9b737a6cacfc5d3faf2fa"
+    },
+    "bge-144-ii-91-e2-4-6": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_II_91",
+      "citation": "BGE 144 II 91",
+      "e": "2.4.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_II_91#e-2-4-6"
+    },
+    "bge-144-ii-91-e3-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_II_91",
+      "citation": "BGE 144 II 91",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_II_91#e-3-1"
+    },
+    "bge-142-ii-324-e3-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_II_324",
+      "citation": "BGE 142 II 324",
+      "e": "3.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_II_324#e-3-4"
+    },
+    "bge-142-ii-324-e3-6": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_II_324",
+      "citation": "BGE 142 II 324",
+      "e": "3.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_II_324#e-3-6"
+    },
+    "bge-139-ii-279-e2-3": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_279",
+      "citation": "BGE 139 II 279",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_279#e-2-3"
+    },
+    "bge-146-i-145-e5-5": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "EDÖB: Zugang zu amtlichen Dokumenten"
+      },
+      "url": "https://www.edoeb.admin.ch/de/zugang-zu-amtlichen-dokumenten"
+    },
+    {
+      "label": {
+        "de": "EDÖB: Das Schlichtungsverfahren"
+      },
+      "url": "https://www.edoeb.admin.ch/de/das-schlichtungsverfahren"
+    },
+    {
+      "label": {
+        "de": "BAFU: Aarhus-Konvention"
+      },
+      "url": "https://www.bafu.admin.ch/de/aarhus-konvention"
+    },
+    {
+      "label": {
+        "de": "BAFU: PFAS"
+      },
+      "url": "https://www.bafu.admin.ch/de/pfas"
+    },
+    {
+      "label": {
+        "de": "BAFU: Nationale Grundwasserbeobachtung NAQUA"
+      },
+      "url": "https://www.bafu.admin.ch/de/naqua"
+    },
+    {
+      "label": {
+        "de": "BAFU: Schadstoffregister SwissPRTR"
+      },
+      "url": "https://www.bafu.admin.ch/de/swissprtr"
+    },
+    {
+      "label": {
+        "de": "BLV: Trinkwasser"
+      },
+      "url": "https://www.blv.admin.ch/de/trinkwasser"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

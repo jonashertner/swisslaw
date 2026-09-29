@@ -1,0 +1,713 @@
+{
+  "schema": 1,
+  "id": "environment.report-pollution",
+  "domain": "environment",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich habe eine Umweltverschmutzung oder eine Zerstörung der Natur bemerkt"
+  },
+  "summary": {
+    "de": "Sehen Sie Öl oder tote Fische in einem Bach, brennenden oder abgeladenen Abfall, eine zerstörte Hecke, einen gerodeten Wald oder getötete Wildtiere, können Sie handeln. Läuft etwas noch, rufen Sie die Polizei (117) oder die Feuerwehr (118). Jede Person darf eine Straftat anzeigen und auf Anfrage erfahren, wie das Verfahren ausgeht. Zwingen können Sie die Behörden aber nicht, solange Sie nicht selbst besonders betroffen sind. Wirksam sind eine rasche Meldung, eine Aufsichtsanzeige, ein Gesuch um Einsicht in Umweltinformationen und ein früher Hinweis an eine Umweltorganisation."
+  },
+  "examples": {
+    "de": [
+      "Im Bach hinter unserem Haus schwimmen tote Fische. Wen muss ich anrufen?",
+      "Da hat einer seinen Bauschutt einfach im Wald abgeladen. Kann ich das melden?",
+      "Mein Nachbar verbrennt jeden Samstag Plastik und Abfall im Garten. Ist das erlaubt?",
+      "Die Gemeinde hat eine Hecke mit Nestern drin weggeräumt. Darf die das?",
+      "Vo de Baustell lauft grau Wasser i de Bach. Was chan ich mache?",
+      "Ich habe Anzeige erstattet. Erfahre ich, was daraus geworden ist?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Was Sie tun können, wenn Sie eine Verschmutzung von Wasser oder Boden, illegal entsorgten oder verbrannten Abfall, eine zerstörte Hecke, ein beschädigtes Biotop, eine Rodung oder getötete oder gestörte Wildtiere bemerken: Notruf, sicheres Festhalten, Strafanzeige, Auskunft über den Ausgang, Aufsichtsanzeige, Einsicht in Umweltinformationen, Hinweis an Umweltorganisationen und die Grenzen dieser Wege."
+    },
+    "excludes": {
+      "de": "Streitigkeiten unter Nachbarn wie Lärm, Grillrauch, Wärmepumpen oder Hecken an der Grenze, die Einsprache gegen ein Bauprojekt im Einzelnen, Schadenersatzklagen und Klimaklagen. Kantonale Fristen und Zuständigkeiten sind nur allgemein erwähnt."
+    }
+  },
+  "facts": [
+    {
+      "key": "harm",
+      "question": {
+        "de": "Was haben Sie bemerkt?"
+      },
+      "options": [
+        {
+          "value": "water",
+          "label": {
+            "de": "Verschmutztes Wasser: Öl, Schaum, Verfärbung oder tote Fische"
+          }
+        },
+        {
+          "value": "waste",
+          "label": {
+            "de": "Abfall wird abgelagert, weggeworfen oder verbrannt"
+          }
+        },
+        {
+          "value": "nature",
+          "label": {
+            "de": "Zerstörte Natur: Hecke, Ufer, Feuchtgebiet, Biotop oder Wald"
+          }
+        },
+        {
+          "value": "animals",
+          "label": {
+            "de": "Wildtiere werden getötet, gefangen oder gestört"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Etwas anderes"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "ongoing",
+      "question": {
+        "de": "Passiert es gerade jetzt, oder breitet sich die Verschmutzung noch aus?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, es passiert jetzt"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es ist vorbei"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "responsible",
+      "question": {
+        "de": "Wer steckt Ihrer Meinung nach dahinter?"
+      },
+      "options": [
+        {
+          "value": "private",
+          "label": {
+            "de": "Eine Privatperson oder eine Firma"
+          }
+        },
+        {
+          "value": "authority",
+          "label": {
+            "de": "Eine Behörde, eine Gemeinde oder ein öffentlicher Betrieb"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "affected",
+      "question": {
+        "de": "Sind Sie selbst betroffen, zum Beispiel Ihr Grundstück, Ihr Brunnen, Ihre Tiere oder Ihre Gesundheit?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es geht mir um die Umwelt"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "call-now",
+      "kind": "escalate",
+      "when": {
+        "ongoing": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Läuft die Verschmutzung noch, rufen Sie sofort an. Das gilt zum Beispiel, wenn Öl, Schaum oder eine trübe Flüssigkeit in einen Bach fliesst, wenn tote Fische treiben oder wenn Abfall brennt. Die Polizei erreichen Sie unter 117, die Feuerwehr unter 118. Bei Öl- und Chemieunfällen ist meist die Feuerwehr gefragt. Einige Kantone, etwa Genf, nennen für Gewässerverschmutzungen zuerst die 118. Wählen Sie im Zweifel eine der beiden Nummern: Polizei und Feuerwehr holen die Fachleute des kantonalen Gewässerschutzes dazu. Sagen Sie, wo genau es passiert, was Sie sehen und seit wann. Geben Sie Ihre Telefonnummer für Rückfragen an. Warten Sie nicht bis am nächsten Tag. Spuren im Wasser sind oft schon nach wenigen Stunden verschwunden."
+      }
+    },
+    {
+      "id": "stay-safe",
+      "kind": "step",
+      "text": {
+        "de": "Bringen Sie sich nicht in Gefahr. Berühren Sie keine unbekannten Flüssigkeiten und atmen Sie keinen Rauch ein. Betreten Sie kein fremdes, abgesperrtes Gelände und keine Baustelle. Stellen Sie niemanden zur Rede. Halten Sie aus sicherer Distanz fest, was Sie sehen: Datum und Uhrzeit, den genauen Ort (Adresse, Flurname oder Koordinaten aus dem Handy), Fotos oder ein kurzes Video, Farbe und Geruch, Autonummern von beteiligten Fahrzeugen, Namen von Zeuginnen und Zeugen. Schreiben Sie Ihre Beobachtungen möglichst bald auf. Solche Notizen helfen der Polizei und der Umweltfachstelle später, den Fall zu klären."
+      }
+    },
+    {
+      "id": "report-offence",
+      "kind": "rule",
+      "text": {
+        "de": "Sie dürfen jede Straftat anzeigen, auch wenn Sie selbst keinen Schaden haben. Das Gesetz gibt dieses Recht jeder Person. Wenden Sie sich an einen Polizeiposten oder an die Staatsanwaltschaft. Sie können die Anzeige mündlich machen oder schriftlich einreichen. Machen Sie sie mündlich, können Sie eine Bestätigung verlangen. Beweise müssen Sie nicht liefern. Es genügt, dass Sie schildern, was Sie beobachtet haben. Ob wirklich eine Straftat vorliegt, klären die Behörden. Mit einer Anzeige werden Sie aber nicht Partei im Verfahren. Sie erhalten keine Akteneinsicht und können einen Entscheid nicht anfechten, ausser Sie sind durch die Tat selbst geschädigt."
+      },
+      "sources": [
+        "stpo-301"
+      ]
+    },
+    {
+      "id": "ask-outcome",
+      "kind": "rule",
+      "text": {
+        "de": "Sie haben ein Recht darauf zu erfahren, was aus Ihrer Anzeige geworden ist. Die Polizei oder die Staatsanwaltschaft teilt Ihnen auf Anfrage mit, ob ein Strafverfahren eröffnet wurde und wie es abgeschlossen wird. Diese Auskunft erhalten Sie aber nur, wenn Sie danach fragen. Bitten Sie am besten schon bei der Anzeige darum und notieren Sie sich eine Geschäftsnummer oder den Namen der zuständigen Stelle. Einzelheiten zum Verfahren oder zu den beschuldigten Personen erfahren Sie auf diesem Weg nicht."
+      },
+      "sources": [
+        "stpo-301"
+      ]
+    },
+    {
+      "id": "water-offences",
+      "kind": "rule",
+      "when": {
+        "harm": [
+          "water",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Stoffe, die Wasser verunreinigen können, dürfen weder direkt noch indirekt in einen Bach, einen See oder ins Grundwasser gelangen. Verboten ist auch, sie versickern zu lassen. Ausserhalb eines Gewässers dürfen sie nicht abgelagert oder ausgebracht werden, wenn dadurch konkret die Gefahr einer Verschmutzung entsteht. Das betrifft etwa Öl, Chemikalien, Gülle oder Betonwasser von einer Baustelle. Wer das absichtlich tut, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden. Auch wer aus Unachtsamkeit handelt, macht sich strafbar. Strafbar ist es ausserdem, einen Bach ohne Bewilligung zu verbauen oder in Röhren zu legen. Andere Verstösse gegen das Gewässerschutzgesetz werden mit Busse bestraft."
+      },
+      "sources": [
+        "gschg-6",
+        "gschg-70",
+        "gschg-71"
+      ]
+    },
+    {
+      "id": "waste-offences",
+      "kind": "rule",
+      "when": {
+        "harm": [
+          "waste",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Abfälle dürfen nur in dafür bestimmten Anlagen verbrannt werden, nicht im Freien und nicht im Garten. Erlaubt ist einzig, natürliche Wald-, Feld- und Gartenabfälle zu verbrennen, wenn dabei nicht übermässig Rauch oder Gestank entsteht. Wer Abfälle ausserhalb einer bewilligten Deponie ablagert oder sie verbotenerweise verbrennt, wird mit Busse bis zu 20 000 Franken bestraft. Wer ohne Bewilligung eine Deponie betreibt oder Sonderabfälle, also besonders gefährliche Abfälle, falsch weitergibt oder annimmt, begeht ein Vergehen. Dafür droht Freiheitsstrafe bis zu drei Jahren oder Geldstrafe, bei schwerer Gefährdung von Mensch oder Umwelt bis zu fünf Jahren. Seit dem 1. August 2026 gilt zudem schweizweit eine Busse gegen Littering: Wer Abfälle, selbst kleine Mengen, wegwirft oder liegen lässt, kann mit bis zu 300 Franken gebüsst werden."
+      },
+      "sources": [
+        "usg-30c",
+        "usg-31b",
+        "usg-60",
+        "usg-61"
+      ]
+    },
+    {
+      "id": "nature-offences",
+      "kind": "rule",
+      "when": {
+        "harm": [
+          "nature",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Gesetz schützt besonders Uferbereiche, Riedgebiete und Moore, seltene Waldgesellschaften, Hecken, Feldgehölze und Trockenrasen. Wer ein geschütztes Biotop, also einen geschützten Lebensraum für Tiere und Pflanzen, absichtlich und ohne Berechtigung zerstört oder schwer beschädigt, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Dasselbe gilt, wer Ufervegetation rodet oder zuschüttet. Bei Fahrlässigkeit droht Busse. Wald darf grundsätzlich nicht gerodet werden. Eine Rodung braucht eine Ausnahmebewilligung aus wichtigen Gründen. Finanzielle Interessen genügen nicht. Wer ohne Berechtigung rodet, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Wer im Wald ohne Berechtigung Bäume fällt oder mit dem Auto auf Waldstrassen fährt, wird mit Busse bestraft. Ob ein Gebiet geschützt ist und ob eine Bewilligung vorliegt, kann die kantonale Fachstelle für Natur- oder Waldschutz klären."
+      },
+      "sources": [
+        "nhg-18",
+        "nhg-24",
+        "nhg-24a",
+        "wag-5",
+        "wag-42",
+        "wag-43"
+      ]
+    },
+    {
+      "id": "animal-offences",
+      "kind": "rule",
+      "when": {
+        "harm": [
+          "animals",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Jagdgesetz erfasst viele wildlebende Vögel und Säugetiere. Alle diese Tiere, die nicht zu einer jagdbaren Art gehören, sind geschützt. Die Kantone müssen wildlebende Säugetiere und Vögel ausserdem vor Störung schützen. Wer geschützte Tiere absichtlich und ohne Berechtigung jagt, tötet oder einfängt, Nester ausnimmt oder brütende Vögel stört, kann mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft werden. Mit Busse wird unter anderem bestraft, wer Hunde wildern lässt, Schutzmassnahmen gegen Störungen missachtet, Hecken beseitigt oder Böschungen und Weiden abbrennt. Ob in einem bestimmten Fall eine Berechtigung vorlag, zum Beispiel eine Abschussbewilligung, weiss die kantonale Jagdverwaltung oder die Wildhut."
+      },
+      "sources": [
+        "jsg-7",
+        "jsg-17",
+        "jsg-18"
+      ]
+    },
+    {
+      "id": "other-harm",
+      "kind": "step",
+      "when": {
+        "harm": [
+          "other"
+        ]
+      },
+      "text": {
+        "de": "Passt Ihre Beobachtung in keine der Gruppen, melden Sie sie trotzdem. Wenden Sie sich an die Polizei oder an die Umweltfachstelle Ihres Kantons. Die Behörde prüft, ob ein Gesetz verletzt ist und wer zuständig ist. Streitigkeiten unter Nachbarn, etwa wegen Lärm, Grillrauch oder einer Hecke an der Grenze, gehören nicht hierher. Dafür gibt es einen eigenen Bereich."
+      }
+    },
+    {
+      "id": "own-installation",
+      "kind": "warning",
+      "when": {
+        "harm": [
+          "water",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Stammt das Öl oder die Flüssigkeit aus Ihrem eigenen Tank, Ihrer Heizung oder einer Anlage, für die Sie verantwortlich sind, haben Sie eine eigene Pflicht: Wer einen Verlust einer wassergefährdenden Flüssigkeit feststellt, muss ihn sofort der Gewässerschutzpolizei melden. Rufen Sie also die 117 oder die 118 an. Zudem müssen Sie selbst alles Zumutbare tun, damit die Flüssigkeit nicht in ein Gewässer oder ins Grundwasser gelangt, zum Beispiel ein Leck abdichten oder einen Schacht abdecken, wenn das ohne Gefahr geht. Wer als Inhaber die nötigen Schutzvorrichtungen nicht in Ordnung hält und dadurch Wasser verschmutzt, kann bestraft werden."
+      },
+      "sources": [
+        "gschg-22",
+        "gschg-70"
+      ]
+    },
+    {
+      "id": "authorities-duties",
+      "kind": "rule",
+      "text": {
+        "de": "Die Behörden müssen von sich aus handeln. Jeder Kanton hat eine Fachstelle für Gewässerschutz, eine Gewässerschutzpolizei und einen Schadendienst für Unfälle. Anlagen, die gegen Umweltvorschriften verstossen, müssen saniert werden. In dringenden Fällen ordnet die Behörde Massnahmen sofort an und kann eine Anlage notfalls stilllegen. Wer einen schützenswerten Lebensraum beeinträchtigt, muss für Schutz, Wiederherstellung oder angemessenen Ersatz sorgen. Ihre Meldung kann diese Pflichten auslösen. Einen eigenen Anspruch darauf, dass die Behörde eingreift, gibt sie Ihnen aber nicht."
+      },
+      "sources": [
+        "gschg-49",
+        "usg-16",
+        "nhg-18"
+      ]
+    },
+    {
+      "id": "no-right-to-force",
+      "kind": "warning",
+      "text": {
+        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt sorgt, kann eine Behörde nicht zwingen, einzugreifen. Wer eine Anzeige erstattet oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Klage oder Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Beschwerde führen kann nur, wer stärker betroffen ist als alle anderen und einen eigenen, persönlichen Vorteil vom Verfahren hat. Das Bundesgericht hat das auch für Personen entschieden, die sich stark für den Naturschutz einsetzen. Anliegen der Allgemeinheit gehören in die Politik. Die Wege, die Ihnen offenstehen, sind die Anzeige, die Aufsichtsanzeige, das Einsichtsgesuch, die Einsprache während der öffentlichen Auflage und der Hinweis an eine Umweltorganisation."
+      },
+      "sources": [
+        "bge-139-ii-279",
+        "bge-146-i-145",
+        "bger-2c-532-2025"
+      ]
+    },
+    {
+      "id": "authority-inactive",
+      "kind": "rule",
+      "text": {
+        "de": "Tut die zuständige Behörde nichts, oder verursacht eine Behörde oder ein öffentlicher Betrieb die Verschmutzung selbst, können Sie sich an die übergeordnete Aufsichtsbehörde wenden. Für Bundesbehörden regelt das Bundesrecht diese Aufsichtsanzeige: Jede Person kann jederzeit Tatsachen melden, die ein Einschreiten gegen eine Behörde im öffentlichen Interesse erfordern. Sie haben dabei aber nicht die Rechte einer Partei. Sie haben also keinen Anspruch darauf, dass die Aufsichtsbehörde einschreitet, und können nicht gegen ihr Vorgehen Beschwerde führen. Bei kantonalen und kommunalen Behörden regelt der Kanton die Aufsichtsanzeige. Erkundigen Sie sich auf der Website Ihres Kantons. Straftaten von Angestellten einer Behörde oder eines öffentlichen Betriebs können Sie wie jede andere Straftat bei der Polizei anzeigen."
+      },
+      "sources": [
+        "vwvg-71",
+        "bge-139-ii-279",
+        "stpo-301"
+      ]
+    },
+    {
+      "id": "ask-for-information",
+      "kind": "rule",
+      "text": {
+        "de": "Sie haben das Recht, Umweltinformationen in amtlichen Dokumenten einzusehen und Auskunft über deren Inhalt zu erhalten, zum Beispiel über Kontrollen, Messungen oder Bewilligungen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes. Bei kantonalen Behörden gilt das kantonale Recht. Wo ein Kanton noch keine Regeln hat, gelten die Bundesregeln sinngemäss. Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben geschützt. Die Umweltfachstellen beraten zudem Private. Fragen Sie dort nach, ob der Vorfall bekannt ist, ob eine Bewilligung besteht und was unternommen wird. Oft ist das der schnellste Weg zu klären, ob etwas erlaubt ist."
+      },
+      "sources": [
+        "usg-10g",
+        "usg-10e"
+      ]
+    },
+    {
+      "id": "permits-and-organisations",
+      "kind": "warning",
+      "text": {
+        "de": "Beruht der Eingriff auf einer Bewilligung, etwa für eine Baustelle, eine Rodung oder eine grössere Anlage, können Sie ihn nachträglich kaum mehr stoppen. Einwände müssen in der Regel während der öffentlichen Auflage des Gesuchs erhoben werden. Wie lange diese Frist dauert, wo Gesuche veröffentlicht werden und wer Einsprache erheben darf, regelt Ihr Kanton. Gesamtschweizerische Umwelt- und Naturschutzorganisationen haben in bestimmten Verfahren ein besonderes Beschwerderecht, etwa bei grossen Anlagen, die eine Umweltverträglichkeitsprüfung brauchen. Welche Organisationen das sind, steht im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Umweltschutzorganisationen (VBO). Diese Organisationen verlieren ihr Beschwerderecht aber, wenn sie sich am Einspracheverfahren nicht beteiligen. Informieren Sie eine solche Organisation oder ihre kantonale Sektion deshalb früh, am besten sobald ein Gesuch aufliegt. Gegen Wohnbauten mit weniger als 400 m² Geschossfläche in der Bauzone haben Natur- und Heimatschutzorganisationen kein Beschwerderecht. Ausnahmen gelten etwa in Ortsbildern von nationaler Bedeutung und in Biotopen."
+      },
+      "sources": [
+        "usg-55",
+        "usg-55b",
+        "nhg-12",
+        "nhg-12c",
+        "vbo-1"
+      ]
+    },
+    {
+      "id": "if-affected",
+      "kind": "rule",
+      "when": {
+        "affected": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie selbst in Ihren Rechten betroffen, haben Sie mehr Möglichkeiten. Im Strafverfahren kann sich als Privatklägerin oder Privatkläger beteiligen, wer durch die Tat unmittelbar geschädigt ist, zum Beispiel weil sein Eigentum beschädigt wurde. Viele Umweltdelikte schützen aber nur die Allgemeinheit. Wer nur indirekt betroffen ist, gilt dann nicht als geschädigt. Das Bundesgericht hat das etwa für die Eigentümerin eines beschädigten Moors entschieden, soweit es um die Naturschutz-Delikte ging. Gegenüber einer Bundesbehörde können Sie verlangen, dass sie ein rechtswidriges Handeln unterlässt, seine Folgen beseitigt oder die Rechtswidrigkeit feststellt. Voraussetzung ist, dass das Handeln in Ihre eigene Rechtsstellung eingreift. Die Behörde entscheidet dann mit einer Verfügung, die Sie anfechten können. Bei kantonalen Behörden richtet sich das nach kantonalem Recht. Lassen Sie sich beraten, wenn Sie Schaden an Grundstück, Brunnen, Tieren oder Gesundheit haben."
+      },
+      "sources": [
+        "stpo-301",
+        "bger-1b-96-2018",
+        "bger-1b-96-2018-e22",
+        "vwvg-25a",
+        "bge-140-ii-315"
+      ]
+    },
+    {
+      "id": "no-deadline-but-hurry",
+      "kind": "warning",
+      "text": {
+        "de": "Für eine Strafanzeige und für eine Aufsichtsanzeige setzt das Gesetz keine Frist. Warten Sie trotzdem nicht. Spuren im Wasser oder im Boden verschwinden schnell, und je früher die Behörden Proben nehmen, desto eher lässt sich klären, woher eine Verschmutzung kommt. Anders ist es bei Bewilligungen: Einsprachen sind nur während der Auflagefrist möglich, die Ihr Kanton festlegt. Auch eine Umweltorganisation kann später keine Beschwerde mehr erheben, wenn sie sich an der Einsprache nicht beteiligt hat."
+      },
+      "sources": [
+        "stpo-301",
+        "vwvg-71",
+        "usg-55b"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn Sie selbst einen Schaden haben, etwa an Ihrem Grundstück, Ihrem Brunnen, Ihren Tieren oder Ihrer Gesundheit, und Schadenersatz verlangen möchten. Das gilt auch, wenn Sie sich als Privatklägerin oder Privatkläger am Strafverfahren beteiligen wollen, wenn Sie gegen eine Bewilligung vorgehen möchten oder wenn Ihnen selbst vorgeworfen wird, eine Verschmutzung verursacht zu haben. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Chancen und Kosten einschätzen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose Anlaufstellen: In Notfällen die Polizei (117) oder die Feuerwehr (118). Sonst die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt oder Amt für Wasser und Abfall genannt, mit ihrem Gewässerschutz-Pikett. Für Natur, Wald und Wildtiere die kantonalen Fachstellen für Naturschutz, Wald sowie Jagd und Fischerei, auch die Wildhut. Ihre Gemeinde weiss, wer vor Ort zuständig ist, und kennt die Bauvorhaben in der Gemeinde. Die beschwerdeberechtigten Umwelt- und Naturschutzorganisationen und ihre kantonalen Sektionen nehmen Hinweise entgegen."
+      }
+    }
+  ],
+  "sources": {
+    "stpo-301": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "301",
+      "label": "StPO · Art. 301",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_301",
+      "sha256": "4314f92e5fd0daeddc623afb043b9ce1d1cddf6738bfd8e66d92a051928d2db2"
+    },
+    "gschg-6": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "6",
+      "label": "GSchG · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_6",
+      "sha256": "2d37ecaf5e9cfafb393eaa4a524ad60d2debc1d0ba19ca32653aec7ad0eb2205"
+    },
+    "gschg-22": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "22",
+      "label": "GSchG · Art. 22",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_22",
+      "sha256": "ac7b378af40fa85db55607481a416fc10a4dc7f76590a95f25fa43d9db7a324e"
+    },
+    "gschg-49": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "49",
+      "label": "GSchG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_49",
+      "sha256": "36de77699a1dea4e1c9338764108c67c94285f6029f940bc96d1ee57f5d17909"
+    },
+    "gschg-70": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "70",
+      "label": "GSchG · Art. 70",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_70",
+      "sha256": "1ac05ec5582e8bb4044869ed95bf6f45d370991838ed59df64355ac7caeafc33"
+    },
+    "gschg-71": {
+      "type": "statute",
+      "sr": "814.20",
+      "article": "71",
+      "label": "GSchG · Art. 71",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/1860_1860_1860/de#art_71",
+      "sha256": "872a7270afc439b42d0070d62b363abfd980958af7c3f5ebd32335059fef4a32"
+    },
+    "usg-10e": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10e",
+      "label": "USG · Art. 10e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10e",
+      "sha256": "cb1066c2d9a6c94c1b8bd1a7f16082ea1ab1b6a7768932011894136e03389c76"
+    },
+    "usg-10g": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10g",
+      "label": "USG · Art. 10g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10g",
+      "sha256": "e38a6bb4b42e4fed80d2448695065dc1f5fbf2ee03d51c15356ba2624e5ace10"
+    },
+    "usg-16": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "16",
+      "label": "USG · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_16",
+      "sha256": "6cd6ee954ed4c0d8ee090411c704675c483c3e28f8b451f180e8f18b6a7c2642"
+    },
+    "usg-30c": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "30c",
+      "label": "USG · Art. 30c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_30c",
+      "sha256": "64913ca9f507e385d90573775902ec9589269d69762990daf42a9c406837d9a4"
+    },
+    "usg-31b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "31b",
+      "label": "USG · Art. 31b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_31b",
+      "sha256": "b30c431e0735e6aa5e54b4b4a6e766f23ca19bc018b5f4242c5fd4e0212d751c"
+    },
+    "usg-55": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55",
+      "label": "USG · Art. 55",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55",
+      "sha256": "794cc513035846aa9b8120cda856f0985237233b0f7c95537cb188deb6497614"
+    },
+    "usg-55b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55b",
+      "label": "USG · Art. 55b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55b",
+      "sha256": "ff9dae9ecbfac6c1c39500625a5cf97fd6e86f8bff376614f72dceb658be12b5"
+    },
+    "usg-60": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "60",
+      "label": "USG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_60",
+      "sha256": "9c8d432f6faee074f9d44108451bd13548cb041a5d4befb1432b365551c964dd"
+    },
+    "usg-61": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "61",
+      "label": "USG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_61",
+      "sha256": "8b39162e8767665862846871898b84370a557e6cc41faf53c78d22ab286a8b8e"
+    },
+    "nhg-12": {
+      "type": "statute",
+      "sr": "451",
+      "article": "12",
+      "label": "NHG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_12",
+      "sha256": "a5410350ce8317ed0c50740218af06e22f465d33d7166441d78fcea4c0477000"
+    },
+    "nhg-12c": {
+      "type": "statute",
+      "sr": "451",
+      "article": "12c",
+      "label": "NHG · Art. 12c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_12c",
+      "sha256": "42409ec4f09550891cf5069e6e1e0b57cf8046ffa9fe65e74e35486c1f00ff37"
+    },
+    "nhg-18": {
+      "type": "statute",
+      "sr": "451",
+      "article": "18",
+      "label": "NHG · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_18",
+      "sha256": "7b55d323e9584cc7bc43eff73857dbe18fbf04cbc9e9bb9ded58bc901a6eea2f"
+    },
+    "nhg-24": {
+      "type": "statute",
+      "sr": "451",
+      "article": "24",
+      "label": "NHG · Art. 24",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_24",
+      "sha256": "9a3f4314b50fb61cc92a5a4164760bc6c462e030241d08c94110631ccb1ba1d2"
+    },
+    "nhg-24a": {
+      "type": "statute",
+      "sr": "451",
+      "article": "24a",
+      "label": "NHG · Art. 24a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_24a",
+      "sha256": "604f984840ed7c5d28e6d12c2604dd1024ce0f47726bba62cb2ed97cb7ad0d23"
+    },
+    "wag-5": {
+      "type": "statute",
+      "sr": "921.0",
+      "article": "5",
+      "label": "WaG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/de#art_5",
+      "sha256": "3876abfd915d4662435912af0163b4fb2ebc22be610f46407e82300b02e66822"
+    },
+    "wag-42": {
+      "type": "statute",
+      "sr": "921.0",
+      "article": "42",
+      "label": "WaG · Art. 42",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/de#art_42",
+      "sha256": "14fc1b482ddc40c67e03d130be5eafcd65f6fefbf86b0845139d31c79a8d94ce"
+    },
+    "wag-43": {
+      "type": "statute",
+      "sr": "921.0",
+      "article": "43",
+      "label": "WaG · Art. 43",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/de#art_43",
+      "sha256": "17b5dcb0f01a6035e07a03d8c68ab8c6561daaceebd82addf61b6399c991cef1"
+    },
+    "jsg-7": {
+      "type": "statute",
+      "sr": "922.0",
+      "article": "7",
+      "label": "JSG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1988/506_506_506/de#art_7",
+      "sha256": "c31a3617a4187de2235bce0808c7fac12624cdf06fbdd4e37578ee7472f03d21"
+    },
+    "jsg-17": {
+      "type": "statute",
+      "sr": "922.0",
+      "article": "17",
+      "label": "JSG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1988/506_506_506/de#art_17",
+      "sha256": "01e5019c0c9eac8e6ac69c47d44688a6d2123d9cec862480ec02b865037a3ff4"
+    },
+    "jsg-18": {
+      "type": "statute",
+      "sr": "922.0",
+      "article": "18",
+      "label": "JSG · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1988/506_506_506/de#art_18",
+      "sha256": "fe2bbbbbdf425cb5f72704ea3a84d6d34b4746437e7e77d70cf01f7acf25c51a"
+    },
+    "vwvg-25a": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "25a",
+      "label": "VwVG · Art. 25a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_25a",
+      "sha256": "363117efa362fa648d69e6db04a20ebdd3f6630b475426fd87ae16cd2b538d33"
+    },
+    "vwvg-71": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "71",
+      "label": "VwVG · Art. 71",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_71",
+      "sha256": "a65b2135a793b83e0ec2f497fc9ced7a9f5f7ea60293536eadac691f377bb79b"
+    },
+    "vbo-1": {
+      "type": "statute",
+      "sr": "814.076",
+      "article": "1",
+      "label": "VBO · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de#art_1",
+      "sha256": "16a3cbd76a8427f0810b9499b0eb34d50d172c98fed9b737a6cacfc5d3faf2fa"
+    },
+    "bge-139-ii-279": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_279",
+      "citation": "BGE 139 II 279",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_279#e-2-3"
+    },
+    "bge-146-i-145": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    },
+    "bge-140-ii-315": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_II_315",
+      "citation": "BGE 140 II 315",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_II_315#e-4-3"
+    },
+    "bger-2c-532-2025": {
+      "type": "decision",
+      "decision_id": "bger_2C_532_2025-D20260721",
+      "citation": "BGer 2C_532/2025 vom 21. Juli 2026",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_2C_532_2025-D20260721#e-4-2"
+    },
+    "bger-1b-96-2018": {
+      "type": "decision",
+      "decision_id": "bger_1B_96_2018",
+      "citation": "BGer 1B_96/2018 vom 24. Mai 2018",
+      "e": "2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1B_96_2018#e-2-1"
+    },
+    "bger-1b-96-2018-e22": {
+      "type": "decision",
+      "decision_id": "bger_1B_96_2018",
+      "citation": "BGer 1B_96/2018 vom 24. Mai 2018",
+      "e": "2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1B_96_2018#e-2-2"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "BAFU: Verbandsbeschwerderecht der Umweltorganisationen"
+      },
+      "url": "https://www.bafu.admin.ch/de/verbandsbeschwerderecht"
+    },
+    {
+      "label": {
+        "de": "Kanton Zürich: Gewässerschutz-Pikettdienst"
+      },
+      "url": "https://www.zh.ch/de/umwelt-tiere/wasser-gewaesser/gewaesserschutz/gewaesserschutz-pikettdienst.html"
+    },
+    {
+      "label": {
+        "de": "Kanton Aargau: Schadendienst bei Umweltunfällen"
+      },
+      "url": "https://www.ag.ch/de/verwaltung/bvu/umwelt-natur-landschaft/umwelt/schadendienst"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

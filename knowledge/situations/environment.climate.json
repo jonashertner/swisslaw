@@ -1,0 +1,658 @@
+{
+  "schema": 1,
+  "id": "environment.climate",
+  "domain": "environment",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Klimaschutz: Was kann ich rechtlich tun?"
+  },
+  "summary": {
+    "de": "Die Schweiz hat sich per Gesetz verpflichtet, bis 2050 unter dem Strich keine Treibhausgase mehr auszustossen. Diese Ziele binden den Staat. Als Einzelperson können Sie sie aber fast nie vor Gericht einklagen, und eine Klage im Namen der Allgemeinheit gibt es nicht. Wirksam sind vor allem politische Wege: wählen und abstimmen, Initiativen und Referenden, Petitionen und Stellungnahmen in Vernehmlassungen. Dazu kommen das Recht auf Umweltinformationen und, bei grossen Bauprojekten, die rechtzeitige Mitwirkung über beschwerdeberechtigte Organisationen. Der Europäische Gerichtshof für Menschenrechte hat 2024 einem Schweizer Klimaverein recht gegeben, die Beschwerden der einzelnen Frauen aber nicht zugelassen."
+  },
+  "examples": {
+    "de": [
+      "Kann ich den Bund verklagen, weil er zu wenig fürs Klima macht?",
+      "Was bringt mir das Urteil der KlimaSeniorinnen persönlich?",
+      "Bi eus wird e neui Autobahn plant. Chan ich wägem Klima dagege Iisprach mache?",
+      "Ich bin herzkrank und halte die Hitze im Sommer kaum aus. Muss der Staat mich schützen?",
+      "Wo finde ich offizielle Zahlen zum CO2-Ausstoss der Schweiz?",
+      "Wir wollen als Verein etwas gegen die lasche Klimapolitik unternehmen. Geht das rechtlich?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Was Einzelpersonen und Vereine rechtlich tun können, damit Bund und Kantone mehr für den Klimaschutz tun: die gesetzlichen Klimaziele, die Grenzen von Klagen, das Urteil des Europäischen Gerichtshofs für Menschenrechte von 2024, politische Mitwirkung, Petition, Vernehmlassung, Umweltinformationen, Aufsichtsanzeigen und die Mitwirkung bei grossen Bauprojekten."
+    },
+    "excludes": {
+      "de": "Streit mit Nachbarn (etwa um Wärmepumpen oder Cheminées), Klagen gegen private Unternehmen auf Schadenersatz, Strafverfahren gegen Klimaaktivistinnen und -aktivisten sowie Förderbeiträge für das eigene Haus. Kantonale Verfahren und Fristen sind nur allgemein beschrieben; sie richten sich nach dem Recht Ihres Kantons."
+    }
+  },
+  "facts": [
+    {
+      "key": "want",
+      "question": {
+        "de": "Was möchten Sie erreichen?"
+      },
+      "options": [
+        {
+          "value": "state",
+          "label": {
+            "de": "Dass Bund oder Kanton mehr für den Klimaschutz tun"
+          }
+        },
+        {
+          "value": "project",
+          "label": {
+            "de": "Ein bestimmtes Projekt mit hohem Ausstoss verhindern oder ändern, zum Beispiel eine Strasse oder eine grosse Anlage"
+          }
+        },
+        {
+          "value": "facts",
+          "label": {
+            "de": "Fakten und Zahlen erfahren"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "alone",
+      "question": {
+        "de": "Handeln Sie allein oder mit anderen zusammen?"
+      },
+      "options": [
+        {
+          "value": "alone",
+          "label": {
+            "de": "Allein"
+          }
+        },
+        {
+          "value": "group",
+          "label": {
+            "de": "Ich bin in einem Verein oder würde mich einem anschliessen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "exposed",
+      "question": {
+        "de": "Sind Sie durch den Klimawandel persönlich besonders gefährdet?"
+      },
+      "help": {
+        "de": "Zum Beispiel, weil eine schwere Krankheit bei Hitze deutlich schlimmer wird. Gemeint ist mehr als das, was die meisten Menschen in der Schweiz erleben."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "targets",
+      "kind": "rule",
+      "text": {
+        "de": "Das Klima- und Innovationsgesetz (KlG) verpflichtet den Bund: Bis 2050 soll die Wirkung der Treibhausgase aus der Schweiz unter dem Strich null betragen (Netto-Null). Dafür gibt es Zwischenziele, gemessen an 1990: im Durchschnitt der Jahre 2031 bis 2040 mindestens 64 Prozent weniger, bis 2040 mindestens 75 Prozent weniger und im Durchschnitt der Jahre 2041 bis 2050 mindestens 89 Prozent weniger. Das CO2-Gesetz verlangt, dass der Ausstoss 2030 höchstens halb so gross ist wie 1990. Bund und Kantone müssen sich im Rahmen ihrer Zuständigkeiten für diese Ziele einsetzen. Auch andere Gesetze, etwa zu Energie, Raumplanung oder Verkehr, sollen so gestaltet und angewendet werden, dass sie zu den Zielen beitragen. Wichtig: Diese Ziele richten sich an den Staat. Keines dieser Gesetze gibt Ihnen ein eigenes Klagerecht, mit dem Sie ihre Einhaltung erzwingen könnten."
+      },
+      "sources": [
+        "klg-3",
+        "co2g-3",
+        "klg-11",
+        "klg-12"
+      ]
+    },
+    {
+      "id": "no-popular-action",
+      "kind": "warning",
+      "text": {
+        "de": "Eine Klage im Namen der Allgemeinheit gibt es in der Schweiz nicht. Wer von einer Bundesbehörde verlangt, ein Handeln zu unterlassen, zu ändern oder als rechtswidrig festzustellen, muss selbst in seinen Rechten betroffen sein, und zwar spürbar. Genau daran scheiterten ältere Frauen, die zusammen mit ihrem Verein vom Bund mehr Klimaschutz verlangten. Das Bundesgericht hielt 2020 fest: Die Frauen seien von der Erwärmung nicht stärker betroffen als die übrige Bevölkerung. Ihr Begehren diene einem allgemeinen Anliegen und gehöre in die Politik, nicht vor Gericht. Rechnen Sie deshalb nicht damit, dass ein Gericht auf eine Klage eintritt, nur weil Sie sich um das Klima sorgen."
+      },
+      "sources": [
+        "vwvg-25a",
+        "bge-146-i-145-e44",
+        "bge-146-i-145-e55"
+      ]
+    },
+    {
+      "id": "strasbourg-judgment",
+      "kind": "rule",
+      "text": {
+        "de": "Der Verein KlimaSeniorinnen zog danach an den Europäischen Gerichtshof für Menschenrechte in Strassburg. Dieser entschied am 9. April 2024: Artikel 8 der Europäischen Menschenrechtskonvention (EMRK), der das Privat- und Familienleben schützt, umfasst auch einen Anspruch darauf, dass der Staat die Menschen wirksam vor schweren Folgen des Klimawandels für Leben, Gesundheit und Wohlbefinden schützt. Die Schweiz hat dieses Recht verletzt, unter anderem weil sie ihre zulässigen Emissionen nicht beziffert hatte, etwa mit einem CO2-Budget, und frühere eigene Ziele verfehlt hatte. Zudem hatten die Schweizer Gerichte sich mit dem Anliegen des Vereins nicht ernsthaft befasst. Das verletzte sein Recht auf Zugang zu einem Gericht. Die Beschwerden der vier einzelnen Frauen erklärte der Gerichtshof dagegen für unzulässig. Das Urteil schreibt der Schweiz keine bestimmten Massnahmen vor. Ob sie es umsetzt, überwacht das Ministerkomitee des Europarats. Der Bundesrat erklärte im August 2024, die Schweiz erfülle die klimapolitischen Anforderungen des Urteils. Den aktuellen Stand finden Sie auf den Seiten des Bundes (Links unten)."
+      },
+      "sources": [
+        "egmr-klimaseniorinnen"
+      ]
+    },
+    {
+      "id": "association-standing",
+      "kind": "rule",
+      "when": {
+        "alone": [
+          "group",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Vor dem Gerichtshof in Strassburg kann ein Verein in Klimafragen Beschwerde führen, auch wenn seine Mitglieder die sehr hohe Hürde für Einzelpersonen nicht nehmen. Der Verein muss drei Bedingungen erfüllen. Erstens ist er in der Schweiz rechtmässig gegründet oder darf hier klagen. Zweitens setzt er sich laut Statuten gezielt für die Grundrechte seiner Mitglieder oder anderer Betroffener ein, zum Beispiel gegen die Gefahren des Klimawandels. Drittens kann er zeigen, dass er wirklich für Menschen spricht, deren Leben, Gesundheit oder Wohlbefinden durch den Klimawandel bedroht ist. Der Gerichtshof achtet dabei etwa auf den Vereinszweck, ob der Verein ohne Gewinnabsicht arbeitet, wie gross und aktiv er ist und wie offen er geführt wird. Nach Strassburg gelangt ein Verein erst, wenn er alle Schweizer Rechtsmittel ausgeschöpft hat. Danach bleiben ihm vier Monate ab dem letzten Schweizer Entscheid."
+      },
+      "sources": [
+        "egmr-klimaseniorinnen",
+        "emrk-35"
+      ]
+    },
+    {
+      "id": "association-switzerland",
+      "kind": "warning",
+      "when": {
+        "alone": [
+          "group",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "In der Schweiz selbst ist offen, ob ein Verein wegen der Klimapolitik vor Gericht gehen kann. Im Interesse der Umwelt dürfen Organisationen grundsätzlich nur dort Beschwerde führen, wo ein Bundesgesetz es ihnen ausdrücklich erlaubt, etwa Umweltorganisationen bei grossen Anlagen mit Umweltverträglichkeitsprüfung. Für die allgemeine Klimapolitik fehlt eine solche Regel. Ein Verein, der klagen will, sollte sich deshalb früh von einer Fachperson beraten lassen."
+      },
+      "sources": [
+        "vwvg-48",
+        "usg-55"
+      ]
+    },
+    {
+      "id": "join-others",
+      "kind": "step",
+      "when": {
+        "alone": [
+          "alone",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Allein haben Sie in Klimafragen vor Gericht kaum Aussichten. Gemeinsam erreichen Sie oft mehr: Unterstützen Sie einen Verein, der sich für den Klimaschutz einsetzt, oder werden Sie Mitglied. Ein Verein kann Petitionen breit abstützen, in Vernehmlassungen Stellung nehmen und, wenn er die Bedingungen erfüllt, Beschwerde führen. Eine Petition oder eine Stellungnahme in einer Vernehmlassung können Sie aber auch allein einreichen."
+      }
+    },
+    {
+      "id": "exposed-high-bar",
+      "kind": "warning",
+      "when": {
+        "exposed": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Klage als Einzelperson ist nur in seltenen Ausnahmefällen denkbar. Sie müssen dann selbst und unmittelbar betroffen sein, deutlich stärker als die übrige Bevölkerung. Der Gerichtshof in Strassburg verlangt, dass Sie den Folgen des Klimawandels sehr stark ausgesetzt sind und dringend persönlichen Schutz brauchen. Die Hürde ist bewusst sehr hoch. Bei den älteren Frauen im Fall KlimaSeniorinnen reichte es nicht: Es war nicht belegt, dass ihre Gesundheit bei Hitze kritisch gefährdet war und dass sich das nicht durch Anpassung, etwa im Alltag oder mit staatlichen Hitzemassnahmen, mildern liess. In der Schweiz führt der Weg über ein Gesuch an die zuständige Bundesbehörde, die darüber verfügen muss, und danach über die Gerichte. Erst dann ist eine Beschwerde in Strassburg möglich, und zwar innert vier Monaten nach dem letzten Schweizer Entscheid. Lassen Sie sich vorher beraten und sammeln Sie ärztliche Unterlagen, die Ihre besondere Gefährdung belegen."
+      },
+      "sources": [
+        "vwvg-25a",
+        "bge-146-i-145-e44",
+        "egmr-klimaseniorinnen",
+        "emrk-35"
+      ]
+    },
+    {
+      "id": "political-rights",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "state",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Das Bundesgericht verweist Klimaanliegen ausdrücklich auf den demokratischen Weg. Wenn Sie das Schweizer Bürgerrecht haben und mindestens 18 Jahre alt sind, können Sie bei eidgenössischen Wahlen und Abstimmungen mitbestimmen sowie Volksinitiativen und Referenden unterschreiben oder selbst lancieren. Wer in Kanton und Gemeinde stimmen darf, regelt das kantonale Recht. Unabhängig vom Stimmrecht dürfen Sie Ihre Meinung öffentlich äussern, sich mit anderen zusammenschliessen und Petitionen einreichen."
+      },
+      "sources": [
+        "bv-34",
+        "bv-136",
+        "bge-146-i-145-e43"
+      ]
+    },
+    {
+      "id": "petition",
+      "kind": "rule",
+      "text": {
+        "de": "Jede Person darf sich mit einer Petition an eine Behörde wenden, also mit einer Bitte, einem Vorschlag oder einer Kritik. Dafür braucht es kein Stimmrecht. Sie darf Ihnen keine Nachteile bringen. Eine Petition kann an Bund, Kanton oder Gemeinde gehen, zum Beispiel an ein Parlament oder eine Regierung. Schreiben Sie Ihr Anliegen klar auf und unterschreiben Sie mit Name und Adresse; weitere Personen können mitunterzeichnen. Die Bundesverfassung verlangt nur, dass die Behörde die Petition zur Kenntnis nimmt. Einen Anspruch auf eine Antwort oder darauf, dass Ihrem Anliegen gefolgt wird, gibt sie Ihnen nicht. Kantonsverfassungen und Parlamentsregeln können mehr vorsehen."
+      },
+      "sources": [
+        "bv-33"
+      ]
+    },
+    {
+      "id": "consultation",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "state",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bevor der Bund wichtige Gesetze, Verordnungen oder Verträge beschliesst, führt er eine Vernehmlassung durch. Daran kann sich jede Person und jede Organisation beteiligen und eine Stellungnahme einreichen, auch zu Vorlagen über Klima, Energie oder Verkehr. Das Klimagesetz verlangt, dass der Bundesrat die betroffenen Kreise anhört, bevor er dem Parlament die Massnahmen für die nächsten Zeitabschnitte vorschlägt. Die laufenden Vernehmlassungen mit allen Unterlagen finden Sie auf der Publikationsplattform des Bundes (Link unten). Auch Kantone führen Vernehmlassungen durch; wie, regelt das kantonale Recht."
+      },
+      "sources": [
+        "vlg-4",
+        "klg-11"
+      ]
+    },
+    {
+      "id": "consultation-deadline",
+      "kind": "warning",
+      "when": {
+        "want": [
+          "state",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Vernehmlassung des Bundes dauert mindestens drei Monate. Über den Sommer, über Weihnachten und Neujahr sowie über Ostern verlängert sich diese Mindestfrist. Ist eine Vorlage dringend, kann die Frist ausnahmsweise kürzer sein. Massgebend ist das Datum, das die Behörde bei der Eröffnung der Vernehmlassung nennt. Reichen Sie Ihre Stellungnahme vorher ein."
+      },
+      "sources": [
+        "vlg-7"
+      ]
+    },
+    {
+      "id": "information",
+      "kind": "rule",
+      "text": {
+        "de": "Die Behörden müssen die Öffentlichkeit über den Umweltschutz und den Zustand der Umwelt informieren und ihre Erhebungen veröffentlichen. Die Zahlen zu den Treibhausgasen der Schweiz stellt das Bundesamt für Umwelt (BAFU) im Treibhausgasinventar bereit (Link unten). Brauchen Sie mehr, dürfen Sie amtliche Dokumente mit Umweltinformationen einsehen und Auskunft über ihren Inhalt verlangen. Bei Bundesbehörden gilt dafür das Öffentlichkeitsgesetz des Bundes, bei kantonalen Behörden das kantonale Recht. Beschreiben Sie im Gesuch möglichst genau, welche Unterlagen Sie suchen."
+      },
+      "sources": [
+        "usg-10e",
+        "usg-10g",
+        "bgoe-6"
+      ]
+    },
+    {
+      "id": "project-who",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "project",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen einen Entscheid über ein bestimmtes Projekt, etwa eine Strasse, einen Flugplatz oder eine grosse Anlage, kann nur Beschwerde führen, wer davon besonders betroffen ist, also deutlich stärker als die Allgemeinheit, und ein schutzwürdiges Interesse hat. In der Regel sind das Personen in unmittelbarer Nähe. Die allgemeine Sorge um das Klima genügt nicht. Das Bundesverwaltungsgericht hielt 2026 fest, dass sich Private kaum auf das Strassburger Klimaurteil stützen können, um ein bestimmtes Projekt zu bekämpfen. Wer eine Behörde nur auf einen Missstand hinweist, wird dadurch nicht Partei des Verfahrens."
+      },
+      "sources": [
+        "vwvg-48",
+        "bgg-89",
+        "bvger-a-2870-2024",
+        "bge-139-ii-279"
+      ]
+    },
+    {
+      "id": "project-organisations",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "project",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für grosse Anlagen, welche die Umwelt erheblich belasten können, ist eine Umweltverträglichkeitsprüfung nötig. Gegen Entscheide zu solchen Anlagen dürfen bestimmte Umweltorganisationen Beschwerde führen, ohne selbst betroffen zu sein. Sie müssen in der ganzen Schweiz tätig sein, rein ideelle Zwecke verfolgen und das betreffende Rechtsgebiet seit mindestens zehn Jahren in ihren Statuten haben. Welche Organisationen das sind, steht in einer Liste des Bundesrates. Die Entscheide zu solchen Anlagen werden den Organisationen mitgeteilt oder amtlich publiziert; gibt es ein Einspracheverfahren, wird schon das Gesuch publiziert. Ob sich im einzelnen Verfahren auch Klimaargumente vorbringen lassen, hängt vom Projekt und vom anwendbaren Recht ab. Halten Sie ein Projekt für problematisch, informieren Sie eine dieser Organisationen früh und geben Sie ihr Ihre Hinweise weiter."
+      },
+      "sources": [
+        "usg-10a",
+        "usg-55",
+        "usg-55a",
+        "vbo-1"
+      ]
+    },
+    {
+      "id": "project-deadline",
+      "kind": "warning",
+      "when": {
+        "want": [
+          "project",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei Bauprojekten entscheidet der Zeitpunkt. Gesuche werden in der Regel öffentlich aufgelegt oder publiziert, zum Beispiel im kantonalen Amtsblatt. Wer mitreden will, muss innerhalb der dort genannten Frist Einsprache erheben. In Verfahren nach Bundesrecht kann nur Beschwerde führen, wer sich vorher beteiligt hat oder keine Gelegenheit dazu hatte. Für Umweltorganisationen sagt das Gesetz ausdrücklich: Wer sich an einem Einspracheverfahren nicht beteiligt hat, kann später keine Beschwerde mehr erheben. Wie lange die Einsprachefrist dauert, hängt vom Verfahren ab und ist oft kantonal geregelt. Massgebend ist die Frist in der Publikation. Informieren Sie eine Organisation deshalb schon während der Auflage, nicht erst nach dem Entscheid."
+      },
+      "sources": [
+        "vwvg-48",
+        "usg-55a",
+        "usg-55b"
+      ]
+    },
+    {
+      "id": "supervisory-report",
+      "kind": "rule",
+      "when": {
+        "want": [
+          "state",
+          "project",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Halten Sie das Vorgehen einer Bundesbehörde für rechtswidrig, können Sie das jederzeit ihrer Aufsichtsbehörde melden, wenn ein Einschreiten im öffentlichen Interesse nötig ist. Das heisst Aufsichtsanzeige. Sie werden dadurch aber nicht Partei: Sie können nicht verlangen, dass die Aufsichtsbehörde tätig wird, und ihren Entscheid nicht anfechten. Für kantonale und kommunale Behörden gelten die Regeln Ihres Kantons."
+      },
+      "sources": [
+        "vwvg-71",
+        "bge-139-ii-279"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Erwägen Sie oder Ihr Verein ein Gesuch an eine Behörde, eine Beschwerde oder eine Beschwerde in Strassburg, lassen Sie sich vorher von einer Anwältin oder einem Anwalt mit Erfahrung im öffentlichen Recht oder in Menschenrechtsfragen beraten. Solche Verfahren dauern oft Jahre, die Hürden sind hoch, und bei einer Niederlage können Kosten anfallen. Klären Sie zuerst, ob die Voraussetzungen erfüllt sind und welche Fristen laufen."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Eine erste kostenlose oder günstige Rechtsauskunft bieten in vielen Kantonen und Städten unentgeltliche Rechtsberatungsstellen. Zu Bauprojekten können Sie sich an die beschwerdeberechtigten Umweltorganisationen wenden; die Liste finden Sie im Anhang der Verordnung SR 814.076 (Link unten). Die kantonale Umweltfachstelle berät auch Private zu Umweltfragen. Fachinformationen zu Klima und Treibhausgasen bietet das Bundesamt für Umwelt. Wie Sie eine Petition an den Bundesrat oder die Bundesversammlung richten, erklärt die Bundeskanzlei (Link unten)."
+      },
+      "sources": [
+        "usg-10e"
+      ]
+    }
+  ],
+  "sources": {
+    "klg-3": {
+      "type": "statute",
+      "sr": "814.310",
+      "article": "3",
+      "label": "KlG · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2023/655/de#art_3",
+      "sha256": "7e16b29aa67d2fc754a80ddd39647380993c9bb1ebd867ff4496895dbb4ad72f"
+    },
+    "klg-11": {
+      "type": "statute",
+      "sr": "814.310",
+      "article": "11",
+      "label": "KlG · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2023/655/de#art_11",
+      "sha256": "eb6fa978bed8ca2bad6e49a7e29db400e7cb83c78e92cdff0ef4ae9b91e1976f"
+    },
+    "klg-12": {
+      "type": "statute",
+      "sr": "814.310",
+      "article": "12",
+      "label": "KlG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2023/655/de#art_12",
+      "sha256": "b97d0665bd852b4997a1203af7248352cad0fda6ebcdb54ef34ebb0cbf94af12"
+    },
+    "co2g-3": {
+      "type": "statute",
+      "sr": "641.71",
+      "article": "3",
+      "label": "CO2-Gesetz · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2012/855/de#art_3",
+      "sha256": "1bf8f809eaab1a4572f787862290875b56dd3b10c98d771ca87720ebcbac8a1a"
+    },
+    "bv-33": {
+      "type": "statute",
+      "sr": "101",
+      "article": "33",
+      "label": "BV · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_33",
+      "sha256": "6b0a2e5ae9e2e329013bc061b99f1bbc20461c1f046ea5970d1e6bbba63441c7"
+    },
+    "bv-34": {
+      "type": "statute",
+      "sr": "101",
+      "article": "34",
+      "label": "BV · Art. 34",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_34",
+      "sha256": "04584c25b2cf4b16de9dd5a3a7128c16a45a8b1d76dc05ac34a0c7430bcf64fe"
+    },
+    "bv-136": {
+      "type": "statute",
+      "sr": "101",
+      "article": "136",
+      "label": "BV · Art. 136",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_136",
+      "sha256": "e762f8fd3ce6b66a683a19060293c4fd36fdf76d28279c3eb410099572112567"
+    },
+    "vlg-4": {
+      "type": "statute",
+      "sr": "172.061",
+      "article": "4",
+      "label": "VlG · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/542/de#art_4",
+      "sha256": "7d9fbad99ba1464c7ff250dcd6bc2195c4fffc395e641f0ceb5f0ac121808cf5"
+    },
+    "vlg-7": {
+      "type": "statute",
+      "sr": "172.061",
+      "article": "7",
+      "label": "VlG · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/542/de#art_7",
+      "sha256": "af8a19f926adf57d3f694faf09fdc2506332fea7ca05f0b3596ec68f6b1aeed1"
+    },
+    "usg-10a": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10a",
+      "label": "USG · Art. 10a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10a",
+      "sha256": "d047144847c989da5877059b80623f89731a49d21415b3f369393c54f5ff3f7e"
+    },
+    "usg-10e": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10e",
+      "label": "USG · Art. 10e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10e",
+      "sha256": "cb1066c2d9a6c94c1b8bd1a7f16082ea1ab1b6a7768932011894136e03389c76"
+    },
+    "usg-10g": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10g",
+      "label": "USG · Art. 10g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10g",
+      "sha256": "e38a6bb4b42e4fed80d2448695065dc1f5fbf2ee03d51c15356ba2624e5ace10"
+    },
+    "usg-55": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55",
+      "label": "USG · Art. 55",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55",
+      "sha256": "794cc513035846aa9b8120cda856f0985237233b0f7c95537cb188deb6497614"
+    },
+    "usg-55a": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55a",
+      "label": "USG · Art. 55a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55a",
+      "sha256": "fbaf5793a99d0190a0062b8fc4bd6de2c288a8726a4f1914d71209f4d0afa6e5"
+    },
+    "usg-55b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55b",
+      "label": "USG · Art. 55b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55b",
+      "sha256": "ff9dae9ecbfac6c1c39500625a5cf97fd6e86f8bff376614f72dceb658be12b5"
+    },
+    "vbo-1": {
+      "type": "statute",
+      "sr": "814.076",
+      "article": "1",
+      "label": "VBO · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de#art_1",
+      "sha256": "16a3cbd76a8427f0810b9499b0eb34d50d172c98fed9b737a6cacfc5d3faf2fa"
+    },
+    "bgoe-6": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "6",
+      "label": "BGÖ · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_6",
+      "sha256": "ff40be9e38689f49caad4a01d63a16a59e87cea69dd0c020df7b3f2603acd294"
+    },
+    "vwvg-25a": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "25a",
+      "label": "VwVG · Art. 25a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_25a",
+      "sha256": "363117efa362fa648d69e6db04a20ebdd3f6630b475426fd87ae16cd2b538d33"
+    },
+    "vwvg-48": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "48",
+      "label": "VwVG · Art. 48",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_48",
+      "sha256": "1860b832178e49aeda4c0eab89611b274a2e17142769af3ac235072f2edce312"
+    },
+    "vwvg-71": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "71",
+      "label": "VwVG · Art. 71",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_71",
+      "sha256": "a65b2135a793b83e0ec2f497fc9ced7a9f5f7ea60293536eadac691f377bb79b"
+    },
+    "bgg-89": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "89",
+      "label": "BGG · Art. 89",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_89",
+      "sha256": "a1da21115a23b254f6fab9bc12d5afcc4c97f049d3f20e0f3fbcf759bdd4ae47"
+    },
+    "emrk-35": {
+      "type": "statute",
+      "sr": "0.101",
+      "article": "35",
+      "label": "EMRK · Art. 35",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1974/2151_2151_2151/de#art_35",
+      "sha256": "caae05917789de6fca703a27f47cb6b7342f9415953f3d7f1c3c60f40b7dfc6f"
+    },
+    "bge-146-i-145-e43": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-4-3"
+    },
+    "bge-146-i-145-e44": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "4.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-4-4"
+    },
+    "bge-146-i-145-e55": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    },
+    "bge-139-ii-279": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_279",
+      "citation": "BGE 139 II 279",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_279#e-2-3"
+    },
+    "egmr-klimaseniorinnen": {
+      "type": "decision",
+      "decision_id": "bge_egmr_20240409_53600_20",
+      "citation": "EGMR Verein Klimaseniorinnen Schweiz et autres c. Suisse, Nr. 53600/20 vom 9. April 2024",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_egmr_20240409_53600_20"
+    },
+    "bvger-a-2870-2024": {
+      "type": "decision",
+      "decision_id": "bvger_A-2870_2024",
+      "citation": "BVGer A-2870/2024 vom 31. März 2026",
+      "e": "22.2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bvger_A-2870_2024#e-22-2-3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Klimapolitik der Schweiz (Bundesamt für Umwelt)"
+      },
+      "url": "https://www.bafu.admin.ch/de/klimapolitik"
+    },
+    {
+      "label": {
+        "de": "Treibhausgasinventar der Schweiz (Bundesamt für Umwelt)"
+      },
+      "url": "https://www.bafu.admin.ch/de/treibhausgasinventar"
+    },
+    {
+      "label": {
+        "de": "Bundesrat zum Urteil KlimaSeniorinnen (28. August 2024)"
+      },
+      "url": "https://www.admin.ch/de/nsb?id=102244"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Justiz zur Umsetzung des Urteils (26. November 2025)"
+      },
+      "url": "https://www.bj.admin.ch/de/newnsb/wr35SCyLrHAZ"
+    },
+    {
+      "label": {
+        "de": "Laufende Vernehmlassungen des Bundes (Fedlex)"
+      },
+      "url": "https://www.fedlex.admin.ch/de/consultation-procedures/ongoing"
+    },
+    {
+      "label": {
+        "de": "Petitionen an Bundesbehörden (Bundeskanzlei)"
+      },
+      "url": "https://www.bk.admin.ch/bk/de/home/politische-rechte/petitionen.html"
+    },
+    {
+      "label": {
+        "de": "Liste der beschwerdeberechtigten Umweltorganisationen (SR 814.076)"
+      },
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

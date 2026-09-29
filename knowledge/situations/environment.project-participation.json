@@ -1,0 +1,853 @@
+{
+  "schema": 1,
+  "id": "environment.project-participation",
+  "domain": "environment",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ein Projekt gefährdet Natur oder Landschaft: So reden Sie mit"
+  },
+  "summary": {
+    "de": "Eine neue Strasse, eine Stromleitung, ein Windpark oder ein Zonenplan bedroht Wald, Bach, Landschaft oder Ihre Wohnqualität. Dieser Leitfaden zeigt, wo Projekte veröffentlicht werden, wie Sie Pläne und Umweltberichte einsehen, wer Einsprache erheben darf und bis wann, und was Sie tun können, wenn Sie nicht persönlich betroffen sind: sich an der Planung beteiligen, eine Petition einreichen oder eine beschwerdeberechtigte Umweltorganisation rechtzeitig informieren."
+  },
+  "examples": {
+    "de": [
+      "Hinter unserem Quartier soll ein Stück Wald für eine Umfahrungsstrasse gerodet werden – kann ich da etwas machen?",
+      "Die SBB bauen ein drittes Gleis direkt vor meinem Haus. Bis wann muss ich Einsprache machen?",
+      "Auf dem Hügel über dem Dorf ist ein Windpark geplant. Darf ich mich wehren, obwohl ich im Nachbardorf wohne?",
+      "Ich bin nicht direkt betroffen, aber der Bach soll verbaut werden. Wie kann ich das verhindern?",
+      "Wo sehe ich den Umweltbericht zu einem grossen Bauprojekt ein?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Mitwirkung bei Planungen, Einsicht in Pläne und Umweltverträglichkeitsberichte, Einsprache bei Bundesprojekten (Bahn, Nationalstrasse, Starkstromleitung), Grundzüge bei kantonalen und kommunalen Projekten, die neuen Verfahrensregeln für grosse Solar-, Wind- und Wasserkraftanlagen, Rodungen, das Beschwerderecht der Umweltorganisationen, Enteignungsbegehren, Beschwerdefristen und Kosten. Der Leitfaden sagt auch klar, was nicht geht: Wer nicht besonders betroffen ist, kann nicht selbst Einsprache erheben."
+    },
+    "excludes": {
+      "de": "Streit unter Nachbarn über Wärmepumpen, Hecken, Grillrauch und Ähnliches; Anzeigen wegen Umweltverschmutzung; Auskunftsgesuche zu Umweltinformationen; Klimaklagen – dazu gibt es eigene Leitfäden. Kantonale Einsprachefristen und Formvorschriften werden nicht aufgeführt, weil sie von Kanton zu Kanton verschieden sind."
+    }
+  },
+  "facts": [
+    {
+      "key": "project_kind",
+      "question": {
+        "de": "Um was für ein Projekt geht es?"
+      },
+      "help": {
+        "de": "Das steht meist in der Publikation oder auf der Bautafel. Wenn Sie es nicht wissen, zeigen wir Ihnen die Regeln für alle Arten von Projekten."
+      },
+      "options": [
+        {
+          "value": "federal",
+          "label": {
+            "de": "Bahn, Nationalstrasse, Hochspannungsleitung oder ein anderes Projekt, das der Bund bewilligt"
+          }
+        },
+        {
+          "value": "energy",
+          "label": {
+            "de": "Grosse Solar-, Wind- oder Wasserkraftanlage"
+          }
+        },
+        {
+          "value": "local",
+          "label": {
+            "de": "Bauprojekt, Strasse oder Zonenplan von Gemeinde oder Kanton"
+          }
+        },
+        {
+          "value": "forest-water",
+          "label": {
+            "de": "Rodung von Wald oder Nutzung eines Bachs, Flusses oder Sees"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "stage",
+      "question": {
+        "de": "Wie weit ist das Projekt?"
+      },
+      "options": [
+        {
+          "value": "planning",
+          "label": {
+            "de": "Es wird erst geplant oder zur Mitwirkung vorgestellt"
+          }
+        },
+        {
+          "value": "inspection",
+          "label": {
+            "de": "Die Pläne liegen jetzt öffentlich auf"
+          }
+        },
+        {
+          "value": "decided",
+          "label": {
+            "de": "Der Entscheid ist schon gefallen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "affected",
+      "question": {
+        "de": "Wie sind Sie vom Projekt betroffen?"
+      },
+      "help": {
+        "de": "Davon hängt ab, ob Sie selbst Einsprache erheben können oder andere Wege nutzen müssen."
+      },
+      "options": [
+        {
+          "value": "land",
+          "label": {
+            "de": "Mein Grundstück oder meine Miet- oder Pachtfläche wird für das Projekt gebraucht"
+          }
+        },
+        {
+          "value": "nearby",
+          "label": {
+            "de": "Ich wohne oder habe Eigentum in der Nähe und werde Lärm, Licht, Verkehr oder Ähnliches spüren"
+          }
+        },
+        {
+          "value": "not-personal",
+          "label": {
+            "de": "Ich bin nicht persönlich betroffen, aber mir liegen Natur und Landschaft am Herzen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "publikation-finden",
+      "kind": "step",
+      "text": {
+        "de": "Projekte, gegen die man sich wehren kann, werden amtlich bekannt gemacht. Vorhaben, die der Bund bewilligt, erscheinen in den amtlichen Publikationsorganen der betroffenen Kantone und Gemeinden; Entscheide, gegen die Umweltorganisationen vorgehen können, werden im Bundesblatt oder im kantonalen Amtsblatt veröffentlicht. Projekte von Kanton und Gemeinde finden Sie im kantonalen Amtsblatt oder bei den amtlichen Mitteilungen der Gemeinde, oft auch online. Lesen Sie die Publikation genau: Meist steht dort, wo und bis wann Sie die Pläne einsehen können, bei welcher Stelle Sie Einsprache erheben können und ob ein Umweltverträglichkeitsbericht aufliegt. Schreiben Sie sich das letzte Datum sofort auf. Finden Sie nichts, fragen Sie bei der Bauverwaltung Ihrer Gemeinde nach, ob und wann das Projekt aufgelegt wird. Schauen Sie die Pläne an, bevor Sie entscheiden, was Sie tun."
+      },
+      "sources": [
+        "ebg-18d",
+        "nhg-12b",
+        "uvpv-15"
+      ]
+    },
+    {
+      "id": "einsprache-bundesprojekt",
+      "kind": "warning",
+      "when": {
+        "project_kind": [
+          "federal",
+          "unknown"
+        ],
+        "stage": [
+          "planning",
+          "inspection",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei Bahnanlagen, Nationalstrassen und Starkstromleitungen wird das Gesuch in den amtlichen Publikationsorganen der betroffenen Kantone und Gemeinden publiziert und liegt 30 Tage öffentlich auf. Wer im Verfahren Partei sein kann – vor allem, wer vom Projekt besonders betroffen ist –, muss innerhalb dieser Auflagefrist schriftlich Einsprache bei der Genehmigungsbehörde erheben, die in der Publikation genannt ist. Wer keine Einsprache erhebt, ist vom weiteren Verfahren ausgeschlossen. Sie können den späteren Entscheid dann nicht mehr anfechten. Das genaue Ende der Frist steht in der Publikation. Bei Nationalstrassen wird das Projekt vor der Auflage im Gelände ausgesteckt, bei Hochbauten mit Profilen. Einwände gegen diese Markierungen müssen Sie sofort vorbringen, spätestens vor Ende der Auflagefrist. Für andere Bundesvorhaben, etwa Flugplätze oder Militäranlagen, gelten eigene Gesetze. Halten Sie sich dort an Frist und Stelle, die in der Publikation stehen."
+      },
+      "sources": [
+        "ebg-18d",
+        "ebg-18f",
+        "nsg-27a",
+        "nsg-27b",
+        "nsg-27d",
+        "eleg-16d",
+        "eleg-16f",
+        "vwvg-6"
+      ]
+    },
+    {
+      "id": "einsprache-schreiben",
+      "kind": "step",
+      "when": {
+        "stage": [
+          "inspection",
+          "unknown"
+        ],
+        "affected": [
+          "land",
+          "nearby",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Eine Einsprache muss nicht kompliziert sein. Schreiben Sie einen Brief mit Ihrem Namen und Ihrer Adresse, der Bezeichnung des Projekts aus der Publikation und dem Satz, dass Sie Einsprache erheben. Erklären Sie dann, warum gerade Sie betroffen sind, zum Beispiel wie weit Ihr Haus entfernt ist und was Sie hören oder sehen werden. Danach folgt, was Sie verlangen – etwa dass das Projekt abgelehnt wird oder dass eine Lärmschutzwand, ein anderer Standort oder der Erhalt einer Hecke vorgeschrieben wird – und kurz, warum. Fotos, ein Planausschnitt oder Hinweise auf seltene Tiere und Pflanzen helfen. Unterschreiben Sie den Brief. Bei Verfahren des Bundes genügt es, wenn Sie die Einsprache spätestens am letzten Tag der Frist der Behörde abgeben oder der Schweizerischen Post übergeben. Senden Sie sie eingeschrieben und bewahren Sie die Quittung auf. Bei kantonalen Verfahren gelten die Regeln des Kantons; warten Sie nicht bis zum letzten Tag."
+      },
+      "sources": [
+        "vwvg-21"
+      ]
+    },
+    {
+      "id": "uvp-bericht",
+      "kind": "rule",
+      "text": {
+        "de": "Bei grossen Anlagen, welche die Umwelt erheblich belasten können, muss die Behörde vor ihrem Entscheid die Umweltverträglichkeit prüfen. Welche Anlagen dazu gehören, legt der Bundesrat in einer Liste fest. Die Bauherrschaft muss dafür einen Umweltverträglichkeitsbericht einreichen. Er beschreibt den heutigen Zustand, das Vorhaben mit den geplanten Schutzmassnahmen und die Belastung, die voraussichtlich bleibt. Diesen Bericht darf jede Person einsehen. Sie müssen dafür nicht betroffen sein. Geheim bleiben nur Teile, bei denen überwiegende private oder öffentliche Interessen das verlangen, sowie Fabrikations- und Geschäftsgeheimnisse. Muss das Gesuch öffentlich aufgelegt werden, weist die Publikation auf den Bericht hin. Er liegt 30 Tage auf, ausser das Verfahren sieht eine andere Auflagefrist vor. Nach dem Entscheid gibt die Behörde bekannt, wo Sie den Bericht, die Beurteilung der Umweltfachstelle und den Entscheid einsehen können, soweit er die Umweltprüfung betrifft. Der Bericht zeigt Ihnen, wo die Schwachstellen eines Projekts liegen könnten, und hilft Ihnen, eine Einsprache sachlich zu begründen."
+      },
+      "sources": [
+        "usg-10a",
+        "usg-10b",
+        "usg-10d",
+        "uvpv-15",
+        "uvpv-20"
+      ]
+    },
+    {
+      "id": "lokales-verfahren",
+      "kind": "warning",
+      "when": {
+        "project_kind": [
+          "local",
+          "energy",
+          "forest-water",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Baubewilligungen, Zonenpläne und andere Nutzungspläne von Gemeinde und Kanton richten sich nach kantonalem Recht. Das Bundesrecht verlangt nur einige Mindeststandards: Nutzungspläne müssen öffentlich aufgelegt werden. Es muss mindestens ein Rechtsmittel geben. Der Kanton muss mindestens alle Personen zulassen, die auch vor Bundesgericht Beschwerde führen dürften. Und mindestens eine Beschwerdeinstanz muss den Fall vollständig überprüfen. Wie lange die Einsprachefrist dauert, wo und in welcher Form Sie einsprechen müssen, bestimmt der Kanton. Diese Fristen können kurz sein. Gehen Sie nicht einfach von 30 Tagen aus. Massgebend ist, was in der Publikation oder auf der Website Ihres Kantons steht. Wenn dort nichts steht, fragen Sie sofort bei der Bauverwaltung der Gemeinde nach. Rechnen Sie damit, dass Sie nach einer verpassten Frist nicht mehr mitreden können."
+      },
+      "sources": [
+        "rpg-33"
+      ]
+    },
+    {
+      "id": "rodung",
+      "kind": "rule",
+      "when": {
+        "project_kind": [
+          "forest-water",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wald darf grundsätzlich nicht gerodet werden. Eine Ausnahme ist nur erlaubt, wenn wichtige Gründe das Interesse am Wald überwiegen. Zudem muss das Werk auf genau diesen Standort angewiesen sein, es muss die Vorgaben der Raumplanung erfüllen, und die Rodung darf die Umwelt nicht erheblich gefährden. Rein finanzielle Gründe, etwa billiges Bauland, zählen nicht. Auf den Natur- und Heimatschutz ist Rücksicht zu nehmen, und die Bewilligung muss befristet sein. Geht es um eine Anlage für erneuerbare Energie oder um eine Stromleitung, gilt das nationale Interesse an solchen Anlagen bei der Abwägung als gleich gewichtig wie andere nationale Interessen. Gegen Rodungsbewilligungen können auch die berechtigten Natur- und Heimatschutzorganisationen Beschwerde führen. Die Voraussetzungen oben helfen Ihnen, eine Einsprache oder einen Hinweis an eine Organisation zu begründen."
+      },
+      "sources": [
+        "wag-5",
+        "wag-46"
+      ]
+    },
+    {
+      "id": "energie-verfahren",
+      "kind": "rule",
+      "when": {
+        "project_kind": [
+          "energy",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für grosse Solar- und Windenergieanlagen von nationalem Interesse führt der Kanton ein einziges, gebündeltes Plangenehmigungsverfahren durch. Mit der Plangenehmigung wird zugleich über die Nutzung des Bodens, die Erschliessung und die Bewilligungen von Kanton und Gemeinde entschieden. Zuständig ist die Kantonsregierung oder eine Verwaltungsstelle, der sie diese Aufgabe überträgt. Die Behörde muss innert 180 Tagen entscheiden, nachdem die Unterlagen vollständig sind. Die betroffenen Gemeinden sind früh einzubeziehen. Die Standortgemeinde muss zustimmen, sofern das kantonale Recht nichts anderes bestimmt. Solange ein Kanton das Verfahren nicht selbst geregelt hat, gelten sinngemäss die Regeln für Starkstromanlagen: Das Gesuch wird publiziert und liegt 30 Tage auf, und wer keine Einsprache erhebt, ist vom weiteren Verfahren ausgeschlossen. Ob eine Anlage als Anlage von nationalem Interesse gilt, sollten Sie bei der zuständigen kantonalen Stelle erfragen, wenn es nicht in der Publikation steht. Für Wasserkraftwerke und für Solar- und Windanlagen, die nicht von nationalem Interesse sind, gilt dieses gebündelte Verfahren nicht; dort richten sich Auflage und Einsprache nach dem Verfahren des Kantons."
+      },
+      "sources": [
+        "eng-14a",
+        "eleg-16d",
+        "eleg-16f"
+      ]
+    },
+    {
+      "id": "energie-rechtsweg",
+      "kind": "warning",
+      "when": {
+        "project_kind": [
+          "energy",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Seit dem 1. April 2026 gibt es für bestimmte Energieprojekte im Kanton nur noch eine Beschwerdestufe, nämlich das obere kantonale Gericht. Das gilt für Plangenehmigungen von Solar- und Windenergieanlagen von nationalem Interesse sowie für Nutzungspläne, Bewilligungen und Konzessionen von Wasserkraftwerken von nationalem Interesse. Danach bleibt die Beschwerde ans Bundesgericht. Beschwerde führen darf nur, wer auch vor Bundesgericht dazu berechtigt wäre; dazu kommen die betroffenen Kantone und Gemeinden. Sie können nur geltend machen, dass Recht verletzt wurde, nicht bloss, dass eine andere Lösung zweckmässiger wäre. Die Gerichte sollen innert 180 Tagen nach dem letzten Schriftenwechsel entscheiden. Wichtig: Wird ein Nutzungsplan aufgelegt, der das Projekt schon verbindlich festlegt, müssen Sie Ihre Einwände dort vorbringen. Was Sie dort nicht rügen, können Sie im späteren Baubewilligungsverfahren nicht mehr geltend machen."
+      },
+      "sources": [
+        "eng-14c",
+        "bgg-89"
+      ]
+    },
+    {
+      "id": "wer-darf-einsprechen",
+      "kind": "rule",
+      "text": {
+        "de": "Einsprache und später Beschwerde erheben darf nur, wer vom Projekt stärker betroffen ist als die Allgemeinheit und einen praktischen Nutzen davon hätte, wenn es geändert oder aufgehoben wird. Zudem müssen Sie sich am Verfahren beteiligt haben, wenn Sie die Möglichkeit dazu hatten. Typisch betroffen sind Nachbarinnen und Nachbarn, die sicher oder sehr wahrscheinlich Lärm, Staub, Erschütterungen, Licht oder anderen Einwirkungen der Anlage ausgesetzt sein werden. Eine feste Distanz gibt es nicht. Liegt Ihr Grundstück bis etwa 100 Meter entfernt, wird die Betroffenheit in der Regel bejaht. Wohnen Sie weiter weg, müssen Sie anhand der konkreten Umstände glaubhaft machen, dass Sie die Folgen deutlich spüren werden, etwa weil der Zufahrtsverkehr vor Ihrem Haus deutlich hörbar zunimmt. Dass sehr viele Menschen gleichzeitig betroffen sind, schliesst Ihr Recht nicht aus, zum Beispiel rund um einen Flughafen. Auch Mieterinnen und Mieter können einsprechen, nicht nur Eigentümer. Die Kantone müssen dieses Recht mindestens im gleichen Umfang gewähren wie das Bundesrecht."
+      },
+      "sources": [
+        "bgg-89",
+        "vwvg-48",
+        "rpg-33",
+        "bge-136-ii-281",
+        "bge-140-ii-214",
+        "bger-1c-145-2022"
+      ]
+    },
+    {
+      "id": "keine-popularbeschwerde",
+      "kind": "rule",
+      "when": {
+        "affected": [
+          "not-personal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie vom Projekt nicht anders betroffen sind als die übrige Bevölkerung, können Sie selbst keine Einsprache und keine Beschwerde erheben. Das gilt auch dann, wenn Ihnen das Anliegen sehr wichtig ist und Sie überzeugt sind, dass das Projekt gegen Umweltrecht verstösst. Eine Beschwerde, die nur im Interesse der Allgemeinheit erhoben wird (Popularbeschwerde), ist unzulässig. Das Bundesgericht verweist solche Anliegen auf den politischen Weg. Sie können trotzdem viel bewirken: indem Sie sich früh an der Planung beteiligen, eine Petition einreichen, sich politisch engagieren und vor allem eine Umwelt- oder Naturschutzorganisation informieren, die selbst Einsprache erheben darf."
+      },
+      "sources": [
+        "bgg-89",
+        "bge-146-i-145"
+      ]
+    },
+    {
+      "id": "mitwirkung-planung",
+      "kind": "rule",
+      "when": {
+        "stage": [
+          "planning",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei Richtplänen, Zonenplänen und anderen Planungen nach dem Raumplanungsgesetz müssen die Behörden die Bevölkerung über Ziele und Ablauf informieren. Sie müssen dafür sorgen, dass die Bevölkerung in geeigneter Weise mitwirken kann. Die Pläne sind öffentlich. Mitmachen darf jede Person. Sie müssen weder besonders betroffen noch in der Gemeinde stimmberechtigt sein. Häufig läuft die Mitwirkung über eine öffentliche Auflage des Entwurfs, bei der Sie schriftlich Anregungen und Einwände einreichen können, oder über Informationsanlässe. Die Mitwirkung gibt Ihnen Einfluss, aber keinen Rechtsanspruch: Die Behörde muss Ihre Vorschläge nicht übernehmen. Sie findet statt, solange die Abwägung noch offen ist. Das ist oft die beste Gelegenheit, Anliegen zu Natur und Landschaft einzubringen. Die Mitwirkung ersetzt keine Einsprache. Wird der Plan später öffentlich aufgelegt und sind Sie besonders betroffen, müssen Sie innerhalb der dann laufenden Frist Einsprache erheben."
+      },
+      "sources": [
+        "rpg-4",
+        "bge-135-ii-286"
+      ]
+    },
+    {
+      "id": "petition",
+      "kind": "rule",
+      "when": {
+        "affected": [
+          "not-personal",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Jede Person darf sich mit einer Petition an eine Behörde wenden, zum Beispiel an den Gemeinderat, die Kantonsregierung oder ein Parlament. Sie können darin ein Anliegen vorbringen und dafür Unterschriften sammeln. Dafür brauchen Sie weder das Stimmrecht noch ein bestimmtes Alter, und es dürfen Ihnen daraus keine Nachteile entstehen. Die Behörde muss die Petition zur Kenntnis nehmen. Eine Antwort oder ein bestimmtes Ergebnis schreibt die Bundesverfassung nicht vor. Eine Petition ist deshalb ein politisches Mittel: Sie kann Aufmerksamkeit schaffen, stoppt aber kein Verfahren und wahrt keine Frist. Wenn Sie selbst einsprechen dürfen, müssen Sie die Einsprache trotzdem rechtzeitig einreichen."
+      },
+      "sources": [
+        "bv-33"
+      ]
+    },
+    {
+      "id": "organisationen-informieren",
+      "kind": "warning",
+      "text": {
+        "de": "Gesamtschweizerische Umwelt- und Naturschutzorganisationen, die der Bundesrat in einer Liste bezeichnet, dürfen Einsprache und Beschwerde erheben, ohne selbst betroffen zu sein. Nach dem Umweltschutzgesetz gilt das für Anlagen, die eine Umweltverträglichkeitsprüfung brauchen. Nach dem Natur- und Heimatschutzgesetz gilt es für Entscheide, mit denen eine Behörde eine Aufgabe des Bundes erfüllt, und nach dem Waldgesetz unter anderem für Rodungen. Auch die Organisationen müssen die Frist einhalten: Wer sich an einem Einspracheverfahren nicht beteiligt, kann später keine Beschwerde mehr führen. Einwände gegen einen Nutzungsplan, der das Projekt schon verbindlich festlegt, müssen sie bereits dort vorbringen. Die nationalen Organisationen können ihre kantonalen Sektionen ermächtigen, Einsprachen zu erheben. Informieren Sie deshalb die kantonale Sektion einer solchen Organisation früh, am besten gleich nach der Publikation. Geben Sie ihr die Publikation, das Ende der Auflagefrist und Ihre Beobachtungen vor Ort, zum Beispiel zu seltenen Tieren oder Pflanzen. Ob die Organisation einspricht, entscheidet sie selbst."
+      },
+      "sources": [
+        "usg-55",
+        "usg-55b",
+        "nhg-12",
+        "nhg-12c",
+        "wag-46",
+        "vbo-1",
+        "bge-148-ii-359"
+      ]
+    },
+    {
+      "id": "kleine-wohnbauten",
+      "kind": "rule",
+      "when": {
+        "project_kind": [
+          "local",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für kleine Wohnbauten gilt eine Ausnahme: Gegen Entscheide über Wohnbauten mit weniger als 400 Quadratmetern Geschossfläche innerhalb der Bauzone können Natur- und Heimatschutzorganisationen keine Beschwerde führen. Ihr Beschwerderecht bleibt aber bestehen, wenn eine solche Wohnbaute in einem Ortsbild von nationaler Bedeutung liegt, eine geschichtliche Stätte oder ein Kulturdenkmal direkt betrifft oder in unmittelbarer Nähe davon gebaut werden soll. Es bleibt auch bestehen, wenn sie in einem Biotop von nationaler, regionaler oder lokaler Bedeutung liegt. Ausserhalb dieser Fälle können gegen kleine Wohnbauten nur Personen vorgehen, die selbst besonders betroffen sind, etwa Nachbarinnen und Nachbarn."
+      },
+      "sources": [
+        "nhg-12"
+      ]
+    },
+    {
+      "id": "enteignung-anmelden",
+      "kind": "warning",
+      "when": {
+        "affected": [
+          "land",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Braucht ein Projekt des Bundes Ihr Grundstück oder einen Teil davon, oder wird Ihr Recht als Mieterin, Pächter oder Dienstbarkeitsberechtigter eingeschränkt, müssen Sie Ihre Begehren innerhalb der Einsprachefrist von 30 Tagen anmelden. Dazu gehören die Einsprache gegen die Enteignung, das Begehren um Realersatz (Ersatz in Land statt Geld) oder um Ausdehnung der Enteignung auf den Rest Ihres Grundstücks und die Entschädigung, die Sie verlangen. Teilen Sie die Entschädigung nach ihren Bestandteilen auf und beziffern Sie sie möglichst. Einzelheiten können Sie später im Einigungsverfahren noch ergänzen. Die Publikation muss auf diese Frist hinweisen. Bei Bahn-, Nationalstrassen- und Starkstromprojekten läuft sie gleichzeitig mit der Auflagefrist. Bei Projekten von Kanton oder Gemeinde richtet sich die Enteignung in der Regel nach kantonalem Recht; halten Sie sich an die Frist in der Publikation."
+      },
+      "sources": [
+        "entg-30",
+        "entg-33",
+        "ebg-18f",
+        "nsg-27d",
+        "eleg-16f"
+      ]
+    },
+    {
+      "id": "entscheid-anfechten",
+      "kind": "warning",
+      "when": {
+        "stage": [
+          "decided",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist der Entscheid schon gefallen, zählt jeder Tag. Gegen einen Entscheid einer Bundesbehörde, etwa eine Plangenehmigung für eine Bahn, eine Nationalstrasse oder eine Stromleitung, können Sie innerhalb von 30 Tagen nach der Eröffnung Beschwerde erheben. Gegen Entscheide der letzten kantonalen Instanz oder des Bundesverwaltungsgerichts beträgt die Frist für die Beschwerde ans Bundesgericht ebenfalls 30 Tage ab Eröffnung des vollständigen Entscheids. Diese gesetzlichen Fristen können nicht verlängert werden. Sie stehen in drei Zeiträumen still: sieben Tage vor bis sieben Tage nach Ostern, 15. Juli bis 15. August und 18. Dezember bis 2. Januar, jeweils einschliesslich dieser Tage. Gegen Entscheide von Gemeinde und Kanton gelten zuerst die kantonalen Rechtsmittel mit eigenen Fristen. Massgebend ist die Rechtsmittelbelehrung am Ende des Entscheids: Sie nennt Frist und Instanz. Beschwerde führen kann grundsätzlich nur, wer sich vorher am Verfahren beteiligt hat, also zum Beispiel rechtzeitig Einsprache erhoben hat, und besonders betroffen ist."
+      },
+      "sources": [
+        "vwvg-50",
+        "bgg-100",
+        "vwvg-22",
+        "bgg-47",
+        "vwvg-22a",
+        "bgg-46",
+        "vwvg-48"
+      ]
+    },
+    {
+      "id": "kosten",
+      "kind": "cost",
+      "text": {
+        "de": "Bei Einsprachen gegen Zonenpläne und Baugesuche dürfen Ihnen die Kosten des Einspracheverfahrens grundsätzlich nicht auferlegt werden. Das Bundesgericht will verhindern, dass die Angst vor Kosten Betroffene davon abhält, sich zu äussern. Anders ist es, wenn Sie danach Beschwerde erheben: Dann gelten die gewöhnlichen Kostenregeln. In Beschwerdeverfahren nach Bundesrecht trägt in der Regel die unterliegende Partei die Verfahrenskosten. Sie müssen zuerst einen Kostenvorschuss bezahlen; sonst wird auf die Beschwerde nicht eingetreten, ausser die Behörde verzichtet aus besonderen Gründen darauf. Die Gebühr beträgt bei Streitigkeiten ohne Vermögensinteresse 100 bis 5000 Franken. Vor Bundesgericht trägt ebenfalls in der Regel die unterliegende Partei die Gerichtskosten, und sie muss der Gegenpartei in der Regel deren notwendige Anwaltskosten nach dem Tarif des Gerichts ersetzen. Kantonale Gerichte haben eigene Tarife."
+      },
+      "sources": [
+        "bge-143-ii-467",
+        "vwvg-63",
+        "bgg-66",
+        "bgg-68"
+      ]
+    },
+    {
+      "id": "anwalt-beiziehen",
+      "kind": "escalate",
+      "when": {
+        "affected": [
+          "land",
+          "nearby",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wenn Ihr Grundstück beansprucht wird oder Sie in der Nähe wohnen und bereits ein Entscheid vorliegt, lassen Sie sich rasch von einer Anwältin oder einem Anwalt mit Erfahrung im Bau-, Planungs- oder Umweltrecht beraten. Die Beschwerdefrist läuft weiter, auch während Sie jemanden suchen. Eine Beratung lohnt sich auch, wenn es um eine Enteignungsentschädigung geht, wenn das Projekt sehr gross ist oder wenn Sie Ihre Einsprache mit Fachgutachten, etwa zu Lärm oder zur Natur, stützen möchten. Über den Anwaltsverband Ihres Kantons finden Sie spezialisierte Anwältinnen und Anwälte."
+      }
+    },
+    {
+      "id": "kostenlose-hilfe",
+      "kind": "free-help",
+      "text": {
+        "de": "Die Bauverwaltung Ihrer Gemeinde gibt Auskunft, welche Projekte gerade aufliegen, wo Sie die Pläne einsehen können und bis wann Einsprachen möglich sind. Die kantonale Umweltfachstelle beantwortet Fragen zu Umweltverträglichkeitsberichten und zu Umweltauflagen. Die beschwerdeberechtigten Umwelt- und Naturschutzorganisationen sind im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Organisationen aufgeführt (SR 814.076). Viele haben kantonale oder regionale Sektionen, die Hinweise auf Projekte entgegennehmen. Bei akuter Gefahr, etwa wenn Öl oder Chemikalien in ein Gewässer fliessen, rufen Sie die Feuerwehr (118) oder die Polizei (117)."
+      }
+    }
+  ],
+  "sources": {
+    "usg-10a": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10a",
+      "label": "USG · Art. 10a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10a",
+      "sha256": "d047144847c989da5877059b80623f89731a49d21415b3f369393c54f5ff3f7e"
+    },
+    "usg-10b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10b",
+      "label": "USG · Art. 10b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10b",
+      "sha256": "77a6080a5d672e62c659e6517f81ed2f205b4067388e4309127312c27ced68d4"
+    },
+    "usg-10d": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10d",
+      "label": "USG · Art. 10d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10d",
+      "sha256": "754875a166dc45851caac7065f848d29bd4c78bd4fc6076a9d930fad770726a0"
+    },
+    "usg-55": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55",
+      "label": "USG · Art. 55",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55",
+      "sha256": "794cc513035846aa9b8120cda856f0985237233b0f7c95537cb188deb6497614"
+    },
+    "usg-55b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55b",
+      "label": "USG · Art. 55b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55b",
+      "sha256": "ff9dae9ecbfac6c1c39500625a5cf97fd6e86f8bff376614f72dceb658be12b5"
+    },
+    "uvpv-15": {
+      "type": "statute",
+      "sr": "814.011",
+      "article": "15",
+      "label": "UVPV · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1988/1931_1931_1931/de#art_15",
+      "sha256": "d71144c750282ebba8ba35fdbc16c4046d6b2ffdce087b261d8407c7061a9a69"
+    },
+    "uvpv-20": {
+      "type": "statute",
+      "sr": "814.011",
+      "article": "20",
+      "label": "UVPV · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1988/1931_1931_1931/de#art_20",
+      "sha256": "e1974a0780aa3ab97ff6d03accf9ed01415388771cc1f293d23d96e537af7196"
+    },
+    "ebg-18d": {
+      "type": "statute",
+      "sr": "742.101",
+      "article": "18d",
+      "label": "EBG · Art. 18d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1958/335_341_347/de#art_18d",
+      "sha256": "abe1753a439d809d32872386c51ea2fc903834190403e08c0a24ed87ce98dd36"
+    },
+    "ebg-18f": {
+      "type": "statute",
+      "sr": "742.101",
+      "article": "18f",
+      "label": "EBG · Art. 18f",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1958/335_341_347/de#art_18f",
+      "sha256": "5d18ce88f538ec18353be17d450b89ec4af651167b948b90014704f037882074"
+    },
+    "nsg-27a": {
+      "type": "statute",
+      "sr": "725.11",
+      "article": "27a",
+      "label": "NSG · Art. 27a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1960/525_569_555/de#art_27a",
+      "sha256": "08000784532bac70763808cdb6ce35cfd300bdce5cb644613929d4e3f033cbd8"
+    },
+    "nsg-27b": {
+      "type": "statute",
+      "sr": "725.11",
+      "article": "27b",
+      "label": "NSG · Art. 27b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1960/525_569_555/de#art_27b",
+      "sha256": "58117f8ed63401e91c33705259b2fb0e7ab4c0f47c0852917d709c8b5cd06f17"
+    },
+    "nsg-27d": {
+      "type": "statute",
+      "sr": "725.11",
+      "article": "27d",
+      "label": "NSG · Art. 27d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1960/525_569_555/de#art_27d",
+      "sha256": "e810fcb5356998ff58f509aa8cde5c34a68867676db0c782e79aea050f233191"
+    },
+    "eleg-16d": {
+      "type": "statute",
+      "sr": "734.0",
+      "article": "16d",
+      "label": "EleG · Art. 16d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/19/259_252_257/de#art_16d",
+      "sha256": "8b3e86a9d4e1bbc46aaafade1a0446d514c3bc4feb4ce36a0d2939d825960568"
+    },
+    "eleg-16f": {
+      "type": "statute",
+      "sr": "734.0",
+      "article": "16f",
+      "label": "EleG · Art. 16f",
+      "url": "https://www.fedlex.admin.ch/eli/cc/19/259_252_257/de#art_16f",
+      "sha256": "8637eaa5ac58ff7a5ac4568172c97d84c9ebddb2dbb2ae1736b2a101c98801c2"
+    },
+    "entg-30": {
+      "type": "statute",
+      "sr": "711",
+      "article": "30",
+      "label": "EntG · Art. 30",
+      "url": "https://www.fedlex.admin.ch/eli/cc/47/689_701_723/de#art_30",
+      "sha256": "634bdf13d0cb96e027402adf48d70339ea3dd9875d875946cd6ba8561e4425e2"
+    },
+    "entg-33": {
+      "type": "statute",
+      "sr": "711",
+      "article": "33",
+      "label": "EntG · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/47/689_701_723/de#art_33",
+      "sha256": "542e8c121e8bf54ea4fc8ee0b07a81ceb150bdb8fa206fc0a7e68b190115d09a"
+    },
+    "bgg-46": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "46",
+      "label": "BGG · Art. 46",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_46",
+      "sha256": "a4118e7d30828777fc206cb69f63d149532f57686c4b5dc144b9b0ce9c2f35ca"
+    },
+    "bgg-47": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "47",
+      "label": "BGG · Art. 47",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_47",
+      "sha256": "4788a541570c5fab66a180d4b2bc03c40a9b213a4eb89edac5969d30d052e586"
+    },
+    "bgg-66": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "66",
+      "label": "BGG · Art. 66",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_66",
+      "sha256": "d58d952fa2b58100056c3291ca2f55c1ea2598c2246b38fee87b73096afa7143"
+    },
+    "bgg-68": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "68",
+      "label": "BGG · Art. 68",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_68",
+      "sha256": "afbe930156e6b0579887b08b6f0b84f272d5c5464dddd6839ed8b18b7a557499"
+    },
+    "bgg-89": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "89",
+      "label": "BGG · Art. 89",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_89",
+      "sha256": "a1da21115a23b254f6fab9bc12d5afcc4c97f049d3f20e0f3fbcf759bdd4ae47"
+    },
+    "bgg-100": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "100",
+      "label": "BGG · Art. 100",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_100",
+      "sha256": "b2c77da86bac48978ec706b41d0f36fff72510e7f8bc8508bc34fefdfef6d024"
+    },
+    "vwvg-6": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "6",
+      "label": "VwVG · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_6",
+      "sha256": "8f1abf61107e58df889f09f23ec29bfc48401e1cf3e3cbad949f810080613e51"
+    },
+    "vwvg-21": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "21",
+      "label": "VwVG · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_21",
+      "sha256": "e284ac83f67e688ec2e60d06fed7c3909a9d64d4cc46298446029490c35a9183"
+    },
+    "vwvg-22": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "22",
+      "label": "VwVG · Art. 22",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_22",
+      "sha256": "2374c23a6dfda02171aa14540a2e88a208b0d09621c63cbe635e9c98503af7c6"
+    },
+    "vwvg-22a": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "22a",
+      "label": "VwVG · Art. 22a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_22a",
+      "sha256": "54c4c9a484386dbe50111306715fdf34b86907009ddabc0b109f25818ab066f2"
+    },
+    "vwvg-48": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "48",
+      "label": "VwVG · Art. 48",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_48",
+      "sha256": "1860b832178e49aeda4c0eab89611b274a2e17142769af3ac235072f2edce312"
+    },
+    "vwvg-50": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "50",
+      "label": "VwVG · Art. 50",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_50",
+      "sha256": "43fb8c61251b24d70030ee236432049fd647713545a49fd2badc829436cec21a"
+    },
+    "vwvg-63": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "63",
+      "label": "VwVG · Art. 63",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_63",
+      "sha256": "4fca7265d4e2c9b8e66173a3f9c87533a82fb9f501dc5efa48e175d041a8777b"
+    },
+    "rpg-4": {
+      "type": "statute",
+      "sr": "700",
+      "article": "4",
+      "label": "RPG · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de#art_4",
+      "sha256": "151fe7cb5eb912e339d73c000ff7870426eb394efd0f0f5f676a1188da9727dd"
+    },
+    "rpg-33": {
+      "type": "statute",
+      "sr": "700",
+      "article": "33",
+      "label": "RPG · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1573_1573_1573/de#art_33",
+      "sha256": "659546311d1f3265c9123b89138d82c49733e6c5518243c458230e7164580177"
+    },
+    "bv-33": {
+      "type": "statute",
+      "sr": "101",
+      "article": "33",
+      "label": "BV · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_33",
+      "sha256": "6b0a2e5ae9e2e329013bc061b99f1bbc20461c1f046ea5970d1e6bbba63441c7"
+    },
+    "nhg-12": {
+      "type": "statute",
+      "sr": "451",
+      "article": "12",
+      "label": "NHG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_12",
+      "sha256": "a5410350ce8317ed0c50740218af06e22f465d33d7166441d78fcea4c0477000"
+    },
+    "nhg-12b": {
+      "type": "statute",
+      "sr": "451",
+      "article": "12b",
+      "label": "NHG · Art. 12b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_12b",
+      "sha256": "a9c28d260e7e4a8b2c2a10a4d877791d0a3a1cf622ee06f2fed2914c18e1f7e4"
+    },
+    "nhg-12c": {
+      "type": "statute",
+      "sr": "451",
+      "article": "12c",
+      "label": "NHG · Art. 12c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/1637_1694_1679/de#art_12c",
+      "sha256": "42409ec4f09550891cf5069e6e1e0b57cf8046ffa9fe65e74e35486c1f00ff37"
+    },
+    "wag-5": {
+      "type": "statute",
+      "sr": "921.0",
+      "article": "5",
+      "label": "WaG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/de#art_5",
+      "sha256": "3876abfd915d4662435912af0163b4fb2ebc22be610f46407e82300b02e66822"
+    },
+    "wag-46": {
+      "type": "statute",
+      "sr": "921.0",
+      "article": "46",
+      "label": "WaG · Art. 46",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1992/2521_2521_2521/de#art_46",
+      "sha256": "403e9ec79924d3cc9e6136c30beef4ba3aa3d68f7e0b4dbef91dbaefc333e6ab"
+    },
+    "eng-14a": {
+      "type": "statute",
+      "sr": "730.0",
+      "article": "14a",
+      "label": "EnG · Art. 14a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/762/de#art_14a",
+      "sha256": "7111295678e34c50edf6b96ab6c2d62ab633999cd7193881c0ab62e6160ccfdd"
+    },
+    "eng-14c": {
+      "type": "statute",
+      "sr": "730.0",
+      "article": "14c",
+      "label": "EnG · Art. 14c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2017/762/de#art_14c",
+      "sha256": "00dd5b72b9d637830760848ccaef0be4d8a5988a7af573dd0c156025bec02631"
+    },
+    "vbo-1": {
+      "type": "statute",
+      "sr": "814.076",
+      "article": "1",
+      "label": "VBO · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1990/1086_1086_1086/de#art_1",
+      "sha256": "16a3cbd76a8427f0810b9499b0eb34d50d172c98fed9b737a6cacfc5d3faf2fa"
+    },
+    "bge-136-ii-281": {
+      "type": "decision",
+      "decision_id": "bge_BGE_136_II_281",
+      "citation": "BGE 136 II 281",
+      "e": "2.3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_136_II_281#e-2-3-1"
+    },
+    "bge-140-ii-214": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_II_214",
+      "citation": "BGE 140 II 214",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_II_214#e-2-3"
+    },
+    "bger-1c-145-2022": {
+      "type": "decision",
+      "decision_id": "bger_1C_145_2022",
+      "citation": "BGer 1C_145/2022 vom 6. April 2023",
+      "e": "1.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_145_2022#e-1-4"
+    },
+    "bge-146-i-145": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    },
+    "bge-135-ii-286": {
+      "type": "decision",
+      "decision_id": "bge_BGE_135_II_286",
+      "citation": "BGE 135 II 286",
+      "e": "4.2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_135_II_286#e-4-2-3"
+    },
+    "bge-148-ii-359": {
+      "type": "decision",
+      "decision_id": "bge_BGE_148_II_359",
+      "citation": "BGE 148 II 359",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_148_II_359#e-3-1"
+    },
+    "bge-143-ii-467": {
+      "type": "decision",
+      "decision_id": "bge_BGE_143_II_467",
+      "citation": "BGE 143 II 467",
+      "e": "2.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_143_II_467#e-2-6"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Verbandsbeschwerderecht"
+      },
+      "url": "https://www.bafu.admin.ch/de/verbandsbeschwerderecht"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Raumentwicklung – Beschleunigungserlass erneuerbare Energien"
+      },
+      "url": "https://www.are.admin.ch/de/beschleunigungserlass-erneuerbare-energien"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
