@@ -75,13 +75,20 @@ export function Foot({ ctx }: { ctx: Ctx }) {
   );
 }
 
-function Entry({ s, ctx }: { s: Situation; ctx: Ctx }) {
+// The first sentence of a guide's summary, as a one-line description under its title.
+export const firstSentence = (text: string) => text.split(/(?<=[.!?])\s/)[0];
+
+function Entry({ s, ctx, desc = false }: { s: Situation; ctx: Ctx; desc?: boolean }) {
   const letter = DEADLINE_LABEL.get(s.id);
   const title = localText(s.title, ctx.lang);
+  const summary = localText(s.summary, ctx.lang);
+  const titleEl = <span className="entry-title" lang={title.language !== ctx.lang ? title.language : undefined}>{title.text}</span>;
   return (
     <li>
       <a href={paths.situation(ctx.lang, s.id)}>
-        <span className="entry-title" lang={title.language !== ctx.lang ? title.language : undefined}>{title.text}</span>
+        {desc ? (
+          <span className="entry-main">{titleEl}<span className="entry-desc" lang={summary.language !== ctx.lang ? summary.language : undefined}>{firstSentence(summary.text)}</span></span>
+        ) : titleEl}
         {letter && <span className="entry-due">{LETTER_TEXT[letter].deadline[ctx.lang]}</span>}
       </a>
     </li>
@@ -105,7 +112,7 @@ export function IndexBody({ ctx, groups, examples }: { ctx: Ctx; groups: { area:
           <label htmlFor="q" className="visually-hidden">{t(ctx, 'searchLabel')}</label>
           <div className="search-box">
             <svg className="search-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="1.8" /><path d="m15.5 15.5 5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
-            <input id="q" name="q" type="search" placeholder={t(ctx, 'searchLabel')} autoComplete="off" spellCheck enterKeyHint="search" />
+            <input id="q" name="q" type="search" placeholder={t(ctx, 'searchLabel')} autoComplete="off" spellCheck enterKeyHint="search" aria-controls="results" />
           </div>
           {examples.length > 0 && (
             <div className="try">
@@ -116,10 +123,11 @@ export function IndexBody({ ctx, groups, examples }: { ctx: Ctx; groups: { area:
             </div>
           )}
         </form>
-      </section>
-      <section className="results" id="results" aria-live="polite" hidden>
-        <h2 className="section-label">{t(ctx, 'searchResults')}</h2>
-        <ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href="#submit">{t(ctx, 'submitTitle')}</a></p>
+        {/* Results sit directly under the field; the examples give way to them. */}
+        <section className="results" id="results" aria-live="polite" hidden>
+          <h2 className="section-label">{t(ctx, 'searchResults')}</h2>
+          <ul className="entries" /><p className="none" hidden>{t(ctx, 'searchNone')} <a href="#submit">{t(ctx, 'submitTitle')}</a></p>
+        </section>
       </section>
       <div id="index">
         <div className="areas">
@@ -228,7 +236,7 @@ export function AreaBody({ ctx, area, items }: { ctx: Ctx; area: AreaId; items: 
     <>
       <nav className="crumbs" aria-label={t(ctx, 'overview')}><a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a></nav>
       <header className="page-head"><h1 className="page-title">{AREA_TEXT[area][ctx.lang]}</h1></header>
-      <ul className="entries entries-page">{[...items].sort(byImportance).map(s => <Entry key={s.id} s={s} ctx={ctx} />)}</ul>
+      <ul className="entries entries-page">{[...items].sort(byImportance).map(s => <Entry key={s.id} s={s} ctx={ctx} desc />)}</ul>
     </>
   );
 }
@@ -342,6 +350,13 @@ export function SituationBody({ ctx, s, provisions = {} }: { ctx: Ctx; s: Situat
         {s.status !== 'public' && <p className="doc-meta">{t(ctx, 'draftShort')}</p>}
         {ctx.lang !== 'de' && !s.title[ctx.lang] && <p className="doc-meta">{t(ctx, 'untranslated')}</p>}
         {unreviewedTranslation(s, ctx.lang) && <p className="doc-meta">{t(ctx, 'unreviewedTranslation')}</p>}
+        {s.status === 'public' && (ctx.lang === 'de' || s.review.languages_reviewed.includes(ctx.lang)) && s.review.reviewed_at && (
+          <p className="doc-reviewed">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" strokeWidth="1.7" /><path d="m8 12.3 2.7 2.7L16 9.7" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            {t(ctx, 'reviewedOn', { date: formatDate(s.review.reviewed_at, ctx.lang, false) })}
+            <span aria-hidden="true">·</span><a href="#r-sources">{t(ctx, 'officialSources')}</a>
+          </p>
+        )}
       </header>
 
       <section className="print-answers" data-print-answers aria-hidden="true" />
