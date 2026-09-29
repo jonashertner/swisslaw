@@ -1,0 +1,658 @@
+{
+  "schema": 1,
+  "id": "protection.police-questioning",
+  "domain": "protection",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Die Polizei will mich befragen: Meine Rechte"
+  },
+  "summary": {
+    "de": "Die Polizei oder die Staatsanwaltschaft möchte Sie zu einer möglichen Straftat befragen, oder Sie wurden dazu vorgeladen, angehalten oder festgenommen. Dieser Leitfaden erklärt, in welcher Rolle Sie befragt werden können, was Sie sagen müssen und was nicht, wann Sie eine Anwältin oder einen Anwalt beiziehen können und was mit dem Einvernahmeprotokoll geschieht. Er ersetzt keine persönliche Rechtsberatung."
+  },
+  "examples": {
+    "de": [
+      "Die Polizei hat mir eine Vorladung geschickt, ich weiss nicht, ob ich beschuldigt bin.",
+      "Muss ich bei der Polizei aussagen, oder darf ich einfach schweigen?",
+      "Ich wurde von der Polizei angehalten und aufs Poscht mitgenommen, was passiert jetzt?",
+      "Darf ich einen Anwalt dabei haben, wenn mich die Polizei befragt?",
+      "Ich soll als Zeuge aussagen, muss ich das wirklich?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Diese Anleitung gilt, wenn Polizei oder Staatsanwaltschaft Sie zu einer mutmasslichen Straftat befragen wollen oder befragt haben: als beschuldigte Person, als Auskunftsperson oder als Zeugin bzw. Zeuge. Sie deckt Vorladungen, kurze polizeiliche Anhaltungen und vorläufige Festnahmen ab."
+    },
+    "excludes": {
+      "de": "Nicht behandelt werden rein polizeirechtliche Kontrollen ohne Bezug zu einer Straftat, etwa reine Identitätskontrollen; dafür gilt kantonales Polizeirecht. Ebenfalls nicht vertieft wird das besondere Jugendstrafverfahren für Personen unter 18 Jahren; hierzu wird nur auf die separate Jugendstrafprozessordnung hingewiesen. Auch das Vorgehen als Opfer, das eigene Schutzmassnahmen verlangen will, ist nicht Thema dieser Anleitung."
+    }
+  },
+  "facts": [
+    {
+      "key": "role",
+      "question": {
+        "de": "In welcher Rolle sollen oder wurden Sie befragt?"
+      },
+      "help": {
+        "de": "Bei der Polizei gibt es normalerweise nur die Rollen beschuldigte Person und Auskunftsperson; als Zeugin oder Zeuge werden Sie in der Regel erst von der Staatsanwaltschaft oder vor Gericht einvernommen. Polizei oder Staatsanwaltschaft müssen Ihnen die Rolle zu Beginn der Befragung mitteilen. Wenn Sie es nicht wissen, fragen Sie ausdrücklich nach."
+      },
+      "options": [
+        {
+          "value": "beschuldigt",
+          "label": {
+            "de": "Als beschuldigte Person (mir wird eine Straftat vorgeworfen)"
+          }
+        },
+        {
+          "value": "auskunftsperson",
+          "label": {
+            "de": "Als Auskunftsperson"
+          }
+        },
+        {
+          "value": "zeuge",
+          "label": {
+            "de": "Als Zeugin oder Zeuge (z. B. bei der Staatsanwaltschaft)"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "contact",
+      "question": {
+        "de": "Wie ist die Polizei mit Ihnen in Kontakt getreten?"
+      },
+      "options": [
+        {
+          "value": "vorladung",
+          "label": {
+            "de": "Schriftliche oder telefonische Vorladung"
+          }
+        },
+        {
+          "value": "angehalten",
+          "label": {
+            "de": "Auf der Strasse angehalten"
+          }
+        },
+        {
+          "value": "festgenommen",
+          "label": {
+            "de": "Vorläufig festgenommen"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "minor",
+      "question": {
+        "de": "Sind Sie unter 18 Jahre alt?"
+      },
+      "options": [
+        {
+          "value": "ja",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "nein",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "versteht_sprache",
+      "question": {
+        "de": "Verstehen Sie die Sprache der Befragung gut genug, um sich zu verteidigen?"
+      },
+      "options": [
+        {
+          "value": "ja",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "nein",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "drei-rollen",
+      "kind": "rule",
+      "text": {
+        "de": "Bei einer polizeilichen Befragung gibt es normalerweise nur zwei Rollen: beschuldigte Person oder Auskunftsperson. Polizei oder Staatsanwaltschaft müssen zu Beginn sagen, in welcher Rolle Sie einvernommen werden; fragen Sie ausdrücklich nach, wenn das nicht klar ist.\n\nAls beschuldigte Person wird befragt, wer selbst verdächtigt wird. Sie müssen nichts sagen und nicht mitwirken; Ihr Schweigen darf nicht als Schuldeingeständnis gewertet werden.\n\nAls Auskunftsperson wird bei einer polizeilichen Einvernahme befragt, wer nicht als beschuldigte Person infrage kommt – also praktisch jede nicht selbst beschuldigte Person, die die Polizei zu einer Straftat befragt. Auch vor Staatsanwaltschaft oder Gericht ist man in bestimmten Fällen Auskunftsperson statt Zeugin oder Zeuge, etwa als Privatklägerschaft oder als Person unter 15 Jahren im Zeitpunkt der Einvernahme. Zur Aussage verpflichtet ist nach dem Gesetz nur die Privatklägerschaft, und auch sie nur vor Staatsanwaltschaft, Gericht oder Polizei im Auftrag der Staatsanwaltschaft. Bei einer gewöhnlichen polizeilichen Befragung müssen Sie als Auskunftsperson nicht aussagen.\n\nAls Zeugin oder Zeuge mit Wahrheitspflicht einvernehmen dürfen nur die Staatsanwaltschaft, ein Gericht oder eigens dafür bestimmtes Polizeipersonal in deren Auftrag. Zeuginnen und Zeugen müssen grundsätzlich wahrheitsgemäss aussagen; nahe Angehörige der beschuldigten Person und einige weitere Personen dürfen die Aussage verweigern."
+      },
+      "sources": [
+        "stpo-142",
+        "stpo-179",
+        "stpo-178",
+        "stpo-177",
+        "stpo-113",
+        "stpo-180",
+        "bge-141-iv-20-e-1-2-4"
+      ]
+    },
+    {
+      "id": "auskunftsperson-risiko",
+      "kind": "warning",
+      "when": {
+        "role": [
+          "auskunftsperson"
+        ]
+      },
+      "text": {
+        "de": "Wenn Sie als Auskunftsperson befragt werden, weil nicht ausgeschlossen ist, dass Sie selbst an der abzuklärenden Tat beteiligt waren, gelten für Ihre Befragung sinngemäss dieselben Regeln wie für eine beschuldigte Person: Sie müssen nicht aussagen und nicht mitwirken. Die Behörde muss Sie zu Beginn der Befragung darauf hinweisen, ob Sie aussagen müssen oder die Aussage verweigern dürfen. Sagen Sie freiwillig aus, müssen Sie zudem auf die möglichen Straffolgen einer falschen Anschuldigung, einer Irreführung der Rechtspflege oder einer Begünstigung hingewiesen werden.\n\nAndere Regeln gelten, wenn Sie aus einem anderen Grund Auskunftsperson sind, etwa weil Sie sich als geschädigte Person am Verfahren beteiligen (Privatklägerschaft) oder im Zeitpunkt der Einvernahme noch nicht 15 Jahre alt sind. Lassen Sie sich im Zweifel erklären, zu welcher Gruppe Sie gehören.\n\nWenn Sie unsicher sind, ob Sie selbst ins Visier der Ermittlungen geraten könnten, fragen Sie ausdrücklich nach Ihrer genauen Rolle und ziehen Sie eine Anwältin oder einen Anwalt bei, bevor Sie aussagen."
+      },
+      "sources": [
+        "stpo-178",
+        "stpo-180",
+        "stpo-181"
+      ]
+    },
+    {
+      "id": "zeuge-wahrheitspflicht",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "zeuge"
+        ]
+      },
+      "text": {
+        "de": "Eine Einvernahme als Zeugin oder Zeuge mit Wahrheitspflicht findet normalerweise nicht bei einer gewöhnlichen polizeilichen Befragung statt, sondern vor der Staatsanwaltschaft, vor Gericht oder vor Polizeipersonal, das Bund oder Kanton eigens dazu bestimmt hat, im Auftrag der Staatsanwaltschaft Zeugeneinvernahmen durchzuführen. Wurden Sie so als Zeugin oder Zeuge vorgeladen, etwa von der Staatsanwaltschaft, gilt Folgendes:\n\nSie müssen zu Beginn jeder Befragung auf Ihre Pflicht hingewiesen werden, die Wahrheit zu sagen, und darauf, dass eine falsche Zeugenaussage strafbar ist. Unterbleibt dieser Hinweis, ist die Befragung ungültig.\n\nSie müssen grundsätzlich alle Fragen wahrheitsgemäss beantworten. In bestimmten Fällen dürfen aber auch Zeuginnen und Zeugen die Aussage verweigern, etwa wenn sie mit der beschuldigten Person eng verwandt oder verheiratet sind oder sich mit einer Aussage selbst belasten würden. Sobald sich aus der Befragung oder den Akten ein solches Verweigerungsrecht ergibt, muss die Behörde Sie von sich aus darauf hinweisen.\n\nStellt sich während der Befragung heraus, dass Sie selbst an der Tat beteiligt gewesen sein könnten, ändert sich Ihre Rolle: Sie sind dann nicht mehr als Zeugin oder Zeuge, sondern als Auskunftsperson oder beschuldigte Person zu behandeln, mit entsprechend anderen Rechten."
+      },
+      "sources": [
+        "stpo-142",
+        "stpo-179",
+        "stpo-177"
+      ]
+    },
+    {
+      "id": "beschuldigt-erste-einvernahme",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "beschuldigt"
+        ]
+      },
+      "text": {
+        "de": "Vor Ihrer ersten Einvernahme müssen Polizei oder Staatsanwaltschaft Sie in einer Ihnen verständlichen Sprache über Folgendes aufklären: dass gegen Sie ein Vorverfahren eröffnet wurde und wegen welcher Straftaten; dass Sie die Aussage und die Mitwirkung verweigern können; dass Sie eine Verteidigung bestellen oder allenfalls eine amtliche Verteidigung beantragen können; und dass Sie eine Übersetzerin oder einen Übersetzer verlangen können.\n\nWerden Sie darüber nicht aufgeklärt, darf diese Einvernahme nicht gegen Sie verwertet werden.\n\nÜber den Tatvorwurf müssen Sie allgemein und nach dem aktuellen Stand des Verfahrens informiert werden; eine vollständige rechtliche Würdigung ist zu diesem Zeitpunkt noch nicht nötig, wohl aber eine für Sie nachvollziehbare Beschreibung des Sachverhalts, der Ihnen zur Last gelegt wird."
+      },
+      "sources": [
+        "stpo-158",
+        "bge-141-iv-20"
+      ]
+    },
+    {
+      "id": "schweigen-kein-schuldbeweis",
+      "kind": "warning",
+      "when": {
+        "role": [
+          "beschuldigt",
+          "auskunftsperson",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie beschuldigt oder Auskunftsperson, müssen Sie sich nicht selbst belasten. Ihr Schweigen allein darf von Gericht oder Staatsanwaltschaft nicht als Hinweis auf Ihre Schuld gewertet werden. Am sichersten ist es, sich vor der ersten inhaltlichen Aussage von einer Anwältin oder einem Anwalt beraten zu lassen.\n\nSie müssen sich aber gesetzlich vorgesehenen Zwangsmassnahmen unterziehen, etwa einer erkennungsdienstlichen Behandlung oder einer angeordneten Blutentnahme. Ihre Weigerung, auszusagen, hindert die Behörden nicht daran, das Verfahren fortzuführen."
+      },
+      "sources": [
+        "stpo-113",
+        "bge-138-iv-47"
+      ]
+    },
+    {
+      "id": "anwalt-erste-stunde",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "beschuldigt",
+          "auskunftsperson",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Werden Sie als beschuldigte Person von der Polizei einvernommen, haben Sie das Recht, dass Ihre Verteidigung anwesend ist und Fragen stellen kann. Dasselbe gilt sinngemäss, wenn Sie als Auskunftsperson befragt werden, weil Sie selbst an der Tat beteiligt gewesen sein könnten. Werden Sie vorläufig festgenommen, dürfen Sie zudem vor und während einer polizeilichen Einvernahme frei mit Ihrer Verteidigung verkehren.\n\nDieses Recht müssen Sie selbst geltend machen; die Polizei muss Sie aber zu Beginn der ersten Einvernahme darauf hinweisen, dass Sie eine Verteidigung beiziehen können. Sie können eine Anwältin oder einen Anwalt Ihrer Wahl verlangen oder, wenn Sie niemanden kennen, den Pikettdienst der kantonalen Anwaltschaft beiziehen lassen.\n\nDie Geltendmachung dieses Rechts gibt Ihnen keinen Anspruch darauf, die Einvernahme zu verschieben."
+      },
+      "sources": [
+        "stpo-159",
+        "stpo-158",
+        "stpo-180"
+      ]
+    },
+    {
+      "id": "notwendige-verteidigung",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "beschuldigt"
+        ]
+      },
+      "text": {
+        "de": "In bestimmten Fällen müssen Sie zwingend verteidigt werden, unabhängig davon, ob Sie das selbst wollen: etwa wenn die Untersuchungshaft, einschliesslich einer vorläufigen Festnahme, bereits mehr als 10 Tage gedauert hat, wenn Ihnen eine Freiheitsstrafe von mehr als einem Jahr oder eine Landesverweisung droht, oder wenn Sie aus gesundheitlichen oder anderen Gründen Ihre Interessen nicht selbst ausreichend wahrnehmen können.\n\nLiegen diese Voraussetzungen schon bei Eröffnung des Vorverfahrens vor, muss Ihnen bereits vor der ersten Einvernahme durch Staatsanwaltschaft oder Polizei eine Verteidigung zur Seite gestellt werden. Wurden in einem solchen Fall bereits Beweise erhoben, bevor eine Verteidigung bestellt war, dürfen diese nur verwendet werden, wenn Sie auf eine Wiederholung der Beweiserhebung verzichten."
+      },
+      "sources": [
+        "stpo-130",
+        "stpo-131"
+      ]
+    },
+    {
+      "id": "amtliche-verteidigung-kosten",
+      "kind": "cost",
+      "when": {
+        "role": [
+          "beschuldigt"
+        ]
+      },
+      "text": {
+        "de": "Können Sie sich keine eigene Verteidigung leisten, wird Ihnen eine amtliche Verteidigung bestellt, wenn sie zur Wahrung Ihrer Interessen geboten ist. Das ist namentlich so, wenn es nicht um einen Bagatellfall geht und der Fall tatsächlich oder rechtlich Schwierigkeiten bietet, denen Sie allein nicht gewachsen wären. Kein Bagatellfall liegt jedenfalls vor, wenn eine Freiheitsstrafe von mehr als vier Monaten oder eine Geldstrafe von mehr als 120 Tagessätzen zu erwarten ist.\n\nDie amtliche Verteidigung wird zunächst vom Staat bezahlt. Werden Sie am Ende verurteilt, die Verfahrenskosten zu tragen, müssen Sie ihm diesen Betrag zurückzahlen, sobald Ihre wirtschaftlichen Verhältnisse es erlauben.\n\nWählen Sie selbst eine Anwältin oder einen Anwalt, tragen Sie das Honorar grundsätzlich selbst. Werden Sie freigesprochen oder wird das Verfahren eingestellt, haben Sie Anspruch auf eine Entschädigung nach dem Anwaltstarif."
+      },
+      "sources": [
+        "stpo-132",
+        "stpo-135",
+        "stpo-429"
+      ]
+    },
+    {
+      "id": "dolmetscher",
+      "kind": "rule",
+      "when": {
+        "versteht_sprache": [
+          "nein",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Verstehen Sie die Verfahrenssprache nicht ausreichend, um sich zu verteidigen, haben Sie Anspruch auf eine Übersetzerin oder einen Übersetzer. Sie müssen das nicht unbedingt selbst verlangen: Reichen Ihre Sprachkenntnisse nicht aus, muss die Behörde von sich aus jemanden beiziehen.\n\nAls beschuldigte Person wird Ihnen zudem der wesentliche Inhalt der wichtigsten Verfahrenshandlungen in einer Ihnen verständlichen Sprache mitgeteilt, mündlich oder schriftlich. Ein Anspruch auf vollständige Übersetzung sämtlicher Akten besteht dagegen nicht."
+      },
+      "sources": [
+        "stpo-68",
+        "stpo-158"
+      ]
+    },
+    {
+      "id": "protokoll-rechte",
+      "kind": "rule",
+      "text": {
+        "de": "Ihre Aussagen werden laufend protokolliert, grundsätzlich in der Verfahrenssprache; wichtige Aussagen werden nach Möglichkeit auch in der Sprache festgehalten, in der Sie ausgesagt haben. Entscheidende Fragen und Antworten werden wörtlich aufgenommen.\n\nNach der Befragung wird Ihnen das Protokoll vorgelesen oder zum Lesen vorgelegt. Lesen Sie es aufmerksam durch und lassen Sie Fehler sofort berichtigen, bevor Sie unterschreiben. Danach unterschreiben Sie das Protokoll und visieren jede Seite.\n\nSie dürfen es aber auch ablehnen, das Protokoll zu lesen oder zu unterschreiben. In diesem Fall werden Ihre Weigerung und die dafür genannten Gründe im Protokoll vermerkt."
+      },
+      "sources": [
+        "stpo-78"
+      ]
+    },
+    {
+      "id": "vorladung-polizei",
+      "kind": "rule",
+      "when": {
+        "contact": [
+          "vorladung",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für eine polizeiliche Vorladung zur Befragung, zur Feststellung Ihrer Identität oder für erkennungsdienstliche Massnahmen gelten keine besonderen Formvorschriften und Fristen; die Polizei kann Sie also formlos, etwa telefonisch oder schriftlich, vorladen.\n\nLeisten Sie einer polizeilichen Vorladung keine Folge, kann die Staatsanwaltschaft anordnen, dass Sie polizeilich vorgeführt werden, sofern Ihnen das vorher schriftlich angedroht wurde. Können Sie den Termin nicht wahrnehmen, melden Sie sich möglichst umgehend bei der vorladenden Stelle und nennen Sie den Grund.\n\nEine Vorladung bedeutet nicht automatisch, dass Sie beschuldigt sind: Auch Auskunftspersonen werden vorgeladen. Fragen Sie bei der Vorladung oder spätestens zu Beginn der Befragung nach, in welcher Rolle Sie einvernommen werden."
+      },
+      "sources": [
+        "stpo-206",
+        "stpo-143"
+      ]
+    },
+    {
+      "id": "anhaltung-polizei",
+      "kind": "rule",
+      "when": {
+        "contact": [
+          "angehalten",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Polizei darf Sie im Interesse der Aufklärung einer Straftat kurz anhalten und nötigenfalls auf den Polizeiposten mitnehmen, um Ihre Identität festzustellen, Sie kurz zu befragen oder abzuklären, ob Sie eine Straftat begangen haben oder nach Ihnen gefahndet wird. Sie können dabei verpflichtet werden, Ihre Personalien anzugeben, Ausweispapiere vorzulegen und mitgeführte Sachen zu zeigen.\n\nDiese kurze Anhaltung ist keine vorläufige Festnahme. Ergibt sich daraus jedoch ein konkreter Tatverdacht gegen Sie, kann sie in eine vorläufige Festnahme übergehen; deren Dauer wird dann an die Fristen für die Festnahme angerechnet.\n\nIhre Personalien müssen Sie angeben, wenn die Polizei es verlangt. Zur Sache selbst gelten auch bei einer Anhaltung die Rechte Ihrer Rolle, wie oben beschrieben."
+      },
+      "sources": [
+        "stpo-215",
+        "stpo-219"
+      ]
+    },
+    {
+      "id": "festnahme-rechte",
+      "kind": "rule",
+      "when": {
+        "contact": [
+          "festgenommen",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Werden Sie vorläufig festgenommen, muss die Polizei unverzüglich Ihre Identität feststellen, Sie in einer Ihnen verständlichen Sprache über die Gründe der Festnahme informieren und Sie über Ihre Rechte aufklären, insbesondere über Ihr Recht zu schweigen und eine Verteidigung beizuziehen. Danach informiert die Polizei umgehend die Staatsanwaltschaft.\n\nSie haben zudem das Recht, Ihre nächsten Angehörigen über die Festnahme benachrichtigen zu lassen. Ergeben die Abklärungen, dass kein Haftgrund besteht, werden Sie sofort freigelassen.\n\nBestätigen sich der Tatverdacht und ein Haftgrund, führt Sie die Polizei der Staatsanwaltschaft zu, welche Sie ebenfalls unverzüglich befragt und Ihnen Gelegenheit gibt, sich zum Tatverdacht zu äussern."
+      },
+      "sources": [
+        "stpo-219",
+        "bv-31",
+        "stpo-224"
+      ]
+    },
+    {
+      "id": "festnahme-fristen",
+      "kind": "warning",
+      "when": {
+        "contact": [
+          "festgenommen",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Nach einer vorläufigen Festnahme gelten enge Fristen bis zu einem gerichtlichen Entscheid über eine allfällige Untersuchungshaft:\n\nDie Polizei muss Sie spätestens nach 24 Stunden entweder freilassen oder der Staatsanwaltschaft zuführen; ging der Festnahme eine kurze Anhaltung voraus, wird deren Dauer an diese 24 Stunden angerechnet.\n\nWill die Staatsanwaltschaft Untersuchungshaft beantragen, muss sie dies spätestens 48 Stunden nach Ihrer Festnahme beim Zwangsmassnahmengericht tun. Verzichtet sie darauf, muss sie Sie sofort freilassen.\n\nDas Zwangsmassnahmengericht muss danach spätestens innert weiteren 48 Stunden entscheiden, ob Sie in Untersuchungshaft bleiben oder freigelassen werden.\n\nInsgesamt dürfen also höchstens rund 96 Stunden zwischen Ihrer Festnahme und einem gerichtlichen Haftentscheid liegen. Wird die Untersuchungshaft angeordnet, können Sie jederzeit ein Haftentlassungsgesuch stellen."
+      },
+      "sources": [
+        "stpo-219",
+        "stpo-224",
+        "stpo-226",
+        "bge-137-iv-118",
+        "stpo-228"
+      ]
+    },
+    {
+      "id": "escalate-anwalt",
+      "kind": "escalate",
+      "text": {
+        "de": "Diese Anleitung ersetzt keine persönliche Rechtsberatung. Ziehen Sie möglichst vor Ihrer ersten inhaltlichen Aussage eine Anwältin oder einen Anwalt bei, insbesondere wenn Ihnen eine schwere Straftat vorgeworfen wird, wenn Sie festgenommen wurden, wenn die Situation für Sie unübersichtlich ist oder wenn Sie nicht sicher sind, in welcher Rolle Sie befragt werden.\n\nAuch als Auskunftsperson oder Zeugin bzw. Zeuge kann es sinnvoll sein, sich vorher kurz beraten zu lassen, wenn Sie befürchten, dass Ihre Aussage auch gegen Sie selbst verwendet werden könnte."
+      }
+    },
+    {
+      "id": "escalate-minderjaehrig",
+      "kind": "escalate",
+      "when": {
+        "minor": [
+          "ja"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie unter 18 Jahre alt, gilt für die Strafverfolgung nicht nur die Strafprozessordnung, sondern zusätzlich die besondere Jugendstrafprozessordnung mit eigenen, verstärkten Schutzregeln, etwa zur Beteiligung Ihrer gesetzlichen Vertretung. Diese Anleitung geht auf diese Besonderheiten nicht im Detail ein.\n\nZiehen Sie deshalb möglichst rasch eine auf Jugendstrafrecht spezialisierte Anwältin oder einen entsprechenden Anwalt bei, oder lassen Sie sich von einer Fachstelle für Kinder- und Jugendrechte beraten, bevor Sie aussagen."
+      }
+    },
+    {
+      "id": "pikett-anwalt-freehelp",
+      "kind": "free-help",
+      "text": {
+        "de": "In vielen Kantonen betreibt der kantonale Anwaltsverband einen Pikettdienst für Strafverteidigung, oft auch «Anwalt der ersten Stunde» genannt: Rund um die Uhr ist eine Anwältin oder ein Anwalt erreichbar, die oder der Sie bei einer polizeilichen Einvernahme begleitet, auch wenn Sie noch keine eigene Verteidigung kennen.\n\nIn Zürich etwa ist dieser Pikettdienst über eine durchgehend besetzte Telefonnummer erreichbar; die Polizei kann diese Nummer auf Verlangen für Sie anrufen. Fragen Sie zu Beginn, wer die Kosten dieses Einsatzes trägt.\n\nOb und wie ein solcher Pikettdienst in Ihrem Kanton organisiert ist, erfahren Sie bei der Polizei vor Ort oder beim kantonalen Anwaltsverband."
+      }
+    }
+  ],
+  "sources": {
+    "stpo-142": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "142",
+      "label": "StPO · Art. 142",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_142",
+      "sha256": "55f80436e5023fa9aff28700c462e97005bf978f87511fa0831c6f0303b40ca0"
+    },
+    "stpo-143": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "143",
+      "label": "StPO · Art. 143",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_143",
+      "sha256": "d15a06bbbd5e5fb9d4c99cee14558984198a8e26f6cde412c51c9701cd1a5054"
+    },
+    "stpo-158": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "158",
+      "label": "StPO · Art. 158",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_158",
+      "sha256": "84a9ea7f674a46091e645f4da7aa47d12ebed1b3c2e8317a39edf8b10f5826de"
+    },
+    "stpo-159": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "159",
+      "label": "StPO · Art. 159",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_159",
+      "sha256": "96ae95e9779aede18b17ed7fcc82e83bb5413e50c9ab46004f723ac74bc277a0"
+    },
+    "stpo-113": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "113",
+      "label": "StPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_113",
+      "sha256": "d05402f74787f2756caca98f2ad8fe260daddf3956c3e558610d5abc35ca2f2d"
+    },
+    "stpo-177": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "177",
+      "label": "StPO · Art. 177",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_177",
+      "sha256": "029311ce5170ee1bc03fcf983733cbdd0793786ae426593310d853dbef2a501b"
+    },
+    "stpo-178": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "178",
+      "label": "StPO · Art. 178",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_178",
+      "sha256": "ca3947fa41cef910f4c024f66e5c6e87029eed2cbb9d8e20a9ba7b2bd5125709"
+    },
+    "stpo-179": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "179",
+      "label": "StPO · Art. 179",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_179",
+      "sha256": "94371a68532728d623804112cd4ae30a2c2f4ec2c9af7f533bede7ab945d526c"
+    },
+    "stpo-180": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "180",
+      "label": "StPO · Art. 180",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_180",
+      "sha256": "d51412d72cefaead0c24fbf35191a131863d65f385e0c622e9680381d4efefdc"
+    },
+    "stpo-181": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "181",
+      "label": "StPO · Art. 181",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_181",
+      "sha256": "88d062b17673558b8627879d50f8b12d7a7e68fa580c7645163b6e2efe453d1d"
+    },
+    "stpo-130": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "130",
+      "label": "StPO · Art. 130",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_130",
+      "sha256": "1867cc7bf1bd2878eeadd37e97fccdb80eec77a1493e599988714894349eec21"
+    },
+    "stpo-131": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "131",
+      "label": "StPO · Art. 131",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_131",
+      "sha256": "8945e3a461edb606d8aa9e25bbb331f8967de86e269f2e5b688682778a23bb95"
+    },
+    "stpo-132": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "132",
+      "label": "StPO · Art. 132",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_132",
+      "sha256": "b942d9f9335d534cd29a9c08e56dce485056127ea95579a31ab804dfd0164b17"
+    },
+    "stpo-68": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "68",
+      "label": "StPO · Art. 68",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_68",
+      "sha256": "bcecd01567f29a61cc0a773b2e3c369a44991858821067d719a0ee6e6e718101"
+    },
+    "stpo-78": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "78",
+      "label": "StPO · Art. 78",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_78",
+      "sha256": "7189b85eac0f7d9d651ca269aaf9ef829871f40c86bdfb517ce73a17db4015fc"
+    },
+    "stpo-206": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "206",
+      "label": "StPO · Art. 206",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_206",
+      "sha256": "83f45e518901ea01bd47683dfd1a7a46f5db7591537ce3748fd02539dc4f15a6"
+    },
+    "stpo-215": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "215",
+      "label": "StPO · Art. 215",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_215",
+      "sha256": "6dd670b8de46a79b4af3a9bbcb8fa019a7a0309e366216c7979c75b2ca55afcb"
+    },
+    "stpo-219": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "219",
+      "label": "StPO · Art. 219",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_219",
+      "sha256": "138c1dd605ea6ce0781d30ba860aa9131dc3b501edb1025656a56e41453349ac"
+    },
+    "stpo-224": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "224",
+      "label": "StPO · Art. 224",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_224",
+      "sha256": "59b3a131f4c597e591915d553153cd4aaa21033d95acde39d64af6512bc928a8"
+    },
+    "stpo-226": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "226",
+      "label": "StPO · Art. 226",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_226",
+      "sha256": "7b95a5f0e0589c3eda58ad0334e8a10a2c692ba97b26881436a47035a669e067"
+    },
+    "bv-31": {
+      "type": "statute",
+      "sr": "101",
+      "article": "31",
+      "label": "BV · Art. 31",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1999/404/de#art_31",
+      "sha256": "878f968da07c8c7c3ccf6fb38ff1b707095b1c39be303a893d9d45c567980d79"
+    },
+    "bge-138-iv-47": {
+      "type": "decision",
+      "decision_id": "bge_BGE_138_IV_47",
+      "citation": "BGE 138 IV 47",
+      "e": "2.6.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_138_IV_47#e-2-6-1"
+    },
+    "bge-137-iv-118": {
+      "type": "decision",
+      "decision_id": "bge_BGE_137_IV_118",
+      "citation": "BGE 137 IV 118",
+      "e": "2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_137_IV_118#e-2-1"
+    },
+    "bge-141-iv-20": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_IV_20",
+      "citation": "BGE 141 IV 20",
+      "e": "1.3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_IV_20#e-1-3-3"
+    },
+    "bge-141-iv-20-e-1-2-4": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_IV_20",
+      "citation": "BGE 141 IV 20",
+      "e": "1.2.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_IV_20#e-1-2-4"
+    },
+    "stpo-135": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "135",
+      "label": "StPO · Art. 135",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_135",
+      "sha256": "9ac5d61ce36c97195c554911637f247ab13903224555d976c947cc8de656a1d1"
+    },
+    "stpo-228": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "228",
+      "label": "StPO · Art. 228",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_228",
+      "sha256": "caeb854d6415c2c63b697d914c656e622d112c31cb19f14010bb25e3dd3ceb9f"
+    },
+    "stpo-429": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "429",
+      "label": "StPO · Art. 429",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_429",
+      "sha256": "6cd559f1dc86bba9d7f1ec6e6d4de34df92f65a89ce09208094489359bc7439d"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Fedlex: Schweizerische Strafprozessordnung (StPO)"
+      },
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de"
+    },
+    {
+      "label": {
+        "de": "Zürcher Anwaltsverband: Pikett Strafverteidigung (Anwalt der ersten Stunde)"
+      },
+      "url": "https://www.zav.ch/de/anwaltssuche/pikett-strafverteidigung.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

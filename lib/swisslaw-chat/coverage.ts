@@ -77,15 +77,15 @@ export const WAVE_3: readonly CoverageGroup[] = [
     { id: 'health.switching', title: e('Die Kasse wechseln: Fristen', 'Changer de caisse : les délais', 'Cambiare cassa: i termini', 'Midar la cassa: ils termins', 'Changing insurer: deadlines') },
     { id: 'health.supplementary', title: e('Streit um die Zusatzversicherung', 'Litige sur l’assurance complémentaire', 'Controversia sull’assicurazione complementare', 'Dispita davart l’assicuranza cumplementara', 'Supplementary insurance disputes') },
   ] },
+  { area: 'protection', topics: [
+    { id: 'protection.domestic-violence', title: e('Häusliche Gewalt', 'Violence domestique', 'Violenza domestica', 'Violenza a chasa', 'Domestic violence') },
+    { id: 'protection.victim-support', title: e('Opferhilfe', 'Aide aux victimes', 'Aiuto alle vittime', 'Agid a las victimas', 'Victim support') },
+    { id: 'protection.police-questioning', title: e('Rechte bei einer Befragung durch die Polizei', 'Vos droits lors d’une audition par la police', 'Diritti durante un interrogatorio di polizia', 'Dretgs durant in interrogatori da la polizia', 'Your rights when questioned by the police') },
+  ] },
 ];
 
 /** Wave 3 continued and the long tail: planned, not yet drafted. */
 export const LATER: readonly CoverageGroup[] = [
-  { area: 'protection', label: e('Schutz und Opferhilfe', 'Protection et aide aux victimes', 'Protezione e aiuto alle vittime', 'Protecziun ed agid a las victimas', 'Protection and victim support'), topics: [
-    { title: e('Opferhilfe', 'Aide aux victimes', 'Aiuto alle vittime', 'Agid a las victimas', 'Victim support') },
-    { title: e('Rechte bei einer Befragung durch die Polizei', 'Vos droits lors d’une audition par la police', 'Diritti durante un interrogatorio di polizia', 'Dretgs durant in interrogatori da la polizia', 'Your rights when questioned by the police') },
-    { title: e('Häusliche Gewalt', 'Violence domestique', 'Violenza domestica', 'Violenza a chasa', 'Domestic violence') },
-  ] },
   { area: 'courts', label: e('Gerichte und Anwälte', 'Tribunaux et avocats', 'Tribunali e avvocati', 'Dretgiras ed advocats', 'Courts and lawyers'), topics: [
     { title: e('So läuft eine Schlichtung', 'Comment se déroule une conciliation', 'Come si svolge una conciliazione', 'Uschia funcziuna ina conciliaziun', 'How conciliation works') },
     { title: e('Unentgeltliche Rechtspflege', 'Assistance judiciaire gratuite', 'Gratuito patrocinio', 'Assistenza giudiziala gratuita', 'Free legal aid') },

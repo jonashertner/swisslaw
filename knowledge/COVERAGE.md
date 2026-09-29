@@ -57,10 +57,12 @@ Family situations point to personal advice early.
 | Health insurance | `health.refused-bill` | The health insurer refuses to pay a bill | ○ |
 | Health insurance | `health.switching` | Changing basic health insurer: deadlines and conditions | ○ |
 | Health insurance | `health.supplementary` | A dispute over supplementary health insurance | ○ |
+| Protection | `protection.domestic-violence` | I am experiencing violence at home. What protects me? | ○ |
+| Protection | `protection.victim-support` | I was the victim of a crime. What help and compensation can I get? | ○ |
+| Protection | `protection.police-questioning` | The police want to question me. What are my rights? | ○ |
 
 Still planned, in this order:
 
-- **Protection:** victim support (Opferhilfe), rights when questioned by the police, domestic violence (safety first).
 - **Courts:** how conciliation works, free legal aid, finding and paying a lawyer.
 
 Then the long tail: Neighbours (noise, trees, boundaries), small claims up to CHF 30,000, insurance claims refused, road accidents, flight delays, dog bites, apprenticeships, school and education decisions (cantonal), residence permits (with early referral), online fraud, deleting personal data.

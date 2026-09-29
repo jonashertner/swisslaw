@@ -1,0 +1,603 @@
+{
+  "schema": 1,
+  "id": "protection.victim-support",
+  "domain": "protection",
+  "version": "2026-09-29",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ich bin Opfer einer Straftat geworden: Opferhilfe"
+  },
+  "summary": {
+    "de": "Sie oder ein Ihnen nahestehender Mensch wurden Opfer einer Straftat – etwa Gewalt, ein Sexualdelikt, eine ernsthafte Drohung oder ein von jemand anderem verursachter Unfall. Dieser Leitfaden zeigt, welche kostenlose Beratung, welche finanziellen Hilfen und welche Rechte im Strafverfahren Ihnen als Opfer oder als Angehörige bzw. Angehöriger zustehen – unabhängig davon, ob die Täterschaft gefunden oder verurteilt wurde oder ob Sie Anzeige erstattet haben."
+  },
+  "examples": {
+    "de": [
+      "Ich wurde auf der Strasse zusammengeschlagen – was kann ich jetzt tun?",
+      "Mein Bruder ist bei einem Unfall gestorben, den ein anderer Autofahrer verursacht hat. Bekommen wir als Familie Geld?",
+      "Ich wurde sexuell belästigt, will aber nicht zur Polizei – gibt es trotzdem Hilfe?",
+      "Muss ich zuerst Anzeige erstatten, damit mir die Opferhilfe hilft?",
+      "Wer bezahlt meine Psychotherapie nach der Tat?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Wer als Opfer oder als Angehörige bzw. Angehöriger nach dem Opferhilfegesetz gilt; kostenlose und vertrauliche Beratung; finanzielle Hilfe (Entschädigung und Genugtuung) mit Voraussetzungen, Höchstbeträgen und Fristen; zentrale Opferrechte im Strafverfahren wie Information, Begleitung, Schutz vor einer Begegnung mit der beschuldigten Person und besondere Rechte bei Straftaten gegen die sexuelle Integrität."
+    },
+    "excludes": {
+      "de": "Wie Sie eine Strafanzeige einreichen oder wie ein Strafverfahren im Einzelnen abläuft; das zivilrechtliche Vorgehen ausserhalb des Opferhilfeverfahrens; Schutzmassnahmen bei häuslicher Gewalt wie Kontakt- oder Rayonverbot sowie das Verhalten bei einer polizeilichen Einvernahme – dazu gibt es eigene Leitfäden. Kantonale Einzelheiten der Beratungsstellen werden nicht aufgeführt."
+    }
+  },
+  "facts": [
+    {
+      "key": "role",
+      "question": {
+        "de": "Sind Sie selbst durch die Straftat verletzt worden, oder sind Sie Angehörige bzw. Angehöriger einer betroffenen Person?"
+      },
+      "options": [
+        {
+          "value": "victim",
+          "label": {
+            "de": "Ich selbst bin betroffen"
+          }
+        },
+        {
+          "value": "relative",
+          "label": {
+            "de": "Ich bin Angehörige/Angehöriger einer betroffenen Person"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "sexual_offence",
+      "question": {
+        "de": "Geht es um eine Straftat gegen die sexuelle Integrität (z. B. sexuelle Nötigung, Vergewaltigung, sexuelle Belästigung)?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "abroad",
+      "question": {
+        "de": "Wurde die Straftat in der Schweiz oder im Ausland begangen?"
+      },
+      "options": [
+        {
+          "value": "switzerland",
+          "label": {
+            "de": "In der Schweiz"
+          }
+        },
+        {
+          "value": "abroad",
+          "label": {
+            "de": "Im Ausland"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "proceedings",
+      "question": {
+        "de": "Läuft bereits ein Strafverfahren, zum Beispiel weil Sie oder jemand anders Anzeige erstattet hat?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, es läuft ein Verfahren"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein, es gibt noch kein Verfahren"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "wer-gilt-als-opfer",
+      "kind": "rule",
+      "text": {
+        "de": "Als Opfer gilt, wer durch eine Straftat unmittelbar in der körperlichen, psychischen oder sexuellen Integrität beeinträchtigt worden ist – etwa durch eine Körperverletzung, eine ernsthafte Drohung, eine sexuelle Handlung gegen Ihren Willen oder einen Verkehrsunfall, den eine andere Person strafrechtlich zu verantworten hat. Reine Vermögensdelikte wie ein Diebstahl reichen dafür nicht aus. Angehörige des Opfers – Ehegattin oder Ehegatte, Kinder, Eltern und andere ihm ähnlich nahestehende Personen – haben ebenfalls Anspruch auf Opferhilfe, zum Beispiel wenn ein naher Angehöriger getötet wurde. Der Anspruch besteht unabhängig davon, ob die Täterschaft ermittelt oder verurteilt wurde, ob sie vorsätzlich oder fahrlässig gehandelt hat und ob überhaupt eine Strafanzeige erstattet worden ist."
+      },
+      "sources": [
+        "ohg-1"
+      ]
+    },
+    {
+      "id": "beratungsstelle-kostenlos",
+      "kind": "rule",
+      "text": {
+        "de": "Die Kantone stellen Beratungsstellen für Opferhilfe zur Verfügung. Diese beraten Sie und Ihre Angehörigen und unterstützen Sie dabei, Ihre Rechte wahrzunehmen, etwa gegenüber Polizei, Staatsanwaltschaft oder Versicherung. Sie können sich an eine Beratungsstelle Ihrer Wahl wenden, unabhängig davon, in welchem Kanton die Straftat begangen wurde. Die Kantone sorgen dafür, dass Sie innert angemessener Frist Soforthilfe für die dringendsten Bedürfnisse erhalten; danach folgt bei Bedarf längerfristige Hilfe, bis sich Ihr Gesundheitszustand stabilisiert hat und die übrigen Folgen der Tat möglichst behoben sind. Diese Hilfe können Sie unabhängig davon beanspruchen, wann die Straftat begangen wurde. Beratung, Soforthilfe und längerfristige Hilfe der Beratungsstelle sind für Sie und Ihre Angehörigen kostenlos."
+      },
+      "sources": [
+        "ohg-12",
+        "ohg-13",
+        "ohg-15",
+        "ohg-9",
+        "ohg-5"
+      ]
+    },
+    {
+      "id": "beratung-vertraulich",
+      "kind": "rule",
+      "text": {
+        "de": "Die Mitarbeitenden der Beratungsstelle müssen über das, was Sie ihnen erzählen, gegenüber Behörden und Privaten schweigen; diese Pflicht gilt auch nach Beendigung ihrer Tätigkeit. Weitergeben dürfen sie Informationen nur, wenn Sie damit einverstanden sind. Eine Ausnahme gilt, wenn ein minderjähriges Kind oder ein Erwachsener unter umfassender Beistandschaft ernsthaft in seiner körperlichen, psychischen oder sexuellen Integrität gefährdet ist: Dann darf die Beratungsstelle die Kindes- und Erwachsenenschutzbehörde informieren oder selbst Strafanzeige erstatten."
+      },
+      "sources": [
+        "ohg-11"
+      ]
+    },
+    {
+      "id": "finanzielle-hilfe-arten",
+      "kind": "rule",
+      "text": {
+        "de": "Neben der Beratung kennt das Opferhilferecht zwei Arten von Geldleistungen. Die Entschädigung ersetzt Ihnen einen Teil des finanziellen Schadens, der durch die Beeinträchtigung oder den Tod des Opfers entstanden ist, zum Beispiel Heilungskosten, Erwerbsausfall oder Bestattungskosten; reine Sachschäden sind nicht gedeckt. Die Genugtuung ist eine Geldsumme für das erlittene seelische Leid; sie steht Ihnen zu, wenn die Schwere der Beeinträchtigung dies rechtfertigt, und ist – anders als die Entschädigung – unabhängig von Ihrem Einkommen. Beide Ansprüche stehen sowohl dem Opfer als auch seinen Angehörigen zu."
+      },
+      "sources": [
+        "ohg-19",
+        "ohg-22"
+      ]
+    },
+    {
+      "id": "finanzielle-hilfe-subsidiaer",
+      "kind": "rule",
+      "text": {
+        "de": "Entschädigung und Genugtuung sind subsidiär: Der Kanton zahlt nur endgültig, wenn die Täterschaft oder eine andere verpflichtete Person oder Versicherung keine oder keine ausreichende Leistung erbringt. Wenn Sie eine dieser Leistungen beantragen, müssen Sie in der Regel glaubhaft machen, dass diese Voraussetzung erfüllt ist – ausser es wäre Ihnen angesichts der besonderen Umstände nicht zumutbar, sich um Leistungen Dritter zu bemühen. Die Beratungsstelle kann Sie dabei unterstützen, Ansprüche gegenüber Versicherungen oder der Täterschaft abzuklären."
+      },
+      "sources": [
+        "ohg-4"
+      ]
+    },
+    {
+      "id": "finanzielle-hilfe-betraege",
+      "kind": "cost",
+      "text": {
+        "de": "Die Entschädigung deckt Ihren Schaden ganz, wenn Ihr anrechenbares Einkommen eine bestimmte Grenze nicht übersteigt, und anteilsmässig, wenn es bis zum Vierfachen dieser Grenze liegt; darüber hinaus gibt es keine Entschädigung. Sie beträgt höchstens 130 000 Franken; liegt der errechnete Betrag unter 500 Franken, wird nichts ausbezahlt. Die Genugtuung beträgt höchstens 76 000 Franken für das Opfer und höchstens 38 000 Franken für Angehörige; Genugtuungsleistungen, die Sie bereits von Dritten erhalten haben, werden abgezogen. Die genaue Höhe berechnet die zuständige kantonale Stelle für Ihren Fall."
+      },
+      "sources": [
+        "ohg-20",
+        "ohg-23"
+      ]
+    },
+    {
+      "id": "mitverschulden",
+      "kind": "warning",
+      "text": {
+        "de": "Haben Sie selbst – oder als Angehörige bzw. Angehöriger das Opfer – zur Entstehung oder Verschlimmerung der Beeinträchtigung beigetragen, kann die kantonale Behörde die Entschädigung oder Genugtuung kürzen oder ganz verweigern. Wohnen Sie im Ausland, kann die Genugtuung zudem an die dortigen Lebenshaltungskosten angepasst, also gekürzt werden."
+      },
+      "sources": [
+        "ohg-27"
+      ]
+    },
+    {
+      "id": "frist-entschaedigung",
+      "kind": "warning",
+      "text": {
+        "de": "Für Entschädigung und Genugtuung gilt eine Frist: Sie haben ab der Tat – oder, falls Sie erst später davon erfahren haben, ab diesem späteren Zeitpunkt – fünf Jahre Zeit, um bei der zuständigen kantonalen Stelle ein Gesuch zu stellen; reichen Sie es später ein, geht Ihr Anspruch unter. Haben Sie oder Ihre Angehörigen im Strafverfahren rechtzeitig Zivilansprüche geltend gemacht, läuft zusätzlich eine Frist von einem Jahr ab dem endgültigen Entscheid über diese Ansprüche oder ab der Einstellung des Strafverfahrens. Bei bestimmten schweren Straftaten gegen ein Kind unter 16 Jahren – etwa sexuellen Handlungen mit Kindern, Tötung, schwerer Körperverletzung oder Menschenhandel – sowie bei versuchtem Mord an einem Kind unter 16 Jahren kann das Opfer das Gesuch bis zum vollendeten 25. Lebensjahr stellen. Warten Sie im Zweifel nicht: Fragen Sie frühzeitig bei einer Beratungsstelle nach, welche Frist für Sie gilt."
+      },
+      "sources": [
+        "ohg-25",
+        "stgb-97"
+      ]
+    },
+    {
+      "id": "gesuch-einreichen",
+      "kind": "step",
+      "text": {
+        "de": "Das Gesuch um Entschädigung oder Genugtuung reichen Sie bei der Behörde des Kantons ein, in dem die Straftat begangen wurde; wurde sie an mehreren Orten begangen, ist der Kanton zuständig, in dem die Strafuntersuchung zuerst eröffnet wurde, und ohne Strafuntersuchung Ihr Wohnsitzkanton. Die Kantone müssen ein einfaches und rasches Verfahren anbieten und klären den Sachverhalt von sich aus ab. Brauchen Sie sofort Geld und lassen sich die Folgen der Tat kurzfristig noch nicht sicher abschätzen, können Sie einen Vorschuss auf die Entschädigung beantragen. Die Beratungsstelle hilft Ihnen beim Ausfüllen des Gesuchs."
+      },
+      "sources": [
+        "ohg-26",
+        "ohg-29",
+        "ohg-21"
+      ]
+    },
+    {
+      "id": "verfahren-kostenlos",
+      "kind": "cost",
+      "text": {
+        "de": "Das Verfahren bei den Verwaltungs- und Gerichtsbehörden für Beratung, Soforthilfe, längerfristige Hilfe, Entschädigung und Genugtuung ist für Sie und Ihre Angehörigen kostenlos. Eine Ausnahme gilt nur, wenn Sie mutwillig prozessieren, also offensichtlich aussichtslose oder querulatorische Anträge stellen. Kosten für einen unentgeltlichen Rechtsbeistand müssen Sie nicht zurückzahlen."
+      },
+      "sources": [
+        "ohg-30"
+      ]
+    },
+    {
+      "id": "straftat-im-ausland",
+      "kind": "warning",
+      "when": {
+        "abroad": [
+          "abroad",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wurde die Straftat im Ausland begangen, erhalten Sie Hilfe der Beratungsstellen nur, wenn Sie – und bei Angehörigen auch das Opfer – sowohl im Zeitpunkt der Tat als auch bei der Gesuchstellung Wohnsitz in der Schweiz hatten, und nur, wenn der Staat, in dem die Tat begangen wurde, keine oder keine ausreichende Hilfe leistet. Eine Entschädigung oder Genugtuung nach Schweizer Opferhilferecht gibt es für im Ausland begangene Straftaten dagegen nicht. Klären Sie mit der Beratungsstelle ab, welche Hilfe im Tatortstaat oder über Ihre Versicherung möglich ist."
+      },
+      "sources": [
+        "ohg-3",
+        "ohg-17"
+      ]
+    },
+    {
+      "id": "information-durch-behoerden",
+      "kind": "rule",
+      "text": {
+        "de": "Polizei und Staatsanwaltschaft müssen Sie bei der ersten Einvernahme umfassend über Ihre Rechte und Pflichten im Strafverfahren informieren – insbesondere über die Adressen und Aufgaben der Beratungsstellen, die möglichen Opferhilfeleistungen und die Frist für Entschädigungs- und Genugtuungsgesuche. Mit Ihrem Einverständnis melden sie Ihren Namen und Ihre Adresse einer Beratungsstelle. Diese Informationspflicht gilt sinngemäss auch gegenüber Ihren Angehörigen."
+      },
+      "sources": [
+        "stpo-305"
+      ]
+    },
+    {
+      "id": "vertrauensperson-schutz",
+      "kind": "rule",
+      "text": {
+        "de": "Bei allen Verfahrenshandlungen dürfen Sie sich – neben Ihrem Rechtsbeistand – von einer Vertrauensperson begleiten lassen. Verlangen Sie es, vermeiden die Strafbehörden eine Begegnung zwischen Ihnen und der beschuldigten Person, etwa bei einer Einvernahme, und sorgen auf andere Weise dafür, dass die beschuldigte Person trotzdem angehört werden kann. Die Strafbehörden müssen Ihre Persönlichkeitsrechte während des ganzen Verfahrens wahren."
+      },
+      "sources": [
+        "stpo-152"
+      ]
+    },
+    {
+      "id": "schutz-sexualdelikte",
+      "kind": "rule",
+      "when": {
+        "sexual_offence": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sind Sie Opfer einer Straftat gegen die sexuelle Integrität, können Sie verlangen, von einer Person gleichen Geschlechts einvernommen zu werden. Eine Gegenüberstellung mit der beschuldigten Person gegen Ihren Willen ist nur zulässig, wenn deren Anspruch auf rechtliches Gehör nicht anders gewahrt werden kann. Ausserdem dürfen Sie die Aussage zu Fragen, die Ihre Intimsphäre betreffen, in jedem Fall verweigern – unabhängig davon, ob Sie sonst zur Aussage verpflichtet wären."
+      },
+      "sources": [
+        "stpo-153",
+        "stpo-169"
+      ]
+    },
+    {
+      "id": "privatklaegerschaft",
+      "kind": "step",
+      "when": {
+        "proceedings": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wollen Sie sich am Strafverfahren als Straf- oder Zivilklägerin bzw. -kläger beteiligen (Privatklägerschaft), müssen Sie dies spätestens bis zum Abschluss des Vorverfahrens gegenüber der Polizei oder der Staatsanwaltschaft erklären; eine Strafanzeige gilt bereits als solche Erklärung. Melden Sie sich nicht von sich aus, muss die Staatsanwaltschaft Sie darauf aufmerksam machen, sobald sie das Vorverfahren eröffnet hat. Sie können jederzeit schriftlich oder mündlich zu Protokoll erklären, dass Sie auf Ihre Rechte verzichten; dieser Verzicht ist endgültig und umfasst, wenn nicht ausdrücklich beschränkt, sowohl die Straf- als auch die Zivilklage."
+      },
+      "sources": [
+        "stpo-118",
+        "stpo-120"
+      ]
+    },
+    {
+      "id": "zivilanspruch-angehoerige",
+      "kind": "rule",
+      "when": {
+        "role": [
+          "relative",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Als Angehörige bzw. Angehöriger haben Sie eigene Rechte im Strafverfahren: Machen Sie selbst Zivilansprüche geltend – etwa Schadenersatz oder Genugtuung wegen des Todes oder der Verletzung des Opfers –, stehen Ihnen dieselben besonderen Rechte zu wie dem Opfer selbst, zum Beispiel auf Persönlichkeitsschutz, Begleitung durch eine Vertrauensperson und Information durch die Behörden."
+      },
+      "sources": [
+        "stpo-117"
+      ]
+    },
+    {
+      "id": "opferhilfe-telefon",
+      "kind": "free-help",
+      "text": {
+        "de": "Die nationale Opferhilfe-Nummer 142 ist rund um die Uhr, kostenlos und vertraulich erreichbar, auf Wunsch auch anonym. Über opferhilfe-schweiz.ch finden Sie zudem die Beratungsstelle Ihres Kantons mit Adresse und Öffnungszeiten. Sie müssen dafür keine Anzeige erstattet haben und können sich melden, auch wenn Sie noch nicht wissen, ob Sie rechtliche Schritte unternehmen wollen."
+      }
+    },
+    {
+      "id": "notfallnummern",
+      "kind": "free-help",
+      "text": {
+        "de": "In einer akuten Notlage rufen Sie die Polizei unter 117 oder bei gesundheitlicher Gefahr den Sanitätsnotruf unter 144. Beide Nummern sind rund um die Uhr kostenlos erreichbar."
+      }
+    },
+    {
+      "id": "rechtliche-beratung",
+      "kind": "escalate",
+      "text": {
+        "de": "Bei schweren Beeinträchtigungen, wenn die Täterschaft den Schaden bestreitet, wenn mehrere Kantone oder Länder betroffen sind oder wenn Ihnen eine Entschädigung oder Genugtuung verweigert oder gekürzt wird, lohnt sich eine persönliche Rechtsberatung. Die Beratungsstelle für Opferhilfe kann Ihnen praktische Unterstützung bieten und Sie an eine spezialisierte Anwältin oder einen Anwalt verweisen; die Kosten dafür können unter Umständen von der Opferhilfe mitgetragen werden."
+      }
+    }
+  ],
+  "sources": {
+    "ohg-1": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "1",
+      "label": "OHG · Art. 1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_1",
+      "sha256": "e0501e498af20f1fb3d3828f0595f92752ecbd0d61b98c6d6210a20b57053614"
+    },
+    "ohg-3": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "3",
+      "label": "OHG · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_3",
+      "sha256": "c4cf8968bbc5b0b36d8b510f6b7875ac7f8a1cb4c078a2218658ffd22494fe56"
+    },
+    "ohg-4": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "4",
+      "label": "OHG · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_4",
+      "sha256": "c870978f129b9cb59fa63d015081621a7d12ea86eac6bf6b75a2109622208f7c"
+    },
+    "ohg-11": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "11",
+      "label": "OHG · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_11",
+      "sha256": "94c4022b506a47f24bf511022b2822a27c79401aac9fd068dffd3e9fba017ad8"
+    },
+    "ohg-12": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "12",
+      "label": "OHG · Art. 12",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_12",
+      "sha256": "320753d2779087c45693b920da8cfb99563a7cb4a9718097e76f52593c40e0da"
+    },
+    "ohg-13": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "13",
+      "label": "OHG · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_13",
+      "sha256": "cccfc5c991d0e692098d0a01c41af80b1ebe582d6ee7c925ec3ce68dbd7a6687"
+    },
+    "ohg-15": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "15",
+      "label": "OHG · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_15",
+      "sha256": "6c1214aa82f00999529a624f5a7d7f47e72f9f4490081a71c24a490f55cec186"
+    },
+    "ohg-17": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "17",
+      "label": "OHG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_17",
+      "sha256": "de22fa9fabdd77f04315b85829bdbd24bce5c14e0e88de22a4bcc377a87c5d1b"
+    },
+    "ohg-19": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "19",
+      "label": "OHG · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_19",
+      "sha256": "1d9cc7fec3e76d94e6d86b8053b9df618b2550b377843e7b8e936304b62636ac"
+    },
+    "ohg-20": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "20",
+      "label": "OHG · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_20",
+      "sha256": "61edec12a7d9ef27856a94c581f66974002e88d5c7ae77b7c813ff3d4d3f3404"
+    },
+    "ohg-21": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "21",
+      "label": "OHG · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_21",
+      "sha256": "0fc37e80fa286ea255538ced79e6323a20ff703f200aa251c41459b5157636ac"
+    },
+    "ohg-22": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "22",
+      "label": "OHG · Art. 22",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_22",
+      "sha256": "d21fa17b8244859877f0493fd0941ebf95c19dd8dbb5489a543e5e33c5eb04e0"
+    },
+    "ohg-23": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "23",
+      "label": "OHG · Art. 23",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_23",
+      "sha256": "759784c31f0be52ff22858a5eea27ab6d87c827d375ea6b22a61b41f2e2be52d"
+    },
+    "ohg-25": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "25",
+      "label": "OHG · Art. 25",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_25",
+      "sha256": "5effd8b1805fa4af53c1241b4bb2bda6319d1aa73f6ae563338f13795b4027b9"
+    },
+    "ohg-26": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "26",
+      "label": "OHG · Art. 26",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_26",
+      "sha256": "953c43627e386509dd8d85d66070998aa39a4328a0262176648dd1741060f1b7"
+    },
+    "ohg-27": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "27",
+      "label": "OHG · Art. 27",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_27",
+      "sha256": "87949b5845791630088acc45826b6ce67f2a73f64941752a996b735d720abbc1"
+    },
+    "ohg-29": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "29",
+      "label": "OHG · Art. 29",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_29",
+      "sha256": "78314a919d0324e39d8aed86b64246f5c23655abc285563947b24d56bf13a0c1"
+    },
+    "ohg-30": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "30",
+      "label": "OHG · Art. 30",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_30",
+      "sha256": "6308585dc9d31a52cb43198bed4ee28da719f8605846a0ed8efa339af6315aa7"
+    },
+    "stgb-97": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "97",
+      "label": "StGB · Art. 97",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_97",
+      "sha256": "351e88123f6dddc07b5c8bd2472ab4d811bc5829ab345cf84b4c0b0b81365183"
+    },
+    "stpo-117": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "117",
+      "label": "StPO · Art. 117",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_117",
+      "sha256": "00ef8db7439b7a89e51d0f88762d86cdf4368078b93568402a07bcdfd286c894"
+    },
+    "stpo-118": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "118",
+      "label": "StPO · Art. 118",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_118",
+      "sha256": "30ad576e53daa05d74a6efa02677b09da1575afa6e7009fad5b407b2495cbbf4"
+    },
+    "stpo-120": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "120",
+      "label": "StPO · Art. 120",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_120",
+      "sha256": "d3b753809f633a83f7070f7df132cb8b264e7565cdb9c1ebdd9726f44aa7cf84"
+    },
+    "stpo-152": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "152",
+      "label": "StPO · Art. 152",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_152",
+      "sha256": "800c7dfaec56e461156a7e98057c3a57bd3195a7c9d11a31065fe2e223459b6e"
+    },
+    "stpo-153": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "153",
+      "label": "StPO · Art. 153",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_153",
+      "sha256": "38a5bd840963d5bde58ca0f2d70fc65489176bb3a8d17c42c6f96d7d178226e8"
+    },
+    "stpo-169": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "169",
+      "label": "StPO · Art. 169",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_169",
+      "sha256": "43729ca2645292e7d01fcace816ec13597d5e226dc49cf4048718a367622f717"
+    },
+    "stpo-305": {
+      "type": "statute",
+      "sr": "312.0",
+      "article": "305",
+      "label": "StPO · Art. 305",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de#art_305",
+      "sha256": "552523e9d7f8a5d2ee1dd2c0b65c9e7e67fca1fc3f8a206e70f290d7238ba5c6"
+    },
+    "ohg-9": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "9",
+      "label": "OHG · Art. 9",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_9",
+      "sha256": "17f39e7b4633ff62e7a6d65c227f71d5b62cb65134af51a491e5acf39182e5a6"
+    },
+    "ohg-5": {
+      "type": "statute",
+      "sr": "312.5",
+      "article": "5",
+      "label": "OHG · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_5",
+      "sha256": "c62bef975b1e5c8f0cdc36e1221f90e1eded88f624a64139dff2059de93f2600"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Opferhilfe Schweiz – Beratungsstelle finden"
+      },
+      "url": "https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Justiz – Opferhilfe"
+      },
+      "url": "https://www.bj.admin.ch/de/opferhilfe"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-29",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
