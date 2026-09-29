@@ -41,6 +41,8 @@ rmSync(OUT, { recursive: true, force: true });
 const write = (rel: string, body: string | Buffer) => { const p = join(OUT, rel); mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, body); };
 const hash = (s: string | Buffer) => createHash('sha256').update(s).digest('hex').slice(0, 10);
 
+// Statute texts cached by scripts/cache-statutes.ts; a guide shows a text only if its hash is the one the guide was checked against.
+const PROVISIONS: Record<string, { sha256: string; url: string; body: string }> = (() => { try { return JSON.parse(readFileSync(join(ROOT, 'knowledge/statutes.de.json'), 'utf8')); } catch { return {}; } })();
 const css = readFileSync(join(ROOT, 'site/style.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,])\s*/g, '$1').replace(/:\s+/g, ':');
 const cssHash = `sha256-${createHash('sha256').update(css).digest('base64')}`;
 mkdirSync(join(OUT, 'fonts'), { recursive: true });
@@ -58,7 +60,7 @@ write(jsPath, Buffer.from(js));
 
 // --- page shell -------------------------------------------------------------------
 const CLIENT_KEYS: SiteKey[] = ['enterDate', 'calcPending', 'noDate', 'actUntil', 'today', 'dayLeft', 'daysLeft', 'expired', 'urgent', 'couldBeLater',
-  'cantonHint', 'howCalculated', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied', 'submitThanks', 'submitError', 'submitUnavailable', 'submitTooShort', 'submitTooMany',
+  'cantonHint', 'howCalculated', 'answeredOf', 'tlStart', 'tlToday', 'tlEnd', 'calcReceipt', 'calcPlus', 'calcEnd', 'basis', 'calcDraft', 'calcAdvice', 'copied', 'submitThanks', 'submitError', 'submitUnavailable', 'submitTooShort', 'submitTooMany',
   ...(Object.keys(SITE_TEXT).filter(k => k.startsWith('note_') || k.startsWith('later_')) as SiteKey[])];
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const jsonScript = (v: unknown) => JSON.stringify(v).replace(/</g, '\\u003c');
@@ -161,9 +163,9 @@ for (const lang of LANGS) {
     emit({ lang, path: paths.situation(lang, s.id), alt: l => paths.situation(l, s.id), contentLang,
       canonical: paths.situation(contentLang, s.id), markdown: `${paths.situation(contentLang, s.id)}index.md`, langs: LANGS.filter(l => l === 'de' || s.title[l]), lastmod: s.version, article: true,
       title: title(localText(s.title, lang).text), description: localText(s.summary, lang).text.slice(0, 300),
-      body: <SituationBody ctx={{ lang, review: REVIEW }} s={s} />,
+      body: <SituationBody ctx={{ lang, review: REVIEW }} s={s} provisions={PROVISIONS} />,
       script: true,
-      data: { lang, channel: CHANNEL, locale: FULL_DATE_LOCALE[lang], text: hasDeadline ? clientText(lang) : { copied: SITE_TEXT.copied[lang] } },
+      data: { lang, channel: CHANNEL, locale: FULL_DATE_LOCALE[lang], text: hasDeadline ? clientText(lang) : { copied: SITE_TEXT.copied[lang], answeredOf: SITE_TEXT.answeredOf[lang] } },
       jsonld: { '@context': 'https://schema.org', '@graph': [crumbs, { '@type': 'Article', headline, description: localText(s.summary, lang).text,
         inLanguage: contentLang, url: `${ORIGIN}${paths.situation(contentLang, s.id)}`, image: OG_IMAGE, dateModified: s.version, datePublished: s.review.prepared_at,
         isAccessibleForFree: true, license: LICENSE_URL, author: publisher, publisher, isPartOf: siteLd, about: { '@type': 'Thing', name: AREA_TEXT[s.domain]?.[lang] },
