@@ -258,12 +258,14 @@
         ]
       },
       "text": {
-        "de": "Sind seit dem Tod bereits mehr als drei Monate vergangen und wussten Sie schon damals davon, ist die Frist zur Ausschlagung in der Regel bereits abgelaufen. Ohne rechtzeitige Ausschlagung gilt die Erbschaft grundsätzlich als vorbehaltlos angenommen, und Sie haften wie jede Erbin oder jeder Erbe für deren Schulden. Nur aus wichtigen Gründen kann Ihnen die zuständige Behörde noch eine neue Frist ansetzen oder die Frist verlängern. Prüfen Sie das umgehend und holen Sie rasch Rat, statt weiter zuzuwarten."
+        "de": "Sind seit dem Tod bereits mehr als drei Monate vergangen und wussten Sie schon damals davon, ist die Frist zur Ausschlagung in der Regel bereits abgelaufen. Ohne rechtzeitige Ausschlagung gilt die Erbschaft grundsätzlich als vorbehaltlos angenommen, und Sie haften wie jede Erbin oder jeder Erbe für deren Schulden. Eine neue Frist oder eine Verlängerung gibt es nur aus wichtigen Gründen, etwa wenn Sie trotz aller zumutbaren Abklärungen die Lage nicht kennen konnten, und nur, wenn Sie sofort handeln, sobald Sie vom Grund erfahren. Prüfen Sie das umgehend und holen Sie rasch Rat, statt weiter zuzuwarten."
       },
       "sources": [
         "zgb-567",
         "zgb-571",
-        "zgb-576"
+        "zgb-576",
+        "bger-5a-998-2020",
+        "bge-114-ii-220"
       ]
     },
     {
@@ -297,12 +299,13 @@
       "id": "public-inventory-deadline",
       "kind": "warning",
       "text": {
-        "de": "Das öffentliche Inventar müssen Sie innert eines Monats verlangen, also deutlich früher, als die dreimonatige Frist für die Ausschlagung abläuft. Die Monatsfrist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald sie vom Tod erfahren haben, auch wenn ein Testament sie auf den Pflichtteil setzt. Verpassen Sie diese Frist, können Sie kein öffentliches Inventar mehr verlangen; ausschlagen können Sie aber weiterhin, solange die drei Monate laufen. Sind Sie unsicher, ob die Erbschaft überschuldet ist, handeln Sie deshalb in den ersten Wochen."
+        "de": "Das öffentliche Inventar müssen Sie innert eines Monats verlangen, also deutlich früher, als die dreimonatige Frist für die Ausschlagung abläuft. Die Monatsfrist beginnt für gesetzliche Erbinnen und Erben in der Regel, sobald sie vom Tod erfahren haben, auch wenn ein Testament sie auf den Pflichtteil setzt. Das Gesetz sieht keine Verlängerung dieser Frist vor. Ob die Behörde ausnahmsweise trotzdem eine neue Frist ansetzen darf, ist umstritten und vom Bundesgericht nicht entschieden. Rechnen Sie deshalb damit, dass ein verspätetes Gesuch scheitert. Ausschlagen können Sie aber weiterhin, solange die drei Monate laufen. Sind Sie unsicher, ob die Erbschaft überschuldet ist, handeln Sie deshalb in den ersten Wochen."
       },
       "sources": [
         "zgb-580",
         "zgb-567",
-        "bge-138-iii-545"
+        "bge-138-iii-545",
+        "bger-5a-998-2020"
       ]
     },
     {
@@ -659,6 +662,20 @@
       "citation": "BGE 138 III 545",
       "e": "2.4",
       "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_138_III_545#e-2-4"
+    },
+    "bger-5a-998-2020": {
+      "type": "decision",
+      "decision_id": "bger_5A_998_2020",
+      "citation": "BGer 5A_998/2020 vom 25. Juni 2021",
+      "e": "4.2.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_998_2020#e-4-2-1"
+    },
+    "bge-114-ii-220": {
+      "type": "decision",
+      "decision_id": "bge_BGE_114_II_220",
+      "citation": "BGE 114 II 220",
+      "e": "4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_114_II_220#e-4"
     }
   },
   "official_links": [

@@ -1,0 +1,614 @@
+{
+  "schema": 1,
+  "id": "health.supplementary",
+  "domain": "health",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Streit um die Zusatzversicherung"
+  },
+  "summary": {
+    "de": "Ihre Zusatzversicherung zur Krankenversicherung ist ein privater Vertrag, kein Sozialversicherungsverhältnis. Bei Streit – etwa über eine abgelehnte Leistung, eine Kündigung oder eine angebliche Anzeigepflichtverletzung – gelten deshalb andere Regeln als bei der Grundversicherung: keine Verfügung, kein Einspracheverfahren, sondern Vertrag, Allgemeine Versicherungsbedingungen (AVB) und das Versicherungsvertragsgesetz (VVG)."
+  },
+  "examples": {
+    "de": [
+      "Meine Zusatzversicherung will die Rechnung fürs Spital nicht übernehmen.",
+      "Die Krankenkasse sagt, ich hätte bei der Anmeldung etwas verschwiegen, und kündigt jetzt meine Zusatzversicherung.",
+      "Kann meine Krankenkasse meine Zahnzusatzversicherung einfach kündigen?",
+      "Ich habe die Prämie für die Spitalzusatzversicherung vergessen zu zahlen, jetzt zahlt sie nicht mehr.",
+      "Wo muss ich klagen, wenn die Zusatzversicherung nicht zahlt?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Streitigkeiten aus einer privaten Zusatzversicherung zur Krankenversicherung: Spital (halbprivat/privat), Zahnbehandlungen, Alternativmedizin, Krankentaggeld und Ähnliches. Diese Verträge unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Sozialversicherungsrecht."
+    },
+    "excludes": {
+      "de": "Die obligatorische Grundversicherung (KVG) mit Verfügung und Einsprache – dafür gibt es eine eigene Übersicht. Auch Lebensversicherungen und private Zusatzversicherungen ausserhalb der Krankenpflege (z.B. reine Unfallzusatzversicherungen) gehören nicht hierher."
+    }
+  },
+  "facts": [
+    {
+      "key": "dispute_type",
+      "question": {
+        "de": "Worum geht es bei Ihrem Streit mit der Zusatzversicherung?"
+      },
+      "options": [
+        {
+          "value": "benefit-refused",
+          "label": {
+            "de": "Sie lehnt eine Leistung ab oder kürzt sie"
+          }
+        },
+        {
+          "value": "disclosure",
+          "label": {
+            "de": "Sie beruft sich auf falsche oder fehlende Angaben beim Vertragsabschluss"
+          }
+        },
+        {
+          "value": "termination",
+          "label": {
+            "de": "Es geht um eine Kündigung des Vertrags"
+          }
+        },
+        {
+          "value": "premium",
+          "label": {
+            "de": "Es geht um die Prämie oder einen Zahlungsverzug"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht genau"
+          }
+        }
+      ]
+    },
+    {
+      "key": "written_answer",
+      "question": {
+        "de": "Haben Sie von der Versicherung schon etwas Schriftliches dazu erhalten?"
+      },
+      "help": {
+        "de": "Gemeint ist ein Brief, ein E-Mail oder ein Formular, in dem die Versicherung ihre Ablehnung, Kündigung oder Forderung begründet."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "cantonal_court",
+      "question": {
+        "de": "Hat Ihr Kanton ein einziges Gericht für solche Streitigkeiten bezeichnet?"
+      },
+      "help": {
+        "de": "Manche Kantone weisen Streitigkeiten aus der Zusatzversicherung einem einzigen kantonalen Gericht zu (Art. 7 ZPO), andere nicht. Im Zweifel wählen Sie „Weiss ich nicht“."
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "private-law",
+      "kind": "rule",
+      "text": {
+        "de": "Ihre Zusatzversicherung zur Krankenversicherung – etwa für Spital halbprivat/privat, Zahnbehandlungen oder Alternativmedizin – ist ein privatrechtlicher Vertrag. Solche Zusatzversicherungen unterstehen dem Versicherungsvertragsgesetz (VVG), nicht dem Krankenversicherungsgesetz (KVG). Das heisst: Die Versicherung erlässt keine Verfügung, und es gibt kein Einspracheverfahren wie bei der Grundversicherung. Massgebend sind Ihr Vertrag, die Allgemeinen Versicherungsbedingungen (AVB) und das VVG. Bei Streit müssen Sie Ihren Anspruch nötigenfalls beim Zivilgericht einklagen."
+      },
+      "sources": [
+        "kvag-2"
+      ]
+    },
+    {
+      "id": "scope",
+      "kind": "rule",
+      "text": {
+        "de": "Als Zusatzversicherung zur sozialen Krankenversicherung gilt nur eine Versicherung, die die Risiken Krankheit, Unfall oder Mutterschaft abdeckt und die Leistungen der obligatorischen Krankenversicherung ergänzt. Eine private Versicherung, die zum Beispiel nur die Leistungen der Unfallversicherung (UVG) aufbessert, gehört nach der Rechtsprechung nicht dazu; für sie gilt die besondere Gerichtszuständigkeit nach Art. 7 ZPO nicht."
+      },
+      "sources": [
+        "bger-4a-169-2023",
+        "zpo-7"
+      ]
+    },
+    {
+      "id": "first-steps",
+      "kind": "step",
+      "text": {
+        "de": "Verlangen Sie von der Versicherung eine schriftliche Begründung: Welche Bestimmung des Vertrags oder der Allgemeinen Versicherungsbedingungen (AVB) wendet sie an? Bewahren Sie Police, AVB, den ausgefüllten Gesundheitsfragebogen und die gesamte Korrespondenz auf. Ohne diese Unterlagen lässt sich kaum beurteilen, ob die Versicherung im Recht ist, und Sie brauchen sie für eine Beratung oder eine allfällige Klage."
+      }
+    },
+    {
+      "id": "no-written-answer",
+      "kind": "step",
+      "when": {
+        "written_answer": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie noch nichts Schriftliches erhalten, fordern Sie die Versicherung schriftlich auf, ihre Ablehnung, Kündigung oder Forderung zu begründen, und setzen Sie eine angemessene Frist, zum Beispiel 10 bis 14 Tage. Diese schriftliche Antwort ist die Grundlage für alles Weitere – ohne sie lässt sich weder eine Beratung noch eine Klage sinnvoll vorbereiten."
+      }
+    },
+    {
+      "id": "written-answer",
+      "kind": "step",
+      "when": {
+        "written_answer": [
+          "yes"
+        ]
+      },
+      "text": {
+        "de": "Prüfen Sie die schriftliche Mitteilung genau: Auf welche Bestimmung von Vertrag, AVB oder Gesetz beruft sich die Versicherung? Stimmt das Datum, und wann genau ist Ihnen die Mitteilung zugegangen? Wurden Ihnen Police und AVB beim Vertragsabschluss korrekt ausgehändigt? Diese Angaben brauchen Sie für eine Beratung oder eine Klage."
+      }
+    },
+    {
+      "id": "benefit-refused-steps",
+      "kind": "step",
+      "when": {
+        "dispute_type": [
+          "benefit-refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Lehnt die Versicherung eine Leistung ab oder kürzt sie, vergleichen Sie die Begründung mit Ihrer Police und den AVB: Nennt die Versicherung eine konkrete Ausschlussklausel oder einen Vorbehalt? Fehlen aus ihrer Sicht Unterlagen? Reichen Sie fehlende ärztliche Unterlagen nach und verlangen Sie eine schriftliche Neubeurteilung, bevor Sie weitere Schritte prüfen."
+      }
+    },
+    {
+      "id": "disclosure-rule",
+      "kind": "rule",
+      "when": {
+        "dispute_type": [
+          "disclosure",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Beim Vertragsabschluss mussten Sie alle Fragen der Versicherung zu Ihrer Gesundheit und anderen Gefahrstatsachen wahrheitsgemäss beantworten, soweit Sie die Tatsachen kannten oder kennen mussten (Art. 4 VVG). Erheblich sind Tatsachen, die den Entschluss der Versicherung beeinflussen konnten, den Vertrag überhaupt oder zu diesen Bedingungen abzuschliessen. Wonach die Versicherung klar und eindeutig gefragt hat, gilt als erheblich."
+      },
+      "sources": [
+        "vvg-4"
+      ]
+    },
+    {
+      "id": "disclosure-termination",
+      "kind": "warning",
+      "when": {
+        "dispute_type": [
+          "disclosure",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat die Versicherung Sie beim Abschluss nach einer erheblichen Tatsache gefragt und haben Sie diese verschwiegen oder falsch angegeben, obwohl Sie sie kannten oder kennen mussten, kann sie den Vertrag schriftlich kündigen. Die Kündigung wirkt ab dem Zeitpunkt, in dem sie bei Ihnen eintrifft, nicht rückwirkend (Art. 6 Abs. 1 VVG). Die Versicherung muss dann auch für bereits eingetretene Schäden nicht zahlen, soweit die verschwiegene Tatsache sie beeinflusst hat, und kann solche Leistungen zurückfordern (Art. 6 Abs. 3 VVG). Wichtig: Das Kündigungsrecht erlischt vier Wochen, nachdem die Versicherung von der Verletzung erfahren hat (Art. 6 Abs. 2 VVG). Die Frist beginnt erst, wenn sie sicher und vollständig Bescheid weiss; ein blosser Verdacht, etwa aus einer Arztrechnung, genügt nicht. Die Versicherung muss beweisen, dass sie die Frist eingehalten hat. Fragen Sie deshalb nach, seit wann die Versicherung die massgebenden Angaben hatte."
+      },
+      "sources": [
+        "vvg-6",
+        "bger-4a-366-2020"
+      ]
+    },
+    {
+      "id": "disclosure-exceptions",
+      "kind": "rule",
+      "when": {
+        "dispute_type": [
+          "disclosure",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Versicherung darf trotz Anzeigepflichtverletzung nicht kündigen, wenn zum Beispiel: die verschwiegene Tatsache vor dem Ereignis weggefallen war; die Versicherung die falsche oder fehlende Angabe selbst veranlasst hat; sie die Tatsache bereits kannte oder kennen musste; sie auf das Kündigungsrecht verzichtet hat; oder eine Frage unbeantwortet blieb und die Versicherung den Vertrag trotzdem abgeschlossen hat (Art. 8 VVG). Trifft eine dieser Ausnahmen zu, widersprechen Sie der Kündigung schriftlich und mit Begründung."
+      },
+      "sources": [
+        "vvg-8"
+      ]
+    },
+    {
+      "id": "old-contract",
+      "kind": "warning",
+      "when": {
+        "dispute_type": [
+          "disclosure",
+          "premium",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie Ihren Vertrag vor dem 1. Januar 2022 abgeschlossen, gelten bei einer Anzeigepflichtverletzung und beim Prämienverzug teils andere Regeln als hier beschrieben. Von den neuen Bestimmungen gelten für ältere Verträge nur die Formvorschriften und die Kündigungsrechte nach Art. 35a und 35b VVG; alles Übrige richtet sich nach dem damaligen Recht (Art. 103a VVG). Wissen Sie das Abschlussdatum nicht mehr oder sind Sie unsicher, fragen Sie Ihre Versicherung nach dem Vertragsbeginn oder lassen Sie sich beraten, bevor Sie sich auf die hier beschriebenen Regeln verlassen."
+      },
+      "sources": [
+        "vvg-103a"
+      ]
+    },
+    {
+      "id": "ordinary-termination",
+      "kind": "rule",
+      "when": {
+        "dispute_type": [
+          "termination",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ordentlich kündbar ist der Vertrag frühestens auf das Ende des dritten Jahres und danach jedes weiteren Jahres, mit drei Monaten Kündigungsfrist (Art. 35a Abs. 1 VVG); andere, für beide Seiten gleiche Fristen können vereinbart werden. Wichtig für die Zusatzversicherung zur sozialen Krankenversicherung: Dieses ordentliche Kündigungsrecht steht nur Ihnen als Versicherungsnehmer zu, nicht der Versicherung (Art. 35a Abs. 4 VVG). Nur bei der kollektiven Krankentaggeldversicherung dürfen beide Seiten ordentlich kündigen."
+      },
+      "sources": [
+        "vvg-35a"
+      ]
+    },
+    {
+      "id": "important-reason",
+      "kind": "rule",
+      "when": {
+        "dispute_type": [
+          "termination",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Aus wichtigem Grund kann jede Seite den Vertrag jederzeit kündigen (Art. 35b VVG), zum Beispiel bei einer nicht voraussehbaren Gesetzesänderung, die die Vertragserfüllung verunmöglicht, oder wenn die Fortsetzung des Vertrags nach Treu und Glauben nicht mehr zumutbar ist. Eine Kündigungsfrist gilt dafür nicht. Die Kündigung muss schriftlich oder in einer anderen Form erfolgen, die sich mit Text belegen lässt, etwa per E-Mail."
+      },
+      "sources": [
+        "vvg-35b"
+      ]
+    },
+    {
+      "id": "partial-damage",
+      "kind": "warning",
+      "when": {
+        "dispute_type": [
+          "termination",
+          "benefit-refused",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Ist nur ein Teilschaden eingetreten und verlangen Sie dafür Leistungen, dürfen nach dem Gesetz grundsätzlich beide Seiten den Vertrag spätestens bei der Auszahlung kündigen (Art. 42 Abs. 1 VVG). In der Zusatzversicherung zur sozialen Krankenversicherung hat dieses Recht aber nur die versicherte Person als Versicherungsnehmerin, nicht die Versicherung; nur in der kollektiven Taggeldversicherung haben es beide Seiten (Art. 35a Abs. 4 VVG). Kündigen Sie, endet die Deckung 14 Tage, nachdem die Kündigung der Versicherung mitgeteilt wurde (Art. 42 Abs. 2 VVG). Kündigen Sie im Jahr nach dem Vertragsabschluss, bleibt die Prämie für die laufende Versicherungsperiode geschuldet (Art. 42 Abs. 3 VVG)."
+      },
+      "sources": [
+        "vvg-42",
+        "vvg-35a"
+      ]
+    },
+    {
+      "id": "premium-reminder",
+      "kind": "warning",
+      "when": {
+        "dispute_type": [
+          "premium",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Zahlen Sie die Prämie nicht rechtzeitig, muss die Versicherung Sie schriftlich mahnen, Ihnen 14 Tage ab Absendung der Mahnung Zeit geben und auf die Folgen hinweisen (Art. 20 Abs. 1 VVG). Verstreicht diese Frist ungenutzt, ruht die Leistungspflicht der Versicherung ab dann (Art. 20 Abs. 3 VVG) – ein Ereignis in dieser Zeit ist also möglicherweise nicht gedeckt. Prüfen Sie deshalb, ob Sie überhaupt eine gültige Mahnung mit 14-tägiger Frist erhalten haben."
+      },
+      "sources": [
+        "vvg-20"
+      ]
+    },
+    {
+      "id": "premium-withdrawal",
+      "kind": "rule",
+      "when": {
+        "dispute_type": [
+          "premium",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Fordert die Versicherung die ausstehende Prämie nicht innert zwei Monaten nach Ablauf der Mahnfrist rechtlich ein, gilt sie als vom Vertrag zurückgetreten und verzichtet auf die rückständige Prämie (Art. 21 Abs. 1 VVG). Verlangt oder nimmt die Versicherung die Prämie später doch noch an, lebt ihre Leistungspflicht erst wieder auf, sobald Sie die rückständige Prämie samt Zinsen und Kosten bezahlt haben (Art. 21 Abs. 2 VVG)."
+      },
+      "sources": [
+        "vvg-21"
+      ]
+    },
+    {
+      "id": "court-single",
+      "kind": "rule",
+      "when": {
+        "cantonal_court": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat Ihr Kanton für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung ein einziges Gericht bezeichnet (Art. 7 ZPO), entscheidet dieses direkt als einzige kantonale Instanz. Ein vorgängiges Schlichtungsverfahren findet dann nicht statt (Art. 198 lit. f ZPO); Sie reichen Ihre Klage unmittelbar bei diesem Gericht ein. Unabhängig vom Streitwert gilt das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO)."
+      },
+      "sources": [
+        "zpo-7",
+        "zpo-198",
+        "zpo-243"
+      ]
+    },
+    {
+      "id": "court-ordinary",
+      "kind": "rule",
+      "when": {
+        "cantonal_court": [
+          "no",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Hat Ihr Kanton kein solches Gericht bezeichnet (Art. 7 ZPO), gelten die ordentlichen Zuständigkeitsregeln: in der Regel zuerst ein Schlichtungsversuch, danach die Klage beim zuständigen Zivilgericht. Auch dort gilt für Ihre Streitigkeit unabhängig vom Streitwert das vereinfachte Verfahren (Art. 243 Abs. 2 lit. f ZPO). Ob Ihr Kanton ein Gericht nach Art. 7 ZPO bezeichnet hat, erfahren Sie bei der kantonalen Gerichtsverwaltung oder einer Rechtsberatungsstelle."
+      },
+      "sources": [
+        "zpo-7",
+        "zpo-243"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Für Streitigkeiten aus der Zusatzversicherung zur sozialen Krankenversicherung werden weder im Schlichtungsverfahren noch im Entscheidverfahren Gerichtskosten erhoben (Art. 113 Abs. 2 lit. f und Art. 114 lit. e ZPO). Im Schlichtungsverfahren wird zudem grundsätzlich keine Parteientschädigung gesprochen (Art. 113 Abs. 1 ZPO). Im Gerichtsverfahren trägt aber grundsätzlich die Partei, die verliert, die Prozesskosten. Dazu gehört die Parteientschädigung, also vor allem die Anwaltskosten der Gegenseite (Art. 95 und 106 ZPO)."
+      },
+      "sources": [
+        "zpo-113",
+        "zpo-114",
+        "zpo-95",
+        "zpo-106"
+      ]
+    },
+    {
+      "id": "limitation",
+      "kind": "warning",
+      "text": {
+        "de": "Ansprüche aus dem Versicherungsvertrag verjähren fünf Jahre, nachdem das Ereignis eingetreten ist, das die Leistungspflicht begründet (Art. 46 Abs. 1 VVG); bei der kollektiven Krankentaggeldversicherung sind es nur zwei Jahre (Art. 46 Abs. 3 VVG). Eine vertragliche Verkürzung dieser Frist ist ungültig (Art. 46 Abs. 2 VVG). Nach Ablauf können Sie Ihren Anspruch nicht mehr gerichtlich durchsetzen – handeln Sie rechtzeitig. Unterbrochen wird die Verjährung etwa durch eine Betreibung, ein Schlichtungsgesuch oder eine Klage, oder wenn die Versicherung die Forderung anerkennt (Art. 135 OR). Ein Brief oder eine Anfrage bei der Ombudsstelle genügt dafür nicht."
+      },
+      "sources": [
+        "vvg-46",
+        "or-135"
+      ]
+    },
+    {
+      "id": "escalate",
+      "kind": "escalate",
+      "text": {
+        "de": "Geht es um einen grösseren Betrag, um eine Kündigung, die Ihre Versicherungsdeckung gefährdet, oder beruft sich die Versicherung auf eine Anzeigepflichtverletzung, lohnt sich meist eine Beratung durch eine Fachperson für Versicherungsrecht, bevor Sie eine Frist verstreichen lassen oder etwas unterschreiben. Diese Übersicht ersetzt keine Rechtsberatung im Einzelfall."
+      }
+    },
+    {
+      "id": "ombudsman",
+      "kind": "free-help",
+      "text": {
+        "de": "Die Ombudsstelle Krankenversicherung vermittelt kostenlos zwischen Ihnen und Ihrer Versicherung – auch bei Streitigkeiten aus der Zusatzversicherung nach VVG. Sie ersetzt kein Gericht, kann aber oft rasch und unbürokratisch zu einer Lösung beitragen, bevor Sie klagen. Eine Anfrage unterbricht jedoch keine Fristen – behalten Sie Verjährung und Kündigungsfristen weiterhin im Auge."
+      }
+    },
+    {
+      "id": "legal-advice",
+      "kind": "free-help",
+      "text": {
+        "de": "Viele kantonale Anwaltsverbände bieten eine kostenlose oder günstige erste Rechtsauskunft an. Nutzen Sie ein solches Angebot, um Ihre Erfolgsaussichten und das weitere Vorgehen einzuschätzen, bevor Sie eine Frist verpassen oder eine Erklärung unterschreiben."
+      }
+    }
+  ],
+  "sources": {
+    "kvag-2": {
+      "type": "statute",
+      "sr": "832.12",
+      "article": "2",
+      "label": "KVAG · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2015/839/de#art_2",
+      "sha256": "cc62572723deee0d96a9a9c6ad3b694412e96fbc5ecbffe7deb899b7a02ee80c"
+    },
+    "vvg-4": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "4",
+      "label": "VVG · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_4",
+      "sha256": "f0e73d0d7f236efd0432d0901d973df5328e1066b128900ef6d94f1fbc92676b"
+    },
+    "vvg-6": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "6",
+      "label": "VVG · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_6",
+      "sha256": "76d39d04aa267f59d24e07aa6e27048dadfefa253e7084321914e12eda3bdf94"
+    },
+    "vvg-8": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "8",
+      "label": "VVG · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_8",
+      "sha256": "1cca75be301266ff11e74a96d9a41f8ff33d5a46558d94dcd72b07c990bd87f1"
+    },
+    "vvg-35a": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "35a",
+      "label": "VVG · Art. 35a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_35a",
+      "sha256": "6f2ab8795970e1fd2baca55bd775d14a7261765dd1bca50add05d80ec5196f30"
+    },
+    "vvg-35b": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "35b",
+      "label": "VVG · Art. 35b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_35b",
+      "sha256": "0ae9fb378fb28b6227c437ae303c66ddab44cbc9c5a0b28e0ab56e60debbe005"
+    },
+    "vvg-42": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "42",
+      "label": "VVG · Art. 42",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_42",
+      "sha256": "f1b8b7ea9592fe6c2ce3f2320db8a04ec954368267d5fd981ba127020dfd68cb"
+    },
+    "vvg-46": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "46",
+      "label": "VVG · Art. 46",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_46",
+      "sha256": "68c7ddb9c5549d5318bbff3f33e98d37f36d2fde76ef951bd60ac7f7d4d7a1c2"
+    },
+    "vvg-103a": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "103a",
+      "label": "VVG · Art. 103a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_103a",
+      "sha256": "7b2824004c06644643d14faa65765d345da2433d0e37d9e1336d60f54e9ec676"
+    },
+    "vvg-20": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "20",
+      "label": "VVG · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_20",
+      "sha256": "d048a445a92afb72b1f5f709a49f590f18d3f4cf5dd11062bbdd597dc99fd2bf"
+    },
+    "vvg-21": {
+      "type": "statute",
+      "sr": "221.229.1",
+      "article": "21",
+      "label": "VVG · Art. 21",
+      "url": "https://www.fedlex.admin.ch/eli/cc/24/719_735_717/de#art_21",
+      "sha256": "259f27c1ae41052edeb6c8ea6f09de9f3a1d3256385817a8f4cc6e6dd547d074"
+    },
+    "zpo-7": {
+      "type": "statute",
+      "sr": "272",
+      "article": "7",
+      "label": "ZPO · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_7",
+      "sha256": "a59a7bc1d4cbb95b39bd251db9f2d9195078af58d2f8e95aec37e2f39e8de698"
+    },
+    "zpo-113": {
+      "type": "statute",
+      "sr": "272",
+      "article": "113",
+      "label": "ZPO · Art. 113",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_113",
+      "sha256": "00935528837a69be5ebec47702cbe6c3cfc893c188f3aaf1da4971798038dde9"
+    },
+    "zpo-114": {
+      "type": "statute",
+      "sr": "272",
+      "article": "114",
+      "label": "ZPO · Art. 114",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_114",
+      "sha256": "38eaf66dcbf458b7f7511782fcfc1f50eb245766b282c410fbd3339e5a2e7693"
+    },
+    "zpo-198": {
+      "type": "statute",
+      "sr": "272",
+      "article": "198",
+      "label": "ZPO · Art. 198",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_198",
+      "sha256": "f9a9e217d9f9e15c677af3b0e7b39597f5a276afa8fe7fd5e9d6086dcf7d36c7"
+    },
+    "zpo-243": {
+      "type": "statute",
+      "sr": "272",
+      "article": "243",
+      "label": "ZPO · Art. 243",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_243",
+      "sha256": "b73bc28a6f32382418bbafc458eb9fccbc0fd09968cf4ac5b8134be18f91bbce"
+    },
+    "bger-4a-169-2023": {
+      "type": "decision",
+      "decision_id": "bger_4A_169_2023",
+      "citation": "BGer 4A_169/2023 vom 31. Januar 2024",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_169_2023#e-4-2"
+    },
+    "bger-4a-366-2020": {
+      "type": "decision",
+      "decision_id": "bger_4A_366_2020",
+      "citation": "BGer 4A_366/2020 vom 29. September 2020",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_4A_366_2020#e-3-1"
+    },
+    "zpo-95": {
+      "type": "statute",
+      "sr": "272",
+      "article": "95",
+      "label": "ZPO · Art. 95",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_95",
+      "sha256": "cd600c705f87ad01fce22add3a0676ae7fdd3fb3ce559e600277163910a118e5"
+    },
+    "zpo-106": {
+      "type": "statute",
+      "sr": "272",
+      "article": "106",
+      "label": "ZPO · Art. 106",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_106",
+      "sha256": "e678749847a6362040777cc5faf9a6d8f709957f782c0d13f8b4b7b192fd94c4"
+    },
+    "or-135": {
+      "type": "statute",
+      "sr": "220",
+      "article": "135",
+      "label": "OR · Art. 135",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_135",
+      "sha256": "ea4288e1a4dd58a37f69014cc171e1ee1208effc66e1ab3df1d2f4632a373a3f"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Ombudsstelle Krankenversicherung"
+      },
+      "url": "https://om-kv.ch/"
+    },
+    {
+      "label": {
+        "de": "Kantonale Anwaltsverbände (kostenlose Rechtsauskunft)"
+      },
+      "url": "https://www.sav-fsa.ch/de/kantonale-anwaltsverb%C3%A4nde"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

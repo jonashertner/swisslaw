@@ -72,15 +72,15 @@ export const WAVE_3: readonly CoverageGroup[] = [
     { id: 'inheritance.debts', title: e('Schulden der verstorbenen Person', 'Dettes de la personne décédée', 'Debiti della persona defunta', 'Debits da la persuna morta', 'Debts of the deceased') },
     { id: 'inheritance.power-of-attorney', title: e('Vorsorgeauftrag und Patientenverfügung', 'Mandat pour cause d’inaptitude et directives anticipées', 'Mandato precauzionale e direttive del paziente', 'Mandat da precauziun', 'Power of attorney and advance directive') },
   ] },
+  { area: 'health', topics: [
+    { id: 'health.refused-bill', title: e('Die Kasse zahlt eine Rechnung nicht', 'La caisse refuse de payer une facture', 'La cassa non paga una fattura', 'La cassa na paja betg in quint', 'The insurer refuses to pay a bill') },
+    { id: 'health.switching', title: e('Die Kasse wechseln: Fristen', 'Changer de caisse : les délais', 'Cambiare cassa: i termini', 'Midar la cassa: ils termins', 'Changing insurer: deadlines') },
+    { id: 'health.supplementary', title: e('Streit um die Zusatzversicherung', 'Litige sur l’assurance complémentaire', 'Controversia sull’assicurazione complementare', 'Dispita davart l’assicuranza cumplementara', 'Supplementary insurance disputes') },
+  ] },
 ];
 
 /** Wave 3 continued and the long tail: planned, not yet drafted. */
 export const LATER: readonly CoverageGroup[] = [
-  { area: 'health', label: e('Krankenversicherung', 'Assurance maladie', 'Assicurazione malattie', 'Assicuranza da malsogna', 'Health insurance'), topics: [
-    { title: e('Die Kasse zahlt eine Rechnung nicht', 'La caisse refuse de payer une facture', 'La cassa non paga una fattura', 'La cassa na paja betg in quint', 'The insurer refuses to pay a bill') },
-    { title: e('Die Kasse wechseln: Fristen', 'Changer de caisse : les délais', 'Cambiare cassa: i termini', 'Midar la cassa: ils termins', 'Changing insurer: deadlines') },
-    { title: e('Streit um die Zusatzversicherung', 'Litige sur l’assurance complémentaire', 'Controversia sull’assicurazione complementare', 'Dispita davart l’assicuranza cumplementara', 'Supplementary insurance disputes') },
-  ] },
   { area: 'protection', label: e('Schutz und Opferhilfe', 'Protection et aide aux victimes', 'Protezione e aiuto alle vittime', 'Protecziun ed agid a las victimas', 'Protection and victim support'), topics: [
     { title: e('Opferhilfe', 'Aide aux victimes', 'Aiuto alle vittime', 'Agid a las victimas', 'Victim support') },
     { title: e('Rechte bei einer Befragung durch die Polizei', 'Vos droits lors d’une audition par la police', 'Diritti durante un interrogatorio di polizia', 'Dretgs durant in interrogatori da la polizia', 'Your rights when questioned by the police') },

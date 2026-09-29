@@ -1,0 +1,626 @@
+{
+  "schema": 1,
+  "id": "health.refused-bill",
+  "domain": "health",
+  "version": "2026-09-28",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Die Kasse zahlt eine Rechnung nicht"
+  },
+  "summary": {
+    "de": "Ihre Krankenkasse hat eine Rechnung nicht oder nicht vollständig bezahlt. Dieser Leitfaden zeigt, wie Sie zuerst prüfen, ob wirklich eine Ablehnung vorliegt, was die Grundversicherung abdeckt, und wie Sie vorgehen, wenn die Kasse eine Leistung verweigert: von der Anfrage nach den Gründen über die Verfügung bis zur Einsprache und zur Beschwerde."
+  },
+  "examples": {
+    "de": [
+      "Die Krankenkasse will meine Spitalrechnung nicht bezahlen, was kann ich tun?",
+      "Ich habe eine Zahnarztrechnung eingereicht und die Kasse zahlt nichts.",
+      "Meine Kasse sagt, das Medikament sei nicht auf der Liste, stimmt das?",
+      "Ich habe Einsprache erhoben, aber keine Antwort erhalten, was nun?",
+      "Reicht eine E-Mail an die Krankenkasse, um Einsprache zu erheben?",
+      "Muss ich die Rechnung trotzdem bezahlen, solange das Verfahren läuft?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Die obligatorische Krankenpflege-Grundversicherung (KVG) und die Frage, was zu tun ist, wenn die Krankenkasse eine Rechnung nicht oder nicht vollständig übernimmt."
+    },
+    "excludes": {
+      "de": "Zusatzversicherungen (Halbprivat, Privat, Zahnzusatz, Auslandschutz und Ähnliches), Streitigkeiten mit Leistungserbringern über die Höhe des Honorars als solche, sowie Fragen der Unfall-, Invaliden- oder Militärversicherung."
+    }
+  },
+  "facts": [
+    {
+      "key": "insurance_type",
+      "question": {
+        "de": "Geht es um die obligatorische Grundversicherung oder um eine Zusatzversicherung?"
+      },
+      "help": {
+        "de": "Steht meist auf der Rechnung oder in der Police: Grundversicherung (KVG) oder eine Zusatzversicherung."
+      },
+      "options": [
+        {
+          "value": "basic",
+          "label": {
+            "de": "Grundversicherung (obligatorisch)"
+          }
+        },
+        {
+          "value": "supplementary",
+          "label": {
+            "de": "Zusatzversicherung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "bill_type",
+      "question": {
+        "de": "Worum geht es bei der Rechnung oder der Ablehnung?"
+      },
+      "options": [
+        {
+          "value": "treatment",
+          "label": {
+            "de": "Arzt- oder Spitalbehandlung"
+          }
+        },
+        {
+          "value": "medication",
+          "label": {
+            "de": "Medikament"
+          }
+        },
+        {
+          "value": "dental",
+          "label": {
+            "de": "Zahnbehandlung"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Etwas anderes, zum Beispiel Hilfsmittel oder Therapie"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "billing_system",
+      "question": {
+        "de": "Wie wird die Rechnung abgerechnet?"
+      },
+      "help": {
+        "de": "Steht meist auf der Rechnung oder in Ihrer Versicherungspolice."
+      },
+      "options": [
+        {
+          "value": "direct",
+          "label": {
+            "de": "Die Kasse zahlt direkt der Ärztin, dem Arzt oder dem Spital (Tiers payant)"
+          }
+        },
+        {
+          "value": "reimburse",
+          "label": {
+            "de": "Ich erhalte die Rechnung und muss sie einreichen (Tiers garant)"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "preapproval",
+      "question": {
+        "de": "Musste die Behandlung vorher von der Kasse bewilligt werden (Kostengutsprache)?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "procedure",
+      "question": {
+        "de": "Wie weit sind Sie im Verfahren mit der Kasse?"
+      },
+      "options": [
+        {
+          "value": "none",
+          "label": {
+            "de": "Ich habe eine Ablehnung erhalten, aber keine Verfügung"
+          }
+        },
+        {
+          "value": "decision",
+          "label": {
+            "de": "Ich habe eine Verfügung erhalten"
+          }
+        },
+        {
+          "value": "objection-decided",
+          "label": {
+            "de": "Meine Einsprache wurde durch Einspracheentscheid entschieden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "supplementary-pointer",
+      "kind": "escalate",
+      "text": {
+        "de": "Geht es um eine Zusatzversicherung, zum Beispiel für Halbprivat oder Privat im Spital, Zahnpflege, Alternativmedizin, Brillen oder Schutz im Ausland, gilt dieser Leitfaden nicht für Sie. Zusatzversicherungen sind private Verträge nach dem Versicherungsvertragsgesetz und nicht nach dem Krankenversicherungsgesetz. Es gelten andere Fristen, ein anderes Verfahren bei einer Ablehnung und eine andere Streitbeilegung. Dafür gibt es einen eigenen Leitfaden zur Zusatzversicherung. Betrifft Ihre Rechnung teils die Grundversicherung und teils eine Zusatzversicherung, gilt für den Teil der Grundversicherung trotzdem, was hier steht."
+      },
+      "when": {
+        "insurance_type": [
+          "supplementary",
+          "unknown"
+        ]
+      }
+    },
+    {
+      "id": "check-first",
+      "kind": "rule",
+      "text": {
+        "de": "Bevor Sie von einer Ablehnung ausgehen, prüfen Sie, was auf der Rechnung wirklich steht. Oft handelt es sich nicht um eine Ablehnung, sondern um Ihre eigene Kostenbeteiligung: die Franchise, ein fester Jahresbetrag, den Sie zuerst selbst tragen, und danach der Selbstbehalt von 10 Prozent der weiteren Kosten. Das ist gesetzlich so vorgesehen und keine Leistungsverweigerung der Kasse. Prüfen Sie auch das Abrechnungssystem: Beim Tiers payant zahlt die Kasse direkt der Ärztin, dem Arzt oder dem Spital, und Sie erhalten nur eine Kopie der Rechnung zur Kontrolle. Beim Tiers garant erhalten Sie die Rechnung selbst und schulden das Geld zunächst der Leistungserbringerin oder dem Leistungserbringer; die Kasse erstattet Ihnen die Kosten erst, wenn Sie ihr die Rechnung einreichen. Eine noch nicht eingereichte oder noch nicht bearbeitete Rechnung ist deshalb noch keine Ablehnung. Reichen Sie die vollständige, verständliche Rechnung ein und warten Sie die Antwort der Kasse ab, bevor Sie weitere Schritte prüfen."
+      },
+      "sources": [
+        "kvg-64",
+        "kvg-42"
+      ]
+    },
+    {
+      "id": "reimburse-steps",
+      "kind": "step",
+      "when": {
+        "billing_system": [
+          "reimburse"
+        ]
+      },
+      "text": {
+        "de": "Haben Sie die Rechnung selbst erhalten und noch nicht eingereicht, tun Sie das mit allen Angaben bei Ihrer Kasse zur Rückerstattung. Bewahren Sie eine Kopie auf. Fehlen der Kasse Angaben, etwa zur Diagnose oder zur Behandlung, kann sie diese bei der Leistungserbringerin oder dem Leistungserbringer nachfordern; das verzögert die Bearbeitung, ist aber noch keine Ablehnung. Erst wenn die Kasse Ihnen mitteilt, dass sie nicht oder nicht vollständig zahlt, geht es um eine echte Ablehnung, und die folgenden Schritte gelten."
+      },
+      "sources": [
+        "kvg-42"
+      ]
+    },
+    {
+      "id": "direct-steps",
+      "kind": "step",
+      "when": {
+        "billing_system": [
+          "direct"
+        ]
+      },
+      "text": {
+        "de": "Zahlt Ihre Kasse direkt der Leistungserbringerin oder dem Leistungserbringer, muss diese oder dieser Ihnen trotzdem unaufgefordert eine Kopie der Rechnung zustellen, die an die Kasse geht. Prüfen Sie diese Kopie: Stimmen Behandlung, Datum und Betrag? Ihre Kostenbeteiligung stellt Ihnen die Kasse in Rechnung. Erhalten Sie für eine Leistung, welche die Kasse nicht übernimmt, eine Rechnung, klären Sie zuerst mit der Kasse, warum sie nicht bezahlt hat, bevor Sie selbst zahlen."
+      },
+      "sources": [
+        "kvg-42"
+      ]
+    },
+    {
+      "id": "coverage-scope",
+      "kind": "rule",
+      "text": {
+        "de": "Die Grundversicherung übernimmt nur, was das Gesetz als Leistung nennt: insbesondere ärztliche und ärztlich angeordnete Behandlungen, Spitalaufenthalte in der allgemeinen Abteilung, verordnete Arzneimittel und Analysen sowie einen Beitrag an bestimmte weitere Kosten. Jede Leistung muss zudem wirksam, zweckmässig und wirtschaftlich sein. Für ärztliche Behandlungen gilt dabei eine für Sie günstige Vermutung: Eine Behandlung durch eine Ärztin oder einen Arzt gilt als zu übernehmen, solange sie nicht ausdrücklich durch eine Liste ausgeschlossen ist. Bestreitet die Kasse im Einzelfall, dass eine ärztliche Behandlung wirksam, zweckmässig oder wirtschaftlich war, können Sie darüber eine Verfügung verlangen. Bei Leistungen anderer Leistungserbringerinnen und Leistungserbringer sowie bei Vorsorge und Zahnbehandlungen ist es umgekehrt: Sie sind nur gedeckt, wenn sie ausdrücklich auf einer Liste stehen."
+      },
+      "sources": [
+        "kvg-24",
+        "kvg-25",
+        "kvg-32",
+        "kvg-31",
+        "kvg-33"
+      ]
+    },
+    {
+      "id": "dental-warning",
+      "kind": "warning",
+      "when": {
+        "bill_type": [
+          "dental"
+        ]
+      },
+      "text": {
+        "de": "Geht es bei Ihrer Rechnung um eine Zahnbehandlung, deckt die Grundversicherung diese nur ausnahmsweise: wenn eine schwere, nicht vermeidbare Erkrankung des Kausystems die Behandlung nötig macht, wenn eine schwere Allgemeinerkrankung oder ihre Folgen die Zahnbehandlung bedingen oder nötig machen, oder wenn ein Unfall Schäden am Kausystem verursacht hat. Gewöhnliche Zahnbehandlungen, auch wegen Karies oder Parodontose, sind grundsätzlich nicht gedeckt. Prüfen Sie deshalb, ob einer dieser Ausnahmefälle vorliegt, und lassen Sie sich das von der behandelnden Zahnärztin oder dem Zahnarzt schriftlich bestätigen, bevor Sie Einsprache erheben."
+      },
+      "sources": [
+        "kvg-31"
+      ]
+    },
+    {
+      "id": "preapproval-rule",
+      "kind": "rule",
+      "when": {
+        "preapproval": [
+          "yes",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Manche Leistungen setzt das Gesetz ausdrücklich unter den Vorbehalt einer vorherigen Bewilligung durch die Kasse, einer Kostengutsprache. Das gilt zum Beispiel für ein Arzneimittel aus der Spezialitätenliste, das ausserhalb der zugelassenen Fachinformation oder Limitierung eingesetzt wird: Hier übernimmt die Grundversicherung die Kosten nur mit einer besonderen Gutsprache, nach Rücksprache mit der Vertrauensärztin oder dem Vertrauensarzt. Ist das Gesuch vollständig, muss die Kasse innert zwei Wochen entscheiden, und lehnt sie ab, muss sie das gegenüber der behandelnden Person und Ihnen begründen. War für Ihre Behandlung eine solche Bewilligung nötig und wurde sie nicht eingeholt oder verweigert, verlangen Sie die schriftliche Begründung und lassen Sie prüfen, ob die gesetzlichen Voraussetzungen erfüllt gewesen wären."
+      },
+      "sources": [
+        "kvv-71a",
+        "kvv-71d"
+      ]
+    },
+    {
+      "id": "ask-for-decision",
+      "kind": "step",
+      "when": {
+        "procedure": [
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Lehnt die Kasse eine Leistung ab oder zahlt sie weniger als erwartet, verlangen Sie zunächst schriftlich die Gründe. Leistungen der Grundversicherung werden nach Gesetz meist formlos erledigt, auch wenn es um einen erheblichen Betrag geht. Sind Sie mit diesem formlosen Bescheid nicht einverstanden, haben Sie das Recht, eine förmliche Verfügung zu verlangen. Verlangen Sie diese schriftlich und möglichst bald. Eine Verfügung enthält eine Begründung, soweit sie Ihrem Begehren nicht vollständig entspricht, und eine Rechtsmittelbelehrung. Erst gegen diese Verfügung können Sie Einsprache erheben."
+      },
+      "sources": [
+        "atsg-51",
+        "kvg-80",
+        "atsg-49",
+        "bge-133-v-188"
+      ]
+    },
+    {
+      "id": "objection",
+      "kind": "deadline",
+      "when": {
+        "procedure": [
+          "decision",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen eine Verfügung Ihrer Krankenkasse können Sie innert 30 Tagen Einsprache erheben, bei der Stelle, die verfügt hat. Massgebend ist die Rechtsmittelbelehrung am Schluss der Verfügung. Die Frist beginnt am Tag nach der Zustellung. Fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag, und über Ostern, im Sommer und über Weihnachten steht sie still. In der Krankenversicherung können Sie die Einsprache schriftlich einreichen oder bei persönlicher Vorsprache mündlich erheben; im mündlichen Fall hält die Kasse sie in einem Protokoll fest, das Sie oder Ihre Vertretung unterschreiben. Die Einsprache muss sagen, was Sie verlangen, und kurz begründen, warum. Sie ist rechtzeitig, wenn Sie sie spätestens am letzten Tag einreichen oder der Post übergeben."
+      },
+      "sources": [
+        "atsg-52",
+        "atsv-10",
+        "atsg-38",
+        "atsg-39"
+      ],
+      "deadline_rules": [
+        "atsg_52_einsprache"
+      ]
+    },
+    {
+      "id": "no-email",
+      "kind": "warning",
+      "when": {
+        "procedure": [
+          "decision",
+          "none",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Entscheiden Sie sich für die schriftliche Form, muss die Einsprache Ihre Unterschrift tragen. Eine gewöhnliche E-Mail erfüllt das nicht und wahrt die Frist nicht, selbst wenn sie fristgerecht ankommt; eine Nachfrist zur Verbesserung nach Fristablauf gibt es dafür nicht, weil das Fehlen der Unterschrift dabei als bewusst in Kauf genommen gilt. Anders ist es, wenn Sie bei einem Brief die Unterschrift bloss vergessen haben: Dann muss die Kasse Ihnen eine Frist setzen, um sie nachzuholen. Solange die Einsprachefrist noch läuft, können Sie den Mangel beheben, indem Sie eine unterschriebene Fassung nachreichen. Nutzen Sie deshalb die Post, eine persönliche Übergabe, oder erheben Sie die Einsprache stattdessen mündlich bei einer persönlichen Vorsprache."
+      },
+      "sources": [
+        "atsg-52",
+        "atsv-10",
+        "bge-142-v-152"
+      ]
+    },
+    {
+      "id": "appeal",
+      "kind": "deadline",
+      "when": {
+        "procedure": [
+          "objection-decided",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Gegen den Einspracheentscheid können Sie innert 30 Tagen nach der Zustellung Beschwerde beim kantonalen Versicherungsgericht erheben. Zuständig ist das Gericht des Kantons, in dem Sie bei Einreichung der Beschwerde wohnen. Auch hier steht die Frist über Ostern, im Sommer und über Weihnachten still, und fällt der letzte Tag auf einen Samstag, Sonntag oder Feiertag, endet sie am nächsten Werktag. Die Beschwerde muss den Sachverhalt kurz schildern, ein Begehren enthalten und begründet sein; fehlt etwas, setzt Ihnen das Gericht eine Frist zur Verbesserung. Das Gericht klärt den Sachverhalt selbst ab und ist nicht an Ihre Begehren gebunden. Es kann den Entscheid sogar zu Ihren Ungunsten ändern, muss Ihnen dazu aber vorher Gelegenheit geben, sich zu äussern oder die Beschwerde zurückzuziehen."
+      },
+      "sources": [
+        "atsg-56",
+        "atsg-58",
+        "atsg-60"
+      ],
+      "deadline_rules": [
+        "atsg_60_beschwerde"
+      ]
+    },
+    {
+      "id": "cost",
+      "kind": "cost",
+      "text": {
+        "de": "Das Einspracheverfahren bei der Kasse ist kostenlos; eine Entschädigung für Ihren Aufwand wird aber in der Regel nicht ausgerichtet. Auch das Beschwerdeverfahren vor dem kantonalen Versicherungsgericht ist bei Streitigkeiten über Leistungen grundsätzlich kostenlos, ausser das Gericht wirft Ihnen mutwilliges oder leichtsinniges Prozessieren vor. Obsiegen Sie vor Gericht, haben Sie Anspruch auf Ersatz Ihrer Parteikosten. Das Recht, sich anwaltlich vertreten zu lassen, ist gewährleistet; rechtfertigen es Ihre Verhältnisse, wird Ihnen bei Bedarf eine unentgeltliche Rechtsvertretung bewilligt."
+      },
+      "sources": [
+        "atsg-52",
+        "atsg-61"
+      ]
+    },
+    {
+      "id": "claims-expire",
+      "kind": "warning",
+      "text": {
+        "de": "Ihr Anspruch auf eine ausstehende Leistung erlischt fünf Jahre, gerechnet ab Ablauf jenes Monats, in dem die Leistung fällig gewesen wäre. Beim Tiers garant beginnt diese Frist für Ihre Rückerstattung mit dem Eingang der Rechnung des Leistungserbringers bei Ihnen. Warten Sie deshalb mit der Geltendmachung nicht zu lange, auch wenn Sie mit der Kasse noch im Gespräch sind. Reichen Sie die Rechnung deshalb rechtzeitig bei der Kasse ein."
+      },
+      "sources": [
+        "atsg-24",
+        "bge-139-v-244"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn es um einen grösseren Betrag geht, wenn die Kasse eine dauernde oder wiederkehrende Behandlung ablehnt, wenn medizinische Fachfragen zur Wirksamkeit oder Notwendigkeit strittig sind, wenn Sie eine Verfügung erhalten haben und die Frist bereits läuft, oder wenn unklar ist, ob es um die Grundversicherung oder eine Zusatzversicherung geht. Wegen der kurzen Fristen sollten Sie dann nicht zuwarten."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose Hilfe bietet die Ombudsstelle Krankenversicherung: Sie berät und vermittelt bei Unklarheiten und Streitigkeiten mit Ihrer Kasse, unabhängig und für Sie kostenlos, finanziert durch Beiträge aller schweizerischen Krankenversicherer. Viele Kantone bieten zudem eine unentgeltliche Rechtsauskunft an, und die kantonalen Versicherungsgerichte informieren auf ihrer Website über das Beschwerdeverfahren."
+      }
+    }
+  ],
+  "sources": {
+    "kvg-64": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "64",
+      "label": "KVG · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_64",
+      "sha256": "a2e477348249d67e9f4656834eda4be1cd22cf5d4b37d071bff3eedef36cb11c"
+    },
+    "kvg-42": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "42",
+      "label": "KVG · Art. 42",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_42",
+      "sha256": "4a52e3bcf4c4fe1aba500b37d27fdeeb24dbb259053709e839d4f5739aa7cd8b"
+    },
+    "kvg-24": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "24",
+      "label": "KVG · Art. 24",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_24",
+      "sha256": "a537e87c01a0e5a7f5380032d8b7564555587d5228185cbf188bfae3d00a54a8"
+    },
+    "kvg-25": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "25",
+      "label": "KVG · Art. 25",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_25",
+      "sha256": "0b8674103f610113028a70d32436bdf80c4567b39d412b985c3346df3e9e536a"
+    },
+    "kvg-32": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "32",
+      "label": "KVG · Art. 32",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_32",
+      "sha256": "d9d6c24f4a2c8187190ed9861dd13102f5b0ca5a53221c5415487fec334a599f"
+    },
+    "kvg-31": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "31",
+      "label": "KVG · Art. 31",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_31",
+      "sha256": "e42552c705ac133d89147e8130aa11c7ccd5ad3b627b0cab9782376c3181cc26"
+    },
+    "kvg-80": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "80",
+      "label": "KVG · Art. 80",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_80",
+      "sha256": "ec1a1339dabb114269a0f2e623412134224ab536bb5489d56e859dfe31e841ed"
+    },
+    "kvv-71a": {
+      "type": "statute",
+      "sr": "832.102",
+      "article": "71a",
+      "label": "KVV · Art. 71a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_71a",
+      "sha256": "4d10831d5767ce8c9b4f1e81be8a48ef2e19f9139949e3d7ddf5723469733c65"
+    },
+    "kvv-71d": {
+      "type": "statute",
+      "sr": "832.102",
+      "article": "71d",
+      "label": "KVV · Art. 71d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de#art_71d",
+      "sha256": "cb4ce8815ffad91f934627d04e39c3b0e706e96092f8a68bccb398a5e4826e00"
+    },
+    "atsg-51": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "51",
+      "label": "ATSG · Art. 51",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_51",
+      "sha256": "6ca95f8d8957a8a813972b6c51684438f2072f831133472af9cf6dd7f1ead18c"
+    },
+    "atsg-49": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "49",
+      "label": "ATSG · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_49",
+      "sha256": "b8e54caafbcfcc5995be7bb611cc62afc409b40ecf6b66f7c2644c8b39cef6d7"
+    },
+    "atsg-52": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "52",
+      "label": "ATSG · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_52",
+      "sha256": "9c4de6689671dc542d40efc1f52797b2984008257cb39866a145216b163bf54b"
+    },
+    "atsg-38": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "38",
+      "label": "ATSG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38",
+      "sha256": "217553f9ceb68e6918228f6dc8a9d82a55113dda82477e1d3df4cb1d13eb42ff"
+    },
+    "atsg-39": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "39",
+      "label": "ATSG · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_39",
+      "sha256": "f36ab1046e28439f454d3def4b1e74630b3483d0d78aed818bf6aae86619511d"
+    },
+    "atsg-56": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "56",
+      "label": "ATSG · Art. 56",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_56",
+      "sha256": "6e22aaeb587c66bae70866fc6f0ca5ff34a37c335ed426b92cac5311b838d3df"
+    },
+    "atsg-58": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "58",
+      "label": "ATSG · Art. 58",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_58",
+      "sha256": "557edf902c4123ecf24973ffc157a04f51f5b5245a40cbd40584522fb6896c50"
+    },
+    "atsg-60": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "60",
+      "label": "ATSG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_60",
+      "sha256": "ab000f5ea37a5e0de9ccb6b5da45767a50cf87a0520a996c794c7703031386be"
+    },
+    "atsg-61": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "61",
+      "label": "ATSG · Art. 61",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_61",
+      "sha256": "bfcd579d997ba4f6e8dc23876f903ee0f307b95f32bf5302d45ba3f164ed5a2c"
+    },
+    "atsg-24": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "24",
+      "label": "ATSG · Art. 24",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_24",
+      "sha256": "51e1f5789ad808d4d0d2ce4f41274d9011dbc61a3f51ad7b01006eec477fe394"
+    },
+    "atsv-10": {
+      "type": "statute",
+      "sr": "830.11",
+      "article": "10",
+      "label": "ATSV · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/569/de#art_10",
+      "sha256": "847557a0a3f88b169b51f2ba4d64c65980a16d16b77e72f57571a01478670041"
+    },
+    "bge-133-v-188": {
+      "type": "decision",
+      "decision_id": "bge_BGE_133_V_188",
+      "citation": "BGE 133 V 188",
+      "e": "3.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_133_V_188#e-3-3"
+    },
+    "bge-139-v-244": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_V_244",
+      "citation": "BGE 139 V 244",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_V_244#e-3"
+    },
+    "bge-142-v-152": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_V_152",
+      "citation": "BGE 142 V 152",
+      "e": "4.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_V_152#e-4-6"
+    },
+    "kvg-33": {
+      "type": "statute",
+      "sr": "832.10",
+      "article": "33",
+      "label": "KVG · Art. 33",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de#art_33",
+      "sha256": "4e191014222039b09d47a123998a4757ad607682052d7c1b5ab5d853a758a32a"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Ombudsstelle Krankenversicherung"
+      },
+      "url": "https://www.om-kv.ch/de/"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Gesundheit: Leistungen der Krankenversicherung"
+      },
+      "url": "https://www.bag.admin.ch/bag/de/home/versicherungen/krankenversicherung/krankenversicherung-leistungen-tarife.html"
+    },
+    {
+      "label": {
+        "de": "priminfo: Informationen zur Krankenversicherung"
+      },
+      "url": "https://www.priminfo.admin.ch/"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-28",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

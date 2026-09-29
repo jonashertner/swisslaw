@@ -206,7 +206,7 @@
       "id": "form-vorsorgeauftrag",
       "kind": "rule",
       "text": {
-        "de": "Ein Vorsorgeauftrag ist nur gültig, wenn Sie ihn von Anfang bis Ende eigenhändig von Hand schreiben, datieren und unterzeichnen, oder wenn Sie ihn öffentlich beurkunden lassen, also bei einer Notarin oder einem Notar. Ein am Computer geschriebenes und nur unterschriebenes Dokument genügt nicht."
+        "de": "Ein Vorsorgeauftrag ist nur gültig, wenn Sie ihn von Anfang bis Ende eigenhändig von Hand schreiben, datieren und unterzeichnen, oder wenn Sie ihn öffentlich beurkunden lassen, also bei einer Notarin oder einem Notar. Ein am Computer geschriebenes und nur unterschriebenes Dokument genügt nicht. Ist die Form nicht eingehalten, gilt das Dokument nicht als Vorsorgeauftrag. Enthält es Anweisungen zu medizinischen Behandlungen und ist es datiert und unterschrieben, können diese aber als Patientenverfügung gelten."
       },
       "when": {
         "interest": [
@@ -216,7 +216,8 @@
         ]
       },
       "sources": [
-        "zgb-361"
+        "zgb-361",
+        "zgb-371"
       ]
     },
     {
@@ -445,7 +446,7 @@
       "id": "doctor-checks",
       "kind": "rule",
       "text": {
-        "de": "Sind Sie urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung besteht, klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand Ihrer Versichertenkarte ab, ausser in dringlichen Fällen. Liegt eine Patientenverfügung vor, muss die Ärztin oder der Arzt ihr folgen, ausser sie verstösst gegen gesetzliche Vorschriften oder es bestehen begründete Zweifel, dass sie auf freiem Willen beruht oder noch Ihrem mutmasslichen Willen entspricht. Weicht die Ärztin oder der Arzt davon ab, muss sie oder er die Gründe im Patientendossier festhalten."
+        "de": "Sind Sie urteilsunfähig und ist nicht bekannt, ob eine Patientenverfügung besteht, klärt die behandelnde Ärztin oder der behandelnde Arzt dies anhand Ihrer Versichertenkarte ab, ausser in dringlichen Fällen. Liegt eine Patientenverfügung vor, muss die Ärztin oder der Arzt ihr folgen, ausser sie verstösst gegen gesetzliche Vorschriften oder es bestehen begründete Zweifel, dass sie auf freiem Willen beruht oder noch Ihrem mutmasslichen Willen entspricht. Weicht die Ärztin oder der Arzt davon ab, muss sie oder er die Gründe im Patientendossier festhalten. Dass die Ärztin oder der Arzt eine andere Behandlung für besser hielte, ist kein Grund zur Abweichung. Sie können in der Patientenverfügung auch festhalten, welchen Behandlungen Sie nicht zustimmen."
       },
       "when": {
         "interest": [
@@ -455,7 +456,8 @@
         ]
       },
       "sources": [
-        "zgb-372"
+        "zgb-372",
+        "zgb-370"
       ]
     },
     {
@@ -523,7 +525,7 @@
       "id": "spousal-representation",
       "kind": "rule",
       "text": {
-        "de": "Führen Sie mit Ihrem Ehegatten oder Ihrer eingetragenen Partnerin bzw. Ihrem eingetragenen Partner einen gemeinsamen Haushalt oder leistet diese Person Ihnen regelmässig und persönlich Beistand, hat sie von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht. Dieses Recht deckt Rechtshandlungen, die üblicherweise zur Deckung Ihres Unterhaltsbedarfs nötig sind, die ordentliche Verwaltung Ihres Einkommens und übrigen Vermögens, sowie nötigenfalls das Öffnen und Erledigen der Post. Für ausserordentliche Vermögensverwaltung braucht sie zusätzlich die Zustimmung der KESB, und auch sie muss dabei sorgfältig handeln. Bestehen Zweifel, ob die Voraussetzungen erfüllt sind, entscheidet die KESB."
+        "de": "Führen Sie mit Ihrem Ehegatten oder Ihrer eingetragenen Partnerin bzw. Ihrem eingetragenen Partner einen gemeinsamen Haushalt oder leistet diese Person Ihnen regelmässig und persönlich Beistand, hat sie von Gesetzes wegen ein Vertretungsrecht, wenn weder ein Vorsorgeauftrag noch eine entsprechende Beistandschaft besteht. Dieses Recht deckt Rechtshandlungen, die üblicherweise zur Deckung Ihres Unterhaltsbedarfs nötig sind, die ordentliche Verwaltung Ihres Einkommens und übrigen Vermögens, sowie nötigenfalls das Öffnen und Erledigen der Post. Für ausserordentliche Vermögensverwaltung braucht sie zusätzlich die Zustimmung der KESB, und auch sie muss dabei sorgfältig handeln. Bestehen Zweifel, ob die Voraussetzungen erfüllt sind, entscheidet die KESB. Möchten Sie nicht, dass Ihr Ehegatte oder Ihre eingetragene Partnerin bzw. Ihr eingetragener Partner Sie so vertritt, bestimmen Sie in einem Vorsorgeauftrag eine andere Person. Dann gilt dieses gesetzliche Vertretungsrecht nicht."
       },
       "when": {
         "relationship": [

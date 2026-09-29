@@ -60,7 +60,7 @@ export function sourceUrl(r: Source, language: KnowledgeLanguage): string {
   return r.type === 'statute' && (language === 'fr' || language === 'it') ? r.url.replace(/\/de(#|$)/, `/${language}$1`) : r.url;
 }
 
-export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'admin', 'data', 'family', 'inheritance', 'social'] as const;
+export const AREAS = ['tenancy', 'employment', 'debt', 'consumer', 'traffic', 'admin', 'data', 'family', 'inheritance', 'social', 'health'] as const;
 export type AreaId = typeof AREAS[number];
 
 /** Letters people receive, in the order of how often they bring someone here. */
@@ -76,6 +76,7 @@ export const SITUATION_ORDER: readonly string[] = [
   'family.separation', 'family.divorce', 'family.child-maintenance', 'family.parental-care',
   'social.unemployment', 'social.invalidity-application', 'social.work-accident', 'social.ahv-gaps',
   'inheritance.refusal', 'inheritance.debts', 'inheritance.will', 'inheritance.compulsory-shares', 'inheritance.power-of-attorney',
+  'health.refused-bill', 'health.switching', 'health.supplementary',
 ];
 export function byImportance(a: { id: string }, b: { id: string }): number {
   const rank = (id: string) => { const i = SITUATION_ORDER.indexOf(id); return i < 0 ? SITUATION_ORDER.length : i; };

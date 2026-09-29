@@ -154,11 +154,14 @@
       "id": "handwritten-will",
       "kind": "rule",
       "text": {
-        "de": "Das eigenhändige Testament ist die einfachste Form: Sie schreiben es vollständig von Anfang bis Ende mit der Hand, geben Jahr, Monat und Tag der Errichtung an und unterschreiben es. Ein Computerausdruck, ein maschinengeschriebener Text oder ein von einer anderen Person geschriebener Text erfüllen die Form nicht, selbst wenn Sie darunter unterschreiben. Fehlt die vorgeschriebene Form, kann das Testament durch Klage für ungültig erklärt werden."
+        "de": "Das eigenhändige Testament ist die einfachste Form: Sie schreiben es vollständig von Anfang bis Ende mit der Hand, geben Jahr, Monat und Tag der Errichtung an und unterschreiben es. Ein Computerausdruck, ein maschinengeschriebener Text oder ein von einer anderen Person geschriebener Text erfüllen die Form nicht, selbst wenn Sie darunter unterschreiben. Wirkungslos ist ein solches Schriftstück deshalb aber nicht ohne Weiteres: Ein Testament mit einem Formfehler gilt grundsätzlich, bis ein Gericht es auf Klage hin für ungültig erklärt. Nur bei besonders schweren Formfehlern kann ein Gericht es als nichtig behandeln, also als von Anfang an wirkungslos. Wer ein solches Dokument nicht gelten lassen will, sollte sich deshalb nicht darauf verlassen, dass es ohnehin nichtig sei, sondern innert der Fristen für die Ungültigkeitsklage handeln."
       },
       "sources": [
         "zgb-505",
-        "zgb-520"
+        "zgb-520",
+        "zgb-521",
+        "bge-113-ii-270",
+        "bger-5a-702-2016"
       ]
     },
     {
@@ -325,12 +328,15 @@
       "id": "invalidity",
       "kind": "warning",
       "text": {
-        "de": "Ein Testament kann durch Klage für ungültig erklärt werden: wenn Sie es ohne Urteilsfähigkeit errichtet haben, wenn Ihr Wille mangelhaft war, etwa durch Täuschung oder Drohung, wenn Inhalt oder eine Bedingung unsittlich oder rechtswidrig ist, oder wenn ein Formfehler vorliegt. Liegt der Formfehler nur darin, dass eine bedachte Person oder ihre Angehörigen bei der Errichtung mitgewirkt haben, wird nur diese einzelne Zuwendung ungültig, nicht das ganze Testament. Klagen kann jede Person, die als Erbin oder Bedachte ein Interesse daran hat. Die Klage verjährt innert einem Jahr, seit die klagende Person vom Testament und vom Ungültigkeitsgrund erfahren hat, in jedem Fall innert zehn Jahren seit der Testamentseröffnung; gegenüber einer bösgläubigen Person bei Urteilsunfähigkeit, Rechtswidrigkeit oder Unsittlichkeit erst nach 30 Jahren. Wird aus einem ungültigen Testament etwas verlangt, kann die Ungültigkeit als Einrede jederzeit geltend gemacht werden."
+        "de": "Ein Testament kann durch Klage für ungültig erklärt werden: wenn Sie es ohne Urteilsfähigkeit errichtet haben, wenn Ihr Wille mangelhaft war, etwa durch Täuschung oder Drohung, wenn Inhalt oder eine Bedingung unsittlich oder rechtswidrig ist, oder wenn ein Formfehler vorliegt. Liegt der Formfehler nur darin, dass eine bedachte Person oder ihre Angehörigen bei der Errichtung mitgewirkt haben, wird nur diese einzelne Zuwendung ungültig, nicht das ganze Testament. Klagen kann jede Person, die als Erbin oder Bedachte ein Interesse daran hat. Die Klage verjährt innert einem Jahr, seit die klagende Person vom Testament und vom Ungültigkeitsgrund erfahren hat, in jedem Fall innert zehn Jahren seit der Testamentseröffnung; gegenüber einer bösgläubigen Person bei Urteilsunfähigkeit, Rechtswidrigkeit oder Unsittlichkeit erst nach 30 Jahren. Diese Fristen sind strikt: Ein Brief, eine Betreibung oder Verhandlungen halten sie nicht auf. Wahren können Sie sie nur, indem Sie rechtzeitig ein Schlichtungsgesuch oder eine Klage einreichen. Wird aus einem ungültigen Testament etwas verlangt, kann die Ungültigkeit als Einrede jederzeit geltend gemacht werden."
       },
       "sources": [
         "zgb-519",
         "zgb-520",
-        "zgb-521"
+        "zgb-521",
+        "bge-98-ii-176",
+        "zpo-62",
+        "zpo-64"
       ]
     },
     {
@@ -649,6 +655,43 @@
       "citation": "BGer 5A_12/2009 vom 25. März 2009",
       "e": "7.1",
       "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_12_2009#e-7-1"
+    },
+    "bge-98-ii-176": {
+      "type": "decision",
+      "decision_id": "bge_BGE_98_II_176",
+      "citation": "BGE 98 II 176",
+      "e": "10",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_98_II_176#e-10"
+    },
+    "zpo-62": {
+      "type": "statute",
+      "sr": "272",
+      "article": "62",
+      "label": "ZPO · Art. 62",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_62",
+      "sha256": "561ba4deec9540e574b3e56e0024c2431249bd89d842c7b42206154e98f71991"
+    },
+    "zpo-64": {
+      "type": "statute",
+      "sr": "272",
+      "article": "64",
+      "label": "ZPO · Art. 64",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/262/de#art_64",
+      "sha256": "7c58333ebba85402a4ae20fe39c84ffb48e7e73e9153b980bb4faadfe95e56b1"
+    },
+    "bge-113-ii-270": {
+      "type": "decision",
+      "decision_id": "bge_BGE_113_II_270",
+      "citation": "BGE 113 II 270",
+      "e": "3a",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_113_II_270#e-3a"
+    },
+    "bger-5a-702-2016": {
+      "type": "decision",
+      "decision_id": "bger_5A_702_2016",
+      "citation": "BGer 5A_702/2016 vom 28. März 2017",
+      "e": "3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_702_2016#e-3"
     }
   },
   "official_links": [
