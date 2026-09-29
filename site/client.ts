@@ -58,36 +58,62 @@ function initSituation() {
   const form = $<HTMLFormElement>('#answers'); if (!form) return;
   form.hidden = false;
   const reset = $<HTMLButtonElement>('button[type=reset]', form)!;
-  const factNames = [...new Set($$<HTMLInputElement>('.q:not(.q-deadline) input[type=radio]', form).map(i => i.name))];
+  const factNames = $$<HTMLElement>('details.q', form).map(d => d.dataset.fact!);
   const params = new URLSearchParams(location.search);
   for (const name of factNames) { const v = params.get(name); const r = v && form.querySelector<HTMLInputElement>(`input[name="${name}"][value="${CSS.escape(v)}"]`); if (r) r.checked = true; }
 
   const facts = () => Object.fromEntries(factNames.map(n => [n, (form.querySelector<HTMLInputElement>(`input[name="${n}"]:checked`)?.value) ?? 'unknown']));
   const applies = (when: string | undefined, f: Record<string, string>) => !when || Object.entries(JSON.parse(when) as Record<string, string[]>).every(([k, vs]) => vs.includes(f[k] ?? 'unknown'));
+  const count = $<HTMLElement>('[data-count]', form);
 
   const update = () => {
     const f = facts();
     for (const node of $$<HTMLElement>('[data-when]')) node.hidden = !applies(node.dataset.when, f);
     for (const row of $$<HTMLElement>('[data-row]')) row.hidden = !$$<HTMLElement>('[data-when], .para, li', row).some(n => !n.hidden && !n.closest('.due'));
-    const answered = Object.values(f).some(v => v !== 'unknown');
-    reset.hidden = !answered;
+    for (const item of $$<HTMLElement>('[data-toc]')) item.hidden = !!$<HTMLElement>(`#r-${item.dataset.toc}`)?.hidden;
+    // Each question shows the answer chosen, so the list can stay closed.
+    for (const d of $$<HTMLElement>('details.q', form)) {
+      const checked = $<HTMLInputElement>('input:checked', d);
+      const value = $<HTMLElement>('[data-value]', d)!;
+      value.textContent = checked?.closest('label')?.textContent?.trim() ?? '';
+      d.classList.toggle('answered', !!checked && checked.value !== 'unknown');
+    }
+    const answered = Object.values(f).filter(v => v !== 'unknown').length;
+    if (count) count.textContent = tx('answeredOf', { n: answered, total: count.dataset.total ?? factNames.length });
+    reset.hidden = answered === 0;
     const q = new URLSearchParams(); for (const [k, v] of Object.entries(f)) if (v !== 'unknown') q.set(k, v);
-    history.replaceState(null, '', `${location.pathname}${q.size ? `?${q}` : ''}`);
+    history.replaceState(null, '', `${location.pathname}${q.size ? `?${q}` : ''}${location.hash}`);
     updateDeadline();
   };
 
-  const due = $<HTMLElement>('#due'); const fieldset = $<HTMLFieldSetElement>('[data-deadline]', form);
+  // The deadline fields sit in the deadline card, outside the form element; the form attribute keeps them in the form.
+  const due = $<HTMLElement>('#due'); const fieldset = $<HTMLFieldSetElement>('[data-deadline]');
   const activeRule = (): string | undefined => {
     const block = $$<HTMLElement>('.row-deadline .para[data-rules]').find(b => !b.hidden);
     return block ? (JSON.parse(block.dataset.rules!) as string[]).find(r => DEADLINE_RULES.has(r)) : undefined;
   };
+  const days = (a: string, b: string) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 864e5);
+  // Start, today and the last day on one line: how much of the period is left.
+  function timeline(start: string, end: string, now: string): HTMLElement {
+    const total = Math.max(1, days(start, end)); const pct = Math.min(100, Math.max(0, (days(start, now) / total) * 100));
+    const box = el('div', 'tl'); box.setAttribute('aria-hidden', 'true');
+    const track = el('div', 'tl-track'); const fill = el('div', 'tl-fill'); fill.style.width = `${pct}%`;
+    const mark = el('div', 'tl-now'); mark.style.left = `${pct}%`; mark.append(el('span', 'tl-now-label', tx('tlToday')));
+    mark.classList.toggle('tl-now-end', pct > 82); mark.classList.toggle('tl-now-start', pct < 18);
+    track.append(fill, mark);
+    const ends = el('div', 'tl-ends');
+    const end1 = el('span'); end1.append(el('b', undefined, tx('tlStart')), ` ${fmt(start, false)}`);
+    const end2 = el('span'); end2.append(el('b', undefined, tx('tlEnd')), ` ${fmt(end, false)}`);
+    ends.append(end1, end2); box.append(track, ends);
+    return box;
+  }
   function updateDeadline() {
     if (!due || !fieldset) return;
     const ruleId = activeRule(); const rule = ruleId ? DEADLINE_RULES.get(ruleId) : undefined;
     due.hidden = !rule; fieldset.hidden = !rule;
     if (!rule) return;
-    const get = (n: string) => (form!.elements.namedItem(n) as HTMLInputElement | HTMLSelectElement | null)?.value ?? '';
-    const method = rule.receipt_doctrine === 'event' ? 'event' : ((form!.querySelector<HTMLInputElement>('input[name=method]:checked')?.value) ?? 'personal');
+    const get = (n: string) => (form!.elements.namedItem(n) as HTMLInputElement | HTMLSelectElement | RadioNodeList | null)?.value ?? '';
+    const method = rule.receipt_doctrine === 'event' ? 'event' : (get('method') || 'personal');
     for (const l of $$<HTMLElement>('[data-for]', fieldset)) l.hidden = (l.dataset.for === 'registered') !== (method === 'registered');
     let delivery: Delivery | null = null;
     if (method === 'event') delivery = get('date') ? { method: 'event', date: get('date') } : null;
@@ -100,8 +126,12 @@ function initSituation() {
     try { r = computeDeadline(rule.id, delivery, canton || 'ZH', { today: today(), requireSigned: data.channel === 'public' }); }
     catch (e) { due.append(el('p', e instanceof RuleNotSigned ? 'due-note' : 'due-alert', tx(e instanceof RuleNotSigned ? 'calcPending' : 'noDate'))); return; }
     if (!r.bindingDue) { due.append(el('p', 'due-alert', tx('noDate'))); return; }
-    due.append(el('p', 'due-label', tx('actUntil')), el('p', 'due-date', fmt(r.bindingDue)));
-    if (r.daysLeft !== null && !r.expired) due.append(el('p', 'due-left', r.daysLeft === 0 ? tx('today') : r.daysLeft === 1 ? tx('dayLeft') : tx('daysLeft', { n: r.daysLeft })));
+    const head = el('div', 'due-result');
+    const dateBox = el('div'); dateBox.append(el('p', 'due-label', tx('actUntil')), el('p', 'due-date', fmt(r.bindingDue)));
+    head.append(dateBox);
+    if (r.daysLeft !== null && !r.expired) head.append(el('p', 'due-left', r.daysLeft === 0 ? tx('today') : r.daysLeft === 1 ? tx('dayLeft') : tx('daysLeft', { n: r.daysLeft })));
+    due.append(head);
+    if (r.receiptDate) due.append(timeline(r.receiptDate, r.bindingDue, today()));
     if (r.expired) due.append(el('p', 'due-alert', tx('expired')));
     if (r.urgent) due.append(el('p', 'due-alert', tx('urgent')));
     for (const l of r.couldBeLater) due.append(el('p', 'due-note', tx('couldBeLater', { date: fmt(l.date, false), reason: tx(`later_${l.code}`) })));
@@ -117,8 +147,9 @@ function initSituation() {
     due.append(how, flat);
   }
 
-  form.addEventListener('change', update);
-  form.addEventListener('input', e => { if ((e.target as HTMLElement).matches('input[type=date], select')) updateDeadline(); });
+  const owned = (t: EventTarget | null) => (t as HTMLInputElement | null)?.form === form;
+  document.addEventListener('change', e => { if (owned(e.target)) update(); });
+  document.addEventListener('input', e => { if (owned(e.target) && (e.target as HTMLElement).matches('input[type=date], select')) updateDeadline(); });
   form.addEventListener('reset', () => setTimeout(update));
   form.addEventListener('submit', e => e.preventDefault());
 
@@ -132,6 +163,41 @@ function initSituation() {
     $('[data-print]', actions)?.addEventListener('click', () => print());
   }
   update();
+}
+
+// --- contents: mark the section being read ---------------------------------------------
+function initToc() {
+  const links = $$<HTMLAnchorElement>('.toc a'); if (!links.length) return;
+  const list = $<HTMLElement>('.toc ul')!;
+  let current: HTMLAnchorElement | undefined; let queued = false;
+  const mark = () => {
+    queued = false;
+    const rows = links.map(a => [a, document.getElementById(a.hash.slice(1))] as const).filter(([a, r]) => r && !r.hidden && !a.closest('[hidden]'));
+    let next: HTMLAnchorElement | undefined;
+    for (const [a, r] of rows) if (r!.getBoundingClientRect().top < innerHeight * 0.3) next = a;
+    if (next === current) return;
+    current?.removeAttribute('aria-current'); current = next;
+    if (!next) return;
+    next.setAttribute('aria-current', 'true');
+    // The chip row scrolls sideways on small screens: keep the current chip in view without moving the page.
+    if (list.scrollWidth > list.clientWidth) list.scrollTo({ left: next.offsetLeft - list.clientWidth / 2 + next.offsetWidth / 2, behavior: 'smooth' });
+  };
+  addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(mark); } }, { passive: true });
+  mark();
+}
+
+// --- citations: open the provision's text in place ------------------------------------
+function initProvisions() {
+  if (!('popover' in HTMLElement.prototype)) return;
+  document.addEventListener('click', e => {
+    const a = (e.target as Element).closest<HTMLAnchorElement>('a[data-pop]');
+    const pop = a && document.getElementById(a.dataset.pop!);
+    if (!a || !pop || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    pop.showPopover();
+    $<HTMLButtonElement>('.prov-close', pop)?.focus();
+    pop.addEventListener('toggle', ev => { if ((ev as ToggleEvent).newState === 'closed') a.focus(); }, { once: true });
+  });
 }
 
 // --- index: submit a question ----------------------------------------------------
@@ -169,19 +235,18 @@ function initPrint() {
     const box = $<HTMLElement>('[data-print-answers]'); const form = $<HTMLFormElement>('#answers');
     if (!box || !form) return;
     const rows: [string, string][] = [];
-    for (const fs of $$<HTMLFieldSetElement>('fieldset.q', form)) {
-      if (fs.hidden) continue;
-      const question = $('legend', fs)?.textContent?.trim() ?? '';
-      if (fs.matches('.q-deadline')) {
-        const fields = $$<HTMLLabelElement>('label.field', fs).filter(l => !l.hidden && $<HTMLInputElement | HTMLSelectElement>('input, select', l)?.value);
-        if (!fields.some(l => $('input[type=date]', l))) continue;
-        const method = $('.seg-opt input:checked + span', fs)?.textContent;
-        if (method) rows.push([question, method]);
+    const deadline = $<HTMLFieldSetElement>('[data-deadline]');
+    if (deadline && !deadline.hidden) {
+      const fields = $$<HTMLLabelElement>('label.field', deadline).filter(l => !l.hidden && $<HTMLInputElement | HTMLSelectElement>('input, select', l)?.value);
+      if (fields.some(l => $('input[type=date]', l))) {
+        const method = $('.seg-opt input:checked + span', deadline)?.textContent;
+        if (method) rows.push([$('legend', deadline)?.textContent?.trim() ?? '', method]);
         for (const l of fields) { const c = $<HTMLInputElement | HTMLSelectElement>('input, select', l)!; rows.push([$('span', l)?.textContent ?? '', c.type === 'date' ? fmt(c.value, false) : c.value]); }
-      } else {
-        const checked = $<HTMLInputElement>('input:checked', fs);
-        if (checked && checked.value !== 'unknown') rows.push([question, checked.closest('label')?.textContent?.trim() ?? '']);
       }
+    }
+    for (const d of $$<HTMLElement>('details.q', form)) {
+      const checked = $<HTMLInputElement>('input:checked', d);
+      if (checked && checked.value !== 'unknown') rows.push([$('.q-text', d)?.textContent?.trim() ?? '', checked.closest('label')?.textContent?.trim() ?? '']);
     }
     box.replaceChildren();
     if (!rows.length) return;
@@ -194,4 +259,6 @@ function initPrint() {
 initSearch();
 initSubmit();
 initSituation();
+initProvisions();
+initToc();
 initPrint();

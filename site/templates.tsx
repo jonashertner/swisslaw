@@ -243,18 +243,93 @@ export function AboutBody({ ctx }: { ctx: Ctx }) {
   );
 }
 
-function Refs({ s, keys, ctx }: { s: Situation; keys?: string[]; ctx: Ctx }) {
+type Provisions = Record<string, { sha256: string; url: string; body: string }>;
+type SourceRef = Situation['sources'][string];
+// German statute text, checked against the guide's hash. French and Italian readers keep the link to their own official text.
+const provisionFor = (r: SourceRef, ctx: Ctx, provisions: Provisions) => {
+  if (r.type !== 'statute' || ctx.lang === 'fr' || ctx.lang === 'it') return undefined;
+  const p = provisions[`${r.sr}:${r.article}`];
+  return p && p.sha256 === r.sha256 ? p : undefined;
+};
+const popId = (k: string) => `p-${k}`;
+
+// A citation opens the provision's text in place when the text is available; otherwise, and without scripts, it links to the source.
+function Refs({ s, keys, ctx, provisions }: { s: Situation; keys?: string[]; ctx: Ctx; provisions: Provisions }) {
   if (!keys?.length) return null;
-  return <p className="refs">{keys.map((k, i) => { const r = s.sources[k]; return <span key={k}>{i > 0 && ', '}<a href={sourceUrl(r, ctx.lang)}>{sourceLabel(r, ctx.lang)}</a></span>; })}</p>;
+  return (
+    <p className="refs">{keys.map(k => { const r = s.sources[k]; const p = provisionFor(r, ctx, provisions); return (
+      <a key={k} className="ref" href={sourceUrl(r, ctx.lang)} data-pop={p ? popId(k) : undefined}>{sourceLabel(r, ctx.lang)}</a>
+    ); })}</p>
+  );
 }
 
-export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
+function Provision({ id, r, p, ctx, s }: { id: string; r: SourceRef; p: Provisions[string]; ctx: Ctx; s: Situation }) {
+  // The first line is the article's heading when it is short and not a numbered paragraph; the texts are not uniform.
+  const lines = p.body.replace(/[ \t]+([.,;:)])/g, '$1').split('\n').filter(Boolean);
+  const heading = lines.length > 1 && lines[0].length < 90 && !/^\d+[a-z]*\s/.test(lines[0]) && !/[.:;]$/.test(lines[0]) ? lines[0] : '';
+  const body = heading ? lines.slice(1) : lines;
+  return (
+    <div className="prov" id={popId(id)} popover="auto" role="dialog" aria-labelledby={`${popId(id)}-h`}>
+      <div className="prov-head">
+        <p className="prov-label" id={`${popId(id)}-h`}>{sourceLabel(r, ctx.lang)}</p>
+        <button type="button" className="prov-close" popoverTarget={popId(id)} popoverTargetAction="hide" aria-label={t(ctx, 'close')}>
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>
+        </button>
+      </div>
+      <div lang="de">
+        {heading && <p className="prov-title">{heading}</p>}
+        <div className="prov-text">{body.map((line, i) => { const m = /^(\d+[a-z]*)\s(.*)$/s.exec(line); return <p key={i}>{m ? <><sup>{m[1]}</sup>{m[2]}</> : line}</p>; })}</div>
+      </div>
+      <p className="prov-foot">
+        {ctx.lang !== 'de' && <>{t(ctx, 'germanText')} · </>}
+        <a href={p.url}>{t(ctx, 'onFedlex')}</a> · {t(ctx, 'checkedAsOf', { date: formatDate(s.version, ctx.lang, false) })}
+      </p>
+    </div>
+  );
+}
+
+const KIND_ICON: Partial<Record<string, ReactNode>> = {
+  warning: <path d="M12 4 2.8 19.5h18.4L12 4Zm0 6v4.5m0 2.6v.1" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />,
+  step: <path d="M9 6h11M9 12h11M9 18h11M4.5 6h.01M4.5 12h.01M4.5 18h.01" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />,
+  rule: <path d="M14.5 5.5c-.6-1-1.6-1.5-2.7-1.5-1.7 0-3 1-3 2.5 0 3.5 6.9 2.7 6.9 6.3 0 1.1-.7 2-1.8 2.4M9.5 18.5c.6 1 1.6 1.5 2.7 1.5 1.7 0 3-1 3-2.5 0-3.5-6.9-2.7-6.9-6.3 0-1.1.7-2 1.8-2.4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />,
+  cost: <><rect x="2.8" y="6.5" width="18.4" height="11" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" /><circle cx="12" cy="12" r="2.6" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M6 9.5v5m12-5v5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></>,
+  escalate: <path d="M4.5 18.5v-.8c0-2.6 2.1-4.7 4.7-4.7h1.6c2.6 0 4.7 2.1 4.7 4.7v.8M10 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm6.5-5.5a3 3 0 0 1 0 5.4m2 3.3c1.5.6 2.5 2 2.5 3.8v.5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />,
+  'free-help': <path d="M12 20s-7.5-4.3-7.5-10A4.3 4.3 0 0 1 12 7.2 4.3 4.3 0 0 1 19.5 10c0 5.7-7.5 10-7.5 10Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />,
+  scope: <><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="M12 11v5.5m0-8.6v.1" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></>,
+  sources: <path d="M5 5.5A1.5 1.5 0 0 1 6.5 4H18v14H6.5A1.5 1.5 0 0 0 5 19.5v-14Zm0 14A1.5 1.5 0 0 0 6.5 21H18v-3" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />,
+};
+const Icon = ({ kind }: { kind: string }) => KIND_ICON[kind] ? <svg className="sec-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">{KIND_ICON[kind]}</svg> : null;
+
+// Statutes grouped by act, decisions last.
+function groupSources(s: Situation, ctx: Ctx) {
+  const groups = new Map<string, { key: string; r: SourceRef; label: string }[]>();
+  for (const [key, r] of Object.entries(s.sources)) {
+    const label = sourceLabel(r, ctx.lang);
+    const m = r.type === 'statute' ? /^(.+?) · (?:Art|art)\. (.+)$/.exec(label) : null;
+    const act = m ? m[1] : t(ctx, 'decisions');
+    if (!groups.has(act)) groups.set(act, []);
+    groups.get(act)!.push({ key, r, label: m ? `${ctx.lang === 'fr' || ctx.lang === 'it' ? 'art.' : 'Art.'} ${m[2]}` : label });
+  }
+  const decisions = t(ctx, 'decisions');
+  const article = (label: string) => label.replace(/^(Art|art)\. /, '');
+  for (const [act, items] of groups) if (act !== decisions) items.sort((a, b) => article(a.label).localeCompare(article(b.label), 'en', { numeric: true }));
+  return [...groups.entries()].sort(([a], [b]) => (a === decisions ? 1 : 0) - (b === decisions ? 1 : 0));
+}
+
+export function SituationBody({ ctx, s, provisions = {} }: { ctx: Ctx; s: Situation; provisions?: Provisions }) {
   const visible = new Set(applicableBlocks(s, {}).map(b => b.id));
   const deadlineRules = [...new Set(s.blocks.flatMap(b => b.deadline_rules ?? []))].filter(r => DEADLINE_RULES.has(r));
   const hasDeadline = deadlineRules.length > 0;
   const whenAttr = (w?: Record<string, string[]>) => (w ? JSON.stringify(w) : undefined);
   const eventRule = deadlineRules.map(r => DEADLINE_RULES.get(r)!).find(r => r.receipt_doctrine === 'event');
   const eventKey = eventRule ? `ev_${eventRule.id}` : '';
+  const deadlineBlocks = s.blocks.filter(b => b.kind === 'deadline');
+  const kinds = BLOCK_ORDER.filter(k => k !== 'deadline' && s.blocks.some(b => b.kind === k));
+  const kindVisible = (k: string) => s.blocks.some(b => b.kind === k && visible.has(b.id));
+  const helpLinks = kinds.includes('free-help') ? s.official_links : [];
+  const R = (keys?: string[]) => <Refs s={s} keys={keys} ctx={ctx} provisions={provisions} />;
+  const withText = Object.entries(s.sources).flatMap(([k, r]) => { const p = provisionFor(r, ctx, provisions); return p ? [{ k, r, p }] : []; });
+  const factCount = s.facts.length;
   return (
     <article className="doc">
       <nav className="crumbs" aria-label={t(ctx, 'overview')}>
@@ -270,83 +345,128 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
       </header>
 
       <section className="print-answers" data-print-answers aria-hidden="true" />
-      <div className="doc-grid">
+      {/* The tool: the deadline first, then the questions that shape the rest of the page. */}
+      <div className={`doc-top${deadlineBlocks.length ? '' : ' doc-top-single'}`}>
+        {deadlineBlocks.length > 0 && (
+          <section className="row row-deadline due-card" id="r-deadline" aria-labelledby="h-deadline" hidden={!kindVisible('deadline')} data-row>
+            <h2 id="h-deadline" className="card-h">
+              <svg className="sec-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="13" r="7.8" fill="none" stroke="currentColor" strokeWidth="1.7" /><path d="M12 9v4.2l2.6 1.6M9.5 3h5" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" /></svg>
+              {t(ctx, 'lbl_deadline')}
+            </h2>
+            {hasDeadline && (
+              <fieldset className="due-inputs" data-deadline>
+                <legend>{eventRule ? (eventKey in SITE_TEXT ? t(ctx, eventKey as SiteKey) : t(ctx, 'd_event')) : t(ctx, 'whenReceived')}</legend>
+                {!eventRule && (
+                  <div className="seg">
+                    {(['personal', 'registered', 'ordinary'] as const).map(m => (
+                      <label key={m} className="seg-opt"><input type="radio" name="method" value={m} form="answers" defaultChecked={m === 'personal'} /><span>{t(ctx, `mm_${m}` as SiteKey)}</span></label>
+                    ))}
+                  </div>
+                )}
+                <div className="due-fields">
+                  <label className="field" data-for="single"><span>{eventRule ? t(ctx, 'd_event') : t(ctx, 'dd_received')}</span><input type="date" name="date" form="answers" max="2100-12-31" /></label>
+                  <label className="field" data-for="registered" hidden><span>{t(ctx, 'dd_notice')}</span><input type="date" name="notice" form="answers" max="2100-12-31" /></label>
+                  <label className="field" data-for="registered" hidden><span>{t(ctx, 'dd_collected')}</span><input type="date" name="collected" form="answers" max="2100-12-31" /></label>
+                  <label className="field field-canton"><span>{t(ctx, 'cantonOptional')}</span>
+                    <select name="canton" form="answers" defaultValue=""><option value="">–</option>{CANTONS.map(c => <option key={c} value={c}>{c}</option>)}</select>
+                  </label>
+                </div>
+              </fieldset>
+            )}
+            {hasDeadline && <div className="due" id="due" aria-live="polite" data-rules={JSON.stringify(deadlineRules)} hidden><p className="due-prompt">{t(ctx, 'enterDate')}</p></div>}
+            <div className="due-text">
+              {deadlineBlocks.map(b => (
+                <div key={b.id} className="para" data-when={whenAttr(b.when)} hidden={!visible.has(b.id)} data-rules={b.deadline_rules ? JSON.stringify(b.deadline_rules) : undefined}>
+                  <Txt value={b.text} ctx={ctx} as="p" />{R(b.sources)}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <form className="inputs" id="answers" aria-labelledby="in-h" hidden>
           <div className="inputs-head">
             <h2 id="in-h">{t(ctx, 'yourAnswers')}</h2>
-            <button type="reset" className="quiet" hidden>{t(ctx, 'clearAnswers')}</button>
+            <p className="inputs-count" data-count data-total={factCount} aria-live="polite">{t(ctx, 'answeredOf', { n: 0, total: factCount })}</p>
           </div>
           <p className="inputs-lead">{t(ctx, 'yourAnswersLead')}</p>
-          {hasDeadline && (
-            <fieldset className="q q-deadline" data-deadline>
-              <legend>{eventRule ? (eventKey in SITE_TEXT ? t(ctx, eventKey as SiteKey) : t(ctx, 'd_event')) : t(ctx, 'whenReceived')}</legend>
-              {!eventRule && (
-                <div className="seg">
-                  {(['personal', 'registered', 'ordinary'] as const).map(m => (
-                    <label key={m} className="seg-opt"><input type="radio" name="method" value={m} defaultChecked={m === 'personal'} /><span>{t(ctx, `mm_${m}` as SiteKey)}</span></label>
+          <div className="qs">
+            {s.facts.map(f => (
+              <details key={f.key} className="q" data-fact={f.key}>
+                <summary>
+                  <Txt value={f.question} ctx={ctx} className="q-text" />
+                  <span className="q-value" data-value>{localText(f.options.find(o => o.value === 'unknown')?.label ?? f.options[0].label, ctx.lang).text}</span>
+                </summary>
+                <fieldset>
+                  <Txt value={f.question} ctx={ctx} as="legend" className="visually-hidden" />
+                  {f.help && <Txt value={f.help} ctx={ctx} as="p" className="q-help" />}
+                  {f.options.map(o => (
+                    <label key={o.value} className="opt">
+                      <input type="radio" name={f.key} value={o.value} defaultChecked={o.value === 'unknown'} />
+                      <Txt value={o.label} ctx={ctx} />
+                    </label>
                   ))}
-                </div>
-              )}
-              <label className="field" data-for="single"><span>{eventRule ? t(ctx, 'd_event') : t(ctx, 'dd_received')}</span><input type="date" name="date" max="2100-12-31" /></label>
-              <label className="field" data-for="registered" hidden><span>{t(ctx, 'dd_notice')}</span><input type="date" name="notice" max="2100-12-31" /></label>
-              <label className="field" data-for="registered" hidden><span>{t(ctx, 'dd_collected')}</span><input type="date" name="collected" max="2100-12-31" /></label>
-              <label className="field field-inline"><span>{t(ctx, 'cantonOptional')}</span>
-                <select name="canton" defaultValue=""><option value="">–</option>{CANTONS.map(c => <option key={c} value={c}>{c}</option>)}</select>
-              </label>
-            </fieldset>
-          )}
-          {s.facts.map(f => (
-            <fieldset key={f.key} className="q">
-              <Txt value={f.question} ctx={ctx} as="legend" />
-              {f.help && <Txt value={f.help} ctx={ctx} as="p" className="q-help" />}
-              {f.options.map(o => (
-                <label key={o.value} className="opt">
-                  <input type="radio" name={f.key} value={o.value} defaultChecked={o.value === 'unknown'} />
-                  <Txt value={o.label} ctx={ctx} />
-                </label>
-              ))}
-            </fieldset>
-          ))}
+                </fieldset>
+              </details>
+            ))}
+          </div>
+          <button type="reset" className="quiet" hidden>{t(ctx, 'clearAnswers')}</button>
         </form>
+      </div>
+
+      <div className="doc-body">
+        <nav className="toc" aria-label={t(ctx, 'tocLabel')}>
+          <p className="toc-label" aria-hidden="true">{t(ctx, 'tocLabel')}</p>
+          <ul>
+            {kinds.map(k => <li key={k} data-toc={k} hidden={!kindVisible(k)}><a href={`#r-${k}`}>{t(ctx, `lbl_${k}` as SiteKey)}</a></li>)}
+            <li><a href="#r-scope">{t(ctx, 'lbl_scope')}</a></li>
+            <li><a href="#r-sources">{t(ctx, 'lbl_sources')}</a></li>
+          </ul>
+        </nav>
 
         <div className="answer">
-          {BLOCK_ORDER.map(kind => {
+          {kinds.map(kind => {
             const list = s.blocks.filter(b => b.kind === kind);
-            if (!list.length) return null;
-            const anyVisible = list.some(b => visible.has(b.id));
-            const ordered = kind === 'step';
             return (
-              <section key={kind} className={`row row-${kind}`} aria-labelledby={`r-${kind}`} hidden={!anyVisible} data-row>
-                <h2 id={`r-${kind}`} className="row-label">{t(ctx, `lbl_${kind}` as SiteKey)}</h2>
+              <section key={kind} className={`row row-${kind}`} id={`r-${kind}`} aria-labelledby={`h-${kind}`} hidden={!kindVisible(kind)} data-row>
+                <h2 id={`h-${kind}`} className="row-label"><Icon kind={kind} />{t(ctx, `lbl_${kind}` as SiteKey)}</h2>
                 <div className="row-body">
-                  {kind === 'deadline' && hasDeadline && (
-                    <div className="due" id="due" aria-live="polite" data-rules={JSON.stringify(deadlineRules)} hidden><p className="due-prompt">{t(ctx, 'enterDate')}</p></div>
-                  )}
-                  {ordered ? (
-                    <ol className="steps">{list.map(b => <li key={b.id} data-when={whenAttr(b.when)} hidden={!visible.has(b.id)}><Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} ctx={ctx} /></li>)}</ol>
+                  {kind === 'step' ? (
+                    <ol className="steps">{list.map(b => <li key={b.id} data-when={whenAttr(b.when)} hidden={!visible.has(b.id)}><Txt value={b.text} ctx={ctx} as="p" />{R(b.sources)}</li>)}</ol>
                   ) : list.map(b => (
-                    <div key={b.id} className="para" data-when={whenAttr(b.when)} hidden={!visible.has(b.id)} data-rules={b.deadline_rules ? JSON.stringify(b.deadline_rules) : undefined}>
-                      <Txt value={b.text} ctx={ctx} as="p" /><Refs s={s} keys={b.sources} ctx={ctx} />
+                    <div key={b.id} className="para" data-when={whenAttr(b.when)} hidden={!visible.has(b.id)}>
+                      <Txt value={b.text} ctx={ctx} as="p" />{R(b.sources)}
                     </div>
                   ))}
+                  {kind === 'free-help' && helpLinks.length > 0 && (
+                    <div className="help-links">
+                      <p className="help-links-label">{t(ctx, 'officialPages')}</p>
+                      <ul>{helpLinks.map(l => <li key={l.url}><a href={l.url}><Txt value={l.label} ctx={ctx} /><span className="help-host">{new URL(l.url).hostname.replace(/^www\./, '')}</span></a></li>)}</ul>
+                    </div>
+                  )}
                 </div>
               </section>
             );
           })}
-          <section className="row row-scope" aria-labelledby="r-scope">
-            <h2 id="r-scope" className="row-label">{t(ctx, 'lbl_scope')}</h2>
+          <section className="row row-scope" id="r-scope" aria-labelledby="h-scope">
+            <h2 id="h-scope" className="row-label"><Icon kind="scope" />{t(ctx, 'lbl_scope')}</h2>
             <div className="row-body">
               <div className="para"><Txt value={s.scope.covers} ctx={ctx} as="p" /></div>
               <div className="para muted"><p>{t(ctx, 'excludes')}: <Txt value={s.scope.excludes} ctx={ctx} /></p></div>
             </div>
           </section>
-          <section className="row row-sources" aria-labelledby="r-src">
-            <h2 id="r-src" className="row-label">{t(ctx, 'lbl_sources')}</h2>
+          <section className="row row-sources" id="r-sources" aria-labelledby="h-sources">
+            <h2 id="h-sources" className="row-label"><Icon kind="sources" />{t(ctx, 'lbl_sources')}</h2>
             <div className="row-body">
-              <ul className="source-list">{Object.entries(s.sources).map(([k, r]) => (
-                <li key={k}><a href={sourceUrl(r, ctx.lang)}>{sourceLabel(r, ctx.lang)}</a></li>
-              ))}</ul>
-              {s.official_links.length > 0 && <ul className="source-links">{s.official_links.map(l => <li key={l.url}><a href={l.url}><Txt value={l.label} ctx={ctx} /></a></li>)}</ul>}
+              <dl className="source-groups">{groupSources(s, ctx).map(([act, items]) => (
+                <div key={act} className="source-group">
+                  <dt>{act}</dt>
+                  <dd><ul className="source-list">{items.map(({ key, r, label }) => (
+                    <li key={key}><a href={sourceUrl(r, ctx.lang)} data-pop={provisionFor(r, ctx, provisions) ? popId(key) : undefined} aria-label={sourceLabel(r, ctx.lang)}>{label}</a></li>
+                  ))}</ul></dd>
+                </div>
+              ))}</dl>
+              {s.official_links.length > 0 && !helpLinks.length && <ul className="source-links">{s.official_links.map(l => <li key={l.url}><a href={l.url}><Txt value={l.label} ctx={ctx} /></a></li>)}</ul>}
               <p className="checked">{t(ctx, 'checkedAsOf', { date: formatDate(s.version, ctx.lang, false) })}</p>
             </div>
           </section>
@@ -358,6 +478,7 @@ export function SituationBody({ ctx, s }: { ctx: Ctx; s: Situation }) {
           <p className="doc-suggest"><a href={issueUrl('correction', `${s.id} (${s.version})`)}>{t(ctx, 'suggestFix')}</a></p>
         </div>
       </div>
+      {withText.map(({ k, r, p }) => <Provision key={k} id={k} r={r} p={p} ctx={ctx} s={s} />)}
     </article>
   );
 }
