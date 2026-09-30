@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Ist der Boden belastet? Belastete Standorte, Garten und Spielplatz"
+    "de": "Ist der Boden belastet? Belastete Standorte, Garten und Spielplatz",
+    "fr": "Le sol est-il pollué ? Sites pollués, jardin et place de jeux",
+    "it": "Il suolo è inquinato? Siti inquinati, giardino e parco giochi",
+    "en": "Is the soil polluted? Polluted sites, gardens and playgrounds",
+    "rm": "È il terren contaminà? Lieus contaminads, curtin e plazza da giugar"
   },
   "summary": {
-    "de": "Alte Deponien, Schiessanlagen, Gewerbe- und Industrieareale können den Boden mit Schadstoffen belastet haben. Auch in Gärten und auf Spielplätzen finden sich manchmal Blei oder andere Schadstoffe. Die Kantone führen ein öffentliches Verzeichnis der belasteten Standorte. Bevor ein Grundstück eingetragen wird, dürfen die Betroffenen Stellung nehmen. Ein Eintrag heisst nicht, dass saniert werden muss. Die Kosten trägt grundsätzlich, wer die Belastung verursacht hat. Wer ein eingetragenes Grundstück verkaufen oder teilen will, braucht eine Bewilligung. Wer ein Grundstück kauft, sollte das Verzeichnis vorher prüfen."
+    "de": "Alte Deponien, Schiessanlagen, Gewerbe- und Industrieareale können den Boden mit Schadstoffen belastet haben. Auch in Gärten und auf Spielplätzen finden sich manchmal Blei oder andere Schadstoffe. Die Kantone führen ein öffentliches Verzeichnis der belasteten Standorte. Bevor ein Grundstück eingetragen wird, dürfen die Betroffenen Stellung nehmen. Ein Eintrag heisst nicht, dass saniert werden muss. Die Kosten trägt grundsätzlich, wer die Belastung verursacht hat. Wer ein eingetragenes Grundstück verkaufen oder teilen will, braucht eine Bewilligung. Wer ein Grundstück kauft, sollte das Verzeichnis vorher prüfen.",
+    "fr": "D'anciennes décharges, des stands de tir, des aires industrielles et artisanales peuvent avoir pollué le sol avec des substances nocives. On trouve aussi parfois du plomb ou d'autres substances nocives dans des jardins et des places de jeux. Les cantons tiennent un cadastre public des sites pollués. Avant qu'un bien-fonds y soit inscrit, les personnes concernées peuvent se prononcer. Une inscription ne signifie pas qu'un assainissement est nécessaire. Les frais sont en principe supportés par qui a causé la pollution. Qui veut vendre ou partager un bien-fonds inscrit a besoin d'une autorisation. Qui achète un bien-fonds devrait consulter le cadastre au préalable.",
+    "it": "Vecchie discariche, poligoni di tiro, aree artigianali e industriali possono avere inquinato il suolo con sostanze nocive. Anche in giardini e parchi giochi si trovano talvolta piombo o altre sostanze nocive. I Cantoni tengono un elenco pubblico dei siti inquinati. Prima che un fondo venga iscritto, gli interessati possono prendere posizione. Un'iscrizione non significa che si debba risanare. I costi sono sopportati, in linea di principio, da chi ha causato l'inquinamento. Chi vuole vendere o dividere un fondo iscritto ha bisogno di un'autorizzazione. Chi acquista un fondo dovrebbe consultare prima l'elenco.",
+    "en": "Old landfills, shooting ranges, and commercial and industrial sites can have polluted the soil with pollutants. Lead or other pollutants are also sometimes found in gardens and on playgrounds. The cantons keep a public register of polluted sites. Before a property is entered in it, those affected may comment. An entry does not mean that the site must be remediated. As a rule, the costs are borne by whoever caused the pollution. Anyone who wants to sell or divide a registered property needs authorisation. Anyone buying a property should check the register beforehand.",
+    "rm": "Vegllas deponias, installaziuns da tir, territoris da commerzi e d'industria pon avair contaminà il terren cun substanzas privlusas. Er en curtins e sin plazzas da giugar sa chattan a moda occasiunala plum u autras substanzas privlusas. Ils chantuns manan in cataster public dals lieus contaminads. Avant ch'ina parcella vegnia inscritta, dastgan ils tangids prender posiziun. In'inscripziun na signifitga betg che sto vegnir sanà. Ils custs porta per principi tgi ch'ha chaschunà la contaminaziun. Tgi che vul vender u partir ina parcella inscritta, basegna ina permissiun. Tgi che cumpra ina parcella, duess controllar il cataster avant."
   },
   "examples": {
     "de": [
@@ -19,51 +27,115 @@
       "Wir wollen ein Haus kaufen, das Grundstück ist als belasteter Standort eingetragen. Worauf müssen wir achten?",
       "In unserem Familiengarten sollen Schwermetalle im Boden sein. Kann ich das Gemüse noch essen?",
       "Hinter unserem Quartier war früher eine Deponie. Wie finde ich heraus, ob da etwas im Boden ist?"
+    ],
+    "fr": [
+      "J'ai reçu une lettre du canton : mon bien-fonds devrait être inscrit au cadastre des sites pollués. Qu'est-ce que cela signifie ?",
+      "Dois-je payer l'assainissement alors que l'entreprise qui a pollué n'existe même plus ?",
+      "Il paraît qu'il y a du plomb dans le sol de la place de jeux à côté de chez nous. Les enfants peuvent-ils encore y jouer ?",
+      "Nous voulons acheter une maison dont le terrain est inscrit comme site pollué. À quoi devons-nous faire attention ?",
+      "On dit qu'il y a des métaux lourds dans le sol de notre jardin familial. Puis-je encore manger les légumes ?",
+      "Il y avait autrefois une décharge derrière notre quartier. Comment savoir s'il y a quelque chose dans le sol ?"
+    ],
+    "it": [
+      "Ho ricevuto una lettera dal Cantone: il mio fondo dovrebbe finire nel catasto dei siti inquinati. Cosa significa?",
+      "Devo pagare io il risanamento anche se la ditta che ha inquinato non esiste più?",
+      "Sul parco giochi vicino a casa nostra ci sarebbe piombo nel terreno. I bambini possono ancora giocarci?",
+      "Vogliamo comprare una casa il cui fondo è iscritto come sito inquinato. A cosa dobbiamo fare attenzione?",
+      "Nel nostro orto familiare ci sarebbero metalli pesanti nel terreno. Posso ancora mangiare la verdura?",
+      "Dietro il nostro quartiere una volta c'era una discarica. Come faccio a scoprire se c'è qualcosa nel terreno?"
+    ],
+    "en": [
+      "I've received a letter from the canton saying my property is to go into the register of polluted sites. What does that mean?",
+      "Do I have to pay for the remediation even though the company that polluted the site no longer exists?",
+      "There's supposed to be lead in the soil at the playground next to our house. Can the children still play there?",
+      "We want to buy a house, and the property is registered as a polluted site. What do we need to look out for?",
+      "There are supposed to be heavy metals in the soil of our allotment garden. Can I still eat the vegetables?",
+      "There used to be a landfill behind our neighbourhood. How do I find out whether there's anything in the soil there?"
+    ],
+    "rm": [
+      "Jau hai retschet ina brev dal chantun che mia parcella duess vegnir inscritta en il cataster dals lieus contaminads. Tge signifitga quai?",
+      "Stoss jau pajar la sanaziun, schebain che la firma ch'ha inquinà il terren n'exista pli deloc?",
+      "Sin la plazza da giugar sper noss chasa duess avair plum en il terren. Dastgan ils uffants anc giugar là?",
+      "Nus vulain cumprar ina chasa, la parcella è inscritta sco lieu contaminà. Tge stuain nus resguardar?",
+      "En noss curtin da famiglia duessan esser metals grevs en il terren. Poss jau anc mangiar la verdura?",
+      "Davos noss quartier era baud ina deponia. Co survegn jau a savair, sche là saja insatge en il terren?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Mit Abfällen belastete Standorte wie frühere Deponien, Betriebs- und Unfallstandorte und Schiessanlagen, das kantonale Verzeichnis dieser Standorte, das Recht zur Stellungnahme vor einem Eintrag, Untersuchung und Sanierung, die Verteilung der Kosten, die Bewilligung für Verkauf und Teilung, das Bauen auf belasteten Standorten sowie belastete Böden in Gärten, Familiengärten und auf Kinderspielplätzen."
+      "de": "Mit Abfällen belastete Standorte wie frühere Deponien, Betriebs- und Unfallstandorte und Schiessanlagen, das kantonale Verzeichnis dieser Standorte, das Recht zur Stellungnahme vor einem Eintrag, Untersuchung und Sanierung, die Verteilung der Kosten, die Bewilligung für Verkauf und Teilung, das Bauen auf belasteten Standorten sowie belastete Böden in Gärten, Familiengärten und auf Kinderspielplätzen.",
+      "fr": "Les sites pollués par des déchets, comme d'anciennes décharges, des aires d'exploitation et d'accident et des stands de tir, le cadastre cantonal de ces sites, le droit de se prononcer avant une inscription, l'investigation et l'assainissement, la répartition des frais, l'autorisation pour la vente et le partage, la construction sur des sites pollués, ainsi que les sols pollués dans les jardins, les jardins familiaux et les places de jeux pour enfants.",
+      "it": "I siti inquinati da rifiuti come ex discariche, siti aziendali, siti di un incidente e poligoni di tiro, il catasto cantonale di questi siti, il diritto di prendere posizione prima di un'iscrizione, l'indagine e il risanamento, la ripartizione dei costi, l'autorizzazione per la vendita e la divisione, il costruire su siti inquinati, nonché i suoli inquinati in giardini, orti familiari e parchi giochi per l'infanzia.",
+      "en": "Sites polluted by waste, such as former landfills, operational and accident sites, and shooting ranges; the cantonal register of these sites; the right to comment before an entry is made; investigation and remediation; the allocation of costs; authorisation for sale and division; building on polluted sites; and polluted soil in gardens, allotment gardens and children's playgrounds.",
+      "rm": "Lieus contaminads cun ruments sco vegllas deponias, lieus d'interpresa e d'accident sco er installaziuns da tir, il register chantunal da quests lieus, il dretg da prender posiziun avant in'inscripziun, l'examinaziun e la sanaziun, la repartiziun dals custs, la permissiun per vendita e partiziun, il construir sin lieus contaminads sco er terrens contaminads en curtins, en curtins da famiglia e sin plazzas da giugar per uffants."
     },
     "excludes": {
-      "de": "Frische Verschmutzungen und illegal abgelagerter Abfall, die Sie melden möchten (dafür gibt es einen eigenen Leitfaden zu Umweltverschmutzungen), Schadstoffe in Gebäuden wie Asbest, Streit unter Nachbarn, zivilrechtliche Ansprüche aus dem Kaufvertrag im Einzelnen und die Haftung von Erben."
+      "de": "Frische Verschmutzungen und illegal abgelagerter Abfall, die Sie melden möchten (dafür gibt es einen eigenen Leitfaden zu Umweltverschmutzungen), Schadstoffe in Gebäuden wie Asbest, Streit unter Nachbarn, zivilrechtliche Ansprüche aus dem Kaufvertrag im Einzelnen und die Haftung von Erben.",
+      "fr": "Les pollutions récentes et les déchets déposés illégalement que vous souhaitez signaler (un guide séparé traite des pollutions de l'environnement), les substances nocives dans les bâtiments comme l'amiante, les litiges entre voisins, les prétentions de droit civil découlant du contrat de vente dans le détail, et la responsabilité des héritiers.",
+      "it": "Gli inquinamenti recenti e i rifiuti depositati illegalmente che desidera segnalare (per questo esiste una guida propria sugli inquinamenti ambientali), le sostanze nocive negli edifici come l'amianto, le controversie tra vicini, le pretese di diritto civile derivanti dal contratto di compravendita nel dettaglio e la responsabilità degli eredi.",
+      "en": "Fresh pollution and illegally dumped waste that you want to report (there is a separate guide on environmental pollution for this), pollutants in buildings such as asbestos, disputes between neighbours, civil-law claims under a purchase contract in detail, and the liability of heirs.",
+      "rm": "Contaminaziuns frestgas e rument deponià illegalmain che Vus vulais annunziar (per quai datti ina guida separada davart inquinaziuns da l'ambient), substanzas privlusas en edifizis sco asbest, dispita tranter vischins, pretensiuns da dretg civil dal contract da cumpra en detagl sco er la responsabladad d'ertavels."
     }
   },
   "facts": [
     {
       "key": "role",
       "question": {
-        "de": "In welcher Rolle sind Sie betroffen?"
+        "de": "In welcher Rolle sind Sie betroffen?",
+        "fr": "En quelle qualité êtes-vous concerné ?",
+        "it": "In quale veste è toccato?",
+        "en": "In what role are you affected?",
+        "rm": "En tge rolla essas Vus tangids?"
       },
       "options": [
         {
           "value": "owner",
           "label": {
-            "de": "Mir gehört das Grundstück"
+            "de": "Mir gehört das Grundstück",
+            "fr": "Le bien-fonds m'appartient",
+            "it": "Il fondo è mio",
+            "en": "The property belongs to me",
+            "rm": "A mai tutga la parcella"
           }
         },
         {
           "value": "buyer",
           "label": {
-            "de": "Ich will ein Grundstück kaufen"
+            "de": "Ich will ein Grundstück kaufen",
+            "fr": "Je veux acheter un bien-fonds",
+            "it": "Voglio comprare un fondo",
+            "en": "I want to buy a property",
+            "rm": "Jau vi cumprar ina parcella"
           }
         },
         {
           "value": "user",
           "label": {
-            "de": "Ich wohne zur Miete, nutze einen Familiengarten oder wohne in der Nähe"
+            "de": "Ich wohne zur Miete, nutze einen Familiengarten oder wohne in der Nähe",
+            "fr": "Je suis locataire, j'utilise un jardin familial ou j'habite à proximité",
+            "it": "Vivo in affitto, uso un orto familiare o abito nelle vicinanze",
+            "en": "I rent my home, use an allotment garden, or live nearby",
+            "rm": "Jau vign a moda locativa, utilisesch in curtin da famiglia u abito en vischinanza"
           }
         },
         {
           "value": "parent",
           "label": {
-            "de": "Meine Kinder spielen dort, etwa auf einem Spielplatz"
+            "de": "Meine Kinder spielen dort, etwa auf einem Spielplatz",
+            "fr": "Mes enfants jouent là-bas, par exemple sur une place de jeux",
+            "it": "I miei figli giocano lì, per esempio in un parco giochi",
+            "en": "My children play there, for example on a playground",
+            "rm": "Mes uffants giogan là, per exempel sin ina plazza da giugar"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -71,37 +143,61 @@
     {
       "key": "situation",
       "question": {
-        "de": "Worum geht es?"
+        "de": "Worum geht es?",
+        "fr": "De quoi s'agit-il ?",
+        "it": "Di cosa si tratta?",
+        "en": "What is this about?",
+        "rm": "Da tge sa tracta i?"
       },
       "options": [
         {
           "value": "register",
           "label": {
-            "de": "Das Grundstück ist im Verzeichnis eingetragen oder soll eingetragen werden"
+            "de": "Das Grundstück ist im Verzeichnis eingetragen oder soll eingetragen werden",
+            "fr": "Le bien-fonds est inscrit au cadastre ou doit l'être",
+            "it": "Il fondo è iscritto nel catasto o dovrebbe esserlo",
+            "en": "The property is entered in the register, or is to be entered",
+            "rm": "La parcella è inscritta en il register u duai vegnir inscritta"
           }
         },
         {
           "value": "suspicion",
           "label": {
-            "de": "Ich vermute eine Belastung, die der Behörde vielleicht nicht bekannt ist"
+            "de": "Ich vermute eine Belastung, die der Behörde vielleicht nicht bekannt ist",
+            "fr": "Je soupçonne une pollution que l'autorité ne connaît peut-être pas",
+            "it": "Sospetto un inquinamento che l'autorità forse non conosce",
+            "en": "I suspect pollution that the authority may not be aware of",
+            "rm": "Jau suppon ina contaminaziun che l'autoritad n'enconuscha forsa betg"
           }
         },
         {
           "value": "garden-playground",
           "label": {
-            "de": "Es geht um Erde im Garten, im Familiengarten oder auf einem Spielplatz"
+            "de": "Es geht um Erde im Garten, im Familiengarten oder auf einem Spielplatz",
+            "fr": "Il s'agit de terre dans un jardin, un jardin familial ou une place de jeux",
+            "it": "Si tratta di terra nel giardino, nell'orto familiare o in un parco giochi",
+            "en": "It's about soil in a garden, an allotment garden or on a playground",
+            "rm": "Sa tracta da terra en il curtin, en il curtin da famiglia u sin ina plazza da giugar"
           }
         },
         {
           "value": "ordered",
           "label": {
-            "de": "Die Behörde verlangt eine Untersuchung oder Sanierung"
+            "de": "Die Behörde verlangt eine Untersuchung oder Sanierung",
+            "fr": "L'autorité exige une investigation ou un assainissement",
+            "it": "L'autorità esige un'indagine o un risanamento",
+            "en": "The authority is demanding an investigation or remediation",
+            "rm": "L'autoritad pretenda in'examinaziun u ina sanaziun"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -109,25 +205,41 @@
     {
       "key": "costs",
       "question": {
-        "de": "Geht es darum, wer die Kosten bezahlt?"
+        "de": "Geht es darum, wer die Kosten bezahlt?",
+        "fr": "S'agit-il de savoir qui paie les frais ?",
+        "it": "Si tratta di sapere chi paga i costi?",
+        "en": "Is this about who pays the costs?",
+        "rm": "Sa tracta da tgi che paja ils custs?"
       },
       "options": [
         {
           "value": "yes",
           "label": {
-            "de": "Ja, ich will wissen, wer zahlt"
+            "de": "Ja, ich will wissen, wer zahlt",
+            "fr": "Oui, je veux savoir qui paie",
+            "it": "Sì, voglio sapere chi paga",
+            "en": "Yes, I want to know who pays",
+            "rm": "Gea, jau vi savair tgi che paja"
           }
         },
         {
           "value": "no",
           "label": {
-            "de": "Nein"
+            "de": "Nein",
+            "fr": "Non",
+            "it": "No",
+            "en": "No",
+            "rm": "Na"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -138,160 +250,322 @@
       "id": "what-the-register-means",
       "kind": "rule",
       "text": {
-        "de": "Jeder Kanton führt ein öffentlich zugängliches Verzeichnis der belasteten Standorte, den sogenannten Kataster. Belastet ist ein Ort, wenn Abfälle in den Boden gelangt sind: eine frühere Deponie, ein Gelände, auf dem mit gefährlichen Stoffen gearbeitet wurde, oder ein Ort, an dem ein Unfall geschah. Eingetragen wird ein Standort, wenn die Belastung feststeht oder sehr wahrscheinlich ist. Die Behörde teilt die Standorte dann ein: Bei den einen sind keine schädlichen Auswirkungen zu erwarten. Bei den anderen muss untersucht werden, ob sie überwacht oder saniert werden müssen. Ein Eintrag bedeutet also noch nicht, dass eine Gefahr besteht oder saniert werden muss. Sanierungsbedürftig ist ein Standort erst, wenn er Menschen oder die Umwelt schädigt oder dies konkret droht, etwa das Grundwasser, einen Bach, die Luft oder den Boden. Nur ein solcher Standort gilt als Altlast. Nach der Untersuchung hält die Behörde im Kataster fest, ob der Standort überwacht werden muss, ob er eine Altlast ist oder ob keins von beiden zutrifft."
+        "de": "Jeder Kanton führt ein öffentlich zugängliches Verzeichnis der belasteten Standorte, den sogenannten Kataster. Belastet ist ein Ort, wenn Abfälle in den Boden gelangt sind: eine frühere Deponie, ein Gelände, auf dem mit gefährlichen Stoffen gearbeitet wurde, oder ein Ort, an dem ein Unfall geschah. Eingetragen wird ein Standort, wenn die Belastung feststeht oder sehr wahrscheinlich ist. Die Behörde teilt die Standorte dann ein: Bei den einen sind keine schädlichen Auswirkungen zu erwarten. Bei den anderen muss untersucht werden, ob sie überwacht oder saniert werden müssen. Ein Eintrag bedeutet also noch nicht, dass eine Gefahr besteht oder saniert werden muss. Sanierungsbedürftig ist ein Standort erst, wenn er Menschen oder die Umwelt schädigt oder dies konkret droht, etwa das Grundwasser, einen Bach, die Luft oder den Boden. Nur ein solcher Standort gilt als Altlast. Nach der Untersuchung hält die Behörde im Kataster fest, ob der Standort überwacht werden muss, ob er eine Altlast ist oder ob keins von beiden zutrifft.",
+        "fr": "Chaque canton tient un cadastre accessible au public des sites pollués. Un lieu est pollué si des déchets ont pénétré dans le sol : une ancienne décharge, un terrain où l'on a travaillé avec des substances dangereuses, ou un lieu où un accident s'est produit. Un site est inscrit lorsque la pollution est établie ou très probable. L'autorité classe ensuite les sites : pour certains, aucun effet nuisible n'est à attendre. Pour d'autres, il faut examiner s'ils doivent être surveillés ou assainis. Une inscription ne signifie donc pas encore qu'un danger existe ou qu'un assainissement est nécessaire. Un site ne nécessite un assainissement que s'il porte atteinte aux personnes ou à l'environnement, ou que cela menace concrètement de se produire, par exemple pour les eaux souterraines, un ruisseau, l'air ou le sol. Seul un tel site est considéré comme un site contaminé. Après l'investigation, l'autorité indique dans le cadastre si le site doit être surveillé, s'il s'agit d'un site contaminé, ou si aucun des deux ne s'applique.",
+        "it": "Ogni Cantone tiene un catasto dei siti inquinati accessibile al pubblico. Un luogo è inquinato quando vi sono giunti rifiuti: un'ex discarica, un terreno sul quale si è lavorato con sostanze pericolose, oppure un luogo in cui è avvenuto un incidente. Un sito viene iscritto quando l'inquinamento è accertato o molto probabile. L'autorità suddivide poi i siti in categorie: per alcuni non sono prevedibili effetti dannosi. Per altri occorre indagare se debbano essere sorvegliati o risanati. Un'iscrizione non significa quindi ancora che esista un pericolo o che si debba risanare. Un sito richiede il risanamento solo quando danneggia le persone o l'ambiente, o quando questo pericolo è concreto, per esempio per le acque sotterranee, un ruscello, l'aria o il suolo. Solo un tale sito è considerato un sito contaminato. Dopo l'indagine, l'autorità registra nel catasto se il sito deve essere sorvegliato, se è un sito contaminato oppure se non si verifica nessuno dei due casi.",
+        "en": "Every canton keeps a publicly accessible register of polluted sites, the so-called register. A place is polluted if waste has entered the soil there: a former landfill, a site where hazardous substances were handled, or a place where an accident happened. A site is entered in the register once the pollution is established or very likely. The authority then classifies the sites: for some, no harmful effects are to be expected. For others, it must be investigated whether they need monitoring or remediation. So an entry does not yet mean that there is a danger or that remediation is needed. A site only requires remediation once it harms, or concretely threatens to harm, people or the environment, for example the groundwater, a stream, the air or the soil. Only such a site counts as a contaminated site. After the investigation, the authority records in the register whether the site needs monitoring, whether it is a contaminated site, or whether neither applies.",
+        "rm": "Mintga chantun mana in cataster public dals lieus contaminads. Contaminà è in lieu, sche ruments èn arrivads en il terren: ina veglia deponia, in terren, sin il qual è vegnì lavurà cun substanzas privlusas, u in lieu, nua ch'è succedì in accident. In lieu vegn inscrit, sche la contaminaziun è cumprovada u fitg probabla. L'autoritad classifitgescha lura ils lieus: tar tschels na dastgan vegnir spetgadas naginas consequenzas donnegiusas. Tar ils auters sto vegnir examinà, sch'els ston vegnir survegliads u sanads. In'inscripziun na signifitga percunquai anc betg che i dat in privel u che sto vegnir sanà. In lieu sto vegnir sanà mo, sch'el donnegia umans u l'ambient u sche quai smanatscha concretamain, per exempel l'aua sutterranea, in ri, l'aria u il terren. Mo in tal lieu vala sco lieu contaminà che sto vegnir sanà. Suenter l'examinaziun tegn l'autoritad en il cataster ferm, sch'il lieu sto vegnir surveglià, sch'el è in lieu contaminà che sto vegnir sanà u sch'insatgi da tuts dus na sa applitgeschia."
       },
-      "sources": ["usg-32c", "altlv-2", "altlv-5", "altlv-8"]
+      "sources": [
+        "usg-32c",
+        "altlv-2",
+        "altlv-5",
+        "altlv-8"
+      ]
     },
     {
       "id": "right-to-comment",
       "kind": "warning",
       "when": {
-        "situation": ["register", "unknown"]
+        "situation": [
+          "register",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Bevor die Behörde ein Grundstück in den Kataster einträgt, muss sie den Inhaberinnen und Inhabern mitteilen, was sie eintragen will. Sie erhalten Gelegenheit, dazu Stellung zu nehmen und selbst Abklärungen zu machen. Nutzen Sie diese Gelegenheit. Prüfen Sie die Angaben genau: Stimmen Lage, frühere Nutzung und Zeitraum? Beachten Sie die Frist, die im Schreiben steht. Sind Sie mit dem Eintrag nicht einverstanden, können Sie eine Feststellungsverfügung verlangen. Das ist ein förmlicher Entscheid über den Eintrag, gegen den Sie sich mit einem Rechtsmittel wehren können. Das Bundesgericht hat bestätigt, dass die Behörde einen solchen Entscheid auf Verlangen treffen muss, auch wenn es später um die Änderung oder Löschung eines Eintrags geht. Gelöscht wird ein Eintrag, wenn die Untersuchung zeigt, dass der Standort nicht belastet ist, oder wenn die Schadstoffe entfernt wurden. Zeigt die Untersuchung eines eingetragenen oder zum Eintrag vorgesehenen Standorts, dass er nicht belastet ist, trägt das Gemeinwesen die Kosten dieser Untersuchung."
+        "de": "Bevor die Behörde ein Grundstück in den Kataster einträgt, muss sie den Inhaberinnen und Inhabern mitteilen, was sie eintragen will. Sie erhalten Gelegenheit, dazu Stellung zu nehmen und selbst Abklärungen zu machen. Nutzen Sie diese Gelegenheit. Prüfen Sie die Angaben genau: Stimmen Lage, frühere Nutzung und Zeitraum? Beachten Sie die Frist, die im Schreiben steht. Sind Sie mit dem Eintrag nicht einverstanden, können Sie eine Feststellungsverfügung verlangen. Das ist ein förmlicher Entscheid über den Eintrag, gegen den Sie sich mit einem Rechtsmittel wehren können. Das Bundesgericht hat bestätigt, dass die Behörde einen solchen Entscheid auf Verlangen treffen muss, auch wenn es später um die Änderung oder Löschung eines Eintrags geht. Gelöscht wird ein Eintrag, wenn die Untersuchung zeigt, dass der Standort nicht belastet ist, oder wenn die Schadstoffe entfernt wurden. Zeigt die Untersuchung eines eingetragenen oder zum Eintrag vorgesehenen Standorts, dass er nicht belastet ist, trägt das Gemeinwesen die Kosten dieser Untersuchung.",
+        "fr": "Avant d'inscrire un bien-fonds au cadastre, l'autorité doit communiquer aux détentrices et détenteurs ce qu'elle prévoit d'inscrire. Ils ont la possibilité de se prononcer à ce sujet et de procéder eux-mêmes à des éclaircissements. Profitez de cette possibilité. Vérifiez précisément les indications : l'emplacement, l'utilisation antérieure et la période sont-ils exacts ? Respectez le délai indiqué dans le courrier. Si vous n'êtes pas d'accord avec l'inscription, vous pouvez demander une décision en constatation. C'est une décision formelle sur l'inscription, contre laquelle vous pouvez recourir. Le Tribunal fédéral a confirmé que l'autorité doit rendre une telle décision sur demande, même lorsqu'il s'agit ensuite de modifier ou de radier une inscription. Une inscription est radiée si l'investigation montre que le site n'est pas pollué, ou si les substances nocives ont été enlevées. Si l'investigation d'un site inscrit ou destiné à l'être montre qu'il n'est pas pollué, la collectivité publique prend en charge les frais de cette investigation.",
+        "it": "Prima di iscrivere un fondo nel catasto, l'autorità deve comunicare ai titolari cosa intende iscrivere. Essi ricevono l'opportunità di prendere posizione e di procedere essi stessi a indagini. Colga questa opportunità. Verifichi con precisione le indicazioni: la posizione, l'utilizzazione precedente e il periodo corrispondono? Rispetti il termine indicato nella lettera. Se non è d'accordo con l'iscrizione, può chiedere una decisione d'accertamento. Si tratta di una decisione formale sull'iscrizione, contro la quale può difendersi con un rimedio giuridico. Il Tribunale federale ha confermato che l'autorità deve emettere una tale decisione su richiesta, anche quando in seguito si tratta della modifica o della cancellazione di un'iscrizione. Un'iscrizione viene cancellata se l'indagine dimostra che il sito non è inquinato, oppure se le sostanze nocive sono state rimosse. Se l'indagine di un sito iscritto o previsto per l'iscrizione dimostra che non è inquinato, l'ente pubblico sopporta le spese di questa indagine.",
+        "en": "Before the authority enters a property in the register, it must tell the holders what it intends to enter. They are given the opportunity to comment and to make their own enquiries. Use this opportunity. Check the details carefully: are the location, the former use and the period correct? Note the time limit stated in the letter. If you do not agree with the entry, you can request a declaratory ruling. This is a formal decision on the entry, which you can challenge with a legal remedy. The Federal Supreme Court has confirmed that the authority must issue such a decision on request, including later when it is about changing or deleting an entry. An entry is deleted if the investigation shows that the site is not polluted, or if the pollutants have been removed. If the investigation of a site that is entered, or intended for entry, shows that it is not polluted, the public authority concerned bears the costs of that investigation.",
+        "rm": "Avant che l'autoritad inscriva ina parcella en il cataster, sto ella communitgar a las possessuras e als possessurs, tge ch'ella vul inscriver. Els survegnan l'occasiun da prender posiziun e da far els sezs abchierimaints. Utilisai questa occasiun. Controllai las indicaziuns exactamain: correspundan situaziun, utilisaziun anteriura e perioda? Observai il termin che stat en la brev. N'essas Vus betg d'accord cun l'inscripziun, pudais Vus pretender ina disposiziun da constataziun. Quai è ina decisiun formala davart l'inscripziun, cunter la quala Vus pudais defender Vus cun in med legal. Il Tribunal federal ha confermà che l'autoritad sto prender ina tala decisiun sin dumonda, era sch'i sa tracta pli tard da la midada u da la stritgada d'ina inscripziun. Ina inscripziun vegn stritgada, sche l'examinaziun mussa ch'il lieu n'è betg contaminà, u sche las substanzas privlusas èn vegnidas allontanadas. Mussa l'examinaziun d'in lieu inscrit u previs per l'inscripziun ch'el n'è betg contaminà, porta la communitad responsabla ils custs da questa examinaziun."
       },
-      "sources": ["altlv-5", "bger-1c-556-2020", "altlv-6", "usg-32d"]
+      "sources": [
+        "altlv-5",
+        "bger-1c-556-2020",
+        "altlv-6",
+        "usg-32d"
+      ]
     },
     {
       "id": "investigation-and-clean-up",
       "kind": "rule",
       "when": {
-        "situation": ["register", "ordered", "unknown"]
+        "situation": [
+          "register",
+          "ordered",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Muss ein eingetragener Standort untersucht werden, verlangt die Behörde innert angemessener Frist eine Voruntersuchung. Sie besteht meist aus zwei Teilen: Zuerst wird anhand von Akten und Plänen geklärt, was früher auf dem Gelände geschah. Danach wird mit Proben gemessen, welche Stoffe in welcher Menge vorhanden sind. Das Programm für die Messungen muss der Behörde zur Stellungnahme vorgelegt werden. Gestützt darauf entscheidet die Behörde, ob der Standort überwacht oder saniert werden muss. Durchführen muss die Untersuchungen und Sanierungen, wer den Standort innehat, meist die Eigentümerin oder der Eigentümer. Die Behörde kann aber auch Dritte verpflichten, die die Belastung verursacht haben. Für die Sanierung selbst braucht sie dafür die Zustimmung der Inhaberin oder des Inhabers. Handelt die verpflichtete Person trotz Mahnung und Frist nicht, ist sie dazu nicht in der Lage oder droht unmittelbar eine Einwirkung, kann der Kanton die Arbeiten selbst durchführen oder Dritte damit beauftragen. Die Frist für eine Untersuchung setzt die Behörde im Einzelfall fest. Beachten Sie sie und melden Sie sich früh, wenn Sie sie nicht einhalten können."
+        "de": "Muss ein eingetragener Standort untersucht werden, verlangt die Behörde innert angemessener Frist eine Voruntersuchung. Sie besteht meist aus zwei Teilen: Zuerst wird anhand von Akten und Plänen geklärt, was früher auf dem Gelände geschah. Danach wird mit Proben gemessen, welche Stoffe in welcher Menge vorhanden sind. Das Programm für die Messungen muss der Behörde zur Stellungnahme vorgelegt werden. Gestützt darauf entscheidet die Behörde, ob der Standort überwacht oder saniert werden muss. Durchführen muss die Untersuchungen und Sanierungen, wer den Standort innehat, meist die Eigentümerin oder der Eigentümer. Die Behörde kann aber auch Dritte verpflichten, die die Belastung verursacht haben. Für die Sanierung selbst braucht sie dafür die Zustimmung der Inhaberin oder des Inhabers. Handelt die verpflichtete Person trotz Mahnung und Frist nicht, ist sie dazu nicht in der Lage oder droht unmittelbar eine Einwirkung, kann der Kanton die Arbeiten selbst durchführen oder Dritte damit beauftragen. Die Frist für eine Untersuchung setzt die Behörde im Einzelfall fest. Beachten Sie sie und melden Sie sich früh, wenn Sie sie nicht einhalten können.",
+        "fr": "Si un site inscrit doit être investigué, l'autorité exige, dans un délai raisonnable, une investigation préalable. Elle comprend le plus souvent deux parties : on clarifie d'abord, à l'aide de dossiers et de plans, ce qui s'est passé autrefois sur le terrain. Ensuite, on mesure par des prélèvements quelles substances sont présentes et en quelle quantité. Le programme de mesure doit être soumis à l'autorité pour prise de position. Sur cette base, l'autorité décide si le site doit être surveillé ou assaini. Les investigations et les assainissements doivent être réalisés par celui qui détient le site, le plus souvent la propriétaire ou le propriétaire. L'autorité peut toutefois aussi obliger des tiers qui ont causé la pollution. Pour l'assainissement lui-même, elle a besoin de l'accord de la détentrice ou du détenteur. Si la personne obligée n'agit pas malgré une mise en demeure et un délai, si elle n'est pas en mesure de le faire, ou si une atteinte menace immédiatement, le canton peut exécuter lui-même les travaux ou en charger des tiers. L'autorité fixe le délai pour une investigation au cas par cas. Respectez-le et annoncez-vous tôt si vous ne pouvez pas le tenir.",
+        "it": "Se un sito iscritto deve essere indagato, l'autorità esige, entro un termine adeguato, un'indagine preliminare. Essa consiste di regola in due parti: dapprima si chiarisce, sulla base di atti e piani, cosa è avvenuto in precedenza sul terreno (indagine storica). In seguito si misura, con campioni, quali sostanze sono presenti e in quale quantità (indagine tecnica). Il programma delle misurazioni deve essere sottoposto per parere all'autorità. Sulla base di ciò, l'autorità decide se il sito deve essere sorvegliato o risanato. Le indagini e i risanamenti devono essere eseguiti da chi detiene il sito, di regola la proprietaria o il proprietario. L'autorità può però obbligare anche terzi che hanno causato l'inquinamento. Per il risanamento vero e proprio essa necessita però del consenso della titolare o del titolare. Se la persona obbligata, nonostante diffida e termine, non agisce, non è in grado di farlo, oppure se minaccia direttamente un effetto dannoso, il Cantone può eseguire i lavori esso stesso o incaricarne terzi. Il termine per un'indagine è fissato dall'autorità nel singolo caso. Lo rispetti e si annunci per tempo se non può rispettarlo.",
+        "en": "If a registered site needs to be investigated, the authority requires a preliminary investigation within a reasonable time limit. This usually has two parts: first, records and plans are used to establish what happened on the site in the past. Then samples are taken to measure which substances are present and in what quantity. The measurement programme must be submitted to the authority for comment. On this basis, the authority decides whether the site needs monitoring or remediation. The investigations and remediation must be carried out by whoever holds the site, usually the owner. But the authority can also require third parties who caused the pollution to do so. For the remediation itself, it needs the consent of the holder. If the person required to act does not do so despite a reminder and a time limit, is unable to do so, or if harmful effects are imminent, the canton can carry out the work itself or instruct a third party to do so. The authority sets the time limit for an investigation in the individual case. Observe it, and get in touch early if you cannot meet it.",
+        "rm": "Sto in lieu inscrit vegnir examinà, pretenda l'autoritad entaifer in termin adequat in'examinaziun preliminara. Ella consista il pli savens da duas parts: emprim vegn sclerì, sin basa d'actas e da plans, tge ch'è succedì pli baud sin il terren. Suenter vegn mesirà cun probas, tge substanzas ch'èn avant maun en tge quantitad. Il program per las mesiraziuns sto vegnir suttamess a l'autoritad per prender posiziun. Sin questa basa decida l'autoritad, sch'il lieu sto vegnir surveglià u sanà. Exequir las examinaziuns e las sanaziuns sto tgi ch'è possessur dal lieu, il pli savens la proprietaria u il proprietari. L'autoritad po dentant er obligar terzas persunas che han chaschunà la contaminaziun. Per la sanaziun sez basegna ella dentant l'approvaziun da la possessura u dal possessur. Sch'la persuna obligada n'agescha betg malgrà amonestaziun e termin, n'è betg en la posiziun da far quai u sche smanatscha immediatamain in'influenza, po il chantun exequir el sez las lavurs u incumbensar terzas persunas cun quai. Il termin per in'examinaziun fixescha l'autoritad en il cas singul. Observai el e communitgai Vus baud, sche Vus na pudais betg observar el."
       },
-      "sources": ["altlv-7", "altlv-8", "altlv-20", "usg-32c"]
+      "sources": [
+        "altlv-7",
+        "altlv-8",
+        "altlv-20",
+        "usg-32c"
+      ]
     },
     {
       "id": "who-pays",
       "kind": "cost",
       "when": {
-        "costs": ["yes", "unknown"]
+        "costs": [
+          "yes",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Die Kosten für notwendige Untersuchungen, Überwachungen und Sanierungen trägt, wer die Belastung verursacht hat. Das Gesetz folgt damit dem Grundsatz, dass zahlt, wer Umweltschutzmassnahmen nötig macht. Sind mehrere beteiligt, werden die Kosten nach ihren Anteilen verteilt. In erster Linie zahlt, wer die Belastung durch sein Verhalten verursacht hat, zum Beispiel der Betrieb, der Abfälle abgelagert hat. Wer nur Inhaberin oder Inhaber des Standorts ist, zahlt nichts, wenn er von der Belastung auch bei gebotener Sorgfalt nichts wissen konnte. Kann sich jemand so befreien, wird sein Anteil nach der Rechtsprechung auf die anderen Verursacher verteilt, nicht auf die Allgemeinheit. Wer die Kosten wie aufteilt, hält die Behörde in einer Kostenverteilungsverfügung fest. Diese muss sie erlassen, wenn ein Verursacher sie verlangt oder wenn sie die Massnahmen selbst durchführt. Gegen diese Verfügung können Sie sich wehren. Zeigt die Untersuchung, dass ein eingetragener oder zum Eintrag vorgesehener Standort gar nicht belastet ist, zahlt das Gemeinwesen die Untersuchung."
+        "de": "Die Kosten für notwendige Untersuchungen, Überwachungen und Sanierungen trägt, wer die Belastung verursacht hat. Das Gesetz folgt damit dem Grundsatz, dass zahlt, wer Umweltschutzmassnahmen nötig macht. Sind mehrere beteiligt, werden die Kosten nach ihren Anteilen verteilt. In erster Linie zahlt, wer die Belastung durch sein Verhalten verursacht hat, zum Beispiel der Betrieb, der Abfälle abgelagert hat. Wer nur Inhaberin oder Inhaber des Standorts ist, zahlt nichts, wenn er von der Belastung auch bei gebotener Sorgfalt nichts wissen konnte. Kann sich jemand so befreien, wird sein Anteil nach der Rechtsprechung auf die anderen Verursacher verteilt, nicht auf die Allgemeinheit. Wer die Kosten wie aufteilt, hält die Behörde in einer Kostenverteilungsverfügung fest. Diese muss sie erlassen, wenn ein Verursacher sie verlangt oder wenn sie die Massnahmen selbst durchführt. Gegen diese Verfügung können Sie sich wehren. Zeigt die Untersuchung, dass ein eingetragener oder zum Eintrag vorgesehener Standort gar nicht belastet ist, zahlt das Gemeinwesen die Untersuchung.",
+        "fr": "Les frais des investigations, surveillances et assainissements nécessaires sont supportés par qui a causé la pollution. La loi suit ainsi le principe selon lequel paie celui qui rend nécessaires des mesures de protection de l'environnement. Si plusieurs personnes sont impliquées, les frais sont répartis selon leurs parts de responsabilité. Paie en premier lieu celui qui a rendu les mesures nécessaires par son comportement, par exemple l'entreprise qui a déposé des déchets. Qui n'est impliqué qu'en tant que détenteur du site ne paie rien s'il n'a pas pu, même en appliquant le devoir de diligence, avoir connaissance de la pollution. Si quelqu'un peut ainsi se libérer, sa part est répartie, selon la jurisprudence, sur les autres responsables, et non sur la collectivité. L'autorité fixe la répartition des frais dans une décision de répartition des coûts. Elle doit la rendre lorsqu'un responsable l'exige ou lorsqu'elle exécute elle-même les mesures. Vous pouvez contester cette décision. Si l'investigation montre qu'un site inscrit ou destiné à l'être n'est pas pollué, la collectivité publique paie l'investigation.",
+        "it": "Le spese per le indagini, le sorveglianze e i risanamenti necessari sono a carico di chi ha causato l'inquinamento. La legge segue così il principio secondo cui paga chi rende necessarie misure di protezione ambientale. Se sono coinvolte più persone, le spese sono ripartite secondo la loro quota di responsabilità. In primo luogo paga chi ha causato l'inquinamento con il proprio comportamento, per esempio l'azienda che ha depositato rifiuti. Chi è soltanto titolare del sito non paga nulla se non poteva essere a conoscenza dell'inquinamento nemmeno applicando la diligenza necessaria. Se qualcuno può liberarsi così, secondo la giurisprudenza la sua quota viene ripartita sugli altri responsabili, non sulla collettività. Come vengono ripartite le spese lo stabilisce l'autorità in una decisione di ripartizione delle spese. Deve emetterla se un responsabile lo richiede oppure se essa stessa esegue le misure. Contro questa decisione può difendersi. Se l'indagine dimostra che un sito iscritto o previsto per l'iscrizione non è affatto inquinato, l'ente pubblico paga l'indagine.",
+        "en": "The costs of necessary investigations, monitoring and remediation are borne by whoever caused the pollution. The law thereby follows the principle that whoever makes environmental protection measures necessary must pay. If several people are involved, the costs are divided according to their shares of responsibility. The person who caused the pollution through their conduct pays first, for example the business that deposited waste. Anyone who is merely the holder of the site pays nothing if, even taking the care required, they could not have known about the pollution. According to case law, if someone can be released from liability in this way, their share is allocated to the other persons responsible, not to the general public. The authority sets out who bears which share of the costs in a ruling on the allocation of costs. It must issue this ruling if a person responsible requests it, or if it carries out the measures itself. You can challenge this ruling. If the investigation shows that a site that is entered, or intended for entry, is not polluted at all, the public authority concerned pays for the investigation.",
+        "rm": "Ils custs per las examinaziuns, survegliaziuns e sanaziuns necessarias porta, tgi ch'ha chaschunà la contaminaziun. La lescha suonda uschia il princip che paja, tgi che fa necessarias mesiras da protecziun da l'ambient. Sche plirs èn participads, vegnan ils custs repartids tenor lur quotas. Per emprim paja, tgi ch'ha chaschunà la contaminaziun tras ses cumportament, per exempel l'interpresa ch'ha deposità ruments. Tgi ch'è mo possessur dal lieu, na paja nagut, sch'el na pudeva savair nagut da la contaminaziun, era cun la diligenza necessaria. Po insatgi sa liberar uschia, vegn sia quota, tenor la giurisprudenza, repartida sin ils auters chaschunaders, betg sin la generalitad. Tgi che repartescha ils custs co, tegna l'autoritad ferm en ina disposiziun davart la repartiziun dals custs. Questa sto ella decretar, sche in chaschunader la pretenda u sch'ella exequescha ella sezza las mesiras. Cunter questa disposiziun pudais Vus defender Vus. Mussa l'examinaziun ch'in lieu inscrit u previs per l'inscripziun n'è deloc betg contaminà, paja la communitad responsabla l'examinaziun."
       },
-      "sources": ["usg-2", "usg-32d", "bge-144-ii-332"]
+      "sources": [
+        "usg-2",
+        "usg-32d",
+        "bge-144-ii-332"
+      ]
     },
     {
       "id": "owner-share",
       "kind": "warning",
       "when": {
-        "role": ["owner", "buyer", "unknown"],
-        "costs": ["yes", "unknown"]
+        "role": [
+          "owner",
+          "buyer",
+          "unknown"
+        ],
+        "costs": [
+          "yes",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Auch wer ein bereits belastetes Grundstück erworben und selbst nichts verschmutzt hat, kann einen Teil der Kosten tragen müssen. Das Bundesgericht zählt solche Eigentümerinnen und Eigentümer grundsätzlich zu den möglichen Verursachern. Befreit sind sie nur, wenn sie von der Belastung bei gebotener Sorgfalt nichts wissen konnten. Massgebend ist der Zeitpunkt des Erwerbs. Wer damals Hinweise kannte oder hätte kennen müssen, kann sich nicht auf Unkenntnis berufen. Solche Hinweise können sich aus dem Nutzungsplan, dem Grundbuch, dem Kataster der belasteten Standorte oder aus der früheren Nutzung des Grundstücks ergeben. Wer nicht befreit ist, trägt aber nicht automatisch einen grossen Teil. Ein spürbarer Anteil ist nach der Rechtsprechung nur gerechtfertigt, wenn weitere Umstände hinzukommen, etwa wenn die Person schon zur Zeit der Verschmutzung verantwortlich war oder aus der Belastung einen wirtschaftlichen Vorteil gezogen hat. Lassen Sie eine Kostenverfügung, die Ihnen einen Anteil auferlegt, prüfen, bevor die Frist für ein Rechtsmittel abläuft. Diese Frist steht in der Rechtsmittelbelehrung der Verfügung."
+        "de": "Auch wer ein bereits belastetes Grundstück erworben und selbst nichts verschmutzt hat, kann einen Teil der Kosten tragen müssen. Das Bundesgericht zählt solche Eigentümerinnen und Eigentümer grundsätzlich zu den möglichen Verursachern. Befreit sind sie nur, wenn sie von der Belastung bei gebotener Sorgfalt nichts wissen konnten. Massgebend ist der Zeitpunkt des Erwerbs. Wer damals Hinweise kannte oder hätte kennen müssen, kann sich nicht auf Unkenntnis berufen. Solche Hinweise können sich aus dem Nutzungsplan, dem Grundbuch, dem Kataster der belasteten Standorte oder aus der früheren Nutzung des Grundstücks ergeben. Wer nicht befreit ist, trägt aber nicht automatisch einen grossen Teil. Ein spürbarer Anteil ist nach der Rechtsprechung nur gerechtfertigt, wenn weitere Umstände hinzukommen, etwa wenn die Person schon zur Zeit der Verschmutzung verantwortlich war oder aus der Belastung einen wirtschaftlichen Vorteil gezogen hat. Lassen Sie eine Kostenverfügung, die Ihnen einen Anteil auferlegt, prüfen, bevor die Frist für ein Rechtsmittel abläuft. Diese Frist steht in der Rechtsmittelbelehrung der Verfügung.",
+        "fr": "Même celui qui a acquis un bien-fonds déjà pollué sans lui-même avoir rien pollué peut devoir supporter une partie des frais. Le Tribunal fédéral compte en principe de telles propriétaires et de tels propriétaires parmi les responsables possibles. Ils n'en sont libérés que s'ils n'ont pas pu, même en appliquant le devoir de diligence, avoir connaissance de la pollution. Le moment déterminant est celui de l'acquisition. Qui connaissait alors des indices, ou aurait dû les connaître, ne peut pas invoquer son ignorance. De tels indices peuvent ressortir du plan d'affectation, du registre foncier, du cadastre des sites pollués ou de l'utilisation antérieure du bien-fonds. Qui n'est pas libéré ne supporte pas automatiquement une grande part. Selon la jurisprudence, une part importante n'est justifiée que si d'autres circonstances s'y ajoutent, par exemple si la personne était déjà responsable au moment de la pollution ou a tiré un avantage économique de la pollution. Faites examiner une décision de frais qui vous impute une part avant l'échéance du délai de recours. Ce délai figure dans l'indication des voies de droit de la décision.",
+        "it": "Anche chi ha acquistato un fondo già inquinato e non ha inquinato nulla lui stesso può dover sopportare una parte dei costi. Il Tribunale federale annovera in linea di principio tali proprietarie e proprietari tra i possibili responsabili. Sono liberati solo se non potevano essere a conoscenza dell'inquinamento nemmeno applicando la diligenza necessaria. Determinante è il momento dell'acquisto. Chi allora conosceva indizi o avrebbe dovuto conoscerli non può invocare l'ignoranza. Tali indizi possono risultare dal piano di utilizzazione, dal registro fondiario, dal catasto dei siti inquinati o dall'utilizzazione precedente del fondo. Chi non è liberato non sopporta però automaticamente una quota rilevante. Secondo la giurisprudenza, una quota sensibile è giustificata solo se si aggiungono ulteriori circostanze, per esempio se la persona era già responsabile al momento dell'inquinamento o ha tratto un vantaggio economico dall'inquinamento. Faccia esaminare una decisione sui costi che le addossa una quota prima che scada il termine per un rimedio giuridico. Questo termine è indicato nell'indicazione dei rimedi giuridici della decisione.",
+        "en": "Even someone who acquired an already polluted property and did not pollute it themselves may have to bear part of the costs. The Federal Supreme Court generally counts such owners among the possible persons responsible. They are released only if, taking the care required, they could not have known about the pollution. What matters is the point in time of acquisition. Anyone who knew of indications at that time, or should have known of them, cannot rely on being unaware. Such indications can arise from the land-use plan, the land register, the register of polluted sites, or the former use of the property. But someone who is not released does not automatically bear a large share. According to case law, a noticeable share is only justified if further circumstances are present, for example if the person was already responsible at the time of the pollution, or gained an economic advantage from it. Have a costs ruling that imposes a share on you reviewed before the time limit for a legal remedy expires. This time limit is stated in the instructions on legal remedies in the ruling.",
+        "rm": "Er tgi ch'ha acquistà ina parcella gia contaminada e n'ha sez inquinà nagut, po dastgar portar ina part dals custs. Il Tribunal federal quinta talas proprietarias e proprietaris per principi tar ils pussibels chaschunaders. Liberads èn els mo, sch'els na pudevan, cun la diligenza necessaria, savair nagut da la contaminaziun. Decisiv è il mument da l'acquist. Tgi che enconuscheva u avess stuì enconuscher lura indizis, na po betg sa referir a nunenconuschientscha. Tals indizis pon resultar dal plan d'utilisaziun, dal register funsil, dal cataster dals lieus contaminads u da l'utilisaziun anteriura da la parcella. Tgi che n'è betg liberà, na porta dentant betg automaticamain ina gronda part. Ina part perceptibla è, tenor la giurisprudenza, mo giustifitgada, sche vegnan supplementarmain circumstanzas, per exempel sche la persuna era gia responsabla al temp da l'inquinaziun u ha tratg in avantatg economic da la contaminaziun. Laschai examinar ina disposiziun da custs che Vus impona ina quota, avant che il termin per in med legal scada. Quest termin stat en l'indicaziun dals meds legals da la disposiziun."
       },
-      "sources": ["usg-32d", "bge-139-ii-106-e36", "bge-139-ii-106-e56", "bge-142-ii-232-e43"]
+      "sources": [
+        "usg-32d",
+        "bge-139-ii-106-e36",
+        "bge-139-ii-106-e56",
+        "bge-142-ii-232-e43"
+      ]
     },
     {
       "id": "polluter-not-found",
       "kind": "warning",
       "when": {
-        "costs": ["yes", "unknown"]
+        "costs": [
+          "yes",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Lässt sich die Firma oder Person, die den Boden verschmutzt hat, nicht mehr finden oder ist sie zahlungsunfähig, bleibt ihr Kostenanteil nicht an Ihnen hängen. Diesen Anteil trägt nach dem Gesetz das zuständige Gemeinwesen. Das Bundesgericht wendet dies auch an, wenn ein bekannter Verursacher inzwischen ohne Nachfolger verschwunden ist. Trotzdem sollten Sie mit Aufwand rechnen: Die Arbeiten muss in der Regel ausführen, wer den Standort innehat. Das heisst, Sie müssen Fachleute beauftragen und damit rechnen, Rechnungen zunächst selbst zu begleichen. Wie viel Sie am Ende selbst tragen, legt erst die Kostenverteilungsverfügung fest. Verlangen Sie diese frühzeitig. Ein eigener Anteil bleibt möglich, wenn Sie als Eigentümerin oder Eigentümer von der Belastung hätten wissen müssen. Sind Sie nicht in der Lage, die Arbeiten zu veranlassen, kann der Kanton sie selbst durchführen lassen. Wie Ihr Kanton Vorschüsse, Beiträge und die Abrechnung genau handhabt, erfahren Sie bei der kantonalen Umweltfachstelle."
+        "de": "Lässt sich die Firma oder Person, die den Boden verschmutzt hat, nicht mehr finden oder ist sie zahlungsunfähig, bleibt ihr Kostenanteil nicht an Ihnen hängen. Diesen Anteil trägt nach dem Gesetz das zuständige Gemeinwesen. Das Bundesgericht wendet dies auch an, wenn ein bekannter Verursacher inzwischen ohne Nachfolger verschwunden ist. Trotzdem sollten Sie mit Aufwand rechnen: Die Arbeiten muss in der Regel ausführen, wer den Standort innehat. Das heisst, Sie müssen Fachleute beauftragen und damit rechnen, Rechnungen zunächst selbst zu begleichen. Wie viel Sie am Ende selbst tragen, legt erst die Kostenverteilungsverfügung fest. Verlangen Sie diese frühzeitig. Ein eigener Anteil bleibt möglich, wenn Sie als Eigentümerin oder Eigentümer von der Belastung hätten wissen müssen. Sind Sie nicht in der Lage, die Arbeiten zu veranlassen, kann der Kanton sie selbst durchführen lassen. Wie Ihr Kanton Vorschüsse, Beiträge und die Abrechnung genau handhabt, erfahren Sie bei der kantonalen Umweltfachstelle.",
+        "fr": "Si l'entreprise ou la personne qui a pollué le sol ne peut plus être retrouvée ou est insolvable, sa part de frais ne reste pas à votre charge. Selon la loi, cette part est supportée par la collectivité publique compétente. Le Tribunal fédéral applique cela aussi lorsqu'un responsable connu a entre-temps disparu sans successeur. Il faut néanmoins vous attendre à des démarches : les travaux doivent en règle générale être exécutés par celui qui détient le site. Cela signifie que vous devez mandater des spécialistes et vous attendre à régler d'abord vous-même les factures. Le montant que vous supporterez finalement vous-même n'est fixé que par la décision de répartition des coûts. Demandez-la tôt. Une part propre reste possible si, en tant que propriétaire, vous auriez dû connaître la pollution. Si vous n'êtes pas en mesure de faire exécuter les travaux, le canton peut les faire exécuter lui-même. La manière dont votre canton gère précisément les avances, les contributions et le décompte, vous l'apprendrez auprès du service cantonal de l'environnement.",
+        "it": "Se l'azienda o la persona che ha inquinato il suolo non si trova più o è insolvente, la sua quota di costi non resta a suo carico. Secondo la legge, questa quota è sopportata dall'ente pubblico competente. Il Tribunale federale applica questo principio anche quando un responsabile noto è nel frattempo scomparso senza successori. Ciò nonostante, deve mettere in conto un certo impegno: i lavori devono di regola essere eseguiti da chi detiene il sito. Questo significa che deve incaricare specialisti e mettere in conto di dover anticipare lei stesso le fatture. Solo la decisione di ripartizione delle spese stabilisce quanto sopporterà lei stesso alla fine. La chieda per tempo. Una quota propria resta possibile se, come proprietaria o proprietario, avrebbe dovuto conoscere l'inquinamento. Se non è in grado di far eseguire i lavori, il Cantone può farli eseguire esso stesso. Come il suo Cantone gestisce esattamente gli anticipi, i contributi e il conteggio lo sa il servizio cantonale dell'ambiente.",
+        "en": "If the company or person that polluted the soil can no longer be found, or is insolvent, their share of the costs does not stay with you. Under the law, the responsible public authority bears this share. The Federal Supreme Court also applies this where a known person responsible has since disappeared without a successor. Even so, you should expect some effort on your part: the work generally has to be carried out by whoever holds the site. This means you have to instruct specialists and expect to settle invoices yourself at first. How much you ultimately bear yourself is only fixed by the ruling on the allocation of costs. Request this early. You may still bear a share of your own if, as owner, you should have known about the pollution. If you are not in a position to arrange the work, the canton can have it carried out itself. Ask the cantonal environmental agency exactly how your canton handles advances, contributions and the final accounting.",
+        "rm": "Sche la firma u la persuna ch'ha inquinà il terren na sa lascha pli chattar u è insolvabla, na resta sia quota dals custs betg pendenta tar Vus. Questa quota porta, tenor la lescha, la communitad responsabla. Il Tribunal federal applitgescha quai er, sch'in chaschunader enconuschì è entant sparì senza successur. Tuttina duessas Vus quintar cun spesas: las lavurs sto per regla exequir tgi ch'è possessur dal lieu. Quai vul dir che Vus stuais incumbensar spezialists e quintar cun pajar aunc Vus sezs quintas. Quant bler Vus portais a la fin sez, fixescha pir la disposiziun davart la repartiziun dals custs. Pretendai questa a temp. Ina quota atgna resta pussaivla, sche Vus, sco proprietaria u proprietari, avessas stuì savair da la contaminaziun. N'essas Vus betg en la posiziun da procurar per las lavurs, po il chantun als laschar exequir el sez. Co Voss chantun tracta exactamain avanzas, contribuziuns e la quintaziun, emprendais Vus tar il post chantunal spezialisà per l'ambient."
       },
-      "sources": ["usg-32d", "bge-142-ii-232-e65", "altlv-20", "usg-32c"]
+      "sources": [
+        "usg-32d",
+        "bge-142-ii-232-e65",
+        "altlv-20",
+        "usg-32c"
+      ]
     },
     {
       "id": "sale-or-division",
       "kind": "warning",
       "when": {
-        "role": ["owner", "buyer", "unknown"]
+        "role": [
+          "owner",
+          "buyer",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Wer ein Grundstück verkaufen oder teilen will, auf dem ein im Kataster eingetragener Standort liegt, braucht dafür eine Bewilligung der Behörde. Sie wird erteilt, wenn vom Standort keine schädlichen oder lästigen Einwirkungen zu erwarten sind, wenn die Kosten für die zu erwartenden Massnahmen sichergestellt sind oder wenn ein überwiegendes öffentliches Interesse am Verkauf oder an der Teilung besteht. Planen Sie diese Bewilligung früh ein, damit sich der Verkauf oder der Eintrag im Grundbuch nicht verzögert. Der Kanton kann den Eintrag im Kataster zudem im Grundbuch anmerken lassen. Die Behörde kann von einem Verursacher auch verlangen, dass er seinen voraussichtlichen Kostenanteil in geeigneter Form sicherstellt, wenn schädliche Einwirkungen zu erwarten sind. Wie das Gesuch abläuft und welche Stelle zuständig ist, regelt Ihr Kanton. Fragen Sie die kantonale Umweltfachstelle oder die Notarin oder den Notar."
+        "de": "Wer ein Grundstück verkaufen oder teilen will, auf dem ein im Kataster eingetragener Standort liegt, braucht dafür eine Bewilligung der Behörde. Sie wird erteilt, wenn vom Standort keine schädlichen oder lästigen Einwirkungen zu erwarten sind, wenn die Kosten für die zu erwartenden Massnahmen sichergestellt sind oder wenn ein überwiegendes öffentliches Interesse am Verkauf oder an der Teilung besteht. Planen Sie diese Bewilligung früh ein, damit sich der Verkauf oder der Eintrag im Grundbuch nicht verzögert. Der Kanton kann den Eintrag im Kataster zudem im Grundbuch anmerken lassen. Die Behörde kann von einem Verursacher auch verlangen, dass er seinen voraussichtlichen Kostenanteil in geeigneter Form sicherstellt, wenn schädliche Einwirkungen zu erwarten sind. Wie das Gesuch abläuft und welche Stelle zuständig ist, regelt Ihr Kanton. Fragen Sie die kantonale Umweltfachstelle oder die Notarin oder den Notar.",
+        "fr": "Qui veut vendre ou partager un bien-fonds sur lequel se trouve un site inscrit au cadastre a besoin pour cela d'une autorisation de l'autorité. Elle est accordée si aucune atteinte nuisible ou incommodante n'est à attendre du site, si les frais des mesures à prévoir sont garantis, ou s'il existe un intérêt public prépondérant à la vente ou au partage. Prévoyez cette autorisation tôt, pour que la vente ou l'inscription au registre foncier ne soit pas retardée. Le canton peut en outre faire mentionner l'inscription au cadastre au registre foncier. L'autorité peut aussi exiger d'un responsable qu'il garantisse sous une forme adéquate sa part de frais prévisible, si des atteintes nuisibles ou incommodantes sont à attendre. La manière dont se déroule la demande et le service compétent sont réglés par votre canton. Demandez au service cantonal de l'environnement ou à la notaire ou au notaire.",
+        "it": "Chi vuole vendere o dividere un fondo su cui si trova un sito iscritto nel catasto necessita di un'autorizzazione dell'autorità. Essa viene rilasciata se dal sito non sono prevedibili effetti dannosi o molesti, se i costi per le misure previste sono garantiti, oppure se sussiste un interesse pubblico preponderante alla vendita o alla divisione. Pianifichi per tempo questa autorizzazione, in modo che la vendita o l'iscrizione nel registro fondiario non subiscano ritardi. Il Cantone può inoltre far annotare nel registro fondiario l'iscrizione nel catasto. L'autorità può anche esigere da un responsabile che garantisca in forma adeguata la sua presumibile quota di costi, se sono prevedibili effetti dannosi. Come si svolge la domanda e quale servizio è competente lo stabilisce il suo Cantone. Si informi presso il servizio cantonale dell'ambiente o presso la notaia o il notaio.",
+        "en": "Anyone who wants to sell or divide a property on which a site entered in the register is located needs authorisation from the authority for this. It is granted if no harmful effects or nuisances are to be expected from the site, if the costs of the measures to be expected are secured, or if there is an overriding public interest in the sale or the division. Plan for this authorisation early, so that the sale or the entry in the land register is not delayed. The canton can also have the register entry noted in the land register. The authority can also require a person responsible to secure their probable share of the costs in a suitable form, if harmful effects are to be expected. Your canton regulates how the application proceeds and which body is responsible. Ask the cantonal environmental agency or the notary.",
+        "rm": "Tgi che vul vender u partir ina parcella, sin la quala sa chatta in lieu inscrit en il cataster, basegna per quai ina permissiun da l'autoritad. Ella vegn concedida, sche dal lieu na dastgan vegnir spetgadas naginas influenzas nuschaivlas u mulestusas, sche ils custs per las mesiras da spetgar èn garantids u sch'igl exista in interess public predominant a la vendita u a la partiziun. Planisai questa permissiun baud, per che la vendita u l'inscripziun en il register funsil na sa retarda betg. Il chantun po er laschar remartgar l'inscripziun en il cataster en il register funsil. L'autoritad po er pretender d'in chaschunader ch'el garantescha en furma adequata sia quota probabla dals custs, sche influenzas nuschaivlas èn da spetgar. Co la dumonda sa drizza e tge post ch'è cumpetent, regla Voss chantun. Dumandai il post chantunal spezialisà per l'ambient u la notara u il notar."
       },
-      "sources": ["usg-32dbis"]
+      "sources": [
+        "usg-32dbis"
+      ]
     },
     {
       "id": "before-buying",
       "kind": "rule",
       "when": {
-        "role": ["buyer", "unknown"]
+        "role": [
+          "buyer",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Prüfen Sie vor dem Kauf, ob das Grundstück im Kataster der belasteten Standorte steht. Der Kataster ist öffentlich. Viele Kantone zeigen ihn auf ihrem Geoportal im Internet. Das ist wichtig, weil Sie sich später nicht auf Unkenntnis berufen können, wenn Sie Hinweise auf eine Belastung beim Kauf kannten oder hätten kennen müssen. Dann kann ein Teil der Kosten an Ihnen hängen bleiben. Fragen Sie auch nach der früheren Nutzung, etwa nach einer Werkstatt, einer Tankstelle oder einer Auffüllung. Wollen Sie auf einem belasteten Standort bauen oder umbauen, ist das nur erlaubt, wenn der Standort nicht sanierungsbedürftig ist und es durch das Bauvorhaben nicht wird, oder wenn eine spätere Sanierung nicht wesentlich erschwert wird. Sonst muss der betroffene Teil gleichzeitig saniert werden. Das kann den Bau verteuern. Lassen Sie sich vor der Unterschrift beraten, wie der Kaufvertrag die Kosten einer Belastung regeln soll."
+        "de": "Prüfen Sie vor dem Kauf, ob das Grundstück im Kataster der belasteten Standorte steht. Der Kataster ist öffentlich. Viele Kantone zeigen ihn auf ihrem Geoportal im Internet. Das ist wichtig, weil Sie sich später nicht auf Unkenntnis berufen können, wenn Sie Hinweise auf eine Belastung beim Kauf kannten oder hätten kennen müssen. Dann kann ein Teil der Kosten an Ihnen hängen bleiben. Fragen Sie auch nach der früheren Nutzung, etwa nach einer Werkstatt, einer Tankstelle oder einer Auffüllung. Wollen Sie auf einem belasteten Standort bauen oder umbauen, ist das nur erlaubt, wenn der Standort nicht sanierungsbedürftig ist und es durch das Bauvorhaben nicht wird, oder wenn eine spätere Sanierung nicht wesentlich erschwert wird. Sonst muss der betroffene Teil gleichzeitig saniert werden. Das kann den Bau verteuern. Lassen Sie sich vor der Unterschrift beraten, wie der Kaufvertrag die Kosten einer Belastung regeln soll.",
+        "fr": "Vérifiez avant l'achat si le bien-fonds figure au cadastre des sites pollués. Le cadastre est public. De nombreux cantons le présentent sur leur géoportail internet. C'est important, car vous ne pourrez pas invoquer plus tard votre ignorance si vous connaissiez ou auriez dû connaître des indices de pollution lors de l'achat. Une part des frais pourrait alors rester à votre charge. Renseignez-vous aussi sur l'utilisation antérieure, par exemple un atelier, une station-service ou un remblai. Si vous voulez construire ou transformer sur un site pollué, ce n'est autorisé que si le site ne nécessite pas d'assainissement et ne le devient pas du fait du projet de construction, ou si un assainissement ultérieur n'est pas sensiblement compliqué. Sinon, la partie concernée doit être assainie en même temps. Cela peut renchérir la construction. Faites-vous conseiller avant de signer sur la manière dont le contrat de vente doit régler les frais d'une pollution.",
+        "it": "Prima dell'acquisto verifichi se il fondo figura nel catasto dei siti inquinati. Il catasto è pubblico. Molti Cantoni lo mostrano sul proprio geoportale in Internet. Questo è importante perché in seguito non potrà invocare l'ignoranza se al momento dell'acquisto conosceva indizi di un inquinamento o avrebbe dovuto conoscerli. In tal caso una parte dei costi può restare a suo carico. Si informi anche sull'utilizzazione precedente, per esempio un'officina, un distributore di benzina o un riempimento del terreno. Se vuole costruire o trasformare su un sito inquinato, ciò è permesso solo se il sito non richiede il risanamento e non lo richiederà a causa del progetto edilizio, oppure se un risanamento successivo non viene sostanzialmente ostacolato. Altrimenti la parte interessata deve essere risanata contemporaneamente. Questo può rendere più costosa la costruzione. Si faccia consigliare prima di firmare su come il contratto di compravendita debba disciplinare i costi di un inquinamento.",
+        "en": "Before buying, check whether the property is in the register of polluted sites. The register is public. Many cantons show it on their online geoportal. This matters because you cannot later rely on being unaware if you knew of indications of pollution when buying, or should have known of them. In that case, part of the costs can stay with you. Also ask about the former use, for example a workshop, a petrol station or landfilling. If you want to build or rebuild on a polluted site, this is only allowed if the site does not require remediation and will not come to require it because of the building project, or if a later remediation is not made significantly more difficult. Otherwise, the affected part must be remediated at the same time. This can make building more expensive. Get advice before signing on how the purchase contract should deal with the costs of pollution.",
+        "rm": "Controllai avant il cumpra, sche la parcella sa chatta en il cataster dals lieus contaminads. Il cataster è public. Blers chantuns al mussan sin lur geoportal en internet. Quai è impurtant, perquai che Vus na pudais betg pli tard sa referir a nunenconuschientscha, sche Vus enconuschevas u avessas stuì enconuscher indizis d'ina contaminaziun tar il cumpra. Lura po ina part dals custs restar pendenta tar Vus. Dumandai er tenor l'utilisaziun anteriura, per exempel tenor in'ovraria, ina staziun da benzin u in'engulida. Vulais Vus construir u renovar sin in lieu contaminà, è quai lubì mo, sch'il lieu na sto betg vegnir sanà e na daventa betg quai tras il project da construcziun, u sche in'ulteriura sanaziun na vegn betg engrevgiada considerablamain. Autramain sto la part tangida vegnir sanada al medem temp. Quai po enchierir la construcziun. Laschai Vus consegliar avant la suttascripziun, co il contract da cumpra duai reglar ils custs d'ina contaminaziun."
       },
-      "sources": ["usg-32c", "bge-142-ii-232-e43", "altlv-3"]
+      "sources": [
+        "usg-32c",
+        "bge-142-ii-232-e43",
+        "altlv-3"
+      ]
     },
     {
       "id": "garden-soil",
       "kind": "rule",
       "when": {
-        "situation": ["garden-playground", "unknown"]
+        "situation": [
+          "garden-playground",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Auch ausserhalb von Deponien und Industriearealen kann der Boden Schadstoffe enthalten, etwa Blei, andere Schwermetalle oder PAK. PAK sind Stoffe, die bei Verbrennung entstehen, zum Beispiel aus Russ, Asche oder Teer. Wo solche Belastungen feststehen oder wahrscheinlich sind, erstellen die Kantone Hinweiskarten. Sie veröffentlichen auch die Ergebnisse ihrer Überwachung. Beurteilt wird der Boden nach Werten, die der Bund in einer Verordnung festlegt. Es gibt drei Stufen. Wird der Richtwert überschritten, sucht der Kanton die Ursache. Wird der Prüfwert überschritten, prüft er, ob Menschen, Tiere oder Pflanzen konkret gefährdet sind, und schränkt wenn nötig die Nutzung ein, zum Beispiel den Anbau von Gemüse. Wird der Sanierungswert überschritten, verbietet der Kanton die betroffenen Nutzungen. In Gebieten, die für Garten-, Land- oder Forstwirtschaft bestimmt sind, ordnet er Massnahmen an, damit der Boden wieder gefahrlos genutzt werden kann. Welche Werte gelten, hängt von der Nutzung ab, etwa ob Nahrungspflanzen wachsen oder ob Kinder direkt mit der Erde in Kontakt kommen."
+        "de": "Auch ausserhalb von Deponien und Industriearealen kann der Boden Schadstoffe enthalten, etwa Blei, andere Schwermetalle oder PAK. PAK sind Stoffe, die bei Verbrennung entstehen, zum Beispiel aus Russ, Asche oder Teer. Wo solche Belastungen feststehen oder wahrscheinlich sind, erstellen die Kantone Hinweiskarten. Sie veröffentlichen auch die Ergebnisse ihrer Überwachung. Beurteilt wird der Boden nach Werten, die der Bund in einer Verordnung festlegt. Es gibt drei Stufen. Wird der Richtwert überschritten, sucht der Kanton die Ursache. Wird der Prüfwert überschritten, prüft er, ob Menschen, Tiere oder Pflanzen konkret gefährdet sind, und schränkt wenn nötig die Nutzung ein, zum Beispiel den Anbau von Gemüse. Wird der Sanierungswert überschritten, verbietet der Kanton die betroffenen Nutzungen. In Gebieten, die für Garten-, Land- oder Forstwirtschaft bestimmt sind, ordnet er Massnahmen an, damit der Boden wieder gefahrlos genutzt werden kann. Welche Werte gelten, hängt von der Nutzung ab, etwa ob Nahrungspflanzen wachsen oder ob Kinder direkt mit der Erde in Kontakt kommen.",
+        "fr": "En dehors des décharges et des aires industrielles aussi, le sol peut contenir des substances nocives, par exemple du plomb, d'autres métaux lourds ou des HAP. Les HAP sont des substances qui se forment lors de la combustion, par exemple à partir de suie, de cendres ou de goudron. Là où de telles pollutions sont établies ou probables, les cantons établissent des cartes indicatives. Ils publient aussi les résultats de leur surveillance. Le sol est évalué selon des valeurs que la Confédération fixe dans une ordonnance. Il existe trois niveaux. Si la valeur indicative est dépassée, le canton en recherche la cause. Si le seuil d'investigation est dépassé, il examine si les personnes, les animaux ou les plantes sont concrètement menacés, et restreint si nécessaire l'utilisation, par exemple la culture de légumes. Si la valeur d'assainissement est dépassée, le canton interdit les utilisations concernées. Dans les zones destinées à l'horticulture, à l'agriculture ou à la sylviculture, il ordonne des mesures pour que le sol puisse à nouveau être utilisé sans danger. Les valeurs applicables dépendent de l'utilisation, par exemple si des plantes alimentaires y poussent ou si des enfants entrent directement en contact avec la terre.",
+        "it": "Anche al di fuori di discariche e aree industriali, il suolo può contenere sostanze nocive, per esempio piombo, altri metalli pesanti o IPA. Gli IPA sono sostanze che si formano nella combustione, per esempio da fuliggine, cenere o catrame. Dove tali inquinamenti sono accertati o probabili, i Cantoni allestiscono carte indicative. Pubblicano anche i risultati della loro sorveglianza. Il suolo è valutato secondo valori che la Confederazione fissa in un'ordinanza. Vi sono tre livelli. Se è superato il valore indicativo, il Cantone ne cerca la causa. Se è superato il valore di guardia, verifica se persone, animali o piante sono concretamente messi in pericolo e, se necessario, limita l'utilizzazione, per esempio la coltivazione di verdura. Se è superato il valore di risanamento, il Cantone vieta le utilizzazioni interessate. Nelle zone destinate all'orticoltura, all'agricoltura o alla selvicoltura, ordina misure affinché il suolo possa essere di nuovo utilizzato senza pericolo. Quali valori si applicano dipende dall'utilizzazione, per esempio se vi crescono piante alimentari o se i bambini entrano direttamente in contatto con la terra.",
+        "en": "Even outside landfills and industrial sites, the soil can contain pollutants such as lead, other heavy metals or PAHs. PAHs are substances produced by combustion, for example from soot, ash or tar. Where such pollution is established or likely, the cantons draw up guidance maps. They also publish the results of their monitoring. The soil is assessed against values that the Confederation sets in an ordinance. There are three levels. If the guide value is exceeded, the canton looks for the cause. If the trigger value is exceeded, it checks whether people, animals or plants are concretely at risk, and restricts use where necessary, for example growing vegetables. If the remediation value is exceeded, the canton prohibits the affected uses. In areas designated for horticulture, agriculture or forestry, it orders measures so that the soil can be used safely again. Which values apply depends on the use, for example whether food crops are grown there or whether children come into direct contact with the soil.",
+        "rm": "Er ordaifer deponias e territoris d'industria po il terren cuntegnair substanzas privlusas, per exempel plum, auters metals grevs u HAP. HAP èn substanzas che resultan tar la scumbustiun, per exempel da fulin, tschendra u catram. Nua che talas contaminaziuns èn cumprovadas u probablas, fan ils chantuns cartas d'indicaziun. Els publitgeschan er ils resultats da lur survegliaziun. Il terren vegn giudicà tenor valurs che la Confederaziun fixescha en in'ordinaziun. I dat trais stgalims. Vegn surpassada la valur directiva, tschertga il chantun la chaschun. Vegn surpassada la valur d'examinaziun, examinescha el, sch'umans, tiers u plantas èn concretamain periclitads, e restrenscha, sch'i è necessari, l'utilisaziun, per exempel il cultiv da verdura. Vegn surpassada la valur da sanaziun, scumonda il chantun las utilisaziuns tangidas. En territoris che èn destinads per l'agricultura da curtin, l'agricultura u l'economia forestala, ordinescha el mesiras, per che il terren possia vegnir puspè utilisà senza privel. Tge valurs che valan, dependa da l'utilisaziun, per exempel sche crescha plantas alimentaras u sch'uffants vegnan directamain en contact cun la terra."
       },
-      "sources": ["vbbo-4", "vbbo-5", "vbbo-8", "vbbo-9", "vbbo-10", "usg-34"]
+      "sources": [
+        "vbbo-4",
+        "vbbo-5",
+        "vbbo-8",
+        "vbbo-9",
+        "vbbo-10",
+        "usg-34"
+      ]
     },
     {
       "id": "playgrounds",
       "kind": "rule",
       "when": {
-        "situation": ["garden-playground", "unknown"]
+        "situation": [
+          "garden-playground",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Seit dem 1. April 2025 gilt eine besondere Regel für Orte, an denen kleine Kinder spielen. Die Kantone müssen dafür sorgen, dass öffentliche Kinderspielplätze und öffentliche Grünflächen saniert werden, wenn ihr Boden mit umweltgefährdenden Stoffen belastet ist, dort regelmässig Kleinkinder spielen und schädliche Einwirkungen bestehen oder konkret drohen. Für private Spielplätze und private Hausgärten gilt diese Sanierungspflicht nicht. Anders ist es nur, wenn der Garten Teil eines belasteten Standorts ist, etwa einer früheren Deponie: Dann gelten die allgemeinen Regeln für solche Standorte. Die Kantone können die Sanierung privater Spielplätze und Hausgärten aber mit Geld unterstützen, wenn dort regelmässig Kleinkinder spielen und der belastete Boden schädlich ist oder konkret zu werden droht. Ob und wie Ihr Kanton solche Beiträge gewährt, entscheidet er selbst. Der Bund beteiligt sich über Abgeltungen an die Kantone an den Kosten vieler Untersuchungen und Sanierungen. Machen Sie sich Sorgen um einen öffentlichen Spielplatz, wenden Sie sich an die Gemeinde oder an die kantonale Umweltfachstelle und fragen Sie, ob der Boden untersucht wurde."
+        "de": "Seit dem 1. April 2025 gilt eine besondere Regel für Orte, an denen kleine Kinder spielen. Die Kantone müssen dafür sorgen, dass öffentliche Kinderspielplätze und öffentliche Grünflächen saniert werden, wenn ihr Boden mit umweltgefährdenden Stoffen belastet ist, dort regelmässig Kleinkinder spielen und schädliche Einwirkungen bestehen oder konkret drohen. Für private Spielplätze und private Hausgärten gilt diese Sanierungspflicht nicht. Anders ist es nur, wenn der Garten Teil eines belasteten Standorts ist, etwa einer früheren Deponie: Dann gelten die allgemeinen Regeln für solche Standorte. Die Kantone können die Sanierung privater Spielplätze und Hausgärten aber mit Geld unterstützen, wenn dort regelmässig Kleinkinder spielen und der belastete Boden schädlich ist oder konkret zu werden droht. Ob und wie Ihr Kanton solche Beiträge gewährt, entscheidet er selbst. Der Bund beteiligt sich über Abgeltungen an die Kantone an den Kosten vieler Untersuchungen und Sanierungen. Machen Sie sich Sorgen um einen öffentlichen Spielplatz, wenden Sie sich an die Gemeinde oder an die kantonale Umweltfachstelle und fragen Sie, ob der Boden untersucht wurde.",
+        "fr": "Depuis le 1er avril 2025, une règle particulière s'applique aux lieux où jouent de jeunes enfants. Les cantons doivent veiller à ce que les places de jeux publiques pour enfants et les espaces verts publics soient assainis si leur sol est pollué par des substances dangereuses pour l'environnement, que des enfants en bas âge y jouent régulièrement et que des atteintes nuisibles existent ou menacent concrètement de survenir. Pour les places de jeux privées et les jardins privés, cette obligation d'assainir ne s'applique pas. Il en va autrement seulement si le jardin fait partie d'un site pollué, par exemple une ancienne décharge : les règles générales applicables à de tels sites s'appliquent alors. Les cantons peuvent toutefois soutenir financièrement l'assainissement de places de jeux privées et de jardins privés si des enfants en bas âge y jouent régulièrement et que le sol pollué est nuisible ou menace concrètement de le devenir. C'est le canton qui décide lui-même s'il accorde de telles contributions et comment. La Confédération participe, par des indemnités aux cantons, aux frais de nombreuses investigations et assainissements. Si vous vous inquiétez au sujet d'une place de jeux publique, adressez-vous à la commune ou au service cantonal de l'environnement et demandez si le sol a été examiné.",
+        "it": "Dal 1° aprile 2025 vale una regola particolare per i luoghi in cui giocano i bambini piccoli. I Cantoni devono provvedere affinché i parchi giochi pubblici e le aree verdi pubbliche vengano risanati se il loro suolo è inquinato da sostanze pericolose per l'ambiente, se vi giocano regolarmente bambini in tenera età e se sussistono effetti dannosi o vi è il pericolo concreto che si producano. Per i parchi giochi privati e i giardini privati questo obbligo di risanamento non vale. È diverso solo se il giardino fa parte di un sito inquinato, per esempio un'ex discarica: in tal caso valgono le regole generali per tali siti. I Cantoni possono però sostenere finanziariamente il risanamento di parchi giochi privati e giardini privati se vi giocano regolarmente bambini in tenera età e il suolo inquinato è dannoso o rischia concretamente di diventarlo. Se e come il suo Cantone concede tali contributi lo decide esso stesso. La Confederazione partecipa, tramite indennità ai Cantoni, ai costi di molte indagini e risanamenti. Se si preoccupa per un parco giochi pubblico, si rivolga al Comune o al servizio cantonale dell'ambiente e chieda se il suolo è stato indagato.",
+        "en": "Since 1 April 2025, a special rule has applied to places where young children play. The cantons must ensure that public children's playgrounds and public green spaces are remediated if their soil is polluted with environmentally hazardous substances, if young children regularly play there, and if harmful effects exist or concretely threaten to arise. This duty to remediate does not apply to private playgrounds and private house gardens. It is different only if the garden is part of a polluted site, for example a former landfill: then the general rules for such sites apply. However, the cantons can provide financial support for remediating private playgrounds and house gardens if young children regularly play there and the polluted soil is harmful or concretely threatens to become so. Whether and how your canton grants such contributions is for it to decide. The Confederation contributes to the costs of many investigations and remediations through payments to the cantons. If you are worried about a public playground, contact the municipality or the cantonal environmental agency and ask whether the soil has been investigated.",
+        "rm": "Dapi il 1. d'avrigl 2025 vala ina regla speziala per lieus, nua che pitschens uffants giogan. Ils chantuns ston procurar che plazzas da giugar publicas per uffants e surfatschas verdas publicas vegnian sanadas, sche lur terren è contaminà cun substanzas privlusas per l'ambient, sche là giogan regularmain uffants pitschens e sche influenzas nuschaivlas existan u smanatschan concretamain. Per plazzas da giugar privatas e curtins da chasa privats na vala questa obligaziun da sanaziun betg. Autramain è la chaussa mo, sche il curtin è part d'in lieu contaminà, per exempel d'ina veglia deponia: lura valan las reglas generalas per tals lieus. Ils chantuns pon dentant sustegnair finanzialmain la sanaziun da plazzas da giugar privatas e da curtins da chasa, sche là giogan regularmain uffants pitschens e sche il terren contaminà è nuschaivel u smanatscha da daventar quai concretamain. Sch'e co Voss chantun conceda talas contribuziuns, decida el sez. La Confederaziun sa participescha, tras indemnisaziuns als chantuns, als custs da blera examinaziuns e sanaziuns. Avais Vus sorgas pervia d'ina plazza da giugar publica, drizzai Vus a la vischnanca u al post chantunal spezialisà per l'ambient e dumandai, sche il terren è vegnì examinà."
       },
-      "sources": ["usg-32c", "usg-32eter"]
+      "sources": [
+        "usg-32c",
+        "usg-32eter"
+      ]
     },
     {
       "id": "garden-practical",
       "kind": "step",
       "when": {
-        "situation": ["garden-playground", "unknown"],
-        "role": ["owner", "user", "parent", "unknown"]
+        "situation": [
+          "garden-playground",
+          "unknown"
+        ],
+        "role": [
+          "owner",
+          "user",
+          "parent",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "So gehen Sie vor, wenn Sie eine Belastung im Garten oder auf dem Spielplatz befürchten: Schauen Sie auf dem Geoportal Ihres Kantons nach, ob das Gebiet im Kataster der belasteten Standorte oder auf einer Hinweiskarte für Bodenbelastungen verzeichnet ist. Fragen Sie die kantonale Umweltfachstelle, ob für Ihr Gebiet Messungen vorliegen und ob eine Bodenprobe sinnvoll ist. Bei Familiengärten ist oft auch der Gartenverein oder die Gemeinde als Eigentümerin informiert. Halten Sie sich an Nutzungsbeschränkungen, die der Kanton angeordnet hat. Solange Sie nichts wissen, gilt: Fragen Sie bei der Fachstelle nach, bevor Sie viel Gemüse für den eigenen Bedarf anbauen oder kleine Kinder oft auf offener Erde spielen lassen. Haben Sie gesundheitliche Sorgen, sprechen Sie mit Ihrer Ärztin oder Ihrem Arzt."
+        "de": "So gehen Sie vor, wenn Sie eine Belastung im Garten oder auf dem Spielplatz befürchten: Schauen Sie auf dem Geoportal Ihres Kantons nach, ob das Gebiet im Kataster der belasteten Standorte oder auf einer Hinweiskarte für Bodenbelastungen verzeichnet ist. Fragen Sie die kantonale Umweltfachstelle, ob für Ihr Gebiet Messungen vorliegen und ob eine Bodenprobe sinnvoll ist. Bei Familiengärten ist oft auch der Gartenverein oder die Gemeinde als Eigentümerin informiert. Halten Sie sich an Nutzungsbeschränkungen, die der Kanton angeordnet hat. Solange Sie nichts wissen, gilt: Fragen Sie bei der Fachstelle nach, bevor Sie viel Gemüse für den eigenen Bedarf anbauen oder kleine Kinder oft auf offener Erde spielen lassen. Haben Sie gesundheitliche Sorgen, sprechen Sie mit Ihrer Ärztin oder Ihrem Arzt.",
+        "fr": "Voici comment procéder si vous craignez une pollution dans le jardin ou sur la place de jeux : consultez le géoportail de votre canton pour voir si la zone figure au cadastre des sites pollués ou sur une carte indicative des pollutions du sol. Demandez au service cantonal de l'environnement si des mesures existent pour votre zone et si un prélèvement de sol est indiqué. Pour les jardins familiaux, l'association de jardins ou la commune, en tant que propriétaire, est souvent aussi informée. Respectez les restrictions d'utilisation ordonnées par le canton. Tant que vous ne savez rien, la règle est la suivante : renseignez-vous auprès du service spécialisé avant de cultiver beaucoup de légumes pour votre propre consommation ou de laisser souvent de jeunes enfants jouer sur de la terre à nu. Si vous avez des inquiétudes de santé, parlez-en à votre médecin.",
+        "it": "Ecco come procedere se teme un inquinamento nel giardino o nel parco giochi: verifichi sul geoportale del suo Cantone se la zona è registrata nel catasto dei siti inquinati o su una carta indicativa degli inquinamenti del suolo. Chieda al servizio cantonale dell'ambiente se per la sua zona esistono misurazioni e se ha senso un campione di terreno. Negli orti familiari, spesso anche l'associazione degli orticoltori o il Comune, come proprietario, sono informati. Rispetti le limitazioni d'uso ordinate dal Cantone. Finché non sa nulla, vale questa regola: si informi presso il servizio specializzato prima di coltivare molta verdura per il proprio fabbisogno o di lasciare spesso giocare i bambini piccoli sulla terra scoperta. Se ha preoccupazioni per la salute, ne parli con il suo medico.",
+        "en": "Here is how to proceed if you suspect pollution in a garden or on a playground: check on your canton's geoportal whether the area is listed in the register of polluted sites or on a guidance map for soil pollution. Ask the cantonal environmental agency whether measurements exist for your area and whether a soil sample makes sense. For allotment gardens, the garden association or the municipality, as owner, is often informed too. Follow any restrictions on use that the canton has ordered. As long as you do not know more, the rule is: ask the specialist agency before growing a lot of vegetables for your own use, or letting young children play often on open soil. If you have health concerns, speak to your doctor.",
+        "rm": "Uschia procedais Vus, sche Vus temais ina contaminaziun en il curtin u sin la plazza da giugar: guardai sin il geoportal da Voss chantun, sche il territori è inscrit en il cataster dals lieus contaminads u sin ina carta d'indicaziun per contaminaziuns dal terren. Dumandai il post chantunal spezialisà per l'ambient, sche per Voss territori existan mesiraziuns e sche ina proba da terren ha senn. Tar curtins da famiglia è savens er l'associaziun da curtins u la vischnanca, sco proprietaria, infurmada. Observai restricziuns d'utilisaziun ch'il chantun ha ordinà. Uschè ditg che Vus na savais nagut, vala: dumandai tar il post spezialisà, avant che Vus cultivais bler verdura per il basegn agen u laschais giugar savens pitschens uffants sin terra averta. Avais Vus sorgas per la sanadad, discurrai cun Vossa medgessa u Voss medi."
       }
     },
     {
       "id": "suspicion",
       "kind": "rule",
       "when": {
-        "situation": ["suspicion", "unknown"]
+        "situation": [
+          "suspicion",
+          "unknown"
+        ]
       },
       "text": {
-        "de": "Vermuten Sie eine alte Belastung, die im Kataster nicht verzeichnet ist, etwa eine frühere Grube, die aufgefüllt wurde, eine alte Schiessanlage oder ein früheres Gewerbe, können Sie das der kantonalen Umweltfachstelle mitteilen. Die Behörde ermittelt belastete Standorte, indem sie Karten, Verzeichnisse und Meldungen auswertet, und kann bei Inhabern und Dritten Auskünfte einholen. Schildern Sie, was Sie wissen und woher: alte Fotos, Pläne, Erzählungen, Gerüche oder auffälliges Material im Boden. Geht es um eine neue Verschmutzung oder um Abfall, der gerade illegal abgelagert wird, lesen Sie den Leitfaden zu Umweltverschmutzungen: Dort geht es um Notruf und Anzeige."
+        "de": "Vermuten Sie eine alte Belastung, die im Kataster nicht verzeichnet ist, etwa eine frühere Grube, die aufgefüllt wurde, eine alte Schiessanlage oder ein früheres Gewerbe, können Sie das der kantonalen Umweltfachstelle mitteilen. Die Behörde ermittelt belastete Standorte, indem sie Karten, Verzeichnisse und Meldungen auswertet, und kann bei Inhabern und Dritten Auskünfte einholen. Schildern Sie, was Sie wissen und woher: alte Fotos, Pläne, Erzählungen, Gerüche oder auffälliges Material im Boden. Geht es um eine neue Verschmutzung oder um Abfall, der gerade illegal abgelagert wird, lesen Sie den Leitfaden zu Umweltverschmutzungen: Dort geht es um Notruf und Anzeige.",
+        "fr": "Si vous soupçonnez une ancienne pollution non répertoriée au cadastre, par exemple une ancienne fosse comblée, un ancien stand de tir ou une ancienne activité artisanale, vous pouvez en informer le service cantonal de l'environnement. L'autorité recherche les sites pollués en dépouillant cartes, répertoires et signalements, et peut demander des renseignements aux détenteurs et à des tiers. Décrivez ce que vous savez et sa provenance : anciennes photos, plans, récits, odeurs ou matériaux suspects dans le sol. S'il s'agit d'une pollution récente ou de déchets en train d'être déposés illégalement, consultez le guide sur les pollutions de l'environnement : il traite de l'appel d'urgence et de la dénonciation.",
+        "it": "Se sospetta un vecchio inquinamento non registrato nel catasto, per esempio un'ex cava riempita, un vecchio poligono di tiro o una precedente attività artigianale, può segnalarlo al servizio cantonale dell'ambiente. L'autorità individua i siti inquinati valutando carte, elenchi e segnalazioni, e può richiedere informazioni ai titolari e a terzi. Descriva cosa sa e da dove lo sa: vecchie foto, piani, racconti, odori o materiale sospetto nel terreno. Se si tratta di un inquinamento recente o di rifiuti che vengono depositati illegalmente proprio ora, legga la guida sugli inquinamenti ambientali: lì si tratta del numero d'emergenza e della denuncia.",
+        "en": "If you suspect old pollution that is not listed in the register, for example a former pit that was filled in, an old shooting range or a former business, you can tell the cantonal environmental agency. The authority identifies polluted sites by evaluating maps, registers and reports, and can obtain information from holders and third parties. Describe what you know and where it comes from: old photos, plans, accounts, smells or unusual material in the soil. If it is about fresh pollution or waste that is currently being illegally dumped, read the guide on environmental pollution: it covers the emergency number and reporting an offence.",
+        "rm": "Suppognai Vus ina veglia contaminaziun che n'è betg inscritta en il cataster, per exempel ina veglia fossa engulida, ina veglia installaziun da tir u in anteriur commerzi, pudais Vus communitgar quai al post chantunal spezialisà per l'ambient. L'autoritad rileva lieus contaminads, cun evaluar cartas, registers ed annunzias, e po survegnir infurmaziuns da possessurs e da terzas persunas. Descrivai, tge che Vus savais e dad ingio: veglias fotografias, plans, raquints, odurs u material stralunant en il terren. Sa tracta da la chaussa d'ina nova contaminaziun u da ruments che vegnan gist deponids illegalmain, legiai la guida davart inquinaziuns da l'ambient: là sa tracta da clom d'urgenza e da denunzia."
       },
-      "sources": ["altlv-5"]
+      "sources": [
+        "altlv-5"
+      ]
     },
     {
       "id": "no-right-to-force",
       "kind": "warning",
       "text": {
-        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt oder die Gesundheit anderer sorgt, kann die Behörde nicht zwingen, einen Standort zu untersuchen oder zu sanieren. Wer eine Meldung macht oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Mehr Rechte hat nur, wer stärker betroffen ist als die Allgemeinheit und einen eigenen, persönlichen Vorteil vom Verfahren hat, zum Beispiel die Eigentümerin des betroffenen Grundstücks. Wirksam sind trotzdem: eine gut begründete Meldung an die kantonale Umweltfachstelle, Fragen an die Gemeinde, ein Gesuch um Einsicht in Messungen und Untersuchungsberichte und, wenn nichts geschieht, eine Anzeige an die Aufsichtsbehörde, die Ihr Kanton regelt."
+        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt oder die Gesundheit anderer sorgt, kann die Behörde nicht zwingen, einen Standort zu untersuchen oder zu sanieren. Wer eine Meldung macht oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Mehr Rechte hat nur, wer stärker betroffen ist als die Allgemeinheit und einen eigenen, persönlichen Vorteil vom Verfahren hat, zum Beispiel die Eigentümerin des betroffenen Grundstücks. Wirksam sind trotzdem: eine gut begründete Meldung an die kantonale Umweltfachstelle, Fragen an die Gemeinde, ein Gesuch um Einsicht in Messungen und Untersuchungsberichte und, wenn nichts geschieht, eine Anzeige an die Aufsichtsbehörde, die Ihr Kanton regelt.",
+        "fr": "Important à savoir : qui se soucie seulement de l'environnement ou de la santé d'autrui ne peut pas contraindre l'autorité à investiguer ou assainir un site. Qui fait un signalement ou demande une intervention ne devient pas partie de ce fait. Un recours dans l'intérêt de la collectivité, souvent appelé recours populaire, n'est pas recevable. N'a davantage de droits que celui qui est plus touché que la collectivité et qui retire un avantage propre et personnel de la procédure, par exemple la propriétaire du bien-fonds concerné. Sont néanmoins efficaces : un signalement bien motivé au service cantonal de l'environnement, des questions à la commune, une demande de consultation des mesures et des rapports d'investigation et, si rien ne se passe, une dénonciation à l'autorité de surveillance, que votre canton règle.",
+        "it": "Importante da sapere: chi si preoccupa solo per l'ambiente o per la salute altrui non può costringere l'autorità a indagare o a risanare un sito. Chi fa una segnalazione o chiede un intervento non diventa per questo parte del procedimento. Un ricorso nell'interesse della collettività, spesso chiamato ricorso popolare, non è ammissibile. Ha più diritti solo chi è toccato più della collettività e trae dal procedimento un vantaggio proprio e personale, per esempio la proprietaria del fondo interessato. Sono comunque efficaci: una segnalazione ben motivata al servizio cantonale dell'ambiente, domande al Comune, una domanda di accesso alle misurazioni e ai rapporti d'indagine e, se non succede nulla, una denuncia all'autorità di vigilanza, disciplinata dal suo Cantone.",
+        "en": "Important to know: anyone who is simply concerned about the environment or other people's health cannot force the authority to investigate or remediate a site. Making a report or demanding action does not make you a party. An appeal in the interest of the general public, often called a popular appeal, is not permitted. Only someone who is more affected than the general public and has their own personal benefit from the proceedings has more rights, for example the owner of the affected property. Nevertheless, the following are effective: a well-founded report to the cantonal environmental agency, questions to the municipality, a request to inspect measurements and investigation reports, and, if nothing happens, a supervisory complaint to the supervisory authority, which your canton regulates.",
+        "rm": "Impurtant da savair: tgi che sa fa mo pensiers per l'ambient u per la sanadad d'auters, na po betg forzar l'autoritad d'examinar u da sanar in lieu. Tgi che fa in'annunzia u pretenda in intervent, na daventa betg partida tras quai. In recurs en l'interess da la generalitad, savens numnà recurs popular, n'è betg admissibel. Dapli dretgs ha mo, tgi ch'è pli fitg tangì che la generalitad ed ha in agen avantatg persunal dal proceder, per exempel la proprietaria da la parcella tangida. Efficazs restan tuttina: in'annunzia bain motivada al post chantunal spezialisà per l'ambient, dumondas a la vischnanca, ina dumonda d'invista en mesiraziuns e rapports d'examinaziun e, sch'i na succeda nagut, ina indicaziun a l'autoritad da surveglianza che Voss chantun regla."
       },
-      "sources": ["bge-146-i-145", "bge-139-ii-279"]
+      "sources": [
+        "bge-146-i-145",
+        "bge-139-ii-279"
+      ]
     },
     {
       "id": "ask-for-information",
       "kind": "rule",
       "text": {
-        "de": "Der Kataster der belasteten Standorte ist öffentlich zugänglich. Viele Kantone zeigen ihn online auf ihrem Geoportal. Die Kantone veröffentlichen auch die Ergebnisse ihrer Bodenüberwachung. Die Behörden müssen die Öffentlichkeit über den Stand der Umweltbelastung informieren, und die Umweltfachstellen beraten auch Private. Sie dürfen dort also nachfragen, was über Ihr Grundstück, Ihren Garten oder einen Spielplatz bekannt ist. Möchten Sie Untersuchungsberichte oder Messergebnisse einsehen, fragen Sie schriftlich danach. Überwiegende private oder öffentliche Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben aber geschützt."
+        "de": "Der Kataster der belasteten Standorte ist öffentlich zugänglich. Viele Kantone zeigen ihn online auf ihrem Geoportal. Die Kantone veröffentlichen auch die Ergebnisse ihrer Bodenüberwachung. Die Behörden müssen die Öffentlichkeit über den Stand der Umweltbelastung informieren, und die Umweltfachstellen beraten auch Private. Sie dürfen dort also nachfragen, was über Ihr Grundstück, Ihren Garten oder einen Spielplatz bekannt ist. Möchten Sie Untersuchungsberichte oder Messergebnisse einsehen, fragen Sie schriftlich danach. Überwiegende private oder öffentliche Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben aber geschützt.",
+        "fr": "Le cadastre des sites pollués est accessible au public. De nombreux cantons le présentent en ligne sur leur géoportail. Les cantons publient aussi les résultats de leur surveillance des sols. Les autorités doivent informer le public sur l'état de la pollution de l'environnement, et les services de l'environnement conseillent aussi les particuliers. Vous pouvez donc vous y renseigner sur ce qui est connu concernant votre bien-fonds, votre jardin ou une place de jeux. Si vous souhaitez consulter des rapports d'investigation ou des résultats de mesure, demandez-le par écrit. Les intérêts prépondérants au maintien du secret, par exemple les secrets d'affaires, restent toutefois protégés.",
+        "it": "Il catasto dei siti inquinati è accessibile al pubblico. Molti Cantoni lo mostrano online sul loro geoportale. I Cantoni pubblicano anche i risultati della loro sorveglianza del suolo. Le autorità devono informare il pubblico sullo stato dell'inquinamento ambientale, e i servizi dell'ambiente consigliano anche i privati. Può quindi chiedere lì cosa si sa sul suo fondo, sul suo giardino o su un parco giochi. Se desidera consultare rapporti d'indagine o risultati di misurazioni, lo chieda per scritto. Restano tuttavia protetti gli interessi preponderanti, privati o pubblici, al mantenimento del segreto, per esempio i segreti d'affari.",
+        "en": "The register of polluted sites is publicly accessible. Many cantons show it online on their geoportal. The cantons also publish the results of their soil monitoring. The authorities must inform the public about the state of environmental pollution, and the environmental agencies also advise private individuals. So you may ask there what is known about your property, your garden or a playground. If you want to inspect investigation reports or measurement results, ask in writing. Overriding private or public interests in confidentiality, such as business secrets, remain protected, however.",
+        "rm": "Il cataster dals lieus contaminads è accessibel a la publicitad. Blers chantuns al mussan online sin lur geoportal. Ils chantuns publitgeschan er ils resultats da lur survegliaziun dal terren. Las autoritads ston infurmar la publicitad davart il stadi da la contaminaziun da l'ambient, ed ils posts spezialisads per l'ambient cusseglian er persunas privatas. Vus dastgais donc dumandar là, tge ch'è enconuschent davart Vossa parcella, Voss curtin u ina plazza da giugar. Vulais Vus consultar rapports d'examinaziun u resultats da mesiraziun, dumandai en scrit per quai. Interess predominants privats u publics da mantegnair il secret, per exempel secrets da fatschenta, restan dentant protegids."
       },
-      "sources": ["usg-32c", "vbbo-4", "usg-10e"]
+      "sources": [
+        "usg-32c",
+        "vbbo-4",
+        "usg-10e"
+      ]
     },
     {
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn die Behörde von Ihnen eine Untersuchung oder Sanierung verlangt, wenn Sie eine Kostenverteilungsverfügung erhalten oder wenn Sie ein eingetragenes Grundstück kaufen, verkaufen oder überbauen wollen. Hier geht es oft um grosse Beträge, und Rechtsmittelfristen sind kurz. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Baurecht kann prüfen, ob Sie sich auf Unkenntnis berufen können und wer sonst als Verursacher in Frage kommt. Für die technischen Fragen, etwa Probenahmen, braucht es in der Regel ein spezialisiertes Umweltbüro. Beim Kauf oder Verkauf kann die Notarin oder der Notar helfen, die Belastung im Vertrag zu regeln."
+        "de": "Holen Sie persönliche Beratung, wenn die Behörde von Ihnen eine Untersuchung oder Sanierung verlangt, wenn Sie eine Kostenverteilungsverfügung erhalten oder wenn Sie ein eingetragenes Grundstück kaufen, verkaufen oder überbauen wollen. Hier geht es oft um grosse Beträge, und Rechtsmittelfristen sind kurz. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Baurecht kann prüfen, ob Sie sich auf Unkenntnis berufen können und wer sonst als Verursacher in Frage kommt. Für die technischen Fragen, etwa Probenahmen, braucht es in der Regel ein spezialisiertes Umweltbüro. Beim Kauf oder Verkauf kann die Notarin oder der Notar helfen, die Belastung im Vertrag zu regeln.",
+        "fr": "Faites-vous conseiller personnellement si l'autorité exige de vous une investigation ou un assainissement, si vous recevez une décision de répartition des coûts, ou si vous voulez acheter, vendre ou construire sur un bien-fonds inscrit. Il s'agit souvent de montants importants, et les délais de recours sont courts. Une avocate ou un avocat expérimenté en droit de l'environnement ou de la construction peut examiner si vous pouvez invoquer votre ignorance et qui d'autre entre en ligne de compte comme responsable. Pour les questions techniques, par exemple les prélèvements, il faut en règle générale un bureau d'études spécialisé en environnement. Lors d'un achat ou d'une vente, la notaire ou le notaire peut aider à régler la pollution dans le contrat.",
+        "it": "Si faccia consigliare personalmente se l'autorità le richiede un'indagine o un risanamento, se riceve una decisione di ripartizione delle spese, oppure se vuole comprare, vendere o costruire su un fondo iscritto. Qui si tratta spesso di importi elevati, e i termini di ricorso sono brevi. Un'avvocata o un avvocato con esperienza in diritto ambientale o edilizio può verificare se può invocare l'ignoranza e chi altro entra in considerazione come responsabile. Per le questioni tecniche, per esempio il prelievo di campioni, serve di regola uno studio ambientale specializzato. In caso di acquisto o vendita, la notaia o il notaio può aiutare a disciplinare l'inquinamento nel contratto.",
+        "en": "Get personal advice if the authority demands an investigation or remediation from you, if you receive a ruling on the allocation of costs, or if you want to buy, sell or build on a registered property. Large sums are often at stake here, and time limits for legal remedies are short. A lawyer experienced in environmental or construction law can assess whether you can rely on being unaware, and who else might be considered a person responsible. For technical questions, such as taking samples, a specialised environmental consultancy is generally needed. When buying or selling, the notary can help to deal with the pollution in the contract.",
+        "rm": "Procurai consulaziun persunala, sche l'autoritad pretenda da Vus in'examinaziun u ina sanaziun, sche Vus survegnis ina disposiziun davart la repartiziun dals custs u sche Vus vulais cumprar, vender u surbajegiar ina parcella inscritta. Qua sa tracta savens da grondas summas, ed ils termins per in med legal èn curts. In'advocata u in advocat cun experientscha en il dretg da l'ambient u en il dretg da construcziun po examinar, sche Vus pudais sa referir a nunenconuschientscha e tgi auter che vegn en dumonda sco chaschunader. Per las dumondas tecnicas, per exempel prendas da probas, basegna i per regla in biro spezialisà per l'ambient. Tar il cumpra u la vendita po la notara u il notar gidar da reglar la contaminaziun en il contract."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose Anlaufstellen: Die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt genannt, beantwortet Fragen zum Kataster, zu Bodenbelastungen und zu Untersuchungen. Den Kataster der belasteten Standorte finden Sie meist auf dem Geoportal Ihres Kantons. Ihre Gemeinde weiss, wem öffentliche Spielplätze und Familiengärten gehören und ob dort Messungen gemacht wurden. Einen allgemeinen Überblick über belastete Standorte und Bodenschutz gibt das Bundesamt für Umwelt auf seiner Website."
+        "de": "Kostenlose Anlaufstellen: Die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt genannt, beantwortet Fragen zum Kataster, zu Bodenbelastungen und zu Untersuchungen. Den Kataster der belasteten Standorte finden Sie meist auf dem Geoportal Ihres Kantons. Ihre Gemeinde weiss, wem öffentliche Spielplätze und Familiengärten gehören und ob dort Messungen gemacht wurden. Einen allgemeinen Überblick über belastete Standorte und Bodenschutz gibt das Bundesamt für Umwelt auf seiner Website.",
+        "fr": "Services gratuits : le service cantonal de l'environnement de votre canton, souvent appelé office de l'environnement, répond aux questions sur le cadastre, les pollutions du sol et les investigations. Vous trouverez le cadastre des sites pollués le plus souvent sur le géoportail de votre canton. Votre commune sait à qui appartiennent les places de jeux publiques et les jardins familiaux, et si des mesures y ont été effectuées. L'Office fédéral de l'environnement donne, sur son site internet, un aperçu général des sites pollués et de la protection des sols.",
+        "it": "Recapiti gratuiti: il servizio dell'ambiente del suo Cantone, spesso chiamato ufficio dell'ambiente, risponde a domande sul catasto, sugli inquinamenti del suolo e sulle indagini. Trova il catasto dei siti inquinati di regola sul geoportale del suo Cantone. Il suo Comune sa a chi appartengono i parchi giochi pubblici e gli orti familiari e se lì sono state fatte misurazioni. Una panoramica generale sui siti inquinati e sulla protezione del suolo la offre l'Ufficio federale dell'ambiente sul suo sito.",
+        "en": "Free points of contact: your canton's environmental agency, often called the office for the environment, answers questions about the register, soil pollution and investigations. You will usually find the register of polluted sites on your canton's geoportal. Your municipality knows who owns public playgrounds and allotment gardens, and whether measurements have been taken there. The Federal Office for the Environment gives a general overview of polluted sites and soil protection on its website.",
+        "rm": "Postas d'agid gratuitas: il post spezialisà per l'ambient da Voss chantun, savens numnà Uffizi per l'ambient, respunda dumondas davart il cataster, davart contaminaziuns dal terren e davart examinaziuns. Il cataster dals lieus contaminads chattais Vus il pli savens sin il geoportal da Voss chantun. Vossa vischnanca sa, a tgi che tutgan plazzas da giugar publicas e curtins da famiglia e sche là èn vegnidas fatgas mesiraziuns. Ina survista generala davart lieus contaminads e protecziun dal terren dat l'Uffizi federal per l'ambient sin sia website."
       }
     }
   ],
@@ -508,19 +782,31 @@
   "official_links": [
     {
       "label": {
-        "de": "BAFU: Thema Altlasten"
+        "de": "BAFU: Thema Altlasten",
+        "fr": "OFEV : thème des sites contaminés",
+        "it": "UFAM: Tema siti contaminati",
+        "en": "FOEN: Contaminated sites",
+        "rm": "UFAM: Tema Lieus contaminads"
       },
       "url": "https://www.bafu.admin.ch/de/altlasten"
     },
     {
       "label": {
-        "de": "BAFU: Thema Boden"
+        "de": "BAFU: Thema Boden",
+        "fr": "OFEV : thème du sol",
+        "it": "UFAM: Tema suolo",
+        "en": "FOEN: Soil",
+        "rm": "UFAM: Tema Terren"
       },
       "url": "https://www.bafu.admin.ch/de/boden"
     },
     {
       "label": {
-        "de": "BAFU: Chemische Bodenbelastungen"
+        "de": "BAFU: Chemische Bodenbelastungen",
+        "fr": "OFEV : pollutions chimiques des sols",
+        "it": "UFAM: Inquinamenti chimici del suolo",
+        "en": "FOEN: Chemical soil pollution",
+        "rm": "UFAM: Contaminaziuns chemicas dal terren"
       },
       "url": "https://www.bafu.admin.ch/de/chemische-bodenbelastungen"
     }

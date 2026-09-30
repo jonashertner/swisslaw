@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Strassen- oder Bahnlärm: Was kann ich verlangen?"
+    "de": "Strassen- oder Bahnlärm: Was kann ich verlangen?",
+    "fr": "Bruit routier ou ferroviaire : que puis-je exiger ?",
+    "it": "Rumore di strada o ferrovia: cosa posso pretendere?",
+    "en": "Road or rail noise: what can I demand?",
+    "rm": "Canera da via u da viafier: Tge poss jau pretender?"
   },
   "summary": {
-    "de": "Eine Strasse oder Bahnlinie vor Ihrem Haus ist so laut, dass Sie schlecht schlafen. Dieser Leitfaden erklärt, welche Grenzwerte gelten, wie Sie erfahren, wie laut es bei Ihnen ist, wann eine Strasse oder Bahn saniert werden muss und welche Massnahmen möglich sind: Tempo 30, ein lärmarmer Belag, eine Lärmschutzwand und erst als letztes Mittel Schallschutzfenster. Er zeigt, wer zahlt, wie Sie bei geplanten Projekten rechtzeitig Einsprache erheben und was Sie tun können, wenn Sie nicht selbst betroffen sind."
+    "de": "Eine Strasse oder Bahnlinie vor Ihrem Haus ist so laut, dass Sie schlecht schlafen. Dieser Leitfaden erklärt, welche Grenzwerte gelten, wie Sie erfahren, wie laut es bei Ihnen ist, wann eine Strasse oder Bahn saniert werden muss und welche Massnahmen möglich sind: Tempo 30, ein lärmarmer Belag, eine Lärmschutzwand und erst als letztes Mittel Schallschutzfenster. Er zeigt, wer zahlt, wie Sie bei geplanten Projekten rechtzeitig Einsprache erheben und was Sie tun können, wenn Sie nicht selbst betroffen sind.",
+    "fr": "Une route ou une ligne ferroviaire devant chez vous est si bruyante que vous dormez mal. Ce guide explique quelles valeurs limites s'appliquent, comment savoir combien de bruit vous subissez, quand une route ou une voie ferrée doit être assainie et quelles mesures sont possibles : zone 30, un revêtement peu bruyant, un mur antibruit et, en dernier recours seulement, des fenêtres antibruit. Il montre qui paie, comment faire opposition à temps aux projets prévus, et ce que vous pouvez faire si vous n'êtes pas vous-même touché.",
+    "it": "Una strada o una linea ferroviaria davanti a casa sua è così rumorosa che dorme male. Questa guida spiega quali valori limite si applicano, come sapere quanto rumore c'è da lei, quando una strada o una ferrovia deve essere risanata e quali misure sono possibili: il Tempo 30, un rivestimento fonoassorbente, un muro antirumore e, solo come ultima risorsa, finestre insonorizzate. Mostra chi paga, come presentare tempestivamente opposizione nei progetti pianificati e cosa può fare se non è lei stesso il diretto interessato.",
+    "en": "A road or railway line outside your house is so loud that you sleep badly. This guide explains which limit values apply, how you can find out how loud it is at your home, when a road or railway must be improved, and which measures are possible: a 30 km/h zone, a low-noise road surface, a noise barrier and, only as a last resort, soundproof windows. It shows who pays, how to object in time to planned projects, and what you can do if you are not personally affected.",
+    "rm": "Ina via u ina lingia da viafier avant Voss chasa è uschè canerusa che Vus durmis mal. Questa guida declera, tge limitas che valan, co Vus emprendais, quant fitg canerus ch'i è tar Vus, cur ch'ina via u ina viafier sto vegnir sanada e tge mesiras che sa entran en dumonda: Tempo 30, in tapet pauc canerus, in mir da protecziun cunter la canera e pir sco ultim med fanestras isoladas cunter la canera. Ella mussa tgi che paja, co Vus fais protesta a temp tar projects planisads e tge che Vus pudais far, sche Vus n'essas betg tangids Vus sezs."
   },
   "examples": {
     "de": [
@@ -19,39 +27,95 @@
       "Die SBB bauen die Strecke aus. Gibts eine Lärmschutzwand, und bis wann muss ich reklamieren?",
       "Ich wohne zur Miete direkt an der Hauptstrasse, es ist brutal laut. Was kann ich als Mieter machen?",
       "Wie finde ich heraus, wie viele Dezibel wir am Stubenfenster haben?"
+    ],
+    "fr": [
+      "Devant notre maison, des camions vrombissent jour et nuit. Est-ce que quelqu'un ne devrait pas enfin faire quelque chose ?",
+      "Qui me paie des fenêtres antibruit si la route cantonale est si bruyante ?",
+      "Puis-je demander qu'on instaure une zone 30 chez nous, sur la rue principale ?",
+      "Les CFF agrandissent la ligne. Y aura-t-il un mur antibruit, et jusqu'à quand dois-je réclamer ?",
+      "J'habite à la location directement sur la rue principale, c'est terriblement bruyant. Que puis-je faire en tant que locataire ?",
+      "Comment savoir combien de décibels nous avons à la fenêtre du salon ?"
+    ],
+    "it": [
+      "Davanti a casa nostra passano camion giorno e notte con un rumore assordante. Non dovrebbe fare qualcosa qualcuno?",
+      "Chi mi paga le finestre insonorizzate se la strada cantonale è così rumorosa?",
+      "Posso chiedere che da noi, sulla strada principale, venga introdotto il Tempo 30?",
+      "Le FFS ampliano la linea. C'è un muro antirumore, e entro quando devo fare opposizione?",
+      "Vivo in affitto proprio sulla strada principale, il rumore è pazzesco. Cosa posso fare come inquilino?",
+      "Come faccio a sapere quanti decibel arrivano alla finestra del soggiorno?"
+    ],
+    "en": [
+      "Lorries thunder past our house day and night. Doesn't someone finally have to do something about that?",
+      "Who pays for soundproof windows if the cantonal road is so loud?",
+      "Can I demand that a 30 km/h limit be introduced on our main road?",
+      "The Swiss Federal Railways are expanding the line. Will there be a noise barrier, and by when do I have to object?",
+      "I rent right on the main road, and it's brutally loud. What can I do as a tenant?",
+      "How do I find out how many decibels we have at the living-room window?"
+    ],
+    "rm": [
+      "Avant noss chasa tunan camiuns di e notg. Na sto insatgi finalmain far insatge?",
+      "Tgi paja a mai fanestras isoladas cunter la canera, sche la via chantunala è uschè canerusa?",
+      "Poss jau pretender che tar nus, vi da la via principala, vegnia introducì Tempo 30?",
+      "Las Viafiers federalas engrondeschan la lingia. Dat i in mir da protecziun cunter la canera, e fin quandi stoss jau reclamar?",
+      "Jau vign a moda locativa directamain vi da la via principala, i è terribel canerus. Tge poss jau far sco locatari?",
+      "Co survegn jau a savair, quants decibels ch'i dat tar noss fanestra da la stiva?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Lärm von bestehenden und geplanten Strassen und Bahnlinien: Grenzwerte und Empfindlichkeitsstufen, Lärmbelastungskataster und Auskunftsrechte, Sanierungspflicht und Erleichterungen, Tempo 30, lärmarme Beläge, Lärmschutzwände, Schallschutzfenster und ihre Kosten, Einsprachen bei Bundesprojekten, der Weg zu einem anfechtbaren Entscheid und die Möglichkeiten für Personen, die nicht selbst besonders betroffen sind."
+      "de": "Lärm von bestehenden und geplanten Strassen und Bahnlinien: Grenzwerte und Empfindlichkeitsstufen, Lärmbelastungskataster und Auskunftsrechte, Sanierungspflicht und Erleichterungen, Tempo 30, lärmarme Beläge, Lärmschutzwände, Schallschutzfenster und ihre Kosten, Einsprachen bei Bundesprojekten, der Weg zu einem anfechtbaren Entscheid und die Möglichkeiten für Personen, die nicht selbst besonders betroffen sind.",
+      "fr": "Le bruit des routes et lignes ferroviaires existantes et projetées : valeurs limites et degrés de sensibilité, cadastre de bruit et droits à l'information, obligation d'assainir et allégements, zone 30, revêtements peu bruyants, murs antibruit, fenêtres antibruit et leurs frais, oppositions aux projets fédéraux, la voie vers une décision attaquable et les possibilités pour les personnes qui ne sont pas elles-mêmes particulièrement touchées.",
+      "it": "Il rumore di strade e linee ferroviarie esistenti e pianificate: valori limite e gradi di sensibilità, catasto dei rumori e diritti d'informazione, obbligo di risanamento e facilitazioni, il Tempo 30, rivestimenti fonoassorbenti, muri antirumore, finestre insonorizzate e i loro costi, opposizioni nei progetti federali, la via per ottenere una decisione impugnabile e le possibilità per chi non è personalmente e particolarmente toccato.",
+      "en": "Noise from existing and planned roads and railway lines: limit values and sensitivity levels, the noise pollution register and rights of access to information, the duty to improve and concessions, 30 km/h zones, low-noise road surfaces, noise barriers, soundproof windows and their costs, objections to federal projects, the route to a challengeable decision, and the options for people who are not themselves especially affected.",
+      "rm": "Canera da vias e lingias da viafier existentas e planisadas: limitas e stgalims da sensibilitad, cataster da la canera e dretgs d'infurmaziun, obligaziun da sanaziun e facilitaziuns, Tempo 30, tapets pauc canerus, mirs da protecziun cunter la canera, fanestras isoladas cunter la canera e lur custs, protestas tar projects federals, la via tar ina disposiziun contestabla e las pussaivladads per persunas che n'èn betg spezialmain tangidas sezzas."
     },
     "excludes": {
-      "de": "Lärm von Nachbarn, zum Beispiel von Wärmepumpen oder Partys, ist ein eigenes Thema. Für Fluglärm und Schiesslärm gelten besondere Regeln; sie sind hier nicht behandelt. Ebenfalls nicht behandelt sind Baustellenlärm, Lärm von Betrieben, Mietzinsherabsetzungen im Einzelnen sowie kantonale Einsprache- und Beschwerdefristen, die von Kanton zu Kanton verschieden sind."
+      "de": "Lärm von Nachbarn, zum Beispiel von Wärmepumpen oder Partys, ist ein eigenes Thema. Für Fluglärm und Schiesslärm gelten besondere Regeln; sie sind hier nicht behandelt. Ebenfalls nicht behandelt sind Baustellenlärm, Lärm von Betrieben, Mietzinsherabsetzungen im Einzelnen sowie kantonale Einsprache- und Beschwerdefristen, die von Kanton zu Kanton verschieden sind.",
+      "fr": "Le bruit des voisins, par exemple des pompes à chaleur ou des fêtes, est un thème à part. Pour le bruit des aéronefs et le bruit de tir, des règles particulières s'appliquent ; elles ne sont pas traitées ici. Ne sont pas non plus traités le bruit de chantier, le bruit des entreprises, les réductions de loyer dans le détail, ni les délais cantonaux d'opposition et de recours, qui varient d'un canton à l'autre.",
+      "it": "Il rumore dei vicini, per esempio di pompe di calore o feste, è un tema a parte. Per il rumore aereo e il rumore da tiro valgono regole particolari; non sono trattati qui. Non sono trattati nemmeno il rumore dei cantieri, il rumore delle aziende, le riduzioni della pigione nel dettaglio, né i termini cantonali di opposizione e di ricorso, che variano da Cantone a Cantone.",
+      "en": "Noise from neighbours, for example from heat pumps or parties, is a separate topic. Special rules apply to aircraft noise and shooting noise; they are not covered here. Also not covered are building-site noise, noise from businesses, rent reductions in detail, and cantonal objection and appeal time limits, which differ from canton to canton.",
+      "rm": "Rumur da vischins, per exempel da pumpas da chalur u da festas, è in tema separà. Per canera d'aviaziun e canera da tir valan reglas spezialas; ellas na vegnan betg tractadas qua. Er na vegnan betg tractads canera da fossas da construcziun, canera d'interpresas, reducziuns dal tschains da locaziun en detagl sco er termins chantunals da protesta e da recurs che differeschan da chantun a chantun."
     }
   },
   "facts": [
     {
       "key": "quelle",
       "question": {
-        "de": "Woher kommt der Lärm?"
+        "de": "Woher kommt der Lärm?",
+        "fr": "D'où vient le bruit ?",
+        "it": "Da dove viene il rumore?",
+        "en": "Where does the noise come from?",
+        "rm": "Dad ingio vegn la canera?"
       },
       "options": [
         {
           "value": "strasse",
           "label": {
-            "de": "Von einer Strasse"
+            "de": "Von einer Strasse",
+            "fr": "D'une route",
+            "it": "Da una strada",
+            "en": "From a road",
+            "rm": "D'ina via"
           }
         },
         {
           "value": "bahn",
           "label": {
-            "de": "Von einer Bahnlinie"
+            "de": "Von einer Bahnlinie",
+            "fr": "D'une ligne ferroviaire",
+            "it": "Da una linea ferroviaria",
+            "en": "From a railway line",
+            "rm": "D'ina lingia da viafier"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht oder beides"
+            "de": "Weiss ich nicht oder beides",
+            "fr": "Je ne sais pas, ou les deux",
+            "it": "Non lo so o entrambi",
+            "en": "I don't know, or both",
+            "rm": "Na sai betg u tuts dus"
           }
         }
       ]
@@ -59,25 +123,41 @@
     {
       "key": "rolle",
       "question": {
-        "de": "Wohnen Sie im eigenen Haus oder zur Miete?"
+        "de": "Wohnen Sie im eigenen Haus oder zur Miete?",
+        "fr": "Habitez-vous dans votre propre logement ou à la location ?",
+        "it": "Abita in una casa di sua proprietà o in affitto?",
+        "en": "Do you live in your own home or rent?",
+        "rm": "Abitais Vus en Vossa atgna chasa u a moda locativa?"
       },
       "options": [
         {
           "value": "eigentum",
           "label": {
-            "de": "Mir gehört das Haus oder die Wohnung"
+            "de": "Mir gehört das Haus oder die Wohnung",
+            "fr": "La maison ou l'appartement m'appartient",
+            "it": "La casa o l'appartamento sono miei",
+            "en": "The house or flat belongs to me",
+            "rm": "A mai tutga la chasa u l'abitaziun"
           }
         },
         {
           "value": "miete",
           "label": {
-            "de": "Ich wohne zur Miete"
+            "de": "Ich wohne zur Miete",
+            "fr": "J'habite à la location",
+            "it": "Vivo in affitto",
+            "en": "I rent",
+            "rm": "Jau vign a moda locativa"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -85,28 +165,48 @@
     {
       "key": "lage",
       "question": {
-        "de": "Geht es um eine bestehende Strasse oder Bahn oder um ein Bauprojekt?"
+        "de": "Geht es um eine bestehende Strasse oder Bahn oder um ein Bauprojekt?",
+        "fr": "S'agit-il d'une route ou d'une voie ferrée existante, ou d'un projet de construction ?",
+        "it": "Si tratta di una strada o ferrovia esistente o di un progetto edilizio?",
+        "en": "Is this about an existing road or railway, or about a construction project?",
+        "rm": "Sa tracta d'ina via u viafier existenta u d'in project da construcziun?"
       },
       "help": {
-        "de": "Ein Projekt ist zum Beispiel ein Neubau, ein Ausbau oder ein grösserer Umbau der Strasse oder Bahnlinie."
+        "de": "Ein Projekt ist zum Beispiel ein Neubau, ein Ausbau oder ein grösserer Umbau der Strasse oder Bahnlinie.",
+        "fr": "Un projet est par exemple une nouvelle construction, un agrandissement ou une transformation importante de la route ou de la ligne ferroviaire.",
+        "it": "Un progetto è per esempio una nuova costruzione, un ampliamento o una trasformazione importante della strada o della linea ferroviaria.",
+        "en": "A project is, for example, a new road or railway line, an expansion, or a larger rebuilding of one.",
+        "rm": "In project è per exempel ina construcziun nova, in engrondiment u ina pli gronda renovaziun da la via u da la lingia da viafier."
       },
       "options": [
         {
           "value": "bestehend",
           "label": {
-            "de": "Die Strasse oder Bahn ist schon da, gebaut wird nichts"
+            "de": "Die Strasse oder Bahn ist schon da, gebaut wird nichts",
+            "fr": "La route ou la voie ferrée existe déjà, rien n'est construit",
+            "it": "La strada o la ferrovia esiste già, non si costruisce nulla",
+            "en": "The road or railway is already there, and nothing is being built",
+            "rm": "La via u la viafier è gia là, na vegn construì nagut"
           }
         },
         {
           "value": "projekt",
           "label": {
-            "de": "Es ist ein Neubau, Ausbau oder Umbau geplant"
+            "de": "Es ist ein Neubau, Ausbau oder Umbau geplant",
+            "fr": "Une nouvelle construction, un agrandissement ou une transformation est prévu",
+            "it": "È previsto un nuovo impianto, un ampliamento o una trasformazione",
+            "en": "A new build, expansion or rebuilding is planned",
+            "rm": "È planisada ina construcziun nova, in engrondiment u ina renovaziun"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -114,31 +214,51 @@
     {
       "key": "anliegen",
       "question": {
-        "de": "Was möchten Sie vor allem erreichen?"
+        "de": "Was möchten Sie vor allem erreichen?",
+        "fr": "Que voulez-vous obtenir avant tout ?",
+        "it": "Cosa vuole ottenere soprattutto?",
+        "en": "What would you mainly like to achieve?",
+        "rm": "Tge vulais Vus survetut cuntanscher?"
       },
       "options": [
         {
           "value": "info",
           "label": {
-            "de": "Wissen, wie laut es bei mir ist"
+            "de": "Wissen, wie laut es bei mir ist",
+            "fr": "Savoir combien de bruit je subis chez moi",
+            "it": "Sapere quanto rumore c'è da me",
+            "en": "Find out how loud it is at my home",
+            "rm": "Savair, quant fitg canerus ch'i è tar mai"
           }
         },
         {
           "value": "quelle",
           "label": {
-            "de": "Weniger Lärm, zum Beispiel mit Tempo 30, leiserem Belag oder einer Wand"
+            "de": "Weniger Lärm, zum Beispiel mit Tempo 30, leiserem Belag oder einer Wand",
+            "fr": "Moins de bruit, par exemple avec une zone 30, un revêtement plus silencieux ou un mur",
+            "it": "Meno rumore, per esempio con il Tempo 30, un rivestimento più silenzioso o un muro",
+            "en": "Less noise, for example with a 30 km/h limit, a quieter surface or a barrier",
+            "rm": "Damain canera, per exempel cun Tempo 30, in tapet pli quiet u in mir"
           }
         },
         {
           "value": "fenster",
           "label": {
-            "de": "Schallschutzfenster"
+            "de": "Schallschutzfenster",
+            "fr": "Des fenêtres antibruit",
+            "it": "Finestre insonorizzate",
+            "en": "Soundproof windows",
+            "rm": "Fanestras isoladas cunter la canera"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -149,7 +269,11 @@
       "id": "grenzwerte",
       "kind": "rule",
       "text": {
-        "de": "Der Bund legt für Strassen- und Bahnlärm drei Arten von Grenzwerten fest. Zentral sind die Immissionsgrenzwerte: Bleibt der Lärm darunter, stört er das Wohlbefinden nach heutigem Wissen nicht erheblich. Die tieferen Planungswerte gelten für neue Strassen und Bahnlinien. Die höheren Alarmwerte zeigen, wie dringend eine Sanierung ist.\n\nWelcher Wert für Ihre Wohnung gilt, hängt von der Empfindlichkeitsstufe der Zone ab. Reine Wohnzonen haben in der Regel Stufe II, gemischte Wohn- und Gewerbezonen sowie Landwirtschaftszonen Stufe III. Die Stufe steht im Zonenplan oder im Baureglement Ihrer Gemeinde.\n\nFür Strassen und Bahnen gelten diese Werte: In Stufe II liegt der Immissionsgrenzwert bei 60 dB(A) am Tag und 50 dB(A) in der Nacht, in Stufe III bei 65 und 55 dB(A). Der Alarmwert liegt in beiden Stufen bei 70 dB(A) am Tag und 65 dB(A) in der Nacht. Tag heisst 6 bis 22 Uhr.\n\nMassgebend ist der Lärm in der Mitte des offenen Fensters von Wohn- und Schlafzimmern; Küchen ohne Wohnteil, Bad und Abstellräume zählen nicht. Die Werte sind Durchschnittswerte über die Tages- oder die Nachtzeit. Ein einzelner lauter Lastwagen oder Zug überschreitet sie also nicht automatisch."
+        "de": "Der Bund legt für Strassen- und Bahnlärm drei Arten von Grenzwerten fest. Zentral sind die Immissionsgrenzwerte: Bleibt der Lärm darunter, stört er das Wohlbefinden nach heutigem Wissen nicht erheblich. Die tieferen Planungswerte gelten für neue Strassen und Bahnlinien. Die höheren Alarmwerte zeigen, wie dringend eine Sanierung ist.\n\nWelcher Wert für Ihre Wohnung gilt, hängt von der Empfindlichkeitsstufe der Zone ab. Reine Wohnzonen haben in der Regel Stufe II, gemischte Wohn- und Gewerbezonen sowie Landwirtschaftszonen Stufe III. Die Stufe steht im Zonenplan oder im Baureglement Ihrer Gemeinde.\n\nFür Strassen und Bahnen gelten diese Werte: In Stufe II liegt der Immissionsgrenzwert bei 60 dB(A) am Tag und 50 dB(A) in der Nacht, in Stufe III bei 65 und 55 dB(A). Der Alarmwert liegt in beiden Stufen bei 70 dB(A) am Tag und 65 dB(A) in der Nacht. Tag heisst 6 bis 22 Uhr.\n\nMassgebend ist der Lärm in der Mitte des offenen Fensters von Wohn- und Schlafzimmern; Küchen ohne Wohnteil, Bad und Abstellräume zählen nicht. Die Werte sind Durchschnittswerte über die Tages- oder die Nachtzeit. Ein einzelner lauter Lastwagen oder Zug überschreitet sie also nicht automatisch.",
+        "fr": "La Confédération fixe trois types de valeurs limites pour le bruit routier et ferroviaire. Les valeurs limites d'immission sont centrales : si le bruit reste en dessous, il ne perturbe pas sensiblement le bien-être selon les connaissances actuelles. Les valeurs de planification, plus basses, s'appliquent aux nouvelles routes et lignes ferroviaires. Les valeurs d'alarme, plus élevées, indiquent l'urgence d'un assainissement.\n\nLa valeur qui s'applique à votre logement dépend du degré de sensibilité de la zone. Les zones d'habitation pures ont en règle générale le degré II, les zones mixtes d'habitation et artisanales ainsi que les zones agricoles le degré III. Le degré figure dans le plan de zones ou le règlement des constructions de votre commune.\n\nPour les routes et les voies ferrées, ces valeurs s'appliquent : au degré II, la valeur limite d'immission est de 60 dB(A) le jour et 50 dB(A) la nuit ; au degré III, de 65 et 55 dB(A). La valeur d'alarme est, dans les deux degrés, de 70 dB(A) le jour et 65 dB(A) la nuit. Le jour va de 6 à 22 heures.\n\nEst déterminant le bruit mesuré au milieu de la fenêtre ouverte des chambres à coucher et des séjours ; les cuisines sans coin à manger, les salles de bains et les débarras ne comptent pas. Les valeurs sont des moyennes sur la période de jour ou de nuit. Un seul camion ou train bruyant ne les dépasse donc pas automatiquement.",
+        "it": "La Confederazione fissa per il rumore di strade e ferrovie tre tipi di valori limite. Centrali sono i valori limite d'immissione: se il rumore resta al di sotto, secondo le conoscenze attuali non disturba in modo rilevante il benessere. I valori di pianificazione, più bassi, valgono per le nuove strade e linee ferroviarie. I valori d'allarme, più alti, indicano quanto è urgente un risanamento.\n\nQuale valore si applica al suo appartamento dipende dal grado di sensibilità della zona. Le zone puramente residenziali hanno di regola il grado II, le zone miste residenziali e artigianali nonché le zone agricole il grado III. Il grado è indicato nel piano delle zone o nel regolamento edilizio del suo Comune.\n\nPer strade e ferrovie valgono questi valori: nel grado II il valore limite d'immissione è di 60 dB(A) di giorno e 50 dB(A) di notte, nel grado III di 65 e 55 dB(A). Il valore d'allarme è, in entrambi i gradi, di 70 dB(A) di giorno e 65 dB(A) di notte. Giorno significa dalle 6 alle 22.\n\nDeterminante è il rumore rilevato al centro della finestra aperta di soggiorni e camere da letto; cucine senza zona giorno, bagni e ripostigli non contano. I valori sono medie sul periodo diurno o notturno. Un singolo camion o treno rumoroso non li supera quindi automaticamente.",
+        "en": "The Confederation sets three kinds of limit values for road and rail noise. Central are the impact thresholds: if the noise stays below them, it does not, according to current knowledge, significantly disturb well-being. The lower planning values apply to new roads and railway lines. The higher alarm values show how urgent an improvement is.\n\nWhich value applies to your home depends on the sensitivity level of the zone. Pure residential zones generally have level II, and mixed residential and commercial zones and agricultural zones have level III. The level is stated in your municipality's zoning plan or building regulations.\n\nFor roads and railways, these values apply: in level II, the impact threshold is 60 dB(A) by day and 50 dB(A) at night, and in level III, 65 and 55 dB(A). The alarm value is 70 dB(A) by day and 65 dB(A) at night in both levels. Day means 6 to 22 hours.\n\nWhat counts is the noise level in the middle of the open window of living rooms and bedrooms; kitchens without a living area, bathrooms and storerooms do not count. The values are average values over the daytime or night-time period. A single loud lorry or train does not therefore automatically exceed them.",
+        "rm": "La Confederaziun fixescha per la canera da via e da viafier trais sorts da limitas. Centralas èn las limitas d'immissiuns: resta la canera sut quellas, na disturba ella, tenor il savair actual, betg considerablamain il bainstar. Las pli bassas valurs da planisaziun valan per novas vias e lingias da viafier. Las pli autas limitas d'alarm mussan, quant urgenta ch'ina sanaziun è.\n\nTge valur che vala per Vossa abitaziun, dependa dal stgalim da sensibilitad da la zona. Zonas d'abitar puras han per regla il stgalim II, zonas maschadadas d'abitar e da commerzi sco er zonas agriculas il stgalim III. Il stgalim stat en il plan da zonas u en il reglament da construcziun da Vossa vischnanca.\n\nPer vias e viafiers valan questas valurs: en il stgalim II importa la limita d'immissiuns 60 dB(A) durant il di e 50 dB(A) durant la notg, en il stgalim III 65 e 55 dB(A). La limita d'alarm importa en tuts dus stgalims 70 dB(A) durant il di e 65 dB(A) durant la notg. Di signifitga da las 6 fin a las 22.\n\nDecisiva è la canera en il center da la fanestra averta da locals d'abitar e da chombras da durmir; cuschinas senza part d'abitar, bogn e locals da deposit na quintan betg. Las valurs èn valurs medias sur il temp dal di u da la notg. In sulet camiun u tren canerus na surpassa donc betg automaticamain questas valurs."
       },
       "sources": [
         "usg-13",
@@ -166,7 +290,11 @@
       "id": "laermkataster",
       "kind": "rule",
       "text": {
-        "de": "Wie laut es bei Ihnen ist, müssen Sie nicht selbst messen. Die zuständige Behörde muss den Lärm ermitteln, wenn sie Grund zur Annahme hat, dass die Grenzwerte überschritten sind. Das Ergebnis hält sie für Strassen und Bahnen in einem Lärmbelastungskataster fest. Darin stehen unter anderem die ermittelte Belastung, die Empfindlichkeitsstufe und wem die Strasse oder Bahnanlage gehört.\n\nJede Person darf diesen Kataster einsehen. Zuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das Bundesamt für Strassen (ASTRA) und bei Bahnanlagen das Bundesamt für Verkehr (BAV).\n\nIm Internet zeigen Karten des Bundes und der Kantone die Lärmbelastung als Überblick. Für die Werte an Ihrem Haus fragen Sie am besten direkt die kantonale Lärmschutzfachstelle oder, bei einer Bahnlinie, das BAV."
+        "de": "Wie laut es bei Ihnen ist, müssen Sie nicht selbst messen. Die zuständige Behörde muss den Lärm ermitteln, wenn sie Grund zur Annahme hat, dass die Grenzwerte überschritten sind. Das Ergebnis hält sie für Strassen und Bahnen in einem Lärmbelastungskataster fest. Darin stehen unter anderem die ermittelte Belastung, die Empfindlichkeitsstufe und wem die Strasse oder Bahnanlage gehört.\n\nJede Person darf diesen Kataster einsehen. Zuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das Bundesamt für Strassen (ASTRA) und bei Bahnanlagen das Bundesamt für Verkehr (BAV).\n\nIm Internet zeigen Karten des Bundes und der Kantone die Lärmbelastung als Überblick. Für die Werte an Ihrem Haus fragen Sie am besten direkt die kantonale Lärmschutzfachstelle oder, bei einer Bahnlinie, das BAV.",
+        "fr": "Vous n'avez pas besoin de mesurer vous-même le bruit chez vous. L'autorité compétente doit déterminer le bruit lorsqu'elle a des raisons de penser que les valeurs limites sont dépassées. Elle consigne le résultat pour les routes et les voies ferrées dans un cadastre de bruit. Y figurent notamment la pollution déterminée, le degré de sensibilité et le propriétaire de la route ou de l'installation ferroviaire.\n\nToute personne peut consulter ce cadastre. Pour les routes cantonales et communales, le canton est compétent ; pour les routes nationales, l'Office fédéral des routes (OFROU) ; pour les installations ferroviaires, l'Office fédéral des transports (OFT).\n\nSur internet, des cartes de la Confédération et des cantons montrent la pollution sonore en aperçu. Pour les valeurs à votre domicile, demandez de préférence directement au service cantonal de protection contre le bruit ou, pour une ligne ferroviaire, à l'OFT.",
+        "it": "Non deve misurare lei stesso quanto rumore c'è da lei. L'autorità competente deve rilevare il rumore quando ha motivo di ritenere che i valori limite siano superati. Il risultato lo registra, per strade e ferrovie, in un catasto dei rumori. Vi figurano tra l'altro il carico fonico rilevato, il grado di sensibilità e a chi appartiene la strada o l'impianto ferroviario.\n\nChiunque può consultare questo catasto. Competente è, per le strade cantonali e comunali, il Cantone, per le strade nazionali l'Ufficio federale delle strade (USTRA) e per gli impianti ferroviari l'Ufficio federale dei trasporti (UFT).\n\nIn Internet, carte della Confederazione e dei Cantoni mostrano il carico fonico come quadro d'insieme. Per i valori a casa sua, si informi meglio direttamente presso il servizio cantonale di protezione contro il rumore o, per una linea ferroviaria, presso l'UFT.",
+        "en": "You do not have to measure how loud it is at your home yourself. The responsible authority must establish the noise level if it has reason to believe that the limit values are being exceeded. It records the result for roads and railways in a noise pollution register. Among other things, this states the pollution found, the sensitivity level, and who owns the road or railway installation.\n\nAnyone may inspect this register. The canton is responsible for cantonal and municipal roads, the Federal Roads Office (FEDRO) for national roads, and the Federal Office of Transport (FOT) for railway installations.\n\nOnline, maps published by the Confederation and the cantons show noise pollution as an overview. For the values at your house, it is best to ask the cantonal noise protection agency directly, or, for a railway line, the FOT.",
+        "rm": "Quant fitg canerus ch'i è tar Vus, na stuais Vus betg mesirar Vus sezs. L'autoritad cumpetenta sto rilevar la canera, sch'ella ha motiv da supponer che las limitas sajan surpassadas. Il resultat tegn ella ferm, per vias e viafiers, en in cataster da la canera. Là stat, tranter auter, la contaminaziun rilevada, il stgalim da sensibilitad e a tgi che tutga la via u l'installaziun da viafier.\n\nMintga persuna dastga consultar quest cataster. Cumpetent è, tar vias chantunalas e communalas, il chantun, tar vias naziunalas l'Uffizi federal da vias (ASTRA) e tar installaziuns da viafier l'Uffizi federal da traffic (BAV).\n\nEn internet mussan cartas da la Confederaziun e dals chantuns la contaminaziun da canera sco survista. Per las valurs a Vossa chasa dumandai il meglier directamain il post chantunal spezialisà per la protecziun cunter la canera u, tar ina lingia da viafier, il BAV."
       },
       "sources": [
         "lsv-36",
@@ -184,7 +312,11 @@
         ]
       },
       "text": {
-        "de": "Sie dürfen Umweltinformationen in amtlichen Dokumenten einsehen und dazu Auskunft verlangen. Dazu gehören zum Beispiel Lärmberechnungen, ein Sanierungsprojekt für Ihre Strasse oder der Entscheid, mit dem eine Behörde Erleichterungen gewährt hat.\n\nBei Bundesbehörden wie ASTRA und BAV gilt das Öffentlichkeitsgesetz des Bundes: Jede Person hat Zugang, und Sie müssen nicht begründen, wozu Sie die Dokumente wollen. Bei kantonalen und kommunalen Behörden richtet sich der Zugang nach dem Recht Ihres Kantons. Fehlen dort Regeln, gelten die Bundesregeln sinngemäss.\n\nStellen Sie Ihr Gesuch schriftlich und nennen Sie die Strasse oder Bahnstrecke und den Abschnitt möglichst genau."
+        "de": "Sie dürfen Umweltinformationen in amtlichen Dokumenten einsehen und dazu Auskunft verlangen. Dazu gehören zum Beispiel Lärmberechnungen, ein Sanierungsprojekt für Ihre Strasse oder der Entscheid, mit dem eine Behörde Erleichterungen gewährt hat.\n\nBei Bundesbehörden wie ASTRA und BAV gilt das Öffentlichkeitsgesetz des Bundes: Jede Person hat Zugang, und Sie müssen nicht begründen, wozu Sie die Dokumente wollen. Bei kantonalen und kommunalen Behörden richtet sich der Zugang nach dem Recht Ihres Kantons. Fehlen dort Regeln, gelten die Bundesregeln sinngemäss.\n\nStellen Sie Ihr Gesuch schriftlich und nennen Sie die Strasse oder Bahnstrecke und den Abschnitt möglichst genau.",
+        "fr": "Vous avez le droit de consulter les informations sur l'environnement contenues dans des documents officiels et d'en demander le contenu. En font partie par exemple des calculs de bruit, un projet d'assainissement pour votre route ou la décision par laquelle une autorité a accordé des allégements.\n\nPour les autorités fédérales comme l'OFROU et l'OFT, la loi fédérale sur la transparence s'applique : toute personne y a accès, et vous n'avez pas à justifier pourquoi vous voulez ces documents. Pour les autorités cantonales et communales, l'accès se règle selon le droit de votre canton. En l'absence de règles cantonales, les règles fédérales s'appliquent par analogie.\n\nDéposez votre demande par écrit et indiquez la route ou le tronçon ferroviaire et le secteur aussi précisément que possible.",
+        "it": "Può consultare le informazioni ambientali contenute in documenti ufficiali e chiedere al riguardo informazioni. Ne fanno parte, per esempio, i calcoli del rumore, un progetto di risanamento per la sua strada o la decisione con cui un'autorità ha accordato facilitazioni.\n\nPresso le autorità federali come l'USTRA e l'UFT si applica la legge federale sulla trasparenza: chiunque vi ha accesso, e non deve motivare a cosa le servono i documenti. Presso le autorità cantonali e comunali l'accesso si basa sul diritto del suo Cantone. Se lì mancano regole, si applicano per analogia le regole federali.\n\nPresenti la sua domanda per scritto e indichi il più precisamente possibile la strada o la tratta ferroviaria e il tronco interessato.",
+        "en": "You may inspect environmental information in official documents and request information about it. This includes, for example, noise calculations, an improvement project for your road, or the decision by which an authority granted concessions.\n\nAt federal authorities such as FEDRO and the FOT, the Federal Act on Freedom of Information applies: everyone has access, and you do not have to give a reason for wanting the documents. At cantonal and communal authorities, access follows the law of your canton. Where rules are missing there, the federal rules apply by analogy.\n\nMake your application in writing, and name the road or railway line and the section as precisely as possible.",
+        "rm": "Vus dastgais consultar infurmaziuns davart l'ambient en documents uffizials e pretender per quai infurmaziun. A quai tutgan per exempel calculaziuns da canera, in project da sanaziun per Vossa via u la disposiziun, cun la quala in'autoritad ha concedì facilitaziuns.\n\nTar autoritads federalas sco ASTRA e BAV vala la Lescha da transparenza da la Confederaziun: mintga persuna ha access, e Vus na stuais betg motivar, per tge che Vus vulais ils documents. Tar autoritads chantunalas e communalas sa drizza l'access tenor il dretg da Voss chantun. Mancan là reglas, valan tenor il senn las reglas federalas.\n\nInoltrai Vossa dumonda en scrit e numnai la via u la lingia da viafier ed il tratg uschè exactamain sco pussaivel."
       },
       "sources": [
         "usg-10e",
@@ -202,7 +334,11 @@
         ]
       },
       "text": {
-        "de": "Überschreitet der Lärm einer bestehenden Strasse oder Bahn die Immissionsgrenzwerte, muss die Anlage saniert werden. Die Behörde ordnet die Sanierung an, nachdem sie den Eigentümer der Anlage angehört hat. Saniert wird so weit, wie es technisch und im Betrieb machbar und finanziell tragbar ist, und so, dass die Immissionsgrenzwerte eingehalten sind. Die Kosten der Sanierung trägt der Eigentümer der Strasse oder Bahn.\n\nZuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das ASTRA, bei Bahnanlagen das BAV. Fragen Sie dort, ob für Ihren Abschnitt ein Sanierungsprojekt besteht, was es vorsieht und ob es schon umgesetzt ist."
+        "de": "Überschreitet der Lärm einer bestehenden Strasse oder Bahn die Immissionsgrenzwerte, muss die Anlage saniert werden. Die Behörde ordnet die Sanierung an, nachdem sie den Eigentümer der Anlage angehört hat. Saniert wird so weit, wie es technisch und im Betrieb machbar und finanziell tragbar ist, und so, dass die Immissionsgrenzwerte eingehalten sind. Die Kosten der Sanierung trägt der Eigentümer der Strasse oder Bahn.\n\nZuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das ASTRA, bei Bahnanlagen das BAV. Fragen Sie dort, ob für Ihren Abschnitt ein Sanierungsprojekt besteht, was es vorsieht und ob es schon umgesetzt ist.",
+        "fr": "Si le bruit d'une route ou d'une voie ferrée existante dépasse les valeurs limites d'immission, l'installation doit être assainie. L'autorité ordonne l'assainissement après avoir entendu le propriétaire de l'installation. L'assainissement est réalisé dans la mesure où cela est réalisable sur le plan technique et de l'exploitation et économiquement supportable, et de telle façon que les valeurs limites d'immission soient respectées. Les frais de l'assainissement sont supportés par le propriétaire de la route ou de la voie ferrée.\n\nPour les routes cantonales et communales, le canton est compétent ; pour les routes nationales, l'OFROU ; pour les installations ferroviaires, l'OFT. Demandez-y s'il existe un projet d'assainissement pour votre secteur, ce qu'il prévoit et s'il est déjà réalisé.",
+        "it": "Se il rumore di una strada o ferrovia esistente supera i valori limite d'immissione, l'impianto deve essere risanato. L'autorità ordina il risanamento dopo aver sentito il proprietario dell'impianto. Si risana nella maggior misura possibile dal punto di vista tecnico e dell'esercizio e sopportabile sotto il profilo economico, e in modo che i valori limite d'immissione siano rispettati. Le spese del risanamento sono a carico del proprietario della strada o della ferrovia.\n\nCompetente è, per le strade cantonali e comunali, il Cantone, per le strade nazionali l'USTRA, per gli impianti ferroviari l'UFT. Si informi lì se per il suo tronco esiste un progetto di risanamento, cosa prevede e se è già stato attuato.",
+        "en": "If the noise from an existing road or railway exceeds the impact thresholds, the installation must be improved. The authority orders the improvement after hearing the owner of the installation. It is improved as far as is technically and operationally feasible and financially bearable, and so that the impact thresholds are complied with. The owner of the road or railway bears the costs of the improvement.\n\nThe canton is responsible for cantonal and municipal roads, FEDRO for national roads, and the FOT for railway installations. Ask there whether an improvement project exists for your section, what it provides for, and whether it has already been implemented.",
+        "rm": "Surpassa la canera d'ina via u viafier existenta las limitas d'immissiuns, sto l'installaziun vegnir sanada. L'autoritad ordinescha la sanaziun, suenter avair tadlà il proprietari da l'installaziun. Vegn sanà uschè lunsch sco quai è pussaivel tecnicamain e per il manaschi e finanzialmain supportabel, e uschia che las limitas d'immissiuns vegnan observadas. Ils custs da la sanaziun porta il proprietari da la via u da la viafier.\n\nCumpetent è, tar vias chantunalas e communalas, il chantun, tar vias naziunalas l'ASTRA, tar installaziuns da viafier il BAV. Dumandai là, sch'i exista in project da sanaziun per Voss tratg, tge ch'el prevesa e sch'el è gia realisà."
       },
       "sources": [
         "usg-16",
@@ -222,7 +358,11 @@
         ]
       },
       "text": {
-        "de": "Die Fristen für die Lärmsanierung sind abgelaufen: bei Nationalstrassen am 31. März 2015, bei allen übrigen Strassen am 31. März 2018. Bei den Bahnen liefen die Fristen Ende 2015 und für ergänzende Massnahmen Ende 2025 ab.\n\nDas heisst nicht, dass die Pflicht erloschen ist. Das Bundesgericht hält fest, dass eine Sanierung nach Ablauf der Frist umso dringlicher ist. Ist Ihre Strasse noch immer zu laut, dürfen Sie deshalb nachfragen und auf eine Sanierung drängen."
+        "de": "Die Fristen für die Lärmsanierung sind abgelaufen: bei Nationalstrassen am 31. März 2015, bei allen übrigen Strassen am 31. März 2018. Bei den Bahnen liefen die Fristen Ende 2015 und für ergänzende Massnahmen Ende 2025 ab.\n\nDas heisst nicht, dass die Pflicht erloschen ist. Das Bundesgericht hält fest, dass eine Sanierung nach Ablauf der Frist umso dringlicher ist. Ist Ihre Strasse noch immer zu laut, dürfen Sie deshalb nachfragen und auf eine Sanierung drängen.",
+        "fr": "Les délais pour l'assainissement contre le bruit sont échus : pour les routes nationales, le 31 mars 2015 ; pour toutes les autres routes, le 31 mars 2018. Pour les chemins de fer, les délais ont expiré fin 2015, et fin 2025 pour les mesures complémentaires.\n\nCela ne signifie pas que l'obligation s'est éteinte. Le Tribunal fédéral retient qu'un assainissement est d'autant plus urgent après l'échéance du délai. Si votre route est encore trop bruyante, vous pouvez donc réclamer et insister pour un assainissement.",
+        "it": "I termini per il risanamento fonico sono scaduti: per le strade nazionali il 31 marzo 2015, per tutte le altre strade il 31 marzo 2018. Per le ferrovie i termini sono scaduti alla fine del 2015 e, per i provvedimenti complementari, alla fine del 2025.\n\nQuesto non significa che l'obbligo sia venuto meno. Il Tribunale federale rileva che, scaduto il termine, un risanamento è tanto più urgente. Se la sua strada è ancora troppo rumorosa, può quindi informarsi e insistere per un risanamento.",
+        "en": "The time limits for noise improvement have expired: for national roads on 31 March 2015, and for all other roads on 31 March 2018. For railways, the time limits expired at the end of 2015, and for supplementary measures at the end of 2025.\n\nThis does not mean that the duty has lapsed. The Federal Supreme Court holds that an improvement is all the more urgent once the time limit has expired. So if your road is still too loud, you may ask about this and press for an improvement.",
+        "rm": "Ils termins per la sanaziun da canera èn scaduids: tar vias naziunalas ils 31 da mars 2015, tar tut las autras vias ils 31 da mars 2018. Tar las viafiers èn ils termins scaduids a la fin dal 2015 e per mesiras supplementaras a la fin dal 2025.\n\nQuai na signifitga betg che l'obligaziun saja sparida. Il Tribunal federal tegn ferm che ina sanaziun è, suenter la scadenza dal termin, tant pli urgenta. È Vossa via anc adina memia canerusa, dastgais Vus percunquai dumandar ed instar per ina sanaziun."
       },
       "sources": [
         "lsv-17",
@@ -234,7 +374,11 @@
       "id": "massnahmen-quelle",
       "kind": "rule",
       "text": {
-        "de": "Das Gesetz verlangt, dass Lärm zuerst dort bekämpft wird, wo er entsteht. Möglich sind zum Beispiel eine tiefere Höchstgeschwindigkeit, ein lärmarmer Strassenbelag, Verkehrslenkung oder Verkehrsberuhigung. Erst danach kommen Massnahmen auf dem Weg des Schalls zu Ihrem Haus, etwa eine Lärmschutzwand. Die Behörde muss Massnahmen an der Quelle den Vorzug geben, wenn keine überwiegenden Interessen dagegen sprechen.\n\nDas Bundesgericht betont: Bevor eine Behörde auf eine Sanierung verzichten darf, muss sie prüfen, ob es geeignete und verhältnismässige Massnahmen gibt. Dazu gehören lärmarme Beläge und insbesondere eine Senkung der Geschwindigkeit.\n\nWenn Sie sich an die Behörde wenden, fragen Sie konkret nach diesen Massnahmen und danach, warum sie gewählt oder verworfen wurden."
+        "de": "Das Gesetz verlangt, dass Lärm zuerst dort bekämpft wird, wo er entsteht. Möglich sind zum Beispiel eine tiefere Höchstgeschwindigkeit, ein lärmarmer Strassenbelag, Verkehrslenkung oder Verkehrsberuhigung. Erst danach kommen Massnahmen auf dem Weg des Schalls zu Ihrem Haus, etwa eine Lärmschutzwand. Die Behörde muss Massnahmen an der Quelle den Vorzug geben, wenn keine überwiegenden Interessen dagegen sprechen.\n\nDas Bundesgericht betont: Bevor eine Behörde auf eine Sanierung verzichten darf, muss sie prüfen, ob es geeignete und verhältnismässige Massnahmen gibt. Dazu gehören lärmarme Beläge und insbesondere eine Senkung der Geschwindigkeit.\n\nWenn Sie sich an die Behörde wenden, fragen Sie konkret nach diesen Massnahmen und danach, warum sie gewählt oder verworfen wurden.",
+        "fr": "La loi exige que le bruit soit d'abord combattu là où il se produit. Sont possibles par exemple une vitesse maximale plus basse, un revêtement routier peu bruyant, la gestion du trafic ou la modération de la circulation. Ce n'est qu'ensuite que viennent les mesures sur le chemin de propagation du son jusqu'à votre maison, par exemple un mur antibruit. L'autorité doit donner la priorité aux mesures à la source, sauf si des intérêts prépondérants s'y opposent.\n\nLe Tribunal fédéral souligne : avant qu'une autorité puisse renoncer à un assainissement, elle doit examiner s'il existe des mesures appropriées et proportionnées. En font partie les revêtements peu bruyants et, en particulier, une réduction de la vitesse.\n\nSi vous vous adressez à l'autorité, demandez concrètement ces mesures et pourquoi elles ont été choisies ou écartées.",
+        "it": "La legge esige che il rumore sia combattuto prima di tutto dove nasce. Sono possibili, per esempio, una velocità massima più bassa, un rivestimento stradale fonoassorbente, la gestione del traffico o la moderazione del traffico. Solo dopo vengono i provvedimenti sulla via di propagazione del suono verso casa sua, per esempio un muro antirumore. L'autorità deve dare la preferenza ai provvedimenti alla fonte se non vi si oppongono interessi preponderanti.\n\nIl Tribunale federale sottolinea: prima che un'autorità possa rinunciare a un risanamento, deve verificare se esistono provvedimenti adeguati e proporzionati. Ne fanno parte i rivestimenti fonoassorbenti e, in particolare, una riduzione della velocità.\n\nQuando si rivolge all'autorità, chieda concretamente di questi provvedimenti e del perché siano stati scelti o scartati.",
+        "en": "The law requires that noise be combated first where it arises. Possible measures include, for example, a lower speed limit, a low-noise road surface, traffic management or traffic calming. Only after that come measures along the path the sound takes to your house, such as a noise barrier. The authority must give priority to measures at the source unless overriding interests speak against this.\n\nThe Federal Supreme Court stresses that before an authority may forgo an improvement, it must examine whether suitable and proportionate measures exist. These include low-noise surfaces and, in particular, a reduction in speed.\n\nWhen you approach the authority, ask specifically about these measures and about why they were chosen or rejected.",
+        "rm": "La lescha pretenda che la canera vegnia cumbattida emprim là, nua ch'ella nascha. Pussaivels èn per exempel ina pli bassa vitezza maximala, in tapet da via pauc canerus, la direcziun dal traffic u la calmaziun dal traffic. Pir suenter vegnan mesiras sin la via dal svon vers Vossa chasa, per exempel in mir da protecziun cunter la canera. L'autoritad sto dar la preferenza a mesiras a la funtauna, sche naginas interess predominants sa opponan.\n\nIl Tribunal federal accentuescha: avant ch'in'autoritad possia desister d'ina sanaziun, sto ella examinar, sch'i dat mesiras adattadas e proporziunadas. A quai tutgan tapets pauc canerus e spezialmain in sbassament da la vitezza.\n\nSche Vus Vus drizzais a l'autoritad, dumandai concretamain suenter questas mesiras e suenter, pertge ch'ellas èn vegnidas tschernidas u refusadas."
       },
       "sources": [
         "usg-11",
@@ -253,7 +397,11 @@
         ]
       },
       "text": {
-        "de": "Die Behörde kann die Höchstgeschwindigkeit auf einer Strecke senken, um eine übermässige Umweltbelastung durch Lärm zu vermindern. Die Massnahme muss verhältnismässig sein.\n\nAuf Strassen mit Verkehrsfunktion, etwa Haupt- und Durchgangsstrassen, braucht es vorher ein Gutachten. Es klärt, ob die Senkung nötig, zweckmässig und verhältnismässig ist oder ob andere Massnahmen besser sind. Je wichtiger die Strasse für den Verkehr ist, desto strenger sind die Anforderungen an dieses Gutachten. Für Quartierstrassen ohne Verkehrsfunktion ist seit 2023 kein Gutachten mehr nötig. In jedem Fall muss die Behörde die Interessen gesamthaft abwägen und Varianten prüfen.\n\nIst unklar, wie viel Tempo 30 bringt, kann ein zeitlich begrenzter Versuch angezeigt sein, zum Beispiel nur nachts.\n\nAchtung: Die Regeln ändern ab 1. Oktober 2026. Die Behörde muss dann zusätzlich darauf achten, dass Strassen mit Verkehrsfunktion diese Funktion behalten. Fragen Sie bei der Behörde nach, welche Regeln für Ihren Fall gelten."
+        "de": "Die Behörde kann die Höchstgeschwindigkeit auf einer Strecke senken, um eine übermässige Umweltbelastung durch Lärm zu vermindern. Die Massnahme muss verhältnismässig sein.\n\nAuf Strassen mit Verkehrsfunktion, etwa Haupt- und Durchgangsstrassen, braucht es vorher ein Gutachten. Es klärt, ob die Senkung nötig, zweckmässig und verhältnismässig ist oder ob andere Massnahmen besser sind. Je wichtiger die Strasse für den Verkehr ist, desto strenger sind die Anforderungen an dieses Gutachten. Für Quartierstrassen ohne Verkehrsfunktion ist seit 2023 kein Gutachten mehr nötig. In jedem Fall muss die Behörde die Interessen gesamthaft abwägen und Varianten prüfen.\n\nIst unklar, wie viel Tempo 30 bringt, kann ein zeitlich begrenzter Versuch angezeigt sein, zum Beispiel nur nachts.\n\nAchtung: Die Regeln ändern ab 1. Oktober 2026. Die Behörde muss dann zusätzlich darauf achten, dass Strassen mit Verkehrsfunktion diese Funktion behalten. Fragen Sie bei der Behörde nach, welche Regeln für Ihren Fall gelten.",
+        "fr": "L'autorité peut abaisser la vitesse maximale sur un tronçon pour réduire une atteinte excessive à l'environnement due au bruit. La mesure doit être proportionnée.\n\nSur les routes ayant une fonction de desserte du trafic, par exemple les routes principales et de transit, une expertise est nécessaire au préalable. Elle clarifie si l'abaissement est nécessaire, opportun et proportionné, ou si d'autres mesures sont préférables. Plus la route est importante pour le trafic, plus les exigences envers cette expertise sont strictes. Pour les rues de quartier sans fonction de desserte du trafic, aucune expertise n'est plus nécessaire depuis 2023. Dans tous les cas, l'autorité doit peser globalement les intérêts et examiner des variantes.\n\nS'il n'est pas clair ce qu'apporterait une zone 30, un essai limité dans le temps peut être indiqué, par exemple seulement la nuit.\n\nAttention : les règles changent dès le 1er octobre 2026. L'autorité devra alors veiller en plus à ce que les routes ayant une fonction de desserte du trafic conservent cette fonction. Renseignez-vous auprès de l'autorité sur les règles applicables à votre cas.",
+        "it": "L'autorità può ridurre la velocità massima su un tratto per diminuire un carico ambientale eccessivo dovuto al rumore. Il provvedimento deve essere proporzionato.\n\nSulle strade con funzione di traffico, per esempio le strade principali e di transito, occorre prima una perizia. Essa chiarisce se la riduzione è necessaria, opportuna e proporzionata o se altri provvedimenti sono migliori. Più la strada è importante per il traffico, più severe sono le esigenze poste a questa perizia. Per le strade di quartiere senza funzione di traffico, dal 2023 non serve più una perizia. In ogni caso l'autorità deve ponderare complessivamente gli interessi ed esaminare varianti.\n\nSe non è chiaro quanto porti il Tempo 30, può essere indicata una prova temporanea limitata, per esempio solo di notte.\n\nAttenzione: le regole cambiano dal 1° ottobre 2026. L'autorità dovrà allora tenere conto anche del fatto che le strade con funzione di traffico mantengano questa funzione. Si informi presso l'autorità su quali regole si applicano al suo caso.",
+        "en": "The authority can lower the speed limit on a stretch of road to reduce excessive environmental pollution from noise. The measure must be proportionate.\n\nOn roads with a traffic function, such as main roads and through roads, an expert report is needed first. It establishes whether the reduction is necessary, appropriate and proportionate, or whether other measures would be better. The more important the road is for traffic, the stricter the requirements for this report. For neighbourhood streets without a traffic function, no report has been needed since 2023. In every case, the authority must weigh up the interests as a whole and examine alternatives.\n\nIf it is unclear how much a 30 km/h limit would achieve, a time-limited trial may be appropriate, for example only at night.\n\nNote: the rules change from 1 October 2026. From then, the authority must also take care that roads with a traffic function keep that function. Ask the authority which rules apply to your case.",
+        "rm": "L'autoritad po sbassar la vitezza maximala sin in tratg, per reducir ina grevezza excessiva da l'ambient tras canera. La mesira sto esser proporziunada.\n\nSin vias cun funcziun da traffic, per exempel vias principalas e vias da passa, basegna i avant ina perizia. Ella sclerescha, sche il sbassament è necessari, adequat e proporziunà, u sch'autras mesiras èn megliras. Pli impurtanta che la via è per il traffic, pli sever èn las pretensiuns a questa perizia. Per vias da quartier senza funcziun da traffic n'è dapi il 2023 nagina perizia pli necessaria. En mintga cas sto l'autoritad pesar cumplessivamain ils interess ed examinar variantas.\n\nÈ betg cler, quant che Tempo 30 porta, po esser indicà in emprova limitada en il temp, per exempel mo la notg.\n\nAttenziun: las reglas sa mudan dapi il 1. d'october 2026. L'autoritad sto lura resguardar supplementarmain che vias cun funcziun da traffic mantegnian questa funcziun. Dumandai tar l'autoritad, tge reglas che valan per Voss cas."
       },
       "sources": [
         "ssv-108",
@@ -272,7 +420,11 @@
         ]
       },
       "text": {
-        "de": "Die Behörde kann Erleichterungen gewähren. Dann muss die Strasse oder Bahn die Grenzwerte nicht voll einhalten. Das ist nur erlaubt, wenn die Sanierung unverhältnismässige Kosten oder Betriebseinschränkungen verursachen würde oder wenn überwiegende Interessen dagegen sprechen, zum Beispiel der Schutz des Ortsbilds oder die Verkehrssicherheit.\n\nErleichterungen sind nach dem Bundesgericht die Ausnahme und nur als letztes Mittel zulässig. Vorher müssen alle möglichen und zumutbaren Massnahmen ausgeschöpft und genügend geprüft sein.\n\nWurden für Ihre Strasse Erleichterungen gewährt, dürfen Sie den Entscheid und die Unterlagen dazu verlangen. Prüfen Sie, ob Tempo 30 und ein lärmarmer Belag ernsthaft untersucht wurden."
+        "de": "Die Behörde kann Erleichterungen gewähren. Dann muss die Strasse oder Bahn die Grenzwerte nicht voll einhalten. Das ist nur erlaubt, wenn die Sanierung unverhältnismässige Kosten oder Betriebseinschränkungen verursachen würde oder wenn überwiegende Interessen dagegen sprechen, zum Beispiel der Schutz des Ortsbilds oder die Verkehrssicherheit.\n\nErleichterungen sind nach dem Bundesgericht die Ausnahme und nur als letztes Mittel zulässig. Vorher müssen alle möglichen und zumutbaren Massnahmen ausgeschöpft und genügend geprüft sein.\n\nWurden für Ihre Strasse Erleichterungen gewährt, dürfen Sie den Entscheid und die Unterlagen dazu verlangen. Prüfen Sie, ob Tempo 30 und ein lärmarmer Belag ernsthaft untersucht wurden.",
+        "fr": "L'autorité peut accorder des allégements. La route ou la voie ferrée n'a alors pas à respecter pleinement les valeurs limites. Cela n'est permis que si l'assainissement entraînerait des frais disproportionnés ou des restrictions d'exploitation disproportionnées, ou si des intérêts prépondérants s'y opposent, par exemple la protection du site ou la sécurité de la circulation.\n\nSelon le Tribunal fédéral, les allégements sont l'exception et ne sont admissibles qu'en dernier recours. Auparavant, toutes les mesures possibles et raisonnables doivent avoir été épuisées et suffisamment examinées.\n\nSi des allégements ont été accordés pour votre route, vous pouvez exiger la décision et les documents s'y rapportant. Vérifiez si une zone 30 et un revêtement peu bruyant ont été sérieusement examinés.",
+        "it": "L'autorità può accordare facilitazioni. In tal caso la strada o la ferrovia non deve rispettare pienamente i valori limite. Ciò è ammesso solo se il risanamento causerebbe costi o limitazioni d'esercizio sproporzionati, oppure se vi si oppongono interessi preponderanti, per esempio la protezione dell'immagine del luogo o la sicurezza del traffico.\n\nSecondo il Tribunale federale, le facilitazioni sono l'eccezione e sono ammesse solo come ultima risorsa. Prima devono essere esauriti e sufficientemente esaminati tutti i provvedimenti possibili ed esigibili.\n\nSe per la sua strada sono state accordate facilitazioni, può chiedere la decisione e i relativi documenti. Verifichi se il Tempo 30 e un rivestimento fonoassorbente sono stati seriamente esaminati.",
+        "en": "The authority can grant concessions. The road or railway then does not have to fully comply with the limit values. This is only allowed if the improvement would cause disproportionate costs or operational restrictions, or if overriding interests speak against it, for example the protection of the townscape or road safety.\n\nAccording to the Federal Supreme Court, concessions are the exception and are only permissible as a last resort. Beforehand, all possible and reasonable measures must have been exhausted and sufficiently examined.\n\nIf concessions were granted for your road, you may request the decision and the documents relating to it. Check whether a 30 km/h limit and a low-noise surface were seriously examined.",
+        "rm": "L'autoritad po concedair facilitaziuns. Lura na sto la via u la viafier betg observar entiramain las limitas. Quai è lubì mo, sche la sanaziun chaschunass custs sproporziunads u restricziuns dal manaschi u sche interess predominants sa opponan, per exempel la protecziun da la maletg dal lieu u la segirezza dal traffic.\n\nFacilitaziuns èn, tenor il Tribunal federal, l'excepziun e lubidas mo sco ultim med. Avant ston tut las mesiras pussaivlas e raschunaivlas esser exaustas e suffizientamain examinadas.\n\nÈn per Vossa via vegnidas concedidas facilitaziuns, dastgais Vus pretender la decisiun e las suttentaziuns per quai. Examinai, sche Tempo 30 ed in tapet pauc canerus èn vegnids examinads seriusamain."
       },
       "sources": [
         "usg-17",
@@ -285,7 +437,11 @@
       "id": "schallschutzfenster",
       "kind": "rule",
       "text": {
-        "de": "Schallschutzfenster sind das letzte Mittel. Sie kommen erst in Frage, wenn Massnahmen an der Quelle und auf dem Ausbreitungsweg nicht genügen.\n\nBei einer bestehenden Strasse oder Bahn gilt: Die Behörde verpflichtet die Hauseigentümer nur dann zu Schallschutzfenstern, wenn der Lärm trotz Sanierung über dem Alarmwert bleibt. Liegt er zwischen Immissionsgrenzwert und Alarmwert, gibt es in der Sanierung keine Schallschutzfenster.\n\nBei einer neuen oder wesentlich geänderten Strasse oder Bahn ist die Schwelle tiefer: Dort braucht es Schallschutzfenster schon, wenn die Immissionsgrenzwerte nicht eingehalten werden können.\n\nGeschützt werden Räume, in denen man sich länger aufhält. Mit Zustimmung der Behörde sind andere bauliche Massnahmen möglich, wenn sie innen gleich viel bringen. Keine Pflicht besteht zum Beispiel, wenn die Fenster keine wahrnehmbare Verbesserung bringen oder das Haus in drei Jahren abgebrochen wird."
+        "de": "Schallschutzfenster sind das letzte Mittel. Sie kommen erst in Frage, wenn Massnahmen an der Quelle und auf dem Ausbreitungsweg nicht genügen.\n\nBei einer bestehenden Strasse oder Bahn gilt: Die Behörde verpflichtet die Hauseigentümer nur dann zu Schallschutzfenstern, wenn der Lärm trotz Sanierung über dem Alarmwert bleibt. Liegt er zwischen Immissionsgrenzwert und Alarmwert, gibt es in der Sanierung keine Schallschutzfenster.\n\nBei einer neuen oder wesentlich geänderten Strasse oder Bahn ist die Schwelle tiefer: Dort braucht es Schallschutzfenster schon, wenn die Immissionsgrenzwerte nicht eingehalten werden können.\n\nGeschützt werden Räume, in denen man sich länger aufhält. Mit Zustimmung der Behörde sind andere bauliche Massnahmen möglich, wenn sie innen gleich viel bringen. Keine Pflicht besteht zum Beispiel, wenn die Fenster keine wahrnehmbare Verbesserung bringen oder das Haus in drei Jahren abgebrochen wird.",
+        "fr": "Les fenêtres antibruit sont le dernier recours. Elles n'entrent en ligne de compte que lorsque les mesures à la source et sur le chemin de propagation ne suffisent pas.\n\nPour une route ou une voie ferrée existante, la règle est la suivante : l'autorité n'oblige les propriétaires d'immeubles à installer des fenêtres antibruit que si le bruit reste, malgré l'assainissement, au-dessus de la valeur d'alarme. S'il se situe entre la valeur limite d'immission et la valeur d'alarme, il n'y a pas de fenêtres antibruit dans le cadre de l'assainissement.\n\nPour une route ou une voie ferrée nouvelle ou notablement modifiée, le seuil est plus bas : des fenêtres antibruit sont déjà nécessaires si les valeurs limites d'immission ne peuvent pas être respectées.\n\nSont protégés les locaux où l'on séjourne longtemps. Avec l'accord de l'autorité, d'autres mesures de construction sont possibles si elles apportent le même bénéfice à l'intérieur. Il n'y a par exemple pas d'obligation si les fenêtres n'apportent pas d'amélioration perceptible ou si le bâtiment sera démoli dans trois ans.",
+        "it": "Le finestre insonorizzate sono l'ultima risorsa. Entrano in considerazione solo se i provvedimenti alla fonte e sulla via di propagazione non bastano.\n\nPer una strada o ferrovia esistente vale questo: l'autorità obbliga i proprietari degli edifici a installare finestre insonorizzate solo se il rumore, nonostante il risanamento, resta sopra il valore d'allarme. Se si situa tra il valore limite d'immissione e il valore d'allarme, nel risanamento non ci sono finestre insonorizzate.\n\nPer una strada o ferrovia nuova o sostanzialmente modificata, la soglia è più bassa: lì servono finestre insonorizzate già quando i valori limite d'immissione non possono essere rispettati.\n\nSono protetti i locali nei quali ci si trattiene a lungo. Con l'accordo dell'autorità sono possibili altri provvedimenti edili, se all'interno ottengono lo stesso risultato. Non sussiste alcun obbligo, per esempio, se le finestre non porterebbero un miglioramento percettibile o se la casa sarà demolita entro tre anni.",
+        "en": "Soundproof windows are the last resort. They only come into question if measures at the source and along the propagation path are not enough.\n\nFor an existing road or railway, the rule is: the authority only requires house owners to install soundproof windows if the noise remains above the alarm value despite the improvement. If it lies between the impact threshold and the alarm value, there are no soundproof windows as part of the improvement.\n\nFor a new or substantially altered road or railway, the threshold is lower: soundproof windows are needed there as soon as the impact thresholds cannot be complied with.\n\nRooms in which people spend longer periods are protected. With the authority's consent, other structural measures are possible if they achieve the same effect inside. There is no duty, for example, if the windows would bring no perceptible improvement, or if the house is to be demolished within three years.",
+        "rm": "Fanestras isoladas cunter la canera èn l'ultim med. Ellas entran en dumonda mo, sche mesiras a la funtauna e sin la via da propagaziun na bastan betg.\n\nTar ina via u viafier existenta vala: l'autoritad obligescha ils proprietaris da chasa a fanestras isoladas cunter la canera mo lura, sche la canera resta, malgrà sanaziun, sur la limita d'alarm. Sa chatta ella tranter limita d'immissiuns e limita d'alarm, na dat i en la sanaziun naginas fanestras isoladas cunter la canera.\n\nTar ina via u viafier nova u midada considerablamain è la suglia pli bassa: là basegna i gia fanestras isoladas cunter la canera, sche las limitas d'immissiuns na pon betg vegnir observadas.\n\nProtegids vegnan locals, en ils quals ins sa retegna pli ditg. Cun l'approvaziun da l'autoritad èn autras mesiras architectonicas pussaivlas, sch'ellas purtan internamain il medem tant. Nagina obligaziun exista per exempel, sche las fanestras na purtan naginas megliuraziuns perceptiblas u sche la chasa vegn demolida entaifer trais onns."
       },
       "sources": [
         "usg-20",
@@ -308,7 +464,11 @@
         ]
       },
       "text": {
-        "de": "Die Kosten für die nötigen Schallschutzfenster trägt der Eigentümer der lärmigen Strasse oder Bahn. Er kann sich davon nur befreien, wenn er nachweist, dass beim Baugesuch für Ihr Haus die Immissionsgrenzwerte schon überschritten waren oder das Strassen- oder Bahnprojekt bereits öffentlich aufgelegt war.\n\nMuss er zahlen, übernimmt er die ortsüblichen Kosten für Planung und Bauleitung, für die vorgeschriebene Dämmung der Fenster samt Anpassungsarbeiten und allfällige Gebühren. Zahlt er trotz Ihrer Aufforderung keinen Vorschuss, trägt er auch die Finanzierungskosten. Wählen Sie mit Zustimmung der Behörde eine andere bauliche Massnahme, zahlt er höchstens so viel, wie die Fenster gekostet hätten. Unterhalt und spätere Erneuerung zahlen Sie als Eigentümerin oder Eigentümer.\n\nBestellen Sie Fenster erst, wenn die Behörde die Massnahme angeordnet hat und klar ist, wer zahlt. Verlangen Sie einen Vorschuss schriftlich."
+        "de": "Die Kosten für die nötigen Schallschutzfenster trägt der Eigentümer der lärmigen Strasse oder Bahn. Er kann sich davon nur befreien, wenn er nachweist, dass beim Baugesuch für Ihr Haus die Immissionsgrenzwerte schon überschritten waren oder das Strassen- oder Bahnprojekt bereits öffentlich aufgelegt war.\n\nMuss er zahlen, übernimmt er die ortsüblichen Kosten für Planung und Bauleitung, für die vorgeschriebene Dämmung der Fenster samt Anpassungsarbeiten und allfällige Gebühren. Zahlt er trotz Ihrer Aufforderung keinen Vorschuss, trägt er auch die Finanzierungskosten. Wählen Sie mit Zustimmung der Behörde eine andere bauliche Massnahme, zahlt er höchstens so viel, wie die Fenster gekostet hätten. Unterhalt und spätere Erneuerung zahlen Sie als Eigentümerin oder Eigentümer.\n\nBestellen Sie Fenster erst, wenn die Behörde die Massnahme angeordnet hat und klar ist, wer zahlt. Verlangen Sie einen Vorschuss schriftlich.",
+        "fr": "Les frais des fenêtres antibruit nécessaires sont supportés par le propriétaire de la route ou de la voie ferrée bruyante. Il ne peut s'en libérer que s'il prouve qu'au moment de la demande de permis de construire pour votre maison, les valeurs limites d'immission étaient déjà dépassées, ou que le projet de route ou de voie ferrée était déjà mis à l'enquête publique.\n\nS'il doit payer, il prend en charge les frais usuels du lieu pour la planification et la direction des travaux, pour l'isolation prescrite des fenêtres avec les travaux d'adaptation, et les émoluments éventuels. S'il ne verse pas d'avance malgré votre demande, il supporte aussi les frais de financement. Si vous choisissez, avec l'accord de l'autorité, une autre mesure de construction, il paie au maximum ce que les fenêtres auraient coûté. L'entretien et le renouvellement ultérieur sont à votre charge en tant que propriétaire.\n\nNe commandez des fenêtres que lorsque l'autorité a ordonné la mesure et qu'il est clair qui paie. Demandez une avance par écrit.",
+        "it": "Le spese per le necessarie finestre insonorizzate sono a carico del proprietario della strada o ferrovia rumorosa. Può liberarsene solo se dimostra che, al momento della domanda di costruzione per la sua casa, i valori limite d'immissione erano già stati superati, oppure che il progetto della strada o della ferrovia era già stato pubblicato.\n\nSe deve pagare, si assume i costi usuali del luogo per la progettazione e la direzione dei lavori, per il prescritto isolamento delle finestre comprese le opere di adattamento e le eventuali tasse. Se, nonostante la sua richiesta, non versa un anticipo, si assume anche i costi di finanziamento. Se sceglie, con l'accordo dell'autorità, un altro provvedimento edile, egli paga al massimo quanto sarebbero costate le finestre. La manutenzione e il successivo rinnovo li paga lei come proprietaria o proprietario.\n\nOrdini le finestre solo quando l'autorità ha disposto il provvedimento ed è chiaro chi paga. Chieda un anticipo per scritto.",
+        "en": "The owner of the noisy road or railway bears the costs of the necessary soundproof windows. They can only be released from this if they prove that, at the time of the building application for your house, the impact thresholds were already being exceeded, or that the road or railway project had already been publicly deposited.\n\nIf they must pay, they cover the locally customary costs of planning and site supervision, of the prescribed insulation of the windows including the resulting adaptation work, and any fees. If they do not pay an advance despite your request, they also bear the financing costs. If, with the authority's consent, you choose a different structural measure, they pay at most as much as the windows would have cost. You bear the cost of maintenance and later renewal as owner.\n\nOnly order windows once the authority has ordered the measure and it is clear who is paying. Request an advance in writing.",
+        "rm": "Ils custs per las fanestras isoladas cunter la canera necessarias porta il proprietari da la via u viafier canerusa. El sa po liberar mo, sch'el cumprova che, tar la dumonda da construcziun per Vossa chasa, las limitas d'immissiuns eran gia surpassadas u ch'il project da via u da viafier era gia exponì publicamain.\n\nSto el pajar, surpiglia el ils custs usitads sin plaz per la planisaziun e la direcziun da construcziun, per l'isolaziun prescritta da las fanestras cun lavurs d'adattaziun e taxas eventualas. Na paja el, malgrà Voss pretensiun, nagina avanza, porta el er ils custs da finanziaziun. Tschernais Vus, cun l'approvaziun da l'autoritad, in'autra mesira architectonica, paja el al maximum uschè bler sco las fanestras avessan custà. Mantegniment e pli tard renovaziun pajais Vus sco proprietaria u proprietari.\n\nBestellai fanestras pir, cur che l'autoritad ha ordinà la mesira e cur ch'è cler, tgi che paja. Pretendai ina avanza en scrit."
       },
       "sources": [
         "usg-20",
@@ -326,7 +486,11 @@
         ]
       },
       "text": {
-        "de": "Als Mieterin oder Mieter können Sie sich genauso informieren, Dokumente verlangen und bei neuen Projekten mitreden wie Eigentümer. Auch wer an einer lärmbelasteten Strasse zur Miete wohnt, ist nach dem Bundesgericht besonders betroffen und kann einen Entscheid anfechten.\n\nSchallschutzfenster werden aber dem Hauseigentümer angeordnet und mit ihm abgerechnet. Informieren Sie Ihre Vermieterin oder Ihren Vermieter, wenn die Behörde eine Sanierung plant.\n\nOb Sie wegen des Lärms eine Mietzinsherabsetzung verlangen können, ist eine Frage des Mietrechts; dazu berät Sie der Mieterinnen- und Mieterverband."
+        "de": "Als Mieterin oder Mieter können Sie sich genauso informieren, Dokumente verlangen und bei neuen Projekten mitreden wie Eigentümer. Auch wer an einer lärmbelasteten Strasse zur Miete wohnt, ist nach dem Bundesgericht besonders betroffen und kann einen Entscheid anfechten.\n\nSchallschutzfenster werden aber dem Hauseigentümer angeordnet und mit ihm abgerechnet. Informieren Sie Ihre Vermieterin oder Ihren Vermieter, wenn die Behörde eine Sanierung plant.\n\nOb Sie wegen des Lärms eine Mietzinsherabsetzung verlangen können, ist eine Frage des Mietrechts; dazu berät Sie der Mieterinnen- und Mieterverband.",
+        "fr": "En tant que locataire, vous pouvez vous informer, demander des documents et participer aux nouveaux projets tout comme les propriétaires. Même celui qui habite à la location sur une route exposée au bruit est, selon le Tribunal fédéral, particulièrement touché et peut contester une décision.\n\nLes fenêtres antibruit sont toutefois ordonnées au propriétaire de l'immeuble et réglées avec lui. Informez votre bailleresse ou votre bailleur si l'autorité planifie un assainissement.\n\nLa question de savoir si vous pouvez exiger une réduction de loyer à cause du bruit relève du droit du bail ; l'association des locataires vous conseille à ce sujet.",
+        "it": "Come inquilina o inquilino può informarsi, chiedere documenti e partecipare a nuovi progetti allo stesso modo dei proprietari. Anche chi vive in affitto su una strada esposta al rumore è, secondo il Tribunale federale, particolarmente toccato e può impugnare una decisione.\n\nLe finestre insonorizzate vengono però ordinate al proprietario della casa e conteggiate con lui. Informi la sua locatrice o il suo locatore se l'autorità pianifica un risanamento.\n\nSe può chiedere una riduzione della pigione a causa del rumore è una questione di diritto della locazione; al riguardo la consiglia l'associazione degli inquilini.",
+        "en": "As a tenant, you can inform yourself, request documents and have a say in new projects just as an owner can. According to the Federal Supreme Court, anyone who rents on a noise-polluted road is also especially affected and can challenge a decision.\n\nHowever, soundproof windows are ordered against the house owner and billed to them. Inform your landlord if the authority is planning an improvement.\n\nWhether you can demand a rent reduction because of the noise is a question of tenancy law; the tenants' association can advise you on this.",
+        "rm": "Sco locatara u locatari pudais Vus Vus infurmar, pretender documents e cudecider tar novs projects exact sco proprietaris. Er tgi che vign a moda locativa vid ina via engrevgiada cun canera, è, tenor il Tribunal federal, spezialmain tangì e po contestar ina decisiun.\n\nFanestras isoladas cunter la canera vegnan dentant ordinadas al proprietari da chasa e quintadas cun el. Infurmai Vossa locadura u Voss locadur, sche l'autoritad planisescha ina sanaziun.\n\nSche Vus pudais pretender ina reducziun dal tschains da locaziun pervia da la canera, è ina dumonda dal dretg da locaziun; per quai Vus conseglia l'associaziun da locataras e locataris."
       },
       "sources": [
         "bger-1c-589-2014-e1"
@@ -342,7 +506,11 @@
         ]
       },
       "text": {
-        "de": "Für Bahnlärm gilt ein eigenes Bundesgesetz. Es setzt zuerst auf leisere Fahrzeuge und Massnahmen am Gleis, dann auf Lärmschutzwände. Schallschutzfenster an Gebäuden sind für den verbleibenden Rest vorgesehen. Massnahmen am Gleis und auf dem Ausbreitungsweg sind anzuordnen, bis die Immissionsgrenzwerte eingehalten sind, ausser die Kosten wären unverhältnismässig oder überwiegende Interessen sprächen dagegen. Wo solche Erleichterungen gewährt wurden, kann das BAV weitere Massnahmen anordnen.\n\nDie Massnahmen am Gleis und auf dem Ausbreitungsweg bezahlt der Bund. Zuständig für die Bahnsanierung ist das BAV; für die Schallschutzmassnahmen an Gebäuden sorgen die Kantone.\n\nDie Sanierungsfristen sind abgelaufen, das Gesetz gilt noch bis Ende 2028. Fragen Sie beim BAV nach, ob Ihr Abschnitt saniert ist und ob noch Massnahmen geplant sind."
+        "de": "Für Bahnlärm gilt ein eigenes Bundesgesetz. Es setzt zuerst auf leisere Fahrzeuge und Massnahmen am Gleis, dann auf Lärmschutzwände. Schallschutzfenster an Gebäuden sind für den verbleibenden Rest vorgesehen. Massnahmen am Gleis und auf dem Ausbreitungsweg sind anzuordnen, bis die Immissionsgrenzwerte eingehalten sind, ausser die Kosten wären unverhältnismässig oder überwiegende Interessen sprächen dagegen. Wo solche Erleichterungen gewährt wurden, kann das BAV weitere Massnahmen anordnen.\n\nDie Massnahmen am Gleis und auf dem Ausbreitungsweg bezahlt der Bund. Zuständig für die Bahnsanierung ist das BAV; für die Schallschutzmassnahmen an Gebäuden sorgen die Kantone.\n\nDie Sanierungsfristen sind abgelaufen, das Gesetz gilt noch bis Ende 2028. Fragen Sie beim BAV nach, ob Ihr Abschnitt saniert ist und ob noch Massnahmen geplant sind.",
+        "fr": "Une loi fédérale spécifique s'applique au bruit ferroviaire. Elle mise d'abord sur des véhicules plus silencieux et des mesures sur la voie, puis sur des murs antibruit. Les fenêtres antibruit sur les bâtiments sont prévues pour le reste. Les mesures sur la voie et sur le chemin de propagation doivent être ordonnées jusqu'à ce que les valeurs limites d'immission soient respectées, sauf si les frais seraient disproportionnés ou si des intérêts prépondérants s'y opposent. Là où de tels allégements ont été accordés, l'OFT peut ordonner des mesures supplémentaires.\n\nLes mesures sur la voie et sur le chemin de propagation sont payées par la Confédération. L'OFT est compétent pour l'assainissement des chemins de fer ; les cantons s'occupent des mesures d'isolation acoustique sur les bâtiments.\n\nLes délais d'assainissement sont échus, la loi reste en vigueur jusqu'à fin 2028. Renseignez-vous auprès de l'OFT pour savoir si votre secteur est assaini et si d'autres mesures sont encore prévues.",
+        "it": "Per il rumore ferroviario vale una legge federale propria. Essa punta prima su veicoli più silenziosi e provvedimenti sulla strada ferrata, poi su muri antirumore. Le finestre insonorizzate sugli edifici sono previste per il resto restante. I provvedimenti sulla strada ferrata e sulla via di propagazione vanno ordinati finché i valori limite d'immissione sono rispettati, a meno che i costi siano sproporzionati o vi si oppongano interessi preponderanti. Dove sono state accordate tali facilitazioni, l'UFT può ordinare ulteriori provvedimenti.\n\nI provvedimenti sulla strada ferrata e sulla via di propagazione sono pagati dalla Confederazione. Competente per il risanamento ferroviario è l'UFT; per i provvedimenti di protezione fonica sugli edifici provvedono i Cantoni.\n\nI termini di risanamento sono scaduti, la legge resta in vigore fino alla fine del 2028. Si informi presso l'UFT se il suo tronco è stato risanato e se sono ancora previsti provvedimenti.",
+        "en": "Rail noise is governed by its own federal act. This relies first on quieter vehicles and measures at the track, then on noise barriers. Soundproof windows on buildings are provided for the remainder. Measures at the track and along the propagation path must be ordered until the impact thresholds are complied with, unless the costs would be disproportionate or overriding interests speak against it. Where such concessions have been granted, the FOT can order further measures.\n\nThe Confederation pays for the measures at the track and along the propagation path. The FOT is responsible for the rail improvement; the cantons see to the soundproofing measures on buildings.\n\nThe time limits for improvement have expired; the Act remains in force until the end of 2028. Ask the FOT whether your section has been improved and whether further measures are still planned.",
+        "rm": "Per canera da viafier vala ina atgna lescha federala. Ella metta emprim sin vehichels pli quiets e mesiras vi dal binari, lura sin mirs da protecziun cunter la canera. Fanestras isoladas cunter la canera vi d'edifizis èn previsas per il rest che resta. Mesiras vi dal binari e sin la via da propagaziun ston vegnir ordinadas, fin che las limitas d'immissiuns èn observadas, exceptà che ils custs fissan sproporziunads u interess predominants sa opponian. Nua che talas facilitaziuns èn vegnidas concedidas, po il BAV ordinar ulteriuras mesiras.\n\nLas mesiras vi dal binari e sin la via da propagaziun paja la Confederaziun. Cumpetent per la sanaziun da la viafier è il BAV; per las mesiras da protecziun cunter la canera vi d'edifizis procuran ils chantuns.\n\nIls termins da sanaziun èn scaduids, la lescha vala anc fin la fin dal 2028. Dumandai tar il BAV, sche Voss tratg è sanà e sch'anc vegnan planisadas mesiras."
       },
       "sources": [
         "bgle-2",
@@ -364,7 +532,11 @@
         ]
       },
       "text": {
-        "de": "Wird eine Strasse oder Bahnlinie neu gebaut, darf sie allein die tieferen Planungswerte nicht überschreiten. Wo das unverhältnismässig wäre, sind Erleichterungen möglich. Können die Immissionsgrenzwerte mit Massnahmen an der Quelle nicht eingehalten werden, müssen die betroffenen Gebäude auf Kosten des Eigentümers der neuen Anlage mit Schallschutzfenstern geschützt werden.\n\nWird eine bestehende Anlage wesentlich geändert, muss die ganze Anlage mindestens die Immissionsgrenzwerte einhalten. Wesentlich ist eine Änderung zum Beispiel, wenn ein Umbau oder Ausbau spürbar mehr Lärm erwarten lässt. Eine Strasse oder Bahn, die saniert werden müsste, darf nur umgebaut werden, wenn sie gleichzeitig saniert wird.\n\nAuch ein neues Einkaufszentrum oder Quartier darf durch den Mehrverkehr auf bestehenden Strassen nicht dazu führen, dass die Immissionsgrenzwerte überschritten werden. Ist eine Strasse schon zu laut, darf der Mehrverkehr sie nicht wahrnehmbar lauter machen."
+        "de": "Wird eine Strasse oder Bahnlinie neu gebaut, darf sie allein die tieferen Planungswerte nicht überschreiten. Wo das unverhältnismässig wäre, sind Erleichterungen möglich. Können die Immissionsgrenzwerte mit Massnahmen an der Quelle nicht eingehalten werden, müssen die betroffenen Gebäude auf Kosten des Eigentümers der neuen Anlage mit Schallschutzfenstern geschützt werden.\n\nWird eine bestehende Anlage wesentlich geändert, muss die ganze Anlage mindestens die Immissionsgrenzwerte einhalten. Wesentlich ist eine Änderung zum Beispiel, wenn ein Umbau oder Ausbau spürbar mehr Lärm erwarten lässt. Eine Strasse oder Bahn, die saniert werden müsste, darf nur umgebaut werden, wenn sie gleichzeitig saniert wird.\n\nAuch ein neues Einkaufszentrum oder Quartier darf durch den Mehrverkehr auf bestehenden Strassen nicht dazu führen, dass die Immissionsgrenzwerte überschritten werden. Ist eine Strasse schon zu laut, darf der Mehrverkehr sie nicht wahrnehmbar lauter machen.",
+        "fr": "Si une route ou une ligne ferroviaire est construite à neuf, elle ne peut, à elle seule, dépasser les valeurs de planification, plus basses. Là où cela serait disproportionné, des allégements sont possibles. Si les valeurs limites d'immission ne peuvent pas être respectées par des mesures à la source, les bâtiments touchés doivent être protégés par des fenêtres antibruit aux frais du propriétaire de la nouvelle installation.\n\nSi une installation existante est notablement modifiée, l'ensemble de l'installation doit au moins respecter les valeurs limites d'immission. Une modification est notable par exemple si une transformation ou un agrandissement laisse attendre un bruit sensiblement plus important. Une route ou une voie ferrée qui devrait être assainie ne peut être transformée que si elle est assainie en même temps.\n\nMême un nouveau centre commercial ou quartier ne doit pas, par le trafic supplémentaire sur des routes existantes, faire dépasser les valeurs limites d'immission. Si une route est déjà trop bruyante, le trafic supplémentaire ne doit pas la rendre perceptiblement plus bruyante.",
+        "it": "Se una strada o una linea ferroviaria viene costruita ex novo, da sola non deve superare i più bassi valori di pianificazione. Dove ciò sarebbe sproporzionato, sono possibili facilitazioni. Se i valori limite d'immissione non possono essere rispettati con provvedimenti alla fonte, gli edifici interessati devono essere protetti con finestre insonorizzate a spese del proprietario del nuovo impianto.\n\nSe un impianto esistente viene modificato sostanzialmente, l'intero impianto deve rispettare almeno i valori limite d'immissione. Una modifica è sostanziale, per esempio, se una trasformazione o un ampliamento lascia prevedere un rumore sensibilmente maggiore. Una strada o ferrovia che dovrebbe essere risanata può essere trasformata solo se viene risanata contemporaneamente.\n\nAnche un nuovo centro commerciale o quartiere non deve, con il traffico supplementare su strade esistenti, far sì che i valori limite d'immissione vengano superati. Se una strada è già troppo rumorosa, il traffico supplementare non deve renderla percettibilmente più rumorosa.",
+        "en": "If a road or railway line is newly built, it alone must not exceed the lower planning values. Where that would be disproportionate, concessions are possible. If the impact thresholds cannot be complied with by measures at the source, the affected buildings must be protected with soundproof windows at the expense of the owner of the new installation.\n\nIf an existing installation is substantially altered, the whole installation must comply with at least the impact thresholds. An alteration is substantial, for example, if a rebuilding or expansion is expected to lead to noticeably more noise. A road or railway that would need to be improved may only be rebuilt if it is improved at the same time.\n\nA new shopping centre or neighbourhood, too, must not cause the impact thresholds to be exceeded through additional traffic on existing roads. If a road is already too loud, the additional traffic must not make it perceptibly louder.",
+        "rm": "Vegn ina via u lingia da viafier construida da nov, na dastga ella suletta betg surpassar las pli bassas valurs da planisaziun. Nua che quai fiss sproporziunà, èn facilitaziuns pussaivlas. Na pon las limitas d'immissiuns betg vegnir observadas cun mesiras a la funtauna, ston ils edifizis tangids vegnir protegids, sin custs dal proprietari da la nova installaziun, cun fanestras isoladas cunter la canera.\n\nVegn ina installaziun existenta midada considerablamain, sto l'entira installaziun observar almain las limitas d'immissiuns. Considerabla è ina midada per exempel, sche in renovament u engrondiment lascha spetgar considerablamain dapli canera. Ina via u viafier che duessa vegnir sanada, dastga vegnir renovada mo, sch'ella vegn sanada al medem temp.\n\nEr in nov center da cumpra u in nov quartier na dastga, tras il traffic supplementar sin vias existentas, betg manar a che las limitas d'immissiuns vegnian surpassadas. È ina via gia memia canerusa, na dastga il traffic supplementar la far perceptiblamain pli canerusa."
       },
       "sources": [
         "usg-18",
@@ -385,7 +557,11 @@
         ]
       },
       "text": {
-        "de": "Bei neuen oder geänderten Nationalstrassen und Bahnanlagen entscheidet der Bund in einem Plangenehmigungsverfahren. Das Gesuch wird in den amtlichen Publikationsorganen der Kantone und Gemeinden veröffentlicht und liegt 30 Tage öffentlich auf. Wer im Verfahren Partei sein kann, muss während dieser Auflagefrist Einsprache erheben. Wer das nicht tut, ist vom weiteren Verfahren ausgeschlossen und kann später keine Beschwerde mehr führen.\n\nEinsprache erheben kann, wer besonders betroffen ist. Nachbarn im Umkreis von etwa 100 Metern sind nach dem Bundesgericht in der Regel dazu berechtigt. Geht es um Lärm durch Mehrverkehr, muss die Zunahme deutlich wahrnehmbar sein.\n\nBei Kantons- und Gemeindestrassen bestimmt der Kanton das Verfahren und die Einsprachefrist. Achten Sie auf die Publikation im kantonalen Amtsblatt und in Ihrer Gemeinde und fragen Sie bei der Gemeinde nach, bis wann Einsprache möglich ist. Die Frist steht in der Publikation."
+        "de": "Bei neuen oder geänderten Nationalstrassen und Bahnanlagen entscheidet der Bund in einem Plangenehmigungsverfahren. Das Gesuch wird in den amtlichen Publikationsorganen der Kantone und Gemeinden veröffentlicht und liegt 30 Tage öffentlich auf. Wer im Verfahren Partei sein kann, muss während dieser Auflagefrist Einsprache erheben. Wer das nicht tut, ist vom weiteren Verfahren ausgeschlossen und kann später keine Beschwerde mehr führen.\n\nEinsprache erheben kann, wer besonders betroffen ist. Nachbarn im Umkreis von etwa 100 Metern sind nach dem Bundesgericht in der Regel dazu berechtigt. Geht es um Lärm durch Mehrverkehr, muss die Zunahme deutlich wahrnehmbar sein.\n\nBei Kantons- und Gemeindestrassen bestimmt der Kanton das Verfahren und die Einsprachefrist. Achten Sie auf die Publikation im kantonalen Amtsblatt und in Ihrer Gemeinde und fragen Sie bei der Gemeinde nach, bis wann Einsprache möglich ist. Die Frist steht in der Publikation.",
+        "fr": "Pour les routes nationales et les installations ferroviaires nouvelles ou modifiées, la Confédération statue dans une procédure d'approbation des plans. La demande est publiée dans les organes de publication officiels des cantons et communes et mise à l'enquête publique pendant 30 jours. Quiconque peut être partie à la procédure doit faire opposition par écrit pendant ce délai de mise à l'enquête. Qui ne le fait pas est exclu de la suite de la procédure et ne pourra plus ensuite former de recours.\n\nPeut faire opposition celui qui est particulièrement touché. Les voisins dans un rayon d'environ 100 mètres y sont en règle générale habilités selon le Tribunal fédéral. S'il s'agit de bruit dû à un trafic supplémentaire, l'augmentation doit être nettement perceptible.\n\nPour les routes cantonales et communales, le canton détermine la procédure et le délai d'opposition. Soyez attentif à la publication dans la feuille officielle cantonale et dans votre commune, et demandez à la commune jusqu'à quand l'opposition est possible. Le délai figure dans la publication.",
+        "it": "Per le strade nazionali e gli impianti ferroviari nuovi o modificati, decide la Confederazione in una procedura di approvazione dei piani. La domanda viene pubblicata negli organi ufficiali di pubblicazione dei Cantoni e dei Comuni e resta depositata pubblicamente per 30 giorni. Chi può essere parte nella procedura deve fare opposizione durante questo termine di deposito. Chi non lo fa è escluso dal seguito della procedura e in seguito non può più presentare ricorso.\n\nPuò fare opposizione chi è particolarmente toccato. I vicini in un raggio di circa 100 metri ne hanno di regola diritto secondo il Tribunale federale. Se si tratta di rumore dovuto a traffico supplementare, l'aumento deve essere chiaramente percettibile.\n\nPer le strade cantonali e comunali, il Cantone stabilisce la procedura e il termine di opposizione. Presti attenzione alla pubblicazione nel foglio ufficiale cantonale e nel suo Comune, e si informi presso il Comune su fino a quando è possibile fare opposizione. Il termine è indicato nella pubblicazione.",
+        "en": "For new or altered national roads and railway installations, the Confederation decides in a plan approval procedure. The application is published in the official publication organs of the cantons and municipalities concerned and is placed on public deposit for 30 days. Anyone who can be a party to the proceedings must lodge an objection during this deposit period. Anyone who does not do so is excluded from the further proceedings and can no longer appeal later.\n\nAnyone who is especially affected can lodge an objection. According to the Federal Supreme Court, neighbours within a radius of about 100 metres are generally entitled to do so. Where it concerns noise from additional traffic, the increase must be clearly perceptible.\n\nFor cantonal and municipal roads, the canton determines the procedure and the objection time limit. Watch for the publication in the cantonal official gazette and in your municipality, and ask the municipality by when an objection is possible. The time limit is stated in the publication.",
+        "rm": "Tar vias naziunalas ed installaziuns da viafier novas u midadas decida la Confederaziun en ina procedura d'approvaziun dal plan. La dumonda vegn publitgada en ils organs da publicaziun uffizials dals chantuns e da las vischnancas e resta 30 dis en exposiziun publica. Tgi che po esser partida en la procedura, sto far protesta durant quest termin d'exposiziun. Tgi che na fa betg quai, è exclus da l'ulteriura procedura e na po pli tard far nagin recurs.\n\nFar protesta po, tgi ch'è spezialmain tangì. Vischinas e vischins en in perimeter da radund 100 meters èn, tenor il Tribunal federal, per regla legitimads per quai. Sa tracta da canera tras traffic supplementar, sto l'augment esser tgleramain perceptibel.\n\nTar vias chantunalas e communalas fixescha il chantun la procedura ed il termin da protesta. Observai la publicaziun en l'organ uffizial chantunal ed en Vossa vischnanca e dumandai tar la vischnanca, fin quandi che protesta è pussaivla. Il termin stat en la publicaziun."
       },
       "sources": [
         "ebg-18d",
@@ -405,7 +581,11 @@
         ]
       },
       "text": {
-        "de": "Tut sich nichts, obwohl Ihre Strasse oder Bahn zu laut ist, können Sie von der zuständigen Behörde einen anfechtbaren Entscheid (eine Verfügung) verlangen. Eigentümer und Bewohner lärmbelasteter Liegenschaften an der Strasse sind besonders betroffen und können einen solchen Entscheid gerichtlich überprüfen lassen.\n\nBei Bundesbehörden, also beim ASTRA für Nationalstrassen und beim BAV für Bahnen, können Sie verlangen, dass die Behörde über ihr Handeln oder Unterlassen, das Ihre Rechte berührt, eine Verfügung erlässt. Läuft bereits ein Sanierungs- oder Plangenehmigungsverfahren, bringen Sie Ihr Anliegen dort ein; dieses Verfahren geht vor.\n\nBei Kantons- und Gemeindestrassen gilt das Verfahrensrecht Ihres Kantons. Schreiben Sie der zuständigen Stelle, welcher Abschnitt betroffen ist, und verlangen Sie ausdrücklich einen Entscheid über die Sanierung."
+        "de": "Tut sich nichts, obwohl Ihre Strasse oder Bahn zu laut ist, können Sie von der zuständigen Behörde einen anfechtbaren Entscheid (eine Verfügung) verlangen. Eigentümer und Bewohner lärmbelasteter Liegenschaften an der Strasse sind besonders betroffen und können einen solchen Entscheid gerichtlich überprüfen lassen.\n\nBei Bundesbehörden, also beim ASTRA für Nationalstrassen und beim BAV für Bahnen, können Sie verlangen, dass die Behörde über ihr Handeln oder Unterlassen, das Ihre Rechte berührt, eine Verfügung erlässt. Läuft bereits ein Sanierungs- oder Plangenehmigungsverfahren, bringen Sie Ihr Anliegen dort ein; dieses Verfahren geht vor.\n\nBei Kantons- und Gemeindestrassen gilt das Verfahrensrecht Ihres Kantons. Schreiben Sie der zuständigen Stelle, welcher Abschnitt betroffen ist, und verlangen Sie ausdrücklich einen Entscheid über die Sanierung.",
+        "fr": "Si rien ne bouge alors que votre route ou votre voie ferrée est trop bruyante, vous pouvez exiger de l'autorité compétente une décision attaquable. Les propriétaires et habitants d'immeubles exposés au bruit le long de la route sont particulièrement touchés et peuvent faire examiner judiciairement une telle décision.\n\nAuprès des autorités fédérales, donc l'OFROU pour les routes nationales et l'OFT pour les chemins de fer, vous pouvez exiger que l'autorité rende une décision sur son action ou son omission qui touche vos droits. Si une procédure d'assainissement ou d'approbation des plans est déjà en cours, faites-y valoir votre demande ; cette procédure a la priorité.\n\nPour les routes cantonales et communales, le droit de procédure de votre canton s'applique. Écrivez au service compétent quel secteur est concerné, et exigez expressément une décision sur l'assainissement.",
+        "it": "Se non succede nulla, benché la sua strada o ferrovia sia troppo rumorosa, può chiedere all'autorità competente una decisione impugnabile. Proprietari e abitanti di immobili esposti al rumore lungo la strada sono particolarmente toccati e possono far verificare giudizialmente una tale decisione.\n\nPresso le autorità federali, cioè l'USTRA per le strade nazionali e l'UFT per le ferrovie, può chiedere che l'autorità emani una decisione sul suo agire o omettere che tocca i suoi diritti. Se è già in corso una procedura di risanamento o di approvazione dei piani, faccia valere lì la sua richiesta; questa procedura ha la precedenza.\n\nPer le strade cantonali e comunali vale il diritto di procedura del suo Cantone. Scriva al servizio competente quale tronco è interessato e chieda espressamente una decisione sul risanamento.",
+        "en": "If nothing happens even though your road or railway is too loud, you can request a challengeable decision (a ruling) from the responsible authority. Owners and residents of noise-polluted properties on the road are especially affected and can have such a decision reviewed by a court.\n\nAt federal authorities, that is, FEDRO for national roads and the FOT for railways, you can request that the authority issue a ruling on its action or inaction that affects your rights. If an improvement or plan approval procedure is already under way, raise your concern there; that procedure takes precedence.\n\nFor cantonal and municipal roads, the procedural law of your canton applies. Write to the responsible body stating which section is affected, and expressly request a decision on the improvement.",
+        "rm": "Na sa mova nagut, malgrà che Voss via u viafier saja memia canerusa, pudais Vus pretender da l'autoritad cumpetenta ina decisiun contestabla (ina disposiziun). Proprietaris ed abitantas ed abitants da bains immobigliars engrevgiads cun canera vi da la via èn spezialmain tangids e pon laschar controllar giudizialmain ina tala decisiun.\n\nTar autoritads federalas, dunca tar l'ASTRA per vias naziunalas e tar il BAV per viafiers, pudais Vus pretender che l'autoritad decreteschia ina disposiziun davart ses agir u davart sia omissiun che tanscha Voss dretgs. Curra gia ina procedura da sanaziun u d'approvaziun dal plan, inoltrai Voss avertiment là; questa procedura ha la precedenza.\n\nTar vias chantunalas e communalas vala il dretg da procedura da Voss chantun. Scrivai al post cumpetent, tge tratg ch'è tangì, e pretendai expressivamain ina decisiun davart la sanaziun."
       },
       "sources": [
         "vwvg-25a",
@@ -418,7 +598,11 @@
       "id": "keine-popularbeschwerde",
       "kind": "warning",
       "text": {
-        "de": "Wer vom Lärm nicht selbst besonders betroffen ist, zum Beispiel weil er weiter weg wohnt, kann eine Behörde nicht zum Handeln zwingen. Ein Gesuch, das nicht dem Schutz der eigenen Rechte dient, ist nach dem Bundesgericht eine unzulässige Popularbeschwerde.\n\nSie haben trotzdem Möglichkeiten:\n– Verlangen Sie Informationen und Dokumente; dafür müssen Sie nicht betroffen sein.\n– Nehmen Sie an Mitwirkungen und öffentlichen Auflagen teil, solange sie laufen.\n– Bei Bundesbehörden wie ASTRA oder BAV können Sie der vorgesetzten Behörde eine Aufsichtsanzeige einreichen. Sie gibt Ihnen keine Parteirechte. Für kantonale Behörden gelten kantonale Regeln.\n– Informieren Sie früh eine beschwerdeberechtigte Umweltorganisation. Sie kann bei Projekten mit Umweltverträglichkeitsprüfung Beschwerde führen, verliert dieses Recht aber, wenn sie sich nicht schon an der Einsprache beteiligt."
+        "de": "Wer vom Lärm nicht selbst besonders betroffen ist, zum Beispiel weil er weiter weg wohnt, kann eine Behörde nicht zum Handeln zwingen. Ein Gesuch, das nicht dem Schutz der eigenen Rechte dient, ist nach dem Bundesgericht eine unzulässige Popularbeschwerde.\n\nSie haben trotzdem Möglichkeiten:\n– Verlangen Sie Informationen und Dokumente; dafür müssen Sie nicht betroffen sein.\n– Nehmen Sie an Mitwirkungen und öffentlichen Auflagen teil, solange sie laufen.\n– Bei Bundesbehörden wie ASTRA oder BAV können Sie der vorgesetzten Behörde eine Aufsichtsanzeige einreichen. Sie gibt Ihnen keine Parteirechte. Für kantonale Behörden gelten kantonale Regeln.\n– Informieren Sie früh eine beschwerdeberechtigte Umweltorganisation. Sie kann bei Projekten mit Umweltverträglichkeitsprüfung Beschwerde führen, verliert dieses Recht aber, wenn sie sich nicht schon an der Einsprache beteiligt.",
+        "fr": "Qui n'est pas lui-même particulièrement touché par le bruit, par exemple parce qu'il habite plus loin, ne peut pas contraindre une autorité à agir. Une demande qui ne sert pas à la protection de ses propres droits est, selon le Tribunal fédéral, un recours populaire irrecevable.\n\nVous avez néanmoins des possibilités :\n– Demandez des informations et des documents ; vous n'avez pas besoin d'être touché pour cela.\n– Participez aux démarches participatives et aux mises à l'enquête publiques tant qu'elles sont en cours.\n– Auprès des autorités fédérales comme l'OFROU ou l'OFT, vous pouvez déposer une dénonciation à l'autorité de surveillance supérieure. Elle ne vous donne pas de droits de partie. Pour les autorités cantonales, les règles cantonales s'appliquent.\n– Informez tôt une organisation environnementale habilitée à recourir. Elle peut faire recours dans les projets soumis à une étude d'impact sur l'environnement, mais perd ce droit si elle n'a pas déjà participé à l'opposition.",
+        "it": "Chi non è personalmente particolarmente toccato dal rumore, per esempio perché abita più lontano, non può costringere un'autorità ad agire. Una domanda che non serve alla tutela dei propri diritti è, secondo il Tribunale federale, un ricorso popolare inammissibile.\n\nHa comunque delle possibilità:\n– Chieda informazioni e documenti; per questo non deve essere toccato.\n– Partecipi alle procedure di partecipazione e ai depositi pubblici, finché sono in corso.\n– Presso le autorità federali come l'USTRA o l'UFT può presentare una denuncia all'autorità di vigilanza superiore. Essa non le conferisce diritti di parte. Per le autorità cantonali valgono le regole cantonali.\n– Informi per tempo un'organizzazione di protezione dell'ambiente legittimata a ricorrere. Essa può presentare ricorso nei progetti con esame dell'impatto ambientale, ma perde questo diritto se non ha già partecipato all'opposizione.",
+        "en": "Anyone who is not themselves especially affected by the noise, for example because they live further away, cannot force an authority to act. According to the Federal Supreme Court, a request that does not serve to protect the requester's own rights is an inadmissible popular appeal.\n\nYou still have options:\n– Request information and documents; you do not need to be affected for this.\n– Take part in participation procedures and public deposits while they are under way.\n– At federal authorities such as FEDRO or the FOT, you can submit a supervisory complaint to the superior authority. This gives you no rights as a party. Cantonal rules apply for cantonal authorities.\n– Inform an environmental organisation entitled to appeal early on. It can appeal in projects with an environmental impact assessment, but loses this right if it did not already take part in the objection.",
+        "rm": "Tgi che n'è betg sez spezialmain tangì da la canera, per exempel perquai ch'el abita pli lunsch davent, na po betg forzar in'autoritad d'agir. Ina dumonda che na serva betg a proteger dretgs agens, è, tenor il Tribunal federal, in recurs popular inadmissibel.\n\nVus avais tuttina pussaivladads:\n– Pretendai infurmaziuns e documents; per quai na stuais Vus betg esser tangì.\n– Participai a participaziuns ed exposiziuns publicas, uschè ditg ch'ellas curran.\n– Tar autoritads federalas sco ASTRA u BAV pudais Vus inoltrar a l'autoritad surordinada in'indicaziun da surveglianza. Ella na Vus dat naginas dretgs da partida. Per autoritads chantunalas valan reglas chantunalas.\n– Infurmai baud in'organisaziun ambientala cun dretg da far recurs. Ella po far recurs tar projects cun examinaziun ecologica, perda dentant quest dretg, sch'ella na sa participescha betg gia a la protesta."
       },
       "sources": [
         "bge-146-i-145",
@@ -432,14 +616,22 @@
       "id": "anwalt",
       "kind": "escalate",
       "text": {
-        "de": "Lassen Sie sich von einer Anwältin oder einem Anwalt mit Erfahrung im Umwelt-, Bau- oder Verwaltungsrecht beraten, wenn Ihnen ein Entscheid zugestellt wurde, etwa über eine Sanierung, Erleichterungen oder ein Projekt. Die Beschwerdefrist steht in der Rechtsmittelbelehrung am Ende des Entscheids; sie ist kurz und läuft auch, während Sie Hilfe suchen.\n\nBeratung lohnt sich auch, wenn Sie eine Einsprache mit einem eigenen Lärmgutachten stützen möchten oder wenn es um die Kosten von Schallschutzfenstern geht. Über den Anwaltsverband Ihres Kantons finden Sie spezialisierte Anwältinnen und Anwälte."
+        "de": "Lassen Sie sich von einer Anwältin oder einem Anwalt mit Erfahrung im Umwelt-, Bau- oder Verwaltungsrecht beraten, wenn Ihnen ein Entscheid zugestellt wurde, etwa über eine Sanierung, Erleichterungen oder ein Projekt. Die Beschwerdefrist steht in der Rechtsmittelbelehrung am Ende des Entscheids; sie ist kurz und läuft auch, während Sie Hilfe suchen.\n\nBeratung lohnt sich auch, wenn Sie eine Einsprache mit einem eigenen Lärmgutachten stützen möchten oder wenn es um die Kosten von Schallschutzfenstern geht. Über den Anwaltsverband Ihres Kantons finden Sie spezialisierte Anwältinnen und Anwälte.",
+        "fr": "Faites-vous conseiller par une avocate ou un avocat expérimenté en droit de l'environnement, de la construction ou administratif si une décision vous a été notifiée, par exemple sur un assainissement, des allégements ou un projet. Le délai de recours figure dans l'indication des voies de droit à la fin de la décision ; il est court et court aussi pendant que vous cherchez de l'aide.\n\nUne consultation vaut aussi la peine si vous voulez appuyer une opposition par une expertise acoustique propre, ou s'il s'agit des frais de fenêtres antibruit. Vous trouverez des avocates et avocats spécialisés par l'intermédiaire de l'association des avocats de votre canton.",
+        "it": "Si faccia consigliare da un'avvocata o un avvocato con esperienza in diritto ambientale, edilizio o amministrativo se le è stata notificata una decisione, per esempio su un risanamento, su facilitazioni o su un progetto. Il termine di ricorso è indicato nell'indicazione dei rimedi giuridici alla fine della decisione; è breve e decorre anche mentre cerca aiuto.\n\nUna consulenza vale la pena anche se vuole sostenere un'opposizione con una propria perizia fonica, o se si tratta dei costi delle finestre insonorizzate. Tramite l'ordine degli avvocati del suo Cantone trova avvocate e avvocati specializzati.",
+        "en": "Get advice from a lawyer experienced in environmental, construction or administrative law if you have been served a decision, for example on an improvement, concessions or a project. The time limit for an appeal is stated in the instructions on legal remedies at the end of the decision; it is short and keeps running while you look for help.\n\nAdvice is also worthwhile if you want to support an objection with your own noise report, or if the costs of soundproof windows are at issue. You can find specialised lawyers through your canton's bar association.",
+        "rm": "Laschai Vus consegliar d'in'advocata u d'in advocat cun experientscha en il dretg da l'ambient, da construcziun u administrativ, sche a Vus è vegnida notifitgada ina decisiun, per exempel davart ina sanaziun, facilitaziuns u in project. Il termin da recurs stat en l'indicaziun dals meds legals a la fin da la decisiun; el è curt e curra er, durant che Vus tschertgais agid.\n\nConsulaziun sa paja er, sche Vus vulais sustegnair ina protesta cun ina atgna perizia da canera u sche sa tracta da custs da fanestras isoladas cunter la canera. Tras la federaziun d'advocatas ed advocats da Voss chantun chattais Vus advocatas ed advocats spezialisads."
       }
     },
     {
       "id": "kostenlose-hilfe",
       "kind": "free-help",
       "text": {
-        "de": "Die Gemeinde (Bauverwaltung) weiss, wem die Strasse gehört, und sagt Ihnen, welche Projekte gerade aufliegen. Die kantonale Lärmschutz- oder Umweltfachstelle gibt Auskunft zur Lärmbelastung, zum Lärmbelastungskataster und zu Sanierungsprojekten an Kantons- und Gemeindestrassen. Für Nationalstrassen ist das Bundesamt für Strassen (ASTRA) zuständig, für Bahnlinien das Bundesamt für Verkehr (BAV).\n\nMieterinnen und Mieter berät der Mieterinnen- und Mieterverband mit seinen kantonalen und regionalen Sektionen.\n\nDie beschwerdeberechtigten Umweltorganisationen sind im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Organisationen aufgeführt (SR 814.076)."
+        "de": "Die Gemeinde (Bauverwaltung) weiss, wem die Strasse gehört, und sagt Ihnen, welche Projekte gerade aufliegen. Die kantonale Lärmschutz- oder Umweltfachstelle gibt Auskunft zur Lärmbelastung, zum Lärmbelastungskataster und zu Sanierungsprojekten an Kantons- und Gemeindestrassen. Für Nationalstrassen ist das Bundesamt für Strassen (ASTRA) zuständig, für Bahnlinien das Bundesamt für Verkehr (BAV).\n\nMieterinnen und Mieter berät der Mieterinnen- und Mieterverband mit seinen kantonalen und regionalen Sektionen.\n\nDie beschwerdeberechtigten Umweltorganisationen sind im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Organisationen aufgeführt (SR 814.076).",
+        "fr": "La commune (service des constructions) sait à qui appartient la route et vous indique quels projets sont actuellement mis à l'enquête. Le service cantonal de protection contre le bruit ou de l'environnement renseigne sur la pollution sonore, le cadastre de bruit et les projets d'assainissement des routes cantonales et communales. Pour les routes nationales, l'Office fédéral des routes (OFROU) est compétent, pour les lignes ferroviaires l'Office fédéral des transports (OFT).\n\nLes locataires sont conseillés par l'association des locataires, avec ses sections cantonales et régionales.\n\nLes organisations environnementales habilitées à recourir figurent dans l'annexe de l'ordonnance relative à la désignation des organisations habilitées à recourir (RS 814.076).",
+        "it": "Il Comune (amministrazione edile) sa a chi appartiene la strada e le dice quali progetti sono attualmente in deposito pubblico. Il servizio cantonale di protezione contro il rumore o dell'ambiente dà informazioni sul carico fonico, sul catasto dei rumori e sui progetti di risanamento delle strade cantonali e comunali. Per le strade nazionali è competente l'Ufficio federale delle strade (USTRA), per le linee ferroviarie l'Ufficio federale dei trasporti (UFT).\n\nLe inquiline e gli inquilini sono consigliati dall'associazione degli inquilini, con le sue sezioni cantonali e regionali.\n\nLe organizzazioni di protezione dell'ambiente legittimate a ricorrere sono elencate nell'allegato dell'ordinanza concernente la designazione delle organizzazioni legittimate a ricorrere (RS 814.076).",
+        "en": "The municipality (building department) knows who owns the road and will tell you which projects are currently on deposit. The cantonal noise protection or environmental agency gives information on noise pollution, the noise pollution register, and improvement projects on cantonal and municipal roads. The Federal Roads Office (FEDRO) is responsible for national roads, and the Federal Office of Transport (FOT) for railway lines.\n\nTenants are advised by the tenants' association, with its cantonal and regional branches.\n\nThe environmental organisations entitled to appeal are listed in the annex to the ordinance on the designation of organisations entitled to appeal (SR 814.076).",
+        "rm": "La vischnanca (administraziun da construcziun) sa, a tgi che tutga la via, e Vus di, tge projects ch'èn gist en exposiziun. Il post chantunal spezialisà per la protecziun cunter la canera u per l'ambient infurmescha davart la contaminaziun da canera, il cataster da la canera e projects da sanaziun da vias chantunalas e communalas. Per vias naziunalas è cumpetent l'Uffizi federal da vias (ASTRA), per lingias da viafier l'Uffizi federal da traffic (BAV).\n\nLocataras e locataris conseglia l'associaziun da locataras e locataris cun sias secziuns chantunalas e regiunalas.\n\nLas organisaziuns ambientalas cun dretg da far recurs èn inditgadas en l'agiunta da l'Ordinaziun davart la designaziun da las organisaziuns cun dretg da far recurs en il chomp da la protecziun da l'ambient (VBO), SR 814.076."
       }
     }
   ],
@@ -902,49 +1094,81 @@
   "official_links": [
     {
       "label": {
-        "de": "Bundesamt für Umwelt – Lärm"
+        "de": "Bundesamt für Umwelt – Lärm",
+        "fr": "Office fédéral de l'environnement – Bruit",
+        "it": "UFAM – Rumore",
+        "en": "Federal Office for the Environment – Noise",
+        "rm": "Uffizi federal per l'ambient – Canera"
       },
       "url": "https://www.bafu.admin.ch/de/laerm"
     },
     {
       "label": {
-        "de": "Bundesamt für Umwelt – Strassenverkehrslärm"
+        "de": "Bundesamt für Umwelt – Strassenverkehrslärm",
+        "fr": "Office fédéral de l'environnement – Bruit routier",
+        "it": "UFAM – Rumore del traffico stradale",
+        "en": "Federal Office for the Environment – Road traffic noise",
+        "rm": "Uffizi federal per l'ambient – Canera dal traffic da via"
       },
       "url": "https://www.bafu.admin.ch/de/strassenlaerm"
     },
     {
       "label": {
-        "de": "Bundesamt für Umwelt – Eisenbahnlärm"
+        "de": "Bundesamt für Umwelt – Eisenbahnlärm",
+        "fr": "Office fédéral de l'environnement – Bruit ferroviaire",
+        "it": "UFAM – Rumore ferroviario",
+        "en": "Federal Office for the Environment – Railway noise",
+        "rm": "Uffizi federal per l'ambient – Canera da viafier"
       },
       "url": "https://www.bafu.admin.ch/de/eisenbahnlaerm"
     },
     {
       "label": {
-        "de": "Bundesamt für Umwelt – Lärmkarten (sonBASE)"
+        "de": "Bundesamt für Umwelt – Lärmkarten (sonBASE)",
+        "fr": "Office fédéral de l'environnement – Cartes de bruit (sonBASE)",
+        "it": "UFAM – Carte del rumore (sonBASE)",
+        "en": "Federal Office for the Environment – Noise maps (sonBASE)",
+        "rm": "Uffizi federal per l'ambient – Cartas da canera (sonBASE)"
       },
       "url": "https://www.bafu.admin.ch/de/sonbase"
     },
     {
       "label": {
-        "de": "Geoportal des Bundes (Karten zur Lärmbelastung)"
+        "de": "Geoportal des Bundes (Karten zur Lärmbelastung)",
+        "fr": "Géoportail fédéral (cartes de la pollution sonore)",
+        "it": "Geoportale federale (carte del carico fonico)",
+        "en": "Federal Geoportal (noise pollution maps)",
+        "rm": "Geoportal da la Confederaziun (cartas davart la contaminaziun da canera)"
       },
       "url": "https://map.geo.admin.ch/"
     },
     {
       "label": {
-        "de": "Bundesamt für Verkehr – Lärmsanierung der Eisenbahnen"
+        "de": "Bundesamt für Verkehr – Lärmsanierung der Eisenbahnen",
+        "fr": "Office fédéral des transports – Assainissement du bruit des chemins de fer",
+        "it": "UFT – Risanamento fonico delle ferrovie",
+        "en": "Federal Office of Transport – Railways noise abatement",
+        "rm": "Uffizi federal da traffic – Sanaziun da canera da las viafiers"
       },
       "url": "https://www.bav.admin.ch/de/laermsanierung"
     },
     {
       "label": {
-        "de": "Bundesamt für Verkehr – Lärmbelastungskataster Eisenbahn"
+        "de": "Bundesamt für Verkehr – Lärmbelastungskataster Eisenbahn",
+        "fr": "Office fédéral des transports – Cadastre de bruit ferroviaire",
+        "it": "UFT – Catasto dei rumori ferroviario",
+        "en": "Federal Office of Transport – Railway noise pollution register",
+        "rm": "Uffizi federal da traffic – Cataster da la canera da la viafier"
       },
       "url": "https://www.bav.admin.ch/de/laermbelastungskataster"
     },
     {
       "label": {
-        "de": "Bundesamt für Umwelt – Verbandsbeschwerderecht"
+        "de": "Bundesamt für Umwelt – Verbandsbeschwerderecht",
+        "fr": "Office fédéral de l'environnement – Droit de recours des associations",
+        "it": "UFAM – Diritto di ricorso delle organizzazioni",
+        "en": "Federal Office for the Environment – Right of appeal of organisations",
+        "rm": "Uffizi federal per l'ambient – Dretg da far recurs da las organisaziuns"
       },
       "url": "https://www.bafu.admin.ch/de/verbandsbeschwerderecht"
     }

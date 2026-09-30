@@ -6,10 +6,18 @@
   "status": "draft",
   "licence": "CC-BY-4.0",
   "title": {
-    "de": "Invasive Pflanzen: Was gilt, und was kann ich tun?"
+    "de": "Invasive Pflanzen: Was gilt, und was kann ich tun?",
+    "fr": "Plantes envahissantes : que dit la loi, et que puis-je faire ?",
+    "it": "Piante invasive: cosa vale e cosa posso fare?",
+    "en": "Invasive plants: what's the law, and what can I do?",
+    "rm": "Plantas invasivas: Tge vala, e tge poss jau far?"
   },
   "summary": {
-    "de": "Kirschlorbeer, Sommerflieder, Japanischer Staudenknöterich, Goldrute, Götterbaum oder Ambrosia: Einige gebietsfremde Pflanzen breiten sich stark aus und verdrängen die einheimische Natur. Für die gefährlichsten Arten gilt ein fast vollständiges Umgangsverbot. Für weitere Arten gilt seit dem 1. September 2024 ein Verkaufs- und Abgabeverbot. Hier erfahren Sie, was im eigenen Garten, auf Baustellen und an Gewässern gilt, wie Sie Pflanzen richtig entfernen und entsorgen, warum Unkrautvertilger meist verboten sind und wo Sie Funde und verbotene Angebote melden. Zwingen können Sie eine Behörde nicht, wohl aber sie gezielt informieren."
+    "de": "Kirschlorbeer, Sommerflieder, Japanischer Staudenknöterich, Goldrute, Götterbaum oder Ambrosia: Einige gebietsfremde Pflanzen breiten sich stark aus und verdrängen die einheimische Natur. Für die gefährlichsten Arten gilt ein fast vollständiges Umgangsverbot. Für weitere Arten gilt seit dem 1. September 2024 ein Verkaufs- und Abgabeverbot. Hier erfahren Sie, was im eigenen Garten, auf Baustellen und an Gewässern gilt, wie Sie Pflanzen richtig entfernen und entsorgen, warum Unkrautvertilger meist verboten sind und wo Sie Funde und verbotene Angebote melden. Zwingen können Sie eine Behörde nicht, wohl aber sie gezielt informieren.",
+    "fr": "Laurier-cerise, arbre aux papillons, renouée du Japon, solidage, ailante ou ambroisie : certaines plantes exotiques se propagent fortement et évincent la nature indigène. Pour les espèces les plus dangereuses, une interdiction presque totale d'utilisation s'applique. Pour d'autres espèces, une interdiction de vente et de remise s'applique depuis le 1er septembre 2024. Vous apprendrez ici ce qui vaut dans votre propre jardin, sur les chantiers et au bord des cours d'eau, comment enlever et éliminer correctement les plantes, pourquoi les désherbants sont le plus souvent interdits, et où signaler des découvertes et des offres interdites. Vous ne pouvez pas contraindre une autorité, mais vous pouvez l'informer de manière ciblée.",
+    "it": "Lauroceraso, buddleja, poligono del Giappone, verga d'oro, ailanto o ambrosia: alcune piante alloctone si diffondono molto e soppiantano la natura autoctona. Per le specie più pericolose vale un divieto quasi totale di utilizzazione. Per altre specie vale, dal 1° settembre 2024, un divieto di vendita e di cessione. Qui scopre cosa vale nel proprio giardino, sui cantieri e presso i corsi d'acqua, come rimuovere e smaltire correttamente le piante, perché i diserbanti sono per lo più vietati e dove segnalare i ritrovamenti e le offerte vietate. Non può costringere un'autorità ad agire, ma può informarla in modo mirato.",
+    "en": "Cherry laurel, summer lilac, Japanese knotweed, goldenrod, tree of heaven or ragweed: some alien plants spread aggressively and crowd out native nature. For the most dangerous species, an almost complete handling ban applies. For further species, a sale and distribution ban has applied since 1 September 2024. Here you can find out what applies in your own garden, on building sites and at watercourses, how to remove and dispose of plants correctly, why weedkillers are mostly banned, and where to report finds and banned offers. You cannot force an authority to act, but you can give it targeted information.",
+    "rm": "Kirschlorbeer, Sommerflieder, Japanischer Staudenknöterich, Goldrute, Götterbaum ubain Ambrosia: tscherts plantas exotgnas sa derasan fitgamain e sfadan davent la natira indigena. Per las spezias las pli privlusas vala in scumond da tractament quasi cumplet. Per autras spezias vala, dapi il 1. da settember 2024, in scumond da vendita e da surdada. Qua emprendais Vus tge che vala en Voss agen curtin, sin fossas da construcziun ed a las auas, co Vus stgaffiais davent las plantas correctamain e las eliminais, pertge che products cunter la zerclim èn il pli savens scumandads, e nua che Vus annunziais anflaments e purschidas scumandadas. Forzar in'autoritad na pudais Vus betg, dentant infurmar la a moda mirada gea."
   },
   "examples": {
     "de": [
@@ -20,57 +28,129 @@
       "Am Bach hinter dem Dorf wächst überall Springkraut. Wem sage ich das?",
       "Auf der Baustelle nebenan wird Erde mit Knöterich weggefahren. Kann ich das melden?",
       "Darf ich gegen den Götterbaum einfach Unkrautvertilger spritzen?"
+    ],
+    "fr": [
+      "Chez nous, il y a une renouée qui repousse chaque année dans le jardin. Qu'est-ce que je dois faire ?",
+      "Est-ce que je peux garder mon laurier-cerise ou faut-il l'arracher maintenant ?",
+      "Mon voisin distribue des boutures d'arbre aux papillons dans le quartier. Est-ce vraiment autorisé ?",
+      "Où est-ce que je mets les solidages arrachés ? Déchets verts ou poubelle ?",
+      "Il y a de la balsamine de l'Himalaya partout au bord du ruisseau derrière le village. À qui dois-je le signaler ?",
+      "Sur le chantier à côté, on évacue de la terre avec de la renouée. Puis-je le signaler ?",
+      "Est-ce que je peux simplement pulvériser un désherbant contre l'ailante ?"
+    ],
+    "it": [
+      "Nel nostro giardino cresce un poligono che ritorna ogni anno. Cosa faccio?",
+      "Posso lasciare il mio lauroceraso o devo toglierlo adesso?",
+      "Il mio vicino regala talee di buddleja nel quartiere. È permesso?",
+      "Dove butto le verghe d'oro che ho strappato? Verde o rifiuti normali?",
+      "Lungo il ruscello dietro il paese cresce ovunque la balsamina ghiandolosa. A chi lo segnalo?",
+      "Nel cantiere qui vicino portano via della terra con del poligono dentro. Posso segnalarlo?",
+      "Posso spruzzare un diserbante contro l'ailanto?"
+    ],
+    "en": [
+      "There's some kind of knotweed growing in our garden that keeps coming back every year. What do I do about it?",
+      "Can I leave my cherry laurel where it is, or does it have to go now?",
+      "My neighbour is giving away summer lilac seedlings around the neighbourhood. Is that even allowed?",
+      "What do I do with the goldenrod I've pulled up? Green waste or household rubbish?",
+      "There's balsam growing everywhere along the stream behind the village. Who do I tell?",
+      "Soil with knotweed in it is being trucked away from the building site next door. Can I report that?",
+      "Can I just spray weedkiller on the tree of heaven?"
+    ],
+    "rm": [
+      "Sper noss chasa creschan adina puspè Knöterichs. Tge poss jau far cun els?",
+      "Poss jau laschar star mia planta da Kirschlorbeer, u sto ella ussa davent?",
+      "Mes vischin regala plantulas da Sommerflieder en il quartier. Èsi lubì?",
+      "Nua vasa cun las goldrutas stargiadas – en la scolta verda u en il rument normal?",
+      "Sper il ri davos il vitg creschan Springkraut dapertut. Tgi stoss jau infurmar?",
+      "Sin la fossa da construcziun vischina vegn manada davent terra cun Knöterich. Poss jau annunziar quai?",
+      "Poss jau simplamain spritgar in product cunter la zerclim sin il Götterbaum?"
     ]
   },
   "scope": {
     "covers": {
-      "de": "Was das Bundesrecht zu invasiven gebietsfremden Pflanzen vorschreibt: die beiden Artenlisten, das Umgangsverbot, das Verkaufs- und Abgabeverbot seit 1. September 2024, Sorgfaltspflichten im Garten und auf Baustellen, Entfernen und Entsorgen, das Verbot von Unkrautvertilgern an bestimmten Orten, die Aufgaben der Kantone, das Melden von Funden und Verkaufsangeboten sowie die Grenzen dieser Wege."
+      "de": "Was das Bundesrecht zu invasiven gebietsfremden Pflanzen vorschreibt: die beiden Artenlisten, das Umgangsverbot, das Verkaufs- und Abgabeverbot seit 1. September 2024, Sorgfaltspflichten im Garten und auf Baustellen, Entfernen und Entsorgen, das Verbot von Unkrautvertilgern an bestimmten Orten, die Aufgaben der Kantone, das Melden von Funden und Verkaufsangeboten sowie die Grenzen dieser Wege.",
+      "fr": "Ce que prescrit le droit fédéral sur les plantes exotiques envahissantes : les deux listes d'espèces, l'interdiction d'utilisation, l'interdiction de vente et de remise depuis le 1er septembre 2024, les devoirs de diligence dans le jardin et sur les chantiers, l'enlèvement et l'élimination, l'interdiction des désherbants à certains endroits, les tâches des cantons, le signalement des découvertes et des offres de vente, ainsi que les limites de ces démarches.",
+      "it": "Cosa prescrive il diritto federale sulle piante alloctone invasive: le due liste di specie, il divieto di utilizzazione, il divieto di vendita e di cessione dal 1° settembre 2024, gli obblighi di diligenza in giardino e sui cantieri, la rimozione e lo smaltimento, il divieto dei diserbanti in determinati luoghi, i compiti dei Cantoni, la segnalazione di ritrovamenti e di offerte di vendita, nonché i limiti di queste vie.",
+      "en": "What federal law requires for invasive alien plants: the two species lists, the handling ban, the sale and distribution ban in force since 1 September 2024, duties of care in the garden and on building sites, removal and disposal, the ban on weedkillers in certain places, the tasks of the cantons, reporting finds and offers for sale, and the limits of these routes.",
+      "rm": "Tge che il dretg federal prescriva davart plantas exotgnas invasivas: las duas glistas da spezias, il scumond da tractament, il scumond da vendita e da surdada dapi il 1. da settember 2024, las obligaziuns da diligenza en il curtin e sin fossas da construcziun, il stgaffir davent e l'eliminaziun, il scumond da products cunter la zerclim en tscherts lieus, las incumbensas dals chantuns, l'annunzia d'anflaments e da purschidas da vendita sco er ils limits da questas vias."
     },
     "excludes": {
-      "de": "Ansprüche gegen Nachbarn wegen Pflanzen an der Grenze (Nachbarrecht), invasive Tiere und Krankheitserreger, landwirtschaftliche Unkrautbekämpfung, die Zulassung von Pflanzenschutzmitteln sowie die einzelnen kantonalen Regeln und Gebühren."
+      "de": "Ansprüche gegen Nachbarn wegen Pflanzen an der Grenze (Nachbarrecht), invasive Tiere und Krankheitserreger, landwirtschaftliche Unkrautbekämpfung, die Zulassung von Pflanzenschutzmitteln sowie die einzelnen kantonalen Regeln und Gebühren.",
+      "fr": "Les prétentions contre des voisins pour des plantes à la limite de propriété (droit de voisinage), les animaux exotiques envahissants et les agents pathogènes, la lutte agricole contre les mauvaises herbes, l'homologation des produits phytosanitaires, ainsi que les règles et émoluments cantonaux dans le détail.",
+      "it": "Le pretese contro i vicini per piante al confine (diritto di vicinato), gli animali alloctoni invasivi e gli agenti patogeni, la lotta alle erbe infestanti in agricoltura, l'omologazione dei prodotti fitosanitari, nonché le singole regole e tasse cantonali.",
+      "en": "Claims against neighbours over plants on the boundary (neighbour law), invasive animals and pathogens, agricultural weed control, the authorisation of plant protection products, and the individual cantonal rules and fees.",
+      "rm": "Pretensiuns cunter vischins pervia da plantas sin la cunfin (dretg da vischinanza), tiers invasivs ed agents patogens, la cumbatta agricula cunter la zerclim, l'admissiun da substanzas per cumbatter zerclim e parasits sco er las reglas e taxas chantunalas singulas."
     }
   },
   "facts": [
     {
       "key": "where",
       "question": {
-        "de": "Wo wachsen die Pflanzen?"
+        "de": "Wo wachsen die Pflanzen?",
+        "fr": "Où poussent les plantes ?",
+        "it": "Dove crescono le piante?",
+        "en": "Where are the plants growing?",
+        "rm": "Nua creschan las plantas?"
       },
       "options": [
         {
           "value": "own-garden",
           "label": {
-            "de": "In meinem eigenen Garten oder auf meinem Grundstück"
+            "de": "In meinem eigenen Garten oder auf meinem Grundstück",
+            "fr": "Dans mon propre jardin ou sur mon bien-fonds",
+            "it": "Nel mio giardino o sul mio fondo",
+            "en": "In my own garden or on my property",
+            "rm": "En mes agen curtin u sin mia parcella"
           }
         },
         {
           "value": "building-site",
           "label": {
-            "de": "Auf einer Baustelle oder in Aushub- und Erdmaterial"
+            "de": "Auf einer Baustelle oder in Aushub- und Erdmaterial",
+            "fr": "Sur un chantier ou dans des matériaux d'excavation et de la terre",
+            "it": "Su un cantiere o in materiale di scavo o di terra",
+            "en": "On a building site or in excavated soil and earth",
+            "rm": "Sin ina fossa da construcziun u en material da stgavament e da terra"
           }
         },
         {
           "value": "nature",
           "label": {
-            "de": "An einem Bach, am Waldrand, in einer Hecke oder in einem Schutzgebiet"
+            "de": "An einem Bach, am Waldrand, in einer Hecke oder in einem Schutzgebiet",
+            "fr": "Au bord d'un ruisseau, en lisière de forêt, dans une haie ou dans une zone protégée",
+            "it": "Lungo un ruscello, al margine del bosco, in una siepe o in una zona protetta",
+            "en": "By a stream, at the edge of a forest, in a hedge or in a protected area",
+            "rm": "Vid in ri, vi da l'ur dal guaud, en ina saiv u en in territori protegì"
           }
         },
         {
           "value": "public-other",
           "label": {
-            "de": "Am Strassenrand, an einer Bahnböschung oder in einer öffentlichen Anlage"
+            "de": "Am Strassenrand, an einer Bahnböschung oder in einer öffentlichen Anlage",
+            "fr": "Au bord d'une route, sur un talus ferroviaire ou dans une installation publique",
+            "it": "Sul bordo di una strada, su una scarpata ferroviaria o in un impianto pubblico",
+            "en": "At the roadside, on a railway embankment or in a public facility",
+            "rm": "Vid la via, vi d'ina costa da viafier u en in'installaziun publica"
           }
         },
         {
           "value": "other-private",
           "label": {
-            "de": "Auf dem Grundstück von Nachbarn oder anderen Privaten"
+            "de": "Auf dem Grundstück von Nachbarn oder anderen Privaten",
+            "fr": "Sur le bien-fonds de voisins ou d'autres particuliers",
+            "it": "Sul fondo di vicini o di altri privati",
+            "en": "On a neighbour's property or another private property",
+            "rm": "Sin la parcella da vischins u d'autras persunas privatas"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht / an mehreren Orten"
+            "de": "Weiss ich nicht / an mehreren Orten",
+            "fr": "Je ne sais pas / à plusieurs endroits",
+            "it": "Non lo so / in più luoghi",
+            "en": "I don't know / in several places",
+            "rm": "Na sai betg / a plirs lieus"
           }
         }
       ]
@@ -78,31 +158,51 @@
     {
       "key": "goal",
       "question": {
-        "de": "Was möchten Sie tun?"
+        "de": "Was möchten Sie tun?",
+        "fr": "Que voulez-vous faire ?",
+        "it": "Cosa desidera fare?",
+        "en": "What would you like to do?",
+        "rm": "Tge vulais Vus far?"
       },
       "options": [
         {
           "value": "remove",
           "label": {
-            "de": "Die Pflanzen entfernen und richtig entsorgen"
+            "de": "Die Pflanzen entfernen und richtig entsorgen",
+            "fr": "Enlever les plantes et les éliminer correctement",
+            "it": "Rimuovere le piante e smaltirle correttamente",
+            "en": "Remove the plants and dispose of them properly",
+            "rm": "Stgaffir davent las plantas ed als eliminar correctamain"
           }
         },
         {
           "value": "trade",
           "label": {
-            "de": "Pflanzen kaufen, verkaufen, verschenken oder neu pflanzen"
+            "de": "Pflanzen kaufen, verkaufen, verschenken oder neu pflanzen",
+            "fr": "Acheter, vendre, donner ou replanter des plantes",
+            "it": "Comprare, vendere, regalare o piantare piante nuove",
+            "en": "Buy, sell, give away or plant new plants",
+            "rm": "Cumprar, vender, regalar u plantar da nov plantas"
           }
         },
         {
           "value": "report",
           "label": {
-            "de": "Einen Fundort oder einen Verkauf melden"
+            "de": "Einen Fundort oder einen Verkauf melden",
+            "fr": "Signaler un lieu de découverte ou une vente",
+            "it": "Segnalare un ritrovamento o una vendita",
+            "en": "Report a location where I found plants, or a sale",
+            "rm": "Annunziar in lieu d'anflament u ina vendita"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich noch nicht"
+            "de": "Weiss ich noch nicht",
+            "fr": "Je ne sais pas encore",
+            "it": "Non lo so ancora",
+            "en": "I don't know yet",
+            "rm": "Na sai anc betg"
           }
         }
       ]
@@ -110,34 +210,58 @@
     {
       "key": "group",
       "help": {
-        "de": "Die beiden Listen stehen in den Anhängen 2.1 und 2.2 der Freisetzungsverordnung. Wenn Sie nicht sicher sind, wählen Sie «Weiss ich nicht»."
+        "de": "Die beiden Listen stehen in den Anhängen 2.1 und 2.2 der Freisetzungsverordnung. Wenn Sie nicht sicher sind, wählen Sie «Weiss ich nicht».",
+        "fr": "Les deux listes figurent aux annexes 2.1 et 2.2 de l'ordonnance sur la dissémination dans l'environnement (ODE). Si vous n'êtes pas sûr, choisissez « Je ne sais pas ».",
+        "it": "Le due liste si trovano negli allegati 2.1 e 2.2 dell'ordinanza sull'emissione deliberata nell'ambiente (OEDA). Se non è sicuro, scelga «Non lo so».",
+        "en": "The two lists are in Annexes 2.1 and 2.2 of the Release Ordinance. If you are not sure, choose \"I don't know\".",
+        "rm": "Las duas glistas sa chattan en las agiuntas 2.1 e 2.2 da l'Ordinaziun davart la liberaziun en l'ambient. Sche Vus n'essas betg segirs, tschernai «Na sai betg»."
       },
       "question": {
-        "de": "Um welche Pflanze geht es?"
+        "de": "Um welche Pflanze geht es?",
+        "fr": "De quelle plante s'agit-il ?",
+        "it": "Di quale pianta si tratta?",
+        "en": "Which plant is it?",
+        "rm": "Da tge planta sa tracta i?"
       },
       "options": [
         {
           "value": "list-2-1",
           "label": {
-            "de": "Streng verbotene Art, z. B. Asiatische Knöteriche (Japanischer Staudenknöterich), Amerikanische Goldruten, Götterbaum, Ambrosien, Riesenbärenklau, Drüsiges Springkraut"
+            "de": "Streng verbotene Art, z. B. Asiatische Knöteriche (Japanischer Staudenknöterich), Amerikanische Goldruten, Götterbaum, Ambrosien, Riesenbärenklau, Drüsiges Springkraut",
+            "fr": "Espèce strictement interdite, par ex. renouées asiatiques (renouée du Japon), solidages, ailante, ambroisies, berce du Caucase, balsamine de l'Himalaya",
+            "it": "Specie severamente vietata, per esempio i poligoni asiatici (poligono del Giappone), le verghe d'oro americane, l'ailanto, le ambrosie, la panace di Mantegazzi, la balsamina ghiandolosa",
+            "en": "A strictly banned species, e.g. Asian knotweeds (Japanese knotweed), American goldenrods, tree of heaven, ragweeds, giant hogweed, Himalayan balsam",
+            "rm": "Spezia scumandada strictamain, p.ex. Asiatische Knöteriche (Japanischer Staudenknöterich), Amerikanische Goldruten, Götterbaum, Ambrosien, Riesenbärenklau, Drüsiges Springkraut"
           }
         },
         {
           "value": "list-2-2",
           "label": {
-            "de": "Art mit Verkaufsverbot, z. B. Kirschlorbeer, Schmetterlingsstrauch (Sommerflieder), Blauglockenbaum, Chinesische Hanfpalme"
+            "de": "Art mit Verkaufsverbot, z. B. Kirschlorbeer, Schmetterlingsstrauch (Sommerflieder), Blauglockenbaum, Chinesische Hanfpalme",
+            "fr": "Espèce interdite à la vente, par ex. laurier-cerise, arbre aux papillons, paulownia, palmier de Chine",
+            "it": "Specie con divieto di vendita, per esempio il lauroceraso, la buddleja (albero delle farfalle), la paulonia, la palma del Giappone",
+            "en": "A species with a sales ban, e.g. cherry laurel, butterfly bush (summer lilac), princess tree, Chinese windmill palm",
+            "rm": "Spezia cun scumond da vendita, p.ex. Kirschlorbeer, Schmetterlingsstrauch (Sommerflieder), Blauglockenbaum, Chinesische Hanfpalme"
           }
         },
         {
           "value": "other",
           "label": {
-            "de": "Eine andere Pflanze, die als invasiv gilt, aber auf keiner der beiden Listen steht"
+            "de": "Eine andere Pflanze, die als invasiv gilt, aber auf keiner der beiden Listen steht",
+            "fr": "Une autre plante considérée comme envahissante, mais qui ne figure sur aucune des deux listes",
+            "it": "Un'altra pianta considerata invasiva, ma che non figura in nessuna delle due liste",
+            "en": "Another plant that is considered invasive but is not on either list",
+            "rm": "Ina autra planta che vala sco invasiva, ma na sta sin nagina da las duas glistas"
           }
         },
         {
           "value": "unknown",
           "label": {
-            "de": "Weiss ich nicht"
+            "de": "Weiss ich nicht",
+            "fr": "Je ne sais pas",
+            "it": "Non lo so",
+            "en": "I don't know",
+            "rm": "Na sai betg"
           }
         }
       ]
@@ -148,7 +272,11 @@
       "id": "two-lists",
       "kind": "rule",
       "text": {
-        "de": "Invasive gebietsfremde Pflanzen sind Arten, die ursprünglich nicht aus Europa stammen, sich hier stark ausbreiten und dadurch einheimische Pflanzen und Tiere verdrängen oder Menschen schaden können. Das Bundesrecht, genauer die Freisetzungsverordnung, führt zwei Listen. Für die Arten auf der ersten Liste (Anhang 2.1) gilt ein fast vollständiges Umgangsverbot. Dazu gehören zum Beispiel die Asiatischen Knöteriche mit dem Japanischen Staudenknöterich, die Amerikanischen Goldruten, der Götterbaum, die Ambrosien, der Riesenbärenklau, das Drüsige Springkraut und der Essigbaum. Für die Arten auf der zweiten Liste (Anhang 2.2) gilt ein Verkaufs- und Abgabeverbot. Dazu gehören zum Beispiel der Kirschlorbeer, der Schmetterlingsstrauch (im Volksmund Sommerflieder), der Blauglockenbaum, die Chinesische Hanfpalme, das Einjährige Berufkraut und die Armenische Brombeere. Das Departement UVEK passt die Listen an, wenn es neue Erkenntnisse gibt. Prüfen Sie deshalb die aktuelle Fassung. Für Pflanzen, die auf keiner Liste stehen, gelten nur die allgemeinen Sorgfaltspflichten."
+        "de": "Invasive gebietsfremde Pflanzen sind Arten, die ursprünglich nicht aus Europa stammen, sich hier stark ausbreiten und dadurch einheimische Pflanzen und Tiere verdrängen oder Menschen schaden können. Das Bundesrecht, genauer die Freisetzungsverordnung, führt zwei Listen. Für die Arten auf der ersten Liste (Anhang 2.1) gilt ein fast vollständiges Umgangsverbot. Dazu gehören zum Beispiel die Asiatischen Knöteriche mit dem Japanischen Staudenknöterich, die Amerikanischen Goldruten, der Götterbaum, die Ambrosien, der Riesenbärenklau, das Drüsige Springkraut und der Essigbaum. Für die Arten auf der zweiten Liste (Anhang 2.2) gilt ein Verkaufs- und Abgabeverbot. Dazu gehören zum Beispiel der Kirschlorbeer, der Schmetterlingsstrauch (im Volksmund Sommerflieder), der Blauglockenbaum, die Chinesische Hanfpalme, das Einjährige Berufkraut und die Armenische Brombeere. Das Departement UVEK passt die Listen an, wenn es neue Erkenntnisse gibt. Prüfen Sie deshalb die aktuelle Fassung. Für Pflanzen, die auf keiner Liste stehen, gelten nur die allgemeinen Sorgfaltspflichten.",
+        "fr": "Les plantes exotiques envahissantes sont des espèces qui ne sont pas originaires d'Europe, qui s'y propagent fortement et qui, de ce fait, évincent la flore et la faune indigènes ou peuvent nuire aux personnes. Le droit fédéral, plus précisément l'ordonnance sur la dissémination dans l'environnement (ODE), établit deux listes. Les espèces de la première liste (annexe 2.1) sont soumises à une interdiction presque totale d'utilisation. En font partie par exemple les renouées asiatiques, dont la renouée du Japon, les solidages, l'ailante, les ambroisies, la berce du Caucase, la balsamine de l'Himalaya et le sumac vinaigrier. Les espèces de la deuxième liste (annexe 2.2) sont soumises à une interdiction de vente et de remise. En font partie par exemple le laurier-cerise, l'arbre aux papillons, le paulownia, le palmier de Chine, l'érigéron annuel et la ronce d'Arménie. Le Département fédéral de l'environnement, des transports, de l'énergie et de la communication (DETEC) adapte les listes lorsque de nouvelles connaissances l'exigent. Vérifiez donc la version actuelle. Pour les plantes qui ne figurent sur aucune liste, seuls s'appliquent les devoirs de diligence généraux.",
+        "it": "Le piante alloctone invasive sono specie che non provengono originariamente dall'Europa, si diffondono qui fortemente e per questo possono soppiantare piante e animali autoctoni o danneggiare le persone. Il diritto federale, più precisamente l'ordinanza sull'emissione deliberata nell'ambiente (OEDA), prevede due liste. Per le specie della prima lista (allegato 2.1) vale un divieto di utilizzazione quasi totale. Ne fanno parte per esempio i poligoni asiatici con il poligono del Giappone, le verghe d'oro americane, l'ailanto, le ambrosie, la panace di Mantegazzi, la balsamina ghiandolosa e il sommacco maggiore. Per le specie della seconda lista (allegato 2.2) vale un divieto di vendita e di cessione. Ne fanno parte per esempio il lauroceraso, la buddleja (chiamata anche albero delle farfalle), la paulonia, la palma del Giappone, la cespica annua e la mora d'Armenia. Il Dipartimento DATEC adegua le liste quando emergono nuove conoscenze. Verifichi perciò la versione attuale. Per le piante che non figurano in nessuna lista valgono solo gli obblighi generali di diligenza.",
+        "en": "Invasive alien plants are species that did not originally come from Europe, spread aggressively here, and can thereby crowd out native plants and animals or harm people. Federal law, more precisely the Release Ordinance, keeps two lists. Species on the first list (Annex 2.1) are subject to an almost complete handling ban. These include, for example, the Asian knotweeds including Japanese knotweed, the American goldenrods, the tree of heaven, the ragweeds, giant hogweed, Himalayan balsam and staghorn sumac. Species on the second list (Annex 2.2) are subject to a sale and distribution ban. These include, for example, cherry laurel, butterfly bush (popularly known as summer lilac), princess tree, Chinese windmill palm, annual fleabane and Himalayan blackberry. The Federal Department of the Environment, Transport, Energy and Communications (DETEC) adjusts the lists as new findings emerge. So check the current version. For plants that are on neither list, only the general duties of care apply.",
+        "rm": "Plantas exotgnas invasivas èn spezias che na vegnan originarmain betg da l'Europa, che sa derasan fitgamain qua e che sfadan tras quai davent plantas ed animals indigens u pon donnegiar umans. Il dretg federal, pli precis l'Ordinaziun davart la liberaziun en l'ambient, cuntegna duas glistas. Per las spezias da la emprima glista (agiunta 2.1) vala in scumond da tractament quasi cumplet. A quellas tutgan per exempel las Asiatische Knöteriche cun il Japanischer Staudenknöterich, las Amerikanische Goldruten, il Götterbaum, las Ambrosien, il Riesenbärenklau, il Drüsige Springkraut ed il Essigbaum. Per las spezias da la segunda glista (agiunta 2.2) vala in scumond da vendita e da surdada. A quellas tutgan per exempel il Kirschlorbeer, il Schmetterlingsstrauch (en il pievel numnà Sommerflieder), il Blauglockenbaum, la Chinesische Hanfpalme, il Einjährige Berufkraut e la Armenische Brombeere. Il Departament UVEK adatta las glistas, sch'i dat novas enconuschientschas. Controllai percunquai adina la versiun actuala. Per plantas che na stattan sin nagina glista, valan mo las obligaziuns generalas da diligenza."
       },
       "sources": [
         "frsv-3",
@@ -166,7 +294,11 @@
         ]
       },
       "text": {
-        "de": "Mit den Arten der ersten Liste (Anhang 2.1) dürfen Sie in der Umwelt nicht direkt umgehen. Als Umgang zählt fast jede Tätigkeit: pflanzen, vermehren, verwenden, transportieren, lagern, verkaufen, verschenken oder tauschen. Erlaubt ist nur, was der Bekämpfung dient, also Ausreissen, Ausgraben, Mähen und die richtige Entsorgung. Ausnahmen kann nur das Bundesamt für Umwelt (BAFU) im Einzelfall bewilligen. Wachsen solche Pflanzen bei Ihnen, dürfen Sie sie also nicht stehen lassen, um sie weiterzugeben oder zu vermehren. Achten Sie darauf, dass sie sich nicht weiter ausbreiten."
+        "de": "Mit den Arten der ersten Liste (Anhang 2.1) dürfen Sie in der Umwelt nicht direkt umgehen. Als Umgang zählt fast jede Tätigkeit: pflanzen, vermehren, verwenden, transportieren, lagern, verkaufen, verschenken oder tauschen. Erlaubt ist nur, was der Bekämpfung dient, also Ausreissen, Ausgraben, Mähen und die richtige Entsorgung. Ausnahmen kann nur das Bundesamt für Umwelt (BAFU) im Einzelfall bewilligen. Wachsen solche Pflanzen bei Ihnen, dürfen Sie sie also nicht stehen lassen, um sie weiterzugeben oder zu vermehren. Achten Sie darauf, dass sie sich nicht weiter ausbreiten.",
+        "fr": "Vous n'avez pas le droit d'utiliser directement dans l'environnement les espèces de la première liste (annexe 2.1). Est considérée comme utilisation presque toute activité : planter, multiplier, employer, transporter, stocker, vendre, donner ou échanger. Seul ce qui sert à la lutte contre ces plantes est autorisé, donc l'arrachage, le déterrage, la fauche et l'élimination correcte. Seul l'Office fédéral de l'environnement (OFEV) peut accorder des dérogations au cas par cas. Si de telles plantes poussent chez vous, vous ne pouvez donc pas les laisser sur pied pour les transmettre ou les multiplier. Veillez à ce qu'elles ne se propagent pas davantage.",
+        "it": "Le specie della prima lista (allegato 2.1) non le può utilizzare direttamente nell'ambiente. Conta come utilizzazione quasi ogni attività: piantare, moltiplicare, impiegare, trasportare, immagazzinare, vendere, regalare o scambiare. È permesso solo ciò che serve alla lotta contro queste piante, quindi strappare, scavare, falciare e smaltire correttamente. Deroghe può concederle, nel singolo caso, solo l'Ufficio federale dell'ambiente (UFAM). Se queste piante crescono da lei, non può quindi lasciarle crescere per cederle o moltiplicarle. Faccia attenzione che non si diffondano ulteriormente.",
+        "en": "You may not handle species from the first list (Annex 2.1) directly in the environment. Almost any activity counts as handling: planting, propagating, using, transporting, storing, selling, giving away or exchanging. Only what serves to combat the plant is allowed, that is, pulling it out, digging it up, mowing it and disposing of it properly. Only the Federal Office for the Environment (FOEN) can authorise exceptions, and only in individual cases. So if such plants are growing on your property, you may not leave them standing in order to pass them on or propagate them. Make sure they do not spread further.",
+        "rm": "Cun las spezias da la emprima glista (agiunta 2.1) na dastgais Vus betg tractar directamain en l'ambient. Sco tractament vala quasi mintga activitad: plantar, multiplitgar, utilisar, transportar, deposità, vender, regalar u barattar. Lubì è mo quai che serva a la cumbatta, dunca tirar ora cun las ratschs, scavar ora, sagar e l'eliminaziun correcta. Excepziuns po mo l'Uffizi federal per l'ambient (UFAM) permetter en il cas singul. Creschan tals plantas tar Vus, na dastgais Vus donc betg als laschar star per als surdar u multiplitgar vinavant. Attenziun che ellas na sa dereschan betg vinavant."
       },
       "sources": [
         "frsv-15",
@@ -183,7 +315,11 @@
         ]
       },
       "text": {
-        "de": "Die Arten der zweiten Liste (Anhang 2.2) dürfen seit dem 1. September 2024 nicht mehr für die Verwendung im Freien in Verkehr gebracht werden. Das heisst: nicht verkaufen, nicht verschenken, nicht tauschen, nicht ausleihen und nicht in die Schweiz einführen. Die Verordnung verlangt nicht ausdrücklich, dass Sie bestehende Pflanzen entfernen. Nach Angaben des BAFU darf ein Kirschlorbeer oder ein Sommerflieder, der schon vor dem Verbot im Garten stand, bleiben und gepflegt werden. Sie müssen aber verhindern, dass er sich unkontrolliert ausbreitet. Schneiden Sie zum Beispiel verblühte Blütenstände ab, bevor sich Samen bilden, und geben Sie keine Stecklinge oder Jungpflanzen weiter. Wenn Sie ohnehin neu pflanzen, wählen Sie eine einheimische Art."
+        "de": "Die Arten der zweiten Liste (Anhang 2.2) dürfen seit dem 1. September 2024 nicht mehr für die Verwendung im Freien in Verkehr gebracht werden. Das heisst: nicht verkaufen, nicht verschenken, nicht tauschen, nicht ausleihen und nicht in die Schweiz einführen. Die Verordnung verlangt nicht ausdrücklich, dass Sie bestehende Pflanzen entfernen. Nach Angaben des BAFU darf ein Kirschlorbeer oder ein Sommerflieder, der schon vor dem Verbot im Garten stand, bleiben und gepflegt werden. Sie müssen aber verhindern, dass er sich unkontrolliert ausbreitet. Schneiden Sie zum Beispiel verblühte Blütenstände ab, bevor sich Samen bilden, und geben Sie keine Stecklinge oder Jungpflanzen weiter. Wenn Sie ohnehin neu pflanzen, wählen Sie eine einheimische Art.",
+        "fr": "Depuis le 1er septembre 2024, les espèces de la deuxième liste (annexe 2.2) ne peuvent plus être mises en circulation pour une utilisation en plein air. Cela signifie : ne pas vendre, ne pas donner, ne pas échanger, ne pas prêter et ne pas importer en Suisse. L'ordonnance n'exige pas expressément que vous enleviez les plantes déjà présentes. Selon l'OFEV, un laurier-cerise ou un arbre aux papillons déjà présent dans le jardin avant l'interdiction peut rester et être entretenu. Vous devez toutefois empêcher qu'il se propage de manière incontrôlée. Coupez par exemple les inflorescences fanées avant la formation des graines, et ne donnez pas de boutures ni de jeunes plants. Si vous plantez de toute façon quelque chose de nouveau, choisissez une espèce indigène.",
+        "it": "Le specie della seconda lista (allegato 2.2) non possono più essere immesse in commercio per l'utilizzazione all'aperto dal 1° settembre 2024. Questo significa: non venderle, non regalarle, non scambiarle, non prestarle e non importarle in Svizzera. L'ordinanza non impone espressamente di rimuovere le piante già esistenti. Secondo l'UFAM, un lauroceraso o una buddleja già presenti in giardino prima del divieto possono restare ed essere curati. Deve però impedire che si diffondano in modo incontrollato. Tagli per esempio le infiorescenze sfiorite prima che si formino i semi, e non ceda talee o piante giovani. Se comunque pianta qualcosa di nuovo, scelga una specie autoctona.",
+        "en": "Since 1 September 2024, species from the second list (Annex 2.2) may no longer be put into circulation for outdoor use. This means: no selling, no giving away, no exchanging, no lending, and no importing into Switzerland. The ordinance does not expressly require you to remove existing plants. According to the FOEN, a cherry laurel or a summer lilac that was already in the garden before the ban may stay and be cared for. But you must prevent it from spreading uncontrolled. For example, cut off faded flower heads before seeds form, and do not pass on cuttings or young plants. If you are planting anew anyway, choose a native species.",
+        "rm": "Las spezias da la segunda glista (agiunta 2.2) na dastgan pli, dapi il 1. da settember 2024, vegnir messas en circulaziun per l'utilisaziun a l'aviert. Quai vul dir: betg vender, betg regalar, betg barattar, betg dar en emprest e betg importar en Svizra. L'ordinaziun na pretenda betg expressivamain che Vus stgaffiais davent plantas existentas. Tenor indicaziuns da l'UFAM dastga in Kirschlorbeer u in Sommerflieder, che stevan gia en il curtin avant il scumond, restar e vegnir tgirads. Vus stuais dentant impedir ch'els sa dereschan senza controlla. Tagliai per exempel via influrescenzas sflurentadas, avant che sa furmian semenzas, e na dai betg vinavant stgavazzas u plantas giuvnas. Sche Vus plantais tuttavia da nov, tschernai ina spezia indigena."
       },
       "sources": [
         "frsv-15",
@@ -201,7 +337,11 @@
         ]
       },
       "text": {
-        "de": "Verkaufen, verschenken oder tauschen Sie keine Pflanzen der beiden Listen, auch nicht über Online-Plattformen, an Pflanzenbörsen, auf dem Flohmarkt oder unter Bekannten. Bringen Sie solche Pflanzen auch nicht aus dem Ausland mit: Die Einfuhr zählt ebenfalls als Inverkehrbringen. Für die zweite Liste gilt das seit dem 1. September 2024. Pflanzen der ersten Liste dürfen Sie gar nicht pflanzen oder vermehren. Wer diese Vorschriften vorsätzlich verletzt, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden, bei gewerbsmässigem Handeln auch strenger. Auch Fahrlässigkeit ist strafbar."
+        "de": "Verkaufen, verschenken oder tauschen Sie keine Pflanzen der beiden Listen, auch nicht über Online-Plattformen, an Pflanzenbörsen, auf dem Flohmarkt oder unter Bekannten. Bringen Sie solche Pflanzen auch nicht aus dem Ausland mit: Die Einfuhr zählt ebenfalls als Inverkehrbringen. Für die zweite Liste gilt das seit dem 1. September 2024. Pflanzen der ersten Liste dürfen Sie gar nicht pflanzen oder vermehren. Wer diese Vorschriften vorsätzlich verletzt, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden, bei gewerbsmässigem Handeln auch strenger. Auch Fahrlässigkeit ist strafbar.",
+        "fr": "Ne vendez, ne donnez et n'échangez aucune plante des deux listes, y compris via des plateformes en ligne, à des bourses aux plantes, au marché aux puces ou entre connaissances. Ne rapportez pas non plus de telles plantes de l'étranger : l'importation compte aussi comme mise en circulation. Pour la deuxième liste, cela vaut depuis le 1er septembre 2024. Les plantes de la première liste, vous ne pouvez même pas les planter ni les multiplier. Quiconque enfreint intentionnellement ces prescriptions peut être puni d'une peine privative de liberté de trois ans au plus ou d'une peine pécuniaire, et plus sévèrement encore en cas d'activité à titre professionnel. La négligence est également punissable.",
+        "it": "Non venda, non regali e non scambi piante delle due liste, nemmeno tramite piattaforme online, in borse di scambio per piante, al mercatino delle pulci o tra conoscenti. Non porti con sé queste piante nemmeno dall'estero: anche l'importazione conta come immissione in commercio. Per la seconda lista questo vale dal 1° settembre 2024. Le piante della prima lista non le può piantare né moltiplicare in nessun caso. Chi viola intenzionalmente queste prescrizioni può essere punito con una pena detentiva fino a tre anni o con una pena pecuniaria, in caso di attività professionale anche più severamente. È punibile anche la negligenza.",
+        "en": "Do not sell, give away or exchange plants from either list, including through online platforms, at plant swaps, at flea markets or among acquaintances. Do not bring such plants back from abroad either: importing them also counts as putting them into circulation. For the second list, this has applied since 1 September 2024. You may not plant or propagate plants from the first list at all. Anyone who intentionally breaches these rules can be punished with imprisonment of up to three years or a monetary penalty, and more severely if acting on a commercial basis. Negligence is also punishable.",
+        "rm": "Na vendai, na regalai e na barattai naginas plantas da las duas glistas, era betg tras plattafurmas online, a bursas da plantas, sin il martgà da pulschs u tranter conuschents. Na purtai er betg cun Vus tals plantas da l'exteriur: l'importaziun vala er sco metter en circulaziun. Per la segunda glista vala quai dapi il 1. da settember 2024. Plantas da la emprima glista na dastgais Vus deloc plantar u multiplitgar. Tgi che viola intenziunadamain questas prescripziuns, po vegnir chastià cun in chasti da detenziun da fin trais onns u cun in chasti pecuniar, en cas d'agir commess da professiun er pli rigurusamain. Er la negligientscha è chastiabla."
       },
       "sources": [
         "frsv-15",
@@ -213,7 +353,11 @@
       "id": "duty-of-care",
       "kind": "rule",
       "text": {
-        "de": "Wer mit Pflanzen im Freien umgeht, muss so sorgfältig sein, dass sie weder Menschen, Tiere und Umwelt gefährden noch die biologische Vielfalt beeinträchtigen. Das gilt für alle gebietsfremden Pflanzen, nicht nur für die Arten auf den Listen. Konkret dürfen sich die Pflanzen nicht unkontrolliert ausbreiten. Halten Sie sich an Pflegehinweise, die Sie beim Kauf erhalten haben. Eine allgemeine Pflicht, alle invasiven Pflanzen im eigenen Garten zu entfernen, kennt das Bundesrecht heute nicht. Der Kanton kann aber im Einzelfall Bekämpfungsmassnahmen anordnen, und kantonale Regeln können weiter gehen."
+        "de": "Wer mit Pflanzen im Freien umgeht, muss so sorgfältig sein, dass sie weder Menschen, Tiere und Umwelt gefährden noch die biologische Vielfalt beeinträchtigen. Das gilt für alle gebietsfremden Pflanzen, nicht nur für die Arten auf den Listen. Konkret dürfen sich die Pflanzen nicht unkontrolliert ausbreiten. Halten Sie sich an Pflegehinweise, die Sie beim Kauf erhalten haben. Eine allgemeine Pflicht, alle invasiven Pflanzen im eigenen Garten zu entfernen, kennt das Bundesrecht heute nicht. Der Kanton kann aber im Einzelfall Bekämpfungsmassnahmen anordnen, und kantonale Regeln können weiter gehen.",
+        "fr": "Quiconque utilise des plantes en plein air doit veiller à ce qu'elles ne mettent en danger ni les personnes, ni les animaux, ni l'environnement, et à ce qu'elles ne portent pas atteinte à la diversité biologique. Cela vaut pour toutes les plantes exotiques, pas seulement pour les espèces des listes. Concrètement, les plantes ne doivent pas se propager de manière incontrôlée. Respectez les conseils d'entretien reçus à l'achat. Le droit fédéral ne connaît aujourd'hui aucune obligation générale d'enlever toutes les plantes envahissantes de son propre jardin. Le canton peut toutefois ordonner des mesures de lutte au cas par cas, et les règles cantonales peuvent aller plus loin.",
+        "it": "Chi utilizza piante all'aperto deve farlo con la diligenza necessaria affinché non mettano in pericolo persone, animali e ambiente e non pregiudichino la diversità biologica. Questo vale per tutte le piante alloctone, non solo per le specie delle liste. In concreto, le piante non devono diffondersi in modo incontrollato. Rispetti le indicazioni di cura ricevute al momento dell'acquisto. Il diritto federale non conosce oggi un obbligo generale di rimuovere tutte le piante invasive dal proprio giardino. Il Cantone può però ordinare misure di lotta nel singolo caso, e le regole cantonali possono andare oltre.",
+        "en": "Anyone who handles plants outdoors must take enough care that they do not endanger people, animals or the environment, and do not harm biological diversity. This applies to all alien plants, not only to the species on the lists. In concrete terms, the plants must not spread uncontrolled. Follow any care instructions you received when you bought the plant. Federal law today does not impose a general duty to remove all invasive plants from your own garden. But the canton can order control measures in an individual case, and cantonal rules can go further.",
+        "rm": "Tgi che tracta plantas a l'aviert, sto esser uschè diligent che las plantas na pericliteschan ni umans, tiers e l'ambient ni pregiuditgeschan la diversitad biologica. Quai vala per tut las plantas exotgnas, betg mo per las spezias da las glistas. Concretamain na dastgan las plantas betg sa dereschar senza controlla. Observai las indicaziuns da tgira che Vus avais retschet tar il cumpra. Ina obligaziun generala da stgaffir davent tut las plantas invasivas en il agen curtin na enconuscha il dretg federal oz betg. Il chantun po dentant ordinar en il cas singul mesiras da cumbatta, e reglas chantunalas pon ir pli lunsch."
       },
       "sources": [
         "frsv-6",
@@ -232,7 +376,11 @@
         ]
       },
       "text": {
-        "de": "So gehen Sie beim Entfernen vor: Bestimmen Sie die Art zuerst sicher, etwa mit den Merkblättern und Fotos von Info Flora. Entfernen Sie die Pflanzen vor der Samenreife, damit keine Samen in den Boden gelangen. Einjährige Arten und junge Pflanzen reissen Sie samt Wurzeln aus. Sträucher und junge Bäume graben Sie mit dem Wurzelstock aus. Beim Götterbaum treiben abgesägte Stämme stark aus; lassen Sie sich hier beraten. Knöteriche bilden tief reichende Wurzelausläufer: Einmal Ausreissen genügt nicht, es braucht über Jahre wiederholtes Mähen oder Ausgraben. Tragen Sie Handschuhe. Der Saft des Riesenbärenklaus verursacht zusammen mit Sonnenlicht schwere Hautverbrennungen; tragen Sie lange Kleidung und Augenschutz. Der Blütenstaub der Ambrosien löst starke Allergien aus. Bei grossen Beständen, an Gewässern, im Wald oder auf fremdem Grund wenden Sie sich zuerst an die kantonale Fachstelle oder die Gemeinde."
+        "de": "So gehen Sie beim Entfernen vor: Bestimmen Sie die Art zuerst sicher, etwa mit den Merkblättern und Fotos von Info Flora. Entfernen Sie die Pflanzen vor der Samenreife, damit keine Samen in den Boden gelangen. Einjährige Arten und junge Pflanzen reissen Sie samt Wurzeln aus. Sträucher und junge Bäume graben Sie mit dem Wurzelstock aus. Beim Götterbaum treiben abgesägte Stämme stark aus; lassen Sie sich hier beraten. Knöteriche bilden tief reichende Wurzelausläufer: Einmal Ausreissen genügt nicht, es braucht über Jahre wiederholtes Mähen oder Ausgraben. Tragen Sie Handschuhe. Der Saft des Riesenbärenklaus verursacht zusammen mit Sonnenlicht schwere Hautverbrennungen; tragen Sie lange Kleidung und Augenschutz. Der Blütenstaub der Ambrosien löst starke Allergien aus. Bei grossen Beständen, an Gewässern, im Wald oder auf fremdem Grund wenden Sie sich zuerst an die kantonale Fachstelle oder die Gemeinde.",
+        "fr": "Voici comment procéder pour l'enlèvement : identifiez d'abord l'espèce avec certitude, par exemple à l'aide des fiches et photos d'Info Flora. Enlevez les plantes avant la maturation des graines, afin qu'aucune graine n'atteigne le sol. Arrachez les espèces annuelles et les jeunes plants avec leurs racines. Déterrez les arbustes et les jeunes arbres avec la souche. Chez l'ailante, les troncs coupés rejettent fortement ; faites-vous conseiller dans ce cas. Les renouées forment des rhizomes profonds : un seul arrachage ne suffit pas, il faut faucher ou déterrer à plusieurs reprises pendant des années. Portez des gants. La sève de la berce du Caucase provoque, en association avec la lumière du soleil, de graves brûlures cutanées ; portez des vêtements longs et une protection oculaire. Le pollen des ambroisies déclenche de fortes allergies. En cas de grands peuplements, près de cours d'eau, en forêt ou sur un terrain d'autrui, adressez-vous d'abord au service cantonal spécialisé ou à la commune.",
+        "it": "Ecco come procedere per la rimozione: prima identifichi con certezza la specie, per esempio con le schede informative e le foto di Info Flora. Rimuova le piante prima della maturazione dei semi, in modo che non arrivino nel terreno. Le specie annuali e le piante giovani le strappi con le radici. Arbusti e alberi giovani li scavi insieme alla ceppaia. Nell'ailanto, i tronchi tagliati ributtano vigorosamente: in questo caso si faccia consigliare. I poligoni formano rizomi che arrivano in profondità: strapparli una sola volta non basta, servono anni di falciature o scavi ripetuti. Indossi i guanti. Il succo della panace di Mantegazzi provoca, a contatto con la luce solare, gravi ustioni cutanee; indossi indumenti lunghi e una protezione per gli occhi. Il polline delle ambrosie scatena forti allergie. In presenza di popolamenti estesi, lungo corsi d'acqua, nel bosco o su terreno altrui, si rivolga prima al servizio cantonale specializzato o al Comune.",
+        "en": "Here is how to remove plants: first identify the species with certainty, for example using Info Flora's fact sheets and photos. Remove the plants before the seeds ripen, so that no seeds reach the soil. Pull annual species and young plants out roots and all. Dig up shrubs and young trees together with the root stock. With the tree of heaven, sawn-off trunks resprout vigorously; get advice for this. Knotweeds form deep-reaching root runners: pulling them out once is not enough, it takes repeated mowing or digging over several years. Wear gloves. The sap of giant hogweed causes severe skin burns in combination with sunlight; wear long clothing and eye protection. The pollen of ragweed triggers severe allergies. For large stands, at watercourses, in the forest or on someone else's land, contact the cantonal specialist agency or the municipality first.",
+        "rm": "Uschia procedais Vus tar il stgaffir davent: determinai emprim cun segirtad la spezia, per exempel cun ils fegls d'infurmaziun e las fotografias da Info Flora. Stgaffii davent las plantas avant che las semenzas sajan madüras, per che naginas semenzas arrivian en il terren. Spezias annualas e plantas giuvnas tirai ora cun las ratschs. Sterps ed arbuschs giuvens scavai ora cun il tschep da la ratscha. Tar il Götterbaum crescha il tschoc segà danovamain fitgamain; laschai Vus consegliar qua. Ils Knöteriche furman ratschs che vegnan fitg profundas: ina giada tirar ora na basta betg, igl basegna, durant onns, sagar u scavar ora repetidamain. Purtai guaunts. Il succ dal Riesenbärenklau chaschuna ensemen cun la glisch dal sulegl grevas brischaduras da la pel; purtai vestgadira lunga e protecziun per ils egls. La pulvra da flur da las Ambrosien provoca fermas allergias. Tar grondas populaziuns, vid auas, en il guaud u sin terren ester drizzai Vus emprim al post chantunal spezialisà u a la vischnanca."
       }
     },
     {
@@ -245,7 +393,11 @@
         ]
       },
       "text": {
-        "de": "Geben Sie invasive Pflanzen nicht auf den eigenen Kompost und nicht auf einen Asthaufen. Dort können Samen, Wurzeln und Stängelstücke überleben und neu austreiben. Pflanzenabfälle werden nach Bundesrecht nur dann kompostiert oder vergärt, wenn sie sich dafür eignen; sonst werden sie verbrannt, zum Beispiel in einer Kehrichtverbrennungsanlage. Sie müssen Abfälle den Sammlungen übergeben, die der Kanton vorsieht; organisiert werden sie meist von der Gemeinde. Ob Ihre Gemeinde invasive Pflanzen mit der Grünabfuhr oder mit dem Kehricht entgegennimmt, entscheidet sie selbst; fragen Sie beim Werkhof oder bei der Gemeindeverwaltung nach. Im Freien verbrennen dürfen Sie höchstens natürliche Gartenabfälle und nur, wenn dabei keine übermässigen Immissionen wie starker Rauch entstehen. Fragen Sie auch dafür vorher die Gemeinde."
+        "de": "Geben Sie invasive Pflanzen nicht auf den eigenen Kompost und nicht auf einen Asthaufen. Dort können Samen, Wurzeln und Stängelstücke überleben und neu austreiben. Pflanzenabfälle werden nach Bundesrecht nur dann kompostiert oder vergärt, wenn sie sich dafür eignen; sonst werden sie verbrannt, zum Beispiel in einer Kehrichtverbrennungsanlage. Sie müssen Abfälle den Sammlungen übergeben, die der Kanton vorsieht; organisiert werden sie meist von der Gemeinde. Ob Ihre Gemeinde invasive Pflanzen mit der Grünabfuhr oder mit dem Kehricht entgegennimmt, entscheidet sie selbst; fragen Sie beim Werkhof oder bei der Gemeindeverwaltung nach. Im Freien verbrennen dürfen Sie höchstens natürliche Gartenabfälle und nur, wenn dabei keine übermässigen Immissionen wie starker Rauch entstehen. Fragen Sie auch dafür vorher die Gemeinde.",
+        "fr": "Ne mettez pas les plantes envahissantes sur votre propre compost ni sur un tas de branchages. Les graines, racines et fragments de tige peuvent y survivre et repousser. Selon le droit fédéral, les déchets végétaux ne sont compostés ou méthanisés que s'ils s'y prêtent ; sinon, ils sont incinérés, par exemple dans une usine d'incinération des ordures ménagères. Vous devez remettre les déchets aux collectes prévues par le canton ; elles sont le plus souvent organisées par la commune. C'est votre commune qui décide si elle accepte les plantes envahissantes avec le ramassage des déchets verts ou avec les ordures ménagères ; renseignez-vous auprès du service des travaux publics ou de l'administration communale. Vous ne pouvez brûler à l'air libre que des déchets naturels de jardin, et seulement si cela ne produit pas d'immissions excessives, comme une fumée importante. Demandez également l'accord préalable de la commune pour cela.",
+        "it": "Non metta le piante invasive sul proprio compost né su un mucchio di rami. Lì semi, radici e pezzi di fusto possono sopravvivere e ributtare. Secondo il diritto federale, gli scarti vegetali sono compostati o fatti fermentare solo se sono adatti a questo scopo; altrimenti vengono inceneriti, per esempio in un impianto di incenerimento dei rifiuti. Deve consegnare i rifiuti alle raccolte previste dal Cantone; di regola sono organizzate dal Comune. Se il suo Comune ritira le piante invasive con la raccolta del verde o con i rifiuti normali lo decide esso stesso; si informi presso l'azienda comunale o l'amministrazione comunale. All'aperto può bruciare al massimo scarti naturali da giardino, e solo se ciò non provoca immissioni eccessive come fumo intenso. Anche per questo chieda prima al Comune.",
+        "en": "Do not put invasive plants on your own compost heap or on a brush pile. Seeds, roots and stem fragments can survive there and resprout. Under federal law, plant waste is only composted or fermented if it is suitable for this; otherwise it is incinerated, for example in a waste incineration plant. You must hand over waste to the collection schemes the canton provides; these are usually organised by the municipality. Whether your municipality accepts invasive plants with the green waste collection or with household refuse is for it to decide; ask the public works department or the municipal administration. In the open air, you may burn no more than natural garden waste, and only if this does not cause excessive emissions such as heavy smoke. Ask your municipality about this in advance too.",
+        "rm": "Na dettai naginas plantas invasivas sin Voss agen cumpost e betg sin in mantun da rams. Là pon semenzas, ratschs e toc da stgamma survivir e sortir danovamain. Ruments da plantas vegnan, tenor il dretg federal, cumpostads u fermentads mo, sch'els sa prestan per quai; autramain vegnan els brischads, per exempel en in'installaziun da scumbustiun da rument. Vus stuais surdar ils ruments a las collectas ch'il chantun prevesa; ellas vegnan organisadas il pli savens da la vischnanca. Sche Vossa vischnanca acceptescha plantas invasivas cun la scolta verda u cun il rument normal, decida ella sezza; dumandai tar il post da mantegniment communal u tar l'administraziun communala. A l'aviert dastgais Vus brischar al maximum ruments natirals dal curtin e mo, sch'i na resultan naginas immissiuns excessivas sco fim ferm. Dumandai er per quai gia avant la vischnanca."
       },
       "sources": [
         "vvea-14",
@@ -257,7 +409,11 @@
       "id": "soil-and-cuttings",
       "kind": "warning",
       "text": {
-        "de": "Invasive Pflanzen verbreiten sich oft über Erde und Pflanzenreste. Beim Knöterich können schon kleine Wurzel- oder Stängelstücke eine neue Pflanze bilden. Schütten Sie deshalb keine Gartenabfälle, Schnittgut oder Erde in den Wald, an einen Bach oder an den Strassenrand. Bringen Sie keine Erde von einem Ort mit solchen Pflanzen an einen anderen Ort. Erde, die Pflanzen der ersten Liste (Anhang 2.1) enthält, muss am Ort bleiben, an dem sie abgetragen wurde, oder so entsorgt werden, dass sich die Pflanzen nicht weiterverbreiten. Die Pflicht, abgetragenen Boden möglichst weiterzuverwenden, gilt nur für Boden, der keine invasiven gebietsfremden Organismen enthält. Reinigen Sie Werkzeuge, Maschinen und Schuhe, bevor Sie einen befallenen Ort verlassen."
+        "de": "Invasive Pflanzen verbreiten sich oft über Erde und Pflanzenreste. Beim Knöterich können schon kleine Wurzel- oder Stängelstücke eine neue Pflanze bilden. Schütten Sie deshalb keine Gartenabfälle, Schnittgut oder Erde in den Wald, an einen Bach oder an den Strassenrand. Bringen Sie keine Erde von einem Ort mit solchen Pflanzen an einen anderen Ort. Erde, die Pflanzen der ersten Liste (Anhang 2.1) enthält, muss am Ort bleiben, an dem sie abgetragen wurde, oder so entsorgt werden, dass sich die Pflanzen nicht weiterverbreiten. Die Pflicht, abgetragenen Boden möglichst weiterzuverwenden, gilt nur für Boden, der keine invasiven gebietsfremden Organismen enthält. Reinigen Sie Werkzeuge, Maschinen und Schuhe, bevor Sie einen befallenen Ort verlassen.",
+        "fr": "Les plantes envahissantes se propagent souvent par la terre et les restes de végétaux. Chez la renouée, même de petits fragments de racine ou de tige peuvent former une nouvelle plante. Ne déversez donc ni déchets de jardin, ni matériel de coupe, ni terre en forêt, au bord d'un ruisseau ou en bordure de route. N'apportez pas de terre provenant d'un endroit où poussent de telles plantes vers un autre endroit. La terre contenant des plantes de la première liste (annexe 2.1) doit rester à l'endroit où elle a été décapée, ou être éliminée de manière à exclure toute nouvelle propagation des plantes. L'obligation de valoriser autant que possible le sol décapé ne vaut que pour un sol ne contenant pas d'organismes exotiques envahissants. Nettoyez outils, machines et chaussures avant de quitter un lieu infesté.",
+        "it": "Le piante invasive si diffondono spesso tramite terra e resti vegetali. Nel poligono, anche piccoli pezzi di radice o di fusto possono formare una nuova pianta. Non scarichi perciò scarti da giardino, materiale di taglio o terra nel bosco, in un ruscello o sul bordo di una strada. Non porti terra proveniente da un luogo con queste piante in un altro luogo. La terra che contiene piante della prima lista (allegato 2.1) deve restare nel luogo da cui è stata asportata, oppure essere smaltita in modo da escludere l'ulteriore diffusione delle piante. L'obbligo di riutilizzare per quanto possibile il suolo asportato vale solo per il suolo che non contiene organismi alloctoni invasivi. Pulisca attrezzi, macchine e scarpe prima di lasciare un luogo colpito.",
+        "en": "Invasive plants often spread through soil and plant remains. With knotweed, even small pieces of root or stem can form a new plant. So do not tip garden waste, cuttings or soil into the forest, into a stream or at the roadside. Do not take soil from a place with such plants to another place. Soil containing plants from the first list (Annex 2.1) must stay at the place where it was removed, or be disposed of so that the plants cannot spread further. The duty to reuse excavated soil wherever possible applies only to soil that contains no invasive alien organisms. Clean tools, machinery and footwear before leaving an infested site.",
+        "rm": "Plantas invasivas sa derasan savens tras terra e restanzas da plantas. Tar il Knöterich pon gia pitschnas parts da ratscha u da stgamma furmar ina nova planta. Na sbattai percunquai naginas restanzas da curtin, tagliadis u terra en il guaud, vid in ri u vid la via. Na purtai naginas terras dad in lieu cun tals plantas ad in auter lieu. Terra che cuntegna plantas da la emprima glista (agiunta 2.1) sto restar al lieu, nua ch'ella è vegnida allontanada, u vegnir eliminada uschia che las plantas na sa dereschian betg vinavant. L'obligaziun da reutilisar sche pussaivel il terren allontanà, vala mo per terren che na cuntegna naginas plantas u organissems exotgns invasivs. Nettegiai utensils, maschinas e chalzers, avant che Vus bandunais in lieu occupà."
       },
       "sources": [
         "frsv-15",
@@ -274,7 +430,11 @@
         ]
       },
       "text": {
-        "de": "Auf Baustellen werden invasive Pflanzen besonders oft mit Aushub verschleppt. Bauen Sie selbst, klären Sie vor dem Aushub, ob auf dem Grundstück solche Pflanzen wachsen. Informieren Sie die Bauunternehmung und halten Sie fest, wo befallene Erde liegt und wohin sie gebracht wird. Erde mit Arten der ersten Liste darf nicht einfach auf ein anderes Grundstück gebracht werden. Sehen Sie als Aussenstehende oder Aussenstehender, dass befallene Erde abgeführt oder aufgeschüttet wird, melden Sie das der kantonalen Fachstelle für Neobiota oder für Boden. Der Kanton überwacht, ob die Sorgfaltspflichten eingehalten werden, und ordnet nötige Massnahmen an."
+        "de": "Auf Baustellen werden invasive Pflanzen besonders oft mit Aushub verschleppt. Bauen Sie selbst, klären Sie vor dem Aushub, ob auf dem Grundstück solche Pflanzen wachsen. Informieren Sie die Bauunternehmung und halten Sie fest, wo befallene Erde liegt und wohin sie gebracht wird. Erde mit Arten der ersten Liste darf nicht einfach auf ein anderes Grundstück gebracht werden. Sehen Sie als Aussenstehende oder Aussenstehender, dass befallene Erde abgeführt oder aufgeschüttet wird, melden Sie das der kantonalen Fachstelle für Neobiota oder für Boden. Der Kanton überwacht, ob die Sorgfaltspflichten eingehalten werden, und ordnet nötige Massnahmen an.",
+        "fr": "Sur les chantiers, les plantes envahissantes sont particulièrement souvent disséminées avec les matériaux d'excavation. Si vous construisez vous-même, vérifiez avant l'excavation si de telles plantes poussent sur le terrain. Informez l'entreprise de construction et notez où se trouve la terre infestée et où elle est transportée. La terre contenant des espèces de la première liste ne peut pas simplement être amenée sur un autre terrain. Si, en tant que tiers, vous constatez que de la terre infestée est évacuée ou déposée, signalez-le au service cantonal spécialisé dans les organismes exotiques envahissants ou dans la protection des sols. Le canton surveille le respect des devoirs de diligence et ordonne les mesures nécessaires.",
+        "it": "Sui cantieri le piante invasive vengono trasportate involontariamente in modo particolarmente frequente con il materiale di scavo. Se costruisce lei stesso, chiarisca prima dello scavo se sul fondo crescono tali piante. Informi l'impresa di costruzione e annoti dove si trova la terra colpita e dove viene portata. La terra con specie della prima lista non può semplicemente essere portata su un altro fondo. Se lei, come persona esterna, vede che terra colpita viene portata via o depositata altrove, lo segnali al servizio cantonale specializzato per i neobiota o per il suolo. Il Cantone controlla se gli obblighi di diligenza sono rispettati e ordina le misure necessarie.",
+        "en": "On building sites, invasive plants are especially often carried off with excavated material. If you are building yourself, check before excavation whether such plants grow on the property. Inform the construction company and keep a record of where infested soil is located and where it is taken. Soil containing species from the first list may not simply be taken to another property. If, as an outsider, you see infested soil being carted away or dumped, report it to the cantonal specialist agency for invasive species or for soil. The canton monitors whether the duties of care are being observed and orders any necessary measures.",
+        "rm": "Sin fossas da construcziun vegnan plantas invasivas spezialmain savens transportadas via material da stgavament. Sche Vus construis Vus sezs, sclerezzai avant il stgavament, sche talas plantas creschan sin la parcella. Infurmai l'interpresa da construcziun e notai, nua che terra occupada sa chatta e nua ch'ella vegn manada. Terra cun spezias da la emprima glista na dastga betg simplamain vegnir manada sin in'autra parcella. Vesais Vus, sco persuna ordaifer il project, che terra occupada vegn manada davent u sterrada, annunziai quai al post chantunal spezialisà per neobiotas u per il terren. Il chantun survegla, sch'ils obligaziuns da diligenza vegnan observads, ed ordinescha las mesiras necessarias."
       },
       "sources": [
         "frsv-15",
@@ -285,7 +445,11 @@
       "id": "herbicide-ban",
       "kind": "warning",
       "text": {
-        "de": "Greifen Sie nicht zum Unkrautvertilger. Mittel gegen Pflanzen sind auf Dächern und Terrassen, auf Lagerplätzen, auf und an Strassen, Wegen und Plätzen sowie auf Böschungen und Grünstreifen entlang von Strassen und Bahngleisen verboten. Das Verbot unterscheidet nicht zwischen öffentlichen und privaten Wegen und Plätzen. Alle Pflanzenschutzmittel sind zudem verboten in Naturschutzgebieten, in Riedgebieten und Mooren, in Hecken und Feldgehölzen, im Wald, in und an Gewässern, jeweils samt einem Streifen von drei Metern, sowie in der engsten Grundwasserschutzzone. Ausnahmen gibt es nur für die gezielte Behandlung einzelner Problempflanzen an bestimmten Orten, etwa entlang von Hecken und Waldrändern, an Böschungen oder an National- und Kantonsstrassen, und nur, wenn Mähen und andere Massnahmen nicht wirken. Klären Sie das vorher mit der kantonalen Fachstelle ab."
+        "de": "Greifen Sie nicht zum Unkrautvertilger. Mittel gegen Pflanzen sind auf Dächern und Terrassen, auf Lagerplätzen, auf und an Strassen, Wegen und Plätzen sowie auf Böschungen und Grünstreifen entlang von Strassen und Bahngleisen verboten. Das Verbot unterscheidet nicht zwischen öffentlichen und privaten Wegen und Plätzen. Alle Pflanzenschutzmittel sind zudem verboten in Naturschutzgebieten, in Riedgebieten und Mooren, in Hecken und Feldgehölzen, im Wald, in und an Gewässern, jeweils samt einem Streifen von drei Metern, sowie in der engsten Grundwasserschutzzone. Ausnahmen gibt es nur für die gezielte Behandlung einzelner Problempflanzen an bestimmten Orten, etwa entlang von Hecken und Waldrändern, an Böschungen oder an National- und Kantonsstrassen, und nur, wenn Mähen und andere Massnahmen nicht wirken. Klären Sie das vorher mit der kantonalen Fachstelle ab.",
+        "fr": "Ne recourez pas à un désherbant. Les produits contre les plantes sont interdits sur les toits et terrasses, sur les places de stockage, sur et le long des routes, chemins et places, ainsi que sur les talus et bandes vertes le long des routes et des voies ferrées. L'interdiction ne distingue pas entre chemins et places publics et privés. Tous les produits phytosanitaires sont en outre interdits dans les zones protégées, dans les zones de marais et de tourbières, dans les haies et bosquets champêtres, en forêt, dans et le long des cours d'eau, chaque fois avec une bande de trois mètres, ainsi que dans la zone de protection rapprochée des eaux souterraines. Des exceptions n'existent que pour le traitement ciblé de plantes à problèmes isolées à certains endroits, par exemple le long de haies et de lisières de forêt, sur des talus ou sur des routes nationales et cantonales, et seulement si la fauche et d'autres mesures restent sans effet. Clarifiez cela au préalable avec le service cantonal spécialisé.",
+        "it": "Non ricorra al diserbante. I prodotti contro le piante sono vietati su tetti e terrazze, su piazzali di deposito, su e lungo strade, sentieri e piazze, nonché su scarpate e strisce verdi lungo strade e binari ferroviari. Il divieto non distingue tra sentieri e piazze pubblici e privati. Tutti i prodotti fitosanitari sono inoltre vietati nelle zone protette, nelle zone paludose e nelle torbiere, nelle siepi e nei boschetti campestri, nel bosco, in e presso le acque, ciascuno con una fascia di tre metri, nonché nella zona di protezione più ravvicinata delle acque sotterranee. Vi sono eccezioni solo per il trattamento mirato di singole piante problematiche in determinati luoghi, per esempio lungo siepi e margini boschivi, su scarpate o lungo strade nazionali e cantonali, e solo se lo sfalcio e altre misure non hanno effetto. Lo chiarisca prima con il servizio cantonale specializzato.",
+        "en": "Do not reach for a weedkiller. Products against plants are banned on roofs and terraces, on storage areas, on and beside roads, paths and squares, and on embankments and green strips along roads and railway tracks. The ban does not distinguish between public and private paths and squares. All plant protection products are also banned in nature reserves, in reed beds and moors, in hedges and field copses, in the forest, and in and around watercourses, each together with a three-metre strip, as well as in the innermost groundwater protection zone. Exceptions exist only for the targeted treatment of individual problem plants in certain places, for example along hedges and forest edges, on embankments, or on national and cantonal roads, and only if mowing and other measures do not work. Clarify this with the cantonal specialist agency beforehand.",
+        "rm": "Na duvrai nagin product cunter la zerclim. Substanzas cunter plantas èn scumandadas sin tets e terrassas, sin plazzas da deposit, sin e vid vias, chaminos e plazzas sco er sin costas e stritgas verdas sper vias e binaris da viafier. Il scumond na distingua betg tranter chaminos e plazzas publicas e privatas. Tut las substanzas per cumbatter zerclim e parasits èn ultra da quai scumandadas en territoris da protecziun da la natira, en territoris da palù e maroschas, en saivs e bostgaminas da champ, en il guaud, en ed vid auas, mintgamai cun ina stritga da trais meters, sco er en la zona la pli stretga da protecziun da l'aua sutterranea. Excepziuns dat i mo per il tractament mirà da singulas plantas problematicas a lieus tschert, per exempel sper saivs ed uras da guaud, vi da costas u vi da vias naziunalas e chantunalas, e mo, sche sagar ed autras mesiras n'effectueschan betg. Sclerezzai quai avant cun il post chantunal spezialisà."
       },
       "sources": [
         "chemrrv-3"
@@ -301,7 +465,11 @@
         ]
       },
       "text": {
-        "de": "An Gewässern, im Wald, in Hecken und in Schutzgebieten ist besondere Vorsicht nötig. In Naturschutzgebieten, in und an oberirdischen Gewässern samt einem Streifen von drei Metern und im Wald ist der direkte Umgang mit gebietsfremden Pflanzen nur erlaubt, um Schäden an Mensch, Tier, Umwelt oder biologischer Vielfalt zu verhindern oder zu beheben. Für Wald, Fischerei und Jagd gelten zudem eigene Gesetze. Gehen Sie hier nicht auf eigene Faust vor: Mit falschem Vorgehen können Sie Ufer beschädigen, geschützte Tiere und Pflanzen stören oder Pflanzenteile ins Wasser bringen, das sie weiterträgt. Melden Sie den Fundort und fragen Sie die kantonale Fachstelle, den Forstdienst oder die Gemeinde, ob und wie Sie helfen können. Manche Gemeinden und Naturschutzvereine organisieren betreute Einsätze."
+        "de": "An Gewässern, im Wald, in Hecken und in Schutzgebieten ist besondere Vorsicht nötig. In Naturschutzgebieten, in und an oberirdischen Gewässern samt einem Streifen von drei Metern und im Wald ist der direkte Umgang mit gebietsfremden Pflanzen nur erlaubt, um Schäden an Mensch, Tier, Umwelt oder biologischer Vielfalt zu verhindern oder zu beheben. Für Wald, Fischerei und Jagd gelten zudem eigene Gesetze. Gehen Sie hier nicht auf eigene Faust vor: Mit falschem Vorgehen können Sie Ufer beschädigen, geschützte Tiere und Pflanzen stören oder Pflanzenteile ins Wasser bringen, das sie weiterträgt. Melden Sie den Fundort und fragen Sie die kantonale Fachstelle, den Forstdienst oder die Gemeinde, ob und wie Sie helfen können. Manche Gemeinden und Naturschutzvereine organisieren betreute Einsätze.",
+        "fr": "Au bord des cours d'eau, en forêt, dans les haies et dans les zones protégées, une prudence particulière est nécessaire. Dans les zones protégées, dans et le long des eaux de surface, avec une bande de trois mètres, ainsi qu'en forêt, l'utilisation directe de plantes exotiques n'est autorisée que pour prévenir ou réparer des dommages aux personnes, aux animaux, à l'environnement ou à la diversité biologique. Des lois propres s'appliquent en outre à la forêt, à la pêche et à la chasse. N'agissez pas ici de votre propre initiative : une intervention mal menée peut endommager les rives, déranger des animaux et des plantes protégés ou amener des fragments de plantes dans l'eau, qui les emportera. Signalez le lieu de découverte et demandez au service cantonal spécialisé, au service forestier ou à la commune si et comment vous pouvez aider. Certaines communes et associations de protection de la nature organisent des interventions encadrées.",
+        "it": "Lungo i corsi d'acqua, nel bosco, nelle siepi e nelle zone protette serve particolare prudenza. Nelle zone protette, in e presso le acque superficiali, con una fascia di tre metri, e nel bosco, l'utilizzazione diretta di piante alloctone è permessa solo per prevenire o eliminare danni a persone, animali, ambiente o diversità biologica. Per il bosco, la pesca e la caccia valgono inoltre leggi proprie. Non agisca qui di propria iniziativa: con un intervento sbagliato può danneggiare le rive, disturbare animali e piante protetti o portare parti di piante nell'acqua, che le trasporta oltre. Segnali il ritrovamento e chieda al servizio cantonale specializzato, al servizio forestale o al Comune se e come può aiutare. Alcuni Comuni e associazioni per la protezione della natura organizzano interventi guidati.",
+        "en": "Particular care is needed at watercourses, in the forest, in hedges and in protected areas. In nature reserves, in and beside surface watercourses together with a three-metre strip, and in the forest, direct handling of alien plants is only allowed to prevent or remedy harm to people, animals, the environment or biological diversity. Forestry, fishing and hunting are also governed by their own laws. Do not act on your own initiative here: getting it wrong can damage riverbanks, disturb protected animals and plants, or carry plant parts into the water, which then spreads them further. Report the location and ask the cantonal specialist agency, the forestry service or the municipality whether and how you can help. Some municipalities and nature conservation associations organise supervised work parties.",
+        "rm": "Vid auas, en il guaud, en saivs ed en territoris protegids è spezialmain premura necessaria. En territoris da protecziun da la natira, en ed vid auas sur terra cun ina stritga da trais meters e en il guaud è il tractament direct da plantas exotgnas lubì mo per impedir u eliminar donns ad uman, tier, ambient u diversitad biologica. Per guaud, pestga e chatscha valan ultra da quai atgnas leschas. Na proceder qua sin agen quint: cun in proceder fals pudais Vus donnegiar rivas, disturbar tiers e plantas protegids u purtar parts da plantas en l'aua che las porta vinavant. Annunziai il lieu d'anflament e dumandai il post chantunal spezialisà, il servetsch forestal u la vischnanca, sch'e co Vus pudais gidar. Tschertas vischnancas ed associaziuns da protecziun da la natira organiseschan interventiuns manadas."
       },
       "sources": [
         "frsv-16",
@@ -320,14 +488,22 @@
         ]
       },
       "text": {
-        "de": "Wachsen die Pflanzen auf fremdem Grund, zum Beispiel beim Nachbarn, an einer Strasse oder auf einem Bahnareal, dürfen Sie dort nicht einfach selbst eingreifen. Sprechen Sie die Eigentümerin oder den Eigentümer an und weisen Sie auf die Art hin; viele wissen nicht, dass eine Pflanze invasiv ist. Bei Strassen, Gewässern und öffentlichen Anlagen ist meist die Gemeinde, der Kanton oder die Bahn für den Unterhalt zuständig; melden Sie den Fundort dort oder der kantonalen Fachstelle. Ob Sie von Nachbarn verlangen können, Pflanzen zu entfernen, ist eine Frage des Nachbarrechts und wird hier nicht behandelt."
+        "de": "Wachsen die Pflanzen auf fremdem Grund, zum Beispiel beim Nachbarn, an einer Strasse oder auf einem Bahnareal, dürfen Sie dort nicht einfach selbst eingreifen. Sprechen Sie die Eigentümerin oder den Eigentümer an und weisen Sie auf die Art hin; viele wissen nicht, dass eine Pflanze invasiv ist. Bei Strassen, Gewässern und öffentlichen Anlagen ist meist die Gemeinde, der Kanton oder die Bahn für den Unterhalt zuständig; melden Sie den Fundort dort oder der kantonalen Fachstelle. Ob Sie von Nachbarn verlangen können, Pflanzen zu entfernen, ist eine Frage des Nachbarrechts und wird hier nicht behandelt.",
+        "fr": "Si les plantes poussent sur un terrain d'autrui, par exemple chez un voisin, au bord d'une route ou sur une emprise ferroviaire, vous ne pouvez pas simplement intervenir vous-même. Adressez-vous à la propriétaire ou au propriétaire et signalez-lui l'espèce ; beaucoup ignorent qu'une plante est envahissante. Pour les routes, les cours d'eau et les installations publiques, c'est le plus souvent la commune, le canton ou le chemin de fer qui est responsable de l'entretien ; signalez le lieu de découverte à eux ou au service cantonal spécialisé. La question de savoir si vous pouvez exiger d'un voisin qu'il enlève des plantes relève du droit de voisinage et n'est pas traitée ici.",
+        "it": "Se le piante crescono su terreno altrui, per esempio dal vicino, lungo una strada o su un'area ferroviaria, non può semplicemente intervenire lei stesso. Si rivolga alla proprietaria o al proprietario e lo segnali sulla specie; molti non sanno che una pianta è invasiva. Per strade, corsi d'acqua e impianti pubblici è di regola competente per la manutenzione il Comune, il Cantone o la ferrovia; segnali il ritrovamento lì oppure al servizio cantonale specializzato. Se può pretendere dai vicini la rimozione delle piante è una questione di diritto di vicinato e non è trattata qui.",
+        "en": "If the plants are growing on someone else's land, for example at a neighbour's, by a road or on railway land, you may not simply intervene there yourself. Speak to the owner and point out the species; many people do not know that a plant is invasive. For roads, watercourses and public facilities, maintenance is usually the responsibility of the municipality, the canton or the railway; report the location there or to the cantonal specialist agency. Whether you can require a neighbour to remove plants is a question of neighbour law and is not covered here.",
+        "rm": "Creschan las plantas sin terren ester, per exempel tar il vischin, vid ina via u sin in territori da viafier, na dastgais Vus qua betg simplamain intervegnir sez. Discurrai cun la proprietaria u il proprietari e mussai a quel la spezia; blers na san betg che ina planta è invasiva. Tar vias, auas ed installaziuns publicas è il pli savens la vischnanca, il chantun u la viafier cumpetenta per il mantegniment; annunziai il lieu d'anflament là u al post chantunal spezialisà. Sche Vus pudais pretender da vischins che els stgaffeschian davent plantas, è ina dumonda dal dretg da vischinanza e na vegn betg tractada qua."
       }
     },
     {
       "id": "canton-acts",
       "kind": "rule",
       "text": {
-        "de": "Für den Vollzug sind die Kantone zuständig. Sie überwachen, ob die Sorgfaltspflichten beim Umgang mit Pflanzen im Freien eingehalten werden, und ordnen bei Mängeln Massnahmen an. Treten Pflanzen auf, die Umwelt oder biologische Vielfalt schädigen können, ordnet der Kanton die nötigen Bekämpfungsmassnahmen an. Er kann ein öffentlich zugängliches Verzeichnis der Fundorte führen. Die Kantone kontrollieren zudem stichprobenweise Gärtnereien, Gartencenter und andere Anbieter, ob sie verbotene Arten verkaufen. Wie weit ein Kanton geht, ob er Eigentümerinnen und Eigentümer zur Bekämpfung bestimmter Arten verpflichtet und wer die Kosten trägt, regelt jeder Kanton selbst. Die Informationen finden Sie auf der Website Ihres Kantons."
+        "de": "Für den Vollzug sind die Kantone zuständig. Sie überwachen, ob die Sorgfaltspflichten beim Umgang mit Pflanzen im Freien eingehalten werden, und ordnen bei Mängeln Massnahmen an. Treten Pflanzen auf, die Umwelt oder biologische Vielfalt schädigen können, ordnet der Kanton die nötigen Bekämpfungsmassnahmen an. Er kann ein öffentlich zugängliches Verzeichnis der Fundorte führen. Die Kantone kontrollieren zudem stichprobenweise Gärtnereien, Gartencenter und andere Anbieter, ob sie verbotene Arten verkaufen. Wie weit ein Kanton geht, ob er Eigentümerinnen und Eigentümer zur Bekämpfung bestimmter Arten verpflichtet und wer die Kosten trägt, regelt jeder Kanton selbst. Die Informationen finden Sie auf der Website Ihres Kantons.",
+        "fr": "L'exécution incombe aux cantons. Ils surveillent le respect des devoirs de diligence dans l'utilisation des plantes en plein air et ordonnent des mesures en cas de manquements. Lorsque des plantes susceptibles de nuire à l'environnement ou à la diversité biologique apparaissent, le canton ordonne les mesures de lutte nécessaires. Il peut tenir un répertoire des lieux de découverte accessible au public. Les cantons contrôlent en outre par sondage les jardineries, les centres de jardinage et d'autres fournisseurs pour vérifier qu'ils ne vendent pas d'espèces interdites. Chaque canton règle lui-même jusqu'où il va, s'il oblige les propriétaires à lutter contre certaines espèces et qui en supporte les frais. Vous trouverez ces informations sur le site internet de votre canton.",
+        "it": "Per l'esecuzione sono competenti i Cantoni. Essi controllano se gli obblighi di diligenza nell'utilizzazione di piante all'aperto sono rispettati e, in caso di carenze, ordinano misure. Se compaiono piante che possono danneggiare l'ambiente o la diversità biologica, il Cantone ordina le misure di lotta necessarie. Può tenere un elenco dei ritrovamenti accessibile al pubblico. I Cantoni controllano inoltre, a campione, se vivai, garden center e altri fornitori vendono specie vietate. Fin dove si spinge un Cantone, se obbliga proprietarie e proprietari a combattere determinate specie e chi ne sopporta i costi, lo stabilisce ogni Cantone da sé. Trova le informazioni sul sito del suo Cantone.",
+        "en": "The cantons are responsible for enforcement. They monitor whether the duties of care are observed when plants are handled outdoors, and order measures if there are shortcomings. Where plants appear that can harm the environment or biological diversity, the canton orders the necessary control measures. It may keep a publicly accessible register of locations. The cantons also carry out spot checks on nurseries, garden centres and other suppliers to see whether they sell banned species. How far a canton goes, whether it requires owners to control certain species, and who bears the costs, is regulated by each canton itself. You can find the information on your canton's website.",
+        "rm": "Per l'execuziun èn cumpetents ils chantuns. Els surveglian, sch'ils obligaziuns da diligenza en il tractament da plantas a l'aviert vegnan observads, ed ordineschan mesiras en cas da mancanzas. Cumparan plantas che pon donnegiar l'ambient u la diversitad biologica, ordinescha il chantun las mesiras da cumbatta necessarias. El po manar in register accessibel a la publicitad dals lieus d'anflament. Ils chantuns controllan ultra da quai per stitgas gartnarias, centers da curtin ed auters purschiders, sch'els vendan spezias scumandadas. Quant lunsch che in chantun va, sch'el obligescha proprietarias e proprietaris da cumbatter tschertas spezias e tgi che porta ils custs, regla mintga chantun sez. Las infurmaziuns chattais Vus sin la website da Voss chantun."
       },
       "sources": [
         "frsv-49",
@@ -339,7 +515,11 @@
       "id": "report",
       "kind": "step",
       "text": {
-        "de": "So melden Sie: Fundorte können Sie bei Info Flora, dem nationalen Daten- und Informationszentrum zur Schweizer Flora, erfassen, zum Beispiel mit dem Online-Feldbuch für Neophyten oder der InvasivApp. Geben Sie den genauen Ort an und machen Sie ein Foto. Grössere Bestände, Funde an Gewässern, im Wald oder in Schutzgebieten sowie Arten der ersten Liste melden Sie zusätzlich der kantonalen Fachstelle für Neobiota oder der Gemeinde. Sehen Sie, dass ein Geschäft oder eine Online-Plattform verbotene Arten anbietet, melden Sie das der kantonalen Fachstelle: Sie ist für die Kontrolle des Verkaufs zuständig. Notieren Sie Anbieter, Datum, Pflanzenname und einen Link oder ein Foto."
+        "de": "So melden Sie: Fundorte können Sie bei Info Flora, dem nationalen Daten- und Informationszentrum zur Schweizer Flora, erfassen, zum Beispiel mit dem Online-Feldbuch für Neophyten oder der InvasivApp. Geben Sie den genauen Ort an und machen Sie ein Foto. Grössere Bestände, Funde an Gewässern, im Wald oder in Schutzgebieten sowie Arten der ersten Liste melden Sie zusätzlich der kantonalen Fachstelle für Neobiota oder der Gemeinde. Sehen Sie, dass ein Geschäft oder eine Online-Plattform verbotene Arten anbietet, melden Sie das der kantonalen Fachstelle: Sie ist für die Kontrolle des Verkaufs zuständig. Notieren Sie Anbieter, Datum, Pflanzenname und einen Link oder ein Foto.",
+        "fr": "Voici comment signaler : vous pouvez enregistrer les lieux de découverte auprès d'Info Flora, le centre national de données et d'informations sur la flore suisse, par exemple avec le carnet en ligne pour les néophytes ou l'InvasivApp. Indiquez l'endroit exact et prenez une photo. Signalez en plus au service cantonal spécialisé dans les organismes exotiques envahissants ou à la commune les peuplements importants, les découvertes au bord de cours d'eau, en forêt ou dans des zones protégées, ainsi que les espèces de la première liste. Si vous constatez qu'un commerce ou une plateforme en ligne propose des espèces interdites, signalez-le au service cantonal spécialisé : il est compétent pour le contrôle de la vente. Notez le fournisseur, la date, le nom de la plante et un lien ou une photo.",
+        "it": "Ecco come segnalare: può registrare i ritrovamenti presso Info Flora, il centro nazionale di dati e d'informazione sulla flora svizzera, per esempio con il diario di campo online per le neofite o con l'app InvasivApp. Indichi il luogo esatto e scatti una foto. Popolamenti estesi, ritrovamenti lungo corsi d'acqua, nel bosco o in zone protette, nonché le specie della prima lista, li segnali inoltre al servizio cantonale specializzato per i neobiota o al Comune. Se vede che un negozio o una piattaforma online offre specie vietate, lo segnali al servizio cantonale specializzato: è competente per il controllo della vendita. Annoti il fornitore, la data, il nome della pianta e un link o una foto.",
+        "en": "Here is how to report a find: you can record locations with Info Flora, the national data and information centre for the Swiss flora, for example using the online field book for neophytes or the InvasivApp. Give the exact location and take a photo. Report larger stands, finds at watercourses, in the forest or in protected areas, and species from the first list, additionally to the cantonal specialist agency for invasive species or to the municipality. If you see a shop or an online platform offering banned species, report it to the cantonal specialist agency: it is responsible for controlling sales. Note down the seller, the date, the plant name, and a link or a photo.",
+        "rm": "Uschia annunziais Vus: lieus d'anflament pudais Vus registrar tar Info Flora, il center naziunal da datas e d'infurmaziun davart la flora svizra, per exempel cun il register online per neofits u cun l'InvasivApp. Inditgai il lieu exact e fetschai ina fotografia. Populaziuns pli grondas, anflaments vid auas, en il guaud u en territoris protegids sco er spezias da la emprima glista annunziai supplementarmain al post chantunal spezialisà per neobiotas u a la vischnanca. Vesais Vus che in schaffizi u ina plattafurma online purschia spezias scumandadas, annunziai quai al post chantunal spezialisà: el è cumpetent per la controlla da la vendita. Notai il purschider, la data, il num da la planta ed in link u ina fotografia."
       },
       "sources": [
         "frsv-52",
@@ -350,7 +530,11 @@
       "id": "no-right-to-force",
       "kind": "warning",
       "text": {
-        "de": "Mit einer Meldung werden Sie nicht Partei eines Verfahrens. Sie können die Behörde nicht zwingen, gegen eine Eigentümerin, einen Eigentümer oder ein Geschäft vorzugehen. Das Bundesgericht verlangt dafür, dass Sie stärker als die Allgemeinheit betroffen sind und ein eigenes, schutzwürdiges Interesse haben. Der Einsatz für Natur und biologische Vielfalt allein genügt nach der Rechtsprechung nicht; eine Klage im Interesse aller, eine sogenannte Popularklage, gibt es nicht. Wirksam sind deshalb genaue Meldungen mit Ort, Foto und Datum, eine Nachfrage bei der Fachstelle nach einiger Zeit und ein Hinweis an eine Naturschutzorganisation in Ihrer Region."
+        "de": "Mit einer Meldung werden Sie nicht Partei eines Verfahrens. Sie können die Behörde nicht zwingen, gegen eine Eigentümerin, einen Eigentümer oder ein Geschäft vorzugehen. Das Bundesgericht verlangt dafür, dass Sie stärker als die Allgemeinheit betroffen sind und ein eigenes, schutzwürdiges Interesse haben. Der Einsatz für Natur und biologische Vielfalt allein genügt nach der Rechtsprechung nicht; eine Klage im Interesse aller, eine sogenannte Popularklage, gibt es nicht. Wirksam sind deshalb genaue Meldungen mit Ort, Foto und Datum, eine Nachfrage bei der Fachstelle nach einiger Zeit und ein Hinweis an eine Naturschutzorganisation in Ihrer Region.",
+        "fr": "Un signalement ne fait pas de vous une partie à une procédure. Vous ne pouvez pas contraindre l'autorité à intervenir contre une propriétaire, un propriétaire ou un commerce. Le Tribunal fédéral exige pour cela que vous soyez plus touché que la collectivité et que vous ayez un intérêt propre, digne de protection. Selon la jurisprudence, l'engagement pour la nature et la diversité biologique seul ne suffit pas ; une action dans l'intérêt de tous, un recours dit populaire, n'existe pas. Sont donc efficaces : des signalements précis avec lieu, photo et date, une relance auprès du service spécialisé après un certain temps, et un signalement à une organisation de protection de la nature de votre région.",
+        "it": "Con una segnalazione lei non diventa parte di un procedimento. Non può costringere l'autorità ad agire contro una proprietaria, un proprietario o un negozio. Il Tribunale federale esige per questo che lei sia toccato più della collettività e abbia un interesse proprio e degno di protezione. L'impegno per la natura e la diversità biologica da solo non basta secondo la giurisprudenza; un'azione nell'interesse di tutti, un cosiddetto ricorso popolare, non esiste. Sono quindi efficaci segnalazioni precise con luogo, foto e data, una richiesta di informazioni al servizio specializzato dopo qualche tempo e una segnalazione a un'organizzazione per la protezione della natura della sua regione.",
+        "en": "Making a report does not make you a party to proceedings. You cannot force the authority to take action against an owner or a business. For that, the Federal Supreme Court requires you to be more affected than the general public and to have your own interest worth protecting. According to case law, commitment to nature and biological diversity alone is not enough; there is no such thing as an action brought in the interest of everyone, a so-called popular action. What is effective, then, is a precise report with location, photo and date, a follow-up enquiry to the specialist agency after some time, and a tip-off to a nature conservation organisation in your region.",
+        "rm": "Cun ina annunzia na daventais Vus betg partida d'ina procedura. Vus na pudais betg forzar l'autoritad da proceder cunter ina proprietaria, in proprietari u in schaffizi. Il Tribunal federal pretenda per quai che Vus sajas pli fitg tangì che la generalitad ed avais in agen interess digne da protecziun. L'engaschament per la natira e la diversitad biologica na basta, tenor la giurisprudenza, betg sulet; ina plant en l'interess da tuts, ina uschenumnada plant popular, n'exista betg. Efficazs èn percunquai annunzias exactas cun lieu, fotografia e data, ina dumonda tar il post spezialisà suenter in tschert temp ed in'indicaziun ad in'organisaziun da protecziun da la natira en Vossa regiun."
       },
       "sources": [
         "bge-139-ii-279",
@@ -361,7 +545,11 @@
       "id": "pending-revision",
       "kind": "rule",
       "text": {
-        "de": "Das geltende Recht beruht auf dem Umweltschutzgesetz, das dem Bundesrat erlaubt, den Umgang mit bestimmten Organismen einzuschränken oder zu verbieten und Massnahmen zu ihrer Bekämpfung vorzuschreiben. Der Bundesrat hat im Juni 2025 eine Änderung dieses Gesetzes zu invasiven gebietsfremden Arten in die Vernehmlassung geschickt. Sie soll die Bekämpfung solcher Arten besser regeln. In Kraft ist diese Änderung nicht (Stand September 2026). Bis dahin gelten die hier beschriebenen Regeln. Ob und wann sich etwas ändert, erfahren Sie beim BAFU."
+        "de": "Das geltende Recht beruht auf dem Umweltschutzgesetz, das dem Bundesrat erlaubt, den Umgang mit bestimmten Organismen einzuschränken oder zu verbieten und Massnahmen zu ihrer Bekämpfung vorzuschreiben. Der Bundesrat hat im Juni 2025 eine Änderung dieses Gesetzes zu invasiven gebietsfremden Arten in die Vernehmlassung geschickt. Sie soll die Bekämpfung solcher Arten besser regeln. In Kraft ist diese Änderung nicht (Stand September 2026). Bis dahin gelten die hier beschriebenen Regeln. Ob und wann sich etwas ändert, erfahren Sie beim BAFU.",
+        "fr": "Le droit en vigueur repose sur la loi sur la protection de l'environnement, qui autorise le Conseil fédéral à restreindre ou interdire l'utilisation de certains organismes et à prescrire des mesures de lutte contre eux. En juin 2025, le Conseil fédéral a mis en consultation une modification de cette loi relative aux espèces exotiques envahissantes. Elle doit mieux régler la lutte contre ces espèces. Cette modification n'est pas encore en vigueur (état en septembre 2026). D'ici là, les règles décrites ici s'appliquent. Vous saurez auprès de l'OFEV si et quand quelque chose changera.",
+        "it": "Il diritto vigente si fonda sulla legge sulla protezione dell'ambiente, che permette al Consiglio federale di limitare o vietare l'utilizzazione di determinati organismi e di prescrivere misure per la loro lotta. Nel giugno 2025 il Consiglio federale ha posto in consultazione una modifica di questa legge sulle specie alloctone invasive. Essa dovrebbe disciplinare meglio la lotta contro tali specie. Questa modifica non è in vigore (stato: settembre 2026). Fino ad allora valgono le regole qui descritte. Se e quando qualcosa cambierà lo sa l'UFAM.",
+        "en": "The law currently in force is based on the Environmental Protection Act, which allows the Federal Council to restrict or ban the handling of certain organisms and to prescribe measures to control them. In June 2025, the Federal Council sent an amendment to this Act on invasive alien species out for consultation. It is meant to regulate the control of such species better. This amendment is not yet in force (as at September 2026). Until then, the rules described here apply. You can find out from the FOEN whether and when anything changes.",
+        "rm": "Il dretg current sa basa sin la Lescha davart la protecziun da l'ambient, che lubescha al Cussegl federal da restrenscher u da scumandar il tractament da tscherts organissems e da prescriver mesiras per als cumbatter. Il Cussegl federal ha tramess, en zercladur 2025, ina midada da questa lescha davart spezias exotgnas invasivas en la consultaziun. Ella duai reglar meglier la cumbatta da talas spezias. Questa midada n'è betg en vigur (stadi settember 2026). Fin lura valan las reglas descrittas qua. Sche e cur ch'insatge sa muda, emprendais Vus tar l'UFAM."
       },
       "sources": [
         "usg-29f"
@@ -371,14 +559,22 @@
       "id": "get-advice",
       "kind": "escalate",
       "text": {
-        "de": "Holen Sie persönliche Beratung, wenn der Kanton oder die Gemeinde Ihnen verfügt, Pflanzen zu bekämpfen, oder Ihnen die Kosten dafür auferlegt; eine solche Verfügung können Sie nur innerhalb der Frist anfechten, die in der Rechtsmittelbelehrung steht. Das gilt auch, wenn Sie als Bauherrschaft befallene Erde entsorgen müssen und es um grössere Mengen geht, wenn Ihnen vorgeworfen wird, verbotene Pflanzen verkauft oder weitergegeben zu haben, oder wenn Sie ein Gartenbau- oder Pflanzengeschäft führen. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage einschätzen. Für Streit mit Nachbarn über Pflanzen an der Grenze ist das Nachbarrecht massgebend."
+        "de": "Holen Sie persönliche Beratung, wenn der Kanton oder die Gemeinde Ihnen verfügt, Pflanzen zu bekämpfen, oder Ihnen die Kosten dafür auferlegt; eine solche Verfügung können Sie nur innerhalb der Frist anfechten, die in der Rechtsmittelbelehrung steht. Das gilt auch, wenn Sie als Bauherrschaft befallene Erde entsorgen müssen und es um grössere Mengen geht, wenn Ihnen vorgeworfen wird, verbotene Pflanzen verkauft oder weitergegeben zu haben, oder wenn Sie ein Gartenbau- oder Pflanzengeschäft führen. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage einschätzen. Für Streit mit Nachbarn über Pflanzen an der Grenze ist das Nachbarrecht massgebend.",
+        "fr": "Faites-vous conseiller personnellement si le canton ou la commune vous ordonne par décision de lutter contre des plantes ou vous en impute les frais ; vous ne pouvez contester une telle décision que dans le délai indiqué dans l'indication des voies de droit. Cela vaut aussi si, en tant que maître d'ouvrage, vous devez éliminer de la terre infestée en grande quantité, si l'on vous reproche d'avoir vendu ou transmis des plantes interdites, ou si vous exploitez une entreprise d'horticulture ou de commerce de plantes. Une avocate ou un avocat expérimenté en droit de l'environnement ou en droit administratif peut évaluer votre situation. Pour les litiges avec des voisins au sujet de plantes à la limite de propriété, c'est le droit de voisinage qui est déterminant.",
+        "it": "Si faccia consigliare personalmente se il Cantone o il Comune le ordina con decisione di combattere delle piante o le addossa i relativi costi; una tale decisione può essere impugnata solo entro il termine indicato nell'indicazione dei rimedi giuridici. Questo vale anche se, come committente, deve smaltire grandi quantità di terra colpita, se le viene rimproverato di aver venduto o ceduto piante vietate, oppure se gestisce un'azienda di giardinaggio o un vivaio. Un'avvocata o un avvocato con esperienza in diritto ambientale o amministrativo può valutare la sua situazione. Per le controversie con i vicini su piante al confine è determinante il diritto di vicinato.",
+        "en": "Get personal advice if the canton or municipality issues you a ruling to control plants, or imposes the costs of this on you; you can only challenge such a ruling within the time limit stated in the instructions on legal remedies. The same applies if, as a developer, you have to dispose of infested soil in larger quantities, if you are accused of having sold or passed on banned plants, or if you run a horticulture or plant business. A lawyer experienced in environmental or administrative law can assess your situation. For disputes with neighbours over plants on the boundary, neighbour law governs.",
+        "rm": "Procurai consulaziun persunala, sche il chantun u la vischnanca Vus disposa da cumbatter plantas u Vus impona ils custs per quai; ina tala disposiziun pudais Vus contestar mo entaifer il termin che stat en l'indicaziun dals meds legals. Quai vala er, sche Vus stuais, sco patrun da construcziun, eliminar terra occupada e sa tracta da quantitads pli grondas, sche Vus vegnis reprochads d'avair vendì u surdà plantas scumandadas, u sche Vus manais in schaffizi da giardinatg u da plantas. In'advocata u in advocat cun experientscha en il dretg da l'ambient u en il dretg administrativ po estimar Vossa situaziun. Per dispita cun vischins davart plantas sin la cunfin è decisiv il dretg da vischinanza."
       }
     },
     {
       "id": "free-help",
       "kind": "free-help",
       "text": {
-        "de": "Kostenlose Anlaufstellen: Die kantonale Fachstelle für Neobiota berät zu Bestimmung, Bekämpfung und Entsorgung und nimmt Meldungen entgegen. Sie ist meist beim Amt für Umwelt oder beim Amt für Natur angesiedelt; die Kontaktangaben finden Sie auf der Website Ihres Kantons. Ihre Gemeinde, oft der Werkhof oder die Umweltstelle, sagt Ihnen, wie Sie Pflanzenabfälle abgeben, und weiss, wer für öffentliche Flächen zuständig ist. Info Flora bietet Merkblätter zu jeder Art, die Artenlisten und die Meldewerkzeuge. Für Funde im Wald hilft der Forstdienst, oft die Revierförsterin oder der Revierförster."
+        "de": "Kostenlose Anlaufstellen: Die kantonale Fachstelle für Neobiota berät zu Bestimmung, Bekämpfung und Entsorgung und nimmt Meldungen entgegen. Sie ist meist beim Amt für Umwelt oder beim Amt für Natur angesiedelt; die Kontaktangaben finden Sie auf der Website Ihres Kantons. Ihre Gemeinde, oft der Werkhof oder die Umweltstelle, sagt Ihnen, wie Sie Pflanzenabfälle abgeben, und weiss, wer für öffentliche Flächen zuständig ist. Info Flora bietet Merkblätter zu jeder Art, die Artenlisten und die Meldewerkzeuge. Für Funde im Wald hilft der Forstdienst, oft die Revierförsterin oder der Revierförster.",
+        "fr": "Services gratuits : le service cantonal spécialisé dans les organismes exotiques envahissants conseille sur l'identification, la lutte et l'élimination, et reçoit les signalements. Il est le plus souvent rattaché à l'office de l'environnement ou à l'office de la nature ; les coordonnées figurent sur le site internet de votre canton. Votre commune, souvent le service des travaux publics ou le service de l'environnement, vous indique comment remettre les déchets végétaux et sait qui est compétent pour les surfaces publiques. Info Flora propose des fiches pour chaque espèce, les listes d'espèces et les outils de signalement. Pour les découvertes en forêt, le service forestier, souvent la garde forestière ou le garde forestier de triage, peut vous aider.",
+        "it": "Recapiti gratuiti: il servizio cantonale specializzato per i neobiota consiglia su identificazione, lotta e smaltimento e riceve le segnalazioni. È di regola collocato presso l'ufficio dell'ambiente o l'ufficio della natura; trova i recapiti sul sito del suo Cantone. Il suo Comune, spesso l'azienda comunale o il servizio ambientale, le dice come consegnare gli scarti vegetali e sa chi è competente per le superfici pubbliche. Info Flora offre schede informative per ogni specie, le liste delle specie e gli strumenti di segnalazione. Per i ritrovamenti nel bosco aiuta il servizio forestale, spesso la guardia forestale di settore.",
+        "en": "Free points of contact: the cantonal specialist agency for invasive species advises on identification, control and disposal, and takes reports. It is usually part of the office for the environment or the office for nature; you can find the contact details on your canton's website. Your municipality, often the public works department or the environmental office, will tell you how to hand in plant waste and knows who is responsible for public land. Info Flora offers fact sheets on every species, the species lists and the reporting tools. For finds in the forest, the forestry service can help, often the local district forester.",
+        "rm": "Postas d'agid gratuitas: il post chantunal spezialisà per neobiotas conseglia davart determinaziun, cumbatta ed eliminaziun e retschaiva annunzias. El è il pli savens installà tar l'Uffizi per l'ambient u tar l'Uffizi per la natira; las indicaziuns da contact chattais Vus sin la website da Voss chantun. Vossa vischnanca, savens il post da mantegniment communal u il post da l'ambient, Vus di, co Vus dais davent ruments da plantas, e sa, tgi ch'è cumpetent per surfatschas publicas. Info Flora porscha fegls d'infurmaziun per mintga spezia, las glistas da spezias ed ils utensils d'annunzia. Per anflaments en il guaud gida il servetsch forestal, savens il guardaguaud dal revier."
       }
     }
   ],
@@ -529,19 +725,31 @@
   "official_links": [
     {
       "label": {
-        "de": "BAFU: Invasive gebietsfremde Arten"
+        "de": "BAFU: Invasive gebietsfremde Arten",
+        "fr": "OFEV : espèces exotiques envahissantes",
+        "it": "UFAM: Specie alloctone invasive",
+        "en": "FOEN: Invasive alien species",
+        "rm": "UFAM: Spezias exotgnas invasivas"
       },
       "url": "https://www.bafu.admin.ch/de/gebietsfremde-arten"
     },
     {
       "label": {
-        "de": "BAFU: Änderung im Umgang mit invasiven gebietsfremden Pflanzen (Verkaufsverbot)"
+        "de": "BAFU: Änderung im Umgang mit invasiven gebietsfremden Pflanzen (Verkaufsverbot)",
+        "fr": "OFEV : modification relative aux plantes exotiques envahissantes (interdiction de vente)",
+        "it": "UFAM: Modifica dell'utilizzazione di piante alloctone invasive (divieto di vendita)",
+        "en": "FOEN: Changes to regulation on invasive alien plants (sales ban)",
+        "rm": "UFAM: Midada dal tractament da plantas exotgnas invasivas (scumond da vendita)"
       },
       "url": "https://www.bafu.admin.ch/de/anderung-im-umgang-mit-invasiven-gebietsfremden-pflanzen"
     },
     {
       "label": {
-        "de": "Info Flora: Funde melden"
+        "de": "Info Flora: Funde melden",
+        "fr": "Info Flora : signaler une découverte",
+        "it": "Info Flora: Segnalare i ritrovamenti",
+        "en": "Info Flora: Report finds",
+        "rm": "Info Flora: Annunziar anflaments"
       },
       "url": "https://www.infoflora.ch/de/mitmachen/daten-melden.html"
     }
