@@ -74,8 +74,9 @@ These guides help people protect the environment: report harm, get information, 
 | Environment | `environment.project-participation` | A project threatens nature or the landscape. How can I have a say? | ○ |
 | Environment | `environment.information` | I want to know what is in my drinking water, the air or the soil | ○ |
 | Environment | `environment.climate` | Climate protection: what can I do legally? | ○ |
-
-Planned next: invasive plants, contaminated soil and gardens, traffic noise and health.
+| Environment | `environment.invasive-plants` | Invasive plants: what applies, and what can I do? | ○ |
+| Environment | `environment.contaminated-soil` | Is the soil contaminated? Registered sites, gardens and playgrounds | ○ |
+| Environment | `environment.traffic-noise` | Road or rail noise: what can I ask for? | ○ |
 
 Then the long tail: Neighbours (noise, trees, boundaries), small claims up to CHF 30,000, insurance claims refused, road accidents, flight delays, dog bites, apprenticeships, school and education decisions (cantonal), residence permits (with early referral), online fraud, deleting personal data.
 
