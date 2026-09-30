@@ -92,6 +92,9 @@ export const WAVE_3: readonly CoverageGroup[] = [
     { id: 'environment.project-participation', title: e('Bei Bauprojekten mitreden', 'Participer aux projets de construction', 'Partecipare ai progetti di costruzione', 'Participar a projects da construcziun', 'Having a say in building projects') },
     { id: 'environment.information', title: e('Umweltinformationen erhalten', 'Obtenir des informations environnementales', 'Ottenere informazioni ambientali', 'Survegnir infurmaziuns davart l’ambient', 'Getting environmental information') },
     { id: 'environment.climate', title: e('Klimaschutz: rechtliche Wege', 'Protection du climat : les voies juridiques', 'Protezione del clima: le vie legali', 'Protecziun dal clima: vias giuridicas', 'Climate protection: legal routes') },
+    { id: 'environment.invasive-plants', title: e('Invasive Pflanzen', 'Plantes exotiques envahissantes', 'Piante esotiche invasive', 'Plantas invasivas', 'Invasive plants') },
+    { id: 'environment.contaminated-soil', title: e('Belastete Böden und Standorte', 'Sols et sites pollués', 'Suoli e siti inquinati', 'Terrens e lieus contaminads', 'Contaminated soil and sites') },
+    { id: 'environment.traffic-noise', title: e('Strassen- und Bahnlärm', 'Bruit routier et ferroviaire', 'Rumore stradale e ferroviario', 'Canera da la via e da la viafier', 'Road and rail noise') },
   ] },
 ];
 

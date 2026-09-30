@@ -1,0 +1,556 @@
+{
+  "schema": 1,
+  "id": "environment.invasive-plants",
+  "domain": "environment",
+  "version": "2026-09-30",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Invasive Pflanzen: Was gilt, und was kann ich tun?"
+  },
+  "summary": {
+    "de": "Kirschlorbeer, Sommerflieder, Japanischer Staudenknöterich, Goldrute, Götterbaum oder Ambrosia: Einige gebietsfremde Pflanzen breiten sich stark aus und verdrängen die einheimische Natur. Für die gefährlichsten Arten gilt ein fast vollständiges Umgangsverbot. Für weitere Arten gilt seit dem 1. September 2024 ein Verkaufs- und Abgabeverbot. Hier erfahren Sie, was im eigenen Garten, auf Baustellen und an Gewässern gilt, wie Sie Pflanzen richtig entfernen und entsorgen, warum Unkrautvertilger meist verboten sind und wo Sie Funde und verbotene Angebote melden. Zwingen können Sie eine Behörde nicht, wohl aber sie gezielt informieren."
+  },
+  "examples": {
+    "de": [
+      "Bi eus im Garte wachst so en Knöterich, dä chunnt jedes Johr wieder. Was mach ich dä?",
+      "Darf ich meinen Kirschlorbeer stehen lassen oder muss der jetzt raus?",
+      "Mein Nachbar verschenkt Sommerflieder-Setzlinge im Quartier. Ist das überhaupt erlaubt?",
+      "Wohin mit den ausgerissenen Goldruten? Grüngut oder Kehricht?",
+      "Am Bach hinter dem Dorf wächst überall Springkraut. Wem sage ich das?",
+      "Auf der Baustelle nebenan wird Erde mit Knöterich weggefahren. Kann ich das melden?",
+      "Darf ich gegen den Götterbaum einfach Unkrautvertilger spritzen?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Was das Bundesrecht zu invasiven gebietsfremden Pflanzen vorschreibt: die beiden Artenlisten, das Umgangsverbot, das Verkaufs- und Abgabeverbot seit 1. September 2024, Sorgfaltspflichten im Garten und auf Baustellen, Entfernen und Entsorgen, das Verbot von Unkrautvertilgern an bestimmten Orten, die Aufgaben der Kantone, das Melden von Funden und Verkaufsangeboten sowie die Grenzen dieser Wege."
+    },
+    "excludes": {
+      "de": "Ansprüche gegen Nachbarn wegen Pflanzen an der Grenze (Nachbarrecht), invasive Tiere und Krankheitserreger, landwirtschaftliche Unkrautbekämpfung, die Zulassung von Pflanzenschutzmitteln sowie die einzelnen kantonalen Regeln und Gebühren."
+    }
+  },
+  "facts": [
+    {
+      "key": "where",
+      "question": {
+        "de": "Wo wachsen die Pflanzen?"
+      },
+      "options": [
+        {
+          "value": "own-garden",
+          "label": {
+            "de": "In meinem eigenen Garten oder auf meinem Grundstück"
+          }
+        },
+        {
+          "value": "building-site",
+          "label": {
+            "de": "Auf einer Baustelle oder in Aushub- und Erdmaterial"
+          }
+        },
+        {
+          "value": "nature",
+          "label": {
+            "de": "An einem Bach, am Waldrand, in einer Hecke oder in einem Schutzgebiet"
+          }
+        },
+        {
+          "value": "public-other",
+          "label": {
+            "de": "Am Strassenrand, an einer Bahnböschung oder in einer öffentlichen Anlage"
+          }
+        },
+        {
+          "value": "other-private",
+          "label": {
+            "de": "Auf dem Grundstück von Nachbarn oder anderen Privaten"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht / an mehreren Orten"
+          }
+        }
+      ]
+    },
+    {
+      "key": "goal",
+      "question": {
+        "de": "Was möchten Sie tun?"
+      },
+      "options": [
+        {
+          "value": "remove",
+          "label": {
+            "de": "Die Pflanzen entfernen und richtig entsorgen"
+          }
+        },
+        {
+          "value": "trade",
+          "label": {
+            "de": "Pflanzen kaufen, verkaufen, verschenken oder neu pflanzen"
+          }
+        },
+        {
+          "value": "report",
+          "label": {
+            "de": "Einen Fundort oder einen Verkauf melden"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich noch nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "group",
+      "help": {
+        "de": "Die beiden Listen stehen in den Anhängen 2.1 und 2.2 der Freisetzungsverordnung. Wenn Sie nicht sicher sind, wählen Sie «Weiss ich nicht»."
+      },
+      "question": {
+        "de": "Um welche Pflanze geht es?"
+      },
+      "options": [
+        {
+          "value": "list-2-1",
+          "label": {
+            "de": "Streng verbotene Art, z. B. Asiatische Knöteriche (Japanischer Staudenknöterich), Amerikanische Goldruten, Götterbaum, Ambrosien, Riesenbärenklau, Drüsiges Springkraut"
+          }
+        },
+        {
+          "value": "list-2-2",
+          "label": {
+            "de": "Art mit Verkaufsverbot, z. B. Kirschlorbeer, Schmetterlingsstrauch (Sommerflieder), Blauglockenbaum, Chinesische Hanfpalme"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "de": "Eine andere Pflanze, die als invasiv gilt, aber auf keiner der beiden Listen steht"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "two-lists",
+      "kind": "rule",
+      "text": {
+        "de": "Invasive gebietsfremde Pflanzen sind Arten, die ursprünglich nicht aus Europa stammen, sich hier stark ausbreiten und dadurch einheimische Pflanzen und Tiere verdrängen oder Menschen schaden können. Das Bundesrecht, genauer die Freisetzungsverordnung, führt zwei Listen. Für die Arten auf der ersten Liste (Anhang 2.1) gilt ein fast vollständiges Umgangsverbot. Dazu gehören zum Beispiel die Asiatischen Knöteriche mit dem Japanischen Staudenknöterich, die Amerikanischen Goldruten, der Götterbaum, die Ambrosien, der Riesenbärenklau, das Drüsige Springkraut und der Essigbaum. Für die Arten auf der zweiten Liste (Anhang 2.2) gilt ein Verkaufs- und Abgabeverbot. Dazu gehören zum Beispiel der Kirschlorbeer, der Schmetterlingsstrauch (im Volksmund Sommerflieder), der Blauglockenbaum, die Chinesische Hanfpalme, das Einjährige Berufkraut und die Armenische Brombeere. Das Departement UVEK passt die Listen an, wenn es neue Erkenntnisse gibt. Prüfen Sie deshalb die aktuelle Fassung. Für Pflanzen, die auf keiner Liste stehen, gelten nur die allgemeinen Sorgfaltspflichten."
+      },
+      "sources": [
+        "frsv-3",
+        "frsv-15",
+        "frsv-59"
+      ]
+    },
+    {
+      "id": "list-2-1",
+      "kind": "rule",
+      "when": {
+        "group": [
+          "list-2-1",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Mit den Arten der ersten Liste (Anhang 2.1) dürfen Sie in der Umwelt nicht direkt umgehen. Als Umgang zählt fast jede Tätigkeit: pflanzen, vermehren, verwenden, transportieren, lagern, verkaufen, verschenken oder tauschen. Erlaubt ist nur, was der Bekämpfung dient, also Ausreissen, Ausgraben, Mähen und die richtige Entsorgung. Ausnahmen kann nur das Bundesamt für Umwelt (BAFU) im Einzelfall bewilligen. Wachsen solche Pflanzen bei Ihnen, dürfen Sie sie also nicht stehen lassen, um sie weiterzugeben oder zu vermehren. Achten Sie darauf, dass sie sich nicht weiter ausbreiten."
+      },
+      "sources": [
+        "frsv-15",
+        "frsv-3"
+      ]
+    },
+    {
+      "id": "list-2-2",
+      "kind": "rule",
+      "when": {
+        "group": [
+          "list-2-2",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Arten der zweiten Liste (Anhang 2.2) dürfen seit dem 1. September 2024 nicht mehr für die Verwendung im Freien in Verkehr gebracht werden. Das heisst: nicht verkaufen, nicht verschenken, nicht tauschen, nicht ausleihen und nicht in die Schweiz einführen. Die Verordnung verlangt nicht ausdrücklich, dass Sie bestehende Pflanzen entfernen. Nach Angaben des BAFU darf ein Kirschlorbeer oder ein Sommerflieder, der schon vor dem Verbot im Garten stand, bleiben und gepflegt werden. Sie müssen aber verhindern, dass er sich unkontrolliert ausbreitet. Schneiden Sie zum Beispiel verblühte Blütenstände ab, bevor sich Samen bilden, und geben Sie keine Stecklinge oder Jungpflanzen weiter. Wenn Sie ohnehin neu pflanzen, wählen Sie eine einheimische Art."
+      },
+      "sources": [
+        "frsv-15",
+        "frsv-3",
+        "frsv-6"
+      ]
+    },
+    {
+      "id": "sale-ban",
+      "kind": "warning",
+      "when": {
+        "goal": [
+          "trade",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Verkaufen, verschenken oder tauschen Sie keine Pflanzen der beiden Listen, auch nicht über Online-Plattformen, an Pflanzenbörsen, auf dem Flohmarkt oder unter Bekannten. Bringen Sie solche Pflanzen auch nicht aus dem Ausland mit: Die Einfuhr zählt ebenfalls als Inverkehrbringen. Für die zweite Liste gilt das seit dem 1. September 2024. Pflanzen der ersten Liste dürfen Sie gar nicht pflanzen oder vermehren. Wer diese Vorschriften vorsätzlich verletzt, kann mit Freiheitsstrafe bis zu drei Jahren oder mit Geldstrafe bestraft werden, bei gewerbsmässigem Handeln auch strenger. Auch Fahrlässigkeit ist strafbar."
+      },
+      "sources": [
+        "frsv-15",
+        "frsv-3",
+        "usg-60"
+      ]
+    },
+    {
+      "id": "duty-of-care",
+      "kind": "rule",
+      "text": {
+        "de": "Wer mit Pflanzen im Freien umgeht, muss so sorgfältig sein, dass sie weder Menschen, Tiere und Umwelt gefährden noch die biologische Vielfalt beeinträchtigen. Das gilt für alle gebietsfremden Pflanzen, nicht nur für die Arten auf den Listen. Konkret dürfen sich die Pflanzen nicht unkontrolliert ausbreiten. Halten Sie sich an Pflegehinweise, die Sie beim Kauf erhalten haben. Eine allgemeine Pflicht, alle invasiven Pflanzen im eigenen Garten zu entfernen, kennt das Bundesrecht heute nicht. Der Kanton kann aber im Einzelfall Bekämpfungsmassnahmen anordnen, und kantonale Regeln können weiter gehen."
+      },
+      "sources": [
+        "frsv-6",
+        "frsv-15",
+        "usg-29a",
+        "frsv-52"
+      ]
+    },
+    {
+      "id": "remove-how",
+      "kind": "step",
+      "when": {
+        "goal": [
+          "remove",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "So gehen Sie beim Entfernen vor: Bestimmen Sie die Art zuerst sicher, etwa mit den Merkblättern und Fotos von Info Flora. Entfernen Sie die Pflanzen vor der Samenreife, damit keine Samen in den Boden gelangen. Einjährige Arten und junge Pflanzen reissen Sie samt Wurzeln aus. Sträucher und junge Bäume graben Sie mit dem Wurzelstock aus. Beim Götterbaum treiben abgesägte Stämme stark aus; lassen Sie sich hier beraten. Knöteriche bilden tief reichende Wurzelausläufer: Einmal Ausreissen genügt nicht, es braucht über Jahre wiederholtes Mähen oder Ausgraben. Tragen Sie Handschuhe. Der Saft des Riesenbärenklaus verursacht zusammen mit Sonnenlicht schwere Hautverbrennungen; tragen Sie lange Kleidung und Augenschutz. Der Blütenstaub der Ambrosien löst starke Allergien aus. Bei grossen Beständen, an Gewässern, im Wald oder auf fremdem Grund wenden Sie sich zuerst an die kantonale Fachstelle oder die Gemeinde."
+      }
+    },
+    {
+      "id": "disposal",
+      "kind": "rule",
+      "when": {
+        "goal": [
+          "remove",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Geben Sie invasive Pflanzen nicht auf den eigenen Kompost und nicht auf einen Asthaufen. Dort können Samen, Wurzeln und Stängelstücke überleben und neu austreiben. Pflanzenabfälle werden nach Bundesrecht nur dann kompostiert oder vergärt, wenn sie sich dafür eignen; sonst werden sie verbrannt, zum Beispiel in einer Kehrichtverbrennungsanlage. Sie müssen Abfälle den Sammlungen übergeben, die der Kanton vorsieht; organisiert werden sie meist von der Gemeinde. Ob Ihre Gemeinde invasive Pflanzen mit der Grünabfuhr oder mit dem Kehricht entgegennimmt, entscheidet sie selbst; fragen Sie beim Werkhof oder bei der Gemeindeverwaltung nach. Im Freien verbrennen dürfen Sie höchstens natürliche Gartenabfälle und nur, wenn dabei keine übermässigen Immissionen wie starker Rauch entstehen. Fragen Sie auch dafür vorher die Gemeinde."
+      },
+      "sources": [
+        "vvea-14",
+        "usg-31b",
+        "usg-30c"
+      ]
+    },
+    {
+      "id": "soil-and-cuttings",
+      "kind": "warning",
+      "text": {
+        "de": "Invasive Pflanzen verbreiten sich oft über Erde und Pflanzenreste. Beim Knöterich können schon kleine Wurzel- oder Stängelstücke eine neue Pflanze bilden. Schütten Sie deshalb keine Gartenabfälle, Schnittgut oder Erde in den Wald, an einen Bach oder an den Strassenrand. Bringen Sie keine Erde von einem Ort mit solchen Pflanzen an einen anderen Ort. Erde, die Pflanzen der ersten Liste (Anhang 2.1) enthält, muss am Ort bleiben, an dem sie abgetragen wurde, oder so entsorgt werden, dass sich die Pflanzen nicht weiterverbreiten. Die Pflicht, abgetragenen Boden möglichst weiterzuverwenden, gilt nur für Boden, der keine invasiven gebietsfremden Organismen enthält. Reinigen Sie Werkzeuge, Maschinen und Schuhe, bevor Sie einen befallenen Ort verlassen."
+      },
+      "sources": [
+        "frsv-15",
+        "vvea-18"
+      ]
+    },
+    {
+      "id": "building-site",
+      "kind": "step",
+      "when": {
+        "where": [
+          "building-site",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Auf Baustellen werden invasive Pflanzen besonders oft mit Aushub verschleppt. Bauen Sie selbst, klären Sie vor dem Aushub, ob auf dem Grundstück solche Pflanzen wachsen. Informieren Sie die Bauunternehmung und halten Sie fest, wo befallene Erde liegt und wohin sie gebracht wird. Erde mit Arten der ersten Liste darf nicht einfach auf ein anderes Grundstück gebracht werden. Sehen Sie als Aussenstehende oder Aussenstehender, dass befallene Erde abgeführt oder aufgeschüttet wird, melden Sie das der kantonalen Fachstelle für Neobiota oder für Boden. Der Kanton überwacht, ob die Sorgfaltspflichten eingehalten werden, und ordnet nötige Massnahmen an."
+      },
+      "sources": [
+        "frsv-15",
+        "frsv-49"
+      ]
+    },
+    {
+      "id": "herbicide-ban",
+      "kind": "warning",
+      "text": {
+        "de": "Greifen Sie nicht zum Unkrautvertilger. Mittel gegen Pflanzen sind auf Dächern und Terrassen, auf Lagerplätzen, auf und an Strassen, Wegen und Plätzen sowie auf Böschungen und Grünstreifen entlang von Strassen und Bahngleisen verboten. Das Verbot unterscheidet nicht zwischen öffentlichen und privaten Wegen und Plätzen. Alle Pflanzenschutzmittel sind zudem verboten in Naturschutzgebieten, in Riedgebieten und Mooren, in Hecken und Feldgehölzen, im Wald, in und an Gewässern, jeweils samt einem Streifen von drei Metern, sowie in der engsten Grundwasserschutzzone. Ausnahmen gibt es nur für die gezielte Behandlung einzelner Problempflanzen an bestimmten Orten, etwa entlang von Hecken und Waldrändern, an Böschungen oder an National- und Kantonsstrassen, und nur, wenn Mähen und andere Massnahmen nicht wirken. Klären Sie das vorher mit der kantonalen Fachstelle ab."
+      },
+      "sources": [
+        "chemrrv-3"
+      ]
+    },
+    {
+      "id": "sensitive-places",
+      "kind": "rule",
+      "when": {
+        "where": [
+          "nature",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "An Gewässern, im Wald, in Hecken und in Schutzgebieten ist besondere Vorsicht nötig. In Naturschutzgebieten, in und an oberirdischen Gewässern samt einem Streifen von drei Metern und im Wald ist der direkte Umgang mit gebietsfremden Pflanzen nur erlaubt, um Schäden an Mensch, Tier, Umwelt oder biologischer Vielfalt zu verhindern oder zu beheben. Für Wald, Fischerei und Jagd gelten zudem eigene Gesetze. Gehen Sie hier nicht auf eigene Faust vor: Mit falschem Vorgehen können Sie Ufer beschädigen, geschützte Tiere und Pflanzen stören oder Pflanzenteile ins Wasser bringen, das sie weiterträgt. Melden Sie den Fundort und fragen Sie die kantonale Fachstelle, den Forstdienst oder die Gemeinde, ob und wie Sie helfen können. Manche Gemeinden und Naturschutzvereine organisieren betreute Einsätze."
+      },
+      "sources": [
+        "frsv-16",
+        "frsv-15"
+      ]
+    },
+    {
+      "id": "others-land",
+      "kind": "step",
+      "when": {
+        "where": [
+          "other-private",
+          "public-other",
+          "nature",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wachsen die Pflanzen auf fremdem Grund, zum Beispiel beim Nachbarn, an einer Strasse oder auf einem Bahnareal, dürfen Sie dort nicht einfach selbst eingreifen. Sprechen Sie die Eigentümerin oder den Eigentümer an und weisen Sie auf die Art hin; viele wissen nicht, dass eine Pflanze invasiv ist. Bei Strassen, Gewässern und öffentlichen Anlagen ist meist die Gemeinde, der Kanton oder die Bahn für den Unterhalt zuständig; melden Sie den Fundort dort oder der kantonalen Fachstelle. Ob Sie von Nachbarn verlangen können, Pflanzen zu entfernen, ist eine Frage des Nachbarrechts und wird hier nicht behandelt."
+      }
+    },
+    {
+      "id": "canton-acts",
+      "kind": "rule",
+      "text": {
+        "de": "Für den Vollzug sind die Kantone zuständig. Sie überwachen, ob die Sorgfaltspflichten beim Umgang mit Pflanzen im Freien eingehalten werden, und ordnen bei Mängeln Massnahmen an. Treten Pflanzen auf, die Umwelt oder biologische Vielfalt schädigen können, ordnet der Kanton die nötigen Bekämpfungsmassnahmen an. Er kann ein öffentlich zugängliches Verzeichnis der Fundorte führen. Die Kantone kontrollieren zudem stichprobenweise Gärtnereien, Gartencenter und andere Anbieter, ob sie verbotene Arten verkaufen. Wie weit ein Kanton geht, ob er Eigentümerinnen und Eigentümer zur Bekämpfung bestimmter Arten verpflichtet und wer die Kosten trägt, regelt jeder Kanton selbst. Die Informationen finden Sie auf der Website Ihres Kantons."
+      },
+      "sources": [
+        "frsv-49",
+        "frsv-52",
+        "frsv-48"
+      ]
+    },
+    {
+      "id": "report",
+      "kind": "step",
+      "text": {
+        "de": "So melden Sie: Fundorte können Sie bei Info Flora, dem nationalen Daten- und Informationszentrum zur Schweizer Flora, erfassen, zum Beispiel mit dem Online-Feldbuch für Neophyten oder der InvasivApp. Geben Sie den genauen Ort an und machen Sie ein Foto. Grössere Bestände, Funde an Gewässern, im Wald oder in Schutzgebieten sowie Arten der ersten Liste melden Sie zusätzlich der kantonalen Fachstelle für Neobiota oder der Gemeinde. Sehen Sie, dass ein Geschäft oder eine Online-Plattform verbotene Arten anbietet, melden Sie das der kantonalen Fachstelle: Sie ist für die Kontrolle des Verkaufs zuständig. Notieren Sie Anbieter, Datum, Pflanzenname und einen Link oder ein Foto."
+      },
+      "sources": [
+        "frsv-52",
+        "frsv-48"
+      ]
+    },
+    {
+      "id": "no-right-to-force",
+      "kind": "warning",
+      "text": {
+        "de": "Mit einer Meldung werden Sie nicht Partei eines Verfahrens. Sie können die Behörde nicht zwingen, gegen eine Eigentümerin, einen Eigentümer oder ein Geschäft vorzugehen. Das Bundesgericht verlangt dafür, dass Sie stärker als die Allgemeinheit betroffen sind und ein eigenes, schutzwürdiges Interesse haben. Der Einsatz für Natur und biologische Vielfalt allein genügt nach der Rechtsprechung nicht; eine Klage im Interesse aller, eine sogenannte Popularklage, gibt es nicht. Wirksam sind deshalb genaue Meldungen mit Ort, Foto und Datum, eine Nachfrage bei der Fachstelle nach einiger Zeit und ein Hinweis an eine Naturschutzorganisation in Ihrer Region."
+      },
+      "sources": [
+        "bge-139-ii-279",
+        "bger-2c-532-2025"
+      ]
+    },
+    {
+      "id": "pending-revision",
+      "kind": "rule",
+      "text": {
+        "de": "Das geltende Recht beruht auf dem Umweltschutzgesetz, das dem Bundesrat erlaubt, den Umgang mit bestimmten Organismen einzuschränken oder zu verbieten und Massnahmen zu ihrer Bekämpfung vorzuschreiben. Der Bundesrat hat im Juni 2025 eine Änderung dieses Gesetzes zu invasiven gebietsfremden Arten in die Vernehmlassung geschickt. Sie soll die Bekämpfung solcher Arten besser regeln. In Kraft ist diese Änderung nicht (Stand September 2026). Bis dahin gelten die hier beschriebenen Regeln. Ob und wann sich etwas ändert, erfahren Sie beim BAFU."
+      },
+      "sources": [
+        "usg-29f"
+      ]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn der Kanton oder die Gemeinde Ihnen verfügt, Pflanzen zu bekämpfen, oder Ihnen die Kosten dafür auferlegt; eine solche Verfügung können Sie nur innerhalb der Frist anfechten, die in der Rechtsmittelbelehrung steht. Das gilt auch, wenn Sie als Bauherrschaft befallene Erde entsorgen müssen und es um grössere Mengen geht, wenn Ihnen vorgeworfen wird, verbotene Pflanzen verkauft oder weitergegeben zu haben, oder wenn Sie ein Gartenbau- oder Pflanzengeschäft führen. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Verwaltungsrecht kann Ihre Lage einschätzen. Für Streit mit Nachbarn über Pflanzen an der Grenze ist das Nachbarrecht massgebend."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose Anlaufstellen: Die kantonale Fachstelle für Neobiota berät zu Bestimmung, Bekämpfung und Entsorgung und nimmt Meldungen entgegen. Sie ist meist beim Amt für Umwelt oder beim Amt für Natur angesiedelt; die Kontaktangaben finden Sie auf der Website Ihres Kantons. Ihre Gemeinde, oft der Werkhof oder die Umweltstelle, sagt Ihnen, wie Sie Pflanzenabfälle abgeben, und weiss, wer für öffentliche Flächen zuständig ist. Info Flora bietet Merkblätter zu jeder Art, die Artenlisten und die Meldewerkzeuge. Für Funde im Wald hilft der Forstdienst, oft die Revierförsterin oder der Revierförster."
+      }
+    }
+  ],
+  "sources": {
+    "frsv-3": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "3",
+      "label": "FrSV · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_3",
+      "sha256": "e3ba324842333c4d6cd7dfd6455ddf17afe2c1093084f6cefbbdedfa08d0706a"
+    },
+    "frsv-6": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "6",
+      "label": "FrSV · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_6",
+      "sha256": "ec3feccd7610f291e390b580f689e05ddfaf70159d4642fffa0064976022fdc5"
+    },
+    "frsv-15": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "15",
+      "label": "FrSV · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_15",
+      "sha256": "1576bed3ae01653b37c564d7ecd4762b6f587129c4b64ad3b6fe8332d863eac3"
+    },
+    "frsv-16": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "16",
+      "label": "FrSV · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_16",
+      "sha256": "f5d9107acf8b746293bb0ae3737ad066ba5db4e25bf0bec1ae01705154b43d6a"
+    },
+    "frsv-48": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "48",
+      "label": "FrSV · Art. 48",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_48",
+      "sha256": "f39458ad6977eb89a0f298e35f83f7d3e99048959b99cc5fae8eda300090fc7b"
+    },
+    "frsv-49": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "49",
+      "label": "FrSV · Art. 49",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_49",
+      "sha256": "1346c149753cccf5b8dd52d94c1921461f91a7a6c5631be2cf363d7fb5f3d30b"
+    },
+    "frsv-52": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "52",
+      "label": "FrSV · Art. 52",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_52",
+      "sha256": "8eced0fa0b6990f22a45eb087d577e4c560746a1527a085f3335d8f26325a8f2"
+    },
+    "frsv-59": {
+      "type": "statute",
+      "sr": "814.911",
+      "article": "59",
+      "label": "FrSV · Art. 59",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2008/614/de#art_59",
+      "sha256": "22b78b9499760511190df8ef7e40764faf24089ef07f508c6ebcef610bc51e22"
+    },
+    "usg-29a": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "29a",
+      "label": "USG · Art. 29a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_29a",
+      "sha256": "7b6a11e7b8ad86b7d8cd78c7106c9a29dcf45736e1159bbec62b3369a22e7f45"
+    },
+    "usg-29f": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "29f",
+      "label": "USG · Art. 29f",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_29f",
+      "sha256": "2a4273dca87f22e6777dca2a435c6fb098e5703437c992902fdbc0ae6ffba60b"
+    },
+    "usg-30c": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "30c",
+      "label": "USG · Art. 30c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_30c",
+      "sha256": "64913ca9f507e385d90573775902ec9589269d69762990daf42a9c406837d9a4"
+    },
+    "usg-31b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "31b",
+      "label": "USG · Art. 31b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_31b",
+      "sha256": "b30c431e0735e6aa5e54b4b4a6e766f23ca19bc018b5f4242c5fd4e0212d751c"
+    },
+    "usg-60": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "60",
+      "label": "USG · Art. 60",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_60",
+      "sha256": "9c8d432f6faee074f9d44108451bd13548cb041a5d4befb1432b365551c964dd"
+    },
+    "chemrrv-3": {
+      "type": "statute",
+      "sr": "814.81",
+      "article": "3",
+      "label": "ChemRRV · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2005/478/de#art_3",
+      "sha256": "ffe598fcfc59b012496097e61e7e8f99da64627b52cb85c93ea3198ccf36debf"
+    },
+    "vvea-14": {
+      "type": "statute",
+      "sr": "814.600",
+      "article": "14",
+      "label": "VVEA · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2015/891/de#art_14",
+      "sha256": "1e979b29a8df50105a6741ea050385ba1a7f52f05144b5742d3256ec328d6b11"
+    },
+    "vvea-18": {
+      "type": "statute",
+      "sr": "814.600",
+      "article": "18",
+      "label": "VVEA · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2015/891/de#art_18",
+      "sha256": "ba7543ce2b83a7accf043c972cf35d6c10f541ac292647a5507c621edae9354c"
+    },
+    "bge-139-ii-279": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_279",
+      "citation": "BGE 139 II 279",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_279#e-2-3"
+    },
+    "bger-2c-532-2025": {
+      "type": "decision",
+      "decision_id": "bger_2C_532_2025-D20260721",
+      "citation": "BGer 2C_532/2025 vom 21. Juli 2026",
+      "e": "4.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_2C_532_2025-D20260721#e-4-2"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "BAFU: Invasive gebietsfremde Arten"
+      },
+      "url": "https://www.bafu.admin.ch/de/gebietsfremde-arten"
+    },
+    {
+      "label": {
+        "de": "BAFU: Änderung im Umgang mit invasiven gebietsfremden Pflanzen (Verkaufsverbot)"
+      },
+      "url": "https://www.bafu.admin.ch/de/anderung-im-umgang-mit-invasiven-gebietsfremden-pflanzen"
+    },
+    {
+      "label": {
+        "de": "Info Flora: Funde melden"
+      },
+      "url": "https://www.infoflora.ch/de/mitmachen/daten-melden.html"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-30",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

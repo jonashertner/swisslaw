@@ -1,0 +1,535 @@
+{
+  "schema": 1,
+  "id": "environment.contaminated-soil",
+  "domain": "environment",
+  "version": "2026-09-30",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Ist der Boden belastet? Belastete Standorte, Garten und Spielplatz"
+  },
+  "summary": {
+    "de": "Alte Deponien, Schiessanlagen, Gewerbe- und Industrieareale können den Boden mit Schadstoffen belastet haben. Auch in Gärten und auf Spielplätzen finden sich manchmal Blei oder andere Schadstoffe. Die Kantone führen ein öffentliches Verzeichnis der belasteten Standorte. Bevor ein Grundstück eingetragen wird, dürfen die Betroffenen Stellung nehmen. Ein Eintrag heisst nicht, dass saniert werden muss. Die Kosten trägt grundsätzlich, wer die Belastung verursacht hat. Wer ein eingetragenes Grundstück verkaufen oder teilen will, braucht eine Bewilligung. Wer ein Grundstück kauft, sollte das Verzeichnis vorher prüfen."
+  },
+  "examples": {
+    "de": [
+      "Ich han en Brief vom Kanton becho, mis Grundstück söll in de Kataster vo de belastete Standort. Was heisst das?",
+      "Muss ich die Sanierung zahlen, obwohl die Firma, die das verschmutzt hat, gar nicht mehr existiert?",
+      "Auf dem Spielplatz neben unserem Haus soll Blei im Boden sein. Dürfen die Kinder da noch spielen?",
+      "Wir wollen ein Haus kaufen, das Grundstück ist als belasteter Standort eingetragen. Worauf müssen wir achten?",
+      "In unserem Familiengarten sollen Schwermetalle im Boden sein. Kann ich das Gemüse noch essen?",
+      "Hinter unserem Quartier war früher eine Deponie. Wie finde ich heraus, ob da etwas im Boden ist?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Mit Abfällen belastete Standorte wie frühere Deponien, Betriebs- und Unfallstandorte und Schiessanlagen, das kantonale Verzeichnis dieser Standorte, das Recht zur Stellungnahme vor einem Eintrag, Untersuchung und Sanierung, die Verteilung der Kosten, die Bewilligung für Verkauf und Teilung, das Bauen auf belasteten Standorten sowie belastete Böden in Gärten, Familiengärten und auf Kinderspielplätzen."
+    },
+    "excludes": {
+      "de": "Frische Verschmutzungen und illegal abgelagerter Abfall, die Sie melden möchten (dafür gibt es einen eigenen Leitfaden zu Umweltverschmutzungen), Schadstoffe in Gebäuden wie Asbest, Streit unter Nachbarn, zivilrechtliche Ansprüche aus dem Kaufvertrag im Einzelnen und die Haftung von Erben."
+    }
+  },
+  "facts": [
+    {
+      "key": "role",
+      "question": {
+        "de": "In welcher Rolle sind Sie betroffen?"
+      },
+      "options": [
+        {
+          "value": "owner",
+          "label": {
+            "de": "Mir gehört das Grundstück"
+          }
+        },
+        {
+          "value": "buyer",
+          "label": {
+            "de": "Ich will ein Grundstück kaufen"
+          }
+        },
+        {
+          "value": "user",
+          "label": {
+            "de": "Ich wohne zur Miete, nutze einen Familiengarten oder wohne in der Nähe"
+          }
+        },
+        {
+          "value": "parent",
+          "label": {
+            "de": "Meine Kinder spielen dort, etwa auf einem Spielplatz"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "situation",
+      "question": {
+        "de": "Worum geht es?"
+      },
+      "options": [
+        {
+          "value": "register",
+          "label": {
+            "de": "Das Grundstück ist im Verzeichnis eingetragen oder soll eingetragen werden"
+          }
+        },
+        {
+          "value": "suspicion",
+          "label": {
+            "de": "Ich vermute eine Belastung, die der Behörde vielleicht nicht bekannt ist"
+          }
+        },
+        {
+          "value": "garden-playground",
+          "label": {
+            "de": "Es geht um Erde im Garten, im Familiengarten oder auf einem Spielplatz"
+          }
+        },
+        {
+          "value": "ordered",
+          "label": {
+            "de": "Die Behörde verlangt eine Untersuchung oder Sanierung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "costs",
+      "question": {
+        "de": "Geht es darum, wer die Kosten bezahlt?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "de": "Ja, ich will wissen, wer zahlt"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "what-the-register-means",
+      "kind": "rule",
+      "text": {
+        "de": "Jeder Kanton führt ein öffentlich zugängliches Verzeichnis der belasteten Standorte, den sogenannten Kataster. Belastet ist ein Ort, wenn Abfälle in den Boden gelangt sind: eine frühere Deponie, ein Gelände, auf dem mit gefährlichen Stoffen gearbeitet wurde, oder ein Ort, an dem ein Unfall geschah. Eingetragen wird ein Standort, wenn die Belastung feststeht oder sehr wahrscheinlich ist. Die Behörde teilt die Standorte dann ein: Bei den einen sind keine schädlichen Auswirkungen zu erwarten. Bei den anderen muss untersucht werden, ob sie überwacht oder saniert werden müssen. Ein Eintrag bedeutet also noch nicht, dass eine Gefahr besteht oder saniert werden muss. Sanierungsbedürftig ist ein Standort erst, wenn er Menschen oder die Umwelt schädigt oder dies konkret droht, etwa das Grundwasser, einen Bach, die Luft oder den Boden. Nur ein solcher Standort gilt als Altlast. Nach der Untersuchung hält die Behörde im Kataster fest, ob der Standort überwacht werden muss, ob er eine Altlast ist oder ob keins von beiden zutrifft."
+      },
+      "sources": ["usg-32c", "altlv-2", "altlv-5", "altlv-8"]
+    },
+    {
+      "id": "right-to-comment",
+      "kind": "warning",
+      "when": {
+        "situation": ["register", "unknown"]
+      },
+      "text": {
+        "de": "Bevor die Behörde ein Grundstück in den Kataster einträgt, muss sie den Inhaberinnen und Inhabern mitteilen, was sie eintragen will. Sie erhalten Gelegenheit, dazu Stellung zu nehmen und selbst Abklärungen zu machen. Nutzen Sie diese Gelegenheit. Prüfen Sie die Angaben genau: Stimmen Lage, frühere Nutzung und Zeitraum? Beachten Sie die Frist, die im Schreiben steht. Sind Sie mit dem Eintrag nicht einverstanden, können Sie eine Feststellungsverfügung verlangen. Das ist ein förmlicher Entscheid über den Eintrag, gegen den Sie sich mit einem Rechtsmittel wehren können. Das Bundesgericht hat bestätigt, dass die Behörde einen solchen Entscheid auf Verlangen treffen muss, auch wenn es später um die Änderung oder Löschung eines Eintrags geht. Gelöscht wird ein Eintrag, wenn die Untersuchung zeigt, dass der Standort nicht belastet ist, oder wenn die Schadstoffe entfernt wurden. Zeigt die Untersuchung eines eingetragenen oder zum Eintrag vorgesehenen Standorts, dass er nicht belastet ist, trägt das Gemeinwesen die Kosten dieser Untersuchung."
+      },
+      "sources": ["altlv-5", "bger-1c-556-2020", "altlv-6", "usg-32d"]
+    },
+    {
+      "id": "investigation-and-clean-up",
+      "kind": "rule",
+      "when": {
+        "situation": ["register", "ordered", "unknown"]
+      },
+      "text": {
+        "de": "Muss ein eingetragener Standort untersucht werden, verlangt die Behörde innert angemessener Frist eine Voruntersuchung. Sie besteht meist aus zwei Teilen: Zuerst wird anhand von Akten und Plänen geklärt, was früher auf dem Gelände geschah. Danach wird mit Proben gemessen, welche Stoffe in welcher Menge vorhanden sind. Das Programm für die Messungen muss der Behörde zur Stellungnahme vorgelegt werden. Gestützt darauf entscheidet die Behörde, ob der Standort überwacht oder saniert werden muss. Durchführen muss die Untersuchungen und Sanierungen, wer den Standort innehat, meist die Eigentümerin oder der Eigentümer. Die Behörde kann aber auch Dritte verpflichten, die die Belastung verursacht haben. Für die Sanierung selbst braucht sie dafür die Zustimmung der Inhaberin oder des Inhabers. Handelt die verpflichtete Person trotz Mahnung und Frist nicht, ist sie dazu nicht in der Lage oder droht unmittelbar eine Einwirkung, kann der Kanton die Arbeiten selbst durchführen oder Dritte damit beauftragen. Die Frist für eine Untersuchung setzt die Behörde im Einzelfall fest. Beachten Sie sie und melden Sie sich früh, wenn Sie sie nicht einhalten können."
+      },
+      "sources": ["altlv-7", "altlv-8", "altlv-20", "usg-32c"]
+    },
+    {
+      "id": "who-pays",
+      "kind": "cost",
+      "when": {
+        "costs": ["yes", "unknown"]
+      },
+      "text": {
+        "de": "Die Kosten für notwendige Untersuchungen, Überwachungen und Sanierungen trägt, wer die Belastung verursacht hat. Das Gesetz folgt damit dem Grundsatz, dass zahlt, wer Umweltschutzmassnahmen nötig macht. Sind mehrere beteiligt, werden die Kosten nach ihren Anteilen verteilt. In erster Linie zahlt, wer die Belastung durch sein Verhalten verursacht hat, zum Beispiel der Betrieb, der Abfälle abgelagert hat. Wer nur Inhaberin oder Inhaber des Standorts ist, zahlt nichts, wenn er von der Belastung auch bei gebotener Sorgfalt nichts wissen konnte. Kann sich jemand so befreien, wird sein Anteil nach der Rechtsprechung auf die anderen Verursacher verteilt, nicht auf die Allgemeinheit. Wer die Kosten wie aufteilt, hält die Behörde in einer Kostenverteilungsverfügung fest. Diese muss sie erlassen, wenn ein Verursacher sie verlangt oder wenn sie die Massnahmen selbst durchführt. Gegen diese Verfügung können Sie sich wehren. Zeigt die Untersuchung, dass ein eingetragener oder zum Eintrag vorgesehener Standort gar nicht belastet ist, zahlt das Gemeinwesen die Untersuchung."
+      },
+      "sources": ["usg-2", "usg-32d", "bge-144-ii-332"]
+    },
+    {
+      "id": "owner-share",
+      "kind": "warning",
+      "when": {
+        "role": ["owner", "buyer", "unknown"],
+        "costs": ["yes", "unknown"]
+      },
+      "text": {
+        "de": "Auch wer ein bereits belastetes Grundstück erworben und selbst nichts verschmutzt hat, kann einen Teil der Kosten tragen müssen. Das Bundesgericht zählt solche Eigentümerinnen und Eigentümer grundsätzlich zu den möglichen Verursachern. Befreit sind sie nur, wenn sie von der Belastung bei gebotener Sorgfalt nichts wissen konnten. Massgebend ist der Zeitpunkt des Erwerbs. Wer damals Hinweise kannte oder hätte kennen müssen, kann sich nicht auf Unkenntnis berufen. Solche Hinweise können sich aus dem Nutzungsplan, dem Grundbuch, dem Kataster der belasteten Standorte oder aus der früheren Nutzung des Grundstücks ergeben. Wer nicht befreit ist, trägt aber nicht automatisch einen grossen Teil. Ein spürbarer Anteil ist nach der Rechtsprechung nur gerechtfertigt, wenn weitere Umstände hinzukommen, etwa wenn die Person schon zur Zeit der Verschmutzung verantwortlich war oder aus der Belastung einen wirtschaftlichen Vorteil gezogen hat. Lassen Sie eine Kostenverfügung, die Ihnen einen Anteil auferlegt, prüfen, bevor die Frist für ein Rechtsmittel abläuft. Diese Frist steht in der Rechtsmittelbelehrung der Verfügung."
+      },
+      "sources": ["usg-32d", "bge-139-ii-106-e36", "bge-139-ii-106-e56", "bge-142-ii-232-e43"]
+    },
+    {
+      "id": "polluter-not-found",
+      "kind": "warning",
+      "when": {
+        "costs": ["yes", "unknown"]
+      },
+      "text": {
+        "de": "Lässt sich die Firma oder Person, die den Boden verschmutzt hat, nicht mehr finden oder ist sie zahlungsunfähig, bleibt ihr Kostenanteil nicht an Ihnen hängen. Diesen Anteil trägt nach dem Gesetz das zuständige Gemeinwesen. Das Bundesgericht wendet dies auch an, wenn ein bekannter Verursacher inzwischen ohne Nachfolger verschwunden ist. Trotzdem sollten Sie mit Aufwand rechnen: Die Arbeiten muss in der Regel ausführen, wer den Standort innehat. Das heisst, Sie müssen Fachleute beauftragen und damit rechnen, Rechnungen zunächst selbst zu begleichen. Wie viel Sie am Ende selbst tragen, legt erst die Kostenverteilungsverfügung fest. Verlangen Sie diese frühzeitig. Ein eigener Anteil bleibt möglich, wenn Sie als Eigentümerin oder Eigentümer von der Belastung hätten wissen müssen. Sind Sie nicht in der Lage, die Arbeiten zu veranlassen, kann der Kanton sie selbst durchführen lassen. Wie Ihr Kanton Vorschüsse, Beiträge und die Abrechnung genau handhabt, erfahren Sie bei der kantonalen Umweltfachstelle."
+      },
+      "sources": ["usg-32d", "bge-142-ii-232-e65", "altlv-20", "usg-32c"]
+    },
+    {
+      "id": "sale-or-division",
+      "kind": "warning",
+      "when": {
+        "role": ["owner", "buyer", "unknown"]
+      },
+      "text": {
+        "de": "Wer ein Grundstück verkaufen oder teilen will, auf dem ein im Kataster eingetragener Standort liegt, braucht dafür eine Bewilligung der Behörde. Sie wird erteilt, wenn vom Standort keine schädlichen oder lästigen Einwirkungen zu erwarten sind, wenn die Kosten für die zu erwartenden Massnahmen sichergestellt sind oder wenn ein überwiegendes öffentliches Interesse am Verkauf oder an der Teilung besteht. Planen Sie diese Bewilligung früh ein, damit sich der Verkauf oder der Eintrag im Grundbuch nicht verzögert. Der Kanton kann den Eintrag im Kataster zudem im Grundbuch anmerken lassen. Die Behörde kann von einem Verursacher auch verlangen, dass er seinen voraussichtlichen Kostenanteil in geeigneter Form sicherstellt, wenn schädliche Einwirkungen zu erwarten sind. Wie das Gesuch abläuft und welche Stelle zuständig ist, regelt Ihr Kanton. Fragen Sie die kantonale Umweltfachstelle oder die Notarin oder den Notar."
+      },
+      "sources": ["usg-32dbis"]
+    },
+    {
+      "id": "before-buying",
+      "kind": "rule",
+      "when": {
+        "role": ["buyer", "unknown"]
+      },
+      "text": {
+        "de": "Prüfen Sie vor dem Kauf, ob das Grundstück im Kataster der belasteten Standorte steht. Der Kataster ist öffentlich. Viele Kantone zeigen ihn auf ihrem Geoportal im Internet. Das ist wichtig, weil Sie sich später nicht auf Unkenntnis berufen können, wenn Sie Hinweise auf eine Belastung beim Kauf kannten oder hätten kennen müssen. Dann kann ein Teil der Kosten an Ihnen hängen bleiben. Fragen Sie auch nach der früheren Nutzung, etwa nach einer Werkstatt, einer Tankstelle oder einer Auffüllung. Wollen Sie auf einem belasteten Standort bauen oder umbauen, ist das nur erlaubt, wenn der Standort nicht sanierungsbedürftig ist und es durch das Bauvorhaben nicht wird, oder wenn eine spätere Sanierung nicht wesentlich erschwert wird. Sonst muss der betroffene Teil gleichzeitig saniert werden. Das kann den Bau verteuern. Lassen Sie sich vor der Unterschrift beraten, wie der Kaufvertrag die Kosten einer Belastung regeln soll."
+      },
+      "sources": ["usg-32c", "bge-142-ii-232-e43", "altlv-3"]
+    },
+    {
+      "id": "garden-soil",
+      "kind": "rule",
+      "when": {
+        "situation": ["garden-playground", "unknown"]
+      },
+      "text": {
+        "de": "Auch ausserhalb von Deponien und Industriearealen kann der Boden Schadstoffe enthalten, etwa Blei, andere Schwermetalle oder PAK. PAK sind Stoffe, die bei Verbrennung entstehen, zum Beispiel aus Russ, Asche oder Teer. Wo solche Belastungen feststehen oder wahrscheinlich sind, erstellen die Kantone Hinweiskarten. Sie veröffentlichen auch die Ergebnisse ihrer Überwachung. Beurteilt wird der Boden nach Werten, die der Bund in einer Verordnung festlegt. Es gibt drei Stufen. Wird der Richtwert überschritten, sucht der Kanton die Ursache. Wird der Prüfwert überschritten, prüft er, ob Menschen, Tiere oder Pflanzen konkret gefährdet sind, und schränkt wenn nötig die Nutzung ein, zum Beispiel den Anbau von Gemüse. Wird der Sanierungswert überschritten, verbietet der Kanton die betroffenen Nutzungen. In Gebieten, die für Garten-, Land- oder Forstwirtschaft bestimmt sind, ordnet er Massnahmen an, damit der Boden wieder gefahrlos genutzt werden kann. Welche Werte gelten, hängt von der Nutzung ab, etwa ob Nahrungspflanzen wachsen oder ob Kinder direkt mit der Erde in Kontakt kommen."
+      },
+      "sources": ["vbbo-4", "vbbo-5", "vbbo-8", "vbbo-9", "vbbo-10", "usg-34"]
+    },
+    {
+      "id": "playgrounds",
+      "kind": "rule",
+      "when": {
+        "situation": ["garden-playground", "unknown"]
+      },
+      "text": {
+        "de": "Seit dem 1. April 2025 gilt eine besondere Regel für Orte, an denen kleine Kinder spielen. Die Kantone müssen dafür sorgen, dass öffentliche Kinderspielplätze und öffentliche Grünflächen saniert werden, wenn ihr Boden mit umweltgefährdenden Stoffen belastet ist, dort regelmässig Kleinkinder spielen und schädliche Einwirkungen bestehen oder konkret drohen. Für private Spielplätze und private Hausgärten gilt diese Sanierungspflicht nicht. Anders ist es nur, wenn der Garten Teil eines belasteten Standorts ist, etwa einer früheren Deponie: Dann gelten die allgemeinen Regeln für solche Standorte. Die Kantone können die Sanierung privater Spielplätze und Hausgärten aber mit Geld unterstützen, wenn dort regelmässig Kleinkinder spielen und der belastete Boden schädlich ist oder konkret zu werden droht. Ob und wie Ihr Kanton solche Beiträge gewährt, entscheidet er selbst. Der Bund beteiligt sich über Abgeltungen an die Kantone an den Kosten vieler Untersuchungen und Sanierungen. Machen Sie sich Sorgen um einen öffentlichen Spielplatz, wenden Sie sich an die Gemeinde oder an die kantonale Umweltfachstelle und fragen Sie, ob der Boden untersucht wurde."
+      },
+      "sources": ["usg-32c", "usg-32eter"]
+    },
+    {
+      "id": "garden-practical",
+      "kind": "step",
+      "when": {
+        "situation": ["garden-playground", "unknown"],
+        "role": ["owner", "user", "parent", "unknown"]
+      },
+      "text": {
+        "de": "So gehen Sie vor, wenn Sie eine Belastung im Garten oder auf dem Spielplatz befürchten: Schauen Sie auf dem Geoportal Ihres Kantons nach, ob das Gebiet im Kataster der belasteten Standorte oder auf einer Hinweiskarte für Bodenbelastungen verzeichnet ist. Fragen Sie die kantonale Umweltfachstelle, ob für Ihr Gebiet Messungen vorliegen und ob eine Bodenprobe sinnvoll ist. Bei Familiengärten ist oft auch der Gartenverein oder die Gemeinde als Eigentümerin informiert. Halten Sie sich an Nutzungsbeschränkungen, die der Kanton angeordnet hat. Solange Sie nichts wissen, gilt: Fragen Sie bei der Fachstelle nach, bevor Sie viel Gemüse für den eigenen Bedarf anbauen oder kleine Kinder oft auf offener Erde spielen lassen. Haben Sie gesundheitliche Sorgen, sprechen Sie mit Ihrer Ärztin oder Ihrem Arzt."
+      }
+    },
+    {
+      "id": "suspicion",
+      "kind": "rule",
+      "when": {
+        "situation": ["suspicion", "unknown"]
+      },
+      "text": {
+        "de": "Vermuten Sie eine alte Belastung, die im Kataster nicht verzeichnet ist, etwa eine frühere Grube, die aufgefüllt wurde, eine alte Schiessanlage oder ein früheres Gewerbe, können Sie das der kantonalen Umweltfachstelle mitteilen. Die Behörde ermittelt belastete Standorte, indem sie Karten, Verzeichnisse und Meldungen auswertet, und kann bei Inhabern und Dritten Auskünfte einholen. Schildern Sie, was Sie wissen und woher: alte Fotos, Pläne, Erzählungen, Gerüche oder auffälliges Material im Boden. Geht es um eine neue Verschmutzung oder um Abfall, der gerade illegal abgelagert wird, lesen Sie den Leitfaden zu Umweltverschmutzungen: Dort geht es um Notruf und Anzeige."
+      },
+      "sources": ["altlv-5"]
+    },
+    {
+      "id": "no-right-to-force",
+      "kind": "warning",
+      "text": {
+        "de": "Wichtig zu wissen: Wer sich nur um die Umwelt oder die Gesundheit anderer sorgt, kann die Behörde nicht zwingen, einen Standort zu untersuchen oder zu sanieren. Wer eine Meldung macht oder ein Einschreiten verlangt, wird dadurch nicht Partei. Eine Beschwerde im Interesse der Allgemeinheit, oft Popularbeschwerde genannt, ist nicht zulässig. Mehr Rechte hat nur, wer stärker betroffen ist als die Allgemeinheit und einen eigenen, persönlichen Vorteil vom Verfahren hat, zum Beispiel die Eigentümerin des betroffenen Grundstücks. Wirksam sind trotzdem: eine gut begründete Meldung an die kantonale Umweltfachstelle, Fragen an die Gemeinde, ein Gesuch um Einsicht in Messungen und Untersuchungsberichte und, wenn nichts geschieht, eine Anzeige an die Aufsichtsbehörde, die Ihr Kanton regelt."
+      },
+      "sources": ["bge-146-i-145", "bge-139-ii-279"]
+    },
+    {
+      "id": "ask-for-information",
+      "kind": "rule",
+      "text": {
+        "de": "Der Kataster der belasteten Standorte ist öffentlich zugänglich. Viele Kantone zeigen ihn online auf ihrem Geoportal. Die Kantone veröffentlichen auch die Ergebnisse ihrer Bodenüberwachung. Die Behörden müssen die Öffentlichkeit über den Stand der Umweltbelastung informieren, und die Umweltfachstellen beraten auch Private. Sie dürfen dort also nachfragen, was über Ihr Grundstück, Ihren Garten oder einen Spielplatz bekannt ist. Möchten Sie Untersuchungsberichte oder Messergebnisse einsehen, fragen Sie schriftlich danach. Überwiegende private oder öffentliche Geheimhaltungsinteressen, etwa Geschäftsgeheimnisse, bleiben aber geschützt."
+      },
+      "sources": ["usg-32c", "vbbo-4", "usg-10e"]
+    },
+    {
+      "id": "get-advice",
+      "kind": "escalate",
+      "text": {
+        "de": "Holen Sie persönliche Beratung, wenn die Behörde von Ihnen eine Untersuchung oder Sanierung verlangt, wenn Sie eine Kostenverteilungsverfügung erhalten oder wenn Sie ein eingetragenes Grundstück kaufen, verkaufen oder überbauen wollen. Hier geht es oft um grosse Beträge, und Rechtsmittelfristen sind kurz. Eine Anwältin oder ein Anwalt mit Erfahrung im Umwelt- oder Baurecht kann prüfen, ob Sie sich auf Unkenntnis berufen können und wer sonst als Verursacher in Frage kommt. Für die technischen Fragen, etwa Probenahmen, braucht es in der Regel ein spezialisiertes Umweltbüro. Beim Kauf oder Verkauf kann die Notarin oder der Notar helfen, die Belastung im Vertrag zu regeln."
+      }
+    },
+    {
+      "id": "free-help",
+      "kind": "free-help",
+      "text": {
+        "de": "Kostenlose Anlaufstellen: Die Umweltfachstelle Ihres Kantons, oft Amt für Umwelt genannt, beantwortet Fragen zum Kataster, zu Bodenbelastungen und zu Untersuchungen. Den Kataster der belasteten Standorte finden Sie meist auf dem Geoportal Ihres Kantons. Ihre Gemeinde weiss, wem öffentliche Spielplätze und Familiengärten gehören und ob dort Messungen gemacht wurden. Einen allgemeinen Überblick über belastete Standorte und Bodenschutz gibt das Bundesamt für Umwelt auf seiner Website."
+      }
+    }
+  ],
+  "sources": {
+    "usg-2": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "2",
+      "label": "USG · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_2",
+      "sha256": "4410befb7ccbcc9581914c89e5b5d26ceef01a7df5b11d4828c62942e7682f78"
+    },
+    "usg-10e": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10e",
+      "label": "USG · Art. 10e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10e",
+      "sha256": "cb1066c2d9a6c94c1b8bd1a7f16082ea1ab1b6a7768932011894136e03389c76"
+    },
+    "usg-32c": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "32c",
+      "label": "USG · Art. 32c",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_32c",
+      "sha256": "72deb4dce35f222b3f4b3d812f3453e576ed3e0dbc24406ce1cc4600887c5089"
+    },
+    "usg-32d": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "32d",
+      "label": "USG · Art. 32d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_32d",
+      "sha256": "fa79ca675e7ec704abf40cab4858dbcfc4a3509b851679e40b4e1a0013d5e3ec"
+    },
+    "usg-32dbis": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "32dbis",
+      "label": "USG · Art. 32dbis",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_32dbis",
+      "sha256": "d6d365345e42ccc2bc2645da4a2933ee0d0d598158ebcff575d6517bc63658ed"
+    },
+    "usg-32eter": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "32eter",
+      "label": "USG · Art. 32eter",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_32eter",
+      "sha256": "3d7804e75b492276002d14ff3e9ea9abad5cb440718ef2f5af377b1541c6a0b6"
+    },
+    "usg-34": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "34",
+      "label": "USG · Art. 34",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_34",
+      "sha256": "d8cb3ac5cff1c5dedee426daf54c9882af3fe102bf77bd8220c15c6121f056c6"
+    },
+    "altlv-2": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "2",
+      "label": "AltlV · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_2",
+      "sha256": "e5f8b2a97f3b29923f3a1c2c58c158a7cbf2e0df75b62a63a938ca069c884040"
+    },
+    "altlv-3": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "3",
+      "label": "AltlV · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_3",
+      "sha256": "d663c0a2d9c2d85c324664260272ace39f8d84699f08a972ff38c96a083593b1"
+    },
+    "altlv-5": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "5",
+      "label": "AltlV · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_5",
+      "sha256": "69910b6571fc3dddb8abf23f404dcf466117b0e289e2226b34a0f28af80988a3"
+    },
+    "altlv-6": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "6",
+      "label": "AltlV · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_6",
+      "sha256": "91fbefbe5f8ac12464981e6e122f43bcc76fb846a7fe4c7a64506c0478493782"
+    },
+    "altlv-7": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "7",
+      "label": "AltlV · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_7",
+      "sha256": "5ee8fd04089f1afc94daaf807396035b200100c7e47ee54b3bc9425db77f5ec1"
+    },
+    "altlv-8": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "8",
+      "label": "AltlV · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_8",
+      "sha256": "653ede24f1af3761d509f2b775c9314569fa6230f4f245f134c26b114d563155"
+    },
+    "altlv-20": {
+      "type": "statute",
+      "sr": "814.680",
+      "article": "20",
+      "label": "AltlV · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/2261_2261_2261/de#art_20",
+      "sha256": "e6eda4da431f0c500284035f5feeeb7b5dcf8ffd7f38d0249c66a9d63674cc77"
+    },
+    "vbbo-4": {
+      "type": "statute",
+      "sr": "814.12",
+      "article": "4",
+      "label": "VBBo · Art. 4",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/1854_1854_1854/de#art_4",
+      "sha256": "31580ab2b5e270b74d33deb6106a9fb0f792607429be64c97f3f97d771b7198d"
+    },
+    "vbbo-5": {
+      "type": "statute",
+      "sr": "814.12",
+      "article": "5",
+      "label": "VBBo · Art. 5",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/1854_1854_1854/de#art_5",
+      "sha256": "a594c1e8c4ada729570624470b1d23087603b701764c15dbe8cf3c590b8feeec"
+    },
+    "vbbo-8": {
+      "type": "statute",
+      "sr": "814.12",
+      "article": "8",
+      "label": "VBBo · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/1854_1854_1854/de#art_8",
+      "sha256": "ab1f3d92b369554cd3e256d9ffb9b3e3751b648efe599354be009b3a1f5996ce"
+    },
+    "vbbo-9": {
+      "type": "statute",
+      "sr": "814.12",
+      "article": "9",
+      "label": "VBBo · Art. 9",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/1854_1854_1854/de#art_9",
+      "sha256": "a7a2076c26c0bf799557f147899085c9093b825cbbd99f6d78cf9937d3ab6725"
+    },
+    "vbbo-10": {
+      "type": "statute",
+      "sr": "814.12",
+      "article": "10",
+      "label": "VBBo · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1998/1854_1854_1854/de#art_10",
+      "sha256": "34ca3297e50ce7b901640430cee974bb5ac05a71f5feefc0867520c8d88a659b"
+    },
+    "bge-139-ii-106-e36": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_106",
+      "citation": "BGE 139 II 106",
+      "e": "3.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_106#e-3-6"
+    },
+    "bge-139-ii-106-e56": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_106",
+      "citation": "BGE 139 II 106",
+      "e": "5.6",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_106#e-5-6"
+    },
+    "bge-142-ii-232-e43": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_II_232",
+      "citation": "BGE 142 II 232",
+      "e": "4.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_II_232#e-4-3"
+    },
+    "bge-142-ii-232-e65": {
+      "type": "decision",
+      "decision_id": "bge_BGE_142_II_232",
+      "citation": "BGE 142 II 232",
+      "e": "6.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_142_II_232#e-6-5"
+    },
+    "bge-144-ii-332": {
+      "type": "decision",
+      "decision_id": "bge_BGE_144_II_332",
+      "citation": "BGE 144 II 332",
+      "e": "5.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_144_II_332#e-5-2"
+    },
+    "bger-1c-556-2020": {
+      "type": "decision",
+      "decision_id": "bger_1C_556_2020",
+      "citation": "BGer 1C_556/2020 vom 25. November 2021",
+      "e": "1.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_556_2020#e-1-2"
+    },
+    "bge-139-ii-279": {
+      "type": "decision",
+      "decision_id": "bge_BGE_139_II_279",
+      "citation": "BGE 139 II 279",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_139_II_279#e-2-3"
+    },
+    "bge-146-i-145": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "BAFU: Thema Altlasten"
+      },
+      "url": "https://www.bafu.admin.ch/de/altlasten"
+    },
+    {
+      "label": {
+        "de": "BAFU: Thema Boden"
+      },
+      "url": "https://www.bafu.admin.ch/de/boden"
+    },
+    {
+      "label": {
+        "de": "BAFU: Chemische Bodenbelastungen"
+      },
+      "url": "https://www.bafu.admin.ch/de/chemische-bodenbelastungen"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-30",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}

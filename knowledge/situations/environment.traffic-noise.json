@@ -1,0 +1,959 @@
+{
+  "schema": 1,
+  "id": "environment.traffic-noise",
+  "domain": "environment",
+  "version": "2026-09-30",
+  "status": "draft",
+  "licence": "CC-BY-4.0",
+  "title": {
+    "de": "Strassen- oder Bahnlärm: Was kann ich verlangen?"
+  },
+  "summary": {
+    "de": "Eine Strasse oder Bahnlinie vor Ihrem Haus ist so laut, dass Sie schlecht schlafen. Dieser Leitfaden erklärt, welche Grenzwerte gelten, wie Sie erfahren, wie laut es bei Ihnen ist, wann eine Strasse oder Bahn saniert werden muss und welche Massnahmen möglich sind: Tempo 30, ein lärmarmer Belag, eine Lärmschutzwand und erst als letztes Mittel Schallschutzfenster. Er zeigt, wer zahlt, wie Sie bei geplanten Projekten rechtzeitig Einsprache erheben und was Sie tun können, wenn Sie nicht selbst betroffen sind."
+  },
+  "examples": {
+    "de": [
+      "Vor unserem Haus donnern Tag und Nacht Lastwagen vorbei. Muss da nicht endlich jemand etwas machen?",
+      "Wer zahlt mir Schallschutzfenster, wenn die Kantonsstrasse so laut ist?",
+      "Kann ich verlangen, dass bei uns an der Hauptstrasse Tempo 30 eingeführt wird?",
+      "Die SBB bauen die Strecke aus. Gibts eine Lärmschutzwand, und bis wann muss ich reklamieren?",
+      "Ich wohne zur Miete direkt an der Hauptstrasse, es ist brutal laut. Was kann ich als Mieter machen?",
+      "Wie finde ich heraus, wie viele Dezibel wir am Stubenfenster haben?"
+    ]
+  },
+  "scope": {
+    "covers": {
+      "de": "Lärm von bestehenden und geplanten Strassen und Bahnlinien: Grenzwerte und Empfindlichkeitsstufen, Lärmbelastungskataster und Auskunftsrechte, Sanierungspflicht und Erleichterungen, Tempo 30, lärmarme Beläge, Lärmschutzwände, Schallschutzfenster und ihre Kosten, Einsprachen bei Bundesprojekten, der Weg zu einem anfechtbaren Entscheid und die Möglichkeiten für Personen, die nicht selbst besonders betroffen sind."
+    },
+    "excludes": {
+      "de": "Lärm von Nachbarn, zum Beispiel von Wärmepumpen oder Partys, ist ein eigenes Thema. Für Fluglärm und Schiesslärm gelten besondere Regeln; sie sind hier nicht behandelt. Ebenfalls nicht behandelt sind Baustellenlärm, Lärm von Betrieben, Mietzinsherabsetzungen im Einzelnen sowie kantonale Einsprache- und Beschwerdefristen, die von Kanton zu Kanton verschieden sind."
+    }
+  },
+  "facts": [
+    {
+      "key": "quelle",
+      "question": {
+        "de": "Woher kommt der Lärm?"
+      },
+      "options": [
+        {
+          "value": "strasse",
+          "label": {
+            "de": "Von einer Strasse"
+          }
+        },
+        {
+          "value": "bahn",
+          "label": {
+            "de": "Von einer Bahnlinie"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht oder beides"
+          }
+        }
+      ]
+    },
+    {
+      "key": "rolle",
+      "question": {
+        "de": "Wohnen Sie im eigenen Haus oder zur Miete?"
+      },
+      "options": [
+        {
+          "value": "eigentum",
+          "label": {
+            "de": "Mir gehört das Haus oder die Wohnung"
+          }
+        },
+        {
+          "value": "miete",
+          "label": {
+            "de": "Ich wohne zur Miete"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "lage",
+      "question": {
+        "de": "Geht es um eine bestehende Strasse oder Bahn oder um ein Bauprojekt?"
+      },
+      "help": {
+        "de": "Ein Projekt ist zum Beispiel ein Neubau, ein Ausbau oder ein grösserer Umbau der Strasse oder Bahnlinie."
+      },
+      "options": [
+        {
+          "value": "bestehend",
+          "label": {
+            "de": "Die Strasse oder Bahn ist schon da, gebaut wird nichts"
+          }
+        },
+        {
+          "value": "projekt",
+          "label": {
+            "de": "Es ist ein Neubau, Ausbau oder Umbau geplant"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "key": "anliegen",
+      "question": {
+        "de": "Was möchten Sie vor allem erreichen?"
+      },
+      "options": [
+        {
+          "value": "info",
+          "label": {
+            "de": "Wissen, wie laut es bei mir ist"
+          }
+        },
+        {
+          "value": "quelle",
+          "label": {
+            "de": "Weniger Lärm, zum Beispiel mit Tempo 30, leiserem Belag oder einer Wand"
+          }
+        },
+        {
+          "value": "fenster",
+          "label": {
+            "de": "Schallschutzfenster"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "de": "Weiss ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "grenzwerte",
+      "kind": "rule",
+      "text": {
+        "de": "Der Bund legt für Strassen- und Bahnlärm drei Arten von Grenzwerten fest. Zentral sind die Immissionsgrenzwerte: Bleibt der Lärm darunter, stört er das Wohlbefinden nach heutigem Wissen nicht erheblich. Die tieferen Planungswerte gelten für neue Strassen und Bahnlinien. Die höheren Alarmwerte zeigen, wie dringend eine Sanierung ist.\n\nWelcher Wert für Ihre Wohnung gilt, hängt von der Empfindlichkeitsstufe der Zone ab. Reine Wohnzonen haben in der Regel Stufe II, gemischte Wohn- und Gewerbezonen sowie Landwirtschaftszonen Stufe III. Die Stufe steht im Zonenplan oder im Baureglement Ihrer Gemeinde.\n\nFür Strassen und Bahnen gelten diese Werte: In Stufe II liegt der Immissionsgrenzwert bei 60 dB(A) am Tag und 50 dB(A) in der Nacht, in Stufe III bei 65 und 55 dB(A). Der Alarmwert liegt in beiden Stufen bei 70 dB(A) am Tag und 65 dB(A) in der Nacht. Tag heisst 6 bis 22 Uhr.\n\nMassgebend ist der Lärm in der Mitte des offenen Fensters von Wohn- und Schlafzimmern; Küchen ohne Wohnteil, Bad und Abstellräume zählen nicht. Die Werte sind Durchschnittswerte über die Tages- oder die Nachtzeit. Ein einzelner lauter Lastwagen oder Zug überschreitet sie also nicht automatisch."
+      },
+      "sources": [
+        "usg-13",
+        "usg-15",
+        "usg-19",
+        "lsv-2",
+        "lsv-39",
+        "lsv-40",
+        "lsv-43",
+        "lsv-44"
+      ]
+    },
+    {
+      "id": "laermkataster",
+      "kind": "rule",
+      "text": {
+        "de": "Wie laut es bei Ihnen ist, müssen Sie nicht selbst messen. Die zuständige Behörde muss den Lärm ermitteln, wenn sie Grund zur Annahme hat, dass die Grenzwerte überschritten sind. Das Ergebnis hält sie für Strassen und Bahnen in einem Lärmbelastungskataster fest. Darin stehen unter anderem die ermittelte Belastung, die Empfindlichkeitsstufe und wem die Strasse oder Bahnanlage gehört.\n\nJede Person darf diesen Kataster einsehen. Zuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das Bundesamt für Strassen (ASTRA) und bei Bahnanlagen das Bundesamt für Verkehr (BAV).\n\nIm Internet zeigen Karten des Bundes und der Kantone die Lärmbelastung als Überblick. Für die Werte an Ihrem Haus fragen Sie am besten direkt die kantonale Lärmschutzfachstelle oder, bei einer Bahnlinie, das BAV."
+      },
+      "sources": [
+        "lsv-36",
+        "lsv-37",
+        "lsv-45"
+      ]
+    },
+    {
+      "id": "auskunft",
+      "kind": "rule",
+      "when": {
+        "anliegen": [
+          "info",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Sie dürfen Umweltinformationen in amtlichen Dokumenten einsehen und dazu Auskunft verlangen. Dazu gehören zum Beispiel Lärmberechnungen, ein Sanierungsprojekt für Ihre Strasse oder der Entscheid, mit dem eine Behörde Erleichterungen gewährt hat.\n\nBei Bundesbehörden wie ASTRA und BAV gilt das Öffentlichkeitsgesetz des Bundes: Jede Person hat Zugang, und Sie müssen nicht begründen, wozu Sie die Dokumente wollen. Bei kantonalen und kommunalen Behörden richtet sich der Zugang nach dem Recht Ihres Kantons. Fehlen dort Regeln, gelten die Bundesregeln sinngemäss.\n\nStellen Sie Ihr Gesuch schriftlich und nennen Sie die Strasse oder Bahnstrecke und den Abschnitt möglichst genau."
+      },
+      "sources": [
+        "usg-10e",
+        "usg-10g",
+        "bgoe-6"
+      ]
+    },
+    {
+      "id": "sanierungspflicht",
+      "kind": "rule",
+      "when": {
+        "lage": [
+          "bestehend",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Überschreitet der Lärm einer bestehenden Strasse oder Bahn die Immissionsgrenzwerte, muss die Anlage saniert werden. Die Behörde ordnet die Sanierung an, nachdem sie den Eigentümer der Anlage angehört hat. Saniert wird so weit, wie es technisch und im Betrieb machbar und finanziell tragbar ist, und so, dass die Immissionsgrenzwerte eingehalten sind. Die Kosten der Sanierung trägt der Eigentümer der Strasse oder Bahn.\n\nZuständig ist bei Kantons- und Gemeindestrassen der Kanton, bei Nationalstrassen das ASTRA, bei Bahnanlagen das BAV. Fragen Sie dort, ob für Ihren Abschnitt ein Sanierungsprojekt besteht, was es vorsieht und ob es schon umgesetzt ist."
+      },
+      "sources": [
+        "usg-16",
+        "lsv-13",
+        "lsv-16",
+        "lsv-45",
+        "bge-141-ii-483-e3-2"
+      ]
+    },
+    {
+      "id": "fristen-abgelaufen",
+      "kind": "warning",
+      "when": {
+        "lage": [
+          "bestehend",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Fristen für die Lärmsanierung sind abgelaufen: bei Nationalstrassen am 31. März 2015, bei allen übrigen Strassen am 31. März 2018. Bei den Bahnen liefen die Fristen Ende 2015 und für ergänzende Massnahmen Ende 2025 ab.\n\nDas heisst nicht, dass die Pflicht erloschen ist. Das Bundesgericht hält fest, dass eine Sanierung nach Ablauf der Frist umso dringlicher ist. Ist Ihre Strasse noch immer zu laut, dürfen Sie deshalb nachfragen und auf eine Sanierung drängen."
+      },
+      "sources": [
+        "lsv-17",
+        "bgle-3",
+        "bger-1c-50-2021"
+      ]
+    },
+    {
+      "id": "massnahmen-quelle",
+      "kind": "rule",
+      "text": {
+        "de": "Das Gesetz verlangt, dass Lärm zuerst dort bekämpft wird, wo er entsteht. Möglich sind zum Beispiel eine tiefere Höchstgeschwindigkeit, ein lärmarmer Strassenbelag, Verkehrslenkung oder Verkehrsberuhigung. Erst danach kommen Massnahmen auf dem Weg des Schalls zu Ihrem Haus, etwa eine Lärmschutzwand. Die Behörde muss Massnahmen an der Quelle den Vorzug geben, wenn keine überwiegenden Interessen dagegen sprechen.\n\nDas Bundesgericht betont: Bevor eine Behörde auf eine Sanierung verzichten darf, muss sie prüfen, ob es geeignete und verhältnismässige Massnahmen gibt. Dazu gehören lärmarme Beläge und insbesondere eine Senkung der Geschwindigkeit.\n\nWenn Sie sich an die Behörde wenden, fragen Sie konkret nach diesen Massnahmen und danach, warum sie gewählt oder verworfen wurden."
+      },
+      "sources": [
+        "usg-11",
+        "lsv-2",
+        "lsv-13",
+        "bger-1c-306-2025"
+      ]
+    },
+    {
+      "id": "tempo-30",
+      "kind": "rule",
+      "when": {
+        "quelle": [
+          "strasse",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Behörde kann die Höchstgeschwindigkeit auf einer Strecke senken, um eine übermässige Umweltbelastung durch Lärm zu vermindern. Die Massnahme muss verhältnismässig sein.\n\nAuf Strassen mit Verkehrsfunktion, etwa Haupt- und Durchgangsstrassen, braucht es vorher ein Gutachten. Es klärt, ob die Senkung nötig, zweckmässig und verhältnismässig ist oder ob andere Massnahmen besser sind. Je wichtiger die Strasse für den Verkehr ist, desto strenger sind die Anforderungen an dieses Gutachten. Für Quartierstrassen ohne Verkehrsfunktion ist seit 2023 kein Gutachten mehr nötig. In jedem Fall muss die Behörde die Interessen gesamthaft abwägen und Varianten prüfen.\n\nIst unklar, wie viel Tempo 30 bringt, kann ein zeitlich begrenzter Versuch angezeigt sein, zum Beispiel nur nachts.\n\nAchtung: Die Regeln ändern ab 1. Oktober 2026. Die Behörde muss dann zusätzlich darauf achten, dass Strassen mit Verkehrsfunktion diese Funktion behalten. Fragen Sie bei der Behörde nach, welche Regeln für Ihren Fall gelten."
+      },
+      "sources": [
+        "ssv-108",
+        "svg-32",
+        "bge-150-ii-444",
+        "bger-1c-589-2014-e5-5"
+      ]
+    },
+    {
+      "id": "erleichterungen",
+      "kind": "rule",
+      "when": {
+        "lage": [
+          "bestehend",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Behörde kann Erleichterungen gewähren. Dann muss die Strasse oder Bahn die Grenzwerte nicht voll einhalten. Das ist nur erlaubt, wenn die Sanierung unverhältnismässige Kosten oder Betriebseinschränkungen verursachen würde oder wenn überwiegende Interessen dagegen sprechen, zum Beispiel der Schutz des Ortsbilds oder die Verkehrssicherheit.\n\nErleichterungen sind nach dem Bundesgericht die Ausnahme und nur als letztes Mittel zulässig. Vorher müssen alle möglichen und zumutbaren Massnahmen ausgeschöpft und genügend geprüft sein.\n\nWurden für Ihre Strasse Erleichterungen gewährt, dürfen Sie den Entscheid und die Unterlagen dazu verlangen. Prüfen Sie, ob Tempo 30 und ein lärmarmer Belag ernsthaft untersucht wurden."
+      },
+      "sources": [
+        "usg-17",
+        "lsv-14",
+        "bger-1c-162-2024",
+        "bger-1c-589-2014-e5-5"
+      ]
+    },
+    {
+      "id": "schallschutzfenster",
+      "kind": "rule",
+      "text": {
+        "de": "Schallschutzfenster sind das letzte Mittel. Sie kommen erst in Frage, wenn Massnahmen an der Quelle und auf dem Ausbreitungsweg nicht genügen.\n\nBei einer bestehenden Strasse oder Bahn gilt: Die Behörde verpflichtet die Hauseigentümer nur dann zu Schallschutzfenstern, wenn der Lärm trotz Sanierung über dem Alarmwert bleibt. Liegt er zwischen Immissionsgrenzwert und Alarmwert, gibt es in der Sanierung keine Schallschutzfenster.\n\nBei einer neuen oder wesentlich geänderten Strasse oder Bahn ist die Schwelle tiefer: Dort braucht es Schallschutzfenster schon, wenn die Immissionsgrenzwerte nicht eingehalten werden können.\n\nGeschützt werden Räume, in denen man sich länger aufhält. Mit Zustimmung der Behörde sind andere bauliche Massnahmen möglich, wenn sie innen gleich viel bringen. Keine Pflicht besteht zum Beispiel, wenn die Fenster keine wahrnehmbare Verbesserung bringen oder das Haus in drei Jahren abgebrochen wird."
+      },
+      "sources": [
+        "usg-20",
+        "usg-25",
+        "lsv-10",
+        "lsv-15"
+      ]
+    },
+    {
+      "id": "fenster-kosten",
+      "kind": "cost",
+      "when": {
+        "rolle": [
+          "eigentum",
+          "unknown"
+        ],
+        "anliegen": [
+          "fenster",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Die Kosten für die nötigen Schallschutzfenster trägt der Eigentümer der lärmigen Strasse oder Bahn. Er kann sich davon nur befreien, wenn er nachweist, dass beim Baugesuch für Ihr Haus die Immissionsgrenzwerte schon überschritten waren oder das Strassen- oder Bahnprojekt bereits öffentlich aufgelegt war.\n\nMuss er zahlen, übernimmt er die ortsüblichen Kosten für Planung und Bauleitung, für die vorgeschriebene Dämmung der Fenster samt Anpassungsarbeiten und allfällige Gebühren. Zahlt er trotz Ihrer Aufforderung keinen Vorschuss, trägt er auch die Finanzierungskosten. Wählen Sie mit Zustimmung der Behörde eine andere bauliche Massnahme, zahlt er höchstens so viel, wie die Fenster gekostet hätten. Unterhalt und spätere Erneuerung zahlen Sie als Eigentümerin oder Eigentümer.\n\nBestellen Sie Fenster erst, wenn die Behörde die Massnahme angeordnet hat und klar ist, wer zahlt. Verlangen Sie einen Vorschuss schriftlich."
+      },
+      "sources": [
+        "usg-20",
+        "lsv-11",
+        "lsv-16"
+      ]
+    },
+    {
+      "id": "mieter",
+      "kind": "step",
+      "when": {
+        "rolle": [
+          "miete",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Als Mieterin oder Mieter können Sie sich genauso informieren, Dokumente verlangen und bei neuen Projekten mitreden wie Eigentümer. Auch wer an einer lärmbelasteten Strasse zur Miete wohnt, ist nach dem Bundesgericht besonders betroffen und kann einen Entscheid anfechten.\n\nSchallschutzfenster werden aber dem Hauseigentümer angeordnet und mit ihm abgerechnet. Informieren Sie Ihre Vermieterin oder Ihren Vermieter, wenn die Behörde eine Sanierung plant.\n\nOb Sie wegen des Lärms eine Mietzinsherabsetzung verlangen können, ist eine Frage des Mietrechts; dazu berät Sie der Mieterinnen- und Mieterverband."
+      },
+      "sources": [
+        "bger-1c-589-2014-e1"
+      ]
+    },
+    {
+      "id": "bahn",
+      "kind": "rule",
+      "when": {
+        "quelle": [
+          "bahn",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Für Bahnlärm gilt ein eigenes Bundesgesetz. Es setzt zuerst auf leisere Fahrzeuge und Massnahmen am Gleis, dann auf Lärmschutzwände. Schallschutzfenster an Gebäuden sind für den verbleibenden Rest vorgesehen. Massnahmen am Gleis und auf dem Ausbreitungsweg sind anzuordnen, bis die Immissionsgrenzwerte eingehalten sind, ausser die Kosten wären unverhältnismässig oder überwiegende Interessen sprächen dagegen. Wo solche Erleichterungen gewährt wurden, kann das BAV weitere Massnahmen anordnen.\n\nDie Massnahmen am Gleis und auf dem Ausbreitungsweg bezahlt der Bund. Zuständig für die Bahnsanierung ist das BAV; für die Schallschutzmassnahmen an Gebäuden sorgen die Kantone.\n\nDie Sanierungsfristen sind abgelaufen, das Gesetz gilt noch bis Ende 2028. Fragen Sie beim BAV nach, ob Ihr Abschnitt saniert ist und ob noch Massnahmen geplant sind."
+      },
+      "sources": [
+        "bgle-2",
+        "bgle-3",
+        "bgle-7",
+        "bgle-7a",
+        "bgle-8",
+        "bgle-13",
+        "bgle-15"
+      ]
+    },
+    {
+      "id": "neues-projekt",
+      "kind": "rule",
+      "when": {
+        "lage": [
+          "projekt",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Wird eine Strasse oder Bahnlinie neu gebaut, darf sie allein die tieferen Planungswerte nicht überschreiten. Wo das unverhältnismässig wäre, sind Erleichterungen möglich. Können die Immissionsgrenzwerte mit Massnahmen an der Quelle nicht eingehalten werden, müssen die betroffenen Gebäude auf Kosten des Eigentümers der neuen Anlage mit Schallschutzfenstern geschützt werden.\n\nWird eine bestehende Anlage wesentlich geändert, muss die ganze Anlage mindestens die Immissionsgrenzwerte einhalten. Wesentlich ist eine Änderung zum Beispiel, wenn ein Umbau oder Ausbau spürbar mehr Lärm erwarten lässt. Eine Strasse oder Bahn, die saniert werden müsste, darf nur umgebaut werden, wenn sie gleichzeitig saniert wird.\n\nAuch ein neues Einkaufszentrum oder Quartier darf durch den Mehrverkehr auf bestehenden Strassen nicht dazu führen, dass die Immissionsgrenzwerte überschritten werden. Ist eine Strasse schon zu laut, darf der Mehrverkehr sie nicht wahrnehmbar lauter machen."
+      },
+      "sources": [
+        "usg-18",
+        "usg-25",
+        "lsv-7",
+        "lsv-8",
+        "lsv-9",
+        "bge-141-ii-483-e3-1"
+      ]
+    },
+    {
+      "id": "einsprache-frist",
+      "kind": "warning",
+      "when": {
+        "lage": [
+          "projekt",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Bei neuen oder geänderten Nationalstrassen und Bahnanlagen entscheidet der Bund in einem Plangenehmigungsverfahren. Das Gesuch wird in den amtlichen Publikationsorganen der Kantone und Gemeinden veröffentlicht und liegt 30 Tage öffentlich auf. Wer im Verfahren Partei sein kann, muss während dieser Auflagefrist Einsprache erheben. Wer das nicht tut, ist vom weiteren Verfahren ausgeschlossen und kann später keine Beschwerde mehr führen.\n\nEinsprache erheben kann, wer besonders betroffen ist. Nachbarn im Umkreis von etwa 100 Metern sind nach dem Bundesgericht in der Regel dazu berechtigt. Geht es um Lärm durch Mehrverkehr, muss die Zunahme deutlich wahrnehmbar sein.\n\nBei Kantons- und Gemeindestrassen bestimmt der Kanton das Verfahren und die Einsprachefrist. Achten Sie auf die Publikation im kantonalen Amtsblatt und in Ihrer Gemeinde und fragen Sie bei der Gemeinde nach, bis wann Einsprache möglich ist. Die Frist steht in der Publikation."
+      },
+      "sources": [
+        "ebg-18d",
+        "ebg-18f",
+        "nsg-27b",
+        "nsg-27d",
+        "bge-140-ii-214"
+      ]
+    },
+    {
+      "id": "verfuegung-verlangen",
+      "kind": "rule",
+      "when": {
+        "lage": [
+          "bestehend",
+          "unknown"
+        ]
+      },
+      "text": {
+        "de": "Tut sich nichts, obwohl Ihre Strasse oder Bahn zu laut ist, können Sie von der zuständigen Behörde einen anfechtbaren Entscheid (eine Verfügung) verlangen. Eigentümer und Bewohner lärmbelasteter Liegenschaften an der Strasse sind besonders betroffen und können einen solchen Entscheid gerichtlich überprüfen lassen.\n\nBei Bundesbehörden, also beim ASTRA für Nationalstrassen und beim BAV für Bahnen, können Sie verlangen, dass die Behörde über ihr Handeln oder Unterlassen, das Ihre Rechte berührt, eine Verfügung erlässt. Läuft bereits ein Sanierungs- oder Plangenehmigungsverfahren, bringen Sie Ihr Anliegen dort ein; dieses Verfahren geht vor.\n\nBei Kantons- und Gemeindestrassen gilt das Verfahrensrecht Ihres Kantons. Schreiben Sie der zuständigen Stelle, welcher Abschnitt betroffen ist, und verlangen Sie ausdrücklich einen Entscheid über die Sanierung."
+      },
+      "sources": [
+        "vwvg-25a",
+        "lsv-45",
+        "bgg-89",
+        "bger-1c-589-2014-e1"
+      ]
+    },
+    {
+      "id": "keine-popularbeschwerde",
+      "kind": "warning",
+      "text": {
+        "de": "Wer vom Lärm nicht selbst besonders betroffen ist, zum Beispiel weil er weiter weg wohnt, kann eine Behörde nicht zum Handeln zwingen. Ein Gesuch, das nicht dem Schutz der eigenen Rechte dient, ist nach dem Bundesgericht eine unzulässige Popularbeschwerde.\n\nSie haben trotzdem Möglichkeiten:\n– Verlangen Sie Informationen und Dokumente; dafür müssen Sie nicht betroffen sein.\n– Nehmen Sie an Mitwirkungen und öffentlichen Auflagen teil, solange sie laufen.\n– Bei Bundesbehörden wie ASTRA oder BAV können Sie der vorgesetzten Behörde eine Aufsichtsanzeige einreichen. Sie gibt Ihnen keine Parteirechte. Für kantonale Behörden gelten kantonale Regeln.\n– Informieren Sie früh eine beschwerdeberechtigte Umweltorganisation. Sie kann bei Projekten mit Umweltverträglichkeitsprüfung Beschwerde führen, verliert dieses Recht aber, wenn sie sich nicht schon an der Einsprache beteiligt."
+      },
+      "sources": [
+        "bge-146-i-145",
+        "usg-10g",
+        "vwvg-71",
+        "usg-55",
+        "usg-55b"
+      ]
+    },
+    {
+      "id": "anwalt",
+      "kind": "escalate",
+      "text": {
+        "de": "Lassen Sie sich von einer Anwältin oder einem Anwalt mit Erfahrung im Umwelt-, Bau- oder Verwaltungsrecht beraten, wenn Ihnen ein Entscheid zugestellt wurde, etwa über eine Sanierung, Erleichterungen oder ein Projekt. Die Beschwerdefrist steht in der Rechtsmittelbelehrung am Ende des Entscheids; sie ist kurz und läuft auch, während Sie Hilfe suchen.\n\nBeratung lohnt sich auch, wenn Sie eine Einsprache mit einem eigenen Lärmgutachten stützen möchten oder wenn es um die Kosten von Schallschutzfenstern geht. Über den Anwaltsverband Ihres Kantons finden Sie spezialisierte Anwältinnen und Anwälte."
+      }
+    },
+    {
+      "id": "kostenlose-hilfe",
+      "kind": "free-help",
+      "text": {
+        "de": "Die Gemeinde (Bauverwaltung) weiss, wem die Strasse gehört, und sagt Ihnen, welche Projekte gerade aufliegen. Die kantonale Lärmschutz- oder Umweltfachstelle gibt Auskunft zur Lärmbelastung, zum Lärmbelastungskataster und zu Sanierungsprojekten an Kantons- und Gemeindestrassen. Für Nationalstrassen ist das Bundesamt für Strassen (ASTRA) zuständig, für Bahnlinien das Bundesamt für Verkehr (BAV).\n\nMieterinnen und Mieter berät der Mieterinnen- und Mieterverband mit seinen kantonalen und regionalen Sektionen.\n\nDie beschwerdeberechtigten Umweltorganisationen sind im Anhang der Verordnung über die Bezeichnung der beschwerdeberechtigten Organisationen aufgeführt (SR 814.076)."
+      }
+    }
+  ],
+  "sources": {
+    "usg-10e": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10e",
+      "label": "USG · Art. 10e",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10e",
+      "sha256": "cb1066c2d9a6c94c1b8bd1a7f16082ea1ab1b6a7768932011894136e03389c76"
+    },
+    "usg-10g": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "10g",
+      "label": "USG · Art. 10g",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_10g",
+      "sha256": "e38a6bb4b42e4fed80d2448695065dc1f5fbf2ee03d51c15356ba2624e5ace10"
+    },
+    "usg-11": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "11",
+      "label": "USG · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_11",
+      "sha256": "7b38f0464739d27fc582d86635c0ebdae4ff54f7ca5136e2c9b7d6c68ab942f2"
+    },
+    "usg-13": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "13",
+      "label": "USG · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_13",
+      "sha256": "d12aff96101620ad6cbe9c90b1bcc4af79d7278ea7eae733a1d38a931946ee5a"
+    },
+    "usg-15": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "15",
+      "label": "USG · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_15",
+      "sha256": "683879b6d7b193fb9b469e8df745e7de44cd78aa1b60f8de07920158bd3bff8e"
+    },
+    "usg-16": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "16",
+      "label": "USG · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_16",
+      "sha256": "6cd6ee954ed4c0d8ee090411c704675c483c3e28f8b451f180e8f18b6a7c2642"
+    },
+    "usg-17": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "17",
+      "label": "USG · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_17",
+      "sha256": "99c9800a407b51523bad55c9fb39657bb08e9ca051faa281cc6410e8f99f7a58"
+    },
+    "usg-18": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "18",
+      "label": "USG · Art. 18",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_18",
+      "sha256": "afe27c96837108de0e5ffa6a5a073231f511e140226592cb835c361a1cbe773f"
+    },
+    "usg-19": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "19",
+      "label": "USG · Art. 19",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_19",
+      "sha256": "0e994bda69518e58a8b1a0a6292e3d0f50947af9d05bfa99babd3d0a2bf0e853"
+    },
+    "usg-20": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "20",
+      "label": "USG · Art. 20",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_20",
+      "sha256": "c7faf0e690384f577ac0856c38c67f6db2ae46eef7b0f5a54404f9f7c68943a1"
+    },
+    "usg-25": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "25",
+      "label": "USG · Art. 25",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_25",
+      "sha256": "5462e1e48d2d2e64e39b74a318d4af9747c678aaadb5c24b3703e09b85e2596e"
+    },
+    "usg-55": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55",
+      "label": "USG · Art. 55",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55",
+      "sha256": "794cc513035846aa9b8120cda856f0985237233b0f7c95537cb188deb6497614"
+    },
+    "usg-55b": {
+      "type": "statute",
+      "sr": "814.01",
+      "article": "55b",
+      "label": "USG · Art. 55b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1984/1122_1122_1122/de#art_55b",
+      "sha256": "ff9dae9ecbfac6c1c39500625a5cf97fd6e86f8bff376614f72dceb658be12b5"
+    },
+    "lsv-2": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "2",
+      "label": "LSV · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_2",
+      "sha256": "63686b5d7744354d37125e36960570faf1406740b1e1d5290b4d1e6efb891222"
+    },
+    "lsv-7": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "7",
+      "label": "LSV · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_7",
+      "sha256": "157ea570870cf0ec3d6bb9d4f6af8dc3c8c36a9e9d6adb31c8f413ed18546db4"
+    },
+    "lsv-8": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "8",
+      "label": "LSV · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_8",
+      "sha256": "caf206f89e218097748a48d74aa8462396311c5403cdb695f20c71beceee650f"
+    },
+    "lsv-9": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "9",
+      "label": "LSV · Art. 9",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_9",
+      "sha256": "210ae1949e5eedd0f7dd9f45cf72232697a39240daa0c4ffab9eac8d71a9b4d6"
+    },
+    "lsv-10": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "10",
+      "label": "LSV · Art. 10",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_10",
+      "sha256": "f79cad6284248c7de62e6392c21cb1cb6146e4b050438734afce529118327921"
+    },
+    "lsv-11": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "11",
+      "label": "LSV · Art. 11",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_11",
+      "sha256": "36fb0e599f5d23fec9ce2caf98f0abd995664657ee1a3b9a3f181f8220273e45"
+    },
+    "lsv-13": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "13",
+      "label": "LSV · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_13",
+      "sha256": "6ca447f25367612dd6b3bbccd1a603009f79016e0b908aa79e8b9eb99397821a"
+    },
+    "lsv-14": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "14",
+      "label": "LSV · Art. 14",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_14",
+      "sha256": "c9d1f4688810c37e966b218b85ad9cbe21bd3d4444ed7203d497e8d91b349250"
+    },
+    "lsv-15": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "15",
+      "label": "LSV · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_15",
+      "sha256": "1a2a47c40c9f9e12bfebfebaa5327f3106408a482e86f0ec035141c8a31857fc"
+    },
+    "lsv-16": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "16",
+      "label": "LSV · Art. 16",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_16",
+      "sha256": "2ed3c6d34e048fe8641adb22f6703550189a6f4a94b4636ab84272f951f15fd3"
+    },
+    "lsv-17": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "17",
+      "label": "LSV · Art. 17",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_17",
+      "sha256": "5459dc39c401c568b5c70f29642fabddab9f860481fcb7f1fb31cc8d97818b8b"
+    },
+    "lsv-36": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "36",
+      "label": "LSV · Art. 36",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_36",
+      "sha256": "58294d836c587cd1b4bc87f146ebc1e83416ecdbac439838faf41e5a811088c4"
+    },
+    "lsv-37": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "37",
+      "label": "LSV · Art. 37",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_37",
+      "sha256": "0a156b894593758cdfc9ad57c11f4fe307e6575532df031874c460ae8372d795"
+    },
+    "lsv-39": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "39",
+      "label": "LSV · Art. 39",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_39",
+      "sha256": "36ab9eca4dc3c86e97b95b8f5fd9d9b4c37d51b0d5c50aa00ce77ee80448e587"
+    },
+    "lsv-40": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "40",
+      "label": "LSV · Art. 40",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_40",
+      "sha256": "b4c2bee724ce072139feab588dbca0e1b543e204cc217a9f4f55f4cff6d7c842"
+    },
+    "lsv-43": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "43",
+      "label": "LSV · Art. 43",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_43",
+      "sha256": "9f8105e57cb373951b8681984f69452338331f21b0698e3cf55ad81bda4c391b"
+    },
+    "lsv-44": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "44",
+      "label": "LSV · Art. 44",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_44",
+      "sha256": "028df7ec4d6489956031c77ac7777d3bef35dc6fe842922ef1c961f6dab43671"
+    },
+    "lsv-45": {
+      "type": "statute",
+      "sr": "814.41",
+      "article": "45",
+      "label": "LSV · Art. 45",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1987/338_338_338/de#art_45",
+      "sha256": "30cd55f569e2c80fc7a198589e25239bb80fde4d6ae9bbbc1c0d784eaee2c8e1"
+    },
+    "bgle-2": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "2",
+      "label": "BGLE · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_2",
+      "sha256": "26d741412b3d12ee5b53d93c6fcbf109587fbd1e01a55a5cf5b3dffc30c07b81"
+    },
+    "bgle-3": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "3",
+      "label": "BGLE · Art. 3",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_3",
+      "sha256": "32164b91b2e436a7457bba397b7433fd75c5fbee41f47ae8d93bb6a86f8b12da"
+    },
+    "bgle-7": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "7",
+      "label": "BGLE · Art. 7",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_7",
+      "sha256": "82349f6f345e1d0176b5bd26a52c43cd40e2fd6ee2ab6e52c23d3c0d5154f642"
+    },
+    "bgle-7a": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "7a",
+      "label": "BGLE · Art. 7a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_7a",
+      "sha256": "c1d8f74130adfc2deb8f84336ec0a234c9b6f2fc47135e86f6b032fca075c89e"
+    },
+    "bgle-8": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "8",
+      "label": "BGLE · Art. 8",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_8",
+      "sha256": "d35d0df8dfbaad43956e2bc70b7aa37a25795ff96a5340d3118f8b648e1ae9d1"
+    },
+    "bgle-13": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "13",
+      "label": "BGLE · Art. 13",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_13",
+      "sha256": "d116c35a03403260c613019998324cda51a63d634a509473e3c0abdde526d6c5"
+    },
+    "bgle-15": {
+      "type": "statute",
+      "sr": "742.144",
+      "article": "15",
+      "label": "BGLE · Art. 15",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2000/342/de#art_15",
+      "sha256": "75e58320e5f7f0c059ef707d0edfbc88ff65bd4b6bfac06cc4f2e60bf81a22d3"
+    },
+    "ssv-108": {
+      "type": "statute",
+      "sr": "741.21",
+      "article": "108",
+      "label": "SSV · Art. 108",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/1961_1961_1961/de#art_108",
+      "sha256": "a0a86ef68903446390013efbb70ad264c262ea78df4f37ccf9d1ed0c552888e6"
+    },
+    "svg-32": {
+      "type": "statute",
+      "sr": "741.01",
+      "article": "32",
+      "label": "SVG · Art. 32",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1959/679_705_685/de#art_32",
+      "sha256": "d1a3adab9f2347d14d4260feb58329461e36504561b4bb5ef941625550fb301b"
+    },
+    "vwvg-25a": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "25a",
+      "label": "VwVG · Art. 25a",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_25a",
+      "sha256": "363117efa362fa648d69e6db04a20ebdd3f6630b475426fd87ae16cd2b538d33"
+    },
+    "vwvg-71": {
+      "type": "statute",
+      "sr": "172.021",
+      "article": "71",
+      "label": "VwVG · Art. 71",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1969/737_757_755/de#art_71",
+      "sha256": "a65b2135a793b83e0ec2f497fc9ced7a9f5f7ea60293536eadac691f377bb79b"
+    },
+    "ebg-18d": {
+      "type": "statute",
+      "sr": "742.101",
+      "article": "18d",
+      "label": "EBG · Art. 18d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1958/335_341_347/de#art_18d",
+      "sha256": "abe1753a439d809d32872386c51ea2fc903834190403e08c0a24ed87ce98dd36"
+    },
+    "ebg-18f": {
+      "type": "statute",
+      "sr": "742.101",
+      "article": "18f",
+      "label": "EBG · Art. 18f",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1958/335_341_347/de#art_18f",
+      "sha256": "5d18ce88f538ec18353be17d450b89ec4af651167b948b90014704f037882074"
+    },
+    "nsg-27b": {
+      "type": "statute",
+      "sr": "725.11",
+      "article": "27b",
+      "label": "NSG · Art. 27b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1960/525_569_555/de#art_27b",
+      "sha256": "58117f8ed63401e91c33705259b2fb0e7ab4c0f47c0852917d709c8b5cd06f17"
+    },
+    "nsg-27d": {
+      "type": "statute",
+      "sr": "725.11",
+      "article": "27d",
+      "label": "NSG · Art. 27d",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1960/525_569_555/de#art_27d",
+      "sha256": "e810fcb5356998ff58f509aa8cde5c34a68867676db0c782e79aea050f233191"
+    },
+    "bgoe-6": {
+      "type": "statute",
+      "sr": "152.3",
+      "article": "6",
+      "label": "BGÖ · Art. 6",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/355/de#art_6",
+      "sha256": "ff40be9e38689f49caad4a01d63a16a59e87cea69dd0c020df7b3f2603acd294"
+    },
+    "bgg-89": {
+      "type": "statute",
+      "sr": "173.110",
+      "article": "89",
+      "label": "BGG · Art. 89",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2006/218/de#art_89",
+      "sha256": "a1da21115a23b254f6fab9bc12d5afcc4c97f049d3f20e0f3fbcf759bdd4ae47"
+    },
+    "bge-141-ii-483-e3-1": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_II_483",
+      "citation": "BGE 141 II 483",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_II_483#e-3-1"
+    },
+    "bge-141-ii-483-e3-2": {
+      "type": "decision",
+      "decision_id": "bge_BGE_141_II_483",
+      "citation": "BGE 141 II 483",
+      "e": "3.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_141_II_483#e-3-2"
+    },
+    "bger-1c-50-2021": {
+      "type": "decision",
+      "decision_id": "bger_1C_50_2021",
+      "citation": "BGer 1C_50/2021 vom 17. Januar 2022",
+      "e": "2.2",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_50_2021#e-2-2"
+    },
+    "bger-1c-589-2014-e1": {
+      "type": "decision",
+      "decision_id": "bger_1C_589_2014",
+      "citation": "BGer 1C_589/2014 vom 3. Februar 2016",
+      "e": "1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_589_2014#e-1"
+    },
+    "bger-1c-589-2014-e5-5": {
+      "type": "decision",
+      "decision_id": "bger_1C_589_2014",
+      "citation": "BGer 1C_589/2014 vom 3. Februar 2016",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_589_2014#e-5-5"
+    },
+    "bger-1c-162-2024": {
+      "type": "decision",
+      "decision_id": "bger_1C_162_2024",
+      "citation": "BGer 1C_162/2024 vom 16. Juli 2025",
+      "e": "3.1",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_162_2024#e-3-1"
+    },
+    "bger-1c-306-2025": {
+      "type": "decision",
+      "decision_id": "bger_1C_306_2025",
+      "citation": "BGer 1C_306/2025 vom 15. Juni 2026",
+      "e": "3.7",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_1C_306_2025#e-3-7"
+    },
+    "bge-150-ii-444": {
+      "type": "decision",
+      "decision_id": "bge_BGE_150_II_444",
+      "citation": "BGE 150 II 444",
+      "e": "6.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_150_II_444#e-6-5"
+    },
+    "bge-146-i-145": {
+      "type": "decision",
+      "decision_id": "bge_BGE_146_I_145",
+      "citation": "BGE 146 I 145",
+      "e": "5.5",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_146_I_145#e-5-5"
+    },
+    "bge-140-ii-214": {
+      "type": "decision",
+      "decision_id": "bge_BGE_140_II_214",
+      "citation": "BGE 140 II 214",
+      "e": "2.3",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_II_214#e-2-3"
+    }
+  },
+  "official_links": [
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Lärm"
+      },
+      "url": "https://www.bafu.admin.ch/de/laerm"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Strassenverkehrslärm"
+      },
+      "url": "https://www.bafu.admin.ch/de/strassenlaerm"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Eisenbahnlärm"
+      },
+      "url": "https://www.bafu.admin.ch/de/eisenbahnlaerm"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Lärmkarten (sonBASE)"
+      },
+      "url": "https://www.bafu.admin.ch/de/sonbase"
+    },
+    {
+      "label": {
+        "de": "Geoportal des Bundes (Karten zur Lärmbelastung)"
+      },
+      "url": "https://map.geo.admin.ch/"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Verkehr – Lärmsanierung der Eisenbahnen"
+      },
+      "url": "https://www.bav.admin.ch/de/laermsanierung"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Verkehr – Lärmbelastungskataster Eisenbahn"
+      },
+      "url": "https://www.bav.admin.ch/de/laermbelastungskataster"
+    },
+    {
+      "label": {
+        "de": "Bundesamt für Umwelt – Verbandsbeschwerderecht"
+      },
+      "url": "https://www.bafu.admin.ch/de/verbandsbeschwerderecht"
+    }
+  ],
+  "review": {
+    "prepared_by": "Claude (Anthropic), from open sources via OpenCaseLaw",
+    "prepared_at": "2026-09-30",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "languages_reviewed": []
+  }
+}
