@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "social.ahv-gaps",
   "domain": "social",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -721,14 +721,15 @@
       "id": "objection",
       "kind": "deadline",
       "text": {
-        "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei.",
-        "fr": "Si vous n’êtes pas d’accord avec une décision de la caisse de compensation, par exemple concernant des bonifications refusées, une rectification de compte refusée ou le montant des cotisations, vous pouvez former opposition par écrit auprès de la caisse de compensation dans les 30 jours suivant la notification. Motivez brièvement ce qui est erroné et joignez des pièces justificatives.",
-        "it": "Se non è d'accordo con una decisione della cassa di compensazione, per esempio con accrediti rifiutati, una rettifica del conto negata o l'importo dei contributi, può fare opposizione per scritto alla cassa di compensazione entro 30 giorni dalla notificazione. Motivi brevemente cosa è sbagliato e alleghi le prove.",
-        "rm": "N'essas Vus betg d'accord cun ina decisiun da la cassa da cumpensaziun, per exempel cun credits refusads, in refusà rectificaziun dal conto u l'autezza da las contribuziuns, pudais Vus far, entaifer 30 dis dapi la consegna, per scrit opposiziun tar la cassa da cumpensaziun. Motivai curtamain, tge ch'è fauss, ed agiuntai cumprovas.",
-        "en": "If you disagree with a ruling of the compensation office, for example about refused credits, a refused account correction, or the level of contributions, you can raise a written objection with the compensation office within 30 days of it being sent to you. Briefly explain what is wrong and enclose evidence."
+        "de": "Sind Sie mit einer Verfügung der Ausgleichskasse nicht einverstanden, etwa mit abgelehnten Gutschriften, einer verweigerten Kontoberichtigung oder der Höhe der Beiträge, können Sie innert 30 Tagen seit Zustellung schriftlich Einsprache bei der Ausgleichskasse erheben. Begründen Sie kurz, was falsch ist, und legen Sie Belege bei. Vom siebten Tag vor bis zum siebten Tag nach Ostern, vom 15. Juli bis 15. August und vom 18. Dezember bis 2. Januar steht die Frist still.",
+        "fr": "Si vous n’êtes pas d’accord avec une décision de la caisse de compensation, par exemple concernant des bonifications refusées, une rectification de compte refusée ou le montant des cotisations, vous pouvez former opposition par écrit auprès de la caisse de compensation dans les 30 jours suivant la notification. Motivez brièvement ce qui est erroné et joignez des pièces justificatives. Du septième jour avant Pâques au septième jour après Pâques, du 15 juillet au 15 août et du 18 décembre au 2 janvier, le délai est suspendu.",
+        "it": "Se non è d'accordo con una decisione della cassa di compensazione, per esempio con accrediti rifiutati, una rettifica del conto negata o l'importo dei contributi, può fare opposizione per scritto alla cassa di compensazione entro 30 giorni dalla notificazione. Motivi brevemente cosa è sbagliato e alleghi le prove. Dal settimo giorno prima al settimo giorno dopo Pasqua, dal 15 luglio al 15 agosto e dal 18 dicembre al 2 gennaio il termine è sospeso.",
+        "rm": "N'essas Vus betg d'accord cun ina decisiun da la cassa da cumpensaziun, per exempel cun credits refusads, in refusà rectificaziun dal conto u l'autezza da las contribuziuns, pudais Vus far, entaifer 30 dis dapi la consegna, per scrit opposiziun tar la cassa da cumpensaziun. Motivai curtamain, tge ch'è fauss, ed agiuntai cumprovas. Dal settim di avant fin al settim di suenter Pasca, dals 15 da fanadur fin ils 15 d'avust e dals 18 da december fin ils 2 da schaner è il termin suspendì.",
+        "en": "If you disagree with a ruling of the compensation office, for example about refused credits, a refused account correction, or the level of contributions, you can raise a written objection with the compensation office within 30 days of it being sent to you. Briefly explain what is wrong and enclose evidence. The deadline is paused from the seventh day before to the seventh day after Easter, from 15 July to 15 August and from 18 December to 2 January."
       },
       "sources": [
-        "atsg-52"
+        "atsg-52",
+        "atsg-38"
       ],
       "deadline_rules": [
         "atsg_52_einsprache"
@@ -1096,6 +1097,14 @@
       "citation": "BGE 140 V 98",
       "e": "9.3",
       "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_140_V_98#e-9-3"
+    },
+    "atsg-38": {
+      "type": "statute",
+      "sr": "830.1",
+      "article": "38",
+      "label": "ATSG · Art. 38",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/510/de#art_38",
+      "sha256": "217553f9ceb68e6918228f6dc8a9d82a55113dda82477e1d3df4cb1d13eb42ff"
     }
   },
   "official_links": [

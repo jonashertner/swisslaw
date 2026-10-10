@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "employment.dismissal",
   "domain": "employment",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -262,6 +262,16 @@
           }
         },
         {
+          "value": "leave",
+          "label": {
+            "de": "Ein besonderer Urlaub rund um die Geburt oder für die Betreuung eines schwer kranken Kindes",
+            "fr": "Un congé particulier lié à la naissance ou à la prise en charge d'un enfant gravement malade",
+            "it": "Un congedo particolare legato alla nascita o all'assistenza di un figlio gravemente malato",
+            "rm": "In congedi spezial en connex cun la naschientscha u cun la tgira d'in uffant grevamain malsaun",
+            "en": "A special leave around a birth or to care for a seriously ill child"
+          }
+        },
+        {
           "value": "none",
           "label": {
             "de": "Nein, nichts davon",
@@ -414,17 +424,18 @@
       "id": "blocking-periods",
       "kind": "warning",
       "text": {
-        "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt.",
-        "fr": "Après le temps d’essai, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail, totale ou partielle, due à une maladie ou un accident non imputable à votre faute (30 jours pendant la première année de service, 90 jours de la deuxième à la cinquième année de service, 180 jours à partir de la sixième année de service), pendant la grossesse et durant les 16 semaines qui suivent l’accouchement, ou pendant que vous accomplissez un service militaire, de protection civile ou civil obligatoire de plus de onze jours (plus quatre semaines avant et après le service). Un congé donné pendant une telle période de protection est nul. Si le congé a été donné juste avant le début de la période de protection, le délai de congé est suspendu et ne reprend son cours qu’à la fin de cette période.",
-        "it": "Dopo il tempo di prova, il suo datore di lavoro non può darle la disdetta mentre lei è impedito di lavorare senza sua colpa per malattia o infortunio (30 giorni nel primo anno di servizio, 90 giorni dal secondo al quinto anno di servizio, 180 giorni dal sesto anno di servizio), durante la gravidanza e nelle 16 settimane successive, oppure mentre presta servizio militare, di protezione civile o civile obbligatorio di più di undici giorni (più quattro settimane prima e dopo). Una disdetta data durante uno di questi periodi di protezione è nulla. Se la disdetta è stata data poco prima dell’inizio del periodo di protezione, il decorso del termine di disdetta è sospeso e riprende solo dopo la fine del periodo di protezione.",
-        "en": "After the probation period, your employer may not give notice while you are prevented from working, through no fault of your own, because of illness or accident (30 days in the first year of service, 90 days from the second to the fifth year of service, 180 days from the sixth year of service), during pregnancy and for 16 weeks afterwards, or while you are doing more than eleven days of compulsory military service, civil defence service or alternative civilian service (plus four weeks before and after). Notice given during such a proscribed period is invalid (void). If notice was given shortly before a proscribed period began, the notice period is suspended and only continues once the proscribed period has ended.",
-        "rm": "Suenter il temp da prova na dastga Voss patrun betg dar la disditga, durant in'incapacitad da lavurar senza atgna culpa pervia da malsogna u accident (en il emprim onn da servetsch 30 dis, dal segund fin il tschintgavel onn da servetsch 90 dis, dal sisavel onn da servetsch enavant 180 dis), durant la gravidanza e durant las 16 emnas suenter, u durant che Vus prestais servetsch militar, da protecziun u civil obligatoric da dapli che indesch dis (plus quatter emnas avant e suenter). Ina disditga ch'è vegnida dada durant in tal termin da bloccada è nunvalaivla (nulla). Sche la disditga è vegnida dada curt avant il cumenzament dal termin da bloccada, vegn il decuors dal termin da disditga interrut e cuntinuà mo suenter la fin dal termin da bloccada."
+        "de": "Nach der Probezeit darf Ihr Arbeitgeber nicht kündigen, während Sie ohne eigenes Verschulden krankheits- oder unfallbedingt an der Arbeit verhindert sind (im ersten Dienstjahr 30 Tage, vom zweiten bis fünften Dienstjahr 90 Tage, ab dem sechsten Dienstjahr 180 Tage), während der Schwangerschaft und in den 16 Wochen danach, oder während Sie obligatorischen Militär-, Schutz- oder Zivildienst von mehr als elf Tagen leisten (plus vier Wochen vorher und nachher). Eine Kündigung, die während einer solchen Sperrfrist ausgesprochen wird, ist ungültig (nichtig). Kam die Kündigung kurz vor Beginn der Sperrfrist, wird der Lauf der Kündigungsfrist unterbrochen und erst nach Ende der Sperrfrist fortgesetzt. Geschützt sind Sie zudem in besonderen Urlauben: bis zum Ende eines verlängerten Mutterschaftsurlaubs, wenn das Neugeborene im Spital bleiben muss; während des Zusatzurlaubs der Mutter, wenn der andere Elternteil des Kindes in den sechs Monaten nach der Geburt stirbt (längstens bis drei Monate nach Ablauf der 16 Wochen); während des 14-wöchigen Urlaubs des anderen Elternteils, wenn die Mutter am Tag der Geburt oder in den 14 Wochen danach stirbt; und solange Sie Anspruch auf Betreuungsurlaub für ein schwer krankes oder verunfalltes Kind haben, längstens aber sechs Monate.",
+        "fr": "Après le temps d’essai, votre employeur ne peut pas résilier le contrat pendant une incapacité de travail, totale ou partielle, due à une maladie ou un accident non imputable à votre faute (30 jours pendant la première année de service, 90 jours de la deuxième à la cinquième année de service, 180 jours à partir de la sixième année de service), pendant la grossesse et durant les 16 semaines qui suivent l’accouchement, ou pendant que vous accomplissez un service militaire, de protection civile ou civil obligatoire de plus de onze jours (plus quatre semaines avant et après le service). Un congé donné pendant une telle période de protection est nul. Si le congé a été donné juste avant le début de la période de protection, le délai de congé est suspendu et ne reprend son cours qu’à la fin de cette période. Vous êtes en outre protégé pendant certains congés particuliers : jusqu'à la fin d'un congé de maternité prolongé lorsque le nouveau-né doit rester à l'hôpital ; pendant le congé supplémentaire de la mère lorsque l'autre parent de l'enfant décède dans les six mois suivant la naissance (au plus jusqu'à trois mois après la fin des 16 semaines) ; pendant le congé de 14 semaines de l'autre parent lorsque la mère décède le jour de l'accouchement ou dans les 14 semaines suivantes ; et tant que vous avez droit à un congé de prise en charge d'un enfant gravement atteint dans sa santé par une maladie ou un accident, mais au plus pendant six mois.",
+        "it": "Dopo il tempo di prova, il suo datore di lavoro non può darle la disdetta mentre lei è impedito di lavorare senza sua colpa per malattia o infortunio (30 giorni nel primo anno di servizio, 90 giorni dal secondo al quinto anno di servizio, 180 giorni dal sesto anno di servizio), durante la gravidanza e nelle 16 settimane successive, oppure mentre presta servizio militare, di protezione civile o civile obbligatorio di più di undici giorni (più quattro settimane prima e dopo). Una disdetta data durante uno di questi periodi di protezione è nulla. Se la disdetta è stata data poco prima dell’inizio del periodo di protezione, il decorso del termine di disdetta è sospeso e riprende solo dopo la fine del periodo di protezione. È inoltre protetto durante determinati congedi particolari: fino alla fine di un congedo di maternità prolungato se il neonato deve restare in ospedale; durante il congedo supplementare della madre se l'altro genitore del bambino muore nei sei mesi dopo la nascita (al massimo fino a tre mesi dopo la fine delle 16 settimane); durante il congedo di 14 settimane dell'altro genitore se la madre muore il giorno del parto o nelle 14 settimane successive; e finché ha diritto al congedo di assistenza per un figlio gravemente malato o infortunato, ma al massimo per sei mesi.",
+        "en": "After the probation period, your employer may not give notice while you are prevented from working, through no fault of your own, because of illness or accident (30 days in the first year of service, 90 days from the second to the fifth year of service, 180 days from the sixth year of service), during pregnancy and for 16 weeks afterwards, or while you are doing more than eleven days of compulsory military service, civil defence service or alternative civilian service (plus four weeks before and after). Notice given during such a proscribed period is invalid (void). If notice was given shortly before a proscribed period began, the notice period is suspended and only continues once the proscribed period has ended. You are also protected during certain special leaves: until the end of an extended maternity leave if the newborn has to stay in hospital; during a mother's additional leave if the child's other parent dies within six months of the birth (at most until three months after the end of the 16 weeks); during the other parent's 14-week leave if the mother dies on the day of birth or within 14 weeks after it; and for as long as you are entitled to care leave for a seriously ill or injured child, but for no more than six months.",
+        "rm": "Suenter il temp da prova na dastga Voss patrun betg dar la disditga, durant in'incapacitad da lavurar senza atgna culpa pervia da malsogna u accident (en il emprim onn da servetsch 30 dis, dal segund fin il tschintgavel onn da servetsch 90 dis, dal sisavel onn da servetsch enavant 180 dis), durant la gravidanza e durant las 16 emnas suenter, u durant che Vus prestais servetsch militar, da protecziun u civil obligatoric da dapli che indesch dis (plus quatter emnas avant e suenter). Ina disditga ch'è vegnida dada durant in tal termin da bloccada è nunvalaivla (nulla). Sche la disditga è vegnida dada curt avant il cumenzament dal termin da bloccada, vegn il decuors dal termin da disditga interrut e cuntinuà mo suenter la fin dal termin da bloccada. Vus essas ultra da quai protegì durant tscherts congedis spezials: fin la fin d'in congedi da maternitad prolungà, sch'il naschì nov sto restar en l'ospital; durant il congedi supplementar da la mamma, sche l'auter genitur da l'uffant mora entaifer sis mais suenter la naschientscha (maximalmain fin trais mais suenter la fin da las 16 emnas); durant il congedi da 14 emnas da l'auter genitur, sche la mamma mora il di da la naschientscha u entaifer las 14 emnas suenter; e uschè ditg che Vus avais il dretg d'in congedi da tgira per in uffant grevamain malsaun u accidentà, dentant maximalmain sis mais."
       },
       "when": {
         "protected_situation": [
           "illness-or-accident",
           "pregnancy",
-          "service"
+          "service",
+          "leave"
         ],
         "probation": [
           "no",
@@ -450,7 +461,8 @@
         "protected_situation": [
           "illness-or-accident",
           "pregnancy",
-          "service"
+          "service",
+          "leave"
         ],
         "probation": [
           "yes"

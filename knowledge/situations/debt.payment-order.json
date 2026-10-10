@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "debt.payment-order",
   "domain": "debt",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -13,11 +13,11 @@
     "rm": "Jau hai retschet in cumond da pajament (Zahlungsbefehl)"
   },
   "summary": {
-    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag geht die Betreibung nach 20 Tagen weiter.",
-    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, la poursuite suit son cours après 20 jours.",
-    "it": "Lei può fermare un’esecuzione facendo opposizione. Ha a disposizione solo 10 giorni per farlo, e non deve motivare l’opposizione. Senza opposizione, l’esecuzione prosegue dopo 20 giorni.",
-    "en": "You can stop debt enforcement proceedings by filing an objection (Rechtsvorschlag / opposition). You have only 10 days to do so, and you do not have to give reasons for the objection. Without an objection, the proceedings continue after 20 days.",
-    "rm": "Vus pudais stupagiar ina scussiun cun l'opposiziun (Rechtsvorschlag). Vus avais dentant mo 10 dis temp per quai, e Vus na stuais betg motivar l'opposiziun. Senza opposiziun vinavant cuntinuescha la scussiun suenter 20 dis."
+    "de": "Sie können eine Betreibung mit dem Rechtsvorschlag stoppen. Sie haben dafür nur 10 Tage Zeit, und Sie müssen den Rechtsvorschlag nicht begründen. Ohne Rechtsvorschlag kann der Gläubiger nach 20 Tagen verlangen, dass die Betreibung weitergeht.",
+    "fr": "Vous pouvez arrêter une poursuite en formant opposition. Vous n’avez que 10 jours pour cela, et vous n’avez pas à motiver votre opposition. Sans opposition, le créancier peut requérir la continuation de la poursuite après 20 jours.",
+    "it": "Lei può fermare un’esecuzione facendo opposizione. Ha a disposizione solo 10 giorni per farlo, e non deve motivare l’opposizione. Senza opposizione, dopo 20 giorni il creditore può chiedere la continuazione dell’esecuzione.",
+    "en": "You can stop debt enforcement proceedings by filing an objection (Rechtsvorschlag / opposition). You have only 10 days to do so, and you do not have to give reasons for the objection. Without an objection, the creditor can request that the proceedings continue after 20 days.",
+    "rm": "Vus pudais stupagiar ina scussiun cun l'opposiziun (Rechtsvorschlag). Vus avais dentant mo 10 dis temp per quai, e Vus na stuais betg motivar l'opposiziun. Senza opposiziun po il creditur pretender suenter 20 dis che la scussiun cuntinueschia."
   },
   "examples": {
     "de": [
@@ -421,14 +421,15 @@
         ]
       },
       "text": {
-        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, geht die Betreibung nach Ablauf der 20-tägigen Zahlungsfrist automatisch weiter, ohne dass Sie sich noch wehren können. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben.",
-        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, la poursuite suit automatiquement son cours à l’expiration du délai de paiement de 20 jours, sans que vous puissiez encore vous défendre. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance.",
-        "it": "Se non contesta il credito e non fa opposizione, l’esecuzione prosegue automaticamente dopo la scadenza del termine di pagamento di 20 giorni, senza che lei possa più difendersi. Paghi il credito con le spese d’esecuzione, oppure faccia opposizione entro il termine se ha dubbi sul credito.",
-        "en": "If you do not dispute the claim and do not file an objection, the debt enforcement proceedings automatically continue once the 20-day payment deadline has passed, and you can no longer defend yourself. Pay the claim together with the debt enforcement costs, or file an objection in time if you have doubts about the claim.",
-        "rm": "Sch'Vus na contestais betg la pretensiun e na fais nagina opposiziun, cuntinuescha la scussiun automaticamain suenter la scadenza dal termin da pajament da 20 dis, senza che Vus pudais Vus difender anc. Pajai la pretensiun cun ils custs da scussiun, u fai opposiziun a temp, sch'Vus avais dubis davart la pretensiun."
+        "de": "Bestreiten Sie die Forderung nicht und erheben Sie keinen Rechtsvorschlag, kann der Gläubiger nach Ablauf der 20-tägigen Zahlungsfrist beim Betreibungsamt die Fortsetzung der Betreibung verlangen, etwa die Pfändung. Mit einem Rechtsvorschlag bestreiten können Sie die Forderung dann nicht mehr. Zahlen Sie die Forderung samt Betreibungskosten, oder erheben Sie fristgerecht Rechtsvorschlag, wenn Sie Zweifel an der Forderung haben.",
+        "fr": "Si vous ne contestez pas la créance et ne formez pas opposition, le créancier peut, à l’expiration du délai de paiement de 20 jours, requérir de l’office des poursuites la continuation de la poursuite, par exemple la saisie. Vous ne pourrez alors plus contester la créance par une opposition. Payez la créance avec les frais de poursuite, ou formez opposition dans le délai si vous avez des doutes sur la créance.",
+        "it": "Se non contesta il credito e non fa opposizione, dopo la scadenza del termine di pagamento di 20 giorni il creditore può chiedere all’ufficio d’esecuzione la continuazione dell’esecuzione, per esempio il pignoramento. Non potrà più contestare il credito con un’opposizione. Paghi il credito con le spese d’esecuzione, oppure faccia opposizione entro il termine se ha dubbi sul credito.",
+        "en": "If you do not dispute the claim and do not file an objection, the creditor can ask the debt enforcement office to continue the proceedings once the 20-day payment deadline has passed, for example with a seizure of assets. You can then no longer dispute the claim with an objection. Pay the claim together with the debt enforcement costs, or file an objection in time if you have doubts about the claim.",
+        "rm": "Sch'Vus na contestais betg la pretensiun e na fais nagina opposiziun, po il creditur pretender suenter la scadenza dal termin da pajament da 20 dis tar l'uffizi da scussiun che la scussiun cuntinueschia, per exempel cun ina pegnaziun. La pretensiun na pudais Vus lura betg pli contestar cun in'opposiziun. Pajai la pretensiun cun ils custs da scussiun, u fai opposiziun a temp, sch'Vus avais dubis davart la pretensiun."
       },
       "sources": [
-        "schkg-69"
+        "schkg-69",
+        "schkg-88"
       ]
     },
     {
@@ -602,6 +603,14 @@
       "label": "SchKG · Art. 8a",
       "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_8a",
       "sha256": "089ec9641d3b532ffe6f6e9bd15dbd2c7530746ba74ce7b965ffdec32eda34f3"
+    },
+    "schkg-88": {
+      "type": "statute",
+      "sr": "281.1",
+      "article": "88",
+      "label": "SchKG · Art. 88",
+      "url": "https://www.fedlex.admin.ch/eli/cc/11/529_488_529/de#art_88",
+      "sha256": "a8760b817deb025dde892bb6f94f966358dcd5437314fce844dfff97b70fa66d"
     }
   },
   "official_links": [

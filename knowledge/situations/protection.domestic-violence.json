@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "protection.domestic-violence",
   "domain": "protection",
-  "version": "2026-09-29",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -381,16 +381,18 @@
         ]
       },
       "text": {
-        "de": "Bei einfachen Körperverletzungen, wiederholten Tätlichkeiten oder schweren Drohungen verfolgt der Staat die Tat von sich aus, wenn die Täterin oder der Täter Ihre Ehepartnerin, Ihr Ehepartner, Ihre eingetragene Partnerin, Ihr eingetragener Partner ist, oder mit Ihnen ohne Trauschein auf unbestimmte Zeit einen gemeinsamen Haushalt führt oder geführt hat. Das gilt auch noch bis zu einem Jahr nach Scheidung, Auflösung der Partnerschaft oder Trennung.\n\nDas heisst: Sie müssen selbst keinen Strafantrag stellen, und Sie können ein einmal eröffnetes Verfahren nicht einfach durch Rückzug beenden. Über Anklage oder Einstellung entscheidet die Staatsanwaltschaft.",
-        "fr": "L’État poursuit d’office les lésions corporelles simples, les voies de fait réitérées et les menaces graves lorsque l’auteure ou l’auteur est votre épouse, votre époux, votre partenaire enregistrée ou partenaire enregistré, ou fait ou a fait ménage commun avec vous pour une durée indéterminée sans être marié. Cela vaut encore pendant un an après un divorce, la dissolution du partenariat enregistré ou une séparation.\n\nCela signifie que vous n’avez pas vous-même à déposer une plainte pénale, et que vous ne pouvez pas simplement mettre fin, en la retirant, à une procédure déjà ouverte. C’est le ministère public qui décide de la mise en accusation ou du classement.",
-        "it": "In caso di lesioni semplici, vie di fatto reiterate o gravi minacce, lo Stato persegue il reato d'ufficio quando l'autrice o l'autore è la sua moglie, il suo marito, la sua partner registrata, il suo partner registrato, oppure convive o ha convissuto con lei per un tempo indeterminato senza essere sposati. Questo vale anche fino a un anno dopo il divorzio, lo scioglimento dell'unione domestica registrata o la separazione.\n\nQuesto significa: lei stessa non deve presentare querela, e non può porre fine a un procedimento già avviato semplicemente ritirandola. Sull'accusa o sull'abbandono del procedimento decide il pubblico ministero.",
-        "en": "For common assault, repeated acts of aggression, or serious threats, the state prosecutes the offence on its own initiative if the perpetrator is your spouse, your registered partner, or has lived or has been living with you in a shared household without being married for an indefinite period. This also applies for up to a year after divorce, dissolution of the partnership, or separation.\n\nThis means: you do not have to file a criminal complaint yourself, and you cannot simply end proceedings once opened by withdrawing it. The public prosecutor decides on charges or discontinuation.",
-        "rm": "Tar lesiuns corporalas simplas, vias da fatg repetidas u smanatschas gravas persequitescha il stadi il fatg d'atgna iniziativa, sche l'autura u l'autur è Vossa consorta, Voss consort, Vossa partenadra registrada, Voss partener registrà, u maina u ha manà cun Vus, senza contract da matrimoni, per temp indeterminà in chasau cuminaivel. Quai vala er anc fin ad in onn suenter divorzi, schliaziun da la partenadi u separaziun.\n\nQuai vul dir: Vus na stuais betg Vus sez far ina dumonda penala, e Vus na pudais betg simplamain terminar tras retratga ina procedura ina giada averta. Davart acusa u sospensiun decida la procura publica."
+        "de": "Bei einfachen Körperverletzungen, wiederholten Tätlichkeiten oder schweren Drohungen verfolgt der Staat die Tat von sich aus, wenn die Täterin oder der Täter Ihre Ehepartnerin, Ihr Ehepartner, Ihre eingetragene Partnerin, Ihr eingetragener Partner ist, oder mit Ihnen ohne Trauschein auf unbestimmte Zeit einen gemeinsamen Haushalt führt oder geführt hat. Das gilt auch noch bis zu einem Jahr nach Scheidung, Auflösung der Partnerschaft oder Trennung.\n\nDas heisst: Sie müssen selbst keinen Strafantrag stellen, und Sie können ein einmal eröffnetes Verfahren nicht einfach durch Rückzug beenden. Über Anklage oder Einstellung entscheidet die Staatsanwaltschaft. Wer Sie beharrlich verfolgt, belästigt oder bedroht und Sie dadurch in Ihrer Lebensgestaltung erheblich einschränkt, macht sich seit dem 1. Januar 2026 wegen Nachstellung strafbar. Diese Tat wird nur auf Ihren Antrag verfolgt, auch wenn es um Ihre Partnerin oder Ihren Partner geht. Den Strafantrag müssen Sie innert drei Monaten stellen. Warten Sie nicht und fragen Sie die Polizei oder eine Opferberatungsstelle früh, wann die Frist in Ihrem Fall beginnt.",
+        "fr": "L’État poursuit d’office les lésions corporelles simples, les voies de fait réitérées et les menaces graves lorsque l’auteure ou l’auteur est votre épouse, votre époux, votre partenaire enregistrée ou partenaire enregistré, ou fait ou a fait ménage commun avec vous pour une durée indéterminée sans être marié. Cela vaut encore pendant un an après un divorce, la dissolution du partenariat enregistré ou une séparation.\n\nCela signifie que vous n’avez pas vous-même à déposer une plainte pénale, et que vous ne pouvez pas simplement mettre fin, en la retirant, à une procédure déjà ouverte. C’est le ministère public qui décide de la mise en accusation ou du classement. Quiconque vous traque, vous importune ou vous menace obstinément et restreint ainsi considérablement votre liberté d'organiser votre vie est punissable pour harcèlement obsessionnel depuis le 1er janvier 2026. Cette infraction n'est poursuivie que sur votre plainte, même s'il s'agit de votre partenaire. Vous devez déposer plainte dans les trois mois. N'attendez pas et demandez tôt à la police ou à un centre de consultation pour victimes quand le délai commence dans votre cas.",
+        "it": "In caso di lesioni semplici, vie di fatto reiterate o gravi minacce, lo Stato persegue il reato d'ufficio quando l'autrice o l'autore è la sua moglie, il suo marito, la sua partner registrata, il suo partner registrato, oppure convive o ha convissuto con lei per un tempo indeterminato senza essere sposati. Questo vale anche fino a un anno dopo il divorzio, lo scioglimento dell'unione domestica registrata o la separazione.\n\nQuesto significa: lei stessa non deve presentare querela, e non può porre fine a un procedimento già avviato semplicemente ritirandola. Sull'accusa o sull'abbandono del procedimento decide il pubblico ministero. Chi la segue, la molesta o la minaccia insistentemente, limitando così in modo considerevole il suo libero modo di vivere, è punibile per atti persecutori dal 1° gennaio 2026. Questo reato è perseguito solo su sua querela, anche se si tratta del suo partner. Deve sporgere querela entro tre mesi. Non aspetti e chieda presto alla polizia o a un consultorio per le vittime quando inizia il termine nel suo caso.",
+        "en": "For common assault, repeated acts of aggression, or serious threats, the state prosecutes the offence on its own initiative if the perpetrator is your spouse, your registered partner, or has lived or has been living with you in a shared household without being married for an indefinite period. This also applies for up to a year after divorce, dissolution of the partnership, or separation.\n\nThis means: you do not have to file a criminal complaint yourself, and you cannot simply end proceedings once opened by withdrawing it. The public prosecutor decides on charges or discontinuation. Anyone who persistently follows, harasses or threatens you in a way that seriously restricts your freedom to live your life has been committing the offence of stalking since 1 January 2026. It is prosecuted only if you file a criminal complaint, even if it concerns your partner. You must file the complaint within three months. Do not wait: ask the police or a victim support centre early when the period starts in your case.",
+        "rm": "Tar lesiuns corporalas simplas, vias da fatg repetidas u smanatschas gravas persequitescha il stadi il fatg d'atgna iniziativa, sche l'autura u l'autur è Vossa consorta, Voss consort, Vossa partenadra registrada, Voss partener registrà, u maina u ha manà cun Vus, senza contract da matrimoni, per temp indeterminà in chasau cuminaivel. Quai vala er anc fin ad in onn suenter divorzi, schliaziun da la partenadi u separaziun.\n\nQuai vul dir: Vus na stuais betg Vus sez far ina dumonda penala, e Vus na pudais betg simplamain terminar tras retratga ina procedura ina giada averta. Davart acusa u sospensiun decida la procura publica. Tgi che Vus persequitescha, Vus mulestescha u Vus smanatscha cun perseveranza e Vus restrenscha uschia considerablamain en l'organisaziun da Vossa vita, è chastiabel dapi il 1. da schaner 2026 pervi da persecuziun. Quest delict vegn persequità mo sin Vossa dumonda da chastiaziun, er sch'i sa tracta da Voss partenari u da Vossa partenaria. La dumonda da chastiaziun stuais Vus inoltrar entaifer trais mais. N'aspectai betg e dumandai baud la polizia u in post da cussegliaziun per victimas, cura ch'il termin cumenza en Voss cas."
       },
       "sources": [
         "stgb-123",
         "stgb-126",
-        "stgb-180"
+        "stgb-180",
+        "stgb-181b",
+        "stgb-31"
       ]
     },
     {
@@ -678,6 +680,22 @@
       "label": "OHG · Art. 11",
       "url": "https://www.fedlex.admin.ch/eli/cc/2008/232/de#art_11",
       "sha256": "94c4022b506a47f24bf511022b2822a27c79401aac9fd068dffd3e9fba017ad8"
+    },
+    "stgb-181b": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "181b",
+      "label": "StGB · Art. 181b",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_181b",
+      "sha256": "9aa940bf4adca8851b731e44c65cd8d20c6b99c6d7fc39cc63e38b66d5d52cb2"
+    },
+    "stgb-31": {
+      "type": "statute",
+      "sr": "311.0",
+      "article": "31",
+      "label": "StGB · Art. 31",
+      "url": "https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_31",
+      "sha256": "c20dbf2e84ed421d566c7f47a66a1f65b2bd1389d76a8d0cefb3cf99d1151e8d"
     }
   },
   "official_links": [

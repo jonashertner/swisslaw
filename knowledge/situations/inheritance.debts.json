@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "inheritance.debts",
   "domain": "inheritance",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -307,8 +307,7 @@
       },
       "sources": [
         "zgb-560",
-        "zgb-603",
-        "bge-131-iii-49"
+        "zgb-603"
       ]
     },
     {
@@ -850,13 +849,6 @@
       "label": "BVG · Art. 20a",
       "url": "https://www.fedlex.admin.ch/eli/cc/1983/797_797_797/de#art_20a",
       "sha256": "05bf5ec9233bc3fc9b04606eeb7763b0942bf382f1263d9de5b2a9165b0a8325"
-    },
-    "bge-131-iii-49": {
-      "type": "decision",
-      "decision_id": "bge_BGE_131_III_49",
-      "citation": "BGE 131 III 49",
-      "e": "2.2",
-      "url": "https://mcp.opencaselaw.ch/entscheid/bge_BGE_131_III_49#e-2-2"
     },
     "bge-133-iii-1": {
       "type": "decision",

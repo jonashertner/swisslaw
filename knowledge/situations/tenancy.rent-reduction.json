@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "tenancy.rent-reduction",
   "domain": "tenancy",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -412,11 +412,11 @@
         ]
       },
       "text": {
-        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg.",
-        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif.",
-        "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia o da una consulente. Se non compare, la Sua istanza è considerata ritirata. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo.",
-        "en": "Attend the conciliation hearing in person. You may bring someone you trust or an adviser. If you do not appear, your application is deemed withdrawn. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence.",
-        "rm": "Participai persunalmain a l'udienza da mediaziun. Vus dastgais prender cun Vus ina persuna da fiducia u ina consultanta. Sche Vus n'apparais betg, vala Vossa dumonda sco retratga. Sche Vus essas impedì u impedida pervi da malsegna u d'in auter motiv impurtant, communitgai quai immediat a l'autoritad cun in'attestaziun."
+        "de": "Gehen Sie persönlich zur Schlichtungsverhandlung. Sie dürfen eine Vertrauensperson oder eine Beraterin mitnehmen. Erscheinen Sie nicht, gilt Ihr Gesuch als zurückgezogen. Sind Sie krank oder aus einem anderen wichtigen Grund verhindert, melden Sie das der Behörde sofort mit einem Beleg. Sind Sie mehrere Mieterinnen oder Mieter, müssen nicht alle erscheinen: Es genügt, wenn eine Person anwesend ist, die die anderen vertreten und in ihrem Namen einen Vergleich abschliessen darf. Geben Sie ihr dafür eine schriftliche Vollmacht mit und melden Sie die Vertretung der Behörde vorher.",
+        "fr": "Rendez-vous personnellement à l'audience de conciliation. Vous pouvez vous faire accompagner d'une personne de confiance ou d'une conseillère. Si vous ne comparaissez pas, votre requête est réputée retirée. En cas de maladie ou d'autre empêchement important, annoncez-le immédiatement à l'autorité avec un justificatif. Si vous êtes plusieurs locataires, vous n'êtes pas tous obligés de venir : il suffit qu'une personne soit présente qui est autorisée à représenter les autres et à conclure une transaction en leur nom. Donnez-lui une procuration écrite et annoncez cette représentation à l'autorité à l'avance.",
+        "it": "Si presenti personalmente all'udienza di conciliazione. Può farsi accompagnare da una persona di fiducia o da una consulente. Se non compare, la Sua istanza è considerata ritirata. Se è malato o impedito per un altro motivo grave, lo comunichi immediatamente all'autorità con un giustificativo. Se siete più conduttori, non tutti devono presentarsi: basta che sia presente una persona autorizzata a rappresentare gli altri e a concludere una transazione in loro nome. Le dia una procura scritta e annunci prima la rappresentanza all'autorità.",
+        "en": "Attend the conciliation hearing in person. You may bring someone you trust or an adviser. If you do not appear, your application is deemed withdrawn. If you are ill or prevented from attending for another good reason, tell the authority immediately, with evidence. If there are several of you renting, not all of you have to attend: it is enough for one person to be present who is authorised to represent the others and to agree a settlement on their behalf. Give that person written authority and tell the authority about the representation in advance.",
+        "rm": "Participai persunalmain a l'udienza da mediaziun. Vus dastgais prender cun Vus ina persuna da fiducia u ina consultanta. Sche Vus n'apparais betg, vala Vossa dumonda sco retratga. Sche Vus essas impedì u impedida pervi da malsegna u d'in auter motiv impurtant, communitgai quai immediat a l'autoritad cun in'attestaziun. Sch'Vus essas plirs fittadins, na ston betg tuts cumparair: I basta, sch'ina persuna è preschenta che dastga represchentar ils auters e far ina cunvegna en lur num. Dai ad ella ina procura en scrit ed annunziai la represchentanza ordavant a l'autoritad."
       },
       "sources": [
         "zpo-204",
