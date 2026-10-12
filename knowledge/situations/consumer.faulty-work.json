@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "consumer.faulty-work",
   "domain": "consumer",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -492,14 +492,15 @@
       "id": "limitation",
       "kind": "rule",
       "text": {
-        "de": "Ihre Ansprüche wegen Mängeln des Werkes verjähren zwei Jahre nach der Abnahme des Werkes.",
-        "fr": "Vos droits pour défauts de l’ouvrage se prescrivent par deux ans à compter de la réception de l’ouvrage.",
-        "it": "Le sue pretese per i difetti dell'opera si prescrivono in due anni dalla consegna dell'opera.",
-        "en": "Your claims for defects in the work become time-barred two years after acceptance of the work.",
-        "rm": "Voss dretgs pervia da mancanzas da l'ovra suranneschan dus onns suenter l'acceptaziun da l'ovra."
+        "de": "Ihre Ansprüche wegen Mängeln des Werkes verjähren zwei Jahre nach der Abnahme des Werkes. Hat der Handwerker Sie absichtlich getäuscht, etwa einen Mangel bewusst verschwiegen, kann er sich nicht auf die Verjährung berufen. Haben Sie den Mangel rechtzeitig gemeldet, können Sie ihn auch nach Ablauf der Frist noch entgegenhalten, wenn er den noch offenen Werklohn verlangt.",
+        "fr": "Vos droits pour défauts de l’ouvrage se prescrivent par deux ans à compter de la réception de l’ouvrage. Si l'artisan vous a intentionnellement trompé, par exemple en taisant sciemment un défaut, il ne peut pas invoquer la prescription. Si vous avez signalé le défaut à temps, vous pouvez encore l'opposer après l'expiration du délai lorsqu'il vous réclame le prix de l'ouvrage encore impayé.",
+        "it": "Le sue pretese per i difetti dell'opera si prescrivono in due anni dalla consegna dell'opera. Se l'artigiano l'ha ingannata intenzionalmente, per esempio tacendo consapevolmente un difetto, non può invocare la prescrizione. Se ha segnalato il difetto in tempo, può ancora opporlo anche dopo la scadenza del termine, quando le chiede la mercede non ancora pagata.",
+        "en": "Your claims for defects in the work become time-barred two years after acceptance of the work. If the tradesperson deliberately deceived you, for example by knowingly concealing a defect, they cannot rely on the limitation period. If you reported the defect in time, you can still raise it after the period has expired if they demand the unpaid price for the work.",
+        "rm": "Voss dretgs pervia da mancanzas da l'ovra suranneschan dus onns suenter l'acceptaziun da l'ovra. Sche l'artisan As ha engianà intenziunadamain, per exempel cun taschair a sabientscha in defect, na po el betg sa referir a la prescripziun. Sch'Vus avais annunzià il defect a temp, pudais Vus far valair il defect er suenter la scadenza dal termin, sch'el pretenda la paja anc betg pajada per l'ovra."
       },
       "sources": [
-        "or-371"
+        "or-371",
+        "or-210"
       ]
     },
     {
@@ -511,14 +512,15 @@
         ]
       },
       "text": {
-        "de": "Bei einem unbeweglichen Werk verjähren Ihre Ansprüche gegen den Handwerker sowie gegen eine beteiligte Architektin oder einen Ingenieur erst fünf Jahre nach der Abnahme. Diese fünfjährige Frist darf nicht zu Ihren Lasten verkürzt werden.",
-        "fr": "Pour un ouvrage immobilier, vos droits envers l’artisan ainsi qu’envers une architecte ou un ingénieur ayant participé aux travaux ne se prescrivent qu’après cinq ans à compter de la réception. Ce délai de cinq ans ne peut pas être raccourci à votre détriment.",
-        "it": "Per un'opera immobile, le sue pretese contro l'artigiano e contro l'architetta o l'ingegnere che hanno partecipato si prescrivono solo dopo cinque anni dalla consegna. Questo termine di cinque anni non può essere abbreviato a suo svantaggio.",
-        "en": "For an immovable work, your claims against the tradesperson and against any architect or engineer involved become time-barred only five years after acceptance. This five-year period may not be shortened to your detriment.",
-        "rm": "Tar in'ovra immovibla suranneschan Voss dretgs cunter l'artisan sco er cunter in'architecta u in ingenieur ch'ha participà mo tschintg onns suenter l'acceptaziun. Questa termin da tschintg onns na dastga betg vegnir curtaschada a Voss donn."
+        "de": "Bei einem unbeweglichen Werk verjähren Ihre Ansprüche gegen den Handwerker sowie gegen eine beteiligte Architektin oder einen Ingenieur erst fünf Jahre nach der Abnahme. Diese fünfjährige Frist darf nicht zu Ihren Lasten verkürzt werden. Wer Sie absichtlich getäuscht hat, kann sich auch auf diese Frist nicht berufen.",
+        "fr": "Pour un ouvrage immobilier, vos droits envers l’artisan ainsi qu’envers une architecte ou un ingénieur ayant participé aux travaux ne se prescrivent qu’après cinq ans à compter de la réception. Ce délai de cinq ans ne peut pas être raccourci à votre détriment. Celui qui vous a intentionnellement trompé ne peut pas non plus invoquer ce délai.",
+        "it": "Per un'opera immobile, le sue pretese contro l'artigiano e contro l'architetta o l'ingegnere che hanno partecipato si prescrivono solo dopo cinque anni dalla consegna. Questo termine di cinque anni non può essere abbreviato a suo svantaggio. Chi l'ha ingannata intenzionalmente non può invocare neppure questo termine.",
+        "en": "For an immovable work, your claims against the tradesperson and against any architect or engineer involved become time-barred only five years after acceptance. This five-year period may not be shortened to your detriment. Anyone who deliberately deceived you cannot rely on this period either.",
+        "rm": "Tar in'ovra immovibla suranneschan Voss dretgs cunter l'artisan sco er cunter in'architecta u in ingenieur ch'ha participà mo tschintg onns suenter l'acceptaziun. Questa termin da tschintg onns na dastga betg vegnir curtaschada a Voss donn. Tgi che As ha engianà intenziunadamain na po er betg sa referir a quest termin."
       },
       "sources": [
-        "or-371"
+        "or-371",
+        "or-210"
       ]
     },
     {
@@ -635,6 +637,14 @@
       "label": "OR · Art. 371",
       "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_371",
       "sha256": "e181bc478316517e9d9c90bc809099b4b9d56bfb2964b32ff3f87c92badfbfe5"
+    },
+    "or-210": {
+      "type": "statute",
+      "sr": "220",
+      "article": "210",
+      "label": "OR · Art. 210",
+      "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_210",
+      "sha256": "38e65acd2e6112a201484be563cd4d85ae1a030889fe25f8d9114636bcf5cebb"
     }
   },
   "official_links": [],

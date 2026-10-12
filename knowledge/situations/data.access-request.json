@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "data.access-request",
   "domain": "data",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -230,14 +230,15 @@
       "id": "right-to-access",
       "kind": "rule",
       "text": {
-        "de": "Sie können von jeder Firma, jedem Verein oder jeder Behörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten.",
-        "fr": "Vous pouvez demander à toute entreprise, association ou autorité si et quelles données personnelles vous concernant sont traitées. Vous avez droit à l’identité du responsable du traitement, aux données traitées elles-mêmes, à la finalité du traitement, à la durée de conservation ou aux critères pour la fixer, à l’origine des données, ainsi qu’aux destinataires auxquels les données sont communiquées. Vous ne pouvez pas renoncer d’avance à ce droit.",
-        "it": "Può chiedere a ogni azienda, associazione o autorità se e quali dati personali che la riguardano vengono trattati. Ha diritto all'identità del titolare del trattamento, ai dati trattati stessi, allo scopo del trattamento, alla durata di conservazione o ai criteri per determinarla, all'origine dei dati, nonché ai destinatari a cui i dati vengono comunicati. Non può rinunciare in anticipo a questo diritto.",
-        "en": "You can ask any company, association or authority whether, and which, personal data is being processed about you. You are entitled to the identity and contact details of the controller, the processed personal data itself, the purpose of the processing, the retention period for the data or the criteria for determining it, the available information on the origin of the data, and the recipients or categories of recipients to which data is disclosed. You cannot waive this right in advance.",
-        "rm": "Vus pudais pretender da mintga firma, mintga associaziun u mintga autoritad, sche e tge datas persunalas che vegnan elavuradas davart Vus. Vus avais dretg a l'identitad dal post responsabel, las datas elavuradas sezzas, il fin da l'elavuraziun, la durada da conservaziun u ils criteris per quai, la derivanza da las datas, sco er las destinatarias ed ils destinatars, als quals datas vegnan trasmessas. Sin quest dretg na pudais Vus betg renunziar ordavant."
+        "de": "Sie können von jeder Firma, jedem Verein oder jeder Bundesbehörde verlangen, ob und welche Personendaten über Sie bearbeitet werden. Sie haben Anspruch auf die Identität der verantwortlichen Stelle, die bearbeiteten Daten selbst, den Zweck der Bearbeitung, die Aufbewahrungsdauer oder die Kriterien dafür, die Herkunft der Daten, sowie die Empfängerinnen und Empfänger, an die Daten weitergegeben werden. Auf dieses Recht können Sie nicht im Voraus verzichten. Für Behörden von Kanton und Gemeinde, etwa das Steueramt, die Schule oder den Sozialdienst, gilt das Datenschutzgesetz Ihres Kantons. Es gibt Ihnen ein ähnliches Auskunftsrecht.",
+        "fr": "Vous pouvez demander à toute entreprise, association ou autorité fédérale si et quelles données personnelles vous concernant sont traitées. Vous avez droit à l’identité du responsable du traitement, aux données traitées elles-mêmes, à la finalité du traitement, à la durée de conservation ou aux critères pour la fixer, à l’origine des données, ainsi qu’aux destinataires auxquels les données sont communiquées. Vous ne pouvez pas renoncer d’avance à ce droit. Pour les autorités cantonales et communales, par exemple l'administration fiscale, l'école ou le service social, c'est la loi sur la protection des données de votre canton qui s'applique. Elle vous donne un droit d'accès semblable.",
+        "it": "Può chiedere a ogni azienda, associazione o autorità federale se e quali dati personali che la riguardano vengono trattati. Ha diritto all'identità del titolare del trattamento, ai dati trattati stessi, allo scopo del trattamento, alla durata di conservazione o ai criteri per determinarla, all'origine dei dati, nonché ai destinatari a cui i dati vengono comunicati. Non può rinunciare in anticipo a questo diritto. Per le autorità cantonali e comunali, per esempio l'ufficio delle imposte, la scuola o il servizio sociale, vale la legge sulla protezione dei dati del suo Cantone. Le dà un diritto d'accesso simile.",
+        "en": "You can ask any company, association or federal authority whether, and which, personal data is being processed about you. You are entitled to the identity and contact details of the controller, the processed personal data itself, the purpose of the processing, the retention period for the data or the criteria for determining it, the available information on the origin of the data, and the recipients or categories of recipients to which data is disclosed. You cannot waive this right in advance. For cantonal and municipal authorities, such as the tax office, a school or the social services, your canton's data protection act applies instead. It gives you a similar right of access.",
+        "rm": "Vus pudais pretender da mintga firma, mintga associaziun u mintga autoritad federala, sche e tge datas persunalas che vegnan elavuradas davart Vus. Vus avais dretg a l'identitad dal post responsabel, las datas elavuradas sezzas, il fin da l'elavuraziun, la durada da conservaziun u ils criteris per quai, la derivanza da las datas, sco er las destinatarias ed ils destinatars, als quals datas vegnan trasmessas. Sin quest dretg na pudais Vus betg renunziar ordavant. Per autoritads chantunalas e communalas, per exempel l'uffizi da taglia, la scola u il servetsch social, vala la lescha davart la protecziun da datas da Voss chantun. Ella As dat in dretg d'infurmaziun sumegliant."
       },
       "sources": [
-        "dsg-25"
+        "dsg-25",
+        "dsg-2"
       ]
     },
     {
@@ -331,14 +332,15 @@
         ]
       },
       "text": {
-        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis.",
-        "fr": "Si vous ne recevez aucune réponse, une réponse tardive, ou une réponse manifestement insuffisante, vous pouvez vous adresser, par une dénonciation, au Préposé fédéral à la protection des données et à la transparence (PFPDT). Le PFPDT peut ouvrir une enquête et vous informe de son résultat.",
-        "it": "Se non riceve alcuna risposta, non la riceve in tempo utile, oppure riceve una risposta manifestamente insufficiente, può rivolgersi con una segnalazione all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT). L'IFPDT può aprire un'inchiesta e la informa sul relativo esito.",
-        "en": "If you receive no reply, no timely reply, or an obviously inadequate reply, you can file a complaint with the Federal Data Protection and Information Commissioner (EDÖB / PFPDT, FDPIC). The FDPIC can open an investigation and will inform you of its outcome.",
-        "rm": "Sche Vus na survegnis nagina, nagina resposta a temp u ina resposta evidentamain nunsuffizienta, pudais Vus Vus drizzar cun in'annunzia a l'Incumbensà federal per la protecziun da datas e per la transparenza (EDÖB). L'EDÖB po avrir in'examinaziun e Vus infurmar davart lur resultat."
+        "de": "Erhalten Sie keine, keine rechtzeitige oder eine offensichtlich unzureichende Antwort, können Sie sich mit einer Anzeige an den Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB) wenden. Der EDÖB kann eine Untersuchung eröffnen und informiert Sie über deren Ergebnis. Geht es um eine Behörde von Kanton oder Gemeinde, wenden Sie sich nicht an den EDÖB, sondern an die Datenschutzaufsicht Ihres Kantons.",
+        "fr": "Si vous ne recevez aucune réponse, une réponse tardive, ou une réponse manifestement insuffisante, vous pouvez vous adresser, par une dénonciation, au Préposé fédéral à la protection des données et à la transparence (PFPDT). Le PFPDT peut ouvrir une enquête et vous informe de son résultat. S'il s'agit d'une autorité cantonale ou communale, adressez-vous non pas au Préposé fédéral, mais à l'autorité de surveillance de la protection des données de votre canton.",
+        "it": "Se non riceve alcuna risposta, non la riceve in tempo utile, oppure riceve una risposta manifestamente insufficiente, può rivolgersi con una segnalazione all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT). L'IFPDT può aprire un'inchiesta e la informa sul relativo esito. Se si tratta di un'autorità cantonale o comunale, non si rivolga all'Incaricato federale, ma all'autorità di vigilanza sulla protezione dei dati del suo Cantone.",
+        "en": "If you receive no reply, no timely reply, or an obviously inadequate reply, you can file a complaint with the Federal Data Protection and Information Commissioner (EDÖB / PFPDT, FDPIC). The FDPIC can open an investigation and will inform you of its outcome. If it concerns a cantonal or municipal authority, contact your canton's data protection supervisor rather than the FDPIC.",
+        "rm": "Sche Vus na survegnis nagina, nagina resposta a temp u ina resposta evidentamain nunsuffizienta, pudais Vus Vus drizzar cun in'annunzia a l'Incumbensà federal per la protecziun da datas e per la transparenza (EDÖB). L'EDÖB po avrir in'examinaziun e Vus infurmar davart lur resultat. Sch'i sa tracta d'ina autoritad chantunala u communala, na As drizzai betg a l'incumbensà federal, mabain a la surveglianza da la protecziun da datas da Voss chantun."
       },
       "sources": [
-        "dsg-49"
+        "dsg-49",
+        "dsg-2"
       ]
     },
     {
@@ -412,6 +414,14 @@
       "label": "DSV · Art. 19",
       "url": "https://www.fedlex.admin.ch/eli/cc/2022/568/de#art_19",
       "sha256": "6f0e4f7ace4628b1945b05ee0798078850c9129fa1ae1503d8910dc3c57f8d93"
+    },
+    "dsg-2": {
+      "type": "statute",
+      "sr": "235.1",
+      "article": "2",
+      "label": "DSG · Art. 2",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2022/491/de#art_2",
+      "sha256": "a79fd27b900324fb6af1976ee0059d8a1d5883e1ac2e0457ee0209a1969b813f"
     }
   },
   "official_links": [

@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "inheritance.power-of-attorney",
   "domain": "inheritance",
-  "version": "2026-09-28",
+  "version": "2026-10-10",
   "status": "public",
   "licence": "CC-BY-4.0",
   "title": {
@@ -431,11 +431,11 @@
       "id": "suitability",
       "kind": "warning",
       "text": {
-        "de": "Die KESB prüft nicht nur, ob Ihr Vorsorgeauftrag formell gültig ist, sondern auch, ob die von Ihnen gewählte Person tatsächlich geeignet ist, die konkreten Aufgaben zu übernehmen. In einem Fall, der bis vor Bundesgericht ging, hielt das kantonale Gericht eine beauftragte Person für die Personensorge für geeignet, wegen eines anhaltenden Familienkonflikts aber nicht für die Vermögenssorge. Wählen Sie deshalb pro Aufgabenbereich eine Person, die dafür tatsächlich in Frage kommt, und bedenken Sie familiäre Spannungen.",
-        "fr": "L’APEA examine non seulement si votre mandat pour cause d’inaptitude est formellement valable, mais aussi si la personne que vous avez choisie est effectivement apte à assumer les tâches concrètes. Dans une affaire allant jusqu’au Tribunal fédéral, le tribunal cantonal a jugé une personne mandatée apte pour l’assistance personnelle, mais pas pour la gestion du patrimoine, en raison d’un conflit familial persistant. Choisissez donc, pour chaque domaine de tâches, une personne qui entre effectivement en ligne de compte, et tenez compte des tensions familiales.",
-        "it": "L'APMA verifica non solo se il suo mandato precauzionale è formalmente valido, ma anche se la persona da lei scelta è effettivamente idonea ad assumere i compiti concreti. In un caso giunto fino al Tribunale federale, il tribunale cantonale ha ritenuto un mandatario idoneo per la cura della persona, ma non per la cura del patrimonio, a causa di un conflitto familiare persistente. Scelga quindi, per ciascun ambito di compiti, una persona che vi si presti effettivamente, e tenga conto delle tensioni familiari.",
-        "en": "The KESB checks not only whether your advance care directive is formally valid, but also whether the person you chose is actually suitable to take on the specific tasks. In a case that went as far as the Federal Supreme Court, the cantonal court considered an appointee suitable for personal care, but not for asset management, because of an ongoing family conflict. For each area of responsibility, therefore, choose a person who is genuinely suitable for it, and bear family tensions in mind.",
-        "rm": "La KESB examinescha betg mo, sche Voss mandat preventiv è formalmain valaivel, mabain er, sche la persuna tschernida da Vus è propi adattada per surpigliar ils incumbents concrets. En in cas che è arrivà davant il Tribunal federal, ha la dretgira chantunala tegnì ina persuna incumbensada adattada per la tgira da la persuna, ma betg per la tgira da la facultad, pervia d'in conflict da famiglia persistent. Tscherni percunquai per mintga secturs d'incumbensa ina persuna che entra propi en dumonda per quai, e resguardai tensiuns familiaras."
+        "de": "Die KESB prüft nicht nur, ob Ihr Vorsorgeauftrag formell gültig ist, sondern auch, ob die von Ihnen gewählte Person tatsächlich geeignet ist, die konkreten Aufgaben zu übernehmen. Dabei zählt Ihr Wille: Das Bundesgericht hat entschieden, dass die blosse Möglichkeit, ein bestehender Familienkonflikt könnte sich verschärfen, nicht genügt, um einer beauftragten Person die Eignung abzusprechen. Werden Ihre Interessen später tatsächlich gefährdet, kann die Behörde eingreifen, etwa mit Weisungen oder indem sie der Person Befugnisse entzieht. Bedenken Sie familiäre Spannungen trotzdem schon bei der Wahl, damit der Auftrag gut umgesetzt werden kann.",
+        "fr": "L’APEA examine non seulement si votre mandat pour cause d’inaptitude est formellement valable, mais aussi si la personne que vous avez choisie est effectivement apte à assumer les tâches concrètes. Votre volonté compte : le Tribunal fédéral a jugé que la simple possibilité qu'un conflit familial existant s'aggrave ne suffit pas pour nier l'aptitude d'une personne mandatée. Si vos intérêts sont plus tard réellement menacés, l'autorité peut intervenir, par exemple en donnant des instructions ou en retirant des pouvoirs à cette personne. Tenez néanmoins compte des tensions familiales dès le choix, afin que le mandat puisse être bien exécuté.",
+        "it": "L'APMA verifica non solo se il suo mandato precauzionale è formalmente valido, ma anche se la persona da lei scelta è effettivamente idonea ad assumere i compiti concreti. Conta la sua volontà: il Tribunale federale ha deciso che la semplice possibilità che un conflitto familiare esistente si aggravi non basta per negare l'idoneità di una persona incaricata. Se in seguito i suoi interessi sono davvero messi in pericolo, l'autorità può intervenire, per esempio con istruzioni o revocando poteri alla persona. Tenga comunque conto delle tensioni familiari già al momento della scelta, affinché il mandato possa essere eseguito bene.",
+        "en": "The KESB checks not only whether your advance care directive is formally valid, but also whether the person you chose is actually suitable to take on the specific tasks. Your wishes count: the Federal Supreme Court has held that the mere possibility that an existing family conflict might escalate is not enough to find an appointed person unsuitable. If your interests are later actually put at risk, the authority can step in, for example by giving instructions or withdrawing powers from that person. Still, think about family tensions when you choose, so that the mandate can work in practice.",
+        "rm": "La KESB examinescha betg mo, sche Voss mandat preventiv è formalmain valaivel, mabain er, sche la persuna tschernida da Vus è propi adattada per surpigliar ils incumbents concrets. Voss vulair quinta: Il Tribunal federal ha decidì che la mera pussaivladad ch'in conflict famigliar existent pudess sa pegiurar na basta betg per snegar a la persuna incumbensada l'idoneitad. Sche Voss interess vegnan pli tard periclitads effectivamain, po l'autoritad intervegnir, per exempel cun instrucziuns u cun retrair a la persuna cumpetenzas. Resguardai tuttina gia tar la tscherna tensiuns en la famiglia, per che il mandat possia vegnir realisà bain."
       },
       "when": {
         "interest": [
@@ -446,7 +446,8 @@
       },
       "sources": [
         "zgb-363",
-        "bger-5a-624-2024"
+        "bger-5a-624-2024",
+        "zgb-368"
       ]
     },
     {
@@ -1072,8 +1073,8 @@
       "type": "decision",
       "decision_id": "bger_5A_624_2024",
       "citation": "BGer 5A_624/2024 vom 27. August 2025",
-      "e": "3.2.1",
-      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_624_2024#e-3-2-1"
+      "e": "3.4",
+      "url": "https://mcp.opencaselaw.ch/entscheid/bger_5A_624_2024#e-3-4"
     }
   },
   "official_links": [
