@@ -6,6 +6,9 @@ import { AREA_TEXT, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swis
 import { CANTONS, DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
 import { LATER, WAVE_1, WAVE_2, WAVE_3, type CoverageGroup } from '../lib/swisslaw-chat/coverage';
 import { formatDate } from './format';
+import { ReferralLink } from './referrals';
+import { rt } from '../lib/swisslaw-chat/referrals-i18n';
+import { topicForArea } from '../lib/swisslaw-chat/referrals';
 
 export const REPO = 'https://github.com/jonashertner/swisslaw';
 export const OCL = 'https://opencaselaw.ch';
@@ -21,6 +24,7 @@ export const paths = {
   area: (l: KnowledgeLanguage, a: string) => `/${l}/${a}/`,
   situation: (l: KnowledgeLanguage, id: string) => { const [a, ...rest] = id.split('.'); return `/${l}/${a}/${rest.join('.')}/`; },
   about: (l: KnowledgeLanguage) => `/${l}/about/`,
+  referrals: (l: KnowledgeLanguage) => `/${l}/beratung/`,
   topics: (l: KnowledgeLanguage) => `/${l}/topics/`,
   thanks: (l: KnowledgeLanguage) => `/${l}/thanks/`,
 };
@@ -38,6 +42,7 @@ export function Top({ ctx, alt }: { ctx: Ctx; alt: (l: KnowledgeLanguage) => str
       <a href={paths.home(ctx.lang)} className="mark">swisslaw<span>.io</span></a>
       <nav className="primary" aria-label="swisslaw.io">
         <a href={paths.topics(ctx.lang)}>{t(ctx, 'navTopics')}</a>
+        <a href={paths.referrals(ctx.lang)}>{rt('nav',ctx.lang)}</a>
         <a href={paths.about(ctx.lang)}>{t(ctx, 'navAbout')}</a>
       </nav>
       <nav className="langs" aria-label={LANG_LABEL[ctx.lang]}>
@@ -62,6 +67,7 @@ export function Foot({ ctx }: { ctx: Ctx }) {
       </div>
       <ul className="foot-links">
         <li><a href={paths.topics(ctx.lang)}>{t(ctx, 'navTopics')}</a></li>
+        <li><a href={paths.referrals(ctx.lang)}>{rt('nav',ctx.lang)}</a></li>
         <li><a href={paths.about(ctx.lang)}>{t(ctx, 'navAbout')}</a></li>
         <li><a href="/data/">{t(ctx, 'openData')}</a></li>
         <li><a href={REPO}>GitHub</a></li>
@@ -140,6 +146,7 @@ export function IndexBody({ ctx, groups, examples }: { ctx: Ctx; groups: { area:
         </div>
         <p className="index-more"><a href={paths.topics(ctx.lang)}>{t(ctx, 'allTopics')}</a></p>
       </div>
+      <ReferralLink lang={ctx.lang}/>
       <SubmitSection ctx={ctx} />
     </>
   );
@@ -237,6 +244,7 @@ export function AreaBody({ ctx, area, items }: { ctx: Ctx; area: AreaId; items: 
       <nav className="crumbs" aria-label={t(ctx, 'overview')}><a href={paths.home(ctx.lang)}>{t(ctx, 'overview')}</a></nav>
       <header className="page-head"><h1 className="page-title">{AREA_TEXT[area][ctx.lang]}</h1></header>
       <ul className="entries entries-page">{[...items].sort(byImportance).map(s => <Entry key={s.id} s={s} ctx={ctx} desc />)}</ul>
+      <ReferralLink lang={ctx.lang} topic={topicForArea(area)}/>
     </>
   );
 }
@@ -463,6 +471,7 @@ export function SituationBody({ ctx, s, provisions = {} }: { ctx: Ctx; s: Situat
               </section>
             );
           })}
+          <ReferralLink lang={ctx.lang} topic={['protection.domestic-violence','protection.victim-support'].includes(s.id)?'violence':topicForArea(s.domain)}/>
           <section className="row row-scope" id="r-scope" aria-labelledby="h-scope">
             <h2 id="h-scope" className="row-label"><Icon kind="scope" />{t(ctx, 'lbl_scope')}</h2>
             <div className="row-body">

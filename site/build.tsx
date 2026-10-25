@@ -14,6 +14,9 @@ import { AREAS, BLOCK_ORDER, byImportance, LETTERS, sourceLabel, sourceUrl, visi
 import { AREA_TEXT, FULL_DATE_LOCALE, LETTER_TEXT, SITE_TEXT, st, type SiteKey } from '../lib/swisslaw-chat/site-i18n';
 import { DEADLINE_RULES } from '../lib/swisslaw-chat/deadlines';
 import { formatDate } from './format';
+import { ReferralsBody } from './referrals';
+import { REFERRALS } from '../lib/swisslaw-chat/referrals';
+import { rt } from '../lib/swisslaw-chat/referrals-i18n';
 import { AboutBody, AreaBody, IndexBody, Layout, LANGS, paths, SituationBody, ThanksBody, TopicsBody, type Ctx } from './templates';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
@@ -174,6 +177,8 @@ for (const lang of LANGS) {
         encoding: { '@type': 'MediaObject', encodingFormat: 'application/json', contentUrl: `${ORIGIN}/data/situations/${s.id}.json` } }] } });
   }
 
+  emit({lang,path:paths.referrals(lang),alt:l=>paths.referrals(l),title:title(rt('nav',lang)),description:rt('lead',lang),lastmod:REFERRALS.map(r=>r.verifiedAt).sort().at(-1),body:<ReferralsBody lang={lang}/>,script:true,data:{lang,channel:CHANNEL,locale:FULL_DATE_LOCALE[lang],text:{}}});
+
   emit({ lang, path: paths.thanks(lang), alt: l => paths.thanks(l), noindex: true, title: title(st('submitThanks', lang)), description: st('submitThanks', lang),
     body: <ThanksBody ctx={{ lang, review: REVIEW }} /> });
   emit({ lang, path: paths.topics(lang), alt: l => paths.topics(l), title: title(st('coverageTitle', lang)), description: st('coverageTitle', lang),
@@ -190,6 +195,7 @@ const index = situations.map(s => ({ id: s.id, domain: s.domain, status: s.statu
   languages: Object.keys(s.title), url: Object.fromEntries(LANGS.map(l => [l, `${ORIGIN}${paths.situation(l, s.id)}`])), data: `${ORIGIN}/data/situations/${s.id}.json` }));
 write('data/index.json', JSON.stringify({ name: 'swisslaw.io knowledge base', license: 'CC-BY-4.0', license_url: LICENSE_URL, channel: CHANNEL, generated: new Date().toISOString().slice(0, 10), situations: index }, null, 1));
 for (const s of situations) write(`data/situations/${s.id}.json`, JSON.stringify(s, null, 1));
+write('data/referrals.json',JSON.stringify({name:'swisslaw.io advice directory',license:'CC-BY-4.0',entries:REFERRALS},null,1));
 write('data/deadline-rules.json', readFileSync(join(ROOT, 'lib/swisslaw-chat/deadline-rules.json')));
 write('data/deadline-holidays.json', readFileSync(join(ROOT, 'lib/swisslaw-chat/deadline-holidays.json')));
 write('data/LICENSE.txt', readFileSync(join(ROOT, 'knowledge/LICENSE')));
@@ -197,6 +203,7 @@ write('data/index.html', page({ lang: 'de', path: '/data/', alt: () => '/data/',
   body: <section className="about"><h1 className="page-title">Offene Daten</h1>
     <p>Die Wissensbasis von swisslaw.io steht unter CC BY 4.0. Nennen Sie «swisslaw.io», die Situation und ihre Version.</p>
     <p><a href="/data/index.json">index.json</a>: alle Situationen mit Titel, Status, Version und Adressen.</p>
+    <p><a href="/data/referrals.json">referrals.json</a>: Beratungsstellen, Zugang, Kosten und Quellen in fünf Sprachen.</p>
     <p><a href="/data/deadline-rules.json">deadline-rules.json</a> und <a href="/data/deadline-holidays.json">deadline-holidays.json</a>: die Fristregeln mit Rechtsgrundlagen.</p>
     <p>Einzelne Situationen: <code>/data/situations/&lt;id&gt;.json</code>. Format: <a href="https://github.com/jonashertner/swisslaw/tree/main/knowledge">knowledge/README.md</a>.</p></section> }));
 
@@ -236,7 +243,7 @@ write('llms.txt', [
   'Each guide asks a few questions about the reader\'s situation and shows only the parts that apply. The Markdown versions linked below contain every part, each with the condition under which it applies. General legal information, not individual advice.',
   ...areasWithContent.map(a => `## ${AREA_TEXT[a].en}\n\n${inArea(a).map(s => guideLine(s, 'de')).join('\n')}`),
   `## Other languages\n\n${(['fr', 'it', 'en', 'rm'] as const).map(l => `### ${LANG_LABEL[l]}\n\n${situations.filter(s => s.title[l]).map(s => guideLine(s, l)).join('\n')}`).join('\n\n')}`,
-  `## Open data\n\n- [All guides in full, German](${ORIGIN}/llms-full.txt)\n- [Index of all guides](${ORIGIN}/data/index.json): ids, titles, languages, versions, addresses\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting rules\n- Each guide as JSON: ${ORIGIN}/data/situations/<id>.json`,
+  `## Open data\n\n- [Advice directory](${ORIGIN}/data/referrals.json): public advice services, remit, eligibility, costs and sources in five languages\n- [All guides in full, German](${ORIGIN}/llms-full.txt)\n- [Index of all guides](${ORIGIN}/data/index.json): ids, titles, languages, versions, addresses\n- [Deadline rules](${ORIGIN}/data/deadline-rules.json): statutory deadlines with legal basis and counting rules\n- Each guide as JSON: ${ORIGIN}/data/situations/<id>.json`,
   '## Notes for machines\n\n- Cite the guide\'s URL and version. Quote statutes only from the official sources linked in each guide.\n- Deadlines depend on the facts, such as the date and manner of receipt; the website calculates them from the deadline rules.',
 ].join('\n\n') + '\n');
 write('llms-full.txt', situations.map(s => markdown(s, 'de')).join('\n\n'));

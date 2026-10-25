@@ -1,0 +1,17 @@
+Primary source verification, 2026-10-25; read-only review, no checkout changes.
+
+caritas-asyl-auslaenderrecht
+https://www.caritas.ch/de/rechtsberatung-asyl-und-auslaenderrecht/
+Current provider page explicitly states first consultation free. Further advice and mandates follow Caritas guidelines. Zentralschweiz price-list introduction limits free first consultation to up to 30 minutes. Existing geographic coverage and wording preserved; freeInitial true now matches the evidenced offer.
+
+procap
+https://www.procap.ch/angebote/beratung-information/rechtsberatung/regionale-beratung/informationen-fuer-nicht-mitglieder/
+Current provider HTML explicitly says telephone enquiries, brief written information and a consultation at a regional legal clinic are also free for non-members. This is stronger and more current evidence than the formerly linked May 2024 brochure. Further work can require membership plus entry fees and lawyer costs for new members. Keep cost conditional; set freeInitial true and narrow the first-advice wording in all five languages to the verified categories. Service URL now opens the regional legal-advice page; source URL opens the precise cost page. Romansh wording is an editorial translation and has not received independent native-language review.
+
+zav-rechtsauskunft
+https://www.zav.ch/de/anwaltssuche/rechtsauskunftsstellen.html
+Current provider page confirms 15-minute free orientation in Zurich. Other locations may impose municipal residency conditions; existing costNote already preserves that condition. Set freeInitial true, preserving cost conditional and all access conditions.
+
+schuldenberatung-schweiz
+https://schulden.ch/fachstellen/
+Current provider directory explicitly lists telephone advice on 0800 708 708 as gratis. It also routes visitors to their regional advice office. Set freeInitial true for the verified telephone route; keep cost conditional because local-service conditions vary. Existing costNote distinguishes hotline from regional services. This does not claim all listed local services are free.

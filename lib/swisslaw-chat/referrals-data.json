@@ -1,0 +1,3760 @@
+[
+  {
+    "id": "sav-rechtsauskunft",
+    "name": "Schweizerischer Anwaltsverband – Rechtsauskunft",
+    "url": "https://www.sav-fsa.ch/rechtsauskunft",
+    "sourceUrl": "https://www.sav-fsa.ch/rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kantonale Wege zu Rechtsauskunft, Strafverteidigung und unentgeltlicher Rechtspflege.",
+        "access": "Kanton auswählen und die Angaben der zuständigen Stelle prüfen. Das Verzeichnis berät nicht selbst.",
+        "costNote": "Kosten und Voraussetzungen unterscheiden sich je nach Stelle."
+      },
+      "fr": {
+        "description": "Accès cantonal aux consultations juridiques, à la défense pénale et à l’assistance judiciaire.",
+        "access": "Choisir le canton et vérifier les conditions du service. Le répertoire ne donne pas de conseils.",
+        "costNote": "Frais et conditions variables selon le service."
+      },
+      "it": {
+        "description": "Accesso cantonale a consulenze, difesa penale e assistenza giudiziaria gratuita.",
+        "access": "Scegliere il cantone e verificare le condizioni del servizio. L’elenco non offre consulenze.",
+        "costNote": "Costi e condizioni variano secondo il servizio."
+      },
+      "rm": {
+        "description": "Access chantunal a cussegliaziun giuridica, defensiun penala ed assistenza giudiziala gratuita.",
+        "access": "Tscherner il chantun e controllar las cundiziuns dal post. Il register na cusseglia betg sez.",
+        "costNote": "Custs e cundiziuns varieschan tenor il post."
+      },
+      "en": {
+        "description": "Cantonal routes to legal consultations, criminal defence and legal aid.",
+        "access": "Choose a canton and check the service’s conditions. The directory itself does not give advice.",
+        "costNote": "Fees and eligibility vary by service."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "seco-arbeitsrecht-kontakte",
+    "name": "SECO – Arbeitsrecht: Grundlagen und Kontakte",
+    "url": "https://www.seco.admin.ch/de/arbeitsrecht-grundlagen-und-kontakte",
+    "sourceUrl": "https://www.seco.admin.ch/de/arbeitsrecht-grundlagen-und-kontakte",
+    "topics": [
+      "work"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Offizielle Orientierung im Arbeitsrecht mit kantonalen Rechtsauskunftsstellen.",
+        "access": "Kantonale Kontakte aufrufen. SECO beantwortet individuelle privatrechtliche Fragen nicht verbindlich.",
+        "costNote": "Je nach Beratungsstelle kostenlos oder gegen Gebühr."
+      },
+      "fr": {
+        "description": "Informations officielles en droit du travail et contacts cantonaux.",
+        "access": "Consulter les contacts cantonaux. Le SECO ne tranche pas les questions individuelles de droit privé.",
+        "costNote": "Gratuit ou payant selon le service."
+      },
+      "it": {
+        "description": "Informazioni ufficiali sul diritto del lavoro e contatti cantonali.",
+        "access": "Consultare i contatti cantonali. La SECO non risolve in modo vincolante le questioni individuali di diritto privato.",
+        "costNote": "Gratuito o a pagamento secondo il servizio."
+      },
+      "rm": {
+        "description": "Infurmaziuns uffizialas davart il dretg da lavur e contacts chantunals.",
+        "access": "Consultar ils contacts chantunals. Il SECO na decida betg en moda lianta davart dumondas individualas da dretg privat.",
+        "costNote": "Gratuit u cunter pajament tenor il post."
+      },
+      "en": {
+        "description": "Official employment-law information and cantonal legal advice contacts.",
+        "access": "Use the cantonal contacts. SECO does not give binding answers to individual private-law questions.",
+        "costNote": "Free or paid depending on the service."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "bwo-mietschlichtung",
+    "name": "Bundesamt für Wohnungswesen – Schlichtungsbehörden",
+    "url": "https://www.bwo.admin.ch/de/schlichtungsverfahren",
+    "sourceUrl": "https://www.bwo.admin.ch/de/schlichtungsverfahren",
+    "topics": [
+      "home"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Offizielles schweizweites Adressverzeichnis der Schlichtungsbehörden für Miete und Pacht.",
+        "access": "Die für den Ort des Mietobjekts zuständige Behörde suchen. Sie vermittelt neutral und vertritt keine Partei.",
+        "costNote": "Verzeichnis kostenlos; Bedingungen für Auskunft und Verfahren bei der zuständigen Behörde prüfen."
+      },
+      "fr": {
+        "description": "Répertoire officiel suisse des autorités de conciliation en matière de bail.",
+        "access": "Rechercher l’autorité compétente au lieu de l’objet loué. Elle intervient de manière neutre, sans représenter une partie.",
+        "costNote": "Répertoire gratuit; vérifier les conditions des renseignements et de la procédure auprès de l’autorité."
+      },
+      "it": {
+        "description": "Elenco ufficiale svizzero delle autorità di conciliazione in materia di locazione.",
+        "access": "Cercare l’autorità competente per il luogo dell’immobile. È neutrale e non rappresenta una parte.",
+        "costNote": "Elenco gratuito; verificare presso l’autorità le condizioni per informazioni e procedura."
+      },
+      "rm": {
+        "description": "Register uffizial svizzer da las autoritads da mediaziun per locaziun e fittanza.",
+        "access": "Tschertgar l’autoritad cumpetenta al lieu da l’object. Ella è neutrala e na represchenta nagina partida.",
+        "costNote": "Register gratuit; sclerir las cundiziuns per infurmaziuns e proceduras cun l’autoritad."
+      },
+      "en": {
+        "description": "Official nationwide directory of tenancy conciliation authorities.",
+        "access": "Find the authority for the property’s location. It acts impartially and does not represent either party.",
+        "costNote": "Directory is free; check advice and procedure conditions with the relevant authority."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "mieterverband-deutschschweiz",
+    "name": "Mieterinnen- und Mieterverband – Beratung vor Ort",
+    "url": "https://www.mieterverband.ch/hilfe-von-fachleuten/",
+    "sourceUrl": "https://www.mieterverband.ch/hilfe-von-fachleuten/",
+    "topics": [
+      "home"
+    ],
+    "cantons": [
+      "AG",
+      "AI",
+      "AR",
+      "BE",
+      "BL",
+      "BS",
+      "FR",
+      "GL",
+      "GR",
+      "LU",
+      "NW",
+      "OW",
+      "SG",
+      "SH",
+      "SO",
+      "SZ",
+      "TG",
+      "UR",
+      "VS",
+      "ZG",
+      "ZH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Mietrechtliche Beratung für Mieterinnen und Mieter über die regionalen Sektionen.",
+        "access": "Postleitzahl oder Sektion wählen. Angebote und Bedingungen der jeweiligen Sektion prüfen.",
+        "costNote": "Mitgliederberatung grundsätzlich im Beitrag enthalten; Nichtmitglieder-Hotline CHF 4.40/Min. Weitere Leistungen können kosten."
+      },
+      "fr": {
+        "description": "Conseils aux locataires en droit du bail par les sections régionales.",
+        "access": "Choisir le code postal ou la section. Vérifier ses prestations et conditions.",
+        "costNote": "Conseil aux membres en principe inclus dans la cotisation; hotline non-membres CHF 4.40/min. Autres prestations parfois payantes."
+      },
+      "it": {
+        "description": "Consulenza sul diritto di locazione per inquilini tramite le sezioni regionali.",
+        "access": "Scegliere il codice postale o la sezione e verificarne servizi e condizioni.",
+        "costNote": "Consulenza ai soci di regola inclusa nella quota; hotline per non soci CHF 4.40/min. Altri servizi possono essere a pagamento."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart il dretg da locaziun per locatarias e locataris tras las secziuns regiunalas.",
+        "access": "Tscherner il numer postal u la secziun e controllar sias purschidas e cundiziuns.",
+        "costNote": "Cussegliaziun per commembers per regla inclusa en la contribuziun; hotline per auters CHF 4.40/min. Ulteriuras prestaziuns pon custar."
+      },
+      "en": {
+        "description": "Tenancy advice for tenants through regional associations.",
+        "access": "Choose your postcode or regional association and check its services and conditions.",
+        "costNote": "Member advice generally included in membership fees; non-member hotline CHF 4.40/min. Other services may cost extra."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "zav-rechtsauskunft",
+    "name": "Zürcher Anwaltsverband – Rechtsauskunftsstellen",
+    "url": "https://www.zav.ch/de/anwaltssuche/rechtsauskunftsstellen.html",
+    "sourceUrl": "https://www.zav.ch/de/anwaltssuche/rechtsauskunftsstellen.html",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "ZH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze persönliche Orientierung durch Anwältinnen und Anwälte an mehreren Orten im Kanton.",
+        "access": "Standort und aktuelle Zugangsregeln prüfen. Keine telefonische Rechtsberatung; Zürich vergibt Termine am selben Tag vor Ort.",
+        "costNote": "Zürich: 15 Minuten kostenlos. Bei weiteren Standorten gelten teilweise Wohnsitzbedingungen."
+      },
+      "fr": {
+        "description": "Première orientation en personne par des avocats dans plusieurs localités du canton.",
+        "access": "Vérifier les modalités du lieu choisi. Pas de conseil téléphonique; à Zurich, rendez-vous attribués sur place le jour même.",
+        "costNote": "Zurich: 15 minutes gratuites. Certaines autres permanences imposent une condition de domicile."
+      },
+      "it": {
+        "description": "Primo orientamento personale da avvocati in diverse località del cantone.",
+        "access": "Verificare le modalità della sede. Nessuna consulenza telefonica; a Zurigo appuntamenti assegnati sul posto il giorno stesso.",
+        "costNote": "Zurigo: 15 minuti gratuiti. Altre sedi possono richiedere il domicilio locale."
+      },
+      "rm": {
+        "description": "Emprima orientaziun persunala d’advocatas ed advocats en plirs lieus dal chantun.",
+        "access": "Controllar las reglas dal lieu. Nagina cussegliaziun al telefon; a Turitg vegnan ils termins attribuids al lieu il medem di.",
+        "costNote": "Turitg: 15 minutas gratuitas. Auters lieus han per part cundiziuns da domicil."
+      },
+      "en": {
+        "description": "Brief in-person guidance from lawyers at several locations in the canton.",
+        "access": "Check the location’s current access rules. No telephone advice; Zurich allocates appointments on site the same day.",
+        "costNote": "Zurich: 15 minutes free. Some other locations have residency conditions."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "aargau-anwaltsverband",
+    "name": "Aargauischer Anwaltsverband – Rechtsauskunft",
+    "url": "https://www.anwaltsverband-ag.ch/index.asp?inc=rechtsauskunft.asp",
+    "sourceUrl": "https://www.anwaltsverband-ag.ch/index.asp?inc=rechtsauskunft.asp",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "AG"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste rechtliche Orientierung in kurzen persönlichen Gesprächen in den Aargauer Bezirken.",
+        "access": "Ort und Termin auf der Liste wählen; aktuelle Termine bei der Gemeinde prüfen. Keine telefonische oder schriftliche Auskunft der Geschäftsstelle.",
+        "costNote": "Kostenlose Kurzberatung."
+      },
+      "fr": {
+        "description": "Première orientation juridique lors de brefs entretiens dans les districts argoviens.",
+        "access": "Choisir un lieu et une date; confirmer auprès de la commune. Le secrétariat ne conseille ni par téléphone ni par écrit.",
+        "costNote": "Brève consultation gratuite."
+      },
+      "it": {
+        "description": "Primo orientamento giuridico in brevi colloqui nei distretti argoviesi.",
+        "access": "Scegliere sede e data; verificare con il comune. La segreteria non offre consulenza telefonica o scritta.",
+        "costNote": "Breve consulenza gratuita."
+      },
+      "rm": {
+        "description": "Emprima orientaziun giuridica en curts discurs en ils districts argovians.",
+        "access": "Tscherner lieu e termin; controllar ils termins tar la vischnanca. Il secretariat na cusseglia ni al telefon ni en scrit.",
+        "costNote": "Curta cussegliaziun gratuita."
+      },
+      "en": {
+        "description": "Initial legal guidance in short meetings across Aargau’s districts.",
+        "access": "Choose a location and date; check current arrangements with the municipality. The office gives no telephone or written advice.",
+        "costNote": "Free short consultation."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "bern-anwaltsverband",
+    "name": "Bernischer Anwaltsverband – Rechtsauskunftsstellen",
+    "url": "https://www.bav-aab.ch/de/rechtsuchende/rechtauskunftsstellen.html",
+    "sourceUrl": "https://www.bav-aab.ch/de/rechtsuchende/rechtauskunftsstellen.html",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "BE"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Persönliche erste Rechtsauskunft an mehreren Standorten im Kanton Bern.",
+        "access": "Standort wählen. Anmeldung ist beispielsweise in Biel und Lyss nötig, in der Stadt Bern nicht möglich. Keine Beratung durch das Sekretariat.",
+        "costNote": "Unkostenbeitrag bis CHF 50 pro Konsultation."
+      },
+      "fr": {
+        "description": "Première consultation en personne dans plusieurs localités du canton de Berne.",
+        "access": "Choisir un lieu. Inscription notamment à Bienne et Lyss; pas de réservation à Berne. Le secrétariat ne conseille pas.",
+        "costNote": "Participation aux frais jusqu’à CHF 50 par consultation."
+      },
+      "it": {
+        "description": "Prima consulenza personale in diverse località del canton Berna.",
+        "access": "Scegliere la sede. Iscrizione richiesta ad esempio a Bienne e Lyss, non possibile a Berna. La segreteria non fornisce consulenze.",
+        "costNote": "Contributo fino a CHF 50 per consultazione."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun persunala en plirs lieus dal chantun Berna.",
+        "access": "Tscherner il lieu. Annunzia necessaria per exempel a Bienna e Lyss, betg pussaivla a Berna. Il secretariat na cusseglia betg.",
+        "costNote": "Contribuziun als custs fin CHF 50 per consultaziun."
+      },
+      "en": {
+        "description": "Initial in-person legal consultations at several locations in canton Bern.",
+        "access": "Choose a location. Booking is required in Biel and Lyss, for example, but unavailable in Bern city. The secretariat does not advise.",
+        "costNote": "Contribution of up to CHF 50 per consultation."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "basel-anwaltsauskunft",
+    "name": "Advokatenkammer Basel / Basellandschaftlicher Anwaltsverband",
+    "url": "https://akbs.ch/ihr-anliegen/rechtsauskunft",
+    "sourceUrl": "https://akbs.ch/ihr-anliegen/rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "BS",
+      "BL"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze anwaltliche Erstberatung; bei komplexeren Anliegen Orientierung zum weiteren Vorgehen.",
+        "access": "Ohne Anmeldung bei GGG Migration in Basel; beschränkte Plätze. Gebäude nicht barrierefrei. Aktuelle Zeiten prüfen.",
+        "costNote": "CHF 10 für in der Regel 15 Minuten."
+      },
+      "fr": {
+        "description": "Brève première consultation d’avocat et orientation pour les affaires plus complexes.",
+        "access": "Sans rendez-vous chez GGG Migration à Bâle; places limitées. Bâtiment non accessible sans obstacles. Vérifier les horaires.",
+        "costNote": "CHF 10 pour généralement 15 minutes."
+      },
+      "it": {
+        "description": "Breve prima consulenza legale e orientamento per questioni più complesse.",
+        "access": "Senza appuntamento presso GGG Migration a Basilea; posti limitati. Edificio con barriere architettoniche. Verificare gli orari.",
+        "costNote": "CHF 10 per generalmente 15 minuti."
+      },
+      "rm": {
+        "description": "Curta emprima cussegliaziun d’advocatas ed advocats ed orientaziun per dumondas pli cumplexas.",
+        "access": "Senza annunzia tar GGG Migration a Basilea; plazs limitads. Edifizi betg accessibel senza barrieras. Controllar ils uraris.",
+        "costNote": "CHF 10 per per regla 15 minutas."
+      },
+      "en": {
+        "description": "Brief first consultation with a lawyer and guidance on more complex matters.",
+        "access": "Walk in at GGG Migration in Basel; places limited. Building is not barrier-free. Check current hours.",
+        "costNote": "CHF 10 for usually 15 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "luzern-anwaltsverband",
+    "name": "Luzerner Anwaltsverband – Rechtsauskunft",
+    "url": "https://www.lav.ch/",
+    "sourceUrl": "https://www.lav.ch/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "LU"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste rechtliche Einschätzung und Hinweise zum Vorgehen für Personen mit Wohnsitz im Kanton Luzern.",
+        "access": "Nur für Personen mit Wohnsitz im Kanton Luzern. Website derzeit in Wartung; Termin und Zugang beim Sekretariat unter 041 226 00 80 abklären.",
+        "costNote": "15 Minuten kostenlos; Wohnsitz im Kanton Luzern erforderlich."
+      },
+      "fr": {
+        "description": "Première évaluation et prochaines démarches pour les personnes domiciliées dans le canton de Lucerne.",
+        "access": "Pour les personnes domiciliées dans le canton de Lucerne. Site en maintenance : vérifier le rendez-vous et l’accès au secrétariat, 041 226 00 80.",
+        "costNote": "15 minutes gratuites; domicile dans le canton de Lucerne requis."
+      },
+      "it": {
+        "description": "Prima valutazione e indicazioni sui passi successivi per chi risiede nel canton Lucerna.",
+        "access": "Per persone domiciliate nel Cantone di Lucerna. Sito in manutenzione: chiarire appuntamento e accesso con la segreteria, 041 226 00 80.",
+        "costNote": "15 minuti gratuiti; domicilio nel canton Lucerna richiesto."
+      },
+      "rm": {
+        "description": "Emprima valitaziun e proxims pass per persunas domiciliadas en il chantun Lucerna.",
+        "access": "Per persunas cun domicil en il chantun Lucerna. Pagina en mantegniment: sclerir termin ed access cun il secretariat, 041 226 00 80.",
+        "costNote": "15 minutas gratuitas; domicil en il chantun Lucerna necessari."
+      },
+      "en": {
+        "description": "Initial legal assessment and next steps for residents of canton Lucerne.",
+        "access": "For residents of Lucerne canton. Website under maintenance; confirm appointments and access with the office on 041 226 00 80.",
+        "costNote": "15 minutes free; canton Lucerne residency required."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "stgallen-anwaltsverband",
+    "name": "St.Galler Anwaltsverband – Rechtsauskunft",
+    "url": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft.html",
+    "sourceUrl": "https://www.sgav.ch/verband/unentgeltliche-rechtsauskunft.html",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "SG"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze Orientierung, insbesondere für Menschen, die sich keine anwaltliche Beratung leisten können.",
+        "access": "Standort wählen: Ticketsystem in St.Gallen, Wil und Wattwil; Online-Anmeldung in Altstätten, Buchs und Sargans.",
+        "costNote": "Persönliche Kurzberatung von etwa 15 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Brève orientation, notamment pour les personnes qui ne peuvent pas payer un avocat.",
+        "access": "Choisir un lieu: tickets à Saint-Gall, Wil et Wattwil; inscription en ligne à Altstätten, Buchs et Sargans.",
+        "costNote": "Consultation en personne d’environ 15 minutes gratuite."
+      },
+      "it": {
+        "description": "Breve orientamento, soprattutto per chi non può permettersi un avvocato.",
+        "access": "Scegliere la sede: biglietti a San Gallo, Wil e Wattwil; iscrizione online ad Altstätten, Buchs e Sargans.",
+        "costNote": "Colloquio personale di circa 15 minuti gratuito."
+      },
+      "rm": {
+        "description": "Curta orientaziun, surtut per persunas che na pon betg pajar in’advocata u in advocat.",
+        "access": "Tscherner il lieu: bigliets a Son Gagl, Wil e Wattwil; annunzia online ad Altstätten, Buchs e Sargans.",
+        "costNote": "Discurs persunal da circa 15 minutas gratuit."
+      },
+      "en": {
+        "description": "Brief guidance, especially for people who cannot afford a lawyer.",
+        "access": "Choose a location: tickets in St.Gallen, Wil and Wattwil; online registration in Altstätten, Buchs and Sargans.",
+        "costNote": "Free in-person consultation of about 15 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "solothurn-anwaltsverband",
+    "name": "Solothurnischer Anwaltsverband – Rechtsauskunftsdienst",
+    "url": "https://solav.ch/index.asp?inc=rechtsauskunft%2Frechtsauskunftsdienst.asp",
+    "sourceUrl": "https://solav.ch/index.asp?inc=rechtsauskunft%2Frechtsauskunftsdienst.asp",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "SO"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurzes Beratungsgespräch bei einem Mitglied des Solothurnischen Anwaltsverbands.",
+        "access": "Bei der für Ihren Wohnort zuständigen Ausgabestelle einen Beratungsgutschein beziehen.",
+        "costNote": "CHF 35 für höchstens 20 Minuten."
+      },
+      "fr": {
+        "description": "Brève consultation auprès d’un membre de l’ordre des avocats soleurois.",
+        "access": "Obtenir un bon auprès du point de délivrance compétent pour votre domicile.",
+        "costNote": "CHF 35 pour 20 minutes au maximum."
+      },
+      "it": {
+        "description": "Breve colloquio con un membro dell’ordine degli avvocati solettesi.",
+        "access": "Richiedere un buono al punto di rilascio competente per il proprio domicilio.",
+        "costNote": "CHF 35 per un massimo di 20 minuti."
+      },
+      "rm": {
+        "description": "Curt discurs cun in commember da l’associaziun d’advocats da Soloturn.",
+        "access": "Retrar in bon tar il post d’emissiun cumpetent per Voss domicil.",
+        "costNote": "CHF 35 per maximalmain 20 minutas."
+      },
+      "en": {
+        "description": "Short consultation with a member of the Solothurn bar association.",
+        "access": "Obtain a consultation voucher from the issuing office for your place of residence.",
+        "costNote": "CHF 35 for up to 20 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "thurgau-anwaltsverband",
+    "name": "Thurgauischer Anwaltsverband – Rechtsauskunft",
+    "url": "https://tav.ch/rechtsauskunft/",
+    "sourceUrl": "https://tav.ch/rechtsauskunft/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "TG"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste Orientierung durch praktizierende Anwältinnen und Anwälte an mehreren Standorten.",
+        "access": "Standort und Datum prüfen; ohne Termin in der Reihenfolge des Erscheinens. Keine telefonische Rechtsauskunft.",
+        "costNote": "CHF 20 für etwa 15 Minuten."
+      },
+      "fr": {
+        "description": "Première orientation par des avocats en exercice dans plusieurs localités.",
+        "access": "Vérifier le lieu et la date; sans rendez-vous, par ordre d’arrivée. Pas de conseil téléphonique.",
+        "costNote": "CHF 20 pour environ 15 minutes."
+      },
+      "it": {
+        "description": "Primo orientamento da avvocati attivi in diverse località.",
+        "access": "Verificare sede e data; senza appuntamento, in ordine di arrivo. Nessuna consulenza telefonica.",
+        "costNote": "CHF 20 per circa 15 minuti."
+      },
+      "rm": {
+        "description": "Emprima orientaziun d’advocatas ed advocats activs en plirs lieus.",
+        "access": "Controllar lieu e data; senza termin tenor l’urden d’arrivada. Nagina cussegliaziun al telefon.",
+        "costNote": "CHF 20 per circa 15 minutas."
+      },
+      "en": {
+        "description": "Initial guidance from practising lawyers at several locations.",
+        "access": "Check the location and date; walk in, first come, first served. No telephone advice.",
+        "costNote": "CHF 20 for about 15 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "glarus-anwaltsverband",
+    "name": "Glarner Anwalts- und Notarenverband – Rechtsauskunft",
+    "url": "https://www.glav.ch/unentgeltliche-rechtsauskunft",
+    "sourceUrl": "https://www.glav.ch/unentgeltliche-rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "GL"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze persönliche Erstorientierung durch Anwältinnen und Anwälte.",
+        "access": "Ohne Anmeldung im Gerichtshaus Glarus; Termine und Einlasszeit prüfen. Begrenzte Plätze, keine telefonische Auskunft.",
+        "costNote": "Kostenlos."
+      },
+      "fr": {
+        "description": "Brève première orientation en personne par des avocats.",
+        "access": "Sans rendez-vous au tribunal de Glaris; vérifier dates et heure limite d’accueil. Places limitées, pas de conseil téléphonique.",
+        "costNote": "Gratuit."
+      },
+      "it": {
+        "description": "Breve primo orientamento personale da avvocati.",
+        "access": "Senza appuntamento al tribunale di Glarona; verificare date e orario d’ingresso. Posti limitati, nessuna consulenza telefonica.",
+        "costNote": "Gratuito."
+      },
+      "rm": {
+        "description": "Curta emprima orientaziun persunala d’advocatas ed advocats.",
+        "access": "Senza annunzia en la chasa da dretg da Glaruna; controllar termins ed urari d’entrada. Plazs limitads, nagina cussegliaziun al telefon.",
+        "costNote": "Gratuit."
+      },
+      "en": {
+        "description": "Brief initial in-person guidance from lawyers.",
+        "access": "Walk in at Glarus courthouse; check dates and admission times. Limited places, no telephone advice.",
+        "costNote": "Free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "zug-advokatenverein",
+    "name": "Advokatenverein des Kantons Zug – Rechtsauskunft",
+    "url": "https://www.advokatenverein-zug.ch/rechtsauskunft",
+    "sourceUrl": "https://www.advokatenverein-zug.ch/rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "ZG"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Persönliche Kurzberatung zu rechtlichen Fragen.",
+        "access": "Ohne Voranmeldung im Siehbachsaal Zug an den publizierten Daten. Nummernausgabe, begrenzte Plätze; keine schriftliche Auskunft.",
+        "costNote": "Höchstens 20 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Brève consultation en personne sur des questions juridiques.",
+        "access": "Sans réservation au Siehbachsaal de Zoug aux dates publiées. Tickets et places limitées; pas de conseil écrit.",
+        "costNote": "20 minutes au maximum, gratuites."
+      },
+      "it": {
+        "description": "Breve colloquio personale su questioni giuridiche.",
+        "access": "Senza prenotazione al Siehbachsaal di Zugo nelle date pubblicate. Biglietti e posti limitati; nessuna consulenza scritta.",
+        "costNote": "Massimo 20 minuti gratuiti."
+      },
+      "rm": {
+        "description": "Curt discurs persunal davart dumondas giuridicas.",
+        "access": "Senza annunzia en il Siehbachsaal a Zug tenor las datas publitgadas. Bigliets e plazs limitads; nagina cussegliaziun en scrit.",
+        "costNote": "Maximalmain 20 minutas gratuitas."
+      },
+      "en": {
+        "description": "Brief in-person consultation on legal questions.",
+        "access": "Walk in at the Siehbachsaal in Zug on published dates. Ticket system, limited places; no written advice.",
+        "costNote": "Up to 20 minutes free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "uri-anwaltsverband",
+    "name": "Urner Anwalts- und Notarenverband – Rechtsauskunft",
+    "url": "https://www.urilaw.ch/rechtsauskunft",
+    "sourceUrl": "https://www.urilaw.ch/rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "UR"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Unentgeltliche erste Rechtsauskunft bei der jeweils eingeteilten Kanzlei.",
+        "access": "Anmeldung erforderlich, frühestens vier Wochen vor dem publizierten Termin. Keine telefonischen oder schriftlichen Rechtsauskünfte.",
+        "costNote": "Kostenlos."
+      },
+      "fr": {
+        "description": "Première consultation gratuite auprès de l’étude désignée.",
+        "access": "Inscription obligatoire, au plus tôt quatre semaines avant la date publiée. Pas de conseils par téléphone ou par écrit.",
+        "costNote": "Gratuit."
+      },
+      "it": {
+        "description": "Prima consulenza gratuita presso lo studio designato.",
+        "access": "Iscrizione obbligatoria, non prima di quattro settimane dalla data pubblicata. Nessuna consulenza telefonica o scritta.",
+        "costNote": "Gratuito."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun gratuita tar la chanzlia designada.",
+        "access": "Annunzia obligatorica, il pli baud quatter emnas avant il termin publitgà. Nagina cussegliaziun al telefon u en scrit.",
+        "costNote": "Gratuit."
+      },
+      "en": {
+        "description": "Free initial advice at the law firm assigned to the session.",
+        "access": "Booking required, no earlier than four weeks before the published date. No telephone or written legal advice.",
+        "costNote": "Free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "unterwalden-anwaltsverband",
+    "name": "Anwaltsverband Unterwalden – Rechtsberatung",
+    "url": "https://www.uwav.ch/informationen/rechtsauskunft/",
+    "sourceUrl": "https://www.uwav.ch/informationen/rechtsauskunft/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "NW",
+      "OW"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Monatliche Kurzbeurteilung und Orientierung; keine Ausarbeitung von Verträgen.",
+        "access": "Bei der im jeweiligen Amtsblatt genannten Person anmelden. Beratung telefonisch oder vor Ort; Termine für NW und OW unterscheiden sich.",
+        "costNote": "30 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Évaluation mensuelle brève et orientation; pas de rédaction de contrats.",
+        "access": "S’inscrire auprès de la personne indiquée dans la feuille officielle. Par téléphone ou sur place; dates différentes pour NW et OW.",
+        "costNote": "30 minutes gratuites."
+      },
+      "it": {
+        "description": "Breve valutazione e orientamento mensili; non vengono redatti contratti.",
+        "access": "Iscriversi presso la persona indicata nel foglio ufficiale. Per telefono o sul posto; date diverse per NW e OW.",
+        "costNote": "30 minuti gratuiti."
+      },
+      "rm": {
+        "description": "Curta valitaziun ed orientaziun mensila; nagina redacziun da contracts.",
+        "access": "S’annunziar tar la persuna indicada en il fegl uffizial. Al telefon u al lieu; termins differents per NW ed OW.",
+        "costNote": "30 minutas gratuitas."
+      },
+      "en": {
+        "description": "Monthly brief assessment and guidance; no contract drafting.",
+        "access": "Register with the person named in the relevant official gazette. By phone or in person; NW and OW dates differ.",
+        "costNote": "30 minutes free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "appenzell-innerrhoden-rechtsauskunft",
+    "name": "Appenzellischer Anwaltsverband – Appenzell",
+    "url": "https://ai.ch/themen/persoenliches/unentgeltliche-rechtsauskunft",
+    "sourceUrl": "https://ai.ch/themen/persoenliches/unentgeltliche-rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "AI"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Allgemeine Rechtsauskunft durch den Appenzellischen Anwaltsverband.",
+        "access": "Ohne Anmeldung im Mesmerhaus Appenzell. Aktuelle Daten auf der Kantonsseite prüfen.",
+        "costNote": "Kostenlos."
+      },
+      "fr": {
+        "description": "Consultation juridique générale de l’association des avocats appenzellois.",
+        "access": "Sans inscription au Mesmerhaus à Appenzell. Vérifier les dates sur le site cantonal.",
+        "costNote": "Gratuit."
+      },
+      "it": {
+        "description": "Consulenza giuridica generale dell’associazione degli avvocati appenzellesi.",
+        "access": "Senza iscrizione al Mesmerhaus di Appenzello. Verificare le date sul sito cantonale.",
+        "costNote": "Gratuito."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica generala da l’associaziun d’advocats appenzellaisa.",
+        "access": "Senza annunzia en il Mesmerhaus ad Appenzell. Controllar las datas sin la pagina chantunala.",
+        "costNote": "Gratuit."
+      },
+      "en": {
+        "description": "General legal consultations by the Appenzell bar association.",
+        "access": "Walk in at the Mesmerhaus in Appenzell. Check dates on the canton’s website.",
+        "costNote": "Free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "appenzell-ausserrhoden-rechtsauskunft",
+    "name": "Appenzellischer Anwaltsverband – Ausserrhoden",
+    "url": "https://ar.ch/gerichte/kantonsgericht/rechtsauskunft/",
+    "sourceUrl": "https://ar.ch/gerichte/kantonsgericht/rechtsauskunft/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "AR"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kostenlose Rechtsauskunft in Herisau, Teufen und Heiden durch den Appenzellischen Anwaltsverband.",
+        "access": "Ort und Zeit im Amtsblatt prüfen oder beim Verband erfragen. Die Gerichtskanzlei selbst gibt nur Verfahrensauskünfte.",
+        "costNote": "Kostenlose Kurzberatung."
+      },
+      "fr": {
+        "description": "Consultations gratuites à Herisau, Teufen et Heiden par l’association des avocats appenzellois.",
+        "access": "Vérifier lieu et heure dans la feuille officielle ou auprès de l’association. Le greffe renseigne uniquement sur la procédure.",
+        "costNote": "Brève consultation gratuite."
+      },
+      "it": {
+        "description": "Consulenze gratuite a Herisau, Teufen e Heiden dall’associazione degli avvocati appenzellesi.",
+        "access": "Verificare luogo e orario nel foglio ufficiale o presso l’associazione. La cancelleria informa solo sulla procedura.",
+        "costNote": "Breve consulenza gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziuns gratuitas a Herisau, Teufen e Heiden tras l’associaziun d’advocats appenzellaisa.",
+        "access": "Controllar lieu ed urari en il fegl uffizial u dumandar l’associaziun. La chanzlia giudiziala infurmescha mo davart la procedura.",
+        "costNote": "Curta cussegliaziun gratuita."
+      },
+      "en": {
+        "description": "Free consultations in Herisau, Teufen and Heiden by the Appenzell bar association.",
+        "access": "Check the official gazette or ask the association for venues and times. The court office only gives procedural information.",
+        "costNote": "Free short consultation."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "schaffhausen-rote-fade",
+    "name": "Rote Fade – Schaffhausen",
+    "url": "https://www.rote-fade.ch/",
+    "sourceUrl": "https://www.rote-fade.ch/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "SH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste Orientierung in Rechtsfragen und Hilfe bei der Suche nach dem passenden weiteren Schritt.",
+        "access": "Persönlich in Schaffhausen oder telefonisch unter 052 624 42 82 während der Sprechstunden. Schulferien und Feiertage beachten.",
+        "costNote": "Erste Beratung von rund 20 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Première orientation juridique et aide pour déterminer la prochaine démarche.",
+        "access": "Sur place à Schaffhouse ou au 052 624 42 82 pendant les permanences. Fermé pendant les vacances scolaires et jours fériés.",
+        "costNote": "Première consultation d’environ 20 minutes gratuite."
+      },
+      "it": {
+        "description": "Primo orientamento giuridico e aiuto per individuare il passo successivo.",
+        "access": "Di persona a Sciaffusa o al 052 624 42 82 negli orari di consulenza. Chiuso durante vacanze scolastiche e festivi.",
+        "costNote": "Prima consulenza di circa 20 minuti gratuita."
+      },
+      "rm": {
+        "description": "Emprima orientaziun giuridica ed agid per chattar il proxim pass adattà.",
+        "access": "Persunalmain a Schaffusa u al 052 624 42 82 durant las uras da consultaziun. Serrà durant las vacanzas da scola e dis da festa.",
+        "costNote": "Emprima cussegliaziun da circa 20 minutas gratuita."
+      },
+      "en": {
+        "description": "Initial legal guidance and help identifying the right next step.",
+        "access": "In person in Schaffhausen or on 052 624 42 82 during consultation hours. Closed during school holidays and public holidays.",
+        "costNote": "First consultation of about 20 minutes free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "aargau-gewerkschaften",
+    "name": "Aargauischer Gewerkschaftsbund – Rechtsauskunft",
+    "url": "https://www.agb.ch/unentgeltliche-rechtsauskunft",
+    "sourceUrl": "https://www.agb.ch/unentgeltliche-rechtsauskunft",
+    "topics": [
+      "general",
+      "work",
+      "social"
+    ],
+    "cantons": [
+      "AG"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsauskunft ohne Pflicht zur Gewerkschaftsmitgliedschaft.",
+        "access": "Telefonische Sprechstunden oder ohne Anmeldung in Aarau, Baden und Rheinfelden. Aktuelle Zeiten prüfen.",
+        "costNote": "Erste 20 Minuten gratis; danach CHF 15 je 15 Minuten. Zusätzliche Arbeiten CHF 90/Stunde; SGB-Mitglieder bezahlen dafür die Hälfte."
+      },
+      "fr": {
+        "description": "Conseil juridique sans obligation d’adhésion syndicale.",
+        "access": "Permanences téléphoniques ou sans rendez-vous à Aarau, Baden et Rheinfelden. Vérifier les horaires.",
+        "costNote": "20 premières minutes gratuites, puis CHF 15 par 15 minutes. Travaux supplémentaires CHF 90/heure; moitié prix pour les membres d’un syndicat USS."
+      },
+      "it": {
+        "description": "Consulenza giuridica senza obbligo di adesione sindacale.",
+        "access": "Permanenze telefoniche o senza appuntamento ad Aarau, Baden e Rheinfelden. Verificare gli orari.",
+        "costNote": "Primi 20 minuti gratuiti, poi CHF 15 ogni 15 minuti. Lavori aggiuntivi CHF 90/ora; metà prezzo per soci di sindacati USS."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica senza commembranza sindicala obligatorica.",
+        "access": "Uras da consultaziun al telefon u senza annunzia ad Aarau, Baden e Rheinfelden. Controllar ils uraris.",
+        "costNote": "Emprimas 20 minutas gratuitas, suenter CHF 15 per 15 minutas. Lavurs supplementaras CHF 90/ura; commembers da sindicats SGB pajan la mesadad."
+      },
+      "en": {
+        "description": "Legal advice with no union membership requirement.",
+        "access": "Telephone or walk-ins in Aarau, Baden and Rheinfelden; check hours.",
+        "costNote": "First 20 minutes free, then CHF 15 per 15 minutes. Extra work CHF 90/hour; members of an SGB union pay half for additional work."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "anwaltskollektiv-zuerich",
+    "name": "Rechtsauskunft Anwaltskollektiv",
+    "url": "https://www.anwaltskollektiv.ch/",
+    "sourceUrl": "https://www.anwaltskollektiv.ch/",
+    "topics": [
+      "general",
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwaltliche Erstberatung zu vielen Rechtsgebieten, einschliesslich Migration.",
+        "access": "Termin telefonisch vereinbaren. Vor Ort in Zürich, telefonisch oder per Video; keine Beratung per E-Mail.",
+        "costNote": "CHF 70 für maximal 30 Minuten. Kurzfristige Absage oder Verschiebung unter 24 Stunden: CHF 35."
+      },
+      "fr": {
+        "description": "Première consultation dans de nombreux domaines, dont la migration.",
+        "access": "Prendre rendez-vous par téléphone. À Zurich, par téléphone ou vidéo; pas de conseil par courriel.",
+        "costNote": "CHF 70 pour 30 minutes au maximum. Annulation ou déplacement moins de 24 heures avant: CHF 35."
+      },
+      "it": {
+        "description": "Prima consulenza in molti settori, compresa la migrazione.",
+        "access": "Fissare l’appuntamento per telefono. A Zurigo, per telefono o video; nessuna consulenza via e-mail.",
+        "costNote": "CHF 70 per massimo 30 minuti. Disdetta o rinvio meno di 24 ore prima: CHF 35."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun en blers secturs, inclusiv migraziun.",
+        "access": "Fixar in termin per telefon. A Turitg, per telefon u video; nagina cussegliaziun per e-mail.",
+        "costNote": "CHF 70 per maximalmain 30 minutas. Annullaziun u spustament main che 24 uras avant: CHF 35."
+      },
+      "en": {
+        "description": "Initial lawyer consultations across many areas, including migration.",
+        "access": "Book by phone. In Zurich, by phone or video; no advice by email.",
+        "costNote": "CHF 70 for up to 30 minutes. Cancellation or rescheduling less than 24 hours beforehand: CHF 35."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "luzern-gerichte-auskunft",
+    "name": "Gerichte Luzern – unentgeltliche Rechtsauskunft",
+    "url": "https://gerichte.lu.ch/rechtsgebiete/unentgeltliche_rechtsauskunft",
+    "sourceUrl": "https://gerichte.lu.ch/rechtsgebiete/unentgeltliche_rechtsauskunft",
+    "topics": [
+      "work",
+      "home",
+      "family"
+    ],
+    "cantons": [
+      "LU"
+    ],
+    "kind": "authority",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Neutrale Auskunft zu Arbeit, Miete und Pacht; im Familienrecht nur zu Verfahrensfragen.",
+        "access": "Zuständige Stelle und telefonische Sprechstunde wählen. Für Arbeits- und Mietrechtsauskünfte ist Wohnsitz im Kanton Luzern erforderlich.",
+        "costNote": "Kostenlos im angegebenen Umfang; keine Parteivertretung."
+      },
+      "fr": {
+        "description": "Renseignements neutres sur travail et bail; en droit de la famille, uniquement sur la procédure.",
+        "access": "Choisir le service et sa permanence téléphonique. Domicile dans le canton de Lucerne requis pour les questions de travail et de bail.",
+        "costNote": "Gratuit dans les limites indiquées; pas de représentation."
+      },
+      "it": {
+        "description": "Informazioni neutrali su lavoro e locazione; in diritto di famiglia solo questioni procedurali.",
+        "access": "Scegliere il servizio e gli orari telefonici. Domicilio nel canton Lucerna richiesto per lavoro e locazione.",
+        "costNote": "Gratuito nei limiti indicati; nessuna rappresentanza."
+      },
+      "rm": {
+        "description": "Infurmaziuns neutralas davart lavur e locaziun; en il dretg da famiglia mo davart la procedura.",
+        "access": "Tscherner il post e sias uras da consultaziun al telefon. Domicil en il chantun Lucerna necessari per lavur e locaziun.",
+        "costNote": "Gratuit en il rom inditgà; nagina represchentanza da partidas."
+      },
+      "en": {
+        "description": "Neutral employment and tenancy information; family-law help is limited to procedural questions.",
+        "access": "Choose the relevant office and telephone session. Canton Lucerne residency required for employment and tenancy enquiries.",
+        "costNote": "Free within the stated scope; no representation."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "dietikon-gericht-auskunft",
+    "name": "Bezirksgericht Dietikon – Rechtsauskunft",
+    "url": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-dietikon/rechtsauskunft",
+    "sourceUrl": "https://www.gerichte-zh.ch/de/organisation/bezirksgerichte/bezirksgericht-dietikon/rechtsauskunft",
+    "topics": [
+      "work",
+      "home",
+      "family"
+    ],
+    "cantons": [
+      "ZH"
+    ],
+    "kind": "authority",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Neutrale allgemeine Rechts- und Verfahrensauskünfte zu Familie, Miete und privatem Arbeitsrecht auf Deutsch.",
+        "access": "Nur bei örtlichem Bezug zum Bezirk Dietikon gemäss Website und solange kein Verfahren hängig ist. Keine Sozialversicherungsberatung.",
+        "costNote": "Höchstens 15 Minuten kostenlos; keine individuelle Prozessstrategie oder Parteivertretung."
+      },
+      "fr": {
+        "description": "Renseignements généraux neutres sur famille, bail et travail privé, en allemand.",
+        "access": "Lien territorial avec le district de Dietikon selon le site, et aucune procédure pendante. Pas de conseils en assurances sociales.",
+        "costNote": "15 minutes au maximum gratuites; ni stratégie judiciaire individuelle ni représentation."
+      },
+      "it": {
+        "description": "Informazioni generali neutrali su famiglia, locazione e lavoro privato, in tedesco.",
+        "access": "Collegamento territoriale con il distretto di Dietikon secondo il sito e nessun procedimento pendente. Escluse assicurazioni sociali.",
+        "costNote": "Massimo 15 minuti gratuiti; nessuna strategia processuale individuale o rappresentanza."
+      },
+      "rm": {
+        "description": "Infurmaziuns generalas neutralas davart famiglia, locaziun e lavur privata, en tudestg.",
+        "access": "Relaziun locala cun il district da Dietikon tenor la pagina e nagina procedura pendenta. Nagina cussegliaziun davart assicuranzas socialas.",
+        "costNote": "Maximalmain 15 minutas gratuitas; nagina strategia processuala individuala u represchentanza."
+      },
+      "en": {
+        "description": "Neutral general information on family, tenancy and private employment law, in German.",
+        "access": "Local connection to Dietikon district as defined on the website; no pending proceedings. No social insurance advice.",
+        "costNote": "Up to 15 minutes free; no individual litigation strategy or representation."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "pro-senectute-luzern-recht",
+    "name": "Pro Senectute Kanton Luzern – Rechtsauskunft",
+    "url": "https://lu.prosenectute.ch/de/beratung/recht/rechtsberatung.html",
+    "sourceUrl": "https://lu.prosenectute.ch/de/beratung/recht/rechtsberatung.html",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "LU"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste Orientierung durch regionale Anwältinnen und Anwälte für Menschen ab 60 Jahren.",
+        "access": "Wohnsitz im Kanton Luzern erforderlich. Voranmeldung unter 041 226 11 88.",
+        "costNote": "Höchstens 20 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Première orientation par des avocats régionaux pour les personnes de 60 ans et plus.",
+        "access": "Domicile dans le canton de Lucerne requis. Inscription au 041 226 11 88.",
+        "costNote": "20 minutes au maximum gratuites."
+      },
+      "it": {
+        "description": "Primo orientamento da avvocati regionali per persone dai 60 anni.",
+        "access": "Domicilio nel canton Lucerna richiesto. Iscrizione al 041 226 11 88.",
+        "costNote": "Massimo 20 minuti gratuiti."
+      },
+      "rm": {
+        "description": "Emprima orientaziun d’advocatas ed advocats regiunals per persunas a partir da 60 onns.",
+        "access": "Domicil en il chantun Lucerna necessari. Annunzia al 041 226 11 88.",
+        "costNote": "Maximalmain 20 minutas gratuitas."
+      },
+      "en": {
+        "description": "Initial guidance from local lawyers for people aged 60 and over.",
+        "access": "Canton Lucerne residency required. Book on 041 226 11 88.",
+        "costNote": "Up to 20 minutes free."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "mieterverband-schwyz",
+    "name": "Mieterinnen- und Mieterverband Kanton Schwyz",
+    "url": "https://www.mieterverband.ch/mv-sz/hilfe-von-fachleuten/unsere-dienstleistungen/telefonische-beratung/",
+    "sourceUrl": "https://www.mieterverband.ch/mv-sz/hilfe-von-fachleuten/unsere-dienstleistungen/telefonische-beratung/",
+    "topics": [
+      "home"
+    ],
+    "cantons": [
+      "SZ"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Telefonische Mietrechtsberatung für Mitglieder.",
+        "access": "Beratungskontakte nach Zahlung des Mitgliederbeitrags; Nichtmitglieder: kostenpflichtige MV-Hotline.",
+        "costNote": "Für Mitglieder bis 20 Minuten pro Fall enthalten; weitergehende Beratung kann zum Anwaltstarif kosten. Nichtmitglieder-Hotline CHF 4.40/Min."
+      },
+      "fr": {
+        "description": "Conseil téléphonique en droit du bail pour les membres.",
+        "access": "Contacts après paiement de la cotisation; non-membres: hotline MV payante.",
+        "costNote": "Jusqu’à 20 minutes par cas incluses pour les membres; suite possible au tarif d’avocat. Hotline non-membres CHF 4.40/min."
+      },
+      "it": {
+        "description": "Consulenza telefonica sul diritto di locazione per i soci.",
+        "access": "Contatti dopo il pagamento della quota; non soci: hotline MV a pagamento.",
+        "costNote": "Fino a 20 minuti per caso inclusi per i soci; consulenza ulteriore eventualmente a tariffa d’avvocato. Hotline non soci CHF 4.40/min."
+      },
+      "rm": {
+        "description": "Cussegliaziun al telefon davart il dretg da locaziun per commembers.",
+        "access": "Contacts suenter il pajament da la contribuziun; auters: hotline MV cunter pajament.",
+        "costNote": "Fin 20 minutas per cas inclusas per commembers; ulteriura cussegliaziun po custar tenor tariffa d’advocat. Hotline per auters CHF 4.40/min."
+      },
+      "en": {
+        "description": "Telephone tenancy advice for members.",
+        "access": "Advice contacts after membership payment; non-members: paid MV hotline.",
+        "costNote": "Up to 20 minutes per case included for members; further advice may be charged at lawyer rates. Non-member hotline CHF 4.40/min."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "csp-vaud",
+    "name": "CSP Vaud – Questions juridiques",
+    "url": "https://csp.ch/vaud/services/questions-juridiques/",
+    "sourceUrl": "https://csp.ch/vaud/services/questions-juridiques/",
+    "topics": [
+      "general",
+      "work",
+      "home",
+      "family",
+      "money",
+      "consumer",
+      "migration",
+      "social"
+    ],
+    "cantons": [
+      "VD"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsberatung zu Familie, Sozialleistungen, Aufenthalt und Alltagsverträgen; Vorrang für Menschen mit wenig Geld.",
+        "access": "Über die juristische Sprechstunde in Lausanne oder den Empfang anfragen. Keine Beratung zur selbstständigen Geschäftstätigkeit oder zum Strassenverkehr.",
+        "costNote": "Beratung kostenlos; Kapazität begrenzt."
+      },
+      "fr": {
+        "description": "Conseils sur la famille, les prestations sociales, le séjour et les contrats courants; priorité aux personnes aux ressources modestes.",
+        "access": "Passer par la permanence juridique à Lausanne ou contacter l’accueil. Pas de conseils liés à une activité indépendante ni à la circulation routière.",
+        "costNote": "Conseils gratuits; places limitées."
+      },
+      "it": {
+        "description": "Consulenza su famiglia, prestazioni sociali, soggiorno e contratti quotidiani; priorità alle persone con risorse modeste.",
+        "access": "Rivolgersi allo sportello giuridico di Losanna o alla ricezione. Escluse l’attività economica indipendente e la circolazione stradale.",
+        "costNote": "Consulenza gratuita; posti limitati."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart famiglia, prestaziuns socialas, dimora e contracts dal mintgadi; prioritad per persunas cun paucs meds.",
+        "access": "Sa drizzar a l'ura da consultaziun giuridica a Losanna u a la recepziun. Exclus èn l'activitad economica independenta ed il traffic stradal.",
+        "costNote": "Cussegliaziun gratuita; capacitad limitada."
+      },
+      "en": {
+        "description": "Advice on family, social benefits, residence and everyday contracts; priority for people with limited resources.",
+        "access": "Use the Lausanne legal drop-in or contact reception. Self-employed business matters and road traffic are excluded.",
+        "costNote": "Free advice; limited capacity."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "csp-geneve",
+    "name": "CSP Genève – Questions juridiques",
+    "url": "https://csp.ch/geneve/services/questions-juridiques/",
+    "sourceUrl": "https://justice.ge.ch/de/inhalt/juristische-bereitschaftsdienste-und-rechtsberatung",
+    "topics": [
+      "family",
+      "migration",
+      "social"
+    ],
+    "cantons": [
+      "GE"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung insbesondere zu Aufenthaltsrecht, Familie und Sozialversicherungen.",
+        "access": "Telefonische Anmeldung über die Sprechstunde; Rückruf durch eine juristische Fachperson. Zahl der Anfragen begrenzt.",
+        "costNote": "Beratung kostenlos."
+      },
+      "fr": {
+        "description": "Conseils notamment en droit des étrangers, de la famille et des assurances sociales.",
+        "access": "Inscription par la permanence téléphonique; un ou une juriste rappelle. Nombre de demandes limité.",
+        "costNote": "Conseils gratuits."
+      },
+      "it": {
+        "description": "Consulenza in particolare su soggiorno, famiglia e assicurazioni sociali.",
+        "access": "Iscrizione tramite lo sportello telefonico; un giurista richiama. Numero di richieste limitato.",
+        "costNote": "Consulenza gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziun surtut davart dimora, famiglia ed assicuranzas socialas.",
+        "access": "S'annunziar a la consultaziun telefonica; ina giurista u in giurist cloma enavos. Dumber limità da dumondas.",
+        "costNote": "Cussegliaziun gratuita."
+      },
+      "en": {
+        "description": "Advice particularly on immigration, family law and social insurance.",
+        "access": "Call during the telephone drop-in; a legal adviser calls back. Requests are limited.",
+        "costNote": "Free advice."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "csp-neuchatel",
+    "name": "CSP Neuchâtel – Questions juridiques",
+    "url": "https://csp.ch/neuchatel/services/questions-juridiques/",
+    "sourceUrl": "https://csp.ch/neuchatel/services/questions-juridiques/",
+    "topics": [
+      "general",
+      "work",
+      "home",
+      "family",
+      "money",
+      "consumer",
+      "migration",
+      "social"
+    ],
+    "cantons": [
+      "NE"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwaltliche Erstberatung für die Neuenburger Bevölkerung; bei Bedarf ist weitere Unterstützung möglich.",
+        "access": "Termin online für Neuchâtel oder La Chaux-de-Fonds buchen. Bei einer kurzen Frist vor der Buchung Kontakt aufnehmen.",
+        "costNote": "CHF 20 für höchstens 20 Minuten. Weitere Arbeit: CHF 180/Stunde, unter bestimmten Sozialleistungsbedingungen CHF 50/Stunde."
+      },
+      "fr": {
+        "description": "Premier conseil juridique à la population neuchâteloise; un suivi peut être proposé si nécessaire.",
+        "access": "Réserver en ligne à Neuchâtel ou à La Chaux-de-Fonds. En cas de délai court, contacter le service avant de réserver.",
+        "costNote": "CHF 20 pour 20 minutes maximum. Suivi: CHF 180/heure, ou CHF 50/heure pour certains bénéficiaires de prestations sociales."
+      },
+      "it": {
+        "description": "Prima consulenza legale per la popolazione neocastellana; possibile ulteriore assistenza.",
+        "access": "Prenotare online a Neuchâtel o La Chaux-de-Fonds. Se il termine è breve, contattare il servizio prima di prenotare.",
+        "costNote": "CHF 20 per un massimo di 20 minuti. Seguito: CHF 180/ora, oppure CHF 50/ora per determinati beneficiari di prestazioni sociali."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun giuridica per la populaziun da Neuchâtel; ulteriur sustegn è eventualmain pussaivel.",
+        "access": "Reservar online a Neuchâtel u La Chaux-de-Fonds. En cas d'in termin curt contactar il servetsch avant la reservaziun.",
+        "costNote": "CHF 20 per maximal 20 minutas. Ulteriura lavur: CHF 180/ura, u CHF 50/ura per tscherts retschaviders da prestaziuns socialas."
+      },
+      "en": {
+        "description": "Initial legal advice for Neuchâtel residents; further support may be available.",
+        "access": "Book online for Neuchâtel or La Chaux-de-Fonds. Contact the service first if a deadline is close.",
+        "costNote": "CHF 20 for up to 20 minutes. Further work: CHF 180/hour, or CHF 50/hour for certain social-benefit recipients."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "csp-berne-jura",
+    "name": "CSP Berne-Jura – Secteur juridique",
+    "url": "https://csp.ch/berne-jura/services/secteur-juridique/",
+    "sourceUrl": "https://csp.ch/berne-jura/services/secteur-juridique/",
+    "topics": [
+      "general",
+      "work",
+      "home",
+      "family",
+      "money",
+      "consumer",
+      "migration",
+      "social"
+    ],
+    "cantons": [
+      "BE",
+      "JU"
+    ],
+    "kind": "advice",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung zu Alltagsrecht sowie Asyl- und Aufenthaltsfragen für Menschen im Berner Jura, Jura und in Biel.",
+        "access": "Für einen Termin die Beratungsstelle kontaktieren; das Angebot richtet sich an die genannte Region.",
+        "costNote": "Kosten vorab klären; die Website bezeichnet die meisten Leistungen als kostenlos."
+      },
+      "fr": {
+        "description": "Conseils juridiques courants et en matière d’asile et de séjour pour les personnes du Jura bernois, du Jura et de Bienne.",
+        "access": "Contacter le service pour un rendez-vous; l’offre s’adresse à la région indiquée.",
+        "costNote": "Vérifier les frais au préalable; le site indique que la plupart des prestations sont gratuites."
+      },
+      "it": {
+        "description": "Consulenza giuridica quotidiana, d’asilo e di soggiorno per persone nel Giura bernese, nel Giura e a Bienne.",
+        "access": "Contattare il servizio per un appuntamento; l’offerta riguarda la regione indicata.",
+        "costNote": "Chiarire prima i costi; il sito indica che la maggior parte delle prestazioni è gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica dal mintgadi, d'asil e da dimora per persunas dal Giura bernais, dal Giura e da Bienna.",
+        "access": "Contactar il servetsch per in termin; la purschida sa drizza a la regiun inditgada.",
+        "costNote": "Sclerir ordavant ils custs; tenor la pagina èn las bleras prestaziuns gratuitas."
+      },
+      "en": {
+        "description": "Everyday legal, asylum and residence advice for people in the Bernese Jura, Jura and Biel/Bienne.",
+        "access": "Contact the service for an appointment; the service covers the stated region.",
+        "costNote": "Confirm costs first; the website says most services are free."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "oav-vaud",
+    "name": "Ordre des avocates et des avocats vaudois – Permanences",
+    "url": "https://oav.ch/home/permanences-juridiques/",
+    "sourceUrl": "https://oav.ch/home/permanences-juridiques/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "VD"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwaltliche Ersteinschätzung in allen Rechtsgebieten, persönlich, telefonisch oder schriftlich online.",
+        "access": "Termin über die Website buchen. Die Online-Antwort braucht mindestens 48 Stunden an Werktagen; nicht für dringende Fristen.",
+        "costNote": "CHF 50 pro Beratung; Gespräch bis 20 Minuten. Kein schriftliches Dokument aus dem Gespräch."
+      },
+      "fr": {
+        "description": "Premier avis d’un avocat dans tous les domaines, sur place, par téléphone ou par écrit en ligne.",
+        "access": "Réserver sur le site. La réponse en ligne nécessite au moins 48 heures ouvrables; ne convient pas aux délais urgents.",
+        "costNote": "CHF 50 par consultation; entretien de 20 minutes. Aucun document écrit remis après l’entretien."
+      },
+      "it": {
+        "description": "Primo parere di un avvocato in ogni ambito, in presenza, per telefono o per iscritto online.",
+        "access": "Prenotare sul sito. La risposta online richiede almeno 48 ore lavorative; non adatta a scadenze urgenti.",
+        "costNote": "CHF 50 per consulenza; colloquio di 20 minuti. Non viene consegnato un documento scritto dopo il colloquio."
+      },
+      "rm": {
+        "description": "Emprima valitaziun d'in advocat en tut ils champs dal dretg, al lieu, per telefon u en scrit online.",
+        "access": "Reservar sin la pagina. La resposta online dovra almain 48 uras da lavur; betg adattà per termins urgents.",
+        "costNote": "CHF 50 per consultaziun; discurs da 20 minutas. Nagina documentaziun scritta suenter il discurs."
+      },
+      "en": {
+        "description": "Initial advice from a lawyer across legal fields, in person, by telephone or in writing online.",
+        "access": "Book through the website. Online replies take at least 48 working hours; unsuitable for urgent deadlines.",
+        "costNote": "CHF 50 per consultation; 20-minute appointment. No written document is provided after the appointment."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "odage-geneve",
+    "name": "Ordre des avocats de Genève – Permanence",
+    "url": "https://odage.ch/fr/permanences-permanence-juridique",
+    "sourceUrl": "https://odage.ch/fr/permanences-permanence-juridique",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "GE"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste anwaltliche Orientierung, auch zu komplexeren Situationen und den nächsten Schritten.",
+        "access": "Persönliche oder telefonische Termine buchen; zusätzlich Online-Fragen und bestimmte Sprechzeiten ohne Termin.",
+        "costNote": "CHF 60 pro Beratung, Gespräch höchstens 45 Minuten."
+      },
+      "fr": {
+        "description": "Première orientation par un avocat, y compris pour une situation complexe et les démarches à entreprendre.",
+        "access": "Réserver un entretien sur place ou par téléphone; questions en ligne et certaines permanences sans rendez-vous.",
+        "costNote": "CHF 60 par consultation, entretien de 45 minutes maximum."
+      },
+      "it": {
+        "description": "Primo orientamento di un avvocato, anche per situazioni complesse e i passi successivi.",
+        "access": "Prenotare in presenza o per telefono; disponibili anche domande online e alcune fasce senza appuntamento.",
+        "costNote": "CHF 60 per consulenza, colloquio di massimo 45 minuti."
+      },
+      "rm": {
+        "description": "Emprima orientaziun d'in advocat, era per situaziuns cumplexas ed ils proxims pass.",
+        "access": "Reservar in discurs al lieu u per telefon; era dumondas online e tschertas uras senza termin.",
+        "costNote": "CHF 60 per consultaziun, discurs da maximal 45 minutas."
+      },
+      "en": {
+        "description": "Initial guidance from a lawyer, including on complex situations and next steps.",
+        "access": "Book in person or telephone advice; online questions and some drop-in appointments are also offered.",
+        "costNote": "CHF 60 per consultation, appointment up to 45 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "oan-neuchatel",
+    "name": "Ordre des avocates et des avocats neuchâtelois – Permanences",
+    "url": "https://www.oan.ch/permanences/permanences-hebdomadaires",
+    "sourceUrl": "https://www.oan.ch/permanences/permanences-hebdomadaires",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "NE"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze anwaltliche Beratung zum eigenen Problem und zum weiteren Vorgehen.",
+        "access": "Ausschliesslich mit Online-Termin in Neuchâtel oder La Chaux-de-Fonds; aktuelle Adresse im Buchungsangebot prüfen.",
+        "costNote": "CHF 30 für 15 Minuten; Zahlung bei der Buchung."
+      },
+      "fr": {
+        "description": "Bref conseil d’un avocat sur votre problème et la marche à suivre.",
+        "access": "Uniquement sur rendez-vous en ligne à Neuchâtel ou La Chaux-de-Fonds; vérifier l’adresse actuelle lors de la réservation.",
+        "costNote": "CHF 30 pour 15 minutes; paiement à la réservation."
+      },
+      "it": {
+        "description": "Breve consulenza di un avvocato sul problema e sui passi da compiere.",
+        "access": "Solo su appuntamento online a Neuchâtel o La Chaux-de-Fonds; verificare l’indirizzo attuale nella prenotazione.",
+        "costNote": "CHF 30 per 15 minuti; pagamento alla prenotazione."
+      },
+      "rm": {
+        "description": "Cussegliaziun curta d'in advocat davart il problem ed ils proxims pass.",
+        "access": "Mo cun termin online a Neuchâtel u La Chaux-de-Fonds; controllar l'adressa actuala tar la reservaziun.",
+        "costNote": "CHF 30 per 15 minutas; pajament tar la reservaziun."
+      },
+      "en": {
+        "description": "Brief advice from a lawyer on your problem and what to do next.",
+        "access": "Online appointment only, in Neuchâtel or La Chaux-de-Fonds; check the current address when booking.",
+        "costNote": "CHF 30 for 15 minutes; pay when booking."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "oaf-fribourg",
+    "name": "Ordre des avocats fribourgeois – Permanence juridique",
+    "url": "https://www.oaf.ch/fr/permanence-juridique/",
+    "sourceUrl": "https://www.oaf.ch/fr/permanence-juridique/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "FR"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwaltliche Erstberatung für allgemeine Rechtsfragen in Freiburg und Bulle.",
+        "access": "Ohne Termin während der Sprechzeiten vorbeigehen. Keine Rechtsauskunft per Telefon oder E-Mail.",
+        "costNote": "CHF 30 für 20 Minuten, bar oder per TWINT."
+      },
+      "fr": {
+        "description": "Premier conseil d’un avocat pour les questions juridiques générales à Fribourg et Bulle.",
+        "access": "Venir sans rendez-vous aux heures de permanence. Pas de conseil juridique par téléphone ou courriel.",
+        "costNote": "CHF 30 pour 20 minutes, en espèces ou par TWINT."
+      },
+      "it": {
+        "description": "Prima consulenza di un avvocato per questioni giuridiche generali a Friburgo e Bulle.",
+        "access": "Presentarsi senza appuntamento durante gli orari dello sportello. Nessuna consulenza per telefono o email.",
+        "costNote": "CHF 30 per 20 minuti, in contanti o con TWINT."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun d'in advocat per dumondas giuridicas generalas a Friburg e Bulle.",
+        "access": "Vegnir senza termin durant las uras da consultaziun. Nagina cussegliaziun per telefon u email.",
+        "costNote": "CHF 30 per 20 minutas, en daner blut u cun TWINT."
+      },
+      "en": {
+        "description": "Initial lawyer consultation for general legal questions in Fribourg and Bulle.",
+        "access": "Attend during drop-in hours without an appointment. No legal advice by telephone or email.",
+        "costNote": "CHF 30 for 20 minutes, cash or TWINT."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "oavs-valais",
+    "name": "Ordre des avocats valaisans – Permanences",
+    "url": "https://oavs.ch/permanences/",
+    "sourceUrl": "https://oavs.ch/permanences/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "VS"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze anwaltliche Orientierung in Sitten, Monthey und Visp.",
+        "access": "Ohne Termin während der Sprechzeiten. Keine telefonische Beratung; Ferien und Schliesszeiten auf der Website prüfen.",
+        "costNote": "CHF 20 für höchstens 20 Minuten."
+      },
+      "fr": {
+        "description": "Bref conseil d’un avocat à Sion, Monthey et Viège.",
+        "access": "Sans rendez-vous aux heures de permanence. Pas de consultation téléphonique; vérifier les vacances et fermetures sur le site.",
+        "costNote": "CHF 20 pour 20 minutes maximum."
+      },
+      "it": {
+        "description": "Breve orientamento di un avvocato a Sion, Monthey e Visp.",
+        "access": "Senza appuntamento negli orari dello sportello. Nessuna consulenza telefonica; verificare chiusure e ferie sul sito.",
+        "costNote": "CHF 20 per un massimo di 20 minuti."
+      },
+      "rm": {
+        "description": "Orientaziun curta d'in advocat a Sion, Monthey e Visp.",
+        "access": "Senza termin durant las uras da consultaziun. Nagina cussegliaziun telefonica; controllar las serradas sin la pagina.",
+        "costNote": "CHF 20 per maximal 20 minutas."
+      },
+      "en": {
+        "description": "Brief legal guidance from a lawyer in Sion, Monthey and Visp.",
+        "access": "Attend during drop-in hours without an appointment. No telephone advice; check holiday closures on the website.",
+        "costNote": "CHF 20 for up to 20 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "oati-ticino",
+    "name": "Ordine degli Avvocati del Cantone Ticino – Consulenza giuridica",
+    "url": "https://www.oati.ch/servizi/consulenza-giuridica/",
+    "sourceUrl": "https://www.oati.ch/servizi/consulenza-giuridica/",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "TI"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erste anwaltliche Beratung und Orientierung zu Verfahren an mehreren Orten im Tessin.",
+        "access": "Termin beim Sekretariat anfragen und erst nach Terminbestätigung bezahlen. Höchstens zweimal jährlich zu unterschiedlichen Fragen.",
+        "costNote": "CHF 30 für höchstens 30 Minuten; bei TWINT zusätzlich CHF 2."
+      },
+      "fr": {
+        "description": "Premier conseil d’un avocat et orientation sur les procédures dans plusieurs localités tessinoises.",
+        "access": "Demander un rendez-vous au secrétariat, puis payer après confirmation. Deux consultations par an au maximum, sur des questions différentes.",
+        "costNote": "CHF 30 pour 30 minutes maximum; supplément de CHF 2 avec TWINT."
+      },
+      "it": {
+        "description": "Prima consulenza di un avvocato e orientamento sulle procedure in diverse località del Ticino.",
+        "access": "Chiedere un appuntamento alla segreteria e pagare solo dopo la conferma. Massimo due consultazioni annue su questioni diverse.",
+        "costNote": "CHF 30 per un massimo di 30 minuti; CHF 2 aggiuntivi con TWINT."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun d'in advocat ed orientaziun davart proceduras en plirs lieus dal Tessin.",
+        "access": "Dumandar in termin al secretariat e pajar pir suenter la conferma. Maximal duas consultaziuns ad onn per dumondas differentas.",
+        "costNote": "CHF 30 per maximal 30 minutas; supplement da CHF 2 cun TWINT."
+      },
+      "en": {
+        "description": "Initial advice from a lawyer and procedural guidance at several locations in Ticino.",
+        "access": "Request an appointment from the secretariat and pay only after confirmation. Up to two consultations a year on different questions.",
+        "costNote": "CHF 30 for up to 30 minutes; CHF 2 extra for TWINT."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "grav-rechtsauskunft",
+    "name": "Bündnerischer Anwaltsverband – Rechtsauskunft",
+    "url": "https://www.grav.ch/rechtsauskunft",
+    "sourceUrl": "https://www.grav.ch/rechtsauskunft",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "GR"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kurze Rechtsauskunft in den Regionen Chur, Prättigau/Davos, Oberengadin und Surselva.",
+        "access": "Ohne Voranmeldung an den publizierten Terminen. Keine Rechtsauskunft am Telefon; die Beratungsadresse auf der Website prüfen.",
+        "costNote": "CHF 10 für ungefähr 15 Minuten."
+      },
+      "fr": {
+        "description": "Bref conseil juridique dans les régions de Coire, Prättigau/Davos, Haute-Engadine et Surselva.",
+        "access": "Sans inscription aux dates publiées. Pas de conseil par téléphone; vérifier le lieu de consultation sur le site.",
+        "costNote": "CHF 10 pour environ 15 minutes."
+      },
+      "it": {
+        "description": "Breve consulenza legale nelle regioni di Coira, Prettigovia/Davos, Alta Engadina e Surselva.",
+        "access": "Senza iscrizione nelle date pubblicate. Nessuna consulenza telefonica; verificare la sede sul sito.",
+        "costNote": "CHF 10 per circa 15 minuti."
+      },
+      "rm": {
+        "description": "Infurmaziun giuridica curta en las regiuns da Cuira, Partenz/Tavau, Engiadin'Ota e Surselva.",
+        "access": "Senza annunzia a las datas publitgadas. Nagina infurmaziun giuridica per telefon; controllar il lieu sin la pagina.",
+        "costNote": "CHF 10 per circa 15 minutas."
+      },
+      "en": {
+        "description": "Brief legal advice in the Chur, Prättigau/Davos, Upper Engadine and Surselva regions.",
+        "access": "No registration for published sessions. No telephone legal advice; check the consultation address on the website.",
+        "costNote": "CHF 10 for approximately 15 minutes."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "caritas-asyl-auslaenderrecht",
+    "name": "Caritas Schweiz – Rechtsberatung Asyl- und Ausländerrecht",
+    "url": "https://www.caritas.ch/de/rechtsberatung-asyl-und-auslaenderrecht/",
+    "sourceUrl": "https://www.caritas.ch/de/rechtsberatung-asyl-und-auslaenderrecht/",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "LU",
+      "NW",
+      "OW",
+      "SZ",
+      "UR",
+      "ZG",
+      "FR",
+      "JU",
+      "NE"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Hilfe bei Asylverfahren, Aufenthaltsfragen, Familiennachzug und Härtefällen.",
+        "access": "Die Beratungsstelle für den eigenen Kanton kontaktieren. Unterlagen mitnehmen und nötige Übersetzung vorab klären.",
+        "costNote": "Erstberatung kostenlos. Weitere Beratung und Mandate nach den Richtlinien von Caritas; Kosten vorab klären."
+      },
+      "fr": {
+        "description": "Aide pour les procédures d’asile, le séjour, le regroupement familial et les cas de rigueur.",
+        "access": "Contacter le bureau du canton concerné. Apporter les documents et prévoir une traduction si nécessaire.",
+        "costNote": "Premier conseil gratuit. Suivi et mandats selon les directives de Caritas; vérifier les frais au préalable."
+      },
+      "it": {
+        "description": "Aiuto per procedure d’asilo, soggiorno, ricongiungimento familiare e casi di rigore.",
+        "access": "Contattare l’ufficio competente per il proprio cantone. Portare i documenti e organizzare l’eventuale traduzione.",
+        "costNote": "Prima consulenza gratuita. Seguito e mandati secondo le direttive di Caritas; chiarire prima i costi."
+      },
+      "rm": {
+        "description": "Agid tar proceduras d'asil, dumondas da dimora, reuniun da la famiglia e cas da direzza.",
+        "access": "Contactar il post dal chantun pertutgà. Prender cun sai ils documents e sclerir ina translaziun necessaria.",
+        "costNote": "Emprima cussegliaziun gratuita. Ulteriura cussegliaziun e mandats tenor las directivas da Caritas; sclerir ordavant ils custs."
+      },
+      "en": {
+        "description": "Help with asylum procedures, residence, family reunification and hardship cases.",
+        "access": "Contact the office for your canton. Bring relevant documents and arrange any interpretation needed.",
+        "costNote": "First consultation free. Further advice and representation follow Caritas guidelines; confirm costs first."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "sfh-rechtsschutz-verzeichnis",
+    "name": "Schweizerische Flüchtlingshilfe – Rechtsschutz und Beratungsstellen",
+    "url": "https://www.fluechtlingshilfe.ch/hilfe-fuer-schutzsuchende/rechtsschutz",
+    "sourceUrl": "https://www.fluechtlingshilfe.ch/hilfe-fuer-schutzsuchende/rechtsschutz",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Verzeichnis unabhängiger Rechtsberatungsstellen nach Kanton und der Rechtsschutzstellen in Bundesasylzentren.",
+        "access": "Passende Stelle auswählen. Die SFH selbst bietet keine individuelle Fallberatung oder Vertretung.",
+        "costNote": "Verzeichnis frei zugänglich. Kostenloser Rechtsschutz hat Verfahrensgrenzen; Kosten weiterer Unterstützung mit der Stelle klären."
+      },
+      "fr": {
+        "description": "Répertoire des bureaux juridiques indépendants par canton et des services de protection juridique des centres fédéraux d’asile.",
+        "access": "Choisir le service compétent. L’OSAR ne conseille ni ne représente elle-même les cas individuels.",
+        "costNote": "Répertoire libre d’accès. La protection gratuite a des limites procédurales; vérifier les frais d’autres prestations auprès du service."
+      },
+      "it": {
+        "description": "Elenco degli uffici giuridici indipendenti per cantone e della protezione giuridica nei centri federali d’asilo.",
+        "access": "Scegliere il servizio competente. L’OSAR non offre direttamente consulenza o rappresentanza nei singoli casi.",
+        "costNote": "Elenco liberamente accessibile. La protezione gratuita ha limiti procedurali; verificare i costi di ulteriori prestazioni."
+      },
+      "rm": {
+        "description": "Glista dals posts independents da cussegliaziun giuridica tenor chantun e da protecziun giuridica en ils centers federals d'asil.",
+        "access": "Tscherner il post adattà. L'OSAR na porscha sezza nagina cussegliaziun u represchentanza per cas individuals.",
+        "costNote": "Glista accessibla gratuitamain. La protecziun gratuita ha limits da procedura; sclerir ils custs d'ulteriur agid cun il post."
+      },
+      "en": {
+        "description": "Directory of independent legal advice offices by canton and legal protection services in federal asylum centres.",
+        "access": "Choose the relevant service. The Swiss Refugee Council does not itself advise or represent individual cases.",
+        "costNote": "Directory freely accessible. Free legal protection has procedural limits; check other assistance costs with the provider."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "sos-ticino-consultorio",
+    "name": "SOS Ticino – Consultorio Giuridico",
+    "url": "https://www.sos-ti.ch/index.php/consultorio-giuridico",
+    "sourceUrl": "https://www.sos-ti.ch/index.php/consultorio-giuridico",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "TI"
+    ],
+    "kind": "advice",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Spezialisierte Beratung zu Migration, Aufenthalt und Asyl, unabhängig vom Aufenthaltsstatus.",
+        "access": "Die Beratungsstellen in Lugano oder Bellinzona kontaktieren und Zuständigkeit sowie Termin klären.",
+        "costNote": "Auf der Angebotsseite kein allgemeiner Tarif publiziert; Kosten vorab klären."
+      },
+      "fr": {
+        "description": "Conseils spécialisés en migration, séjour et asile, quel que soit le statut de séjour.",
+        "access": "Contacter les bureaux de Lugano ou Bellinzone pour vérifier la compétence et convenir d’un rendez-vous.",
+        "costNote": "Aucun tarif général publié sur la page du service; vérifier les frais au préalable."
+      },
+      "it": {
+        "description": "Consulenza specializzata in migrazione, soggiorno e asilo, indipendentemente dallo statuto di soggiorno.",
+        "access": "Contattare gli uffici di Lugano o Bellinzona per verificare la competenza e fissare un appuntamento.",
+        "costNote": "La pagina del servizio non pubblica una tariffa generale; chiarire prima i costi."
+      },
+      "rm": {
+        "description": "Cussegliaziun spezialisada davart migraziun, dimora ed asil, independentamain dal status da dimora.",
+        "access": "Contactar ils posts a Lugano u Bellinzona per sclerir la cumpetenza ed in termin.",
+        "costNote": "La pagina na publitgescha nagina tariffa generala; sclerir ordavant ils custs."
+      },
+      "en": {
+        "description": "Specialist advice on migration, residence and asylum, regardless of residence status.",
+        "access": "Contact the Lugano or Bellinzona offices to confirm eligibility and an appointment.",
+        "costNote": "No general tariff published on the service page; confirm costs first."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "asylgraubuenden",
+    "name": "Bündner Beratungsstelle für Asylsuchende",
+    "url": "https://www.asylgr.ch/",
+    "sourceUrl": "https://www.asylgr.ch/",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "GR"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung im Asylverfahren sowie zu Familiennachzug und Härtefallgesuchen; in begründeten Fällen Rechtsvertretung.",
+        "access": "Offene Sprechstunde in Chur oder Termin vereinbaren. Für zusätzliche Sprachen Übersetzung vorab organisieren.",
+        "costNote": "Beratung für Asylsuchende kostenlos; schriftliche Eingaben können kosten. Für anerkannte Flüchtlinge sind Leistungen in der Regel kostenpflichtig."
+      },
+      "fr": {
+        "description": "Conseils sur l’asile, le regroupement familial et les demandes pour cas de rigueur; représentation dans certains cas.",
+        "access": "Permanence à Coire ou rendez-vous. Organiser à l’avance une traduction pour les langues non proposées.",
+        "costNote": "Conseils gratuits pour les personnes requérantes d’asile; écrits parfois payants. Prestations généralement payantes pour les réfugiés reconnus."
+      },
+      "it": {
+        "description": "Consulenza su asilo, ricongiungimento familiare e domande per casi di rigore; rappresentanza in casi motivati.",
+        "access": "Sportello aperto a Coira o su appuntamento. Organizzare prima la traduzione per le altre lingue.",
+        "costNote": "Consulenza gratuita per richiedenti asilo; gli atti scritti possono costare. Prestazioni di regola a pagamento per rifugiati riconosciuti."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart asil, reuniun da la famiglia e dumondas per cas da direzza; represchentanza en cas motivads.",
+        "access": "Consultaziun averta a Cuira u cun termin. Organisar ordavant ina translaziun per ulteriuras linguas.",
+        "costNote": "Cussegliaziun gratuita per requirents d'asil; inoltraziuns scrittas pon custar. Prestaziuns per fugitivs renconuschids èn per regla pajantas."
+      },
+      "en": {
+        "description": "Advice on asylum, family reunification and hardship applications; representation in justified cases.",
+        "access": "Drop-in in Chur or arrange an appointment. Organise interpretation in advance for other languages.",
+        "costNote": "Advice free for asylum seekers; written submissions may cost. Services for recognised refugees are generally chargeable."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "asylex",
+    "name": "AsyLex",
+    "url": "https://asylex.org/contact/",
+    "sourceUrl": "https://asylex.org/contact/",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kostenlose Rechtsberatung für Menschen, die in der Schweiz Schutz suchen.",
+        "access": "Über das Kontaktformular die Situation kurz schildern und relevante Unterlagen einreichen. Keine garantierte sofortige Antwort.",
+        "costNote": "Beratung kostenlos."
+      },
+      "fr": {
+        "description": "Conseil juridique gratuit pour les personnes qui cherchent protection en Suisse.",
+        "access": "Décrire brièvement la situation et transmettre les documents utiles via le formulaire. Pas de réponse immédiate garantie.",
+        "costNote": "Conseils gratuits."
+      },
+      "it": {
+        "description": "Consulenza legale gratuita per persone che cercano protezione in Svizzera.",
+        "access": "Descrivere brevemente la situazione e inviare i documenti utili con il modulo. Nessuna risposta immediata garantita.",
+        "costNote": "Consulenza gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica gratuita per persunas che tschertgan protecziun en Svizra.",
+        "access": "Descriver curtamain la situaziun ed inoltrar ils documents relevants cun il formular. Nagina resposta immediata garantida.",
+        "costNote": "Cussegliaziun gratuita."
+      },
+      "en": {
+        "description": "Free legal advice for people seeking protection in Switzerland.",
+        "access": "Briefly describe your situation and submit relevant documents through the contact form. No guaranteed immediate reply.",
+        "costNote": "Free advice."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "fiz-menschenhandel",
+    "name": "FIZ – Opferschutz Menschenhandel",
+    "url": "https://www.fiz-info.ch/de/FIZ-Angebot/Opferschutz-Menschenhandel",
+    "sourceUrl": "https://www.fiz-info.ch/de/FIZ-Angebot/Opferschutz-Menschenhandel",
+    "topics": [
+      "violence",
+      "migration",
+      "work"
+    ],
+    "cantons": [
+      "AG",
+      "AI",
+      "AR",
+      "BE",
+      "BL",
+      "BS",
+      "FR",
+      "GL",
+      "GR",
+      "LU",
+      "NW",
+      "OW",
+      "SG",
+      "SH",
+      "SO",
+      "SZ",
+      "TG",
+      "UR",
+      "VS",
+      "ZG",
+      "ZH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Schutz und Beratung für Betroffene von Menschenhandel aller Geschlechter in der Deutschschweiz.",
+        "access": "FIZ direkt kontaktieren. Zugang je nach kantonaler Vereinbarung abklären; Kooperation mit Strafverfolgungsbehörden ist nicht erforderlich.",
+        "costNote": "Beratung vertraulich und kostenlos."
+      },
+      "fr": {
+        "description": "Protection et conseil aux victimes de traite de tout genre en Suisse alémanique.",
+        "access": "Contacter FIZ; vérifier l’accès selon l’accord cantonal. Aucune coopération avec les autorités pénales n’est requise.",
+        "costNote": "Conseil confidentiel et gratuit."
+      },
+      "it": {
+        "description": "Protezione e consulenza per vittime della tratta di ogni genere nella Svizzera tedesca.",
+        "access": "Contattare FIZ; verificare l’accesso secondo l’accordo cantonale. Non è richiesta collaborazione con le autorità penali.",
+        "costNote": "Consulenza riservata e gratuita."
+      },
+      "rm": {
+        "description": "Protecziun e cussegliaziun per victimas da commerzi cun umans da tut las schlattainas en la Svizra tudestga.",
+        "access": "Contactar FIZ; sclerir access tenor la cunvegna chantunala. Nagina cooperaziun cun autoritads penalas necessaria.",
+        "costNote": "Cussegliaziun confidenziala e gratuita."
+      },
+      "en": {
+        "description": "Protection and advice for trafficking survivors of all genders in German-speaking Switzerland.",
+        "access": "Contact FIZ; check access under the cantonal agreement. Cooperation with criminal authorities is not required.",
+        "costNote": "Confidential, free advice."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "ccsi-fribourg",
+    "name": "Centre de Contact Suisses-Immigrés Fribourg",
+    "url": "https://ccsi-fr.ch/",
+    "sourceUrl": "https://ccsi-fr.ch/",
+    "topics": [
+      "migration",
+      "family",
+      "health"
+    ],
+    "cantons": [
+      "FR"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung zu Aufenthalt und Familiennachzug sowie zu Heirat und Krankenversicherung ohne geregelten Aufenthalt; keine Asylverfahren.",
+        "access": "Für Personen mit Wohnsitz im Kanton Freiburg. Sprechstunden ohne Termin in Freiburg und Bulle; Wartelisten für neue Mandate möglich.",
+        "costNote": "CHF 20 pro Einzelberatung; Kosten weiterer Begleitung vorab klären."
+      },
+      "fr": {
+        "description": "Conseils sur le séjour et le regroupement familial, ainsi que le mariage et l’assurance maladie sans statut régulier; hors procédures d’asile.",
+        "access": "Pour les personnes résidant dans le canton de Fribourg. Consultations sans rendez-vous à Fribourg et Bulle; délais possibles pour les nouveaux mandats.",
+        "costNote": "CHF 20 par consultation unique; vérifier les frais d’un suivi."
+      },
+      "it": {
+        "description": "Consulenza su soggiorno e ricongiungimento familiare, oltre a matrimonio e assicurazione malattia senza soggiorno regolare; escluse le procedure d’asilo.",
+        "access": "Per residenti nel Canton Friburgo. Consultazioni senza appuntamento a Friburgo e Bulle; possibili attese per nuovi mandati.",
+        "costNote": "CHF 20 per singola consulenza; chiarire i costi dell’ulteriore assistenza."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart dimora e reuniun da la famiglia sco era maridaglia ed assicuranza da malsauns senza dimora reglada; naginas proceduras d'asil.",
+        "access": "Per persunas cun domicil en il chantun Friburg. Consultaziuns senza termin a Friburg e Bulle; spetgas per novs mandats èn pussaivlas.",
+        "costNote": "CHF 20 per consultaziun singula; sclerir ils custs d'ulteriura assistenza."
+      },
+      "en": {
+        "description": "Advice on residence and family reunification, plus marriage and health insurance without regular status; asylum procedures excluded.",
+        "access": "For residents of canton Fribourg. Drop-ins in Fribourg and Bulle; new representation may involve a waiting list.",
+        "costNote": "CHF 20 per single consultation; confirm further assistance costs."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "elisa-asile",
+    "name": "Association elisa-asile – Permanences juridiques",
+    "url": "https://www.elisa.ch/permanences",
+    "sourceUrl": "https://www.elisa.ch/permanences",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "GE"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung zu Asyl und Familiennachzug durch spezialisierte Fachpersonen und geschulte Freiwillige.",
+        "access": "Offene Sprechstunde im Foyer des Tattes in Vernier, begrenzte Plätze nach Reihenfolge. Keine Terminvergabe per Telefon oder E-Mail.",
+        "costNote": "Sprechstunde kostenlos."
+      },
+      "fr": {
+        "description": "Conseils en asile et regroupement familial par des spécialistes et des bénévoles formés.",
+        "access": "Permanence au foyer des Tattes à Vernier, places limitées par ordre d’arrivée. Aucun rendez-vous par téléphone ou courriel.",
+        "costNote": "Permanence gratuite."
+      },
+      "it": {
+        "description": "Consulenza su asilo e ricongiungimento familiare da specialisti e volontari formati.",
+        "access": "Sportello al foyer des Tattes a Vernier, posti limitati in ordine d’arrivo. Nessun appuntamento per telefono o email.",
+        "costNote": "Sportello gratuito."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart asil e reuniun da la famiglia tras spezialists e voluntaris scolads.",
+        "access": "Consultaziun averta al foyer des Tattes a Vernier, plazzas limitadas tenor l'arrivada. Nagins termins per telefon u email.",
+        "costNote": "Consultaziun gratuita."
+      },
+      "en": {
+        "description": "Asylum and family reunification advice from specialists and trained volunteers.",
+        "access": "Drop-in at Foyer des Tattes in Vernier, limited places in arrival order. No appointments by telephone or email.",
+        "costNote": "Free drop-in advice."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "sans-papiers-schweiz",
+    "name": "Plateforme sans-papiers Suisse – Beratungsstellen",
+    "url": "https://www.sans-papiers.ch/de",
+    "sourceUrl": "https://www.sans-papiers.ch/de",
+    "topics": [
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Regionale Anlaufstellen für Menschen ohne Aufenthaltsbewilligung.",
+        "access": "Region auswählen und die örtliche Beratungsstelle direkt kontaktieren.",
+        "costNote": "Verzeichnis frei zugänglich; Bedingungen und mögliche Kosten bei der gewählten Stelle prüfen."
+      },
+      "fr": {
+        "description": "Points de contact régionaux pour les personnes sans autorisation de séjour.",
+        "access": "Choisir la région et contacter directement le service local.",
+        "costNote": "Répertoire libre d’accès; vérifier conditions et frais éventuels auprès du service choisi."
+      },
+      "it": {
+        "description": "Sportelli regionali per persone senza permesso di soggiorno.",
+        "access": "Scegliere la regione e contattare direttamente il servizio locale.",
+        "costNote": "Elenco liberamente accessibile; verificare condizioni ed eventuali costi presso il servizio scelto."
+      },
+      "rm": {
+        "description": "Posts regiunals per persunas senza permissiun da dimora.",
+        "access": "Tscherner la regiun e contactar directamain il post local.",
+        "costNote": "Glista accessibla gratuitamain; controllar cundiziuns e custs eventuals tar il post tschernì."
+      },
+      "en": {
+        "description": "Regional support centres for people without a residence permit.",
+        "access": "Choose your region and contact the local service directly.",
+        "costNote": "Directory freely accessible; check eligibility and any charges with the selected provider."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "opferhilfe-schweiz",
+    "name": "Opferhilfe Schweiz",
+    "url": "https://www.opferhilfe-schweiz.ch/de/wo-finde-ich-hilfe/",
+    "sourceUrl": "https://www.opferhilfe-schweiz.ch/de/was-ist-opferhilfe/beratung/",
+    "topics": [
+      "violence",
+      "family"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kantonale Fachstellen für Menschen, die durch eine Straftat körperlich, psychisch oder sexuell beeinträchtigt wurden, und ihre Angehörigen.",
+        "access": "Beratungsstelle frei wählen, auch ausserhalb des Wohnkantons. Keine Strafanzeige nötig. Telefon 142 rund um die Uhr.",
+        "costNote": "Die Opferberatung ist kostenlos."
+      },
+      "en": {
+        "description": "Cantonal support services for people harmed physically, psychologically or sexually by a criminal offence, and their relatives.",
+        "access": "Choose any service, including outside your canton. No police report required. Call 142 at any time.",
+        "costNote": "Victim support advice is free."
+      },
+      "fr": {
+        "description": "Services cantonaux pour les personnes atteintes dans leur intégrité physique, psychique ou sexuelle par une infraction, ainsi que leurs proches.",
+        "access": "Libre choix du centre, aussi hors du canton de domicile. Une plainte pénale n’est pas nécessaire. Le 142 répond à toute heure.",
+        "costNote": "Les consultations d’aide aux victimes sont gratuites."
+      },
+      "it": {
+        "description": "Servizi cantonali per chi ha subito un danno fisico, psichico o sessuale a causa di un reato, e per i familiari.",
+        "access": "Libera scelta del centro, anche fuori dal cantone di domicilio. Non occorre una denuncia penale. Il 142 risponde a ogni ora.",
+        "costNote": "La consulenza alle vittime è gratuita."
+      },
+      "rm": {
+        "description": "Posts chantunals per persunas che han subì donns corporals, psichics u sexuals tras in delict, e per lur confamigliars.",
+        "access": "Ins po tscherner il post er ordaifer il chantun da domicil. Ina denunzia penala n’è betg necessaria. Il 142 è cuntanschibel da tut temp.",
+        "costNote": "La cussegliaziun per victimas è gratuita."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "inclusion-handicap",
+    "name": "Inclusion Handicap",
+    "url": "https://www.inclusion-handicap.ch/de/beratung/rechtsberatung",
+    "sourceUrl": "https://www.inclusion-handicap.ch/de/beratung/rechtsberatung",
+    "topics": [
+      "social",
+      "discrimination",
+      "work",
+      "health"
+    ],
+    "cantons": [
+      "AG",
+      "AI",
+      "AR",
+      "BE",
+      "BL",
+      "BS",
+      "FR",
+      "GE",
+      "GL",
+      "GR",
+      "JU",
+      "LU",
+      "NE",
+      "NW",
+      "OW",
+      "SG",
+      "SH",
+      "SO",
+      "SZ",
+      "TG",
+      "UR",
+      "VD",
+      "VS",
+      "ZG",
+      "ZH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsberatung zu Sozialversicherungen und Behindertengleichstellung für Menschen mit Behinderungen, Angehörige und Betreuungspersonen.",
+        "access": "Keine Mitgliedschaft nötig. Sozialversicherungsfragen telefonisch; Gleichstellungsfragen zuerst per E-Mail. Zuständigkeit nach Region und Sprache beachten.",
+        "costNote": "Beratung grundsätzlich kostenlos; bei Mandatsübernahme CHF 250 Spesenpauschale pro Jahr."
+      },
+      "en": {
+        "description": "Legal advice on social insurance and disability equality for disabled people, relatives and carers.",
+        "access": "No membership required. Social insurance enquiries by phone; equality enquiries initially by email. Check regional and language responsibilities.",
+        "costNote": "Advice is generally free; accepting a mandate entails an annual CHF 250 expenses charge."
+      },
+      "fr": {
+        "description": "Conseil juridique en assurances sociales et en égalité pour les personnes handicapées, leurs proches et les personnes qui les accompagnent.",
+        "access": "Aucune affiliation nécessaire. Assurances sociales par téléphone; égalité d’abord par courriel. Vérifier la compétence régionale et linguistique.",
+        "costNote": "Conseil en principe gratuit; forfait annuel de frais de CHF 250 en cas de prise en charge d’un mandat."
+      },
+      "it": {
+        "description": "Consulenza giuridica sulle assicurazioni sociali e sulla parità per persone con disabilità, familiari e persone di riferimento.",
+        "access": "Non occorre essere membri. Assicurazioni sociali per telefono; parità inizialmente via e-mail. Verificare competenza regionale e lingua.",
+        "costNote": "Consulenza di norma gratuita; in caso di assunzione di un mandato, forfait spese di CHF 250 all’anno."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica davart assicuranzas socialas ed egualitad per persunas cun impediments, confamigliars e persunas che las accumpognan.",
+        "access": "Ina commembranza n’è betg necessaria. Assicuranzas socialas per telefon; egualitad l’emprim per e-mail. Verifitgar regiun e lingua.",
+        "costNote": "La cussegliaziun è per regla gratuita; per in mandat vegn quintada ina pauschala da spaisas da CHF 250 ad onn."
+      }
+    },
+    "specificAudience": true,
+    "freeInitial": true
+  },
+  {
+    "id": "pro-infirmis",
+    "name": "Pro Infirmis",
+    "url": "https://www.proinfirmis.ch/",
+    "sourceUrl": "https://www.proinfirmis.ch/angebot/zuerich/sozialberatung-finanzielle-direkthilfe.html",
+    "topics": [
+      "social",
+      "money",
+      "home",
+      "work",
+      "health"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Sozialberatung für Menschen mit Behinderungen und ihre Angehörigen, auch zu Ansprüchen bei Sozialversicherungen und finanziellen Schwierigkeiten.",
+        "access": "Auf der Website den Kanton wählen. Das Beratungsangebot richtet sich grundsätzlich an Menschen bis zum AHV-Alter; regionale Zuständigkeit prüfen.",
+        "costNote": "Die Sozialberatung ist kostenlos."
+      },
+      "en": {
+        "description": "Social advice for disabled people and their families, including social insurance entitlements and financial difficulties.",
+        "access": "Choose your canton on the website. Generally for people below AHV retirement age; check local eligibility.",
+        "costNote": "Social advice is free."
+      },
+      "fr": {
+        "description": "Conseil social pour les personnes handicapées et leurs proches, notamment sur les assurances sociales et les difficultés financières.",
+        "access": "Choisir son canton sur le site. Offre généralement destinée aux personnes avant l’âge AVS; vérifier les conditions locales.",
+        "costNote": "Le conseil social est gratuit."
+      },
+      "it": {
+        "description": "Consulenza sociale per persone con disabilità e familiari, anche sui diritti nelle assicurazioni sociali e sulle difficoltà finanziarie.",
+        "access": "Selezionare il cantone sul sito. Offerta generalmente per persone prima dell’età AVS; verificare le condizioni regionali.",
+        "costNote": "La consulenza sociale è gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziun sociala per persunas cun impediments e lur confamigliars, er davart assicuranzas socialas e difficultads finanzialas.",
+        "access": "Tscherner il chantun sin la website. Per regla per persunas avant la vegliadetgna AVS; verifitgar las cundiziuns regiunalas.",
+        "costNote": "La cussegliaziun sociala è gratuita."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "procap",
+    "name": "Procap",
+    "url": "https://www.procap.ch/angebote/beratung-information/rechtsberatung/regionale-beratung/",
+    "sourceUrl": "https://www.procap.ch/angebote/beratung-information/rechtsberatung/regionale-beratung/informationen-fuer-nicht-mitglieder/",
+    "topics": [
+      "social",
+      "health"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung und Rechtsvertretung für Menschen mit Behinderungen bei IV und damit zusammenhängenden Sozialversicherungsfragen.",
+        "access": "Zuerst die regionale Procap-Beratungsstelle kontaktieren. Bedingungen und Kosten vor einer weitergehenden Bearbeitung klären.",
+        "costNote": "Telefonische Fragen, kurze schriftliche Auskünfte und regionale Rechtssprechstunden sind auch für Nichtmitglieder kostenlos. Weitere Beratung und Vertretung setzen grundsätzlich eine Mitgliedschaft voraus; für Neumitglieder können zusätzliche Kosten anfallen."
+      },
+      "en": {
+        "description": "Advice and legal representation for disabled people on disability insurance and related social insurance issues.",
+        "access": "Contact your regional Procap service first. Check conditions and costs before further work begins.",
+        "costNote": "Telephone enquiries, brief written information and consultations at regional legal clinics are free for non-members too. Further advice and representation generally require membership; new members may incur additional charges."
+      },
+      "fr": {
+        "description": "Conseil et représentation juridique pour les personnes handicapées concernant l’AI et les assurances sociales connexes.",
+        "access": "Contacter d’abord le service régional Procap. Clarifier les conditions et les frais avant une prise en charge approfondie.",
+        "costNote": "Les questions par téléphone, les renseignements écrits brefs et les consultations lors des permanences juridiques régionales sont gratuits aussi pour les non-membres. Le suivi et la représentation nécessitent en principe une affiliation; des frais supplémentaires peuvent être demandés aux nouveaux membres."
+      },
+      "it": {
+        "description": "Consulenza e rappresentanza giuridica per persone con disabilità su AI e assicurazioni sociali connesse.",
+        "access": "Contattare prima il servizio regionale Procap. Chiarire condizioni e costi prima di ulteriori prestazioni.",
+        "costNote": "Le domande telefoniche, le brevi informazioni scritte e i colloqui nelle permanenze giuridiche regionali sono gratuiti anche per i non membri. Ulteriore consulenza e rappresentanza richiedono in linea di principio l’adesione; per i nuovi membri possono esserci costi aggiuntivi."
+      },
+      "rm": {
+        "description": "Cussegliaziun e represchentanza giuridica per persunas cun impediments davart l’AI ed assicuranzas socialas colliadas.",
+        "access": "Contactar l’emprim il post regiunal da Procap. Sclerir cundiziuns e custs avant ulteriuras prestaziuns.",
+        "costNote": "Dumondas al telefon, curtas infurmaziuns scrittas e discurs en las uras da consultaziun giuridica regiunalas èn gratuits er per betg commembers. Ulteriura cussegliaziun e represchentanza premettan per regla ina commembranza; per novs commembers pon resultar custs supplementars."
+      }
+    },
+    "specificAudience": true,
+    "freeInitial": true
+  },
+  {
+    "id": "pro-mente-sana",
+    "name": "Pro Mente Sana",
+    "url": "https://promentesana.ch/angebote/beratung/beratung-fuer-betroffene-nahestehende",
+    "sourceUrl": "https://promentesana.ch/angebote/beratung/beratung-fuer-betroffene-nahestehende",
+    "topics": [
+      "health",
+      "social",
+      "work",
+      "home"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Juristische und psychosoziale Beratung für Menschen mit psychischer Beeinträchtigung sowie Angehörige und Nahestehende.",
+        "access": "Telefonisch oder über die e-Beratung. Bei Fristen anrufen: schriftliche Rechtsberatung kann länger dauern. Keine e-Beratung für akute Krisen.",
+        "costNote": "Beratung kostenlos; Anrufe zum normalen Telefontarif."
+      },
+      "en": {
+        "description": "Legal and psychosocial advice for people with mental health impairments and those close to them.",
+        "access": "Phone or online advice. Call if a deadline is approaching: written legal advice can take longer. Online advice is not for acute crises.",
+        "costNote": "Advice is free; normal telephone charges apply."
+      },
+      "fr": {
+        "description": "Conseil juridique et psychosocial pour les personnes ayant des troubles psychiques et leurs proches.",
+        "access": "Par téléphone ou conseil en ligne. En cas de délai, téléphoner: une réponse juridique écrite peut prendre plus de temps. Pas de conseil en ligne pour une crise aiguë.",
+        "costNote": "Conseil gratuit; appels au tarif téléphonique normal."
+      },
+      "it": {
+        "description": "Consulenza giuridica e psicosociale per persone con un disagio psichico e per i loro familiari e persone di riferimento.",
+        "access": "Per telefono o online. Se c’è una scadenza, telefonare: le risposte giuridiche scritte possono richiedere più tempo. Il servizio online non è adatto alle crisi acute.",
+        "costNote": "Consulenza gratuita; chiamate alla tariffa telefonica normale."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica e psicosociala per persunas cun difficultads psichicas e per lur confamigliars e persunas da confidenza.",
+        "access": "Per telefon u online. Sche termins curran, telefonar: respostas giuridicas scrittas pon durar pli ditg. La cussegliaziun online n’è betg per crisas acutas.",
+        "costNote": "La cussegliaziun è gratuita; per cloms vala la tariffa telefonica normala."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "pro-senectute",
+    "name": "Pro Senectute",
+    "url": "https://www.prosenectute.ch/de/dienstleistungen/beratung.html",
+    "sourceUrl": "https://www.prosenectute.ch/de/dienstleistungen/beratung.html",
+    "topics": [
+      "social",
+      "money",
+      "home",
+      "health",
+      "family"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Regionale Beratung für ältere Menschen und ihre Bezugspersonen zu Finanzen, Sozialversicherungen, Wohnen und persönlicher Vorsorge.",
+        "access": "Beratungsstelle in der Nähe auf der Website auswählen oder über die Infoline Kontakt aufnehmen.",
+        "costNote": "Sozialberatung kostenlos. Bedingungen zusätzlicher Dienstleistungen separat prüfen."
+      },
+      "en": {
+        "description": "Regional advice for older people and those close to them on finances, social insurance, housing and planning for the future.",
+        "access": "Choose a nearby service on the website or contact the information line.",
+        "costNote": "Social advice is free. Check conditions for additional services separately."
+      },
+      "fr": {
+        "description": "Conseil régional pour les personnes âgées et leurs proches sur les finances, les assurances sociales, le logement et les dispositions personnelles.",
+        "access": "Choisir un service proche sur le site ou contacter la ligne d’information.",
+        "costNote": "Conseil social gratuit. Vérifier séparément les conditions des prestations supplémentaires."
+      },
+      "it": {
+        "description": "Consulenza regionale per persone anziane e persone di riferimento su finanze, assicurazioni sociali, alloggio e disposizioni personali.",
+        "access": "Scegliere sul sito un servizio vicino oppure contattare la linea informativa.",
+        "costNote": "Consulenza sociale gratuita. Verificare separatamente le condizioni dei servizi aggiuntivi."
+      },
+      "rm": {
+        "description": "Cussegliaziun regiunala per persunas attempadas e lur persunas da confidenza davart finanzas, assicuranzas socialas, abitar e prevenziun persunala.",
+        "access": "Tscherner in post en vischinanza sin la website u contactar la lingia d’infurmaziun.",
+        "costNote": "La cussegliaziun sociala è gratuita. Verifitgar separadamain las cundiziuns da prestaziuns supplementaras."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "skos-anlaufstellen",
+    "name": "SKOS – Anlaufstellen für Betroffene",
+    "url": "https://skos.ch/dienstleistungen/anlaufstellen-fuer-betroffene",
+    "sourceUrl": "https://skos.ch/dienstleistungen/anlaufstellen-fuer-betroffene",
+    "topics": [
+      "social",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Verzeichnis privater und öffentlicher Beratungsstellen, Sozialdienste und Ombudsstellen für Menschen mit Sozialhilfefragen.",
+        "access": "Kanton und passendes Angebot auswählen. Die SKOS selbst berät Sozialhilfebeziehende nicht.",
+        "costNote": "Kosten hängen von der ausgewählten Stelle ab; das Verzeichnis nennt auch kostenlose Angebote."
+      },
+      "en": {
+        "description": "Directory of private and public advice services, social services and ombuds offices for social assistance issues.",
+        "access": "Choose your canton and a suitable service. SKOS itself does not advise social assistance recipients.",
+        "costNote": "Costs depend on the chosen service; the directory also lists free options."
+      },
+      "fr": {
+        "description": "Répertoire de services de conseil, de services sociaux et de médiation pour les questions d’aide sociale.",
+        "access": "Choisir le canton et un service adapté. La CSIAS ne conseille pas elle-même les bénéficiaires de l’aide sociale.",
+        "costNote": "Les coûts dépendent du service choisi; le répertoire indique aussi des offres gratuites."
+      },
+      "it": {
+        "description": "Elenco di servizi di consulenza pubblici e privati, servizi sociali e ombudsman per questioni di assistenza sociale.",
+        "access": "Selezionare il cantone e il servizio adatto. La COSAS non consiglia direttamente chi beneficia dell’assistenza sociale.",
+        "costNote": "I costi dipendono dal servizio scelto; l’elenco comprende anche offerte gratuite."
+      },
+      "rm": {
+        "description": "Register da posts da cussegliaziun privats e publics, servetschs socials e posts da mediaziun per dumondas davart l’agid social.",
+        "access": "Tscherner il chantun ed in post adattà. La COSAS na cusseglia betg sezza persunas che retiran agid social.",
+        "costNote": "Ils custs dependan dal post tschernì; il register numna er purschidas gratuitas."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "caritas-sozialberatung",
+    "name": "Caritas – Sozialberatung",
+    "url": "https://www.caritas.ch/de/sozialberatung/",
+    "sourceUrl": "https://www.caritas.ch/de/sozialberatung/",
+    "topics": [
+      "social",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Regionale Beratung und Begleitung für Menschen in finanziellen oder sozialen Notlagen. Hilfe beim Klären von Ansprüchen und nächsten Schritten.",
+        "access": "Über die Website die regionale Caritas-Organisation kontaktieren. Sozialberatung; eine rechtliche Vertretung ist damit nicht zugesichert.",
+        "costNote": "Die Caritas-Sozialberatung ist kostenlos."
+      },
+      "en": {
+        "description": "Regional support for people facing financial or social hardship, including help identifying entitlements and next steps.",
+        "access": "Contact your regional Caritas organisation through the website. Social advice does not guarantee legal representation.",
+        "costNote": "Caritas social advice is free."
+      },
+      "fr": {
+        "description": "Conseil et accompagnement régional pour les personnes en difficulté financière ou sociale, notamment pour clarifier leurs droits et les prochaines démarches.",
+        "access": "Contacter la Caritas régionale via le site. Le conseil social ne garantit pas une représentation juridique.",
+        "costNote": "Le conseil social de Caritas est gratuit."
+      },
+      "it": {
+        "description": "Consulenza e accompagnamento regionale per persone in difficoltà finanziaria o sociale, anche per chiarire diritti e prossimi passi.",
+        "access": "Contattare la Caritas regionale tramite il sito. La consulenza sociale non garantisce la rappresentanza giuridica.",
+        "costNote": "La consulenza sociale di Caritas è gratuita."
+      },
+      "rm": {
+        "description": "Cussegliaziun ed accumpagnament regiunal per persunas en difficultads finanzialas u socialas, er per sclerir dretgs e proxims pass.",
+        "access": "Contactar la Caritas regiunala sur la website. La cussegliaziun sociala na garantescha betg ina represchentanza giuridica.",
+        "costNote": "La cussegliaziun sociala da Caritas è gratuita."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "schuldenberatung-schweiz",
+    "name": "Schuldenberatung Schweiz",
+    "url": "https://schulden.ch/fachstellen/",
+    "sourceUrl": "https://schulden.ch/fachstellen/",
+    "topics": [
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Gemeinnützige Fachstellen für Schulden, Betreibungen, Lohnpfändungen, Sanierung und Privatkonkurs.",
+        "access": "An die Stelle in der eigenen Wohnregion wenden. Für die Romandie führt das Verzeichnis zu den französischsprachigen Fachstellen.",
+        "costNote": "Die Hotline 0800 708 708 ist gratis; Bedingungen der regionalen Fachstelle prüfen."
+      },
+      "en": {
+        "description": "Non-profit specialist services for debt, debt enforcement, wage attachment, debt restructuring and personal bankruptcy.",
+        "access": "Contact the service for your home region. The directory links to French-speaking services for western Switzerland.",
+        "costNote": "The 0800 708 708 helpline is free; check conditions at the regional service."
+      },
+      "fr": {
+        "description": "Services spécialisés à but non lucratif pour les dettes, les poursuites, les saisies de salaire, le désendettement et la faillite personnelle.",
+        "access": "Contacter le service de sa région de domicile. Le répertoire renvoie aussi aux services romands.",
+        "costNote": "La ligne 0800 708 708 est gratuite; vérifier les conditions du service régional."
+      },
+      "it": {
+        "description": "Servizi specializzati senza scopo di lucro per debiti, esecuzioni, pignoramento del salario, risanamento dei debiti e fallimento personale.",
+        "access": "Rivolgersi al servizio della propria regione. L’elenco rinvia anche ai servizi della Svizzera francese.",
+        "costNote": "La linea 0800 708 708 è gratuita; verificare le condizioni del servizio regionale."
+      },
+      "rm": {
+        "description": "Posts spezialisads senza intent da profit per debits, scussiuns, sequestraziun dal salari, sanaziun da debits e concurs privat.",
+        "access": "Contactar il post da l’atgna regiun da domicil. Il register renviescha er als posts da la Svizra franzosa.",
+        "costNote": "La lingia 0800 708 708 è gratuita; verifitgar las cundiziuns dal post regiunal."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "kinderombudsstelle",
+    "name": "Kinderombudsstelle Schweiz",
+    "url": "https://www.kinderombudsstelle.ch/",
+    "sourceUrl": "https://www.kinderombudsstelle.ch/lexikon",
+    "topics": [
+      "family",
+      "violence"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Erklärt Kindern und Jugendlichen ihre Rechte, bereitet sie auf Gespräche vor und vermittelt bei Schwierigkeiten mit Behörden und Fachpersonen.",
+        "access": "Kinder und Jugendliche können direkt Kontakt aufnehmen, etwa bei KESB-Verfahren, Platzierung, Trennung der Eltern oder Kontakt mit der Polizei.",
+        "costNote": "Gespräche sind kostenlos und vertraulich."
+      },
+      "en": {
+        "description": "Helps children and young people understand their rights, prepare for meetings and resolve difficulties with authorities and professionals.",
+        "access": "Children and young people can contact the service directly, for example about child protection proceedings, placements, parental separation or the police.",
+        "costNote": "Conversations are free and confidential."
+      },
+      "fr": {
+        "description": "Aide les enfants et les jeunes à comprendre leurs droits, prépare les entretiens et intervient lors de difficultés avec les autorités et les professionnels.",
+        "access": "Les enfants et les jeunes peuvent contacter directement le service, notamment pour une procédure de protection, un placement, la séparation des parents ou la police.",
+        "costNote": "Les entretiens sont gratuits et confidentiels."
+      },
+      "it": {
+        "description": "Aiuta bambini e giovani a capire i propri diritti, prepararsi ai colloqui e affrontare difficoltà con autorità e professionisti.",
+        "access": "Bambini e giovani possono rivolgersi direttamente al servizio, ad esempio per protezione dei minori, collocamento, separazione dei genitori o rapporti con la polizia.",
+        "costNote": "I colloqui sono gratuiti e confidenziali."
+      },
+      "rm": {
+        "description": "Gida uffants e giuvenils a chapir lur dretgs, sa preparar per discurs e schliar difficultads cun autoritads e persunas spezialisadas.",
+        "access": "Uffants e giuvenils pon contactar directamain il post, per exempel tar protecziun d’uffants, plazzament, separaziun dals geniturs u contact cun la polizia.",
+        "costNote": "Ils discurs èn gratuits e confidenzials."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "pro-juventute-147",
+    "name": "Pro Juventute – 147",
+    "url": "https://www.147.ch/",
+    "sourceUrl": "https://www.projuventute.ch/de/eltern/familie-gesellschaft/147",
+    "topics": [
+      "family",
+      "violence",
+      "work",
+      "health"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Vertrauliche Beratung und erste Orientierung für Kinder und Jugendliche; vermittelt bei Bedarf an passende Fachstellen.",
+        "access": "Telefon 147 rund um die Uhr; weitere Kontaktmöglichkeiten auf 147.ch. Allgemeine Jugendberatung, keine spezialisierte Rechtsvertretung.",
+        "costNote": "Die Beratung und Anrufe auf 147 sind kostenlos."
+      },
+      "en": {
+        "description": "Confidential support and initial guidance for children and young people, with referrals to suitable specialist services.",
+        "access": "Call 147 at any time; other contact options are on 147.ch. General youth support, not specialist legal representation.",
+        "costNote": "Advice and calls to 147 are free."
+      },
+      "fr": {
+        "description": "Écoute confidentielle et première orientation pour les enfants et les jeunes, avec orientation vers des services spécialisés.",
+        "access": "Le 147 répond à toute heure; autres moyens de contact sur 147.ch. Conseil général aux jeunes, pas de représentation juridique spécialisée.",
+        "costNote": "Les conseils et les appels au 147 sont gratuits."
+      },
+      "it": {
+        "description": "Ascolto confidenziale e primo orientamento per bambini e giovani, con rinvio a servizi specializzati quando necessario.",
+        "access": "Il 147 risponde a ogni ora; altri contatti su 147.ch. Consulenza generale per giovani, non rappresentanza giuridica specializzata.",
+        "costNote": "La consulenza e le chiamate al 147 sono gratuite."
+      },
+      "rm": {
+        "description": "Cussegliaziun confidenziala ed emprima orientaziun per uffants e giuvenils, cun renviament a posts spezialisads adattads.",
+        "access": "Il 147 è cuntanschibel da tut temp; ulteriurs contacts sin 147.ch. Cussegliaziun generala per giuvenils, betg represchentanza giuridica spezialisada.",
+        "costNote": "La cussegliaziun ed ils cloms al 147 èn gratuits."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "konsumentenschutz",
+    "name": "Stiftung für Konsumentenschutz",
+    "url": "https://www.konsumentenschutz.ch/beratung/persoenliche-beratung/",
+    "sourceUrl": "https://www.konsumentenschutz.ch/beratung/persoenliche-beratung/",
+    "topics": [
+      "consumer"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Telefonische Beratung bei Problemen mit Käufen, Verträgen und anderen Konsumfragen.",
+        "access": "Rückruf online buchen und Unterlagen bereithalten. Beratung auf Deutsch und Rückruf nur auf Schweizer Telefonnummern; keine schriftliche Beratung.",
+        "costNote": "Für Gönnerinnen und Gönner kostenlos, bis 20 Minuten. Sonst CHF 25 bis 8 Minuten, CHF 45 bis 15 Minuten, CHF 60 ab 16 Minuten."
+      },
+      "en": {
+        "description": "Telephone advice on purchases, contracts and other consumer issues.",
+        "access": "Book a callback online and have your documents ready. Advice in German, callbacks to Swiss numbers only; no written advice.",
+        "costNote": "Free for supporters, up to 20 minutes. Otherwise CHF 25 up to 8 minutes, CHF 45 up to 15 minutes, CHF 60 from 16 minutes."
+      },
+      "fr": {
+        "description": "Conseil téléphonique sur les achats, les contrats et d’autres questions de consommation.",
+        "access": "Réserver un rappel en ligne et préparer ses documents. Conseil en allemand, rappels uniquement sur des numéros suisses; pas de conseil écrit.",
+        "costNote": "Gratuit pour les donateurs, jusqu’à 20 minutes. Sinon CHF 25 jusqu’à 8 minutes, CHF 45 jusqu’à 15 minutes, CHF 60 dès 16 minutes."
+      },
+      "it": {
+        "description": "Consulenza telefonica su acquisti, contratti e altre questioni di consumo.",
+        "access": "Prenotare una richiamata online e preparare i documenti. Consulenza in tedesco, richiamate solo a numeri svizzeri; nessuna consulenza scritta.",
+        "costNote": "Gratuita per sostenitori, fino a 20 minuti. Altrimenti CHF 25 fino a 8 minuti, CHF 45 fino a 15 minuti, CHF 60 da 16 minuti."
+      },
+      "rm": {
+        "description": "Cussegliaziun telefonica davart cumpra, contracts ed autras dumondas da consum.",
+        "access": "Reservar online in telefon da resposta e preparar ils documents. Cussegliaziun per tudestg e cloms mo sin numers svizzers; nagina cussegliaziun scritta.",
+        "costNote": "Gratuit per donaturs, fin 20 minutas. Uschiglio CHF 25 fin 8 minutas, CHF 45 fin 15 minutas, CHF 60 a partir da 16 minutas."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "frc-conseil",
+    "name": "Fédération romande des consommateurs (FRC)",
+    "url": "https://www.frc.ch/aide",
+    "sourceUrl": "https://www.frc.ch/aide",
+    "topics": [
+      "consumer"
+    ],
+    "cantons": [
+      "BE",
+      "FR",
+      "GE",
+      "JU",
+      "NE",
+      "VD",
+      "VS"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Konsumentenberatung in der Romandie zu Problemen mit Waren, Dienstleistungen und Verträgen.",
+        "access": "Anfrage über die Website einreichen. Die persönliche schriftliche Antwort für Mitglieder erfolgt laut Anbieter innert höchstens zehn Arbeitstagen.",
+        "costNote": "Eine erste Auskunft auch ohne Mitgliedschaft kostenlos. Persönliche schriftliche Rechtsberatung als Mitgliederleistung; Mitgliedschaft CHF 90 pro Jahr."
+      },
+      "en": {
+        "description": "Consumer advice in French-speaking Switzerland on goods, services and contracts.",
+        "access": "Submit your enquiry online. The provider states that members receive a personalised written reply within ten working days.",
+        "costNote": "First guidance free even without membership. Personalised written legal advice is a member benefit; membership CHF 90/year."
+      },
+      "fr": {
+        "description": "Conseil aux consommateurs en Suisse romande sur les biens, les services et les contrats.",
+        "access": "Adresser sa demande sur le site. Selon la FRC, les membres reçoivent une réponse écrite personnalisée dans les dix jours ouvrables au maximum.",
+        "costNote": "Premier conseil gratuit même sans affiliation. Conseil juridique écrit personnalisé pour les membres; cotisation CHF 90 par an."
+      },
+      "it": {
+        "description": "Consulenza ai consumatori della Svizzera francese su beni, servizi e contratti.",
+        "access": "Inviare la richiesta sul sito. Il servizio indica una risposta scritta personalizzata per i membri entro dieci giorni lavorativi.",
+        "costNote": "Primo consiglio gratuito anche senza adesione. Consulenza giuridica scritta personalizzata per i membri; quota CHF 90 all’anno."
+      },
+      "rm": {
+        "description": "Cussegliaziun da consum en la Svizra franzosa davart bains, servetschs e contracts.",
+        "access": "Trametter la dumonda sur la website. Tenor la FRC survegnan commembers ina resposta scritta persunala entaifer maximalmain diesch dis da lavur.",
+        "costNote": "Emprim cussegl gratuit er senza commembranza. Cussegliaziun giuridica scritta persunala per commembers; contribuziun CHF 90 ad onn."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "unia-rechtsschutz",
+    "name": "Unia – Rechtsberatung und Rechtsschutz",
+    "url": "https://unia.ch/de/mitglieder/deine-vorteile/rechtsschutz",
+    "sourceUrl": "https://unia.ch/de/mitglieder/deine-vorteile/rechtsschutz",
+    "topics": [
+      "work",
+      "social",
+      "discrimination",
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Beratung zu Arbeitsverhältnissen und damit verbundenen Sozialversicherungsstreitigkeiten, Diskriminierung sowie Aufenthaltsbewilligung und Familiennachzug.",
+        "access": "Mitgliedschaft und Deckung mit dem regionalen Unia-Büro klären. Ein heutiger Beitritt garantiert keinen Rechtsschutz für einen bestehenden Konflikt.",
+        "costNote": "Mitgliederangebot. Rechtsschutz setzt unter anderem mindestens drei Monate Mitgliedschaft vor dem Ereignis voraus; Reglement beachten."
+      },
+      "en": {
+        "description": "Advice on employment and related social insurance disputes, discrimination, residence permits and family reunification.",
+        "access": "Check membership and cover with your regional Unia office. Joining today does not guarantee cover for an existing dispute.",
+        "costNote": "Member service. Legal protection requires, among other conditions, at least three months of membership before the event; check the rules."
+      },
+      "fr": {
+        "description": "Conseil sur les rapports de travail et les assurances sociales connexes, la discrimination, le séjour et le regroupement familial.",
+        "access": "Vérifier l’affiliation et la couverture auprès du bureau régional Unia. Une adhésion actuelle ne garantit pas la couverture d’un conflit déjà existant.",
+        "costNote": "Prestation pour membres. La protection juridique exige notamment trois mois d’affiliation avant l’événement; consulter le règlement."
+      },
+      "it": {
+        "description": "Consulenza sul lavoro e sulle assicurazioni sociali connesse, sulla discriminazione, sui permessi di soggiorno e sul ricongiungimento familiare.",
+        "access": "Chiarire adesione e copertura con l’ufficio regionale Unia. Aderire oggi non garantisce copertura per un conflitto già esistente.",
+        "costNote": "Servizio per membri. La protezione giuridica richiede tra l’altro almeno tre mesi di adesione prima dell’evento; consultare il regolamento."
+      },
+      "rm": {
+        "description": "Cussegliaziun davart lavur ed assicuranzas socialas colliadas, discriminaziun, permissiuns da dimora e reuniun da la famiglia.",
+        "access": "Sclerir commembranza e protecziun cun il biro regiunal da Unia. In’adesiun dad oz na garantescha betg protecziun per in conflict existent.",
+        "costNote": "Purschida per commembers. La protecziun giuridica pretenda tranter auter almain trais mais da commembranza avant l’eveniment; consultar il reglament."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "bankenombudsman",
+    "name": "Schweizerischer Bankenombudsman",
+    "url": "https://bankingombudsman.ch/beschwerde/haeufige-fragen-faq/",
+    "sourceUrl": "https://bankingombudsman.ch/beschwerde/haeufige-fragen-faq/",
+    "topics": [
+      "money",
+      "consumer"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "mediation",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Neutrale Vermittlung bei Beschwerden über angeschlossene Banken und Finanzunternehmen. Keine persönliche Rechtsvertretung.",
+        "access": "Zuerst schriftlich bei der Direktion oder Beschwerdestelle des Finanzunternehmens reklamieren; konkrete Forderung und Begründung beilegen.",
+        "costNote": "Das Vermittlungsverfahren ist für Kundinnen und Kunden grundsätzlich kostenlos."
+      },
+      "en": {
+        "description": "Neutral mediation for complaints about affiliated banks and financial companies. No personal legal representation.",
+        "access": "First complain in writing to the company's management or complaints office, setting out a specific claim and reasons.",
+        "costNote": "Mediation is generally free for customers."
+      },
+      "fr": {
+        "description": "Médiation neutre pour les réclamations concernant les banques et entreprises financières affiliées. Pas de représentation juridique personnelle.",
+        "access": "Réclamer d’abord par écrit auprès de la direction ou du service des réclamations, avec une demande précise et motivée.",
+        "costNote": "La médiation est en principe gratuite pour la clientèle."
+      },
+      "it": {
+        "description": "Mediazione neutrale per reclami verso banche e imprese finanziarie affiliate. Nessuna rappresentanza giuridica personale.",
+        "access": "Reclamare prima per iscritto alla direzione o al servizio reclami dell’impresa, con una richiesta concreta e motivata.",
+        "costNote": "La mediazione è di norma gratuita per i clienti."
+      },
+      "rm": {
+        "description": "Mediaziun neutrala per reclamaziuns envers bancas ed interpresas finanzialas affiliadas. Nagina represchentanza giuridica persunala.",
+        "access": "Reclamar l’emprim per scrit tar la direcziun u il post da reclamaziuns, cun ina pretensiun concreta e motivada.",
+        "costNote": "La mediaziun è per regla gratuita per la clientella."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "versicherungsombudsman",
+    "name": "Ombudsman der Privatversicherung und der Suva",
+    "url": "https://versicherungsombudsman.ch/",
+    "sourceUrl": "https://ombudsman-assurance.ch/",
+    "topics": [
+      "money",
+      "health",
+      "social"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "mediation",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Neutrale aussergerichtliche Vermittlung in Streitigkeiten mit Privatversicherern und der Suva; Zuständigkeit im Einzelfall prüfen.",
+        "access": "Schriftlich dokumentierten Streit einreichen. Keine allgemeine Rechtsberatung, keine Krankenkassen-, AHV-, IV- oder EO-Fälle; keine Prüfung angefochtener UVG-Verfügungen oder gerichtlicher Streitigkeiten.",
+        "costNote": "Die Vermittlung ist kostenlos."
+      },
+      "en": {
+        "description": "Neutral out-of-court mediation in disputes with private insurers and Suva; check whether your case falls within its remit.",
+        "access": "Submit a documented written dispute. No general legal advice, health-insurer, AHV, IV or EO cases; no review of contested UVG decisions or court disputes.",
+        "costNote": "Mediation is free."
+      },
+      "fr": {
+        "description": "Médiation extrajudiciaire neutre lors de conflits avec les assureurs privés et la Suva; compétence à vérifier selon le cas.",
+        "access": "Présenter un litige documenté par écrit. Pas de conseil juridique général, de dossiers de caisses-maladie, AVS, AI ou APG, ni d’examen de décisions LAA contestées ou de litiges judiciaires.",
+        "costNote": "La médiation est gratuite."
+      },
+      "it": {
+        "description": "Mediazione extragiudiziale neutrale nei conflitti con assicurazioni private e Suva; verificare la competenza per il caso concreto.",
+        "access": "Presentare un conflitto documentato per iscritto. Non tratta consulenza giuridica generale, casse malati, AVS, AI, IPG, decisioni LAINF contestate o controversie giudiziarie.",
+        "costNote": "La mediazione è gratuita."
+      },
+      "rm": {
+        "description": "Mediaziun neutrala ordaifer la dretgira tar conflicts cun assicuranzas privatas e la Suva; verifitgar la cumpetenza per il cas.",
+        "access": "Preschentar il conflict documentà per scrit. Nagina cussegliaziun giuridica generala, nagins cas da cassas da malsauns, AVS, AI, IPG, decisiuns LAINF contestadas u conflicts davant dretgira.",
+        "costNote": "La mediaziun è gratuita."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "ombudscom",
+    "name": "ombudscom – Schlichtungsstelle Telekommunikation",
+    "url": "https://ombudscom.ch/",
+    "sourceUrl": "https://ombudscom.ch/",
+    "topics": [
+      "consumer",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "mediation",
+    "cost": "paid",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Vermittelt bei strittigen Telefon- und Internetrechnungen, unerwünschten Verträgen und über den Telekom-Anbieter verrechneten Mehrwertdiensten.",
+        "access": "Zuerst eine Einigung mit dem Anbieter versuchen. Letzter Kontakt höchstens zwölf Monate her; kein Gericht darf sich mit derselben Sache befassen oder befasst haben.",
+        "costNote": "Bearbeitungsgebühr für ein Schlichtungsbegehren: CHF 20."
+      },
+      "en": {
+        "description": "Mediation for disputed phone and internet bills, unwanted contracts and premium services billed through telecom providers.",
+        "access": "First try to resolve matters with the provider. Last contact within twelve months; no court may be handling or have handled the same dispute.",
+        "costNote": "Processing fee for a mediation request: CHF 20."
+      },
+      "fr": {
+        "description": "Médiation pour les factures de téléphone ou d’internet contestées, les contrats non souhaités et les services à valeur ajoutée facturés par l’opérateur.",
+        "access": "Tenter d’abord un accord avec l’opérateur. Dernier contact datant de douze mois au maximum; aucun tribunal ne doit traiter ou avoir traité la même affaire.",
+        "costNote": "Frais de traitement d’une demande de conciliation: CHF 20."
+      },
+      "it": {
+        "description": "Mediazione per fatture telefoniche o internet contestate, contratti non voluti e servizi a valore aggiunto fatturati dall’operatore.",
+        "access": "Tentare prima un accordo con l’operatore. Ultimo contatto entro dodici mesi; nessun tribunale deve occuparsi o essersi occupato della stessa controversia.",
+        "costNote": "Spese per una domanda di conciliazione: CHF 20."
+      },
+      "rm": {
+        "description": "Mediaziun per quints da telefon ed internet contestads, contracts betg giavischads e servetschs supplementars quintads sur l’operatur.",
+        "access": "Empruvar l’emprim da chattar ina cunvegna cun l’operatur. Ultim contact avant maximalmain dudesch mais; nagina dretgira dastga tractar u avair tractà il medem cas.",
+        "costNote": "Taxa per ina dumonda da mediaziun: CHF 20."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "ombudsstelle-krankenversicherung",
+    "name": "Ombudsstelle Krankenversicherung",
+    "url": "https://www.om-kv.ch/",
+    "sourceUrl": "https://www.konsum.admin.ch/de/streitbeilegung",
+    "topics": [
+      "health",
+      "social",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "mediation",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Vermittlung bei Problemen mit der obligatorischen Krankenpflegeversicherung und den von Krankenkassen betriebenen Zusatzversicherungen.",
+        "access": "Für einen Konflikt mit der Krankenkasse die Ombudsstelle kontaktieren. Eine Vermittlung ersetzt keine fristgerechte Einsprache.",
+        "costNote": "Die Vermittlung ist kostenlos."
+      },
+      "en": {
+        "description": "Mediation for problems with compulsory health insurance and supplementary insurance offered by health insurers.",
+        "access": "Contact the ombuds office about a dispute with your health insurer. Mediation does not replace filing an objection on time.",
+        "costNote": "Mediation is free."
+      },
+      "fr": {
+        "description": "Médiation pour les problèmes d’assurance obligatoire des soins et d’assurances complémentaires proposées par les caisses-maladie.",
+        "access": "Contacter l’ombudsman pour un conflit avec sa caisse-maladie. La médiation ne remplace pas une opposition déposée dans les délais.",
+        "costNote": "La médiation est gratuite."
+      },
+      "it": {
+        "description": "Mediazione per problemi con l’assicurazione obbligatoria delle cure e le assicurazioni complementari offerte dalle casse malati.",
+        "access": "Contattare l’ombudsman in caso di conflitto con la cassa malati. La mediazione non sostituisce un’opposizione presentata nei termini.",
+        "costNote": "La mediazione è gratuita."
+      },
+      "rm": {
+        "description": "Mediaziun per problems cun l’assicuranza obligatorica da malsauns e las assicuranzas supplementaras da las cassas da malsauns.",
+        "access": "Contactar il post da mediaziun tar in conflict cun la cassa da malsauns. La mediaziun na remplazza betg in’opposiziun entaifer il termin.",
+        "costNote": "La mediaziun è gratuita."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "pensionskassen-auskuenfte",
+    "name": "Verein Kostenlose Pensionskassen-Auskünfte",
+    "url": "https://www.kostenlose-auskuenfte.ch/",
+    "sourceUrl": "https://www.kostenlose-auskuenfte.ch/",
+    "topics": [
+      "social",
+      "money",
+      "work"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Unabhängige Auskünfte zu Pensionskasse und beruflicher Vorsorge sowie damit verbundenen Sozialversicherungsfragen.",
+        "access": "Aktuellen Auskunftstermin auf der Website wählen: an einem Standort oder per Telefon beziehungsweise Video. Keine laufende Rechtsvertretung zugesichert.",
+        "costNote": "Die Auskünfte sind kostenlos."
+      },
+      "en": {
+        "description": "Independent guidance on occupational pensions and related social insurance questions.",
+        "access": "Choose a current consultation date online: at a location or by phone or video. Ongoing legal representation is not guaranteed.",
+        "costNote": "Guidance is free."
+      },
+      "fr": {
+        "description": "Renseignements indépendants sur la caisse de pension, la prévoyance professionnelle et les assurances sociales connexes.",
+        "access": "Choisir une date de consultation sur le site: sur place, par téléphone ou par vidéo. Aucune représentation juridique durable n’est garantie.",
+        "costNote": "Les renseignements sont gratuits."
+      },
+      "it": {
+        "description": "Informazioni indipendenti sulla cassa pensioni, la previdenza professionale e le assicurazioni sociali connesse.",
+        "access": "Scegliere sul sito una data di consulenza: in una sede, per telefono o in video. Nessuna garanzia di rappresentanza giuridica continuativa.",
+        "costNote": "Le informazioni sono gratuite."
+      },
+      "rm": {
+        "description": "Infurmaziuns independentas davart la cassa da pensiun, la prevenziun professiunala e las assicuranzas socialas colliadas.",
+        "access": "Tscherner ina data actuala sin la website: en in lieu, per telefon u per video. Nagina represchentanza giuridica cuntinuanta garantida.",
+        "costNote": "Las infurmaziuns èn gratuitas."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "beratungsnetz-rassismus",
+    "name": "Beratungsnetz für Rassismusopfer",
+    "url": "https://www.network-racism.ch/beratungsstellen",
+    "sourceUrl": "https://www.network-racism.ch/beratungsstellen",
+    "topics": [
+      "discrimination",
+      "work",
+      "home",
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Kantonale und schweizweite Fachstellen bei rassistischer Diskriminierung, darunter spezialisierte Rechtsberatungsangebote.",
+        "access": "Über Kanton oder Anliegen die passende Stelle suchen. Das Netzwerk ist ein Verzeichnis; die Beratung erfolgt durch die einzelnen Fachstellen.",
+        "costNote": "Kosten und Umfang bei der gewählten Fachstelle prüfen."
+      },
+      "en": {
+        "description": "Cantonal and national services for racial discrimination, including specialist legal advice.",
+        "access": "Search by canton or issue. The network is a directory; individual services provide the advice.",
+        "costNote": "Check costs and scope with the chosen service."
+      },
+      "fr": {
+        "description": "Services cantonaux et nationaux contre la discrimination raciale, comprenant des offres de conseil juridique spécialisé.",
+        "access": "Chercher par canton ou par problème. Le réseau est un répertoire; les services individuels assurent les consultations.",
+        "costNote": "Vérifier les coûts et l’étendue de l’offre auprès du service choisi."
+      },
+      "it": {
+        "description": "Servizi cantonali e nazionali contro la discriminazione razziale, incluse offerte di consulenza giuridica specializzata.",
+        "access": "Cercare per cantone o problema. La rete è un elenco; la consulenza è fornita dai singoli servizi.",
+        "costNote": "Verificare costi e prestazioni con il servizio scelto."
+      },
+      "rm": {
+        "description": "Posts chantunals e naziunals cunter discriminaziun razziala, inclusiv purschidas da cussegliaziun giuridica spezialisada.",
+        "access": "Tschertgar tenor chantun u problem. La rait è in register; ils singuls posts porschan la cussegliaziun.",
+        "costNote": "Verifitgar custs e prestaziuns tar il post tschernì."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "gleichstellungsstellen",
+    "name": "Öffentliche Gleichstellungsstellen – SKG",
+    "url": "https://www.equality.ch/d/Mitglieder.htm",
+    "sourceUrl": "https://www.equality.ch/d/Mitglieder.htm",
+    "topics": [
+      "discrimination",
+      "work",
+      "family"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "unknown",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Verzeichnis der öffentlichen Gleichstellungsstellen von Bund, Kantonen und Städten; Einstieg bei Fragen zur Gleichstellung der Geschlechter.",
+        "access": "Direkt die Fachstelle des Kantons oder der Stadt kontaktieren. Nicht jede Stelle bietet individuelle Rechtsberatung oder Vertretung.",
+        "costNote": "Angebot und allfällige Kosten bei der zuständigen Stelle prüfen."
+      },
+      "en": {
+        "description": "Directory of public gender equality offices at federal, cantonal and city level.",
+        "access": "Contact your cantonal or city office directly. Not every office provides individual legal advice or representation.",
+        "costNote": "Check services and any costs with the responsible office."
+      },
+      "fr": {
+        "description": "Répertoire des bureaux publics de l’égalité des genres de la Confédération, des cantons et des villes.",
+        "access": "Contacter directement le bureau de son canton ou de sa ville. Tous ne proposent pas de conseil juridique individuel ou de représentation.",
+        "costNote": "Vérifier l’offre et les éventuels frais auprès du service compétent."
+      },
+      "it": {
+        "description": "Elenco degli uffici pubblici per la parità di genere della Confederazione, dei cantoni e delle città.",
+        "access": "Contattare direttamente l’ufficio del cantone o della città. Non tutti offrono consulenza giuridica individuale o rappresentanza.",
+        "costNote": "Verificare prestazioni ed eventuali costi con l’ufficio competente."
+      },
+      "rm": {
+        "description": "Register dals posts publics per l’egualitad da las schlattainas da la Confederaziun, dals chantuns e da las citads.",
+        "access": "Contactar directamain il post dal chantun u da la citad. Betg tut ils posts porschan cussegliaziun giuridica individuala u represchentanza.",
+        "costNote": "Verifitgar purschida ed eventuals custs tar il post cumpetent."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "tgns-rechtsberatung",
+    "name": "Transgender Network Switzerland (TGNS)",
+    "url": "https://www.tgns.ch/de/beratung/recht/",
+    "sourceUrl": "https://www.tgns.ch/de/beratung/recht/",
+    "topics": [
+      "discrimination",
+      "health",
+      "work",
+      "migration",
+      "family"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsberatung zu Fragen rund um Trans-Sein, etwa amtlicher Name und Geschlecht, Krankenkasse, Arbeitswelt und Asyl.",
+        "access": "Erstkontakt per E-Mail oder Terminbuchung. Auch für Jugendliche und Bezugspersonen; keine Vertretung vor Gericht. Bei Fristen frühzeitig melden.",
+        "costNote": "TGNS-Rechtsberatung kostenlos; Leistungen extern vermittelter Anwältinnen und Anwälte können kostenpflichtig sein."
+      },
+      "en": {
+        "description": "Trans-specific legal advice, including official name and gender, health insurance, work and asylum.",
+        "access": "Initial contact by email or appointment booking. Young people and those supporting them are welcome; no court representation. Contact early if deadlines apply.",
+        "costNote": "TGNS advice is free; referred external lawyers may charge."
+      },
+      "fr": {
+        "description": "Conseil juridique sur les questions trans, notamment le nom et le genre officiels, les assurances, le travail et l’asile.",
+        "access": "Premier contact par courriel ou prise de rendez-vous. Aussi pour les jeunes et leurs proches; pas de représentation devant les tribunaux. Contacter assez tôt en cas de délai.",
+        "costNote": "Conseil TGNS gratuit; les avocats externes recommandés peuvent facturer leurs prestations."
+      },
+      "it": {
+        "description": "Consulenza giuridica su questioni trans, tra cui nome e genere ufficiali, cassa malati, lavoro e asilo.",
+        "access": "Primo contatto via e-mail o prenotazione. Anche per giovani e persone di riferimento; nessuna rappresentanza in tribunale. Contattare per tempo se ci sono scadenze.",
+        "costNote": "Consulenza TGNS gratuita; gli avvocati esterni segnalati possono fatturare le loro prestazioni."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica davart dumondas trans, per exempel num e schlattaina uffizials, cassa da malsauns, lavur ed asil.",
+        "access": "Emprim contact per e-mail u reservaziun d’in termin. Er per giuvenils e persunas da confidenza; nagina represchentanza davant dretgira. Contactar baud sche termins curran.",
+        "costNote": "La cussegliaziun da TGNS è gratuita; advocats externs recumandads pon pretender in onurari."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "pink-cross",
+    "name": "Pink Cross – Rechtsberatung",
+    "url": "https://www.pinkcross.ch/de/beratung/rechtsberatung",
+    "sourceUrl": "https://www.pinkcross.ch/de/beratung/rechtsberatung",
+    "topics": [
+      "discrimination",
+      "family"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsberatung für schwule, bisexuelle und queere Männer, etwa zu Diskriminierung, Ehe und Regenbogenfamilien.",
+        "access": "Anfrageformular nutzen; Antwort kann bis zu zwei Wochen dauern. Dringende Rechtsfragen telefonisch. Keine Rechtsberatung für Asylsuchende.",
+        "costNote": "Erstberatung für Mitglieder kostenlos; weitergehende Abklärungen können kostenpflichtig sein."
+      },
+      "en": {
+        "description": "Legal advice for gay, bisexual and queer men on discrimination, marriage and rainbow families.",
+        "access": "Use the enquiry form; replies can take up to two weeks. Call for urgent legal questions. No legal advice for asylum seekers.",
+        "costNote": "First consultation free for members; further investigations may cost extra."
+      },
+      "fr": {
+        "description": "Conseil juridique pour les hommes gays, bisexuels et queers, notamment sur la discrimination, le mariage et les familles arc-en-ciel.",
+        "access": "Utiliser le formulaire; la réponse peut prendre deux semaines. Téléphoner en cas de question juridique urgente. Pas de conseil pour les personnes requérantes d’asile.",
+        "costNote": "Premier conseil gratuit pour les membres; les recherches complémentaires peuvent être payantes."
+      },
+      "it": {
+        "description": "Consulenza giuridica per uomini gay, bisessuali e queer, ad esempio su discriminazione, matrimonio e famiglie arcobaleno.",
+        "access": "Usare il formulario; la risposta può richiedere due settimane. Telefonare per questioni giuridiche urgenti. Nessuna consulenza per richiedenti asilo.",
+        "costNote": "Prima consulenza gratuita per i membri; ulteriori accertamenti possono essere a pagamento."
+      },
+      "rm": {
+        "description": "Cussegliaziun giuridica per umens omosexuals, bisexuals e queer, per exempel davart discriminaziun, lètg e famiglias d’artg.",
+        "access": "Duvrar il formular; la resposta po durar fin duas emnas. Telefonar per dumondas giuridicas urgentas. Nagina cussegliaziun per requirents d’asil.",
+        "costNote": "Emprima cussegliaziun gratuita per commembers; ulteriurs scleriments pon custar."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "zwangsheirat",
+    "name": "Fachstelle Zwangsheirat",
+    "url": "https://www.zwangsheirat.ch/beratung/",
+    "sourceUrl": "https://www.zwangsheirat.ch/beratung/",
+    "topics": [
+      "violence",
+      "family",
+      "migration"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Vertrauliche Hilfe bei Zwangsheirat, Heiratszwang, Zwangsehe, Zwangsverlobung und Liebesverboten, auch für Bezugspersonen und Fachpersonen.",
+        "access": "Telefonisch, per E-Mail oder nach Vereinbarung persönlich. In dringenden Fällen auch ausserhalb der Bürozeiten erreichbar.",
+        "costNote": "Beratung, Coaching und Anruf auf 0800 800 007 kostenlos."
+      },
+      "en": {
+        "description": "Confidential support for forced marriage, forced engagement and restrictions on relationships, also for support people and professionals.",
+        "access": "Contact by phone, email or in person by appointment. Urgent support is available outside office hours.",
+        "costNote": "Advice, coaching and calls to 0800 800 007 are free."
+      },
+      "fr": {
+        "description": "Aide confidentielle en cas de mariage ou de fiançailles forcés et d’interdiction de relations amoureuses, aussi pour les proches et les professionnels.",
+        "access": "Par téléphone, courriel ou en personne sur rendez-vous. Disponible aussi hors des heures de bureau en cas d’urgence.",
+        "costNote": "Conseil, accompagnement et appels au 0800 800 007 gratuits."
+      },
+      "it": {
+        "description": "Aiuto confidenziale per matrimoni o fidanzamenti forzati e divieti di relazioni amorose, anche per persone di riferimento e professionisti.",
+        "access": "Per telefono, e-mail o di persona su appuntamento. Nei casi urgenti disponibile anche fuori dagli orari d’ufficio.",
+        "costNote": "Consulenza, accompagnamento e chiamate allo 0800 800 007 gratuiti."
+      },
+      "rm": {
+        "description": "Agid confidenzial tar maridaglia u spusaglia sfurzada e scumonds da relaziuns d’amur, er per persunas da confidenza e persunas spezialisadas.",
+        "access": "Per telefon, e-mail u persunalmain tenor cunvegna. En cas urgents er cuntanschibel ordaifer las uras da biro.",
+        "costNote": "Cussegliaziun, accumpagnament e cloms al 0800 800 007 èn gratuits."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "patientenstellen",
+    "name": "Dachverband Schweizerischer Patientenstellen",
+    "url": "https://www.patientenstelle.ch/",
+    "sourceUrl": "https://www.patientenstelle.ch/",
+    "topics": [
+      "health",
+      "social"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Regionale Patientenstellen für Patientenrechte, vermutete Behandlungsfehler, medizinische Rechnungen und Versicherungsleistungen.",
+        "access": "Passende regionale Stelle auf der Website auswählen. Das Verzeichnis nennt Stellen in der Deutschschweiz und im Tessin; Zuständigkeit anfragen.",
+        "costNote": "Tarife und Mitgliedervorteile unterscheiden sich je nach regionaler Patientenstelle. Vorab nach Kosten fragen."
+      },
+      "en": {
+        "description": "Regional patient services for patients' rights, suspected treatment errors, medical bills and insurance benefits.",
+        "access": "Choose a regional service on the website. It lists offices in German-speaking Switzerland and Ticino; check responsibility for your case.",
+        "costNote": "Charges and membership benefits differ by regional service. Ask about costs in advance."
+      },
+      "fr": {
+        "description": "Services régionaux pour les droits des patients, les erreurs de traitement présumées, les factures médicales et les prestations d’assurance.",
+        "access": "Choisir un service régional sur le site. Le répertoire comprend des services en Suisse alémanique et au Tessin; vérifier leur compétence.",
+        "costNote": "Tarifs et avantages des membres variables selon le service régional. Demander les coûts à l’avance."
+      },
+      "it": {
+        "description": "Servizi regionali per diritti dei pazienti, sospetti errori di cura, fatture mediche e prestazioni assicurative.",
+        "access": "Scegliere un servizio regionale sul sito. L’elenco include servizi nella Svizzera tedesca e in Ticino; verificare la competenza.",
+        "costNote": "Tariffe e vantaggi per i membri variano secondo il servizio regionale. Chiedere prima i costi."
+      },
+      "rm": {
+        "description": "Posts regiunals per dretgs da pazients, sbagls da tractament supponids, quints medicinals e prestaziuns d’assicuranza.",
+        "access": "Tscherner in post regiunal sin la website. Il register numna posts en la Svizra tudestga ed en il Tessin; dumandar davart la cumpetenza.",
+        "costNote": "Tariffas ed avantatgs per commembers sa differenzieschan tenor post regiunal. Dumandar avant davart ils custs."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "asloca-romandie",
+    "name": "ASLOCA Romande – sections régionales",
+    "url": "https://www.asloca.ch/notre-structure",
+    "sourceUrl": "https://www.asloca.ch/notre-structure",
+    "topics": [
+      "home"
+    ],
+    "cantons": [
+      "BE",
+      "FR",
+      "GE",
+      "JU",
+      "NE",
+      "VD",
+      "VS"
+    ],
+    "kind": "directory",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Mietrechtliche Unterstützung für Mieterinnen und Mieter über die regionalen ASLOCA-Sektionen.",
+        "access": "Postleitzahl eingeben oder regionale Sektion wählen; dort Termin und Zuständigkeit klären.",
+        "costNote": "Mitgliedschaft, Beiträge und allfällige Zusatzkosten bei der Sektion prüfen."
+      },
+      "fr": {
+        "description": "Conseils aux locataires en droit du bail par les sections régionales de l’ASLOCA.",
+        "access": "Saisir le code postal ou choisir la section; vérifier sa compétence et prendre rendez-vous.",
+        "costNote": "Vérifier adhésion, cotisation et éventuels frais supplémentaires auprès de la section."
+      },
+      "it": {
+        "description": "Sostegno agli inquilini sul diritto di locazione tramite le sezioni regionali ASLOCA.",
+        "access": "Inserire il codice postale o scegliere la sezione; verificare competenza e appuntamenti.",
+        "costNote": "Verificare adesione, quote ed eventuali costi aggiuntivi presso la sezione."
+      },
+      "rm": {
+        "description": "Sustegn per locatarias e locataris tras las secziuns regiunalas da l’ASLOCA.",
+        "access": "Endatar il numer postal u tscherner la secziun; sclerir cumpetenza e termin.",
+        "costNote": "Controllar commembranza, contribuziuns ed eventuals custs supplementars tar la secziun."
+      },
+      "en": {
+        "description": "Tenancy support for tenants through regional ASLOCA associations.",
+        "access": "Enter your postcode or select a regional association; check eligibility and arrange a consultation.",
+        "costNote": "Check membership, subscription fees and any additional charges with the association."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "asi-infoalloggio",
+    "name": "ASI – Centro Infoalloggio",
+    "url": "https://www.asi-infoalloggio.ch/infoalloggio",
+    "sourceUrl": "https://www.asi-infoalloggio.ch/contatto",
+    "topics": [
+      "home"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Allgemeine telefonische Auskunft im Schweizer Mietrecht. Keine Dokumentenprüfung oder laufende Fallbegleitung.",
+        "access": "091 966 82 72: Wohnsitz in der Schweiz sowie vollständiger Name und genaue Adresse erforderlich. Sprechzeiten prüfen.",
+        "costNote": "Allgemeine Auskunft kostenlos; Mitgliedschaft freiwillig. Fallbezogene Beratung über Regionalbüros setzt Mitgliedschaft voraus."
+      },
+      "fr": {
+        "description": "Renseignements téléphoniques généraux sur le bail suisse. Ni examen de documents ni suivi de dossier.",
+        "access": "091 966 82 72: domicile suisse, nom complet et adresse exacte obligatoires. Vérifier les horaires.",
+        "costNote": "Renseignements généraux gratuits; adhésion facultative. Conseil individuel des bureaux régionaux réservé aux membres."
+      },
+      "it": {
+        "description": "Informazioni telefoniche generali sul diritto di locazione svizzero. Nessun esame di documenti o seguito del caso.",
+        "access": "091 966 82 72: residenza in Svizzera, nome completo e indirizzo esatto obbligatori. Verificare gli orari.",
+        "costNote": "Informazioni generali gratuite; adesione facoltativa. Consulenza specifica degli uffici regionali riservata ai soci."
+      },
+      "rm": {
+        "description": "Infurmaziuns generalas al telefon davart il dretg svizzer da locaziun. Nagin examen da documents u accumpagnament cuntinuant.",
+        "access": "091 966 82 72: domicil svizzer, num cumplet ed adressa exacta obligatorics. Controllar ils uraris.",
+        "costNote": "Infurmaziuns generalas gratuitas; commembranza facultativa. Cussegliaziun specifica dals biros regiunals per commembers."
+      },
+      "en": {
+        "description": "General telephone information on Swiss tenancy law. No document review or ongoing case handling.",
+        "access": "091 966 82 72: Swiss residency, full name and exact address required. Check consultation hours.",
+        "costNote": "General information free; membership optional. Individual advice at regional offices requires membership."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "acsi-infoconsumi",
+    "name": "ACSI – InfoConsumi",
+    "url": "https://www.acsi.ch/consumo/#infoconsumi",
+    "sourceUrl": "https://www.acsi.ch/consumo/#infoconsumi",
+    "topics": [
+      "consumer",
+      "money"
+    ],
+    "cantons": [
+      "TI",
+      "GR"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Konsumentenberatung der italienischen Schweiz zu Käufen und Verträgen; juristischer Dienst für vertiefte Abklärungen.",
+        "access": "Für Mitglieder: über den Mitgliederbereich buchen oder 091 922 97 55 / infoconsumi@acsi.ch kontaktieren.",
+        "costNote": "Mitgliedschaft erforderlich; allfällige zusätzliche Beratungskosten vorab klären."
+      },
+      "fr": {
+        "description": "Conseil aux consommateurs de Suisse italienne sur achats et contrats; service juridique pour les questions approfondies.",
+        "access": "Membres: réserver via l’espace membre ou contacter le 091 922 97 55 / infoconsumi@acsi.ch.",
+        "costNote": "Adhésion requise; vérifier les éventuels frais de conseil supplémentaires."
+      },
+      "it": {
+        "description": "Consulenza per consumatori della Svizzera italiana su acquisti e contratti; servizio giuridico per approfondimenti.",
+        "access": "Soci: prenotare nell’area soci o contattare 091 922 97 55 / infoconsumi@acsi.ch.",
+        "costNote": "Servizio riservato ai soci; chiarire eventuali costi aggiuntivi prima della consulenza."
+      },
+      "rm": {
+        "description": "Cussegliaziun da la Svizra taliana davart cumpras e contracts; servetsch giuridic per scleriments pli profunds.",
+        "access": "Commembers: reservar en il sectur per commembers u contactar 091 922 97 55 / infoconsumi@acsi.ch.",
+        "costNote": "Commembranza necessaria; sclerir eventuals custs supplementars avant la cussegliaziun."
+      },
+      "en": {
+        "description": "Italian-speaking Switzerland consumer advice on purchases and contracts, with a legal service for in-depth enquiries.",
+        "access": "Members: book through the member area or contact 091 922 97 55 / infoconsumi@acsi.ch.",
+        "costNote": "Membership required; check any additional advice charges beforehand."
+      }
+    },
+    "specificAudience": false
+  },
+  {
+    "id": "acsi-infopazienti",
+    "name": "ACSI – InfoPazienti",
+    "url": "https://www.acsi.ch/sanita/#infopazienti",
+    "sourceUrl": "https://www.acsi.ch/sanita/#infopazienti",
+    "topics": [
+      "health"
+    ],
+    "cantons": [
+      "TI",
+      "GR"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Orientierung zu Patientenrechten, Gesundheitsakten, Rechnungen und vermuteten Behandlungsfehlern.",
+        "access": "Online-Formular ausfüllen. Der Anbieter nennt 48 Arbeitsstunden für die erste Orientierung; kein Notfalldienst.",
+        "costNote": "Erste Orientierung kostenlos. Bedingungen und Kosten weiterer Unterstützung vorab klären."
+      },
+      "fr": {
+        "description": "Orientation sur les droits des patients, dossiers médicaux, factures et erreurs médicales présumées.",
+        "access": "Remplir le formulaire. L’organisme annonce une première orientation sous 48 heures ouvrables; pas un service d’urgence.",
+        "costNote": "Première orientation gratuite. Vérifier conditions et frais pour la suite."
+      },
+      "it": {
+        "description": "Orientamento su diritti dei pazienti, cartelle sanitarie, fatture e presunti errori medici.",
+        "access": "Compilare il formulario online. Prima risposta orientativa dichiarata entro 48 ore lavorative; non è un servizio d’emergenza.",
+        "costNote": "Prima risposta orientativa gratuita. Verificare condizioni e costi dell’ulteriore assistenza."
+      },
+      "rm": {
+        "description": "Orientaziun davart dretgs da pazients, actas medicinalas, quints ed eventuals sbagls medicinals.",
+        "access": "Emplenir il formular. Il purschider inditgescha 48 uras da lavur per l’emprima orientaziun; nagin servetsch d’urgenza.",
+        "costNote": "Emprima orientaziun gratuita. Sclerir cundiziuns e custs d’ulteriur sustegn."
+      },
+      "en": {
+        "description": "Guidance on patients’ rights, medical records, bills and suspected treatment errors.",
+        "access": "Complete the online form. The provider states 48 working hours for initial guidance; not an emergency service.",
+        "costNote": "Initial guidance free. Check terms and costs for further support."
+      }
+    },
+    "specificAudience": false,
+    "freeInitial": true
+  },
+  {
+    "id": "svamv-einelternfamilien",
+    "name": "SVAMV – Einelternfamilien",
+    "url": "https://svamv.ch/beratung/",
+    "sourceUrl": "https://svamv.ch/beratung/",
+    "topics": [
+      "family",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Hilfe für Alleinerziehende zu Unterhalt, Betreuung, elterlicher Sorge und Behördenkontakten; bei Bedarf Vermittlung einer Rechtsvertretung.",
+        "access": "Kontaktformular oder 077 529 67 91 nutzen. Beratung telefonisch oder per E-Mail auf Deutsch, Französisch und Italienisch.",
+        "costNote": "Beratung kostenlos; vermittelte Rechtsvertretung ist nicht automatisch kostenlos."
+      },
+      "fr": {
+        "description": "Familles monoparentales: entretien, garde, autorité parentale, autorités et orientation juridique.",
+        "access": "Formulaire ou 077 529 67 91. Conseil par téléphone ou courriel en allemand, français et italien.",
+        "costNote": "Conseil gratuit; représentation juridique recommandée pas automatiquement gratuite."
+      },
+      "it": {
+        "description": "Aiuto ai genitori soli su mantenimento, cura, autorità parentale e rapporti con autorità; eventuale rinvio a rappresentanti legali.",
+        "access": "Formulario o 077 529 67 91. Consulenza telefonica o e-mail in tedesco, francese e italiano.",
+        "costNote": "Consulenza gratuita; eventuale rappresentanza legale non automaticamente gratuita."
+      },
+      "rm": {
+        "description": "Agid per geniturs sulets davart mantegniment, tgira, autoritad parentala e contacts cun autoritads; mediaziun da represchentanza giuridica sche necessari.",
+        "access": "Formular u 077 529 67 91. Cussegliaziun al telefon u per e-mail en tudestg, franzos e talian.",
+        "costNote": "Cussegliaziun gratuita; represchentanza giuridica intermediada betg automaticamain gratuita."
+      },
+      "en": {
+        "description": "Single-parent support: maintenance, care, parental responsibility, authorities and legal representation referrals.",
+        "access": "Contact form or 077 529 67 91. Telephone or email advice in German, French and Italian.",
+        "costNote": "Advice free; referred legal representation is not automatically free."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "frauenzentralen-schweiz",
+    "name": "Frauenzentrale Schweiz – regionale Stellen",
+    "url": "https://frauenzentrale.ch/alle-frauenzentralen.html",
+    "sourceUrl": "https://frauenzentrale.ch/alle-frauenzentralen.html",
+    "topics": [
+      "general",
+      "family",
+      "work",
+      "money"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "directory",
+    "cost": "unknown",
+    "descriptionDe": "Verzeichnis regionaler Frauenzentralen und Frauenverbände; Beratungsangebote unterscheiden sich.",
+    "accessDe": "Regionale Stelle wählen und Rechtsberatung, Zielgruppe und Zugang dort prüfen.",
+    "costNoteDe": "Kosten je nach Stelle; das Verzeichnis verspricht keine kostenlose Beratung.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Verzeichnis regionaler Frauenzentralen und Frauenverbände; Beratungsangebote unterscheiden sich.",
+        "access": "Regionale Stelle wählen und Rechtsberatung, Zielgruppe und Zugang dort prüfen.",
+        "costNote": "Kosten je nach Stelle; das Verzeichnis verspricht keine kostenlose Beratung."
+      },
+      "fr": {
+        "description": "Répertoire des centrales et associations de femmes; prestations variables.",
+        "access": "Choisir une organisation régionale et vérifier conseil juridique, public et accès.",
+        "costNote": "Tarifs propres à chaque organisme; aucune gratuité générale annoncée."
+      },
+      "it": {
+        "description": "Elenco delle centrali e associazioni femminili regionali; offerte diverse.",
+        "access": "Scegliere una struttura e verificare consulenza giuridica, destinatari e accesso.",
+        "costNote": "Costi secondo la struttura; nessuna promessa di consulenza gratuita."
+      },
+      "rm": {
+        "description": "Register da centralas ed organisaziuns regiunalas da dunnas; purschidas differentas.",
+        "access": "Tscherner ina organisaziun e controllar cussegliaziun giuridica, gruppa en mira ed access.",
+        "costNote": "Custs tenor organisaziun; nagina garanzia da cussegliaziun gratuita."
+      },
+      "en": {
+        "description": "Directory of regional women’s centres and associations; services vary.",
+        "access": "Choose a local organisation and check legal advice, eligibility and access.",
+        "costNote": "Fees vary; the directory does not promise free counselling."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "frauenzentrale-zuerich",
+    "name": "Frauenzentrale Zürich – Rechtsberatung",
+    "url": "https://frauenzentrale-zh.ch/rechtsberatung-uebersicht/",
+    "sourceUrl": "https://frauenzentrale-zh.ch/rechtsberatung-uebersicht/",
+    "topics": [
+      "family",
+      "work",
+      "money",
+      "general"
+    ],
+    "cantons": [
+      "ZH"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "descriptionDe": "Juristische Erstberatung für Frauen, etwa zu Trennung, Kindern, Erbschaft und Arbeit.",
+    "accessDe": "Termin online oder unter 044 206 30 20; telefonisch oder vor Ort, keine E-Mail-Beratung.",
+    "costNoteDe": "Erstberatung: CHF 60 für Mitglieder, sonst CHF 90; zweite Beratung teurer.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Juristische Erstberatung für Frauen, etwa zu Trennung, Kindern, Erbschaft und Arbeit.",
+        "access": "Termin online oder unter 044 206 30 20; telefonisch oder vor Ort, keine E-Mail-Beratung.",
+        "costNote": "Erstberatung: CHF 60 für Mitglieder, sonst CHF 90; zweite Beratung teurer."
+      },
+      "fr": {
+        "description": "Premier conseil juridique pour femmes: séparation, enfants, succession, travail.",
+        "access": "Réserver en ligne ou au 044 206 30 20; téléphone ou sur place, pas par courriel.",
+        "costNote": "Premier conseil: CHF 60 membres, sinon CHF 90; deuxième consultation plus chère."
+      },
+      "it": {
+        "description": "Prima consulenza giuridica per donne: separazione, figli, successioni, lavoro.",
+        "access": "Prenotare online o allo 044 206 30 20; telefono o sede, non e-mail.",
+        "costNote": "Prima consulenza: CHF 60 socie, altrimenti CHF 90; seconda più cara."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun giuridica per dunnas: separaziun, uffants, ierta, lavur.",
+        "access": "Reservar online u al 044 206 30 20; telefon u en uffizi, betg e-mail.",
+        "costNote": "Emprima cussegliaziun: CHF 60 commembras, uschiglio CHF 90; segunda pli chara."
+      },
+      "en": {
+        "description": "Initial legal advice for women: separation, children, inheritance and employment.",
+        "access": "Book online or call 044 206 30 20; telephone or onsite, no email advice.",
+        "costNote": "First consultation: members CHF 60, others CHF 90; second consultation costs more."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "frauenzentrale-aargau",
+    "name": "Frauenzentrale Aargau – Rechtsberatung",
+    "url": "https://www.rechtsberatung-ag.ch/",
+    "sourceUrl": "https://www.frauenzentrale-ag.ch/index.cfm?hpn=1&idn=999999&sbn=999999&spr=8&tem=2&zsn=999999",
+    "topics": [
+      "family",
+      "home",
+      "consumer",
+      "social",
+      "money",
+      "general"
+    ],
+    "cantons": [
+      "AG"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "descriptionDe": "Anwältinnen beraten jede Person zu Familie, Erbschaft, AHV/IV, Kauf und Miete.",
+    "accessDe": "Telefonisch einen Vor-Ort-Termin an einem der regionalen Standorte vereinbaren. Keine Mandatsübernahme.",
+    "costNoteDe": "30 Minuten kostenlos.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwältinnen beraten jede Person zu Familie, Erbschaft, AHV/IV, Kauf und Miete.",
+        "access": "Telefonisch einen Vor-Ort-Termin an einem der regionalen Standorte vereinbaren. Keine Mandatsübernahme.",
+        "costNote": "30 Minuten kostenlos."
+      },
+      "fr": {
+        "description": "Des avocates conseillent toute personne: famille, succession, AVS/AI, achats et bail.",
+        "access": "Prendre rendez-vous par téléphone dans une antenne régionale. Pas de représentation.",
+        "costNote": "30 minutes gratuites."
+      },
+      "it": {
+        "description": "Avvocate consigliano ogni persona: famiglia, successioni, AVS/AI, acquisti e locazione.",
+        "access": "Fissare telefonicamente un appuntamento presso una sede regionale. Nessuna rappresentanza.",
+        "costNote": "30 minuti gratuiti."
+      },
+      "rm": {
+        "description": "Advocatas cusseglian mintga persuna: famiglia, ierta, AVS/AI, cumpra e locaziun.",
+        "access": "Fixar telefonicamain in termin en ina da las filialas regiunalas. Nagina represchentanza.",
+        "costNote": "30 minutas gratuitas."
+      },
+      "en": {
+        "description": "Lawyers advise anyone on family, inheritance, AHV/IV, purchases and tenancy.",
+        "access": "Book an onsite appointment by telephone at a regional location. No representation.",
+        "costNote": "30 minutes free."
+      }
+    }
+  },
+  {
+    "id": "frauenzentrale-luzern",
+    "name": "Frauenzentrale Luzern – Rechtsberatung",
+    "url": "https://www.frauenzentraleluzern.ch/angebote/rechtsberatung/",
+    "sourceUrl": "https://www.frauenzentraleluzern.ch/termin-tarife/tarife/",
+    "topics": [
+      "family",
+      "work",
+      "home",
+      "consumer",
+      "social",
+      "money",
+      "general"
+    ],
+    "cantons": [
+      "LU",
+      "NW",
+      "OW",
+      "SZ",
+      "UR",
+      "ZG"
+    ],
+    "kind": "advice",
+    "cost": "conditional",
+    "descriptionDe": "Rechtsberatung zu Familie, Erbschaft, Sozialversicherung, Verträgen und Schulden.",
+    "accessDe": "Für Personen mit Wohnsitz in der Zentralschweiz. Termin: 041 211 00 30.",
+    "costNoteDe": "CHF 40–250 nach Einkommen und Situation; Ermässigung möglich. Hotline separat kostenpflichtig.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Rechtsberatung zu Familie, Erbschaft, Sozialversicherung, Verträgen und Schulden.",
+        "access": "Für Personen mit Wohnsitz in der Zentralschweiz. Termin: 041 211 00 30.",
+        "costNote": "CHF 40–250 nach Einkommen und Situation; Ermässigung möglich. Hotline separat kostenpflichtig."
+      },
+      "fr": {
+        "description": "Conseil juridique: famille, succession, assurances sociales, contrats et dettes.",
+        "access": "Pour les personnes domiciliées en Suisse centrale. Rendez-vous: 041 211 00 30.",
+        "costNote": "CHF 40–250 selon revenu et situation; réduction possible. Hotline facturée séparément."
+      },
+      "it": {
+        "description": "Consulenza: famiglia, successioni, assicurazioni sociali, contratti e debiti.",
+        "access": "Per residenti nella Svizzera centrale. Appuntamenti: 041 211 00 30.",
+        "costNote": "CHF 40–250 secondo reddito e situazione; riduzioni possibili. Hotline a pagamento separato."
+      },
+      "rm": {
+        "description": "Cussegliaziun: famiglia, ierta, assicuranzas socialas, contracts e debits.",
+        "access": "Per persunas cun domicil en Svizra centrala. Termins: 041 211 00 30.",
+        "costNote": "CHF 40–250 tenor entradas e situaziun; reducziun pussaivla. Hotline cun custs separads."
+      },
+      "en": {
+        "description": "Legal advice: family, inheritance, social insurance, contracts and debt.",
+        "access": "For Central Switzerland residents. Appointments: 041 211 00 30.",
+        "costNote": "CHF 40–250 depending on income and circumstances; reductions possible. Hotline charged separately."
+      }
+    }
+  },
+  {
+    "id": "infra-bern",
+    "name": "INFRA Bern",
+    "url": "https://infrabern.ch/",
+    "sourceUrl": "https://infrabern.ch/",
+    "topics": [
+      "family",
+      "migration",
+      "work",
+      "consumer",
+      "money",
+      "general"
+    ],
+    "cantons": [
+      "BE"
+    ],
+    "kind": "advice",
+    "cost": "free",
+    "descriptionDe": "Juristische Erstberatung für Frauen, einschliesslich Personen, die sich als Frauen verstehen oder weiblich gelesen werden.",
+    "accessDe": "Termin telefonisch unter 031 311 17 95. Deutsch, Französisch, Italienisch, Englisch.",
+    "costNoteDe": "Eine Stunde kostenlos; Absage weniger als 48 Stunden vorher: CHF 40.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Juristische Erstberatung für Frauen, einschliesslich Personen, die sich als Frauen verstehen oder weiblich gelesen werden.",
+        "access": "Termin telefonisch unter 031 311 17 95. Deutsch, Französisch, Italienisch, Englisch.",
+        "costNote": "Eine Stunde kostenlos; Absage weniger als 48 Stunden vorher: CHF 40."
+      },
+      "fr": {
+        "description": "Premier conseil juridique pour femmes, y compris personnes se définissant ou perçues comme femmes.",
+        "access": "Rendez-vous au 031 311 17 95. Allemand, français, italien, anglais.",
+        "costNote": "Une heure gratuite; annulation moins de 48 heures avant: CHF 40."
+      },
+      "it": {
+        "description": "Prima consulenza per donne, incluse persone che si identificano o sono percepite come donne.",
+        "access": "Appuntamenti: 031 311 17 95. Tedesco, francese, italiano, inglese.",
+        "costNote": "Un’ora gratuita; disdetta con meno di 48 ore: CHF 40."
+      },
+      "rm": {
+        "description": "Emprima cussegliaziun per dunnas, inclus persunas che sa defineschan u vegnan percepidas sco dunnas.",
+        "access": "Termins: 031 311 17 95. Tudestg, franzos, talian, englais.",
+        "costNote": "In’ura gratuita; annullaziun main che 48 uras avant: CHF 40."
+      },
+      "en": {
+        "description": "Initial legal advice for women, including people identifying or perceived as women.",
+        "access": "Book by phone: 031 311 17 95. German, French, Italian, English.",
+        "costNote": "One hour free; cancellation less than 48 hours beforehand: CHF 40."
+      }
+    },
+    "specificAudience": true
+  },
+  {
+    "id": "jura-renseignements-juridiques",
+    "name": "Service de renseignements juridiques – Jura",
+    "url": "https://www.jura.ch/fr/Autorites/JUST/Renseignements-juridiques/Service-de-renseignements-juridiques/.html",
+    "sourceUrl": "https://www.jura.ch/fr/Autorites/JUST/Renseignements-juridiques/Service-de-renseignements-juridiques/.html",
+    "topics": [
+      "general"
+    ],
+    "cantons": [
+      "JU"
+    ],
+    "kind": "advice",
+    "cost": "paid",
+    "descriptionDe": "Anwaltliche Erstorientierung zu rechtlichen und administrativen Fragen.",
+    "accessDe": "Für Personen mit Wohnsitz im Jura: Anmeldung bei der zuständigen Bezirksverwaltung.",
+    "costNoteDe": "CHF 20, etwa 20 Minuten; einmal jährlich pro steuerpflichtige Person.",
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Anwaltliche Erstorientierung zu rechtlichen und administrativen Fragen.",
+        "access": "Für Personen mit Wohnsitz im Jura: Anmeldung bei der zuständigen Bezirksverwaltung.",
+        "costNote": "CHF 20, etwa 20 Minuten; einmal jährlich pro steuerpflichtige Person."
+      },
+      "fr": {
+        "description": "Première orientation par un avocat sur des questions juridiques ou administratives.",
+        "access": "Domicile dans le Jura requis; inscription à la Recette et Administration du district.",
+        "costNote": "CHF 20, environ 20 minutes; une fois par an et par contribuable."
+      },
+      "it": {
+        "description": "Primo orientamento da un avvocato su questioni giuridiche e amministrative.",
+        "access": "Domicilio nel Giura richiesto; iscrizione presso l’amministrazione distrettuale competente.",
+        "costNote": "CHF 20, circa 20 minuti; una volta all’anno per contribuente."
+      },
+      "rm": {
+        "description": "Emprima orientaziun d’in advocat davart dumondas giuridicas ed administrativas.",
+        "access": "Domicil en il Giura necessari; annunzia tar l’administraziun districtuala cumpetenta.",
+        "costNote": "CHF 20, circa 20 minutas; ina giada ad onn per persuna contribuenta."
+      },
+      "en": {
+        "description": "Initial guidance from a lawyer on legal and administrative issues.",
+        "access": "Jura residency required; register with the relevant district administration.",
+        "costNote": "CHF 20, around 20 minutes; once per year per taxpayer."
+      }
+    }
+  },
+  {
+    "id": "beobachter-beobot",
+    "name": "BeoBot – Beobachter",
+    "url": "https://www.beobachter.ch/beobot",
+    "sourceUrl": "https://www.beobachter.ch/faq",
+    "privacyUrl": "https://www.beobachter.ch/datenschutzbestimmungen",
+    "topics": [
+      "general",
+      "work",
+      "home",
+      "consumer"
+    ],
+    "cantons": [
+      "CH"
+    ],
+    "kind": "ai",
+    "cost": "conditional",
+    "freeInitial": false,
+    "specificAudience": false,
+    "verifiedAt": "2026-10-25",
+    "copy": {
+      "de": {
+        "description": "Externer KI-Chatbot für Schweizer Alltagsrechtsfragen. Nutzt Beobachter-Inhalte und ergänzend Webquellen; verlinkt seine Quellen.",
+        "access": "Auf der Beobachter-Website; ab einem Kontingent sind Registrierung oder Abo nötig.",
+        "costNote": "Rechtsfragen ohne Abo begrenzt, im Abo unlimitiert. Preise und Bedingungen beim Anbieter prüfen.",
+        "privacyNote": "Laut Anbieter Verarbeitung in Europa, ohne KI-Training. Eingaben werden beim Anbieter und seinen Dienstleistern bearbeitet."
+      },
+      "fr": {
+        "description": "Chatbot d’IA externe pour les questions courantes de droit suisse. Utilise les contenus du Beobachter et, en complément, des sources web qu’il cite.",
+        "access": "Sur le site du Beobachter; inscription ou abonnement nécessaire au-delà d’un quota.",
+        "costNote": "Questions juridiques limitées sans abonnement, illimitées avec abonnement. Vérifier les prix et conditions auprès du prestataire.",
+        "privacyNote": "Selon le prestataire, traitement en Europe, sans entraînement d’IA. Les saisies sont traitées par le prestataire et ses sous-traitants."
+      },
+      "it": {
+        "description": "Chatbot IA esterno per questioni quotidiane di diritto svizzero. Usa contenuti del Beobachter e fonti web integrative, con collegamenti alle fonti.",
+        "access": "Sul sito del Beobachter; oltre una quota servono registrazione o abbonamento.",
+        "costNote": "Domande giuridiche limitate senza abbonamento, illimitate con abbonamento. Verificare prezzi e condizioni presso il fornitore.",
+        "privacyNote": "Secondo il fornitore, trattamento in Europa, senza addestramento dell’IA. I dati inseriti sono trattati dal fornitore e dai suoi incaricati."
+      },
+      "rm": {
+        "description": "Chatbot d’IA extern per dumondas quotidianas davart il dretg svizzer. Dovra cuntegns dal Beobachter e funtaunas web supplementaras, cun colliaziuns a las funtaunas.",
+        "access": "Sin la pagina dal Beobachter; suenter in contingent dovri ina registraziun u in abunament.",
+        "costNote": "Dumondas giuridicas limitadas senza abunament, illimitadas cun abunament. Controllar pretschs e cundiziuns tar il purschider.",
+        "privacyNote": "Tenor il purschider elavuraziun en Europa, senza trenament d’IA. Las indicaziuns vegnan elavuradas dal purschider e da ses furniturs da servetschs."
+      },
+      "en": {
+        "description": "External AI chatbot for everyday Swiss legal questions. Uses Beobachter content and supplementary web sources, with source links.",
+        "access": "On the Beobachter website; registration or a subscription is required beyond a quota.",
+        "costNote": "Legal questions are limited without a subscription and unlimited with one. Check current prices and conditions with the provider.",
+        "privacyNote": "The provider states processing takes place in Europe without AI training. Inputs are processed by the provider and its service providers."
+      }
+    }
+  }
+]

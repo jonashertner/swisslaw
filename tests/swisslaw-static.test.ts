@@ -52,6 +52,27 @@ test('pages work without JavaScript: content is in the HTML, enhancements start 
   assert.ok(!/<script>(?!try\{)/.test(s), 'no inline executable scripts except the root language redirect');
 });
 
+test('advice directory is complete static HTML in five languages with progressive local filters', () => {
+  const records=JSON.parse(readFileSync(join(pub,'data/referrals.json'),'utf8')).entries as {id:string;name:string;url:string;sourceUrl:string;copy:Record<string,{access:string}>}[];
+  assert.ok(records.length>=81);
+  const escape=(v:string)=>v.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#x27;');
+  for(const lang of ['de','fr','it','rm','en']) {
+    const s=readFileSync(join(pub,lang,'beratung/index.html'),'utf8');
+    assert.equal((s.match(/data-referral="true"/g)??[]).length,records.length);
+    assert.match(s,/<form class="referral-filters" data-referral-filters="true" hidden=""/);
+    assert.match(s,/<details class="referral-fallback" data-referral-group="specific" open=""/);
+    for(const r of records) {
+      assert.ok(s.includes(`data-id="${r.id}"`),r.id);
+      assert.ok(s.includes(escape(r.copy[lang].access)),`${lang}: ${r.id} access`);
+      assert.ok(s.includes(`href="${escape(r.url)}" target="_blank" rel="noreferrer"`),r.id);
+      assert.ok(s.includes(`href="${escape(r.sourceUrl)}" target="_blank" rel="noreferrer"`),`${r.id} source`);
+    }
+    assert.match(s,new RegExp(`<link rel="canonical" href="https://swisslaw.io/${lang}/beratung/"`));
+    assert.ok(readFileSync(join(pub,lang,'index.html'),'utf8').includes(`href="/${lang}/beratung/"`));
+  }
+  assert.match(readFileSync(join(review,'de/employment/dismissal/index.html'),'utf8'),/\/de\/beratung\/#topic=work/);
+});
+
 test('search engines get one URL per text: sitemap lists canonical pages, hreflang only published languages', () => {
   const canonical = (loc: string) => readFileSync(join(pub, loc.endsWith('/') ? `${loc}index.html` : loc), 'utf8').match(/<link rel="canonical" href="https:\/\/swisslaw\.io([^"]+)"/)?.[1];
   for (const m of readFileSync(join(pub, 'sitemap.xml'), 'utf8').matchAll(/<loc>https:\/\/swisslaw\.io(\/[^<]*)<\/loc>/g)) assert.equal(canonical(m[1]), m[1]);

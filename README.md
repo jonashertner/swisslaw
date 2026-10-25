@@ -86,3 +86,7 @@ Original application code: [MIT licence](LICENSE), copyright 2026 Jonas Hertner.
 ## Live topic suggestions
 
 Optional topics appear as you type, using a separate local multilingual-e5-small q8 encoder and simple word matching. The first download is approximately158 MB including the CPU/WASM runtime. No draft is sent to an external service; selecting a topic preserves your text and does not search. You can pause suggestions and remove the cached model. See [implementation and limitations](LIVE_SUGGESTIONS.md).
+
+## Advice directory
+
+The public directory is at `/de/beratung/` (also `fr`, `it`, `rm`, `en`). It contains 82 sourced entries (including one separately labelled external AI tool), regional routes in all 26 cantons, eligibility and costs. All entries are static HTML; local browser filters provide topic, canton and free-initial-advice triage. The reusable dataset is `/data/referrals.json`. See [maintenance and evidence notes](knowledge/referrals/README.md). Run `node scripts/check-referral-links.mjs` for an HTTP health report; this never renews source-review dates.

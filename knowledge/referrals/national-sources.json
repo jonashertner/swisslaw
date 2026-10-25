@@ -1,0 +1,23 @@
+{
+  "sourceNotes": [
+    "Verification date means official online descriptions inspected on 2026-10-25, not provider contacted or quality certified. No testimonials or commercial rankings were used.",
+    "CH denotes a nationwide route/directory, not a promise of offices, language service or eligibility in every canton. Regional limits are stated in access notes.",
+    "Inclusion Handicap page lists German and French services; Ticino is excluded from canton list rather than inventing Italian service.",
+    "Procap cost source is its official Beistandschaft flyer; additional regional official rules differ (Procap Jura two years membership; NW entry fees). Do not flatten to a universal free service.",
+    "Pro Infirmis nationwide scope and free consultation verified at https://www.proinfirmis.ch/; detailed social insurance eligibility at its Zurich advice page.",
+    "Patients federation directory checked; prices cross-checked at https://basel.patientenstelle.ch/offer/ and https://zh.patientenstelle.ch/angebote-und-leistungen/ and https://www.patientenstelle-aargau-solothurn.ch/beratung. They differ materially.",
+    "Ombudsstelle Krankenversicherung service/cost verified from federal BFK directory; provider site could not be fetched by web tool. Keep sourceUrl on BFK and manually recheck provider availability.",
+    "TGNS has free trans-specific legal advice but no litigation mandates. Pink Cross has free member first advice and expressly excludes asylum advice. These are not interchangeable general LGBTQ advice routes.",
+    "SPO was excluded as legal advice: current official membership FAQ https://www.spo.ch/aktiv-werden/mitglied-werden explicitly says it generally does not offer legal advice.",
+    "142 is current national victim-aid contact, confirmed at https://sodk.ch/de/themen/opferhilfe/zentrale-opferhilfe-telefonnummer/ and official victim-aid directory. Avoid old assumptions that only local victim-aid numbers exist.",
+    "Copy translations cover de/fr/it/rm/en and describe services only, not consultation languages. Romansh copy is an editorial draft and has not been independently proofread by a Romansh speaker."
+  ],
+  "gaps": [
+    "No claim of exhaustive inventory. Include these national specialist routes alongside canton-specific legal clinics, bar associations, tenancy, migration and family advice researched by other agents.",
+    "FRC covers Romandie; ACSI official current service page could not be verified confidently, so not included from old 2019/2020 PDFs.",
+    "General equality directory is a routing resource, not evidence that all listed bodies provide individual legal advice.",
+    "Romansch advice availability not confirmed for these services. Website translation must not be treated as consultation-language evidence.",
+    "Syna national site not reliably retrieved, so Unia included with member restrictions rather than unverified alternative union fee claims.",
+    "Add a public corrections route and periodic revalidation of destination links, costs, access restrictions and directory contacts."
+  ]
+}

@@ -1,0 +1,37 @@
+Six targeted additions, primary-source verification 2026-10-25
+
+Output: /tmp/swisslaw-referrals-final-gaps.json. Same full five-language schema as other records. No checkout changes, provider contact or deployment.
+
+1. Frauenzentrale Schweiz directory
+https://frauenzentrale.ch/alle-frauenzentralen.html
+https://frauenzentrale.ch/index.html
+The umbrella describes 17 independent centres and links regional organisations. This is a directory only; not every listed organisation offers legal counselling and fees/eligibility vary. CH means national routing, not a uniform nationwide service.
+
+2. Frauenzentrale Zurich
+https://frauenzentrale-zh.ch/rechtsberatung-uebersicht/
+https://frauenzentrale-zh.ch/beratungen-rechtsberatung-budgetberatung/
+Women-specific legal first advice, family/cohabitation/inheritance/employment and other legal questions. One-hour first session CHF 60 members / CHF 90 others; second session CHF 100 / CHF 130. Telephone or office after booking; no advice by email. Online booking is linked on services page. Do not use older third-party listings that say it serves women and men: the current provider says for women.
+
+3. Frauenzentrale Aargau
+https://www.frauenzentrale-ag.ch/index.cfm?hpn=1&idn=999999&sbn=999999&spr=8&tem=2&zsn=999999
+https://www.rechtsberatung-ag.ch/
+Current provider explicitly says every person, not women only. Free half-hour appointments with lawyers in Aarau, Brugg, Baden, Bremgarten, Lenzburg, Rheinfelden and Zofingen, phone booking; no representation. Fields include family, inheritance, AHV/IV, sales, tenancy and instalment purchases. Page contains a dated September/October capacity notice; no availability claim copied. The provider aliases the service through rechtsberatung-ag.ch.
+
+4. Frauenzentrale Luzern
+Service: https://www.frauenzentraleluzern.ch/angebote/rechtsberatung/
+Eligibility: https://www.frauenzentraleluzern.ch/ueber-uns/verein/
+Tariff: https://www.frauenzentraleluzern.ch/termin-tarife/tarife/
+Booking: https://www.frauenzentraleluzern.ch/termin-tarife/terminvereinbaren/
+The provider explicitly serves residents of LU/NW/OW/SZ/UR/ZG. This fills Schwyz civil counselling as well as family/contract/social-insurance routes; it is not restricted to women. CHF 40-250 depending on income/situation, reductions possible. Do not label universally free, and do not interpret the quoted range as an hourly tariff: the page says consultation conversations. Telephone booking 041 211 00 30. Distinct 0900 hotline costs CHF 1.49/minute; no hotline number surfaced without its price. Late cancellation/no-show policy remains on tariff page (48 hours; CHF 20 unexcused absence). Adult-child-maintenance special service has wider German-speaking coverage, but this record deliberately represents ordinary legal counselling with Central Switzerland scope.
+
+5. INFRA Bern
+https://infrabern.ch/
+One-hour free legal first advice, women including people self-identifying or perceived as women. DE/FR/IT/EN explicit. Telephone booking only 031 311 17 95. CHF 40 if appointment is not cancelled at least 48 hours beforehand. Record keeps that condition despite cost=free. BE is location routing, not a claimed residence restriction. Do not copy the expired March/April phone-only notice as the current arrangement. The site says counselling is now at Quartierzentrum Bern Nord.
+
+6. Jura official service
+https://www.jura.ch/fr/Autorites/JUST/Renseignements-juridiques/Service-de-renseignements-juridiques/.html
+The canton commissions the Ordre des avocats jurassiens. Residents of Jura may book via their district Recette et Administration, once yearly per taxpayer, CHF 20 for approximately 20 minutes. Official page includes updated Moutier contact. kind=advice because actual consultation is with a designated lawyer; government URL is source/booking guide, not itself a legal-advice desk.
+
+No unverified generic free Schwyz clinic added: current SAV directory has no bar clinic, and Luzern provider explicitly includes Schwyz. Did not use commercial SEO pages with misleading free-legal-help titles. INFRA Bern selected as the sixth addition; INFRA Basel also has an official viable route (CHF 20 cash, no booking, current dates at https://infra-basel.ch/) but is beyond this bounded batch.
+
+Five-language copy is concise; no provider claims of five-language availability unless the provider expressly lists it (INFRA lists DE/FR/IT/EN). Romansh remains editorial draft without native review. Preserve simple cost and eligibility caveats in visible cards.

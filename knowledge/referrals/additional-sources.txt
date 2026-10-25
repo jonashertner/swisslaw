@@ -1,0 +1,39 @@
+Swisslaw referral directory: targeted audit, 2026-10-25
+
+Scope: read-only review of /tmp/swisslaw-referrals-national.json, /tmp/swisslaw-referrals-latin.json and /tmp/swisslaw-referrals-regional.json; primary-source spot checks on material eligibility/cost claims. This was not independent revalidation of every field in every record. No provider was contacted and no checkout was edited.
+
+Substantive correction
+- FIZ: CH coverage was too broad. The current German provider page offers victim protection for all genders in German-speaking Switzerland, with eligibility dependent on cantonal agreements. The English page is older/narrower and must not drive a women-only or nine-canton restriction. The replacement in /tmp/swisslaw-referrals-extra.json includes German-speaking cantons and bilingual BE/FR/GR/VS, excludes GE/VD/NE/JU/TI, and explicitly qualifies eligibility. Canton matches are regional triage, not a guarantee every resident can receive services.
+
+Additional records
+- ASLOCA Romande closes the French-speaking tenancy gap with a regional-directory entry. Membership, contributions, scope and additional fees vary by local section; never label it universally free.
+- ASI Infoalloggio offers free general telephone orientation on Swiss tenancy law to people resident in Switzerland. Full name and exact address are mandatory. No document review or handling ongoing individual cases at this general line; specific regional advice requires membership. Coverage is CH because the provider explicitly accepts Swiss residents, not just Ticino residents.
+- ACSI InfoConsumi is member-only on the current provider page. Do not use older leaflets to promise free general advice for everyone. Additional legal-service conditions should be confirmed.
+- ACSI InfoPazienti is distinct: a first orienting response via online form is free, normally within 48 working hours. Do not confuse that with the member-only consumer service or promise continuing free legal representation.
+- SVAMV: nationwide free single-parent counselling, offered in German, French and Italian; current number 077 529 67 91. Professional social-work support includes legal orientation and referrals, not a promise that every contact is a lawyer. Referred legal representation is not automatically free.
+
+Spot checks that supported the existing caveats
+- Inclusion Handicap: no TI service, CHF 250 annual administrative fee for a mandate, fee reduction/waiver under conditions. Keep conditional rather than unqualified free.
+- Pro Mente Sana: free counselling, ordinary telephone costs possible; asynchronous legal enquiries may take ten days or longer. Deadlines should be raised by phone. It is not an emergency service.
+- FRC: first advice for non-members is free, personalised written advice requires membership (CHF 90/year, provider response target up to ten working days).
+- Caritas asylum-law service: actual listed regions are LU/NW/OW/SZ/UR/ZG/FR/JU/NE; first interview is free, further work may carry fees.
+
+Regional safeguards retained
+- SAV provides a national routing directory, not universal free advice. Its directory covers the canton routes even where no bar clinic is listed.
+- SH: Rote Fade is a mixed-profession volunteer service; do not call every counsellor a lawyer. SZ: Mieterverband fills a tenancy route, not a general free legal clinic.
+- German-speaking Mieterverband: membership conditions and regional fees apply; non-member hotline is CHF 4.40/minute. ASLOCA/ASI complement it linguistically.
+- Official tenancy conciliation is neutral dispute resolution, not party representation. The federal BWO directory links to the competent property-location authority; its availability is not a blanket statement that every related service/procedure is free.
+- LU general bar advice and court employment/tenancy advice have residence restrictions. Dietikon court advice requires a district connection, is German-language, and excludes pending cases. Keep these limitations visible before a user clicks.
+- Aargau union consultation is not wholly free: first 20 minutes free; additional time CHF 15 per 15 minutes and extra work CHF 90/hour (conditions/member reductions apply).
+- St Gallen: provider instructions distinguish ticket locations from online-booking locations. Prefer the current provider page over older canton pages.
+
+Potential next expansion, not required for this merge
+- frabina (https://frabina.ch/angebot/): useful binational family/marriage/residence route in BE/SO. It must be conditional/paid, not broadly free: CHF 200/60 minutes standard, BE/SO resident income-dependent tariffs CHF 20-200; some first walk-in orientation is free but specifically limited. Its 0900 telephone service is chargeable.
+- Additional regional Frauenzentralen and family-counselling services would broaden family coverage beyond SVAMV, CSP, bar clinics and court procedural help. Their cost and scope need provider-level checking; some charge CHF 120/hour or more.
+- No provider-quality certification or exhaustive coverage claim can be inferred from this directory. Five-language portal copy does not imply each service offers five languages.
+
+Validation and language limitations
+- /tmp/swisslaw-referrals-extra.json contains five additions plus one FIZ replacement; six unique record IDs; full de/fr/it/rm/en copy and German legacy fields verified. Replace the old FIZ record by ID rather than adding a duplicate.
+- /tmp/swisslaw-referrals-extra-linkcheck.json records current HTTP checks. Six URLs returned 200; ASLOCA returned 403 to the script but its official content was available through web research. This is not proof the public page is broken.
+- Main regional file: 24/25 URLs returned 200; LAV detail page returned 500 to the script while official web results exposed current detail and homepage returned 200.
+- Romansh translations remain editorial drafts and have not had independent native-language review.

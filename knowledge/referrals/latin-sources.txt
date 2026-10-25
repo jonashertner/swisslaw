@@ -1,0 +1,29 @@
+Research checked 2026-10-25: 20 records; primary provider or government pages; descriptions translated into de/fr/it/rm/en. Translations do not assert counselling languages. Public contact details only, no provider contact.
+
+Evidence supplement where sourceUrl is not sufficient for a specific detail:
+- CSP Vaud: current service page gives remit, access, exclusions and priority. Free legal consultations corroborated in provider 2025 annual report: https://csp.ch/wp-content/uploads/sites/4/2026/06/CSP_rapport_activites_2025_WEB.pdf
+- CSP Geneve: provider page details access and remit; sourceUrl points to current cantonal judiciary directory which explicitly categorises it as free.
+- CSP Berne-Jura: current service page establishes remit, home page establishes BE/JU/Biel regional eligibility and says MOST services free. Kept cost unknown deliberately. Provider-contributed Guide Social Romand entry says services free, but no unconditional legal-fee promise made.
+- SFH directory: https://www.fluechtlingshilfe.ch/hilfe-fuer-schutzsuchende/rechtsberatung explicitly states no individual case advice/representation. The linked current rechtsschutz page contains canton and federal-centre directories plus limits of free protection.
+- FIZ: https://www.fiz-info.ch/images/content/20221026_definitiv_FIZ_Klientinnenflyer.pdf explicitly supports trafficking victims in Switzerland across genders; free/confidential advice. Linked service page says partner mandates in 9 cantons. CH indexing means nationwide access/triage, not guaranteed comprehensive representation in every canton.
+
+Material findings against copying directories blindly:
+- OAV Vaud now CHF 50/20 minutes, not older CHF 40/15 minutes.
+- OAN Neuchatel addresses changed in 2026 (Neuchatel Ruelle Vaucher 20; La Chaux-de-Fonds Rue de la Serre 14). Record deliberately routes to current booking page rather than freezing the address.
+- GRAV is CHF 10/~15 minutes. Older cantonal PDF wrongly calls the service free.
+- CSP Neuchatel is CHF 20/20 minutes; further work CHF 180/hour or CHF 50/hour for specified benefit recipients. Do not inherit generic CSP-is-free wording.
+- SOS Ticino does not publish a general fee on current service page; unknown retained.
+- AsylGR distinguishes free asylum-seeker consultations from possible charged submissions and generally paid services for recognised refugees.
+- CCSI Fribourg is CHF 20 per consultation, not free.
+
+Useful verified next candidates / gaps, intentionally not in core 20:
+- Caritas Geneve current home/service portal: https://caritas-regio.ch/fr/a-propos-de-caritas/geneve . General legal permanence free per provider article https://caritas-regio.ch/fr/a-propos-de-caritas/geneve/news/des-juristes-au-front-pour-le-bien-commun . IMPORTANT moved temporarily to Rue des Maraichers 36 in August 2026; many official directories still show Rue de Carouge 53. Could add by linking home/service route without street or hours.
+- elisa-asile and CSP Geneve refugee service are separate providers/services; CSP asylum service https://csp.ch/geneve/services/refugies/ is explicitly free. Core already contains elisa + broad CSP Geneve migration, but CSP general legal line is not the refugee service intake.
+- CCSI Geneve https://ccsi.ch/aide-et-information/ has temporarily SUSPENDED new residence-permit cases for people not already followed by another CCSI consultation. General welcome/triage remains. Excluded as primary new-case advice referral to prevent dead-end referrals.
+- HEKS/EPER SAJE is important in VD. Old www.eper.ch/saje did not open with web tool; search returns dated documents with obsolete addresses. SFH current directory still lists it. Rather than freeze doubtful service page/address, the national SFH route covers it; direct current HEKS verification would improve completeness.
+- Legal Help Geneve: https://pje-ge.ch/legalhelp/ provider describes canton-wide directory filters for field, language and service type; target https://www.legalhelp-ge.ch . A good directory addition, not a promise of lawyer service.
+- Point d'Eau Lausanne free legal orientation https://pointdeau-lausanne.ch/prestations-generales/orientation/permanence-juridique/ ; explicitly excludes asylum/foreigners law, geared to precarious residents in VD.
+- Nouvelle ADC https://nouvelle-adc.ch/ free help on unemployment, work and social assistance in Lausanne; no mandates, letters prepared with user. Warns of similarly named paid association.
+- Jura Bar oaj.ch could not be opened; CSP Berne-Jura and national lawyers directory should cover JU without invented local bar permanence.
+
+Quality limits: verified website descriptions/prices, not independent audit of professional competence or currently available appointments. No exhaustive completeness claim. Provider names unchanged. Romansh wording is functional translated copy, not provider-verified native-language text.

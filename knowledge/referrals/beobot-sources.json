@@ -1,0 +1,33 @@
+{
+  "recommendation": {
+    "section": "external-ai",
+    "kind": "ai",
+    "rationale": "Keep external automated assistance separate from personal advice, authorities and mediation. Use a plain outgoing link, no embedded widget, no automatic question or filter transfer, no promo/referral parameters. Exclude from free-first-personal-advice filter unless the UI explicitly separates AI tools."
+  },
+  "verification": {
+    "method": "Direct visible Chrome visit of the clean landing page, its embedded widget welcome, current FAQ, and privacy section 6.12; supplemented by primary web search. No question submitted, no registration, purchase or login.",
+    "canonicalCleanUrl": "https://www.beobachter.ch/beobot",
+    "sources": [
+      {
+        "url": "https://www.beobachter.ch/beobot",
+        "supports": "Current BeoBot identity, source-linked answers, Beobachter knowledge supplemented by web sources, European processing and no training. Embedded widget explicitly identifies itself as AI, warns of possible errors, and is served by chat.aiaibot.com."
+      },
+      {
+        "url": "https://www.beobachter.ch/faq",
+        "supports": "Current live FAQ distinguishes free general questions from quota-limited legal questions. Legal questions eventually require registration or subscription; unlimited legal use is stated for subscribers. No exact numerical quota was published in the inspected FAQ."
+      },
+      {
+        "url": "https://www.beobachter.ch/datenschutzbestimmungen",
+        "supports": "Section 6.12 states no training on prompts or outputs and processing by Ringier and contracted service providers to answer requests. It also describes optional email delivery of conversation transcripts."
+      }
+    ],
+    "cautions": [
+      "Do not use the old May 2025 claim that the bot uses exclusively Beobachter sources; the current product supplements them with web sources.",
+      "No claim of free unlimited legal advice, on-device processing, no retention, lawyer confidentiality, or individually human-reviewed answers.",
+      "No specific current underlying LLM/model, chatbot retention period, or numerical free legal-question quota was verified.",
+      "Do not transplant a generic or promotional Beobachter subscription price into this record. Current price and package conditions should be checked at the provider.",
+      "The browser successfully loaded the clean URL; the web research fetch returned 402/Tollbit, an automated-access limitation rather than evidence that the public landing page requires payment.",
+      "Romansh copy is an editorial translation without independent native-language review."
+    ]
+  }
+}

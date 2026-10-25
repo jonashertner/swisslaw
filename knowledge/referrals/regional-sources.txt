@@ -1,0 +1,19 @@
+Regional referral research, verified 2026-10-25
+
+25 records in /tmp/swisslaw-referrals-regional.json. Five-language display copy (de/fr/it/rm/en) does NOT promise counselling is available in those languages. Native service names retained. Romansh wording is a draft translation; not a certified/native linguistic review.
+
+All sources are primary provider, court or government pages. url and sourceUrl are identical. SAV web-tool fetch returned 421, but a normal HTTPS request with certificate validation succeeded (200) and its actual page was read. Do not use the obsolete anwaltssuche.sav-fsa.ch/Rechtsauskunft.236.0.html URL (certificate failure). Current SAV URL is https://www.sav-fsa.ch/rechtsauskunft.
+
+Link check: 24/25 URLs returned HTTP 200. LAV /de/rechtsauskunft repeatedly returned 500 via normal HTTPS fetch while web research returned detailed current 2026 provider content and LAV homepage returned 200. Keep record but offer https://www.lav.ch/ fallback or flag transient source access. Detailed conditions were supported by provider content. Link-check JSON is /tmp/swisslaw-referrals-regional-linkcheck.json.
+
+Important triage:
+- National directories (SAV, SECO, BWO, MV) are directories, not an institution that provides general individual advice itself. The SAV includes all 26 canton filters but says SH/SZ have no bar clinic. This does not mean no help exists: Rote Fade SH and tenants' counselling SZ are separately listed.
+- Rote Fade is a mixed professional volunteer team, not exclusively practising lawyers; do not label it an all-lawyer service. Provider discloses political SP connection. General first advice remains open; no affiliation requirement stated.
+- Not all first consultations are free: Bern up to CHF 50; BS/BL CHF 10; SO CHF 35; TG CHF 20; Anwaltskollektiv CHF 70.
+- SG clinic focuses on people unable to afford advice; locations have different booking rules. The provider page supersedes stale canton pages claiming no booking anywhere.
+- LAV LU requires canton residence and online booking. Pro Senectute LU also requires age 60+.
+- Zürich ZAV has municipal residence caveats outside city; no telephone advice. Dietikon court has narrow district nexus and subject-matter scope, no pending proceedings, no social-insurance advice.
+- Authorities give neutral information; they do not represent clients. BWO cost flag conditional is deliberate: directory is free, conditions checked at authority. We did not imply free legal representation.
+- Membership advice is conditional, not unconditional free. MV non-member hotline currently CHF 4.40/min, prominently disclosed. Court representation and other services may have waits, exclusions and extra cost.
+- No provider was contacted; no referral created or private data sent. Quality was not independently audited and completeness not certified. Current dates/times mostly linked rather than duplicated to reduce decay.
+- GR/FR-speaking cantons/TI left to other research agent to avoid overlap; national route covers any canton.

@@ -1,5 +1,6 @@
 // Progressive enhancement for swisslaw.io. Pages are complete, readable HTML without this script.
 // It adds: instant search (index), answers that filter the guidance, the deadline calculator, copy and print.
+import { initReferrals } from './referrals-client';
 import { computeDeadline, DEADLINE_RULES, RuleNotSigned, type Delivery } from '../lib/swisslaw-chat/deadlines';
 import { searchSituations } from '../lib/swisslaw-chat/site';
 import { redact } from '../lib/swisslaw-chat/redact';
@@ -296,3 +297,5 @@ initSituation();
 initProvisions();
 initToc();
 initPrint();
+
+initReferrals();
